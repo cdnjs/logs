@@ -56,4 +56,4 @@ This repository is completely automated by the cdnjs robot and does not welcome 
 
 ## License
 
-Each library is released under its own license. This cdnjs repository is published under [MIT license](LICENSE).
+Each library hosted on cdnjs is released under its own license. This cdnjs repository is published under [MIT license](LICENSE).
