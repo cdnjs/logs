@@ -50,6 +50,10 @@ For our monthly CDN stats and usage reports, check out the [`cdnjs/cf-stats`](ht
 
 You can find all our repositories at [github.com/cdnjs](https://github.com/cdnjs)!
 
+## Contributing
+
+This repository is completely automated by the cdnjs robot and does not welcome pull requests.
+
 ## License
 
 Each library is released under its own license. This cdnjs repository is published under [MIT license](LICENSE).
