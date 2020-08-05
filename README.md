@@ -36,6 +36,8 @@
 
 This is the robot-only repository for audit logs of every action carried out on the cdnjs KV store that powers the CDN.
 
+The documentation for each logged event can be found [here](events.md).
+
 ### Other Repositories
 
 For the JSON files controlling the libraries we host on cdnjs, please take a look at the [`cdnjs/packages`](https://github.com/cdnjs/packages) repository.
