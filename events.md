@@ -20,7 +20,7 @@ The `new version kv` event occurs when the files from the `new version` are push
 
 Currently, all files except `woff2` will be compressed with [brotli](https://github.com/google/brotli) and [gzip](https://www.gzip.org/) before insertion to KV. Note that if a file is not included here but its uncompressed version was included in the `new version` event, then it failed to reach KV. In this case, either the file extension was unsupported or it exceeded the maximum size allowed in KV ([10MiB](https://developers.cloudflare.com/workers/about/limits#kv)).
 
-In the case the compressed file size exceeded 10MiB, its uncompressed version will still exist in the [cdnjs repo](https://github.com/cdnjs/cdnjs), and will be fetchable from Cloudflare, so do not panic! We are planning to add support for oversized files soon.
+In the case the compressed file size exceeded 10MiB, its uncompressed version will still exist in the [cdnjs repo](https://github.com/cdnjs/cdnjs), and will be fetchable from the CDN, so do not panic! We are planning to add support to KV for oversized files soon.
 
 ## update metadata
 
