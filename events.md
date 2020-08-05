@@ -18,7 +18,7 @@ The `new version kv` event occurs when the files from the `new version` are push
 2020-08-03 19:40:56 a-happy-tyler: new version kv: 1.0.28: ["happy.css.br","happy.css.gz","happy.js.br","happy.js.gz","happy.min.css.br","happy.min.css.gz","happy.min.js.br","happy.min.js.gz","happy.woff.br","happy.woff.gz","happy.woff2","kristina.js.br","kristina.js.gz","kristina.min.js.br","kristina.min.js.gz","package.json.br","package.json.gz","smile.jpg.br","smile.jpg.gz"]
 ```
 
-Currently, all files except `woff2` will be compressed with [brotli](https://github.com/google/brotli) and [gzip](https://www.gzip.org/) before insertion to KV. Note that if a file is not included here but its compressed version was included in the `new version` event, then it failed to reach KV. In this case, either the file extension was unsupported or it exceeded the maximum size allowed in KV ([10MiB](https://developers.cloudflare.com/workers/about/limits#kv)).
+Currently, all files except `woff2` will be compressed with [brotli](https://github.com/google/brotli) and [gzip](https://www.gzip.org/) before insertion to KV. Note that if a file is not included here but its uncompressed version was included in the `new version` event, then it failed to reach KV. In this case, either the file extension was unsupported or it exceeded the maximum size allowed in KV ([10MiB](https://developers.cloudflare.com/workers/about/limits#kv)).
 
 In the case the compressed file size exceeded 10MiB, its uncompressed version will still exist in the [cdnjs repo](https://github.com/cdnjs/cdnjs), and will be fetchable from Cloudflare, so do not panic! We are planning to add support for oversized files soon.
 
