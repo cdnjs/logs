@@ -33,3 +33,13 @@ The `update metadata` event occurs when there is a change to a package's metadat
 Note that the `update metadata` event may not always occur after a `new version kv` event as there are times when the package metadata has not changed. Since the `version` field represents the latest stable version, a new beta version will not overwrite it (assuming all package versions are [semver](https://semver.org/)).
 
 Finally, note that this JSON metadata is considered "robot-only", or "non-human-readable". It's JSON schema can be found [here](https://github.com/cdnjs/tools/blob/master/schema_non_human.json). The "human-readable" metadata JSON can be found in the [packages repo](https://github.com/cdnjs/packages), whose JSON schema can be found [here](https://github.com/cdnjs/tools/blob/master/schema_human.json).
+
+## update aggregated metadata
+
+The `update aggregated metadata` event occurs when there is a `new version kv` event or an `update metadata` event. In order to boost performance in the cdnjs API, we maintain aggregated metadata entries in [Workers KV](https://developers.cloudflare.com/workers/reference/storage). The [cdnjs autoupdater](https://github.com/cdnjs/tools/tree/master/cmd/autoupdate) will fetch the package's aggregated metadata from Workers KV, update it with the new metadata, and write it back to Workers KV. This event describes whether the aggregated metadata entry was found in Workers KV using `found`, and lists the array of keys updated in our aggregated metadata namespace with `kv_writes`. For instance, with the new stable version `1.0.41` of `a-happy-tyler`, the aggregated metadata updated:
+
+```
+2020-08-14 15:23:24 a-happy-tyler: update aggregated metadata: 1.0.41: {"found":true,"kv_writes":["a-happy-tyler"]}
+```
+
+Note that `found` should always be `true` unless the package is new, since `false` involves creating a new aggregated metadata entry. In addition, `kv_writes` should never be empty. If `kv_writes` is empty, no keys were updated in Workers KV, most likely indicating the entry exceeded Workers KV's [10MiB limit](https://developers.cloudflare.com/workers/about/limits/). To avoid this limit, we are currently [gzipping](https://www.gzip.org/) aggregated metadata.
