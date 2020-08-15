@@ -42,4 +42,4 @@ The `update aggregated metadata` event occurs when there is a `new version kv` e
 2020-08-14 15:23:24 a-happy-tyler: update aggregated metadata: 1.0.41: {"found":true,"kv_writes":["a-happy-tyler"]}
 ```
 
-Note that `found` should always be `true` unless the package is new, since `false` involves creating a new aggregated metadata entry. In addition, `kv_writes` should never be empty. If `kv_writes` is empty, no keys were updated in Workers KV, most likely indicating the entry exceeded Workers KV's [10MiB limit](https://developers.cloudflare.com/workers/about/limits/). To avoid this limit, we are currently [gzipping](https://www.gzip.org/) aggregated metadata.
+Note that `found` should always be `true` unless the package is new, since `false` involves creating a new aggregated metadata entry. In addition, `kv_writes` should never be empty. If `kv_writes` is empty, no keys were updated in Workers KV, most likely indicating the entry exceeded Workers KV's [10MiB limit](https://developers.cloudflare.com/workers/about/limits/). To avoid this limit, we are currently [gzipping](https://www.gzip.org/) the aggregated metadata.
