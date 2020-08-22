@@ -24,10 +24,10 @@ In the case the compressed file size exceeded 10MiB, its uncompressed version wi
 
 ## new version kv SRIs
 
-The `new version kv SRIs` event occurs when [SRIs](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) are calculated for the files from the `new version` and pushed to [Workers KV](https://developers.cloudflare.com/workers/reference/storage) from the [cdnjs autoupdater](https://github.com/cdnjs/tools/tree/master/cmd/autoupdate). This event lists the respectively file names of the SRIs pushed to KV as a JSON string array. For example:
+The `new version kv SRIs` event occurs when [SRIs](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) are calculated for the `js` and `css` files from the `new version` and pushed to [Workers KV](https://developers.cloudflare.com/workers/reference/storage) from the [cdnjs autoupdater](https://github.com/cdnjs/tools/tree/master/cmd/autoupdate). This event lists the respectively file names of the SRIs pushed to KV as a JSON string array. For example:
 
 ```
-2020-08-17 21:40:47 a-happy-tyler: new version kv SRIs: 1.0.44: ["happy.css","happy.js","happy.min.css","happy.min.js","happy.woff","happy.woff2","kristina.js","kristina.min.js","package.json","smile.jpg"]
+2020-08-21 13:44:26 a-happy-tyler: new version kv SRIs: 1.0.51: ["happy.css","happy.js","happy.min.css","happy.min.js","kristina.js","kristina.min.js"]
 ```
 
 ## update metadata
