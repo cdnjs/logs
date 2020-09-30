@@ -1,0 +1,22 @@
+name: Close Fork Pulls
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+
+jobs:
+  close-fork-pulls:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Close Fork Pulls
+        uses: peter-evans/close-fork-pulls@v1
+        with:
+          comment: |
+            Hi there,
+            
+            This repository is considered robot-only, with only our auto-update bot committing automated logs of activity on the CDN and in the KV store.
+            
+            If you are looking to contribute a new or updated package to cdnjs, please see our new [cdnjs/packages](https://github.com/cdnjs/packages) repository.
+            
+            Thank you!
