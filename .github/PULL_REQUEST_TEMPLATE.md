@@ -1,7 +1,7 @@
 <!--
 
 This repository is considered robot-only, an automated log,
- so pull requests are not excepted for this repository.
+ so pull requests are not accepted for this repository.
  
 If you are looking to contribute to cdnjs, please take a look at the
  [`cdnjs/packages`](https://github.com/cdnjs/packages) repository or any
