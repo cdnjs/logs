@@ -6,32 +6,6 @@
 
 ---
 
-<p align="center">
- <a href="#contributing">
-   <img src="https://img.shields.io/badge/Robots-only-red.svg?style=flat-square" alt="Robots only">
- </a>
- <a href="https://github.com/cdnjs/logs/blob/master/LICENSE">
-  <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square" alt="MIT License">
- </a>
- <a href="https://cdnjs.discourse.group/">
-  <img src="https://img.shields.io/discourse/https/cdnjs.discourse.group/status.svg?label=Community%20Discourse&style=flat-square" alt="Community">
- </a>
-</p>
-
-<p align="center">
- <a href="https://github.com/cdnjs/packages/blob/master/README.md#donate-and-support-us">
-  <img src="https://img.shields.io/badge/GitHub-Sponsors-EA4AAA.svg?style=flat-square" alt="GitHub Sponsors">
- </a>
- <a href="https://opencollective.com/cdnjs">
-  <img src="https://img.shields.io/badge/Open%20Collective-Support%20Us-3385FF.svg?style=flat-square" alt="Open Collective">
- </a>
- <a href="https://www.patreon.com/cdnjs">
-  <img src="https://img.shields.io/badge/Patreon-Become%20a%20Patron-E95420.svg?style=flat-square" alt="Patreon">
- </a>
-</p>
-
----
-
 ## Introduction
 
 This is the robot-only repository for audit logs of every action carried out on the cdnjs KV store that powers the CDN.
