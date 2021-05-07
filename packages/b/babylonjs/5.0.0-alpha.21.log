@@ -1,1 +1,30 @@
 New version: 5.0.0-alpha.21
+Processing log:
+ ---
+2021/05/07 18:30:15 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/babylon.min.js /tmp/work/babylon.js
+2021/05/07 18:30:15 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/babylon.max.min.js /tmp/work/babylon.max.js
+2021/05/07 18:31:34 sri /tmp/work/babylon.min.js -> /output/babylon.min.js.sri
+2021/05/07 18:31:34 /usr/bin/brotli --quality=11 --output=/output/babylon.min.js.br /tmp/work/babylon.min.js
+2021/05/07 18:31:44 sri /tmp/work/babylon.max.min.js -> /output/babylon.max.min.js.sri
+2021/05/07 18:31:44 /usr/bin/brotli --quality=11 --output=/output/babylon.max.min.js.br /tmp/work/babylon.max.min.js
+2021/05/07 18:31:49 br /tmp/work/babylon.min.js -> /output/babylon.min.js.br
+2021/05/07 18:31:49 gz /tmp/work/babylon.min.js -> /output/babylon.min.js.gz
+2021/05/07 18:31:49 sri /tmp/work/babylon.js -> /output/babylon.js.sri
+2021/05/07 18:31:50 /usr/bin/brotli --quality=11 --output=/output/babylon.js.br /tmp/work/babylon.js
+2021/05/07 18:32:00 br /tmp/work/babylon.max.min.js -> /output/babylon.max.min.js.br
+2021/05/07 18:32:00 gz /tmp/work/babylon.max.min.js -> /output/babylon.max.min.js.gz
+2021/05/07 18:32:00 sri /tmp/work/babylon.max.js -> /output/babylon.max.js.sri
+2021/05/07 18:32:00 /usr/bin/brotli --quality=11 --output=/output/babylon.max.js.br /tmp/work/babylon.max.js
+2021/05/07 18:32:03 br /tmp/work/babylon.js -> /output/babylon.js.br
+2021/05/07 18:32:04 gz /tmp/work/babylon.js -> /output/babylon.js.gz
+2021/05/07 18:32:04 /usr/bin/brotli --quality=11 --output=/output/babylon.max.js.map.br /tmp/work/babylon.max.js.map
+2021/05/07 18:32:46 br /tmp/work/babylon.max.js -> /output/babylon.max.js.br
+2021/05/07 18:32:46 gz /tmp/work/babylon.max.js -> /output/babylon.max.js.gz
+2021/05/07 18:32:46 /usr/bin/brotli --quality=11 --output=/output/babylon.module.d.ts.br /tmp/work/babylon.module.d.ts
+2021/05/07 18:33:01 br /tmp/work/babylon.module.d.ts -> /output/babylon.module.d.ts.br
+2021/05/07 18:33:02 gz /tmp/work/babylon.module.d.ts -> /output/babylon.module.d.ts.gz
+2021/05/07 18:33:02 br /tmp/work/babylon.max.js.map -> /output/babylon.max.js.map.br
+2021/05/07 18:33:04 gz /tmp/work/babylon.max.js.map -> /output/babylon.max.js.map.gz
+2021/05/07 18:33:04 processed babylonjs
+
+---
