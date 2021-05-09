@@ -1,1 +1,22 @@
 New version: 5.15.3
+Processing log:
+ ---
+2021/05/09 11:37:46 compressed file already exists: /tmp/work/css/all.min.css
+2021/05/09 11:37:46 /tmp/work/css/all.min.css.min.css compressed file already exists
+panic: open /output/css/all.min.css.sri: no such file or directory
+
+goroutine 7 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/sri.CalculateFileSRI(0xc00047c0c0, 0x19, 0xc00047c140, 0x1b)
+	/go/src/github.com/sri/sri.go:20 +0x115
+main.optimizeJob.emitFromWorkspace(0x86de20, 0xc0000ac020, 0xc000016470, 0xf, 0xc0000c040c, 0xf, 0xc00047c0c0, 0x19)
+	/go/src/github.com/cmd/process-version/main.go:89 +0x798
+main.optimizeJob.emit(0x86de20, 0xc0000ac020, 0xc000016470, 0xf, 0xc0000c040c, 0xf, 0xc000016470, 0xf)
+	/go/src/github.com/cmd/process-version/main.go:111 +0xb9
+main.optimizeWorker(0xc0000165e0, 0xc000180780)
+	/go/src/github.com/cmd/process-version/main.go:208 +0xeb
+created by main.optimizeFiles
+	/go/src/github.com/cmd/process-version/main.go:222 +0xb7
+
+---
