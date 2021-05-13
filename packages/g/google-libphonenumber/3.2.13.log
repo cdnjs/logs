@@ -1,1 +1,15 @@
 New version: 3.2.13
+Processing log:
+ ---
+2021/05/13 15:07:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/libphonenumber.min.js /tmp/work/dist/libphonenumber.js
+2021/05/13 15:07:35 sri /tmp/work/dist/libphonenumber.min.js -> /output/libphonenumber.min.js.sri
+2021/05/13 15:07:35 /usr/bin/brotli --quality=11 --output=/output/libphonenumber.min.js.br /tmp/work/dist/libphonenumber.min.js
+2021/05/13 15:07:37 br /tmp/work/dist/libphonenumber.min.js -> /output/libphonenumber.min.js.br
+2021/05/13 15:07:37 gz /tmp/work/dist/libphonenumber.min.js -> /output/libphonenumber.min.js.gz
+2021/05/13 15:07:37 sri /tmp/work/dist/libphonenumber.js -> /output/libphonenumber.js.sri
+2021/05/13 15:07:37 /usr/bin/brotli --quality=11 --output=/output/libphonenumber.js.br /tmp/work/dist/libphonenumber.js
+2021/05/13 15:07:41 br /tmp/work/dist/libphonenumber.js -> /output/libphonenumber.js.br
+2021/05/13 15:07:41 gz /tmp/work/dist/libphonenumber.js -> /output/libphonenumber.js.gz
+2021/05/13 15:07:41 processed google-libphonenumber
+
+---
