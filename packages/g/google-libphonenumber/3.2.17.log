@@ -45,3 +45,17 @@ KV keys:
 SRIs:
 - google-libphonenumber/3.2.17/libphonenumber.js: sha512-I1dVACLgIw//TKsx8kNW54ny/6bpzT6NVtbv2H1tIUi0w7l4X/6xQHHM3fhEmVZMfib8SEQYK0bUvGAOjouuFw==
 - google-libphonenumber/3.2.17/libphonenumber.min.js: sha512-MFbw+gBukEyR+QUFxBHNvKWOG6i4r/2XsgrwML7kBEG20+xqzBtxtV8i+MdqP2eVMZn7wmIFhwLyuwjBv8AhfQ==
+Processing log:
+ ---
+2021/05/14 03:11:00 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/libphonenumber.min.js /tmp/work/dist/libphonenumber.js
+2021/05/14 03:11:20 sri /tmp/work/dist/libphonenumber.min.js -> /output/libphonenumber.min.js.sri
+2021/05/14 03:11:20 /usr/bin/brotli --quality=11 --output=/output/libphonenumber.min.js.br /tmp/work/dist/libphonenumber.min.js
+2021/05/14 03:11:25 br /tmp/work/dist/libphonenumber.min.js -> /output/libphonenumber.min.js.br
+2021/05/14 03:11:25 gz /tmp/work/dist/libphonenumber.min.js -> /output/libphonenumber.min.js.gz
+2021/05/14 03:11:25 sri /tmp/work/dist/libphonenumber.js -> /output/libphonenumber.js.sri
+2021/05/14 03:11:25 /usr/bin/brotli --quality=11 --output=/output/libphonenumber.js.br /tmp/work/dist/libphonenumber.js
+2021/05/14 03:11:30 br /tmp/work/dist/libphonenumber.js -> /output/libphonenumber.js.br
+2021/05/14 03:11:30 gz /tmp/work/dist/libphonenumber.js -> /output/libphonenumber.js.gz
+2021/05/14 03:11:30 processed google-libphonenumber
+
+---
