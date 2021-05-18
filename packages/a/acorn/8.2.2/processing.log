@@ -1,0 +1,13 @@
+2021/05/18 11:34:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/acorn.min.js /tmp/work/dist/acorn.js
+2021/05/18 11:34:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/acorn.mjs.d.ts.br /tmp/work/dist/acorn.mjs.d.ts
+2021/05/18 11:34:50 br /tmp/work/dist/acorn.mjs.d.ts -> /output/acorn.mjs.d.ts.br
+2021/05/18 11:34:50 gz /tmp/work/dist/acorn.mjs.d.ts -> /output/acorn.mjs.d.ts.gz
+2021/05/18 11:34:52 sri /tmp/work/dist/acorn.min.js -> /output/acorn.min.js.sri
+2021/05/18 11:34:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/acorn.min.js.br /tmp/work/dist/acorn.min.js
+2021/05/18 11:34:52 br /tmp/work/dist/acorn.min.js -> /output/acorn.min.js.br
+2021/05/18 11:34:52 gz /tmp/work/dist/acorn.min.js -> /output/acorn.min.js.gz
+2021/05/18 11:34:52 sri /tmp/work/dist/acorn.js -> /output/acorn.js.sri
+2021/05/18 11:34:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/acorn.js.br /tmp/work/dist/acorn.js
+2021/05/18 11:34:53 br /tmp/work/dist/acorn.js -> /output/acorn.js.br
+2021/05/18 11:34:53 gz /tmp/work/dist/acorn.js -> /output/acorn.js.gz
+2021/05/18 11:34:53 processed acorn
