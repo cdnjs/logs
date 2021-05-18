@@ -1,0 +1,22 @@
+2021/05/18 13:55:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/x6.min.js /tmp/work/dist/x6.js
+2021/05/18 13:55:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/x6.js.map.br /tmp/work/dist/x6.js.map
+2021/05/18 13:55:42 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/x6.min.css /tmp/work/dist/x6.css
+2021/05/18 13:55:43 sri /tmp/work/dist/x6.min.css -> /output/x6.min.css.sri
+2021/05/18 13:55:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/x6.min.css.br /tmp/work/dist/x6.min.css
+2021/05/18 13:55:43 br /tmp/work/dist/x6.min.css -> /output/x6.min.css.br
+2021/05/18 13:55:43 gz /tmp/work/dist/x6.min.css -> /output/x6.min.css.gz
+2021/05/18 13:55:43 sri /tmp/work/dist/x6.css -> /output/x6.css.sri
+2021/05/18 13:55:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/x6.css.br /tmp/work/dist/x6.css
+2021/05/18 13:55:43 br /tmp/work/dist/x6.css -> /output/x6.css.br
+2021/05/18 13:55:43 gz /tmp/work/dist/x6.css -> /output/x6.css.gz
+2021/05/18 13:55:47 br /tmp/work/dist/x6.js.map -> /output/x6.js.map.br
+2021/05/18 13:55:47 gz /tmp/work/dist/x6.js.map -> /output/x6.js.map.gz
+2021/05/18 13:55:55 sri /tmp/work/dist/x6.min.js -> /output/x6.min.js.sri
+2021/05/18 13:55:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/x6.min.js.br /tmp/work/dist/x6.min.js
+2021/05/18 13:55:57 br /tmp/work/dist/x6.min.js -> /output/x6.min.js.br
+2021/05/18 13:55:57 gz /tmp/work/dist/x6.min.js -> /output/x6.min.js.gz
+2021/05/18 13:55:57 sri /tmp/work/dist/x6.js -> /output/x6.js.sri
+2021/05/18 13:55:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/x6.js.br /tmp/work/dist/x6.js
+2021/05/18 13:55:59 br /tmp/work/dist/x6.js -> /output/x6.js.br
+2021/05/18 13:55:59 gz /tmp/work/dist/x6.js -> /output/x6.js.gz
+2021/05/18 13:55:59 processed antv-x6
