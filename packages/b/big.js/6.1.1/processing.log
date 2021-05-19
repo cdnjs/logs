@@ -1,0 +1,10 @@
+2021/05/19 11:51:47 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/big.min.js /tmp/work/big.js
+2021/05/19 11:51:48 sri /tmp/work/big.min.js -> /output/big.min.js.sri
+2021/05/19 11:51:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/big.min.js.br /tmp/work/big.min.js
+2021/05/19 11:51:48 br /tmp/work/big.min.js -> /output/big.min.js.br
+2021/05/19 11:51:48 gz /tmp/work/big.min.js -> /output/big.min.js.gz
+2021/05/19 11:51:48 sri /tmp/work/big.js -> /output/big.js.sri
+2021/05/19 11:51:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/big.js.br /tmp/work/big.js
+2021/05/19 11:51:48 br /tmp/work/big.js -> /output/big.js.br
+2021/05/19 11:51:48 gz /tmp/work/big.js -> /output/big.js.gz
+2021/05/19 11:51:48 processed big.js
