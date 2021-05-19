@@ -1,0 +1,10 @@
+2021/05/19 14:19:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/dx.aspnet.data.min.js /tmp/work/js/dx.aspnet.data.js
+2021/05/19 14:19:49 sri /tmp/work/js/dx.aspnet.data.min.js -> /output/dx.aspnet.data.min.js.sri
+2021/05/19 14:19:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dx.aspnet.data.min.js.br /tmp/work/js/dx.aspnet.data.min.js
+2021/05/19 14:19:49 br /tmp/work/js/dx.aspnet.data.min.js -> /output/dx.aspnet.data.min.js.br
+2021/05/19 14:19:49 gz /tmp/work/js/dx.aspnet.data.min.js -> /output/dx.aspnet.data.min.js.gz
+2021/05/19 14:19:49 sri /tmp/work/js/dx.aspnet.data.js -> /output/dx.aspnet.data.js.sri
+2021/05/19 14:19:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dx.aspnet.data.js.br /tmp/work/js/dx.aspnet.data.js
+2021/05/19 14:19:49 br /tmp/work/js/dx.aspnet.data.js -> /output/dx.aspnet.data.js.br
+2021/05/19 14:19:49 gz /tmp/work/js/dx.aspnet.data.js -> /output/dx.aspnet.data.js.gz
+2021/05/19 14:19:49 processed devextreme-aspnet-data
