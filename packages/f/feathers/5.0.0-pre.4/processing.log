@@ -1,0 +1,82 @@
+2021/05/19 17:30:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/application.min.js /tmp/work/lib/application.js
+2021/05/19 17:30:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/declarations.min.js /tmp/work/lib/declarations.js
+2021/05/19 17:30:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/dependencies.min.js /tmp/work/lib/dependencies.js
+2021/05/19 17:30:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/events.min.js /tmp/work/lib/events.js
+2021/05/19 17:30:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/hooks/index.min.js /tmp/work/lib/hooks/index.js
+2021/05/19 17:30:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/hooks/legacy.min.js /tmp/work/lib/hooks/legacy.js
+2021/05/19 17:30:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/index.min.js /tmp/work/lib/index.js
+2021/05/19 17:30:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/service.min.js /tmp/work/lib/service.js
+2021/05/19 17:30:51 sri /tmp/work/lib/declarations.min.js -> /output/declarations.min.js.sri
+2021/05/19 17:30:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/declarations.min.js.br /tmp/work/lib/declarations.min.js
+2021/05/19 17:30:51 br /tmp/work/lib/declarations.min.js -> /output/declarations.min.js.br
+2021/05/19 17:30:51 gz /tmp/work/lib/declarations.min.js -> /output/declarations.min.js.gz
+2021/05/19 17:30:51 sri /tmp/work/lib/declarations.js -> /output/declarations.js.sri
+2021/05/19 17:30:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/declarations.js.br /tmp/work/lib/declarations.js
+2021/05/19 17:30:51 br /tmp/work/lib/declarations.js -> /output/declarations.js.br
+2021/05/19 17:30:51 gz /tmp/work/lib/declarations.js -> /output/declarations.js.gz
+2021/05/19 17:30:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/version.min.js /tmp/work/lib/version.js
+2021/05/19 17:30:51 sri /tmp/work/lib/events.min.js -> /output/events.min.js.sri
+2021/05/19 17:30:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/events.min.js.br /tmp/work/lib/events.min.js
+2021/05/19 17:30:51 sri /tmp/work/lib/dependencies.min.js -> /output/dependencies.min.js.sri
+2021/05/19 17:30:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dependencies.min.js.br /tmp/work/lib/dependencies.min.js
+2021/05/19 17:30:51 br /tmp/work/lib/events.min.js -> /output/events.min.js.br
+2021/05/19 17:30:51 gz /tmp/work/lib/events.min.js -> /output/events.min.js.gz
+2021/05/19 17:30:51 sri /tmp/work/lib/events.js -> /output/events.js.sri
+2021/05/19 17:30:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/events.js.br /tmp/work/lib/events.js
+2021/05/19 17:30:51 br /tmp/work/lib/dependencies.min.js -> /output/dependencies.min.js.br
+2021/05/19 17:30:51 gz /tmp/work/lib/dependencies.min.js -> /output/dependencies.min.js.gz
+2021/05/19 17:30:51 sri /tmp/work/lib/dependencies.js -> /output/dependencies.js.sri
+2021/05/19 17:30:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dependencies.js.br /tmp/work/lib/dependencies.js
+2021/05/19 17:30:51 sri /tmp/work/lib/application.min.js -> /output/application.min.js.sri
+2021/05/19 17:30:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/application.min.js.br /tmp/work/lib/application.min.js
+2021/05/19 17:30:51 br /tmp/work/lib/events.js -> /output/events.js.br
+2021/05/19 17:30:51 gz /tmp/work/lib/events.js -> /output/events.js.gz
+2021/05/19 17:30:51 br /tmp/work/lib/dependencies.js -> /output/dependencies.js.br
+2021/05/19 17:30:51 gz /tmp/work/lib/dependencies.js -> /output/dependencies.js.gz
+2021/05/19 17:30:51 sri /tmp/work/lib/service.min.js -> /output/service.min.js.sri
+2021/05/19 17:30:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/service.min.js.br /tmp/work/lib/service.min.js
+2021/05/19 17:30:51 sri /tmp/work/lib/hooks/legacy.min.js -> /output/hooks/legacy.min.js.sri
+2021/05/19 17:30:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hooks/legacy.min.js.br /tmp/work/lib/hooks/legacy.min.js
+2021/05/19 17:30:51 br /tmp/work/lib/application.min.js -> /output/application.min.js.br
+2021/05/19 17:30:51 gz /tmp/work/lib/application.min.js -> /output/application.min.js.gz
+2021/05/19 17:30:51 sri /tmp/work/lib/application.js -> /output/application.js.sri
+2021/05/19 17:30:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/application.js.br /tmp/work/lib/application.js
+2021/05/19 17:30:51 sri /tmp/work/lib/hooks/index.min.js -> /output/hooks/index.min.js.sri
+2021/05/19 17:30:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hooks/index.min.js.br /tmp/work/lib/hooks/index.min.js
+2021/05/19 17:30:51 sri /tmp/work/lib/index.min.js -> /output/index.min.js.sri
+2021/05/19 17:30:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/lib/index.min.js
+2021/05/19 17:30:51 br /tmp/work/lib/service.min.js -> /output/service.min.js.br
+2021/05/19 17:30:51 gz /tmp/work/lib/service.min.js -> /output/service.min.js.gz
+2021/05/19 17:30:51 sri /tmp/work/lib/service.js -> /output/service.js.sri
+2021/05/19 17:30:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/service.js.br /tmp/work/lib/service.js
+2021/05/19 17:30:51 br /tmp/work/lib/application.js -> /output/application.js.br
+2021/05/19 17:30:51 br /tmp/work/lib/service.js -> /output/service.js.br
+2021/05/19 17:30:51 br /tmp/work/lib/index.min.js -> /output/index.min.js.br
+2021/05/19 17:30:51 br /tmp/work/lib/hooks/legacy.min.js -> /output/hooks/legacy.min.js.br
+2021/05/19 17:30:51 gz /tmp/work/lib/application.js -> /output/application.js.gz
+2021/05/19 17:30:51 gz /tmp/work/lib/hooks/legacy.min.js -> /output/hooks/legacy.min.js.gz
+2021/05/19 17:30:51 sri /tmp/work/lib/hooks/legacy.js -> /output/hooks/legacy.js.sri
+2021/05/19 17:30:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hooks/legacy.js.br /tmp/work/lib/hooks/legacy.js
+2021/05/19 17:30:51 gz /tmp/work/lib/index.min.js -> /output/index.min.js.gz
+2021/05/19 17:30:51 sri /tmp/work/lib/index.js -> /output/index.js.sri
+2021/05/19 17:30:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/lib/index.js
+2021/05/19 17:30:51 gz /tmp/work/lib/service.js -> /output/service.js.gz
+2021/05/19 17:30:51 br /tmp/work/lib/hooks/index.min.js -> /output/hooks/index.min.js.br
+2021/05/19 17:30:51 gz /tmp/work/lib/hooks/index.min.js -> /output/hooks/index.min.js.gz
+2021/05/19 17:30:51 sri /tmp/work/lib/hooks/index.js -> /output/hooks/index.js.sri
+2021/05/19 17:30:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hooks/index.js.br /tmp/work/lib/hooks/index.js
+2021/05/19 17:30:52 br /tmp/work/lib/index.js -> /output/index.js.br
+2021/05/19 17:30:52 gz /tmp/work/lib/index.js -> /output/index.js.gz
+2021/05/19 17:30:52 br /tmp/work/lib/hooks/legacy.js -> /output/hooks/legacy.js.br
+2021/05/19 17:30:52 gz /tmp/work/lib/hooks/legacy.js -> /output/hooks/legacy.js.gz
+2021/05/19 17:30:52 br /tmp/work/lib/hooks/index.js -> /output/hooks/index.js.br
+2021/05/19 17:30:52 gz /tmp/work/lib/hooks/index.js -> /output/hooks/index.js.gz
+2021/05/19 17:30:52 sri /tmp/work/lib/version.min.js -> /output/version.min.js.sri
+2021/05/19 17:30:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/version.min.js.br /tmp/work/lib/version.min.js
+2021/05/19 17:30:52 br /tmp/work/lib/version.min.js -> /output/version.min.js.br
+2021/05/19 17:30:52 gz /tmp/work/lib/version.min.js -> /output/version.min.js.gz
+2021/05/19 17:30:52 sri /tmp/work/lib/version.js -> /output/version.js.sri
+2021/05/19 17:30:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/version.js.br /tmp/work/lib/version.js
+2021/05/19 17:30:52 br /tmp/work/lib/version.js -> /output/version.js.br
+2021/05/19 17:30:52 gz /tmp/work/lib/version.js -> /output/version.js.gz
+2021/05/19 17:30:52 processed feathers
