@@ -1,0 +1,13 @@
+2021/05/19 14:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/minified.js.map.br /tmp/work/minified.js.map
+2021/05/19 14:37:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/minified.min.js /tmp/work/minified.js
+2021/05/19 14:37:42 br /tmp/work/minified.js.map -> /output/minified.js.map.br
+2021/05/19 14:37:42 gz /tmp/work/minified.js.map -> /output/minified.js.map.gz
+2021/05/19 14:37:46 sri /tmp/work/minified.min.js -> /output/minified.min.js.sri
+2021/05/19 14:37:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/minified.min.js.br /tmp/work/minified.min.js
+2021/05/19 14:37:46 br /tmp/work/minified.min.js -> /output/minified.min.js.br
+2021/05/19 14:37:46 gz /tmp/work/minified.min.js -> /output/minified.min.js.gz
+2021/05/19 14:37:46 sri /tmp/work/minified.js -> /output/minified.js.sri
+2021/05/19 14:37:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/minified.js.br /tmp/work/minified.js
+2021/05/19 14:37:46 br /tmp/work/minified.js -> /output/minified.js.br
+2021/05/19 14:37:46 gz /tmp/work/minified.js -> /output/minified.js.gz
+2021/05/19 14:37:46 processed core-js
