@@ -1,182 +1,182 @@
-2021/05/19 21:15:36 match firebase*.+(js|map) in /tmp/work/lib but doesn't exists
-2021/05/19 21:15:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-analytics.min.js /tmp/work/firebase-analytics.js
-2021/05/19 21:15:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-analytics.js.map.br /tmp/work/firebase-analytics.js.map
-2021/05/19 21:15:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-app.min.js /tmp/work/firebase-app.js
-2021/05/19 21:15:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-app.js.map.br /tmp/work/firebase-app.js.map
-2021/05/19 21:15:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-auth.min.js /tmp/work/firebase-auth.js
-2021/05/19 21:15:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-auth.js.map.br /tmp/work/firebase-auth.js.map
-2021/05/19 21:15:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-database.min.js /tmp/work/firebase-database.js
-2021/05/19 21:15:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-database.js.map.br /tmp/work/firebase-database.js.map
-2021/05/19 21:15:40 br /tmp/work/firebase-app.js.map -> /output/firebase-app.js.map.br
-2021/05/19 21:15:40 gz /tmp/work/firebase-app.js.map -> /output/firebase-app.js.map.gz
-2021/05/19 21:15:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-firestore.min.js /tmp/work/firebase-firestore.js
-2021/05/19 21:15:41 br /tmp/work/firebase-analytics.js.map -> /output/firebase-analytics.js.map.br
-2021/05/19 21:15:41 gz /tmp/work/firebase-analytics.js.map -> /output/firebase-analytics.js.map.gz
-2021/05/19 21:15:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-firestore.js.map.br /tmp/work/firebase-firestore.js.map
-2021/05/19 21:15:48 sri /tmp/work/firebase-app.min.js -> /output/firebase-app.min.js.sri
-2021/05/19 21:15:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-app.min.js.br /tmp/work/firebase-app.min.js
-2021/05/19 21:15:49 br /tmp/work/firebase-app.min.js -> /output/firebase-app.min.js.br
-2021/05/19 21:15:49 gz /tmp/work/firebase-app.min.js -> /output/firebase-app.min.js.gz
-2021/05/19 21:15:49 sri /tmp/work/firebase-app.js -> /output/firebase-app.js.sri
-2021/05/19 21:15:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-app.js.br /tmp/work/firebase-app.js
-2021/05/19 21:15:49 br /tmp/work/firebase-app.js -> /output/firebase-app.js.br
-2021/05/19 21:15:49 gz /tmp/work/firebase-app.js -> /output/firebase-app.js.gz
-2021/05/19 21:15:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-firestore.memory.min.js /tmp/work/firebase-firestore.memory.js
-2021/05/19 21:15:57 sri /tmp/work/firebase-analytics.min.js -> /output/firebase-analytics.min.js.sri
-2021/05/19 21:15:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-analytics.min.js.br /tmp/work/firebase-analytics.min.js
-2021/05/19 21:15:58 br /tmp/work/firebase-analytics.min.js -> /output/firebase-analytics.min.js.br
-2021/05/19 21:15:58 gz /tmp/work/firebase-analytics.min.js -> /output/firebase-analytics.min.js.gz
-2021/05/19 21:15:58 sri /tmp/work/firebase-analytics.js -> /output/firebase-analytics.js.sri
-2021/05/19 21:15:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-analytics.js.br /tmp/work/firebase-analytics.js
-2021/05/19 21:15:59 br /tmp/work/firebase-analytics.js -> /output/firebase-analytics.js.br
-2021/05/19 21:15:59 gz /tmp/work/firebase-analytics.js -> /output/firebase-analytics.js.gz
-2021/05/19 21:15:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-firestore.memory.js.map.br /tmp/work/firebase-firestore.memory.js.map
-2021/05/19 21:16:10 br /tmp/work/firebase-database.js.map -> /output/firebase-database.js.map.br
-2021/05/19 21:16:11 gz /tmp/work/firebase-database.js.map -> /output/firebase-database.js.map.gz
-2021/05/19 21:16:11 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-functions.min.js /tmp/work/firebase-functions.js
-2021/05/19 21:16:21 sri /tmp/work/firebase-functions.min.js -> /output/firebase-functions.min.js.sri
-2021/05/19 21:16:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-functions.min.js.br /tmp/work/firebase-functions.min.js
-2021/05/19 21:16:21 br /tmp/work/firebase-functions.min.js -> /output/firebase-functions.min.js.br
-2021/05/19 21:16:21 gz /tmp/work/firebase-functions.min.js -> /output/firebase-functions.min.js.gz
-2021/05/19 21:16:21 sri /tmp/work/firebase-functions.js -> /output/firebase-functions.js.sri
-2021/05/19 21:16:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-functions.js.br /tmp/work/firebase-functions.js
-2021/05/19 21:16:21 br /tmp/work/firebase-functions.js -> /output/firebase-functions.js.br
-2021/05/19 21:16:21 gz /tmp/work/firebase-functions.js -> /output/firebase-functions.js.gz
-2021/05/19 21:16:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-functions.js.map.br /tmp/work/firebase-functions.js.map
-2021/05/19 21:16:23 br /tmp/work/firebase-functions.js.map -> /output/firebase-functions.js.map.br
-2021/05/19 21:16:23 gz /tmp/work/firebase-functions.js.map -> /output/firebase-functions.js.map.gz
-2021/05/19 21:16:23 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-installations.min.js /tmp/work/firebase-installations.js
-2021/05/19 21:16:39 sri /tmp/work/firebase-database.min.js -> /output/firebase-database.min.js.sri
-2021/05/19 21:16:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-database.min.js.br /tmp/work/firebase-database.min.js
-2021/05/19 21:16:40 sri /tmp/work/firebase-installations.min.js -> /output/firebase-installations.min.js.sri
-2021/05/19 21:16:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-installations.min.js.br /tmp/work/firebase-installations.min.js
-2021/05/19 21:16:41 br /tmp/work/firebase-installations.min.js -> /output/firebase-installations.min.js.br
-2021/05/19 21:16:41 gz /tmp/work/firebase-installations.min.js -> /output/firebase-installations.min.js.gz
-2021/05/19 21:16:41 sri /tmp/work/firebase-installations.js -> /output/firebase-installations.js.sri
-2021/05/19 21:16:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-installations.js.br /tmp/work/firebase-installations.js
-2021/05/19 21:16:42 br /tmp/work/firebase-installations.js -> /output/firebase-installations.js.br
-2021/05/19 21:16:42 gz /tmp/work/firebase-installations.js -> /output/firebase-installations.js.gz
-2021/05/19 21:16:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-installations.js.map.br /tmp/work/firebase-installations.js.map
-2021/05/19 21:16:43 sri /tmp/work/firebase-auth.min.js -> /output/firebase-auth.min.js.sri
-2021/05/19 21:16:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-auth.min.js.br /tmp/work/firebase-auth.min.js
-2021/05/19 21:16:45 br /tmp/work/firebase-installations.js.map -> /output/firebase-installations.js.map.br
-2021/05/19 21:16:45 gz /tmp/work/firebase-installations.js.map -> /output/firebase-installations.js.map.gz
-2021/05/19 21:16:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-messaging.min.js /tmp/work/firebase-messaging.js
-2021/05/19 21:16:45 br /tmp/work/firebase-database.min.js -> /output/firebase-database.min.js.br
-2021/05/19 21:16:45 gz /tmp/work/firebase-database.min.js -> /output/firebase-database.min.js.gz
-2021/05/19 21:16:45 sri /tmp/work/firebase-database.js -> /output/firebase-database.js.sri
-2021/05/19 21:16:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-database.js.br /tmp/work/firebase-database.js
-2021/05/19 21:16:50 br /tmp/work/firebase-auth.min.js -> /output/firebase-auth.min.js.br
-2021/05/19 21:16:50 gz /tmp/work/firebase-auth.min.js -> /output/firebase-auth.min.js.gz
-2021/05/19 21:16:50 sri /tmp/work/firebase-auth.js -> /output/firebase-auth.js.sri
-2021/05/19 21:16:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-auth.js.br /tmp/work/firebase-auth.js
-2021/05/19 21:16:53 br /tmp/work/firebase-database.js -> /output/firebase-database.js.br
-2021/05/19 21:16:53 gz /tmp/work/firebase-database.js -> /output/firebase-database.js.gz
-2021/05/19 21:16:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-messaging.js.map.br /tmp/work/firebase-messaging.js.map
-2021/05/19 21:16:56 br /tmp/work/firebase-auth.js -> /output/firebase-auth.js.br
-2021/05/19 21:16:56 gz /tmp/work/firebase-auth.js -> /output/firebase-auth.js.gz
-2021/05/19 21:16:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-performance-standalone.es2017.min.js /tmp/work/firebase-performance-standalone.es2017.js
-2021/05/19 21:16:58 br /tmp/work/firebase-messaging.js.map -> /output/firebase-messaging.js.map.br
-2021/05/19 21:16:58 gz /tmp/work/firebase-messaging.js.map -> /output/firebase-messaging.js.map.gz
-2021/05/19 21:16:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-performance-standalone.es2017.js.map.br /tmp/work/firebase-performance-standalone.es2017.js.map
-2021/05/19 21:17:01 br /tmp/work/firebase-firestore.js.map -> /output/firebase-firestore.js.map.br
-2021/05/19 21:17:04 gz /tmp/work/firebase-firestore.js.map -> /output/firebase-firestore.js.map.gz
-2021/05/19 21:17:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-performance-standalone.min.js /tmp/work/firebase-performance-standalone.js
-2021/05/19 21:17:05 br /tmp/work/firebase-performance-standalone.es2017.js.map -> /output/firebase-performance-standalone.es2017.js.map.br
-2021/05/19 21:17:05 gz /tmp/work/firebase-performance-standalone.es2017.js.map -> /output/firebase-performance-standalone.es2017.js.map.gz
-2021/05/19 21:17:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-performance-standalone.js.map.br /tmp/work/firebase-performance-standalone.js.map
-2021/05/19 21:17:07 sri /tmp/work/firebase-messaging.min.js -> /output/firebase-messaging.min.js.sri
-2021/05/19 21:17:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-messaging.min.js.br /tmp/work/firebase-messaging.min.js
-2021/05/19 21:17:08 br /tmp/work/firebase-auth.js.map -> /output/firebase-auth.js.map.br
-2021/05/19 21:17:09 br /tmp/work/firebase-messaging.min.js -> /output/firebase-messaging.min.js.br
-2021/05/19 21:17:09 gz /tmp/work/firebase-messaging.min.js -> /output/firebase-messaging.min.js.gz
-2021/05/19 21:17:09 sri /tmp/work/firebase-messaging.js -> /output/firebase-messaging.js.sri
-2021/05/19 21:17:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-messaging.js.br /tmp/work/firebase-messaging.js
-2021/05/19 21:17:10 gz /tmp/work/firebase-auth.js.map -> /output/firebase-auth.js.map.gz
-2021/05/19 21:17:10 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-performance.min.js /tmp/work/firebase-performance.js
-2021/05/19 21:17:10 br /tmp/work/firebase-messaging.js -> /output/firebase-messaging.js.br
-2021/05/19 21:17:10 gz /tmp/work/firebase-messaging.js -> /output/firebase-messaging.js.gz
-2021/05/19 21:17:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-performance.js.map.br /tmp/work/firebase-performance.js.map
-2021/05/19 21:17:12 br /tmp/work/firebase-performance-standalone.js.map -> /output/firebase-performance-standalone.js.map.br
-2021/05/19 21:17:12 gz /tmp/work/firebase-performance-standalone.js.map -> /output/firebase-performance-standalone.js.map.gz
-2021/05/19 21:17:12 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-remote-config.min.js /tmp/work/firebase-remote-config.js
-2021/05/19 21:17:15 sri /tmp/work/firebase-performance-standalone.es2017.min.js -> /output/firebase-performance-standalone.es2017.min.js.sri
-2021/05/19 21:17:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-performance-standalone.es2017.min.js.br /tmp/work/firebase-performance-standalone.es2017.min.js
-2021/05/19 21:17:15 br /tmp/work/firebase-firestore.memory.js.map -> /output/firebase-firestore.memory.js.map.br
-2021/05/19 21:17:16 br /tmp/work/firebase-performance-standalone.es2017.min.js -> /output/firebase-performance-standalone.es2017.min.js.br
-2021/05/19 21:17:16 gz /tmp/work/firebase-performance-standalone.es2017.min.js -> /output/firebase-performance-standalone.es2017.min.js.gz
-2021/05/19 21:17:16 sri /tmp/work/firebase-performance-standalone.es2017.js -> /output/firebase-performance-standalone.es2017.js.sri
-2021/05/19 21:17:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-performance-standalone.es2017.js.br /tmp/work/firebase-performance-standalone.es2017.js
-2021/05/19 21:17:16 br /tmp/work/firebase-performance.js.map -> /output/firebase-performance.js.map.br
-2021/05/19 21:17:16 gz /tmp/work/firebase-performance.js.map -> /output/firebase-performance.js.map.gz
-2021/05/19 21:17:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-remote-config.js.map.br /tmp/work/firebase-remote-config.js.map
-2021/05/19 21:17:17 gz /tmp/work/firebase-firestore.memory.js.map -> /output/firebase-firestore.memory.js.map.gz
-2021/05/19 21:17:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-storage.min.js /tmp/work/firebase-storage.js
-2021/05/19 21:17:17 br /tmp/work/firebase-performance-standalone.es2017.js -> /output/firebase-performance-standalone.es2017.js.br
-2021/05/19 21:17:17 gz /tmp/work/firebase-performance-standalone.es2017.js -> /output/firebase-performance-standalone.es2017.js.gz
-2021/05/19 21:17:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-storage.js.map.br /tmp/work/firebase-storage.js.map
-2021/05/19 21:17:19 sri /tmp/work/firebase-firestore.min.js -> /output/firebase-firestore.min.js.sri
-2021/05/19 21:17:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-firestore.min.js.br /tmp/work/firebase-firestore.min.js
-2021/05/19 21:17:19 sri /tmp/work/firebase-firestore.memory.min.js -> /output/firebase-firestore.memory.min.js.sri
-2021/05/19 21:17:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-firestore.memory.min.js.br /tmp/work/firebase-firestore.memory.min.js
-2021/05/19 21:17:22 br /tmp/work/firebase-remote-config.js.map -> /output/firebase-remote-config.js.map.br
-2021/05/19 21:17:22 gz /tmp/work/firebase-remote-config.js.map -> /output/firebase-remote-config.js.map.gz
-2021/05/19 21:17:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase.min.js /tmp/work/firebase.js
-2021/05/19 21:17:26 br /tmp/work/firebase-storage.js.map -> /output/firebase-storage.js.map.br
-2021/05/19 21:17:26 gz /tmp/work/firebase-storage.js.map -> /output/firebase-storage.js.map.gz
-2021/05/19 21:17:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase.js.map.br /tmp/work/firebase.js.map
-2021/05/19 21:17:28 sri /tmp/work/firebase-performance-standalone.min.js -> /output/firebase-performance-standalone.min.js.sri
-2021/05/19 21:17:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-performance-standalone.min.js.br /tmp/work/firebase-performance-standalone.min.js
-2021/05/19 21:17:30 br /tmp/work/firebase-performance-standalone.min.js -> /output/firebase-performance-standalone.min.js.br
-2021/05/19 21:17:30 gz /tmp/work/firebase-performance-standalone.min.js -> /output/firebase-performance-standalone.min.js.gz
-2021/05/19 21:17:30 sri /tmp/work/firebase-performance-standalone.js -> /output/firebase-performance-standalone.js.sri
-2021/05/19 21:17:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-performance-standalone.js.br /tmp/work/firebase-performance-standalone.js
-2021/05/19 21:17:31 br /tmp/work/firebase-firestore.memory.min.js -> /output/firebase-firestore.memory.min.js.br
-2021/05/19 21:17:31 gz /tmp/work/firebase-firestore.memory.min.js -> /output/firebase-firestore.memory.min.js.gz
-2021/05/19 21:17:31 sri /tmp/work/firebase-firestore.memory.js -> /output/firebase-firestore.memory.js.sri
-2021/05/19 21:17:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-firestore.memory.js.br /tmp/work/firebase-firestore.memory.js
-2021/05/19 21:17:32 br /tmp/work/firebase-performance-standalone.js -> /output/firebase-performance-standalone.js.br
-2021/05/19 21:17:32 gz /tmp/work/firebase-performance-standalone.js -> /output/firebase-performance-standalone.js.gz
-2021/05/19 21:17:33 sri /tmp/work/firebase-performance.min.js -> /output/firebase-performance.min.js.sri
-2021/05/19 21:17:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-performance.min.js.br /tmp/work/firebase-performance.min.js
-2021/05/19 21:17:33 br /tmp/work/firebase-firestore.min.js -> /output/firebase-firestore.min.js.br
-2021/05/19 21:17:33 gz /tmp/work/firebase-firestore.min.js -> /output/firebase-firestore.min.js.gz
-2021/05/19 21:17:33 sri /tmp/work/firebase-remote-config.min.js -> /output/firebase-remote-config.min.js.sri
-2021/05/19 21:17:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-remote-config.min.js.br /tmp/work/firebase-remote-config.min.js
-2021/05/19 21:17:33 sri /tmp/work/firebase-firestore.js -> /output/firebase-firestore.js.sri
-2021/05/19 21:17:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-firestore.js.br /tmp/work/firebase-firestore.js
-2021/05/19 21:17:34 br /tmp/work/firebase-performance.min.js -> /output/firebase-performance.min.js.br
-2021/05/19 21:17:34 gz /tmp/work/firebase-performance.min.js -> /output/firebase-performance.min.js.gz
-2021/05/19 21:17:34 sri /tmp/work/firebase-performance.js -> /output/firebase-performance.js.sri
-2021/05/19 21:17:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-performance.js.br /tmp/work/firebase-performance.js
-2021/05/19 21:17:34 br /tmp/work/firebase-remote-config.min.js -> /output/firebase-remote-config.min.js.br
-2021/05/19 21:17:34 gz /tmp/work/firebase-remote-config.min.js -> /output/firebase-remote-config.min.js.gz
-2021/05/19 21:17:34 sri /tmp/work/firebase-remote-config.js -> /output/firebase-remote-config.js.sri
-2021/05/19 21:17:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-remote-config.js.br /tmp/work/firebase-remote-config.js
-2021/05/19 21:17:35 br /tmp/work/firebase-remote-config.js -> /output/firebase-remote-config.js.br
-2021/05/19 21:17:35 gz /tmp/work/firebase-remote-config.js -> /output/firebase-remote-config.js.gz
-2021/05/19 21:17:35 br /tmp/work/firebase-performance.js -> /output/firebase-performance.js.br
-2021/05/19 21:17:35 gz /tmp/work/firebase-performance.js -> /output/firebase-performance.js.gz
-2021/05/19 21:17:36 sri /tmp/work/firebase-storage.min.js -> /output/firebase-storage.min.js.sri
-2021/05/19 21:17:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-storage.min.js.br /tmp/work/firebase-storage.min.js
-2021/05/19 21:17:36 br /tmp/work/firebase-storage.min.js -> /output/firebase-storage.min.js.br
-2021/05/19 21:17:36 gz /tmp/work/firebase-storage.min.js -> /output/firebase-storage.min.js.gz
-2021/05/19 21:17:36 sri /tmp/work/firebase-storage.js -> /output/firebase-storage.js.sri
-2021/05/19 21:17:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-storage.js.br /tmp/work/firebase-storage.js
-2021/05/19 21:17:37 br /tmp/work/firebase-storage.js -> /output/firebase-storage.js.br
-2021/05/19 21:17:37 gz /tmp/work/firebase-storage.js -> /output/firebase-storage.js.gz
-2021/05/19 21:17:38 br /tmp/work/firebase-firestore.memory.js -> /output/firebase-firestore.memory.js.br
-2021/05/19 21:17:39 gz /tmp/work/firebase-firestore.memory.js -> /output/firebase-firestore.memory.js.gz
-2021/05/19 21:17:40 br /tmp/work/firebase-firestore.js -> /output/firebase-firestore.js.br
-2021/05/19 21:17:40 gz /tmp/work/firebase-firestore.js -> /output/firebase-firestore.js.gz
-2021/05/19 21:18:28 sri /tmp/work/firebase.min.js -> /output/firebase.min.js.sri
-2021/05/19 21:18:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase.min.js.br /tmp/work/firebase.min.js
-2021/05/19 21:18:30 br /tmp/work/firebase.js.map -> /output/firebase.js.map.br
-2021/05/19 21:18:32 gz /tmp/work/firebase.js.map -> /output/firebase.js.map.gz
-2021/05/19 21:18:34 br /tmp/work/firebase.min.js -> /output/firebase.min.js.br
-2021/05/19 21:18:34 gz /tmp/work/firebase.min.js -> /output/firebase.min.js.gz
-2021/05/19 21:18:34 sri /tmp/work/firebase.js -> /output/firebase.js.sri
-2021/05/19 21:18:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase.js.br /tmp/work/firebase.js
-2021/05/19 21:18:38 br /tmp/work/firebase.js -> /output/firebase.js.br
-2021/05/19 21:18:38 gz /tmp/work/firebase.js -> /output/firebase.js.gz
-2021/05/19 21:18:38 processed firebase
+2021/05/19 22:41:26 match firebase*.+(js|map) in /tmp/work/lib but doesn't exists
+2021/05/19 22:41:27 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-analytics.min.js /tmp/work/firebase-analytics.js
+2021/05/19 22:41:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-analytics.js.map.br /tmp/work/firebase-analytics.js.map
+2021/05/19 22:41:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-app.js.map.br /tmp/work/firebase-app.js.map
+2021/05/19 22:41:27 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-auth.min.js /tmp/work/firebase-auth.js
+2021/05/19 22:41:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-auth.js.map.br /tmp/work/firebase-auth.js.map
+2021/05/19 22:41:27 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-app.min.js /tmp/work/firebase-app.js
+2021/05/19 22:41:27 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-database.min.js /tmp/work/firebase-database.js
+2021/05/19 22:41:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-database.js.map.br /tmp/work/firebase-database.js.map
+2021/05/19 22:41:28 br /tmp/work/firebase-app.js.map -> /output/firebase-app.js.map.br
+2021/05/19 22:41:28 gz /tmp/work/firebase-app.js.map -> /output/firebase-app.js.map.gz
+2021/05/19 22:41:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-firestore.min.js /tmp/work/firebase-firestore.js
+2021/05/19 22:41:29 br /tmp/work/firebase-analytics.js.map -> /output/firebase-analytics.js.map.br
+2021/05/19 22:41:29 gz /tmp/work/firebase-analytics.js.map -> /output/firebase-analytics.js.map.gz
+2021/05/19 22:41:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-firestore.js.map.br /tmp/work/firebase-firestore.js.map
+2021/05/19 22:41:32 sri /tmp/work/firebase-app.min.js -> /output/firebase-app.min.js.sri
+2021/05/19 22:41:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-app.min.js.br /tmp/work/firebase-app.min.js
+2021/05/19 22:41:32 br /tmp/work/firebase-app.min.js -> /output/firebase-app.min.js.br
+2021/05/19 22:41:32 gz /tmp/work/firebase-app.min.js -> /output/firebase-app.min.js.gz
+2021/05/19 22:41:32 sri /tmp/work/firebase-app.js -> /output/firebase-app.js.sri
+2021/05/19 22:41:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-app.js.br /tmp/work/firebase-app.js
+2021/05/19 22:41:33 br /tmp/work/firebase-app.js -> /output/firebase-app.js.br
+2021/05/19 22:41:33 gz /tmp/work/firebase-app.js -> /output/firebase-app.js.gz
+2021/05/19 22:41:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-firestore.memory.min.js /tmp/work/firebase-firestore.memory.js
+2021/05/19 22:41:35 sri /tmp/work/firebase-analytics.min.js -> /output/firebase-analytics.min.js.sri
+2021/05/19 22:41:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-analytics.min.js.br /tmp/work/firebase-analytics.min.js
+2021/05/19 22:41:35 br /tmp/work/firebase-analytics.min.js -> /output/firebase-analytics.min.js.br
+2021/05/19 22:41:35 gz /tmp/work/firebase-analytics.min.js -> /output/firebase-analytics.min.js.gz
+2021/05/19 22:41:35 sri /tmp/work/firebase-analytics.js -> /output/firebase-analytics.js.sri
+2021/05/19 22:41:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-analytics.js.br /tmp/work/firebase-analytics.js
+2021/05/19 22:41:36 br /tmp/work/firebase-analytics.js -> /output/firebase-analytics.js.br
+2021/05/19 22:41:36 gz /tmp/work/firebase-analytics.js -> /output/firebase-analytics.js.gz
+2021/05/19 22:41:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-firestore.memory.js.map.br /tmp/work/firebase-firestore.memory.js.map
+2021/05/19 22:41:37 br /tmp/work/firebase-database.js.map -> /output/firebase-database.js.map.br
+2021/05/19 22:41:38 gz /tmp/work/firebase-database.js.map -> /output/firebase-database.js.map.gz
+2021/05/19 22:41:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-functions.min.js /tmp/work/firebase-functions.js
+2021/05/19 22:41:42 sri /tmp/work/firebase-functions.min.js -> /output/firebase-functions.min.js.sri
+2021/05/19 22:41:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-functions.min.js.br /tmp/work/firebase-functions.min.js
+2021/05/19 22:41:42 br /tmp/work/firebase-functions.min.js -> /output/firebase-functions.min.js.br
+2021/05/19 22:41:42 gz /tmp/work/firebase-functions.min.js -> /output/firebase-functions.min.js.gz
+2021/05/19 22:41:42 sri /tmp/work/firebase-functions.js -> /output/firebase-functions.js.sri
+2021/05/19 22:41:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-functions.js.br /tmp/work/firebase-functions.js
+2021/05/19 22:41:42 br /tmp/work/firebase-functions.js -> /output/firebase-functions.js.br
+2021/05/19 22:41:42 gz /tmp/work/firebase-functions.js -> /output/firebase-functions.js.gz
+2021/05/19 22:41:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-functions.js.map.br /tmp/work/firebase-functions.js.map
+2021/05/19 22:41:43 br /tmp/work/firebase-functions.js.map -> /output/firebase-functions.js.map.br
+2021/05/19 22:41:43 gz /tmp/work/firebase-functions.js.map -> /output/firebase-functions.js.map.gz
+2021/05/19 22:41:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-installations.min.js /tmp/work/firebase-installations.js
+2021/05/19 22:41:52 sri /tmp/work/firebase-installations.min.js -> /output/firebase-installations.min.js.sri
+2021/05/19 22:41:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-installations.min.js.br /tmp/work/firebase-installations.min.js
+2021/05/19 22:41:53 br /tmp/work/firebase-installations.min.js -> /output/firebase-installations.min.js.br
+2021/05/19 22:41:53 gz /tmp/work/firebase-installations.min.js -> /output/firebase-installations.min.js.gz
+2021/05/19 22:41:53 sri /tmp/work/firebase-installations.js -> /output/firebase-installations.js.sri
+2021/05/19 22:41:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-installations.js.br /tmp/work/firebase-installations.js
+2021/05/19 22:41:53 br /tmp/work/firebase-installations.js -> /output/firebase-installations.js.br
+2021/05/19 22:41:53 gz /tmp/work/firebase-installations.js -> /output/firebase-installations.js.gz
+2021/05/19 22:41:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-installations.js.map.br /tmp/work/firebase-installations.js.map
+2021/05/19 22:41:55 br /tmp/work/firebase-installations.js.map -> /output/firebase-installations.js.map.br
+2021/05/19 22:41:55 gz /tmp/work/firebase-installations.js.map -> /output/firebase-installations.js.map.gz
+2021/05/19 22:41:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-messaging.min.js /tmp/work/firebase-messaging.js
+2021/05/19 22:41:56 sri /tmp/work/firebase-database.min.js -> /output/firebase-database.min.js.sri
+2021/05/19 22:41:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-database.min.js.br /tmp/work/firebase-database.min.js
+2021/05/19 22:42:00 sri /tmp/work/firebase-auth.min.js -> /output/firebase-auth.min.js.sri
+2021/05/19 22:42:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-auth.min.js.br /tmp/work/firebase-auth.min.js
+2021/05/19 22:42:00 br /tmp/work/firebase-database.min.js -> /output/firebase-database.min.js.br
+2021/05/19 22:42:00 gz /tmp/work/firebase-database.min.js -> /output/firebase-database.min.js.gz
+2021/05/19 22:42:00 sri /tmp/work/firebase-database.js -> /output/firebase-database.js.sri
+2021/05/19 22:42:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-database.js.br /tmp/work/firebase-database.js
+2021/05/19 22:42:04 br /tmp/work/firebase-auth.min.js -> /output/firebase-auth.min.js.br
+2021/05/19 22:42:04 gz /tmp/work/firebase-auth.min.js -> /output/firebase-auth.min.js.gz
+2021/05/19 22:42:04 sri /tmp/work/firebase-auth.js -> /output/firebase-auth.js.sri
+2021/05/19 22:42:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-auth.js.br /tmp/work/firebase-auth.js
+2021/05/19 22:42:04 br /tmp/work/firebase-database.js -> /output/firebase-database.js.br
+2021/05/19 22:42:04 gz /tmp/work/firebase-database.js -> /output/firebase-database.js.gz
+2021/05/19 22:42:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-messaging.js.map.br /tmp/work/firebase-messaging.js.map
+2021/05/19 22:42:07 br /tmp/work/firebase-messaging.js.map -> /output/firebase-messaging.js.map.br
+2021/05/19 22:42:07 gz /tmp/work/firebase-messaging.js.map -> /output/firebase-messaging.js.map.gz
+2021/05/19 22:42:07 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-performance-standalone.es2017.min.js /tmp/work/firebase-performance-standalone.es2017.js
+2021/05/19 22:42:07 sri /tmp/work/firebase-messaging.min.js -> /output/firebase-messaging.min.js.sri
+2021/05/19 22:42:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-messaging.min.js.br /tmp/work/firebase-messaging.min.js
+2021/05/19 22:42:07 br /tmp/work/firebase-firestore.js.map -> /output/firebase-firestore.js.map.br
+2021/05/19 22:42:08 br /tmp/work/firebase-auth.js -> /output/firebase-auth.js.br
+2021/05/19 22:42:08 gz /tmp/work/firebase-auth.js -> /output/firebase-auth.js.gz
+2021/05/19 22:42:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-performance-standalone.es2017.js.map.br /tmp/work/firebase-performance-standalone.es2017.js.map
+2021/05/19 22:42:08 br /tmp/work/firebase-messaging.min.js -> /output/firebase-messaging.min.js.br
+2021/05/19 22:42:08 gz /tmp/work/firebase-messaging.min.js -> /output/firebase-messaging.min.js.gz
+2021/05/19 22:42:08 sri /tmp/work/firebase-messaging.js -> /output/firebase-messaging.js.sri
+2021/05/19 22:42:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-messaging.js.br /tmp/work/firebase-messaging.js
+2021/05/19 22:42:08 gz /tmp/work/firebase-firestore.js.map -> /output/firebase-firestore.js.map.gz
+2021/05/19 22:42:08 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-performance-standalone.min.js /tmp/work/firebase-performance-standalone.js
+2021/05/19 22:42:09 br /tmp/work/firebase-messaging.js -> /output/firebase-messaging.js.br
+2021/05/19 22:42:09 gz /tmp/work/firebase-messaging.js -> /output/firebase-messaging.js.gz
+2021/05/19 22:42:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-performance-standalone.js.map.br /tmp/work/firebase-performance-standalone.js.map
+2021/05/19 22:42:11 br /tmp/work/firebase-performance-standalone.es2017.js.map -> /output/firebase-performance-standalone.es2017.js.map.br
+2021/05/19 22:42:11 gz /tmp/work/firebase-performance-standalone.es2017.js.map -> /output/firebase-performance-standalone.es2017.js.map.gz
+2021/05/19 22:42:11 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-performance.min.js /tmp/work/firebase-performance.js
+2021/05/19 22:42:12 br /tmp/work/firebase-performance-standalone.js.map -> /output/firebase-performance-standalone.js.map.br
+2021/05/19 22:42:12 gz /tmp/work/firebase-performance-standalone.js.map -> /output/firebase-performance-standalone.js.map.gz
+2021/05/19 22:42:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-performance.js.map.br /tmp/work/firebase-performance.js.map
+2021/05/19 22:42:14 br /tmp/work/firebase-auth.js.map -> /output/firebase-auth.js.map.br
+2021/05/19 22:42:14 br /tmp/work/firebase-firestore.memory.js.map -> /output/firebase-firestore.memory.js.map.br
+2021/05/19 22:42:15 gz /tmp/work/firebase-auth.js.map -> /output/firebase-auth.js.map.gz
+2021/05/19 22:42:15 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-remote-config.min.js /tmp/work/firebase-remote-config.js
+2021/05/19 22:42:15 gz /tmp/work/firebase-firestore.memory.js.map -> /output/firebase-firestore.memory.js.map.gz
+2021/05/19 22:42:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-remote-config.js.map.br /tmp/work/firebase-remote-config.js.map
+2021/05/19 22:42:16 sri /tmp/work/firebase-performance-standalone.es2017.min.js -> /output/firebase-performance-standalone.es2017.min.js.sri
+2021/05/19 22:42:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-performance-standalone.es2017.min.js.br /tmp/work/firebase-performance-standalone.es2017.min.js
+2021/05/19 22:42:16 br /tmp/work/firebase-performance.js.map -> /output/firebase-performance.js.map.br
+2021/05/19 22:42:16 gz /tmp/work/firebase-performance.js.map -> /output/firebase-performance.js.map.gz
+2021/05/19 22:42:16 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase-storage.min.js /tmp/work/firebase-storage.js
+2021/05/19 22:42:16 br /tmp/work/firebase-performance-standalone.es2017.min.js -> /output/firebase-performance-standalone.es2017.min.js.br
+2021/05/19 22:42:16 gz /tmp/work/firebase-performance-standalone.es2017.min.js -> /output/firebase-performance-standalone.es2017.min.js.gz
+2021/05/19 22:42:16 sri /tmp/work/firebase-performance-standalone.es2017.js -> /output/firebase-performance-standalone.es2017.js.sri
+2021/05/19 22:42:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-performance-standalone.es2017.js.br /tmp/work/firebase-performance-standalone.es2017.js
+2021/05/19 22:42:17 br /tmp/work/firebase-performance-standalone.es2017.js -> /output/firebase-performance-standalone.es2017.js.br
+2021/05/19 22:42:17 gz /tmp/work/firebase-performance-standalone.es2017.js -> /output/firebase-performance-standalone.es2017.js.gz
+2021/05/19 22:42:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-storage.js.map.br /tmp/work/firebase-storage.js.map
+2021/05/19 22:42:18 br /tmp/work/firebase-remote-config.js.map -> /output/firebase-remote-config.js.map.br
+2021/05/19 22:42:18 gz /tmp/work/firebase-remote-config.js.map -> /output/firebase-remote-config.js.map.gz
+2021/05/19 22:42:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/firebase.min.js /tmp/work/firebase.js
+2021/05/19 22:42:18 sri /tmp/work/firebase-firestore.min.js -> /output/firebase-firestore.min.js.sri
+2021/05/19 22:42:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-firestore.min.js.br /tmp/work/firebase-firestore.min.js
+2021/05/19 22:42:20 sri /tmp/work/firebase-performance-standalone.min.js -> /output/firebase-performance-standalone.min.js.sri
+2021/05/19 22:42:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-performance-standalone.min.js.br /tmp/work/firebase-performance-standalone.min.js
+2021/05/19 22:42:21 br /tmp/work/firebase-performance-standalone.min.js -> /output/firebase-performance-standalone.min.js.br
+2021/05/19 22:42:21 gz /tmp/work/firebase-performance-standalone.min.js -> /output/firebase-performance-standalone.min.js.gz
+2021/05/19 22:42:21 sri /tmp/work/firebase-performance-standalone.js -> /output/firebase-performance-standalone.js.sri
+2021/05/19 22:42:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-performance-standalone.js.br /tmp/work/firebase-performance-standalone.js
+2021/05/19 22:42:21 sri /tmp/work/firebase-firestore.memory.min.js -> /output/firebase-firestore.memory.min.js.sri
+2021/05/19 22:42:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-firestore.memory.min.js.br /tmp/work/firebase-firestore.memory.min.js
+2021/05/19 22:42:21 br /tmp/work/firebase-storage.js.map -> /output/firebase-storage.js.map.br
+2021/05/19 22:42:21 gz /tmp/work/firebase-storage.js.map -> /output/firebase-storage.js.map.gz
+2021/05/19 22:42:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase.js.map.br /tmp/work/firebase.js.map
+2021/05/19 22:42:22 br /tmp/work/firebase-performance-standalone.js -> /output/firebase-performance-standalone.js.br
+2021/05/19 22:42:22 gz /tmp/work/firebase-performance-standalone.js -> /output/firebase-performance-standalone.js.gz
+2021/05/19 22:42:22 sri /tmp/work/firebase-performance.min.js -> /output/firebase-performance.min.js.sri
+2021/05/19 22:42:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-performance.min.js.br /tmp/work/firebase-performance.min.js
+2021/05/19 22:42:22 br /tmp/work/firebase-performance.min.js -> /output/firebase-performance.min.js.br
+2021/05/19 22:42:22 gz /tmp/work/firebase-performance.min.js -> /output/firebase-performance.min.js.gz
+2021/05/19 22:42:22 sri /tmp/work/firebase-performance.js -> /output/firebase-performance.js.sri
+2021/05/19 22:42:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-performance.js.br /tmp/work/firebase-performance.js
+2021/05/19 22:42:23 br /tmp/work/firebase-performance.js -> /output/firebase-performance.js.br
+2021/05/19 22:42:23 gz /tmp/work/firebase-performance.js -> /output/firebase-performance.js.gz
+2021/05/19 22:42:24 sri /tmp/work/firebase-remote-config.min.js -> /output/firebase-remote-config.min.js.sri
+2021/05/19 22:42:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-remote-config.min.js.br /tmp/work/firebase-remote-config.min.js
+2021/05/19 22:42:24 br /tmp/work/firebase-firestore.min.js -> /output/firebase-firestore.min.js.br
+2021/05/19 22:42:24 gz /tmp/work/firebase-firestore.min.js -> /output/firebase-firestore.min.js.gz
+2021/05/19 22:42:24 sri /tmp/work/firebase-firestore.js -> /output/firebase-firestore.js.sri
+2021/05/19 22:42:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-firestore.js.br /tmp/work/firebase-firestore.js
+2021/05/19 22:42:25 br /tmp/work/firebase-remote-config.min.js -> /output/firebase-remote-config.min.js.br
+2021/05/19 22:42:25 gz /tmp/work/firebase-remote-config.min.js -> /output/firebase-remote-config.min.js.gz
+2021/05/19 22:42:25 sri /tmp/work/firebase-remote-config.js -> /output/firebase-remote-config.js.sri
+2021/05/19 22:42:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-remote-config.js.br /tmp/work/firebase-remote-config.js
+2021/05/19 22:42:25 br /tmp/work/firebase-firestore.memory.min.js -> /output/firebase-firestore.memory.min.js.br
+2021/05/19 22:42:25 gz /tmp/work/firebase-firestore.memory.min.js -> /output/firebase-firestore.memory.min.js.gz
+2021/05/19 22:42:25 sri /tmp/work/firebase-firestore.memory.js -> /output/firebase-firestore.memory.js.sri
+2021/05/19 22:42:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-firestore.memory.js.br /tmp/work/firebase-firestore.memory.js
+2021/05/19 22:42:25 br /tmp/work/firebase-remote-config.js -> /output/firebase-remote-config.js.br
+2021/05/19 22:42:25 gz /tmp/work/firebase-remote-config.js -> /output/firebase-remote-config.js.gz
+2021/05/19 22:42:26 sri /tmp/work/firebase-storage.min.js -> /output/firebase-storage.min.js.sri
+2021/05/19 22:42:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-storage.min.js.br /tmp/work/firebase-storage.min.js
+2021/05/19 22:42:26 br /tmp/work/firebase-storage.min.js -> /output/firebase-storage.min.js.br
+2021/05/19 22:42:26 gz /tmp/work/firebase-storage.min.js -> /output/firebase-storage.min.js.gz
+2021/05/19 22:42:26 sri /tmp/work/firebase-storage.js -> /output/firebase-storage.js.sri
+2021/05/19 22:42:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase-storage.js.br /tmp/work/firebase-storage.js
+2021/05/19 22:42:27 br /tmp/work/firebase-storage.js -> /output/firebase-storage.js.br
+2021/05/19 22:42:27 gz /tmp/work/firebase-storage.js -> /output/firebase-storage.js.gz
+2021/05/19 22:42:28 br /tmp/work/firebase-firestore.memory.js -> /output/firebase-firestore.memory.js.br
+2021/05/19 22:42:28 gz /tmp/work/firebase-firestore.memory.js -> /output/firebase-firestore.memory.js.gz
+2021/05/19 22:42:28 br /tmp/work/firebase-firestore.js -> /output/firebase-firestore.js.br
+2021/05/19 22:42:28 gz /tmp/work/firebase-firestore.js -> /output/firebase-firestore.js.gz
+2021/05/19 22:42:53 br /tmp/work/firebase.js.map -> /output/firebase.js.map.br
+2021/05/19 22:42:54 gz /tmp/work/firebase.js.map -> /output/firebase.js.map.gz
+2021/05/19 22:42:56 sri /tmp/work/firebase.min.js -> /output/firebase.min.js.sri
+2021/05/19 22:42:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase.min.js.br /tmp/work/firebase.min.js
+2021/05/19 22:42:59 br /tmp/work/firebase.min.js -> /output/firebase.min.js.br
+2021/05/19 22:42:59 gz /tmp/work/firebase.min.js -> /output/firebase.min.js.gz
+2021/05/19 22:42:59 sri /tmp/work/firebase.js -> /output/firebase.js.sri
+2021/05/19 22:42:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/firebase.js.br /tmp/work/firebase.js
+2021/05/19 22:43:02 br /tmp/work/firebase.js -> /output/firebase.js.br
+2021/05/19 22:43:02 gz /tmp/work/firebase.js -> /output/firebase.js.gz
+2021/05/19 22:43:02 processed firebase
