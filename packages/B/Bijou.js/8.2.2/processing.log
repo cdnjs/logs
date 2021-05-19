@@ -1,0 +1,19 @@
+2021/05/19 11:49:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/bijou-min.min.js /tmp/work/bijou-min.js
+2021/05/19 11:49:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/bijou.min.js /tmp/work/bijou.js
+2021/05/19 11:49:50 sri /tmp/work/bijou-min.min.js -> /output/bijou-min.min.js.sri
+2021/05/19 11:49:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/bijou-min.min.js.br /tmp/work/bijou-min.min.js
+2021/05/19 11:49:50 br /tmp/work/bijou-min.min.js -> /output/bijou-min.min.js.br
+2021/05/19 11:49:50 gz /tmp/work/bijou-min.min.js -> /output/bijou-min.min.js.gz
+2021/05/19 11:49:50 sri /tmp/work/bijou-min.js -> /output/bijou-min.js.sri
+2021/05/19 11:49:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/bijou-min.js.br /tmp/work/bijou-min.js
+2021/05/19 11:49:50 sri /tmp/work/bijou.min.js -> /output/bijou.min.js.sri
+2021/05/19 11:49:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/bijou.min.js.br /tmp/work/bijou.min.js
+2021/05/19 11:49:50 br /tmp/work/bijou-min.js -> /output/bijou-min.js.br
+2021/05/19 11:49:50 gz /tmp/work/bijou-min.js -> /output/bijou-min.js.gz
+2021/05/19 11:49:50 br /tmp/work/bijou.min.js -> /output/bijou.min.js.br
+2021/05/19 11:49:50 gz /tmp/work/bijou.min.js -> /output/bijou.min.js.gz
+2021/05/19 11:49:50 sri /tmp/work/bijou.js -> /output/bijou.js.sri
+2021/05/19 11:49:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/bijou.js.br /tmp/work/bijou.js
+2021/05/19 11:49:51 br /tmp/work/bijou.js -> /output/bijou.js.br
+2021/05/19 11:49:51 gz /tmp/work/bijou.js -> /output/bijou.js.gz
+2021/05/19 11:49:51 processed Bijou.js
