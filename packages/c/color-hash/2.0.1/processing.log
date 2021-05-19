@@ -1,0 +1,28 @@
+2021/05/19 13:58:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/bundle.min.js /tmp/work/dist/bundle.js
+2021/05/19 13:58:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/color-hash.min.js /tmp/work/dist/color-hash.js
+2021/05/19 13:58:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm.min.js /tmp/work/dist/esm.js
+2021/05/19 13:58:29 sri /tmp/work/dist/bundle.min.js -> /output/bundle.min.js.sri
+2021/05/19 13:58:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/bundle.min.js.br /tmp/work/dist/bundle.min.js
+2021/05/19 13:58:29 br /tmp/work/dist/bundle.min.js -> /output/bundle.min.js.br
+2021/05/19 13:58:29 gz /tmp/work/dist/bundle.min.js -> /output/bundle.min.js.gz
+2021/05/19 13:58:29 sri /tmp/work/dist/bundle.js -> /output/bundle.js.sri
+2021/05/19 13:58:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/bundle.js.br /tmp/work/dist/bundle.js
+2021/05/19 13:58:29 sri /tmp/work/dist/esm.min.js -> /output/esm.min.js.sri
+2021/05/19 13:58:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm.min.js.br /tmp/work/dist/esm.min.js
+2021/05/19 13:58:29 br /tmp/work/dist/bundle.js -> /output/bundle.js.br
+2021/05/19 13:58:29 gz /tmp/work/dist/bundle.js -> /output/bundle.js.gz
+2021/05/19 13:58:29 br /tmp/work/dist/esm.min.js -> /output/esm.min.js.br
+2021/05/19 13:58:29 gz /tmp/work/dist/esm.min.js -> /output/esm.min.js.gz
+2021/05/19 13:58:29 sri /tmp/work/dist/esm.js -> /output/esm.js.sri
+2021/05/19 13:58:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm.js.br /tmp/work/dist/esm.js
+2021/05/19 13:58:29 br /tmp/work/dist/esm.js -> /output/esm.js.br
+2021/05/19 13:58:29 gz /tmp/work/dist/esm.js -> /output/esm.js.gz
+2021/05/19 13:58:29 sri /tmp/work/dist/color-hash.min.js -> /output/color-hash.min.js.sri
+2021/05/19 13:58:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/color-hash.min.js.br /tmp/work/dist/color-hash.min.js
+2021/05/19 13:58:29 br /tmp/work/dist/color-hash.min.js -> /output/color-hash.min.js.br
+2021/05/19 13:58:29 gz /tmp/work/dist/color-hash.min.js -> /output/color-hash.min.js.gz
+2021/05/19 13:58:29 sri /tmp/work/dist/color-hash.js -> /output/color-hash.js.sri
+2021/05/19 13:58:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/color-hash.js.br /tmp/work/dist/color-hash.js
+2021/05/19 13:58:29 br /tmp/work/dist/color-hash.js -> /output/color-hash.js.br
+2021/05/19 13:58:29 gz /tmp/work/dist/color-hash.js -> /output/color-hash.js.gz
+2021/05/19 13:58:29 processed color-hash
