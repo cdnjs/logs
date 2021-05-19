@@ -1,0 +1,25 @@
+2021/05/19 12:37:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/babylon.min.js /tmp/work/babylon.js
+2021/05/19 12:37:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/babylon.max.min.js /tmp/work/babylon.max.js
+2021/05/19 12:37:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/babylon.module.d.ts.br /tmp/work/babylon.module.d.ts
+2021/05/19 12:37:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/babylon.max.js.map.br /tmp/work/babylon.max.js.map
+2021/05/19 12:38:03 br /tmp/work/babylon.module.d.ts -> /output/babylon.module.d.ts.br
+2021/05/19 12:38:03 gz /tmp/work/babylon.module.d.ts -> /output/babylon.module.d.ts.gz
+2021/05/19 12:38:32 br /tmp/work/babylon.max.js.map -> /output/babylon.max.js.map.br
+2021/05/19 12:38:33 sri /tmp/work/babylon.min.js -> /output/babylon.min.js.sri
+2021/05/19 12:38:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/babylon.min.js.br /tmp/work/babylon.min.js
+2021/05/19 12:38:34 gz /tmp/work/babylon.max.js.map -> /output/babylon.max.js.map.gz
+2021/05/19 12:38:38 sri /tmp/work/babylon.max.min.js -> /output/babylon.max.min.js.sri
+2021/05/19 12:38:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/babylon.max.min.js.br /tmp/work/babylon.max.min.js
+2021/05/19 12:38:42 br /tmp/work/babylon.min.js -> /output/babylon.min.js.br
+2021/05/19 12:38:42 gz /tmp/work/babylon.min.js -> /output/babylon.min.js.gz
+2021/05/19 12:38:42 sri /tmp/work/babylon.js -> /output/babylon.js.sri
+2021/05/19 12:38:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/babylon.js.br /tmp/work/babylon.js
+2021/05/19 12:38:48 br /tmp/work/babylon.max.min.js -> /output/babylon.max.min.js.br
+2021/05/19 12:38:48 gz /tmp/work/babylon.max.min.js -> /output/babylon.max.min.js.gz
+2021/05/19 12:38:48 sri /tmp/work/babylon.max.js -> /output/babylon.max.js.sri
+2021/05/19 12:38:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/babylon.max.js.br /tmp/work/babylon.max.js
+2021/05/19 12:38:51 br /tmp/work/babylon.js -> /output/babylon.js.br
+2021/05/19 12:38:51 gz /tmp/work/babylon.js -> /output/babylon.js.gz
+2021/05/19 12:39:16 br /tmp/work/babylon.max.js -> /output/babylon.max.js.br
+2021/05/19 12:39:17 gz /tmp/work/babylon.max.js -> /output/babylon.max.js.gz
+2021/05/19 12:39:17 processed babylonjs
