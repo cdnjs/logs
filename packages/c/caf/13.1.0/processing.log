@@ -1,0 +1,67 @@
+2021/05/19 15:18:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/abortcontroller-polyfill-only.min.js /tmp/work/dist/abortcontroller-polyfill-only.js
+2021/05/19 15:18:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/umd/caf.min.js /tmp/work/dist/umd/caf.js
+2021/05/19 15:18:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/caf.mjs.br /tmp/work/dist/esm/caf.mjs
+2021/05/19 15:18:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/cag.mjs.br /tmp/work/dist/esm/cag.mjs
+2021/05/19 15:18:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/index.mjs.br /tmp/work/dist/esm/index.mjs
+2021/05/19 15:18:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/shared.mjs.br /tmp/work/dist/esm/shared.mjs
+2021/05/19 15:18:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/umd/bundle.min.js /tmp/work/dist/umd/bundle.js
+2021/05/19 15:18:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/umd/cag.min.js /tmp/work/dist/umd/cag.js
+2021/05/19 15:18:48 br /tmp/work/dist/esm/cag.mjs -> /output/esm/cag.mjs.br
+2021/05/19 15:18:48 gz /tmp/work/dist/esm/cag.mjs -> /output/esm/cag.mjs.gz
+2021/05/19 15:18:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/umd/index.min.js /tmp/work/dist/umd/index.js
+2021/05/19 15:18:48 br /tmp/work/dist/esm/index.mjs -> /output/esm/index.mjs.br
+2021/05/19 15:18:48 gz /tmp/work/dist/esm/index.mjs -> /output/esm/index.mjs.gz
+2021/05/19 15:18:48 br /tmp/work/dist/esm/caf.mjs -> /output/esm/caf.mjs.br
+2021/05/19 15:18:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/umd/shared.min.js /tmp/work/dist/umd/shared.js
+2021/05/19 15:18:48 gz /tmp/work/dist/esm/caf.mjs -> /output/esm/caf.mjs.gz
+2021/05/19 15:18:48 br /tmp/work/dist/esm/shared.mjs -> /output/esm/shared.mjs.br
+2021/05/19 15:18:48 gz /tmp/work/dist/esm/shared.mjs -> /output/esm/shared.mjs.gz
+2021/05/19 15:18:49 sri /tmp/work/dist/umd/caf.min.js -> /output/umd/caf.min.js.sri
+2021/05/19 15:18:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/caf.min.js.br /tmp/work/dist/umd/caf.min.js
+2021/05/19 15:18:49 br /tmp/work/dist/umd/caf.min.js -> /output/umd/caf.min.js.br
+2021/05/19 15:18:49 gz /tmp/work/dist/umd/caf.min.js -> /output/umd/caf.min.js.gz
+2021/05/19 15:18:49 sri /tmp/work/dist/umd/caf.js -> /output/umd/caf.js.sri
+2021/05/19 15:18:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/caf.js.br /tmp/work/dist/umd/caf.js
+2021/05/19 15:18:49 br /tmp/work/dist/umd/caf.js -> /output/umd/caf.js.br
+2021/05/19 15:18:49 gz /tmp/work/dist/umd/caf.js -> /output/umd/caf.js.gz
+2021/05/19 15:18:49 sri /tmp/work/dist/umd/index.min.js -> /output/umd/index.min.js.sri
+2021/05/19 15:18:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/index.min.js.br /tmp/work/dist/umd/index.min.js
+2021/05/19 15:18:49 sri /tmp/work/dist/umd/cag.min.js -> /output/umd/cag.min.js.sri
+2021/05/19 15:18:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/cag.min.js.br /tmp/work/dist/umd/cag.min.js
+2021/05/19 15:18:49 br /tmp/work/dist/umd/index.min.js -> /output/umd/index.min.js.br
+2021/05/19 15:18:49 gz /tmp/work/dist/umd/index.min.js -> /output/umd/index.min.js.gz
+2021/05/19 15:18:49 sri /tmp/work/dist/umd/index.js -> /output/umd/index.js.sri
+2021/05/19 15:18:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/index.js.br /tmp/work/dist/umd/index.js
+2021/05/19 15:18:49 br /tmp/work/dist/umd/index.js -> /output/umd/index.js.br
+2021/05/19 15:18:49 gz /tmp/work/dist/umd/index.js -> /output/umd/index.js.gz
+2021/05/19 15:18:49 br /tmp/work/dist/umd/cag.min.js -> /output/umd/cag.min.js.br
+2021/05/19 15:18:49 gz /tmp/work/dist/umd/cag.min.js -> /output/umd/cag.min.js.gz
+2021/05/19 15:18:49 sri /tmp/work/dist/umd/cag.js -> /output/umd/cag.js.sri
+2021/05/19 15:18:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/cag.js.br /tmp/work/dist/umd/cag.js
+2021/05/19 15:18:49 br /tmp/work/dist/umd/cag.js -> /output/umd/cag.js.br
+2021/05/19 15:18:49 gz /tmp/work/dist/umd/cag.js -> /output/umd/cag.js.gz
+2021/05/19 15:18:49 sri /tmp/work/dist/umd/shared.min.js -> /output/umd/shared.min.js.sri
+2021/05/19 15:18:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/shared.min.js.br /tmp/work/dist/umd/shared.min.js
+2021/05/19 15:18:49 br /tmp/work/dist/umd/shared.min.js -> /output/umd/shared.min.js.br
+2021/05/19 15:18:49 gz /tmp/work/dist/umd/shared.min.js -> /output/umd/shared.min.js.gz
+2021/05/19 15:18:49 sri /tmp/work/dist/umd/shared.js -> /output/umd/shared.js.sri
+2021/05/19 15:18:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/shared.js.br /tmp/work/dist/umd/shared.js
+2021/05/19 15:18:49 sri /tmp/work/dist/abortcontroller-polyfill-only.min.js -> /output/abortcontroller-polyfill-only.min.js.sri
+2021/05/19 15:18:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/abortcontroller-polyfill-only.min.js.br /tmp/work/dist/abortcontroller-polyfill-only.min.js
+2021/05/19 15:18:49 br /tmp/work/dist/umd/shared.js -> /output/umd/shared.js.br
+2021/05/19 15:18:49 gz /tmp/work/dist/umd/shared.js -> /output/umd/shared.js.gz
+2021/05/19 15:18:49 br /tmp/work/dist/abortcontroller-polyfill-only.min.js -> /output/abortcontroller-polyfill-only.min.js.br
+2021/05/19 15:18:49 gz /tmp/work/dist/abortcontroller-polyfill-only.min.js -> /output/abortcontroller-polyfill-only.min.js.gz
+2021/05/19 15:18:49 sri /tmp/work/dist/abortcontroller-polyfill-only.js -> /output/abortcontroller-polyfill-only.js.sri
+2021/05/19 15:18:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/abortcontroller-polyfill-only.js.br /tmp/work/dist/abortcontroller-polyfill-only.js
+2021/05/19 15:18:49 br /tmp/work/dist/abortcontroller-polyfill-only.js -> /output/abortcontroller-polyfill-only.js.br
+2021/05/19 15:18:49 gz /tmp/work/dist/abortcontroller-polyfill-only.js -> /output/abortcontroller-polyfill-only.js.gz
+2021/05/19 15:18:49 sri /tmp/work/dist/umd/bundle.min.js -> /output/umd/bundle.min.js.sri
+2021/05/19 15:18:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/bundle.min.js.br /tmp/work/dist/umd/bundle.min.js
+2021/05/19 15:18:49 br /tmp/work/dist/umd/bundle.min.js -> /output/umd/bundle.min.js.br
+2021/05/19 15:18:50 gz /tmp/work/dist/umd/bundle.min.js -> /output/umd/bundle.min.js.gz
+2021/05/19 15:18:50 sri /tmp/work/dist/umd/bundle.js -> /output/umd/bundle.js.sri
+2021/05/19 15:18:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/bundle.js.br /tmp/work/dist/umd/bundle.js
+2021/05/19 15:18:50 br /tmp/work/dist/umd/bundle.js -> /output/umd/bundle.js.br
+2021/05/19 15:18:50 gz /tmp/work/dist/umd/bundle.js -> /output/umd/bundle.js.gz
+2021/05/19 15:18:50 processed caf
