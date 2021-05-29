@@ -1,0 +1,10 @@
+2021/05/29 01:35:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/chess.min.js /tmp/work/chess.js
+2021/05/29 01:35:49 sri /tmp/work/chess.min.js -> /output/chess.min.js.sri
+2021/05/29 01:35:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/chess.min.js.br /tmp/work/chess.min.js
+2021/05/29 01:35:49 br /tmp/work/chess.min.js -> /output/chess.min.js.br
+2021/05/29 01:35:49 gz /tmp/work/chess.min.js -> /output/chess.min.js.gz
+2021/05/29 01:35:49 sri /tmp/work/chess.js -> /output/chess.js.sri
+2021/05/29 01:35:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/chess.js.br /tmp/work/chess.js
+2021/05/29 01:35:49 br /tmp/work/chess.js -> /output/chess.js.br
+2021/05/29 01:35:49 gz /tmp/work/chess.js -> /output/chess.js.gz
+2021/05/29 01:35:49 processed chess.js
