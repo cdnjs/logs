@@ -1,0 +1,22 @@
+2021/06/07 14:08:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/jsoneditor.min.js /tmp/work/dist/jsoneditor.js
+2021/06/07 14:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nonmin/jsoneditor.js.map.br /tmp/work/dist/nonmin/jsoneditor.js.map
+2021/06/07 14:08:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/nonmin/jsoneditor.min.js /tmp/work/dist/nonmin/jsoneditor.js
+2021/06/07 14:08:05 br /tmp/work/dist/nonmin/jsoneditor.js.map -> /output/nonmin/jsoneditor.js.map.br
+2021/06/07 14:08:05 gz /tmp/work/dist/nonmin/jsoneditor.js.map -> /output/nonmin/jsoneditor.js.map.gz
+2021/06/07 14:08:10 sri /tmp/work/dist/jsoneditor.min.js -> /output/jsoneditor.min.js.sri
+2021/06/07 14:08:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsoneditor.min.js.br /tmp/work/dist/jsoneditor.min.js
+2021/06/07 14:08:12 br /tmp/work/dist/jsoneditor.min.js -> /output/jsoneditor.min.js.br
+2021/06/07 14:08:12 sri /tmp/work/dist/nonmin/jsoneditor.min.js -> /output/nonmin/jsoneditor.min.js.sri
+2021/06/07 14:08:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nonmin/jsoneditor.min.js.br /tmp/work/dist/nonmin/jsoneditor.min.js
+2021/06/07 14:08:12 gz /tmp/work/dist/jsoneditor.min.js -> /output/jsoneditor.min.js.gz
+2021/06/07 14:08:12 sri /tmp/work/dist/jsoneditor.js -> /output/jsoneditor.js.sri
+2021/06/07 14:08:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsoneditor.js.br /tmp/work/dist/jsoneditor.js
+2021/06/07 14:08:12 br /tmp/work/dist/nonmin/jsoneditor.min.js -> /output/nonmin/jsoneditor.min.js.br
+2021/06/07 14:08:13 gz /tmp/work/dist/nonmin/jsoneditor.min.js -> /output/nonmin/jsoneditor.min.js.gz
+2021/06/07 14:08:13 sri /tmp/work/dist/nonmin/jsoneditor.js -> /output/nonmin/jsoneditor.js.sri
+2021/06/07 14:08:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nonmin/jsoneditor.js.br /tmp/work/dist/nonmin/jsoneditor.js
+2021/06/07 14:08:13 br /tmp/work/dist/jsoneditor.js -> /output/jsoneditor.js.br
+2021/06/07 14:08:13 gz /tmp/work/dist/jsoneditor.js -> /output/jsoneditor.js.gz
+2021/06/07 14:08:15 br /tmp/work/dist/nonmin/jsoneditor.js -> /output/nonmin/jsoneditor.js.br
+2021/06/07 14:08:15 gz /tmp/work/dist/nonmin/jsoneditor.js -> /output/nonmin/jsoneditor.js.gz
+2021/06/07 14:08:15 processed json-editor
