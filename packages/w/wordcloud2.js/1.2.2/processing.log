@@ -1,0 +1,10 @@
+2021/06/07 15:02:15 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/src/wordcloud2.min.js /tmp/work/src/wordcloud2.js
+2021/06/07 15:02:16 sri /tmp/work/src/wordcloud2.min.js -> /output/wordcloud2.min.js.sri
+2021/06/07 15:02:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/wordcloud2.min.js.br /tmp/work/src/wordcloud2.min.js
+2021/06/07 15:02:16 br /tmp/work/src/wordcloud2.min.js -> /output/wordcloud2.min.js.br
+2021/06/07 15:02:16 gz /tmp/work/src/wordcloud2.min.js -> /output/wordcloud2.min.js.gz
+2021/06/07 15:02:16 sri /tmp/work/src/wordcloud2.js -> /output/wordcloud2.js.sri
+2021/06/07 15:02:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/wordcloud2.js.br /tmp/work/src/wordcloud2.js
+2021/06/07 15:02:16 br /tmp/work/src/wordcloud2.js -> /output/wordcloud2.js.br
+2021/06/07 15:02:16 gz /tmp/work/src/wordcloud2.js -> /output/wordcloud2.js.gz
+2021/06/07 15:02:16 processed wordcloud2.js
