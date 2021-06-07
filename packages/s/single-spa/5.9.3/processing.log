@@ -1,0 +1,81 @@
+2021/06/07 15:51:10 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/es2015/single-spa.dev.min.js /tmp/work/lib/es2015/single-spa.dev.js
+2021/06/07 15:51:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/es2015/single-spa.dev.js.map.br /tmp/work/lib/es2015/single-spa.dev.js.map
+2021/06/07 15:51:10 /tmp/work/lib/es2015/single-spa.min.js.min.js compressed file already exists
+2021/06/07 15:51:10 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/esm/single-spa.dev.min.js /tmp/work/lib/esm/single-spa.dev.js
+2021/06/07 15:51:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/single-spa.min.js.map.br /tmp/work/lib/esm/single-spa.min.js.map
+2021/06/07 15:51:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/es2015/single-spa.min.js.map.br /tmp/work/lib/es2015/single-spa.min.js.map
+2021/06/07 15:51:10 /tmp/work/lib/esm/single-spa.min.js.min.js compressed file already exists
+2021/06/07 15:51:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/single-spa.dev.js.map.br /tmp/work/lib/esm/single-spa.dev.js.map
+2021/06/07 15:51:10 sri /tmp/work/lib/es2015/single-spa.min.js -> /output/es2015/single-spa.min.js.sri
+2021/06/07 15:51:10 sri /tmp/work/lib/esm/single-spa.min.js -> /output/esm/single-spa.min.js.sri
+2021/06/07 15:51:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/es2015/single-spa.min.js.br /tmp/work/lib/es2015/single-spa.min.js
+2021/06/07 15:51:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/single-spa.min.js.br /tmp/work/lib/esm/single-spa.min.js
+2021/06/07 15:51:10 br /tmp/work/lib/es2015/single-spa.min.js -> /output/es2015/single-spa.min.js.br
+2021/06/07 15:51:10 gz /tmp/work/lib/es2015/single-spa.min.js -> /output/es2015/single-spa.min.js.gz
+2021/06/07 15:51:10 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/system/single-spa.dev.min.js /tmp/work/lib/system/single-spa.dev.js
+2021/06/07 15:51:10 br /tmp/work/lib/esm/single-spa.min.js -> /output/esm/single-spa.min.js.br
+2021/06/07 15:51:10 gz /tmp/work/lib/esm/single-spa.min.js -> /output/esm/single-spa.min.js.gz
+2021/06/07 15:51:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/system/single-spa.dev.js.map.br /tmp/work/lib/system/single-spa.dev.js.map
+2021/06/07 15:51:11 br /tmp/work/lib/esm/single-spa.min.js.map -> /output/esm/single-spa.min.js.map.br
+2021/06/07 15:51:11 gz /tmp/work/lib/esm/single-spa.min.js.map -> /output/esm/single-spa.min.js.map.gz
+2021/06/07 15:51:11 /tmp/work/lib/system/single-spa.min.js.min.js compressed file already exists
+2021/06/07 15:51:11 sri /tmp/work/lib/system/single-spa.min.js -> /output/system/single-spa.min.js.sri
+2021/06/07 15:51:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/system/single-spa.min.js.br /tmp/work/lib/system/single-spa.min.js
+2021/06/07 15:51:11 br /tmp/work/lib/es2015/single-spa.min.js.map -> /output/es2015/single-spa.min.js.map.br
+2021/06/07 15:51:11 gz /tmp/work/lib/es2015/single-spa.min.js.map -> /output/es2015/single-spa.min.js.map.gz
+2021/06/07 15:51:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/system/single-spa.min.js.map.br /tmp/work/lib/system/single-spa.min.js.map
+2021/06/07 15:51:11 br /tmp/work/lib/system/single-spa.min.js -> /output/system/single-spa.min.js.br
+2021/06/07 15:51:11 gz /tmp/work/lib/system/single-spa.min.js -> /output/system/single-spa.min.js.gz
+2021/06/07 15:51:11 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/single-spa.dev.min.js /tmp/work/lib/umd/single-spa.dev.js
+2021/06/07 15:51:11 br /tmp/work/lib/es2015/single-spa.dev.js.map -> /output/es2015/single-spa.dev.js.map.br
+2021/06/07 15:51:11 br /tmp/work/lib/esm/single-spa.dev.js.map -> /output/esm/single-spa.dev.js.map.br
+2021/06/07 15:51:11 gz /tmp/work/lib/es2015/single-spa.dev.js.map -> /output/es2015/single-spa.dev.js.map.gz
+2021/06/07 15:51:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/single-spa.dev.js.map.br /tmp/work/lib/umd/single-spa.dev.js.map
+2021/06/07 15:51:11 gz /tmp/work/lib/esm/single-spa.dev.js.map -> /output/esm/single-spa.dev.js.map.gz
+2021/06/07 15:51:11 /tmp/work/lib/umd/single-spa.min.js.min.js compressed file already exists
+2021/06/07 15:51:11 sri /tmp/work/lib/umd/single-spa.min.js -> /output/umd/single-spa.min.js.sri
+2021/06/07 15:51:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/single-spa.min.js.br /tmp/work/lib/umd/single-spa.min.js
+2021/06/07 15:51:11 br /tmp/work/lib/system/single-spa.dev.js.map -> /output/system/single-spa.dev.js.map.br
+2021/06/07 15:51:11 gz /tmp/work/lib/system/single-spa.dev.js.map -> /output/system/single-spa.dev.js.map.gz
+2021/06/07 15:51:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/single-spa.min.js.map.br /tmp/work/lib/umd/single-spa.min.js.map
+2021/06/07 15:51:11 br /tmp/work/lib/umd/single-spa.min.js -> /output/umd/single-spa.min.js.br
+2021/06/07 15:51:11 gz /tmp/work/lib/umd/single-spa.min.js -> /output/umd/single-spa.min.js.gz
+2021/06/07 15:51:11 br /tmp/work/lib/system/single-spa.min.js.map -> /output/system/single-spa.min.js.map.br
+2021/06/07 15:51:11 gz /tmp/work/lib/system/single-spa.min.js.map -> /output/system/single-spa.min.js.map.gz
+2021/06/07 15:51:11 br /tmp/work/lib/umd/single-spa.min.js.map -> /output/umd/single-spa.min.js.map.br
+2021/06/07 15:51:11 gz /tmp/work/lib/umd/single-spa.min.js.map -> /output/umd/single-spa.min.js.map.gz
+2021/06/07 15:51:11 br /tmp/work/lib/umd/single-spa.dev.js.map -> /output/umd/single-spa.dev.js.map.br
+2021/06/07 15:51:11 gz /tmp/work/lib/umd/single-spa.dev.js.map -> /output/umd/single-spa.dev.js.map.gz
+2021/06/07 15:51:12 sri /tmp/work/lib/es2015/single-spa.dev.min.js -> /output/es2015/single-spa.dev.min.js.sri
+2021/06/07 15:51:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/es2015/single-spa.dev.min.js.br /tmp/work/lib/es2015/single-spa.dev.min.js
+2021/06/07 15:51:12 br /tmp/work/lib/es2015/single-spa.dev.min.js -> /output/es2015/single-spa.dev.min.js.br
+2021/06/07 15:51:12 gz /tmp/work/lib/es2015/single-spa.dev.min.js -> /output/es2015/single-spa.dev.min.js.gz
+2021/06/07 15:51:12 sri /tmp/work/lib/es2015/single-spa.dev.js -> /output/es2015/single-spa.dev.js.sri
+2021/06/07 15:51:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/es2015/single-spa.dev.js.br /tmp/work/lib/es2015/single-spa.dev.js
+2021/06/07 15:51:12 sri /tmp/work/lib/esm/single-spa.dev.min.js -> /output/esm/single-spa.dev.min.js.sri
+2021/06/07 15:51:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/single-spa.dev.min.js.br /tmp/work/lib/esm/single-spa.dev.min.js
+2021/06/07 15:51:12 br /tmp/work/lib/esm/single-spa.dev.min.js -> /output/esm/single-spa.dev.min.js.br
+2021/06/07 15:51:12 gz /tmp/work/lib/esm/single-spa.dev.min.js -> /output/esm/single-spa.dev.min.js.gz
+2021/06/07 15:51:12 sri /tmp/work/lib/esm/single-spa.dev.js -> /output/esm/single-spa.dev.js.sri
+2021/06/07 15:51:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/single-spa.dev.js.br /tmp/work/lib/esm/single-spa.dev.js
+2021/06/07 15:51:12 br /tmp/work/lib/es2015/single-spa.dev.js -> /output/es2015/single-spa.dev.js.br
+2021/06/07 15:51:12 gz /tmp/work/lib/es2015/single-spa.dev.js -> /output/es2015/single-spa.dev.js.gz
+2021/06/07 15:51:12 sri /tmp/work/lib/system/single-spa.dev.min.js -> /output/system/single-spa.dev.min.js.sri
+2021/06/07 15:51:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/system/single-spa.dev.min.js.br /tmp/work/lib/system/single-spa.dev.min.js
+2021/06/07 15:51:12 br /tmp/work/lib/esm/single-spa.dev.js -> /output/esm/single-spa.dev.js.br
+2021/06/07 15:51:12 gz /tmp/work/lib/esm/single-spa.dev.js -> /output/esm/single-spa.dev.js.gz
+2021/06/07 15:51:12 br /tmp/work/lib/system/single-spa.dev.min.js -> /output/system/single-spa.dev.min.js.br
+2021/06/07 15:51:12 gz /tmp/work/lib/system/single-spa.dev.min.js -> /output/system/single-spa.dev.min.js.gz
+2021/06/07 15:51:12 sri /tmp/work/lib/system/single-spa.dev.js -> /output/system/single-spa.dev.js.sri
+2021/06/07 15:51:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/system/single-spa.dev.js.br /tmp/work/lib/system/single-spa.dev.js
+2021/06/07 15:51:12 sri /tmp/work/lib/umd/single-spa.dev.min.js -> /output/umd/single-spa.dev.min.js.sri
+2021/06/07 15:51:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/single-spa.dev.min.js.br /tmp/work/lib/umd/single-spa.dev.min.js
+2021/06/07 15:51:12 br /tmp/work/lib/system/single-spa.dev.js -> /output/system/single-spa.dev.js.br
+2021/06/07 15:51:12 gz /tmp/work/lib/system/single-spa.dev.js -> /output/system/single-spa.dev.js.gz
+2021/06/07 15:51:12 br /tmp/work/lib/umd/single-spa.dev.min.js -> /output/umd/single-spa.dev.min.js.br
+2021/06/07 15:51:12 gz /tmp/work/lib/umd/single-spa.dev.min.js -> /output/umd/single-spa.dev.min.js.gz
+2021/06/07 15:51:12 sri /tmp/work/lib/umd/single-spa.dev.js -> /output/umd/single-spa.dev.js.sri
+2021/06/07 15:51:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/single-spa.dev.js.br /tmp/work/lib/umd/single-spa.dev.js
+2021/06/07 15:51:12 br /tmp/work/lib/umd/single-spa.dev.js -> /output/umd/single-spa.dev.js.br
+2021/06/07 15:51:12 gz /tmp/work/lib/umd/single-spa.dev.js -> /output/umd/single-spa.dev.js.gz
+2021/06/07 15:51:12 processed single-spa
