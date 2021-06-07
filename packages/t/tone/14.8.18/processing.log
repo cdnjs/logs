@@ -1,0 +1,13 @@
+2021/06/07 21:08:58 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/Tone.min.js /tmp/work/build/Tone.js
+2021/06/07 21:08:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/Tone.js.map.br /tmp/work/build/Tone.js.map
+2021/06/07 21:09:04 br /tmp/work/build/Tone.js.map -> /output/Tone.js.map.br
+2021/06/07 21:09:05 gz /tmp/work/build/Tone.js.map -> /output/Tone.js.map.gz
+2021/06/07 21:09:10 sri /tmp/work/build/Tone.min.js -> /output/Tone.min.js.sri
+2021/06/07 21:09:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/Tone.min.js.br /tmp/work/build/Tone.min.js
+2021/06/07 21:09:12 br /tmp/work/build/Tone.min.js -> /output/Tone.min.js.br
+2021/06/07 21:09:12 gz /tmp/work/build/Tone.min.js -> /output/Tone.min.js.gz
+2021/06/07 21:09:12 sri /tmp/work/build/Tone.js -> /output/Tone.js.sri
+2021/06/07 21:09:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/Tone.js.br /tmp/work/build/Tone.js
+2021/06/07 21:09:13 br /tmp/work/build/Tone.js -> /output/Tone.js.br
+2021/06/07 21:09:13 gz /tmp/work/build/Tone.js -> /output/Tone.js.gz
+2021/06/07 21:09:13 processed tone
