@@ -1,0 +1,94 @@
+2021/06/07 16:18:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/umd/async-either.min.js /tmp/work/dist/umd/async-either.js
+2021/06/07 16:18:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/umd/either.min.js /tmp/work/dist/umd/either.js
+2021/06/07 16:18:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/umd/bundle.min.js /tmp/work/dist/umd/bundle.js
+2021/06/07 16:18:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/umd/index.min.js /tmp/work/dist/umd/index.js
+2021/06/07 16:18:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/umd/just.min.js /tmp/work/dist/umd/just.js
+2021/06/07 16:18:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/umd/maybe.min.js /tmp/work/dist/umd/maybe.js
+2021/06/07 16:18:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/umd/nothing.min.js /tmp/work/dist/umd/nothing.js
+2021/06/07 16:18:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/umd/lib/util.min.js /tmp/work/dist/umd/lib/util.js
+2021/06/07 16:18:36 sri /tmp/work/dist/umd/lib/util.min.js -> /output/umd/lib/util.min.js.sri
+2021/06/07 16:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/lib/util.min.js.br /tmp/work/dist/umd/lib/util.min.js
+2021/06/07 16:18:36 br /tmp/work/dist/umd/lib/util.min.js -> /output/umd/lib/util.min.js.br
+2021/06/07 16:18:36 gz /tmp/work/dist/umd/lib/util.min.js -> /output/umd/lib/util.min.js.gz
+2021/06/07 16:18:36 sri /tmp/work/dist/umd/lib/util.js -> /output/umd/lib/util.js.sri
+2021/06/07 16:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/lib/util.js.br /tmp/work/dist/umd/lib/util.js
+2021/06/07 16:18:36 br /tmp/work/dist/umd/lib/util.js -> /output/umd/lib/util.js.br
+2021/06/07 16:18:36 gz /tmp/work/dist/umd/lib/util.js -> /output/umd/lib/util.js.gz
+2021/06/07 16:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/async-either.mjs.br /tmp/work/dist/esm/async-either.mjs
+2021/06/07 16:18:36 sri /tmp/work/dist/umd/nothing.min.js -> /output/umd/nothing.min.js.sri
+2021/06/07 16:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/nothing.min.js.br /tmp/work/dist/umd/nothing.min.js
+2021/06/07 16:18:36 br /tmp/work/dist/esm/async-either.mjs -> /output/esm/async-either.mjs.br
+2021/06/07 16:18:36 gz /tmp/work/dist/esm/async-either.mjs -> /output/esm/async-either.mjs.gz
+2021/06/07 16:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/either.mjs.br /tmp/work/dist/esm/either.mjs
+2021/06/07 16:18:36 br /tmp/work/dist/umd/nothing.min.js -> /output/umd/nothing.min.js.br
+2021/06/07 16:18:36 gz /tmp/work/dist/umd/nothing.min.js -> /output/umd/nothing.min.js.gz
+2021/06/07 16:18:36 sri /tmp/work/dist/umd/nothing.js -> /output/umd/nothing.js.sri
+2021/06/07 16:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/nothing.js.br /tmp/work/dist/umd/nothing.js
+2021/06/07 16:18:36 br /tmp/work/dist/esm/either.mjs -> /output/esm/either.mjs.br
+2021/06/07 16:18:36 gz /tmp/work/dist/esm/either.mjs -> /output/esm/either.mjs.gz
+2021/06/07 16:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/index.mjs.br /tmp/work/dist/esm/index.mjs
+2021/06/07 16:18:36 br /tmp/work/dist/umd/nothing.js -> /output/umd/nothing.js.br
+2021/06/07 16:18:36 gz /tmp/work/dist/umd/nothing.js -> /output/umd/nothing.js.gz
+2021/06/07 16:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/just.mjs.br /tmp/work/dist/esm/just.mjs
+2021/06/07 16:18:36 br /tmp/work/dist/esm/index.mjs -> /output/esm/index.mjs.br
+2021/06/07 16:18:36 gz /tmp/work/dist/esm/index.mjs -> /output/esm/index.mjs.gz
+2021/06/07 16:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/maybe.mjs.br /tmp/work/dist/esm/maybe.mjs
+2021/06/07 16:18:36 sri /tmp/work/dist/umd/index.min.js -> /output/umd/index.min.js.sri
+2021/06/07 16:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/index.min.js.br /tmp/work/dist/umd/index.min.js
+2021/06/07 16:18:36 sri /tmp/work/dist/umd/just.min.js -> /output/umd/just.min.js.sri
+2021/06/07 16:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/just.min.js.br /tmp/work/dist/umd/just.min.js
+2021/06/07 16:18:36 br /tmp/work/dist/esm/just.mjs -> /output/esm/just.mjs.br
+2021/06/07 16:18:36 gz /tmp/work/dist/esm/just.mjs -> /output/esm/just.mjs.gz
+2021/06/07 16:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/nothing.mjs.br /tmp/work/dist/esm/nothing.mjs
+2021/06/07 16:18:36 sri /tmp/work/dist/umd/async-either.min.js -> /output/umd/async-either.min.js.sri
+2021/06/07 16:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/async-either.min.js.br /tmp/work/dist/umd/async-either.min.js
+2021/06/07 16:18:36 br /tmp/work/dist/esm/maybe.mjs -> /output/esm/maybe.mjs.br
+2021/06/07 16:18:36 gz /tmp/work/dist/esm/maybe.mjs -> /output/esm/maybe.mjs.gz
+2021/06/07 16:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/lib/util.mjs.br /tmp/work/dist/esm/lib/util.mjs
+2021/06/07 16:18:36 br /tmp/work/dist/esm/nothing.mjs -> /output/esm/nothing.mjs.br
+2021/06/07 16:18:36 gz /tmp/work/dist/esm/nothing.mjs -> /output/esm/nothing.mjs.gz
+2021/06/07 16:18:36 sri /tmp/work/dist/umd/maybe.min.js -> /output/umd/maybe.min.js.sri
+2021/06/07 16:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/maybe.min.js.br /tmp/work/dist/umd/maybe.min.js
+2021/06/07 16:18:36 br /tmp/work/dist/umd/index.min.js -> /output/umd/index.min.js.br
+2021/06/07 16:18:36 gz /tmp/work/dist/umd/index.min.js -> /output/umd/index.min.js.gz
+2021/06/07 16:18:36 sri /tmp/work/dist/umd/index.js -> /output/umd/index.js.sri
+2021/06/07 16:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/index.js.br /tmp/work/dist/umd/index.js
+2021/06/07 16:18:36 sri /tmp/work/dist/umd/either.min.js -> /output/umd/either.min.js.sri
+2021/06/07 16:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/either.min.js.br /tmp/work/dist/umd/either.min.js
+2021/06/07 16:18:36 br /tmp/work/dist/umd/just.min.js -> /output/umd/just.min.js.br
+2021/06/07 16:18:36 gz /tmp/work/dist/umd/just.min.js -> /output/umd/just.min.js.gz
+2021/06/07 16:18:36 sri /tmp/work/dist/umd/just.js -> /output/umd/just.js.sri
+2021/06/07 16:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/just.js.br /tmp/work/dist/umd/just.js
+2021/06/07 16:18:36 br /tmp/work/dist/umd/async-either.min.js -> /output/umd/async-either.min.js.br
+2021/06/07 16:18:36 gz /tmp/work/dist/umd/async-either.min.js -> /output/umd/async-either.min.js.gz
+2021/06/07 16:18:36 sri /tmp/work/dist/umd/async-either.js -> /output/umd/async-either.js.sri
+2021/06/07 16:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/async-either.js.br /tmp/work/dist/umd/async-either.js
+2021/06/07 16:18:36 br /tmp/work/dist/esm/lib/util.mjs -> /output/esm/lib/util.mjs.br
+2021/06/07 16:18:36 gz /tmp/work/dist/esm/lib/util.mjs -> /output/esm/lib/util.mjs.gz
+2021/06/07 16:18:36 br /tmp/work/dist/umd/maybe.min.js -> /output/umd/maybe.min.js.br
+2021/06/07 16:18:36 gz /tmp/work/dist/umd/maybe.min.js -> /output/umd/maybe.min.js.gz
+2021/06/07 16:18:36 sri /tmp/work/dist/umd/maybe.js -> /output/umd/maybe.js.sri
+2021/06/07 16:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/maybe.js.br /tmp/work/dist/umd/maybe.js
+2021/06/07 16:18:36 br /tmp/work/dist/umd/either.min.js -> /output/umd/either.min.js.br
+2021/06/07 16:18:36 gz /tmp/work/dist/umd/either.min.js -> /output/umd/either.min.js.gz
+2021/06/07 16:18:36 sri /tmp/work/dist/umd/either.js -> /output/umd/either.js.sri
+2021/06/07 16:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/either.js.br /tmp/work/dist/umd/either.js
+2021/06/07 16:18:36 br /tmp/work/dist/umd/just.js -> /output/umd/just.js.br
+2021/06/07 16:18:36 gz /tmp/work/dist/umd/just.js -> /output/umd/just.js.gz
+2021/06/07 16:18:36 br /tmp/work/dist/umd/index.js -> /output/umd/index.js.br
+2021/06/07 16:18:36 gz /tmp/work/dist/umd/index.js -> /output/umd/index.js.gz
+2021/06/07 16:18:36 br /tmp/work/dist/umd/async-either.js -> /output/umd/async-either.js.br
+2021/06/07 16:18:36 gz /tmp/work/dist/umd/async-either.js -> /output/umd/async-either.js.gz
+2021/06/07 16:18:36 br /tmp/work/dist/umd/maybe.js -> /output/umd/maybe.js.br
+2021/06/07 16:18:36 br /tmp/work/dist/umd/either.js -> /output/umd/either.js.br
+2021/06/07 16:18:36 gz /tmp/work/dist/umd/maybe.js -> /output/umd/maybe.js.gz
+2021/06/07 16:18:36 gz /tmp/work/dist/umd/either.js -> /output/umd/either.js.gz
+2021/06/07 16:18:37 sri /tmp/work/dist/umd/bundle.min.js -> /output/umd/bundle.min.js.sri
+2021/06/07 16:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/bundle.min.js.br /tmp/work/dist/umd/bundle.min.js
+2021/06/07 16:18:37 br /tmp/work/dist/umd/bundle.min.js -> /output/umd/bundle.min.js.br
+2021/06/07 16:18:37 gz /tmp/work/dist/umd/bundle.min.js -> /output/umd/bundle.min.js.gz
+2021/06/07 16:18:37 sri /tmp/work/dist/umd/bundle.js -> /output/umd/bundle.js.sri
+2021/06/07 16:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/bundle.js.br /tmp/work/dist/umd/bundle.js
+2021/06/07 16:18:37 br /tmp/work/dist/umd/bundle.js -> /output/umd/bundle.js.br
+2021/06/07 16:18:37 gz /tmp/work/dist/umd/bundle.js -> /output/umd/bundle.js.gz
+2021/06/07 16:18:37 processed monio
