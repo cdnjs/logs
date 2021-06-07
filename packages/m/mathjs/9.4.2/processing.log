@@ -1,0 +1,13 @@
+2021/06/07 23:06:23 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/browser/math.min.js /tmp/work/lib/browser/math.js
+2021/06/07 23:06:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/math.js.map.br /tmp/work/lib/browser/math.js.map
+2021/06/07 23:06:32 br /tmp/work/lib/browser/math.js.map -> /output/math.js.map.br
+2021/06/07 23:06:32 gz /tmp/work/lib/browser/math.js.map -> /output/math.js.map.gz
+2021/06/07 23:06:38 sri /tmp/work/lib/browser/math.min.js -> /output/math.min.js.sri
+2021/06/07 23:06:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/math.min.js.br /tmp/work/lib/browser/math.min.js
+2021/06/07 23:06:39 br /tmp/work/lib/browser/math.min.js -> /output/math.min.js.br
+2021/06/07 23:06:39 gz /tmp/work/lib/browser/math.min.js -> /output/math.min.js.gz
+2021/06/07 23:06:39 sri /tmp/work/lib/browser/math.js -> /output/math.js.sri
+2021/06/07 23:06:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/math.js.br /tmp/work/lib/browser/math.js
+2021/06/07 23:06:41 br /tmp/work/lib/browser/math.js -> /output/math.js.br
+2021/06/07 23:06:41 gz /tmp/work/lib/browser/math.js -> /output/math.js.gz
+2021/06/07 23:06:41 processed mathjs
