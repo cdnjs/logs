@@ -1,0 +1,10 @@
+2021/06/07 16:22:11 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/humanize-duration.min.js /tmp/work/humanize-duration.js
+2021/06/07 16:22:13 sri /tmp/work/humanize-duration.min.js -> /output/humanize-duration.min.js.sri
+2021/06/07 16:22:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/humanize-duration.min.js.br /tmp/work/humanize-duration.min.js
+2021/06/07 16:22:13 br /tmp/work/humanize-duration.min.js -> /output/humanize-duration.min.js.br
+2021/06/07 16:22:13 gz /tmp/work/humanize-duration.min.js -> /output/humanize-duration.min.js.gz
+2021/06/07 16:22:13 sri /tmp/work/humanize-duration.js -> /output/humanize-duration.js.sri
+2021/06/07 16:22:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/humanize-duration.js.br /tmp/work/humanize-duration.js
+2021/06/07 16:22:13 br /tmp/work/humanize-duration.js -> /output/humanize-duration.js.br
+2021/06/07 16:22:13 gz /tmp/work/humanize-duration.js -> /output/humanize-duration.js.gz
+2021/06/07 16:22:13 processed humanize-duration
