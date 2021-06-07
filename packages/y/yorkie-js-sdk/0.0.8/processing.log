@@ -1,0 +1,10 @@
+2021/06/07 20:34:13 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/yorkie.min.js /tmp/work/dist/yorkie.js
+2021/06/07 20:34:20 sri /tmp/work/dist/yorkie.min.js -> /output/yorkie.min.js.sri
+2021/06/07 20:34:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/yorkie.min.js.br /tmp/work/dist/yorkie.min.js
+2021/06/07 20:34:21 br /tmp/work/dist/yorkie.min.js -> /output/yorkie.min.js.br
+2021/06/07 20:34:21 gz /tmp/work/dist/yorkie.min.js -> /output/yorkie.min.js.gz
+2021/06/07 20:34:21 sri /tmp/work/dist/yorkie.js -> /output/yorkie.js.sri
+2021/06/07 20:34:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/yorkie.js.br /tmp/work/dist/yorkie.js
+2021/06/07 20:34:26 br /tmp/work/dist/yorkie.js -> /output/yorkie.js.br
+2021/06/07 20:34:26 gz /tmp/work/dist/yorkie.js -> /output/yorkie.js.gz
+2021/06/07 20:34:26 processed yorkie-js-sdk
