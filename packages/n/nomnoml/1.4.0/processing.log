@@ -1,0 +1,19 @@
+2021/06/07 14:01:44 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/nomnoml.min.js /tmp/work/dist/nomnoml.js
+2021/06/07 14:01:44 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/webapp.min.js /tmp/work/dist/webapp.js
+2021/06/07 14:01:45 sri /tmp/work/dist/nomnoml.min.js -> /output/nomnoml.min.js.sri
+2021/06/07 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nomnoml.min.js.br /tmp/work/dist/nomnoml.min.js
+2021/06/07 14:01:46 br /tmp/work/dist/nomnoml.min.js -> /output/nomnoml.min.js.br
+2021/06/07 14:01:46 gz /tmp/work/dist/nomnoml.min.js -> /output/nomnoml.min.js.gz
+2021/06/07 14:01:46 sri /tmp/work/dist/nomnoml.js -> /output/nomnoml.js.sri
+2021/06/07 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nomnoml.js.br /tmp/work/dist/nomnoml.js
+2021/06/07 14:01:46 br /tmp/work/dist/nomnoml.js -> /output/nomnoml.js.br
+2021/06/07 14:01:46 gz /tmp/work/dist/nomnoml.js -> /output/nomnoml.js.gz
+2021/06/07 14:01:47 sri /tmp/work/dist/webapp.min.js -> /output/webapp.min.js.sri
+2021/06/07 14:01:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/webapp.min.js.br /tmp/work/dist/webapp.min.js
+2021/06/07 14:01:48 br /tmp/work/dist/webapp.min.js -> /output/webapp.min.js.br
+2021/06/07 14:01:48 gz /tmp/work/dist/webapp.min.js -> /output/webapp.min.js.gz
+2021/06/07 14:01:48 sri /tmp/work/dist/webapp.js -> /output/webapp.js.sri
+2021/06/07 14:01:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/webapp.js.br /tmp/work/dist/webapp.js
+2021/06/07 14:01:48 br /tmp/work/dist/webapp.js -> /output/webapp.js.br
+2021/06/07 14:01:48 gz /tmp/work/dist/webapp.js -> /output/webapp.js.gz
+2021/06/07 14:01:48 processed nomnoml
