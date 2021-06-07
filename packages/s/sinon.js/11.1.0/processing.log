@@ -1,0 +1,19 @@
+2021/06/07 15:45:44 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/pkg/sinon-no-sourcemaps.min.js /tmp/work/pkg/sinon-no-sourcemaps.js
+2021/06/07 15:45:44 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/pkg/sinon.min.js /tmp/work/pkg/sinon.js
+2021/06/07 15:45:51 sri /tmp/work/pkg/sinon-no-sourcemaps.min.js -> /output/sinon-no-sourcemaps.min.js.sri
+2021/06/07 15:45:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sinon-no-sourcemaps.min.js.br /tmp/work/pkg/sinon-no-sourcemaps.min.js
+2021/06/07 15:45:51 sri /tmp/work/pkg/sinon.min.js -> /output/sinon.min.js.sri
+2021/06/07 15:45:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sinon.min.js.br /tmp/work/pkg/sinon.min.js
+2021/06/07 15:45:52 br /tmp/work/pkg/sinon-no-sourcemaps.min.js -> /output/sinon-no-sourcemaps.min.js.br
+2021/06/07 15:45:52 gz /tmp/work/pkg/sinon-no-sourcemaps.min.js -> /output/sinon-no-sourcemaps.min.js.gz
+2021/06/07 15:45:52 sri /tmp/work/pkg/sinon-no-sourcemaps.js -> /output/sinon-no-sourcemaps.js.sri
+2021/06/07 15:45:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sinon-no-sourcemaps.js.br /tmp/work/pkg/sinon-no-sourcemaps.js
+2021/06/07 15:45:52 br /tmp/work/pkg/sinon.min.js -> /output/sinon.min.js.br
+2021/06/07 15:45:52 gz /tmp/work/pkg/sinon.min.js -> /output/sinon.min.js.gz
+2021/06/07 15:45:52 sri /tmp/work/pkg/sinon.js -> /output/sinon.js.sri
+2021/06/07 15:45:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sinon.js.br /tmp/work/pkg/sinon.js
+2021/06/07 15:45:54 br /tmp/work/pkg/sinon-no-sourcemaps.js -> /output/sinon-no-sourcemaps.js.br
+2021/06/07 15:45:54 gz /tmp/work/pkg/sinon-no-sourcemaps.js -> /output/sinon-no-sourcemaps.js.gz
+2021/06/07 15:45:57 br /tmp/work/pkg/sinon.js -> /output/sinon.js.br
+2021/06/07 15:45:57 gz /tmp/work/pkg/sinon.js -> /output/sinon.js.gz
+2021/06/07 15:45:57 processed sinon.js
