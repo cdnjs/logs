@@ -1,0 +1,553 @@
+2021/06/07 17:37:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/base.min.js /tmp/work/dist/base.js
+2021/06/07 17:37:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/component/iterator.min.js /tmp/work/dist/component/iterator.js
+2021/06/07 17:37:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/component/sense.min.js /tmp/work/dist/component/sense.js
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/component/sense.js.map.br /tmp/work/dist/component/sense.js.map
+2021/06/07 17:37:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dom/collection.min.js /tmp/work/dist/dom/collection.js
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/base.js.map.br /tmp/work/dist/base.js.map
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/component/iterator.js.map.br /tmp/work/dist/component/iterator.js.map
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dom/collection.js.map.br /tmp/work/dist/dom/collection.js.map
+2021/06/07 17:37:41 br /tmp/work/dist/base.js.map -> /output/base.js.map.br
+2021/06/07 17:37:41 gz /tmp/work/dist/base.js.map -> /output/base.js.map.gz
+2021/06/07 17:37:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dom/element.min.js /tmp/work/dist/dom/element.js
+2021/06/07 17:37:41 br /tmp/work/dist/component/sense.js.map -> /output/component/sense.js.map.br
+2021/06/07 17:37:41 gz /tmp/work/dist/component/sense.js.map -> /output/component/sense.js.map.gz
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dom/element.js.map.br /tmp/work/dist/dom/element.js.map
+2021/06/07 17:37:41 br /tmp/work/dist/component/iterator.js.map -> /output/component/iterator.js.map.br
+2021/06/07 17:37:41 gz /tmp/work/dist/component/iterator.js.map -> /output/component/iterator.js.map.gz
+2021/06/07 17:37:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dom/element/appear.min.js /tmp/work/dist/dom/element/appear.js
+2021/06/07 17:37:41 br /tmp/work/dist/dom/collection.js.map -> /output/dom/collection.js.map.br
+2021/06/07 17:37:41 gz /tmp/work/dist/dom/collection.js.map -> /output/dom/collection.js.map.gz
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dom/element/appear.js.map.br /tmp/work/dist/dom/element/appear.js.map
+2021/06/07 17:37:41 br /tmp/work/dist/dom/element/appear.js.map -> /output/dom/element/appear.js.map.br
+2021/06/07 17:37:41 gz /tmp/work/dist/dom/element/appear.js.map -> /output/dom/element/appear.js.map.gz
+2021/06/07 17:37:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dom/element/resize.min.js /tmp/work/dist/dom/element/resize.js
+2021/06/07 17:37:41 br /tmp/work/dist/dom/element.js.map -> /output/dom/element.js.map.br
+2021/06/07 17:37:41 gz /tmp/work/dist/dom/element.js.map -> /output/dom/element.js.map.gz
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dom/element/resize.js.map.br /tmp/work/dist/dom/element/resize.js.map
+2021/06/07 17:37:41 br /tmp/work/dist/dom/element/resize.js.map -> /output/dom/element/resize.js.map.br
+2021/06/07 17:37:41 gz /tmp/work/dist/dom/element/resize.js.map -> /output/dom/element/resize.js.map.gz
+2021/06/07 17:37:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dom/event.min.js /tmp/work/dist/dom/event.js
+2021/06/07 17:37:41 sri /tmp/work/dist/base.min.js -> /output/base.min.js.sri
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/base.min.js.br /tmp/work/dist/base.min.js
+2021/06/07 17:37:41 sri /tmp/work/dist/component/sense.min.js -> /output/component/sense.min.js.sri
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/component/sense.min.js.br /tmp/work/dist/component/sense.min.js
+2021/06/07 17:37:41 br /tmp/work/dist/component/sense.min.js -> /output/component/sense.min.js.br
+2021/06/07 17:37:41 br /tmp/work/dist/base.min.js -> /output/base.min.js.br
+2021/06/07 17:37:41 gz /tmp/work/dist/component/sense.min.js -> /output/component/sense.min.js.gz
+2021/06/07 17:37:41 gz /tmp/work/dist/base.min.js -> /output/base.min.js.gz
+2021/06/07 17:37:41 sri /tmp/work/dist/base.js -> /output/base.js.sri
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/base.js.br /tmp/work/dist/base.js
+2021/06/07 17:37:41 sri /tmp/work/dist/component/sense.js -> /output/component/sense.js.sri
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/component/sense.js.br /tmp/work/dist/component/sense.js
+2021/06/07 17:37:41 br /tmp/work/dist/base.js -> /output/base.js.br
+2021/06/07 17:37:41 gz /tmp/work/dist/base.js -> /output/base.js.gz
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dom/event.js.map.br /tmp/work/dist/dom/event.js.map
+2021/06/07 17:37:41 br /tmp/work/dist/component/sense.js -> /output/component/sense.js.br
+2021/06/07 17:37:41 gz /tmp/work/dist/component/sense.js -> /output/component/sense.js.gz
+2021/06/07 17:37:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/emitter.min.js /tmp/work/dist/emitter.js
+2021/06/07 17:37:41 sri /tmp/work/dist/component/iterator.min.js -> /output/component/iterator.min.js.sri
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/component/iterator.min.js.br /tmp/work/dist/component/iterator.min.js
+2021/06/07 17:37:41 br /tmp/work/dist/dom/event.js.map -> /output/dom/event.js.map.br
+2021/06/07 17:37:41 gz /tmp/work/dist/dom/event.js.map -> /output/dom/event.js.map.gz
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/emitter.js.map.br /tmp/work/dist/emitter.js.map
+2021/06/07 17:37:41 br /tmp/work/dist/component/iterator.min.js -> /output/component/iterator.min.js.br
+2021/06/07 17:37:41 gz /tmp/work/dist/component/iterator.min.js -> /output/component/iterator.min.js.gz
+2021/06/07 17:37:41 sri /tmp/work/dist/component/iterator.js -> /output/component/iterator.js.sri
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/component/iterator.js.br /tmp/work/dist/component/iterator.js
+2021/06/07 17:37:41 br /tmp/work/dist/component/iterator.js -> /output/component/iterator.js.br
+2021/06/07 17:37:41 gz /tmp/work/dist/component/iterator.js -> /output/component/iterator.js.gz
+2021/06/07 17:37:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/function/debounce.min.js /tmp/work/dist/function/debounce.js
+2021/06/07 17:37:41 br /tmp/work/dist/emitter.js.map -> /output/emitter.js.map.br
+2021/06/07 17:37:41 gz /tmp/work/dist/emitter.js.map -> /output/emitter.js.map.gz
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/function/debounce.js.map.br /tmp/work/dist/function/debounce.js.map
+2021/06/07 17:37:41 br /tmp/work/dist/function/debounce.js.map -> /output/function/debounce.js.map.br
+2021/06/07 17:37:41 gz /tmp/work/dist/function/debounce.js.map -> /output/function/debounce.js.map.gz
+2021/06/07 17:37:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/function/merge.min.js /tmp/work/dist/function/merge.js
+2021/06/07 17:37:41 sri /tmp/work/dist/dom/element/resize.min.js -> /output/dom/element/resize.min.js.sri
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dom/element/resize.min.js.br /tmp/work/dist/dom/element/resize.min.js
+2021/06/07 17:37:41 br /tmp/work/dist/dom/element/resize.min.js -> /output/dom/element/resize.min.js.br
+2021/06/07 17:37:41 gz /tmp/work/dist/dom/element/resize.min.js -> /output/dom/element/resize.min.js.gz
+2021/06/07 17:37:41 sri /tmp/work/dist/dom/element/resize.js -> /output/dom/element/resize.js.sri
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dom/element/resize.js.br /tmp/work/dist/dom/element/resize.js
+2021/06/07 17:37:41 sri /tmp/work/dist/dom/element/appear.min.js -> /output/dom/element/appear.min.js.sri
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dom/element/appear.min.js.br /tmp/work/dist/dom/element/appear.min.js
+2021/06/07 17:37:41 br /tmp/work/dist/dom/element/resize.js -> /output/dom/element/resize.js.br
+2021/06/07 17:37:41 gz /tmp/work/dist/dom/element/resize.js -> /output/dom/element/resize.js.gz
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/function/merge.js.map.br /tmp/work/dist/function/merge.js.map
+2021/06/07 17:37:41 br /tmp/work/dist/dom/element/appear.min.js -> /output/dom/element/appear.min.js.br
+2021/06/07 17:37:41 gz /tmp/work/dist/dom/element/appear.min.js -> /output/dom/element/appear.min.js.gz
+2021/06/07 17:37:41 sri /tmp/work/dist/dom/element/appear.js -> /output/dom/element/appear.js.sri
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dom/element/appear.js.br /tmp/work/dist/dom/element/appear.js
+2021/06/07 17:37:41 br /tmp/work/dist/function/merge.js.map -> /output/function/merge.js.map.br
+2021/06/07 17:37:41 gz /tmp/work/dist/function/merge.js.map -> /output/function/merge.js.map.gz
+2021/06/07 17:37:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/function/property/unify.min.js /tmp/work/dist/function/property/unify.js
+2021/06/07 17:37:41 br /tmp/work/dist/dom/element/appear.js -> /output/dom/element/appear.js.br
+2021/06/07 17:37:41 gz /tmp/work/dist/dom/element/appear.js -> /output/dom/element/appear.js.gz
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/function/property/unify.js.map.br /tmp/work/dist/function/property/unify.js.map
+2021/06/07 17:37:41 br /tmp/work/dist/function/property/unify.js.map -> /output/function/property/unify.js.map.br
+2021/06/07 17:37:41 gz /tmp/work/dist/function/property/unify.js.map -> /output/function/property/unify.js.map.gz
+2021/06/07 17:37:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/function/string/lcfirst.min.js /tmp/work/dist/function/string/lcfirst.js
+2021/06/07 17:37:41 sri /tmp/work/dist/dom/collection.min.js -> /output/dom/collection.min.js.sri
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dom/collection.min.js.br /tmp/work/dist/dom/collection.min.js
+2021/06/07 17:37:41 br /tmp/work/dist/dom/collection.min.js -> /output/dom/collection.min.js.br
+2021/06/07 17:37:41 gz /tmp/work/dist/dom/collection.min.js -> /output/dom/collection.min.js.gz
+2021/06/07 17:37:41 sri /tmp/work/dist/dom/collection.js -> /output/dom/collection.js.sri
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dom/collection.js.br /tmp/work/dist/dom/collection.js
+2021/06/07 17:37:41 br /tmp/work/dist/dom/collection.js -> /output/dom/collection.js.br
+2021/06/07 17:37:41 gz /tmp/work/dist/dom/collection.js -> /output/dom/collection.js.gz
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/function/string/lcfirst.js.map.br /tmp/work/dist/function/string/lcfirst.js.map
+2021/06/07 17:37:41 sri /tmp/work/dist/dom/event.min.js -> /output/dom/event.min.js.sri
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dom/event.min.js.br /tmp/work/dist/dom/event.min.js
+2021/06/07 17:37:41 br /tmp/work/dist/function/string/lcfirst.js.map -> /output/function/string/lcfirst.js.map.br
+2021/06/07 17:37:41 gz /tmp/work/dist/function/string/lcfirst.js.map -> /output/function/string/lcfirst.js.map.gz
+2021/06/07 17:37:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/function/string/ucfirst.min.js /tmp/work/dist/function/string/ucfirst.js
+2021/06/07 17:37:41 br /tmp/work/dist/dom/event.min.js -> /output/dom/event.min.js.br
+2021/06/07 17:37:41 gz /tmp/work/dist/dom/event.min.js -> /output/dom/event.min.js.gz
+2021/06/07 17:37:41 sri /tmp/work/dist/dom/event.js -> /output/dom/event.js.sri
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dom/event.js.br /tmp/work/dist/dom/event.js
+2021/06/07 17:37:41 br /tmp/work/dist/dom/event.js -> /output/dom/event.js.br
+2021/06/07 17:37:41 gz /tmp/work/dist/dom/event.js -> /output/dom/event.js.gz
+2021/06/07 17:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/function/string/ucfirst.js.map.br /tmp/work/dist/function/string/ucfirst.js.map
+2021/06/07 17:37:41 br /tmp/work/dist/function/string/ucfirst.js.map -> /output/function/string/ucfirst.js.map.br
+2021/06/07 17:37:41 gz /tmp/work/dist/function/string/ucfirst.js.map -> /output/function/string/ucfirst.js.map.gz
+2021/06/07 17:37:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/hooks/css.min.js /tmp/work/dist/hooks/css.js
+2021/06/07 17:37:42 sri /tmp/work/dist/function/debounce.min.js -> /output/function/debounce.min.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/function/debounce.min.js.br /tmp/work/dist/function/debounce.min.js
+2021/06/07 17:37:42 br /tmp/work/dist/function/debounce.min.js -> /output/function/debounce.min.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/function/debounce.min.js -> /output/function/debounce.min.js.gz
+2021/06/07 17:37:42 sri /tmp/work/dist/function/debounce.js -> /output/function/debounce.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/function/debounce.js.br /tmp/work/dist/function/debounce.js
+2021/06/07 17:37:42 br /tmp/work/dist/function/debounce.js -> /output/function/debounce.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/function/debounce.js -> /output/function/debounce.js.gz
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hooks/css.js.map.br /tmp/work/dist/hooks/css.js.map
+2021/06/07 17:37:42 br /tmp/work/dist/hooks/css.js.map -> /output/hooks/css.js.map.br
+2021/06/07 17:37:42 gz /tmp/work/dist/hooks/css.js.map -> /output/hooks/css.js.map.gz
+2021/06/07 17:37:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/hooks/event.min.js /tmp/work/dist/hooks/event.js
+2021/06/07 17:37:42 sri /tmp/work/dist/function/property/unify.min.js -> /output/function/property/unify.min.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/function/property/unify.min.js.br /tmp/work/dist/function/property/unify.min.js
+2021/06/07 17:37:42 br /tmp/work/dist/function/property/unify.min.js -> /output/function/property/unify.min.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/function/property/unify.min.js -> /output/function/property/unify.min.js.gz
+2021/06/07 17:37:42 sri /tmp/work/dist/function/property/unify.js -> /output/function/property/unify.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/function/property/unify.js.br /tmp/work/dist/function/property/unify.js
+2021/06/07 17:37:42 sri /tmp/work/dist/function/merge.min.js -> /output/function/merge.min.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/function/merge.min.js.br /tmp/work/dist/function/merge.min.js
+2021/06/07 17:37:42 sri /tmp/work/dist/function/string/lcfirst.min.js -> /output/function/string/lcfirst.min.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/function/string/lcfirst.min.js.br /tmp/work/dist/function/string/lcfirst.min.js
+2021/06/07 17:37:42 br /tmp/work/dist/function/property/unify.js -> /output/function/property/unify.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/function/property/unify.js -> /output/function/property/unify.js.gz
+2021/06/07 17:37:42 br /tmp/work/dist/function/merge.min.js -> /output/function/merge.min.js.br
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hooks/event.js.map.br /tmp/work/dist/hooks/event.js.map
+2021/06/07 17:37:42 br /tmp/work/dist/function/string/lcfirst.min.js -> /output/function/string/lcfirst.min.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/function/string/lcfirst.min.js -> /output/function/string/lcfirst.min.js.gz
+2021/06/07 17:37:42 sri /tmp/work/dist/function/string/lcfirst.js -> /output/function/string/lcfirst.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/function/string/lcfirst.js.br /tmp/work/dist/function/string/lcfirst.js
+2021/06/07 17:37:42 gz /tmp/work/dist/function/merge.min.js -> /output/function/merge.min.js.gz
+2021/06/07 17:37:42 sri /tmp/work/dist/function/merge.js -> /output/function/merge.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/function/merge.js.br /tmp/work/dist/function/merge.js
+2021/06/07 17:37:42 sri /tmp/work/dist/emitter.min.js -> /output/emitter.min.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/emitter.min.js.br /tmp/work/dist/emitter.min.js
+2021/06/07 17:37:42 br /tmp/work/dist/function/merge.js -> /output/function/merge.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/function/merge.js -> /output/function/merge.js.gz
+2021/06/07 17:37:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/polyfill/window/matchmedia.min.js /tmp/work/dist/polyfill/window/matchmedia.js
+2021/06/07 17:37:42 sri /tmp/work/dist/function/string/ucfirst.min.js -> /output/function/string/ucfirst.min.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/function/string/ucfirst.min.js.br /tmp/work/dist/function/string/ucfirst.min.js
+2021/06/07 17:37:42 br /tmp/work/dist/function/string/lcfirst.js -> /output/function/string/lcfirst.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/function/string/lcfirst.js -> /output/function/string/lcfirst.js.gz
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/polyfill/window/matchmedia.js.map.br /tmp/work/dist/polyfill/window/matchmedia.js.map
+2021/06/07 17:37:42 br /tmp/work/dist/emitter.min.js -> /output/emitter.min.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/emitter.min.js -> /output/emitter.min.js.gz
+2021/06/07 17:37:42 sri /tmp/work/dist/emitter.js -> /output/emitter.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/emitter.js.br /tmp/work/dist/emitter.js
+2021/06/07 17:37:42 br /tmp/work/dist/function/string/ucfirst.min.js -> /output/function/string/ucfirst.min.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/function/string/ucfirst.min.js -> /output/function/string/ucfirst.min.js.gz
+2021/06/07 17:37:42 sri /tmp/work/dist/function/string/ucfirst.js -> /output/function/string/ucfirst.js.sri
+2021/06/07 17:37:42 br /tmp/work/dist/hooks/event.js.map -> /output/hooks/event.js.map.br
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/function/string/ucfirst.js.br /tmp/work/dist/function/string/ucfirst.js
+2021/06/07 17:37:42 gz /tmp/work/dist/hooks/event.js.map -> /output/hooks/event.js.map.gz
+2021/06/07 17:37:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/support/css/property.min.js /tmp/work/dist/support/css/property.js
+2021/06/07 17:37:42 br /tmp/work/dist/emitter.js -> /output/emitter.js.br
+2021/06/07 17:37:42 br /tmp/work/dist/function/string/ucfirst.js -> /output/function/string/ucfirst.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/function/string/ucfirst.js -> /output/function/string/ucfirst.js.gz
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/css/property.js.map.br /tmp/work/dist/support/css/property.js.map
+2021/06/07 17:37:42 gz /tmp/work/dist/emitter.js -> /output/emitter.js.gz
+2021/06/07 17:37:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/support/method.min.js /tmp/work/dist/support/method.js
+2021/06/07 17:37:42 br /tmp/work/dist/polyfill/window/matchmedia.js.map -> /output/polyfill/window/matchmedia.js.map.br
+2021/06/07 17:37:42 gz /tmp/work/dist/polyfill/window/matchmedia.js.map -> /output/polyfill/window/matchmedia.js.map.gz
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/method.js.map.br /tmp/work/dist/support/method.js.map
+2021/06/07 17:37:42 br /tmp/work/dist/support/css/property.js.map -> /output/support/css/property.js.map.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/css/property.js.map -> /output/support/css/property.js.map.gz
+2021/06/07 17:37:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/support/prefix.min.js /tmp/work/dist/support/prefix.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/method.js.map -> /output/support/method.js.map.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/method.js.map -> /output/support/method.js.map.gz
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/prefix.js.map.br /tmp/work/dist/support/prefix.js.map
+2021/06/07 17:37:42 br /tmp/work/dist/support/prefix.js.map -> /output/support/prefix.js.map.br
+2021/06/07 17:37:42 sri /tmp/work/dist/dom/element.min.js -> /output/dom/element.min.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dom/element.min.js.br /tmp/work/dist/dom/element.min.js
+2021/06/07 17:37:42 gz /tmp/work/dist/support/prefix.js.map -> /output/support/prefix.js.map.gz
+2021/06/07 17:37:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/support/property.min.js /tmp/work/dist/support/property.js
+2021/06/07 17:37:42 br /tmp/work/dist/dom/element.min.js -> /output/dom/element.min.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/dom/element.min.js -> /output/dom/element.min.js.gz
+2021/06/07 17:37:42 sri /tmp/work/dist/dom/element.js -> /output/dom/element.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dom/element.js.br /tmp/work/dist/dom/element.js
+2021/06/07 17:37:42 sri /tmp/work/dist/hooks/css.min.js -> /output/hooks/css.min.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hooks/css.min.js.br /tmp/work/dist/hooks/css.min.js
+2021/06/07 17:37:42 br /tmp/work/dist/hooks/css.min.js -> /output/hooks/css.min.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/hooks/css.min.js -> /output/hooks/css.min.js.gz
+2021/06/07 17:37:42 sri /tmp/work/dist/hooks/css.js -> /output/hooks/css.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hooks/css.js.br /tmp/work/dist/hooks/css.js
+2021/06/07 17:37:42 br /tmp/work/dist/hooks/css.js -> /output/hooks/css.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/hooks/css.js -> /output/hooks/css.js.gz
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/property.js.map.br /tmp/work/dist/support/property.js.map
+2021/06/07 17:37:42 br /tmp/work/dist/dom/element.js -> /output/dom/element.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/dom/element.js -> /output/dom/element.js.gz
+2021/06/07 17:37:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/support/test/capability/datauri.min.js /tmp/work/dist/support/test/capability/datauri.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/property.js.map -> /output/support/property.js.map.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/property.js.map -> /output/support/property.js.map.gz
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/capability/datauri.js.map.br /tmp/work/dist/support/test/capability/datauri.js.map
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/capability/datauri.js.map -> /output/support/test/capability/datauri.js.map.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/capability/datauri.js.map -> /output/support/test/capability/datauri.js.map.gz
+2021/06/07 17:37:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/support/test/capability/touch.min.js /tmp/work/dist/support/test/capability/touch.js
+2021/06/07 17:37:42 sri /tmp/work/dist/hooks/event.min.js -> /output/hooks/event.min.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hooks/event.min.js.br /tmp/work/dist/hooks/event.min.js
+2021/06/07 17:37:42 br /tmp/work/dist/hooks/event.min.js -> /output/hooks/event.min.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/hooks/event.min.js -> /output/hooks/event.min.js.gz
+2021/06/07 17:37:42 sri /tmp/work/dist/hooks/event.js -> /output/hooks/event.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hooks/event.js.br /tmp/work/dist/hooks/event.js
+2021/06/07 17:37:42 br /tmp/work/dist/hooks/event.js -> /output/hooks/event.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/hooks/event.js -> /output/hooks/event.js.gz
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/capability/touch.js.map.br /tmp/work/dist/support/test/capability/touch.js.map
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/capability/touch.js.map -> /output/support/test/capability/touch.js.map.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/capability/touch.js.map -> /output/support/test/capability/touch.js.map.gz
+2021/06/07 17:37:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/support/test/css/borderradius.min.js /tmp/work/dist/support/test/css/borderradius.js
+2021/06/07 17:37:42 sri /tmp/work/dist/polyfill/window/matchmedia.min.js -> /output/polyfill/window/matchmedia.min.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/polyfill/window/matchmedia.min.js.br /tmp/work/dist/polyfill/window/matchmedia.min.js
+2021/06/07 17:37:42 sri /tmp/work/dist/support/method.min.js -> /output/support/method.min.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/method.min.js.br /tmp/work/dist/support/method.min.js
+2021/06/07 17:37:42 sri /tmp/work/dist/support/css/property.min.js -> /output/support/css/property.min.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/css/property.min.js.br /tmp/work/dist/support/css/property.min.js
+2021/06/07 17:37:42 br /tmp/work/dist/polyfill/window/matchmedia.min.js -> /output/polyfill/window/matchmedia.min.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/polyfill/window/matchmedia.min.js -> /output/polyfill/window/matchmedia.min.js.gz
+2021/06/07 17:37:42 sri /tmp/work/dist/polyfill/window/matchmedia.js -> /output/polyfill/window/matchmedia.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/polyfill/window/matchmedia.js.br /tmp/work/dist/polyfill/window/matchmedia.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/method.min.js -> /output/support/method.min.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/method.min.js -> /output/support/method.min.js.gz
+2021/06/07 17:37:42 sri /tmp/work/dist/support/method.js -> /output/support/method.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/method.js.br /tmp/work/dist/support/method.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/css/property.min.js -> /output/support/css/property.min.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/css/property.min.js -> /output/support/css/property.min.js.gz
+2021/06/07 17:37:42 sri /tmp/work/dist/support/css/property.js -> /output/support/css/property.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/css/property.js.br /tmp/work/dist/support/css/property.js
+2021/06/07 17:37:42 sri /tmp/work/dist/support/prefix.min.js -> /output/support/prefix.min.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/prefix.min.js.br /tmp/work/dist/support/prefix.min.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/method.js -> /output/support/method.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/method.js -> /output/support/method.js.gz
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/css/borderradius.js.map.br /tmp/work/dist/support/test/css/borderradius.js.map
+2021/06/07 17:37:42 br /tmp/work/dist/polyfill/window/matchmedia.js -> /output/polyfill/window/matchmedia.js.br
+2021/06/07 17:37:42 br /tmp/work/dist/support/css/property.js -> /output/support/css/property.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/polyfill/window/matchmedia.js -> /output/polyfill/window/matchmedia.js.gz
+2021/06/07 17:37:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/support/test/css/boxshadow.min.js /tmp/work/dist/support/test/css/boxshadow.js
+2021/06/07 17:37:42 gz /tmp/work/dist/support/css/property.js -> /output/support/css/property.js.gz
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/css/boxshadow.js.map.br /tmp/work/dist/support/test/css/boxshadow.js.map
+2021/06/07 17:37:42 br /tmp/work/dist/support/prefix.min.js -> /output/support/prefix.min.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/prefix.min.js -> /output/support/prefix.min.js.gz
+2021/06/07 17:37:42 sri /tmp/work/dist/support/prefix.js -> /output/support/prefix.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/prefix.js.br /tmp/work/dist/support/prefix.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/css/borderradius.js.map -> /output/support/test/css/borderradius.js.map.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/css/borderradius.js.map -> /output/support/test/css/borderradius.js.map.gz
+2021/06/07 17:37:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/support/test/css/rem.min.js /tmp/work/dist/support/test/css/rem.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/prefix.js -> /output/support/prefix.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/prefix.js -> /output/support/prefix.js.gz
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/css/rem.js.map.br /tmp/work/dist/support/test/css/rem.js.map
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/css/boxshadow.js.map -> /output/support/test/css/boxshadow.js.map.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/css/boxshadow.js.map -> /output/support/test/css/boxshadow.js.map.gz
+2021/06/07 17:37:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/support/test/css/rgba.min.js /tmp/work/dist/support/test/css/rgba.js
+2021/06/07 17:37:42 sri /tmp/work/dist/support/property.min.js -> /output/support/property.min.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/property.min.js.br /tmp/work/dist/support/property.min.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/css/rem.js.map -> /output/support/test/css/rem.js.map.br
+2021/06/07 17:37:42 sri /tmp/work/dist/support/test/capability/datauri.min.js -> /output/support/test/capability/datauri.min.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/capability/datauri.min.js.br /tmp/work/dist/support/test/capability/datauri.min.js
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/css/rem.js.map -> /output/support/test/css/rem.js.map.gz
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/css/rgba.js.map.br /tmp/work/dist/support/test/css/rgba.js.map
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/capability/datauri.min.js -> /output/support/test/capability/datauri.min.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/capability/datauri.min.js -> /output/support/test/capability/datauri.min.js.gz
+2021/06/07 17:37:42 sri /tmp/work/dist/support/test/capability/datauri.js -> /output/support/test/capability/datauri.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/capability/datauri.js.br /tmp/work/dist/support/test/capability/datauri.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/property.min.js -> /output/support/property.min.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/property.min.js -> /output/support/property.min.js.gz
+2021/06/07 17:37:42 sri /tmp/work/dist/support/property.js -> /output/support/property.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/property.js.br /tmp/work/dist/support/property.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/css/rgba.js.map -> /output/support/test/css/rgba.js.map.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/css/rgba.js.map -> /output/support/test/css/rgba.js.map.gz
+2021/06/07 17:37:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/support/test/css/textshadow.min.js /tmp/work/dist/support/test/css/textshadow.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/capability/datauri.js -> /output/support/test/capability/datauri.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/capability/datauri.js -> /output/support/test/capability/datauri.js.gz
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/css/textshadow.js.map.br /tmp/work/dist/support/test/css/textshadow.js.map
+2021/06/07 17:37:42 br /tmp/work/dist/support/property.js -> /output/support/property.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/property.js -> /output/support/property.js.gz
+2021/06/07 17:37:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/support/test/css/transform.min.js /tmp/work/dist/support/test/css/transform.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/css/textshadow.js.map -> /output/support/test/css/textshadow.js.map.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/css/textshadow.js.map -> /output/support/test/css/textshadow.js.map.gz
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/css/transform.js.map.br /tmp/work/dist/support/test/css/transform.js.map
+2021/06/07 17:37:42 sri /tmp/work/dist/support/test/capability/touch.min.js -> /output/support/test/capability/touch.min.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/capability/touch.min.js.br /tmp/work/dist/support/test/capability/touch.min.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/css/transform.js.map -> /output/support/test/css/transform.js.map.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/css/transform.js.map -> /output/support/test/css/transform.js.map.gz
+2021/06/07 17:37:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/support/test/css/transform/2d.min.js /tmp/work/dist/support/test/css/transform/2d.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/capability/touch.min.js -> /output/support/test/capability/touch.min.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/capability/touch.min.js -> /output/support/test/capability/touch.min.js.gz
+2021/06/07 17:37:42 sri /tmp/work/dist/support/test/capability/touch.js -> /output/support/test/capability/touch.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/capability/touch.js.br /tmp/work/dist/support/test/capability/touch.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/capability/touch.js -> /output/support/test/capability/touch.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/capability/touch.js -> /output/support/test/capability/touch.js.gz
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/css/transform/2d.js.map.br /tmp/work/dist/support/test/css/transform/2d.js.map
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/css/transform/2d.js.map -> /output/support/test/css/transform/2d.js.map.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/css/transform/2d.js.map -> /output/support/test/css/transform/2d.js.map.gz
+2021/06/07 17:37:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/support/test/css/transform/3d.min.js /tmp/work/dist/support/test/css/transform/3d.js
+2021/06/07 17:37:42 sri /tmp/work/dist/support/test/css/borderradius.min.js -> /output/support/test/css/borderradius.min.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/css/borderradius.min.js.br /tmp/work/dist/support/test/css/borderradius.min.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/css/borderradius.min.js -> /output/support/test/css/borderradius.min.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/css/borderradius.min.js -> /output/support/test/css/borderradius.min.js.gz
+2021/06/07 17:37:42 sri /tmp/work/dist/support/test/css/borderradius.js -> /output/support/test/css/borderradius.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/css/borderradius.js.br /tmp/work/dist/support/test/css/borderradius.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/css/borderradius.js -> /output/support/test/css/borderradius.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/css/borderradius.js -> /output/support/test/css/borderradius.js.gz
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/css/transform/3d.js.map.br /tmp/work/dist/support/test/css/transform/3d.js.map
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/css/transform/3d.js.map -> /output/support/test/css/transform/3d.js.map.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/css/transform/3d.js.map -> /output/support/test/css/transform/3d.js.map.gz
+2021/06/07 17:37:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/support/test/css/transition.min.js /tmp/work/dist/support/test/css/transition.js
+2021/06/07 17:37:42 sri /tmp/work/dist/support/test/css/boxshadow.min.js -> /output/support/test/css/boxshadow.min.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/css/boxshadow.min.js.br /tmp/work/dist/support/test/css/boxshadow.min.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/css/boxshadow.min.js -> /output/support/test/css/boxshadow.min.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/css/boxshadow.min.js -> /output/support/test/css/boxshadow.min.js.gz
+2021/06/07 17:37:42 sri /tmp/work/dist/support/test/css/boxshadow.js -> /output/support/test/css/boxshadow.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/css/boxshadow.js.br /tmp/work/dist/support/test/css/boxshadow.js
+2021/06/07 17:37:42 sri /tmp/work/dist/support/test/css/rgba.min.js -> /output/support/test/css/rgba.min.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/css/rgba.min.js.br /tmp/work/dist/support/test/css/rgba.min.js
+2021/06/07 17:37:42 sri /tmp/work/dist/support/test/css/rem.min.js -> /output/support/test/css/rem.min.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/css/rem.min.js.br /tmp/work/dist/support/test/css/rem.min.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/css/rgba.min.js -> /output/support/test/css/rgba.min.js.br
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/css/boxshadow.js -> /output/support/test/css/boxshadow.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/css/rgba.min.js -> /output/support/test/css/rgba.min.js.gz
+2021/06/07 17:37:42 sri /tmp/work/dist/support/test/css/rgba.js -> /output/support/test/css/rgba.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/css/rgba.js.br /tmp/work/dist/support/test/css/rgba.js
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/css/boxshadow.js -> /output/support/test/css/boxshadow.js.gz
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/css/transition.js.map.br /tmp/work/dist/support/test/css/transition.js.map
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/css/rem.min.js -> /output/support/test/css/rem.min.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/css/rem.min.js -> /output/support/test/css/rem.min.js.gz
+2021/06/07 17:37:42 sri /tmp/work/dist/support/test/css/rem.js -> /output/support/test/css/rem.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/css/rem.js.br /tmp/work/dist/support/test/css/rem.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/css/rgba.js -> /output/support/test/css/rgba.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/css/rgba.js -> /output/support/test/css/rgba.js.gz
+2021/06/07 17:37:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/support/test/dom/listener/passive.min.js /tmp/work/dist/support/test/dom/listener/passive.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/css/rem.js -> /output/support/test/css/rem.js.br
+2021/06/07 17:37:42 sri /tmp/work/dist/support/test/css/textshadow.min.js -> /output/support/test/css/textshadow.min.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/css/textshadow.min.js.br /tmp/work/dist/support/test/css/textshadow.min.js
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/css/rem.js -> /output/support/test/css/rem.js.gz
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/css/transition.js.map -> /output/support/test/css/transition.js.map.br
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/dom/listener/passive.js.map.br /tmp/work/dist/support/test/dom/listener/passive.js.map
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/css/transition.js.map -> /output/support/test/css/transition.js.map.gz
+2021/06/07 17:37:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/support/test/element/canvas.min.js /tmp/work/dist/support/test/element/canvas.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/css/textshadow.min.js -> /output/support/test/css/textshadow.min.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/css/textshadow.min.js -> /output/support/test/css/textshadow.min.js.gz
+2021/06/07 17:37:42 sri /tmp/work/dist/support/test/css/textshadow.js -> /output/support/test/css/textshadow.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/css/textshadow.js.br /tmp/work/dist/support/test/css/textshadow.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/dom/listener/passive.js.map -> /output/support/test/dom/listener/passive.js.map.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/dom/listener/passive.js.map -> /output/support/test/dom/listener/passive.js.map.gz
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/canvas.js.map.br /tmp/work/dist/support/test/element/canvas.js.map
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/css/textshadow.js -> /output/support/test/css/textshadow.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/css/textshadow.js -> /output/support/test/css/textshadow.js.gz
+2021/06/07 17:37:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/support/test/element/canvas/todataurl.min.js /tmp/work/dist/support/test/element/canvas/todataurl.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/element/canvas.js.map -> /output/support/test/element/canvas.js.map.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/element/canvas.js.map -> /output/support/test/element/canvas.js.map.gz
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/canvas/todataurl.js.map.br /tmp/work/dist/support/test/element/canvas/todataurl.js.map
+2021/06/07 17:37:42 sri /tmp/work/dist/support/test/css/transform.min.js -> /output/support/test/css/transform.min.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/css/transform.min.js.br /tmp/work/dist/support/test/css/transform.min.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/element/canvas/todataurl.js.map -> /output/support/test/element/canvas/todataurl.js.map.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/element/canvas/todataurl.js.map -> /output/support/test/element/canvas/todataurl.js.map.gz
+2021/06/07 17:37:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/support/test/element/canvas/todataurl/jpeg.min.js /tmp/work/dist/support/test/element/canvas/todataurl/jpeg.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/css/transform.min.js -> /output/support/test/css/transform.min.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/css/transform.min.js -> /output/support/test/css/transform.min.js.gz
+2021/06/07 17:37:42 sri /tmp/work/dist/support/test/css/transform.js -> /output/support/test/css/transform.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/css/transform.js.br /tmp/work/dist/support/test/css/transform.js
+2021/06/07 17:37:42 sri /tmp/work/dist/support/test/css/transform/2d.min.js -> /output/support/test/css/transform/2d.min.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/css/transform/2d.min.js.br /tmp/work/dist/support/test/css/transform/2d.min.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/css/transform.js -> /output/support/test/css/transform.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/css/transform.js -> /output/support/test/css/transform.js.gz
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/canvas/todataurl/jpeg.js.map.br /tmp/work/dist/support/test/element/canvas/todataurl/jpeg.js.map
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/css/transform/2d.min.js -> /output/support/test/css/transform/2d.min.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/css/transform/2d.min.js -> /output/support/test/css/transform/2d.min.js.gz
+2021/06/07 17:37:42 sri /tmp/work/dist/support/test/css/transform/2d.js -> /output/support/test/css/transform/2d.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/css/transform/2d.js.br /tmp/work/dist/support/test/css/transform/2d.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/element/canvas/todataurl/jpeg.js.map -> /output/support/test/element/canvas/todataurl/jpeg.js.map.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/element/canvas/todataurl/jpeg.js.map -> /output/support/test/element/canvas/todataurl/jpeg.js.map.gz
+2021/06/07 17:37:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/support/test/element/canvas/todataurl/png.min.js /tmp/work/dist/support/test/element/canvas/todataurl/png.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/css/transform/2d.js -> /output/support/test/css/transform/2d.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/css/transform/2d.js -> /output/support/test/css/transform/2d.js.gz
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/canvas/todataurl/png.js.map.br /tmp/work/dist/support/test/element/canvas/todataurl/png.js.map
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/element/canvas/todataurl/png.js.map -> /output/support/test/element/canvas/todataurl/png.js.map.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/element/canvas/todataurl/png.js.map -> /output/support/test/element/canvas/todataurl/png.js.map.gz
+2021/06/07 17:37:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/support/test/element/canvas/todataurl/webp.min.js /tmp/work/dist/support/test/element/canvas/todataurl/webp.js
+2021/06/07 17:37:42 sri /tmp/work/dist/support/test/css/transform/3d.min.js -> /output/support/test/css/transform/3d.min.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/css/transform/3d.min.js.br /tmp/work/dist/support/test/css/transform/3d.min.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/css/transform/3d.min.js -> /output/support/test/css/transform/3d.min.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/css/transform/3d.min.js -> /output/support/test/css/transform/3d.min.js.gz
+2021/06/07 17:37:42 sri /tmp/work/dist/support/test/css/transform/3d.js -> /output/support/test/css/transform/3d.js.sri
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/css/transform/3d.js.br /tmp/work/dist/support/test/css/transform/3d.js
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/css/transform/3d.js -> /output/support/test/css/transform/3d.js.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/css/transform/3d.js -> /output/support/test/css/transform/3d.js.gz
+2021/06/07 17:37:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/canvas/todataurl/webp.js.map.br /tmp/work/dist/support/test/element/canvas/todataurl/webp.js.map
+2021/06/07 17:37:42 br /tmp/work/dist/support/test/element/canvas/todataurl/webp.js.map -> /output/support/test/element/canvas/todataurl/webp.js.map.br
+2021/06/07 17:37:42 gz /tmp/work/dist/support/test/element/canvas/todataurl/webp.js.map -> /output/support/test/element/canvas/todataurl/webp.js.map.gz
+2021/06/07 17:37:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/support/test/element/svg.min.js /tmp/work/dist/support/test/element/svg.js
+2021/06/07 17:37:43 sri /tmp/work/dist/support/test/css/transition.min.js -> /output/support/test/css/transition.min.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/css/transition.min.js.br /tmp/work/dist/support/test/css/transition.min.js
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/css/transition.min.js -> /output/support/test/css/transition.min.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/css/transition.min.js -> /output/support/test/css/transition.min.js.gz
+2021/06/07 17:37:43 sri /tmp/work/dist/support/test/css/transition.js -> /output/support/test/css/transition.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/css/transition.js.br /tmp/work/dist/support/test/css/transition.js
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/css/transition.js -> /output/support/test/css/transition.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/css/transition.js -> /output/support/test/css/transition.js.gz
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/svg.js.map.br /tmp/work/dist/support/test/element/svg.js.map
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/element/svg.js.map -> /output/support/test/element/svg.js.map.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/element/svg.js.map -> /output/support/test/element/svg.js.map.gz
+2021/06/07 17:37:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/support/test/element/video.min.js /tmp/work/dist/support/test/element/video.js
+2021/06/07 17:37:43 sri /tmp/work/dist/support/test/dom/listener/passive.min.js -> /output/support/test/dom/listener/passive.min.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/dom/listener/passive.min.js.br /tmp/work/dist/support/test/dom/listener/passive.min.js
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/dom/listener/passive.min.js -> /output/support/test/dom/listener/passive.min.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/dom/listener/passive.min.js -> /output/support/test/dom/listener/passive.min.js.gz
+2021/06/07 17:37:43 sri /tmp/work/dist/support/test/dom/listener/passive.js -> /output/support/test/dom/listener/passive.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/dom/listener/passive.js.br /tmp/work/dist/support/test/dom/listener/passive.js
+2021/06/07 17:37:43 sri /tmp/work/dist/support/test/element/canvas/todataurl.min.js -> /output/support/test/element/canvas/todataurl.min.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/canvas/todataurl.min.js.br /tmp/work/dist/support/test/element/canvas/todataurl.min.js
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/dom/listener/passive.js -> /output/support/test/dom/listener/passive.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/dom/listener/passive.js -> /output/support/test/dom/listener/passive.js.gz
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/video.js.map.br /tmp/work/dist/support/test/element/video.js.map
+2021/06/07 17:37:43 sri /tmp/work/dist/support/test/element/canvas.min.js -> /output/support/test/element/canvas.min.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/canvas.min.js.br /tmp/work/dist/support/test/element/canvas.min.js
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/element/canvas/todataurl.min.js -> /output/support/test/element/canvas/todataurl.min.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/element/canvas/todataurl.min.js -> /output/support/test/element/canvas/todataurl.min.js.gz
+2021/06/07 17:37:43 sri /tmp/work/dist/support/test/element/canvas/todataurl.js -> /output/support/test/element/canvas/todataurl.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/canvas/todataurl.js.br /tmp/work/dist/support/test/element/canvas/todataurl.js
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/element/canvas.min.js -> /output/support/test/element/canvas.min.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/element/canvas.min.js -> /output/support/test/element/canvas.min.js.gz
+2021/06/07 17:37:43 sri /tmp/work/dist/support/test/element/canvas.js -> /output/support/test/element/canvas.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/canvas.js.br /tmp/work/dist/support/test/element/canvas.js
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/element/video.js.map -> /output/support/test/element/video.js.map.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/element/video.js.map -> /output/support/test/element/video.js.map.gz
+2021/06/07 17:37:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/support/test/element/video/mp4.min.js /tmp/work/dist/support/test/element/video/mp4.js
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/element/canvas/todataurl.js -> /output/support/test/element/canvas/todataurl.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/element/canvas/todataurl.js -> /output/support/test/element/canvas/todataurl.js.gz
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/video/mp4.js.map.br /tmp/work/dist/support/test/element/video/mp4.js.map
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/element/video/mp4.js.map -> /output/support/test/element/video/mp4.js.map.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/element/video/mp4.js.map -> /output/support/test/element/video/mp4.js.map.gz
+2021/06/07 17:37:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/support/test/element/video/ogg.min.js /tmp/work/dist/support/test/element/video/ogg.js
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/element/canvas.js -> /output/support/test/element/canvas.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/element/canvas.js -> /output/support/test/element/canvas.js.gz
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/video/ogg.js.map.br /tmp/work/dist/support/test/element/video/ogg.js.map
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/element/video/ogg.js.map -> /output/support/test/element/video/ogg.js.map.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/element/video/ogg.js.map -> /output/support/test/element/video/ogg.js.map.gz
+2021/06/07 17:37:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/support/test/element/video/webm.min.js /tmp/work/dist/support/test/element/video/webm.js
+2021/06/07 17:37:43 sri /tmp/work/dist/support/test/element/canvas/todataurl/jpeg.min.js -> /output/support/test/element/canvas/todataurl/jpeg.min.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/canvas/todataurl/jpeg.min.js.br /tmp/work/dist/support/test/element/canvas/todataurl/jpeg.min.js
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/element/canvas/todataurl/jpeg.min.js -> /output/support/test/element/canvas/todataurl/jpeg.min.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/element/canvas/todataurl/jpeg.min.js -> /output/support/test/element/canvas/todataurl/jpeg.min.js.gz
+2021/06/07 17:37:43 sri /tmp/work/dist/support/test/element/canvas/todataurl/jpeg.js -> /output/support/test/element/canvas/todataurl/jpeg.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/canvas/todataurl/jpeg.js.br /tmp/work/dist/support/test/element/canvas/todataurl/jpeg.js
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/element/canvas/todataurl/jpeg.js -> /output/support/test/element/canvas/todataurl/jpeg.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/element/canvas/todataurl/jpeg.js -> /output/support/test/element/canvas/todataurl/jpeg.js.gz
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/video/webm.js.map.br /tmp/work/dist/support/test/element/video/webm.js.map
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/element/video/webm.js.map -> /output/support/test/element/video/webm.js.map.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/element/video/webm.js.map -> /output/support/test/element/video/webm.js.map.gz
+2021/06/07 17:37:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/task.min.js /tmp/work/dist/task.js
+2021/06/07 17:37:43 sri /tmp/work/dist/support/test/element/canvas/todataurl/webp.min.js -> /output/support/test/element/canvas/todataurl/webp.min.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/canvas/todataurl/webp.min.js.br /tmp/work/dist/support/test/element/canvas/todataurl/webp.min.js
+2021/06/07 17:37:43 sri /tmp/work/dist/support/test/element/canvas/todataurl/png.min.js -> /output/support/test/element/canvas/todataurl/png.min.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/canvas/todataurl/png.min.js.br /tmp/work/dist/support/test/element/canvas/todataurl/png.min.js
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/element/canvas/todataurl/webp.min.js -> /output/support/test/element/canvas/todataurl/webp.min.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/element/canvas/todataurl/webp.min.js -> /output/support/test/element/canvas/todataurl/webp.min.js.gz
+2021/06/07 17:37:43 sri /tmp/work/dist/support/test/element/canvas/todataurl/webp.js -> /output/support/test/element/canvas/todataurl/webp.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/canvas/todataurl/webp.js.br /tmp/work/dist/support/test/element/canvas/todataurl/webp.js
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/element/canvas/todataurl/png.min.js -> /output/support/test/element/canvas/todataurl/png.min.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/element/canvas/todataurl/png.min.js -> /output/support/test/element/canvas/todataurl/png.min.js.gz
+2021/06/07 17:37:43 sri /tmp/work/dist/support/test/element/canvas/todataurl/png.js -> /output/support/test/element/canvas/todataurl/png.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/canvas/todataurl/png.js.br /tmp/work/dist/support/test/element/canvas/todataurl/png.js
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/element/canvas/todataurl/webp.js -> /output/support/test/element/canvas/todataurl/webp.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/element/canvas/todataurl/webp.js -> /output/support/test/element/canvas/todataurl/webp.js.gz
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/task.js.map.br /tmp/work/dist/task.js.map
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/element/canvas/todataurl/png.js -> /output/support/test/element/canvas/todataurl/png.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/element/canvas/todataurl/png.js -> /output/support/test/element/canvas/todataurl/png.js.gz
+2021/06/07 17:37:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/transport/xhr.min.js /tmp/work/dist/transport/xhr.js
+2021/06/07 17:37:43 br /tmp/work/dist/task.js.map -> /output/task.js.map.br
+2021/06/07 17:37:43 gz /tmp/work/dist/task.js.map -> /output/task.js.map.gz
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/transport/xhr.js.map.br /tmp/work/dist/transport/xhr.js.map
+2021/06/07 17:37:43 sri /tmp/work/dist/support/test/element/svg.min.js -> /output/support/test/element/svg.min.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/svg.min.js.br /tmp/work/dist/support/test/element/svg.min.js
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/element/svg.min.js -> /output/support/test/element/svg.min.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/element/svg.min.js -> /output/support/test/element/svg.min.js.gz
+2021/06/07 17:37:43 sri /tmp/work/dist/support/test/element/svg.js -> /output/support/test/element/svg.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/svg.js.br /tmp/work/dist/support/test/element/svg.js
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/element/svg.js -> /output/support/test/element/svg.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/element/svg.js -> /output/support/test/element/svg.js.gz
+2021/06/07 17:37:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/url.min.js /tmp/work/dist/url.js
+2021/06/07 17:37:43 br /tmp/work/dist/transport/xhr.js.map -> /output/transport/xhr.js.map.br
+2021/06/07 17:37:43 gz /tmp/work/dist/transport/xhr.js.map -> /output/transport/xhr.js.map.gz
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/url.js.map.br /tmp/work/dist/url.js.map
+2021/06/07 17:37:43 br /tmp/work/dist/url.js.map -> /output/url.js.map.br
+2021/06/07 17:37:43 gz /tmp/work/dist/url.js.map -> /output/url.js.map.gz
+2021/06/07 17:37:43 sri /tmp/work/dist/support/test/element/video.min.js -> /output/support/test/element/video.min.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/video.min.js.br /tmp/work/dist/support/test/element/video.min.js
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/element/video.min.js -> /output/support/test/element/video.min.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/element/video.min.js -> /output/support/test/element/video.min.js.gz
+2021/06/07 17:37:43 sri /tmp/work/dist/support/test/element/video.js -> /output/support/test/element/video.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/video.js.br /tmp/work/dist/support/test/element/video.js
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/element/video.js -> /output/support/test/element/video.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/element/video.js -> /output/support/test/element/video.js.gz
+2021/06/07 17:37:43 sri /tmp/work/dist/support/test/element/video/ogg.min.js -> /output/support/test/element/video/ogg.min.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/video/ogg.min.js.br /tmp/work/dist/support/test/element/video/ogg.min.js
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/element/video/ogg.min.js -> /output/support/test/element/video/ogg.min.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/element/video/ogg.min.js -> /output/support/test/element/video/ogg.min.js.gz
+2021/06/07 17:37:43 sri /tmp/work/dist/support/test/element/video/ogg.js -> /output/support/test/element/video/ogg.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/video/ogg.js.br /tmp/work/dist/support/test/element/video/ogg.js
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/element/video/ogg.js -> /output/support/test/element/video/ogg.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/element/video/ogg.js -> /output/support/test/element/video/ogg.js.gz
+2021/06/07 17:37:43 sri /tmp/work/dist/support/test/element/video/mp4.min.js -> /output/support/test/element/video/mp4.min.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/video/mp4.min.js.br /tmp/work/dist/support/test/element/video/mp4.min.js
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/element/video/mp4.min.js -> /output/support/test/element/video/mp4.min.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/element/video/mp4.min.js -> /output/support/test/element/video/mp4.min.js.gz
+2021/06/07 17:37:43 sri /tmp/work/dist/support/test/element/video/mp4.js -> /output/support/test/element/video/mp4.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/video/mp4.js.br /tmp/work/dist/support/test/element/video/mp4.js
+2021/06/07 17:37:43 sri /tmp/work/dist/support/test/element/video/webm.min.js -> /output/support/test/element/video/webm.min.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/video/webm.min.js.br /tmp/work/dist/support/test/element/video/webm.min.js
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/element/video/mp4.js -> /output/support/test/element/video/mp4.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/element/video/mp4.js -> /output/support/test/element/video/mp4.js.gz
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/element/video/webm.min.js -> /output/support/test/element/video/webm.min.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/element/video/webm.min.js -> /output/support/test/element/video/webm.min.js.gz
+2021/06/07 17:37:43 sri /tmp/work/dist/support/test/element/video/webm.js -> /output/support/test/element/video/webm.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/support/test/element/video/webm.js.br /tmp/work/dist/support/test/element/video/webm.js
+2021/06/07 17:37:43 br /tmp/work/dist/support/test/element/video/webm.js -> /output/support/test/element/video/webm.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/support/test/element/video/webm.js -> /output/support/test/element/video/webm.js.gz
+2021/06/07 17:37:43 sri /tmp/work/dist/task.min.js -> /output/task.min.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/task.min.js.br /tmp/work/dist/task.min.js
+2021/06/07 17:37:43 br /tmp/work/dist/task.min.js -> /output/task.min.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/task.min.js -> /output/task.min.js.gz
+2021/06/07 17:37:43 sri /tmp/work/dist/task.js -> /output/task.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/task.js.br /tmp/work/dist/task.js
+2021/06/07 17:37:43 br /tmp/work/dist/task.js -> /output/task.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/task.js -> /output/task.js.gz
+2021/06/07 17:37:43 sri /tmp/work/dist/transport/xhr.min.js -> /output/transport/xhr.min.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/transport/xhr.min.js.br /tmp/work/dist/transport/xhr.min.js
+2021/06/07 17:37:43 br /tmp/work/dist/transport/xhr.min.js -> /output/transport/xhr.min.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/transport/xhr.min.js -> /output/transport/xhr.min.js.gz
+2021/06/07 17:37:43 sri /tmp/work/dist/transport/xhr.js -> /output/transport/xhr.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/transport/xhr.js.br /tmp/work/dist/transport/xhr.js
+2021/06/07 17:37:43 br /tmp/work/dist/transport/xhr.js -> /output/transport/xhr.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/transport/xhr.js -> /output/transport/xhr.js.gz
+2021/06/07 17:37:43 sri /tmp/work/dist/url.min.js -> /output/url.min.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/url.min.js.br /tmp/work/dist/url.min.js
+2021/06/07 17:37:43 br /tmp/work/dist/url.min.js -> /output/url.min.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/url.min.js -> /output/url.min.js.gz
+2021/06/07 17:37:43 sri /tmp/work/dist/url.js -> /output/url.js.sri
+2021/06/07 17:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/url.js.br /tmp/work/dist/url.js
+2021/06/07 17:37:43 br /tmp/work/dist/url.js -> /output/url.js.br
+2021/06/07 17:37:43 gz /tmp/work/dist/url.js -> /output/url.js.gz
+2021/06/07 17:37:43 processed qoopido.nucleus
