@@ -1,0 +1,10 @@
+2021/06/07 14:01:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/jshint.min.js /tmp/work/dist/jshint.js
+2021/06/07 14:01:52 sri /tmp/work/dist/jshint.min.js -> /output/jshint.min.js.sri
+2021/06/07 14:01:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jshint.min.js.br /tmp/work/dist/jshint.min.js
+2021/06/07 14:01:53 br /tmp/work/dist/jshint.min.js -> /output/jshint.min.js.br
+2021/06/07 14:01:53 gz /tmp/work/dist/jshint.min.js -> /output/jshint.min.js.gz
+2021/06/07 14:01:53 sri /tmp/work/dist/jshint.js -> /output/jshint.js.sri
+2021/06/07 14:01:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jshint.js.br /tmp/work/dist/jshint.js
+2021/06/07 14:01:56 br /tmp/work/dist/jshint.js -> /output/jshint.js.br
+2021/06/07 14:01:56 gz /tmp/work/dist/jshint.js -> /output/jshint.js.gz
+2021/06/07 14:01:56 processed jshint
