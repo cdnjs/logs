@@ -1,1 +1,73 @@
-2021/06/07 22:07:51 could not read config: could not parse config: json: cannot unmarshal string into Go value of type packages.Package
+2021/06/08 02:08:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/human.esm-nobundle.min.js /tmp/work/dist/human.esm-nobundle.js
+2021/06/08 02:08:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.esm-nobundle.js.map.br /tmp/work/dist/human.esm-nobundle.js.map
+2021/06/08 02:08:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/human.esm.min.js /tmp/work/dist/human.esm.js
+2021/06/08 02:08:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/human.node-gpu.min.js /tmp/work/dist/human.node-gpu.js
+2021/06/08 02:08:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/human.min.js /tmp/work/dist/human.js
+2021/06/08 02:08:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/human.node-wasm.min.js /tmp/work/dist/human.node-wasm.js
+2021/06/08 02:08:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/human.node.min.js /tmp/work/dist/human.node.js
+2021/06/08 02:08:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.esm.js.map.br /tmp/work/dist/human.esm.js.map
+2021/06/08 02:08:23 br /tmp/work/dist/human.esm-nobundle.js.map -> /output/human.esm-nobundle.js.map.br
+2021/06/08 02:08:24 gz /tmp/work/dist/human.esm-nobundle.js.map -> /output/human.esm-nobundle.js.map.gz
+2021/06/08 02:08:24 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/tfjs.esm.min.js /tmp/work/dist/tfjs.esm.js
+2021/06/08 02:08:26 sri /tmp/work/dist/human.node-wasm.min.js -> /output/human.node-wasm.min.js.sri
+2021/06/08 02:08:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.node-wasm.min.js.br /tmp/work/dist/human.node-wasm.min.js
+2021/06/08 02:08:26 sri /tmp/work/dist/human.esm-nobundle.min.js -> /output/human.esm-nobundle.min.js.sri
+2021/06/08 02:08:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.esm-nobundle.min.js.br /tmp/work/dist/human.esm-nobundle.min.js
+2021/06/08 02:08:27 sri /tmp/work/dist/human.node-gpu.min.js -> /output/human.node-gpu.min.js.sri
+2021/06/08 02:08:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.node-gpu.min.js.br /tmp/work/dist/human.node-gpu.min.js
+2021/06/08 02:08:27 sri /tmp/work/dist/human.node.min.js -> /output/human.node.min.js.sri
+2021/06/08 02:08:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.node.min.js.br /tmp/work/dist/human.node.min.js
+2021/06/08 02:08:28 br /tmp/work/dist/human.node-wasm.min.js -> /output/human.node-wasm.min.js.br
+2021/06/08 02:08:28 gz /tmp/work/dist/human.node-wasm.min.js -> /output/human.node-wasm.min.js.gz
+2021/06/08 02:08:28 sri /tmp/work/dist/human.node-wasm.js -> /output/human.node-wasm.js.sri
+2021/06/08 02:08:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.node-wasm.js.br /tmp/work/dist/human.node-wasm.js
+2021/06/08 02:08:28 br /tmp/work/dist/human.esm-nobundle.min.js -> /output/human.esm-nobundle.min.js.br
+2021/06/08 02:08:28 gz /tmp/work/dist/human.esm-nobundle.min.js -> /output/human.esm-nobundle.min.js.gz
+2021/06/08 02:08:28 sri /tmp/work/dist/human.esm-nobundle.js -> /output/human.esm-nobundle.js.sri
+2021/06/08 02:08:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.esm-nobundle.js.br /tmp/work/dist/human.esm-nobundle.js
+2021/06/08 02:08:29 br /tmp/work/dist/human.node.min.js -> /output/human.node.min.js.br
+2021/06/08 02:08:29 br /tmp/work/dist/human.node-gpu.min.js -> /output/human.node-gpu.min.js.br
+2021/06/08 02:08:29 gz /tmp/work/dist/human.node-gpu.min.js -> /output/human.node-gpu.min.js.gz
+2021/06/08 02:08:29 gz /tmp/work/dist/human.node.min.js -> /output/human.node.min.js.gz
+2021/06/08 02:08:29 sri /tmp/work/dist/human.node.js -> /output/human.node.js.sri
+2021/06/08 02:08:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.node.js.br /tmp/work/dist/human.node.js
+2021/06/08 02:08:29 sri /tmp/work/dist/human.node-gpu.js -> /output/human.node-gpu.js.sri
+2021/06/08 02:08:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.node-gpu.js.br /tmp/work/dist/human.node-gpu.js
+2021/06/08 02:08:30 br /tmp/work/dist/human.esm-nobundle.js -> /output/human.esm-nobundle.js.br
+2021/06/08 02:08:30 gz /tmp/work/dist/human.esm-nobundle.js -> /output/human.esm-nobundle.js.gz
+2021/06/08 02:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tfjs.esm.js.map.br /tmp/work/dist/tfjs.esm.js.map
+2021/06/08 02:08:32 br /tmp/work/dist/human.node-wasm.js -> /output/human.node-wasm.js.br
+2021/06/08 02:08:32 gz /tmp/work/dist/human.node-wasm.js -> /output/human.node-wasm.js.gz
+2021/06/08 02:08:32 br /tmp/work/dist/human.node-gpu.js -> /output/human.node-gpu.js.br
+2021/06/08 02:08:33 br /tmp/work/dist/human.node.js -> /output/human.node.js.br
+2021/06/08 02:08:33 gz /tmp/work/dist/human.node-gpu.js -> /output/human.node-gpu.js.gz
+2021/06/08 02:08:33 gz /tmp/work/dist/human.node.js -> /output/human.node.js.gz
+2021/06/08 02:08:54 sri /tmp/work/dist/human.esm.min.js -> /output/human.esm.min.js.sri
+2021/06/08 02:08:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.esm.min.js.br /tmp/work/dist/human.esm.min.js
+2021/06/08 02:08:56 sri /tmp/work/dist/tfjs.esm.min.js -> /output/tfjs.esm.min.js.sri
+2021/06/08 02:08:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tfjs.esm.min.js.br /tmp/work/dist/tfjs.esm.min.js
+2021/06/08 02:08:57 br /tmp/work/dist/human.esm.js.map -> /output/human.esm.js.map.br
+2021/06/08 02:08:58 gz /tmp/work/dist/human.esm.js.map -> /output/human.esm.js.map.gz
+2021/06/08 02:08:59 br /tmp/work/dist/tfjs.esm.js.map -> /output/tfjs.esm.js.map.br
+2021/06/08 02:09:00 gz /tmp/work/dist/tfjs.esm.js.map -> /output/tfjs.esm.js.map.gz
+2021/06/08 02:09:01 sri /tmp/work/dist/human.min.js -> /output/human.min.js.sri
+2021/06/08 02:09:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.min.js.br /tmp/work/dist/human.min.js
+2021/06/08 02:09:01 br /tmp/work/dist/human.esm.min.js -> /output/human.esm.min.js.br
+2021/06/08 02:09:01 gz /tmp/work/dist/human.esm.min.js -> /output/human.esm.min.js.gz
+2021/06/08 02:09:01 sri /tmp/work/dist/human.esm.js -> /output/human.esm.js.sri
+2021/06/08 02:09:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.esm.js.br /tmp/work/dist/human.esm.js
+2021/06/08 02:09:01 br /tmp/work/dist/tfjs.esm.min.js -> /output/tfjs.esm.min.js.br
+2021/06/08 02:09:01 gz /tmp/work/dist/tfjs.esm.min.js -> /output/tfjs.esm.min.js.gz
+2021/06/08 02:09:01 sri /tmp/work/dist/tfjs.esm.js -> /output/tfjs.esm.js.sri
+2021/06/08 02:09:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tfjs.esm.js.br /tmp/work/dist/tfjs.esm.js
+2021/06/08 02:09:06 br /tmp/work/dist/tfjs.esm.js -> /output/tfjs.esm.js.br
+2021/06/08 02:09:06 gz /tmp/work/dist/tfjs.esm.js -> /output/tfjs.esm.js.gz
+2021/06/08 02:09:06 br /tmp/work/dist/human.min.js -> /output/human.min.js.br
+2021/06/08 02:09:06 gz /tmp/work/dist/human.min.js -> /output/human.min.js.gz
+2021/06/08 02:09:06 sri /tmp/work/dist/human.js -> /output/human.js.sri
+2021/06/08 02:09:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.js.br /tmp/work/dist/human.js
+2021/06/08 02:09:06 br /tmp/work/dist/human.esm.js -> /output/human.esm.js.br
+2021/06/08 02:09:07 gz /tmp/work/dist/human.esm.js -> /output/human.esm.js.gz
+2021/06/08 02:09:11 br /tmp/work/dist/human.js -> /output/human.js.br
+2021/06/08 02:09:11 gz /tmp/work/dist/human.js -> /output/human.js.gz
+2021/06/08 02:09:11 processed human
