@@ -1,0 +1,47 @@
+2021/06/09 19:07:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/emoji_pretty.json.br /tmp/work/emoji_pretty.json
+2021/06/09 19:07:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/emoji.json.br /tmp/work/emoji.json
+2021/06/09 19:07:22 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/img/apple/sheets/32.png /tmp/work/img/apple/sheets/32.png
+2021/06/09 19:07:22 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/img/google/sheets/32.png /tmp/work/img/google/sheets/32.png
+2021/06/09 19:07:22 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/img/twitter/sheets/32.png /tmp/work/img/twitter/sheets/32.png
+2021/06/09 19:07:22 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/img/facebook/sheets/32.png /tmp/work/img/facebook/sheets/32.png
+2021/06/09 19:07:40 br /tmp/work/emoji.json -> /output/emoji.json.br
+2021/06/09 19:07:40 gz /tmp/work/emoji.json -> /output/emoji.json.gz
+2021/06/09 19:07:56 br /tmp/work/emoji_pretty.json -> /output/emoji_pretty.json.br
+2021/06/09 19:07:57 gz /tmp/work/emoji_pretty.json -> /output/emoji_pretty.json.gz
+2021/06/09 19:56:10 Optimizing /tmp/work/img/facebook/sheets/32.png
+Input size: 6434842 (6284K)
+Result size: 6423547 (6272K). Percentage of original: 99.824%
+Result is smaller
+
+
+2021/06/09 19:56:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/img/facebook/sheets/32.png.br /tmp/work/img/facebook/sheets/32.png
+2021/06/09 19:56:45 br /tmp/work/img/facebook/sheets/32.png -> /output/img/facebook/sheets/32.png.br
+2021/06/09 19:56:45 gz /tmp/work/img/facebook/sheets/32.png -> /output/img/facebook/sheets/32.png.gz
+2021/06/09 19:56:48 Optimizing /tmp/work/img/apple/sheets/32.png
+Input size: 6172843 (6028K)
+Result size: 6165010 (6020K). Percentage of original: 99.873%
+Result is smaller
+
+
+2021/06/09 19:56:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/img/apple/sheets/32.png.br /tmp/work/img/apple/sheets/32.png
+2021/06/09 19:57:34 br /tmp/work/img/apple/sheets/32.png -> /output/img/apple/sheets/32.png.br
+2021/06/09 19:57:34 gz /tmp/work/img/apple/sheets/32.png -> /output/img/apple/sheets/32.png.gz
+2021/06/09 19:59:58 Optimizing /tmp/work/img/google/sheets/32.png
+Input size: 4866806 (4752K)
+Result size: 4860125 (4746K). Percentage of original: 99.863%
+Result is smaller
+
+
+2021/06/09 19:59:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/img/google/sheets/32.png.br /tmp/work/img/google/sheets/32.png
+2021/06/09 20:00:12 br /tmp/work/img/google/sheets/32.png -> /output/img/google/sheets/32.png.br
+2021/06/09 20:00:12 gz /tmp/work/img/google/sheets/32.png -> /output/img/google/sheets/32.png.gz
+2021/06/09 20:05:25 Optimizing /tmp/work/img/twitter/sheets/32.png
+Input size: 4274456 (4174K)
+Result size: 4261337 (4161K). Percentage of original: 99.693%
+Result is smaller
+
+
+2021/06/09 20:05:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/img/twitter/sheets/32.png.br /tmp/work/img/twitter/sheets/32.png
+2021/06/09 20:05:48 br /tmp/work/img/twitter/sheets/32.png -> /output/img/twitter/sheets/32.png.br
+2021/06/09 20:05:48 gz /tmp/work/img/twitter/sheets/32.png -> /output/img/twitter/sheets/32.png.gz
+2021/06/09 20:05:48 processed emoji-datasource
