@@ -1,0 +1,28 @@
+2021/06/10 10:36:26 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/jsonform.min.js /tmp/work/lib/jsonform.js
+2021/06/10 10:36:26 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/jsonform-defaults.min.js /tmp/work/lib/jsonform-defaults.js
+2021/06/10 10:36:26 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/jsonform-split.min.js /tmp/work/lib/jsonform-split.js
+2021/06/10 10:36:27 sri /tmp/work/lib/jsonform-defaults.min.js -> /output/jsonform-defaults.min.js.sri
+2021/06/10 10:36:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsonform-defaults.min.js.br /tmp/work/lib/jsonform-defaults.min.js
+2021/06/10 10:36:27 br /tmp/work/lib/jsonform-defaults.min.js -> /output/jsonform-defaults.min.js.br
+2021/06/10 10:36:27 gz /tmp/work/lib/jsonform-defaults.min.js -> /output/jsonform-defaults.min.js.gz
+2021/06/10 10:36:27 sri /tmp/work/lib/jsonform-defaults.js -> /output/jsonform-defaults.js.sri
+2021/06/10 10:36:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsonform-defaults.js.br /tmp/work/lib/jsonform-defaults.js
+2021/06/10 10:36:27 br /tmp/work/lib/jsonform-defaults.js -> /output/jsonform-defaults.js.br
+2021/06/10 10:36:27 gz /tmp/work/lib/jsonform-defaults.js -> /output/jsonform-defaults.js.gz
+2021/06/10 10:36:27 sri /tmp/work/lib/jsonform-split.min.js -> /output/jsonform-split.min.js.sri
+2021/06/10 10:36:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsonform-split.min.js.br /tmp/work/lib/jsonform-split.min.js
+2021/06/10 10:36:27 br /tmp/work/lib/jsonform-split.min.js -> /output/jsonform-split.min.js.br
+2021/06/10 10:36:27 gz /tmp/work/lib/jsonform-split.min.js -> /output/jsonform-split.min.js.gz
+2021/06/10 10:36:27 sri /tmp/work/lib/jsonform-split.js -> /output/jsonform-split.js.sri
+2021/06/10 10:36:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsonform-split.js.br /tmp/work/lib/jsonform-split.js
+2021/06/10 10:36:27 br /tmp/work/lib/jsonform-split.js -> /output/jsonform-split.js.br
+2021/06/10 10:36:27 gz /tmp/work/lib/jsonform-split.js -> /output/jsonform-split.js.gz
+2021/06/10 10:36:29 sri /tmp/work/lib/jsonform.min.js -> /output/jsonform.min.js.sri
+2021/06/10 10:36:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsonform.min.js.br /tmp/work/lib/jsonform.min.js
+2021/06/10 10:36:29 br /tmp/work/lib/jsonform.min.js -> /output/jsonform.min.js.br
+2021/06/10 10:36:29 gz /tmp/work/lib/jsonform.min.js -> /output/jsonform.min.js.gz
+2021/06/10 10:36:29 sri /tmp/work/lib/jsonform.js -> /output/jsonform.js.sri
+2021/06/10 10:36:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsonform.js.br /tmp/work/lib/jsonform.js
+2021/06/10 10:36:30 br /tmp/work/lib/jsonform.js -> /output/jsonform.js.br
+2021/06/10 10:36:30 gz /tmp/work/lib/jsonform.js -> /output/jsonform.js.gz
+2021/06/10 10:36:30 processed jsonform
