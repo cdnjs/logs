@@ -1,0 +1,87 @@
+2021/06/11 14:31:45 ExtractTarGz: uknown type: 67 in pax_global_header
+2021/06/11 14:31:45 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/06/11 14:31:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/layer.min.js /tmp/work/dist/layer.js
+2021/06/11 14:31:45 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/mobile/need/layer.min.css /tmp/work/dist/mobile/need/layer.css
+2021/06/11 14:31:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/mobile/layer.min.js /tmp/work/dist/mobile/layer.js
+2021/06/11 14:31:45 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/theme/default/layer.min.css /tmp/work/dist/theme/default/layer.css
+2021/06/11 14:31:45 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/dist/theme/default/icon-ext.png /tmp/work/dist/theme/default/icon-ext.png
+2021/06/11 14:31:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/theme/default/loading-0.gif.br /tmp/work/dist/theme/default/loading-0.gif
+2021/06/11 14:31:45 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/dist/theme/default/icon.png /tmp/work/dist/theme/default/icon.png
+2021/06/11 14:31:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/theme/default/loading-1.gif.br /tmp/work/dist/theme/default/loading-1.gif
+2021/06/11 14:31:45 br /tmp/work/dist/theme/default/loading-1.gif -> /output/theme/default/loading-1.gif.br
+2021/06/11 14:31:45 gz /tmp/work/dist/theme/default/loading-1.gif -> /output/theme/default/loading-1.gif.gz
+2021/06/11 14:31:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/theme/default/loading-2.gif.br /tmp/work/dist/theme/default/loading-2.gif
+2021/06/11 14:31:45 br /tmp/work/dist/theme/default/loading-2.gif -> /output/theme/default/loading-2.gif.br
+2021/06/11 14:31:45 gz /tmp/work/dist/theme/default/loading-2.gif -> /output/theme/default/loading-2.gif.gz
+2021/06/11 14:31:45 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/dist/theme/moon/default.png /tmp/work/dist/theme/moon/default.png
+2021/06/11 14:31:45 br /tmp/work/dist/theme/default/loading-0.gif -> /output/theme/default/loading-0.gif.br
+2021/06/11 14:31:45 gz /tmp/work/dist/theme/default/loading-0.gif -> /output/theme/default/loading-0.gif.gz
+2021/06/11 14:31:45 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/theme/moon/style.min.css /tmp/work/dist/theme/moon/style.css
+2021/06/11 14:31:45 sri /tmp/work/dist/mobile/need/layer.min.css -> /output/mobile/need/layer.min.css.sri
+2021/06/11 14:31:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mobile/need/layer.min.css.br /tmp/work/dist/mobile/need/layer.min.css
+2021/06/11 14:31:45 br /tmp/work/dist/mobile/need/layer.min.css -> /output/mobile/need/layer.min.css.br
+2021/06/11 14:31:45 gz /tmp/work/dist/mobile/need/layer.min.css -> /output/mobile/need/layer.min.css.gz
+2021/06/11 14:31:45 sri /tmp/work/dist/mobile/need/layer.css -> /output/mobile/need/layer.css.sri
+2021/06/11 14:31:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mobile/need/layer.css.br /tmp/work/dist/mobile/need/layer.css
+2021/06/11 14:31:45 sri /tmp/work/dist/theme/moon/style.min.css -> /output/theme/moon/style.min.css.sri
+2021/06/11 14:31:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/theme/moon/style.min.css.br /tmp/work/dist/theme/moon/style.min.css
+2021/06/11 14:31:45 br /tmp/work/dist/mobile/need/layer.css -> /output/mobile/need/layer.css.br
+2021/06/11 14:31:45 br /tmp/work/dist/theme/moon/style.min.css -> /output/theme/moon/style.min.css.br
+2021/06/11 14:31:45 gz /tmp/work/dist/mobile/need/layer.css -> /output/mobile/need/layer.css.gz
+2021/06/11 14:31:45 gz /tmp/work/dist/theme/moon/style.min.css -> /output/theme/moon/style.min.css.gz
+2021/06/11 14:31:45 sri /tmp/work/dist/theme/moon/style.css -> /output/theme/moon/style.css.sri
+2021/06/11 14:31:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/theme/moon/style.css.br /tmp/work/dist/theme/moon/style.css
+2021/06/11 14:31:45 br /tmp/work/dist/theme/moon/style.css -> /output/theme/moon/style.css.br
+2021/06/11 14:31:45 gz /tmp/work/dist/theme/moon/style.css -> /output/theme/moon/style.css.gz
+2021/06/11 14:31:45 sri /tmp/work/dist/theme/default/layer.min.css -> /output/theme/default/layer.min.css.sri
+2021/06/11 14:31:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/theme/default/layer.min.css.br /tmp/work/dist/theme/default/layer.min.css
+2021/06/11 14:31:45 sri /tmp/work/dist/mobile/layer.min.js -> /output/mobile/layer.min.js.sri
+2021/06/11 14:31:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mobile/layer.min.js.br /tmp/work/dist/mobile/layer.min.js
+2021/06/11 14:31:45 br /tmp/work/dist/theme/default/layer.min.css -> /output/theme/default/layer.min.css.br
+2021/06/11 14:31:45 gz /tmp/work/dist/theme/default/layer.min.css -> /output/theme/default/layer.min.css.gz
+2021/06/11 14:31:45 sri /tmp/work/dist/theme/default/layer.css -> /output/theme/default/layer.css.sri
+2021/06/11 14:31:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/theme/default/layer.css.br /tmp/work/dist/theme/default/layer.css
+2021/06/11 14:31:45 br /tmp/work/dist/mobile/layer.min.js -> /output/mobile/layer.min.js.br
+2021/06/11 14:31:45 gz /tmp/work/dist/mobile/layer.min.js -> /output/mobile/layer.min.js.gz
+2021/06/11 14:31:45 sri /tmp/work/dist/mobile/layer.js -> /output/mobile/layer.js.sri
+2021/06/11 14:31:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mobile/layer.js.br /tmp/work/dist/mobile/layer.js
+2021/06/11 14:31:45 br /tmp/work/dist/mobile/layer.js -> /output/mobile/layer.js.br
+2021/06/11 14:31:45 gz /tmp/work/dist/mobile/layer.js -> /output/mobile/layer.js.gz
+2021/06/11 14:31:45 br /tmp/work/dist/theme/default/layer.css -> /output/theme/default/layer.css.br
+2021/06/11 14:31:45 gz /tmp/work/dist/theme/default/layer.css -> /output/theme/default/layer.css.gz
+2021/06/11 14:31:46 sri /tmp/work/dist/layer.min.js -> /output/layer.min.js.sri
+2021/06/11 14:31:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/layer.min.js.br /tmp/work/dist/layer.min.js
+2021/06/11 14:31:46 br /tmp/work/dist/layer.min.js -> /output/layer.min.js.br
+2021/06/11 14:31:46 gz /tmp/work/dist/layer.min.js -> /output/layer.min.js.gz
+2021/06/11 14:31:46 sri /tmp/work/dist/layer.js -> /output/layer.js.sri
+2021/06/11 14:31:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/layer.js.br /tmp/work/dist/layer.js
+2021/06/11 14:31:46 br /tmp/work/dist/layer.js -> /output/layer.js.br
+2021/06/11 14:31:46 gz /tmp/work/dist/layer.js -> /output/layer.js.gz
+2021/06/11 14:31:49 Optimizing /tmp/work/dist/theme/moon/default.png
+Input size: 7563 (7K)
+Result size: 6866 (6K). Percentage of original: 90.784%
+Result is smaller
+
+
+2021/06/11 14:31:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/theme/moon/default.png.br /tmp/work/dist/theme/moon/default.png
+2021/06/11 14:31:49 br /tmp/work/dist/theme/moon/default.png -> /output/theme/moon/default.png.br
+2021/06/11 14:31:49 gz /tmp/work/dist/theme/moon/default.png -> /output/theme/moon/default.png.gz
+2021/06/11 14:31:51 Optimizing /tmp/work/dist/theme/default/icon-ext.png
+Input size: 5911 (5K)
+Result size: 2708 (2K). Percentage of original: 45.813%
+Result is smaller
+
+
+2021/06/11 14:31:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/theme/default/icon-ext.png.br /tmp/work/dist/theme/default/icon-ext.png
+2021/06/11 14:31:51 br /tmp/work/dist/theme/default/icon-ext.png -> /output/theme/default/icon-ext.png.br
+2021/06/11 14:31:51 gz /tmp/work/dist/theme/default/icon-ext.png -> /output/theme/default/icon-ext.png.gz
+2021/06/11 14:31:53 Optimizing /tmp/work/dist/theme/default/icon.png
+Input size: 11493 (11K)
+Result size: 6697 (6K). Percentage of original: 58.270%
+Result is smaller
+
+
+2021/06/11 14:31:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/theme/default/icon.png.br /tmp/work/dist/theme/default/icon.png
+2021/06/11 14:31:53 br /tmp/work/dist/theme/default/icon.png -> /output/theme/default/icon.png.br
+2021/06/11 14:31:53 gz /tmp/work/dist/theme/default/icon.png -> /output/theme/default/icon.png.gz
+2021/06/11 14:31:53 processed layer
