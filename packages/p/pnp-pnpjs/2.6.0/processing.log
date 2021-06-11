@@ -1,0 +1,17 @@
+2021/06/11 18:38:04 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/06/11 18:38:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/pnp.min.js /tmp/work/dist/pnp.js
+2021/06/11 18:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pnp.js.map.br /tmp/work/dist/pnp.js.map
+2021/06/11 18:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pnp.js.LICENSE.txt.br /tmp/work/dist/pnp.js.LICENSE.txt
+2021/06/11 18:38:04 br /tmp/work/dist/pnp.js.LICENSE.txt -> /output/pnp.js.LICENSE.txt.br
+2021/06/11 18:38:04 gz /tmp/work/dist/pnp.js.LICENSE.txt -> /output/pnp.js.LICENSE.txt.gz
+2021/06/11 18:38:07 br /tmp/work/dist/pnp.js.map -> /output/pnp.js.map.br
+2021/06/11 18:38:07 gz /tmp/work/dist/pnp.js.map -> /output/pnp.js.map.gz
+2021/06/11 18:38:09 sri /tmp/work/dist/pnp.min.js -> /output/pnp.min.js.sri
+2021/06/11 18:38:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pnp.min.js.br /tmp/work/dist/pnp.min.js
+2021/06/11 18:38:10 br /tmp/work/dist/pnp.min.js -> /output/pnp.min.js.br
+2021/06/11 18:38:10 gz /tmp/work/dist/pnp.min.js -> /output/pnp.min.js.gz
+2021/06/11 18:38:10 sri /tmp/work/dist/pnp.js -> /output/pnp.js.sri
+2021/06/11 18:38:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pnp.js.br /tmp/work/dist/pnp.js
+2021/06/11 18:38:10 br /tmp/work/dist/pnp.js -> /output/pnp.js.br
+2021/06/11 18:38:10 gz /tmp/work/dist/pnp.js -> /output/pnp.js.gz
+2021/06/11 18:38:10 processed pnp-pnpjs
