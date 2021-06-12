@@ -1,0 +1,86 @@
+2021/06/12 16:32:33 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/06/12 16:32:34 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/empty.min.js /tmp/work/dist/empty.js
+2021/06/12 16:32:34 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/jsondiffpatch.esm.min.js /tmp/work/dist/jsondiffpatch.esm.js
+2021/06/12 16:32:34 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/jsondiffpatch.cjs.min.js /tmp/work/dist/jsondiffpatch.cjs.js
+2021/06/12 16:32:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsondiffpatch.cjs.js.map.br /tmp/work/dist/jsondiffpatch.cjs.js.map
+2021/06/12 16:32:34 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/jsondiffpatch.umd.min.js /tmp/work/dist/jsondiffpatch.umd.js
+2021/06/12 16:32:34 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/jsondiffpatch.umd.slim.min.js /tmp/work/dist/jsondiffpatch.umd.slim.js
+2021/06/12 16:32:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsondiffpatch.esm.js.map.br /tmp/work/dist/jsondiffpatch.esm.js.map
+2021/06/12 16:32:34 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/jsondiffpatch.umd.test.min.js /tmp/work/dist/jsondiffpatch.umd.test.js
+2021/06/12 16:32:34 sri /tmp/work/dist/empty.min.js -> /output/empty.min.js.sri
+2021/06/12 16:32:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/empty.min.js.br /tmp/work/dist/empty.min.js
+2021/06/12 16:32:34 br /tmp/work/dist/empty.min.js -> /output/empty.min.js.br
+2021/06/12 16:32:34 gz /tmp/work/dist/empty.min.js -> /output/empty.min.js.gz
+2021/06/12 16:32:34 sri /tmp/work/dist/empty.js -> /output/empty.js.sri
+2021/06/12 16:32:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/empty.js.br /tmp/work/dist/empty.js
+2021/06/12 16:32:34 br /tmp/work/dist/empty.js -> /output/empty.js.br
+2021/06/12 16:32:34 gz /tmp/work/dist/empty.js -> /output/empty.js.gz
+2021/06/12 16:32:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsondiffpatch.umd.test.js.map.br /tmp/work/dist/jsondiffpatch.umd.test.js.map
+2021/06/12 16:32:34 br /tmp/work/dist/jsondiffpatch.cjs.js.map -> /output/jsondiffpatch.cjs.js.map.br
+2021/06/12 16:32:34 br /tmp/work/dist/jsondiffpatch.esm.js.map -> /output/jsondiffpatch.esm.js.map.br
+2021/06/12 16:32:34 gz /tmp/work/dist/jsondiffpatch.cjs.js.map -> /output/jsondiffpatch.cjs.js.map.gz
+2021/06/12 16:32:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.d.ts.br /tmp/work/dist/index.d.ts
+2021/06/12 16:32:34 gz /tmp/work/dist/jsondiffpatch.esm.js.map -> /output/jsondiffpatch.esm.js.map.gz
+2021/06/12 16:32:34 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/formatters-styles/annotated.min.css /tmp/work/dist/formatters-styles/annotated.css
+2021/06/12 16:32:34 br /tmp/work/dist/index.d.ts -> /output/index.d.ts.br
+2021/06/12 16:32:34 gz /tmp/work/dist/index.d.ts -> /output/index.d.ts.gz
+2021/06/12 16:32:34 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/formatters-styles/html.min.css /tmp/work/dist/formatters-styles/html.css
+2021/06/12 16:32:34 sri /tmp/work/dist/formatters-styles/annotated.min.css -> /output/formatters-styles/annotated.min.css.sri
+2021/06/12 16:32:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/formatters-styles/annotated.min.css.br /tmp/work/dist/formatters-styles/annotated.min.css
+2021/06/12 16:32:34 br /tmp/work/dist/formatters-styles/annotated.min.css -> /output/formatters-styles/annotated.min.css.br
+2021/06/12 16:32:34 gz /tmp/work/dist/formatters-styles/annotated.min.css -> /output/formatters-styles/annotated.min.css.gz
+2021/06/12 16:32:34 sri /tmp/work/dist/formatters-styles/annotated.css -> /output/formatters-styles/annotated.css.sri
+2021/06/12 16:32:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/formatters-styles/annotated.css.br /tmp/work/dist/formatters-styles/annotated.css
+2021/06/12 16:32:34 br /tmp/work/dist/formatters-styles/annotated.css -> /output/formatters-styles/annotated.css.br
+2021/06/12 16:32:34 gz /tmp/work/dist/formatters-styles/annotated.css -> /output/formatters-styles/annotated.css.gz
+2021/06/12 16:32:34 sri /tmp/work/dist/formatters-styles/html.min.css -> /output/formatters-styles/html.min.css.sri
+2021/06/12 16:32:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/formatters-styles/html.min.css.br /tmp/work/dist/formatters-styles/html.min.css
+2021/06/12 16:32:35 br /tmp/work/dist/formatters-styles/html.min.css -> /output/formatters-styles/html.min.css.br
+2021/06/12 16:32:35 gz /tmp/work/dist/formatters-styles/html.min.css -> /output/formatters-styles/html.min.css.gz
+2021/06/12 16:32:35 sri /tmp/work/dist/formatters-styles/html.css -> /output/formatters-styles/html.css.sri
+2021/06/12 16:32:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/formatters-styles/html.css.br /tmp/work/dist/formatters-styles/html.css
+2021/06/12 16:32:35 br /tmp/work/dist/formatters-styles/html.css -> /output/formatters-styles/html.css.br
+2021/06/12 16:32:35 gz /tmp/work/dist/formatters-styles/html.css -> /output/formatters-styles/html.css.gz
+2021/06/12 16:32:36 sri /tmp/work/dist/jsondiffpatch.cjs.min.js -> /output/jsondiffpatch.cjs.min.js.sri
+2021/06/12 16:32:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsondiffpatch.cjs.min.js.br /tmp/work/dist/jsondiffpatch.cjs.min.js
+2021/06/12 16:32:36 sri /tmp/work/dist/jsondiffpatch.esm.min.js -> /output/jsondiffpatch.esm.min.js.sri
+2021/06/12 16:32:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsondiffpatch.esm.min.js.br /tmp/work/dist/jsondiffpatch.esm.min.js
+2021/06/12 16:32:36 br /tmp/work/dist/jsondiffpatch.cjs.min.js -> /output/jsondiffpatch.cjs.min.js.br
+2021/06/12 16:32:36 gz /tmp/work/dist/jsondiffpatch.cjs.min.js -> /output/jsondiffpatch.cjs.min.js.gz
+2021/06/12 16:32:36 sri /tmp/work/dist/jsondiffpatch.cjs.js -> /output/jsondiffpatch.cjs.js.sri
+2021/06/12 16:32:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsondiffpatch.cjs.js.br /tmp/work/dist/jsondiffpatch.cjs.js
+2021/06/12 16:32:36 br /tmp/work/dist/jsondiffpatch.esm.min.js -> /output/jsondiffpatch.esm.min.js.br
+2021/06/12 16:32:36 gz /tmp/work/dist/jsondiffpatch.esm.min.js -> /output/jsondiffpatch.esm.min.js.gz
+2021/06/12 16:32:36 sri /tmp/work/dist/jsondiffpatch.esm.js -> /output/jsondiffpatch.esm.js.sri
+2021/06/12 16:32:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsondiffpatch.esm.js.br /tmp/work/dist/jsondiffpatch.esm.js
+2021/06/12 16:32:36 br /tmp/work/dist/jsondiffpatch.cjs.js -> /output/jsondiffpatch.cjs.js.br
+2021/06/12 16:32:36 gz /tmp/work/dist/jsondiffpatch.cjs.js -> /output/jsondiffpatch.cjs.js.gz
+2021/06/12 16:32:36 br /tmp/work/dist/jsondiffpatch.esm.js -> /output/jsondiffpatch.esm.js.br
+2021/06/12 16:32:36 sri /tmp/work/dist/jsondiffpatch.umd.slim.min.js -> /output/jsondiffpatch.umd.slim.min.js.sri
+2021/06/12 16:32:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsondiffpatch.umd.slim.min.js.br /tmp/work/dist/jsondiffpatch.umd.slim.min.js
+2021/06/12 16:32:36 gz /tmp/work/dist/jsondiffpatch.esm.js -> /output/jsondiffpatch.esm.js.gz
+2021/06/12 16:32:36 br /tmp/work/dist/jsondiffpatch.umd.slim.min.js -> /output/jsondiffpatch.umd.slim.min.js.br
+2021/06/12 16:32:36 gz /tmp/work/dist/jsondiffpatch.umd.slim.min.js -> /output/jsondiffpatch.umd.slim.min.js.gz
+2021/06/12 16:32:36 sri /tmp/work/dist/jsondiffpatch.umd.slim.js -> /output/jsondiffpatch.umd.slim.js.sri
+2021/06/12 16:32:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsondiffpatch.umd.slim.js.br /tmp/work/dist/jsondiffpatch.umd.slim.js
+2021/06/12 16:32:36 br /tmp/work/dist/jsondiffpatch.umd.slim.js -> /output/jsondiffpatch.umd.slim.js.br
+2021/06/12 16:32:37 gz /tmp/work/dist/jsondiffpatch.umd.slim.js -> /output/jsondiffpatch.umd.slim.js.gz
+2021/06/12 16:32:37 sri /tmp/work/dist/jsondiffpatch.umd.min.js -> /output/jsondiffpatch.umd.min.js.sri
+2021/06/12 16:32:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsondiffpatch.umd.min.js.br /tmp/work/dist/jsondiffpatch.umd.min.js
+2021/06/12 16:32:37 br /tmp/work/dist/jsondiffpatch.umd.min.js -> /output/jsondiffpatch.umd.min.js.br
+2021/06/12 16:32:37 gz /tmp/work/dist/jsondiffpatch.umd.min.js -> /output/jsondiffpatch.umd.min.js.gz
+2021/06/12 16:32:37 sri /tmp/work/dist/jsondiffpatch.umd.js -> /output/jsondiffpatch.umd.js.sri
+2021/06/12 16:32:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsondiffpatch.umd.js.br /tmp/work/dist/jsondiffpatch.umd.js
+2021/06/12 16:32:38 br /tmp/work/dist/jsondiffpatch.umd.js -> /output/jsondiffpatch.umd.js.br
+2021/06/12 16:32:38 gz /tmp/work/dist/jsondiffpatch.umd.js -> /output/jsondiffpatch.umd.js.gz
+2021/06/12 16:32:38 br /tmp/work/dist/jsondiffpatch.umd.test.js.map -> /output/jsondiffpatch.umd.test.js.map.br
+2021/06/12 16:32:39 gz /tmp/work/dist/jsondiffpatch.umd.test.js.map -> /output/jsondiffpatch.umd.test.js.map.gz
+2021/06/12 16:32:41 sri /tmp/work/dist/jsondiffpatch.umd.test.min.js -> /output/jsondiffpatch.umd.test.min.js.sri
+2021/06/12 16:32:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsondiffpatch.umd.test.min.js.br /tmp/work/dist/jsondiffpatch.umd.test.min.js
+2021/06/12 16:32:42 br /tmp/work/dist/jsondiffpatch.umd.test.min.js -> /output/jsondiffpatch.umd.test.min.js.br
+2021/06/12 16:32:42 gz /tmp/work/dist/jsondiffpatch.umd.test.min.js -> /output/jsondiffpatch.umd.test.min.js.gz
+2021/06/12 16:32:42 sri /tmp/work/dist/jsondiffpatch.umd.test.js -> /output/jsondiffpatch.umd.test.js.sri
+2021/06/12 16:32:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsondiffpatch.umd.test.js.br /tmp/work/dist/jsondiffpatch.umd.test.js
+2021/06/12 16:32:44 br /tmp/work/dist/jsondiffpatch.umd.test.js -> /output/jsondiffpatch.umd.test.js.br
+2021/06/12 16:32:44 gz /tmp/work/dist/jsondiffpatch.umd.test.js -> /output/jsondiffpatch.umd.test.js.gz
+2021/06/12 16:32:44 processed jsondiffpatch
