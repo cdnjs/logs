@@ -1,0 +1,20 @@
+2021/06/16 14:37:22 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/06/16 14:37:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/brython_stdlib.min.js /tmp/work/brython_stdlib.js
+2021/06/16 14:37:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/brython.min.js /tmp/work/brython.js
+2021/06/16 14:37:23 sri /tmp/work/brython_stdlib.min.js -> /output/brython_stdlib.min.js.sri
+2021/06/16 14:37:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/brython_stdlib.min.js.br /tmp/work/brython_stdlib.min.js
+2021/06/16 14:37:31 sri /tmp/work/brython.min.js -> /output/brython.min.js.sri
+2021/06/16 14:37:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/brython.min.js.br /tmp/work/brython.min.js
+2021/06/16 14:37:32 br /tmp/work/brython.min.js -> /output/brython.min.js.br
+2021/06/16 14:37:32 gz /tmp/work/brython.min.js -> /output/brython.min.js.gz
+2021/06/16 14:37:32 sri /tmp/work/brython.js -> /output/brython.js.sri
+2021/06/16 14:37:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/brython.js.br /tmp/work/brython.js
+2021/06/16 14:37:33 br /tmp/work/brython_stdlib.min.js -> /output/brython_stdlib.min.js.br
+2021/06/16 14:37:33 gz /tmp/work/brython_stdlib.min.js -> /output/brython_stdlib.min.js.gz
+2021/06/16 14:37:33 sri /tmp/work/brython_stdlib.js -> /output/brython_stdlib.js.sri
+2021/06/16 14:37:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/brython_stdlib.js.br /tmp/work/brython_stdlib.js
+2021/06/16 14:37:34 br /tmp/work/brython.js -> /output/brython.js.br
+2021/06/16 14:37:34 gz /tmp/work/brython.js -> /output/brython.js.gz
+2021/06/16 14:37:43 br /tmp/work/brython_stdlib.js -> /output/brython_stdlib.js.br
+2021/06/16 14:37:43 gz /tmp/work/brython_stdlib.js -> /output/brython_stdlib.js.gz
+2021/06/16 14:37:43 processed brython
