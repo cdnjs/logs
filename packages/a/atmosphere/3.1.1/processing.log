@@ -1,0 +1,20 @@
+2021/06/17 16:33:01 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/06/17 16:33:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/browser.min.js /tmp/work/lib/browser.js
+2021/06/17 16:33:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/atmosphere.min.js /tmp/work/lib/atmosphere.js
+2021/06/17 16:33:01 sri /tmp/work/lib/browser.min.js -> /output/browser.min.js.sri
+2021/06/17 16:33:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/browser.min.js.br /tmp/work/lib/browser.min.js
+2021/06/17 16:33:01 br /tmp/work/lib/browser.min.js -> /output/browser.min.js.br
+2021/06/17 16:33:01 gz /tmp/work/lib/browser.min.js -> /output/browser.min.js.gz
+2021/06/17 16:33:01 sri /tmp/work/lib/browser.js -> /output/browser.js.sri
+2021/06/17 16:33:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/browser.js.br /tmp/work/lib/browser.js
+2021/06/17 16:33:01 br /tmp/work/lib/browser.js -> /output/browser.js.br
+2021/06/17 16:33:01 gz /tmp/work/lib/browser.js -> /output/browser.js.gz
+2021/06/17 16:33:03 sri /tmp/work/lib/atmosphere.min.js -> /output/atmosphere.min.js.sri
+2021/06/17 16:33:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/atmosphere.min.js.br /tmp/work/lib/atmosphere.min.js
+2021/06/17 16:33:03 br /tmp/work/lib/atmosphere.min.js -> /output/atmosphere.min.js.br
+2021/06/17 16:33:03 gz /tmp/work/lib/atmosphere.min.js -> /output/atmosphere.min.js.gz
+2021/06/17 16:33:03 sri /tmp/work/lib/atmosphere.js -> /output/atmosphere.js.sri
+2021/06/17 16:33:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/atmosphere.js.br /tmp/work/lib/atmosphere.js
+2021/06/17 16:33:03 br /tmp/work/lib/atmosphere.js -> /output/atmosphere.js.br
+2021/06/17 16:33:03 gz /tmp/work/lib/atmosphere.js -> /output/atmosphere.js.gz
+2021/06/17 16:33:03 processed atmosphere
