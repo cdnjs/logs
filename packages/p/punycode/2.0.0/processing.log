@@ -1,0 +1,11 @@
+2021/06/20 01:05:25 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/06/20 01:05:25 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/punycode.min.js /tmp/work/punycode.js
+2021/06/20 01:05:26 sri /tmp/work/punycode.min.js -> /output/punycode.min.js.sri
+2021/06/20 01:05:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/punycode.min.js.br /tmp/work/punycode.min.js
+2021/06/20 01:05:26 br /tmp/work/punycode.min.js -> /output/punycode.min.js.br
+2021/06/20 01:05:26 gz /tmp/work/punycode.min.js -> /output/punycode.min.js.gz
+2021/06/20 01:05:26 sri /tmp/work/punycode.js -> /output/punycode.js.sri
+2021/06/20 01:05:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/punycode.js.br /tmp/work/punycode.js
+2021/06/20 01:05:26 br /tmp/work/punycode.js -> /output/punycode.js.br
+2021/06/20 01:05:26 gz /tmp/work/punycode.js -> /output/punycode.js.gz
+2021/06/20 01:05:26 processed punycode
