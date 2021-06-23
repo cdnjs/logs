@@ -1,0 +1,164 @@
+2021/06/23 14:03:17 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/06/23 14:03:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/base.min.js /tmp/work/dist/base.js
+2021/06/23 14:03:17 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/full.min.css /tmp/work/dist/full.css
+2021/06/23 14:03:17 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/styled.min.css /tmp/work/dist/styled.css
+2021/06/23 14:03:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/styled.rtl.min.js /tmp/work/dist/styled.rtl.js
+2021/06/23 14:03:17 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/themes.min.css /tmp/work/dist/themes.css
+2021/06/23 14:03:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/styled.min.js /tmp/work/dist/styled.js
+2021/06/23 14:03:17 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/unstyled.min.css /tmp/work/dist/unstyled.css
+2021/06/23 14:03:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/unstyled.min.js /tmp/work/dist/unstyled.js
+2021/06/23 14:03:18 sri /tmp/work/dist/base.min.js -> /output/base.min.js.sri
+2021/06/23 14:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/base.min.js.br /tmp/work/dist/base.min.js
+2021/06/23 14:03:18 br /tmp/work/dist/base.min.js -> /output/base.min.js.br
+2021/06/23 14:03:18 gz /tmp/work/dist/base.min.js -> /output/base.min.js.gz
+2021/06/23 14:03:18 sri /tmp/work/dist/base.js -> /output/base.js.sri
+2021/06/23 14:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/base.js.br /tmp/work/dist/base.js
+2021/06/23 14:03:18 br /tmp/work/dist/base.js -> /output/base.js.br
+2021/06/23 14:03:18 gz /tmp/work/dist/base.js -> /output/base.js.gz
+2021/06/23 14:03:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/unstyled.rtl.min.js /tmp/work/dist/unstyled.rtl.js
+2021/06/23 14:03:18 sri /tmp/work/dist/themes.min.css -> /output/themes.min.css.sri
+2021/06/23 14:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes.min.css.br /tmp/work/dist/themes.min.css
+2021/06/23 14:03:18 sri /tmp/work/dist/unstyled.min.js -> /output/unstyled.min.js.sri
+2021/06/23 14:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/unstyled.min.js.br /tmp/work/dist/unstyled.min.js
+2021/06/23 14:03:18 br /tmp/work/dist/themes.min.css -> /output/themes.min.css.br
+2021/06/23 14:03:18 gz /tmp/work/dist/themes.min.css -> /output/themes.min.css.gz
+2021/06/23 14:03:18 sri /tmp/work/dist/themes.css -> /output/themes.css.sri
+2021/06/23 14:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes.css.br /tmp/work/dist/themes.css
+2021/06/23 14:03:18 br /tmp/work/dist/unstyled.min.js -> /output/unstyled.min.js.br
+2021/06/23 14:03:18 gz /tmp/work/dist/unstyled.min.js -> /output/unstyled.min.js.gz
+2021/06/23 14:03:18 sri /tmp/work/dist/unstyled.js -> /output/unstyled.js.sri
+2021/06/23 14:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/unstyled.js.br /tmp/work/dist/unstyled.js
+2021/06/23 14:03:18 sri /tmp/work/dist/unstyled.min.css -> /output/unstyled.min.css.sri
+2021/06/23 14:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/unstyled.min.css.br /tmp/work/dist/unstyled.min.css
+2021/06/23 14:03:18 br /tmp/work/dist/themes.css -> /output/themes.css.br
+2021/06/23 14:03:18 gz /tmp/work/dist/themes.css -> /output/themes.css.gz
+2021/06/23 14:03:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/utilities-styled.min.js /tmp/work/dist/utilities-styled.js
+2021/06/23 14:03:18 br /tmp/work/dist/unstyled.js -> /output/unstyled.js.br
+2021/06/23 14:03:18 gz /tmp/work/dist/unstyled.js -> /output/unstyled.js.gz
+2021/06/23 14:03:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/utilities-unstyled.min.js /tmp/work/dist/utilities-unstyled.js
+2021/06/23 14:03:18 br /tmp/work/dist/unstyled.min.css -> /output/unstyled.min.css.br
+2021/06/23 14:03:18 gz /tmp/work/dist/unstyled.min.css -> /output/unstyled.min.css.gz
+2021/06/23 14:03:18 sri /tmp/work/dist/unstyled.css -> /output/unstyled.css.sri
+2021/06/23 14:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/unstyled.css.br /tmp/work/dist/unstyled.css
+2021/06/23 14:03:18 br /tmp/work/dist/unstyled.css -> /output/unstyled.css.br
+2021/06/23 14:03:18 gz /tmp/work/dist/unstyled.css -> /output/unstyled.css.gz
+2021/06/23 14:03:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/utilities.min.js /tmp/work/dist/utilities.js
+2021/06/23 14:03:18 sri /tmp/work/dist/unstyled.rtl.min.js -> /output/unstyled.rtl.min.js.sri
+2021/06/23 14:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/unstyled.rtl.min.js.br /tmp/work/dist/unstyled.rtl.min.js
+2021/06/23 14:03:18 br /tmp/work/dist/unstyled.rtl.min.js -> /output/unstyled.rtl.min.js.br
+2021/06/23 14:03:18 gz /tmp/work/dist/unstyled.rtl.min.js -> /output/unstyled.rtl.min.js.gz
+2021/06/23 14:03:18 sri /tmp/work/dist/unstyled.rtl.js -> /output/unstyled.rtl.js.sri
+2021/06/23 14:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/unstyled.rtl.js.br /tmp/work/dist/unstyled.rtl.js
+2021/06/23 14:03:18 sri /tmp/work/dist/styled.min.css -> /output/styled.min.css.sri
+2021/06/23 14:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled.min.css.br /tmp/work/dist/styled.min.css
+2021/06/23 14:03:18 br /tmp/work/dist/unstyled.rtl.js -> /output/unstyled.rtl.js.br
+2021/06/23 14:03:18 gz /tmp/work/dist/unstyled.rtl.js -> /output/unstyled.rtl.js.gz
+2021/06/23 14:03:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/colors/colorNames.min.js /tmp/work/colors/colorNames.js
+2021/06/23 14:03:18 sri /tmp/work/dist/utilities-styled.min.js -> /output/utilities-styled.min.js.sri
+2021/06/23 14:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/utilities-styled.min.js.br /tmp/work/dist/utilities-styled.min.js
+2021/06/23 14:03:18 sri /tmp/work/dist/styled.rtl.min.js -> /output/styled.rtl.min.js.sri
+2021/06/23 14:03:18 br /tmp/work/dist/utilities-styled.min.js -> /output/utilities-styled.min.js.br
+2021/06/23 14:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled.rtl.min.js.br /tmp/work/dist/styled.rtl.min.js
+2021/06/23 14:03:18 gz /tmp/work/dist/utilities-styled.min.js -> /output/utilities-styled.min.js.gz
+2021/06/23 14:03:18 sri /tmp/work/dist/utilities-styled.js -> /output/utilities-styled.js.sri
+2021/06/23 14:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/utilities-styled.js.br /tmp/work/dist/utilities-styled.js
+2021/06/23 14:03:18 sri /tmp/work/dist/utilities-unstyled.min.js -> /output/utilities-unstyled.min.js.sri
+2021/06/23 14:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/utilities-unstyled.min.js.br /tmp/work/dist/utilities-unstyled.min.js
+2021/06/23 14:03:18 br /tmp/work/dist/utilities-styled.js -> /output/utilities-styled.js.br
+2021/06/23 14:03:18 gz /tmp/work/dist/utilities-styled.js -> /output/utilities-styled.js.gz
+2021/06/23 14:03:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/colors/hex2hsl.min.js /tmp/work/colors/hex2hsl.js
+2021/06/23 14:03:18 br /tmp/work/dist/utilities-unstyled.min.js -> /output/utilities-unstyled.min.js.br
+2021/06/23 14:03:18 gz /tmp/work/dist/utilities-unstyled.min.js -> /output/utilities-unstyled.min.js.gz
+2021/06/23 14:03:18 sri /tmp/work/dist/utilities-unstyled.js -> /output/utilities-unstyled.js.sri
+2021/06/23 14:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/utilities-unstyled.js.br /tmp/work/dist/utilities-unstyled.js
+2021/06/23 14:03:18 sri /tmp/work/dist/utilities.min.js -> /output/utilities.min.js.sri
+2021/06/23 14:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/utilities.min.js.br /tmp/work/dist/utilities.min.js
+2021/06/23 14:03:18 br /tmp/work/dist/utilities.min.js -> /output/utilities.min.js.br
+2021/06/23 14:03:18 gz /tmp/work/dist/utilities.min.js -> /output/utilities.min.js.gz
+2021/06/23 14:03:18 sri /tmp/work/dist/utilities.js -> /output/utilities.js.sri
+2021/06/23 14:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/utilities.js.br /tmp/work/dist/utilities.js
+2021/06/23 14:03:18 br /tmp/work/dist/utilities-unstyled.js -> /output/utilities-unstyled.js.br
+2021/06/23 14:03:18 gz /tmp/work/dist/utilities-unstyled.js -> /output/utilities-unstyled.js.gz
+2021/06/23 14:03:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/colors/index.min.js /tmp/work/colors/index.js
+2021/06/23 14:03:18 br /tmp/work/dist/utilities.js -> /output/utilities.js.br
+2021/06/23 14:03:18 gz /tmp/work/dist/utilities.js -> /output/utilities.js.gz
+2021/06/23 14:03:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/colors/themes.min.js /tmp/work/colors/themes.js
+2021/06/23 14:03:18 sri /tmp/work/dist/styled.min.js -> /output/styled.min.js.sri
+2021/06/23 14:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled.min.js.br /tmp/work/dist/styled.min.js
+2021/06/23 14:03:18 sri /tmp/work/colors/colorNames.min.js -> /output/colorNames.min.js.sri
+2021/06/23 14:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/colorNames.min.js.br /tmp/work/colors/colorNames.min.js
+2021/06/23 14:03:18 br /tmp/work/colors/colorNames.min.js -> /output/colorNames.min.js.br
+2021/06/23 14:03:18 br /tmp/work/dist/styled.min.css -> /output/styled.min.css.br
+2021/06/23 14:03:18 gz /tmp/work/colors/colorNames.min.js -> /output/colorNames.min.js.gz
+2021/06/23 14:03:18 sri /tmp/work/colors/colorNames.js -> /output/colorNames.js.sri
+2021/06/23 14:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/colorNames.js.br /tmp/work/colors/colorNames.js
+2021/06/23 14:03:18 gz /tmp/work/dist/styled.min.css -> /output/styled.min.css.gz
+2021/06/23 14:03:18 sri /tmp/work/dist/styled.css -> /output/styled.css.sri
+2021/06/23 14:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled.css.br /tmp/work/dist/styled.css
+2021/06/23 14:03:18 br /tmp/work/colors/colorNames.js -> /output/colorNames.js.br
+2021/06/23 14:03:18 gz /tmp/work/colors/colorNames.js -> /output/colorNames.js.gz
+2021/06/23 14:03:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/colors/windi.min.js /tmp/work/colors/windi.js
+2021/06/23 14:03:19 br /tmp/work/dist/styled.rtl.min.js -> /output/styled.rtl.min.js.br
+2021/06/23 14:03:19 gz /tmp/work/dist/styled.rtl.min.js -> /output/styled.rtl.min.js.gz
+2021/06/23 14:03:19 sri /tmp/work/dist/styled.rtl.js -> /output/styled.rtl.js.sri
+2021/06/23 14:03:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled.rtl.js.br /tmp/work/dist/styled.rtl.js
+2021/06/23 14:03:19 sri /tmp/work/colors/index.min.js -> /output/index.min.js.sri
+2021/06/23 14:03:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/colors/index.min.js
+2021/06/23 14:03:19 br /tmp/work/colors/index.min.js -> /output/index.min.js.br
+2021/06/23 14:03:19 gz /tmp/work/colors/index.min.js -> /output/index.min.js.gz
+2021/06/23 14:03:19 sri /tmp/work/colors/index.js -> /output/index.js.sri
+2021/06/23 14:03:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/colors/index.js
+2021/06/23 14:03:19 br /tmp/work/colors/index.js -> /output/index.js.br
+2021/06/23 14:03:19 gz /tmp/work/colors/index.js -> /output/index.js.gz
+2021/06/23 14:03:19 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/index.min.js /tmp/work/index.js
+2021/06/23 14:03:19 sri /tmp/work/colors/hex2hsl.min.js -> /output/hex2hsl.min.js.sri
+2021/06/23 14:03:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hex2hsl.min.js.br /tmp/work/colors/hex2hsl.min.js
+2021/06/23 14:03:19 br /tmp/work/colors/hex2hsl.min.js -> /output/hex2hsl.min.js.br
+2021/06/23 14:03:19 gz /tmp/work/colors/hex2hsl.min.js -> /output/hex2hsl.min.js.gz
+2021/06/23 14:03:19 sri /tmp/work/colors/hex2hsl.js -> /output/hex2hsl.js.sri
+2021/06/23 14:03:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hex2hsl.js.br /tmp/work/colors/hex2hsl.js
+2021/06/23 14:03:19 br /tmp/work/colors/hex2hsl.js -> /output/hex2hsl.js.br
+2021/06/23 14:03:19 gz /tmp/work/colors/hex2hsl.js -> /output/hex2hsl.js.gz
+2021/06/23 14:03:19 br /tmp/work/dist/styled.min.js -> /output/styled.min.js.br
+2021/06/23 14:03:19 gz /tmp/work/dist/styled.min.js -> /output/styled.min.js.gz
+2021/06/23 14:03:19 sri /tmp/work/dist/styled.js -> /output/styled.js.sri
+2021/06/23 14:03:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled.js.br /tmp/work/dist/styled.js
+2021/06/23 14:03:19 sri /tmp/work/colors/themes.min.js -> /output/themes.min.js.sri
+2021/06/23 14:03:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes.min.js.br /tmp/work/colors/themes.min.js
+2021/06/23 14:03:19 sri /tmp/work/colors/windi.min.js -> /output/windi.min.js.sri
+2021/06/23 14:03:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/windi.min.js.br /tmp/work/colors/windi.min.js
+2021/06/23 14:03:19 br /tmp/work/colors/windi.min.js -> /output/windi.min.js.br
+2021/06/23 14:03:19 gz /tmp/work/colors/windi.min.js -> /output/windi.min.js.gz
+2021/06/23 14:03:19 sri /tmp/work/colors/windi.js -> /output/windi.js.sri
+2021/06/23 14:03:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/windi.js.br /tmp/work/colors/windi.js
+2021/06/23 14:03:19 br /tmp/work/dist/styled.css -> /output/styled.css.br
+2021/06/23 14:03:19 gz /tmp/work/dist/styled.css -> /output/styled.css.gz
+2021/06/23 14:03:19 br /tmp/work/colors/windi.js -> /output/windi.js.br
+2021/06/23 14:03:19 gz /tmp/work/colors/windi.js -> /output/windi.js.gz
+2021/06/23 14:03:19 br /tmp/work/colors/themes.min.js -> /output/themes.min.js.br
+2021/06/23 14:03:19 gz /tmp/work/colors/themes.min.js -> /output/themes.min.js.gz
+2021/06/23 14:03:19 sri /tmp/work/colors/themes.js -> /output/themes.js.sri
+2021/06/23 14:03:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes.js.br /tmp/work/colors/themes.js
+2021/06/23 14:03:19 br /tmp/work/colors/themes.js -> /output/themes.js.br
+2021/06/23 14:03:19 gz /tmp/work/colors/themes.js -> /output/themes.js.gz
+2021/06/23 14:03:19 br /tmp/work/dist/styled.rtl.js -> /output/styled.rtl.js.br
+2021/06/23 14:03:19 gz /tmp/work/dist/styled.rtl.js -> /output/styled.rtl.js.gz
+2021/06/23 14:03:19 br /tmp/work/dist/styled.js -> /output/styled.js.br
+2021/06/23 14:03:19 gz /tmp/work/dist/styled.js -> /output/styled.js.gz
+2021/06/23 14:03:19 sri /tmp/work/index.min.js -> /output/index.min.js.sri
+2021/06/23 14:03:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/index.min.js
+panic: exit status 1
+
+goroutine 21 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/compress.runAlgorithm(0x86e460, 0xc000016060, 0x7f1dfc, 0x6, 0xc00059bd48, 0x3, 0x3, 0x44d9ec, 0xc, 0x77b840)
+	/go/src/github.com/compress/algorithm.go:28 +0x348
+github.com/cdnjs/tools/compress.Brotli11CLI(...)
+	/go/src/github.com/compress/algorithm.go:40
+main.optimizeJob.emitFromWorkspace(0x86e460, 0xc000016060, 0x0, 0xc0000bc1d8, 0x8, 0xc000318000, 0xc, 0xc0000b83a8, 0x16)
+	/go/src/github.com/cmd/process-version/main.go:98 +0x4da
+main.optimizeWorker(0xc0000bc1f0, 0xc0000ca300)
+	/go/src/github.com/cmd/process-version/main.go:220 +0x445
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:254 +0x24a
