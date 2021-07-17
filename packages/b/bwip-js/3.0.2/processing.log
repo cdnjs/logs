@@ -1,0 +1,44 @@
+2021/07/17 06:05:16 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/07/17 06:05:16 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/bwip-js-min.min.js /tmp/work/dist/bwip-js-min.js
+2021/07/17 06:05:16 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/bwip-js-node.min.js /tmp/work/dist/bwip-js-node.js
+2021/07/17 06:05:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/bwip-js-node.mjs.br /tmp/work/dist/bwip-js-node.mjs
+2021/07/17 06:05:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/Inconsolata.otf.br /tmp/work/fonts/Inconsolata.otf
+2021/07/17 06:05:16 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/bwip-js.min.js /tmp/work/dist/bwip-js.js
+2021/07/17 06:05:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/OCRB7.ttf.br /tmp/work/fonts/OCRB7.ttf
+2021/07/17 06:05:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/bwip-js.mjs.br /tmp/work/dist/bwip-js.mjs
+2021/07/17 06:05:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/OCRA7.ttf.br /tmp/work/fonts/OCRA7.ttf
+2021/07/17 06:05:16 br /tmp/work/fonts/OCRA7.ttf -> /output/OCRA7.ttf.br
+2021/07/17 06:05:16 gz /tmp/work/fonts/OCRA7.ttf -> /output/OCRA7.ttf.gz
+2021/07/17 06:05:16 br /tmp/work/fonts/OCRB7.ttf -> /output/OCRB7.ttf.br
+2021/07/17 06:05:16 gz /tmp/work/fonts/OCRB7.ttf -> /output/OCRB7.ttf.gz
+2021/07/17 06:05:16 br /tmp/work/fonts/Inconsolata.otf -> /output/Inconsolata.otf.br
+2021/07/17 06:05:16 gz /tmp/work/fonts/Inconsolata.otf -> /output/Inconsolata.otf.gz
+2021/07/17 06:05:22 br /tmp/work/dist/bwip-js-node.mjs -> /output/bwip-js-node.mjs.br
+2021/07/17 06:05:22 br /tmp/work/dist/bwip-js.mjs -> /output/bwip-js.mjs.br
+2021/07/17 06:05:23 gz /tmp/work/dist/bwip-js-node.mjs -> /output/bwip-js-node.mjs.gz
+2021/07/17 06:05:23 gz /tmp/work/dist/bwip-js.mjs -> /output/bwip-js.mjs.gz
+2021/07/17 06:05:29 sri /tmp/work/dist/bwip-js-node.min.js -> /output/bwip-js-node.min.js.sri
+2021/07/17 06:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/bwip-js-node.min.js.br /tmp/work/dist/bwip-js-node.min.js
+2021/07/17 06:05:31 br /tmp/work/dist/bwip-js-node.min.js -> /output/bwip-js-node.min.js.br
+2021/07/17 06:05:31 gz /tmp/work/dist/bwip-js-node.min.js -> /output/bwip-js-node.min.js.gz
+2021/07/17 06:05:31 sri /tmp/work/dist/bwip-js-node.js -> /output/bwip-js-node.js.sri
+2021/07/17 06:05:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/bwip-js-node.js.br /tmp/work/dist/bwip-js-node.js
+2021/07/17 06:05:36 br /tmp/work/dist/bwip-js-node.js -> /output/bwip-js-node.js.br
+2021/07/17 06:05:36 gz /tmp/work/dist/bwip-js-node.js -> /output/bwip-js-node.js.gz
+2021/07/17 06:05:45 sri /tmp/work/dist/bwip-js.min.js -> /output/bwip-js.min.js.sri
+2021/07/17 06:05:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/bwip-js.min.js.br /tmp/work/dist/bwip-js.min.js
+2021/07/17 06:05:45 sri /tmp/work/dist/bwip-js-min.min.js -> /output/bwip-js-min.min.js.sri
+2021/07/17 06:05:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/bwip-js-min.min.js.br /tmp/work/dist/bwip-js-min.min.js
+2021/07/17 06:05:47 br /tmp/work/dist/bwip-js.min.js -> /output/bwip-js.min.js.br
+2021/07/17 06:05:47 gz /tmp/work/dist/bwip-js.min.js -> /output/bwip-js.min.js.gz
+2021/07/17 06:05:47 sri /tmp/work/dist/bwip-js.js -> /output/bwip-js.js.sri
+2021/07/17 06:05:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/bwip-js.js.br /tmp/work/dist/bwip-js.js
+2021/07/17 06:05:47 br /tmp/work/dist/bwip-js-min.min.js -> /output/bwip-js-min.min.js.br
+2021/07/17 06:05:47 gz /tmp/work/dist/bwip-js-min.min.js -> /output/bwip-js-min.min.js.gz
+2021/07/17 06:05:47 sri /tmp/work/dist/bwip-js-min.js -> /output/bwip-js-min.js.sri
+2021/07/17 06:05:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/bwip-js-min.js.br /tmp/work/dist/bwip-js-min.js
+2021/07/17 06:05:49 br /tmp/work/dist/bwip-js-min.js -> /output/bwip-js-min.js.br
+2021/07/17 06:05:49 gz /tmp/work/dist/bwip-js-min.js -> /output/bwip-js-min.js.gz
+2021/07/17 06:05:51 br /tmp/work/dist/bwip-js.js -> /output/bwip-js.js.br
+2021/07/17 06:05:51 gz /tmp/work/dist/bwip-js.js -> /output/bwip-js.js.gz
+2021/07/17 06:05:51 processed bwip-js
