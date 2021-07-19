@@ -1,0 +1,11 @@
+2021/07/19 11:07:59 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/07/19 11:07:59 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/mailgun.min.js /tmp/work/dist/mailgun.js
+2021/07/19 11:08:01 sri /tmp/work/dist/mailgun.min.js -> /output/mailgun.min.js.sri
+2021/07/19 11:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mailgun.min.js.br /tmp/work/dist/mailgun.min.js
+2021/07/19 11:08:02 br /tmp/work/dist/mailgun.min.js -> /output/mailgun.min.js.br
+2021/07/19 11:08:02 gz /tmp/work/dist/mailgun.min.js -> /output/mailgun.min.js.gz
+2021/07/19 11:08:02 sri /tmp/work/dist/mailgun.js -> /output/mailgun.js.sri
+2021/07/19 11:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mailgun.js.br /tmp/work/dist/mailgun.js
+2021/07/19 11:08:03 br /tmp/work/dist/mailgun.js -> /output/mailgun.js.br
+2021/07/19 11:08:03 gz /tmp/work/dist/mailgun.js -> /output/mailgun.js.gz
+2021/07/19 11:08:03 processed mailgun.js
