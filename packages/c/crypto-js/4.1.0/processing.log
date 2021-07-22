@@ -1,0 +1,444 @@
+2021/07/22 10:08:21 ExtractTarGz: uknown type: 67 in pax_global_header
+2021/07/22 10:08:21 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/07/22 10:08:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/aes.min.js /tmp/work/aes.js
+2021/07/22 10:08:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/cipher-core.min.js /tmp/work/cipher-core.js
+2021/07/22 10:08:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/enc-base64.min.js /tmp/work/enc-base64.js
+2021/07/22 10:08:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/core.min.js /tmp/work/core.js
+2021/07/22 10:08:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/crypto-js.min.js /tmp/work/crypto-js.js
+2021/07/22 10:08:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/enc-base64url.min.js /tmp/work/enc-base64url.js
+2021/07/22 10:08:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/enc-hex.min.js /tmp/work/enc-hex.js
+2021/07/22 10:08:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/enc-latin1.min.js /tmp/work/enc-latin1.js
+2021/07/22 10:08:21 sri /tmp/work/enc-hex.min.js -> /output/enc-hex.min.js.sri
+2021/07/22 10:08:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/enc-hex.min.js.br /tmp/work/enc-hex.min.js
+2021/07/22 10:08:21 br /tmp/work/enc-hex.min.js -> /output/enc-hex.min.js.br
+2021/07/22 10:08:21 gz /tmp/work/enc-hex.min.js -> /output/enc-hex.min.js.gz
+2021/07/22 10:08:21 sri /tmp/work/enc-hex.js -> /output/enc-hex.js.sri
+2021/07/22 10:08:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/enc-hex.js.br /tmp/work/enc-hex.js
+2021/07/22 10:08:21 br /tmp/work/enc-hex.js -> /output/enc-hex.js.br
+2021/07/22 10:08:21 gz /tmp/work/enc-hex.js -> /output/enc-hex.js.gz
+2021/07/22 10:08:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/enc-utf16.min.js /tmp/work/enc-utf16.js
+2021/07/22 10:08:21 sri /tmp/work/enc-latin1.min.js -> /output/enc-latin1.min.js.sri
+2021/07/22 10:08:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/enc-latin1.min.js.br /tmp/work/enc-latin1.min.js
+2021/07/22 10:08:21 br /tmp/work/enc-latin1.min.js -> /output/enc-latin1.min.js.br
+2021/07/22 10:08:21 gz /tmp/work/enc-latin1.min.js -> /output/enc-latin1.min.js.gz
+2021/07/22 10:08:21 sri /tmp/work/enc-latin1.js -> /output/enc-latin1.js.sri
+2021/07/22 10:08:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/enc-latin1.js.br /tmp/work/enc-latin1.js
+2021/07/22 10:08:21 br /tmp/work/enc-latin1.js -> /output/enc-latin1.js.br
+2021/07/22 10:08:21 gz /tmp/work/enc-latin1.js -> /output/enc-latin1.js.gz
+2021/07/22 10:08:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/enc-utf8.min.js /tmp/work/enc-utf8.js
+2021/07/22 10:08:21 sri /tmp/work/enc-base64.min.js -> /output/enc-base64.min.js.sri
+2021/07/22 10:08:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/enc-base64.min.js.br /tmp/work/enc-base64.min.js
+2021/07/22 10:08:21 sri /tmp/work/enc-base64url.min.js -> /output/enc-base64url.min.js.sri
+2021/07/22 10:08:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/enc-base64url.min.js.br /tmp/work/enc-base64url.min.js
+2021/07/22 10:08:21 br /tmp/work/enc-base64.min.js -> /output/enc-base64.min.js.br
+2021/07/22 10:08:21 gz /tmp/work/enc-base64.min.js -> /output/enc-base64.min.js.gz
+2021/07/22 10:08:21 sri /tmp/work/enc-base64.js -> /output/enc-base64.js.sri
+2021/07/22 10:08:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/enc-base64.js.br /tmp/work/enc-base64.js
+2021/07/22 10:08:21 br /tmp/work/enc-base64url.min.js -> /output/enc-base64url.min.js.br
+2021/07/22 10:08:21 gz /tmp/work/enc-base64url.min.js -> /output/enc-base64url.min.js.gz
+2021/07/22 10:08:21 sri /tmp/work/enc-base64url.js -> /output/enc-base64url.js.sri
+2021/07/22 10:08:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/enc-base64url.js.br /tmp/work/enc-base64url.js
+2021/07/22 10:08:21 br /tmp/work/enc-base64.js -> /output/enc-base64.js.br
+2021/07/22 10:08:21 gz /tmp/work/enc-base64.js -> /output/enc-base64.js.gz
+2021/07/22 10:08:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/evpkdf.min.js /tmp/work/evpkdf.js
+2021/07/22 10:08:21 br /tmp/work/enc-base64url.js -> /output/enc-base64url.js.br
+2021/07/22 10:08:21 gz /tmp/work/enc-base64url.js -> /output/enc-base64url.js.gz
+2021/07/22 10:08:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/format-hex.min.js /tmp/work/format-hex.js
+2021/07/22 10:08:21 sri /tmp/work/core.min.js -> /output/core.min.js.sri
+2021/07/22 10:08:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.min.js.br /tmp/work/core.min.js
+2021/07/22 10:08:21 sri /tmp/work/aes.min.js -> /output/aes.min.js.sri
+2021/07/22 10:08:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aes.min.js.br /tmp/work/aes.min.js
+2021/07/22 10:08:21 br /tmp/work/core.min.js -> /output/core.min.js.br
+2021/07/22 10:08:21 gz /tmp/work/core.min.js -> /output/core.min.js.gz
+2021/07/22 10:08:21 sri /tmp/work/core.js -> /output/core.js.sri
+2021/07/22 10:08:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.js.br /tmp/work/core.js
+2021/07/22 10:08:21 br /tmp/work/aes.min.js -> /output/aes.min.js.br
+2021/07/22 10:08:21 gz /tmp/work/aes.min.js -> /output/aes.min.js.gz
+2021/07/22 10:08:21 sri /tmp/work/aes.js -> /output/aes.js.sri
+2021/07/22 10:08:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aes.js.br /tmp/work/aes.js
+2021/07/22 10:08:21 sri /tmp/work/cipher-core.min.js -> /output/cipher-core.min.js.sri
+2021/07/22 10:08:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cipher-core.min.js.br /tmp/work/cipher-core.min.js
+2021/07/22 10:08:21 sri /tmp/work/enc-utf8.min.js -> /output/enc-utf8.min.js.sri
+2021/07/22 10:08:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/enc-utf8.min.js.br /tmp/work/enc-utf8.min.js
+2021/07/22 10:08:21 br /tmp/work/cipher-core.min.js -> /output/cipher-core.min.js.br
+2021/07/22 10:08:21 gz /tmp/work/cipher-core.min.js -> /output/cipher-core.min.js.gz
+2021/07/22 10:08:21 sri /tmp/work/cipher-core.js -> /output/cipher-core.js.sri
+2021/07/22 10:08:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cipher-core.js.br /tmp/work/cipher-core.js
+2021/07/22 10:08:21 br /tmp/work/aes.js -> /output/aes.js.br
+2021/07/22 10:08:21 gz /tmp/work/aes.js -> /output/aes.js.gz
+2021/07/22 10:08:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/format-openssl.min.js /tmp/work/format-openssl.js
+2021/07/22 10:08:21 br /tmp/work/enc-utf8.min.js -> /output/enc-utf8.min.js.br
+2021/07/22 10:08:21 gz /tmp/work/enc-utf8.min.js -> /output/enc-utf8.min.js.gz
+2021/07/22 10:08:21 sri /tmp/work/enc-utf8.js -> /output/enc-utf8.js.sri
+2021/07/22 10:08:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/enc-utf8.js.br /tmp/work/enc-utf8.js
+2021/07/22 10:08:21 br /tmp/work/enc-utf8.js -> /output/enc-utf8.js.br
+2021/07/22 10:08:21 gz /tmp/work/enc-utf8.js -> /output/enc-utf8.js.gz
+2021/07/22 10:08:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/hmac-md5.min.js /tmp/work/hmac-md5.js
+2021/07/22 10:08:21 br /tmp/work/core.js -> /output/core.js.br
+2021/07/22 10:08:21 gz /tmp/work/core.js -> /output/core.js.gz
+2021/07/22 10:08:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/hmac-ripemd160.min.js /tmp/work/hmac-ripemd160.js
+2021/07/22 10:08:21 sri /tmp/work/enc-utf16.min.js -> /output/enc-utf16.min.js.sri
+2021/07/22 10:08:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/enc-utf16.min.js.br /tmp/work/enc-utf16.min.js
+2021/07/22 10:08:21 br /tmp/work/enc-utf16.min.js -> /output/enc-utf16.min.js.br
+2021/07/22 10:08:21 gz /tmp/work/enc-utf16.min.js -> /output/enc-utf16.min.js.gz
+2021/07/22 10:08:21 sri /tmp/work/enc-utf16.js -> /output/enc-utf16.js.sri
+2021/07/22 10:08:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/enc-utf16.js.br /tmp/work/enc-utf16.js
+2021/07/22 10:08:21 br /tmp/work/cipher-core.js -> /output/cipher-core.js.br
+2021/07/22 10:08:21 gz /tmp/work/cipher-core.js -> /output/cipher-core.js.gz
+2021/07/22 10:08:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/hmac-sha1.min.js /tmp/work/hmac-sha1.js
+2021/07/22 10:08:21 br /tmp/work/enc-utf16.js -> /output/enc-utf16.js.br
+2021/07/22 10:08:21 gz /tmp/work/enc-utf16.js -> /output/enc-utf16.js.gz
+2021/07/22 10:08:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/hmac-sha224.min.js /tmp/work/hmac-sha224.js
+2021/07/22 10:08:22 sri /tmp/work/format-hex.min.js -> /output/format-hex.min.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/format-hex.min.js.br /tmp/work/format-hex.min.js
+2021/07/22 10:08:22 sri /tmp/work/evpkdf.min.js -> /output/evpkdf.min.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/evpkdf.min.js.br /tmp/work/evpkdf.min.js
+2021/07/22 10:08:22 br /tmp/work/format-hex.min.js -> /output/format-hex.min.js.br
+2021/07/22 10:08:22 gz /tmp/work/format-hex.min.js -> /output/format-hex.min.js.gz
+2021/07/22 10:08:22 sri /tmp/work/format-hex.js -> /output/format-hex.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/format-hex.js.br /tmp/work/format-hex.js
+2021/07/22 10:08:22 br /tmp/work/evpkdf.min.js -> /output/evpkdf.min.js.br
+2021/07/22 10:08:22 gz /tmp/work/evpkdf.min.js -> /output/evpkdf.min.js.gz
+2021/07/22 10:08:22 sri /tmp/work/evpkdf.js -> /output/evpkdf.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/evpkdf.js.br /tmp/work/evpkdf.js
+2021/07/22 10:08:22 br /tmp/work/format-hex.js -> /output/format-hex.js.br
+2021/07/22 10:08:22 gz /tmp/work/format-hex.js -> /output/format-hex.js.gz
+2021/07/22 10:08:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/hmac-sha256.min.js /tmp/work/hmac-sha256.js
+2021/07/22 10:08:22 br /tmp/work/evpkdf.js -> /output/evpkdf.js.br
+2021/07/22 10:08:22 gz /tmp/work/evpkdf.js -> /output/evpkdf.js.gz
+2021/07/22 10:08:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/hmac-sha3.min.js /tmp/work/hmac-sha3.js
+2021/07/22 10:08:22 sri /tmp/work/format-openssl.min.js -> /output/format-openssl.min.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/format-openssl.min.js.br /tmp/work/format-openssl.min.js
+2021/07/22 10:08:22 br /tmp/work/format-openssl.min.js -> /output/format-openssl.min.js.br
+2021/07/22 10:08:22 gz /tmp/work/format-openssl.min.js -> /output/format-openssl.min.js.gz
+2021/07/22 10:08:22 sri /tmp/work/format-openssl.js -> /output/format-openssl.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/format-openssl.js.br /tmp/work/format-openssl.js
+2021/07/22 10:08:22 br /tmp/work/format-openssl.js -> /output/format-openssl.js.br
+2021/07/22 10:08:22 gz /tmp/work/format-openssl.js -> /output/format-openssl.js.gz
+2021/07/22 10:08:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/hmac-sha384.min.js /tmp/work/hmac-sha384.js
+2021/07/22 10:08:22 sri /tmp/work/hmac-ripemd160.min.js -> /output/hmac-ripemd160.min.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hmac-ripemd160.min.js.br /tmp/work/hmac-ripemd160.min.js
+2021/07/22 10:08:22 br /tmp/work/hmac-ripemd160.min.js -> /output/hmac-ripemd160.min.js.br
+2021/07/22 10:08:22 gz /tmp/work/hmac-ripemd160.min.js -> /output/hmac-ripemd160.min.js.gz
+2021/07/22 10:08:22 sri /tmp/work/hmac-ripemd160.js -> /output/hmac-ripemd160.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hmac-ripemd160.js.br /tmp/work/hmac-ripemd160.js
+2021/07/22 10:08:22 br /tmp/work/hmac-ripemd160.js -> /output/hmac-ripemd160.js.br
+2021/07/22 10:08:22 gz /tmp/work/hmac-ripemd160.js -> /output/hmac-ripemd160.js.gz
+2021/07/22 10:08:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/hmac-sha512.min.js /tmp/work/hmac-sha512.js
+2021/07/22 10:08:22 sri /tmp/work/hmac-md5.min.js -> /output/hmac-md5.min.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hmac-md5.min.js.br /tmp/work/hmac-md5.min.js
+2021/07/22 10:08:22 br /tmp/work/hmac-md5.min.js -> /output/hmac-md5.min.js.br
+2021/07/22 10:08:22 gz /tmp/work/hmac-md5.min.js -> /output/hmac-md5.min.js.gz
+2021/07/22 10:08:22 sri /tmp/work/hmac-md5.js -> /output/hmac-md5.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hmac-md5.js.br /tmp/work/hmac-md5.js
+2021/07/22 10:08:22 br /tmp/work/hmac-md5.js -> /output/hmac-md5.js.br
+2021/07/22 10:08:22 gz /tmp/work/hmac-md5.js -> /output/hmac-md5.js.gz
+2021/07/22 10:08:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/hmac.min.js /tmp/work/hmac.js
+2021/07/22 10:08:22 sri /tmp/work/hmac-sha1.min.js -> /output/hmac-sha1.min.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hmac-sha1.min.js.br /tmp/work/hmac-sha1.min.js
+2021/07/22 10:08:22 br /tmp/work/hmac-sha1.min.js -> /output/hmac-sha1.min.js.br
+2021/07/22 10:08:22 gz /tmp/work/hmac-sha1.min.js -> /output/hmac-sha1.min.js.gz
+2021/07/22 10:08:22 sri /tmp/work/hmac-sha1.js -> /output/hmac-sha1.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hmac-sha1.js.br /tmp/work/hmac-sha1.js
+2021/07/22 10:08:22 br /tmp/work/hmac-sha1.js -> /output/hmac-sha1.js.br
+2021/07/22 10:08:22 gz /tmp/work/hmac-sha1.js -> /output/hmac-sha1.js.gz
+2021/07/22 10:08:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/index.min.js /tmp/work/index.js
+2021/07/22 10:08:22 sri /tmp/work/hmac-sha224.min.js -> /output/hmac-sha224.min.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hmac-sha224.min.js.br /tmp/work/hmac-sha224.min.js
+2021/07/22 10:08:22 br /tmp/work/hmac-sha224.min.js -> /output/hmac-sha224.min.js.br
+2021/07/22 10:08:22 gz /tmp/work/hmac-sha224.min.js -> /output/hmac-sha224.min.js.gz
+2021/07/22 10:08:22 sri /tmp/work/hmac-sha224.js -> /output/hmac-sha224.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hmac-sha224.js.br /tmp/work/hmac-sha224.js
+2021/07/22 10:08:22 br /tmp/work/hmac-sha224.js -> /output/hmac-sha224.js.br
+2021/07/22 10:08:22 gz /tmp/work/hmac-sha224.js -> /output/hmac-sha224.js.gz
+2021/07/22 10:08:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib-typedarrays.min.js /tmp/work/lib-typedarrays.js
+2021/07/22 10:08:22 sri /tmp/work/hmac-sha256.min.js -> /output/hmac-sha256.min.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hmac-sha256.min.js.br /tmp/work/hmac-sha256.min.js
+2021/07/22 10:08:22 br /tmp/work/hmac-sha256.min.js -> /output/hmac-sha256.min.js.br
+2021/07/22 10:08:22 gz /tmp/work/hmac-sha256.min.js -> /output/hmac-sha256.min.js.gz
+2021/07/22 10:08:22 sri /tmp/work/hmac-sha256.js -> /output/hmac-sha256.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hmac-sha256.js.br /tmp/work/hmac-sha256.js
+2021/07/22 10:08:22 br /tmp/work/hmac-sha256.js -> /output/hmac-sha256.js.br
+2021/07/22 10:08:22 gz /tmp/work/hmac-sha256.js -> /output/hmac-sha256.js.gz
+2021/07/22 10:08:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/md5.min.js /tmp/work/md5.js
+2021/07/22 10:08:22 sri /tmp/work/hmac-sha3.min.js -> /output/hmac-sha3.min.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hmac-sha3.min.js.br /tmp/work/hmac-sha3.min.js
+2021/07/22 10:08:22 br /tmp/work/hmac-sha3.min.js -> /output/hmac-sha3.min.js.br
+2021/07/22 10:08:22 gz /tmp/work/hmac-sha3.min.js -> /output/hmac-sha3.min.js.gz
+2021/07/22 10:08:22 sri /tmp/work/hmac-sha3.js -> /output/hmac-sha3.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hmac-sha3.js.br /tmp/work/hmac-sha3.js
+2021/07/22 10:08:22 br /tmp/work/hmac-sha3.js -> /output/hmac-sha3.js.br
+2021/07/22 10:08:22 gz /tmp/work/hmac-sha3.js -> /output/hmac-sha3.js.gz
+2021/07/22 10:08:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/mode-cfb.min.js /tmp/work/mode-cfb.js
+2021/07/22 10:08:22 sri /tmp/work/hmac-sha384.min.js -> /output/hmac-sha384.min.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hmac-sha384.min.js.br /tmp/work/hmac-sha384.min.js
+2021/07/22 10:08:22 br /tmp/work/hmac-sha384.min.js -> /output/hmac-sha384.min.js.br
+2021/07/22 10:08:22 sri /tmp/work/hmac-sha512.min.js -> /output/hmac-sha512.min.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hmac-sha512.min.js.br /tmp/work/hmac-sha512.min.js
+2021/07/22 10:08:22 gz /tmp/work/hmac-sha384.min.js -> /output/hmac-sha384.min.js.gz
+2021/07/22 10:08:22 sri /tmp/work/hmac-sha384.js -> /output/hmac-sha384.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hmac-sha384.js.br /tmp/work/hmac-sha384.js
+2021/07/22 10:08:22 br /tmp/work/hmac-sha384.js -> /output/hmac-sha384.js.br
+2021/07/22 10:08:22 gz /tmp/work/hmac-sha384.js -> /output/hmac-sha384.js.gz
+2021/07/22 10:08:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/mode-ctr-gladman.min.js /tmp/work/mode-ctr-gladman.js
+2021/07/22 10:08:22 br /tmp/work/hmac-sha512.min.js -> /output/hmac-sha512.min.js.br
+2021/07/22 10:08:22 gz /tmp/work/hmac-sha512.min.js -> /output/hmac-sha512.min.js.gz
+2021/07/22 10:08:22 sri /tmp/work/hmac-sha512.js -> /output/hmac-sha512.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hmac-sha512.js.br /tmp/work/hmac-sha512.js
+2021/07/22 10:08:22 br /tmp/work/hmac-sha512.js -> /output/hmac-sha512.js.br
+2021/07/22 10:08:22 gz /tmp/work/hmac-sha512.js -> /output/hmac-sha512.js.gz
+2021/07/22 10:08:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/mode-ctr.min.js /tmp/work/mode-ctr.js
+2021/07/22 10:08:22 sri /tmp/work/hmac.min.js -> /output/hmac.min.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hmac.min.js.br /tmp/work/hmac.min.js
+2021/07/22 10:08:22 br /tmp/work/hmac.min.js -> /output/hmac.min.js.br
+2021/07/22 10:08:22 gz /tmp/work/hmac.min.js -> /output/hmac.min.js.gz
+2021/07/22 10:08:22 sri /tmp/work/hmac.js -> /output/hmac.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hmac.js.br /tmp/work/hmac.js
+2021/07/22 10:08:22 sri /tmp/work/index.min.js -> /output/index.min.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/index.min.js
+2021/07/22 10:08:22 br /tmp/work/hmac.js -> /output/hmac.js.br
+2021/07/22 10:08:22 gz /tmp/work/hmac.js -> /output/hmac.js.gz
+2021/07/22 10:08:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/mode-ecb.min.js /tmp/work/mode-ecb.js
+2021/07/22 10:08:22 br /tmp/work/index.min.js -> /output/index.min.js.br
+2021/07/22 10:08:22 gz /tmp/work/index.min.js -> /output/index.min.js.gz
+2021/07/22 10:08:22 sri /tmp/work/index.js -> /output/index.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/index.js
+2021/07/22 10:08:22 br /tmp/work/index.js -> /output/index.js.br
+2021/07/22 10:08:22 gz /tmp/work/index.js -> /output/index.js.gz
+2021/07/22 10:08:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/mode-ofb.min.js /tmp/work/mode-ofb.js
+2021/07/22 10:08:22 sri /tmp/work/lib-typedarrays.min.js -> /output/lib-typedarrays.min.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib-typedarrays.min.js.br /tmp/work/lib-typedarrays.min.js
+2021/07/22 10:08:22 br /tmp/work/lib-typedarrays.min.js -> /output/lib-typedarrays.min.js.br
+2021/07/22 10:08:22 gz /tmp/work/lib-typedarrays.min.js -> /output/lib-typedarrays.min.js.gz
+2021/07/22 10:08:22 sri /tmp/work/lib-typedarrays.js -> /output/lib-typedarrays.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib-typedarrays.js.br /tmp/work/lib-typedarrays.js
+2021/07/22 10:08:22 br /tmp/work/lib-typedarrays.js -> /output/lib-typedarrays.js.br
+2021/07/22 10:08:22 gz /tmp/work/lib-typedarrays.js -> /output/lib-typedarrays.js.gz
+2021/07/22 10:08:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/pad-ansix923.min.js /tmp/work/pad-ansix923.js
+2021/07/22 10:08:22 sri /tmp/work/mode-cfb.min.js -> /output/mode-cfb.min.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mode-cfb.min.js.br /tmp/work/mode-cfb.min.js
+2021/07/22 10:08:22 br /tmp/work/mode-cfb.min.js -> /output/mode-cfb.min.js.br
+2021/07/22 10:08:22 gz /tmp/work/mode-cfb.min.js -> /output/mode-cfb.min.js.gz
+2021/07/22 10:08:22 sri /tmp/work/mode-cfb.js -> /output/mode-cfb.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mode-cfb.js.br /tmp/work/mode-cfb.js
+2021/07/22 10:08:22 br /tmp/work/mode-cfb.js -> /output/mode-cfb.js.br
+2021/07/22 10:08:22 gz /tmp/work/mode-cfb.js -> /output/mode-cfb.js.gz
+2021/07/22 10:08:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/pad-iso10126.min.js /tmp/work/pad-iso10126.js
+2021/07/22 10:08:22 sri /tmp/work/mode-ctr.min.js -> /output/mode-ctr.min.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mode-ctr.min.js.br /tmp/work/mode-ctr.min.js
+2021/07/22 10:08:22 br /tmp/work/mode-ctr.min.js -> /output/mode-ctr.min.js.br
+2021/07/22 10:08:22 gz /tmp/work/mode-ctr.min.js -> /output/mode-ctr.min.js.gz
+2021/07/22 10:08:22 sri /tmp/work/mode-ctr.js -> /output/mode-ctr.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mode-ctr.js.br /tmp/work/mode-ctr.js
+2021/07/22 10:08:22 sri /tmp/work/mode-ctr-gladman.min.js -> /output/mode-ctr-gladman.min.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mode-ctr-gladman.min.js.br /tmp/work/mode-ctr-gladman.min.js
+2021/07/22 10:08:22 br /tmp/work/mode-ctr.js -> /output/mode-ctr.js.br
+2021/07/22 10:08:22 gz /tmp/work/mode-ctr.js -> /output/mode-ctr.js.gz
+2021/07/22 10:08:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/pad-iso97971.min.js /tmp/work/pad-iso97971.js
+2021/07/22 10:08:22 br /tmp/work/mode-ctr-gladman.min.js -> /output/mode-ctr-gladman.min.js.br
+2021/07/22 10:08:22 gz /tmp/work/mode-ctr-gladman.min.js -> /output/mode-ctr-gladman.min.js.gz
+2021/07/22 10:08:22 sri /tmp/work/mode-ctr-gladman.js -> /output/mode-ctr-gladman.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mode-ctr-gladman.js.br /tmp/work/mode-ctr-gladman.js
+2021/07/22 10:08:22 sri /tmp/work/mode-ecb.min.js -> /output/mode-ecb.min.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mode-ecb.min.js.br /tmp/work/mode-ecb.min.js
+2021/07/22 10:08:22 br /tmp/work/mode-ecb.min.js -> /output/mode-ecb.min.js.br
+2021/07/22 10:08:22 gz /tmp/work/mode-ecb.min.js -> /output/mode-ecb.min.js.gz
+2021/07/22 10:08:22 sri /tmp/work/mode-ecb.js -> /output/mode-ecb.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mode-ecb.js.br /tmp/work/mode-ecb.js
+2021/07/22 10:08:22 br /tmp/work/mode-ctr-gladman.js -> /output/mode-ctr-gladman.js.br
+2021/07/22 10:08:22 gz /tmp/work/mode-ctr-gladman.js -> /output/mode-ctr-gladman.js.gz
+2021/07/22 10:08:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/pad-nopadding.min.js /tmp/work/pad-nopadding.js
+2021/07/22 10:08:22 br /tmp/work/mode-ecb.js -> /output/mode-ecb.js.br
+2021/07/22 10:08:22 gz /tmp/work/mode-ecb.js -> /output/mode-ecb.js.gz
+2021/07/22 10:08:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/pad-pkcs7.min.js /tmp/work/pad-pkcs7.js
+2021/07/22 10:08:22 sri /tmp/work/mode-ofb.min.js -> /output/mode-ofb.min.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mode-ofb.min.js.br /tmp/work/mode-ofb.min.js
+2021/07/22 10:08:22 br /tmp/work/mode-ofb.min.js -> /output/mode-ofb.min.js.br
+2021/07/22 10:08:22 gz /tmp/work/mode-ofb.min.js -> /output/mode-ofb.min.js.gz
+2021/07/22 10:08:22 sri /tmp/work/mode-ofb.js -> /output/mode-ofb.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mode-ofb.js.br /tmp/work/mode-ofb.js
+2021/07/22 10:08:22 br /tmp/work/mode-ofb.js -> /output/mode-ofb.js.br
+2021/07/22 10:08:22 gz /tmp/work/mode-ofb.js -> /output/mode-ofb.js.gz
+2021/07/22 10:08:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/pad-zeropadding.min.js /tmp/work/pad-zeropadding.js
+2021/07/22 10:08:22 sri /tmp/work/pad-ansix923.min.js -> /output/pad-ansix923.min.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pad-ansix923.min.js.br /tmp/work/pad-ansix923.min.js
+2021/07/22 10:08:22 br /tmp/work/pad-ansix923.min.js -> /output/pad-ansix923.min.js.br
+2021/07/22 10:08:22 gz /tmp/work/pad-ansix923.min.js -> /output/pad-ansix923.min.js.gz
+2021/07/22 10:08:22 sri /tmp/work/pad-ansix923.js -> /output/pad-ansix923.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pad-ansix923.js.br /tmp/work/pad-ansix923.js
+2021/07/22 10:08:22 br /tmp/work/pad-ansix923.js -> /output/pad-ansix923.js.br
+2021/07/22 10:08:22 gz /tmp/work/pad-ansix923.js -> /output/pad-ansix923.js.gz
+2021/07/22 10:08:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/pbkdf2.min.js /tmp/work/pbkdf2.js
+2021/07/22 10:08:22 sri /tmp/work/pad-iso10126.min.js -> /output/pad-iso10126.min.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pad-iso10126.min.js.br /tmp/work/pad-iso10126.min.js
+2021/07/22 10:08:22 br /tmp/work/pad-iso10126.min.js -> /output/pad-iso10126.min.js.br
+2021/07/22 10:08:22 gz /tmp/work/pad-iso10126.min.js -> /output/pad-iso10126.min.js.gz
+2021/07/22 10:08:22 sri /tmp/work/pad-iso10126.js -> /output/pad-iso10126.js.sri
+2021/07/22 10:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pad-iso10126.js.br /tmp/work/pad-iso10126.js
+2021/07/22 10:08:22 br /tmp/work/pad-iso10126.js -> /output/pad-iso10126.js.br
+2021/07/22 10:08:22 gz /tmp/work/pad-iso10126.js -> /output/pad-iso10126.js.gz
+2021/07/22 10:08:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/rabbit-legacy.min.js /tmp/work/rabbit-legacy.js
+2021/07/22 10:08:23 sri /tmp/work/pad-iso97971.min.js -> /output/pad-iso97971.min.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pad-iso97971.min.js.br /tmp/work/pad-iso97971.min.js
+2021/07/22 10:08:23 br /tmp/work/pad-iso97971.min.js -> /output/pad-iso97971.min.js.br
+2021/07/22 10:08:23 sri /tmp/work/pad-nopadding.min.js -> /output/pad-nopadding.min.js.sri
+2021/07/22 10:08:23 gz /tmp/work/pad-iso97971.min.js -> /output/pad-iso97971.min.js.gz
+2021/07/22 10:08:23 sri /tmp/work/pad-iso97971.js -> /output/pad-iso97971.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pad-iso97971.js.br /tmp/work/pad-iso97971.js
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pad-nopadding.min.js.br /tmp/work/pad-nopadding.min.js
+2021/07/22 10:08:23 br /tmp/work/pad-nopadding.min.js -> /output/pad-nopadding.min.js.br
+2021/07/22 10:08:23 gz /tmp/work/pad-nopadding.min.js -> /output/pad-nopadding.min.js.gz
+2021/07/22 10:08:23 sri /tmp/work/pad-nopadding.js -> /output/pad-nopadding.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pad-nopadding.js.br /tmp/work/pad-nopadding.js
+2021/07/22 10:08:23 br /tmp/work/pad-iso97971.js -> /output/pad-iso97971.js.br
+2021/07/22 10:08:23 gz /tmp/work/pad-iso97971.js -> /output/pad-iso97971.js.gz
+2021/07/22 10:08:23 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/rabbit.min.js /tmp/work/rabbit.js
+2021/07/22 10:08:23 br /tmp/work/pad-nopadding.js -> /output/pad-nopadding.js.br
+2021/07/22 10:08:23 gz /tmp/work/pad-nopadding.js -> /output/pad-nopadding.js.gz
+2021/07/22 10:08:23 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/rc4.min.js /tmp/work/rc4.js
+2021/07/22 10:08:23 sri /tmp/work/pad-pkcs7.min.js -> /output/pad-pkcs7.min.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pad-pkcs7.min.js.br /tmp/work/pad-pkcs7.min.js
+2021/07/22 10:08:23 br /tmp/work/pad-pkcs7.min.js -> /output/pad-pkcs7.min.js.br
+2021/07/22 10:08:23 gz /tmp/work/pad-pkcs7.min.js -> /output/pad-pkcs7.min.js.gz
+2021/07/22 10:08:23 sri /tmp/work/pad-pkcs7.js -> /output/pad-pkcs7.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pad-pkcs7.js.br /tmp/work/pad-pkcs7.js
+2021/07/22 10:08:23 sri /tmp/work/md5.min.js -> /output/md5.min.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/md5.min.js.br /tmp/work/md5.min.js
+2021/07/22 10:08:23 br /tmp/work/pad-pkcs7.js -> /output/pad-pkcs7.js.br
+2021/07/22 10:08:23 gz /tmp/work/pad-pkcs7.js -> /output/pad-pkcs7.js.gz
+2021/07/22 10:08:23 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ripemd160.min.js /tmp/work/ripemd160.js
+2021/07/22 10:08:23 br /tmp/work/md5.min.js -> /output/md5.min.js.br
+2021/07/22 10:08:23 gz /tmp/work/md5.min.js -> /output/md5.min.js.gz
+2021/07/22 10:08:23 sri /tmp/work/md5.js -> /output/md5.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/md5.js.br /tmp/work/md5.js
+2021/07/22 10:08:23 br /tmp/work/md5.js -> /output/md5.js.br
+2021/07/22 10:08:23 sri /tmp/work/pad-zeropadding.min.js -> /output/pad-zeropadding.min.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pad-zeropadding.min.js.br /tmp/work/pad-zeropadding.min.js
+2021/07/22 10:08:23 gz /tmp/work/md5.js -> /output/md5.js.gz
+2021/07/22 10:08:23 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sha1.min.js /tmp/work/sha1.js
+2021/07/22 10:08:23 br /tmp/work/pad-zeropadding.min.js -> /output/pad-zeropadding.min.js.br
+2021/07/22 10:08:23 gz /tmp/work/pad-zeropadding.min.js -> /output/pad-zeropadding.min.js.gz
+2021/07/22 10:08:23 sri /tmp/work/pad-zeropadding.js -> /output/pad-zeropadding.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pad-zeropadding.js.br /tmp/work/pad-zeropadding.js
+2021/07/22 10:08:23 br /tmp/work/pad-zeropadding.js -> /output/pad-zeropadding.js.br
+2021/07/22 10:08:23 gz /tmp/work/pad-zeropadding.js -> /output/pad-zeropadding.js.gz
+2021/07/22 10:08:23 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sha224.min.js /tmp/work/sha224.js
+2021/07/22 10:08:23 sri /tmp/work/pbkdf2.min.js -> /output/pbkdf2.min.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pbkdf2.min.js.br /tmp/work/pbkdf2.min.js
+2021/07/22 10:08:23 br /tmp/work/pbkdf2.min.js -> /output/pbkdf2.min.js.br
+2021/07/22 10:08:23 gz /tmp/work/pbkdf2.min.js -> /output/pbkdf2.min.js.gz
+2021/07/22 10:08:23 sri /tmp/work/pbkdf2.js -> /output/pbkdf2.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pbkdf2.js.br /tmp/work/pbkdf2.js
+2021/07/22 10:08:23 br /tmp/work/pbkdf2.js -> /output/pbkdf2.js.br
+2021/07/22 10:08:23 gz /tmp/work/pbkdf2.js -> /output/pbkdf2.js.gz
+2021/07/22 10:08:23 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sha256.min.js /tmp/work/sha256.js
+2021/07/22 10:08:23 sri /tmp/work/rc4.min.js -> /output/rc4.min.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/rc4.min.js.br /tmp/work/rc4.min.js
+2021/07/22 10:08:23 br /tmp/work/rc4.min.js -> /output/rc4.min.js.br
+2021/07/22 10:08:23 gz /tmp/work/rc4.min.js -> /output/rc4.min.js.gz
+2021/07/22 10:08:23 sri /tmp/work/rc4.js -> /output/rc4.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/rc4.js.br /tmp/work/rc4.js
+2021/07/22 10:08:23 br /tmp/work/rc4.js -> /output/rc4.js.br
+2021/07/22 10:08:23 gz /tmp/work/rc4.js -> /output/rc4.js.gz
+2021/07/22 10:08:23 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sha3.min.js /tmp/work/sha3.js
+2021/07/22 10:08:23 sri /tmp/work/rabbit.min.js -> /output/rabbit.min.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/rabbit.min.js.br /tmp/work/rabbit.min.js
+2021/07/22 10:08:23 sri /tmp/work/rabbit-legacy.min.js -> /output/rabbit-legacy.min.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/rabbit-legacy.min.js.br /tmp/work/rabbit-legacy.min.js
+2021/07/22 10:08:23 br /tmp/work/rabbit-legacy.min.js -> /output/rabbit-legacy.min.js.br
+2021/07/22 10:08:23 gz /tmp/work/rabbit-legacy.min.js -> /output/rabbit-legacy.min.js.gz
+2021/07/22 10:08:23 sri /tmp/work/rabbit-legacy.js -> /output/rabbit-legacy.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/rabbit-legacy.js.br /tmp/work/rabbit-legacy.js
+2021/07/22 10:08:23 br /tmp/work/rabbit.min.js -> /output/rabbit.min.js.br
+2021/07/22 10:08:23 gz /tmp/work/rabbit.min.js -> /output/rabbit.min.js.gz
+2021/07/22 10:08:23 sri /tmp/work/rabbit.js -> /output/rabbit.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/rabbit.js.br /tmp/work/rabbit.js
+2021/07/22 10:08:23 br /tmp/work/rabbit-legacy.js -> /output/rabbit-legacy.js.br
+2021/07/22 10:08:23 gz /tmp/work/rabbit-legacy.js -> /output/rabbit-legacy.js.gz
+2021/07/22 10:08:23 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sha384.min.js /tmp/work/sha384.js
+2021/07/22 10:08:23 br /tmp/work/rabbit.js -> /output/rabbit.js.br
+2021/07/22 10:08:23 gz /tmp/work/rabbit.js -> /output/rabbit.js.gz
+2021/07/22 10:08:23 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sha512.min.js /tmp/work/sha512.js
+2021/07/22 10:08:23 sri /tmp/work/sha224.min.js -> /output/sha224.min.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sha224.min.js.br /tmp/work/sha224.min.js
+2021/07/22 10:08:23 br /tmp/work/sha224.min.js -> /output/sha224.min.js.br
+2021/07/22 10:08:23 gz /tmp/work/sha224.min.js -> /output/sha224.min.js.gz
+2021/07/22 10:08:23 sri /tmp/work/sha224.js -> /output/sha224.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sha224.js.br /tmp/work/sha224.js
+2021/07/22 10:08:23 sri /tmp/work/sha1.min.js -> /output/sha1.min.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sha1.min.js.br /tmp/work/sha1.min.js
+2021/07/22 10:08:23 br /tmp/work/sha1.min.js -> /output/sha1.min.js.br
+2021/07/22 10:08:23 br /tmp/work/sha224.js -> /output/sha224.js.br
+2021/07/22 10:08:23 gz /tmp/work/sha1.min.js -> /output/sha1.min.js.gz
+2021/07/22 10:08:23 sri /tmp/work/sha1.js -> /output/sha1.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sha1.js.br /tmp/work/sha1.js
+2021/07/22 10:08:23 gz /tmp/work/sha224.js -> /output/sha224.js.gz
+2021/07/22 10:08:23 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/tripledes.min.js /tmp/work/tripledes.js
+2021/07/22 10:08:23 br /tmp/work/sha1.js -> /output/sha1.js.br
+2021/07/22 10:08:23 gz /tmp/work/sha1.js -> /output/sha1.js.gz
+2021/07/22 10:08:23 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/x64-core.min.js /tmp/work/x64-core.js
+2021/07/22 10:08:23 sri /tmp/work/ripemd160.min.js -> /output/ripemd160.min.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ripemd160.min.js.br /tmp/work/ripemd160.min.js
+2021/07/22 10:08:23 br /tmp/work/ripemd160.min.js -> /output/ripemd160.min.js.br
+2021/07/22 10:08:23 gz /tmp/work/ripemd160.min.js -> /output/ripemd160.min.js.gz
+2021/07/22 10:08:23 sri /tmp/work/ripemd160.js -> /output/ripemd160.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ripemd160.js.br /tmp/work/ripemd160.js
+2021/07/22 10:08:23 sri /tmp/work/sha256.min.js -> /output/sha256.min.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sha256.min.js.br /tmp/work/sha256.min.js
+2021/07/22 10:08:23 br /tmp/work/ripemd160.js -> /output/ripemd160.js.br
+2021/07/22 10:08:23 gz /tmp/work/ripemd160.js -> /output/ripemd160.js.gz
+2021/07/22 10:08:23 br /tmp/work/sha256.min.js -> /output/sha256.min.js.br
+2021/07/22 10:08:23 gz /tmp/work/sha256.min.js -> /output/sha256.min.js.gz
+2021/07/22 10:08:23 sri /tmp/work/sha256.js -> /output/sha256.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sha256.js.br /tmp/work/sha256.js
+2021/07/22 10:08:23 br /tmp/work/sha256.js -> /output/sha256.js.br
+2021/07/22 10:08:23 gz /tmp/work/sha256.js -> /output/sha256.js.gz
+2021/07/22 10:08:23 sri /tmp/work/sha384.min.js -> /output/sha384.min.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sha384.min.js.br /tmp/work/sha384.min.js
+2021/07/22 10:08:23 br /tmp/work/sha384.min.js -> /output/sha384.min.js.br
+2021/07/22 10:08:23 gz /tmp/work/sha384.min.js -> /output/sha384.min.js.gz
+2021/07/22 10:08:23 sri /tmp/work/sha384.js -> /output/sha384.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sha384.js.br /tmp/work/sha384.js
+2021/07/22 10:08:23 br /tmp/work/sha384.js -> /output/sha384.js.br
+2021/07/22 10:08:23 gz /tmp/work/sha384.js -> /output/sha384.js.gz
+2021/07/22 10:08:23 sri /tmp/work/sha3.min.js -> /output/sha3.min.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sha3.min.js.br /tmp/work/sha3.min.js
+2021/07/22 10:08:23 br /tmp/work/sha3.min.js -> /output/sha3.min.js.br
+2021/07/22 10:08:23 gz /tmp/work/sha3.min.js -> /output/sha3.min.js.gz
+2021/07/22 10:08:23 sri /tmp/work/sha3.js -> /output/sha3.js.sri
+2021/07/22 10:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sha3.js.br /tmp/work/sha3.js
+2021/07/22 10:08:24 br /tmp/work/sha3.js -> /output/sha3.js.br
+2021/07/22 10:08:24 gz /tmp/work/sha3.js -> /output/sha3.js.gz
+2021/07/22 10:08:24 sri /tmp/work/x64-core.min.js -> /output/x64-core.min.js.sri
+2021/07/22 10:08:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/x64-core.min.js.br /tmp/work/x64-core.min.js
+2021/07/22 10:08:24 br /tmp/work/x64-core.min.js -> /output/x64-core.min.js.br
+2021/07/22 10:08:24 gz /tmp/work/x64-core.min.js -> /output/x64-core.min.js.gz
+2021/07/22 10:08:24 sri /tmp/work/x64-core.js -> /output/x64-core.js.sri
+2021/07/22 10:08:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/x64-core.js.br /tmp/work/x64-core.js
+2021/07/22 10:08:24 br /tmp/work/x64-core.js -> /output/x64-core.js.br
+2021/07/22 10:08:24 gz /tmp/work/x64-core.js -> /output/x64-core.js.gz
+2021/07/22 10:08:24 sri /tmp/work/sha512.min.js -> /output/sha512.min.js.sri
+2021/07/22 10:08:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sha512.min.js.br /tmp/work/sha512.min.js
+2021/07/22 10:08:24 sri /tmp/work/tripledes.min.js -> /output/tripledes.min.js.sri
+2021/07/22 10:08:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tripledes.min.js.br /tmp/work/tripledes.min.js
+2021/07/22 10:08:24 br /tmp/work/sha512.min.js -> /output/sha512.min.js.br
+2021/07/22 10:08:24 gz /tmp/work/sha512.min.js -> /output/sha512.min.js.gz
+2021/07/22 10:08:24 sri /tmp/work/sha512.js -> /output/sha512.js.sri
+2021/07/22 10:08:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sha512.js.br /tmp/work/sha512.js
+2021/07/22 10:08:24 br /tmp/work/tripledes.min.js -> /output/tripledes.min.js.br
+2021/07/22 10:08:24 gz /tmp/work/tripledes.min.js -> /output/tripledes.min.js.gz
+2021/07/22 10:08:24 sri /tmp/work/tripledes.js -> /output/tripledes.js.sri
+2021/07/22 10:08:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tripledes.js.br /tmp/work/tripledes.js
+2021/07/22 10:08:24 br /tmp/work/sha512.js -> /output/sha512.js.br
+2021/07/22 10:08:24 gz /tmp/work/sha512.js -> /output/sha512.js.gz
+2021/07/22 10:08:24 br /tmp/work/tripledes.js -> /output/tripledes.js.br
+2021/07/22 10:08:24 gz /tmp/work/tripledes.js -> /output/tripledes.js.gz
+2021/07/22 10:08:24 sri /tmp/work/crypto-js.min.js -> /output/crypto-js.min.js.sri
+2021/07/22 10:08:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/crypto-js.min.js.br /tmp/work/crypto-js.min.js
+2021/07/22 10:08:24 br /tmp/work/crypto-js.min.js -> /output/crypto-js.min.js.br
+2021/07/22 10:08:24 gz /tmp/work/crypto-js.min.js -> /output/crypto-js.min.js.gz
+2021/07/22 10:08:24 sri /tmp/work/crypto-js.js -> /output/crypto-js.js.sri
+2021/07/22 10:08:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/crypto-js.js.br /tmp/work/crypto-js.js
+2021/07/22 10:08:24 br /tmp/work/crypto-js.js -> /output/crypto-js.js.br
+2021/07/22 10:08:24 gz /tmp/work/crypto-js.js -> /output/crypto-js.js.gz
+2021/07/22 10:08:24 processed crypto-js
