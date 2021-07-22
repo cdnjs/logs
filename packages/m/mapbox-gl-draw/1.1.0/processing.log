@@ -1,0 +1,47 @@
+2021/07/22 19:34:48 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/07/22 19:34:48 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/mapbox-gl-draw.min.css /tmp/work/dist/mapbox-gl-draw.css
+2021/07/22 19:34:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/mapbox-gl-draw-unminified.min.js /tmp/work/dist/mapbox-gl-draw-unminified.js
+2021/07/22 19:34:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/mapbox-gl-draw.min.js /tmp/work/dist/mapbox-gl-draw.js
+2021/07/22 19:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/svg/point.svg.br /tmp/work/dist/svg/point.svg
+2021/07/22 19:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/svg/line.svg.br /tmp/work/dist/svg/line.svg
+2021/07/22 19:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/svg/combine.svg.br /tmp/work/dist/svg/combine.svg
+2021/07/22 19:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/svg/polygon.svg.br /tmp/work/dist/svg/polygon.svg
+2021/07/22 19:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/svg/trash.svg.br /tmp/work/dist/svg/trash.svg
+2021/07/22 19:34:48 br /tmp/work/dist/svg/line.svg -> /output/svg/line.svg.br
+2021/07/22 19:34:48 gz /tmp/work/dist/svg/line.svg -> /output/svg/line.svg.gz
+2021/07/22 19:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/svg/uncombine.svg.br /tmp/work/dist/svg/uncombine.svg
+2021/07/22 19:34:48 br /tmp/work/dist/svg/trash.svg -> /output/svg/trash.svg.br
+2021/07/22 19:34:48 gz /tmp/work/dist/svg/trash.svg -> /output/svg/trash.svg.gz
+2021/07/22 19:34:48 br /tmp/work/dist/svg/polygon.svg -> /output/svg/polygon.svg.br
+2021/07/22 19:34:48 br /tmp/work/dist/svg/combine.svg -> /output/svg/combine.svg.br
+2021/07/22 19:34:48 gz /tmp/work/dist/svg/polygon.svg -> /output/svg/polygon.svg.gz
+2021/07/22 19:34:48 gz /tmp/work/dist/svg/combine.svg -> /output/svg/combine.svg.gz
+2021/07/22 19:34:48 br /tmp/work/dist/svg/point.svg -> /output/svg/point.svg.br
+2021/07/22 19:34:48 gz /tmp/work/dist/svg/point.svg -> /output/svg/point.svg.gz
+2021/07/22 19:34:48 br /tmp/work/dist/svg/uncombine.svg -> /output/svg/uncombine.svg.br
+2021/07/22 19:34:48 gz /tmp/work/dist/svg/uncombine.svg -> /output/svg/uncombine.svg.gz
+2021/07/22 19:34:49 sri /tmp/work/dist/mapbox-gl-draw.min.css -> /output/mapbox-gl-draw.min.css.sri
+2021/07/22 19:34:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-draw.min.css.br /tmp/work/dist/mapbox-gl-draw.min.css
+2021/07/22 19:34:49 br /tmp/work/dist/mapbox-gl-draw.min.css -> /output/mapbox-gl-draw.min.css.br
+2021/07/22 19:34:49 gz /tmp/work/dist/mapbox-gl-draw.min.css -> /output/mapbox-gl-draw.min.css.gz
+2021/07/22 19:34:49 sri /tmp/work/dist/mapbox-gl-draw.css -> /output/mapbox-gl-draw.css.sri
+2021/07/22 19:34:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-draw.css.br /tmp/work/dist/mapbox-gl-draw.css
+2021/07/22 19:34:49 br /tmp/work/dist/mapbox-gl-draw.css -> /output/mapbox-gl-draw.css.br
+2021/07/22 19:34:49 gz /tmp/work/dist/mapbox-gl-draw.css -> /output/mapbox-gl-draw.css.gz
+2021/07/22 19:34:51 sri /tmp/work/dist/mapbox-gl-draw.min.js -> /output/mapbox-gl-draw.min.js.sri
+2021/07/22 19:34:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-draw.min.js.br /tmp/work/dist/mapbox-gl-draw.min.js
+2021/07/22 19:34:51 br /tmp/work/dist/mapbox-gl-draw.min.js -> /output/mapbox-gl-draw.min.js.br
+2021/07/22 19:34:51 gz /tmp/work/dist/mapbox-gl-draw.min.js -> /output/mapbox-gl-draw.min.js.gz
+2021/07/22 19:34:51 sri /tmp/work/dist/mapbox-gl-draw.js -> /output/mapbox-gl-draw.js.sri
+2021/07/22 19:34:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-draw.js.br /tmp/work/dist/mapbox-gl-draw.js
+2021/07/22 19:34:51 sri /tmp/work/dist/mapbox-gl-draw-unminified.min.js -> /output/mapbox-gl-draw-unminified.min.js.sri
+2021/07/22 19:34:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-draw-unminified.min.js.br /tmp/work/dist/mapbox-gl-draw-unminified.min.js
+2021/07/22 19:34:52 br /tmp/work/dist/mapbox-gl-draw.js -> /output/mapbox-gl-draw.js.br
+2021/07/22 19:34:52 gz /tmp/work/dist/mapbox-gl-draw.js -> /output/mapbox-gl-draw.js.gz
+2021/07/22 19:34:52 br /tmp/work/dist/mapbox-gl-draw-unminified.min.js -> /output/mapbox-gl-draw-unminified.min.js.br
+2021/07/22 19:34:52 gz /tmp/work/dist/mapbox-gl-draw-unminified.min.js -> /output/mapbox-gl-draw-unminified.min.js.gz
+2021/07/22 19:34:52 sri /tmp/work/dist/mapbox-gl-draw-unminified.js -> /output/mapbox-gl-draw-unminified.js.sri
+2021/07/22 19:34:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-draw-unminified.js.br /tmp/work/dist/mapbox-gl-draw-unminified.js
+2021/07/22 19:34:52 br /tmp/work/dist/mapbox-gl-draw-unminified.js -> /output/mapbox-gl-draw-unminified.js.br
+2021/07/22 19:34:52 gz /tmp/work/dist/mapbox-gl-draw-unminified.js -> /output/mapbox-gl-draw-unminified.js.gz
+2021/07/22 19:34:52 processed mapbox-gl-draw
