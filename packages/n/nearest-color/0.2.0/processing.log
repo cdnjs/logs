@@ -1,0 +1,20 @@
+2021/07/27 13:32:27 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/07/27 13:32:27 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/verify.min.js /tmp/work/verify.js
+2021/07/27 13:32:27 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/nearestColor.min.js /tmp/work/nearestColor.js
+2021/07/27 13:32:27 sri /tmp/work/verify.min.js -> /output/verify.min.js.sri
+2021/07/27 13:32:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/verify.min.js.br /tmp/work/verify.min.js
+2021/07/27 13:32:27 br /tmp/work/verify.min.js -> /output/verify.min.js.br
+2021/07/27 13:32:27 gz /tmp/work/verify.min.js -> /output/verify.min.js.gz
+2021/07/27 13:32:27 sri /tmp/work/verify.js -> /output/verify.js.sri
+2021/07/27 13:32:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/verify.js.br /tmp/work/verify.js
+2021/07/27 13:32:27 br /tmp/work/verify.js -> /output/verify.js.br
+2021/07/27 13:32:27 gz /tmp/work/verify.js -> /output/verify.js.gz
+2021/07/27 13:32:27 sri /tmp/work/nearestColor.min.js -> /output/nearestColor.min.js.sri
+2021/07/27 13:32:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nearestColor.min.js.br /tmp/work/nearestColor.min.js
+2021/07/27 13:32:27 br /tmp/work/nearestColor.min.js -> /output/nearestColor.min.js.br
+2021/07/27 13:32:27 gz /tmp/work/nearestColor.min.js -> /output/nearestColor.min.js.gz
+2021/07/27 13:32:27 sri /tmp/work/nearestColor.js -> /output/nearestColor.js.sri
+2021/07/27 13:32:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nearestColor.js.br /tmp/work/nearestColor.js
+2021/07/27 13:32:27 br /tmp/work/nearestColor.js -> /output/nearestColor.js.br
+2021/07/27 13:32:27 gz /tmp/work/nearestColor.js -> /output/nearestColor.js.gz
+2021/07/27 13:32:27 processed nearest-color
