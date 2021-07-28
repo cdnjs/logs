@@ -1,0 +1,11 @@
+2021/07/28 12:05:07 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/07/28 12:05:07 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/engine.io.min.js /tmp/work/engine.io.js
+2021/07/28 12:05:09 sri /tmp/work/engine.io.min.js -> /output/engine.io.min.js.sri
+2021/07/28 12:05:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/engine.io.min.js.br /tmp/work/engine.io.min.js
+2021/07/28 12:05:09 br /tmp/work/engine.io.min.js -> /output/engine.io.min.js.br
+2021/07/28 12:05:09 gz /tmp/work/engine.io.min.js -> /output/engine.io.min.js.gz
+2021/07/28 12:05:09 sri /tmp/work/engine.io.js -> /output/engine.io.js.sri
+2021/07/28 12:05:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/engine.io.js.br /tmp/work/engine.io.js
+2021/07/28 12:05:09 br /tmp/work/engine.io.js -> /output/engine.io.js.br
+2021/07/28 12:05:09 gz /tmp/work/engine.io.js -> /output/engine.io.js.gz
+2021/07/28 12:05:09 processed engine.io-client
