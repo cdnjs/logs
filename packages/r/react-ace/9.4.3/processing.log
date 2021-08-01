@@ -1,0 +1,37 @@
+2021/08/01 00:01:23 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/08/01 00:01:23 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/react-ace.js/main.min.js /tmp/work/dist/react-ace.js/main.js
+2021/08/01 00:01:23 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/react-ace.min.js/main.min.js /tmp/work/dist/react-ace.min.js/main.js
+2021/08/01 00:01:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/react-ace.min.js/main.js.LICENSE.txt.br /tmp/work/dist/react-ace.min.js/main.js.LICENSE.txt
+2021/08/01 00:01:23 br /tmp/work/dist/react-ace.min.js/main.js.LICENSE.txt -> /output/react-ace.min.js/main.js.LICENSE.txt.br
+2021/08/01 00:01:23 gz /tmp/work/dist/react-ace.min.js/main.js.LICENSE.txt -> /output/react-ace.min.js/main.js.LICENSE.txt.gz
+2021/08/01 00:01:23 sri /tmp/work/dist/react-ace.js/main.min.js -> /output/react-ace.min.js/main.js.sri
+2021/08/01 00:01:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/react-ace.min.js/main.js.br /tmp/work/dist/react-ace.js/main.min.js
+2021/08/01 00:01:26 br /tmp/work/dist/react-ace.js/main.min.js -> /output/react-ace.min.js/main.js.br
+2021/08/01 00:01:26 gz /tmp/work/dist/react-ace.js/main.min.js -> /output/react-ace.min.js/main.js.gz
+2021/08/01 00:01:26 sri /tmp/work/dist/react-ace.js/main.js -> /output/react-ace.js/main.js.sri
+2021/08/01 00:01:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/react-ace.js/main.js.br /tmp/work/dist/react-ace.js/main.js
+2021/08/01 00:01:28 br /tmp/work/dist/react-ace.js/main.js -> /output/react-ace.js/main.js.br
+2021/08/01 00:01:29 gz /tmp/work/dist/react-ace.js/main.js -> /output/react-ace.js/main.js.gz
+2021/08/01 00:01:30 sri /tmp/work/dist/react-ace.min.js/main.min.js -> /output/react-ace.min.min.js/main.js.sri
+2021/08/01 00:01:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/react-ace.min.min.js/main.js.br /tmp/work/dist/react-ace.min.js/main.min.js
+2021/08/01 00:01:31 br /tmp/work/dist/react-ace.min.js/main.min.js -> /output/react-ace.min.min.js/main.js.br
+2021/08/01 00:01:31 gz /tmp/work/dist/react-ace.min.js/main.min.js -> /output/react-ace.min.min.js/main.js.gz
+2021/08/01 00:01:31 sri /tmp/work/dist/react-ace.min.js/main.js -> /output/react-ace.min.js/main.js.sri
+2021/08/01 00:01:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/react-ace.min.js/main.js.br /tmp/work/dist/react-ace.min.js/main.js
+panic: exit status 1
+
+goroutine 10 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/compress.runAlgorithm(0x86e4c0, 0xc000016050, 0x7f1dfc, 0x6, 0xc000087cd0, 0x3, 0x3, 0x2f737fe778b2b108, 0x26, 0x1)
+	/go/src/github.com/compress/algorithm.go:28 +0x348
+github.com/cdnjs/tools/compress.Brotli11CLI(...)
+	/go/src/github.com/compress/algorithm.go:40
+main.optimizeJob.emitFromWorkspace(0x86e4c0, 0xc000016050, 0x0, 0xc00037dac0, 0x1d, 0xc00007a255, 0x18, 0xc00011e120, 0x27)
+	/go/src/github.com/cmd/process-version/main.go:98 +0x4da
+main.optimizeJob.emit(0x86e4c0, 0xc000016050, 0x0, 0xc00037dac0, 0x1d, 0xc00007a255, 0x18, 0xc00037dac0, 0x1d)
+	/go/src/github.com/cmd/process-version/main.go:114 +0xc6
+main.optimizeWorker(0xc0004300d0, 0xc0004321e0)
+	/go/src/github.com/cmd/process-version/main.go:233 +0x14a
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:254 +0x24a
