@@ -1,0 +1,62 @@
+2021/08/12 22:02:06 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/08/12 22:02:06 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/human.esm-nobundle.min.js /tmp/work/dist/human.esm-nobundle.js
+2021/08/12 22:02:06 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/human.esm.min.js /tmp/work/dist/human.esm.js
+2021/08/12 22:02:06 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/human.min.js /tmp/work/dist/human.js
+2021/08/12 22:02:06 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/human.node-gpu.min.js /tmp/work/dist/human.node-gpu.js
+2021/08/12 22:02:06 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/human.node.min.js /tmp/work/dist/human.node.js
+2021/08/12 22:02:06 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/human.node-wasm.min.js /tmp/work/dist/human.node-wasm.js
+2021/08/12 22:02:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.esm-nobundle.js.map.br /tmp/work/dist/human.esm-nobundle.js.map
+2021/08/12 22:02:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.esm.js.map.br /tmp/work/dist/human.esm.js.map
+2021/08/12 22:02:09 br /tmp/work/dist/human.esm-nobundle.js.map -> /output/human.esm-nobundle.js.map.br
+2021/08/12 22:02:09 gz /tmp/work/dist/human.esm-nobundle.js.map -> /output/human.esm-nobundle.js.map.gz
+2021/08/12 22:02:12 sri /tmp/work/dist/human.esm-nobundle.min.js -> /output/human.esm-nobundle.min.js.sri
+2021/08/12 22:02:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.esm-nobundle.min.js.br /tmp/work/dist/human.esm-nobundle.min.js
+2021/08/12 22:02:12 sri /tmp/work/dist/human.node.min.js -> /output/human.node.min.js.sri
+2021/08/12 22:02:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.node.min.js.br /tmp/work/dist/human.node.min.js
+2021/08/12 22:02:12 sri /tmp/work/dist/human.node-wasm.min.js -> /output/human.node-wasm.min.js.sri
+2021/08/12 22:02:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.node-wasm.min.js.br /tmp/work/dist/human.node-wasm.min.js
+2021/08/12 22:02:12 sri /tmp/work/dist/human.node-gpu.min.js -> /output/human.node-gpu.min.js.sri
+2021/08/12 22:02:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.node-gpu.min.js.br /tmp/work/dist/human.node-gpu.min.js
+2021/08/12 22:02:13 br /tmp/work/dist/human.esm-nobundle.min.js -> /output/human.esm-nobundle.min.js.br
+2021/08/12 22:02:13 gz /tmp/work/dist/human.esm-nobundle.min.js -> /output/human.esm-nobundle.min.js.gz
+2021/08/12 22:02:13 sri /tmp/work/dist/human.esm-nobundle.js -> /output/human.esm-nobundle.js.sri
+2021/08/12 22:02:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.esm-nobundle.js.br /tmp/work/dist/human.esm-nobundle.js
+2021/08/12 22:02:13 br /tmp/work/dist/human.node.min.js -> /output/human.node.min.js.br
+2021/08/12 22:02:13 gz /tmp/work/dist/human.node.min.js -> /output/human.node.min.js.gz
+2021/08/12 22:02:13 sri /tmp/work/dist/human.node.js -> /output/human.node.js.sri
+2021/08/12 22:02:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.node.js.br /tmp/work/dist/human.node.js
+2021/08/12 22:02:13 br /tmp/work/dist/human.node-wasm.min.js -> /output/human.node-wasm.min.js.br
+2021/08/12 22:02:13 gz /tmp/work/dist/human.node-wasm.min.js -> /output/human.node-wasm.min.js.gz
+2021/08/12 22:02:13 sri /tmp/work/dist/human.node-wasm.js -> /output/human.node-wasm.js.sri
+2021/08/12 22:02:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.node-wasm.js.br /tmp/work/dist/human.node-wasm.js
+2021/08/12 22:02:13 br /tmp/work/dist/human.node-gpu.min.js -> /output/human.node-gpu.min.js.br
+2021/08/12 22:02:13 gz /tmp/work/dist/human.node-gpu.min.js -> /output/human.node-gpu.min.js.gz
+2021/08/12 22:02:13 sri /tmp/work/dist/human.node-gpu.js -> /output/human.node-gpu.js.sri
+2021/08/12 22:02:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.node-gpu.js.br /tmp/work/dist/human.node-gpu.js
+2021/08/12 22:02:14 br /tmp/work/dist/human.esm-nobundle.js -> /output/human.esm-nobundle.js.br
+2021/08/12 22:02:14 gz /tmp/work/dist/human.esm-nobundle.js -> /output/human.esm-nobundle.js.gz
+2021/08/12 22:02:14 br /tmp/work/dist/human.node-wasm.js -> /output/human.node-wasm.js.br
+2021/08/12 22:02:14 gz /tmp/work/dist/human.node-wasm.js -> /output/human.node-wasm.js.gz
+2021/08/12 22:02:15 br /tmp/work/dist/human.node.js -> /output/human.node.js.br
+2021/08/12 22:02:15 gz /tmp/work/dist/human.node.js -> /output/human.node.js.gz
+2021/08/12 22:02:15 br /tmp/work/dist/human.node-gpu.js -> /output/human.node-gpu.js.br
+2021/08/12 22:02:15 gz /tmp/work/dist/human.node-gpu.js -> /output/human.node-gpu.js.gz
+2021/08/12 22:02:24 sri /tmp/work/dist/human.esm.min.js -> /output/human.esm.min.js.sri
+2021/08/12 22:02:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.esm.min.js.br /tmp/work/dist/human.esm.min.js
+2021/08/12 22:02:24 br /tmp/work/dist/human.esm.js.map -> /output/human.esm.js.map.br
+2021/08/12 22:02:24 gz /tmp/work/dist/human.esm.js.map -> /output/human.esm.js.map.gz
+2021/08/12 22:02:27 br /tmp/work/dist/human.esm.min.js -> /output/human.esm.min.js.br
+2021/08/12 22:02:27 gz /tmp/work/dist/human.esm.min.js -> /output/human.esm.min.js.gz
+2021/08/12 22:02:27 sri /tmp/work/dist/human.esm.js -> /output/human.esm.js.sri
+2021/08/12 22:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.esm.js.br /tmp/work/dist/human.esm.js
+2021/08/12 22:02:30 br /tmp/work/dist/human.esm.js -> /output/human.esm.js.br
+2021/08/12 22:02:31 gz /tmp/work/dist/human.esm.js -> /output/human.esm.js.gz
+2021/08/12 22:02:37 sri /tmp/work/dist/human.min.js -> /output/human.min.js.sri
+2021/08/12 22:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.min.js.br /tmp/work/dist/human.min.js
+2021/08/12 22:02:40 br /tmp/work/dist/human.min.js -> /output/human.min.js.br
+2021/08/12 22:02:40 gz /tmp/work/dist/human.min.js -> /output/human.min.js.gz
+2021/08/12 22:02:40 sri /tmp/work/dist/human.js -> /output/human.js.sri
+2021/08/12 22:02:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.js.br /tmp/work/dist/human.js
+2021/08/12 22:02:43 br /tmp/work/dist/human.js -> /output/human.js.br
+2021/08/12 22:02:43 gz /tmp/work/dist/human.js -> /output/human.js.gz
+2021/08/12 22:02:43 processed human
