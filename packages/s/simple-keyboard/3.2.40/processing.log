@@ -1,0 +1,29 @@
+2021/08/19 10:37:49 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/08/19 10:37:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/index.min.js /tmp/work/build/index.js
+2021/08/19 10:37:50 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/build/css/index.min.css /tmp/work/build/css/index.css
+2021/08/19 10:37:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/index.d.ts.br /tmp/work/build/types/index.d.ts
+2021/08/19 10:37:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/interfaces.d.ts.br /tmp/work/build/types/interfaces.d.ts
+2021/08/19 10:37:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/polyfills.d.ts.br /tmp/work/build/types/polyfills.d.ts
+2021/08/19 10:37:50 br /tmp/work/build/types/polyfills.d.ts -> /output/types/polyfills.d.ts.br
+2021/08/19 10:37:50 gz /tmp/work/build/types/polyfills.d.ts -> /output/types/polyfills.d.ts.gz
+2021/08/19 10:37:50 br /tmp/work/build/types/index.d.ts -> /output/types/index.d.ts.br
+2021/08/19 10:37:50 gz /tmp/work/build/types/index.d.ts -> /output/types/index.d.ts.gz
+2021/08/19 10:37:50 br /tmp/work/build/types/interfaces.d.ts -> /output/types/interfaces.d.ts.br
+2021/08/19 10:37:50 gz /tmp/work/build/types/interfaces.d.ts -> /output/types/interfaces.d.ts.gz
+2021/08/19 10:37:50 sri /tmp/work/build/css/index.min.css -> /output/css/index.min.css.sri
+2021/08/19 10:37:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/index.min.css.br /tmp/work/build/css/index.min.css
+2021/08/19 10:37:50 br /tmp/work/build/css/index.min.css -> /output/css/index.min.css.br
+2021/08/19 10:37:50 gz /tmp/work/build/css/index.min.css -> /output/css/index.min.css.gz
+2021/08/19 10:37:50 sri /tmp/work/build/css/index.css -> /output/css/index.css.sri
+2021/08/19 10:37:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/index.css.br /tmp/work/build/css/index.css
+2021/08/19 10:37:50 br /tmp/work/build/css/index.css -> /output/css/index.css.br
+2021/08/19 10:37:50 gz /tmp/work/build/css/index.css -> /output/css/index.css.gz
+2021/08/19 10:37:52 sri /tmp/work/build/index.min.js -> /output/index.min.js.sri
+2021/08/19 10:37:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/build/index.min.js
+2021/08/19 10:37:52 br /tmp/work/build/index.min.js -> /output/index.min.js.br
+2021/08/19 10:37:52 gz /tmp/work/build/index.min.js -> /output/index.min.js.gz
+2021/08/19 10:37:52 sri /tmp/work/build/index.js -> /output/index.js.sri
+2021/08/19 10:37:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/build/index.js
+2021/08/19 10:37:53 br /tmp/work/build/index.js -> /output/index.js.br
+2021/08/19 10:37:53 gz /tmp/work/build/index.js -> /output/index.js.gz
+2021/08/19 10:37:53 processed simple-keyboard
