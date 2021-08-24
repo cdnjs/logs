@@ -1,0 +1,45 @@
+2021/08/24 23:36:16 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/08/24 23:36:16 /tmp/work/dist/client.base.min.js.min.js compressed file already exists
+2021/08/24 23:36:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/client.base.min.js.map.br /tmp/work/dist/client.base.min.js.map
+2021/08/24 23:36:16 /tmp/work/dist/client.flash.min.js.min.js compressed file already exists
+2021/08/24 23:36:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/client.flash.min.js.map.br /tmp/work/dist/client.flash.min.js.map
+2021/08/24 23:36:16 sri /tmp/work/dist/client.base.min.js -> /output/client.base.min.js.sri
+2021/08/24 23:36:16 /tmp/work/dist/client.java.min.js.min.js compressed file already exists
+2021/08/24 23:36:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/client.base.min.js.br /tmp/work/dist/client.base.min.js
+2021/08/24 23:36:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/client.min.js.map.br /tmp/work/dist/client.min.js.map
+2021/08/24 23:36:16 /tmp/work/dist/client.min.js.min.js compressed file already exists
+2021/08/24 23:36:16 sri /tmp/work/dist/client.flash.min.js -> /output/client.flash.min.js.sri
+2021/08/24 23:36:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/client.java.min.js.map.br /tmp/work/dist/client.java.min.js.map
+2021/08/24 23:36:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/client.flash.min.js.br /tmp/work/dist/client.flash.min.js
+2021/08/24 23:36:16 sri /tmp/work/dist/client.java.min.js -> /output/client.java.min.js.sri
+2021/08/24 23:36:16 sri /tmp/work/dist/client.min.js -> /output/client.min.js.sri
+2021/08/24 23:36:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/client.java.min.js.br /tmp/work/dist/client.java.min.js
+2021/08/24 23:36:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/client.min.js.br /tmp/work/dist/client.min.js
+2021/08/24 23:36:16 br /tmp/work/dist/client.base.min.js -> /output/client.base.min.js.br
+2021/08/24 23:36:16 gz /tmp/work/dist/client.base.min.js -> /output/client.base.min.js.gz
+2021/08/24 23:36:16 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/src/client.min.js /tmp/work/src/client.js
+2021/08/24 23:36:16 br /tmp/work/dist/client.flash.min.js -> /output/client.flash.min.js.br
+2021/08/24 23:36:16 gz /tmp/work/dist/client.flash.min.js -> /output/client.flash.min.js.gz
+2021/08/24 23:36:16 br /tmp/work/dist/client.java.min.js -> /output/client.java.min.js.br
+2021/08/24 23:36:16 gz /tmp/work/dist/client.java.min.js -> /output/client.java.min.js.gz
+2021/08/24 23:36:16 br /tmp/work/dist/client.min.js -> /output/client.min.js.br
+2021/08/24 23:36:16 gz /tmp/work/dist/client.min.js -> /output/client.min.js.gz
+2021/08/24 23:36:16 br /tmp/work/dist/client.base.min.js.map -> /output/client.base.min.js.map.br
+2021/08/24 23:36:16 gz /tmp/work/dist/client.base.min.js.map -> /output/client.base.min.js.map.gz
+2021/08/24 23:36:16 sri /tmp/work/src/client.min.js -> /output/client.min.js.sri
+2021/08/24 23:36:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/client.min.js.br /tmp/work/src/client.min.js
+panic: exit status 1
+
+goroutine 24 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/compress.runAlgorithm(0x86d300, 0xc000016060, 0x7f0c97, 0x6, 0xc000343d48, 0x3, 0x3, 0x44d9ec, 0xd, 0x77a740)
+	/go/src/github.com/compress/algorithm.go:28 +0x348
+github.com/cdnjs/tools/compress.Brotli11CLI(...)
+	/go/src/github.com/compress/algorithm.go:40
+main.optimizeJob.emitFromWorkspace(0x86d300, 0xc000016060, 0x0, 0xc000306020, 0xd, 0xc0001c2340, 0xd, 0xc00029a020, 0x1b)
+	/go/src/github.com/cmd/process-version/main.go:98 +0x4da
+main.optimizeWorker(0xc000306030, 0xc000312000)
+	/go/src/github.com/cmd/process-version/main.go:220 +0x445
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:254 +0x24a
