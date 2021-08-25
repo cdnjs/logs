@@ -1,0 +1,52 @@
+2021/08/25 00:05:00 ExtractTarGz: uknown type: 67 in pax_global_header
+2021/08/25 00:05:00 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/08/25 00:05:00 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/gpx.min.js /tmp/work/gpx.js
+2021/08/25 00:05:00 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/pin-icon-end.png /tmp/work/pin-icon-end.png
+2021/08/25 00:05:00 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/pin-icon-wpt.png /tmp/work/pin-icon-wpt.png
+2021/08/25 00:05:00 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/pin-icon-start.png /tmp/work/pin-icon-start.png
+2021/08/25 00:05:00 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/pin-shadow.png /tmp/work/pin-shadow.png
+2021/08/25 00:05:01 sri /tmp/work/gpx.min.js -> /output/gpx.min.js.sri
+2021/08/25 00:05:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gpx.min.js.br /tmp/work/gpx.min.js
+2021/08/25 00:05:01 br /tmp/work/gpx.min.js -> /output/gpx.min.js.br
+2021/08/25 00:05:01 gz /tmp/work/gpx.min.js -> /output/gpx.min.js.gz
+2021/08/25 00:05:01 sri /tmp/work/gpx.js -> /output/gpx.js.sri
+2021/08/25 00:05:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gpx.js.br /tmp/work/gpx.js
+2021/08/25 00:05:01 br /tmp/work/gpx.js -> /output/gpx.js.br
+2021/08/25 00:05:01 gz /tmp/work/gpx.js -> /output/gpx.js.gz
+2021/08/25 00:05:01 Optimizing /tmp/work/pin-shadow.png
+Input size: 1127 (1K)
+Result size: 1128 (1K). Percentage of original: 100.089%
+Preserving original PNG since it was smaller
+
+
+2021/08/25 00:05:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pin-shadow.png.br /tmp/work/pin-shadow.png
+2021/08/25 00:05:01 br /tmp/work/pin-shadow.png -> /output/pin-shadow.png.br
+2021/08/25 00:05:01 gz /tmp/work/pin-shadow.png -> /output/pin-shadow.png.gz
+2021/08/25 00:05:01 Optimizing /tmp/work/pin-icon-end.png
+Input size: 960 (0K)
+Result size: 996 (0K). Percentage of original: 103.750%
+Preserving original PNG since it was smaller
+
+
+2021/08/25 00:05:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pin-icon-end.png.br /tmp/work/pin-icon-end.png
+2021/08/25 00:05:01 br /tmp/work/pin-icon-end.png -> /output/pin-icon-end.png.br
+2021/08/25 00:05:01 gz /tmp/work/pin-icon-end.png -> /output/pin-icon-end.png.gz
+2021/08/25 00:05:01 Optimizing /tmp/work/pin-icon-wpt.png
+Input size: 660 (0K)
+Result size: 639 (0K). Percentage of original: 96.818%
+Result is smaller
+
+
+2021/08/25 00:05:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pin-icon-wpt.png.br /tmp/work/pin-icon-wpt.png
+2021/08/25 00:05:01 br /tmp/work/pin-icon-wpt.png -> /output/pin-icon-wpt.png.br
+2021/08/25 00:05:01 gz /tmp/work/pin-icon-wpt.png -> /output/pin-icon-wpt.png.gz
+2021/08/25 00:05:02 Optimizing /tmp/work/pin-icon-start.png
+Input size: 971 (0K)
+Result size: 982 (0K). Percentage of original: 101.133%
+Preserving original PNG since it was smaller
+
+
+2021/08/25 00:05:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pin-icon-start.png.br /tmp/work/pin-icon-start.png
+2021/08/25 00:05:02 br /tmp/work/pin-icon-start.png -> /output/pin-icon-start.png.br
+2021/08/25 00:05:02 gz /tmp/work/pin-icon-start.png -> /output/pin-icon-start.png.gz
+2021/08/25 00:05:02 processed leaflet-gpx
