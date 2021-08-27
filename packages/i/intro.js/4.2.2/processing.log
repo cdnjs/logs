@@ -1,0 +1,40 @@
+2021/08/27 17:04:24 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/08/27 17:04:25 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/intro.min.js /tmp/work/intro.js
+2021/08/27 17:04:25 /tmp/work/minified/intro.min.js.min.js compressed file already exists
+2021/08/27 17:04:25 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/introjs-rtl.min.css /tmp/work/introjs-rtl.css
+2021/08/27 17:04:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/introjs-rtl.min.css.map.br /tmp/work/minified/introjs-rtl.min.css.map
+2021/08/27 17:04:25 sri /tmp/work/minified/introjs-rtl.min.css -> /output/introjs-rtl.min.css.sri
+2021/08/27 17:04:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/introjs.min.css.map.br /tmp/work/minified/introjs.min.css.map
+2021/08/27 17:04:25 sri /tmp/work/minified/intro.min.js -> /output/intro.min.js.sri
+2021/08/27 17:04:25 sri /tmp/work/minified/introjs.min.css -> /output/introjs.min.css.sri
+2021/08/27 17:04:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/intro.min.js.br /tmp/work/minified/intro.min.js
+2021/08/27 17:04:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/introjs.min.css.br /tmp/work/minified/introjs.min.css
+2021/08/27 17:04:25 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/introjs.min.css /tmp/work/introjs.css
+2021/08/27 17:04:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/introjs-rtl.min.css.br /tmp/work/minified/introjs-rtl.min.css
+2021/08/27 17:04:25 br /tmp/work/minified/introjs-rtl.min.css.map -> /output/introjs-rtl.min.css.map.br
+2021/08/27 17:04:25 gz /tmp/work/minified/introjs-rtl.min.css.map -> /output/introjs-rtl.min.css.map.gz
+2021/08/27 17:04:25 br /tmp/work/minified/introjs-rtl.min.css -> /output/introjs-rtl.min.css.br
+2021/08/27 17:04:25 gz /tmp/work/minified/introjs-rtl.min.css -> /output/introjs-rtl.min.css.gz
+2021/08/27 17:04:25 br /tmp/work/minified/introjs.min.css -> /output/introjs.min.css.br
+2021/08/27 17:04:25 gz /tmp/work/minified/introjs.min.css -> /output/introjs.min.css.gz
+2021/08/27 17:04:25 br /tmp/work/minified/introjs.min.css.map -> /output/introjs.min.css.map.br
+2021/08/27 17:04:25 gz /tmp/work/minified/introjs.min.css.map -> /output/introjs.min.css.map.gz
+2021/08/27 17:04:25 br /tmp/work/minified/intro.min.js -> /output/intro.min.js.br
+2021/08/27 17:04:25 gz /tmp/work/minified/intro.min.js -> /output/intro.min.js.gz
+2021/08/27 17:04:25 sri /tmp/work/introjs-rtl.min.css -> /output/introjs-rtl.min.css.sri
+2021/08/27 17:04:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/introjs-rtl.min.css.br /tmp/work/introjs-rtl.min.css
+panic: exit status 1
+
+goroutine 34 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/compress.runAlgorithm(0x86d300, 0xc000016060, 0x7f0c97, 0x6, 0xc000062d48, 0x3, 0x3, 0x44d9ec, 0x13, 0x77a740)
+	/go/src/github.com/compress/algorithm.go:28 +0x348
+github.com/cdnjs/tools/compress.Brotli11CLI(...)
+	/go/src/github.com/compress/algorithm.go:40
+main.optimizeJob.emitFromWorkspace(0x86d300, 0xc000016060, 0x0, 0xc0000aa150, 0xf, 0xc0000ae030, 0x13, 0xc00013b820, 0x1d)
+	/go/src/github.com/cmd/process-version/main.go:98 +0x4da
+main.optimizeWorker(0xc0002a0000, 0xc00029c000)
+	/go/src/github.com/cmd/process-version/main.go:228 +0x691
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:254 +0x24a
