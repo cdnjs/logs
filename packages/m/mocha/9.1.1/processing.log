@@ -1,0 +1,20 @@
+2021/08/28 15:03:17 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/08/28 15:03:17 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/mocha.min.css /tmp/work/mocha.css
+2021/08/28 15:03:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/mocha.min.js /tmp/work/mocha.js
+2021/08/28 15:03:17 sri /tmp/work/mocha.min.css -> /output/mocha.min.css.sri
+2021/08/28 15:03:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mocha.min.css.br /tmp/work/mocha.min.css
+2021/08/28 15:03:17 br /tmp/work/mocha.min.css -> /output/mocha.min.css.br
+2021/08/28 15:03:17 gz /tmp/work/mocha.min.css -> /output/mocha.min.css.gz
+2021/08/28 15:03:17 sri /tmp/work/mocha.css -> /output/mocha.css.sri
+2021/08/28 15:03:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mocha.css.br /tmp/work/mocha.css
+2021/08/28 15:03:17 br /tmp/work/mocha.css -> /output/mocha.css.br
+2021/08/28 15:03:17 gz /tmp/work/mocha.css -> /output/mocha.css.gz
+2021/08/28 15:03:24 sri /tmp/work/mocha.min.js -> /output/mocha.min.js.sri
+2021/08/28 15:03:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mocha.min.js.br /tmp/work/mocha.min.js
+2021/08/28 15:03:25 br /tmp/work/mocha.min.js -> /output/mocha.min.js.br
+2021/08/28 15:03:25 gz /tmp/work/mocha.min.js -> /output/mocha.min.js.gz
+2021/08/28 15:03:25 sri /tmp/work/mocha.js -> /output/mocha.js.sri
+2021/08/28 15:03:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mocha.js.br /tmp/work/mocha.js
+2021/08/28 15:03:27 br /tmp/work/mocha.js -> /output/mocha.js.br
+2021/08/28 15:03:27 gz /tmp/work/mocha.js -> /output/mocha.js.gz
+2021/08/28 15:03:27 processed mocha
