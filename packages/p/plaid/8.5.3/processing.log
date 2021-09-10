@@ -1,0 +1,56 @@
+2021/09/10 20:03:17 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/09/10 20:03:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/PlaidClient.min.js /tmp/work/lib/PlaidClient.js
+2021/09/10 20:03:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/plaid.min.js /tmp/work/lib/plaid.js
+2021/09/10 20:03:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/plaidEnvironments.min.js /tmp/work/lib/plaidEnvironments.js
+2021/09/10 20:03:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/PlaidError.min.js /tmp/work/lib/PlaidError.js
+2021/09/10 20:03:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/plaidRequest.min.js /tmp/work/lib/plaidRequest.js
+2021/09/10 20:03:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/wrapPromise.min.js /tmp/work/lib/wrapPromise.js
+2021/09/10 20:03:18 sri /tmp/work/lib/plaidEnvironments.min.js -> /output/plaidEnvironments.min.js.sri
+2021/09/10 20:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plaidEnvironments.min.js.br /tmp/work/lib/plaidEnvironments.min.js
+2021/09/10 20:03:18 sri /tmp/work/lib/plaid.min.js -> /output/plaid.min.js.sri
+2021/09/10 20:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plaid.min.js.br /tmp/work/lib/plaid.min.js
+2021/09/10 20:03:18 br /tmp/work/lib/plaidEnvironments.min.js -> /output/plaidEnvironments.min.js.br
+2021/09/10 20:03:18 gz /tmp/work/lib/plaidEnvironments.min.js -> /output/plaidEnvironments.min.js.gz
+2021/09/10 20:03:18 sri /tmp/work/lib/plaidEnvironments.js -> /output/plaidEnvironments.js.sri
+2021/09/10 20:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plaidEnvironments.js.br /tmp/work/lib/plaidEnvironments.js
+2021/09/10 20:03:18 br /tmp/work/lib/plaid.min.js -> /output/plaid.min.js.br
+2021/09/10 20:03:18 gz /tmp/work/lib/plaid.min.js -> /output/plaid.min.js.gz
+2021/09/10 20:03:18 sri /tmp/work/lib/plaid.js -> /output/plaid.js.sri
+2021/09/10 20:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plaid.js.br /tmp/work/lib/plaid.js
+2021/09/10 20:03:18 br /tmp/work/lib/plaidEnvironments.js -> /output/plaidEnvironments.js.br
+2021/09/10 20:03:18 gz /tmp/work/lib/plaidEnvironments.js -> /output/plaidEnvironments.js.gz
+2021/09/10 20:03:18 br /tmp/work/lib/plaid.js -> /output/plaid.js.br
+2021/09/10 20:03:18 gz /tmp/work/lib/plaid.js -> /output/plaid.js.gz
+2021/09/10 20:03:18 sri /tmp/work/lib/PlaidError.min.js -> /output/PlaidError.min.js.sri
+2021/09/10 20:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/PlaidError.min.js.br /tmp/work/lib/PlaidError.min.js
+2021/09/10 20:03:18 br /tmp/work/lib/PlaidError.min.js -> /output/PlaidError.min.js.br
+2021/09/10 20:03:18 gz /tmp/work/lib/PlaidError.min.js -> /output/PlaidError.min.js.gz
+2021/09/10 20:03:18 sri /tmp/work/lib/PlaidError.js -> /output/PlaidError.js.sri
+2021/09/10 20:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/PlaidError.js.br /tmp/work/lib/PlaidError.js
+2021/09/10 20:03:18 br /tmp/work/lib/PlaidError.js -> /output/PlaidError.js.br
+2021/09/10 20:03:18 gz /tmp/work/lib/PlaidError.js -> /output/PlaidError.js.gz
+2021/09/10 20:03:18 sri /tmp/work/lib/plaidRequest.min.js -> /output/plaidRequest.min.js.sri
+2021/09/10 20:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plaidRequest.min.js.br /tmp/work/lib/plaidRequest.min.js
+2021/09/10 20:03:18 br /tmp/work/lib/plaidRequest.min.js -> /output/plaidRequest.min.js.br
+2021/09/10 20:03:18 gz /tmp/work/lib/plaidRequest.min.js -> /output/plaidRequest.min.js.gz
+2021/09/10 20:03:18 sri /tmp/work/lib/plaidRequest.js -> /output/plaidRequest.js.sri
+2021/09/10 20:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plaidRequest.js.br /tmp/work/lib/plaidRequest.js
+2021/09/10 20:03:18 sri /tmp/work/lib/wrapPromise.min.js -> /output/wrapPromise.min.js.sri
+2021/09/10 20:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/wrapPromise.min.js.br /tmp/work/lib/wrapPromise.min.js
+2021/09/10 20:03:18 br /tmp/work/lib/wrapPromise.min.js -> /output/wrapPromise.min.js.br
+2021/09/10 20:03:18 gz /tmp/work/lib/wrapPromise.min.js -> /output/wrapPromise.min.js.gz
+2021/09/10 20:03:18 sri /tmp/work/lib/wrapPromise.js -> /output/wrapPromise.js.sri
+2021/09/10 20:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/wrapPromise.js.br /tmp/work/lib/wrapPromise.js
+2021/09/10 20:03:18 br /tmp/work/lib/wrapPromise.js -> /output/wrapPromise.js.br
+2021/09/10 20:03:18 br /tmp/work/lib/plaidRequest.js -> /output/plaidRequest.js.br
+2021/09/10 20:03:18 gz /tmp/work/lib/wrapPromise.js -> /output/wrapPromise.js.gz
+2021/09/10 20:03:18 gz /tmp/work/lib/plaidRequest.js -> /output/plaidRequest.js.gz
+2021/09/10 20:03:18 sri /tmp/work/lib/PlaidClient.min.js -> /output/PlaidClient.min.js.sri
+2021/09/10 20:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/PlaidClient.min.js.br /tmp/work/lib/PlaidClient.min.js
+2021/09/10 20:03:18 br /tmp/work/lib/PlaidClient.min.js -> /output/PlaidClient.min.js.br
+2021/09/10 20:03:18 gz /tmp/work/lib/PlaidClient.min.js -> /output/PlaidClient.min.js.gz
+2021/09/10 20:03:18 sri /tmp/work/lib/PlaidClient.js -> /output/PlaidClient.js.sri
+2021/09/10 20:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/PlaidClient.js.br /tmp/work/lib/PlaidClient.js
+2021/09/10 20:03:18 br /tmp/work/lib/PlaidClient.js -> /output/PlaidClient.js.br
+2021/09/10 20:03:18 gz /tmp/work/lib/PlaidClient.js -> /output/PlaidClient.js.gz
+2021/09/10 20:03:18 processed plaid
