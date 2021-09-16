@@ -1,0 +1,20 @@
+2021/09/16 17:36:10 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/09/16 17:36:10 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/react.min.js /tmp/work/dist/react.js
+2021/09/16 17:36:10 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/core.min.js /tmp/work/dist/core.js
+2021/09/16 17:36:10 sri /tmp/work/dist/core.min.js -> /output/core.min.js.sri
+2021/09/16 17:36:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.min.js.br /tmp/work/dist/core.min.js
+2021/09/16 17:36:11 br /tmp/work/dist/core.min.js -> /output/core.min.js.br
+2021/09/16 17:36:11 gz /tmp/work/dist/core.min.js -> /output/core.min.js.gz
+2021/09/16 17:36:11 sri /tmp/work/dist/core.js -> /output/core.js.sri
+2021/09/16 17:36:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.js.br /tmp/work/dist/core.js
+2021/09/16 17:36:11 br /tmp/work/dist/core.js -> /output/core.js.br
+2021/09/16 17:36:11 gz /tmp/work/dist/core.js -> /output/core.js.gz
+2021/09/16 17:36:11 sri /tmp/work/dist/react.min.js -> /output/react.min.js.sri
+2021/09/16 17:36:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/react.min.js.br /tmp/work/dist/react.min.js
+2021/09/16 17:36:11 br /tmp/work/dist/react.min.js -> /output/react.min.js.br
+2021/09/16 17:36:11 gz /tmp/work/dist/react.min.js -> /output/react.min.js.gz
+2021/09/16 17:36:11 sri /tmp/work/dist/react.js -> /output/react.js.sri
+2021/09/16 17:36:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/react.js.br /tmp/work/dist/react.js
+2021/09/16 17:36:11 br /tmp/work/dist/react.js -> /output/react.js.br
+2021/09/16 17:36:11 gz /tmp/work/dist/react.js -> /output/react.js.gz
+2021/09/16 17:36:11 processed TypewriterJS
