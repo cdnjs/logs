@@ -1,0 +1,11 @@
+2021/09/23 06:04:40 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/09/23 06:04:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/md5-wasm.min.js /tmp/work/md5-wasm.js
+2021/09/23 06:04:41 sri /tmp/work/md5-wasm.min.js -> /output/md5-wasm.min.js.sri
+2021/09/23 06:04:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/md5-wasm.min.js.br /tmp/work/md5-wasm.min.js
+2021/09/23 06:04:41 br /tmp/work/md5-wasm.min.js -> /output/md5-wasm.min.js.br
+2021/09/23 06:04:41 gz /tmp/work/md5-wasm.min.js -> /output/md5-wasm.min.js.gz
+2021/09/23 06:04:41 sri /tmp/work/md5-wasm.js -> /output/md5-wasm.js.sri
+2021/09/23 06:04:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/md5-wasm.js.br /tmp/work/md5-wasm.js
+2021/09/23 06:04:41 br /tmp/work/md5-wasm.js -> /output/md5-wasm.js.br
+2021/09/23 06:04:41 gz /tmp/work/md5-wasm.js -> /output/md5-wasm.js.gz
+2021/09/23 06:04:41 processed md5-wasm
