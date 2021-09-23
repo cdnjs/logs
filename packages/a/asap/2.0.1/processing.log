@@ -1,0 +1,20 @@
+2021/09/23 10:05:30 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/09/23 10:05:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/browser-asap.min.js /tmp/work/browser-asap.js
+2021/09/23 10:05:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/browser-raw.min.js /tmp/work/browser-raw.js
+2021/09/23 10:05:30 sri /tmp/work/browser-asap.min.js -> /output/browser-asap.min.js.sri
+2021/09/23 10:05:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/browser-asap.min.js.br /tmp/work/browser-asap.min.js
+2021/09/23 10:05:30 br /tmp/work/browser-asap.min.js -> /output/browser-asap.min.js.br
+2021/09/23 10:05:30 gz /tmp/work/browser-asap.min.js -> /output/browser-asap.min.js.gz
+2021/09/23 10:05:30 sri /tmp/work/browser-asap.js -> /output/browser-asap.js.sri
+2021/09/23 10:05:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/browser-asap.js.br /tmp/work/browser-asap.js
+2021/09/23 10:05:30 br /tmp/work/browser-asap.js -> /output/browser-asap.js.br
+2021/09/23 10:05:30 gz /tmp/work/browser-asap.js -> /output/browser-asap.js.gz
+2021/09/23 10:05:30 sri /tmp/work/browser-raw.min.js -> /output/browser-raw.min.js.sri
+2021/09/23 10:05:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/browser-raw.min.js.br /tmp/work/browser-raw.min.js
+2021/09/23 10:05:30 br /tmp/work/browser-raw.min.js -> /output/browser-raw.min.js.br
+2021/09/23 10:05:30 gz /tmp/work/browser-raw.min.js -> /output/browser-raw.min.js.gz
+2021/09/23 10:05:30 sri /tmp/work/browser-raw.js -> /output/browser-raw.js.sri
+2021/09/23 10:05:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/browser-raw.js.br /tmp/work/browser-raw.js
+2021/09/23 10:05:30 br /tmp/work/browser-raw.js -> /output/browser-raw.js.br
+2021/09/23 10:05:30 gz /tmp/work/browser-raw.js -> /output/browser-raw.js.gz
+2021/09/23 10:05:30 processed asap
