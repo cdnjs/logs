@@ -1,0 +1,30 @@
+2021/10/05 07:31:39 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/10/05 07:31:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/compressor.common.min.js /tmp/work/dist/compressor.common.js
+2021/10/05 07:31:39 compressed file already exists: /tmp/work/dist/compressor.min.js
+2021/10/05 07:31:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/compressor.esm.min.js /tmp/work/dist/compressor.esm.js
+2021/10/05 07:31:39 /tmp/work/dist/compressor.min.js.min.js compressed file already exists
+2021/10/05 07:31:39 sri /tmp/work/dist/compressor.js -> /output/compressor.js.sri
+2021/10/05 07:31:39 sri /tmp/work/dist/compressor.min.js -> /output/compressor.min.js.sri
+2021/10/05 07:31:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compressor.js.br /tmp/work/dist/compressor.js
+2021/10/05 07:31:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compressor.min.js.br /tmp/work/dist/compressor.min.js
+2021/10/05 07:31:39 br /tmp/work/dist/compressor.min.js -> /output/compressor.min.js.br
+2021/10/05 07:31:39 gz /tmp/work/dist/compressor.min.js -> /output/compressor.min.js.gz
+2021/10/05 07:31:39 br /tmp/work/dist/compressor.js -> /output/compressor.js.br
+2021/10/05 07:31:39 gz /tmp/work/dist/compressor.js -> /output/compressor.js.gz
+2021/10/05 07:31:40 sri /tmp/work/dist/compressor.common.min.js -> /output/compressor.common.min.js.sri
+2021/10/05 07:31:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compressor.common.min.js.br /tmp/work/dist/compressor.common.min.js
+2021/10/05 07:31:40 br /tmp/work/dist/compressor.common.min.js -> /output/compressor.common.min.js.br
+2021/10/05 07:31:40 gz /tmp/work/dist/compressor.common.min.js -> /output/compressor.common.min.js.gz
+2021/10/05 07:31:40 sri /tmp/work/dist/compressor.common.js -> /output/compressor.common.js.sri
+2021/10/05 07:31:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compressor.common.js.br /tmp/work/dist/compressor.common.js
+2021/10/05 07:31:40 sri /tmp/work/dist/compressor.esm.min.js -> /output/compressor.esm.min.js.sri
+2021/10/05 07:31:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compressor.esm.min.js.br /tmp/work/dist/compressor.esm.min.js
+2021/10/05 07:31:40 br /tmp/work/dist/compressor.esm.min.js -> /output/compressor.esm.min.js.br
+2021/10/05 07:31:40 gz /tmp/work/dist/compressor.esm.min.js -> /output/compressor.esm.min.js.gz
+2021/10/05 07:31:40 sri /tmp/work/dist/compressor.esm.js -> /output/compressor.esm.js.sri
+2021/10/05 07:31:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compressor.esm.js.br /tmp/work/dist/compressor.esm.js
+2021/10/05 07:31:40 br /tmp/work/dist/compressor.common.js -> /output/compressor.common.js.br
+2021/10/05 07:31:40 gz /tmp/work/dist/compressor.common.js -> /output/compressor.common.js.gz
+2021/10/05 07:31:40 br /tmp/work/dist/compressor.esm.js -> /output/compressor.esm.js.br
+2021/10/05 07:31:40 gz /tmp/work/dist/compressor.esm.js -> /output/compressor.esm.js.gz
+2021/10/05 07:31:40 processed compressorjs
