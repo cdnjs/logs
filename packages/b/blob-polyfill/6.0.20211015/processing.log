@@ -1,0 +1,11 @@
+2021/10/15 14:35:45 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/10/15 14:35:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/Blob.min.js /tmp/work/Blob.js
+2021/10/15 14:35:46 sri /tmp/work/Blob.min.js -> /output/Blob.min.js.sri
+2021/10/15 14:35:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/Blob.min.js.br /tmp/work/Blob.min.js
+2021/10/15 14:35:46 br /tmp/work/Blob.min.js -> /output/Blob.min.js.br
+2021/10/15 14:35:46 gz /tmp/work/Blob.min.js -> /output/Blob.min.js.gz
+2021/10/15 14:35:46 sri /tmp/work/Blob.js -> /output/Blob.js.sri
+2021/10/15 14:35:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/Blob.js.br /tmp/work/Blob.js
+2021/10/15 14:35:46 br /tmp/work/Blob.js -> /output/Blob.js.br
+2021/10/15 14:35:46 gz /tmp/work/Blob.js -> /output/Blob.js.gz
+2021/10/15 14:35:46 processed blob-polyfill
