@@ -1,0 +1,23 @@
+2021/10/18 20:31:54 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/10/18 20:31:54 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plottable.min.js /tmp/work/plottable.js
+2021/10/18 20:31:54 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/plottable.min.css /tmp/work/plottable.css
+2021/10/18 20:31:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plottable.js.map.br /tmp/work/plottable.js.map
+2021/10/18 20:31:55 sri /tmp/work/plottable.min.css -> /output/plottable.min.css.sri
+2021/10/18 20:31:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plottable.min.css.br /tmp/work/plottable.min.css
+2021/10/18 20:31:55 br /tmp/work/plottable.min.css -> /output/plottable.min.css.br
+2021/10/18 20:31:55 gz /tmp/work/plottable.min.css -> /output/plottable.min.css.gz
+2021/10/18 20:31:55 sri /tmp/work/plottable.css -> /output/plottable.css.sri
+2021/10/18 20:31:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plottable.css.br /tmp/work/plottable.css
+2021/10/18 20:31:55 br /tmp/work/plottable.css -> /output/plottable.css.br
+2021/10/18 20:31:55 gz /tmp/work/plottable.css -> /output/plottable.css.gz
+2021/10/18 20:31:58 br /tmp/work/plottable.js.map -> /output/plottable.js.map.br
+2021/10/18 20:31:59 gz /tmp/work/plottable.js.map -> /output/plottable.js.map.gz
+2021/10/18 20:32:03 sri /tmp/work/plottable.min.js -> /output/plottable.min.js.sri
+2021/10/18 20:32:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plottable.min.js.br /tmp/work/plottable.min.js
+2021/10/18 20:32:04 br /tmp/work/plottable.min.js -> /output/plottable.min.js.br
+2021/10/18 20:32:04 gz /tmp/work/plottable.min.js -> /output/plottable.min.js.gz
+2021/10/18 20:32:04 sri /tmp/work/plottable.js -> /output/plottable.js.sri
+2021/10/18 20:32:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plottable.js.br /tmp/work/plottable.js
+2021/10/18 20:32:07 br /tmp/work/plottable.js -> /output/plottable.js.br
+2021/10/18 20:32:07 gz /tmp/work/plottable.js -> /output/plottable.js.gz
+2021/10/18 20:32:07 processed plottable.js
