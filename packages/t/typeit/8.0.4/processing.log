@@ -1,0 +1,23 @@
+2021/10/25 04:05:57 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/10/25 04:05:57 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.umd.min.js /tmp/work/dist/index.umd.js
+2021/10/25 04:05:57 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.es.min.js /tmp/work/dist/index.es.js
+2021/10/25 04:05:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types.d.ts.br /tmp/work/dist/types.d.ts
+2021/10/25 04:05:57 br /tmp/work/dist/types.d.ts -> /output/types.d.ts.br
+2021/10/25 04:05:57 gz /tmp/work/dist/types.d.ts -> /output/types.d.ts.gz
+2021/10/25 04:05:57 sri /tmp/work/dist/index.es.min.js -> /output/index.es.min.js.sri
+2021/10/25 04:05:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.es.min.js.br /tmp/work/dist/index.es.min.js
+2021/10/25 04:05:57 br /tmp/work/dist/index.es.min.js -> /output/index.es.min.js.br
+2021/10/25 04:05:57 gz /tmp/work/dist/index.es.min.js -> /output/index.es.min.js.gz
+2021/10/25 04:05:57 sri /tmp/work/dist/index.es.js -> /output/index.es.js.sri
+2021/10/25 04:05:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.es.js.br /tmp/work/dist/index.es.js
+2021/10/25 04:05:57 sri /tmp/work/dist/index.umd.min.js -> /output/index.umd.min.js.sri
+2021/10/25 04:05:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.umd.min.js.br /tmp/work/dist/index.umd.min.js
+2021/10/25 04:05:57 br /tmp/work/dist/index.es.js -> /output/index.es.js.br
+2021/10/25 04:05:57 gz /tmp/work/dist/index.es.js -> /output/index.es.js.gz
+2021/10/25 04:05:57 br /tmp/work/dist/index.umd.min.js -> /output/index.umd.min.js.br
+2021/10/25 04:05:57 gz /tmp/work/dist/index.umd.min.js -> /output/index.umd.min.js.gz
+2021/10/25 04:05:57 sri /tmp/work/dist/index.umd.js -> /output/index.umd.js.sri
+2021/10/25 04:05:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.umd.js.br /tmp/work/dist/index.umd.js
+2021/10/25 04:05:57 br /tmp/work/dist/index.umd.js -> /output/index.umd.js.br
+2021/10/25 04:05:57 gz /tmp/work/dist/index.umd.js -> /output/index.umd.js.gz
+2021/10/25 04:05:57 processed typeit
