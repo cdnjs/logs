@@ -1,0 +1,40 @@
+2021/10/28 17:03:17 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/10/28 17:03:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/Control.FullScreen.min.js /tmp/work/Control.FullScreen.js
+2021/10/28 17:03:17 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/Control.FullScreen.min.css /tmp/work/Control.FullScreen.css
+2021/10/28 17:03:17 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/icon-fullscreen-2x.png /tmp/work/icon-fullscreen-2x.png
+2021/10/28 17:03:17 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/icon-fullscreen.png /tmp/work/icon-fullscreen.png
+2021/10/28 17:03:17 sri /tmp/work/Control.FullScreen.min.css -> /output/Control.FullScreen.min.css.sri
+2021/10/28 17:03:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/Control.FullScreen.min.css.br /tmp/work/Control.FullScreen.min.css
+2021/10/28 17:03:17 br /tmp/work/Control.FullScreen.min.css -> /output/Control.FullScreen.min.css.br
+2021/10/28 17:03:17 gz /tmp/work/Control.FullScreen.min.css -> /output/Control.FullScreen.min.css.gz
+2021/10/28 17:03:17 sri /tmp/work/Control.FullScreen.css -> /output/Control.FullScreen.css.sri
+2021/10/28 17:03:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/Control.FullScreen.css.br /tmp/work/Control.FullScreen.css
+2021/10/28 17:03:17 br /tmp/work/Control.FullScreen.css -> /output/Control.FullScreen.css.br
+2021/10/28 17:03:17 gz /tmp/work/Control.FullScreen.css -> /output/Control.FullScreen.css.gz
+2021/10/28 17:03:18 sri /tmp/work/Control.FullScreen.min.js -> /output/Control.FullScreen.min.js.sri
+2021/10/28 17:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/Control.FullScreen.min.js.br /tmp/work/Control.FullScreen.min.js
+2021/10/28 17:03:18 br /tmp/work/Control.FullScreen.min.js -> /output/Control.FullScreen.min.js.br
+2021/10/28 17:03:18 gz /tmp/work/Control.FullScreen.min.js -> /output/Control.FullScreen.min.js.gz
+2021/10/28 17:03:18 sri /tmp/work/Control.FullScreen.js -> /output/Control.FullScreen.js.sri
+2021/10/28 17:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/Control.FullScreen.js.br /tmp/work/Control.FullScreen.js
+2021/10/28 17:03:18 br /tmp/work/Control.FullScreen.js -> /output/Control.FullScreen.js.br
+2021/10/28 17:03:18 gz /tmp/work/Control.FullScreen.js -> /output/Control.FullScreen.js.gz
+2021/10/28 17:03:18 Optimizing /tmp/work/icon-fullscreen.png
+Input size: 139 (0K)
+Result size: 148 (0K). Percentage of original: 106.475%
+Preserving original PNG since it was smaller
+
+
+2021/10/28 17:03:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/icon-fullscreen.png.br /tmp/work/icon-fullscreen.png
+2021/10/28 17:03:18 br /tmp/work/icon-fullscreen.png -> /output/icon-fullscreen.png.br
+2021/10/28 17:03:18 gz /tmp/work/icon-fullscreen.png -> /output/icon-fullscreen.png.gz
+2021/10/28 17:03:20 Optimizing /tmp/work/icon-fullscreen-2x.png
+Input size: 215 (0K)
+Result size: 226 (0K). Percentage of original: 105.116%
+Preserving original PNG since it was smaller
+
+
+2021/10/28 17:03:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/icon-fullscreen-2x.png.br /tmp/work/icon-fullscreen-2x.png
+2021/10/28 17:03:20 br /tmp/work/icon-fullscreen-2x.png -> /output/icon-fullscreen-2x.png.br
+2021/10/28 17:03:20 gz /tmp/work/icon-fullscreen-2x.png -> /output/icon-fullscreen-2x.png.gz
+2021/10/28 17:03:20 processed leaflet.fullscreen
