@@ -1,0 +1,29 @@
+2021/11/11 20:34:48 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/11/11 20:34:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/global/ecosystem.min.js /tmp/work/dist/global/ecosystem.js
+2021/11/11 20:34:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/global/core.min.js /tmp/work/dist/global/core.js
+2021/11/11 20:34:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/global/everything.min.js /tmp/work/dist/global/everything.js
+2021/11/11 20:35:00 sri /tmp/work/dist/global/core.min.js -> /output/core.min.js.sri
+2021/11/11 20:35:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.min.js.br /tmp/work/dist/global/core.min.js
+2021/11/11 20:35:01 br /tmp/work/dist/global/core.min.js -> /output/core.min.js.br
+2021/11/11 20:35:01 gz /tmp/work/dist/global/core.min.js -> /output/core.min.js.gz
+2021/11/11 20:35:01 sri /tmp/work/dist/global/core.js -> /output/core.js.sri
+2021/11/11 20:35:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.js.br /tmp/work/dist/global/core.js
+2021/11/11 20:35:02 sri /tmp/work/dist/global/everything.min.js -> /output/everything.min.js.sri
+2021/11/11 20:35:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/everything.min.js.br /tmp/work/dist/global/everything.min.js
+2021/11/11 20:35:02 sri /tmp/work/dist/global/ecosystem.min.js -> /output/ecosystem.min.js.sri
+2021/11/11 20:35:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ecosystem.min.js.br /tmp/work/dist/global/ecosystem.min.js
+2021/11/11 20:35:03 br /tmp/work/dist/global/everything.min.js -> /output/everything.min.js.br
+2021/11/11 20:35:03 br /tmp/work/dist/global/ecosystem.min.js -> /output/ecosystem.min.js.br
+2021/11/11 20:35:03 gz /tmp/work/dist/global/everything.min.js -> /output/everything.min.js.gz
+2021/11/11 20:35:03 sri /tmp/work/dist/global/everything.js -> /output/everything.js.sri
+2021/11/11 20:35:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/everything.js.br /tmp/work/dist/global/everything.js
+2021/11/11 20:35:03 gz /tmp/work/dist/global/ecosystem.min.js -> /output/ecosystem.min.js.gz
+2021/11/11 20:35:03 sri /tmp/work/dist/global/ecosystem.js -> /output/ecosystem.js.sri
+2021/11/11 20:35:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ecosystem.js.br /tmp/work/dist/global/ecosystem.js
+2021/11/11 20:35:04 br /tmp/work/dist/global/core.js -> /output/core.js.br
+2021/11/11 20:35:04 gz /tmp/work/dist/global/core.js -> /output/core.js.gz
+2021/11/11 20:35:07 br /tmp/work/dist/global/everything.js -> /output/everything.js.br
+2021/11/11 20:35:07 br /tmp/work/dist/global/ecosystem.js -> /output/ecosystem.js.br
+2021/11/11 20:35:07 gz /tmp/work/dist/global/everything.js -> /output/everything.js.gz
+2021/11/11 20:35:07 gz /tmp/work/dist/global/ecosystem.js -> /output/ecosystem.js.gz
+2021/11/11 20:35:07 processed can.js
