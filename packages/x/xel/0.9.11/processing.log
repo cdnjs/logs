@@ -1,0 +1,65 @@
+2021/12/07 08:30:22 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/12/07 08:30:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/xel.min.js /tmp/work/xel.js
+2021/12/07 08:30:22 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/themes/cupertino.min.css /tmp/work/themes/cupertino.css
+2021/12/07 08:30:22 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/themes/cupertino-dark.min.css /tmp/work/themes/cupertino-dark.css
+2021/12/07 08:30:22 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/themes/fluent.min.css /tmp/work/themes/fluent.css
+2021/12/07 08:30:22 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/themes/vanilla.min.css /tmp/work/themes/vanilla.css
+2021/12/07 08:30:22 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/themes/fluent-dark.min.css /tmp/work/themes/fluent-dark.css
+2021/12/07 08:30:22 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/themes/vanilla-dark.min.css /tmp/work/themes/vanilla-dark.css
+2021/12/07 08:30:22 sri /tmp/work/themes/fluent.min.css -> /output/themes/fluent.min.css.sri
+2021/12/07 08:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes/fluent.min.css.br /tmp/work/themes/fluent.min.css
+2021/12/07 08:30:22 sri /tmp/work/themes/vanilla.min.css -> /output/themes/vanilla.min.css.sri
+2021/12/07 08:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes/vanilla.min.css.br /tmp/work/themes/vanilla.min.css
+2021/12/07 08:30:22 sri /tmp/work/themes/cupertino-dark.min.css -> /output/themes/cupertino-dark.min.css.sri
+2021/12/07 08:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes/cupertino-dark.min.css.br /tmp/work/themes/cupertino-dark.min.css
+2021/12/07 08:30:22 sri /tmp/work/themes/cupertino.min.css -> /output/themes/cupertino.min.css.sri
+2021/12/07 08:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes/cupertino.min.css.br /tmp/work/themes/cupertino.min.css
+2021/12/07 08:30:22 sri /tmp/work/themes/vanilla-dark.min.css -> /output/themes/vanilla-dark.min.css.sri
+2021/12/07 08:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes/vanilla-dark.min.css.br /tmp/work/themes/vanilla-dark.min.css
+2021/12/07 08:30:22 br /tmp/work/themes/fluent.min.css -> /output/themes/fluent.min.css.br
+2021/12/07 08:30:22 gz /tmp/work/themes/fluent.min.css -> /output/themes/fluent.min.css.gz
+2021/12/07 08:30:22 sri /tmp/work/themes/fluent.css -> /output/themes/fluent.css.sri
+2021/12/07 08:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes/fluent.css.br /tmp/work/themes/fluent.css
+2021/12/07 08:30:22 sri /tmp/work/themes/fluent-dark.min.css -> /output/themes/fluent-dark.min.css.sri
+2021/12/07 08:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes/fluent-dark.min.css.br /tmp/work/themes/fluent-dark.min.css
+2021/12/07 08:30:22 br /tmp/work/themes/vanilla.min.css -> /output/themes/vanilla.min.css.br
+2021/12/07 08:30:22 gz /tmp/work/themes/vanilla.min.css -> /output/themes/vanilla.min.css.gz
+2021/12/07 08:30:22 sri /tmp/work/themes/vanilla.css -> /output/themes/vanilla.css.sri
+2021/12/07 08:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes/vanilla.css.br /tmp/work/themes/vanilla.css
+2021/12/07 08:30:22 br /tmp/work/themes/cupertino-dark.min.css -> /output/themes/cupertino-dark.min.css.br
+2021/12/07 08:30:22 gz /tmp/work/themes/cupertino-dark.min.css -> /output/themes/cupertino-dark.min.css.gz
+2021/12/07 08:30:22 sri /tmp/work/themes/cupertino-dark.css -> /output/themes/cupertino-dark.css.sri
+2021/12/07 08:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes/cupertino-dark.css.br /tmp/work/themes/cupertino-dark.css
+2021/12/07 08:30:22 br /tmp/work/themes/cupertino.min.css -> /output/themes/cupertino.min.css.br
+2021/12/07 08:30:22 gz /tmp/work/themes/cupertino.min.css -> /output/themes/cupertino.min.css.gz
+2021/12/07 08:30:22 sri /tmp/work/themes/cupertino.css -> /output/themes/cupertino.css.sri
+2021/12/07 08:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes/cupertino.css.br /tmp/work/themes/cupertino.css
+2021/12/07 08:30:22 br /tmp/work/themes/vanilla-dark.min.css -> /output/themes/vanilla-dark.min.css.br
+2021/12/07 08:30:22 gz /tmp/work/themes/vanilla-dark.min.css -> /output/themes/vanilla-dark.min.css.gz
+2021/12/07 08:30:22 sri /tmp/work/themes/vanilla-dark.css -> /output/themes/vanilla-dark.css.sri
+2021/12/07 08:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes/vanilla-dark.css.br /tmp/work/themes/vanilla-dark.css
+2021/12/07 08:30:22 br /tmp/work/themes/fluent.css -> /output/themes/fluent.css.br
+2021/12/07 08:30:22 gz /tmp/work/themes/fluent.css -> /output/themes/fluent.css.gz
+2021/12/07 08:30:22 br /tmp/work/themes/fluent-dark.min.css -> /output/themes/fluent-dark.min.css.br
+2021/12/07 08:30:22 gz /tmp/work/themes/fluent-dark.min.css -> /output/themes/fluent-dark.min.css.gz
+2021/12/07 08:30:22 sri /tmp/work/themes/fluent-dark.css -> /output/themes/fluent-dark.css.sri
+2021/12/07 08:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes/fluent-dark.css.br /tmp/work/themes/fluent-dark.css
+2021/12/07 08:30:22 br /tmp/work/themes/vanilla.css -> /output/themes/vanilla.css.br
+2021/12/07 08:30:22 br /tmp/work/themes/cupertino-dark.css -> /output/themes/cupertino-dark.css.br
+2021/12/07 08:30:22 gz /tmp/work/themes/vanilla.css -> /output/themes/vanilla.css.gz
+2021/12/07 08:30:22 gz /tmp/work/themes/cupertino-dark.css -> /output/themes/cupertino-dark.css.gz
+2021/12/07 08:30:22 br /tmp/work/themes/cupertino.css -> /output/themes/cupertino.css.br
+2021/12/07 08:30:22 gz /tmp/work/themes/cupertino.css -> /output/themes/cupertino.css.gz
+2021/12/07 08:30:22 br /tmp/work/themes/vanilla-dark.css -> /output/themes/vanilla-dark.css.br
+2021/12/07 08:30:22 gz /tmp/work/themes/vanilla-dark.css -> /output/themes/vanilla-dark.css.gz
+2021/12/07 08:30:22 br /tmp/work/themes/fluent-dark.css -> /output/themes/fluent-dark.css.br
+2021/12/07 08:30:22 gz /tmp/work/themes/fluent-dark.css -> /output/themes/fluent-dark.css.gz
+2021/12/07 08:30:25 sri /tmp/work/xel.min.js -> /output/xel.min.js.sri
+2021/12/07 08:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/xel.min.js.br /tmp/work/xel.min.js
+2021/12/07 08:30:25 br /tmp/work/xel.min.js -> /output/xel.min.js.br
+2021/12/07 08:30:25 gz /tmp/work/xel.min.js -> /output/xel.min.js.gz
+2021/12/07 08:30:25 sri /tmp/work/xel.js -> /output/xel.js.sri
+2021/12/07 08:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/xel.js.br /tmp/work/xel.js
+2021/12/07 08:30:26 br /tmp/work/xel.js -> /output/xel.js.br
+2021/12/07 08:30:26 gz /tmp/work/xel.js -> /output/xel.js.gz
+2021/12/07 08:30:26 processed xel
