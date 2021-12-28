@@ -1,0 +1,11 @@
+2021/12/28 02:03:30 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/12/28 02:03:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/jshint.min.js /tmp/work/dist/jshint.js
+2021/12/28 02:03:37 sri /tmp/work/dist/jshint.min.js -> /output/jshint.min.js.sri
+2021/12/28 02:03:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jshint.min.js.br /tmp/work/dist/jshint.min.js
+2021/12/28 02:03:38 br /tmp/work/dist/jshint.min.js -> /output/jshint.min.js.br
+2021/12/28 02:03:38 gz /tmp/work/dist/jshint.min.js -> /output/jshint.min.js.gz
+2021/12/28 02:03:38 sri /tmp/work/dist/jshint.js -> /output/jshint.js.sri
+2021/12/28 02:03:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jshint.js.br /tmp/work/dist/jshint.js
+2021/12/28 02:03:41 br /tmp/work/dist/jshint.js -> /output/jshint.js.br
+2021/12/28 02:03:41 gz /tmp/work/dist/jshint.js -> /output/jshint.js.gz
+2021/12/28 02:03:41 processed jshint
