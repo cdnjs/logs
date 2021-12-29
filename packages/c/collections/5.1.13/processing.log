@@ -1,0 +1,344 @@
+2021/12/29 19:05:27 optimizing files (Js true, Css true, Png true, Jpg true)
+2021/12/29 19:05:27 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/collections.min.js /tmp/work/collections.js
+2021/12/29 19:05:27 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/deque.min.js /tmp/work/deque.js
+2021/12/29 19:05:27 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/_fast-set.min.js /tmp/work/_fast-set.js
+2021/12/29 19:05:27 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/_map.min.js /tmp/work/_map.js
+2021/12/29 19:05:27 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/_list.min.js /tmp/work/_list.js
+2021/12/29 19:05:27 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/_set.min.js /tmp/work/_set.js
+2021/12/29 19:05:27 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dict.min.js /tmp/work/dict.js
+2021/12/29 19:05:27 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/_dict.min.js /tmp/work/_dict.js
+2021/12/29 19:05:28 sri /tmp/work/dict.min.js -> /output/dict.min.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dict.min.js.br /tmp/work/dict.min.js
+2021/12/29 19:05:28 br /tmp/work/dict.min.js -> /output/dict.min.js.br
+2021/12/29 19:05:28 gz /tmp/work/dict.min.js -> /output/dict.min.js.gz
+2021/12/29 19:05:28 sri /tmp/work/dict.js -> /output/dict.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dict.js.br /tmp/work/dict.js
+2021/12/29 19:05:28 br /tmp/work/dict.js -> /output/dict.js.br
+2021/12/29 19:05:28 sri /tmp/work/collections.min.js -> /output/collections.min.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/collections.min.js.br /tmp/work/collections.min.js
+2021/12/29 19:05:28 gz /tmp/work/dict.js -> /output/dict.js.gz
+2021/12/29 19:05:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/fast-map.min.js /tmp/work/fast-map.js
+2021/12/29 19:05:28 br /tmp/work/collections.min.js -> /output/collections.min.js.br
+2021/12/29 19:05:28 gz /tmp/work/collections.min.js -> /output/collections.min.js.gz
+2021/12/29 19:05:28 sri /tmp/work/collections.js -> /output/collections.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/collections.js.br /tmp/work/collections.js
+2021/12/29 19:05:28 br /tmp/work/collections.js -> /output/collections.js.br
+2021/12/29 19:05:28 gz /tmp/work/collections.js -> /output/collections.js.gz
+2021/12/29 19:05:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/fast-set.min.js /tmp/work/fast-set.js
+2021/12/29 19:05:28 sri /tmp/work/_fast-set.min.js -> /output/_fast-set.min.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/_fast-set.min.js.br /tmp/work/_fast-set.min.js
+2021/12/29 19:05:28 sri /tmp/work/_dict.min.js -> /output/_dict.min.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/_dict.min.js.br /tmp/work/_dict.min.js
+2021/12/29 19:05:28 br /tmp/work/_fast-set.min.js -> /output/_fast-set.min.js.br
+2021/12/29 19:05:28 gz /tmp/work/_fast-set.min.js -> /output/_fast-set.min.js.gz
+2021/12/29 19:05:28 sri /tmp/work/_fast-set.js -> /output/_fast-set.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/_fast-set.js.br /tmp/work/_fast-set.js
+2021/12/29 19:05:28 br /tmp/work/_dict.min.js -> /output/_dict.min.js.br
+2021/12/29 19:05:28 gz /tmp/work/_dict.min.js -> /output/_dict.min.js.gz
+2021/12/29 19:05:28 sri /tmp/work/_dict.js -> /output/_dict.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/_dict.js.br /tmp/work/_dict.js
+2021/12/29 19:05:28 br /tmp/work/_fast-set.js -> /output/_fast-set.js.br
+2021/12/29 19:05:28 gz /tmp/work/_fast-set.js -> /output/_fast-set.js.gz
+2021/12/29 19:05:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/generic-collection.min.js /tmp/work/generic-collection.js
+2021/12/29 19:05:28 br /tmp/work/_dict.js -> /output/_dict.js.br
+2021/12/29 19:05:28 gz /tmp/work/_dict.js -> /output/_dict.js.gz
+2021/12/29 19:05:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/generic-map.git.min.js /tmp/work/generic-map.git.js
+2021/12/29 19:05:28 sri /tmp/work/_set.min.js -> /output/_set.min.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/_set.min.js.br /tmp/work/_set.min.js
+2021/12/29 19:05:28 sri /tmp/work/_map.min.js -> /output/_map.min.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/_map.min.js.br /tmp/work/_map.min.js
+2021/12/29 19:05:28 sri /tmp/work/fast-set.min.js -> /output/fast-set.min.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fast-set.min.js.br /tmp/work/fast-set.min.js
+2021/12/29 19:05:28 br /tmp/work/_set.min.js -> /output/_set.min.js.br
+2021/12/29 19:05:28 gz /tmp/work/_set.min.js -> /output/_set.min.js.gz
+2021/12/29 19:05:28 sri /tmp/work/_set.js -> /output/_set.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/_set.js.br /tmp/work/_set.js
+2021/12/29 19:05:28 br /tmp/work/fast-set.min.js -> /output/fast-set.min.js.br
+2021/12/29 19:05:28 gz /tmp/work/fast-set.min.js -> /output/fast-set.min.js.gz
+2021/12/29 19:05:28 sri /tmp/work/fast-set.js -> /output/fast-set.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fast-set.js.br /tmp/work/fast-set.js
+2021/12/29 19:05:28 br /tmp/work/_map.min.js -> /output/_map.min.js.br
+2021/12/29 19:05:28 gz /tmp/work/_map.min.js -> /output/_map.min.js.gz
+2021/12/29 19:05:28 sri /tmp/work/_map.js -> /output/_map.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/_map.js.br /tmp/work/_map.js
+2021/12/29 19:05:28 br /tmp/work/fast-set.js -> /output/fast-set.js.br
+2021/12/29 19:05:28 gz /tmp/work/fast-set.js -> /output/fast-set.js.gz
+2021/12/29 19:05:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/generic-map.min.js /tmp/work/generic-map.js
+2021/12/29 19:05:28 br /tmp/work/_set.js -> /output/_set.js.br
+2021/12/29 19:05:28 gz /tmp/work/_set.js -> /output/_set.js.gz
+2021/12/29 19:05:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/generic-order.min.js /tmp/work/generic-order.js
+2021/12/29 19:05:28 br /tmp/work/_map.js -> /output/_map.js.br
+2021/12/29 19:05:28 gz /tmp/work/_map.js -> /output/_map.js.gz
+2021/12/29 19:05:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/generic-set.min.js /tmp/work/generic-set.js
+2021/12/29 19:05:28 sri /tmp/work/_list.min.js -> /output/_list.min.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/_list.min.js.br /tmp/work/_list.min.js
+2021/12/29 19:05:28 sri /tmp/work/fast-map.min.js -> /output/fast-map.min.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fast-map.min.js.br /tmp/work/fast-map.min.js
+2021/12/29 19:05:28 sri /tmp/work/deque.min.js -> /output/deque.min.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/deque.min.js.br /tmp/work/deque.min.js
+2021/12/29 19:05:28 br /tmp/work/fast-map.min.js -> /output/fast-map.min.js.br
+2021/12/29 19:05:28 gz /tmp/work/fast-map.min.js -> /output/fast-map.min.js.gz
+2021/12/29 19:05:28 sri /tmp/work/fast-map.js -> /output/fast-map.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fast-map.js.br /tmp/work/fast-map.js
+2021/12/29 19:05:28 br /tmp/work/_list.min.js -> /output/_list.min.js.br
+2021/12/29 19:05:28 gz /tmp/work/_list.min.js -> /output/_list.min.js.gz
+2021/12/29 19:05:28 sri /tmp/work/_list.js -> /output/_list.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/_list.js.br /tmp/work/_list.js
+2021/12/29 19:05:28 br /tmp/work/fast-map.js -> /output/fast-map.js.br
+2021/12/29 19:05:28 gz /tmp/work/fast-map.js -> /output/fast-map.js.gz
+2021/12/29 19:05:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/heap.min.js /tmp/work/heap.js
+2021/12/29 19:05:28 br /tmp/work/deque.min.js -> /output/deque.min.js.br
+2021/12/29 19:05:28 gz /tmp/work/deque.min.js -> /output/deque.min.js.gz
+2021/12/29 19:05:28 sri /tmp/work/deque.js -> /output/deque.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/deque.js.br /tmp/work/deque.js
+2021/12/29 19:05:28 br /tmp/work/_list.js -> /output/_list.js.br
+2021/12/29 19:05:28 gz /tmp/work/_list.js -> /output/_list.js.gz
+2021/12/29 19:05:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/iterator.min.js /tmp/work/iterator.js
+2021/12/29 19:05:28 br /tmp/work/deque.js -> /output/deque.js.br
+2021/12/29 19:05:28 gz /tmp/work/deque.js -> /output/deque.js.gz
+2021/12/29 19:05:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/karma.conf.min.js /tmp/work/karma.conf.js
+2021/12/29 19:05:28 sri /tmp/work/generic-map.git.min.js -> /output/generic-map.git.min.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/generic-map.git.min.js.br /tmp/work/generic-map.git.min.js
+2021/12/29 19:05:28 sri /tmp/work/generic-order.min.js -> /output/generic-order.min.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/generic-order.min.js.br /tmp/work/generic-order.min.js
+2021/12/29 19:05:28 br /tmp/work/generic-order.min.js -> /output/generic-order.min.js.br
+2021/12/29 19:05:28 br /tmp/work/generic-map.git.min.js -> /output/generic-map.git.min.js.br
+2021/12/29 19:05:28 gz /tmp/work/generic-map.git.min.js -> /output/generic-map.git.min.js.gz
+2021/12/29 19:05:28 sri /tmp/work/generic-map.git.js -> /output/generic-map.git.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/generic-map.git.js.br /tmp/work/generic-map.git.js
+2021/12/29 19:05:28 gz /tmp/work/generic-order.min.js -> /output/generic-order.min.js.gz
+2021/12/29 19:05:28 sri /tmp/work/generic-order.js -> /output/generic-order.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/generic-order.js.br /tmp/work/generic-order.js
+2021/12/29 19:05:28 br /tmp/work/generic-order.js -> /output/generic-order.js.br
+2021/12/29 19:05:28 gz /tmp/work/generic-order.js -> /output/generic-order.js.gz
+2021/12/29 19:05:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lfu-map.min.js /tmp/work/lfu-map.js
+2021/12/29 19:05:28 sri /tmp/work/generic-set.min.js -> /output/generic-set.min.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/generic-set.min.js.br /tmp/work/generic-set.min.js
+2021/12/29 19:05:28 br /tmp/work/generic-set.min.js -> /output/generic-set.min.js.br
+2021/12/29 19:05:28 br /tmp/work/generic-map.git.js -> /output/generic-map.git.js.br
+2021/12/29 19:05:28 gz /tmp/work/generic-set.min.js -> /output/generic-set.min.js.gz
+2021/12/29 19:05:28 gz /tmp/work/generic-map.git.js -> /output/generic-map.git.js.gz
+2021/12/29 19:05:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lfu-set.min.js /tmp/work/lfu-set.js
+2021/12/29 19:05:28 sri /tmp/work/generic-set.js -> /output/generic-set.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/generic-set.js.br /tmp/work/generic-set.js
+2021/12/29 19:05:28 sri /tmp/work/generic-map.min.js -> /output/generic-map.min.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/generic-map.min.js.br /tmp/work/generic-map.min.js
+2021/12/29 19:05:28 br /tmp/work/generic-set.js -> /output/generic-set.js.br
+2021/12/29 19:05:28 gz /tmp/work/generic-set.js -> /output/generic-set.js.gz
+2021/12/29 19:05:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/list.min.js /tmp/work/list.js
+2021/12/29 19:05:28 sri /tmp/work/karma.conf.min.js -> /output/karma.conf.min.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/karma.conf.min.js.br /tmp/work/karma.conf.min.js
+2021/12/29 19:05:28 br /tmp/work/generic-map.min.js -> /output/generic-map.min.js.br
+2021/12/29 19:05:28 gz /tmp/work/generic-map.min.js -> /output/generic-map.min.js.gz
+2021/12/29 19:05:28 sri /tmp/work/generic-map.js -> /output/generic-map.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/generic-map.js.br /tmp/work/generic-map.js
+2021/12/29 19:05:28 sri /tmp/work/generic-collection.min.js -> /output/generic-collection.min.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/generic-collection.min.js.br /tmp/work/generic-collection.min.js
+2021/12/29 19:05:28 br /tmp/work/karma.conf.min.js -> /output/karma.conf.min.js.br
+2021/12/29 19:05:28 gz /tmp/work/karma.conf.min.js -> /output/karma.conf.min.js.gz
+2021/12/29 19:05:28 sri /tmp/work/karma.conf.js -> /output/karma.conf.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/karma.conf.js.br /tmp/work/karma.conf.js
+2021/12/29 19:05:28 br /tmp/work/generic-collection.min.js -> /output/generic-collection.min.js.br
+2021/12/29 19:05:28 gz /tmp/work/generic-collection.min.js -> /output/generic-collection.min.js.gz
+2021/12/29 19:05:28 sri /tmp/work/generic-collection.js -> /output/generic-collection.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/generic-collection.js.br /tmp/work/generic-collection.js
+2021/12/29 19:05:28 br /tmp/work/generic-map.js -> /output/generic-map.js.br
+2021/12/29 19:05:28 gz /tmp/work/generic-map.js -> /output/generic-map.js.gz
+2021/12/29 19:05:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lru-map.min.js /tmp/work/lru-map.js
+2021/12/29 19:05:28 br /tmp/work/karma.conf.js -> /output/karma.conf.js.br
+2021/12/29 19:05:28 gz /tmp/work/karma.conf.js -> /output/karma.conf.js.gz
+2021/12/29 19:05:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lru-set.min.js /tmp/work/lru-set.js
+2021/12/29 19:05:28 br /tmp/work/generic-collection.js -> /output/generic-collection.js.br
+2021/12/29 19:05:28 gz /tmp/work/generic-collection.js -> /output/generic-collection.js.gz
+2021/12/29 19:05:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/map.min.js /tmp/work/map.js
+2021/12/29 19:05:28 sri /tmp/work/heap.min.js -> /output/heap.min.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/heap.min.js.br /tmp/work/heap.min.js
+2021/12/29 19:05:28 br /tmp/work/heap.min.js -> /output/heap.min.js.br
+2021/12/29 19:05:28 gz /tmp/work/heap.min.js -> /output/heap.min.js.gz
+2021/12/29 19:05:28 sri /tmp/work/heap.js -> /output/heap.js.sri
+2021/12/29 19:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/heap.js.br /tmp/work/heap.js
+2021/12/29 19:05:28 br /tmp/work/heap.js -> /output/heap.js.br
+2021/12/29 19:05:28 gz /tmp/work/heap.js -> /output/heap.js.gz
+2021/12/29 19:05:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/multi-map.min.js /tmp/work/multi-map.js
+2021/12/29 19:05:29 sri /tmp/work/lfu-map.min.js -> /output/lfu-map.min.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lfu-map.min.js.br /tmp/work/lfu-map.min.js
+2021/12/29 19:05:29 br /tmp/work/lfu-map.min.js -> /output/lfu-map.min.js.br
+2021/12/29 19:05:29 gz /tmp/work/lfu-map.min.js -> /output/lfu-map.min.js.gz
+2021/12/29 19:05:29 sri /tmp/work/lfu-map.js -> /output/lfu-map.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lfu-map.js.br /tmp/work/lfu-map.js
+2021/12/29 19:05:29 br /tmp/work/lfu-map.js -> /output/lfu-map.js.br
+2021/12/29 19:05:29 gz /tmp/work/lfu-map.js -> /output/lfu-map.js.gz
+2021/12/29 19:05:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/set.min.js /tmp/work/set.js
+2021/12/29 19:05:29 sri /tmp/work/iterator.min.js -> /output/iterator.min.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/iterator.min.js.br /tmp/work/iterator.min.js
+2021/12/29 19:05:29 br /tmp/work/iterator.min.js -> /output/iterator.min.js.br
+2021/12/29 19:05:29 gz /tmp/work/iterator.min.js -> /output/iterator.min.js.gz
+2021/12/29 19:05:29 sri /tmp/work/iterator.js -> /output/iterator.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/iterator.js.br /tmp/work/iterator.js
+2021/12/29 19:05:29 br /tmp/work/iterator.js -> /output/iterator.js.br
+2021/12/29 19:05:29 gz /tmp/work/iterator.js -> /output/iterator.js.gz
+2021/12/29 19:05:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/shim-array.min.js /tmp/work/shim-array.js
+2021/12/29 19:05:29 sri /tmp/work/map.min.js -> /output/map.min.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/map.min.js.br /tmp/work/map.min.js
+2021/12/29 19:05:29 br /tmp/work/map.min.js -> /output/map.min.js.br
+2021/12/29 19:05:29 gz /tmp/work/map.min.js -> /output/map.min.js.gz
+2021/12/29 19:05:29 sri /tmp/work/map.js -> /output/map.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/map.js.br /tmp/work/map.js
+2021/12/29 19:05:29 sri /tmp/work/lru-map.min.js -> /output/lru-map.min.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lru-map.min.js.br /tmp/work/lru-map.min.js
+2021/12/29 19:05:29 br /tmp/work/map.js -> /output/map.js.br
+2021/12/29 19:05:29 gz /tmp/work/map.js -> /output/map.js.gz
+2021/12/29 19:05:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/shim-function.min.js /tmp/work/shim-function.js
+2021/12/29 19:05:29 br /tmp/work/lru-map.min.js -> /output/lru-map.min.js.br
+2021/12/29 19:05:29 gz /tmp/work/lru-map.min.js -> /output/lru-map.min.js.gz
+2021/12/29 19:05:29 sri /tmp/work/lru-map.js -> /output/lru-map.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lru-map.js.br /tmp/work/lru-map.js
+2021/12/29 19:05:29 sri /tmp/work/lru-set.min.js -> /output/lru-set.min.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lru-set.min.js.br /tmp/work/lru-set.min.js
+2021/12/29 19:05:29 br /tmp/work/lru-map.js -> /output/lru-map.js.br
+2021/12/29 19:05:29 gz /tmp/work/lru-map.js -> /output/lru-map.js.gz
+2021/12/29 19:05:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/shim-object.min.js /tmp/work/shim-object.js
+2021/12/29 19:05:29 br /tmp/work/lru-set.min.js -> /output/lru-set.min.js.br
+2021/12/29 19:05:29 gz /tmp/work/lru-set.min.js -> /output/lru-set.min.js.gz
+2021/12/29 19:05:29 sri /tmp/work/lru-set.js -> /output/lru-set.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lru-set.js.br /tmp/work/lru-set.js
+2021/12/29 19:05:29 br /tmp/work/lru-set.js -> /output/lru-set.js.br
+2021/12/29 19:05:29 sri /tmp/work/list.min.js -> /output/list.min.js.sri
+2021/12/29 19:05:29 gz /tmp/work/lru-set.js -> /output/lru-set.js.gz
+2021/12/29 19:05:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/shim-regexp.min.js /tmp/work/shim-regexp.js
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/list.min.js.br /tmp/work/list.min.js
+2021/12/29 19:05:29 sri /tmp/work/lfu-set.min.js -> /output/lfu-set.min.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lfu-set.min.js.br /tmp/work/lfu-set.min.js
+2021/12/29 19:05:29 br /tmp/work/list.min.js -> /output/list.min.js.br
+2021/12/29 19:05:29 gz /tmp/work/list.min.js -> /output/list.min.js.gz
+2021/12/29 19:05:29 sri /tmp/work/list.js -> /output/list.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/list.js.br /tmp/work/list.js
+2021/12/29 19:05:29 br /tmp/work/lfu-set.min.js -> /output/lfu-set.min.js.br
+2021/12/29 19:05:29 gz /tmp/work/lfu-set.min.js -> /output/lfu-set.min.js.gz
+2021/12/29 19:05:29 sri /tmp/work/lfu-set.js -> /output/lfu-set.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lfu-set.js.br /tmp/work/lfu-set.js
+2021/12/29 19:05:29 br /tmp/work/list.js -> /output/list.js.br
+2021/12/29 19:05:29 sri /tmp/work/multi-map.min.js -> /output/multi-map.min.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/multi-map.min.js.br /tmp/work/multi-map.min.js
+2021/12/29 19:05:29 gz /tmp/work/list.js -> /output/list.js.gz
+2021/12/29 19:05:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/shim.min.js /tmp/work/shim.js
+2021/12/29 19:05:29 br /tmp/work/lfu-set.js -> /output/lfu-set.js.br
+2021/12/29 19:05:29 gz /tmp/work/lfu-set.js -> /output/lfu-set.js.gz
+2021/12/29 19:05:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sorted-array-map.min.js /tmp/work/sorted-array-map.js
+2021/12/29 19:05:29 br /tmp/work/multi-map.min.js -> /output/multi-map.min.js.br
+2021/12/29 19:05:29 gz /tmp/work/multi-map.min.js -> /output/multi-map.min.js.gz
+2021/12/29 19:05:29 sri /tmp/work/multi-map.js -> /output/multi-map.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/multi-map.js.br /tmp/work/multi-map.js
+2021/12/29 19:05:29 br /tmp/work/multi-map.js -> /output/multi-map.js.br
+2021/12/29 19:05:29 gz /tmp/work/multi-map.js -> /output/multi-map.js.gz
+2021/12/29 19:05:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sorted-array-set.min.js /tmp/work/sorted-array-set.js
+2021/12/29 19:05:29 sri /tmp/work/shim-function.min.js -> /output/shim-function.min.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim-function.min.js.br /tmp/work/shim-function.min.js
+2021/12/29 19:05:29 br /tmp/work/shim-function.min.js -> /output/shim-function.min.js.br
+2021/12/29 19:05:29 gz /tmp/work/shim-function.min.js -> /output/shim-function.min.js.gz
+2021/12/29 19:05:29 sri /tmp/work/shim-function.js -> /output/shim-function.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim-function.js.br /tmp/work/shim-function.js
+2021/12/29 19:05:29 br /tmp/work/shim-function.js -> /output/shim-function.js.br
+2021/12/29 19:05:29 gz /tmp/work/shim-function.js -> /output/shim-function.js.gz
+2021/12/29 19:05:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sorted-array.min.js /tmp/work/sorted-array.js
+2021/12/29 19:05:29 sri /tmp/work/shim-regexp.min.js -> /output/shim-regexp.min.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim-regexp.min.js.br /tmp/work/shim-regexp.min.js
+2021/12/29 19:05:29 br /tmp/work/shim-regexp.min.js -> /output/shim-regexp.min.js.br
+2021/12/29 19:05:29 gz /tmp/work/shim-regexp.min.js -> /output/shim-regexp.min.js.gz
+2021/12/29 19:05:29 sri /tmp/work/shim-regexp.js -> /output/shim-regexp.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim-regexp.js.br /tmp/work/shim-regexp.js
+2021/12/29 19:05:29 sri /tmp/work/set.min.js -> /output/set.min.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/set.min.js.br /tmp/work/set.min.js
+2021/12/29 19:05:29 br /tmp/work/shim-regexp.js -> /output/shim-regexp.js.br
+2021/12/29 19:05:29 gz /tmp/work/shim-regexp.js -> /output/shim-regexp.js.gz
+2021/12/29 19:05:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sorted-map.min.js /tmp/work/sorted-map.js
+2021/12/29 19:05:29 sri /tmp/work/shim.min.js -> /output/shim.min.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim.min.js.br /tmp/work/shim.min.js
+2021/12/29 19:05:29 br /tmp/work/shim.min.js -> /output/shim.min.js.br
+2021/12/29 19:05:29 gz /tmp/work/shim.min.js -> /output/shim.min.js.gz
+2021/12/29 19:05:29 sri /tmp/work/shim.js -> /output/shim.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim.js.br /tmp/work/shim.js
+2021/12/29 19:05:29 br /tmp/work/set.min.js -> /output/set.min.js.br
+2021/12/29 19:05:29 gz /tmp/work/set.min.js -> /output/set.min.js.gz
+2021/12/29 19:05:29 sri /tmp/work/set.js -> /output/set.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/set.js.br /tmp/work/set.js
+2021/12/29 19:05:29 br /tmp/work/shim.js -> /output/shim.js.br
+2021/12/29 19:05:29 gz /tmp/work/shim.js -> /output/shim.js.gz
+2021/12/29 19:05:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sorted-set.min.js /tmp/work/sorted-set.js
+2021/12/29 19:05:29 br /tmp/work/set.js -> /output/set.js.br
+2021/12/29 19:05:29 gz /tmp/work/set.js -> /output/set.js.gz
+2021/12/29 19:05:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/tree-log.min.js /tmp/work/tree-log.js
+2021/12/29 19:05:29 sri /tmp/work/sorted-array-map.min.js -> /output/sorted-array-map.min.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sorted-array-map.min.js.br /tmp/work/sorted-array-map.min.js
+2021/12/29 19:05:29 br /tmp/work/sorted-array-map.min.js -> /output/sorted-array-map.min.js.br
+2021/12/29 19:05:29 gz /tmp/work/sorted-array-map.min.js -> /output/sorted-array-map.min.js.gz
+2021/12/29 19:05:29 sri /tmp/work/sorted-array-map.js -> /output/sorted-array-map.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sorted-array-map.js.br /tmp/work/sorted-array-map.js
+2021/12/29 19:05:29 sri /tmp/work/sorted-array-set.min.js -> /output/sorted-array-set.min.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sorted-array-set.min.js.br /tmp/work/sorted-array-set.min.js
+2021/12/29 19:05:29 br /tmp/work/sorted-array-map.js -> /output/sorted-array-map.js.br
+2021/12/29 19:05:29 gz /tmp/work/sorted-array-map.js -> /output/sorted-array-map.js.gz
+2021/12/29 19:05:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/weak-map.min.js /tmp/work/weak-map.js
+2021/12/29 19:05:29 br /tmp/work/sorted-array-set.min.js -> /output/sorted-array-set.min.js.br
+2021/12/29 19:05:29 gz /tmp/work/sorted-array-set.min.js -> /output/sorted-array-set.min.js.gz
+2021/12/29 19:05:29 sri /tmp/work/sorted-array-set.js -> /output/sorted-array-set.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sorted-array-set.js.br /tmp/work/sorted-array-set.js
+2021/12/29 19:05:29 br /tmp/work/sorted-array-set.js -> /output/sorted-array-set.js.br
+2021/12/29 19:05:29 gz /tmp/work/sorted-array-set.js -> /output/sorted-array-set.js.gz
+2021/12/29 19:05:29 sri /tmp/work/shim-array.min.js -> /output/shim-array.min.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim-array.min.js.br /tmp/work/shim-array.min.js
+2021/12/29 19:05:29 br /tmp/work/shim-array.min.js -> /output/shim-array.min.js.br
+2021/12/29 19:05:29 gz /tmp/work/shim-array.min.js -> /output/shim-array.min.js.gz
+2021/12/29 19:05:29 sri /tmp/work/shim-array.js -> /output/shim-array.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim-array.js.br /tmp/work/shim-array.js
+2021/12/29 19:05:29 sri /tmp/work/shim-object.min.js -> /output/shim-object.min.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim-object.min.js.br /tmp/work/shim-object.min.js
+2021/12/29 19:05:29 br /tmp/work/shim-object.min.js -> /output/shim-object.min.js.br
+2021/12/29 19:05:29 gz /tmp/work/shim-object.min.js -> /output/shim-object.min.js.gz
+2021/12/29 19:05:29 sri /tmp/work/shim-object.js -> /output/shim-object.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim-object.js.br /tmp/work/shim-object.js
+2021/12/29 19:05:29 br /tmp/work/shim-array.js -> /output/shim-array.js.br
+2021/12/29 19:05:29 gz /tmp/work/shim-array.js -> /output/shim-array.js.gz
+2021/12/29 19:05:29 sri /tmp/work/tree-log.min.js -> /output/tree-log.min.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tree-log.min.js.br /tmp/work/tree-log.min.js
+2021/12/29 19:05:29 br /tmp/work/tree-log.min.js -> /output/tree-log.min.js.br
+2021/12/29 19:05:29 gz /tmp/work/tree-log.min.js -> /output/tree-log.min.js.gz
+2021/12/29 19:05:29 sri /tmp/work/tree-log.js -> /output/tree-log.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tree-log.js.br /tmp/work/tree-log.js
+2021/12/29 19:05:29 br /tmp/work/tree-log.js -> /output/tree-log.js.br
+2021/12/29 19:05:29 gz /tmp/work/tree-log.js -> /output/tree-log.js.gz
+2021/12/29 19:05:29 sri /tmp/work/sorted-map.min.js -> /output/sorted-map.min.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sorted-map.min.js.br /tmp/work/sorted-map.min.js
+2021/12/29 19:05:29 br /tmp/work/sorted-map.min.js -> /output/sorted-map.min.js.br
+2021/12/29 19:05:29 gz /tmp/work/sorted-map.min.js -> /output/sorted-map.min.js.gz
+2021/12/29 19:05:29 sri /tmp/work/sorted-map.js -> /output/sorted-map.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sorted-map.js.br /tmp/work/sorted-map.js
+2021/12/29 19:05:29 br /tmp/work/sorted-map.js -> /output/sorted-map.js.br
+2021/12/29 19:05:29 gz /tmp/work/sorted-map.js -> /output/sorted-map.js.gz
+2021/12/29 19:05:29 sri /tmp/work/weak-map.min.js -> /output/weak-map.min.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/weak-map.min.js.br /tmp/work/weak-map.min.js
+2021/12/29 19:05:29 br /tmp/work/weak-map.min.js -> /output/weak-map.min.js.br
+2021/12/29 19:05:29 gz /tmp/work/weak-map.min.js -> /output/weak-map.min.js.gz
+2021/12/29 19:05:29 sri /tmp/work/weak-map.js -> /output/weak-map.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/weak-map.js.br /tmp/work/weak-map.js
+2021/12/29 19:05:29 br /tmp/work/weak-map.js -> /output/weak-map.js.br
+2021/12/29 19:05:29 gz /tmp/work/weak-map.js -> /output/weak-map.js.gz
+2021/12/29 19:05:29 br /tmp/work/shim-object.js -> /output/shim-object.js.br
+2021/12/29 19:05:29 gz /tmp/work/shim-object.js -> /output/shim-object.js.gz
+2021/12/29 19:05:29 sri /tmp/work/sorted-array.min.js -> /output/sorted-array.min.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sorted-array.min.js.br /tmp/work/sorted-array.min.js
+2021/12/29 19:05:29 br /tmp/work/sorted-array.min.js -> /output/sorted-array.min.js.br
+2021/12/29 19:05:29 gz /tmp/work/sorted-array.min.js -> /output/sorted-array.min.js.gz
+2021/12/29 19:05:29 sri /tmp/work/sorted-array.js -> /output/sorted-array.js.sri
+2021/12/29 19:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sorted-array.js.br /tmp/work/sorted-array.js
+2021/12/29 19:05:29 br /tmp/work/sorted-array.js -> /output/sorted-array.js.br
+2021/12/29 19:05:29 gz /tmp/work/sorted-array.js -> /output/sorted-array.js.gz
+2021/12/29 19:05:30 sri /tmp/work/sorted-set.min.js -> /output/sorted-set.min.js.sri
+2021/12/29 19:05:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sorted-set.min.js.br /tmp/work/sorted-set.min.js
+2021/12/29 19:05:30 br /tmp/work/sorted-set.min.js -> /output/sorted-set.min.js.br
+2021/12/29 19:05:30 gz /tmp/work/sorted-set.min.js -> /output/sorted-set.min.js.gz
+2021/12/29 19:05:30 sri /tmp/work/sorted-set.js -> /output/sorted-set.js.sri
+2021/12/29 19:05:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sorted-set.js.br /tmp/work/sorted-set.js
+2021/12/29 19:05:30 br /tmp/work/sorted-set.js -> /output/sorted-set.js.br
+2021/12/29 19:05:30 gz /tmp/work/sorted-set.js -> /output/sorted-set.js.gz
+2021/12/29 19:05:30 processed collections
