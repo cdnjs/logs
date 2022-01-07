@@ -1,0 +1,134 @@
+2022/01/07 09:01:04 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/01/07 09:01:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cache/dispose.min.js /tmp/work/dist/cache/dispose.js
+2022/01/07 09:01:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cache/states.min.js /tmp/work/dist/cache/states.js
+2022/01/07 09:01:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/demand.min.js /tmp/work/dist/demand.js
+2022/01/07 09:01:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cache/dispose.js.map.br /tmp/work/dist/cache/dispose.js.map
+2022/01/07 09:01:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/demand.js.map.br /tmp/work/dist/demand.js.map
+2022/01/07 09:01:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/handler/css.js.map.br /tmp/work/dist/handler/css.js.map
+2022/01/07 09:01:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/handler/css.min.js /tmp/work/dist/handler/css.js
+2022/01/07 09:01:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cache/states.js.map.br /tmp/work/dist/cache/states.js.map
+2022/01/07 09:01:04 br /tmp/work/dist/cache/states.js.map -> /output/cache/states.js.map.br
+2022/01/07 09:01:04 gz /tmp/work/dist/cache/states.js.map -> /output/cache/states.js.map.gz
+2022/01/07 09:01:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/handler/html.min.js /tmp/work/dist/handler/html.js
+2022/01/07 09:01:04 br /tmp/work/dist/cache/dispose.js.map -> /output/cache/dispose.js.map.br
+2022/01/07 09:01:04 gz /tmp/work/dist/cache/dispose.js.map -> /output/cache/dispose.js.map.gz
+2022/01/07 09:01:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/handler/html.js.map.br /tmp/work/dist/handler/html.js.map
+2022/01/07 09:01:04 br /tmp/work/dist/handler/css.js.map -> /output/handler/css.js.map.br
+2022/01/07 09:01:04 gz /tmp/work/dist/handler/css.js.map -> /output/handler/css.js.map.gz
+2022/01/07 09:01:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/handler/json.min.js /tmp/work/dist/handler/json.js
+2022/01/07 09:01:04 br /tmp/work/dist/handler/html.js.map -> /output/handler/html.js.map.br
+2022/01/07 09:01:04 gz /tmp/work/dist/handler/html.js.map -> /output/handler/html.js.map.gz
+2022/01/07 09:01:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/handler/json.js.map.br /tmp/work/dist/handler/json.js.map
+2022/01/07 09:01:04 br /tmp/work/dist/handler/json.js.map -> /output/handler/json.js.map.br
+2022/01/07 09:01:04 gz /tmp/work/dist/handler/json.js.map -> /output/handler/json.js.map.gz
+2022/01/07 09:01:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/handler/legacy.min.js /tmp/work/dist/handler/legacy.js
+2022/01/07 09:01:04 br /tmp/work/dist/demand.js.map -> /output/demand.js.map.br
+2022/01/07 09:01:04 gz /tmp/work/dist/demand.js.map -> /output/demand.js.map.gz
+2022/01/07 09:01:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/handler/legacy.js.map.br /tmp/work/dist/handler/legacy.js.map
+2022/01/07 09:01:04 br /tmp/work/dist/handler/legacy.js.map -> /output/handler/legacy.js.map.br
+2022/01/07 09:01:04 gz /tmp/work/dist/handler/legacy.js.map -> /output/handler/legacy.js.map.gz
+2022/01/07 09:01:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/handler/text.min.js /tmp/work/dist/handler/text.js
+2022/01/07 09:01:04 sri /tmp/work/dist/cache/dispose.min.js -> /output/cache/dispose.min.js.sri
+2022/01/07 09:01:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cache/dispose.min.js.br /tmp/work/dist/cache/dispose.min.js
+2022/01/07 09:01:04 br /tmp/work/dist/cache/dispose.min.js -> /output/cache/dispose.min.js.br
+2022/01/07 09:01:04 gz /tmp/work/dist/cache/dispose.min.js -> /output/cache/dispose.min.js.gz
+2022/01/07 09:01:04 sri /tmp/work/dist/cache/dispose.js -> /output/cache/dispose.js.sri
+2022/01/07 09:01:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cache/dispose.js.br /tmp/work/dist/cache/dispose.js
+2022/01/07 09:01:04 sri /tmp/work/dist/cache/states.min.js -> /output/cache/states.min.js.sri
+2022/01/07 09:01:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cache/states.min.js.br /tmp/work/dist/cache/states.min.js
+2022/01/07 09:01:04 br /tmp/work/dist/cache/dispose.js -> /output/cache/dispose.js.br
+2022/01/07 09:01:04 gz /tmp/work/dist/cache/dispose.js -> /output/cache/dispose.js.gz
+2022/01/07 09:01:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/handler/text.js.map.br /tmp/work/dist/handler/text.js.map
+2022/01/07 09:01:04 br /tmp/work/dist/cache/states.min.js -> /output/cache/states.min.js.br
+2022/01/07 09:01:04 gz /tmp/work/dist/cache/states.min.js -> /output/cache/states.min.js.gz
+2022/01/07 09:01:04 sri /tmp/work/dist/cache/states.js -> /output/cache/states.js.sri
+2022/01/07 09:01:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cache/states.js.br /tmp/work/dist/cache/states.js
+2022/01/07 09:01:04 br /tmp/work/dist/handler/text.js.map -> /output/handler/text.js.map.br
+2022/01/07 09:01:04 gz /tmp/work/dist/handler/text.js.map -> /output/handler/text.js.map.gz
+2022/01/07 09:01:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plugin/cookie.min.js /tmp/work/dist/plugin/cookie.js
+2022/01/07 09:01:04 br /tmp/work/dist/cache/states.js -> /output/cache/states.js.br
+2022/01/07 09:01:04 gz /tmp/work/dist/cache/states.js -> /output/cache/states.js.gz
+2022/01/07 09:01:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugin/cookie.js.map.br /tmp/work/dist/plugin/cookie.js.map
+2022/01/07 09:01:04 sri /tmp/work/dist/handler/css.min.js -> /output/handler/css.min.js.sri
+2022/01/07 09:01:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/handler/css.min.js.br /tmp/work/dist/handler/css.min.js
+2022/01/07 09:01:04 sri /tmp/work/dist/handler/json.min.js -> /output/handler/json.min.js.sri
+2022/01/07 09:01:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/handler/json.min.js.br /tmp/work/dist/handler/json.min.js
+2022/01/07 09:01:04 br /tmp/work/dist/handler/css.min.js -> /output/handler/css.min.js.br
+2022/01/07 09:01:04 gz /tmp/work/dist/handler/css.min.js -> /output/handler/css.min.js.gz
+2022/01/07 09:01:04 sri /tmp/work/dist/handler/css.js -> /output/handler/css.js.sri
+2022/01/07 09:01:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/handler/css.js.br /tmp/work/dist/handler/css.js
+2022/01/07 09:01:04 br /tmp/work/dist/plugin/cookie.js.map -> /output/plugin/cookie.js.map.br
+2022/01/07 09:01:04 br /tmp/work/dist/handler/json.min.js -> /output/handler/json.min.js.br
+2022/01/07 09:01:04 gz /tmp/work/dist/plugin/cookie.js.map -> /output/plugin/cookie.js.map.gz
+2022/01/07 09:01:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plugin/lzstring.min.js /tmp/work/dist/plugin/lzstring.js
+2022/01/07 09:01:04 gz /tmp/work/dist/handler/json.min.js -> /output/handler/json.min.js.gz
+2022/01/07 09:01:04 sri /tmp/work/dist/handler/json.js -> /output/handler/json.js.sri
+2022/01/07 09:01:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/handler/json.js.br /tmp/work/dist/handler/json.js
+2022/01/07 09:01:04 br /tmp/work/dist/handler/css.js -> /output/handler/css.js.br
+2022/01/07 09:01:04 gz /tmp/work/dist/handler/css.js -> /output/handler/css.js.gz
+2022/01/07 09:01:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugin/lzstring.js.map.br /tmp/work/dist/plugin/lzstring.js.map
+2022/01/07 09:01:04 br /tmp/work/dist/handler/json.js -> /output/handler/json.js.br
+2022/01/07 09:01:04 gz /tmp/work/dist/handler/json.js -> /output/handler/json.js.gz
+2022/01/07 09:01:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plugin/sri.min.js /tmp/work/dist/plugin/sri.js
+2022/01/07 09:01:04 sri /tmp/work/dist/handler/html.min.js -> /output/handler/html.min.js.sri
+2022/01/07 09:01:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/handler/html.min.js.br /tmp/work/dist/handler/html.min.js
+2022/01/07 09:01:04 br /tmp/work/dist/handler/html.min.js -> /output/handler/html.min.js.br
+2022/01/07 09:01:04 br /tmp/work/dist/plugin/lzstring.js.map -> /output/plugin/lzstring.js.map.br
+2022/01/07 09:01:04 gz /tmp/work/dist/handler/html.min.js -> /output/handler/html.min.js.gz
+2022/01/07 09:01:04 sri /tmp/work/dist/handler/html.js -> /output/handler/html.js.sri
+2022/01/07 09:01:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/handler/html.js.br /tmp/work/dist/handler/html.js
+2022/01/07 09:01:04 gz /tmp/work/dist/plugin/lzstring.js.map -> /output/plugin/lzstring.js.map.gz
+2022/01/07 09:01:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugin/sri.js.map.br /tmp/work/dist/plugin/sri.js.map
+2022/01/07 09:01:04 sri /tmp/work/dist/handler/legacy.min.js -> /output/handler/legacy.min.js.sri
+2022/01/07 09:01:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/handler/legacy.min.js.br /tmp/work/dist/handler/legacy.min.js
+2022/01/07 09:01:04 br /tmp/work/dist/handler/html.js -> /output/handler/html.js.br
+2022/01/07 09:01:04 gz /tmp/work/dist/handler/html.js -> /output/handler/html.js.gz
+2022/01/07 09:01:04 br /tmp/work/dist/handler/legacy.min.js -> /output/handler/legacy.min.js.br
+2022/01/07 09:01:04 gz /tmp/work/dist/handler/legacy.min.js -> /output/handler/legacy.min.js.gz
+2022/01/07 09:01:04 sri /tmp/work/dist/handler/legacy.js -> /output/handler/legacy.js.sri
+2022/01/07 09:01:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/handler/legacy.js.br /tmp/work/dist/handler/legacy.js
+2022/01/07 09:01:04 br /tmp/work/dist/handler/legacy.js -> /output/handler/legacy.js.br
+2022/01/07 09:01:04 gz /tmp/work/dist/handler/legacy.js -> /output/handler/legacy.js.gz
+2022/01/07 09:01:04 sri /tmp/work/dist/handler/text.min.js -> /output/handler/text.min.js.sri
+2022/01/07 09:01:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/handler/text.min.js.br /tmp/work/dist/handler/text.min.js
+2022/01/07 09:01:04 br /tmp/work/dist/handler/text.min.js -> /output/handler/text.min.js.br
+2022/01/07 09:01:04 gz /tmp/work/dist/handler/text.min.js -> /output/handler/text.min.js.gz
+2022/01/07 09:01:04 sri /tmp/work/dist/handler/text.js -> /output/handler/text.js.sri
+2022/01/07 09:01:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/handler/text.js.br /tmp/work/dist/handler/text.js
+2022/01/07 09:01:04 br /tmp/work/dist/handler/text.js -> /output/handler/text.js.br
+2022/01/07 09:01:04 gz /tmp/work/dist/handler/text.js -> /output/handler/text.js.gz
+2022/01/07 09:01:04 br /tmp/work/dist/plugin/sri.js.map -> /output/plugin/sri.js.map.br
+2022/01/07 09:01:04 gz /tmp/work/dist/plugin/sri.js.map -> /output/plugin/sri.js.map.gz
+2022/01/07 09:01:04 sri /tmp/work/dist/plugin/cookie.min.js -> /output/plugin/cookie.min.js.sri
+2022/01/07 09:01:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugin/cookie.min.js.br /tmp/work/dist/plugin/cookie.min.js
+2022/01/07 09:01:04 br /tmp/work/dist/plugin/cookie.min.js -> /output/plugin/cookie.min.js.br
+2022/01/07 09:01:04 gz /tmp/work/dist/plugin/cookie.min.js -> /output/plugin/cookie.min.js.gz
+2022/01/07 09:01:04 sri /tmp/work/dist/plugin/cookie.js -> /output/plugin/cookie.js.sri
+2022/01/07 09:01:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugin/cookie.js.br /tmp/work/dist/plugin/cookie.js
+2022/01/07 09:01:04 br /tmp/work/dist/plugin/cookie.js -> /output/plugin/cookie.js.br
+2022/01/07 09:01:04 gz /tmp/work/dist/plugin/cookie.js -> /output/plugin/cookie.js.gz
+2022/01/07 09:01:05 sri /tmp/work/dist/plugin/lzstring.min.js -> /output/plugin/lzstring.min.js.sri
+2022/01/07 09:01:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugin/lzstring.min.js.br /tmp/work/dist/plugin/lzstring.min.js
+2022/01/07 09:01:05 br /tmp/work/dist/plugin/lzstring.min.js -> /output/plugin/lzstring.min.js.br
+2022/01/07 09:01:05 gz /tmp/work/dist/plugin/lzstring.min.js -> /output/plugin/lzstring.min.js.gz
+2022/01/07 09:01:05 sri /tmp/work/dist/plugin/lzstring.js -> /output/plugin/lzstring.js.sri
+2022/01/07 09:01:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugin/lzstring.js.br /tmp/work/dist/plugin/lzstring.js
+2022/01/07 09:01:05 br /tmp/work/dist/plugin/lzstring.js -> /output/plugin/lzstring.js.br
+2022/01/07 09:01:05 gz /tmp/work/dist/plugin/lzstring.js -> /output/plugin/lzstring.js.gz
+2022/01/07 09:01:05 sri /tmp/work/dist/demand.min.js -> /output/demand.min.js.sri
+2022/01/07 09:01:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/demand.min.js.br /tmp/work/dist/demand.min.js
+2022/01/07 09:01:05 br /tmp/work/dist/demand.min.js -> /output/demand.min.js.br
+2022/01/07 09:01:05 gz /tmp/work/dist/demand.min.js -> /output/demand.min.js.gz
+2022/01/07 09:01:05 sri /tmp/work/dist/demand.js -> /output/demand.js.sri
+2022/01/07 09:01:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/demand.js.br /tmp/work/dist/demand.js
+2022/01/07 09:01:05 br /tmp/work/dist/demand.js -> /output/demand.js.br
+2022/01/07 09:01:05 gz /tmp/work/dist/demand.js -> /output/demand.js.gz
+2022/01/07 09:01:05 sri /tmp/work/dist/plugin/sri.min.js -> /output/plugin/sri.min.js.sri
+2022/01/07 09:01:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugin/sri.min.js.br /tmp/work/dist/plugin/sri.min.js
+2022/01/07 09:01:05 br /tmp/work/dist/plugin/sri.min.js -> /output/plugin/sri.min.js.br
+2022/01/07 09:01:05 gz /tmp/work/dist/plugin/sri.min.js -> /output/plugin/sri.min.js.gz
+2022/01/07 09:01:05 sri /tmp/work/dist/plugin/sri.js -> /output/plugin/sri.js.sri
+2022/01/07 09:01:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugin/sri.js.br /tmp/work/dist/plugin/sri.js
+2022/01/07 09:01:05 br /tmp/work/dist/plugin/sri.js -> /output/plugin/sri.js.br
+2022/01/07 09:01:05 gz /tmp/work/dist/plugin/sri.js -> /output/plugin/sri.js.gz
+2022/01/07 09:01:05 processed qoopido.demand
