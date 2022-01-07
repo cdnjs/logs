@@ -1,0 +1,20 @@
+2022/01/07 18:04:39 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/01/07 18:04:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/rita.min.js /tmp/work/dist/rita.js
+2022/01/07 18:04:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/rita-micro.min.js /tmp/work/dist/rita-micro.js
+2022/01/07 18:04:48 sri /tmp/work/dist/rita-micro.min.js -> /output/rita-micro.min.js.sri
+2022/01/07 18:04:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/rita-micro.min.js.br /tmp/work/dist/rita-micro.min.js
+2022/01/07 18:04:48 sri /tmp/work/dist/rita.min.js -> /output/rita.min.js.sri
+2022/01/07 18:04:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/rita.min.js.br /tmp/work/dist/rita.min.js
+2022/01/07 18:04:51 br /tmp/work/dist/rita-micro.min.js -> /output/rita-micro.min.js.br
+2022/01/07 18:04:51 br /tmp/work/dist/rita.min.js -> /output/rita.min.js.br
+2022/01/07 18:04:51 gz /tmp/work/dist/rita-micro.min.js -> /output/rita-micro.min.js.gz
+2022/01/07 18:04:51 sri /tmp/work/dist/rita-micro.js -> /output/rita-micro.js.sri
+2022/01/07 18:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/rita-micro.js.br /tmp/work/dist/rita-micro.js
+2022/01/07 18:04:51 gz /tmp/work/dist/rita.min.js -> /output/rita.min.js.gz
+2022/01/07 18:04:52 sri /tmp/work/dist/rita.js -> /output/rita.js.sri
+2022/01/07 18:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/rita.js.br /tmp/work/dist/rita.js
+2022/01/07 18:04:55 br /tmp/work/dist/rita-micro.js -> /output/rita-micro.js.br
+2022/01/07 18:04:55 br /tmp/work/dist/rita.js -> /output/rita.js.br
+2022/01/07 18:04:55 gz /tmp/work/dist/rita-micro.js -> /output/rita-micro.js.gz
+2022/01/07 18:04:55 gz /tmp/work/dist/rita.js -> /output/rita.js.gz
+2022/01/07 18:04:55 processed rita
