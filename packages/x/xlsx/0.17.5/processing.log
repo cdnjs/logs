@@ -1,0 +1,71 @@
+2022/01/10 20:36:53 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/01/10 20:36:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cpexcel.min.js /tmp/work/dist/cpexcel.js
+2022/01/10 20:36:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/jszip.min.js /tmp/work/dist/jszip.js
+2022/01/10 20:36:53 /tmp/work/dist/shim.min.js.min.js compressed file already exists
+2022/01/10 20:36:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/xlsx.extendscript.min.js /tmp/work/dist/xlsx.extendscript.js
+2022/01/10 20:36:53 /tmp/work/dist/xlsx.core.min.js.min.js compressed file already exists
+2022/01/10 20:36:53 compressed file already exists: /tmp/work/dist/xlsx.min.js
+2022/01/10 20:36:53 /tmp/work/dist/xlsx.full.min.js.min.js compressed file already exists
+2022/01/10 20:36:53 sri /tmp/work/dist/shim.min.js -> /output/shim.min.js.sri
+2022/01/10 20:36:53 /tmp/work/dist/xlsx.min.js.min.js compressed file already exists
+2022/01/10 20:36:53 sri /tmp/work/dist/xlsx.min.js -> /output/xlsx.min.js.sri
+2022/01/10 20:36:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/xlsx.min.js.br /tmp/work/dist/xlsx.min.js
+2022/01/10 20:36:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim.min.js.br /tmp/work/dist/shim.min.js
+2022/01/10 20:36:53 sri /tmp/work/dist/xlsx.core.min.js -> /output/xlsx.core.min.js.sri
+2022/01/10 20:36:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/xlsx.core.min.js.br /tmp/work/dist/xlsx.core.min.js
+2022/01/10 20:36:53 sri /tmp/work/dist/xlsx.js -> /output/xlsx.js.sri
+2022/01/10 20:36:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/xlsx.js.br /tmp/work/dist/xlsx.js
+2022/01/10 20:36:53 sri /tmp/work/dist/xlsx.full.min.js -> /output/xlsx.full.min.js.sri
+2022/01/10 20:36:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/xlsx.full.min.js.br /tmp/work/dist/xlsx.full.min.js
+2022/01/10 20:36:53 br /tmp/work/dist/shim.min.js -> /output/shim.min.js.br
+2022/01/10 20:36:53 gz /tmp/work/dist/shim.min.js -> /output/shim.min.js.gz
+2022/01/10 20:36:53 /tmp/work/dist/xlsx.mini.min.js.min.js compressed file already exists
+2022/01/10 20:36:53 sri /tmp/work/dist/xlsx.mini.min.js -> /output/xlsx.mini.min.js.sri
+2022/01/10 20:36:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/xlsx.mini.min.js.br /tmp/work/dist/xlsx.mini.min.js
+2022/01/10 20:36:54 br /tmp/work/dist/xlsx.mini.min.js -> /output/xlsx.mini.min.js.br
+2022/01/10 20:36:54 gz /tmp/work/dist/xlsx.mini.min.js -> /output/xlsx.mini.min.js.gz
+2022/01/10 20:36:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/xlsx.core.min.map.br /tmp/work/dist/xlsx.core.min.map
+2022/01/10 20:36:55 br /tmp/work/dist/xlsx.min.js -> /output/xlsx.min.js.br
+2022/01/10 20:36:55 gz /tmp/work/dist/xlsx.min.js -> /output/xlsx.min.js.gz
+2022/01/10 20:36:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/xlsx.full.min.map.br /tmp/work/dist/xlsx.full.min.map
+2022/01/10 20:36:55 br /tmp/work/dist/xlsx.core.min.js -> /output/xlsx.core.min.js.br
+2022/01/10 20:36:55 gz /tmp/work/dist/xlsx.core.min.js -> /output/xlsx.core.min.js.gz
+2022/01/10 20:36:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/xlsx.min.map.br /tmp/work/dist/xlsx.min.map
+2022/01/10 20:36:56 br /tmp/work/dist/xlsx.js -> /output/xlsx.js.br
+2022/01/10 20:36:56 gz /tmp/work/dist/xlsx.js -> /output/xlsx.js.gz
+2022/01/10 20:36:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/xlsx.mini.min.map.br /tmp/work/dist/xlsx.mini.min.map
+2022/01/10 20:36:57 br /tmp/work/dist/xlsx.core.min.map -> /output/xlsx.core.min.map.br
+2022/01/10 20:36:57 br /tmp/work/dist/xlsx.full.min.js -> /output/xlsx.full.min.js.br
+2022/01/10 20:36:57 gz /tmp/work/dist/xlsx.full.min.js -> /output/xlsx.full.min.js.gz
+2022/01/10 20:36:58 br /tmp/work/dist/xlsx.mini.min.map -> /output/xlsx.mini.min.map.br
+2022/01/10 20:36:58 gz /tmp/work/dist/xlsx.core.min.map -> /output/xlsx.core.min.map.gz
+2022/01/10 20:36:58 gz /tmp/work/dist/xlsx.mini.min.map -> /output/xlsx.mini.min.map.gz
+2022/01/10 20:36:58 br /tmp/work/dist/xlsx.min.map -> /output/xlsx.min.map.br
+2022/01/10 20:36:58 gz /tmp/work/dist/xlsx.min.map -> /output/xlsx.min.map.gz
+2022/01/10 20:36:58 br /tmp/work/dist/xlsx.full.min.map -> /output/xlsx.full.min.map.br
+2022/01/10 20:36:58 gz /tmp/work/dist/xlsx.full.min.map -> /output/xlsx.full.min.map.gz
+2022/01/10 20:36:58 sri /tmp/work/dist/cpexcel.min.js -> /output/cpexcel.min.js.sri
+2022/01/10 20:36:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cpexcel.min.js.br /tmp/work/dist/cpexcel.min.js
+2022/01/10 20:36:59 sri /tmp/work/dist/jszip.min.js -> /output/jszip.min.js.sri
+2022/01/10 20:36:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jszip.min.js.br /tmp/work/dist/jszip.min.js
+2022/01/10 20:36:59 br /tmp/work/dist/jszip.min.js -> /output/jszip.min.js.br
+2022/01/10 20:36:59 gz /tmp/work/dist/jszip.min.js -> /output/jszip.min.js.gz
+2022/01/10 20:36:59 sri /tmp/work/dist/jszip.js -> /output/jszip.js.sri
+2022/01/10 20:36:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jszip.js.br /tmp/work/dist/jszip.js
+2022/01/10 20:37:00 br /tmp/work/dist/cpexcel.min.js -> /output/cpexcel.min.js.br
+2022/01/10 20:37:00 br /tmp/work/dist/jszip.js -> /output/jszip.js.br
+2022/01/10 20:37:00 gz /tmp/work/dist/cpexcel.min.js -> /output/cpexcel.min.js.gz
+2022/01/10 20:37:00 sri /tmp/work/dist/cpexcel.js -> /output/cpexcel.js.sri
+2022/01/10 20:37:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cpexcel.js.br /tmp/work/dist/cpexcel.js
+2022/01/10 20:37:00 gz /tmp/work/dist/jszip.js -> /output/jszip.js.gz
+2022/01/10 20:37:01 br /tmp/work/dist/cpexcel.js -> /output/cpexcel.js.br
+2022/01/10 20:37:01 gz /tmp/work/dist/cpexcel.js -> /output/cpexcel.js.gz
+2022/01/10 20:37:07 sri /tmp/work/dist/xlsx.extendscript.min.js -> /output/xlsx.extendscript.min.js.sri
+2022/01/10 20:37:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/xlsx.extendscript.min.js.br /tmp/work/dist/xlsx.extendscript.min.js
+2022/01/10 20:37:08 br /tmp/work/dist/xlsx.extendscript.min.js -> /output/xlsx.extendscript.min.js.br
+2022/01/10 20:37:08 gz /tmp/work/dist/xlsx.extendscript.min.js -> /output/xlsx.extendscript.min.js.gz
+2022/01/10 20:37:08 sri /tmp/work/dist/xlsx.extendscript.js -> /output/xlsx.extendscript.js.sri
+2022/01/10 20:37:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/xlsx.extendscript.js.br /tmp/work/dist/xlsx.extendscript.js
+2022/01/10 20:37:11 br /tmp/work/dist/xlsx.extendscript.js -> /output/xlsx.extendscript.js.br
+2022/01/10 20:37:11 gz /tmp/work/dist/xlsx.extendscript.js -> /output/xlsx.extendscript.js.gz
+2022/01/10 20:37:11 processed xlsx
