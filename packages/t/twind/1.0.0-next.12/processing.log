@@ -1,0 +1,113 @@
+2022/01/15 21:34:11 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/01/15 21:34:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/package.json.br /tmp/work/package.json
+2022/01/15 21:34:12 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/core.global.min.js /tmp/work/core.global.js
+2022/01/15 21:34:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.esnext.js.map.br /tmp/work/core.esnext.js.map
+2022/01/15 21:34:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.global.js.map.br /tmp/work/core.global.js.map
+2022/01/15 21:34:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.js.map.br /tmp/work/core.js.map
+2022/01/15 21:34:12 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext.esnext.min.js /tmp/work/ext.esnext.js
+2022/01/15 21:34:12 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/core.esnext.min.js /tmp/work/core.esnext.js
+2022/01/15 21:34:12 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/core.min.js /tmp/work/core.js
+2022/01/15 21:34:12 br /tmp/work/core.js.map -> /output/core.js.map.br
+2022/01/15 21:34:12 br /tmp/work/core.esnext.js.map -> /output/core.esnext.js.map.br
+2022/01/15 21:34:12 gz /tmp/work/core.js.map -> /output/core.js.map.gz
+2022/01/15 21:34:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext.esnext.js.map.br /tmp/work/ext.esnext.js.map
+2022/01/15 21:34:12 gz /tmp/work/core.esnext.js.map -> /output/core.esnext.js.map.gz
+2022/01/15 21:34:12 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext.global.min.js /tmp/work/ext.global.js
+2022/01/15 21:34:12 br /tmp/work/ext.esnext.js.map -> /output/ext.esnext.js.map.br
+2022/01/15 21:34:12 gz /tmp/work/ext.esnext.js.map -> /output/ext.esnext.js.map.gz
+2022/01/15 21:34:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext.global.js.map.br /tmp/work/ext.global.js.map
+2022/01/15 21:34:12 br /tmp/work/package.json -> /output/package.json.br
+2022/01/15 21:34:12 gz /tmp/work/package.json -> /output/package.json.gz
+2022/01/15 21:34:12 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext.min.js /tmp/work/ext.js
+2022/01/15 21:34:12 br /tmp/work/core.global.js.map -> /output/core.global.js.map.br
+2022/01/15 21:34:12 gz /tmp/work/core.global.js.map -> /output/core.global.js.map.gz
+2022/01/15 21:34:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext.js.map.br /tmp/work/ext.js.map
+2022/01/15 21:34:12 br /tmp/work/ext.js.map -> /output/ext.js.map.br
+2022/01/15 21:34:12 gz /tmp/work/ext.js.map -> /output/ext.js.map.gz
+2022/01/15 21:34:12 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/twind.esnext.min.js /tmp/work/twind.esnext.js
+2022/01/15 21:34:12 br /tmp/work/ext.global.js.map -> /output/ext.global.js.map.br
+2022/01/15 21:34:12 gz /tmp/work/ext.global.js.map -> /output/ext.global.js.map.gz
+2022/01/15 21:34:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/twind.esnext.js.map.br /tmp/work/twind.esnext.js.map
+2022/01/15 21:34:12 br /tmp/work/twind.esnext.js.map -> /output/twind.esnext.js.map.br
+2022/01/15 21:34:12 gz /tmp/work/twind.esnext.js.map -> /output/twind.esnext.js.map.gz
+2022/01/15 21:34:12 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/twind.global.min.js /tmp/work/twind.global.js
+2022/01/15 21:34:12 sri /tmp/work/core.esnext.min.js -> /output/core.esnext.min.js.sri
+2022/01/15 21:34:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.esnext.min.js.br /tmp/work/core.esnext.min.js
+2022/01/15 21:34:12 br /tmp/work/core.esnext.min.js -> /output/core.esnext.min.js.br
+2022/01/15 21:34:12 gz /tmp/work/core.esnext.min.js -> /output/core.esnext.min.js.gz
+2022/01/15 21:34:12 sri /tmp/work/core.esnext.js -> /output/core.esnext.js.sri
+2022/01/15 21:34:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.esnext.js.br /tmp/work/core.esnext.js
+2022/01/15 21:34:12 sri /tmp/work/core.min.js -> /output/core.min.js.sri
+2022/01/15 21:34:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.min.js.br /tmp/work/core.min.js
+2022/01/15 21:34:12 br /tmp/work/core.esnext.js -> /output/core.esnext.js.br
+2022/01/15 21:34:12 gz /tmp/work/core.esnext.js -> /output/core.esnext.js.gz
+2022/01/15 21:34:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/twind.global.js.map.br /tmp/work/twind.global.js.map
+2022/01/15 21:34:12 sri /tmp/work/ext.min.js -> /output/ext.min.js.sri
+2022/01/15 21:34:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext.min.js.br /tmp/work/ext.min.js
+2022/01/15 21:34:12 br /tmp/work/core.min.js -> /output/core.min.js.br
+2022/01/15 21:34:12 gz /tmp/work/core.min.js -> /output/core.min.js.gz
+2022/01/15 21:34:12 sri /tmp/work/core.js -> /output/core.js.sri
+2022/01/15 21:34:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.js.br /tmp/work/core.js
+2022/01/15 21:34:12 sri /tmp/work/ext.esnext.min.js -> /output/ext.esnext.min.js.sri
+2022/01/15 21:34:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext.esnext.min.js.br /tmp/work/ext.esnext.min.js
+2022/01/15 21:34:12 br /tmp/work/ext.min.js -> /output/ext.min.js.br
+2022/01/15 21:34:12 gz /tmp/work/ext.min.js -> /output/ext.min.js.gz
+2022/01/15 21:34:12 sri /tmp/work/ext.js -> /output/ext.js.sri
+2022/01/15 21:34:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext.js.br /tmp/work/ext.js
+2022/01/15 21:34:12 br /tmp/work/core.js -> /output/core.js.br
+2022/01/15 21:34:12 gz /tmp/work/core.js -> /output/core.js.gz
+2022/01/15 21:34:12 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/twind.min.js /tmp/work/twind.js
+2022/01/15 21:34:12 br /tmp/work/ext.esnext.min.js -> /output/ext.esnext.min.js.br
+2022/01/15 21:34:12 gz /tmp/work/ext.esnext.min.js -> /output/ext.esnext.min.js.gz
+2022/01/15 21:34:12 sri /tmp/work/ext.esnext.js -> /output/ext.esnext.js.sri
+2022/01/15 21:34:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext.esnext.js.br /tmp/work/ext.esnext.js
+2022/01/15 21:34:12 br /tmp/work/ext.js -> /output/ext.js.br
+2022/01/15 21:34:12 gz /tmp/work/ext.js -> /output/ext.js.gz
+2022/01/15 21:34:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/twind.js.map.br /tmp/work/twind.js.map
+2022/01/15 21:34:12 br /tmp/work/ext.esnext.js -> /output/ext.esnext.js.br
+2022/01/15 21:34:12 gz /tmp/work/ext.esnext.js -> /output/ext.esnext.js.gz
+2022/01/15 21:34:12 br /tmp/work/twind.js.map -> /output/twind.js.map.br
+2022/01/15 21:34:12 gz /tmp/work/twind.js.map -> /output/twind.js.map.gz
+2022/01/15 21:34:12 sri /tmp/work/twind.esnext.min.js -> /output/twind.esnext.min.js.sri
+2022/01/15 21:34:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/twind.esnext.min.js.br /tmp/work/twind.esnext.min.js
+2022/01/15 21:34:12 br /tmp/work/twind.esnext.min.js -> /output/twind.esnext.min.js.br
+2022/01/15 21:34:12 gz /tmp/work/twind.esnext.min.js -> /output/twind.esnext.min.js.gz
+2022/01/15 21:34:12 sri /tmp/work/twind.esnext.js -> /output/twind.esnext.js.sri
+2022/01/15 21:34:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/twind.esnext.js.br /tmp/work/twind.esnext.js
+2022/01/15 21:34:12 br /tmp/work/twind.esnext.js -> /output/twind.esnext.js.br
+2022/01/15 21:34:12 gz /tmp/work/twind.esnext.js -> /output/twind.esnext.js.gz
+2022/01/15 21:34:12 br /tmp/work/twind.global.js.map -> /output/twind.global.js.map.br
+2022/01/15 21:34:12 gz /tmp/work/twind.global.js.map -> /output/twind.global.js.map.gz
+2022/01/15 21:34:12 sri /tmp/work/twind.min.js -> /output/twind.min.js.sri
+2022/01/15 21:34:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/twind.min.js.br /tmp/work/twind.min.js
+2022/01/15 21:34:12 br /tmp/work/twind.min.js -> /output/twind.min.js.br
+2022/01/15 21:34:12 gz /tmp/work/twind.min.js -> /output/twind.min.js.gz
+2022/01/15 21:34:12 sri /tmp/work/twind.js -> /output/twind.js.sri
+2022/01/15 21:34:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/twind.js.br /tmp/work/twind.js
+2022/01/15 21:34:12 br /tmp/work/twind.js -> /output/twind.js.br
+2022/01/15 21:34:12 gz /tmp/work/twind.js -> /output/twind.js.gz
+2022/01/15 21:34:13 sri /tmp/work/core.global.min.js -> /output/core.global.min.js.sri
+2022/01/15 21:34:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.global.min.js.br /tmp/work/core.global.min.js
+2022/01/15 21:34:13 br /tmp/work/core.global.min.js -> /output/core.global.min.js.br
+2022/01/15 21:34:13 gz /tmp/work/core.global.min.js -> /output/core.global.min.js.gz
+2022/01/15 21:34:13 sri /tmp/work/core.global.js -> /output/core.global.js.sri
+2022/01/15 21:34:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.global.js.br /tmp/work/core.global.js
+2022/01/15 21:34:13 sri /tmp/work/ext.global.min.js -> /output/ext.global.min.js.sri
+2022/01/15 21:34:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext.global.min.js.br /tmp/work/ext.global.min.js
+2022/01/15 21:34:13 br /tmp/work/core.global.js -> /output/core.global.js.br
+2022/01/15 21:34:13 gz /tmp/work/core.global.js -> /output/core.global.js.gz
+2022/01/15 21:34:13 br /tmp/work/ext.global.min.js -> /output/ext.global.min.js.br
+2022/01/15 21:34:13 gz /tmp/work/ext.global.min.js -> /output/ext.global.min.js.gz
+2022/01/15 21:34:13 sri /tmp/work/ext.global.js -> /output/ext.global.js.sri
+2022/01/15 21:34:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext.global.js.br /tmp/work/ext.global.js
+2022/01/15 21:34:13 br /tmp/work/ext.global.js -> /output/ext.global.js.br
+2022/01/15 21:34:13 gz /tmp/work/ext.global.js -> /output/ext.global.js.gz
+2022/01/15 21:34:13 sri /tmp/work/twind.global.min.js -> /output/twind.global.min.js.sri
+2022/01/15 21:34:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/twind.global.min.js.br /tmp/work/twind.global.min.js
+2022/01/15 21:34:13 br /tmp/work/twind.global.min.js -> /output/twind.global.min.js.br
+2022/01/15 21:34:13 gz /tmp/work/twind.global.min.js -> /output/twind.global.min.js.gz
+2022/01/15 21:34:13 sri /tmp/work/twind.global.js -> /output/twind.global.js.sri
+2022/01/15 21:34:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/twind.global.js.br /tmp/work/twind.global.js
+2022/01/15 21:34:13 br /tmp/work/twind.global.js -> /output/twind.global.js.br
+2022/01/15 21:34:13 gz /tmp/work/twind.global.js -> /output/twind.global.js.gz
+2022/01/15 21:34:13 processed twind
