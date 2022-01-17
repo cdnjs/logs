@@ -1,0 +1,23 @@
+2022/01/17 02:33:34 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/01/17 02:33:34 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/stockfish.min.js /tmp/work/stockfish.js
+2022/01/17 02:33:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/stockfish.wasm.br /tmp/work/stockfish.wasm
+2022/01/17 02:33:34 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/stockfish.wasm.min.js /tmp/work/stockfish.wasm.js
+2022/01/17 02:33:36 br /tmp/work/stockfish.wasm -> /output/stockfish.wasm.br
+2022/01/17 02:33:36 gz /tmp/work/stockfish.wasm -> /output/stockfish.wasm.gz
+2022/01/17 02:33:36 sri /tmp/work/stockfish.wasm.min.js -> /output/stockfish.wasm.min.js.sri
+2022/01/17 02:33:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/stockfish.wasm.min.js.br /tmp/work/stockfish.wasm.min.js
+2022/01/17 02:33:36 br /tmp/work/stockfish.wasm.min.js -> /output/stockfish.wasm.min.js.br
+2022/01/17 02:33:36 gz /tmp/work/stockfish.wasm.min.js -> /output/stockfish.wasm.min.js.gz
+2022/01/17 02:33:36 sri /tmp/work/stockfish.wasm.js -> /output/stockfish.wasm.js.sri
+2022/01/17 02:33:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/stockfish.wasm.js.br /tmp/work/stockfish.wasm.js
+2022/01/17 02:33:37 br /tmp/work/stockfish.wasm.js -> /output/stockfish.wasm.js.br
+2022/01/17 02:33:37 gz /tmp/work/stockfish.wasm.js -> /output/stockfish.wasm.js.gz
+2022/01/17 02:33:46 sri /tmp/work/stockfish.min.js -> /output/stockfish.min.js.sri
+2022/01/17 02:33:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/stockfish.min.js.br /tmp/work/stockfish.min.js
+2022/01/17 02:33:50 br /tmp/work/stockfish.min.js -> /output/stockfish.min.js.br
+2022/01/17 02:33:50 gz /tmp/work/stockfish.min.js -> /output/stockfish.min.js.gz
+2022/01/17 02:33:50 sri /tmp/work/stockfish.js -> /output/stockfish.js.sri
+2022/01/17 02:33:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/stockfish.js.br /tmp/work/stockfish.js
+2022/01/17 02:33:53 br /tmp/work/stockfish.js -> /output/stockfish.js.br
+2022/01/17 02:33:54 gz /tmp/work/stockfish.js -> /output/stockfish.js.gz
+2022/01/17 02:33:54 processed stockfish.js
