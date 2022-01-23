@@ -1,0 +1,783 @@
+2022/01/23 17:30:37 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/01/23 17:30:37 compressed file already exists: /tmp/work/dist/boardgameio.min.js
+2022/01/23 17:30:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/boardgameio.es.min.js /tmp/work/dist/boardgameio.es.js
+2022/01/23 17:30:37 /tmp/work/dist/boardgameio.min.js.min.js compressed file already exists
+2022/01/23 17:30:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/client-2f5ffa83.min.js /tmp/work/dist/cjs/client-2f5ffa83.js
+2022/01/23 17:30:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/ai-075181b7.min.js /tmp/work/dist/cjs/ai-075181b7.js
+2022/01/23 17:30:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/client-76dec77b.min.js /tmp/work/dist/cjs/client-76dec77b.js
+2022/01/23 17:30:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/ai.min.js /tmp/work/dist/cjs/ai.js
+2022/01/23 17:30:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/client.min.js /tmp/work/dist/cjs/client.js
+2022/01/23 17:30:37 sri /tmp/work/dist/boardgameio.min.js -> /output/boardgameio.min.js.sri
+2022/01/23 17:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/boardgameio.min.js.br /tmp/work/dist/boardgameio.min.js
+2022/01/23 17:30:37 sri /tmp/work/dist/boardgameio.js -> /output/boardgameio.js.sri
+2022/01/23 17:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/boardgameio.js.br /tmp/work/dist/boardgameio.js
+2022/01/23 17:30:38 sri /tmp/work/dist/cjs/ai.min.js -> /output/cjs/ai.min.js.sri
+2022/01/23 17:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/ai.min.js.br /tmp/work/dist/cjs/ai.min.js
+2022/01/23 17:30:38 br /tmp/work/dist/cjs/ai.min.js -> /output/cjs/ai.min.js.br
+2022/01/23 17:30:38 gz /tmp/work/dist/cjs/ai.min.js -> /output/cjs/ai.min.js.gz
+2022/01/23 17:30:38 sri /tmp/work/dist/cjs/ai.js -> /output/cjs/ai.js.sri
+2022/01/23 17:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/ai.js.br /tmp/work/dist/cjs/ai.js
+2022/01/23 17:30:38 br /tmp/work/dist/cjs/ai.js -> /output/cjs/ai.js.br
+2022/01/23 17:30:38 gz /tmp/work/dist/cjs/ai.js -> /output/cjs/ai.js.gz
+2022/01/23 17:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/core.min.js /tmp/work/dist/cjs/core.js
+2022/01/23 17:30:38 sri /tmp/work/dist/cjs/client.min.js -> /output/cjs/client.min.js.sri
+2022/01/23 17:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/client.min.js.br /tmp/work/dist/cjs/client.min.js
+2022/01/23 17:30:38 br /tmp/work/dist/cjs/client.min.js -> /output/cjs/client.min.js.br
+2022/01/23 17:30:38 gz /tmp/work/dist/cjs/client.min.js -> /output/cjs/client.min.js.gz
+2022/01/23 17:30:38 sri /tmp/work/dist/cjs/client.js -> /output/cjs/client.js.sri
+2022/01/23 17:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/client.js.br /tmp/work/dist/cjs/client.js
+2022/01/23 17:30:38 br /tmp/work/dist/cjs/client.js -> /output/cjs/client.js.br
+2022/01/23 17:30:38 gz /tmp/work/dist/cjs/client.js -> /output/cjs/client.js.gz
+2022/01/23 17:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/Debug-82a23167.min.js /tmp/work/dist/cjs/Debug-82a23167.js
+2022/01/23 17:30:38 sri /tmp/work/dist/cjs/client-76dec77b.min.js -> /output/cjs/client-76dec77b.min.js.sri
+2022/01/23 17:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/client-76dec77b.min.js.br /tmp/work/dist/cjs/client-76dec77b.min.js
+2022/01/23 17:30:38 br /tmp/work/dist/cjs/client-76dec77b.min.js -> /output/cjs/client-76dec77b.min.js.br
+2022/01/23 17:30:38 gz /tmp/work/dist/cjs/client-76dec77b.min.js -> /output/cjs/client-76dec77b.min.js.gz
+2022/01/23 17:30:38 sri /tmp/work/dist/cjs/client-76dec77b.js -> /output/cjs/client-76dec77b.js.sri
+2022/01/23 17:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/client-76dec77b.js.br /tmp/work/dist/cjs/client-76dec77b.js
+2022/01/23 17:30:38 br /tmp/work/dist/cjs/client-76dec77b.js -> /output/cjs/client-76dec77b.js.br
+2022/01/23 17:30:38 gz /tmp/work/dist/cjs/client-76dec77b.js -> /output/cjs/client-76dec77b.js.gz
+2022/01/23 17:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/debug.min.js /tmp/work/dist/cjs/debug.js
+2022/01/23 17:30:38 sri /tmp/work/dist/cjs/ai-075181b7.min.js -> /output/cjs/ai-075181b7.min.js.sri
+2022/01/23 17:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/ai-075181b7.min.js.br /tmp/work/dist/cjs/ai-075181b7.min.js
+2022/01/23 17:30:38 br /tmp/work/dist/boardgameio.min.js -> /output/boardgameio.min.js.br
+2022/01/23 17:30:38 br /tmp/work/dist/cjs/ai-075181b7.min.js -> /output/cjs/ai-075181b7.min.js.br
+2022/01/23 17:30:38 gz /tmp/work/dist/cjs/ai-075181b7.min.js -> /output/cjs/ai-075181b7.min.js.gz
+2022/01/23 17:30:38 sri /tmp/work/dist/cjs/ai-075181b7.js -> /output/cjs/ai-075181b7.js.sri
+2022/01/23 17:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/ai-075181b7.js.br /tmp/work/dist/cjs/ai-075181b7.js
+2022/01/23 17:30:38 gz /tmp/work/dist/boardgameio.min.js -> /output/boardgameio.min.js.gz
+2022/01/23 17:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/filter-player-view-a8eeb11e.min.js /tmp/work/dist/cjs/filter-player-view-a8eeb11e.js
+2022/01/23 17:30:38 sri /tmp/work/dist/cjs/core.min.js -> /output/cjs/core.min.js.sri
+2022/01/23 17:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/core.min.js.br /tmp/work/dist/cjs/core.min.js
+2022/01/23 17:30:38 br /tmp/work/dist/cjs/ai-075181b7.js -> /output/cjs/ai-075181b7.js.br
+2022/01/23 17:30:38 br /tmp/work/dist/cjs/core.min.js -> /output/cjs/core.min.js.br
+2022/01/23 17:30:38 gz /tmp/work/dist/cjs/core.min.js -> /output/cjs/core.min.js.gz
+2022/01/23 17:30:38 sri /tmp/work/dist/cjs/core.js -> /output/cjs/core.js.sri
+2022/01/23 17:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/core.js.br /tmp/work/dist/cjs/core.js
+2022/01/23 17:30:38 gz /tmp/work/dist/cjs/ai-075181b7.js -> /output/cjs/ai-075181b7.js.gz
+2022/01/23 17:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/initialize-d89f4805.min.js /tmp/work/dist/cjs/initialize-d89f4805.js
+2022/01/23 17:30:38 sri /tmp/work/dist/cjs/client-2f5ffa83.min.js -> /output/cjs/client-2f5ffa83.min.js.sri
+2022/01/23 17:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/client-2f5ffa83.min.js.br /tmp/work/dist/cjs/client-2f5ffa83.min.js
+2022/01/23 17:30:38 br /tmp/work/dist/cjs/core.js -> /output/cjs/core.js.br
+2022/01/23 17:30:38 gz /tmp/work/dist/cjs/core.js -> /output/cjs/core.js.gz
+2022/01/23 17:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/internal.min.js /tmp/work/dist/cjs/internal.js
+2022/01/23 17:30:38 br /tmp/work/dist/cjs/client-2f5ffa83.min.js -> /output/cjs/client-2f5ffa83.min.js.br
+2022/01/23 17:30:38 gz /tmp/work/dist/cjs/client-2f5ffa83.min.js -> /output/cjs/client-2f5ffa83.min.js.gz
+2022/01/23 17:30:38 sri /tmp/work/dist/cjs/client-2f5ffa83.js -> /output/cjs/client-2f5ffa83.js.sri
+2022/01/23 17:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/client-2f5ffa83.js.br /tmp/work/dist/cjs/client-2f5ffa83.js
+2022/01/23 17:30:38 sri /tmp/work/dist/cjs/debug.min.js -> /output/cjs/debug.min.js.sri
+2022/01/23 17:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/debug.min.js.br /tmp/work/dist/cjs/debug.min.js
+2022/01/23 17:30:38 br /tmp/work/dist/cjs/debug.min.js -> /output/cjs/debug.min.js.br
+2022/01/23 17:30:38 gz /tmp/work/dist/cjs/debug.min.js -> /output/cjs/debug.min.js.gz
+2022/01/23 17:30:38 sri /tmp/work/dist/cjs/debug.js -> /output/cjs/debug.js.sri
+2022/01/23 17:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/debug.js.br /tmp/work/dist/cjs/debug.js
+2022/01/23 17:30:38 br /tmp/work/dist/cjs/client-2f5ffa83.js -> /output/cjs/client-2f5ffa83.js.br
+2022/01/23 17:30:38 gz /tmp/work/dist/cjs/client-2f5ffa83.js -> /output/cjs/client-2f5ffa83.js.gz
+2022/01/23 17:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/master-4c9678bb.min.js /tmp/work/dist/cjs/master-4c9678bb.js
+2022/01/23 17:30:38 br /tmp/work/dist/cjs/debug.js -> /output/cjs/debug.js.br
+2022/01/23 17:30:38 gz /tmp/work/dist/cjs/debug.js -> /output/cjs/debug.js.gz
+2022/01/23 17:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/master.min.js /tmp/work/dist/cjs/master.js
+2022/01/23 17:30:38 sri /tmp/work/dist/cjs/initialize-d89f4805.min.js -> /output/cjs/initialize-d89f4805.min.js.sri
+2022/01/23 17:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/initialize-d89f4805.min.js.br /tmp/work/dist/cjs/initialize-d89f4805.min.js
+2022/01/23 17:30:38 br /tmp/work/dist/cjs/initialize-d89f4805.min.js -> /output/cjs/initialize-d89f4805.min.js.br
+2022/01/23 17:30:38 gz /tmp/work/dist/cjs/initialize-d89f4805.min.js -> /output/cjs/initialize-d89f4805.min.js.gz
+2022/01/23 17:30:38 sri /tmp/work/dist/cjs/initialize-d89f4805.js -> /output/cjs/initialize-d89f4805.js.sri
+2022/01/23 17:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/initialize-d89f4805.js.br /tmp/work/dist/cjs/initialize-d89f4805.js
+2022/01/23 17:30:38 br /tmp/work/dist/cjs/initialize-d89f4805.js -> /output/cjs/initialize-d89f4805.js.br
+2022/01/23 17:30:38 gz /tmp/work/dist/cjs/initialize-d89f4805.js -> /output/cjs/initialize-d89f4805.js.gz
+2022/01/23 17:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/multiplayer.min.js /tmp/work/dist/cjs/multiplayer.js
+2022/01/23 17:30:38 sri /tmp/work/dist/cjs/filter-player-view-a8eeb11e.min.js -> /output/cjs/filter-player-view-a8eeb11e.min.js.sri
+2022/01/23 17:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/filter-player-view-a8eeb11e.min.js.br /tmp/work/dist/cjs/filter-player-view-a8eeb11e.min.js
+2022/01/23 17:30:38 br /tmp/work/dist/cjs/filter-player-view-a8eeb11e.min.js -> /output/cjs/filter-player-view-a8eeb11e.min.js.br
+2022/01/23 17:30:38 gz /tmp/work/dist/cjs/filter-player-view-a8eeb11e.min.js -> /output/cjs/filter-player-view-a8eeb11e.min.js.gz
+2022/01/23 17:30:38 sri /tmp/work/dist/cjs/filter-player-view-a8eeb11e.js -> /output/cjs/filter-player-view-a8eeb11e.js.sri
+2022/01/23 17:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/filter-player-view-a8eeb11e.js.br /tmp/work/dist/cjs/filter-player-view-a8eeb11e.js
+2022/01/23 17:30:38 sri /tmp/work/dist/cjs/internal.min.js -> /output/cjs/internal.min.js.sri
+2022/01/23 17:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/internal.min.js.br /tmp/work/dist/cjs/internal.min.js
+2022/01/23 17:30:38 br /tmp/work/dist/cjs/filter-player-view-a8eeb11e.js -> /output/cjs/filter-player-view-a8eeb11e.js.br
+2022/01/23 17:30:38 gz /tmp/work/dist/cjs/filter-player-view-a8eeb11e.js -> /output/cjs/filter-player-view-a8eeb11e.js.gz
+2022/01/23 17:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/plugin-random-7425844d.min.js /tmp/work/dist/cjs/plugin-random-7425844d.js
+2022/01/23 17:30:38 br /tmp/work/dist/cjs/internal.min.js -> /output/cjs/internal.min.js.br
+2022/01/23 17:30:38 gz /tmp/work/dist/cjs/internal.min.js -> /output/cjs/internal.min.js.gz
+2022/01/23 17:30:38 sri /tmp/work/dist/cjs/internal.js -> /output/cjs/internal.js.sri
+2022/01/23 17:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/internal.js.br /tmp/work/dist/cjs/internal.js
+2022/01/23 17:30:38 br /tmp/work/dist/cjs/internal.js -> /output/cjs/internal.js.br
+2022/01/23 17:30:38 gz /tmp/work/dist/cjs/internal.js -> /output/cjs/internal.js.gz
+2022/01/23 17:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/plugins.min.js /tmp/work/dist/cjs/plugins.js
+2022/01/23 17:30:38 sri /tmp/work/dist/cjs/master.min.js -> /output/cjs/master.min.js.sri
+2022/01/23 17:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/master.min.js.br /tmp/work/dist/cjs/master.min.js
+2022/01/23 17:30:38 br /tmp/work/dist/cjs/master.min.js -> /output/cjs/master.min.js.br
+2022/01/23 17:30:38 gz /tmp/work/dist/cjs/master.min.js -> /output/cjs/master.min.js.gz
+2022/01/23 17:30:38 sri /tmp/work/dist/cjs/master.js -> /output/cjs/master.js.sri
+2022/01/23 17:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/master.js.br /tmp/work/dist/cjs/master.js
+2022/01/23 17:30:38 br /tmp/work/dist/cjs/master.js -> /output/cjs/master.js.br
+2022/01/23 17:30:38 gz /tmp/work/dist/cjs/master.js -> /output/cjs/master.js.gz
+2022/01/23 17:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/react-native.min.js /tmp/work/dist/cjs/react-native.js
+2022/01/23 17:30:39 sri /tmp/work/dist/cjs/multiplayer.min.js -> /output/cjs/multiplayer.min.js.sri
+2022/01/23 17:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/multiplayer.min.js.br /tmp/work/dist/cjs/multiplayer.min.js
+2022/01/23 17:30:39 br /tmp/work/dist/cjs/multiplayer.min.js -> /output/cjs/multiplayer.min.js.br
+2022/01/23 17:30:39 gz /tmp/work/dist/cjs/multiplayer.min.js -> /output/cjs/multiplayer.min.js.gz
+2022/01/23 17:30:39 sri /tmp/work/dist/cjs/multiplayer.js -> /output/cjs/multiplayer.js.sri
+2022/01/23 17:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/multiplayer.js.br /tmp/work/dist/cjs/multiplayer.js
+2022/01/23 17:30:39 br /tmp/work/dist/cjs/multiplayer.js -> /output/cjs/multiplayer.js.br
+2022/01/23 17:30:39 gz /tmp/work/dist/cjs/multiplayer.js -> /output/cjs/multiplayer.js.gz
+2022/01/23 17:30:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/react.min.js /tmp/work/dist/cjs/react.js
+2022/01/23 17:30:39 sri /tmp/work/dist/cjs/master-4c9678bb.min.js -> /output/cjs/master-4c9678bb.min.js.sri
+2022/01/23 17:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/master-4c9678bb.min.js.br /tmp/work/dist/cjs/master-4c9678bb.min.js
+2022/01/23 17:30:39 br /tmp/work/dist/cjs/master-4c9678bb.min.js -> /output/cjs/master-4c9678bb.min.js.br
+2022/01/23 17:30:39 gz /tmp/work/dist/cjs/master-4c9678bb.min.js -> /output/cjs/master-4c9678bb.min.js.gz
+2022/01/23 17:30:39 sri /tmp/work/dist/cjs/master-4c9678bb.js -> /output/cjs/master-4c9678bb.js.sri
+2022/01/23 17:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/master-4c9678bb.js.br /tmp/work/dist/cjs/master-4c9678bb.js
+2022/01/23 17:30:39 br /tmp/work/dist/cjs/master-4c9678bb.js -> /output/cjs/master-4c9678bb.js.br
+2022/01/23 17:30:39 gz /tmp/work/dist/cjs/master-4c9678bb.js -> /output/cjs/master-4c9678bb.js.gz
+2022/01/23 17:30:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/reducer-fa65c6b2.min.js /tmp/work/dist/cjs/reducer-fa65c6b2.js
+2022/01/23 17:30:39 sri /tmp/work/dist/cjs/plugins.min.js -> /output/cjs/plugins.min.js.sri
+2022/01/23 17:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/plugins.min.js.br /tmp/work/dist/cjs/plugins.min.js
+2022/01/23 17:30:39 br /tmp/work/dist/cjs/plugins.min.js -> /output/cjs/plugins.min.js.br
+2022/01/23 17:30:39 gz /tmp/work/dist/cjs/plugins.min.js -> /output/cjs/plugins.min.js.gz
+2022/01/23 17:30:39 sri /tmp/work/dist/cjs/plugins.js -> /output/cjs/plugins.js.sri
+2022/01/23 17:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/plugins.js.br /tmp/work/dist/cjs/plugins.js
+2022/01/23 17:30:39 br /tmp/work/dist/cjs/plugins.js -> /output/cjs/plugins.js.br
+2022/01/23 17:30:39 gz /tmp/work/dist/cjs/plugins.js -> /output/cjs/plugins.js.gz
+2022/01/23 17:30:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/server.min.js /tmp/work/dist/cjs/server.js
+2022/01/23 17:30:39 sri /tmp/work/dist/cjs/plugin-random-7425844d.min.js -> /output/cjs/plugin-random-7425844d.min.js.sri
+2022/01/23 17:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/plugin-random-7425844d.min.js.br /tmp/work/dist/cjs/plugin-random-7425844d.min.js
+2022/01/23 17:30:39 br /tmp/work/dist/cjs/plugin-random-7425844d.min.js -> /output/cjs/plugin-random-7425844d.min.js.br
+2022/01/23 17:30:39 gz /tmp/work/dist/cjs/plugin-random-7425844d.min.js -> /output/cjs/plugin-random-7425844d.min.js.gz
+2022/01/23 17:30:39 sri /tmp/work/dist/cjs/plugin-random-7425844d.js -> /output/cjs/plugin-random-7425844d.js.sri
+2022/01/23 17:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/plugin-random-7425844d.js.br /tmp/work/dist/cjs/plugin-random-7425844d.js
+2022/01/23 17:30:39 sri /tmp/work/dist/cjs/react-native.min.js -> /output/cjs/react-native.min.js.sri
+2022/01/23 17:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/react-native.min.js.br /tmp/work/dist/cjs/react-native.min.js
+2022/01/23 17:30:39 br /tmp/work/dist/cjs/plugin-random-7425844d.js -> /output/cjs/plugin-random-7425844d.js.br
+2022/01/23 17:30:39 gz /tmp/work/dist/cjs/plugin-random-7425844d.js -> /output/cjs/plugin-random-7425844d.js.gz
+2022/01/23 17:30:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/socketio-5296c400.min.js /tmp/work/dist/cjs/socketio-5296c400.js
+2022/01/23 17:30:39 br /tmp/work/dist/boardgameio.js -> /output/boardgameio.js.br
+2022/01/23 17:30:39 br /tmp/work/dist/cjs/react-native.min.js -> /output/cjs/react-native.min.js.br
+2022/01/23 17:30:39 gz /tmp/work/dist/cjs/react-native.min.js -> /output/cjs/react-native.min.js.gz
+2022/01/23 17:30:39 sri /tmp/work/dist/cjs/react-native.js -> /output/cjs/react-native.js.sri
+2022/01/23 17:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/react-native.js.br /tmp/work/dist/cjs/react-native.js
+2022/01/23 17:30:39 gz /tmp/work/dist/boardgameio.js -> /output/boardgameio.js.gz
+2022/01/23 17:30:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/testing.min.js /tmp/work/dist/cjs/testing.js
+2022/01/23 17:30:39 br /tmp/work/dist/cjs/react-native.js -> /output/cjs/react-native.js.br
+2022/01/23 17:30:39 gz /tmp/work/dist/cjs/react-native.js -> /output/cjs/react-native.js.gz
+2022/01/23 17:30:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/transport-b1874dfa.min.js /tmp/work/dist/cjs/transport-b1874dfa.js
+2022/01/23 17:30:39 sri /tmp/work/dist/cjs/transport-b1874dfa.min.js -> /output/cjs/transport-b1874dfa.min.js.sri
+2022/01/23 17:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/transport-b1874dfa.min.js.br /tmp/work/dist/cjs/transport-b1874dfa.min.js
+2022/01/23 17:30:39 sri /tmp/work/dist/cjs/testing.min.js -> /output/cjs/testing.min.js.sri
+2022/01/23 17:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/testing.min.js.br /tmp/work/dist/cjs/testing.min.js
+2022/01/23 17:30:39 br /tmp/work/dist/cjs/transport-b1874dfa.min.js -> /output/cjs/transport-b1874dfa.min.js.br
+2022/01/23 17:30:39 br /tmp/work/dist/cjs/testing.min.js -> /output/cjs/testing.min.js.br
+2022/01/23 17:30:39 gz /tmp/work/dist/cjs/transport-b1874dfa.min.js -> /output/cjs/transport-b1874dfa.min.js.gz
+2022/01/23 17:30:39 sri /tmp/work/dist/cjs/transport-b1874dfa.js -> /output/cjs/transport-b1874dfa.js.sri
+2022/01/23 17:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/transport-b1874dfa.js.br /tmp/work/dist/cjs/transport-b1874dfa.js
+2022/01/23 17:30:39 gz /tmp/work/dist/cjs/testing.min.js -> /output/cjs/testing.min.js.gz
+2022/01/23 17:30:39 sri /tmp/work/dist/cjs/testing.js -> /output/cjs/testing.js.sri
+2022/01/23 17:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/testing.js.br /tmp/work/dist/cjs/testing.js
+2022/01/23 17:30:39 br /tmp/work/dist/cjs/transport-b1874dfa.js -> /output/cjs/transport-b1874dfa.js.br
+2022/01/23 17:30:39 gz /tmp/work/dist/cjs/transport-b1874dfa.js -> /output/cjs/transport-b1874dfa.js.gz
+2022/01/23 17:30:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/turn-order-4ab12333.min.js /tmp/work/dist/cjs/turn-order-4ab12333.js
+2022/01/23 17:30:39 br /tmp/work/dist/cjs/testing.js -> /output/cjs/testing.js.br
+2022/01/23 17:30:39 gz /tmp/work/dist/cjs/testing.js -> /output/cjs/testing.js.gz
+2022/01/23 17:30:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/util-38a5fa06.min.js /tmp/work/dist/cjs/util-38a5fa06.js
+2022/01/23 17:30:39 sri /tmp/work/dist/cjs/react.min.js -> /output/cjs/react.min.js.sri
+2022/01/23 17:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/react.min.js.br /tmp/work/dist/cjs/react.min.js
+2022/01/23 17:30:39 br /tmp/work/dist/cjs/react.min.js -> /output/cjs/react.min.js.br
+2022/01/23 17:30:39 gz /tmp/work/dist/cjs/react.min.js -> /output/cjs/react.min.js.gz
+2022/01/23 17:30:39 sri /tmp/work/dist/cjs/react.js -> /output/cjs/react.js.sri
+2022/01/23 17:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/react.js.br /tmp/work/dist/cjs/react.js
+2022/01/23 17:30:39 sri /tmp/work/dist/cjs/socketio-5296c400.min.js -> /output/cjs/socketio-5296c400.min.js.sri
+2022/01/23 17:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/socketio-5296c400.min.js.br /tmp/work/dist/cjs/socketio-5296c400.min.js
+2022/01/23 17:30:39 br /tmp/work/dist/cjs/socketio-5296c400.min.js -> /output/cjs/socketio-5296c400.min.js.br
+2022/01/23 17:30:40 gz /tmp/work/dist/cjs/socketio-5296c400.min.js -> /output/cjs/socketio-5296c400.min.js.gz
+2022/01/23 17:30:40 sri /tmp/work/dist/cjs/socketio-5296c400.js -> /output/cjs/socketio-5296c400.js.sri
+2022/01/23 17:30:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/socketio-5296c400.js.br /tmp/work/dist/cjs/socketio-5296c400.js
+2022/01/23 17:30:40 br /tmp/work/dist/cjs/socketio-5296c400.js -> /output/cjs/socketio-5296c400.js.br
+2022/01/23 17:30:40 gz /tmp/work/dist/cjs/socketio-5296c400.js -> /output/cjs/socketio-5296c400.js.gz
+2022/01/23 17:30:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/ai-f5285565.min.js /tmp/work/dist/esm/ai-f5285565.js
+2022/01/23 17:30:40 sri /tmp/work/dist/cjs/util-38a5fa06.min.js -> /output/cjs/util-38a5fa06.min.js.sri
+2022/01/23 17:30:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/util-38a5fa06.min.js.br /tmp/work/dist/cjs/util-38a5fa06.min.js
+2022/01/23 17:30:40 br /tmp/work/dist/cjs/react.js -> /output/cjs/react.js.br
+2022/01/23 17:30:40 gz /tmp/work/dist/cjs/react.js -> /output/cjs/react.js.gz
+2022/01/23 17:30:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/ai.min.js /tmp/work/dist/esm/ai.js
+2022/01/23 17:30:40 br /tmp/work/dist/cjs/util-38a5fa06.min.js -> /output/cjs/util-38a5fa06.min.js.br
+2022/01/23 17:30:40 gz /tmp/work/dist/cjs/util-38a5fa06.min.js -> /output/cjs/util-38a5fa06.min.js.gz
+2022/01/23 17:30:40 sri /tmp/work/dist/cjs/util-38a5fa06.js -> /output/cjs/util-38a5fa06.js.sri
+2022/01/23 17:30:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/util-38a5fa06.js.br /tmp/work/dist/cjs/util-38a5fa06.js
+2022/01/23 17:30:40 br /tmp/work/dist/cjs/util-38a5fa06.js -> /output/cjs/util-38a5fa06.js.br
+2022/01/23 17:30:40 gz /tmp/work/dist/cjs/util-38a5fa06.js -> /output/cjs/util-38a5fa06.js.gz
+2022/01/23 17:30:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/client-44b09176.min.js /tmp/work/dist/esm/client-44b09176.js
+2022/01/23 17:30:40 sri /tmp/work/dist/esm/ai.min.js -> /output/esm/ai.min.js.sri
+2022/01/23 17:30:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/ai.min.js.br /tmp/work/dist/esm/ai.min.js
+2022/01/23 17:30:40 br /tmp/work/dist/esm/ai.min.js -> /output/esm/ai.min.js.br
+2022/01/23 17:30:40 gz /tmp/work/dist/esm/ai.min.js -> /output/esm/ai.min.js.gz
+2022/01/23 17:30:40 sri /tmp/work/dist/esm/ai.js -> /output/esm/ai.js.sri
+2022/01/23 17:30:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/ai.js.br /tmp/work/dist/esm/ai.js
+2022/01/23 17:30:40 br /tmp/work/dist/esm/ai.js -> /output/esm/ai.js.br
+2022/01/23 17:30:40 gz /tmp/work/dist/esm/ai.js -> /output/esm/ai.js.gz
+2022/01/23 17:30:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/client-5f57c3f2.min.js /tmp/work/dist/esm/client-5f57c3f2.js
+2022/01/23 17:30:40 sri /tmp/work/dist/cjs/reducer-fa65c6b2.min.js -> /output/cjs/reducer-fa65c6b2.min.js.sri
+2022/01/23 17:30:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/reducer-fa65c6b2.min.js.br /tmp/work/dist/cjs/reducer-fa65c6b2.min.js
+2022/01/23 17:30:40 br /tmp/work/dist/cjs/reducer-fa65c6b2.min.js -> /output/cjs/reducer-fa65c6b2.min.js.br
+2022/01/23 17:30:40 gz /tmp/work/dist/cjs/reducer-fa65c6b2.min.js -> /output/cjs/reducer-fa65c6b2.min.js.gz
+2022/01/23 17:30:40 sri /tmp/work/dist/cjs/reducer-fa65c6b2.js -> /output/cjs/reducer-fa65c6b2.js.sri
+2022/01/23 17:30:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/reducer-fa65c6b2.js.br /tmp/work/dist/cjs/reducer-fa65c6b2.js
+2022/01/23 17:30:40 sri /tmp/work/dist/cjs/turn-order-4ab12333.min.js -> /output/cjs/turn-order-4ab12333.min.js.sri
+2022/01/23 17:30:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/turn-order-4ab12333.min.js.br /tmp/work/dist/cjs/turn-order-4ab12333.min.js
+2022/01/23 17:30:40 sri /tmp/work/dist/esm/ai-f5285565.min.js -> /output/esm/ai-f5285565.min.js.sri
+2022/01/23 17:30:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/ai-f5285565.min.js.br /tmp/work/dist/esm/ai-f5285565.min.js
+2022/01/23 17:30:40 br /tmp/work/dist/cjs/turn-order-4ab12333.min.js -> /output/cjs/turn-order-4ab12333.min.js.br
+2022/01/23 17:30:40 gz /tmp/work/dist/cjs/turn-order-4ab12333.min.js -> /output/cjs/turn-order-4ab12333.min.js.gz
+2022/01/23 17:30:40 sri /tmp/work/dist/cjs/turn-order-4ab12333.js -> /output/cjs/turn-order-4ab12333.js.sri
+2022/01/23 17:30:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/turn-order-4ab12333.js.br /tmp/work/dist/cjs/turn-order-4ab12333.js
+2022/01/23 17:30:40 br /tmp/work/dist/esm/ai-f5285565.min.js -> /output/esm/ai-f5285565.min.js.br
+2022/01/23 17:30:40 gz /tmp/work/dist/esm/ai-f5285565.min.js -> /output/esm/ai-f5285565.min.js.gz
+2022/01/23 17:30:40 sri /tmp/work/dist/esm/ai-f5285565.js -> /output/esm/ai-f5285565.js.sri
+2022/01/23 17:30:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/ai-f5285565.js.br /tmp/work/dist/esm/ai-f5285565.js
+2022/01/23 17:30:40 br /tmp/work/dist/cjs/reducer-fa65c6b2.js -> /output/cjs/reducer-fa65c6b2.js.br
+2022/01/23 17:30:40 gz /tmp/work/dist/cjs/reducer-fa65c6b2.js -> /output/cjs/reducer-fa65c6b2.js.gz
+2022/01/23 17:30:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/client.min.js /tmp/work/dist/esm/client.js
+2022/01/23 17:30:40 br /tmp/work/dist/esm/ai-f5285565.js -> /output/esm/ai-f5285565.js.br
+2022/01/23 17:30:40 gz /tmp/work/dist/esm/ai-f5285565.js -> /output/esm/ai-f5285565.js.gz
+2022/01/23 17:30:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/core.min.js /tmp/work/dist/esm/core.js
+2022/01/23 17:30:40 sri /tmp/work/dist/esm/client-44b09176.min.js -> /output/esm/client-44b09176.min.js.sri
+2022/01/23 17:30:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/client-44b09176.min.js.br /tmp/work/dist/esm/client-44b09176.min.js
+2022/01/23 17:30:40 br /tmp/work/dist/cjs/turn-order-4ab12333.js -> /output/cjs/turn-order-4ab12333.js.br
+2022/01/23 17:30:40 gz /tmp/work/dist/cjs/turn-order-4ab12333.js -> /output/cjs/turn-order-4ab12333.js.gz
+2022/01/23 17:30:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/Debug-cc60d8e3.min.js /tmp/work/dist/esm/Debug-cc60d8e3.js
+2022/01/23 17:30:40 sri /tmp/work/dist/esm/client-5f57c3f2.min.js -> /output/esm/client-5f57c3f2.min.js.sri
+2022/01/23 17:30:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/client-5f57c3f2.min.js.br /tmp/work/dist/esm/client-5f57c3f2.min.js
+2022/01/23 17:30:40 br /tmp/work/dist/esm/client-44b09176.min.js -> /output/esm/client-44b09176.min.js.br
+2022/01/23 17:30:40 gz /tmp/work/dist/esm/client-44b09176.min.js -> /output/esm/client-44b09176.min.js.gz
+2022/01/23 17:30:40 sri /tmp/work/dist/esm/client-44b09176.js -> /output/esm/client-44b09176.js.sri
+2022/01/23 17:30:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/client-44b09176.js.br /tmp/work/dist/esm/client-44b09176.js
+2022/01/23 17:30:40 br /tmp/work/dist/esm/client-5f57c3f2.min.js -> /output/esm/client-5f57c3f2.min.js.br
+2022/01/23 17:30:40 gz /tmp/work/dist/esm/client-5f57c3f2.min.js -> /output/esm/client-5f57c3f2.min.js.gz
+2022/01/23 17:30:40 sri /tmp/work/dist/esm/client-5f57c3f2.js -> /output/esm/client-5f57c3f2.js.sri
+2022/01/23 17:30:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/client-5f57c3f2.js.br /tmp/work/dist/esm/client-5f57c3f2.js
+2022/01/23 17:30:40 br /tmp/work/dist/esm/client-5f57c3f2.js -> /output/esm/client-5f57c3f2.js.br
+2022/01/23 17:30:40 gz /tmp/work/dist/esm/client-5f57c3f2.js -> /output/esm/client-5f57c3f2.js.gz
+2022/01/23 17:30:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/debug.min.js /tmp/work/dist/esm/debug.js
+2022/01/23 17:30:40 br /tmp/work/dist/esm/client-44b09176.js -> /output/esm/client-44b09176.js.br
+2022/01/23 17:30:40 gz /tmp/work/dist/esm/client-44b09176.js -> /output/esm/client-44b09176.js.gz
+2022/01/23 17:30:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/filter-player-view-43ed49b0.min.js /tmp/work/dist/esm/filter-player-view-43ed49b0.js
+2022/01/23 17:30:40 sri /tmp/work/dist/esm/client.min.js -> /output/esm/client.min.js.sri
+2022/01/23 17:30:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/client.min.js.br /tmp/work/dist/esm/client.min.js
+2022/01/23 17:30:40 br /tmp/work/dist/esm/client.min.js -> /output/esm/client.min.js.br
+2022/01/23 17:30:40 gz /tmp/work/dist/esm/client.min.js -> /output/esm/client.min.js.gz
+2022/01/23 17:30:40 sri /tmp/work/dist/esm/client.js -> /output/esm/client.js.sri
+2022/01/23 17:30:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/client.js.br /tmp/work/dist/esm/client.js
+2022/01/23 17:30:40 br /tmp/work/dist/esm/client.js -> /output/esm/client.js.br
+2022/01/23 17:30:40 gz /tmp/work/dist/esm/client.js -> /output/esm/client.js.gz
+2022/01/23 17:30:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/initialize-cd2104ba.min.js /tmp/work/dist/esm/initialize-cd2104ba.js
+2022/01/23 17:30:40 sri /tmp/work/dist/esm/core.min.js -> /output/esm/core.min.js.sri
+2022/01/23 17:30:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/core.min.js.br /tmp/work/dist/esm/core.min.js
+2022/01/23 17:30:40 br /tmp/work/dist/esm/core.min.js -> /output/esm/core.min.js.br
+2022/01/23 17:30:40 gz /tmp/work/dist/esm/core.min.js -> /output/esm/core.min.js.gz
+2022/01/23 17:30:40 sri /tmp/work/dist/esm/core.js -> /output/esm/core.js.sri
+2022/01/23 17:30:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/core.js.br /tmp/work/dist/esm/core.js
+2022/01/23 17:30:40 br /tmp/work/dist/esm/core.js -> /output/esm/core.js.br
+2022/01/23 17:30:40 gz /tmp/work/dist/esm/core.js -> /output/esm/core.js.gz
+2022/01/23 17:30:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/internal.min.js /tmp/work/dist/esm/internal.js
+2022/01/23 17:30:41 sri /tmp/work/dist/esm/debug.min.js -> /output/esm/debug.min.js.sri
+2022/01/23 17:30:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/debug.min.js.br /tmp/work/dist/esm/debug.min.js
+2022/01/23 17:30:41 br /tmp/work/dist/esm/debug.min.js -> /output/esm/debug.min.js.br
+2022/01/23 17:30:41 gz /tmp/work/dist/esm/debug.min.js -> /output/esm/debug.min.js.gz
+2022/01/23 17:30:41 sri /tmp/work/dist/esm/debug.js -> /output/esm/debug.js.sri
+2022/01/23 17:30:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/debug.js.br /tmp/work/dist/esm/debug.js
+2022/01/23 17:30:41 br /tmp/work/dist/esm/debug.js -> /output/esm/debug.js.br
+2022/01/23 17:30:41 gz /tmp/work/dist/esm/debug.js -> /output/esm/debug.js.gz
+2022/01/23 17:30:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/master-04a42192.min.js /tmp/work/dist/esm/master-04a42192.js
+2022/01/23 17:30:41 sri /tmp/work/dist/esm/internal.min.js -> /output/esm/internal.min.js.sri
+2022/01/23 17:30:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/internal.min.js.br /tmp/work/dist/esm/internal.min.js
+2022/01/23 17:30:41 sri /tmp/work/dist/esm/filter-player-view-43ed49b0.min.js -> /output/esm/filter-player-view-43ed49b0.min.js.sri
+2022/01/23 17:30:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/filter-player-view-43ed49b0.min.js.br /tmp/work/dist/esm/filter-player-view-43ed49b0.min.js
+2022/01/23 17:30:41 br /tmp/work/dist/esm/internal.min.js -> /output/esm/internal.min.js.br
+2022/01/23 17:30:41 gz /tmp/work/dist/esm/internal.min.js -> /output/esm/internal.min.js.gz
+2022/01/23 17:30:41 sri /tmp/work/dist/esm/internal.js -> /output/esm/internal.js.sri
+2022/01/23 17:30:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/internal.js.br /tmp/work/dist/esm/internal.js
+2022/01/23 17:30:41 br /tmp/work/dist/esm/internal.js -> /output/esm/internal.js.br
+2022/01/23 17:30:41 gz /tmp/work/dist/esm/internal.js -> /output/esm/internal.js.gz
+2022/01/23 17:30:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/master.min.js /tmp/work/dist/esm/master.js
+2022/01/23 17:30:41 br /tmp/work/dist/esm/filter-player-view-43ed49b0.min.js -> /output/esm/filter-player-view-43ed49b0.min.js.br
+2022/01/23 17:30:41 gz /tmp/work/dist/esm/filter-player-view-43ed49b0.min.js -> /output/esm/filter-player-view-43ed49b0.min.js.gz
+2022/01/23 17:30:41 sri /tmp/work/dist/esm/filter-player-view-43ed49b0.js -> /output/esm/filter-player-view-43ed49b0.js.sri
+2022/01/23 17:30:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/filter-player-view-43ed49b0.js.br /tmp/work/dist/esm/filter-player-view-43ed49b0.js
+2022/01/23 17:30:41 br /tmp/work/dist/esm/filter-player-view-43ed49b0.js -> /output/esm/filter-player-view-43ed49b0.js.br
+2022/01/23 17:30:41 gz /tmp/work/dist/esm/filter-player-view-43ed49b0.js -> /output/esm/filter-player-view-43ed49b0.js.gz
+2022/01/23 17:30:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/multiplayer.min.js /tmp/work/dist/esm/multiplayer.js
+2022/01/23 17:30:41 sri /tmp/work/dist/esm/initialize-cd2104ba.min.js -> /output/esm/initialize-cd2104ba.min.js.sri
+2022/01/23 17:30:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/initialize-cd2104ba.min.js.br /tmp/work/dist/esm/initialize-cd2104ba.min.js
+2022/01/23 17:30:41 br /tmp/work/dist/esm/initialize-cd2104ba.min.js -> /output/esm/initialize-cd2104ba.min.js.br
+2022/01/23 17:30:41 gz /tmp/work/dist/esm/initialize-cd2104ba.min.js -> /output/esm/initialize-cd2104ba.min.js.gz
+2022/01/23 17:30:41 sri /tmp/work/dist/esm/initialize-cd2104ba.js -> /output/esm/initialize-cd2104ba.js.sri
+2022/01/23 17:30:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/initialize-cd2104ba.js.br /tmp/work/dist/esm/initialize-cd2104ba.js
+2022/01/23 17:30:41 br /tmp/work/dist/esm/initialize-cd2104ba.js -> /output/esm/initialize-cd2104ba.js.br
+2022/01/23 17:30:41 gz /tmp/work/dist/esm/initialize-cd2104ba.js -> /output/esm/initialize-cd2104ba.js.gz
+2022/01/23 17:30:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/plugin-random-087f861e.min.js /tmp/work/dist/esm/plugin-random-087f861e.js
+2022/01/23 17:30:41 sri /tmp/work/dist/esm/master.min.js -> /output/esm/master.min.js.sri
+2022/01/23 17:30:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/master.min.js.br /tmp/work/dist/esm/master.min.js
+2022/01/23 17:30:41 br /tmp/work/dist/esm/master.min.js -> /output/esm/master.min.js.br
+2022/01/23 17:30:41 gz /tmp/work/dist/esm/master.min.js -> /output/esm/master.min.js.gz
+2022/01/23 17:30:41 sri /tmp/work/dist/esm/master.js -> /output/esm/master.js.sri
+2022/01/23 17:30:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/master.js.br /tmp/work/dist/esm/master.js
+2022/01/23 17:30:41 br /tmp/work/dist/esm/master.js -> /output/esm/master.js.br
+2022/01/23 17:30:41 gz /tmp/work/dist/esm/master.js -> /output/esm/master.js.gz
+2022/01/23 17:30:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/plugins.min.js /tmp/work/dist/esm/plugins.js
+2022/01/23 17:30:41 sri /tmp/work/dist/esm/multiplayer.min.js -> /output/esm/multiplayer.min.js.sri
+2022/01/23 17:30:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/multiplayer.min.js.br /tmp/work/dist/esm/multiplayer.min.js
+2022/01/23 17:30:41 br /tmp/work/dist/esm/multiplayer.min.js -> /output/esm/multiplayer.min.js.br
+2022/01/23 17:30:41 gz /tmp/work/dist/esm/multiplayer.min.js -> /output/esm/multiplayer.min.js.gz
+2022/01/23 17:30:41 sri /tmp/work/dist/esm/multiplayer.js -> /output/esm/multiplayer.js.sri
+2022/01/23 17:30:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/multiplayer.js.br /tmp/work/dist/esm/multiplayer.js
+2022/01/23 17:30:41 br /tmp/work/dist/esm/multiplayer.js -> /output/esm/multiplayer.js.br
+2022/01/23 17:30:41 gz /tmp/work/dist/esm/multiplayer.js -> /output/esm/multiplayer.js.gz
+2022/01/23 17:30:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/react-native.min.js /tmp/work/dist/esm/react-native.js
+2022/01/23 17:30:41 sri /tmp/work/dist/esm/master-04a42192.min.js -> /output/esm/master-04a42192.min.js.sri
+2022/01/23 17:30:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/master-04a42192.min.js.br /tmp/work/dist/esm/master-04a42192.min.js
+2022/01/23 17:30:41 br /tmp/work/dist/esm/master-04a42192.min.js -> /output/esm/master-04a42192.min.js.br
+2022/01/23 17:30:41 gz /tmp/work/dist/esm/master-04a42192.min.js -> /output/esm/master-04a42192.min.js.gz
+2022/01/23 17:30:41 sri /tmp/work/dist/esm/master-04a42192.js -> /output/esm/master-04a42192.js.sri
+2022/01/23 17:30:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/master-04a42192.js.br /tmp/work/dist/esm/master-04a42192.js
+2022/01/23 17:30:41 br /tmp/work/dist/esm/master-04a42192.js -> /output/esm/master-04a42192.js.br
+2022/01/23 17:30:41 gz /tmp/work/dist/esm/master-04a42192.js -> /output/esm/master-04a42192.js.gz
+2022/01/23 17:30:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/react.min.js /tmp/work/dist/esm/react.js
+2022/01/23 17:30:41 sri /tmp/work/dist/esm/plugins.min.js -> /output/esm/plugins.min.js.sri
+2022/01/23 17:30:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/plugins.min.js.br /tmp/work/dist/esm/plugins.min.js
+2022/01/23 17:30:41 br /tmp/work/dist/esm/plugins.min.js -> /output/esm/plugins.min.js.br
+2022/01/23 17:30:41 gz /tmp/work/dist/esm/plugins.min.js -> /output/esm/plugins.min.js.gz
+2022/01/23 17:30:41 sri /tmp/work/dist/esm/plugins.js -> /output/esm/plugins.js.sri
+2022/01/23 17:30:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/plugins.js.br /tmp/work/dist/esm/plugins.js
+2022/01/23 17:30:41 br /tmp/work/dist/esm/plugins.js -> /output/esm/plugins.js.br
+2022/01/23 17:30:41 gz /tmp/work/dist/esm/plugins.js -> /output/esm/plugins.js.gz
+2022/01/23 17:30:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/reducer-9b2fe64d.min.js /tmp/work/dist/esm/reducer-9b2fe64d.js
+2022/01/23 17:30:41 sri /tmp/work/dist/cjs/server.min.js -> /output/cjs/server.min.js.sri
+2022/01/23 17:30:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/server.min.js.br /tmp/work/dist/cjs/server.min.js
+2022/01/23 17:30:41 sri /tmp/work/dist/esm/plugin-random-087f861e.min.js -> /output/esm/plugin-random-087f861e.min.js.sri
+2022/01/23 17:30:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/plugin-random-087f861e.min.js.br /tmp/work/dist/esm/plugin-random-087f861e.min.js
+2022/01/23 17:30:41 br /tmp/work/dist/esm/plugin-random-087f861e.min.js -> /output/esm/plugin-random-087f861e.min.js.br
+2022/01/23 17:30:42 gz /tmp/work/dist/esm/plugin-random-087f861e.min.js -> /output/esm/plugin-random-087f861e.min.js.gz
+2022/01/23 17:30:42 sri /tmp/work/dist/esm/plugin-random-087f861e.js -> /output/esm/plugin-random-087f861e.js.sri
+2022/01/23 17:30:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/plugin-random-087f861e.js.br /tmp/work/dist/esm/plugin-random-087f861e.js
+2022/01/23 17:30:42 br /tmp/work/dist/esm/plugin-random-087f861e.js -> /output/esm/plugin-random-087f861e.js.br
+2022/01/23 17:30:42 gz /tmp/work/dist/esm/plugin-random-087f861e.js -> /output/esm/plugin-random-087f861e.js.gz
+2022/01/23 17:30:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/socketio-80abb602.min.js /tmp/work/dist/esm/socketio-80abb602.js
+2022/01/23 17:30:42 br /tmp/work/dist/cjs/server.min.js -> /output/cjs/server.min.js.br
+2022/01/23 17:30:42 gz /tmp/work/dist/cjs/server.min.js -> /output/cjs/server.min.js.gz
+2022/01/23 17:30:42 sri /tmp/work/dist/cjs/server.js -> /output/cjs/server.js.sri
+2022/01/23 17:30:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/server.js.br /tmp/work/dist/cjs/server.js
+2022/01/23 17:30:42 sri /tmp/work/dist/esm/react-native.min.js -> /output/esm/react-native.min.js.sri
+2022/01/23 17:30:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/react-native.min.js.br /tmp/work/dist/esm/react-native.min.js
+2022/01/23 17:30:42 br /tmp/work/dist/esm/react-native.min.js -> /output/esm/react-native.min.js.br
+2022/01/23 17:30:42 gz /tmp/work/dist/esm/react-native.min.js -> /output/esm/react-native.min.js.gz
+2022/01/23 17:30:42 sri /tmp/work/dist/esm/react-native.js -> /output/esm/react-native.js.sri
+2022/01/23 17:30:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/react-native.js.br /tmp/work/dist/esm/react-native.js
+2022/01/23 17:30:42 br /tmp/work/dist/esm/react-native.js -> /output/esm/react-native.js.br
+2022/01/23 17:30:42 gz /tmp/work/dist/esm/react-native.js -> /output/esm/react-native.js.gz
+2022/01/23 17:30:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/testing.min.js /tmp/work/dist/esm/testing.js
+2022/01/23 17:30:42 sri /tmp/work/dist/esm/testing.min.js -> /output/esm/testing.min.js.sri
+2022/01/23 17:30:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/testing.min.js.br /tmp/work/dist/esm/testing.min.js
+2022/01/23 17:30:42 br /tmp/work/dist/esm/testing.min.js -> /output/esm/testing.min.js.br
+2022/01/23 17:30:42 gz /tmp/work/dist/esm/testing.min.js -> /output/esm/testing.min.js.gz
+2022/01/23 17:30:42 sri /tmp/work/dist/esm/testing.js -> /output/esm/testing.js.sri
+2022/01/23 17:30:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/testing.js.br /tmp/work/dist/esm/testing.js
+2022/01/23 17:30:42 br /tmp/work/dist/esm/testing.js -> /output/esm/testing.js.br
+2022/01/23 17:30:42 gz /tmp/work/dist/esm/testing.js -> /output/esm/testing.js.gz
+2022/01/23 17:30:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/transport-ce07b771.min.js /tmp/work/dist/esm/transport-ce07b771.js
+2022/01/23 17:30:42 br /tmp/work/dist/cjs/server.js -> /output/cjs/server.js.br
+2022/01/23 17:30:42 sri /tmp/work/dist/esm/socketio-80abb602.min.js -> /output/esm/socketio-80abb602.min.js.sri
+2022/01/23 17:30:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/socketio-80abb602.min.js.br /tmp/work/dist/esm/socketio-80abb602.min.js
+2022/01/23 17:30:42 gz /tmp/work/dist/cjs/server.js -> /output/cjs/server.js.gz
+2022/01/23 17:30:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/turn-order-8cc4909b.min.js /tmp/work/dist/esm/turn-order-8cc4909b.js
+2022/01/23 17:30:42 br /tmp/work/dist/esm/socketio-80abb602.min.js -> /output/esm/socketio-80abb602.min.js.br
+2022/01/23 17:30:42 gz /tmp/work/dist/esm/socketio-80abb602.min.js -> /output/esm/socketio-80abb602.min.js.gz
+2022/01/23 17:30:42 sri /tmp/work/dist/esm/socketio-80abb602.js -> /output/esm/socketio-80abb602.js.sri
+2022/01/23 17:30:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/socketio-80abb602.js.br /tmp/work/dist/esm/socketio-80abb602.js
+2022/01/23 17:30:42 br /tmp/work/dist/esm/socketio-80abb602.js -> /output/esm/socketio-80abb602.js.br
+2022/01/23 17:30:42 gz /tmp/work/dist/esm/socketio-80abb602.js -> /output/esm/socketio-80abb602.js.gz
+2022/01/23 17:30:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/util-89055384.min.js /tmp/work/dist/esm/util-89055384.js
+2022/01/23 17:30:42 sri /tmp/work/dist/esm/transport-ce07b771.min.js -> /output/esm/transport-ce07b771.min.js.sri
+2022/01/23 17:30:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/transport-ce07b771.min.js.br /tmp/work/dist/esm/transport-ce07b771.min.js
+2022/01/23 17:30:42 br /tmp/work/dist/esm/transport-ce07b771.min.js -> /output/esm/transport-ce07b771.min.js.br
+2022/01/23 17:30:42 gz /tmp/work/dist/esm/transport-ce07b771.min.js -> /output/esm/transport-ce07b771.min.js.gz
+2022/01/23 17:30:42 sri /tmp/work/dist/esm/transport-ce07b771.js -> /output/esm/transport-ce07b771.js.sri
+2022/01/23 17:30:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/transport-ce07b771.js.br /tmp/work/dist/esm/transport-ce07b771.js
+2022/01/23 17:30:42 sri /tmp/work/dist/esm/react.min.js -> /output/esm/react.min.js.sri
+2022/01/23 17:30:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/react.min.js.br /tmp/work/dist/esm/react.min.js
+2022/01/23 17:30:42 br /tmp/work/dist/esm/transport-ce07b771.js -> /output/esm/transport-ce07b771.js.br
+2022/01/23 17:30:42 gz /tmp/work/dist/esm/transport-ce07b771.js -> /output/esm/transport-ce07b771.js.gz
+2022/01/23 17:30:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/packages/ai.d.ts.br /tmp/work/dist/types/packages/ai.d.ts
+2022/01/23 17:30:42 br /tmp/work/dist/types/packages/ai.d.ts -> /output/types/packages/ai.d.ts.br
+2022/01/23 17:30:42 gz /tmp/work/dist/types/packages/ai.d.ts -> /output/types/packages/ai.d.ts.gz
+2022/01/23 17:30:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/packages/client.d.ts.br /tmp/work/dist/types/packages/client.d.ts
+2022/01/23 17:30:42 br /tmp/work/dist/types/packages/client.d.ts -> /output/types/packages/client.d.ts.br
+2022/01/23 17:30:42 gz /tmp/work/dist/types/packages/client.d.ts -> /output/types/packages/client.d.ts.gz
+2022/01/23 17:30:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/packages/core.d.ts.br /tmp/work/dist/types/packages/core.d.ts
+2022/01/23 17:30:42 br /tmp/work/dist/esm/react.min.js -> /output/esm/react.min.js.br
+2022/01/23 17:30:42 gz /tmp/work/dist/esm/react.min.js -> /output/esm/react.min.js.gz
+2022/01/23 17:30:42 sri /tmp/work/dist/esm/react.js -> /output/esm/react.js.sri
+2022/01/23 17:30:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/react.js.br /tmp/work/dist/esm/react.js
+2022/01/23 17:30:42 br /tmp/work/dist/types/packages/core.d.ts -> /output/types/packages/core.d.ts.br
+2022/01/23 17:30:42 gz /tmp/work/dist/types/packages/core.d.ts -> /output/types/packages/core.d.ts.gz
+2022/01/23 17:30:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/packages/debug.d.ts.br /tmp/work/dist/types/packages/debug.d.ts
+2022/01/23 17:30:42 br /tmp/work/dist/types/packages/debug.d.ts -> /output/types/packages/debug.d.ts.br
+2022/01/23 17:30:42 gz /tmp/work/dist/types/packages/debug.d.ts -> /output/types/packages/debug.d.ts.gz
+2022/01/23 17:30:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/packages/internal.d.ts.br /tmp/work/dist/types/packages/internal.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/packages/internal.d.ts -> /output/types/packages/internal.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/packages/internal.d.ts -> /output/types/packages/internal.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/packages/master.d.ts.br /tmp/work/dist/types/packages/master.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/packages/master.d.ts -> /output/types/packages/master.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/packages/master.d.ts -> /output/types/packages/master.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/packages/multiplayer.d.ts.br /tmp/work/dist/types/packages/multiplayer.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/packages/multiplayer.d.ts -> /output/types/packages/multiplayer.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/packages/multiplayer.d.ts -> /output/types/packages/multiplayer.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/packages/plugins.d.ts.br /tmp/work/dist/types/packages/plugins.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/packages/plugins.d.ts -> /output/types/packages/plugins.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/packages/plugins.d.ts -> /output/types/packages/plugins.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/packages/react-native.d.ts.br /tmp/work/dist/types/packages/react-native.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/packages/react-native.d.ts -> /output/types/packages/react-native.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/packages/react-native.d.ts -> /output/types/packages/react-native.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/packages/react.d.ts.br /tmp/work/dist/types/packages/react.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/esm/react.js -> /output/esm/react.js.br
+2022/01/23 17:30:43 gz /tmp/work/dist/esm/react.js -> /output/esm/react.js.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/packages/server.d.ts.br /tmp/work/dist/types/packages/server.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/packages/react.d.ts -> /output/types/packages/react.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/packages/react.d.ts -> /output/types/packages/react.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/packages/testing.d.ts.br /tmp/work/dist/types/packages/testing.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/packages/server.d.ts -> /output/types/packages/server.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/packages/server.d.ts -> /output/types/packages/server.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/ai/ai.d.ts.br /tmp/work/dist/types/src/ai/ai.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/packages/testing.d.ts -> /output/types/packages/testing.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/packages/testing.d.ts -> /output/types/packages/testing.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/ai/ai.test.d.ts.br /tmp/work/dist/types/src/ai/ai.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/ai/ai.d.ts -> /output/types/src/ai/ai.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/ai/ai.d.ts -> /output/types/src/ai/ai.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/ai/bot.d.ts.br /tmp/work/dist/types/src/ai/bot.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/ai/ai.test.d.ts -> /output/types/src/ai/ai.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/ai/ai.test.d.ts -> /output/types/src/ai/ai.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/ai/mcts-bot.d.ts.br /tmp/work/dist/types/src/ai/mcts-bot.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/ai/bot.d.ts -> /output/types/src/ai/bot.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/ai/bot.d.ts -> /output/types/src/ai/bot.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/ai/random-bot.d.ts.br /tmp/work/dist/types/src/ai/random-bot.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/ai/mcts-bot.d.ts -> /output/types/src/ai/mcts-bot.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/ai/mcts-bot.d.ts -> /output/types/src/ai/mcts-bot.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/client/client.d.ts.br /tmp/work/dist/types/src/client/client.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/ai/random-bot.d.ts -> /output/types/src/ai/random-bot.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/ai/random-bot.d.ts -> /output/types/src/ai/random-bot.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/client/client.test.d.ts.br /tmp/work/dist/types/src/client/client.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/client/client.test.d.ts -> /output/types/src/client/client.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/client/client.test.d.ts -> /output/types/src/client/client.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/client/debug/tests/debug.test.d.ts.br /tmp/work/dist/types/src/client/debug/tests/debug.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/client/debug/tests/debug.test.d.ts -> /output/types/src/client/debug/tests/debug.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/client/debug/tests/debug.test.d.ts -> /output/types/src/client/debug/tests/debug.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/client/manager.d.ts.br /tmp/work/dist/types/src/client/manager.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/client/client.d.ts -> /output/types/src/client/client.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/client/client.d.ts -> /output/types/src/client/client.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/client/react.d.ts.br /tmp/work/dist/types/src/client/react.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/client/manager.d.ts -> /output/types/src/client/manager.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/client/manager.d.ts -> /output/types/src/client/manager.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/client/react.ssr.test.d.ts.br /tmp/work/dist/types/src/client/react.ssr.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/client/react.d.ts -> /output/types/src/client/react.d.ts.br
+2022/01/23 17:30:43 sri /tmp/work/dist/esm/util-89055384.min.js -> /output/esm/util-89055384.min.js.sri
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/util-89055384.min.js.br /tmp/work/dist/esm/util-89055384.min.js
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/client/react.ssr.test.d.ts -> /output/types/src/client/react.ssr.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/client/react.ssr.test.d.ts -> /output/types/src/client/react.ssr.test.d.ts.gz
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/client/react.d.ts -> /output/types/src/client/react.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/client/transport/dummy.d.ts.br /tmp/work/dist/types/src/client/transport/dummy.d.ts
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/client/react.test.d.ts.br /tmp/work/dist/types/src/client/react.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/esm/util-89055384.min.js -> /output/esm/util-89055384.min.js.br
+2022/01/23 17:30:43 gz /tmp/work/dist/esm/util-89055384.min.js -> /output/esm/util-89055384.min.js.gz
+2022/01/23 17:30:43 sri /tmp/work/dist/esm/util-89055384.js -> /output/esm/util-89055384.js.sri
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/util-89055384.js.br /tmp/work/dist/esm/util-89055384.js
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/client/transport/dummy.d.ts -> /output/types/src/client/transport/dummy.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/client/transport/dummy.d.ts -> /output/types/src/client/transport/dummy.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/client/transport/local.d.ts.br /tmp/work/dist/types/src/client/transport/local.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/client/react.test.d.ts -> /output/types/src/client/react.test.d.ts.br
+2022/01/23 17:30:43 br /tmp/work/dist/esm/util-89055384.js -> /output/esm/util-89055384.js.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/client/react.test.d.ts -> /output/types/src/client/react.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/client/transport/local.test.d.ts.br /tmp/work/dist/types/src/client/transport/local.test.d.ts
+2022/01/23 17:30:43 gz /tmp/work/dist/esm/util-89055384.js -> /output/esm/util-89055384.js.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/client/transport/socketio.d.ts.br /tmp/work/dist/types/src/client/transport/socketio.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/client/transport/local.d.ts -> /output/types/src/client/transport/local.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/client/transport/local.d.ts -> /output/types/src/client/transport/local.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/client/transport/socketio.test.d.ts.br /tmp/work/dist/types/src/client/transport/socketio.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/client/transport/local.test.d.ts -> /output/types/src/client/transport/local.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/client/transport/local.test.d.ts -> /output/types/src/client/transport/local.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/client/transport/transport.d.ts.br /tmp/work/dist/types/src/client/transport/transport.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/client/transport/socketio.test.d.ts -> /output/types/src/client/transport/socketio.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/client/transport/socketio.test.d.ts -> /output/types/src/client/transport/socketio.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/client/transport/transport.test.d.ts.br /tmp/work/dist/types/src/client/transport/transport.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/client/transport/socketio.d.ts -> /output/types/src/client/transport/socketio.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/client/transport/socketio.d.ts -> /output/types/src/client/transport/socketio.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/core/action-creators.d.ts.br /tmp/work/dist/types/src/core/action-creators.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/client/transport/transport.test.d.ts -> /output/types/src/client/transport/transport.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/client/transport/transport.test.d.ts -> /output/types/src/client/transport/transport.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/core/action-types.d.ts.br /tmp/work/dist/types/src/core/action-types.d.ts
+2022/01/23 17:30:43 sri /tmp/work/dist/esm/reducer-9b2fe64d.min.js -> /output/esm/reducer-9b2fe64d.min.js.sri
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/reducer-9b2fe64d.min.js.br /tmp/work/dist/esm/reducer-9b2fe64d.min.js
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/client/transport/transport.d.ts -> /output/types/src/client/transport/transport.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/client/transport/transport.d.ts -> /output/types/src/client/transport/transport.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/core/backwards-compatibility.d.ts.br /tmp/work/dist/types/src/core/backwards-compatibility.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/core/action-types.d.ts -> /output/types/src/core/action-types.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/core/action-types.d.ts -> /output/types/src/core/action-types.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/core/constants.d.ts.br /tmp/work/dist/types/src/core/constants.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/core/action-creators.d.ts -> /output/types/src/core/action-creators.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/core/action-creators.d.ts -> /output/types/src/core/action-creators.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/core/errors.d.ts.br /tmp/work/dist/types/src/core/errors.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/core/backwards-compatibility.d.ts -> /output/types/src/core/backwards-compatibility.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/core/backwards-compatibility.d.ts -> /output/types/src/core/backwards-compatibility.d.ts.gz
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/core/constants.d.ts -> /output/types/src/core/constants.d.ts.br
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/core/flow.d.ts.br /tmp/work/dist/types/src/core/flow.d.ts
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/core/constants.d.ts -> /output/types/src/core/constants.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/core/flow.test.d.ts.br /tmp/work/dist/types/src/core/flow.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/core/errors.d.ts -> /output/types/src/core/errors.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/core/errors.d.ts -> /output/types/src/core/errors.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/core/game-methods.d.ts.br /tmp/work/dist/types/src/core/game-methods.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/esm/reducer-9b2fe64d.min.js -> /output/esm/reducer-9b2fe64d.min.js.br
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/core/flow.d.ts -> /output/types/src/core/flow.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/core/flow.d.ts -> /output/types/src/core/flow.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/core/game.d.ts.br /tmp/work/dist/types/src/core/game.d.ts
+2022/01/23 17:30:43 gz /tmp/work/dist/esm/reducer-9b2fe64d.min.js -> /output/esm/reducer-9b2fe64d.min.js.gz
+2022/01/23 17:30:43 sri /tmp/work/dist/esm/reducer-9b2fe64d.js -> /output/esm/reducer-9b2fe64d.js.sri
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/reducer-9b2fe64d.js.br /tmp/work/dist/esm/reducer-9b2fe64d.js
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/core/flow.test.d.ts -> /output/types/src/core/flow.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/core/flow.test.d.ts -> /output/types/src/core/flow.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/core/game.test.d.ts.br /tmp/work/dist/types/src/core/game.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/core/game-methods.d.ts -> /output/types/src/core/game-methods.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/core/game-methods.d.ts -> /output/types/src/core/game-methods.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/core/initialize.d.ts.br /tmp/work/dist/types/src/core/initialize.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/core/game.d.ts -> /output/types/src/core/game.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/core/game.d.ts -> /output/types/src/core/game.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/core/logger.d.ts.br /tmp/work/dist/types/src/core/logger.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/core/game.test.d.ts -> /output/types/src/core/game.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/core/game.test.d.ts -> /output/types/src/core/game.test.d.ts.gz
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/core/initialize.d.ts -> /output/types/src/core/initialize.d.ts.br
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/core/player-view.d.ts.br /tmp/work/dist/types/src/core/player-view.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/core/logger.d.ts -> /output/types/src/core/logger.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/core/initialize.d.ts -> /output/types/src/core/initialize.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/core/player-view.test.d.ts.br /tmp/work/dist/types/src/core/player-view.test.d.ts
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/core/logger.d.ts -> /output/types/src/core/logger.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/core/reducer.d.ts.br /tmp/work/dist/types/src/core/reducer.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/core/player-view.d.ts -> /output/types/src/core/player-view.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/core/player-view.d.ts -> /output/types/src/core/player-view.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/core/reducer.test.d.ts.br /tmp/work/dist/types/src/core/reducer.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/core/player-view.test.d.ts -> /output/types/src/core/player-view.test.d.ts.br
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/core/reducer.d.ts -> /output/types/src/core/reducer.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/core/player-view.test.d.ts -> /output/types/src/core/player-view.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/core/turn-order.d.ts.br /tmp/work/dist/types/src/core/turn-order.d.ts
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/core/reducer.d.ts -> /output/types/src/core/reducer.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/core/turn-order.test.d.ts.br /tmp/work/dist/types/src/core/turn-order.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/core/reducer.test.d.ts -> /output/types/src/core/reducer.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/core/reducer.test.d.ts -> /output/types/src/core/reducer.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/lobby/client.d.ts.br /tmp/work/dist/types/src/lobby/client.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/core/turn-order.test.d.ts -> /output/types/src/core/turn-order.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/core/turn-order.test.d.ts -> /output/types/src/core/turn-order.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/lobby/client.test.d.ts.br /tmp/work/dist/types/src/lobby/client.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/core/turn-order.d.ts -> /output/types/src/core/turn-order.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/core/turn-order.d.ts -> /output/types/src/core/turn-order.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/lobby/connection.d.ts.br /tmp/work/dist/types/src/lobby/connection.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/lobby/client.test.d.ts -> /output/types/src/lobby/client.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/lobby/client.test.d.ts -> /output/types/src/lobby/client.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/lobby/connection.test.d.ts.br /tmp/work/dist/types/src/lobby/connection.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/lobby/connection.test.d.ts -> /output/types/src/lobby/connection.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/lobby/connection.test.d.ts -> /output/types/src/lobby/connection.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/lobby/create-match-form.d.ts.br /tmp/work/dist/types/src/lobby/create-match-form.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/esm/reducer-9b2fe64d.js -> /output/esm/reducer-9b2fe64d.js.br
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/lobby/create-match-form.d.ts -> /output/types/src/lobby/create-match-form.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/lobby/create-match-form.d.ts -> /output/types/src/lobby/create-match-form.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/lobby/login-form.d.ts.br /tmp/work/dist/types/src/lobby/login-form.d.ts
+2022/01/23 17:30:43 gz /tmp/work/dist/esm/reducer-9b2fe64d.js -> /output/esm/reducer-9b2fe64d.js.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/lobby/match-instance.d.ts.br /tmp/work/dist/types/src/lobby/match-instance.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/lobby/connection.d.ts -> /output/types/src/lobby/connection.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/lobby/connection.d.ts -> /output/types/src/lobby/connection.d.ts.gz
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/lobby/login-form.d.ts -> /output/types/src/lobby/login-form.d.ts.br
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/lobby/react.d.ts.br /tmp/work/dist/types/src/lobby/react.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/lobby/client.d.ts -> /output/types/src/lobby/client.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/lobby/login-form.d.ts -> /output/types/src/lobby/login-form.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/lobby/react.ssr.test.d.ts.br /tmp/work/dist/types/src/lobby/react.ssr.test.d.ts
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/lobby/client.d.ts -> /output/types/src/lobby/client.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/lobby/react.test.d.ts.br /tmp/work/dist/types/src/lobby/react.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/lobby/match-instance.d.ts -> /output/types/src/lobby/match-instance.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/lobby/match-instance.d.ts -> /output/types/src/lobby/match-instance.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/master/filter-player-view.d.ts.br /tmp/work/dist/types/src/master/filter-player-view.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/lobby/react.ssr.test.d.ts -> /output/types/src/lobby/react.ssr.test.d.ts.br
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/lobby/react.test.d.ts -> /output/types/src/lobby/react.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/lobby/react.ssr.test.d.ts -> /output/types/src/lobby/react.ssr.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/master/filter-player-view.test.d.ts.br /tmp/work/dist/types/src/master/filter-player-view.test.d.ts
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/lobby/react.test.d.ts -> /output/types/src/lobby/react.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/master/master.d.ts.br /tmp/work/dist/types/src/master/master.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/lobby/react.d.ts -> /output/types/src/lobby/react.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/lobby/react.d.ts -> /output/types/src/lobby/react.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/master/master.test.d.ts.br /tmp/work/dist/types/src/master/master.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/master/filter-player-view.d.ts -> /output/types/src/master/filter-player-view.d.ts.br
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/master/filter-player-view.test.d.ts -> /output/types/src/master/filter-player-view.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/master/filter-player-view.d.ts -> /output/types/src/master/filter-player-view.d.ts.gz
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/master/filter-player-view.test.d.ts -> /output/types/src/master/filter-player-view.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/plugins/events/events.d.ts.br /tmp/work/dist/types/src/plugins/events/events.d.ts
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/plugins/events/events.test.d.ts.br /tmp/work/dist/types/src/plugins/events/events.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/master/master.test.d.ts -> /output/types/src/master/master.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/master/master.test.d.ts -> /output/types/src/master/master.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/plugins/main.d.ts.br /tmp/work/dist/types/src/plugins/main.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/plugins/events/events.test.d.ts -> /output/types/src/plugins/events/events.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/plugins/events/events.test.d.ts -> /output/types/src/plugins/events/events.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/plugins/main.test.d.ts.br /tmp/work/dist/types/src/plugins/main.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/plugins/events/events.d.ts -> /output/types/src/plugins/events/events.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/plugins/events/events.d.ts -> /output/types/src/plugins/events/events.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/plugins/plugin-events.d.ts.br /tmp/work/dist/types/src/plugins/plugin-events.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/plugins/main.test.d.ts -> /output/types/src/plugins/main.test.d.ts.br
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/master/master.d.ts -> /output/types/src/master/master.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/plugins/main.test.d.ts -> /output/types/src/plugins/main.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/plugins/plugin-immer.d.ts.br /tmp/work/dist/types/src/plugins/plugin-immer.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/plugins/main.d.ts -> /output/types/src/plugins/main.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/master/master.d.ts -> /output/types/src/master/master.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/plugins/plugin-immer.test.d.ts.br /tmp/work/dist/types/src/plugins/plugin-immer.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/plugins/plugin-immer.d.ts -> /output/types/src/plugins/plugin-immer.d.ts.br
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/plugins/plugin-events.d.ts -> /output/types/src/plugins/plugin-events.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/plugins/plugin-events.d.ts -> /output/types/src/plugins/plugin-events.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/plugins/plugin-log.d.ts.br /tmp/work/dist/types/src/plugins/plugin-log.d.ts
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/plugins/main.d.ts -> /output/types/src/plugins/main.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/plugins/plugin-log.test.d.ts.br /tmp/work/dist/types/src/plugins/plugin-log.test.d.ts
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/plugins/plugin-immer.d.ts -> /output/types/src/plugins/plugin-immer.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/plugins/plugin-player.d.ts.br /tmp/work/dist/types/src/plugins/plugin-player.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/plugins/plugin-immer.test.d.ts -> /output/types/src/plugins/plugin-immer.test.d.ts.br
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/plugins/plugin-log.test.d.ts -> /output/types/src/plugins/plugin-log.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/plugins/plugin-log.test.d.ts -> /output/types/src/plugins/plugin-log.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/plugins/plugin-player.test.d.ts.br /tmp/work/dist/types/src/plugins/plugin-player.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/plugins/plugin-log.d.ts -> /output/types/src/plugins/plugin-log.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/plugins/plugin-log.d.ts -> /output/types/src/plugins/plugin-log.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/plugins/plugin-random.d.ts.br /tmp/work/dist/types/src/plugins/plugin-random.d.ts
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/plugins/plugin-immer.test.d.ts -> /output/types/src/plugins/plugin-immer.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/plugins/plugin-serializable.d.ts.br /tmp/work/dist/types/src/plugins/plugin-serializable.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/plugins/plugin-player.d.ts -> /output/types/src/plugins/plugin-player.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/plugins/plugin-player.d.ts -> /output/types/src/plugins/plugin-player.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/plugins/plugin-serializable.test.d.ts.br /tmp/work/dist/types/src/plugins/plugin-serializable.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/plugins/plugin-player.test.d.ts -> /output/types/src/plugins/plugin-player.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/plugins/plugin-player.test.d.ts -> /output/types/src/plugins/plugin-player.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/plugins/random/random.alea.d.ts.br /tmp/work/dist/types/src/plugins/random/random.alea.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/plugins/plugin-serializable.test.d.ts -> /output/types/src/plugins/plugin-serializable.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/plugins/plugin-serializable.test.d.ts -> /output/types/src/plugins/plugin-serializable.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/plugins/random/random.d.ts.br /tmp/work/dist/types/src/plugins/random/random.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/plugins/plugin-random.d.ts -> /output/types/src/plugins/plugin-random.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/plugins/plugin-random.d.ts -> /output/types/src/plugins/plugin-random.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/plugins/random/random.test.d.ts.br /tmp/work/dist/types/src/plugins/random/random.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/plugins/plugin-serializable.d.ts -> /output/types/src/plugins/plugin-serializable.d.ts.br
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/plugins/random/random.alea.d.ts -> /output/types/src/plugins/random/random.alea.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/plugins/random/random.alea.d.ts -> /output/types/src/plugins/random/random.alea.d.ts.gz
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/plugins/plugin-serializable.d.ts -> /output/types/src/plugins/plugin-serializable.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/server/api.d.ts.br /tmp/work/dist/types/src/server/api.d.ts
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/server/api.test.d.ts.br /tmp/work/dist/types/src/server/api.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/plugins/random/random.test.d.ts -> /output/types/src/plugins/random/random.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/plugins/random/random.test.d.ts -> /output/types/src/plugins/random/random.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/server/auth.d.ts.br /tmp/work/dist/types/src/server/auth.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/plugins/random/random.d.ts -> /output/types/src/plugins/random/random.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/plugins/random/random.d.ts -> /output/types/src/plugins/random/random.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/server/auth.test.d.ts.br /tmp/work/dist/types/src/server/auth.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/server/api.d.ts -> /output/types/src/server/api.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/server/api.d.ts -> /output/types/src/server/api.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/server/cors.d.ts.br /tmp/work/dist/types/src/server/cors.d.ts
+2022/01/23 17:30:43 sri /tmp/work/dist/esm/turn-order-8cc4909b.min.js -> /output/esm/turn-order-8cc4909b.min.js.sri
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/turn-order-8cc4909b.min.js.br /tmp/work/dist/esm/turn-order-8cc4909b.min.js
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/server/api.test.d.ts -> /output/types/src/server/api.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/server/api.test.d.ts -> /output/types/src/server/api.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/server/cors.test.d.ts.br /tmp/work/dist/types/src/server/cors.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/server/auth.test.d.ts -> /output/types/src/server/auth.test.d.ts.br
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/server/cors.d.ts -> /output/types/src/server/cors.d.ts.br
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/server/auth.d.ts -> /output/types/src/server/auth.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/server/auth.test.d.ts -> /output/types/src/server/auth.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/server/db/base.d.ts.br /tmp/work/dist/types/src/server/db/base.d.ts
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/server/cors.d.ts -> /output/types/src/server/cors.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/server/db/flatfile.d.ts.br /tmp/work/dist/types/src/server/db/flatfile.d.ts
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/server/auth.d.ts -> /output/types/src/server/auth.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/server/db/flatfile.test.d.ts.br /tmp/work/dist/types/src/server/db/flatfile.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/server/cors.test.d.ts -> /output/types/src/server/cors.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/server/cors.test.d.ts -> /output/types/src/server/cors.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/server/db/index.d.ts.br /tmp/work/dist/types/src/server/db/index.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/server/db/flatfile.test.d.ts -> /output/types/src/server/db/flatfile.test.d.ts.br
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/server/db/base.d.ts -> /output/types/src/server/db/base.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/server/db/flatfile.test.d.ts -> /output/types/src/server/db/flatfile.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/server/db/index.test.d.ts.br /tmp/work/dist/types/src/server/db/index.test.d.ts
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/server/db/base.d.ts -> /output/types/src/server/db/base.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/server/db/inmemory.d.ts.br /tmp/work/dist/types/src/server/db/inmemory.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/server/db/index.d.ts -> /output/types/src/server/db/index.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/server/db/index.d.ts -> /output/types/src/server/db/index.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/server/db/inmemory.test.d.ts.br /tmp/work/dist/types/src/server/db/inmemory.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/server/db/flatfile.d.ts -> /output/types/src/server/db/flatfile.d.ts.br
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/server/db/index.test.d.ts -> /output/types/src/server/db/index.test.d.ts.br
+2022/01/23 17:30:43 br /tmp/work/dist/esm/turn-order-8cc4909b.min.js -> /output/esm/turn-order-8cc4909b.min.js.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/server/db/flatfile.d.ts -> /output/types/src/server/db/flatfile.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/server/db/localstorage.d.ts.br /tmp/work/dist/types/src/server/db/localstorage.d.ts
+2022/01/23 17:30:43 gz /tmp/work/dist/esm/turn-order-8cc4909b.min.js -> /output/esm/turn-order-8cc4909b.min.js.gz
+2022/01/23 17:30:43 sri /tmp/work/dist/esm/turn-order-8cc4909b.js -> /output/esm/turn-order-8cc4909b.js.sri
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/turn-order-8cc4909b.js.br /tmp/work/dist/esm/turn-order-8cc4909b.js
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/server/db/index.test.d.ts -> /output/types/src/server/db/index.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/server/db/localstorage.test.d.ts.br /tmp/work/dist/types/src/server/db/localstorage.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/server/db/inmemory.d.ts -> /output/types/src/server/db/inmemory.d.ts.br
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/server/db/localstorage.d.ts -> /output/types/src/server/db/localstorage.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/server/db/inmemory.d.ts -> /output/types/src/server/db/inmemory.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/server/index.d.ts.br /tmp/work/dist/types/src/server/index.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/server/db/inmemory.test.d.ts -> /output/types/src/server/db/inmemory.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/server/db/inmemory.test.d.ts -> /output/types/src/server/db/inmemory.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/server/index.test.d.ts.br /tmp/work/dist/types/src/server/index.test.d.ts
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/server/db/localstorage.d.ts -> /output/types/src/server/db/localstorage.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/server/transport/pubsub/generic-pub-sub.d.ts.br /tmp/work/dist/types/src/server/transport/pubsub/generic-pub-sub.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/server/db/localstorage.test.d.ts -> /output/types/src/server/db/localstorage.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/server/db/localstorage.test.d.ts -> /output/types/src/server/db/localstorage.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/server/transport/pubsub/in-memory-pub-sub.d.ts.br /tmp/work/dist/types/src/server/transport/pubsub/in-memory-pub-sub.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/server/index.test.d.ts -> /output/types/src/server/index.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/server/index.test.d.ts -> /output/types/src/server/index.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/server/transport/pubsub/in-memory-pub-sub.test.d.ts.br /tmp/work/dist/types/src/server/transport/pubsub/in-memory-pub-sub.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/server/index.d.ts -> /output/types/src/server/index.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/server/index.d.ts -> /output/types/src/server/index.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/server/transport/socketio-simultaneous.test.d.ts.br /tmp/work/dist/types/src/server/transport/socketio-simultaneous.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/server/transport/pubsub/generic-pub-sub.d.ts -> /output/types/src/server/transport/pubsub/generic-pub-sub.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/server/transport/pubsub/generic-pub-sub.d.ts -> /output/types/src/server/transport/pubsub/generic-pub-sub.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/server/transport/socketio.d.ts.br /tmp/work/dist/types/src/server/transport/socketio.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/server/transport/pubsub/in-memory-pub-sub.d.ts -> /output/types/src/server/transport/pubsub/in-memory-pub-sub.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/server/transport/pubsub/in-memory-pub-sub.d.ts -> /output/types/src/server/transport/pubsub/in-memory-pub-sub.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/server/transport/socketio.test.d.ts.br /tmp/work/dist/types/src/server/transport/socketio.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/server/transport/pubsub/in-memory-pub-sub.test.d.ts -> /output/types/src/server/transport/pubsub/in-memory-pub-sub.test.d.ts.br
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/server/transport/socketio-simultaneous.test.d.ts -> /output/types/src/server/transport/socketio-simultaneous.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/server/transport/socketio-simultaneous.test.d.ts -> /output/types/src/server/transport/socketio-simultaneous.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/server/util.d.ts.br /tmp/work/dist/types/src/server/util.d.ts
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/server/transport/pubsub/in-memory-pub-sub.test.d.ts -> /output/types/src/server/transport/pubsub/in-memory-pub-sub.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/testing/mock-random.d.ts.br /tmp/work/dist/types/src/testing/mock-random.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/server/transport/socketio.test.d.ts -> /output/types/src/server/transport/socketio.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/server/transport/socketio.test.d.ts -> /output/types/src/server/transport/socketio.test.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/testing/mock-random.test.d.ts.br /tmp/work/dist/types/src/testing/mock-random.test.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/server/util.d.ts -> /output/types/src/server/util.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/server/util.d.ts -> /output/types/src/server/util.d.ts.gz
+2022/01/23 17:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/src/types.d.ts.br /tmp/work/dist/types/src/types.d.ts
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/testing/mock-random.test.d.ts -> /output/types/src/testing/mock-random.test.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/testing/mock-random.test.d.ts -> /output/types/src/testing/mock-random.test.d.ts.gz
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/server/transport/socketio.d.ts -> /output/types/src/server/transport/socketio.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/server/transport/socketio.d.ts -> /output/types/src/server/transport/socketio.d.ts.gz
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/testing/mock-random.d.ts -> /output/types/src/testing/mock-random.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/testing/mock-random.d.ts -> /output/types/src/testing/mock-random.d.ts.gz
+2022/01/23 17:30:43 br /tmp/work/dist/esm/turn-order-8cc4909b.js -> /output/esm/turn-order-8cc4909b.js.br
+2022/01/23 17:30:43 gz /tmp/work/dist/esm/turn-order-8cc4909b.js -> /output/esm/turn-order-8cc4909b.js.gz
+2022/01/23 17:30:43 br /tmp/work/dist/types/src/types.d.ts -> /output/types/src/types.d.ts.br
+2022/01/23 17:30:43 gz /tmp/work/dist/types/src/types.d.ts -> /output/types/src/types.d.ts.gz
+2022/01/23 17:30:44 sri /tmp/work/dist/cjs/Debug-82a23167.min.js -> /output/cjs/Debug-82a23167.min.js.sri
+2022/01/23 17:30:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/Debug-82a23167.min.js.br /tmp/work/dist/cjs/Debug-82a23167.min.js
+2022/01/23 17:30:44 br /tmp/work/dist/cjs/Debug-82a23167.min.js -> /output/cjs/Debug-82a23167.min.js.br
+2022/01/23 17:30:44 gz /tmp/work/dist/cjs/Debug-82a23167.min.js -> /output/cjs/Debug-82a23167.min.js.gz
+2022/01/23 17:30:44 sri /tmp/work/dist/cjs/Debug-82a23167.js -> /output/cjs/Debug-82a23167.js.sri
+2022/01/23 17:30:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/Debug-82a23167.js.br /tmp/work/dist/cjs/Debug-82a23167.js
+2022/01/23 17:30:44 sri /tmp/work/dist/boardgameio.es.min.js -> /output/boardgameio.es.min.js.sri
+2022/01/23 17:30:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/boardgameio.es.min.js.br /tmp/work/dist/boardgameio.es.min.js
+2022/01/23 17:30:44 br /tmp/work/dist/cjs/Debug-82a23167.js -> /output/cjs/Debug-82a23167.js.br
+2022/01/23 17:30:44 gz /tmp/work/dist/cjs/Debug-82a23167.js -> /output/cjs/Debug-82a23167.js.gz
+2022/01/23 17:30:45 br /tmp/work/dist/boardgameio.es.min.js -> /output/boardgameio.es.min.js.br
+2022/01/23 17:30:45 gz /tmp/work/dist/boardgameio.es.min.js -> /output/boardgameio.es.min.js.gz
+2022/01/23 17:30:45 sri /tmp/work/dist/boardgameio.es.js -> /output/boardgameio.es.js.sri
+2022/01/23 17:30:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/boardgameio.es.js.br /tmp/work/dist/boardgameio.es.js
+2022/01/23 17:30:45 sri /tmp/work/dist/esm/Debug-cc60d8e3.min.js -> /output/esm/Debug-cc60d8e3.min.js.sri
+2022/01/23 17:30:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/Debug-cc60d8e3.min.js.br /tmp/work/dist/esm/Debug-cc60d8e3.min.js
+2022/01/23 17:30:45 br /tmp/work/dist/esm/Debug-cc60d8e3.min.js -> /output/esm/Debug-cc60d8e3.min.js.br
+2022/01/23 17:30:45 gz /tmp/work/dist/esm/Debug-cc60d8e3.min.js -> /output/esm/Debug-cc60d8e3.min.js.gz
+2022/01/23 17:30:45 sri /tmp/work/dist/esm/Debug-cc60d8e3.js -> /output/esm/Debug-cc60d8e3.js.sri
+2022/01/23 17:30:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/Debug-cc60d8e3.js.br /tmp/work/dist/esm/Debug-cc60d8e3.js
+2022/01/23 17:30:46 br /tmp/work/dist/boardgameio.es.js -> /output/boardgameio.es.js.br
+2022/01/23 17:30:46 gz /tmp/work/dist/boardgameio.es.js -> /output/boardgameio.es.js.gz
+2022/01/23 17:30:46 br /tmp/work/dist/esm/Debug-cc60d8e3.js -> /output/esm/Debug-cc60d8e3.js.br
+2022/01/23 17:30:46 gz /tmp/work/dist/esm/Debug-cc60d8e3.js -> /output/esm/Debug-cc60d8e3.js.gz
+2022/01/23 17:30:46 processed boardgame-io
