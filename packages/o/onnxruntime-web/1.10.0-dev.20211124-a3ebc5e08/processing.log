@@ -1,0 +1,96 @@
+2022/01/23 00:33:54 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/01/23 00:33:54 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/ort-wasm-threaded.min.js /tmp/work/dist/ort-wasm-threaded.js
+2022/01/23 00:33:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort-wasm-simd.wasm.br /tmp/work/dist/ort-wasm-simd.wasm
+2022/01/23 00:33:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort-wasm-simd-threaded.wasm.br /tmp/work/dist/ort-wasm-simd-threaded.wasm
+2022/01/23 00:33:54 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/ort-wasm-threaded.worker.min.js /tmp/work/dist/ort-wasm-threaded.worker.js
+2022/01/23 00:33:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort-wasm-threaded.wasm.br /tmp/work/dist/ort-wasm-threaded.wasm
+2022/01/23 00:33:54 /tmp/work/dist/ort-web.es5.min.js.min.js compressed file already exists
+2022/01/23 00:33:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort-wasm.wasm.br /tmp/work/dist/ort-wasm.wasm
+2022/01/23 00:33:54 /tmp/work/dist/ort-web.es6.min.js.min.js compressed file already exists
+2022/01/23 00:33:54 sri /tmp/work/dist/ort-web.es6.min.js -> /output/ort-web.es6.min.js.sri
+2022/01/23 00:33:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort-web.es6.min.js.br /tmp/work/dist/ort-web.es6.min.js
+2022/01/23 00:33:54 sri /tmp/work/dist/ort-web.es5.min.js -> /output/ort-web.es5.min.js.sri
+2022/01/23 00:33:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort-web.es5.min.js.br /tmp/work/dist/ort-web.es5.min.js
+2022/01/23 00:33:55 sri /tmp/work/dist/ort-wasm-threaded.worker.min.js -> /output/ort-wasm-threaded.worker.min.js.sri
+2022/01/23 00:33:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort-wasm-threaded.worker.min.js.br /tmp/work/dist/ort-wasm-threaded.worker.min.js
+2022/01/23 00:33:55 br /tmp/work/dist/ort-wasm-threaded.worker.min.js -> /output/ort-wasm-threaded.worker.min.js.br
+2022/01/23 00:33:55 gz /tmp/work/dist/ort-wasm-threaded.worker.min.js -> /output/ort-wasm-threaded.worker.min.js.gz
+2022/01/23 00:33:55 sri /tmp/work/dist/ort-wasm-threaded.worker.js -> /output/ort-wasm-threaded.worker.js.sri
+2022/01/23 00:33:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort-wasm-threaded.worker.js.br /tmp/work/dist/ort-wasm-threaded.worker.js
+2022/01/23 00:33:55 br /tmp/work/dist/ort-wasm-threaded.worker.js -> /output/ort-wasm-threaded.worker.js.br
+2022/01/23 00:33:55 gz /tmp/work/dist/ort-wasm-threaded.worker.js -> /output/ort-wasm-threaded.worker.js.gz
+2022/01/23 00:33:55 compressed file already exists: /tmp/work/dist/ort-web.min.js
+2022/01/23 00:33:55 sri /tmp/work/dist/ort-web.js -> /output/ort-web.js.sri
+2022/01/23 00:33:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort-web.js.br /tmp/work/dist/ort-web.js
+2022/01/23 00:33:57 br /tmp/work/dist/ort-web.es6.min.js -> /output/ort-web.es6.min.js.br
+2022/01/23 00:33:57 gz /tmp/work/dist/ort-web.es6.min.js -> /output/ort-web.es6.min.js.gz
+2022/01/23 00:33:57 /tmp/work/dist/ort-web.min.js.min.js compressed file already exists
+2022/01/23 00:33:57 sri /tmp/work/dist/ort-web.min.js -> /output/ort-web.min.js.sri
+2022/01/23 00:33:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort-web.min.js.br /tmp/work/dist/ort-web.min.js
+2022/01/23 00:33:57 sri /tmp/work/dist/ort-wasm-threaded.min.js -> /output/ort-wasm-threaded.min.js.sri
+2022/01/23 00:33:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort-wasm-threaded.min.js.br /tmp/work/dist/ort-wasm-threaded.min.js
+2022/01/23 00:33:57 br /tmp/work/dist/ort-web.es5.min.js -> /output/ort-web.es5.min.js.br
+2022/01/23 00:33:57 gz /tmp/work/dist/ort-web.es5.min.js -> /output/ort-web.es5.min.js.gz
+2022/01/23 00:33:57 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/ort-web.node.min.js /tmp/work/dist/ort-web.node.js
+2022/01/23 00:33:57 br /tmp/work/dist/ort-wasm-threaded.min.js -> /output/ort-wasm-threaded.min.js.br
+2022/01/23 00:33:57 gz /tmp/work/dist/ort-wasm-threaded.min.js -> /output/ort-wasm-threaded.min.js.gz
+2022/01/23 00:33:57 sri /tmp/work/dist/ort-wasm-threaded.js -> /output/ort-wasm-threaded.js.sri
+2022/01/23 00:33:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort-wasm-threaded.js.br /tmp/work/dist/ort-wasm-threaded.js
+2022/01/23 00:33:57 br /tmp/work/dist/ort-wasm-threaded.js -> /output/ort-wasm-threaded.js.br
+2022/01/23 00:33:57 gz /tmp/work/dist/ort-wasm-threaded.js -> /output/ort-wasm-threaded.js.gz
+2022/01/23 00:33:57 /tmp/work/dist/ort.es5.min.js.min.js compressed file already exists
+2022/01/23 00:33:57 sri /tmp/work/dist/ort.es5.min.js -> /output/ort.es5.min.js.sri
+2022/01/23 00:33:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort.es5.min.js.br /tmp/work/dist/ort.es5.min.js
+2022/01/23 00:33:59 br /tmp/work/dist/ort-web.min.js -> /output/ort-web.min.js.br
+2022/01/23 00:33:59 gz /tmp/work/dist/ort-web.min.js -> /output/ort-web.min.js.gz
+2022/01/23 00:33:59 /tmp/work/dist/ort.es6.min.js.min.js compressed file already exists
+2022/01/23 00:33:59 sri /tmp/work/dist/ort.es6.min.js -> /output/ort.es6.min.js.sri
+2022/01/23 00:33:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort.es6.min.js.br /tmp/work/dist/ort.es6.min.js
+2022/01/23 00:33:59 br /tmp/work/dist/ort.es5.min.js -> /output/ort.es5.min.js.br
+2022/01/23 00:33:59 gz /tmp/work/dist/ort.es5.min.js -> /output/ort.es5.min.js.gz
+2022/01/23 00:33:59 compressed file already exists: /tmp/work/dist/ort.min.js
+2022/01/23 00:33:59 sri /tmp/work/dist/ort.js -> /output/ort.js.sri
+2022/01/23 00:33:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort.js.br /tmp/work/dist/ort.js
+2022/01/23 00:34:01 br /tmp/work/dist/ort.es6.min.js -> /output/ort.es6.min.js.br
+2022/01/23 00:34:01 gz /tmp/work/dist/ort.es6.min.js -> /output/ort.es6.min.js.gz
+2022/01/23 00:34:01 /tmp/work/dist/ort.min.js.min.js compressed file already exists
+2022/01/23 00:34:01 sri /tmp/work/dist/ort.min.js -> /output/ort.min.js.sri
+2022/01/23 00:34:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort.min.js.br /tmp/work/dist/ort.min.js
+2022/01/23 00:34:03 br /tmp/work/dist/ort.min.js -> /output/ort.min.js.br
+2022/01/23 00:34:03 gz /tmp/work/dist/ort.min.js -> /output/ort.min.js.gz
+2022/01/23 00:34:03 /tmp/work/dist/ort.wasm-core.min.js.min.js compressed file already exists
+2022/01/23 00:34:03 sri /tmp/work/dist/ort.wasm-core.min.js -> /output/ort.wasm-core.min.js.sri
+2022/01/23 00:34:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort.wasm-core.min.js.br /tmp/work/dist/ort.wasm-core.min.js
+2022/01/23 00:34:03 br /tmp/work/dist/ort.wasm-core.min.js -> /output/ort.wasm-core.min.js.br
+2022/01/23 00:34:03 gz /tmp/work/dist/ort.wasm-core.min.js -> /output/ort.wasm-core.min.js.gz
+2022/01/23 00:34:03 /tmp/work/dist/ort.wasm.min.js.min.js compressed file already exists
+2022/01/23 00:34:03 sri /tmp/work/dist/ort.wasm.min.js -> /output/ort.wasm.min.js.sri
+2022/01/23 00:34:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort.wasm.min.js.br /tmp/work/dist/ort.wasm.min.js
+2022/01/23 00:34:03 br /tmp/work/dist/ort.wasm.min.js -> /output/ort.wasm.min.js.br
+2022/01/23 00:34:04 gz /tmp/work/dist/ort.wasm.min.js -> /output/ort.wasm.min.js.gz
+2022/01/23 00:34:04 /tmp/work/dist/ort.webgl.min.js.min.js compressed file already exists
+2022/01/23 00:34:04 sri /tmp/work/dist/ort.webgl.min.js -> /output/ort.webgl.min.js.sri
+2022/01/23 00:34:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort.webgl.min.js.br /tmp/work/dist/ort.webgl.min.js
+2022/01/23 00:34:05 br /tmp/work/dist/ort.webgl.min.js -> /output/ort.webgl.min.js.br
+2022/01/23 00:34:05 gz /tmp/work/dist/ort.webgl.min.js -> /output/ort.webgl.min.js.gz
+2022/01/23 00:34:08 sri /tmp/work/dist/ort-web.node.min.js -> /output/ort-web.node.min.js.sri
+2022/01/23 00:34:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort-web.node.min.js.br /tmp/work/dist/ort-web.node.min.js
+2022/01/23 00:34:09 br /tmp/work/dist/ort-web.js -> /output/ort-web.js.br
+2022/01/23 00:34:09 gz /tmp/work/dist/ort-web.js -> /output/ort-web.js.gz
+2022/01/23 00:34:10 br /tmp/work/dist/ort-web.node.min.js -> /output/ort-web.node.min.js.br
+2022/01/23 00:34:10 gz /tmp/work/dist/ort-web.node.min.js -> /output/ort-web.node.min.js.gz
+2022/01/23 00:34:10 sri /tmp/work/dist/ort-web.node.js -> /output/ort-web.node.js.sri
+2022/01/23 00:34:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort-web.node.js.br /tmp/work/dist/ort-web.node.js
+2022/01/23 00:34:12 br /tmp/work/dist/ort.js -> /output/ort.js.br
+2022/01/23 00:34:12 gz /tmp/work/dist/ort.js -> /output/ort.js.gz
+2022/01/23 00:34:12 br /tmp/work/dist/ort-web.node.js -> /output/ort-web.node.js.br
+2022/01/23 00:34:12 gz /tmp/work/dist/ort-web.node.js -> /output/ort-web.node.js.gz
+2022/01/23 00:34:25 br /tmp/work/dist/ort-wasm-threaded.wasm -> /output/ort-wasm-threaded.wasm.br
+2022/01/23 00:34:25 gz /tmp/work/dist/ort-wasm-threaded.wasm -> /output/ort-wasm-threaded.wasm.gz
+2022/01/23 00:34:26 br /tmp/work/dist/ort-wasm-simd.wasm -> /output/ort-wasm-simd.wasm.br
+2022/01/23 00:34:27 br /tmp/work/dist/ort-wasm.wasm -> /output/ort-wasm.wasm.br
+2022/01/23 00:34:27 gz /tmp/work/dist/ort-wasm-simd.wasm -> /output/ort-wasm-simd.wasm.gz
+2022/01/23 00:34:27 gz /tmp/work/dist/ort-wasm.wasm -> /output/ort-wasm.wasm.gz
+2022/01/23 00:34:27 br /tmp/work/dist/ort-wasm-simd-threaded.wasm -> /output/ort-wasm-simd-threaded.wasm.br
+2022/01/23 00:34:27 gz /tmp/work/dist/ort-wasm-simd-threaded.wasm -> /output/ort-wasm-simd-threaded.wasm.gz
+2022/01/23 00:34:27 processed onnxruntime-web
