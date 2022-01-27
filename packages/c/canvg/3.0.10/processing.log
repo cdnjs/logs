@@ -1,0 +1,14 @@
+2022/01/27 22:06:52 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/01/27 22:06:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd.min.js /tmp/work/lib/umd.js
+2022/01/27 22:06:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd.js.map.br /tmp/work/lib/umd.js.map
+2022/01/27 22:06:53 br /tmp/work/lib/umd.js.map -> /output/umd.js.map.br
+2022/01/27 22:06:53 gz /tmp/work/lib/umd.js.map -> /output/umd.js.map.gz
+2022/01/27 22:06:57 sri /tmp/work/lib/umd.min.js -> /output/umd.min.js.sri
+2022/01/27 22:06:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd.min.js.br /tmp/work/lib/umd.min.js
+2022/01/27 22:06:58 br /tmp/work/lib/umd.min.js -> /output/umd.min.js.br
+2022/01/27 22:06:58 gz /tmp/work/lib/umd.min.js -> /output/umd.min.js.gz
+2022/01/27 22:06:58 sri /tmp/work/lib/umd.js -> /output/umd.js.sri
+2022/01/27 22:06:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd.js.br /tmp/work/lib/umd.js
+2022/01/27 22:06:58 br /tmp/work/lib/umd.js -> /output/umd.js.br
+2022/01/27 22:06:58 gz /tmp/work/lib/umd.js -> /output/umd.js.gz
+2022/01/27 22:06:58 processed canvg
