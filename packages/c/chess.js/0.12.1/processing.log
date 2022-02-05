@@ -1,0 +1,11 @@
+2022/02/05 17:03:40 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/02/05 17:03:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/chess.min.js /tmp/work/chess.js
+2022/02/05 17:03:41 sri /tmp/work/chess.min.js -> /output/chess.min.js.sri
+2022/02/05 17:03:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/chess.min.js.br /tmp/work/chess.min.js
+2022/02/05 17:03:41 br /tmp/work/chess.min.js -> /output/chess.min.js.br
+2022/02/05 17:03:41 gz /tmp/work/chess.min.js -> /output/chess.min.js.gz
+2022/02/05 17:03:41 sri /tmp/work/chess.js -> /output/chess.js.sri
+2022/02/05 17:03:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/chess.js.br /tmp/work/chess.js
+2022/02/05 17:03:41 br /tmp/work/chess.js -> /output/chess.js.br
+2022/02/05 17:03:41 gz /tmp/work/chess.js -> /output/chess.js.gz
+2022/02/05 17:03:41 processed chess.js
