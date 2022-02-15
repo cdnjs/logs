@@ -1,0 +1,38 @@
+2022/02/15 16:37:16 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/02/15 16:37:16 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/fetch.min.js /tmp/work/fetch.js
+2022/02/15 16:37:16 failed with exit status 1: Parse error at /tmp/work/fetch.js:7,68
+const fetch = typeof window !== 'undefined' ? window.fetch : (await import('node
+                                                                    ^
+ERROR: Unexpected token: name «import», expected: punc «)»
+    at JS_Parse_Error.get (eval at <anonymous> (/node_modules/uglify-js/tools/node.js:18:1), <anonymous>:71:23)
+    at fatal (/node_modules/uglify-js/bin/uglifyjs:473:27)
+    at run (/node_modules/uglify-js/bin/uglifyjs:408:9)
+    at Object.<anonymous> (/node_modules/uglify-js/bin/uglifyjs:287:5)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+
+2022/02/15 16:37:16 compress: run /node_modules/uglify-es/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/fetch.min.js /tmp/work/fetch.js
+2022/02/15 16:37:17 failed with exit status 1: Parse error at /tmp/work/fetch.js:7,68
+const fetch = typeof window !== 'undefined' ? window.fetch : (await import('node
+                                                                    ^
+ERROR: Unexpected token name «import», expected punc «,»
+    at JS_Parse_Error.get (eval at <anonymous> (/node_modules/uglify-es/tools/node.js:21:1), <anonymous>:75:23)
+    at fatal (/node_modules/uglify-es/bin/uglifyjs:300:53)
+    at run (/node_modules/uglify-es/bin/uglifyjs:239:9)
+    at Object.<anonymous> (/node_modules/uglify-es/bin/uglifyjs:169:5)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+
+2022/02/15 16:37:17 sri /tmp/work/fetch.js -> /output/fetch.js.sri
+2022/02/15 16:37:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fetch.js.br /tmp/work/fetch.js
+2022/02/15 16:37:17 br /tmp/work/fetch.js -> /output/fetch.js.br
+2022/02/15 16:37:17 gz /tmp/work/fetch.js -> /output/fetch.js.gz
+2022/02/15 16:37:17 processed es-fetch-api
