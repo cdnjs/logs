@@ -1,0 +1,20 @@
+2022/03/29 21:08:51 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/03/29 21:08:52 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/css/styles.min.css /tmp/work/css/styles.css
+2022/03/29 21:08:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cdn/mapbox-gl-legend.min.js /tmp/work/dist/cdn/mapbox-gl-legend.js
+2022/03/29 21:08:52 sri /tmp/work/css/styles.min.css -> /output/styles.min.css.sri
+2022/03/29 21:08:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styles.min.css.br /tmp/work/css/styles.min.css
+2022/03/29 21:08:52 br /tmp/work/css/styles.min.css -> /output/styles.min.css.br
+2022/03/29 21:08:52 gz /tmp/work/css/styles.min.css -> /output/styles.min.css.gz
+2022/03/29 21:08:52 sri /tmp/work/css/styles.css -> /output/styles.css.sri
+2022/03/29 21:08:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styles.css.br /tmp/work/css/styles.css
+2022/03/29 21:08:52 br /tmp/work/css/styles.css -> /output/styles.css.br
+2022/03/29 21:08:52 gz /tmp/work/css/styles.css -> /output/styles.css.gz
+2022/03/29 21:08:55 sri /tmp/work/dist/cdn/mapbox-gl-legend.min.js -> /output/mapbox-gl-legend.min.js.sri
+2022/03/29 21:08:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-legend.min.js.br /tmp/work/dist/cdn/mapbox-gl-legend.min.js
+2022/03/29 21:08:56 br /tmp/work/dist/cdn/mapbox-gl-legend.min.js -> /output/mapbox-gl-legend.min.js.br
+2022/03/29 21:08:56 gz /tmp/work/dist/cdn/mapbox-gl-legend.min.js -> /output/mapbox-gl-legend.min.js.gz
+2022/03/29 21:08:56 sri /tmp/work/dist/cdn/mapbox-gl-legend.js -> /output/mapbox-gl-legend.js.sri
+2022/03/29 21:08:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-legend.js.br /tmp/work/dist/cdn/mapbox-gl-legend.js
+2022/03/29 21:08:56 br /tmp/work/dist/cdn/mapbox-gl-legend.js -> /output/mapbox-gl-legend.js.br
+2022/03/29 21:08:56 gz /tmp/work/dist/cdn/mapbox-gl-legend.js -> /output/mapbox-gl-legend.js.gz
+2022/03/29 21:08:56 processed mapbox-gl-legend
