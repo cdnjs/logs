@@ -1,0 +1,38 @@
+2022/03/30 19:02:55 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/03/30 19:02:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/release/go-debug.min.js /tmp/work/release/go-debug.js
+2022/03/30 19:02:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/release/go.min.js /tmp/work/release/go.js
+2022/03/30 19:02:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/release/go-module.min.js /tmp/work/release/go-module.js
+2022/03/30 19:02:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/release/go-debug-module.min.js /tmp/work/release/go-debug-module.js
+2022/03/30 19:03:34 sri /tmp/work/release/go-module.min.js -> /output/go-module.min.js.sri
+2022/03/30 19:03:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/go-module.min.js.br /tmp/work/release/go-module.min.js
+2022/03/30 19:03:34 sri /tmp/work/release/go.min.js -> /output/go.min.js.sri
+2022/03/30 19:03:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/go.min.js.br /tmp/work/release/go.min.js
+2022/03/30 19:03:35 sri /tmp/work/release/go-debug-module.min.js -> /output/go-debug-module.min.js.sri
+2022/03/30 19:03:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/go-debug-module.min.js.br /tmp/work/release/go-debug-module.min.js
+2022/03/30 19:03:36 sri /tmp/work/release/go-debug.min.js -> /output/go-debug.min.js.sri
+2022/03/30 19:03:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/go-debug.min.js.br /tmp/work/release/go-debug.min.js
+2022/03/30 19:03:37 br /tmp/work/release/go-module.min.js -> /output/go-module.min.js.br
+2022/03/30 19:03:37 br /tmp/work/release/go.min.js -> /output/go.min.js.br
+2022/03/30 19:03:37 gz /tmp/work/release/go-module.min.js -> /output/go-module.min.js.gz
+2022/03/30 19:03:37 sri /tmp/work/release/go-module.js -> /output/go-module.js.sri
+2022/03/30 19:03:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/go-module.js.br /tmp/work/release/go-module.js
+2022/03/30 19:03:37 gz /tmp/work/release/go.min.js -> /output/go.min.js.gz
+2022/03/30 19:03:37 sri /tmp/work/release/go.js -> /output/go.js.sri
+2022/03/30 19:03:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/go.js.br /tmp/work/release/go.js
+2022/03/30 19:03:38 br /tmp/work/release/go-debug-module.min.js -> /output/go-debug-module.min.js.br
+2022/03/30 19:03:38 gz /tmp/work/release/go-debug-module.min.js -> /output/go-debug-module.min.js.gz
+2022/03/30 19:03:38 sri /tmp/work/release/go-debug-module.js -> /output/go-debug-module.js.sri
+2022/03/30 19:03:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/go-debug-module.js.br /tmp/work/release/go-debug-module.js
+2022/03/30 19:03:38 br /tmp/work/release/go-debug.min.js -> /output/go-debug.min.js.br
+2022/03/30 19:03:38 gz /tmp/work/release/go-debug.min.js -> /output/go-debug.min.js.gz
+2022/03/30 19:03:38 sri /tmp/work/release/go-debug.js -> /output/go-debug.js.sri
+2022/03/30 19:03:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/go-debug.js.br /tmp/work/release/go-debug.js
+2022/03/30 19:03:39 br /tmp/work/release/go-module.js -> /output/go-module.js.br
+2022/03/30 19:03:39 br /tmp/work/release/go.js -> /output/go.js.br
+2022/03/30 19:03:39 gz /tmp/work/release/go-module.js -> /output/go-module.js.gz
+2022/03/30 19:03:39 gz /tmp/work/release/go.js -> /output/go.js.gz
+2022/03/30 19:03:40 br /tmp/work/release/go-debug-module.js -> /output/go-debug-module.js.br
+2022/03/30 19:03:40 gz /tmp/work/release/go-debug-module.js -> /output/go-debug-module.js.gz
+2022/03/30 19:03:41 br /tmp/work/release/go-debug.js -> /output/go-debug.js.br
+2022/03/30 19:03:41 gz /tmp/work/release/go-debug.js -> /output/go-debug.js.gz
+2022/03/30 19:03:41 processed gojs
