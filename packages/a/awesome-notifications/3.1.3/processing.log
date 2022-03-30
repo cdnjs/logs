@@ -1,0 +1,47 @@
+2022/03/30 18:02:39 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/03/30 18:02:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.min.js /tmp/work/dist/index.js
+2022/03/30 18:02:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.var.min.js /tmp/work/dist/index.var.js
+2022/03/30 18:02:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/modern.var.min.js /tmp/work/dist/modern.var.js
+2022/03/30 18:02:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/modern.min.js /tmp/work/dist/modern.js
+2022/03/30 18:02:39 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/style.min.css /tmp/work/dist/style.css
+2022/03/30 18:02:39 sri /tmp/work/dist/style.min.css -> /output/style.min.css.sri
+2022/03/30 18:02:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/style.min.css.br /tmp/work/dist/style.min.css
+2022/03/30 18:02:39 br /tmp/work/dist/style.min.css -> /output/style.min.css.br
+2022/03/30 18:02:39 gz /tmp/work/dist/style.min.css -> /output/style.min.css.gz
+2022/03/30 18:02:39 sri /tmp/work/dist/style.css -> /output/style.css.sri
+2022/03/30 18:02:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/style.css.br /tmp/work/dist/style.css
+2022/03/30 18:02:39 br /tmp/work/dist/style.css -> /output/style.css.br
+2022/03/30 18:02:39 gz /tmp/work/dist/style.css -> /output/style.css.gz
+2022/03/30 18:02:39 sri /tmp/work/dist/modern.min.js -> /output/modern.min.js.sri
+2022/03/30 18:02:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern.min.js.br /tmp/work/dist/modern.min.js
+2022/03/30 18:02:39 br /tmp/work/dist/modern.min.js -> /output/modern.min.js.br
+2022/03/30 18:02:39 gz /tmp/work/dist/modern.min.js -> /output/modern.min.js.gz
+2022/03/30 18:02:39 sri /tmp/work/dist/modern.js -> /output/modern.js.sri
+2022/03/30 18:02:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern.js.br /tmp/work/dist/modern.js
+2022/03/30 18:02:39 br /tmp/work/dist/modern.js -> /output/modern.js.br
+2022/03/30 18:02:39 gz /tmp/work/dist/modern.js -> /output/modern.js.gz
+2022/03/30 18:02:39 sri /tmp/work/dist/modern.var.min.js -> /output/modern.var.min.js.sri
+2022/03/30 18:02:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern.var.min.js.br /tmp/work/dist/modern.var.min.js
+2022/03/30 18:02:39 br /tmp/work/dist/modern.var.min.js -> /output/modern.var.min.js.br
+2022/03/30 18:02:39 gz /tmp/work/dist/modern.var.min.js -> /output/modern.var.min.js.gz
+2022/03/30 18:02:39 sri /tmp/work/dist/modern.var.js -> /output/modern.var.js.sri
+2022/03/30 18:02:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern.var.js.br /tmp/work/dist/modern.var.js
+2022/03/30 18:02:39 br /tmp/work/dist/modern.var.js -> /output/modern.var.js.br
+2022/03/30 18:02:39 gz /tmp/work/dist/modern.var.js -> /output/modern.var.js.gz
+2022/03/30 18:02:40 sri /tmp/work/dist/index.min.js -> /output/index.min.js.sri
+2022/03/30 18:02:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/dist/index.min.js
+2022/03/30 18:02:40 sri /tmp/work/dist/index.var.min.js -> /output/index.var.min.js.sri
+2022/03/30 18:02:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.var.min.js.br /tmp/work/dist/index.var.min.js
+2022/03/30 18:02:40 br /tmp/work/dist/index.min.js -> /output/index.min.js.br
+2022/03/30 18:02:40 gz /tmp/work/dist/index.min.js -> /output/index.min.js.gz
+2022/03/30 18:02:40 sri /tmp/work/dist/index.js -> /output/index.js.sri
+2022/03/30 18:02:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/dist/index.js
+2022/03/30 18:02:40 br /tmp/work/dist/index.var.min.js -> /output/index.var.min.js.br
+2022/03/30 18:02:40 gz /tmp/work/dist/index.var.min.js -> /output/index.var.min.js.gz
+2022/03/30 18:02:40 sri /tmp/work/dist/index.var.js -> /output/index.var.js.sri
+2022/03/30 18:02:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.var.js.br /tmp/work/dist/index.var.js
+2022/03/30 18:02:40 br /tmp/work/dist/index.js -> /output/index.js.br
+2022/03/30 18:02:40 gz /tmp/work/dist/index.js -> /output/index.js.gz
+2022/03/30 18:02:40 br /tmp/work/dist/index.var.js -> /output/index.var.js.br
+2022/03/30 18:02:40 gz /tmp/work/dist/index.var.js -> /output/index.var.js.gz
+2022/03/30 18:02:40 processed awesome-notifications
