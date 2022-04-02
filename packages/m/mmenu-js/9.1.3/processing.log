@@ -1,0 +1,722 @@
+2022/04/02 21:02:02 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/04/02 21:02:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/_modules/dom.min.js /tmp/work/dist/_modules/dom.js
+2022/04/02 21:02:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/_modules/helpers.min.js /tmp/work/dist/_modules/helpers.js
+2022/04/02 21:02:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/_modules/i18n.min.js /tmp/work/dist/_modules/i18n.js
+2022/04/02 21:02:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/_modules/matchmedia.min.js /tmp/work/dist/_modules/matchmedia.js
+2022/04/02 21:02:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/_modules/support.min.js /tmp/work/dist/_modules/support.js
+2022/04/02 21:02:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/backbutton/mmenu.backbutton.min.js /tmp/work/dist/addons/backbutton/mmenu.backbutton.js
+2022/04/02 21:02:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/backbutton/options.min.js /tmp/work/dist/addons/backbutton/options.js
+2022/04/02 21:02:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/_modules/eventlisteners.min.js /tmp/work/dist/_modules/eventlisteners.js
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/backbutton/options.min.js -> /output/addons/backbutton/options.min.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/backbutton/options.min.js.br /tmp/work/dist/addons/backbutton/options.min.js
+2022/04/02 21:02:03 br /tmp/work/dist/addons/backbutton/options.min.js -> /output/addons/backbutton/options.min.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/backbutton/options.min.js -> /output/addons/backbutton/options.min.js.gz
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/backbutton/options.js -> /output/addons/backbutton/options.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/backbutton/options.js.br /tmp/work/dist/addons/backbutton/options.js
+2022/04/02 21:02:03 br /tmp/work/dist/addons/backbutton/options.js -> /output/addons/backbutton/options.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/backbutton/options.js -> /output/addons/backbutton/options.js.gz
+2022/04/02 21:02:03 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/addons/counters/mmenu.counters.min.css /tmp/work/dist/addons/counters/mmenu.counters.css
+2022/04/02 21:02:03 sri /tmp/work/dist/_modules/support.min.js -> /output/_modules/support.min.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/_modules/support.min.js.br /tmp/work/dist/_modules/support.min.js
+2022/04/02 21:02:03 br /tmp/work/dist/_modules/support.min.js -> /output/_modules/support.min.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/_modules/support.min.js -> /output/_modules/support.min.js.gz
+2022/04/02 21:02:03 sri /tmp/work/dist/_modules/support.js -> /output/_modules/support.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/_modules/support.js.br /tmp/work/dist/_modules/support.js
+2022/04/02 21:02:03 br /tmp/work/dist/_modules/support.js -> /output/_modules/support.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/_modules/support.js -> /output/_modules/support.js.gz
+2022/04/02 21:02:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/counters/mmenu.counters.min.js /tmp/work/dist/addons/counters/mmenu.counters.js
+2022/04/02 21:02:03 sri /tmp/work/dist/_modules/i18n.min.js -> /output/_modules/i18n.min.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/_modules/i18n.min.js.br /tmp/work/dist/_modules/i18n.min.js
+2022/04/02 21:02:03 br /tmp/work/dist/_modules/i18n.min.js -> /output/_modules/i18n.min.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/_modules/i18n.min.js -> /output/_modules/i18n.min.js.gz
+2022/04/02 21:02:03 sri /tmp/work/dist/_modules/i18n.js -> /output/_modules/i18n.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/_modules/i18n.js.br /tmp/work/dist/_modules/i18n.js
+2022/04/02 21:02:03 br /tmp/work/dist/_modules/i18n.js -> /output/_modules/i18n.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/_modules/i18n.js -> /output/_modules/i18n.js.gz
+2022/04/02 21:02:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/counters/options.min.js /tmp/work/dist/addons/counters/options.js
+2022/04/02 21:02:03 sri /tmp/work/dist/_modules/matchmedia.min.js -> /output/_modules/matchmedia.min.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/_modules/matchmedia.min.js.br /tmp/work/dist/_modules/matchmedia.min.js
+2022/04/02 21:02:03 br /tmp/work/dist/_modules/matchmedia.min.js -> /output/_modules/matchmedia.min.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/_modules/matchmedia.min.js -> /output/_modules/matchmedia.min.js.gz
+2022/04/02 21:02:03 sri /tmp/work/dist/_modules/matchmedia.js -> /output/_modules/matchmedia.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/_modules/matchmedia.js.br /tmp/work/dist/_modules/matchmedia.js
+2022/04/02 21:02:03 sri /tmp/work/dist/_modules/eventlisteners.min.js -> /output/_modules/eventlisteners.min.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/_modules/eventlisteners.min.js.br /tmp/work/dist/_modules/eventlisteners.min.js
+2022/04/02 21:02:03 sri /tmp/work/dist/_modules/dom.min.js -> /output/_modules/dom.min.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/_modules/dom.min.js.br /tmp/work/dist/_modules/dom.min.js
+2022/04/02 21:02:03 br /tmp/work/dist/_modules/eventlisteners.min.js -> /output/_modules/eventlisteners.min.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/_modules/eventlisteners.min.js -> /output/_modules/eventlisteners.min.js.gz
+2022/04/02 21:02:03 br /tmp/work/dist/_modules/matchmedia.js -> /output/_modules/matchmedia.js.br
+2022/04/02 21:02:03 sri /tmp/work/dist/_modules/eventlisteners.js -> /output/_modules/eventlisteners.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/_modules/eventlisteners.js.br /tmp/work/dist/_modules/eventlisteners.js
+2022/04/02 21:02:03 gz /tmp/work/dist/_modules/matchmedia.js -> /output/_modules/matchmedia.js.gz
+2022/04/02 21:02:03 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/addons/iconbar/mmenu.iconbar.min.css /tmp/work/dist/addons/iconbar/mmenu.iconbar.css
+2022/04/02 21:02:03 br /tmp/work/dist/_modules/dom.min.js -> /output/_modules/dom.min.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/_modules/dom.min.js -> /output/_modules/dom.min.js.gz
+2022/04/02 21:02:03 sri /tmp/work/dist/_modules/dom.js -> /output/_modules/dom.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/_modules/dom.js.br /tmp/work/dist/_modules/dom.js
+2022/04/02 21:02:03 br /tmp/work/dist/_modules/eventlisteners.js -> /output/_modules/eventlisteners.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/_modules/eventlisteners.js -> /output/_modules/eventlisteners.js.gz
+2022/04/02 21:02:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/iconbar/mmenu.iconbar.min.js /tmp/work/dist/addons/iconbar/mmenu.iconbar.js
+2022/04/02 21:02:03 sri /tmp/work/dist/_modules/helpers.min.js -> /output/_modules/helpers.min.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/_modules/helpers.min.js.br /tmp/work/dist/_modules/helpers.min.js
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/backbutton/mmenu.backbutton.min.js -> /output/addons/backbutton/mmenu.backbutton.min.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/backbutton/mmenu.backbutton.min.js.br /tmp/work/dist/addons/backbutton/mmenu.backbutton.min.js
+2022/04/02 21:02:03 br /tmp/work/dist/_modules/helpers.min.js -> /output/_modules/helpers.min.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/_modules/helpers.min.js -> /output/_modules/helpers.min.js.gz
+2022/04/02 21:02:03 sri /tmp/work/dist/_modules/helpers.js -> /output/_modules/helpers.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/_modules/helpers.js.br /tmp/work/dist/_modules/helpers.js
+2022/04/02 21:02:03 br /tmp/work/dist/_modules/dom.js -> /output/_modules/dom.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/_modules/dom.js -> /output/_modules/dom.js.gz
+2022/04/02 21:02:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/iconbar/options.min.js /tmp/work/dist/addons/iconbar/options.js
+2022/04/02 21:02:03 br /tmp/work/dist/addons/backbutton/mmenu.backbutton.min.js -> /output/addons/backbutton/mmenu.backbutton.min.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/backbutton/mmenu.backbutton.min.js -> /output/addons/backbutton/mmenu.backbutton.min.js.gz
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/backbutton/mmenu.backbutton.js -> /output/addons/backbutton/mmenu.backbutton.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/backbutton/mmenu.backbutton.js.br /tmp/work/dist/addons/backbutton/mmenu.backbutton.js
+2022/04/02 21:02:03 br /tmp/work/dist/_modules/helpers.js -> /output/_modules/helpers.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/_modules/helpers.js -> /output/_modules/helpers.js.gz
+2022/04/02 21:02:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/iconpanels/_options.min.js /tmp/work/dist/addons/iconpanels/_options.js
+2022/04/02 21:02:03 br /tmp/work/dist/addons/backbutton/mmenu.backbutton.js -> /output/addons/backbutton/mmenu.backbutton.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/backbutton/mmenu.backbutton.js -> /output/addons/backbutton/mmenu.backbutton.js.gz
+2022/04/02 21:02:03 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/addons/iconpanels/mmenu.iconpanels.min.css /tmp/work/dist/addons/iconpanels/mmenu.iconpanels.css
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/counters/mmenu.counters.min.css -> /output/addons/counters/mmenu.counters.min.css.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/counters/mmenu.counters.min.css.br /tmp/work/dist/addons/counters/mmenu.counters.min.css
+2022/04/02 21:02:03 br /tmp/work/dist/addons/counters/mmenu.counters.min.css -> /output/addons/counters/mmenu.counters.min.css.br
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/counters/options.min.js -> /output/addons/counters/options.min.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/counters/options.min.js.br /tmp/work/dist/addons/counters/options.min.js
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/counters/mmenu.counters.min.css -> /output/addons/counters/mmenu.counters.min.css.gz
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/counters/mmenu.counters.css -> /output/addons/counters/mmenu.counters.css.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/counters/mmenu.counters.css.br /tmp/work/dist/addons/counters/mmenu.counters.css
+2022/04/02 21:02:03 br /tmp/work/dist/addons/counters/options.min.js -> /output/addons/counters/options.min.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/counters/options.min.js -> /output/addons/counters/options.min.js.gz
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/counters/options.js -> /output/addons/counters/options.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/counters/options.js.br /tmp/work/dist/addons/counters/options.js
+2022/04/02 21:02:03 br /tmp/work/dist/addons/counters/mmenu.counters.css -> /output/addons/counters/mmenu.counters.css.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/counters/mmenu.counters.css -> /output/addons/counters/mmenu.counters.css.gz
+2022/04/02 21:02:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/iconpanels/mmenu.iconpanels.min.js /tmp/work/dist/addons/iconpanels/mmenu.iconpanels.js
+2022/04/02 21:02:03 br /tmp/work/dist/addons/counters/options.js -> /output/addons/counters/options.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/counters/options.js -> /output/addons/counters/options.js.gz
+2022/04/02 21:02:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/navbars/configs.min.js /tmp/work/dist/addons/navbars/configs.js
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/counters/mmenu.counters.min.js -> /output/addons/counters/mmenu.counters.min.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/counters/mmenu.counters.min.js.br /tmp/work/dist/addons/counters/mmenu.counters.min.js
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/iconpanels/_options.min.js -> /output/addons/iconpanels/_options.min.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/iconpanels/_options.min.js.br /tmp/work/dist/addons/iconpanels/_options.min.js
+2022/04/02 21:02:03 br /tmp/work/dist/addons/iconpanels/_options.min.js -> /output/addons/iconpanels/_options.min.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/iconpanels/_options.min.js -> /output/addons/iconpanels/_options.min.js.gz
+2022/04/02 21:02:03 br /tmp/work/dist/addons/counters/mmenu.counters.min.js -> /output/addons/counters/mmenu.counters.min.js.br
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/iconpanels/_options.js -> /output/addons/iconpanels/_options.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/iconpanels/_options.js.br /tmp/work/dist/addons/iconpanels/_options.js
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/counters/mmenu.counters.min.js -> /output/addons/counters/mmenu.counters.min.js.gz
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/counters/mmenu.counters.js -> /output/addons/counters/mmenu.counters.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/counters/mmenu.counters.js.br /tmp/work/dist/addons/counters/mmenu.counters.js
+2022/04/02 21:02:03 br /tmp/work/dist/addons/iconpanels/_options.js -> /output/addons/iconpanels/_options.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/iconpanels/_options.js -> /output/addons/iconpanels/_options.js.gz
+2022/04/02 21:02:03 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/addons/navbars/mmenu.navbars.min.css /tmp/work/dist/addons/navbars/mmenu.navbars.css
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/iconbar/options.min.js -> /output/addons/iconbar/options.min.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/iconbar/options.min.js.br /tmp/work/dist/addons/iconbar/options.min.js
+2022/04/02 21:02:03 br /tmp/work/dist/addons/counters/mmenu.counters.js -> /output/addons/counters/mmenu.counters.js.br
+2022/04/02 21:02:03 br /tmp/work/dist/addons/iconbar/options.min.js -> /output/addons/iconbar/options.min.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/counters/mmenu.counters.js -> /output/addons/counters/mmenu.counters.js.gz
+2022/04/02 21:02:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/navbars/mmenu.navbars.min.js /tmp/work/dist/addons/navbars/mmenu.navbars.js
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/iconbar/options.min.js -> /output/addons/iconbar/options.min.js.gz
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/iconbar/options.js -> /output/addons/iconbar/options.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/iconbar/options.js.br /tmp/work/dist/addons/iconbar/options.js
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/iconbar/mmenu.iconbar.min.css -> /output/addons/iconbar/mmenu.iconbar.min.css.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/iconbar/mmenu.iconbar.min.css.br /tmp/work/dist/addons/iconbar/mmenu.iconbar.min.css
+2022/04/02 21:02:03 br /tmp/work/dist/addons/iconbar/options.js -> /output/addons/iconbar/options.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/iconbar/options.js -> /output/addons/iconbar/options.js.gz
+2022/04/02 21:02:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/navbars/navbar.breadcrumbs.min.js /tmp/work/dist/addons/navbars/navbar.breadcrumbs.js
+2022/04/02 21:02:03 br /tmp/work/dist/addons/iconbar/mmenu.iconbar.min.css -> /output/addons/iconbar/mmenu.iconbar.min.css.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/iconbar/mmenu.iconbar.min.css -> /output/addons/iconbar/mmenu.iconbar.min.css.gz
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/iconbar/mmenu.iconbar.css -> /output/addons/iconbar/mmenu.iconbar.css.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/iconbar/mmenu.iconbar.css.br /tmp/work/dist/addons/iconbar/mmenu.iconbar.css
+2022/04/02 21:02:03 br /tmp/work/dist/addons/iconbar/mmenu.iconbar.css -> /output/addons/iconbar/mmenu.iconbar.css.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/iconbar/mmenu.iconbar.css -> /output/addons/iconbar/mmenu.iconbar.css.gz
+2022/04/02 21:02:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/navbars/navbar.close.min.js /tmp/work/dist/addons/navbars/navbar.close.js
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/iconpanels/mmenu.iconpanels.min.css -> /output/addons/iconpanels/mmenu.iconpanels.min.css.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/iconpanels/mmenu.iconpanels.min.css.br /tmp/work/dist/addons/iconpanels/mmenu.iconpanels.min.css
+2022/04/02 21:02:03 br /tmp/work/dist/addons/iconpanels/mmenu.iconpanels.min.css -> /output/addons/iconpanels/mmenu.iconpanels.min.css.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/iconpanels/mmenu.iconpanels.min.css -> /output/addons/iconpanels/mmenu.iconpanels.min.css.gz
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/iconpanels/mmenu.iconpanels.css -> /output/addons/iconpanels/mmenu.iconpanels.css.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/iconpanels/mmenu.iconpanels.css.br /tmp/work/dist/addons/iconpanels/mmenu.iconpanels.css
+2022/04/02 21:02:03 br /tmp/work/dist/addons/iconpanels/mmenu.iconpanels.css -> /output/addons/iconpanels/mmenu.iconpanels.css.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/iconpanels/mmenu.iconpanels.css -> /output/addons/iconpanels/mmenu.iconpanels.css.gz
+2022/04/02 21:02:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/navbars/navbar.prev.min.js /tmp/work/dist/addons/navbars/navbar.prev.js
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/iconbar/mmenu.iconbar.min.js -> /output/addons/iconbar/mmenu.iconbar.min.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/iconbar/mmenu.iconbar.min.js.br /tmp/work/dist/addons/iconbar/mmenu.iconbar.min.js
+2022/04/02 21:02:03 br /tmp/work/dist/addons/iconbar/mmenu.iconbar.min.js -> /output/addons/iconbar/mmenu.iconbar.min.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/iconbar/mmenu.iconbar.min.js -> /output/addons/iconbar/mmenu.iconbar.min.js.gz
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/iconbar/mmenu.iconbar.js -> /output/addons/iconbar/mmenu.iconbar.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/iconbar/mmenu.iconbar.js.br /tmp/work/dist/addons/iconbar/mmenu.iconbar.js
+2022/04/02 21:02:03 br /tmp/work/dist/addons/iconbar/mmenu.iconbar.js -> /output/addons/iconbar/mmenu.iconbar.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/iconbar/mmenu.iconbar.js -> /output/addons/iconbar/mmenu.iconbar.js.gz
+2022/04/02 21:02:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/navbars/navbar.searchfield.min.js /tmp/work/dist/addons/navbars/navbar.searchfield.js
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/navbars/configs.min.js -> /output/addons/navbars/configs.min.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/navbars/configs.min.js.br /tmp/work/dist/addons/navbars/configs.min.js
+2022/04/02 21:02:03 br /tmp/work/dist/addons/navbars/configs.min.js -> /output/addons/navbars/configs.min.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/navbars/configs.min.js -> /output/addons/navbars/configs.min.js.gz
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/navbars/configs.js -> /output/addons/navbars/configs.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/navbars/configs.js.br /tmp/work/dist/addons/navbars/configs.js
+2022/04/02 21:02:03 br /tmp/work/dist/addons/navbars/configs.js -> /output/addons/navbars/configs.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/navbars/configs.js -> /output/addons/navbars/configs.js.gz
+2022/04/02 21:02:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/navbars/navbar.tabs.min.js /tmp/work/dist/addons/navbars/navbar.tabs.js
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/iconpanels/mmenu.iconpanels.min.js -> /output/addons/iconpanels/mmenu.iconpanels.min.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/iconpanels/mmenu.iconpanels.min.js.br /tmp/work/dist/addons/iconpanels/mmenu.iconpanels.min.js
+2022/04/02 21:02:03 br /tmp/work/dist/addons/iconpanels/mmenu.iconpanels.min.js -> /output/addons/iconpanels/mmenu.iconpanels.min.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/iconpanels/mmenu.iconpanels.min.js -> /output/addons/iconpanels/mmenu.iconpanels.min.js.gz
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/iconpanels/mmenu.iconpanels.js -> /output/addons/iconpanels/mmenu.iconpanels.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/iconpanels/mmenu.iconpanels.js.br /tmp/work/dist/addons/iconpanels/mmenu.iconpanels.js
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/navbars/mmenu.navbars.min.css -> /output/addons/navbars/mmenu.navbars.min.css.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/navbars/mmenu.navbars.min.css.br /tmp/work/dist/addons/navbars/mmenu.navbars.min.css
+2022/04/02 21:02:03 br /tmp/work/dist/addons/navbars/mmenu.navbars.min.css -> /output/addons/navbars/mmenu.navbars.min.css.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/navbars/mmenu.navbars.min.css -> /output/addons/navbars/mmenu.navbars.min.css.gz
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/navbars/mmenu.navbars.css -> /output/addons/navbars/mmenu.navbars.css.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/navbars/mmenu.navbars.css.br /tmp/work/dist/addons/navbars/mmenu.navbars.css
+2022/04/02 21:02:03 br /tmp/work/dist/addons/iconpanels/mmenu.iconpanels.js -> /output/addons/iconpanels/mmenu.iconpanels.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/iconpanels/mmenu.iconpanels.js -> /output/addons/iconpanels/mmenu.iconpanels.js.gz
+2022/04/02 21:02:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/navbars/navbar.title.min.js /tmp/work/dist/addons/navbars/navbar.title.js
+2022/04/02 21:02:03 br /tmp/work/dist/addons/navbars/mmenu.navbars.css -> /output/addons/navbars/mmenu.navbars.css.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/navbars/mmenu.navbars.css -> /output/addons/navbars/mmenu.navbars.css.gz
+2022/04/02 21:02:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/navbars/options.min.js /tmp/work/dist/addons/navbars/options.js
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/navbars/navbar.close.min.js -> /output/addons/navbars/navbar.close.min.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/navbars/navbar.close.min.js.br /tmp/work/dist/addons/navbars/navbar.close.min.js
+2022/04/02 21:02:03 br /tmp/work/dist/addons/navbars/navbar.close.min.js -> /output/addons/navbars/navbar.close.min.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/navbars/navbar.close.min.js -> /output/addons/navbars/navbar.close.min.js.gz
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/navbars/navbar.close.js -> /output/addons/navbars/navbar.close.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/navbars/navbar.close.js.br /tmp/work/dist/addons/navbars/navbar.close.js
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/navbars/navbar.breadcrumbs.min.js -> /output/addons/navbars/navbar.breadcrumbs.min.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/navbars/navbar.breadcrumbs.min.js.br /tmp/work/dist/addons/navbars/navbar.breadcrumbs.min.js
+2022/04/02 21:02:03 br /tmp/work/dist/addons/navbars/navbar.close.js -> /output/addons/navbars/navbar.close.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/navbars/navbar.close.js -> /output/addons/navbars/navbar.close.js.gz
+2022/04/02 21:02:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/pagescroll/configs.min.js /tmp/work/dist/addons/pagescroll/configs.js
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/navbars/navbar.prev.min.js -> /output/addons/navbars/navbar.prev.min.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/navbars/navbar.prev.min.js.br /tmp/work/dist/addons/navbars/navbar.prev.min.js
+2022/04/02 21:02:03 br /tmp/work/dist/addons/navbars/navbar.breadcrumbs.min.js -> /output/addons/navbars/navbar.breadcrumbs.min.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/navbars/navbar.breadcrumbs.min.js -> /output/addons/navbars/navbar.breadcrumbs.min.js.gz
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/navbars/navbar.breadcrumbs.js -> /output/addons/navbars/navbar.breadcrumbs.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/navbars/navbar.breadcrumbs.js.br /tmp/work/dist/addons/navbars/navbar.breadcrumbs.js
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/navbars/mmenu.navbars.min.js -> /output/addons/navbars/mmenu.navbars.min.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/navbars/mmenu.navbars.min.js.br /tmp/work/dist/addons/navbars/mmenu.navbars.min.js
+2022/04/02 21:02:03 br /tmp/work/dist/addons/navbars/navbar.prev.min.js -> /output/addons/navbars/navbar.prev.min.js.br
+2022/04/02 21:02:03 br /tmp/work/dist/addons/navbars/navbar.breadcrumbs.js -> /output/addons/navbars/navbar.breadcrumbs.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/navbars/navbar.prev.min.js -> /output/addons/navbars/navbar.prev.min.js.gz
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/navbars/navbar.prev.js -> /output/addons/navbars/navbar.prev.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/navbars/navbar.prev.js.br /tmp/work/dist/addons/navbars/navbar.prev.js
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/navbars/navbar.breadcrumbs.js -> /output/addons/navbars/navbar.breadcrumbs.js.gz
+2022/04/02 21:02:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/pagescroll/mmenu.pagescroll.min.js /tmp/work/dist/addons/pagescroll/mmenu.pagescroll.js
+2022/04/02 21:02:03 br /tmp/work/dist/addons/navbars/mmenu.navbars.min.js -> /output/addons/navbars/mmenu.navbars.min.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/navbars/mmenu.navbars.min.js -> /output/addons/navbars/mmenu.navbars.min.js.gz
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/navbars/mmenu.navbars.js -> /output/addons/navbars/mmenu.navbars.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/navbars/mmenu.navbars.js.br /tmp/work/dist/addons/navbars/mmenu.navbars.js
+2022/04/02 21:02:03 br /tmp/work/dist/addons/navbars/navbar.prev.js -> /output/addons/navbars/navbar.prev.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/navbars/navbar.prev.js -> /output/addons/navbars/navbar.prev.js.gz
+2022/04/02 21:02:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/pagescroll/options.min.js /tmp/work/dist/addons/pagescroll/options.js
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/navbars/navbar.searchfield.min.js -> /output/addons/navbars/navbar.searchfield.min.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/navbars/navbar.searchfield.min.js.br /tmp/work/dist/addons/navbars/navbar.searchfield.min.js
+2022/04/02 21:02:03 br /tmp/work/dist/addons/navbars/mmenu.navbars.js -> /output/addons/navbars/mmenu.navbars.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/navbars/mmenu.navbars.js -> /output/addons/navbars/mmenu.navbars.js.gz
+2022/04/02 21:02:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/searchfield/configs.min.js /tmp/work/dist/addons/searchfield/configs.js
+2022/04/02 21:02:03 br /tmp/work/dist/addons/navbars/navbar.searchfield.min.js -> /output/addons/navbars/navbar.searchfield.min.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/navbars/navbar.searchfield.min.js -> /output/addons/navbars/navbar.searchfield.min.js.gz
+2022/04/02 21:02:03 sri /tmp/work/dist/addons/navbars/navbar.searchfield.js -> /output/addons/navbars/navbar.searchfield.js.sri
+2022/04/02 21:02:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/navbars/navbar.searchfield.js.br /tmp/work/dist/addons/navbars/navbar.searchfield.js
+2022/04/02 21:02:03 br /tmp/work/dist/addons/navbars/navbar.searchfield.js -> /output/addons/navbars/navbar.searchfield.js.br
+2022/04/02 21:02:03 gz /tmp/work/dist/addons/navbars/navbar.searchfield.js -> /output/addons/navbars/navbar.searchfield.js.gz
+2022/04/02 21:02:03 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/addons/searchfield/mmenu.searchfield.min.css /tmp/work/dist/addons/searchfield/mmenu.searchfield.css
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/navbars/navbar.tabs.min.js -> /output/addons/navbars/navbar.tabs.min.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/navbars/navbar.tabs.min.js.br /tmp/work/dist/addons/navbars/navbar.tabs.min.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/navbars/navbar.tabs.min.js -> /output/addons/navbars/navbar.tabs.min.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/navbars/navbar.tabs.min.js -> /output/addons/navbars/navbar.tabs.min.js.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/navbars/navbar.tabs.js -> /output/addons/navbars/navbar.tabs.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/navbars/navbar.tabs.js.br /tmp/work/dist/addons/navbars/navbar.tabs.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/navbars/navbar.tabs.js -> /output/addons/navbars/navbar.tabs.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/navbars/navbar.tabs.js -> /output/addons/navbars/navbar.tabs.js.gz
+2022/04/02 21:02:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/searchfield/mmenu.searchfield.min.js /tmp/work/dist/addons/searchfield/mmenu.searchfield.js
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/navbars/navbar.title.min.js -> /output/addons/navbars/navbar.title.min.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/navbars/navbar.title.min.js.br /tmp/work/dist/addons/navbars/navbar.title.min.js
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/navbars/options.min.js -> /output/addons/navbars/options.min.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/navbars/options.min.js.br /tmp/work/dist/addons/navbars/options.min.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/navbars/navbar.title.min.js -> /output/addons/navbars/navbar.title.min.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/navbars/navbar.title.min.js -> /output/addons/navbars/navbar.title.min.js.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/navbars/navbar.title.js -> /output/addons/navbars/navbar.title.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/navbars/navbar.title.js.br /tmp/work/dist/addons/navbars/navbar.title.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/navbars/options.min.js -> /output/addons/navbars/options.min.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/navbars/options.min.js -> /output/addons/navbars/options.min.js.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/navbars/options.js -> /output/addons/navbars/options.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/navbars/options.js.br /tmp/work/dist/addons/navbars/options.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/navbars/navbar.title.js -> /output/addons/navbars/navbar.title.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/navbars/navbar.title.js -> /output/addons/navbars/navbar.title.js.gz
+2022/04/02 21:02:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/searchfield/options.min.js /tmp/work/dist/addons/searchfield/options.js
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/pagescroll/configs.min.js -> /output/addons/pagescroll/configs.min.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/pagescroll/configs.min.js.br /tmp/work/dist/addons/pagescroll/configs.min.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/navbars/options.js -> /output/addons/navbars/options.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/navbars/options.js -> /output/addons/navbars/options.js.gz
+2022/04/02 21:02:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/searchfield/translations/de.min.js /tmp/work/dist/addons/searchfield/translations/de.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/pagescroll/configs.min.js -> /output/addons/pagescroll/configs.min.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/pagescroll/configs.min.js -> /output/addons/pagescroll/configs.min.js.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/pagescroll/configs.js -> /output/addons/pagescroll/configs.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/pagescroll/configs.js.br /tmp/work/dist/addons/pagescroll/configs.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/pagescroll/configs.js -> /output/addons/pagescroll/configs.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/pagescroll/configs.js -> /output/addons/pagescroll/configs.js.gz
+2022/04/02 21:02:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/searchfield/translations/fa.min.js /tmp/work/dist/addons/searchfield/translations/fa.js
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/pagescroll/options.min.js -> /output/addons/pagescroll/options.min.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/pagescroll/options.min.js.br /tmp/work/dist/addons/pagescroll/options.min.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/pagescroll/options.min.js -> /output/addons/pagescroll/options.min.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/pagescroll/options.min.js -> /output/addons/pagescroll/options.min.js.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/pagescroll/options.js -> /output/addons/pagescroll/options.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/pagescroll/options.js.br /tmp/work/dist/addons/pagescroll/options.js
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/searchfield/configs.min.js -> /output/addons/searchfield/configs.min.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/searchfield/configs.min.js.br /tmp/work/dist/addons/searchfield/configs.min.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/pagescroll/options.js -> /output/addons/pagescroll/options.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/pagescroll/options.js -> /output/addons/pagescroll/options.js.gz
+2022/04/02 21:02:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/searchfield/translations/index.min.js /tmp/work/dist/addons/searchfield/translations/index.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/searchfield/configs.min.js -> /output/addons/searchfield/configs.min.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/searchfield/configs.min.js -> /output/addons/searchfield/configs.min.js.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/searchfield/configs.js -> /output/addons/searchfield/configs.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/searchfield/configs.js.br /tmp/work/dist/addons/searchfield/configs.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/searchfield/configs.js -> /output/addons/searchfield/configs.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/searchfield/configs.js -> /output/addons/searchfield/configs.js.gz
+2022/04/02 21:02:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/searchfield/translations/nl.min.js /tmp/work/dist/addons/searchfield/translations/nl.js
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/searchfield/mmenu.searchfield.min.css -> /output/addons/searchfield/mmenu.searchfield.min.css.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/searchfield/mmenu.searchfield.min.css.br /tmp/work/dist/addons/searchfield/mmenu.searchfield.min.css
+2022/04/02 21:02:04 br /tmp/work/dist/addons/searchfield/mmenu.searchfield.min.css -> /output/addons/searchfield/mmenu.searchfield.min.css.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/searchfield/mmenu.searchfield.min.css -> /output/addons/searchfield/mmenu.searchfield.min.css.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/searchfield/mmenu.searchfield.css -> /output/addons/searchfield/mmenu.searchfield.css.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/searchfield/mmenu.searchfield.css.br /tmp/work/dist/addons/searchfield/mmenu.searchfield.css
+2022/04/02 21:02:04 br /tmp/work/dist/addons/searchfield/mmenu.searchfield.css -> /output/addons/searchfield/mmenu.searchfield.css.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/searchfield/mmenu.searchfield.css -> /output/addons/searchfield/mmenu.searchfield.css.gz
+2022/04/02 21:02:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/searchfield/translations/pt_br.min.js /tmp/work/dist/addons/searchfield/translations/pt_br.js
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/pagescroll/mmenu.pagescroll.min.js -> /output/addons/pagescroll/mmenu.pagescroll.min.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/pagescroll/mmenu.pagescroll.min.js.br /tmp/work/dist/addons/pagescroll/mmenu.pagescroll.min.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/pagescroll/mmenu.pagescroll.min.js -> /output/addons/pagescroll/mmenu.pagescroll.min.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/pagescroll/mmenu.pagescroll.min.js -> /output/addons/pagescroll/mmenu.pagescroll.min.js.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/pagescroll/mmenu.pagescroll.js -> /output/addons/pagescroll/mmenu.pagescroll.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/pagescroll/mmenu.pagescroll.js.br /tmp/work/dist/addons/pagescroll/mmenu.pagescroll.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/pagescroll/mmenu.pagescroll.js -> /output/addons/pagescroll/mmenu.pagescroll.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/pagescroll/mmenu.pagescroll.js -> /output/addons/pagescroll/mmenu.pagescroll.js.gz
+2022/04/02 21:02:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/searchfield/translations/ru.min.js /tmp/work/dist/addons/searchfield/translations/ru.js
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/searchfield/translations/de.min.js -> /output/addons/searchfield/translations/de.min.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/searchfield/translations/de.min.js.br /tmp/work/dist/addons/searchfield/translations/de.min.js
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/searchfield/translations/fa.min.js -> /output/addons/searchfield/translations/fa.min.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/searchfield/translations/fa.min.js.br /tmp/work/dist/addons/searchfield/translations/fa.min.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/searchfield/translations/de.min.js -> /output/addons/searchfield/translations/de.min.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/searchfield/translations/de.min.js -> /output/addons/searchfield/translations/de.min.js.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/searchfield/options.min.js -> /output/addons/searchfield/options.min.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/searchfield/options.min.js.br /tmp/work/dist/addons/searchfield/options.min.js
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/searchfield/translations/de.js -> /output/addons/searchfield/translations/de.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/searchfield/translations/de.js.br /tmp/work/dist/addons/searchfield/translations/de.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/searchfield/translations/fa.min.js -> /output/addons/searchfield/translations/fa.min.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/searchfield/translations/fa.min.js -> /output/addons/searchfield/translations/fa.min.js.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/searchfield/translations/fa.js -> /output/addons/searchfield/translations/fa.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/searchfield/translations/fa.js.br /tmp/work/dist/addons/searchfield/translations/fa.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/searchfield/options.min.js -> /output/addons/searchfield/options.min.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/searchfield/options.min.js -> /output/addons/searchfield/options.min.js.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/searchfield/options.js -> /output/addons/searchfield/options.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/searchfield/options.js.br /tmp/work/dist/addons/searchfield/options.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/searchfield/translations/de.js -> /output/addons/searchfield/translations/de.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/searchfield/translations/de.js -> /output/addons/searchfield/translations/de.js.gz
+2022/04/02 21:02:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/searchfield/translations/sk.min.js /tmp/work/dist/addons/searchfield/translations/sk.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/searchfield/translations/fa.js -> /output/addons/searchfield/translations/fa.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/searchfield/translations/fa.js -> /output/addons/searchfield/translations/fa.js.gz
+2022/04/02 21:02:04 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/addons/sectionindexer/mmenu.sectionindexer.min.css /tmp/work/dist/addons/sectionindexer/mmenu.sectionindexer.css
+2022/04/02 21:02:04 br /tmp/work/dist/addons/searchfield/options.js -> /output/addons/searchfield/options.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/searchfield/options.js -> /output/addons/searchfield/options.js.gz
+2022/04/02 21:02:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/sectionindexer/mmenu.sectionindexer.min.js /tmp/work/dist/addons/sectionindexer/mmenu.sectionindexer.js
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/searchfield/translations/nl.min.js -> /output/addons/searchfield/translations/nl.min.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/searchfield/translations/nl.min.js.br /tmp/work/dist/addons/searchfield/translations/nl.min.js
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/searchfield/translations/index.min.js -> /output/addons/searchfield/translations/index.min.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/searchfield/translations/index.min.js.br /tmp/work/dist/addons/searchfield/translations/index.min.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/searchfield/translations/nl.min.js -> /output/addons/searchfield/translations/nl.min.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/searchfield/translations/nl.min.js -> /output/addons/searchfield/translations/nl.min.js.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/searchfield/translations/nl.js -> /output/addons/searchfield/translations/nl.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/searchfield/translations/nl.js.br /tmp/work/dist/addons/searchfield/translations/nl.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/searchfield/translations/index.min.js -> /output/addons/searchfield/translations/index.min.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/searchfield/translations/index.min.js -> /output/addons/searchfield/translations/index.min.js.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/searchfield/translations/index.js -> /output/addons/searchfield/translations/index.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/searchfield/translations/index.js.br /tmp/work/dist/addons/searchfield/translations/index.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/searchfield/translations/nl.js -> /output/addons/searchfield/translations/nl.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/searchfield/translations/nl.js -> /output/addons/searchfield/translations/nl.js.gz
+2022/04/02 21:02:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/sectionindexer/options.min.js /tmp/work/dist/addons/sectionindexer/options.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/searchfield/translations/index.js -> /output/addons/searchfield/translations/index.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/searchfield/translations/index.js -> /output/addons/searchfield/translations/index.js.gz
+2022/04/02 21:02:04 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/addons/setselected/mmenu.setselected.min.css /tmp/work/dist/addons/setselected/mmenu.setselected.css
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/searchfield/translations/pt_br.min.js -> /output/addons/searchfield/translations/pt_br.min.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/searchfield/translations/pt_br.min.js.br /tmp/work/dist/addons/searchfield/translations/pt_br.min.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/searchfield/translations/pt_br.min.js -> /output/addons/searchfield/translations/pt_br.min.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/searchfield/translations/pt_br.min.js -> /output/addons/searchfield/translations/pt_br.min.js.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/searchfield/translations/pt_br.js -> /output/addons/searchfield/translations/pt_br.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/searchfield/translations/pt_br.js.br /tmp/work/dist/addons/searchfield/translations/pt_br.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/searchfield/translations/pt_br.js -> /output/addons/searchfield/translations/pt_br.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/searchfield/translations/pt_br.js -> /output/addons/searchfield/translations/pt_br.js.gz
+2022/04/02 21:02:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/setselected/mmenu.setselected.min.js /tmp/work/dist/addons/setselected/mmenu.setselected.js
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/searchfield/translations/ru.min.js -> /output/addons/searchfield/translations/ru.min.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/searchfield/translations/ru.min.js.br /tmp/work/dist/addons/searchfield/translations/ru.min.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/searchfield/translations/ru.min.js -> /output/addons/searchfield/translations/ru.min.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/searchfield/translations/ru.min.js -> /output/addons/searchfield/translations/ru.min.js.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/searchfield/translations/ru.js -> /output/addons/searchfield/translations/ru.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/searchfield/translations/ru.js.br /tmp/work/dist/addons/searchfield/translations/ru.js
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/searchfield/mmenu.searchfield.min.js -> /output/addons/searchfield/mmenu.searchfield.min.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/searchfield/mmenu.searchfield.min.js.br /tmp/work/dist/addons/searchfield/mmenu.searchfield.min.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/searchfield/translations/ru.js -> /output/addons/searchfield/translations/ru.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/searchfield/translations/ru.js -> /output/addons/searchfield/translations/ru.js.gz
+2022/04/02 21:02:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/setselected/options.min.js /tmp/work/dist/addons/setselected/options.js
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/searchfield/translations/sk.min.js -> /output/addons/searchfield/translations/sk.min.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/searchfield/translations/sk.min.js.br /tmp/work/dist/addons/searchfield/translations/sk.min.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/searchfield/translations/sk.min.js -> /output/addons/searchfield/translations/sk.min.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/searchfield/translations/sk.min.js -> /output/addons/searchfield/translations/sk.min.js.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/searchfield/translations/sk.js -> /output/addons/searchfield/translations/sk.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/searchfield/translations/sk.js.br /tmp/work/dist/addons/searchfield/translations/sk.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/searchfield/translations/sk.js -> /output/addons/searchfield/translations/sk.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/searchfield/translations/sk.js -> /output/addons/searchfield/translations/sk.js.gz
+2022/04/02 21:02:04 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/addons/sidebar/mmenu.sidebar.min.css /tmp/work/dist/addons/sidebar/mmenu.sidebar.css
+2022/04/02 21:02:04 br /tmp/work/dist/addons/searchfield/mmenu.searchfield.min.js -> /output/addons/searchfield/mmenu.searchfield.min.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/searchfield/mmenu.searchfield.min.js -> /output/addons/searchfield/mmenu.searchfield.min.js.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/searchfield/mmenu.searchfield.js -> /output/addons/searchfield/mmenu.searchfield.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/searchfield/mmenu.searchfield.js.br /tmp/work/dist/addons/searchfield/mmenu.searchfield.js
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/sectionindexer/mmenu.sectionindexer.min.css -> /output/addons/sectionindexer/mmenu.sectionindexer.min.css.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/sectionindexer/mmenu.sectionindexer.min.css.br /tmp/work/dist/addons/sectionindexer/mmenu.sectionindexer.min.css
+2022/04/02 21:02:04 br /tmp/work/dist/addons/sectionindexer/mmenu.sectionindexer.min.css -> /output/addons/sectionindexer/mmenu.sectionindexer.min.css.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/sectionindexer/mmenu.sectionindexer.min.css -> /output/addons/sectionindexer/mmenu.sectionindexer.min.css.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/sectionindexer/mmenu.sectionindexer.css -> /output/addons/sectionindexer/mmenu.sectionindexer.css.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/sectionindexer/mmenu.sectionindexer.css.br /tmp/work/dist/addons/sectionindexer/mmenu.sectionindexer.css
+2022/04/02 21:02:04 br /tmp/work/dist/addons/sectionindexer/mmenu.sectionindexer.css -> /output/addons/sectionindexer/mmenu.sectionindexer.css.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/sectionindexer/mmenu.sectionindexer.css -> /output/addons/sectionindexer/mmenu.sectionindexer.css.gz
+2022/04/02 21:02:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/sidebar/mmenu.sidebar.min.js /tmp/work/dist/addons/sidebar/mmenu.sidebar.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/searchfield/mmenu.searchfield.js -> /output/addons/searchfield/mmenu.searchfield.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/searchfield/mmenu.searchfield.js -> /output/addons/searchfield/mmenu.searchfield.js.gz
+2022/04/02 21:02:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/addons/sidebar/options.min.js /tmp/work/dist/addons/sidebar/options.js
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/sectionindexer/options.min.js -> /output/addons/sectionindexer/options.min.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/sectionindexer/options.min.js.br /tmp/work/dist/addons/sectionindexer/options.min.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/sectionindexer/options.min.js -> /output/addons/sectionindexer/options.min.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/sectionindexer/options.min.js -> /output/addons/sectionindexer/options.min.js.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/sectionindexer/options.js -> /output/addons/sectionindexer/options.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/sectionindexer/options.js.br /tmp/work/dist/addons/sectionindexer/options.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/sectionindexer/options.js -> /output/addons/sectionindexer/options.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/sectionindexer/options.js -> /output/addons/sectionindexer/options.js.gz
+2022/04/02 21:02:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/core/offcanvas/configs.min.js /tmp/work/dist/core/offcanvas/configs.js
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/sectionindexer/mmenu.sectionindexer.min.js -> /output/addons/sectionindexer/mmenu.sectionindexer.min.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/sectionindexer/mmenu.sectionindexer.min.js.br /tmp/work/dist/addons/sectionindexer/mmenu.sectionindexer.min.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/sectionindexer/mmenu.sectionindexer.min.js -> /output/addons/sectionindexer/mmenu.sectionindexer.min.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/sectionindexer/mmenu.sectionindexer.min.js -> /output/addons/sectionindexer/mmenu.sectionindexer.min.js.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/sectionindexer/mmenu.sectionindexer.js -> /output/addons/sectionindexer/mmenu.sectionindexer.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/sectionindexer/mmenu.sectionindexer.js.br /tmp/work/dist/addons/sectionindexer/mmenu.sectionindexer.js
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/setselected/mmenu.setselected.min.css -> /output/addons/setselected/mmenu.setselected.min.css.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/setselected/mmenu.setselected.min.css.br /tmp/work/dist/addons/setselected/mmenu.setselected.min.css
+2022/04/02 21:02:04 br /tmp/work/dist/addons/sectionindexer/mmenu.sectionindexer.js -> /output/addons/sectionindexer/mmenu.sectionindexer.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/sectionindexer/mmenu.sectionindexer.js -> /output/addons/sectionindexer/mmenu.sectionindexer.js.gz
+2022/04/02 21:02:04 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/core/offcanvas/mmenu.offcanvas.min.css /tmp/work/dist/core/offcanvas/mmenu.offcanvas.css
+2022/04/02 21:02:04 br /tmp/work/dist/addons/setselected/mmenu.setselected.min.css -> /output/addons/setselected/mmenu.setselected.min.css.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/setselected/mmenu.setselected.min.css -> /output/addons/setselected/mmenu.setselected.min.css.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/setselected/mmenu.setselected.css -> /output/addons/setselected/mmenu.setselected.css.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/setselected/mmenu.setselected.css.br /tmp/work/dist/addons/setselected/mmenu.setselected.css
+2022/04/02 21:02:04 br /tmp/work/dist/addons/setselected/mmenu.setselected.css -> /output/addons/setselected/mmenu.setselected.css.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/setselected/mmenu.setselected.css -> /output/addons/setselected/mmenu.setselected.css.gz
+2022/04/02 21:02:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/core/offcanvas/mmenu.offcanvas.min.js /tmp/work/dist/core/offcanvas/mmenu.offcanvas.js
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/setselected/options.min.js -> /output/addons/setselected/options.min.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/setselected/options.min.js.br /tmp/work/dist/addons/setselected/options.min.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/setselected/options.min.js -> /output/addons/setselected/options.min.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/setselected/options.min.js -> /output/addons/setselected/options.min.js.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/setselected/options.js -> /output/addons/setselected/options.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/setselected/options.js.br /tmp/work/dist/addons/setselected/options.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/setselected/options.js -> /output/addons/setselected/options.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/setselected/options.js -> /output/addons/setselected/options.js.gz
+2022/04/02 21:02:04 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/core/offcanvas/mmenu.positioning.min.css /tmp/work/dist/core/offcanvas/mmenu.positioning.css
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/setselected/mmenu.setselected.min.js -> /output/addons/setselected/mmenu.setselected.min.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/setselected/mmenu.setselected.min.js.br /tmp/work/dist/addons/setselected/mmenu.setselected.min.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/setselected/mmenu.setselected.min.js -> /output/addons/setselected/mmenu.setselected.min.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/setselected/mmenu.setselected.min.js -> /output/addons/setselected/mmenu.setselected.min.js.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/setselected/mmenu.setselected.js -> /output/addons/setselected/mmenu.setselected.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/setselected/mmenu.setselected.js.br /tmp/work/dist/addons/setselected/mmenu.setselected.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/setselected/mmenu.setselected.js -> /output/addons/setselected/mmenu.setselected.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/setselected/mmenu.setselected.js -> /output/addons/setselected/mmenu.setselected.js.gz
+2022/04/02 21:02:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/core/offcanvas/options.min.js /tmp/work/dist/core/offcanvas/options.js
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/sidebar/mmenu.sidebar.min.css -> /output/addons/sidebar/mmenu.sidebar.min.css.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/sidebar/mmenu.sidebar.min.css.br /tmp/work/dist/addons/sidebar/mmenu.sidebar.min.css
+2022/04/02 21:02:04 br /tmp/work/dist/addons/sidebar/mmenu.sidebar.min.css -> /output/addons/sidebar/mmenu.sidebar.min.css.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/sidebar/mmenu.sidebar.min.css -> /output/addons/sidebar/mmenu.sidebar.min.css.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/sidebar/mmenu.sidebar.css -> /output/addons/sidebar/mmenu.sidebar.css.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/sidebar/mmenu.sidebar.css.br /tmp/work/dist/addons/sidebar/mmenu.sidebar.css
+2022/04/02 21:02:04 br /tmp/work/dist/addons/sidebar/mmenu.sidebar.css -> /output/addons/sidebar/mmenu.sidebar.css.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/sidebar/mmenu.sidebar.css -> /output/addons/sidebar/mmenu.sidebar.css.gz
+2022/04/02 21:02:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/core/offcanvas/translations/de.min.js /tmp/work/dist/core/offcanvas/translations/de.js
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/sidebar/options.min.js -> /output/addons/sidebar/options.min.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/sidebar/options.min.js.br /tmp/work/dist/addons/sidebar/options.min.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/sidebar/options.min.js -> /output/addons/sidebar/options.min.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/sidebar/options.min.js -> /output/addons/sidebar/options.min.js.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/sidebar/options.js -> /output/addons/sidebar/options.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/sidebar/options.js.br /tmp/work/dist/addons/sidebar/options.js
+2022/04/02 21:02:04 br /tmp/work/dist/addons/sidebar/options.js -> /output/addons/sidebar/options.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/sidebar/options.js -> /output/addons/sidebar/options.js.gz
+2022/04/02 21:02:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/core/offcanvas/translations/fa.min.js /tmp/work/dist/core/offcanvas/translations/fa.js
+2022/04/02 21:02:04 sri /tmp/work/dist/core/offcanvas/configs.min.js -> /output/core/offcanvas/configs.min.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/offcanvas/configs.min.js.br /tmp/work/dist/core/offcanvas/configs.min.js
+2022/04/02 21:02:04 br /tmp/work/dist/core/offcanvas/configs.min.js -> /output/core/offcanvas/configs.min.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/core/offcanvas/configs.min.js -> /output/core/offcanvas/configs.min.js.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/core/offcanvas/configs.js -> /output/core/offcanvas/configs.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/offcanvas/configs.js.br /tmp/work/dist/core/offcanvas/configs.js
+2022/04/02 21:02:04 br /tmp/work/dist/core/offcanvas/configs.js -> /output/core/offcanvas/configs.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/core/offcanvas/configs.js -> /output/core/offcanvas/configs.js.gz
+2022/04/02 21:02:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/core/offcanvas/translations/index.min.js /tmp/work/dist/core/offcanvas/translations/index.js
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/sidebar/mmenu.sidebar.min.js -> /output/addons/sidebar/mmenu.sidebar.min.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/sidebar/mmenu.sidebar.min.js.br /tmp/work/dist/addons/sidebar/mmenu.sidebar.min.js
+2022/04/02 21:02:04 sri /tmp/work/dist/core/offcanvas/mmenu.offcanvas.min.css -> /output/core/offcanvas/mmenu.offcanvas.min.css.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/offcanvas/mmenu.offcanvas.min.css.br /tmp/work/dist/core/offcanvas/mmenu.offcanvas.min.css
+2022/04/02 21:02:04 br /tmp/work/dist/addons/sidebar/mmenu.sidebar.min.js -> /output/addons/sidebar/mmenu.sidebar.min.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/sidebar/mmenu.sidebar.min.js -> /output/addons/sidebar/mmenu.sidebar.min.js.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/addons/sidebar/mmenu.sidebar.js -> /output/addons/sidebar/mmenu.sidebar.js.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/addons/sidebar/mmenu.sidebar.js.br /tmp/work/dist/addons/sidebar/mmenu.sidebar.js
+2022/04/02 21:02:04 br /tmp/work/dist/core/offcanvas/mmenu.offcanvas.min.css -> /output/core/offcanvas/mmenu.offcanvas.min.css.br
+2022/04/02 21:02:04 gz /tmp/work/dist/core/offcanvas/mmenu.offcanvas.min.css -> /output/core/offcanvas/mmenu.offcanvas.min.css.gz
+2022/04/02 21:02:04 sri /tmp/work/dist/core/offcanvas/mmenu.offcanvas.css -> /output/core/offcanvas/mmenu.offcanvas.css.sri
+2022/04/02 21:02:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/offcanvas/mmenu.offcanvas.css.br /tmp/work/dist/core/offcanvas/mmenu.offcanvas.css
+2022/04/02 21:02:04 br /tmp/work/dist/addons/sidebar/mmenu.sidebar.js -> /output/addons/sidebar/mmenu.sidebar.js.br
+2022/04/02 21:02:04 gz /tmp/work/dist/addons/sidebar/mmenu.sidebar.js -> /output/addons/sidebar/mmenu.sidebar.js.gz
+2022/04/02 21:02:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/core/offcanvas/translations/nl.min.js /tmp/work/dist/core/offcanvas/translations/nl.js
+2022/04/02 21:02:04 br /tmp/work/dist/core/offcanvas/mmenu.offcanvas.css -> /output/core/offcanvas/mmenu.offcanvas.css.br
+2022/04/02 21:02:04 gz /tmp/work/dist/core/offcanvas/mmenu.offcanvas.css -> /output/core/offcanvas/mmenu.offcanvas.css.gz
+2022/04/02 21:02:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/core/offcanvas/translations/pt_br.min.js /tmp/work/dist/core/offcanvas/translations/pt_br.js
+2022/04/02 21:02:05 sri /tmp/work/dist/core/offcanvas/mmenu.positioning.min.css -> /output/core/offcanvas/mmenu.positioning.min.css.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/offcanvas/mmenu.positioning.min.css.br /tmp/work/dist/core/offcanvas/mmenu.positioning.min.css
+2022/04/02 21:02:05 sri /tmp/work/dist/core/offcanvas/options.min.js -> /output/core/offcanvas/options.min.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/offcanvas/options.min.js.br /tmp/work/dist/core/offcanvas/options.min.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/offcanvas/options.min.js -> /output/core/offcanvas/options.min.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/offcanvas/options.min.js -> /output/core/offcanvas/options.min.js.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/core/offcanvas/options.js -> /output/core/offcanvas/options.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/offcanvas/options.js.br /tmp/work/dist/core/offcanvas/options.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/offcanvas/options.js -> /output/core/offcanvas/options.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/offcanvas/options.js -> /output/core/offcanvas/options.js.gz
+2022/04/02 21:02:05 br /tmp/work/dist/core/offcanvas/mmenu.positioning.min.css -> /output/core/offcanvas/mmenu.positioning.min.css.br
+2022/04/02 21:02:05 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/core/offcanvas/translations/ru.min.js /tmp/work/dist/core/offcanvas/translations/ru.js
+2022/04/02 21:02:05 gz /tmp/work/dist/core/offcanvas/mmenu.positioning.min.css -> /output/core/offcanvas/mmenu.positioning.min.css.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/core/offcanvas/mmenu.positioning.css -> /output/core/offcanvas/mmenu.positioning.css.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/offcanvas/mmenu.positioning.css.br /tmp/work/dist/core/offcanvas/mmenu.positioning.css
+2022/04/02 21:02:05 sri /tmp/work/dist/core/offcanvas/translations/de.min.js -> /output/core/offcanvas/translations/de.min.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/offcanvas/translations/de.min.js.br /tmp/work/dist/core/offcanvas/translations/de.min.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/offcanvas/mmenu.positioning.css -> /output/core/offcanvas/mmenu.positioning.css.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/offcanvas/mmenu.positioning.css -> /output/core/offcanvas/mmenu.positioning.css.gz
+2022/04/02 21:02:05 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/core/offcanvas/translations/sk.min.js /tmp/work/dist/core/offcanvas/translations/sk.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/offcanvas/translations/de.min.js -> /output/core/offcanvas/translations/de.min.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/offcanvas/translations/de.min.js -> /output/core/offcanvas/translations/de.min.js.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/core/offcanvas/translations/de.js -> /output/core/offcanvas/translations/de.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/offcanvas/translations/de.js.br /tmp/work/dist/core/offcanvas/translations/de.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/offcanvas/translations/de.js -> /output/core/offcanvas/translations/de.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/offcanvas/translations/de.js -> /output/core/offcanvas/translations/de.js.gz
+2022/04/02 21:02:05 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/core/oncanvas/configs.min.js /tmp/work/dist/core/oncanvas/configs.js
+2022/04/02 21:02:05 sri /tmp/work/dist/core/offcanvas/translations/fa.min.js -> /output/core/offcanvas/translations/fa.min.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/offcanvas/translations/fa.min.js.br /tmp/work/dist/core/offcanvas/translations/fa.min.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/offcanvas/translations/fa.min.js -> /output/core/offcanvas/translations/fa.min.js.br
+2022/04/02 21:02:05 sri /tmp/work/dist/core/offcanvas/translations/index.min.js -> /output/core/offcanvas/translations/index.min.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/offcanvas/translations/index.min.js.br /tmp/work/dist/core/offcanvas/translations/index.min.js
+2022/04/02 21:02:05 sri /tmp/work/dist/core/offcanvas/mmenu.offcanvas.min.js -> /output/core/offcanvas/mmenu.offcanvas.min.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/offcanvas/mmenu.offcanvas.min.js.br /tmp/work/dist/core/offcanvas/mmenu.offcanvas.min.js
+2022/04/02 21:02:05 gz /tmp/work/dist/core/offcanvas/translations/fa.min.js -> /output/core/offcanvas/translations/fa.min.js.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/core/offcanvas/translations/fa.js -> /output/core/offcanvas/translations/fa.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/offcanvas/translations/fa.js.br /tmp/work/dist/core/offcanvas/translations/fa.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/offcanvas/translations/index.min.js -> /output/core/offcanvas/translations/index.min.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/offcanvas/translations/index.min.js -> /output/core/offcanvas/translations/index.min.js.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/core/offcanvas/translations/index.js -> /output/core/offcanvas/translations/index.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/offcanvas/translations/index.js.br /tmp/work/dist/core/offcanvas/translations/index.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/offcanvas/translations/fa.js -> /output/core/offcanvas/translations/fa.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/offcanvas/translations/fa.js -> /output/core/offcanvas/translations/fa.js.gz
+2022/04/02 21:02:05 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/core/oncanvas/mmenu.oncanvas.min.css /tmp/work/dist/core/oncanvas/mmenu.oncanvas.css
+2022/04/02 21:02:05 br /tmp/work/dist/core/offcanvas/translations/index.js -> /output/core/offcanvas/translations/index.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/offcanvas/translations/index.js -> /output/core/offcanvas/translations/index.js.gz
+2022/04/02 21:02:05 br /tmp/work/dist/core/offcanvas/mmenu.offcanvas.min.js -> /output/core/offcanvas/mmenu.offcanvas.min.js.br
+2022/04/02 21:02:05 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/core/oncanvas/mmenu.oncanvas.min.js /tmp/work/dist/core/oncanvas/mmenu.oncanvas.js
+2022/04/02 21:02:05 gz /tmp/work/dist/core/offcanvas/mmenu.offcanvas.min.js -> /output/core/offcanvas/mmenu.offcanvas.min.js.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/core/offcanvas/mmenu.offcanvas.js -> /output/core/offcanvas/mmenu.offcanvas.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/offcanvas/mmenu.offcanvas.js.br /tmp/work/dist/core/offcanvas/mmenu.offcanvas.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/offcanvas/mmenu.offcanvas.js -> /output/core/offcanvas/mmenu.offcanvas.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/offcanvas/mmenu.offcanvas.js -> /output/core/offcanvas/mmenu.offcanvas.js.gz
+2022/04/02 21:02:05 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/core/oncanvas/options.min.js /tmp/work/dist/core/oncanvas/options.js
+2022/04/02 21:02:05 sri /tmp/work/dist/core/offcanvas/translations/pt_br.min.js -> /output/core/offcanvas/translations/pt_br.min.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/offcanvas/translations/pt_br.min.js.br /tmp/work/dist/core/offcanvas/translations/pt_br.min.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/offcanvas/translations/pt_br.min.js -> /output/core/offcanvas/translations/pt_br.min.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/offcanvas/translations/pt_br.min.js -> /output/core/offcanvas/translations/pt_br.min.js.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/core/offcanvas/translations/pt_br.js -> /output/core/offcanvas/translations/pt_br.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/offcanvas/translations/pt_br.js.br /tmp/work/dist/core/offcanvas/translations/pt_br.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/offcanvas/translations/pt_br.js -> /output/core/offcanvas/translations/pt_br.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/offcanvas/translations/pt_br.js -> /output/core/offcanvas/translations/pt_br.js.gz
+2022/04/02 21:02:05 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/core/oncanvas/translations/de.min.js /tmp/work/dist/core/oncanvas/translations/de.js
+2022/04/02 21:02:05 sri /tmp/work/dist/core/offcanvas/translations/nl.min.js -> /output/core/offcanvas/translations/nl.min.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/offcanvas/translations/nl.min.js.br /tmp/work/dist/core/offcanvas/translations/nl.min.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/offcanvas/translations/nl.min.js -> /output/core/offcanvas/translations/nl.min.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/offcanvas/translations/nl.min.js -> /output/core/offcanvas/translations/nl.min.js.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/core/offcanvas/translations/nl.js -> /output/core/offcanvas/translations/nl.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/offcanvas/translations/nl.js.br /tmp/work/dist/core/offcanvas/translations/nl.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/offcanvas/translations/nl.js -> /output/core/offcanvas/translations/nl.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/offcanvas/translations/nl.js -> /output/core/offcanvas/translations/nl.js.gz
+2022/04/02 21:02:05 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/core/oncanvas/translations/fa.min.js /tmp/work/dist/core/oncanvas/translations/fa.js
+2022/04/02 21:02:05 sri /tmp/work/dist/core/offcanvas/translations/sk.min.js -> /output/core/offcanvas/translations/sk.min.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/offcanvas/translations/sk.min.js.br /tmp/work/dist/core/offcanvas/translations/sk.min.js
+2022/04/02 21:02:05 sri /tmp/work/dist/core/offcanvas/translations/ru.min.js -> /output/core/offcanvas/translations/ru.min.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/offcanvas/translations/ru.min.js.br /tmp/work/dist/core/offcanvas/translations/ru.min.js
+2022/04/02 21:02:05 sri /tmp/work/dist/core/oncanvas/configs.min.js -> /output/core/oncanvas/configs.min.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/oncanvas/configs.min.js.br /tmp/work/dist/core/oncanvas/configs.min.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/offcanvas/translations/sk.min.js -> /output/core/offcanvas/translations/sk.min.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/offcanvas/translations/sk.min.js -> /output/core/offcanvas/translations/sk.min.js.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/core/offcanvas/translations/sk.js -> /output/core/offcanvas/translations/sk.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/offcanvas/translations/sk.js.br /tmp/work/dist/core/offcanvas/translations/sk.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/oncanvas/configs.min.js -> /output/core/oncanvas/configs.min.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/oncanvas/configs.min.js -> /output/core/oncanvas/configs.min.js.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/core/oncanvas/configs.js -> /output/core/oncanvas/configs.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/oncanvas/configs.js.br /tmp/work/dist/core/oncanvas/configs.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/offcanvas/translations/ru.min.js -> /output/core/offcanvas/translations/ru.min.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/offcanvas/translations/ru.min.js -> /output/core/offcanvas/translations/ru.min.js.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/core/offcanvas/translations/ru.js -> /output/core/offcanvas/translations/ru.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/offcanvas/translations/ru.js.br /tmp/work/dist/core/offcanvas/translations/ru.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/offcanvas/translations/sk.js -> /output/core/offcanvas/translations/sk.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/offcanvas/translations/sk.js -> /output/core/offcanvas/translations/sk.js.gz
+2022/04/02 21:02:05 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/core/oncanvas/translations/index.min.js /tmp/work/dist/core/oncanvas/translations/index.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/offcanvas/translations/ru.js -> /output/core/offcanvas/translations/ru.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/offcanvas/translations/ru.js -> /output/core/offcanvas/translations/ru.js.gz
+2022/04/02 21:02:05 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/core/oncanvas/translations/nl.min.js /tmp/work/dist/core/oncanvas/translations/nl.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/oncanvas/configs.js -> /output/core/oncanvas/configs.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/oncanvas/configs.js -> /output/core/oncanvas/configs.js.gz
+2022/04/02 21:02:05 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/core/oncanvas/translations/pt_br.min.js /tmp/work/dist/core/oncanvas/translations/pt_br.js
+2022/04/02 21:02:05 sri /tmp/work/dist/core/oncanvas/options.min.js -> /output/core/oncanvas/options.min.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/oncanvas/options.min.js.br /tmp/work/dist/core/oncanvas/options.min.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/oncanvas/options.min.js -> /output/core/oncanvas/options.min.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/oncanvas/options.min.js -> /output/core/oncanvas/options.min.js.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/core/oncanvas/options.js -> /output/core/oncanvas/options.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/oncanvas/options.js.br /tmp/work/dist/core/oncanvas/options.js
+2022/04/02 21:02:05 sri /tmp/work/dist/core/oncanvas/translations/de.min.js -> /output/core/oncanvas/translations/de.min.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/oncanvas/translations/de.min.js.br /tmp/work/dist/core/oncanvas/translations/de.min.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/oncanvas/options.js -> /output/core/oncanvas/options.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/oncanvas/options.js -> /output/core/oncanvas/options.js.gz
+2022/04/02 21:02:05 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/core/oncanvas/translations/ru.min.js /tmp/work/dist/core/oncanvas/translations/ru.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/oncanvas/translations/de.min.js -> /output/core/oncanvas/translations/de.min.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/oncanvas/translations/de.min.js -> /output/core/oncanvas/translations/de.min.js.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/core/oncanvas/translations/de.js -> /output/core/oncanvas/translations/de.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/oncanvas/translations/de.js.br /tmp/work/dist/core/oncanvas/translations/de.js
+2022/04/02 21:02:05 sri /tmp/work/dist/core/oncanvas/translations/fa.min.js -> /output/core/oncanvas/translations/fa.min.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/oncanvas/translations/fa.min.js.br /tmp/work/dist/core/oncanvas/translations/fa.min.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/oncanvas/translations/de.js -> /output/core/oncanvas/translations/de.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/oncanvas/translations/de.js -> /output/core/oncanvas/translations/de.js.gz
+2022/04/02 21:02:05 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/core/oncanvas/translations/sk.min.js /tmp/work/dist/core/oncanvas/translations/sk.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/oncanvas/translations/fa.min.js -> /output/core/oncanvas/translations/fa.min.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/oncanvas/translations/fa.min.js -> /output/core/oncanvas/translations/fa.min.js.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/core/oncanvas/translations/fa.js -> /output/core/oncanvas/translations/fa.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/oncanvas/translations/fa.js.br /tmp/work/dist/core/oncanvas/translations/fa.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/oncanvas/translations/fa.js -> /output/core/oncanvas/translations/fa.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/oncanvas/translations/fa.js -> /output/core/oncanvas/translations/fa.js.gz
+2022/04/02 21:02:05 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/core/scrollbugfix/mmenu.scrollbugfix.min.js /tmp/work/dist/core/scrollbugfix/mmenu.scrollbugfix.js
+2022/04/02 21:02:05 sri /tmp/work/dist/core/oncanvas/mmenu.oncanvas.min.css -> /output/core/oncanvas/mmenu.oncanvas.min.css.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/oncanvas/mmenu.oncanvas.min.css.br /tmp/work/dist/core/oncanvas/mmenu.oncanvas.min.css
+2022/04/02 21:02:05 sri /tmp/work/dist/core/oncanvas/translations/nl.min.js -> /output/core/oncanvas/translations/nl.min.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/oncanvas/translations/nl.min.js.br /tmp/work/dist/core/oncanvas/translations/nl.min.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/oncanvas/translations/nl.min.js -> /output/core/oncanvas/translations/nl.min.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/oncanvas/translations/nl.min.js -> /output/core/oncanvas/translations/nl.min.js.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/core/oncanvas/translations/nl.js -> /output/core/oncanvas/translations/nl.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/oncanvas/translations/nl.js.br /tmp/work/dist/core/oncanvas/translations/nl.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/oncanvas/mmenu.oncanvas.min.css -> /output/core/oncanvas/mmenu.oncanvas.min.css.br
+2022/04/02 21:02:05 br /tmp/work/dist/core/oncanvas/translations/nl.js -> /output/core/oncanvas/translations/nl.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/oncanvas/mmenu.oncanvas.min.css -> /output/core/oncanvas/mmenu.oncanvas.min.css.gz
+2022/04/02 21:02:05 gz /tmp/work/dist/core/oncanvas/translations/nl.js -> /output/core/oncanvas/translations/nl.js.gz
+2022/04/02 21:02:05 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/core/scrollbugfix/options.min.js /tmp/work/dist/core/scrollbugfix/options.js
+2022/04/02 21:02:05 sri /tmp/work/dist/core/oncanvas/mmenu.oncanvas.css -> /output/core/oncanvas/mmenu.oncanvas.css.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/oncanvas/mmenu.oncanvas.css.br /tmp/work/dist/core/oncanvas/mmenu.oncanvas.css
+2022/04/02 21:02:05 sri /tmp/work/dist/core/oncanvas/translations/index.min.js -> /output/core/oncanvas/translations/index.min.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/oncanvas/translations/index.min.js.br /tmp/work/dist/core/oncanvas/translations/index.min.js
+2022/04/02 21:02:05 sri /tmp/work/dist/core/oncanvas/translations/pt_br.min.js -> /output/core/oncanvas/translations/pt_br.min.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/oncanvas/translations/pt_br.min.js.br /tmp/work/dist/core/oncanvas/translations/pt_br.min.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/oncanvas/translations/index.min.js -> /output/core/oncanvas/translations/index.min.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/oncanvas/translations/index.min.js -> /output/core/oncanvas/translations/index.min.js.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/core/oncanvas/translations/index.js -> /output/core/oncanvas/translations/index.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/oncanvas/translations/index.js.br /tmp/work/dist/core/oncanvas/translations/index.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/oncanvas/translations/pt_br.min.js -> /output/core/oncanvas/translations/pt_br.min.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/oncanvas/translations/pt_br.min.js -> /output/core/oncanvas/translations/pt_br.min.js.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/core/oncanvas/translations/pt_br.js -> /output/core/oncanvas/translations/pt_br.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/oncanvas/translations/pt_br.js.br /tmp/work/dist/core/oncanvas/translations/pt_br.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/oncanvas/mmenu.oncanvas.css -> /output/core/oncanvas/mmenu.oncanvas.css.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/oncanvas/mmenu.oncanvas.css -> /output/core/oncanvas/mmenu.oncanvas.css.gz
+2022/04/02 21:02:05 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/core/theme/mmenu.theme.min.css /tmp/work/dist/core/theme/mmenu.theme.css
+2022/04/02 21:02:05 br /tmp/work/dist/core/oncanvas/translations/index.js -> /output/core/oncanvas/translations/index.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/oncanvas/translations/index.js -> /output/core/oncanvas/translations/index.js.gz
+2022/04/02 21:02:05 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/core/theme/mmenu.theme.min.js /tmp/work/dist/core/theme/mmenu.theme.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/oncanvas/translations/pt_br.js -> /output/core/oncanvas/translations/pt_br.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/oncanvas/translations/pt_br.js -> /output/core/oncanvas/translations/pt_br.js.gz
+2022/04/02 21:02:05 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/core/theme/options.min.js /tmp/work/dist/core/theme/options.js
+2022/04/02 21:02:05 sri /tmp/work/dist/core/oncanvas/translations/sk.min.js -> /output/core/oncanvas/translations/sk.min.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/oncanvas/translations/sk.min.js.br /tmp/work/dist/core/oncanvas/translations/sk.min.js
+2022/04/02 21:02:05 sri /tmp/work/dist/core/oncanvas/translations/ru.min.js -> /output/core/oncanvas/translations/ru.min.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/oncanvas/translations/ru.min.js.br /tmp/work/dist/core/oncanvas/translations/ru.min.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/oncanvas/translations/sk.min.js -> /output/core/oncanvas/translations/sk.min.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/oncanvas/translations/sk.min.js -> /output/core/oncanvas/translations/sk.min.js.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/core/oncanvas/translations/sk.js -> /output/core/oncanvas/translations/sk.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/oncanvas/translations/sk.js.br /tmp/work/dist/core/oncanvas/translations/sk.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/oncanvas/translations/ru.min.js -> /output/core/oncanvas/translations/ru.min.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/oncanvas/translations/ru.min.js -> /output/core/oncanvas/translations/ru.min.js.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/core/oncanvas/translations/ru.js -> /output/core/oncanvas/translations/ru.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/oncanvas/translations/ru.js.br /tmp/work/dist/core/oncanvas/translations/ru.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/oncanvas/translations/sk.js -> /output/core/oncanvas/translations/sk.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/oncanvas/translations/sk.js -> /output/core/oncanvas/translations/sk.js.gz
+2022/04/02 21:02:05 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/mmenu.min.css /tmp/work/dist/mmenu.css
+2022/04/02 21:02:05 br /tmp/work/dist/core/oncanvas/translations/ru.js -> /output/core/oncanvas/translations/ru.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/oncanvas/translations/ru.js -> /output/core/oncanvas/translations/ru.js.gz
+2022/04/02 21:02:05 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/mmenu.min.js /tmp/work/dist/mmenu.js
+2022/04/02 21:02:05 sri /tmp/work/dist/core/scrollbugfix/options.min.js -> /output/core/scrollbugfix/options.min.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/scrollbugfix/options.min.js.br /tmp/work/dist/core/scrollbugfix/options.min.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/scrollbugfix/options.min.js -> /output/core/scrollbugfix/options.min.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/scrollbugfix/options.min.js -> /output/core/scrollbugfix/options.min.js.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/core/scrollbugfix/options.js -> /output/core/scrollbugfix/options.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/scrollbugfix/options.js.br /tmp/work/dist/core/scrollbugfix/options.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/scrollbugfix/options.js -> /output/core/scrollbugfix/options.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/scrollbugfix/options.js -> /output/core/scrollbugfix/options.js.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/core/theme/options.min.js -> /output/core/theme/options.min.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/theme/options.min.js.br /tmp/work/dist/core/theme/options.min.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/theme/options.min.js -> /output/core/theme/options.min.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/theme/options.min.js -> /output/core/theme/options.min.js.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/core/theme/options.js -> /output/core/theme/options.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/theme/options.js.br /tmp/work/dist/core/theme/options.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/theme/options.js -> /output/core/theme/options.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/theme/options.js -> /output/core/theme/options.js.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/core/oncanvas/mmenu.oncanvas.min.js -> /output/core/oncanvas/mmenu.oncanvas.min.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/oncanvas/mmenu.oncanvas.min.js.br /tmp/work/dist/core/oncanvas/mmenu.oncanvas.min.js
+2022/04/02 21:02:05 sri /tmp/work/dist/core/scrollbugfix/mmenu.scrollbugfix.min.js -> /output/core/scrollbugfix/mmenu.scrollbugfix.min.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/scrollbugfix/mmenu.scrollbugfix.min.js.br /tmp/work/dist/core/scrollbugfix/mmenu.scrollbugfix.min.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/scrollbugfix/mmenu.scrollbugfix.min.js -> /output/core/scrollbugfix/mmenu.scrollbugfix.min.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/scrollbugfix/mmenu.scrollbugfix.min.js -> /output/core/scrollbugfix/mmenu.scrollbugfix.min.js.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/core/scrollbugfix/mmenu.scrollbugfix.js -> /output/core/scrollbugfix/mmenu.scrollbugfix.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/scrollbugfix/mmenu.scrollbugfix.js.br /tmp/work/dist/core/scrollbugfix/mmenu.scrollbugfix.js
+2022/04/02 21:02:05 sri /tmp/work/dist/core/theme/mmenu.theme.min.js -> /output/core/theme/mmenu.theme.min.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/theme/mmenu.theme.min.js.br /tmp/work/dist/core/theme/mmenu.theme.min.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/theme/mmenu.theme.min.js -> /output/core/theme/mmenu.theme.min.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/theme/mmenu.theme.min.js -> /output/core/theme/mmenu.theme.min.js.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/core/theme/mmenu.theme.js -> /output/core/theme/mmenu.theme.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/theme/mmenu.theme.js.br /tmp/work/dist/core/theme/mmenu.theme.js
+2022/04/02 21:02:05 br /tmp/work/dist/core/scrollbugfix/mmenu.scrollbugfix.js -> /output/core/scrollbugfix/mmenu.scrollbugfix.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/scrollbugfix/mmenu.scrollbugfix.js -> /output/core/scrollbugfix/mmenu.scrollbugfix.js.gz
+2022/04/02 21:02:05 br /tmp/work/dist/core/theme/mmenu.theme.js -> /output/core/theme/mmenu.theme.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/theme/mmenu.theme.js -> /output/core/theme/mmenu.theme.js.gz
+2022/04/02 21:02:05 br /tmp/work/dist/core/oncanvas/mmenu.oncanvas.min.js -> /output/core/oncanvas/mmenu.oncanvas.min.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/oncanvas/mmenu.oncanvas.min.js -> /output/core/oncanvas/mmenu.oncanvas.min.js.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/core/oncanvas/mmenu.oncanvas.js -> /output/core/oncanvas/mmenu.oncanvas.js.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/oncanvas/mmenu.oncanvas.js.br /tmp/work/dist/core/oncanvas/mmenu.oncanvas.js
+2022/04/02 21:02:05 sri /tmp/work/dist/core/theme/mmenu.theme.min.css -> /output/core/theme/mmenu.theme.min.css.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/theme/mmenu.theme.min.css.br /tmp/work/dist/core/theme/mmenu.theme.min.css
+2022/04/02 21:02:05 br /tmp/work/dist/core/theme/mmenu.theme.min.css -> /output/core/theme/mmenu.theme.min.css.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/theme/mmenu.theme.min.css -> /output/core/theme/mmenu.theme.min.css.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/core/theme/mmenu.theme.css -> /output/core/theme/mmenu.theme.css.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core/theme/mmenu.theme.css.br /tmp/work/dist/core/theme/mmenu.theme.css
+2022/04/02 21:02:05 br /tmp/work/dist/core/theme/mmenu.theme.css -> /output/core/theme/mmenu.theme.css.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/theme/mmenu.theme.css -> /output/core/theme/mmenu.theme.css.gz
+2022/04/02 21:02:05 br /tmp/work/dist/core/oncanvas/mmenu.oncanvas.js -> /output/core/oncanvas/mmenu.oncanvas.js.br
+2022/04/02 21:02:05 gz /tmp/work/dist/core/oncanvas/mmenu.oncanvas.js -> /output/core/oncanvas/mmenu.oncanvas.js.gz
+2022/04/02 21:02:05 sri /tmp/work/dist/mmenu.min.css -> /output/mmenu.min.css.sri
+2022/04/02 21:02:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mmenu.min.css.br /tmp/work/dist/mmenu.min.css
+2022/04/02 21:02:06 br /tmp/work/dist/mmenu.min.css -> /output/mmenu.min.css.br
+2022/04/02 21:02:06 gz /tmp/work/dist/mmenu.min.css -> /output/mmenu.min.css.gz
+2022/04/02 21:02:06 sri /tmp/work/dist/mmenu.css -> /output/mmenu.css.sri
+2022/04/02 21:02:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mmenu.css.br /tmp/work/dist/mmenu.css
+2022/04/02 21:02:06 br /tmp/work/dist/mmenu.css -> /output/mmenu.css.br
+2022/04/02 21:02:06 gz /tmp/work/dist/mmenu.css -> /output/mmenu.css.gz
+2022/04/02 21:02:06 sri /tmp/work/dist/mmenu.min.js -> /output/mmenu.min.js.sri
+2022/04/02 21:02:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mmenu.min.js.br /tmp/work/dist/mmenu.min.js
+2022/04/02 21:02:06 br /tmp/work/dist/mmenu.min.js -> /output/mmenu.min.js.br
+2022/04/02 21:02:06 gz /tmp/work/dist/mmenu.min.js -> /output/mmenu.min.js.gz
+2022/04/02 21:02:06 sri /tmp/work/dist/mmenu.js -> /output/mmenu.js.sri
+2022/04/02 21:02:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mmenu.js.br /tmp/work/dist/mmenu.js
+2022/04/02 21:02:06 br /tmp/work/dist/mmenu.js -> /output/mmenu.js.br
+2022/04/02 21:02:06 gz /tmp/work/dist/mmenu.js -> /output/mmenu.js.gz
+2022/04/02 21:02:06 processed mmenu-js
