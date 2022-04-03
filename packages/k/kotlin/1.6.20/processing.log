@@ -1,0 +1,23 @@
+2022/04/03 10:30:45 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/04/03 10:30:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/kotlin.min.js /tmp/work/kotlin.js
+2022/04/03 10:30:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/kotlin.js.map.br /tmp/work/kotlin.js.map
+2022/04/03 10:30:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/kotlin.meta.min.js /tmp/work/kotlin.meta.js
+2022/04/03 10:30:45 sri /tmp/work/kotlin.meta.min.js -> /output/kotlin.meta.min.js.sri
+2022/04/03 10:30:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/kotlin.meta.min.js.br /tmp/work/kotlin.meta.min.js
+2022/04/03 10:30:45 br /tmp/work/kotlin.meta.min.js -> /output/kotlin.meta.min.js.br
+2022/04/03 10:30:45 gz /tmp/work/kotlin.meta.min.js -> /output/kotlin.meta.min.js.gz
+2022/04/03 10:30:45 sri /tmp/work/kotlin.meta.js -> /output/kotlin.meta.js.sri
+2022/04/03 10:30:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/kotlin.meta.js.br /tmp/work/kotlin.meta.js
+2022/04/03 10:30:45 br /tmp/work/kotlin.meta.js -> /output/kotlin.meta.js.br
+2022/04/03 10:30:45 gz /tmp/work/kotlin.meta.js -> /output/kotlin.meta.js.gz
+2022/04/03 10:30:53 br /tmp/work/kotlin.js.map -> /output/kotlin.js.map.br
+2022/04/03 10:30:53 gz /tmp/work/kotlin.js.map -> /output/kotlin.js.map.gz
+2022/04/03 10:31:08 sri /tmp/work/kotlin.min.js -> /output/kotlin.min.js.sri
+2022/04/03 10:31:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/kotlin.min.js.br /tmp/work/kotlin.min.js
+2022/04/03 10:31:11 br /tmp/work/kotlin.min.js -> /output/kotlin.min.js.br
+2022/04/03 10:31:11 gz /tmp/work/kotlin.min.js -> /output/kotlin.min.js.gz
+2022/04/03 10:31:11 sri /tmp/work/kotlin.js -> /output/kotlin.js.sri
+2022/04/03 10:31:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/kotlin.js.br /tmp/work/kotlin.js
+2022/04/03 10:31:17 br /tmp/work/kotlin.js -> /output/kotlin.js.br
+2022/04/03 10:31:17 gz /tmp/work/kotlin.js -> /output/kotlin.js.gz
+2022/04/03 10:31:17 processed kotlin
