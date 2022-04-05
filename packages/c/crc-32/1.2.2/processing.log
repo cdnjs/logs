@@ -1,0 +1,20 @@
+2022/04/05 01:34:46 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/04/05 01:34:46 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/crc32c.min.js /tmp/work/crc32c.js
+2022/04/05 01:34:46 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/crc32.min.js /tmp/work/crc32.js
+2022/04/05 01:34:47 sri /tmp/work/crc32.min.js -> /output/crc32.min.js.sri
+2022/04/05 01:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/crc32.min.js.br /tmp/work/crc32.min.js
+2022/04/05 01:34:47 sri /tmp/work/crc32c.min.js -> /output/crc32c.min.js.sri
+2022/04/05 01:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/crc32c.min.js.br /tmp/work/crc32c.min.js
+2022/04/05 01:34:47 br /tmp/work/crc32.min.js -> /output/crc32.min.js.br
+2022/04/05 01:34:47 br /tmp/work/crc32c.min.js -> /output/crc32c.min.js.br
+2022/04/05 01:34:47 gz /tmp/work/crc32.min.js -> /output/crc32.min.js.gz
+2022/04/05 01:34:47 sri /tmp/work/crc32.js -> /output/crc32.js.sri
+2022/04/05 01:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/crc32.js.br /tmp/work/crc32.js
+2022/04/05 01:34:47 gz /tmp/work/crc32c.min.js -> /output/crc32c.min.js.gz
+2022/04/05 01:34:47 sri /tmp/work/crc32c.js -> /output/crc32c.js.sri
+2022/04/05 01:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/crc32c.js.br /tmp/work/crc32c.js
+2022/04/05 01:34:47 br /tmp/work/crc32.js -> /output/crc32.js.br
+2022/04/05 01:34:47 br /tmp/work/crc32c.js -> /output/crc32c.js.br
+2022/04/05 01:34:47 gz /tmp/work/crc32.js -> /output/crc32.js.gz
+2022/04/05 01:34:47 gz /tmp/work/crc32c.js -> /output/crc32c.js.gz
+2022/04/05 01:34:47 processed crc-32
