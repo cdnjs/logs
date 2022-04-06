@@ -1,0 +1,80 @@
+2022/04/06 14:08:12 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/04/06 14:08:12 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/lib/vc-map-overview.min.css /tmp/work/lib/vc-map-overview.css
+2022/04/06 14:08:12 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/lib/vc-navigation-sm.min.css /tmp/work/lib/vc-navigation-sm.css
+2022/04/06 14:08:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/index.umd.js.map.br /tmp/work/lib/index.umd.js.map
+2022/04/06 14:08:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/style.css.map.br /tmp/work/lib/style.css.map
+2022/04/06 14:08:12 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/lib/style.min.css /tmp/work/lib/style.css
+2022/04/06 14:08:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/vc-navigation-sm.css.map.br /tmp/work/lib/vc-navigation-sm.css.map
+2022/04/06 14:08:12 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/index.umd.min.js /tmp/work/lib/index.umd.js
+2022/04/06 14:08:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/vc-map-overview.css.map.br /tmp/work/lib/vc-map-overview.css.map
+2022/04/06 14:08:12 br /tmp/work/lib/style.css.map -> /output/lib/style.css.map.br
+2022/04/06 14:08:12 gz /tmp/work/lib/style.css.map -> /output/lib/style.css.map.gz
+2022/04/06 14:08:12 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/lib/vc-navigation.min.css /tmp/work/lib/vc-navigation.css
+2022/04/06 14:08:12 br /tmp/work/lib/vc-navigation-sm.css.map -> /output/lib/vc-navigation-sm.css.map.br
+2022/04/06 14:08:12 gz /tmp/work/lib/vc-navigation-sm.css.map -> /output/lib/vc-navigation-sm.css.map.gz
+2022/04/06 14:08:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/vc-navigation.css.map.br /tmp/work/lib/vc-navigation.css.map
+2022/04/06 14:08:13 br /tmp/work/lib/vc-map-overview.css.map -> /output/lib/vc-map-overview.css.map.br
+2022/04/06 14:08:13 gz /tmp/work/lib/vc-map-overview.css.map -> /output/lib/vc-map-overview.css.map.gz
+2022/04/06 14:08:13 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lang/en-us.min.js /tmp/work/lang/en-us.js
+2022/04/06 14:08:13 sri /tmp/work/lib/style.min.css -> /output/lib/style.min.css.sri
+2022/04/06 14:08:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/style.min.css.br /tmp/work/lib/style.min.css
+2022/04/06 14:08:13 br /tmp/work/lib/style.min.css -> /output/lib/style.min.css.br
+2022/04/06 14:08:13 gz /tmp/work/lib/style.min.css -> /output/lib/style.min.css.gz
+2022/04/06 14:08:13 sri /tmp/work/lib/style.css -> /output/lib/style.css.sri
+2022/04/06 14:08:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/style.css.br /tmp/work/lib/style.css
+2022/04/06 14:08:13 br /tmp/work/lib/vc-navigation.css.map -> /output/lib/vc-navigation.css.map.br
+2022/04/06 14:08:13 br /tmp/work/lib/style.css -> /output/lib/style.css.br
+2022/04/06 14:08:13 gz /tmp/work/lib/style.css -> /output/lib/style.css.gz
+2022/04/06 14:08:13 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lang/zh-hans.min.js /tmp/work/lang/zh-hans.js
+2022/04/06 14:08:13 gz /tmp/work/lib/vc-navigation.css.map -> /output/lib/vc-navigation.css.map.gz
+2022/04/06 14:08:13 sri /tmp/work/lib/vc-map-overview.min.css -> /output/lib/vc-map-overview.min.css.sri
+2022/04/06 14:08:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/vc-map-overview.min.css.br /tmp/work/lib/vc-map-overview.min.css
+2022/04/06 14:08:13 sri /tmp/work/lib/vc-navigation.min.css -> /output/lib/vc-navigation.min.css.sri
+2022/04/06 14:08:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/vc-navigation.min.css.br /tmp/work/lib/vc-navigation.min.css
+2022/04/06 14:08:13 br /tmp/work/lib/vc-navigation.min.css -> /output/lib/vc-navigation.min.css.br
+2022/04/06 14:08:13 gz /tmp/work/lib/vc-navigation.min.css -> /output/lib/vc-navigation.min.css.gz
+2022/04/06 14:08:13 sri /tmp/work/lib/vc-navigation.css -> /output/lib/vc-navigation.css.sri
+2022/04/06 14:08:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/vc-navigation.css.br /tmp/work/lib/vc-navigation.css
+2022/04/06 14:08:13 sri /tmp/work/lang/en-us.min.js -> /output/lang/en-us.min.js.sri
+2022/04/06 14:08:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lang/en-us.min.js.br /tmp/work/lang/en-us.min.js
+2022/04/06 14:08:13 br /tmp/work/lib/vc-navigation.css -> /output/lib/vc-navigation.css.br
+2022/04/06 14:08:13 gz /tmp/work/lib/vc-navigation.css -> /output/lib/vc-navigation.css.gz
+2022/04/06 14:08:13 br /tmp/work/lang/en-us.min.js -> /output/lang/en-us.min.js.br
+2022/04/06 14:08:13 gz /tmp/work/lang/en-us.min.js -> /output/lang/en-us.min.js.gz
+2022/04/06 14:08:13 sri /tmp/work/lang/en-us.js -> /output/lang/en-us.js.sri
+2022/04/06 14:08:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lang/en-us.js.br /tmp/work/lang/en-us.js
+2022/04/06 14:08:13 br /tmp/work/lang/en-us.js -> /output/lang/en-us.js.br
+2022/04/06 14:08:13 sri /tmp/work/lib/vc-navigation-sm.min.css -> /output/lib/vc-navigation-sm.min.css.sri
+2022/04/06 14:08:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/vc-navigation-sm.min.css.br /tmp/work/lib/vc-navigation-sm.min.css
+2022/04/06 14:08:13 gz /tmp/work/lang/en-us.js -> /output/lang/en-us.js.gz
+2022/04/06 14:08:13 br /tmp/work/lib/vc-map-overview.min.css -> /output/lib/vc-map-overview.min.css.br
+2022/04/06 14:08:13 gz /tmp/work/lib/vc-map-overview.min.css -> /output/lib/vc-map-overview.min.css.gz
+2022/04/06 14:08:13 sri /tmp/work/lib/vc-map-overview.css -> /output/lib/vc-map-overview.css.sri
+2022/04/06 14:08:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/vc-map-overview.css.br /tmp/work/lib/vc-map-overview.css
+2022/04/06 14:08:13 sri /tmp/work/lang/zh-hans.min.js -> /output/lang/zh-hans.min.js.sri
+2022/04/06 14:08:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lang/zh-hans.min.js.br /tmp/work/lang/zh-hans.min.js
+2022/04/06 14:08:13 br /tmp/work/lang/zh-hans.min.js -> /output/lang/zh-hans.min.js.br
+2022/04/06 14:08:13 gz /tmp/work/lang/zh-hans.min.js -> /output/lang/zh-hans.min.js.gz
+2022/04/06 14:08:13 sri /tmp/work/lang/zh-hans.js -> /output/lang/zh-hans.js.sri
+2022/04/06 14:08:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lang/zh-hans.js.br /tmp/work/lang/zh-hans.js
+2022/04/06 14:08:13 br /tmp/work/lang/zh-hans.js -> /output/lang/zh-hans.js.br
+2022/04/06 14:08:13 gz /tmp/work/lang/zh-hans.js -> /output/lang/zh-hans.js.gz
+2022/04/06 14:08:13 br /tmp/work/lib/vc-navigation-sm.min.css -> /output/lib/vc-navigation-sm.min.css.br
+2022/04/06 14:08:13 br /tmp/work/lib/vc-map-overview.css -> /output/lib/vc-map-overview.css.br
+2022/04/06 14:08:13 gz /tmp/work/lib/vc-navigation-sm.min.css -> /output/lib/vc-navigation-sm.min.css.gz
+2022/04/06 14:08:13 sri /tmp/work/lib/vc-navigation-sm.css -> /output/lib/vc-navigation-sm.css.sri
+2022/04/06 14:08:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/vc-navigation-sm.css.br /tmp/work/lib/vc-navigation-sm.css
+2022/04/06 14:08:13 gz /tmp/work/lib/vc-map-overview.css -> /output/lib/vc-map-overview.css.gz
+2022/04/06 14:08:13 br /tmp/work/lib/vc-navigation-sm.css -> /output/lib/vc-navigation-sm.css.br
+2022/04/06 14:08:13 gz /tmp/work/lib/vc-navigation-sm.css -> /output/lib/vc-navigation-sm.css.gz
+2022/04/06 14:08:22 br /tmp/work/lib/index.umd.js.map -> /output/lib/index.umd.js.map.br
+2022/04/06 14:08:22 gz /tmp/work/lib/index.umd.js.map -> /output/lib/index.umd.js.map.gz
+2022/04/06 14:08:28 sri /tmp/work/lib/index.umd.min.js -> /output/lib/index.umd.min.js.sri
+2022/04/06 14:08:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/index.umd.min.js.br /tmp/work/lib/index.umd.min.js
+2022/04/06 14:08:30 br /tmp/work/lib/index.umd.min.js -> /output/lib/index.umd.min.js.br
+2022/04/06 14:08:31 gz /tmp/work/lib/index.umd.min.js -> /output/lib/index.umd.min.js.gz
+2022/04/06 14:08:31 sri /tmp/work/lib/index.umd.js -> /output/lib/index.umd.js.sri
+2022/04/06 14:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/index.umd.js.br /tmp/work/lib/index.umd.js
+2022/04/06 14:08:36 br /tmp/work/lib/index.umd.js -> /output/lib/index.umd.js.br
+2022/04/06 14:08:36 gz /tmp/work/lib/index.umd.js -> /output/lib/index.umd.js.gz
+2022/04/06 14:08:36 processed vue-cesium
