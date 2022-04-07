@@ -1,0 +1,75 @@
+2022/04/07 20:01:21 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/04/07 20:01:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/custom-elements.min.js /tmp/work/dist/custom-elements.js
+2022/04/07 20:01:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/design-tokens.d.ts.br /tmp/work/dist/design-tokens.d.ts
+2022/04/07 20:01:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/design-tokens.min.js /tmp/work/dist/design-tokens.js
+2022/04/07 20:01:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index-rollup.d.ts.br /tmp/work/dist/index-rollup.d.ts
+2022/04/07 20:01:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index-rollup.min.js /tmp/work/dist/index-rollup.js
+2022/04/07 20:01:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.d.ts.br /tmp/work/dist/index.d.ts
+2022/04/07 20:01:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.min.js /tmp/work/dist/index.js
+2022/04/07 20:01:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/custom-elements.d.ts.br /tmp/work/dist/custom-elements.d.ts
+2022/04/07 20:01:21 br /tmp/work/dist/index.d.ts -> /output/index.d.ts.br
+2022/04/07 20:01:21 br /tmp/work/dist/index-rollup.d.ts -> /output/index-rollup.d.ts.br
+2022/04/07 20:01:21 gz /tmp/work/dist/index.d.ts -> /output/index.d.ts.gz
+2022/04/07 20:01:21 gz /tmp/work/dist/index-rollup.d.ts -> /output/index-rollup.d.ts.gz
+2022/04/07 20:01:21 compressed file already exists: /tmp/work/dist/toolkit.min.js
+2022/04/07 20:01:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/toolkit.d.ts.br /tmp/work/dist/toolkit.d.ts
+2022/04/07 20:01:21 sri /tmp/work/dist/toolkit.js -> /output/toolkit.js.sri
+2022/04/07 20:01:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/toolkit.js.br /tmp/work/dist/toolkit.js
+2022/04/07 20:01:21 br /tmp/work/dist/design-tokens.d.ts -> /output/design-tokens.d.ts.br
+2022/04/07 20:01:21 gz /tmp/work/dist/design-tokens.d.ts -> /output/design-tokens.d.ts.gz
+2022/04/07 20:01:21 /tmp/work/dist/toolkit.min.js.min.js compressed file already exists
+2022/04/07 20:01:21 sri /tmp/work/dist/toolkit.min.js -> /output/toolkit.min.js.sri
+2022/04/07 20:01:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/toolkit.min.js.br /tmp/work/dist/toolkit.min.js
+2022/04/07 20:01:21 br /tmp/work/dist/custom-elements.d.ts -> /output/custom-elements.d.ts.br
+2022/04/07 20:01:21 gz /tmp/work/dist/custom-elements.d.ts -> /output/custom-elements.d.ts.gz
+2022/04/07 20:01:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vscode-design-system.d.ts.br /tmp/work/dist/vscode-design-system.d.ts
+2022/04/07 20:01:21 br /tmp/work/dist/vscode-design-system.d.ts -> /output/vscode-design-system.d.ts.br
+2022/04/07 20:01:21 gz /tmp/work/dist/vscode-design-system.d.ts -> /output/vscode-design-system.d.ts.gz
+2022/04/07 20:01:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/vscode-design-system.min.js /tmp/work/dist/vscode-design-system.js
+2022/04/07 20:01:21 br /tmp/work/dist/toolkit.d.ts -> /output/toolkit.d.ts.br
+2022/04/07 20:01:21 gz /tmp/work/dist/toolkit.d.ts -> /output/toolkit.d.ts.gz
+2022/04/07 20:01:22 sri /tmp/work/dist/index.min.js -> /output/index.min.js.sri
+2022/04/07 20:01:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/dist/index.min.js
+2022/04/07 20:01:22 br /tmp/work/dist/index.min.js -> /output/index.min.js.br
+2022/04/07 20:01:22 gz /tmp/work/dist/index.min.js -> /output/index.min.js.gz
+2022/04/07 20:01:22 sri /tmp/work/dist/index.js -> /output/index.js.sri
+2022/04/07 20:01:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/dist/index.js
+2022/04/07 20:01:22 sri /tmp/work/dist/index-rollup.min.js -> /output/index-rollup.min.js.sri
+2022/04/07 20:01:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index-rollup.min.js.br /tmp/work/dist/index-rollup.min.js
+2022/04/07 20:01:22 br /tmp/work/dist/index.js -> /output/index.js.br
+2022/04/07 20:01:22 gz /tmp/work/dist/index.js -> /output/index.js.gz
+2022/04/07 20:01:22 br /tmp/work/dist/index-rollup.min.js -> /output/index-rollup.min.js.br
+2022/04/07 20:01:22 gz /tmp/work/dist/index-rollup.min.js -> /output/index-rollup.min.js.gz
+2022/04/07 20:01:22 sri /tmp/work/dist/index-rollup.js -> /output/index-rollup.js.sri
+2022/04/07 20:01:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index-rollup.js.br /tmp/work/dist/index-rollup.js
+2022/04/07 20:01:22 br /tmp/work/dist/index-rollup.js -> /output/index-rollup.js.br
+2022/04/07 20:01:22 sri /tmp/work/dist/custom-elements.min.js -> /output/custom-elements.min.js.sri
+2022/04/07 20:01:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/custom-elements.min.js.br /tmp/work/dist/custom-elements.min.js
+2022/04/07 20:01:22 gz /tmp/work/dist/index-rollup.js -> /output/index-rollup.js.gz
+2022/04/07 20:01:22 br /tmp/work/dist/custom-elements.min.js -> /output/custom-elements.min.js.br
+2022/04/07 20:01:22 gz /tmp/work/dist/custom-elements.min.js -> /output/custom-elements.min.js.gz
+2022/04/07 20:01:22 sri /tmp/work/dist/custom-elements.js -> /output/custom-elements.js.sri
+2022/04/07 20:01:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/custom-elements.js.br /tmp/work/dist/custom-elements.js
+2022/04/07 20:01:22 br /tmp/work/dist/custom-elements.js -> /output/custom-elements.js.br
+2022/04/07 20:01:22 gz /tmp/work/dist/custom-elements.js -> /output/custom-elements.js.gz
+2022/04/07 20:01:22 sri /tmp/work/dist/design-tokens.min.js -> /output/design-tokens.min.js.sri
+2022/04/07 20:01:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/design-tokens.min.js.br /tmp/work/dist/design-tokens.min.js
+2022/04/07 20:01:22 sri /tmp/work/dist/vscode-design-system.min.js -> /output/vscode-design-system.min.js.sri
+2022/04/07 20:01:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vscode-design-system.min.js.br /tmp/work/dist/vscode-design-system.min.js
+2022/04/07 20:01:22 br /tmp/work/dist/vscode-design-system.min.js -> /output/vscode-design-system.min.js.br
+2022/04/07 20:01:22 gz /tmp/work/dist/vscode-design-system.min.js -> /output/vscode-design-system.min.js.gz
+2022/04/07 20:01:22 sri /tmp/work/dist/vscode-design-system.js -> /output/vscode-design-system.js.sri
+2022/04/07 20:01:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vscode-design-system.js.br /tmp/work/dist/vscode-design-system.js
+2022/04/07 20:01:22 br /tmp/work/dist/vscode-design-system.js -> /output/vscode-design-system.js.br
+2022/04/07 20:01:22 gz /tmp/work/dist/vscode-design-system.js -> /output/vscode-design-system.js.gz
+2022/04/07 20:01:22 br /tmp/work/dist/design-tokens.min.js -> /output/design-tokens.min.js.br
+2022/04/07 20:01:22 gz /tmp/work/dist/design-tokens.min.js -> /output/design-tokens.min.js.gz
+2022/04/07 20:01:22 sri /tmp/work/dist/design-tokens.js -> /output/design-tokens.js.sri
+2022/04/07 20:01:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/design-tokens.js.br /tmp/work/dist/design-tokens.js
+2022/04/07 20:01:22 br /tmp/work/dist/design-tokens.js -> /output/design-tokens.js.br
+2022/04/07 20:01:22 gz /tmp/work/dist/design-tokens.js -> /output/design-tokens.js.gz
+2022/04/07 20:01:22 br /tmp/work/dist/toolkit.min.js -> /output/toolkit.min.js.br
+2022/04/07 20:01:22 gz /tmp/work/dist/toolkit.min.js -> /output/toolkit.min.js.gz
+2022/04/07 20:01:22 br /tmp/work/dist/toolkit.js -> /output/toolkit.js.br
+2022/04/07 20:01:22 gz /tmp/work/dist/toolkit.js -> /output/toolkit.js.gz
+2022/04/07 20:01:22 processed vscode-webview-ui-toolkit
