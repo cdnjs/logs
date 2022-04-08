@@ -1,0 +1,84 @@
+2022/04/08 19:06:10 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/04/08 19:06:10 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esri-leaflet-geocoder-debug.min.js /tmp/work/dist/esri-leaflet-geocoder-debug.js
+2022/04/08 19:06:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esri-leaflet-geocoder-debug.js.map.br /tmp/work/dist/esri-leaflet-geocoder-debug.js.map
+2022/04/08 19:06:10 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/esri-leaflet-geocoder.min.css /tmp/work/dist/esri-leaflet-geocoder.css
+2022/04/08 19:06:10 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esri-leaflet-geocoder.min.js /tmp/work/dist/esri-leaflet-geocoder.js
+2022/04/08 19:06:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/img/loading.gif.br /tmp/work/dist/img/loading.gif
+2022/04/08 19:06:10 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/dist/img/search-disabled.png /tmp/work/dist/img/search-disabled.png
+2022/04/08 19:06:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esri-leaflet-geocoder.js.map.br /tmp/work/dist/esri-leaflet-geocoder.js.map
+2022/04/08 19:06:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/img/loading@2x.gif.br /tmp/work/dist/img/loading@2x.gif
+2022/04/08 19:06:10 br /tmp/work/dist/img/loading.gif -> /output/img/loading.gif.br
+2022/04/08 19:06:10 gz /tmp/work/dist/img/loading.gif -> /output/img/loading.gif.gz
+2022/04/08 19:06:10 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/dist/img/search.png /tmp/work/dist/img/search.png
+2022/04/08 19:06:10 br /tmp/work/dist/img/loading@2x.gif -> /output/img/loading@2x.gif.br
+2022/04/08 19:06:10 gz /tmp/work/dist/img/loading@2x.gif -> /output/img/loading@2x.gif.gz
+2022/04/08 19:06:10 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/dist/img/search@2x-disabled.png /tmp/work/dist/img/search@2x-disabled.png
+2022/04/08 19:06:10 br /tmp/work/dist/esri-leaflet-geocoder.js.map -> /output/esri-leaflet-geocoder.js.map.br
+2022/04/08 19:06:10 gz /tmp/work/dist/esri-leaflet-geocoder.js.map -> /output/esri-leaflet-geocoder.js.map.gz
+2022/04/08 19:06:10 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/dist/img/search@2x.png /tmp/work/dist/img/search@2x.png
+2022/04/08 19:06:10 br /tmp/work/dist/esri-leaflet-geocoder-debug.js.map -> /output/esri-leaflet-geocoder-debug.js.map.br
+2022/04/08 19:06:10 sri /tmp/work/dist/esri-leaflet-geocoder.min.css -> /output/esri-leaflet-geocoder.min.css.sri
+2022/04/08 19:06:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esri-leaflet-geocoder.min.css.br /tmp/work/dist/esri-leaflet-geocoder.min.css
+2022/04/08 19:06:10 gz /tmp/work/dist/esri-leaflet-geocoder-debug.js.map -> /output/esri-leaflet-geocoder-debug.js.map.gz
+2022/04/08 19:06:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/siteData.json.br /tmp/work/dist/siteData.json
+2022/04/08 19:06:10 br /tmp/work/dist/siteData.json -> /output/siteData.json.br
+2022/04/08 19:06:10 gz /tmp/work/dist/siteData.json -> /output/siteData.json.gz
+2022/04/08 19:06:10 br /tmp/work/dist/esri-leaflet-geocoder.min.css -> /output/esri-leaflet-geocoder.min.css.br
+2022/04/08 19:06:10 gz /tmp/work/dist/esri-leaflet-geocoder.min.css -> /output/esri-leaflet-geocoder.min.css.gz
+2022/04/08 19:06:10 sri /tmp/work/dist/esri-leaflet-geocoder.css -> /output/esri-leaflet-geocoder.css.sri
+2022/04/08 19:06:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esri-leaflet-geocoder.css.br /tmp/work/dist/esri-leaflet-geocoder.css
+2022/04/08 19:06:10 br /tmp/work/dist/esri-leaflet-geocoder.css -> /output/esri-leaflet-geocoder.css.br
+2022/04/08 19:06:10 gz /tmp/work/dist/esri-leaflet-geocoder.css -> /output/esri-leaflet-geocoder.css.gz
+2022/04/08 19:06:11 sri /tmp/work/dist/esri-leaflet-geocoder.min.js -> /output/esri-leaflet-geocoder.min.js.sri
+2022/04/08 19:06:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esri-leaflet-geocoder.min.js.br /tmp/work/dist/esri-leaflet-geocoder.min.js
+2022/04/08 19:06:11 br /tmp/work/dist/esri-leaflet-geocoder.min.js -> /output/esri-leaflet-geocoder.min.js.br
+2022/04/08 19:06:11 gz /tmp/work/dist/esri-leaflet-geocoder.min.js -> /output/esri-leaflet-geocoder.min.js.gz
+2022/04/08 19:06:11 sri /tmp/work/dist/esri-leaflet-geocoder.js -> /output/esri-leaflet-geocoder.js.sri
+2022/04/08 19:06:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esri-leaflet-geocoder.js.br /tmp/work/dist/esri-leaflet-geocoder.js
+2022/04/08 19:06:11 sri /tmp/work/dist/esri-leaflet-geocoder-debug.min.js -> /output/esri-leaflet-geocoder-debug.min.js.sri
+2022/04/08 19:06:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esri-leaflet-geocoder-debug.min.js.br /tmp/work/dist/esri-leaflet-geocoder-debug.min.js
+2022/04/08 19:06:11 br /tmp/work/dist/esri-leaflet-geocoder-debug.min.js -> /output/esri-leaflet-geocoder-debug.min.js.br
+2022/04/08 19:06:11 gz /tmp/work/dist/esri-leaflet-geocoder-debug.min.js -> /output/esri-leaflet-geocoder-debug.min.js.gz
+2022/04/08 19:06:11 sri /tmp/work/dist/esri-leaflet-geocoder-debug.js -> /output/esri-leaflet-geocoder-debug.js.sri
+2022/04/08 19:06:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esri-leaflet-geocoder-debug.js.br /tmp/work/dist/esri-leaflet-geocoder-debug.js
+2022/04/08 19:06:11 br /tmp/work/dist/esri-leaflet-geocoder.js -> /output/esri-leaflet-geocoder.js.br
+2022/04/08 19:06:11 gz /tmp/work/dist/esri-leaflet-geocoder.js -> /output/esri-leaflet-geocoder.js.gz
+2022/04/08 19:06:11 br /tmp/work/dist/esri-leaflet-geocoder-debug.js -> /output/esri-leaflet-geocoder-debug.js.br
+2022/04/08 19:06:11 gz /tmp/work/dist/esri-leaflet-geocoder-debug.js -> /output/esri-leaflet-geocoder-debug.js.gz
+2022/04/08 19:06:12 Optimizing /tmp/work/dist/img/search.png
+Input size: 425 (0K)
+Result size: 303 (0K). Percentage of original: 71.294%
+Result is smaller
+
+
+2022/04/08 19:06:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/img/search.png.br /tmp/work/dist/img/search.png
+2022/04/08 19:06:12 br /tmp/work/dist/img/search.png -> /output/img/search.png.br
+2022/04/08 19:06:12 gz /tmp/work/dist/img/search.png -> /output/img/search.png.gz
+2022/04/08 19:06:12 Optimizing /tmp/work/dist/img/search@2x-disabled.png
+Input size: 386 (0K)
+Result size: 185 (0K). Percentage of original: 47.927%
+Result is smaller
+
+
+2022/04/08 19:06:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/img/search@2x-disabled.png.br /tmp/work/dist/img/search@2x-disabled.png
+2022/04/08 19:06:12 br /tmp/work/dist/img/search@2x-disabled.png -> /output/img/search@2x-disabled.png.br
+2022/04/08 19:06:12 gz /tmp/work/dist/img/search@2x-disabled.png -> /output/img/search@2x-disabled.png.gz
+2022/04/08 19:06:12 Optimizing /tmp/work/dist/img/search-disabled.png
+Input size: 386 (0K)
+Result size: 185 (0K). Percentage of original: 47.927%
+Result is smaller
+
+
+2022/04/08 19:06:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/img/search-disabled.png.br /tmp/work/dist/img/search-disabled.png
+2022/04/08 19:06:12 br /tmp/work/dist/img/search-disabled.png -> /output/img/search-disabled.png.br
+2022/04/08 19:06:12 gz /tmp/work/dist/img/search-disabled.png -> /output/img/search-disabled.png.gz
+2022/04/08 19:06:15 Optimizing /tmp/work/dist/img/search@2x.png
+Input size: 772 (0K)
+Result size: 544 (0K). Percentage of original: 70.466%
+Result is smaller
+
+
+2022/04/08 19:06:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/img/search@2x.png.br /tmp/work/dist/img/search@2x.png
+2022/04/08 19:06:15 br /tmp/work/dist/img/search@2x.png -> /output/img/search@2x.png.br
+2022/04/08 19:06:15 gz /tmp/work/dist/img/search@2x.png -> /output/img/search@2x.png.gz
+2022/04/08 19:06:15 processed esri-leaflet-geocoder
