@@ -1,0 +1,633 @@
+2022/04/11 00:31:29 ExtractTarGz: uknown type: 67 in pax_global_header
+2022/04/11 00:31:29 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/04/11 00:31:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.activity.min.js /tmp/work/libraries/RGraph.activity.js
+2022/04/11 00:31:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.bar.min.js /tmp/work/libraries/RGraph.bar.js
+2022/04/11 00:31:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.common.annotate.min.js /tmp/work/libraries/RGraph.common.annotate.js
+2022/04/11 00:31:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.bipolar.min.js /tmp/work/libraries/RGraph.bipolar.js
+2022/04/11 00:31:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.common.context.min.js /tmp/work/libraries/RGraph.common.context.js
+2022/04/11 00:31:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.common.core.min.js /tmp/work/libraries/RGraph.common.core.js
+2022/04/11 00:31:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.common.dynamic.min.js /tmp/work/libraries/RGraph.common.dynamic.js
+2022/04/11 00:31:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.common.csv.min.js /tmp/work/libraries/RGraph.common.csv.js
+2022/04/11 00:31:30 sri /tmp/work/libraries/RGraph.common.annotate.min.js -> /output/RGraph.common.annotate.min.js.sri
+2022/04/11 00:31:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.common.annotate.min.js.br /tmp/work/libraries/RGraph.common.annotate.min.js
+2022/04/11 00:31:30 br /tmp/work/libraries/RGraph.common.annotate.min.js -> /output/RGraph.common.annotate.min.js.br
+2022/04/11 00:31:30 gz /tmp/work/libraries/RGraph.common.annotate.min.js -> /output/RGraph.common.annotate.min.js.gz
+2022/04/11 00:31:30 sri /tmp/work/libraries/RGraph.common.annotate.js -> /output/RGraph.common.annotate.js.sri
+2022/04/11 00:31:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.common.annotate.js.br /tmp/work/libraries/RGraph.common.annotate.js
+2022/04/11 00:31:30 br /tmp/work/libraries/RGraph.common.annotate.js -> /output/RGraph.common.annotate.js.br
+2022/04/11 00:31:30 gz /tmp/work/libraries/RGraph.common.annotate.js -> /output/RGraph.common.annotate.js.gz
+2022/04/11 00:31:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.common.effects.min.js /tmp/work/libraries/RGraph.common.effects.js
+2022/04/11 00:31:30 sri /tmp/work/libraries/RGraph.common.csv.min.js -> /output/RGraph.common.csv.min.js.sri
+2022/04/11 00:31:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.common.csv.min.js.br /tmp/work/libraries/RGraph.common.csv.min.js
+2022/04/11 00:31:30 br /tmp/work/libraries/RGraph.common.csv.min.js -> /output/RGraph.common.csv.min.js.br
+2022/04/11 00:31:30 gz /tmp/work/libraries/RGraph.common.csv.min.js -> /output/RGraph.common.csv.min.js.gz
+2022/04/11 00:31:30 sri /tmp/work/libraries/RGraph.common.csv.js -> /output/RGraph.common.csv.js.sri
+2022/04/11 00:31:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.common.csv.js.br /tmp/work/libraries/RGraph.common.csv.js
+2022/04/11 00:31:30 br /tmp/work/libraries/RGraph.common.csv.js -> /output/RGraph.common.csv.js.br
+2022/04/11 00:31:30 gz /tmp/work/libraries/RGraph.common.csv.js -> /output/RGraph.common.csv.js.gz
+2022/04/11 00:31:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.common.key.min.js /tmp/work/libraries/RGraph.common.key.js
+2022/04/11 00:31:30 sri /tmp/work/libraries/RGraph.common.context.min.js -> /output/RGraph.common.context.min.js.sri
+2022/04/11 00:31:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.common.context.min.js.br /tmp/work/libraries/RGraph.common.context.min.js
+2022/04/11 00:31:30 br /tmp/work/libraries/RGraph.common.context.min.js -> /output/RGraph.common.context.min.js.br
+2022/04/11 00:31:30 gz /tmp/work/libraries/RGraph.common.context.min.js -> /output/RGraph.common.context.min.js.gz
+2022/04/11 00:31:30 sri /tmp/work/libraries/RGraph.common.context.js -> /output/RGraph.common.context.js.sri
+2022/04/11 00:31:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.common.context.js.br /tmp/work/libraries/RGraph.common.context.js
+2022/04/11 00:31:30 br /tmp/work/libraries/RGraph.common.context.js -> /output/RGraph.common.context.js.br
+2022/04/11 00:31:30 gz /tmp/work/libraries/RGraph.common.context.js -> /output/RGraph.common.context.js.gz
+2022/04/11 00:31:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.common.moment.min.js /tmp/work/libraries/RGraph.common.moment.js
+2022/04/11 00:31:30 sri /tmp/work/libraries/RGraph.activity.min.js -> /output/RGraph.activity.min.js.sri
+2022/04/11 00:31:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.activity.min.js.br /tmp/work/libraries/RGraph.activity.min.js
+2022/04/11 00:31:30 br /tmp/work/libraries/RGraph.activity.min.js -> /output/RGraph.activity.min.js.br
+2022/04/11 00:31:30 gz /tmp/work/libraries/RGraph.activity.min.js -> /output/RGraph.activity.min.js.gz
+2022/04/11 00:31:30 sri /tmp/work/libraries/RGraph.activity.js -> /output/RGraph.activity.js.sri
+2022/04/11 00:31:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.activity.js.br /tmp/work/libraries/RGraph.activity.js
+2022/04/11 00:31:30 br /tmp/work/libraries/RGraph.activity.js -> /output/RGraph.activity.js.br
+2022/04/11 00:31:30 gz /tmp/work/libraries/RGraph.activity.js -> /output/RGraph.activity.js.gz
+2022/04/11 00:31:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.common.sheets.min.js /tmp/work/libraries/RGraph.common.sheets.js
+2022/04/11 00:31:30 sri /tmp/work/libraries/RGraph.common.dynamic.min.js -> /output/RGraph.common.dynamic.min.js.sri
+2022/04/11 00:31:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.common.dynamic.min.js.br /tmp/work/libraries/RGraph.common.dynamic.min.js
+2022/04/11 00:31:31 br /tmp/work/libraries/RGraph.common.dynamic.min.js -> /output/RGraph.common.dynamic.min.js.br
+2022/04/11 00:31:31 gz /tmp/work/libraries/RGraph.common.dynamic.min.js -> /output/RGraph.common.dynamic.min.js.gz
+2022/04/11 00:31:31 sri /tmp/work/libraries/RGraph.common.dynamic.js -> /output/RGraph.common.dynamic.js.sri
+2022/04/11 00:31:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.common.dynamic.js.br /tmp/work/libraries/RGraph.common.dynamic.js
+2022/04/11 00:31:31 br /tmp/work/libraries/RGraph.common.dynamic.js -> /output/RGraph.common.dynamic.js.br
+2022/04/11 00:31:31 gz /tmp/work/libraries/RGraph.common.dynamic.js -> /output/RGraph.common.dynamic.js.gz
+2022/04/11 00:31:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.common.starburst.min.js /tmp/work/libraries/RGraph.common.starburst.js
+2022/04/11 00:31:31 sri /tmp/work/libraries/RGraph.common.key.min.js -> /output/RGraph.common.key.min.js.sri
+2022/04/11 00:31:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.common.key.min.js.br /tmp/work/libraries/RGraph.common.key.min.js
+2022/04/11 00:31:31 sri /tmp/work/libraries/RGraph.common.sheets.min.js -> /output/RGraph.common.sheets.min.js.sri
+2022/04/11 00:31:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.common.sheets.min.js.br /tmp/work/libraries/RGraph.common.sheets.min.js
+2022/04/11 00:31:31 br /tmp/work/libraries/RGraph.common.key.min.js -> /output/RGraph.common.key.min.js.br
+2022/04/11 00:31:31 gz /tmp/work/libraries/RGraph.common.key.min.js -> /output/RGraph.common.key.min.js.gz
+2022/04/11 00:31:31 sri /tmp/work/libraries/RGraph.common.key.js -> /output/RGraph.common.key.js.sri
+2022/04/11 00:31:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.common.key.js.br /tmp/work/libraries/RGraph.common.key.js
+2022/04/11 00:31:31 br /tmp/work/libraries/RGraph.common.sheets.min.js -> /output/RGraph.common.sheets.min.js.br
+2022/04/11 00:31:31 gz /tmp/work/libraries/RGraph.common.sheets.min.js -> /output/RGraph.common.sheets.min.js.gz
+2022/04/11 00:31:31 sri /tmp/work/libraries/RGraph.common.sheets.js -> /output/RGraph.common.sheets.js.sri
+2022/04/11 00:31:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.common.sheets.js.br /tmp/work/libraries/RGraph.common.sheets.js
+2022/04/11 00:31:31 br /tmp/work/libraries/RGraph.common.sheets.js -> /output/RGraph.common.sheets.js.br
+2022/04/11 00:31:31 gz /tmp/work/libraries/RGraph.common.sheets.js -> /output/RGraph.common.sheets.js.gz
+2022/04/11 00:31:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.common.table.min.js /tmp/work/libraries/RGraph.common.table.js
+2022/04/11 00:31:31 br /tmp/work/libraries/RGraph.common.key.js -> /output/RGraph.common.key.js.br
+2022/04/11 00:31:31 gz /tmp/work/libraries/RGraph.common.key.js -> /output/RGraph.common.key.js.gz
+2022/04/11 00:31:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.common.tooltips.min.js /tmp/work/libraries/RGraph.common.tooltips.js
+2022/04/11 00:31:31 sri /tmp/work/libraries/RGraph.bipolar.min.js -> /output/RGraph.bipolar.min.js.sri
+2022/04/11 00:31:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.bipolar.min.js.br /tmp/work/libraries/RGraph.bipolar.min.js
+2022/04/11 00:31:31 br /tmp/work/libraries/RGraph.bipolar.min.js -> /output/RGraph.bipolar.min.js.br
+2022/04/11 00:31:31 gz /tmp/work/libraries/RGraph.bipolar.min.js -> /output/RGraph.bipolar.min.js.gz
+2022/04/11 00:31:31 sri /tmp/work/libraries/RGraph.bipolar.js -> /output/RGraph.bipolar.js.sri
+2022/04/11 00:31:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.bipolar.js.br /tmp/work/libraries/RGraph.bipolar.js
+2022/04/11 00:31:31 sri /tmp/work/libraries/RGraph.common.effects.min.js -> /output/RGraph.common.effects.min.js.sri
+2022/04/11 00:31:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.common.effects.min.js.br /tmp/work/libraries/RGraph.common.effects.min.js
+2022/04/11 00:31:31 br /tmp/work/libraries/RGraph.common.effects.min.js -> /output/RGraph.common.effects.min.js.br
+2022/04/11 00:31:31 gz /tmp/work/libraries/RGraph.common.effects.min.js -> /output/RGraph.common.effects.min.js.gz
+2022/04/11 00:31:31 sri /tmp/work/libraries/RGraph.common.effects.js -> /output/RGraph.common.effects.js.sri
+2022/04/11 00:31:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.common.effects.js.br /tmp/work/libraries/RGraph.common.effects.js
+2022/04/11 00:31:31 sri /tmp/work/libraries/RGraph.common.starburst.min.js -> /output/RGraph.common.starburst.min.js.sri
+2022/04/11 00:31:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.common.starburst.min.js.br /tmp/work/libraries/RGraph.common.starburst.min.js
+2022/04/11 00:31:31 br /tmp/work/libraries/RGraph.common.starburst.min.js -> /output/RGraph.common.starburst.min.js.br
+2022/04/11 00:31:31 gz /tmp/work/libraries/RGraph.common.starburst.min.js -> /output/RGraph.common.starburst.min.js.gz
+2022/04/11 00:31:31 sri /tmp/work/libraries/RGraph.common.starburst.js -> /output/RGraph.common.starburst.js.sri
+2022/04/11 00:31:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.common.starburst.js.br /tmp/work/libraries/RGraph.common.starburst.js
+2022/04/11 00:31:32 br /tmp/work/libraries/RGraph.common.starburst.js -> /output/RGraph.common.starburst.js.br
+2022/04/11 00:31:32 gz /tmp/work/libraries/RGraph.common.starburst.js -> /output/RGraph.common.starburst.js.gz
+2022/04/11 00:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.drawing.background.min.js /tmp/work/libraries/RGraph.drawing.background.js
+2022/04/11 00:31:32 br /tmp/work/libraries/RGraph.common.effects.js -> /output/RGraph.common.effects.js.br
+2022/04/11 00:31:32 gz /tmp/work/libraries/RGraph.common.effects.js -> /output/RGraph.common.effects.js.gz
+2022/04/11 00:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.drawing.circle.min.js /tmp/work/libraries/RGraph.drawing.circle.js
+2022/04/11 00:31:32 sri /tmp/work/libraries/RGraph.common.table.min.js -> /output/RGraph.common.table.min.js.sri
+2022/04/11 00:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.common.table.min.js.br /tmp/work/libraries/RGraph.common.table.min.js
+2022/04/11 00:31:32 br /tmp/work/libraries/RGraph.common.table.min.js -> /output/RGraph.common.table.min.js.br
+2022/04/11 00:31:32 gz /tmp/work/libraries/RGraph.common.table.min.js -> /output/RGraph.common.table.min.js.gz
+2022/04/11 00:31:32 sri /tmp/work/libraries/RGraph.common.table.js -> /output/RGraph.common.table.js.sri
+2022/04/11 00:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.common.table.js.br /tmp/work/libraries/RGraph.common.table.js
+2022/04/11 00:31:32 br /tmp/work/libraries/RGraph.common.table.js -> /output/RGraph.common.table.js.br
+2022/04/11 00:31:32 gz /tmp/work/libraries/RGraph.common.table.js -> /output/RGraph.common.table.js.gz
+2022/04/11 00:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.drawing.image.min.js /tmp/work/libraries/RGraph.drawing.image.js
+2022/04/11 00:31:32 br /tmp/work/libraries/RGraph.bipolar.js -> /output/RGraph.bipolar.js.br
+2022/04/11 00:31:32 gz /tmp/work/libraries/RGraph.bipolar.js -> /output/RGraph.bipolar.js.gz
+2022/04/11 00:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.drawing.marker1.min.js /tmp/work/libraries/RGraph.drawing.marker1.js
+2022/04/11 00:31:32 sri /tmp/work/libraries/RGraph.bar.min.js -> /output/RGraph.bar.min.js.sri
+2022/04/11 00:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.bar.min.js.br /tmp/work/libraries/RGraph.bar.min.js
+2022/04/11 00:31:32 sri /tmp/work/libraries/RGraph.common.tooltips.min.js -> /output/RGraph.common.tooltips.min.js.sri
+2022/04/11 00:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.common.tooltips.min.js.br /tmp/work/libraries/RGraph.common.tooltips.min.js
+2022/04/11 00:31:32 br /tmp/work/libraries/RGraph.bar.min.js -> /output/RGraph.bar.min.js.br
+2022/04/11 00:31:32 gz /tmp/work/libraries/RGraph.bar.min.js -> /output/RGraph.bar.min.js.gz
+2022/04/11 00:31:32 sri /tmp/work/libraries/RGraph.bar.js -> /output/RGraph.bar.js.sri
+2022/04/11 00:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.bar.js.br /tmp/work/libraries/RGraph.bar.js
+2022/04/11 00:31:32 sri /tmp/work/libraries/RGraph.drawing.background.min.js -> /output/RGraph.drawing.background.min.js.sri
+2022/04/11 00:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.drawing.background.min.js.br /tmp/work/libraries/RGraph.drawing.background.min.js
+2022/04/11 00:31:32 sri /tmp/work/libraries/RGraph.drawing.circle.min.js -> /output/RGraph.drawing.circle.min.js.sri
+2022/04/11 00:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.drawing.circle.min.js.br /tmp/work/libraries/RGraph.drawing.circle.min.js
+2022/04/11 00:31:32 br /tmp/work/libraries/RGraph.drawing.background.min.js -> /output/RGraph.drawing.background.min.js.br
+2022/04/11 00:31:32 gz /tmp/work/libraries/RGraph.drawing.background.min.js -> /output/RGraph.drawing.background.min.js.gz
+2022/04/11 00:31:32 sri /tmp/work/libraries/RGraph.drawing.background.js -> /output/RGraph.drawing.background.js.sri
+2022/04/11 00:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.drawing.background.js.br /tmp/work/libraries/RGraph.drawing.background.js
+2022/04/11 00:31:32 br /tmp/work/libraries/RGraph.common.tooltips.min.js -> /output/RGraph.common.tooltips.min.js.br
+2022/04/11 00:31:32 gz /tmp/work/libraries/RGraph.common.tooltips.min.js -> /output/RGraph.common.tooltips.min.js.gz
+2022/04/11 00:31:32 sri /tmp/work/libraries/RGraph.common.tooltips.js -> /output/RGraph.common.tooltips.js.sri
+2022/04/11 00:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.common.tooltips.js.br /tmp/work/libraries/RGraph.common.tooltips.js
+2022/04/11 00:31:32 br /tmp/work/libraries/RGraph.drawing.circle.min.js -> /output/RGraph.drawing.circle.min.js.br
+2022/04/11 00:31:32 gz /tmp/work/libraries/RGraph.drawing.circle.min.js -> /output/RGraph.drawing.circle.min.js.gz
+2022/04/11 00:31:32 sri /tmp/work/libraries/RGraph.drawing.circle.js -> /output/RGraph.drawing.circle.js.sri
+2022/04/11 00:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.drawing.circle.js.br /tmp/work/libraries/RGraph.drawing.circle.js
+2022/04/11 00:31:32 br /tmp/work/libraries/RGraph.drawing.background.js -> /output/RGraph.drawing.background.js.br
+2022/04/11 00:31:32 gz /tmp/work/libraries/RGraph.drawing.background.js -> /output/RGraph.drawing.background.js.gz
+2022/04/11 00:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.drawing.marker2.min.js /tmp/work/libraries/RGraph.drawing.marker2.js
+2022/04/11 00:31:32 br /tmp/work/libraries/RGraph.drawing.circle.js -> /output/RGraph.drawing.circle.js.br
+2022/04/11 00:31:32 gz /tmp/work/libraries/RGraph.drawing.circle.js -> /output/RGraph.drawing.circle.js.gz
+2022/04/11 00:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.drawing.marker3.min.js /tmp/work/libraries/RGraph.drawing.marker3.js
+2022/04/11 00:31:32 br /tmp/work/libraries/RGraph.common.tooltips.js -> /output/RGraph.common.tooltips.js.br
+2022/04/11 00:31:32 gz /tmp/work/libraries/RGraph.common.tooltips.js -> /output/RGraph.common.tooltips.js.gz
+2022/04/11 00:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.drawing.poly.min.js /tmp/work/libraries/RGraph.drawing.poly.js
+2022/04/11 00:31:32 sri /tmp/work/libraries/RGraph.drawing.marker1.min.js -> /output/RGraph.drawing.marker1.min.js.sri
+2022/04/11 00:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.drawing.marker1.min.js.br /tmp/work/libraries/RGraph.drawing.marker1.min.js
+2022/04/11 00:31:32 sri /tmp/work/libraries/RGraph.drawing.image.min.js -> /output/RGraph.drawing.image.min.js.sri
+2022/04/11 00:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.drawing.image.min.js.br /tmp/work/libraries/RGraph.drawing.image.min.js
+2022/04/11 00:31:32 br /tmp/work/libraries/RGraph.drawing.marker1.min.js -> /output/RGraph.drawing.marker1.min.js.br
+2022/04/11 00:31:32 gz /tmp/work/libraries/RGraph.drawing.marker1.min.js -> /output/RGraph.drawing.marker1.min.js.gz
+2022/04/11 00:31:32 sri /tmp/work/libraries/RGraph.drawing.marker1.js -> /output/RGraph.drawing.marker1.js.sri
+2022/04/11 00:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.drawing.marker1.js.br /tmp/work/libraries/RGraph.drawing.marker1.js
+2022/04/11 00:31:32 br /tmp/work/libraries/RGraph.drawing.image.min.js -> /output/RGraph.drawing.image.min.js.br
+2022/04/11 00:31:32 gz /tmp/work/libraries/RGraph.drawing.image.min.js -> /output/RGraph.drawing.image.min.js.gz
+2022/04/11 00:31:32 sri /tmp/work/libraries/RGraph.drawing.image.js -> /output/RGraph.drawing.image.js.sri
+2022/04/11 00:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.drawing.image.js.br /tmp/work/libraries/RGraph.drawing.image.js
+2022/04/11 00:31:32 br /tmp/work/libraries/RGraph.drawing.marker1.js -> /output/RGraph.drawing.marker1.js.br
+2022/04/11 00:31:32 gz /tmp/work/libraries/RGraph.drawing.marker1.js -> /output/RGraph.drawing.marker1.js.gz
+2022/04/11 00:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.drawing.rect.min.js /tmp/work/libraries/RGraph.drawing.rect.js
+2022/04/11 00:31:33 br /tmp/work/libraries/RGraph.drawing.image.js -> /output/RGraph.drawing.image.js.br
+2022/04/11 00:31:33 gz /tmp/work/libraries/RGraph.drawing.image.js -> /output/RGraph.drawing.image.js.gz
+2022/04/11 00:31:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.drawing.text.min.js /tmp/work/libraries/RGraph.drawing.text.js
+2022/04/11 00:31:33 br /tmp/work/libraries/RGraph.bar.js -> /output/RGraph.bar.js.br
+2022/04/11 00:31:33 gz /tmp/work/libraries/RGraph.bar.js -> /output/RGraph.bar.js.gz
+2022/04/11 00:31:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.drawing.xaxis.min.js /tmp/work/libraries/RGraph.drawing.xaxis.js
+2022/04/11 00:31:33 sri /tmp/work/libraries/RGraph.drawing.marker3.min.js -> /output/RGraph.drawing.marker3.min.js.sri
+2022/04/11 00:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.drawing.marker3.min.js.br /tmp/work/libraries/RGraph.drawing.marker3.min.js
+2022/04/11 00:31:33 sri /tmp/work/libraries/RGraph.drawing.marker2.min.js -> /output/RGraph.drawing.marker2.min.js.sri
+2022/04/11 00:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.drawing.marker2.min.js.br /tmp/work/libraries/RGraph.drawing.marker2.min.js
+2022/04/11 00:31:33 br /tmp/work/libraries/RGraph.drawing.marker2.min.js -> /output/RGraph.drawing.marker2.min.js.br
+2022/04/11 00:31:33 gz /tmp/work/libraries/RGraph.drawing.marker2.min.js -> /output/RGraph.drawing.marker2.min.js.gz
+2022/04/11 00:31:33 sri /tmp/work/libraries/RGraph.drawing.marker2.js -> /output/RGraph.drawing.marker2.js.sri
+2022/04/11 00:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.drawing.marker2.js.br /tmp/work/libraries/RGraph.drawing.marker2.js
+2022/04/11 00:31:33 br /tmp/work/libraries/RGraph.drawing.marker3.min.js -> /output/RGraph.drawing.marker3.min.js.br
+2022/04/11 00:31:33 gz /tmp/work/libraries/RGraph.drawing.marker3.min.js -> /output/RGraph.drawing.marker3.min.js.gz
+2022/04/11 00:31:33 sri /tmp/work/libraries/RGraph.drawing.marker3.js -> /output/RGraph.drawing.marker3.js.sri
+2022/04/11 00:31:33 sri /tmp/work/libraries/RGraph.drawing.poly.min.js -> /output/RGraph.drawing.poly.min.js.sri
+2022/04/11 00:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.drawing.poly.min.js.br /tmp/work/libraries/RGraph.drawing.poly.min.js
+2022/04/11 00:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.drawing.marker3.js.br /tmp/work/libraries/RGraph.drawing.marker3.js
+2022/04/11 00:31:33 br /tmp/work/libraries/RGraph.drawing.poly.min.js -> /output/RGraph.drawing.poly.min.js.br
+2022/04/11 00:31:33 gz /tmp/work/libraries/RGraph.drawing.poly.min.js -> /output/RGraph.drawing.poly.min.js.gz
+2022/04/11 00:31:33 sri /tmp/work/libraries/RGraph.drawing.poly.js -> /output/RGraph.drawing.poly.js.sri
+2022/04/11 00:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.drawing.poly.js.br /tmp/work/libraries/RGraph.drawing.poly.js
+2022/04/11 00:31:33 br /tmp/work/libraries/RGraph.drawing.marker2.js -> /output/RGraph.drawing.marker2.js.br
+2022/04/11 00:31:33 gz /tmp/work/libraries/RGraph.drawing.marker2.js -> /output/RGraph.drawing.marker2.js.gz
+2022/04/11 00:31:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.drawing.yaxis.min.js /tmp/work/libraries/RGraph.drawing.yaxis.js
+2022/04/11 00:31:33 br /tmp/work/libraries/RGraph.drawing.marker3.js -> /output/RGraph.drawing.marker3.js.br
+2022/04/11 00:31:33 gz /tmp/work/libraries/RGraph.drawing.marker3.js -> /output/RGraph.drawing.marker3.js.gz
+2022/04/11 00:31:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.fuel.min.js /tmp/work/libraries/RGraph.fuel.js
+2022/04/11 00:31:33 br /tmp/work/libraries/RGraph.drawing.poly.js -> /output/RGraph.drawing.poly.js.br
+2022/04/11 00:31:33 gz /tmp/work/libraries/RGraph.drawing.poly.js -> /output/RGraph.drawing.poly.js.gz
+2022/04/11 00:31:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.funnel.min.js /tmp/work/libraries/RGraph.funnel.js
+2022/04/11 00:31:33 sri /tmp/work/libraries/RGraph.drawing.rect.min.js -> /output/RGraph.drawing.rect.min.js.sri
+2022/04/11 00:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.drawing.rect.min.js.br /tmp/work/libraries/RGraph.drawing.rect.min.js
+2022/04/11 00:31:33 br /tmp/work/libraries/RGraph.drawing.rect.min.js -> /output/RGraph.drawing.rect.min.js.br
+2022/04/11 00:31:33 gz /tmp/work/libraries/RGraph.drawing.rect.min.js -> /output/RGraph.drawing.rect.min.js.gz
+2022/04/11 00:31:33 sri /tmp/work/libraries/RGraph.drawing.rect.js -> /output/RGraph.drawing.rect.js.sri
+2022/04/11 00:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.drawing.rect.js.br /tmp/work/libraries/RGraph.drawing.rect.js
+2022/04/11 00:31:33 br /tmp/work/libraries/RGraph.drawing.rect.js -> /output/RGraph.drawing.rect.js.br
+2022/04/11 00:31:33 gz /tmp/work/libraries/RGraph.drawing.rect.js -> /output/RGraph.drawing.rect.js.gz
+2022/04/11 00:31:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.gantt.min.js /tmp/work/libraries/RGraph.gantt.js
+2022/04/11 00:31:33 sri /tmp/work/libraries/RGraph.drawing.xaxis.min.js -> /output/RGraph.drawing.xaxis.min.js.sri
+2022/04/11 00:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.drawing.xaxis.min.js.br /tmp/work/libraries/RGraph.drawing.xaxis.min.js
+2022/04/11 00:31:33 sri /tmp/work/libraries/RGraph.drawing.text.min.js -> /output/RGraph.drawing.text.min.js.sri
+2022/04/11 00:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.drawing.text.min.js.br /tmp/work/libraries/RGraph.drawing.text.min.js
+2022/04/11 00:31:33 br /tmp/work/libraries/RGraph.drawing.xaxis.min.js -> /output/RGraph.drawing.xaxis.min.js.br
+2022/04/11 00:31:33 gz /tmp/work/libraries/RGraph.drawing.xaxis.min.js -> /output/RGraph.drawing.xaxis.min.js.gz
+2022/04/11 00:31:33 sri /tmp/work/libraries/RGraph.drawing.xaxis.js -> /output/RGraph.drawing.xaxis.js.sri
+2022/04/11 00:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.drawing.xaxis.js.br /tmp/work/libraries/RGraph.drawing.xaxis.js
+2022/04/11 00:31:33 br /tmp/work/libraries/RGraph.drawing.text.min.js -> /output/RGraph.drawing.text.min.js.br
+2022/04/11 00:31:33 gz /tmp/work/libraries/RGraph.drawing.text.min.js -> /output/RGraph.drawing.text.min.js.gz
+2022/04/11 00:31:33 sri /tmp/work/libraries/RGraph.drawing.text.js -> /output/RGraph.drawing.text.js.sri
+2022/04/11 00:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.drawing.text.js.br /tmp/work/libraries/RGraph.drawing.text.js
+2022/04/11 00:31:33 br /tmp/work/libraries/RGraph.drawing.xaxis.js -> /output/RGraph.drawing.xaxis.js.br
+2022/04/11 00:31:33 gz /tmp/work/libraries/RGraph.drawing.xaxis.js -> /output/RGraph.drawing.xaxis.js.gz
+2022/04/11 00:31:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.gauge.min.js /tmp/work/libraries/RGraph.gauge.js
+2022/04/11 00:31:33 br /tmp/work/libraries/RGraph.drawing.text.js -> /output/RGraph.drawing.text.js.br
+2022/04/11 00:31:33 gz /tmp/work/libraries/RGraph.drawing.text.js -> /output/RGraph.drawing.text.js.gz
+2022/04/11 00:31:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.hbar.min.js /tmp/work/libraries/RGraph.hbar.js
+2022/04/11 00:31:33 sri /tmp/work/libraries/RGraph.drawing.yaxis.min.js -> /output/RGraph.drawing.yaxis.min.js.sri
+2022/04/11 00:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.drawing.yaxis.min.js.br /tmp/work/libraries/RGraph.drawing.yaxis.min.js
+2022/04/11 00:31:34 br /tmp/work/libraries/RGraph.drawing.yaxis.min.js -> /output/RGraph.drawing.yaxis.min.js.br
+2022/04/11 00:31:34 gz /tmp/work/libraries/RGraph.drawing.yaxis.min.js -> /output/RGraph.drawing.yaxis.min.js.gz
+2022/04/11 00:31:34 sri /tmp/work/libraries/RGraph.drawing.yaxis.js -> /output/RGraph.drawing.yaxis.js.sri
+2022/04/11 00:31:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.drawing.yaxis.js.br /tmp/work/libraries/RGraph.drawing.yaxis.js
+2022/04/11 00:31:34 br /tmp/work/libraries/RGraph.drawing.yaxis.js -> /output/RGraph.drawing.yaxis.js.br
+2022/04/11 00:31:34 gz /tmp/work/libraries/RGraph.drawing.yaxis.js -> /output/RGraph.drawing.yaxis.js.gz
+2022/04/11 00:31:34 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.horseshoe.min.js /tmp/work/libraries/RGraph.horseshoe.js
+2022/04/11 00:31:34 sri /tmp/work/libraries/RGraph.fuel.min.js -> /output/RGraph.fuel.min.js.sri
+2022/04/11 00:31:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.fuel.min.js.br /tmp/work/libraries/RGraph.fuel.min.js
+2022/04/11 00:31:34 br /tmp/work/libraries/RGraph.fuel.min.js -> /output/RGraph.fuel.min.js.br
+2022/04/11 00:31:34 gz /tmp/work/libraries/RGraph.fuel.min.js -> /output/RGraph.fuel.min.js.gz
+2022/04/11 00:31:34 sri /tmp/work/libraries/RGraph.fuel.js -> /output/RGraph.fuel.js.sri
+2022/04/11 00:31:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.fuel.js.br /tmp/work/libraries/RGraph.fuel.js
+2022/04/11 00:31:34 sri /tmp/work/libraries/RGraph.funnel.min.js -> /output/RGraph.funnel.min.js.sri
+2022/04/11 00:31:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.funnel.min.js.br /tmp/work/libraries/RGraph.funnel.min.js
+2022/04/11 00:31:34 br /tmp/work/libraries/RGraph.fuel.js -> /output/RGraph.fuel.js.br
+2022/04/11 00:31:34 gz /tmp/work/libraries/RGraph.fuel.js -> /output/RGraph.fuel.js.gz
+2022/04/11 00:31:34 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.hprogress.min.js /tmp/work/libraries/RGraph.hprogress.js
+2022/04/11 00:31:34 br /tmp/work/libraries/RGraph.funnel.min.js -> /output/RGraph.funnel.min.js.br
+2022/04/11 00:31:34 gz /tmp/work/libraries/RGraph.funnel.min.js -> /output/RGraph.funnel.min.js.gz
+2022/04/11 00:31:34 sri /tmp/work/libraries/RGraph.funnel.js -> /output/RGraph.funnel.js.sri
+2022/04/11 00:31:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.funnel.js.br /tmp/work/libraries/RGraph.funnel.js
+2022/04/11 00:31:34 br /tmp/work/libraries/RGraph.funnel.js -> /output/RGraph.funnel.js.br
+2022/04/11 00:31:34 sri /tmp/work/libraries/RGraph.horseshoe.min.js -> /output/RGraph.horseshoe.min.js.sri
+2022/04/11 00:31:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.horseshoe.min.js.br /tmp/work/libraries/RGraph.horseshoe.min.js
+2022/04/11 00:31:34 gz /tmp/work/libraries/RGraph.funnel.js -> /output/RGraph.funnel.js.gz
+2022/04/11 00:31:34 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.line.min.js /tmp/work/libraries/RGraph.line.js
+2022/04/11 00:31:34 sri /tmp/work/libraries/RGraph.common.core.min.js -> /output/RGraph.common.core.min.js.sri
+2022/04/11 00:31:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.common.core.min.js.br /tmp/work/libraries/RGraph.common.core.min.js
+2022/04/11 00:31:34 br /tmp/work/libraries/RGraph.horseshoe.min.js -> /output/RGraph.horseshoe.min.js.br
+2022/04/11 00:31:34 gz /tmp/work/libraries/RGraph.horseshoe.min.js -> /output/RGraph.horseshoe.min.js.gz
+2022/04/11 00:31:34 sri /tmp/work/libraries/RGraph.horseshoe.js -> /output/RGraph.horseshoe.js.sri
+2022/04/11 00:31:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.horseshoe.js.br /tmp/work/libraries/RGraph.horseshoe.js
+2022/04/11 00:31:35 br /tmp/work/libraries/RGraph.horseshoe.js -> /output/RGraph.horseshoe.js.br
+2022/04/11 00:31:35 gz /tmp/work/libraries/RGraph.horseshoe.js -> /output/RGraph.horseshoe.js.gz
+2022/04/11 00:31:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.meter.min.js /tmp/work/libraries/RGraph.meter.js
+2022/04/11 00:31:35 sri /tmp/work/libraries/RGraph.gantt.min.js -> /output/RGraph.gantt.min.js.sri
+2022/04/11 00:31:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.gantt.min.js.br /tmp/work/libraries/RGraph.gantt.min.js
+2022/04/11 00:31:35 sri /tmp/work/libraries/RGraph.gauge.min.js -> /output/RGraph.gauge.min.js.sri
+2022/04/11 00:31:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.gauge.min.js.br /tmp/work/libraries/RGraph.gauge.min.js
+2022/04/11 00:31:35 br /tmp/work/libraries/RGraph.gantt.min.js -> /output/RGraph.gantt.min.js.br
+2022/04/11 00:31:35 gz /tmp/work/libraries/RGraph.gantt.min.js -> /output/RGraph.gantt.min.js.gz
+2022/04/11 00:31:35 sri /tmp/work/libraries/RGraph.gantt.js -> /output/RGraph.gantt.js.sri
+2022/04/11 00:31:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.gantt.js.br /tmp/work/libraries/RGraph.gantt.js
+2022/04/11 00:31:35 br /tmp/work/libraries/RGraph.common.core.min.js -> /output/RGraph.common.core.min.js.br
+2022/04/11 00:31:35 gz /tmp/work/libraries/RGraph.common.core.min.js -> /output/RGraph.common.core.min.js.gz
+2022/04/11 00:31:35 sri /tmp/work/libraries/RGraph.common.core.js -> /output/RGraph.common.core.js.sri
+2022/04/11 00:31:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.common.core.js.br /tmp/work/libraries/RGraph.common.core.js
+2022/04/11 00:31:35 br /tmp/work/libraries/RGraph.gauge.min.js -> /output/RGraph.gauge.min.js.br
+2022/04/11 00:31:35 gz /tmp/work/libraries/RGraph.gauge.min.js -> /output/RGraph.gauge.min.js.gz
+2022/04/11 00:31:35 sri /tmp/work/libraries/RGraph.gauge.js -> /output/RGraph.gauge.js.sri
+2022/04/11 00:31:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.gauge.js.br /tmp/work/libraries/RGraph.gauge.js
+2022/04/11 00:31:35 sri /tmp/work/libraries/RGraph.common.moment.min.js -> /output/RGraph.common.moment.min.js.sri
+2022/04/11 00:31:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.common.moment.min.js.br /tmp/work/libraries/RGraph.common.moment.min.js
+2022/04/11 00:31:35 br /tmp/work/libraries/RGraph.gantt.js -> /output/RGraph.gantt.js.br
+2022/04/11 00:31:35 gz /tmp/work/libraries/RGraph.gantt.js -> /output/RGraph.gantt.js.gz
+2022/04/11 00:31:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.modaldialog.min.js /tmp/work/libraries/RGraph.modaldialog.js
+2022/04/11 00:31:35 br /tmp/work/libraries/RGraph.common.moment.min.js -> /output/RGraph.common.moment.min.js.br
+2022/04/11 00:31:35 gz /tmp/work/libraries/RGraph.common.moment.min.js -> /output/RGraph.common.moment.min.js.gz
+2022/04/11 00:31:35 sri /tmp/work/libraries/RGraph.common.moment.js -> /output/RGraph.common.moment.js.sri
+2022/04/11 00:31:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.common.moment.js.br /tmp/work/libraries/RGraph.common.moment.js
+2022/04/11 00:31:35 br /tmp/work/libraries/RGraph.gauge.js -> /output/RGraph.gauge.js.br
+2022/04/11 00:31:35 gz /tmp/work/libraries/RGraph.gauge.js -> /output/RGraph.gauge.js.gz
+2022/04/11 00:31:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.odo.min.js /tmp/work/libraries/RGraph.odo.js
+2022/04/11 00:31:35 sri /tmp/work/libraries/RGraph.modaldialog.min.js -> /output/RGraph.modaldialog.min.js.sri
+2022/04/11 00:31:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.modaldialog.min.js.br /tmp/work/libraries/RGraph.modaldialog.min.js
+2022/04/11 00:31:35 sri /tmp/work/libraries/RGraph.hprogress.min.js -> /output/RGraph.hprogress.min.js.sri
+2022/04/11 00:31:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.hprogress.min.js.br /tmp/work/libraries/RGraph.hprogress.min.js
+2022/04/11 00:31:35 br /tmp/work/libraries/RGraph.modaldialog.min.js -> /output/RGraph.modaldialog.min.js.br
+2022/04/11 00:31:35 gz /tmp/work/libraries/RGraph.modaldialog.min.js -> /output/RGraph.modaldialog.min.js.gz
+2022/04/11 00:31:35 sri /tmp/work/libraries/RGraph.modaldialog.js -> /output/RGraph.modaldialog.js.sri
+2022/04/11 00:31:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.modaldialog.js.br /tmp/work/libraries/RGraph.modaldialog.js
+2022/04/11 00:31:35 br /tmp/work/libraries/RGraph.modaldialog.js -> /output/RGraph.modaldialog.js.br
+2022/04/11 00:31:35 gz /tmp/work/libraries/RGraph.modaldialog.js -> /output/RGraph.modaldialog.js.gz
+2022/04/11 00:31:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.pie.min.js /tmp/work/libraries/RGraph.pie.js
+2022/04/11 00:31:35 br /tmp/work/libraries/RGraph.hprogress.min.js -> /output/RGraph.hprogress.min.js.br
+2022/04/11 00:31:35 gz /tmp/work/libraries/RGraph.hprogress.min.js -> /output/RGraph.hprogress.min.js.gz
+2022/04/11 00:31:35 sri /tmp/work/libraries/RGraph.hprogress.js -> /output/RGraph.hprogress.js.sri
+2022/04/11 00:31:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.hprogress.js.br /tmp/work/libraries/RGraph.hprogress.js
+2022/04/11 00:31:36 br /tmp/work/libraries/RGraph.common.moment.js -> /output/RGraph.common.moment.js.br
+2022/04/11 00:31:36 sri /tmp/work/libraries/RGraph.hbar.min.js -> /output/RGraph.hbar.min.js.sri
+2022/04/11 00:31:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.hbar.min.js.br /tmp/work/libraries/RGraph.hbar.min.js
+2022/04/11 00:31:36 gz /tmp/work/libraries/RGraph.common.moment.js -> /output/RGraph.common.moment.js.gz
+2022/04/11 00:31:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.radar.min.js /tmp/work/libraries/RGraph.radar.js
+2022/04/11 00:31:36 br /tmp/work/libraries/RGraph.hprogress.js -> /output/RGraph.hprogress.js.br
+2022/04/11 00:31:36 br /tmp/work/libraries/RGraph.hbar.min.js -> /output/RGraph.hbar.min.js.br
+2022/04/11 00:31:36 gz /tmp/work/libraries/RGraph.hbar.min.js -> /output/RGraph.hbar.min.js.gz
+2022/04/11 00:31:36 sri /tmp/work/libraries/RGraph.hbar.js -> /output/RGraph.hbar.js.sri
+2022/04/11 00:31:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.hbar.js.br /tmp/work/libraries/RGraph.hbar.js
+2022/04/11 00:31:36 gz /tmp/work/libraries/RGraph.hprogress.js -> /output/RGraph.hprogress.js.gz
+2022/04/11 00:31:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.rose.min.js /tmp/work/libraries/RGraph.rose.js
+2022/04/11 00:31:36 sri /tmp/work/libraries/RGraph.meter.min.js -> /output/RGraph.meter.min.js.sri
+2022/04/11 00:31:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.meter.min.js.br /tmp/work/libraries/RGraph.meter.min.js
+2022/04/11 00:31:36 br /tmp/work/libraries/RGraph.common.core.js -> /output/RGraph.common.core.js.br
+2022/04/11 00:31:36 br /tmp/work/libraries/RGraph.meter.min.js -> /output/RGraph.meter.min.js.br
+2022/04/11 00:31:36 gz /tmp/work/libraries/RGraph.meter.min.js -> /output/RGraph.meter.min.js.gz
+2022/04/11 00:31:36 sri /tmp/work/libraries/RGraph.meter.js -> /output/RGraph.meter.js.sri
+2022/04/11 00:31:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.meter.js.br /tmp/work/libraries/RGraph.meter.js
+2022/04/11 00:31:36 gz /tmp/work/libraries/RGraph.common.core.js -> /output/RGraph.common.core.js.gz
+2022/04/11 00:31:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.rscatter.min.js /tmp/work/libraries/RGraph.rscatter.js
+2022/04/11 00:31:36 br /tmp/work/libraries/RGraph.hbar.js -> /output/RGraph.hbar.js.br
+2022/04/11 00:31:36 gz /tmp/work/libraries/RGraph.hbar.js -> /output/RGraph.hbar.js.gz
+2022/04/11 00:31:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.scatter.min.js /tmp/work/libraries/RGraph.scatter.js
+2022/04/11 00:31:36 br /tmp/work/libraries/RGraph.meter.js -> /output/RGraph.meter.js.br
+2022/04/11 00:31:36 gz /tmp/work/libraries/RGraph.meter.js -> /output/RGraph.meter.js.gz
+2022/04/11 00:31:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.segmented.min.js /tmp/work/libraries/RGraph.segmented.js
+2022/04/11 00:31:36 sri /tmp/work/libraries/RGraph.odo.min.js -> /output/RGraph.odo.min.js.sri
+2022/04/11 00:31:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.odo.min.js.br /tmp/work/libraries/RGraph.odo.min.js
+2022/04/11 00:31:36 br /tmp/work/libraries/RGraph.odo.min.js -> /output/RGraph.odo.min.js.br
+2022/04/11 00:31:36 gz /tmp/work/libraries/RGraph.odo.min.js -> /output/RGraph.odo.min.js.gz
+2022/04/11 00:31:36 sri /tmp/work/libraries/RGraph.odo.js -> /output/RGraph.odo.js.sri
+2022/04/11 00:31:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.odo.js.br /tmp/work/libraries/RGraph.odo.js
+2022/04/11 00:31:36 br /tmp/work/libraries/RGraph.odo.js -> /output/RGraph.odo.js.br
+2022/04/11 00:31:36 gz /tmp/work/libraries/RGraph.odo.js -> /output/RGraph.odo.js.gz
+2022/04/11 00:31:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.semicircularprogress.min.js /tmp/work/libraries/RGraph.semicircularprogress.js
+2022/04/11 00:31:37 sri /tmp/work/libraries/RGraph.segmented.min.js -> /output/RGraph.segmented.min.js.sri
+2022/04/11 00:31:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.segmented.min.js.br /tmp/work/libraries/RGraph.segmented.min.js
+2022/04/11 00:31:37 br /tmp/work/libraries/RGraph.segmented.min.js -> /output/RGraph.segmented.min.js.br
+2022/04/11 00:31:37 gz /tmp/work/libraries/RGraph.segmented.min.js -> /output/RGraph.segmented.min.js.gz
+2022/04/11 00:31:37 sri /tmp/work/libraries/RGraph.segmented.js -> /output/RGraph.segmented.js.sri
+2022/04/11 00:31:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.segmented.js.br /tmp/work/libraries/RGraph.segmented.js
+2022/04/11 00:31:37 br /tmp/work/libraries/RGraph.segmented.js -> /output/RGraph.segmented.js.br
+2022/04/11 00:31:37 gz /tmp/work/libraries/RGraph.segmented.js -> /output/RGraph.segmented.js.gz
+2022/04/11 00:31:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.svg.activity.min.js /tmp/work/libraries/RGraph.svg.activity.js
+2022/04/11 00:31:37 sri /tmp/work/libraries/RGraph.radar.min.js -> /output/RGraph.radar.min.js.sri
+2022/04/11 00:31:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.radar.min.js.br /tmp/work/libraries/RGraph.radar.min.js
+2022/04/11 00:31:37 sri /tmp/work/libraries/RGraph.pie.min.js -> /output/RGraph.pie.min.js.sri
+2022/04/11 00:31:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.pie.min.js.br /tmp/work/libraries/RGraph.pie.min.js
+2022/04/11 00:31:37 br /tmp/work/libraries/RGraph.radar.min.js -> /output/RGraph.radar.min.js.br
+2022/04/11 00:31:37 gz /tmp/work/libraries/RGraph.radar.min.js -> /output/RGraph.radar.min.js.gz
+2022/04/11 00:31:37 sri /tmp/work/libraries/RGraph.radar.js -> /output/RGraph.radar.js.sri
+2022/04/11 00:31:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.radar.js.br /tmp/work/libraries/RGraph.radar.js
+2022/04/11 00:31:37 br /tmp/work/libraries/RGraph.pie.min.js -> /output/RGraph.pie.min.js.br
+2022/04/11 00:31:37 gz /tmp/work/libraries/RGraph.pie.min.js -> /output/RGraph.pie.min.js.gz
+2022/04/11 00:31:37 sri /tmp/work/libraries/RGraph.pie.js -> /output/RGraph.pie.js.sri
+2022/04/11 00:31:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.pie.js.br /tmp/work/libraries/RGraph.pie.js
+2022/04/11 00:31:37 sri /tmp/work/libraries/RGraph.rscatter.min.js -> /output/RGraph.rscatter.min.js.sri
+2022/04/11 00:31:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.rscatter.min.js.br /tmp/work/libraries/RGraph.rscatter.min.js
+2022/04/11 00:31:37 br /tmp/work/libraries/RGraph.rscatter.min.js -> /output/RGraph.rscatter.min.js.br
+2022/04/11 00:31:37 gz /tmp/work/libraries/RGraph.rscatter.min.js -> /output/RGraph.rscatter.min.js.gz
+2022/04/11 00:31:37 sri /tmp/work/libraries/RGraph.rscatter.js -> /output/RGraph.rscatter.js.sri
+2022/04/11 00:31:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.rscatter.js.br /tmp/work/libraries/RGraph.rscatter.js
+2022/04/11 00:31:37 sri /tmp/work/libraries/RGraph.rose.min.js -> /output/RGraph.rose.min.js.sri
+2022/04/11 00:31:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.rose.min.js.br /tmp/work/libraries/RGraph.rose.min.js
+2022/04/11 00:31:37 br /tmp/work/libraries/RGraph.radar.js -> /output/RGraph.radar.js.br
+2022/04/11 00:31:37 gz /tmp/work/libraries/RGraph.radar.js -> /output/RGraph.radar.js.gz
+2022/04/11 00:31:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.svg.bar.min.js /tmp/work/libraries/RGraph.svg.bar.js
+2022/04/11 00:31:37 sri /tmp/work/libraries/RGraph.line.min.js -> /output/RGraph.line.min.js.sri
+2022/04/11 00:31:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.line.min.js.br /tmp/work/libraries/RGraph.line.min.js
+2022/04/11 00:31:37 br /tmp/work/libraries/RGraph.rose.min.js -> /output/RGraph.rose.min.js.br
+2022/04/11 00:31:37 gz /tmp/work/libraries/RGraph.rose.min.js -> /output/RGraph.rose.min.js.gz
+2022/04/11 00:31:37 sri /tmp/work/libraries/RGraph.rose.js -> /output/RGraph.rose.js.sri
+2022/04/11 00:31:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.rose.js.br /tmp/work/libraries/RGraph.rose.js
+2022/04/11 00:31:38 br /tmp/work/libraries/RGraph.pie.js -> /output/RGraph.pie.js.br
+2022/04/11 00:31:38 sri /tmp/work/libraries/RGraph.semicircularprogress.min.js -> /output/RGraph.semicircularprogress.min.js.sri
+2022/04/11 00:31:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.semicircularprogress.min.js.br /tmp/work/libraries/RGraph.semicircularprogress.min.js
+2022/04/11 00:31:38 gz /tmp/work/libraries/RGraph.pie.js -> /output/RGraph.pie.js.gz
+2022/04/11 00:31:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.svg.bipolar.min.js /tmp/work/libraries/RGraph.svg.bipolar.js
+2022/04/11 00:31:38 br /tmp/work/libraries/RGraph.rscatter.js -> /output/RGraph.rscatter.js.br
+2022/04/11 00:31:38 gz /tmp/work/libraries/RGraph.rscatter.js -> /output/RGraph.rscatter.js.gz
+2022/04/11 00:31:38 br /tmp/work/libraries/RGraph.semicircularprogress.min.js -> /output/RGraph.semicircularprogress.min.js.br
+2022/04/11 00:31:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.svg.common.ajax.min.js /tmp/work/libraries/RGraph.svg.common.ajax.js
+2022/04/11 00:31:38 gz /tmp/work/libraries/RGraph.semicircularprogress.min.js -> /output/RGraph.semicircularprogress.min.js.gz
+2022/04/11 00:31:38 sri /tmp/work/libraries/RGraph.semicircularprogress.js -> /output/RGraph.semicircularprogress.js.sri
+2022/04/11 00:31:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.semicircularprogress.js.br /tmp/work/libraries/RGraph.semicircularprogress.js
+2022/04/11 00:31:38 br /tmp/work/libraries/RGraph.line.min.js -> /output/RGraph.line.min.js.br
+2022/04/11 00:31:38 gz /tmp/work/libraries/RGraph.line.min.js -> /output/RGraph.line.min.js.gz
+2022/04/11 00:31:38 sri /tmp/work/libraries/RGraph.line.js -> /output/RGraph.line.js.sri
+2022/04/11 00:31:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.line.js.br /tmp/work/libraries/RGraph.line.js
+2022/04/11 00:31:38 br /tmp/work/libraries/RGraph.rose.js -> /output/RGraph.rose.js.br
+2022/04/11 00:31:38 gz /tmp/work/libraries/RGraph.rose.js -> /output/RGraph.rose.js.gz
+2022/04/11 00:31:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.svg.common.core.min.js /tmp/work/libraries/RGraph.svg.common.core.js
+2022/04/11 00:31:38 br /tmp/work/libraries/RGraph.semicircularprogress.js -> /output/RGraph.semicircularprogress.js.br
+2022/04/11 00:31:38 gz /tmp/work/libraries/RGraph.semicircularprogress.js -> /output/RGraph.semicircularprogress.js.gz
+2022/04/11 00:31:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.svg.common.csv.min.js /tmp/work/libraries/RGraph.svg.common.csv.js
+2022/04/11 00:31:38 sri /tmp/work/libraries/RGraph.svg.common.ajax.min.js -> /output/RGraph.svg.common.ajax.min.js.sri
+2022/04/11 00:31:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.common.ajax.min.js.br /tmp/work/libraries/RGraph.svg.common.ajax.min.js
+2022/04/11 00:31:38 br /tmp/work/libraries/RGraph.svg.common.ajax.min.js -> /output/RGraph.svg.common.ajax.min.js.br
+2022/04/11 00:31:38 gz /tmp/work/libraries/RGraph.svg.common.ajax.min.js -> /output/RGraph.svg.common.ajax.min.js.gz
+2022/04/11 00:31:38 sri /tmp/work/libraries/RGraph.svg.common.ajax.js -> /output/RGraph.svg.common.ajax.js.sri
+2022/04/11 00:31:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.common.ajax.js.br /tmp/work/libraries/RGraph.svg.common.ajax.js
+2022/04/11 00:31:38 br /tmp/work/libraries/RGraph.svg.common.ajax.js -> /output/RGraph.svg.common.ajax.js.br
+2022/04/11 00:31:38 gz /tmp/work/libraries/RGraph.svg.common.ajax.js -> /output/RGraph.svg.common.ajax.js.gz
+2022/04/11 00:31:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.svg.common.fx.min.js /tmp/work/libraries/RGraph.svg.common.fx.js
+2022/04/11 00:31:38 sri /tmp/work/libraries/RGraph.scatter.min.js -> /output/RGraph.scatter.min.js.sri
+2022/04/11 00:31:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.scatter.min.js.br /tmp/work/libraries/RGraph.scatter.min.js
+2022/04/11 00:31:38 br /tmp/work/libraries/RGraph.line.js -> /output/RGraph.line.js.br
+2022/04/11 00:31:38 sri /tmp/work/libraries/RGraph.svg.activity.min.js -> /output/RGraph.svg.activity.min.js.sri
+2022/04/11 00:31:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.activity.min.js.br /tmp/work/libraries/RGraph.svg.activity.min.js
+2022/04/11 00:31:38 gz /tmp/work/libraries/RGraph.line.js -> /output/RGraph.line.js.gz
+2022/04/11 00:31:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.svg.common.key.min.js /tmp/work/libraries/RGraph.svg.common.key.js
+2022/04/11 00:31:38 br /tmp/work/libraries/RGraph.scatter.min.js -> /output/RGraph.scatter.min.js.br
+2022/04/11 00:31:38 br /tmp/work/libraries/RGraph.svg.activity.min.js -> /output/RGraph.svg.activity.min.js.br
+2022/04/11 00:31:38 gz /tmp/work/libraries/RGraph.svg.activity.min.js -> /output/RGraph.svg.activity.min.js.gz
+2022/04/11 00:31:38 gz /tmp/work/libraries/RGraph.scatter.min.js -> /output/RGraph.scatter.min.js.gz
+2022/04/11 00:31:38 sri /tmp/work/libraries/RGraph.svg.activity.js -> /output/RGraph.svg.activity.js.sri
+2022/04/11 00:31:38 sri /tmp/work/libraries/RGraph.scatter.js -> /output/RGraph.scatter.js.sri
+2022/04/11 00:31:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.scatter.js.br /tmp/work/libraries/RGraph.scatter.js
+2022/04/11 00:31:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.activity.js.br /tmp/work/libraries/RGraph.svg.activity.js
+2022/04/11 00:31:38 sri /tmp/work/libraries/RGraph.svg.common.csv.min.js -> /output/RGraph.svg.common.csv.min.js.sri
+2022/04/11 00:31:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.common.csv.min.js.br /tmp/work/libraries/RGraph.svg.common.csv.min.js
+2022/04/11 00:31:38 br /tmp/work/libraries/RGraph.svg.activity.js -> /output/RGraph.svg.activity.js.br
+2022/04/11 00:31:38 gz /tmp/work/libraries/RGraph.svg.activity.js -> /output/RGraph.svg.activity.js.gz
+2022/04/11 00:31:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.svg.common.sheets.min.js /tmp/work/libraries/RGraph.svg.common.sheets.js
+2022/04/11 00:31:38 br /tmp/work/libraries/RGraph.svg.common.csv.min.js -> /output/RGraph.svg.common.csv.min.js.br
+2022/04/11 00:31:38 gz /tmp/work/libraries/RGraph.svg.common.csv.min.js -> /output/RGraph.svg.common.csv.min.js.gz
+2022/04/11 00:31:38 sri /tmp/work/libraries/RGraph.svg.common.csv.js -> /output/RGraph.svg.common.csv.js.sri
+2022/04/11 00:31:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.common.csv.js.br /tmp/work/libraries/RGraph.svg.common.csv.js
+2022/04/11 00:31:39 br /tmp/work/libraries/RGraph.svg.common.csv.js -> /output/RGraph.svg.common.csv.js.br
+2022/04/11 00:31:39 gz /tmp/work/libraries/RGraph.svg.common.csv.js -> /output/RGraph.svg.common.csv.js.gz
+2022/04/11 00:31:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.svg.common.table.min.js /tmp/work/libraries/RGraph.svg.common.table.js
+2022/04/11 00:31:39 br /tmp/work/libraries/RGraph.scatter.js -> /output/RGraph.scatter.js.br
+2022/04/11 00:31:39 gz /tmp/work/libraries/RGraph.scatter.js -> /output/RGraph.scatter.js.gz
+2022/04/11 00:31:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.svg.common.tooltips.min.js /tmp/work/libraries/RGraph.svg.common.tooltips.js
+2022/04/11 00:31:39 sri /tmp/work/libraries/RGraph.svg.common.key.min.js -> /output/RGraph.svg.common.key.min.js.sri
+2022/04/11 00:31:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.common.key.min.js.br /tmp/work/libraries/RGraph.svg.common.key.min.js
+2022/04/11 00:31:39 br /tmp/work/libraries/RGraph.svg.common.key.min.js -> /output/RGraph.svg.common.key.min.js.br
+2022/04/11 00:31:39 gz /tmp/work/libraries/RGraph.svg.common.key.min.js -> /output/RGraph.svg.common.key.min.js.gz
+2022/04/11 00:31:39 sri /tmp/work/libraries/RGraph.svg.common.key.js -> /output/RGraph.svg.common.key.js.sri
+2022/04/11 00:31:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.common.key.js.br /tmp/work/libraries/RGraph.svg.common.key.js
+2022/04/11 00:31:39 br /tmp/work/libraries/RGraph.svg.common.key.js -> /output/RGraph.svg.common.key.js.br
+2022/04/11 00:31:39 gz /tmp/work/libraries/RGraph.svg.common.key.js -> /output/RGraph.svg.common.key.js.gz
+2022/04/11 00:31:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.svg.funnel.min.js /tmp/work/libraries/RGraph.svg.funnel.js
+2022/04/11 00:31:39 sri /tmp/work/libraries/RGraph.svg.common.table.min.js -> /output/RGraph.svg.common.table.min.js.sri
+2022/04/11 00:31:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.common.table.min.js.br /tmp/work/libraries/RGraph.svg.common.table.min.js
+2022/04/11 00:31:39 sri /tmp/work/libraries/RGraph.svg.common.sheets.min.js -> /output/RGraph.svg.common.sheets.min.js.sri
+2022/04/11 00:31:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.common.sheets.min.js.br /tmp/work/libraries/RGraph.svg.common.sheets.min.js
+2022/04/11 00:31:39 br /tmp/work/libraries/RGraph.svg.common.table.min.js -> /output/RGraph.svg.common.table.min.js.br
+2022/04/11 00:31:39 gz /tmp/work/libraries/RGraph.svg.common.table.min.js -> /output/RGraph.svg.common.table.min.js.gz
+2022/04/11 00:31:39 sri /tmp/work/libraries/RGraph.svg.common.table.js -> /output/RGraph.svg.common.table.js.sri
+2022/04/11 00:31:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.common.table.js.br /tmp/work/libraries/RGraph.svg.common.table.js
+2022/04/11 00:31:39 br /tmp/work/libraries/RGraph.svg.common.sheets.min.js -> /output/RGraph.svg.common.sheets.min.js.br
+2022/04/11 00:31:39 gz /tmp/work/libraries/RGraph.svg.common.sheets.min.js -> /output/RGraph.svg.common.sheets.min.js.gz
+2022/04/11 00:31:39 sri /tmp/work/libraries/RGraph.svg.common.sheets.js -> /output/RGraph.svg.common.sheets.js.sri
+2022/04/11 00:31:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.common.sheets.js.br /tmp/work/libraries/RGraph.svg.common.sheets.js
+2022/04/11 00:31:39 br /tmp/work/libraries/RGraph.svg.common.table.js -> /output/RGraph.svg.common.table.js.br
+2022/04/11 00:31:39 gz /tmp/work/libraries/RGraph.svg.common.table.js -> /output/RGraph.svg.common.table.js.gz
+2022/04/11 00:31:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.svg.gauge.min.js /tmp/work/libraries/RGraph.svg.gauge.js
+2022/04/11 00:31:39 br /tmp/work/libraries/RGraph.svg.common.sheets.js -> /output/RGraph.svg.common.sheets.js.br
+2022/04/11 00:31:39 gz /tmp/work/libraries/RGraph.svg.common.sheets.js -> /output/RGraph.svg.common.sheets.js.gz
+2022/04/11 00:31:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.svg.hbar.min.js /tmp/work/libraries/RGraph.svg.hbar.js
+2022/04/11 00:31:39 sri /tmp/work/libraries/RGraph.svg.common.tooltips.min.js -> /output/RGraph.svg.common.tooltips.min.js.sri
+2022/04/11 00:31:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.common.tooltips.min.js.br /tmp/work/libraries/RGraph.svg.common.tooltips.min.js
+2022/04/11 00:31:39 br /tmp/work/libraries/RGraph.svg.common.tooltips.min.js -> /output/RGraph.svg.common.tooltips.min.js.br
+2022/04/11 00:31:39 gz /tmp/work/libraries/RGraph.svg.common.tooltips.min.js -> /output/RGraph.svg.common.tooltips.min.js.gz
+2022/04/11 00:31:39 sri /tmp/work/libraries/RGraph.svg.common.tooltips.js -> /output/RGraph.svg.common.tooltips.js.sri
+2022/04/11 00:31:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.common.tooltips.js.br /tmp/work/libraries/RGraph.svg.common.tooltips.js
+2022/04/11 00:31:39 sri /tmp/work/libraries/RGraph.svg.common.fx.min.js -> /output/RGraph.svg.common.fx.min.js.sri
+2022/04/11 00:31:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.common.fx.min.js.br /tmp/work/libraries/RGraph.svg.common.fx.min.js
+2022/04/11 00:31:39 br /tmp/work/libraries/RGraph.svg.common.tooltips.js -> /output/RGraph.svg.common.tooltips.js.br
+2022/04/11 00:31:39 gz /tmp/work/libraries/RGraph.svg.common.tooltips.js -> /output/RGraph.svg.common.tooltips.js.gz
+2022/04/11 00:31:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.svg.horseshoe.min.js /tmp/work/libraries/RGraph.svg.horseshoe.js
+2022/04/11 00:31:39 br /tmp/work/libraries/RGraph.svg.common.fx.min.js -> /output/RGraph.svg.common.fx.min.js.br
+2022/04/11 00:31:39 gz /tmp/work/libraries/RGraph.svg.common.fx.min.js -> /output/RGraph.svg.common.fx.min.js.gz
+2022/04/11 00:31:39 sri /tmp/work/libraries/RGraph.svg.common.fx.js -> /output/RGraph.svg.common.fx.js.sri
+2022/04/11 00:31:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.common.fx.js.br /tmp/work/libraries/RGraph.svg.common.fx.js
+2022/04/11 00:31:39 sri /tmp/work/libraries/RGraph.svg.bar.min.js -> /output/RGraph.svg.bar.min.js.sri
+2022/04/11 00:31:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.bar.min.js.br /tmp/work/libraries/RGraph.svg.bar.min.js
+2022/04/11 00:31:40 br /tmp/work/libraries/RGraph.svg.bar.min.js -> /output/RGraph.svg.bar.min.js.br
+2022/04/11 00:31:40 gz /tmp/work/libraries/RGraph.svg.bar.min.js -> /output/RGraph.svg.bar.min.js.gz
+2022/04/11 00:31:40 sri /tmp/work/libraries/RGraph.svg.bar.js -> /output/RGraph.svg.bar.js.sri
+2022/04/11 00:31:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.bar.js.br /tmp/work/libraries/RGraph.svg.bar.js
+2022/04/11 00:31:40 br /tmp/work/libraries/RGraph.svg.common.fx.js -> /output/RGraph.svg.common.fx.js.br
+2022/04/11 00:31:40 gz /tmp/work/libraries/RGraph.svg.common.fx.js -> /output/RGraph.svg.common.fx.js.gz
+2022/04/11 00:31:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.svg.line.min.js /tmp/work/libraries/RGraph.svg.line.js
+2022/04/11 00:31:40 sri /tmp/work/libraries/RGraph.svg.bipolar.min.js -> /output/RGraph.svg.bipolar.min.js.sri
+2022/04/11 00:31:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.bipolar.min.js.br /tmp/work/libraries/RGraph.svg.bipolar.min.js
+2022/04/11 00:31:40 sri /tmp/work/libraries/RGraph.svg.funnel.min.js -> /output/RGraph.svg.funnel.min.js.sri
+2022/04/11 00:31:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.funnel.min.js.br /tmp/work/libraries/RGraph.svg.funnel.min.js
+2022/04/11 00:31:40 br /tmp/work/libraries/RGraph.svg.bipolar.min.js -> /output/RGraph.svg.bipolar.min.js.br
+2022/04/11 00:31:40 br /tmp/work/libraries/RGraph.svg.funnel.min.js -> /output/RGraph.svg.funnel.min.js.br
+2022/04/11 00:31:40 gz /tmp/work/libraries/RGraph.svg.bipolar.min.js -> /output/RGraph.svg.bipolar.min.js.gz
+2022/04/11 00:31:40 sri /tmp/work/libraries/RGraph.svg.bipolar.js -> /output/RGraph.svg.bipolar.js.sri
+2022/04/11 00:31:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.bipolar.js.br /tmp/work/libraries/RGraph.svg.bipolar.js
+2022/04/11 00:31:40 gz /tmp/work/libraries/RGraph.svg.funnel.min.js -> /output/RGraph.svg.funnel.min.js.gz
+2022/04/11 00:31:40 sri /tmp/work/libraries/RGraph.svg.funnel.js -> /output/RGraph.svg.funnel.js.sri
+2022/04/11 00:31:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.funnel.js.br /tmp/work/libraries/RGraph.svg.funnel.js
+2022/04/11 00:31:40 br /tmp/work/libraries/RGraph.svg.bar.js -> /output/RGraph.svg.bar.js.br
+2022/04/11 00:31:40 gz /tmp/work/libraries/RGraph.svg.bar.js -> /output/RGraph.svg.bar.js.gz
+2022/04/11 00:31:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.svg.pie.min.js /tmp/work/libraries/RGraph.svg.pie.js
+2022/04/11 00:31:40 br /tmp/work/libraries/RGraph.svg.funnel.js -> /output/RGraph.svg.funnel.js.br
+2022/04/11 00:31:40 gz /tmp/work/libraries/RGraph.svg.funnel.js -> /output/RGraph.svg.funnel.js.gz
+2022/04/11 00:31:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.svg.radar.min.js /tmp/work/libraries/RGraph.svg.radar.js
+2022/04/11 00:31:40 sri /tmp/work/libraries/RGraph.svg.gauge.min.js -> /output/RGraph.svg.gauge.min.js.sri
+2022/04/11 00:31:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.gauge.min.js.br /tmp/work/libraries/RGraph.svg.gauge.min.js
+2022/04/11 00:31:40 br /tmp/work/libraries/RGraph.svg.bipolar.js -> /output/RGraph.svg.bipolar.js.br
+2022/04/11 00:31:40 sri /tmp/work/libraries/RGraph.svg.horseshoe.min.js -> /output/RGraph.svg.horseshoe.min.js.sri
+2022/04/11 00:31:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.horseshoe.min.js.br /tmp/work/libraries/RGraph.svg.horseshoe.min.js
+2022/04/11 00:31:40 gz /tmp/work/libraries/RGraph.svg.bipolar.js -> /output/RGraph.svg.bipolar.js.gz
+2022/04/11 00:31:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.svg.rose.min.js /tmp/work/libraries/RGraph.svg.rose.js
+2022/04/11 00:31:40 br /tmp/work/libraries/RGraph.svg.gauge.min.js -> /output/RGraph.svg.gauge.min.js.br
+2022/04/11 00:31:40 gz /tmp/work/libraries/RGraph.svg.gauge.min.js -> /output/RGraph.svg.gauge.min.js.gz
+2022/04/11 00:31:40 sri /tmp/work/libraries/RGraph.svg.gauge.js -> /output/RGraph.svg.gauge.js.sri
+2022/04/11 00:31:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.gauge.js.br /tmp/work/libraries/RGraph.svg.gauge.js
+2022/04/11 00:31:40 br /tmp/work/libraries/RGraph.svg.horseshoe.min.js -> /output/RGraph.svg.horseshoe.min.js.br
+2022/04/11 00:31:40 gz /tmp/work/libraries/RGraph.svg.horseshoe.min.js -> /output/RGraph.svg.horseshoe.min.js.gz
+2022/04/11 00:31:40 sri /tmp/work/libraries/RGraph.svg.horseshoe.js -> /output/RGraph.svg.horseshoe.js.sri
+2022/04/11 00:31:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.horseshoe.js.br /tmp/work/libraries/RGraph.svg.horseshoe.js
+2022/04/11 00:31:40 br /tmp/work/libraries/RGraph.svg.horseshoe.js -> /output/RGraph.svg.horseshoe.js.br
+2022/04/11 00:31:40 gz /tmp/work/libraries/RGraph.svg.horseshoe.js -> /output/RGraph.svg.horseshoe.js.gz
+2022/04/11 00:31:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.svg.scatter.min.js /tmp/work/libraries/RGraph.svg.scatter.js
+2022/04/11 00:31:40 br /tmp/work/libraries/RGraph.svg.gauge.js -> /output/RGraph.svg.gauge.js.br
+2022/04/11 00:31:40 gz /tmp/work/libraries/RGraph.svg.gauge.js -> /output/RGraph.svg.gauge.js.gz
+2022/04/11 00:31:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.svg.segmented.min.js /tmp/work/libraries/RGraph.svg.segmented.js
+2022/04/11 00:31:41 sri /tmp/work/libraries/RGraph.svg.common.core.min.js -> /output/RGraph.svg.common.core.min.js.sri
+2022/04/11 00:31:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.common.core.min.js.br /tmp/work/libraries/RGraph.svg.common.core.min.js
+2022/04/11 00:31:41 br /tmp/work/libraries/RGraph.svg.common.core.min.js -> /output/RGraph.svg.common.core.min.js.br
+2022/04/11 00:31:41 sri /tmp/work/libraries/RGraph.svg.hbar.min.js -> /output/RGraph.svg.hbar.min.js.sri
+2022/04/11 00:31:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.hbar.min.js.br /tmp/work/libraries/RGraph.svg.hbar.min.js
+2022/04/11 00:31:41 gz /tmp/work/libraries/RGraph.svg.common.core.min.js -> /output/RGraph.svg.common.core.min.js.gz
+2022/04/11 00:31:41 sri /tmp/work/libraries/RGraph.svg.common.core.js -> /output/RGraph.svg.common.core.js.sri
+2022/04/11 00:31:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.common.core.js.br /tmp/work/libraries/RGraph.svg.common.core.js
+2022/04/11 00:31:41 br /tmp/work/libraries/RGraph.svg.hbar.min.js -> /output/RGraph.svg.hbar.min.js.br
+2022/04/11 00:31:41 gz /tmp/work/libraries/RGraph.svg.hbar.min.js -> /output/RGraph.svg.hbar.min.js.gz
+2022/04/11 00:31:41 sri /tmp/work/libraries/RGraph.svg.hbar.js -> /output/RGraph.svg.hbar.js.sri
+2022/04/11 00:31:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.hbar.js.br /tmp/work/libraries/RGraph.svg.hbar.js
+2022/04/11 00:31:41 sri /tmp/work/libraries/RGraph.svg.radar.min.js -> /output/RGraph.svg.radar.min.js.sri
+2022/04/11 00:31:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.radar.min.js.br /tmp/work/libraries/RGraph.svg.radar.min.js
+2022/04/11 00:31:41 sri /tmp/work/libraries/RGraph.svg.pie.min.js -> /output/RGraph.svg.pie.min.js.sri
+2022/04/11 00:31:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.pie.min.js.br /tmp/work/libraries/RGraph.svg.pie.min.js
+2022/04/11 00:31:41 br /tmp/work/libraries/RGraph.svg.radar.min.js -> /output/RGraph.svg.radar.min.js.br
+2022/04/11 00:31:41 gz /tmp/work/libraries/RGraph.svg.radar.min.js -> /output/RGraph.svg.radar.min.js.gz
+2022/04/11 00:31:41 sri /tmp/work/libraries/RGraph.svg.radar.js -> /output/RGraph.svg.radar.js.sri
+2022/04/11 00:31:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.radar.js.br /tmp/work/libraries/RGraph.svg.radar.js
+2022/04/11 00:31:41 br /tmp/work/libraries/RGraph.svg.pie.min.js -> /output/RGraph.svg.pie.min.js.br
+2022/04/11 00:31:41 gz /tmp/work/libraries/RGraph.svg.pie.min.js -> /output/RGraph.svg.pie.min.js.gz
+2022/04/11 00:31:41 sri /tmp/work/libraries/RGraph.svg.pie.js -> /output/RGraph.svg.pie.js.sri
+2022/04/11 00:31:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.pie.js.br /tmp/work/libraries/RGraph.svg.pie.js
+2022/04/11 00:31:41 sri /tmp/work/libraries/RGraph.svg.segmented.min.js -> /output/RGraph.svg.segmented.min.js.sri
+2022/04/11 00:31:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.segmented.min.js.br /tmp/work/libraries/RGraph.svg.segmented.min.js
+2022/04/11 00:31:41 br /tmp/work/libraries/RGraph.svg.segmented.min.js -> /output/RGraph.svg.segmented.min.js.br
+2022/04/11 00:31:41 gz /tmp/work/libraries/RGraph.svg.segmented.min.js -> /output/RGraph.svg.segmented.min.js.gz
+2022/04/11 00:31:41 sri /tmp/work/libraries/RGraph.svg.segmented.js -> /output/RGraph.svg.segmented.js.sri
+2022/04/11 00:31:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.segmented.js.br /tmp/work/libraries/RGraph.svg.segmented.js
+2022/04/11 00:31:42 br /tmp/work/libraries/RGraph.svg.radar.js -> /output/RGraph.svg.radar.js.br
+2022/04/11 00:31:42 br /tmp/work/libraries/RGraph.svg.pie.js -> /output/RGraph.svg.pie.js.br
+2022/04/11 00:31:42 br /tmp/work/libraries/RGraph.svg.segmented.js -> /output/RGraph.svg.segmented.js.br
+2022/04/11 00:31:42 br /tmp/work/libraries/RGraph.svg.hbar.js -> /output/RGraph.svg.hbar.js.br
+2022/04/11 00:31:42 gz /tmp/work/libraries/RGraph.svg.segmented.js -> /output/RGraph.svg.segmented.js.gz
+2022/04/11 00:31:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.svg.semicircularprogress.min.js /tmp/work/libraries/RGraph.svg.semicircularprogress.js
+2022/04/11 00:31:42 gz /tmp/work/libraries/RGraph.svg.radar.js -> /output/RGraph.svg.radar.js.gz
+2022/04/11 00:31:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.svg.waterfall.min.js /tmp/work/libraries/RGraph.svg.waterfall.js
+2022/04/11 00:31:42 gz /tmp/work/libraries/RGraph.svg.pie.js -> /output/RGraph.svg.pie.js.gz
+2022/04/11 00:31:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.thermometer.min.js /tmp/work/libraries/RGraph.thermometer.js
+2022/04/11 00:31:42 gz /tmp/work/libraries/RGraph.svg.hbar.js -> /output/RGraph.svg.hbar.js.gz
+2022/04/11 00:31:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.vprogress.min.js /tmp/work/libraries/RGraph.vprogress.js
+2022/04/11 00:31:42 sri /tmp/work/libraries/RGraph.svg.line.min.js -> /output/RGraph.svg.line.min.js.sri
+2022/04/11 00:31:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.line.min.js.br /tmp/work/libraries/RGraph.svg.line.min.js
+2022/04/11 00:31:42 br /tmp/work/libraries/RGraph.svg.line.min.js -> /output/RGraph.svg.line.min.js.br
+2022/04/11 00:31:42 gz /tmp/work/libraries/RGraph.svg.line.min.js -> /output/RGraph.svg.line.min.js.gz
+2022/04/11 00:31:42 sri /tmp/work/libraries/RGraph.svg.line.js -> /output/RGraph.svg.line.js.sri
+2022/04/11 00:31:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.line.js.br /tmp/work/libraries/RGraph.svg.line.js
+2022/04/11 00:31:42 sri /tmp/work/libraries/RGraph.svg.rose.min.js -> /output/RGraph.svg.rose.min.js.sri
+2022/04/11 00:31:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.rose.min.js.br /tmp/work/libraries/RGraph.svg.rose.min.js
+2022/04/11 00:31:42 br /tmp/work/libraries/RGraph.svg.common.core.js -> /output/RGraph.svg.common.core.js.br
+2022/04/11 00:31:42 br /tmp/work/libraries/RGraph.svg.rose.min.js -> /output/RGraph.svg.rose.min.js.br
+2022/04/11 00:31:42 gz /tmp/work/libraries/RGraph.svg.common.core.js -> /output/RGraph.svg.common.core.js.gz
+2022/04/11 00:31:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/libraries/RGraph.waterfall.min.js /tmp/work/libraries/RGraph.waterfall.js
+2022/04/11 00:31:42 gz /tmp/work/libraries/RGraph.svg.rose.min.js -> /output/RGraph.svg.rose.min.js.gz
+2022/04/11 00:31:42 sri /tmp/work/libraries/RGraph.svg.rose.js -> /output/RGraph.svg.rose.js.sri
+2022/04/11 00:31:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.rose.js.br /tmp/work/libraries/RGraph.svg.rose.js
+2022/04/11 00:31:42 br /tmp/work/libraries/RGraph.svg.line.js -> /output/RGraph.svg.line.js.br
+2022/04/11 00:31:42 gz /tmp/work/libraries/RGraph.svg.line.js -> /output/RGraph.svg.line.js.gz
+2022/04/11 00:31:42 sri /tmp/work/libraries/RGraph.svg.scatter.min.js -> /output/RGraph.svg.scatter.min.js.sri
+2022/04/11 00:31:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.scatter.min.js.br /tmp/work/libraries/RGraph.svg.scatter.min.js
+2022/04/11 00:31:42 br /tmp/work/libraries/RGraph.svg.scatter.min.js -> /output/RGraph.svg.scatter.min.js.br
+2022/04/11 00:31:42 gz /tmp/work/libraries/RGraph.svg.scatter.min.js -> /output/RGraph.svg.scatter.min.js.gz
+2022/04/11 00:31:42 sri /tmp/work/libraries/RGraph.svg.scatter.js -> /output/RGraph.svg.scatter.js.sri
+2022/04/11 00:31:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.scatter.js.br /tmp/work/libraries/RGraph.svg.scatter.js
+2022/04/11 00:31:42 br /tmp/work/libraries/RGraph.svg.rose.js -> /output/RGraph.svg.rose.js.br
+2022/04/11 00:31:42 gz /tmp/work/libraries/RGraph.svg.rose.js -> /output/RGraph.svg.rose.js.gz
+2022/04/11 00:31:42 br /tmp/work/libraries/RGraph.svg.scatter.js -> /output/RGraph.svg.scatter.js.br
+2022/04/11 00:31:42 gz /tmp/work/libraries/RGraph.svg.scatter.js -> /output/RGraph.svg.scatter.js.gz
+2022/04/11 00:31:42 sri /tmp/work/libraries/RGraph.thermometer.min.js -> /output/RGraph.thermometer.min.js.sri
+2022/04/11 00:31:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.thermometer.min.js.br /tmp/work/libraries/RGraph.thermometer.min.js
+2022/04/11 00:31:43 sri /tmp/work/libraries/RGraph.svg.semicircularprogress.min.js -> /output/RGraph.svg.semicircularprogress.min.js.sri
+2022/04/11 00:31:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.semicircularprogress.min.js.br /tmp/work/libraries/RGraph.svg.semicircularprogress.min.js
+2022/04/11 00:31:43 br /tmp/work/libraries/RGraph.thermometer.min.js -> /output/RGraph.thermometer.min.js.br
+2022/04/11 00:31:43 gz /tmp/work/libraries/RGraph.thermometer.min.js -> /output/RGraph.thermometer.min.js.gz
+2022/04/11 00:31:43 sri /tmp/work/libraries/RGraph.thermometer.js -> /output/RGraph.thermometer.js.sri
+2022/04/11 00:31:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.thermometer.js.br /tmp/work/libraries/RGraph.thermometer.js
+2022/04/11 00:31:43 br /tmp/work/libraries/RGraph.svg.semicircularprogress.min.js -> /output/RGraph.svg.semicircularprogress.min.js.br
+2022/04/11 00:31:43 gz /tmp/work/libraries/RGraph.svg.semicircularprogress.min.js -> /output/RGraph.svg.semicircularprogress.min.js.gz
+2022/04/11 00:31:43 sri /tmp/work/libraries/RGraph.svg.semicircularprogress.js -> /output/RGraph.svg.semicircularprogress.js.sri
+2022/04/11 00:31:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.semicircularprogress.js.br /tmp/work/libraries/RGraph.svg.semicircularprogress.js
+2022/04/11 00:31:43 sri /tmp/work/libraries/RGraph.vprogress.min.js -> /output/RGraph.vprogress.min.js.sri
+2022/04/11 00:31:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.vprogress.min.js.br /tmp/work/libraries/RGraph.vprogress.min.js
+2022/04/11 00:31:43 br /tmp/work/libraries/RGraph.thermometer.js -> /output/RGraph.thermometer.js.br
+2022/04/11 00:31:43 sri /tmp/work/libraries/RGraph.svg.waterfall.min.js -> /output/RGraph.svg.waterfall.min.js.sri
+2022/04/11 00:31:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.waterfall.min.js.br /tmp/work/libraries/RGraph.svg.waterfall.min.js
+2022/04/11 00:31:43 gz /tmp/work/libraries/RGraph.thermometer.js -> /output/RGraph.thermometer.js.gz
+2022/04/11 00:31:43 br /tmp/work/libraries/RGraph.svg.waterfall.min.js -> /output/RGraph.svg.waterfall.min.js.br
+2022/04/11 00:31:43 gz /tmp/work/libraries/RGraph.svg.waterfall.min.js -> /output/RGraph.svg.waterfall.min.js.gz
+2022/04/11 00:31:43 sri /tmp/work/libraries/RGraph.svg.waterfall.js -> /output/RGraph.svg.waterfall.js.sri
+2022/04/11 00:31:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.svg.waterfall.js.br /tmp/work/libraries/RGraph.svg.waterfall.js
+2022/04/11 00:31:43 br /tmp/work/libraries/RGraph.vprogress.min.js -> /output/RGraph.vprogress.min.js.br
+2022/04/11 00:31:43 br /tmp/work/libraries/RGraph.svg.semicircularprogress.js -> /output/RGraph.svg.semicircularprogress.js.br
+2022/04/11 00:31:43 gz /tmp/work/libraries/RGraph.vprogress.min.js -> /output/RGraph.vprogress.min.js.gz
+2022/04/11 00:31:43 sri /tmp/work/libraries/RGraph.vprogress.js -> /output/RGraph.vprogress.js.sri
+2022/04/11 00:31:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.vprogress.js.br /tmp/work/libraries/RGraph.vprogress.js
+2022/04/11 00:31:43 gz /tmp/work/libraries/RGraph.svg.semicircularprogress.js -> /output/RGraph.svg.semicircularprogress.js.gz
+2022/04/11 00:31:43 br /tmp/work/libraries/RGraph.svg.waterfall.js -> /output/RGraph.svg.waterfall.js.br
+2022/04/11 00:31:43 sri /tmp/work/libraries/RGraph.waterfall.min.js -> /output/RGraph.waterfall.min.js.sri
+2022/04/11 00:31:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.waterfall.min.js.br /tmp/work/libraries/RGraph.waterfall.min.js
+2022/04/11 00:31:43 gz /tmp/work/libraries/RGraph.svg.waterfall.js -> /output/RGraph.svg.waterfall.js.gz
+2022/04/11 00:31:43 br /tmp/work/libraries/RGraph.vprogress.js -> /output/RGraph.vprogress.js.br
+2022/04/11 00:31:43 gz /tmp/work/libraries/RGraph.vprogress.js -> /output/RGraph.vprogress.js.gz
+2022/04/11 00:31:43 br /tmp/work/libraries/RGraph.waterfall.min.js -> /output/RGraph.waterfall.min.js.br
+2022/04/11 00:31:43 gz /tmp/work/libraries/RGraph.waterfall.min.js -> /output/RGraph.waterfall.min.js.gz
+2022/04/11 00:31:43 sri /tmp/work/libraries/RGraph.waterfall.js -> /output/RGraph.waterfall.js.sri
+2022/04/11 00:31:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RGraph.waterfall.js.br /tmp/work/libraries/RGraph.waterfall.js
+2022/04/11 00:31:43 br /tmp/work/libraries/RGraph.waterfall.js -> /output/RGraph.waterfall.js.br
+2022/04/11 00:31:43 gz /tmp/work/libraries/RGraph.waterfall.js -> /output/RGraph.waterfall.js.gz
+2022/04/11 00:31:43 processed RGraph
