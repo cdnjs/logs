@@ -1,0 +1,14 @@
+2022/04/12 21:01:11 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/04/12 21:01:11 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/browser-image-compression.min.js /tmp/work/dist/browser-image-compression.js
+2022/04/12 21:01:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/browser-image-compression.mjs.br /tmp/work/dist/browser-image-compression.mjs
+2022/04/12 21:01:11 br /tmp/work/dist/browser-image-compression.mjs -> /output/browser-image-compression.mjs.br
+2022/04/12 21:01:11 gz /tmp/work/dist/browser-image-compression.mjs -> /output/browser-image-compression.mjs.gz
+2022/04/12 21:01:13 sri /tmp/work/dist/browser-image-compression.min.js -> /output/browser-image-compression.min.js.sri
+2022/04/12 21:01:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/browser-image-compression.min.js.br /tmp/work/dist/browser-image-compression.min.js
+2022/04/12 21:01:13 br /tmp/work/dist/browser-image-compression.min.js -> /output/browser-image-compression.min.js.br
+2022/04/12 21:01:13 gz /tmp/work/dist/browser-image-compression.min.js -> /output/browser-image-compression.min.js.gz
+2022/04/12 21:01:13 sri /tmp/work/dist/browser-image-compression.js -> /output/browser-image-compression.js.sri
+2022/04/12 21:01:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/browser-image-compression.js.br /tmp/work/dist/browser-image-compression.js
+2022/04/12 21:01:13 br /tmp/work/dist/browser-image-compression.js -> /output/browser-image-compression.js.br
+2022/04/12 21:01:13 gz /tmp/work/dist/browser-image-compression.js -> /output/browser-image-compression.js.gz
+2022/04/12 21:01:13 processed browser-image-compression
