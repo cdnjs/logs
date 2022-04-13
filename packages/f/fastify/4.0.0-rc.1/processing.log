@@ -1,0 +1,284 @@
+2022/04/13 00:38:55 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/04/13 00:38:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fastify.d.ts.br /tmp/work/fastify.d.ts
+2022/04/13 00:38:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/configValidator.min.js /tmp/work/lib/configValidator.js
+2022/04/13 00:38:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/contentTypeParser.min.js /tmp/work/lib/contentTypeParser.js
+2022/04/13 00:38:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/error-handler.min.js /tmp/work/lib/error-handler.js
+2022/04/13 00:38:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/context.min.js /tmp/work/lib/context.js
+2022/04/13 00:38:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/decorate.min.js /tmp/work/lib/decorate.js
+2022/04/13 00:38:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/error-serializer.min.js /tmp/work/lib/error-serializer.js
+2022/04/13 00:38:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/fastify.min.js /tmp/work/fastify.js
+2022/04/13 00:38:55 br /tmp/work/fastify.d.ts -> /output/fastify.d.ts.br
+2022/04/13 00:38:55 gz /tmp/work/fastify.d.ts -> /output/fastify.d.ts.gz
+2022/04/13 00:38:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/errors.min.js /tmp/work/lib/errors.js
+2022/04/13 00:38:55 failed with exit status 1: Parse error at /tmp/work/lib/error-serializer.js:256,5
+     return $main
+     ^
+ERROR: 'return' outside of function
+    at JS_Parse_Error.get (eval at <anonymous> (/node_modules/uglify-js/tools/node.js:18:1), <anonymous>:71:23)
+    at fatal (/node_modules/uglify-js/bin/uglifyjs:473:27)
+    at run (/node_modules/uglify-js/bin/uglifyjs:408:9)
+    at Object.<anonymous> (/node_modules/uglify-js/bin/uglifyjs:287:5)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+
+2022/04/13 00:38:55 compress: run /node_modules/uglify-es/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/error-serializer.min.js /tmp/work/lib/error-serializer.js
+2022/04/13 00:38:55 sri /tmp/work/lib/context.min.js -> /output/lib/context.min.js.sri
+2022/04/13 00:38:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/context.min.js.br /tmp/work/lib/context.min.js
+2022/04/13 00:38:55 br /tmp/work/lib/context.min.js -> /output/lib/context.min.js.br
+2022/04/13 00:38:55 gz /tmp/work/lib/context.min.js -> /output/lib/context.min.js.gz
+2022/04/13 00:38:55 sri /tmp/work/lib/context.js -> /output/lib/context.js.sri
+2022/04/13 00:38:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/context.js.br /tmp/work/lib/context.js
+2022/04/13 00:38:55 sri /tmp/work/lib/errors.min.js -> /output/lib/errors.min.js.sri
+2022/04/13 00:38:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/errors.min.js.br /tmp/work/lib/errors.min.js
+2022/04/13 00:38:55 br /tmp/work/lib/context.js -> /output/lib/context.js.br
+2022/04/13 00:38:55 gz /tmp/work/lib/context.js -> /output/lib/context.js.gz
+2022/04/13 00:38:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/fourOhFour.min.js /tmp/work/lib/fourOhFour.js
+2022/04/13 00:38:55 br /tmp/work/lib/errors.min.js -> /output/lib/errors.min.js.br
+2022/04/13 00:38:55 gz /tmp/work/lib/errors.min.js -> /output/lib/errors.min.js.gz
+2022/04/13 00:38:55 sri /tmp/work/lib/errors.js -> /output/lib/errors.js.sri
+2022/04/13 00:38:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/errors.js.br /tmp/work/lib/errors.js
+2022/04/13 00:38:55 sri /tmp/work/lib/decorate.min.js -> /output/lib/decorate.min.js.sri
+2022/04/13 00:38:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/decorate.min.js.br /tmp/work/lib/decorate.min.js
+2022/04/13 00:38:55 sri /tmp/work/lib/error-handler.min.js -> /output/lib/error-handler.min.js.sri
+2022/04/13 00:38:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/error-handler.min.js.br /tmp/work/lib/error-handler.min.js
+2022/04/13 00:38:55 br /tmp/work/lib/decorate.min.js -> /output/lib/decorate.min.js.br
+2022/04/13 00:38:55 gz /tmp/work/lib/decorate.min.js -> /output/lib/decorate.min.js.gz
+2022/04/13 00:38:55 sri /tmp/work/lib/decorate.js -> /output/lib/decorate.js.sri
+2022/04/13 00:38:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/decorate.js.br /tmp/work/lib/decorate.js
+2022/04/13 00:38:55 br /tmp/work/lib/errors.js -> /output/lib/errors.js.br
+2022/04/13 00:38:55 gz /tmp/work/lib/errors.js -> /output/lib/errors.js.gz
+2022/04/13 00:38:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/handleRequest.min.js /tmp/work/lib/handleRequest.js
+2022/04/13 00:38:55 br /tmp/work/lib/error-handler.min.js -> /output/lib/error-handler.min.js.br
+2022/04/13 00:38:55 gz /tmp/work/lib/error-handler.min.js -> /output/lib/error-handler.min.js.gz
+2022/04/13 00:38:55 sri /tmp/work/lib/error-handler.js -> /output/lib/error-handler.js.sri
+2022/04/13 00:38:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/error-handler.js.br /tmp/work/lib/error-handler.js
+2022/04/13 00:38:55 br /tmp/work/lib/decorate.js -> /output/lib/decorate.js.br
+2022/04/13 00:38:55 gz /tmp/work/lib/decorate.js -> /output/lib/decorate.js.gz
+2022/04/13 00:38:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/headRoute.min.js /tmp/work/lib/headRoute.js
+2022/04/13 00:38:55 br /tmp/work/lib/error-handler.js -> /output/lib/error-handler.js.br
+2022/04/13 00:38:55 gz /tmp/work/lib/error-handler.js -> /output/lib/error-handler.js.gz
+2022/04/13 00:38:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/hooks.min.js /tmp/work/lib/hooks.js
+2022/04/13 00:38:56 failed with exit status 1: Parse error at /tmp/work/lib/error-serializer.js:256,5
+     return $main
+     ^
+ERROR: 'return' outside of function
+    at JS_Parse_Error.get (eval at <anonymous> (/node_modules/uglify-es/tools/node.js:21:1), <anonymous>:75:23)
+    at fatal (/node_modules/uglify-es/bin/uglifyjs:300:53)
+    at run (/node_modules/uglify-es/bin/uglifyjs:239:9)
+    at Object.<anonymous> (/node_modules/uglify-es/bin/uglifyjs:169:5)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
+
+2022/04/13 00:38:56 sri /tmp/work/lib/error-serializer.js -> /output/lib/error-serializer.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/error-serializer.js.br /tmp/work/lib/error-serializer.js
+2022/04/13 00:38:56 sri /tmp/work/lib/contentTypeParser.min.js -> /output/lib/contentTypeParser.min.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/contentTypeParser.min.js.br /tmp/work/lib/contentTypeParser.min.js
+2022/04/13 00:38:56 br /tmp/work/lib/error-serializer.js -> /output/lib/error-serializer.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/error-serializer.js -> /output/lib/error-serializer.js.gz
+2022/04/13 00:38:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/initialConfigValidation.min.js /tmp/work/lib/initialConfigValidation.js
+2022/04/13 00:38:56 br /tmp/work/lib/contentTypeParser.min.js -> /output/lib/contentTypeParser.min.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/contentTypeParser.min.js -> /output/lib/contentTypeParser.min.js.gz
+2022/04/13 00:38:56 sri /tmp/work/lib/contentTypeParser.js -> /output/lib/contentTypeParser.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/contentTypeParser.js.br /tmp/work/lib/contentTypeParser.js
+2022/04/13 00:38:56 br /tmp/work/lib/contentTypeParser.js -> /output/lib/contentTypeParser.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/contentTypeParser.js -> /output/lib/contentTypeParser.js.gz
+2022/04/13 00:38:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/logger.min.js /tmp/work/lib/logger.js
+2022/04/13 00:38:56 sri /tmp/work/lib/headRoute.min.js -> /output/lib/headRoute.min.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/headRoute.min.js.br /tmp/work/lib/headRoute.min.js
+2022/04/13 00:38:56 br /tmp/work/lib/headRoute.min.js -> /output/lib/headRoute.min.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/headRoute.min.js -> /output/lib/headRoute.min.js.gz
+2022/04/13 00:38:56 sri /tmp/work/lib/headRoute.js -> /output/lib/headRoute.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/headRoute.js.br /tmp/work/lib/headRoute.js
+2022/04/13 00:38:56 br /tmp/work/lib/headRoute.js -> /output/lib/headRoute.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/headRoute.js -> /output/lib/headRoute.js.gz
+2022/04/13 00:38:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/noop-set.min.js /tmp/work/lib/noop-set.js
+2022/04/13 00:38:56 sri /tmp/work/lib/fourOhFour.min.js -> /output/lib/fourOhFour.min.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/fourOhFour.min.js.br /tmp/work/lib/fourOhFour.min.js
+2022/04/13 00:38:56 br /tmp/work/lib/fourOhFour.min.js -> /output/lib/fourOhFour.min.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/fourOhFour.min.js -> /output/lib/fourOhFour.min.js.gz
+2022/04/13 00:38:56 sri /tmp/work/lib/fourOhFour.js -> /output/lib/fourOhFour.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/fourOhFour.js.br /tmp/work/lib/fourOhFour.js
+2022/04/13 00:38:56 sri /tmp/work/fastify.min.js -> /output/fastify.min.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fastify.min.js.br /tmp/work/fastify.min.js
+2022/04/13 00:38:56 sri /tmp/work/lib/handleRequest.min.js -> /output/lib/handleRequest.min.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/handleRequest.min.js.br /tmp/work/lib/handleRequest.min.js
+2022/04/13 00:38:56 sri /tmp/work/lib/initialConfigValidation.min.js -> /output/lib/initialConfigValidation.min.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/initialConfigValidation.min.js.br /tmp/work/lib/initialConfigValidation.min.js
+2022/04/13 00:38:56 br /tmp/work/lib/fourOhFour.js -> /output/lib/fourOhFour.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/fourOhFour.js -> /output/lib/fourOhFour.js.gz
+2022/04/13 00:38:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/pluginOverride.min.js /tmp/work/lib/pluginOverride.js
+2022/04/13 00:38:56 br /tmp/work/lib/initialConfigValidation.min.js -> /output/lib/initialConfigValidation.min.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/initialConfigValidation.min.js -> /output/lib/initialConfigValidation.min.js.gz
+2022/04/13 00:38:56 sri /tmp/work/lib/initialConfigValidation.js -> /output/lib/initialConfigValidation.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/initialConfigValidation.js.br /tmp/work/lib/initialConfigValidation.js
+2022/04/13 00:38:56 br /tmp/work/lib/handleRequest.min.js -> /output/lib/handleRequest.min.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/handleRequest.min.js -> /output/lib/handleRequest.min.js.gz
+2022/04/13 00:38:56 sri /tmp/work/lib/handleRequest.js -> /output/lib/handleRequest.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/handleRequest.js.br /tmp/work/lib/handleRequest.js
+2022/04/13 00:38:56 br /tmp/work/lib/initialConfigValidation.js -> /output/lib/initialConfigValidation.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/initialConfigValidation.js -> /output/lib/initialConfigValidation.js.gz
+2022/04/13 00:38:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/pluginUtils.min.js /tmp/work/lib/pluginUtils.js
+2022/04/13 00:38:56 br /tmp/work/lib/handleRequest.js -> /output/lib/handleRequest.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/handleRequest.js -> /output/lib/handleRequest.js.gz
+2022/04/13 00:38:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/reply.min.js /tmp/work/lib/reply.js
+2022/04/13 00:38:56 br /tmp/work/fastify.min.js -> /output/fastify.min.js.br
+2022/04/13 00:38:56 gz /tmp/work/fastify.min.js -> /output/fastify.min.js.gz
+2022/04/13 00:38:56 sri /tmp/work/fastify.js -> /output/fastify.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fastify.js.br /tmp/work/fastify.js
+2022/04/13 00:38:56 sri /tmp/work/lib/logger.min.js -> /output/lib/logger.min.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/logger.min.js.br /tmp/work/lib/logger.min.js
+2022/04/13 00:38:56 br /tmp/work/fastify.js -> /output/fastify.js.br
+2022/04/13 00:38:56 gz /tmp/work/fastify.js -> /output/fastify.js.gz
+2022/04/13 00:38:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/reqIdGenFactory.min.js /tmp/work/lib/reqIdGenFactory.js
+2022/04/13 00:38:56 br /tmp/work/lib/logger.min.js -> /output/lib/logger.min.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/logger.min.js -> /output/lib/logger.min.js.gz
+2022/04/13 00:38:56 sri /tmp/work/lib/logger.js -> /output/lib/logger.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/logger.js.br /tmp/work/lib/logger.js
+2022/04/13 00:38:56 sri /tmp/work/lib/hooks.min.js -> /output/lib/hooks.min.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/hooks.min.js.br /tmp/work/lib/hooks.min.js
+2022/04/13 00:38:56 br /tmp/work/lib/logger.js -> /output/lib/logger.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/logger.js -> /output/lib/logger.js.gz
+2022/04/13 00:38:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/request.min.js /tmp/work/lib/request.js
+2022/04/13 00:38:56 sri /tmp/work/lib/noop-set.min.js -> /output/lib/noop-set.min.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/noop-set.min.js.br /tmp/work/lib/noop-set.min.js
+2022/04/13 00:38:56 br /tmp/work/lib/hooks.min.js -> /output/lib/hooks.min.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/hooks.min.js -> /output/lib/hooks.min.js.gz
+2022/04/13 00:38:56 sri /tmp/work/lib/hooks.js -> /output/lib/hooks.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/hooks.js.br /tmp/work/lib/hooks.js
+2022/04/13 00:38:56 br /tmp/work/lib/noop-set.min.js -> /output/lib/noop-set.min.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/noop-set.min.js -> /output/lib/noop-set.min.js.gz
+2022/04/13 00:38:56 sri /tmp/work/lib/noop-set.js -> /output/lib/noop-set.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/noop-set.js.br /tmp/work/lib/noop-set.js
+2022/04/13 00:38:56 br /tmp/work/lib/noop-set.js -> /output/lib/noop-set.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/noop-set.js -> /output/lib/noop-set.js.gz
+2022/04/13 00:38:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/route.min.js /tmp/work/lib/route.js
+2022/04/13 00:38:56 br /tmp/work/lib/hooks.js -> /output/lib/hooks.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/hooks.js -> /output/lib/hooks.js.gz
+2022/04/13 00:38:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/schema-controller.min.js /tmp/work/lib/schema-controller.js
+2022/04/13 00:38:56 sri /tmp/work/lib/pluginOverride.min.js -> /output/lib/pluginOverride.min.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/pluginOverride.min.js.br /tmp/work/lib/pluginOverride.min.js
+2022/04/13 00:38:56 br /tmp/work/lib/pluginOverride.min.js -> /output/lib/pluginOverride.min.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/pluginOverride.min.js -> /output/lib/pluginOverride.min.js.gz
+2022/04/13 00:38:56 sri /tmp/work/lib/pluginOverride.js -> /output/lib/pluginOverride.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/pluginOverride.js.br /tmp/work/lib/pluginOverride.js
+2022/04/13 00:38:56 br /tmp/work/lib/pluginOverride.js -> /output/lib/pluginOverride.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/pluginOverride.js -> /output/lib/pluginOverride.js.gz
+2022/04/13 00:38:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/schemas.min.js /tmp/work/lib/schemas.js
+2022/04/13 00:38:56 sri /tmp/work/lib/pluginUtils.min.js -> /output/lib/pluginUtils.min.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/pluginUtils.min.js.br /tmp/work/lib/pluginUtils.min.js
+2022/04/13 00:38:56 br /tmp/work/lib/pluginUtils.min.js -> /output/lib/pluginUtils.min.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/pluginUtils.min.js -> /output/lib/pluginUtils.min.js.gz
+2022/04/13 00:38:56 sri /tmp/work/lib/pluginUtils.js -> /output/lib/pluginUtils.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/pluginUtils.js.br /tmp/work/lib/pluginUtils.js
+2022/04/13 00:38:56 sri /tmp/work/lib/reqIdGenFactory.min.js -> /output/lib/reqIdGenFactory.min.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/reqIdGenFactory.min.js.br /tmp/work/lib/reqIdGenFactory.min.js
+2022/04/13 00:38:56 br /tmp/work/lib/pluginUtils.js -> /output/lib/pluginUtils.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/pluginUtils.js -> /output/lib/pluginUtils.js.gz
+2022/04/13 00:38:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/server.min.js /tmp/work/lib/server.js
+2022/04/13 00:38:56 br /tmp/work/lib/reqIdGenFactory.min.js -> /output/lib/reqIdGenFactory.min.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/reqIdGenFactory.min.js -> /output/lib/reqIdGenFactory.min.js.gz
+2022/04/13 00:38:56 sri /tmp/work/lib/reqIdGenFactory.js -> /output/lib/reqIdGenFactory.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/reqIdGenFactory.js.br /tmp/work/lib/reqIdGenFactory.js
+2022/04/13 00:38:56 br /tmp/work/lib/reqIdGenFactory.js -> /output/lib/reqIdGenFactory.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/reqIdGenFactory.js -> /output/lib/reqIdGenFactory.js.gz
+2022/04/13 00:38:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/symbols.min.js /tmp/work/lib/symbols.js
+2022/04/13 00:38:56 sri /tmp/work/lib/schema-controller.min.js -> /output/lib/schema-controller.min.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/schema-controller.min.js.br /tmp/work/lib/schema-controller.min.js
+2022/04/13 00:38:56 br /tmp/work/lib/schema-controller.min.js -> /output/lib/schema-controller.min.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/schema-controller.min.js -> /output/lib/schema-controller.min.js.gz
+2022/04/13 00:38:56 sri /tmp/work/lib/schema-controller.js -> /output/lib/schema-controller.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/schema-controller.js.br /tmp/work/lib/schema-controller.js
+2022/04/13 00:38:56 sri /tmp/work/lib/request.min.js -> /output/lib/request.min.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/request.min.js.br /tmp/work/lib/request.min.js
+2022/04/13 00:38:56 br /tmp/work/lib/schema-controller.js -> /output/lib/schema-controller.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/schema-controller.js -> /output/lib/schema-controller.js.gz
+2022/04/13 00:38:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/validation.min.js /tmp/work/lib/validation.js
+2022/04/13 00:38:56 br /tmp/work/lib/request.min.js -> /output/lib/request.min.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/request.min.js -> /output/lib/request.min.js.gz
+2022/04/13 00:38:56 sri /tmp/work/lib/request.js -> /output/lib/request.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/request.js.br /tmp/work/lib/request.js
+2022/04/13 00:38:56 sri /tmp/work/lib/configValidator.min.js -> /output/lib/configValidator.min.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/configValidator.min.js.br /tmp/work/lib/configValidator.min.js
+2022/04/13 00:38:56 br /tmp/work/lib/request.js -> /output/lib/request.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/request.js -> /output/lib/request.js.gz
+2022/04/13 00:38:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/warnings.min.js /tmp/work/lib/warnings.js
+2022/04/13 00:38:56 br /tmp/work/lib/configValidator.min.js -> /output/lib/configValidator.min.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/configValidator.min.js -> /output/lib/configValidator.min.js.gz
+2022/04/13 00:38:56 sri /tmp/work/lib/configValidator.js -> /output/lib/configValidator.js.sri
+2022/04/13 00:38:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/configValidator.js.br /tmp/work/lib/configValidator.js
+2022/04/13 00:38:56 br /tmp/work/lib/configValidator.js -> /output/lib/configValidator.js.br
+2022/04/13 00:38:56 gz /tmp/work/lib/configValidator.js -> /output/lib/configValidator.js.gz
+2022/04/13 00:38:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/wrapThenable.min.js /tmp/work/lib/wrapThenable.js
+2022/04/13 00:38:57 sri /tmp/work/lib/symbols.min.js -> /output/lib/symbols.min.js.sri
+2022/04/13 00:38:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/symbols.min.js.br /tmp/work/lib/symbols.min.js
+2022/04/13 00:38:57 sri /tmp/work/lib/schemas.min.js -> /output/lib/schemas.min.js.sri
+2022/04/13 00:38:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/schemas.min.js.br /tmp/work/lib/schemas.min.js
+2022/04/13 00:38:57 br /tmp/work/lib/symbols.min.js -> /output/lib/symbols.min.js.br
+2022/04/13 00:38:57 gz /tmp/work/lib/symbols.min.js -> /output/lib/symbols.min.js.gz
+2022/04/13 00:38:57 sri /tmp/work/lib/symbols.js -> /output/lib/symbols.js.sri
+2022/04/13 00:38:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/symbols.js.br /tmp/work/lib/symbols.js
+2022/04/13 00:38:57 br /tmp/work/lib/schemas.min.js -> /output/lib/schemas.min.js.br
+2022/04/13 00:38:57 gz /tmp/work/lib/schemas.min.js -> /output/lib/schemas.min.js.gz
+2022/04/13 00:38:57 sri /tmp/work/lib/schemas.js -> /output/lib/schemas.js.sri
+2022/04/13 00:38:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/schemas.js.br /tmp/work/lib/schemas.js
+2022/04/13 00:38:57 br /tmp/work/lib/symbols.js -> /output/lib/symbols.js.br
+2022/04/13 00:38:57 gz /tmp/work/lib/symbols.js -> /output/lib/symbols.js.gz
+2022/04/13 00:38:57 br /tmp/work/lib/schemas.js -> /output/lib/schemas.js.br
+2022/04/13 00:38:57 gz /tmp/work/lib/schemas.js -> /output/lib/schemas.js.gz
+2022/04/13 00:38:57 sri /tmp/work/lib/reply.min.js -> /output/lib/reply.min.js.sri
+2022/04/13 00:38:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/reply.min.js.br /tmp/work/lib/reply.min.js
+2022/04/13 00:38:57 sri /tmp/work/lib/warnings.min.js -> /output/lib/warnings.min.js.sri
+2022/04/13 00:38:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/warnings.min.js.br /tmp/work/lib/warnings.min.js
+2022/04/13 00:38:57 br /tmp/work/lib/warnings.min.js -> /output/lib/warnings.min.js.br
+2022/04/13 00:38:57 gz /tmp/work/lib/warnings.min.js -> /output/lib/warnings.min.js.gz
+2022/04/13 00:38:57 sri /tmp/work/lib/warnings.js -> /output/lib/warnings.js.sri
+2022/04/13 00:38:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/warnings.js.br /tmp/work/lib/warnings.js
+2022/04/13 00:38:57 br /tmp/work/lib/warnings.js -> /output/lib/warnings.js.br
+2022/04/13 00:38:57 gz /tmp/work/lib/warnings.js -> /output/lib/warnings.js.gz
+2022/04/13 00:38:57 br /tmp/work/lib/reply.min.js -> /output/lib/reply.min.js.br
+2022/04/13 00:38:57 gz /tmp/work/lib/reply.min.js -> /output/lib/reply.min.js.gz
+2022/04/13 00:38:57 sri /tmp/work/lib/reply.js -> /output/lib/reply.js.sri
+2022/04/13 00:38:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/reply.js.br /tmp/work/lib/reply.js
+2022/04/13 00:38:57 br /tmp/work/lib/reply.js -> /output/lib/reply.js.br
+2022/04/13 00:38:57 gz /tmp/work/lib/reply.js -> /output/lib/reply.js.gz
+2022/04/13 00:38:57 sri /tmp/work/lib/validation.min.js -> /output/lib/validation.min.js.sri
+2022/04/13 00:38:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/validation.min.js.br /tmp/work/lib/validation.min.js
+2022/04/13 00:38:57 br /tmp/work/lib/validation.min.js -> /output/lib/validation.min.js.br
+2022/04/13 00:38:57 gz /tmp/work/lib/validation.min.js -> /output/lib/validation.min.js.gz
+2022/04/13 00:38:57 sri /tmp/work/lib/validation.js -> /output/lib/validation.js.sri
+2022/04/13 00:38:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/validation.js.br /tmp/work/lib/validation.js
+2022/04/13 00:38:57 sri /tmp/work/lib/server.min.js -> /output/lib/server.min.js.sri
+2022/04/13 00:38:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/server.min.js.br /tmp/work/lib/server.min.js
+2022/04/13 00:38:57 br /tmp/work/lib/validation.js -> /output/lib/validation.js.br
+2022/04/13 00:38:57 gz /tmp/work/lib/validation.js -> /output/lib/validation.js.gz
+2022/04/13 00:38:57 sri /tmp/work/lib/route.min.js -> /output/lib/route.min.js.sri
+2022/04/13 00:38:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/route.min.js.br /tmp/work/lib/route.min.js
+2022/04/13 00:38:57 br /tmp/work/lib/server.min.js -> /output/lib/server.min.js.br
+2022/04/13 00:38:57 gz /tmp/work/lib/server.min.js -> /output/lib/server.min.js.gz
+2022/04/13 00:38:57 sri /tmp/work/lib/server.js -> /output/lib/server.js.sri
+2022/04/13 00:38:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/server.js.br /tmp/work/lib/server.js
+2022/04/13 00:38:57 sri /tmp/work/lib/wrapThenable.min.js -> /output/lib/wrapThenable.min.js.sri
+2022/04/13 00:38:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/wrapThenable.min.js.br /tmp/work/lib/wrapThenable.min.js
+2022/04/13 00:38:57 br /tmp/work/lib/route.min.js -> /output/lib/route.min.js.br
+2022/04/13 00:38:57 gz /tmp/work/lib/route.min.js -> /output/lib/route.min.js.gz
+2022/04/13 00:38:57 sri /tmp/work/lib/route.js -> /output/lib/route.js.sri
+2022/04/13 00:38:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/route.js.br /tmp/work/lib/route.js
+2022/04/13 00:38:57 br /tmp/work/lib/wrapThenable.min.js -> /output/lib/wrapThenable.min.js.br
+2022/04/13 00:38:57 gz /tmp/work/lib/wrapThenable.min.js -> /output/lib/wrapThenable.min.js.gz
+2022/04/13 00:38:57 sri /tmp/work/lib/wrapThenable.js -> /output/lib/wrapThenable.js.sri
+2022/04/13 00:38:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/wrapThenable.js.br /tmp/work/lib/wrapThenable.js
+2022/04/13 00:38:57 br /tmp/work/lib/server.js -> /output/lib/server.js.br
+2022/04/13 00:38:57 gz /tmp/work/lib/server.js -> /output/lib/server.js.gz
+2022/04/13 00:38:57 br /tmp/work/lib/wrapThenable.js -> /output/lib/wrapThenable.js.br
+2022/04/13 00:38:57 gz /tmp/work/lib/wrapThenable.js -> /output/lib/wrapThenable.js.gz
+2022/04/13 00:38:57 br /tmp/work/lib/route.js -> /output/lib/route.js.br
+2022/04/13 00:38:57 gz /tmp/work/lib/route.js -> /output/lib/route.js.gz
+2022/04/13 00:38:57 processed fastify
