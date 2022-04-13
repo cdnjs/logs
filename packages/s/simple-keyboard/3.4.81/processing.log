@@ -1,0 +1,29 @@
+2022/04/13 10:03:59 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/04/13 10:03:59 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/index.modern.min.js /tmp/work/build/index.modern.js
+2022/04/13 10:03:59 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/index.min.js /tmp/work/build/index.js
+2022/04/13 10:03:59 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/build/css/index.min.css /tmp/work/build/css/index.css
+2022/04/13 10:03:59 sri /tmp/work/build/css/index.min.css -> /output/css/index.min.css.sri
+2022/04/13 10:03:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/index.min.css.br /tmp/work/build/css/index.min.css
+2022/04/13 10:03:59 br /tmp/work/build/css/index.min.css -> /output/css/index.min.css.br
+2022/04/13 10:03:59 gz /tmp/work/build/css/index.min.css -> /output/css/index.min.css.gz
+2022/04/13 10:03:59 sri /tmp/work/build/css/index.css -> /output/css/index.css.sri
+2022/04/13 10:03:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/index.css.br /tmp/work/build/css/index.css
+2022/04/13 10:03:59 br /tmp/work/build/css/index.css -> /output/css/index.css.br
+2022/04/13 10:03:59 gz /tmp/work/build/css/index.css -> /output/css/index.css.gz
+2022/04/13 10:04:00 sri /tmp/work/build/index.modern.min.js -> /output/index.modern.min.js.sri
+2022/04/13 10:04:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.modern.min.js.br /tmp/work/build/index.modern.min.js
+2022/04/13 10:04:00 br /tmp/work/build/index.modern.min.js -> /output/index.modern.min.js.br
+2022/04/13 10:04:00 gz /tmp/work/build/index.modern.min.js -> /output/index.modern.min.js.gz
+2022/04/13 10:04:00 sri /tmp/work/build/index.modern.js -> /output/index.modern.js.sri
+2022/04/13 10:04:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.modern.js.br /tmp/work/build/index.modern.js
+2022/04/13 10:04:01 br /tmp/work/build/index.modern.js -> /output/index.modern.js.br
+2022/04/13 10:04:01 gz /tmp/work/build/index.modern.js -> /output/index.modern.js.gz
+2022/04/13 10:04:02 sri /tmp/work/build/index.min.js -> /output/index.min.js.sri
+2022/04/13 10:04:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/build/index.min.js
+2022/04/13 10:04:02 br /tmp/work/build/index.min.js -> /output/index.min.js.br
+2022/04/13 10:04:02 gz /tmp/work/build/index.min.js -> /output/index.min.js.gz
+2022/04/13 10:04:02 sri /tmp/work/build/index.js -> /output/index.js.sri
+2022/04/13 10:04:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/build/index.js
+2022/04/13 10:04:02 br /tmp/work/build/index.js -> /output/index.js.br
+2022/04/13 10:04:02 gz /tmp/work/build/index.js -> /output/index.js.gz
+2022/04/13 10:04:02 processed simple-keyboard
