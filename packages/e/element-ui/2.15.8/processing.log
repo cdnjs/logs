@@ -1,0 +1,521 @@
+2022/04/13 09:38:01 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/04/13 09:38:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/index.min.js /tmp/work/lib/index.js
+2022/04/13 09:38:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/lib/theme-chalk/index.min.css /tmp/work/lib/theme-chalk/index.css
+2022/04/13 09:38:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/az.min.js /tmp/work/lib/umd/locale/az.js
+2022/04/13 09:38:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/af-ZA.min.js /tmp/work/lib/umd/locale/af-ZA.js
+2022/04/13 09:38:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/bg.min.js /tmp/work/lib/umd/locale/bg.js
+2022/04/13 09:38:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/ar.min.js /tmp/work/lib/umd/locale/ar.js
+2022/04/13 09:38:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/theme-chalk/fonts/element-icons.ttf.br /tmp/work/lib/theme-chalk/fonts/element-icons.ttf
+2022/04/13 09:38:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/theme-chalk/fonts/element-icons.woff.br /tmp/work/lib/theme-chalk/fonts/element-icons.woff
+2022/04/13 09:38:01 br /tmp/work/lib/theme-chalk/fonts/element-icons.woff -> /output/theme-chalk/fonts/element-icons.woff.br
+2022/04/13 09:38:01 gz /tmp/work/lib/theme-chalk/fonts/element-icons.woff -> /output/theme-chalk/fonts/element-icons.woff.gz
+2022/04/13 09:38:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/bn.min.js /tmp/work/lib/umd/locale/bn.js
+2022/04/13 09:38:01 br /tmp/work/lib/theme-chalk/fonts/element-icons.ttf -> /output/theme-chalk/fonts/element-icons.ttf.br
+2022/04/13 09:38:01 gz /tmp/work/lib/theme-chalk/fonts/element-icons.ttf -> /output/theme-chalk/fonts/element-icons.ttf.gz
+2022/04/13 09:38:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/ca.min.js /tmp/work/lib/umd/locale/ca.js
+2022/04/13 09:38:01 sri /tmp/work/lib/umd/locale/ar.min.js -> /output/locale/ar.min.js.sri
+2022/04/13 09:38:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/ar.min.js.br /tmp/work/lib/umd/locale/ar.min.js
+2022/04/13 09:38:01 br /tmp/work/lib/umd/locale/ar.min.js -> /output/locale/ar.min.js.br
+2022/04/13 09:38:01 sri /tmp/work/lib/umd/locale/az.min.js -> /output/locale/az.min.js.sri
+2022/04/13 09:38:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/az.min.js.br /tmp/work/lib/umd/locale/az.min.js
+2022/04/13 09:38:01 gz /tmp/work/lib/umd/locale/ar.min.js -> /output/locale/ar.min.js.gz
+2022/04/13 09:38:01 sri /tmp/work/lib/umd/locale/ar.js -> /output/locale/ar.js.sri
+2022/04/13 09:38:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/ar.js.br /tmp/work/lib/umd/locale/ar.js
+2022/04/13 09:38:01 sri /tmp/work/lib/umd/locale/bg.min.js -> /output/locale/bg.min.js.sri
+2022/04/13 09:38:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/bg.min.js.br /tmp/work/lib/umd/locale/bg.min.js
+2022/04/13 09:38:01 br /tmp/work/lib/umd/locale/az.min.js -> /output/locale/az.min.js.br
+2022/04/13 09:38:01 gz /tmp/work/lib/umd/locale/az.min.js -> /output/locale/az.min.js.gz
+2022/04/13 09:38:01 sri /tmp/work/lib/umd/locale/az.js -> /output/locale/az.js.sri
+2022/04/13 09:38:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/az.js.br /tmp/work/lib/umd/locale/az.js
+2022/04/13 09:38:01 br /tmp/work/lib/umd/locale/ar.js -> /output/locale/ar.js.br
+2022/04/13 09:38:01 gz /tmp/work/lib/umd/locale/ar.js -> /output/locale/ar.js.gz
+2022/04/13 09:38:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/cs-CZ.min.js /tmp/work/lib/umd/locale/cs-CZ.js
+2022/04/13 09:38:01 br /tmp/work/lib/umd/locale/bg.min.js -> /output/locale/bg.min.js.br
+2022/04/13 09:38:01 gz /tmp/work/lib/umd/locale/bg.min.js -> /output/locale/bg.min.js.gz
+2022/04/13 09:38:01 sri /tmp/work/lib/umd/locale/bg.js -> /output/locale/bg.js.sri
+2022/04/13 09:38:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/bg.js.br /tmp/work/lib/umd/locale/bg.js
+2022/04/13 09:38:01 sri /tmp/work/lib/umd/locale/af-ZA.min.js -> /output/locale/af-ZA.min.js.sri
+2022/04/13 09:38:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/af-ZA.min.js.br /tmp/work/lib/umd/locale/af-ZA.min.js
+2022/04/13 09:38:01 br /tmp/work/lib/umd/locale/az.js -> /output/locale/az.js.br
+2022/04/13 09:38:01 gz /tmp/work/lib/umd/locale/az.js -> /output/locale/az.js.gz
+2022/04/13 09:38:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/da.min.js /tmp/work/lib/umd/locale/da.js
+2022/04/13 09:38:01 br /tmp/work/lib/umd/locale/af-ZA.min.js -> /output/locale/af-ZA.min.js.br
+2022/04/13 09:38:01 gz /tmp/work/lib/umd/locale/af-ZA.min.js -> /output/locale/af-ZA.min.js.gz
+2022/04/13 09:38:01 sri /tmp/work/lib/umd/locale/af-ZA.js -> /output/locale/af-ZA.js.sri
+2022/04/13 09:38:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/af-ZA.js.br /tmp/work/lib/umd/locale/af-ZA.js
+2022/04/13 09:38:01 br /tmp/work/lib/umd/locale/bg.js -> /output/locale/bg.js.br
+2022/04/13 09:38:01 gz /tmp/work/lib/umd/locale/bg.js -> /output/locale/bg.js.gz
+2022/04/13 09:38:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/de.min.js /tmp/work/lib/umd/locale/de.js
+2022/04/13 09:38:01 br /tmp/work/lib/umd/locale/af-ZA.js -> /output/locale/af-ZA.js.br
+2022/04/13 09:38:01 gz /tmp/work/lib/umd/locale/af-ZA.js -> /output/locale/af-ZA.js.gz
+2022/04/13 09:38:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/ee.min.js /tmp/work/lib/umd/locale/ee.js
+2022/04/13 09:38:01 sri /tmp/work/lib/umd/locale/bn.min.js -> /output/locale/bn.min.js.sri
+2022/04/13 09:38:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/bn.min.js.br /tmp/work/lib/umd/locale/bn.min.js
+2022/04/13 09:38:01 br /tmp/work/lib/umd/locale/bn.min.js -> /output/locale/bn.min.js.br
+2022/04/13 09:38:01 gz /tmp/work/lib/umd/locale/bn.min.js -> /output/locale/bn.min.js.gz
+2022/04/13 09:38:01 sri /tmp/work/lib/umd/locale/bn.js -> /output/locale/bn.js.sri
+2022/04/13 09:38:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/bn.js.br /tmp/work/lib/umd/locale/bn.js
+2022/04/13 09:38:01 br /tmp/work/lib/umd/locale/bn.js -> /output/locale/bn.js.br
+2022/04/13 09:38:01 gz /tmp/work/lib/umd/locale/bn.js -> /output/locale/bn.js.gz
+2022/04/13 09:38:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/el.min.js /tmp/work/lib/umd/locale/el.js
+2022/04/13 09:38:01 sri /tmp/work/lib/umd/locale/ca.min.js -> /output/locale/ca.min.js.sri
+2022/04/13 09:38:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/ca.min.js.br /tmp/work/lib/umd/locale/ca.min.js
+2022/04/13 09:38:01 br /tmp/work/lib/umd/locale/ca.min.js -> /output/locale/ca.min.js.br
+2022/04/13 09:38:01 gz /tmp/work/lib/umd/locale/ca.min.js -> /output/locale/ca.min.js.gz
+2022/04/13 09:38:01 sri /tmp/work/lib/umd/locale/ca.js -> /output/locale/ca.js.sri
+2022/04/13 09:38:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/ca.js.br /tmp/work/lib/umd/locale/ca.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/ca.js -> /output/locale/ca.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/ca.js -> /output/locale/ca.js.gz
+2022/04/13 09:38:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/en.min.js /tmp/work/lib/umd/locale/en.js
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/cs-CZ.min.js -> /output/locale/cs-CZ.min.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/cs-CZ.min.js.br /tmp/work/lib/umd/locale/cs-CZ.min.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/cs-CZ.min.js -> /output/locale/cs-CZ.min.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/cs-CZ.min.js -> /output/locale/cs-CZ.min.js.gz
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/cs-CZ.js -> /output/locale/cs-CZ.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/cs-CZ.js.br /tmp/work/lib/umd/locale/cs-CZ.js
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/ee.min.js -> /output/locale/ee.min.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/ee.min.js.br /tmp/work/lib/umd/locale/ee.min.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/cs-CZ.js -> /output/locale/cs-CZ.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/cs-CZ.js -> /output/locale/cs-CZ.js.gz
+2022/04/13 09:38:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/eo.min.js /tmp/work/lib/umd/locale/eo.js
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/da.min.js -> /output/locale/da.min.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/da.min.js.br /tmp/work/lib/umd/locale/da.min.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/ee.min.js -> /output/locale/ee.min.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/ee.min.js -> /output/locale/ee.min.js.gz
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/ee.js -> /output/locale/ee.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/ee.js.br /tmp/work/lib/umd/locale/ee.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/da.min.js -> /output/locale/da.min.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/da.min.js -> /output/locale/da.min.js.gz
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/da.js -> /output/locale/da.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/da.js.br /tmp/work/lib/umd/locale/da.js
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/de.min.js -> /output/locale/de.min.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/de.min.js.br /tmp/work/lib/umd/locale/de.min.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/ee.js -> /output/locale/ee.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/ee.js -> /output/locale/ee.js.gz
+2022/04/13 09:38:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/es.min.js /tmp/work/lib/umd/locale/es.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/da.js -> /output/locale/da.js.br
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/de.min.js -> /output/locale/de.min.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/da.js -> /output/locale/da.js.gz
+2022/04/13 09:38:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/eu.min.js /tmp/work/lib/umd/locale/eu.js
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/de.min.js -> /output/locale/de.min.js.gz
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/de.js -> /output/locale/de.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/de.js.br /tmp/work/lib/umd/locale/de.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/de.js -> /output/locale/de.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/de.js -> /output/locale/de.js.gz
+2022/04/13 09:38:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/fa.min.js /tmp/work/lib/umd/locale/fa.js
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/el.min.js -> /output/locale/el.min.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/el.min.js.br /tmp/work/lib/umd/locale/el.min.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/el.min.js -> /output/locale/el.min.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/el.min.js -> /output/locale/el.min.js.gz
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/el.js -> /output/locale/el.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/el.js.br /tmp/work/lib/umd/locale/el.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/el.js -> /output/locale/el.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/el.js -> /output/locale/el.js.gz
+2022/04/13 09:38:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/fi.min.js /tmp/work/lib/umd/locale/fi.js
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/en.min.js -> /output/locale/en.min.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/en.min.js.br /tmp/work/lib/umd/locale/en.min.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/en.min.js -> /output/locale/en.min.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/en.min.js -> /output/locale/en.min.js.gz
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/en.js -> /output/locale/en.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/en.js.br /tmp/work/lib/umd/locale/en.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/en.js -> /output/locale/en.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/en.js -> /output/locale/en.js.gz
+2022/04/13 09:38:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/fr.min.js /tmp/work/lib/umd/locale/fr.js
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/eo.min.js -> /output/locale/eo.min.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/eo.min.js.br /tmp/work/lib/umd/locale/eo.min.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/eo.min.js -> /output/locale/eo.min.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/eo.min.js -> /output/locale/eo.min.js.gz
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/eo.js -> /output/locale/eo.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/eo.js.br /tmp/work/lib/umd/locale/eo.js
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/es.min.js -> /output/locale/es.min.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/es.min.js.br /tmp/work/lib/umd/locale/es.min.js
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/eu.min.js -> /output/locale/eu.min.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/eu.min.js.br /tmp/work/lib/umd/locale/eu.min.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/es.min.js -> /output/locale/es.min.js.br
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/eo.js -> /output/locale/eo.js.br
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/eu.min.js -> /output/locale/eu.min.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/eu.min.js -> /output/locale/eu.min.js.gz
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/eu.js -> /output/locale/eu.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/eu.js.br /tmp/work/lib/umd/locale/eu.js
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/es.min.js -> /output/locale/es.min.js.gz
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/es.js -> /output/locale/es.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/es.js.br /tmp/work/lib/umd/locale/es.js
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/eo.js -> /output/locale/eo.js.gz
+2022/04/13 09:38:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/he.min.js /tmp/work/lib/umd/locale/he.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/eu.js -> /output/locale/eu.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/eu.js -> /output/locale/eu.js.gz
+2022/04/13 09:38:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/hr.min.js /tmp/work/lib/umd/locale/hr.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/es.js -> /output/locale/es.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/es.js -> /output/locale/es.js.gz
+2022/04/13 09:38:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/hu.min.js /tmp/work/lib/umd/locale/hu.js
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/fa.min.js -> /output/locale/fa.min.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/fa.min.js.br /tmp/work/lib/umd/locale/fa.min.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/fa.min.js -> /output/locale/fa.min.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/fa.min.js -> /output/locale/fa.min.js.gz
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/fa.js -> /output/locale/fa.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/fa.js.br /tmp/work/lib/umd/locale/fa.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/fa.js -> /output/locale/fa.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/fa.js -> /output/locale/fa.js.gz
+2022/04/13 09:38:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/hy-AM.min.js /tmp/work/lib/umd/locale/hy-AM.js
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/fi.min.js -> /output/locale/fi.min.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/fi.min.js.br /tmp/work/lib/umd/locale/fi.min.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/fi.min.js -> /output/locale/fi.min.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/fi.min.js -> /output/locale/fi.min.js.gz
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/fi.js -> /output/locale/fi.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/fi.js.br /tmp/work/lib/umd/locale/fi.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/fi.js -> /output/locale/fi.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/fi.js -> /output/locale/fi.js.gz
+2022/04/13 09:38:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/id.min.js /tmp/work/lib/umd/locale/id.js
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/fr.min.js -> /output/locale/fr.min.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/fr.min.js.br /tmp/work/lib/umd/locale/fr.min.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/fr.min.js -> /output/locale/fr.min.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/fr.min.js -> /output/locale/fr.min.js.gz
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/fr.js -> /output/locale/fr.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/fr.js.br /tmp/work/lib/umd/locale/fr.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/fr.js -> /output/locale/fr.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/fr.js -> /output/locale/fr.js.gz
+2022/04/13 09:38:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/is.min.js /tmp/work/lib/umd/locale/is.js
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/hu.min.js -> /output/locale/hu.min.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/hu.min.js.br /tmp/work/lib/umd/locale/hu.min.js
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/he.min.js -> /output/locale/he.min.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/he.min.js.br /tmp/work/lib/umd/locale/he.min.js
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/hr.min.js -> /output/locale/hr.min.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/hr.min.js.br /tmp/work/lib/umd/locale/hr.min.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/hu.min.js -> /output/locale/hu.min.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/hu.min.js -> /output/locale/hu.min.js.gz
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/hu.js -> /output/locale/hu.js.sri
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/he.min.js -> /output/locale/he.min.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/he.min.js -> /output/locale/he.min.js.gz
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/hu.js.br /tmp/work/lib/umd/locale/hu.js
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/he.js -> /output/locale/he.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/he.js.br /tmp/work/lib/umd/locale/he.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/hr.min.js -> /output/locale/hr.min.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/hr.min.js -> /output/locale/hr.min.js.gz
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/hr.js -> /output/locale/hr.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/hr.js.br /tmp/work/lib/umd/locale/hr.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/hu.js -> /output/locale/hu.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/hu.js -> /output/locale/hu.js.gz
+2022/04/13 09:38:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/it.min.js /tmp/work/lib/umd/locale/it.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/he.js -> /output/locale/he.js.br
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/hr.js -> /output/locale/hr.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/he.js -> /output/locale/he.js.gz
+2022/04/13 09:38:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/ja.min.js /tmp/work/lib/umd/locale/ja.js
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/hr.js -> /output/locale/hr.js.gz
+2022/04/13 09:38:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/kg.min.js /tmp/work/lib/umd/locale/kg.js
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/hy-AM.min.js -> /output/locale/hy-AM.min.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/hy-AM.min.js.br /tmp/work/lib/umd/locale/hy-AM.min.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/hy-AM.min.js -> /output/locale/hy-AM.min.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/hy-AM.min.js -> /output/locale/hy-AM.min.js.gz
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/hy-AM.js -> /output/locale/hy-AM.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/hy-AM.js.br /tmp/work/lib/umd/locale/hy-AM.js
+2022/04/13 09:38:02 sri /tmp/work/lib/theme-chalk/index.min.css -> /output/theme-chalk/index.min.css.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/theme-chalk/index.min.css.br /tmp/work/lib/theme-chalk/index.min.css
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/id.min.js -> /output/locale/id.min.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/id.min.js.br /tmp/work/lib/umd/locale/id.min.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/hy-AM.js -> /output/locale/hy-AM.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/hy-AM.js -> /output/locale/hy-AM.js.gz
+2022/04/13 09:38:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/km.min.js /tmp/work/lib/umd/locale/km.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/id.min.js -> /output/locale/id.min.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/id.min.js -> /output/locale/id.min.js.gz
+2022/04/13 09:38:02 sri /tmp/work/lib/umd/locale/id.js -> /output/locale/id.js.sri
+2022/04/13 09:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/id.js.br /tmp/work/lib/umd/locale/id.js
+2022/04/13 09:38:02 br /tmp/work/lib/umd/locale/id.js -> /output/locale/id.js.br
+2022/04/13 09:38:02 gz /tmp/work/lib/umd/locale/id.js -> /output/locale/id.js.gz
+2022/04/13 09:38:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/ko.min.js /tmp/work/lib/umd/locale/ko.js
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/is.min.js -> /output/locale/is.min.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/is.min.js.br /tmp/work/lib/umd/locale/is.min.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/is.min.js -> /output/locale/is.min.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/is.min.js -> /output/locale/is.min.js.gz
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/is.js -> /output/locale/is.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/is.js.br /tmp/work/lib/umd/locale/is.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/is.js -> /output/locale/is.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/is.js -> /output/locale/is.js.gz
+2022/04/13 09:38:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/ku.min.js /tmp/work/lib/umd/locale/ku.js
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/it.min.js -> /output/locale/it.min.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/it.min.js.br /tmp/work/lib/umd/locale/it.min.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/it.min.js -> /output/locale/it.min.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/it.min.js -> /output/locale/it.min.js.gz
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/kg.min.js -> /output/locale/kg.min.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/kg.min.js.br /tmp/work/lib/umd/locale/kg.min.js
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/it.js -> /output/locale/it.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/it.js.br /tmp/work/lib/umd/locale/it.js
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/ja.min.js -> /output/locale/ja.min.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/ja.min.js.br /tmp/work/lib/umd/locale/ja.min.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/it.js -> /output/locale/it.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/it.js -> /output/locale/it.js.gz
+2022/04/13 09:38:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/kz.min.js /tmp/work/lib/umd/locale/kz.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/kg.min.js -> /output/locale/kg.min.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/kg.min.js -> /output/locale/kg.min.js.gz
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/kg.js -> /output/locale/kg.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/kg.js.br /tmp/work/lib/umd/locale/kg.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/ja.min.js -> /output/locale/ja.min.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/ja.min.js -> /output/locale/ja.min.js.gz
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/ja.js -> /output/locale/ja.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/ja.js.br /tmp/work/lib/umd/locale/ja.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/kg.js -> /output/locale/kg.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/kg.js -> /output/locale/kg.js.gz
+2022/04/13 09:38:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/lt.min.js /tmp/work/lib/umd/locale/lt.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/ja.js -> /output/locale/ja.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/ja.js -> /output/locale/ja.js.gz
+2022/04/13 09:38:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/lv.min.js /tmp/work/lib/umd/locale/lv.js
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/km.min.js -> /output/locale/km.min.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/km.min.js.br /tmp/work/lib/umd/locale/km.min.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/km.min.js -> /output/locale/km.min.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/km.min.js -> /output/locale/km.min.js.gz
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/km.js -> /output/locale/km.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/km.js.br /tmp/work/lib/umd/locale/km.js
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/ko.min.js -> /output/locale/ko.min.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/ko.min.js.br /tmp/work/lib/umd/locale/ko.min.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/ko.min.js -> /output/locale/ko.min.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/ko.min.js -> /output/locale/ko.min.js.gz
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/ko.js -> /output/locale/ko.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/ko.js.br /tmp/work/lib/umd/locale/ko.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/km.js -> /output/locale/km.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/km.js -> /output/locale/km.js.gz
+2022/04/13 09:38:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/mn.min.js /tmp/work/lib/umd/locale/mn.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/ko.js -> /output/locale/ko.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/ko.js -> /output/locale/ko.js.gz
+2022/04/13 09:38:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/nb-NO.min.js /tmp/work/lib/umd/locale/nb-NO.js
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/ku.min.js -> /output/locale/ku.min.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/ku.min.js.br /tmp/work/lib/umd/locale/ku.min.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/ku.min.js -> /output/locale/ku.min.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/ku.min.js -> /output/locale/ku.min.js.gz
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/ku.js -> /output/locale/ku.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/ku.js.br /tmp/work/lib/umd/locale/ku.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/ku.js -> /output/locale/ku.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/ku.js -> /output/locale/ku.js.gz
+2022/04/13 09:38:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/nl.min.js /tmp/work/lib/umd/locale/nl.js
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/lt.min.js -> /output/locale/lt.min.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/lt.min.js.br /tmp/work/lib/umd/locale/lt.min.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/lt.min.js -> /output/locale/lt.min.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/lt.min.js -> /output/locale/lt.min.js.gz
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/lt.js -> /output/locale/lt.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/lt.js.br /tmp/work/lib/umd/locale/lt.js
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/kz.min.js -> /output/locale/kz.min.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/kz.min.js.br /tmp/work/lib/umd/locale/kz.min.js
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/lv.min.js -> /output/locale/lv.min.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/lv.min.js.br /tmp/work/lib/umd/locale/lv.min.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/lt.js -> /output/locale/lt.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/lt.js -> /output/locale/lt.js.gz
+2022/04/13 09:38:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/pl.min.js /tmp/work/lib/umd/locale/pl.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/lv.min.js -> /output/locale/lv.min.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/lv.min.js -> /output/locale/lv.min.js.gz
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/lv.js -> /output/locale/lv.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/lv.js.br /tmp/work/lib/umd/locale/lv.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/kz.min.js -> /output/locale/kz.min.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/kz.min.js -> /output/locale/kz.min.js.gz
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/kz.js -> /output/locale/kz.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/kz.js.br /tmp/work/lib/umd/locale/kz.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/lv.js -> /output/locale/lv.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/lv.js -> /output/locale/lv.js.gz
+2022/04/13 09:38:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/pt-br.min.js /tmp/work/lib/umd/locale/pt-br.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/kz.js -> /output/locale/kz.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/kz.js -> /output/locale/kz.js.gz
+2022/04/13 09:38:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/pt.min.js /tmp/work/lib/umd/locale/pt.js
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/nb-NO.min.js -> /output/locale/nb-NO.min.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/nb-NO.min.js.br /tmp/work/lib/umd/locale/nb-NO.min.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/nb-NO.min.js -> /output/locale/nb-NO.min.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/nb-NO.min.js -> /output/locale/nb-NO.min.js.gz
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/nb-NO.js -> /output/locale/nb-NO.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/nb-NO.js.br /tmp/work/lib/umd/locale/nb-NO.js
+2022/04/13 09:38:03 br /tmp/work/lib/theme-chalk/index.min.css -> /output/theme-chalk/index.min.css.br
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/mn.min.js -> /output/locale/mn.min.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/mn.min.js.br /tmp/work/lib/umd/locale/mn.min.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/nb-NO.js -> /output/locale/nb-NO.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/nb-NO.js -> /output/locale/nb-NO.js.gz
+2022/04/13 09:38:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/ro.min.js /tmp/work/lib/umd/locale/ro.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/mn.min.js -> /output/locale/mn.min.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/mn.min.js -> /output/locale/mn.min.js.gz
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/mn.js -> /output/locale/mn.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/mn.js.br /tmp/work/lib/umd/locale/mn.js
+2022/04/13 09:38:03 gz /tmp/work/lib/theme-chalk/index.min.css -> /output/theme-chalk/index.min.css.gz
+2022/04/13 09:38:03 sri /tmp/work/lib/theme-chalk/index.css -> /output/theme-chalk/index.css.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/theme-chalk/index.css.br /tmp/work/lib/theme-chalk/index.css
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/mn.js -> /output/locale/mn.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/mn.js -> /output/locale/mn.js.gz
+2022/04/13 09:38:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/ru-RU.min.js /tmp/work/lib/umd/locale/ru-RU.js
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/nl.min.js -> /output/locale/nl.min.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/nl.min.js.br /tmp/work/lib/umd/locale/nl.min.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/nl.min.js -> /output/locale/nl.min.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/nl.min.js -> /output/locale/nl.min.js.gz
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/nl.js -> /output/locale/nl.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/nl.js.br /tmp/work/lib/umd/locale/nl.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/nl.js -> /output/locale/nl.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/nl.js -> /output/locale/nl.js.gz
+2022/04/13 09:38:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/sk.min.js /tmp/work/lib/umd/locale/sk.js
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/pl.min.js -> /output/locale/pl.min.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/pl.min.js.br /tmp/work/lib/umd/locale/pl.min.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/pl.min.js -> /output/locale/pl.min.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/pl.min.js -> /output/locale/pl.min.js.gz
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/pl.js -> /output/locale/pl.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/pl.js.br /tmp/work/lib/umd/locale/pl.js
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/pt-br.min.js -> /output/locale/pt-br.min.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/pt-br.min.js.br /tmp/work/lib/umd/locale/pt-br.min.js
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/pt.min.js -> /output/locale/pt.min.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/pt.min.js.br /tmp/work/lib/umd/locale/pt.min.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/pl.js -> /output/locale/pl.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/pl.js -> /output/locale/pl.js.gz
+2022/04/13 09:38:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/sl.min.js /tmp/work/lib/umd/locale/sl.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/pt-br.min.js -> /output/locale/pt-br.min.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/pt-br.min.js -> /output/locale/pt-br.min.js.gz
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/pt-br.js -> /output/locale/pt-br.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/pt-br.js.br /tmp/work/lib/umd/locale/pt-br.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/pt.min.js -> /output/locale/pt.min.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/pt.min.js -> /output/locale/pt.min.js.gz
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/pt.js -> /output/locale/pt.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/pt.js.br /tmp/work/lib/umd/locale/pt.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/pt-br.js -> /output/locale/pt-br.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/pt-br.js -> /output/locale/pt-br.js.gz
+2022/04/13 09:38:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/sr.min.js /tmp/work/lib/umd/locale/sr.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/pt.js -> /output/locale/pt.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/pt.js -> /output/locale/pt.js.gz
+2022/04/13 09:38:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/sv-SE.min.js /tmp/work/lib/umd/locale/sv-SE.js
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/ro.min.js -> /output/locale/ro.min.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/ro.min.js.br /tmp/work/lib/umd/locale/ro.min.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/ro.min.js -> /output/locale/ro.min.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/ro.min.js -> /output/locale/ro.min.js.gz
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/ro.js -> /output/locale/ro.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/ro.js.br /tmp/work/lib/umd/locale/ro.js
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/ru-RU.min.js -> /output/locale/ru-RU.min.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/ru-RU.min.js.br /tmp/work/lib/umd/locale/ru-RU.min.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/ro.js -> /output/locale/ro.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/ro.js -> /output/locale/ro.js.gz
+2022/04/13 09:38:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/ta.min.js /tmp/work/lib/umd/locale/ta.js
+2022/04/13 09:38:03 br /tmp/work/lib/umd/locale/ru-RU.min.js -> /output/locale/ru-RU.min.js.br
+2022/04/13 09:38:03 gz /tmp/work/lib/umd/locale/ru-RU.min.js -> /output/locale/ru-RU.min.js.gz
+2022/04/13 09:38:03 sri /tmp/work/lib/umd/locale/ru-RU.js -> /output/locale/ru-RU.js.sri
+2022/04/13 09:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/ru-RU.js.br /tmp/work/lib/umd/locale/ru-RU.js
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/ru-RU.js -> /output/locale/ru-RU.js.br
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/ru-RU.js -> /output/locale/ru-RU.js.gz
+2022/04/13 09:38:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/th.min.js /tmp/work/lib/umd/locale/th.js
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/sk.min.js -> /output/locale/sk.min.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/sk.min.js.br /tmp/work/lib/umd/locale/sk.min.js
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/sk.min.js -> /output/locale/sk.min.js.br
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/sk.min.js -> /output/locale/sk.min.js.gz
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/sk.js -> /output/locale/sk.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/sk.js.br /tmp/work/lib/umd/locale/sk.js
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/sl.min.js -> /output/locale/sl.min.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/sl.min.js.br /tmp/work/lib/umd/locale/sl.min.js
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/sl.min.js -> /output/locale/sl.min.js.br
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/sk.js -> /output/locale/sk.js.br
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/sl.min.js -> /output/locale/sl.min.js.gz
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/sl.js -> /output/locale/sl.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/sl.js.br /tmp/work/lib/umd/locale/sl.js
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/sk.js -> /output/locale/sk.js.gz
+2022/04/13 09:38:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/tk.min.js /tmp/work/lib/umd/locale/tk.js
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/sl.js -> /output/locale/sl.js.br
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/sl.js -> /output/locale/sl.js.gz
+2022/04/13 09:38:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/tr-TR.min.js /tmp/work/lib/umd/locale/tr-TR.js
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/sr.min.js -> /output/locale/sr.min.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/sr.min.js.br /tmp/work/lib/umd/locale/sr.min.js
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/sr.min.js -> /output/locale/sr.min.js.br
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/sr.min.js -> /output/locale/sr.min.js.gz
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/sr.js -> /output/locale/sr.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/sr.js.br /tmp/work/lib/umd/locale/sr.js
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/sr.js -> /output/locale/sr.js.br
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/sr.js -> /output/locale/sr.js.gz
+2022/04/13 09:38:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/ua.min.js /tmp/work/lib/umd/locale/ua.js
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/sv-SE.min.js -> /output/locale/sv-SE.min.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/sv-SE.min.js.br /tmp/work/lib/umd/locale/sv-SE.min.js
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/sv-SE.min.js -> /output/locale/sv-SE.min.js.br
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/sv-SE.min.js -> /output/locale/sv-SE.min.js.gz
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/sv-SE.js -> /output/locale/sv-SE.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/sv-SE.js.br /tmp/work/lib/umd/locale/sv-SE.js
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/sv-SE.js -> /output/locale/sv-SE.js.br
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/sv-SE.js -> /output/locale/sv-SE.js.gz
+2022/04/13 09:38:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/ug-CN.min.js /tmp/work/lib/umd/locale/ug-CN.js
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/ta.min.js -> /output/locale/ta.min.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/ta.min.js.br /tmp/work/lib/umd/locale/ta.min.js
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/th.min.js -> /output/locale/th.min.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/th.min.js.br /tmp/work/lib/umd/locale/th.min.js
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/th.min.js -> /output/locale/th.min.js.br
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/ta.min.js -> /output/locale/ta.min.js.br
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/ta.min.js -> /output/locale/ta.min.js.gz
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/ta.js -> /output/locale/ta.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/ta.js.br /tmp/work/lib/umd/locale/ta.js
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/th.min.js -> /output/locale/th.min.js.gz
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/th.js -> /output/locale/th.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/th.js.br /tmp/work/lib/umd/locale/th.js
+2022/04/13 09:38:04 br /tmp/work/lib/theme-chalk/index.css -> /output/theme-chalk/index.css.br
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/ta.js -> /output/locale/ta.js.br
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/ta.js -> /output/locale/ta.js.gz
+2022/04/13 09:38:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/uz-UZ.min.js /tmp/work/lib/umd/locale/uz-UZ.js
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/th.js -> /output/locale/th.js.br
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/th.js -> /output/locale/th.js.gz
+2022/04/13 09:38:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/vi.min.js /tmp/work/lib/umd/locale/vi.js
+2022/04/13 09:38:04 gz /tmp/work/lib/theme-chalk/index.css -> /output/theme-chalk/index.css.gz
+2022/04/13 09:38:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/zh-CN.min.js /tmp/work/lib/umd/locale/zh-CN.js
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/tk.min.js -> /output/locale/tk.min.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/tk.min.js.br /tmp/work/lib/umd/locale/tk.min.js
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/tk.min.js -> /output/locale/tk.min.js.br
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/tk.min.js -> /output/locale/tk.min.js.gz
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/tk.js -> /output/locale/tk.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/tk.js.br /tmp/work/lib/umd/locale/tk.js
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/ua.min.js -> /output/locale/ua.min.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/ua.min.js.br /tmp/work/lib/umd/locale/ua.min.js
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/tk.js -> /output/locale/tk.js.br
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/tk.js -> /output/locale/tk.js.gz
+2022/04/13 09:38:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/umd/locale/zh-TW.min.js /tmp/work/lib/umd/locale/zh-TW.js
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/tr-TR.min.js -> /output/locale/tr-TR.min.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/tr-TR.min.js.br /tmp/work/lib/umd/locale/tr-TR.min.js
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/ua.min.js -> /output/locale/ua.min.js.br
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/ua.min.js -> /output/locale/ua.min.js.gz
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/ua.js -> /output/locale/ua.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/ua.js.br /tmp/work/lib/umd/locale/ua.js
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/tr-TR.min.js -> /output/locale/tr-TR.min.js.br
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/tr-TR.min.js -> /output/locale/tr-TR.min.js.gz
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/tr-TR.js -> /output/locale/tr-TR.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/tr-TR.js.br /tmp/work/lib/umd/locale/tr-TR.js
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/ua.js -> /output/locale/ua.js.br
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/ua.js -> /output/locale/ua.js.gz
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/tr-TR.js -> /output/locale/tr-TR.js.br
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/ug-CN.min.js -> /output/locale/ug-CN.min.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/ug-CN.min.js.br /tmp/work/lib/umd/locale/ug-CN.min.js
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/tr-TR.js -> /output/locale/tr-TR.js.gz
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/ug-CN.min.js -> /output/locale/ug-CN.min.js.br
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/ug-CN.min.js -> /output/locale/ug-CN.min.js.gz
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/ug-CN.js -> /output/locale/ug-CN.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/ug-CN.js.br /tmp/work/lib/umd/locale/ug-CN.js
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/ug-CN.js -> /output/locale/ug-CN.js.br
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/ug-CN.js -> /output/locale/ug-CN.js.gz
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/uz-UZ.min.js -> /output/locale/uz-UZ.min.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/uz-UZ.min.js.br /tmp/work/lib/umd/locale/uz-UZ.min.js
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/uz-UZ.min.js -> /output/locale/uz-UZ.min.js.br
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/uz-UZ.min.js -> /output/locale/uz-UZ.min.js.gz
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/uz-UZ.js -> /output/locale/uz-UZ.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/uz-UZ.js.br /tmp/work/lib/umd/locale/uz-UZ.js
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/vi.min.js -> /output/locale/vi.min.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/vi.min.js.br /tmp/work/lib/umd/locale/vi.min.js
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/uz-UZ.js -> /output/locale/uz-UZ.js.br
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/uz-UZ.js -> /output/locale/uz-UZ.js.gz
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/vi.min.js -> /output/locale/vi.min.js.br
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/vi.min.js -> /output/locale/vi.min.js.gz
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/vi.js -> /output/locale/vi.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/vi.js.br /tmp/work/lib/umd/locale/vi.js
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/vi.js -> /output/locale/vi.js.br
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/vi.js -> /output/locale/vi.js.gz
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/zh-CN.min.js -> /output/locale/zh-CN.min.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/zh-CN.min.js.br /tmp/work/lib/umd/locale/zh-CN.min.js
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/zh-TW.min.js -> /output/locale/zh-TW.min.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/zh-TW.min.js.br /tmp/work/lib/umd/locale/zh-TW.min.js
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/zh-CN.min.js -> /output/locale/zh-CN.min.js.br
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/zh-CN.min.js -> /output/locale/zh-CN.min.js.gz
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/zh-CN.js -> /output/locale/zh-CN.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/zh-CN.js.br /tmp/work/lib/umd/locale/zh-CN.js
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/zh-TW.min.js -> /output/locale/zh-TW.min.js.br
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/zh-TW.min.js -> /output/locale/zh-TW.min.js.gz
+2022/04/13 09:38:04 sri /tmp/work/lib/umd/locale/zh-TW.js -> /output/locale/zh-TW.js.sri
+2022/04/13 09:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locale/zh-TW.js.br /tmp/work/lib/umd/locale/zh-TW.js
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/zh-CN.js -> /output/locale/zh-CN.js.br
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/zh-CN.js -> /output/locale/zh-CN.js.gz
+2022/04/13 09:38:04 br /tmp/work/lib/umd/locale/zh-TW.js -> /output/locale/zh-TW.js.br
+2022/04/13 09:38:04 gz /tmp/work/lib/umd/locale/zh-TW.js -> /output/locale/zh-TW.js.gz
+2022/04/13 09:38:15 sri /tmp/work/lib/index.min.js -> /output/index.min.js.sri
+2022/04/13 09:38:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/lib/index.min.js
+2022/04/13 09:38:16 br /tmp/work/lib/index.min.js -> /output/index.min.js.br
+2022/04/13 09:38:16 gz /tmp/work/lib/index.min.js -> /output/index.min.js.gz
+2022/04/13 09:38:16 sri /tmp/work/lib/index.js -> /output/index.js.sri
+2022/04/13 09:38:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/lib/index.js
+2022/04/13 09:38:18 br /tmp/work/lib/index.js -> /output/index.js.br
+2022/04/13 09:38:18 gz /tmp/work/lib/index.js -> /output/index.js.gz
+2022/04/13 09:38:18 processed element-ui
