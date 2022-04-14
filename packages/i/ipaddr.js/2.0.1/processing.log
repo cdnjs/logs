@@ -1,28 +1,31 @@
-2021/10/30 07:39:06 ExtractTarGz: uknown type: 67 in pax_global_header
-2021/10/30 07:39:06 optimizing files (Js true, Css true, Png true, Jpg true)
-2021/10/30 07:39:06 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/ipaddr.min.js /tmp/work/lib/ipaddr.js
-2021/10/30 07:39:06 /tmp/work/ipaddr.min.js.min.js compressed file already exists
-2021/10/30 07:39:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ipaddr.js.d.ts.br /tmp/work/lib/ipaddr.js.d.ts
-2021/10/30 07:39:06 sri /tmp/work/ipaddr.min.js -> /output/ipaddr.min.js.sri
-2021/10/30 07:39:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ipaddr.min.js.br /tmp/work/ipaddr.min.js
-2021/10/30 07:39:06 br /tmp/work/lib/ipaddr.js.d.ts -> /output/ipaddr.js.d.ts.br
-2021/10/30 07:39:06 gz /tmp/work/lib/ipaddr.js.d.ts -> /output/ipaddr.js.d.ts.gz
-2021/10/30 07:39:06 br /tmp/work/ipaddr.min.js -> /output/ipaddr.min.js.br
-2021/10/30 07:39:06 gz /tmp/work/ipaddr.min.js -> /output/ipaddr.min.js.gz
-2021/10/30 07:39:06 sri /tmp/work/lib/ipaddr.min.js -> /output/ipaddr.min.js.sri
-2021/10/30 07:39:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ipaddr.min.js.br /tmp/work/lib/ipaddr.min.js
+2022/04/14 17:04:47 ExtractTarGz: uknown type: 67 in pax_global_header
+2022/04/14 17:04:47 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/04/14 17:04:47 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/ipaddr.min.js /tmp/work/lib/ipaddr.js
+2022/04/14 17:04:47 /tmp/work/ipaddr.min.js.min.js compressed file already exists
+2022/04/14 17:04:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ipaddr.js.d.ts.br /tmp/work/lib/ipaddr.js.d.ts
+2022/04/14 17:04:47 sri /tmp/work/ipaddr.min.js -> /output/ipaddr.min.js.sri
+2022/04/14 17:04:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ipaddr.min.js.br /tmp/work/ipaddr.min.js
+2022/04/14 17:04:47 br /tmp/work/lib/ipaddr.js.d.ts -> /output/ipaddr.js.d.ts.br
+2022/04/14 17:04:47 gz /tmp/work/lib/ipaddr.js.d.ts -> /output/ipaddr.js.d.ts.gz
+2022/04/14 17:04:47 br /tmp/work/ipaddr.min.js -> /output/ipaddr.min.js.br
+2022/04/14 17:04:47 gz /tmp/work/ipaddr.min.js -> /output/ipaddr.min.js.gz
+2022/04/14 17:04:47 sri /tmp/work/lib/ipaddr.min.js -> /output/ipaddr.min.js.sri
+2022/04/14 17:04:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ipaddr.min.js.br /tmp/work/lib/ipaddr.min.js
+2022/04/14 17:04:47 
+2022/04/14 17:04:47 failed to open output file [/output/ipaddr.min.js.br]: File exists
+
 panic: exit status 1
 
-goroutine 8 [running]:
+goroutine 25 [running]:
 github.com/cdnjs/tools/util.Check(...)
 	/go/src/github.com/util/check.go:10
-github.com/cdnjs/tools/compress.runAlgorithm(0x86d300, 0xc000016060, 0x7f0c97, 0x6, 0xc000063d48, 0x3, 0x3, 0x44d9ec, 0xd, 0x77a740)
-	/go/src/github.com/compress/algorithm.go:28 +0x348
+github.com/cdnjs/tools/compress.runAlgorithm(0x86ffe0, 0xc000016060, 0x7f31b7, 0x6, 0xc000063d48, 0x3, 0x3, 0x44d9cc, 0xd, 0x77c880)
+	/go/src/github.com/compress/algorithm.go:29 +0x4f0
 github.com/cdnjs/tools/compress.Brotli11CLI(...)
-	/go/src/github.com/compress/algorithm.go:40
-main.optimizeJob.emitFromWorkspace(0x86d300, 0xc000016060, 0x0, 0xc0001c3210, 0xd, 0xc0001c3240, 0xd, 0xc00013b8a0, 0x1b)
+	/go/src/github.com/compress/algorithm.go:42
+main.optimizeJob.emitFromWorkspace(0x86ffe0, 0xc000016060, 0x0, 0xc0000aa0b0, 0xd, 0xc0001c51c0, 0xd, 0xc0000c4060, 0x1b)
 	/go/src/github.com/cmd/process-version/main.go:98 +0x4da
-main.optimizeWorker(0xc0001c3220, 0xc000057560)
+main.optimizeWorker(0xc0000aa0c0, 0xc0000b81e0)
 	/go/src/github.com/cmd/process-version/main.go:220 +0x445
 created by main.optimizePackage
 	/go/src/github.com/cmd/process-version/main.go:254 +0x24a
