@@ -1,0 +1,11 @@
+2022/04/14 08:33:32 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/04/14 08:33:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/fetch.min.js /tmp/work/fetch.js
+2022/04/14 08:33:32 sri /tmp/work/fetch.min.js -> /output/fetch.min.js.sri
+2022/04/14 08:33:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fetch.min.js.br /tmp/work/fetch.min.js
+2022/04/14 08:33:32 br /tmp/work/fetch.min.js -> /output/fetch.min.js.br
+2022/04/14 08:33:32 gz /tmp/work/fetch.min.js -> /output/fetch.min.js.gz
+2022/04/14 08:33:32 sri /tmp/work/fetch.js -> /output/fetch.js.sri
+2022/04/14 08:33:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fetch.js.br /tmp/work/fetch.js
+2022/04/14 08:33:32 br /tmp/work/fetch.js -> /output/fetch.js.br
+2022/04/14 08:33:32 gz /tmp/work/fetch.js -> /output/fetch.js.gz
+2022/04/14 08:33:32 processed es-fetch-api
