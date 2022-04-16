@@ -1,0 +1,11 @@
+2022/04/16 12:54:48 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/04/16 12:54:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lazyload.min.js /tmp/work/lazyload.js
+2022/04/16 12:54:49 sri /tmp/work/lazyload.min.js -> /output/lazyload.min.js.sri
+2022/04/16 12:54:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lazyload.min.js.br /tmp/work/lazyload.min.js
+2022/04/16 12:54:49 br /tmp/work/lazyload.min.js -> /output/lazyload.min.js.br
+2022/04/16 12:54:49 gz /tmp/work/lazyload.min.js -> /output/lazyload.min.js.gz
+2022/04/16 12:54:49 sri /tmp/work/lazyload.js -> /output/lazyload.js.sri
+2022/04/16 12:54:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lazyload.js.br /tmp/work/lazyload.js
+2022/04/16 12:54:49 br /tmp/work/lazyload.js -> /output/lazyload.js.br
+2022/04/16 12:54:49 gz /tmp/work/lazyload.js -> /output/lazyload.js.gz
+2022/04/16 12:54:49 processed jquery_lazyload
