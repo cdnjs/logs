@@ -1,0 +1,620 @@
+2022/04/18 13:04:59 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/04/18 13:04:59 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/js/dx.all.min.js /tmp/work/dist/js/dx.all.js
+2022/04/18 13:04:59 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/js/localization/dx.messages.cs.min.js /tmp/work/dist/js/localization/dx.messages.cs.js
+2022/04/18 13:04:59 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/js/localization/dx.messages.de.min.js /tmp/work/dist/js/localization/dx.messages.de.js
+2022/04/18 13:04:59 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/js/dx.aspnet.mvc.min.js /tmp/work/dist/js/dx.aspnet.mvc.js
+2022/04/18 13:04:59 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/js/localization/dx.messages.es.min.js /tmp/work/dist/js/localization/dx.messages.es.js
+2022/04/18 13:04:59 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/js/localization/dx.messages.fi.min.js /tmp/work/dist/js/localization/dx.messages.fi.js
+2022/04/18 13:04:59 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/js/localization/dx.messages.el.min.js /tmp/work/dist/js/localization/dx.messages.el.js
+2022/04/18 13:04:59 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/js/localization/dx.messages.en.min.js /tmp/work/dist/js/localization/dx.messages.en.js
+2022/04/18 13:05:00 sri /tmp/work/dist/js/localization/dx.messages.es.min.js -> /output/js/localization/dx.messages.es.min.js.sri
+2022/04/18 13:05:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.es.min.js.br /tmp/work/dist/js/localization/dx.messages.es.min.js
+2022/04/18 13:05:00 sri /tmp/work/dist/js/localization/dx.messages.de.min.js -> /output/js/localization/dx.messages.de.min.js.sri
+2022/04/18 13:05:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.de.min.js.br /tmp/work/dist/js/localization/dx.messages.de.min.js
+2022/04/18 13:05:00 sri /tmp/work/dist/js/localization/dx.messages.en.min.js -> /output/js/localization/dx.messages.en.min.js.sri
+2022/04/18 13:05:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.en.min.js.br /tmp/work/dist/js/localization/dx.messages.en.min.js
+2022/04/18 13:05:00 sri /tmp/work/dist/js/localization/dx.messages.cs.min.js -> /output/js/localization/dx.messages.cs.min.js.sri
+2022/04/18 13:05:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.cs.min.js.br /tmp/work/dist/js/localization/dx.messages.cs.min.js
+2022/04/18 13:05:00 sri /tmp/work/dist/js/dx.aspnet.mvc.min.js -> /output/js/dx.aspnet.mvc.min.js.sri
+2022/04/18 13:05:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/dx.aspnet.mvc.min.js.br /tmp/work/dist/js/dx.aspnet.mvc.min.js
+2022/04/18 13:05:00 sri /tmp/work/dist/js/localization/dx.messages.fi.min.js -> /output/js/localization/dx.messages.fi.min.js.sri
+2022/04/18 13:05:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.fi.min.js.br /tmp/work/dist/js/localization/dx.messages.fi.min.js
+2022/04/18 13:05:00 br /tmp/work/dist/js/dx.aspnet.mvc.min.js -> /output/js/dx.aspnet.mvc.min.js.br
+2022/04/18 13:05:00 gz /tmp/work/dist/js/dx.aspnet.mvc.min.js -> /output/js/dx.aspnet.mvc.min.js.gz
+2022/04/18 13:05:00 sri /tmp/work/dist/js/dx.aspnet.mvc.js -> /output/js/dx.aspnet.mvc.js.sri
+2022/04/18 13:05:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/dx.aspnet.mvc.js.br /tmp/work/dist/js/dx.aspnet.mvc.js
+2022/04/18 13:05:00 sri /tmp/work/dist/js/localization/dx.messages.el.min.js -> /output/js/localization/dx.messages.el.min.js.sri
+2022/04/18 13:05:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.el.min.js.br /tmp/work/dist/js/localization/dx.messages.el.min.js
+2022/04/18 13:05:00 br /tmp/work/dist/js/localization/dx.messages.es.min.js -> /output/js/localization/dx.messages.es.min.js.br
+2022/04/18 13:05:00 gz /tmp/work/dist/js/localization/dx.messages.es.min.js -> /output/js/localization/dx.messages.es.min.js.gz
+2022/04/18 13:05:00 sri /tmp/work/dist/js/localization/dx.messages.es.js -> /output/js/localization/dx.messages.es.js.sri
+2022/04/18 13:05:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.es.js.br /tmp/work/dist/js/localization/dx.messages.es.js
+2022/04/18 13:05:00 br /tmp/work/dist/js/localization/dx.messages.cs.min.js -> /output/js/localization/dx.messages.cs.min.js.br
+2022/04/18 13:05:00 gz /tmp/work/dist/js/localization/dx.messages.cs.min.js -> /output/js/localization/dx.messages.cs.min.js.gz
+2022/04/18 13:05:00 sri /tmp/work/dist/js/localization/dx.messages.cs.js -> /output/js/localization/dx.messages.cs.js.sri
+2022/04/18 13:05:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.cs.js.br /tmp/work/dist/js/localization/dx.messages.cs.js
+2022/04/18 13:05:00 br /tmp/work/dist/js/localization/dx.messages.de.min.js -> /output/js/localization/dx.messages.de.min.js.br
+2022/04/18 13:05:00 br /tmp/work/dist/js/localization/dx.messages.en.min.js -> /output/js/localization/dx.messages.en.min.js.br
+2022/04/18 13:05:00 br /tmp/work/dist/js/dx.aspnet.mvc.js -> /output/js/dx.aspnet.mvc.js.br
+2022/04/18 13:05:00 gz /tmp/work/dist/js/dx.aspnet.mvc.js -> /output/js/dx.aspnet.mvc.js.gz
+2022/04/18 13:05:00 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/js/localization/dx.messages.fr.min.js /tmp/work/dist/js/localization/dx.messages.fr.js
+2022/04/18 13:05:00 gz /tmp/work/dist/js/localization/dx.messages.de.min.js -> /output/js/localization/dx.messages.de.min.js.gz
+2022/04/18 13:05:00 sri /tmp/work/dist/js/localization/dx.messages.de.js -> /output/js/localization/dx.messages.de.js.sri
+2022/04/18 13:05:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.de.js.br /tmp/work/dist/js/localization/dx.messages.de.js
+2022/04/18 13:05:00 gz /tmp/work/dist/js/localization/dx.messages.en.min.js -> /output/js/localization/dx.messages.en.min.js.gz
+2022/04/18 13:05:00 sri /tmp/work/dist/js/localization/dx.messages.en.js -> /output/js/localization/dx.messages.en.js.sri
+2022/04/18 13:05:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.en.js.br /tmp/work/dist/js/localization/dx.messages.en.js
+2022/04/18 13:05:00 br /tmp/work/dist/js/localization/dx.messages.fi.min.js -> /output/js/localization/dx.messages.fi.min.js.br
+2022/04/18 13:05:00 gz /tmp/work/dist/js/localization/dx.messages.fi.min.js -> /output/js/localization/dx.messages.fi.min.js.gz
+2022/04/18 13:05:00 sri /tmp/work/dist/js/localization/dx.messages.fi.js -> /output/js/localization/dx.messages.fi.js.sri
+2022/04/18 13:05:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.fi.js.br /tmp/work/dist/js/localization/dx.messages.fi.js
+2022/04/18 13:05:00 br /tmp/work/dist/js/localization/dx.messages.el.min.js -> /output/js/localization/dx.messages.el.min.js.br
+2022/04/18 13:05:00 gz /tmp/work/dist/js/localization/dx.messages.el.min.js -> /output/js/localization/dx.messages.el.min.js.gz
+2022/04/18 13:05:00 sri /tmp/work/dist/js/localization/dx.messages.el.js -> /output/js/localization/dx.messages.el.js.sri
+2022/04/18 13:05:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.el.js.br /tmp/work/dist/js/localization/dx.messages.el.js
+2022/04/18 13:05:00 br /tmp/work/dist/js/localization/dx.messages.cs.js -> /output/js/localization/dx.messages.cs.js.br
+2022/04/18 13:05:00 gz /tmp/work/dist/js/localization/dx.messages.cs.js -> /output/js/localization/dx.messages.cs.js.gz
+2022/04/18 13:05:00 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/js/localization/dx.messages.hu.min.js /tmp/work/dist/js/localization/dx.messages.hu.js
+2022/04/18 13:05:00 br /tmp/work/dist/js/localization/dx.messages.es.js -> /output/js/localization/dx.messages.es.js.br
+2022/04/18 13:05:00 gz /tmp/work/dist/js/localization/dx.messages.es.js -> /output/js/localization/dx.messages.es.js.gz
+2022/04/18 13:05:00 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/js/localization/dx.messages.it.min.js /tmp/work/dist/js/localization/dx.messages.it.js
+2022/04/18 13:05:00 br /tmp/work/dist/js/localization/dx.messages.fi.js -> /output/js/localization/dx.messages.fi.js.br
+2022/04/18 13:05:00 gz /tmp/work/dist/js/localization/dx.messages.fi.js -> /output/js/localization/dx.messages.fi.js.gz
+2022/04/18 13:05:00 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/js/localization/dx.messages.ja.min.js /tmp/work/dist/js/localization/dx.messages.ja.js
+2022/04/18 13:05:00 br /tmp/work/dist/js/localization/dx.messages.en.js -> /output/js/localization/dx.messages.en.js.br
+2022/04/18 13:05:00 gz /tmp/work/dist/js/localization/dx.messages.en.js -> /output/js/localization/dx.messages.en.js.gz
+2022/04/18 13:05:00 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/js/localization/dx.messages.nl.min.js /tmp/work/dist/js/localization/dx.messages.nl.js
+2022/04/18 13:05:00 br /tmp/work/dist/js/localization/dx.messages.de.js -> /output/js/localization/dx.messages.de.js.br
+2022/04/18 13:05:00 gz /tmp/work/dist/js/localization/dx.messages.de.js -> /output/js/localization/dx.messages.de.js.gz
+2022/04/18 13:05:00 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/js/localization/dx.messages.pt.min.js /tmp/work/dist/js/localization/dx.messages.pt.js
+2022/04/18 13:05:00 br /tmp/work/dist/js/localization/dx.messages.el.js -> /output/js/localization/dx.messages.el.js.br
+2022/04/18 13:05:00 gz /tmp/work/dist/js/localization/dx.messages.el.js -> /output/js/localization/dx.messages.el.js.gz
+2022/04/18 13:05:00 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/js/localization/dx.messages.ru.min.js /tmp/work/dist/js/localization/dx.messages.ru.js
+2022/04/18 13:05:01 sri /tmp/work/dist/js/localization/dx.messages.fr.min.js -> /output/js/localization/dx.messages.fr.min.js.sri
+2022/04/18 13:05:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.fr.min.js.br /tmp/work/dist/js/localization/dx.messages.fr.min.js
+2022/04/18 13:05:01 sri /tmp/work/dist/js/localization/dx.messages.hu.min.js -> /output/js/localization/dx.messages.hu.min.js.sri
+2022/04/18 13:05:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.hu.min.js.br /tmp/work/dist/js/localization/dx.messages.hu.min.js
+2022/04/18 13:05:01 sri /tmp/work/dist/js/localization/dx.messages.it.min.js -> /output/js/localization/dx.messages.it.min.js.sri
+2022/04/18 13:05:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.it.min.js.br /tmp/work/dist/js/localization/dx.messages.it.min.js
+2022/04/18 13:05:01 sri /tmp/work/dist/js/localization/dx.messages.ja.min.js -> /output/js/localization/dx.messages.ja.min.js.sri
+2022/04/18 13:05:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.ja.min.js.br /tmp/work/dist/js/localization/dx.messages.ja.min.js
+2022/04/18 13:05:01 br /tmp/work/dist/js/localization/dx.messages.fr.min.js -> /output/js/localization/dx.messages.fr.min.js.br
+2022/04/18 13:05:01 gz /tmp/work/dist/js/localization/dx.messages.fr.min.js -> /output/js/localization/dx.messages.fr.min.js.gz
+2022/04/18 13:05:01 sri /tmp/work/dist/js/localization/dx.messages.fr.js -> /output/js/localization/dx.messages.fr.js.sri
+2022/04/18 13:05:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.fr.js.br /tmp/work/dist/js/localization/dx.messages.fr.js
+2022/04/18 13:05:01 br /tmp/work/dist/js/localization/dx.messages.hu.min.js -> /output/js/localization/dx.messages.hu.min.js.br
+2022/04/18 13:05:01 gz /tmp/work/dist/js/localization/dx.messages.hu.min.js -> /output/js/localization/dx.messages.hu.min.js.gz
+2022/04/18 13:05:01 sri /tmp/work/dist/js/localization/dx.messages.hu.js -> /output/js/localization/dx.messages.hu.js.sri
+2022/04/18 13:05:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.hu.js.br /tmp/work/dist/js/localization/dx.messages.hu.js
+2022/04/18 13:05:01 br /tmp/work/dist/js/localization/dx.messages.it.min.js -> /output/js/localization/dx.messages.it.min.js.br
+2022/04/18 13:05:01 gz /tmp/work/dist/js/localization/dx.messages.it.min.js -> /output/js/localization/dx.messages.it.min.js.gz
+2022/04/18 13:05:01 sri /tmp/work/dist/js/localization/dx.messages.it.js -> /output/js/localization/dx.messages.it.js.sri
+2022/04/18 13:05:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.it.js.br /tmp/work/dist/js/localization/dx.messages.it.js
+2022/04/18 13:05:01 sri /tmp/work/dist/js/localization/dx.messages.pt.min.js -> /output/js/localization/dx.messages.pt.min.js.sri
+2022/04/18 13:05:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.pt.min.js.br /tmp/work/dist/js/localization/dx.messages.pt.min.js
+2022/04/18 13:05:01 sri /tmp/work/dist/js/localization/dx.messages.nl.min.js -> /output/js/localization/dx.messages.nl.min.js.sri
+2022/04/18 13:05:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.nl.min.js.br /tmp/work/dist/js/localization/dx.messages.nl.min.js
+2022/04/18 13:05:01 br /tmp/work/dist/js/localization/dx.messages.ja.min.js -> /output/js/localization/dx.messages.ja.min.js.br
+2022/04/18 13:05:01 gz /tmp/work/dist/js/localization/dx.messages.ja.min.js -> /output/js/localization/dx.messages.ja.min.js.gz
+2022/04/18 13:05:01 sri /tmp/work/dist/js/localization/dx.messages.ja.js -> /output/js/localization/dx.messages.ja.js.sri
+2022/04/18 13:05:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.ja.js.br /tmp/work/dist/js/localization/dx.messages.ja.js
+2022/04/18 13:05:01 br /tmp/work/dist/js/localization/dx.messages.hu.js -> /output/js/localization/dx.messages.hu.js.br
+2022/04/18 13:05:01 gz /tmp/work/dist/js/localization/dx.messages.hu.js -> /output/js/localization/dx.messages.hu.js.gz
+2022/04/18 13:05:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/js/localization/dx.messages.sl.min.js /tmp/work/dist/js/localization/dx.messages.sl.js
+2022/04/18 13:05:01 br /tmp/work/dist/js/localization/dx.messages.it.js -> /output/js/localization/dx.messages.it.js.br
+2022/04/18 13:05:01 sri /tmp/work/dist/js/localization/dx.messages.ru.min.js -> /output/js/localization/dx.messages.ru.min.js.sri
+2022/04/18 13:05:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.ru.min.js.br /tmp/work/dist/js/localization/dx.messages.ru.min.js
+2022/04/18 13:05:01 gz /tmp/work/dist/js/localization/dx.messages.it.js -> /output/js/localization/dx.messages.it.js.gz
+2022/04/18 13:05:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/js/localization/dx.messages.sv.min.js /tmp/work/dist/js/localization/dx.messages.sv.js
+2022/04/18 13:05:01 br /tmp/work/dist/js/localization/dx.messages.pt.min.js -> /output/js/localization/dx.messages.pt.min.js.br
+2022/04/18 13:05:01 gz /tmp/work/dist/js/localization/dx.messages.pt.min.js -> /output/js/localization/dx.messages.pt.min.js.gz
+2022/04/18 13:05:01 sri /tmp/work/dist/js/localization/dx.messages.pt.js -> /output/js/localization/dx.messages.pt.js.sri
+2022/04/18 13:05:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.pt.js.br /tmp/work/dist/js/localization/dx.messages.pt.js
+2022/04/18 13:05:01 br /tmp/work/dist/js/localization/dx.messages.fr.js -> /output/js/localization/dx.messages.fr.js.br
+2022/04/18 13:05:01 br /tmp/work/dist/js/localization/dx.messages.nl.min.js -> /output/js/localization/dx.messages.nl.min.js.br
+2022/04/18 13:05:01 gz /tmp/work/dist/js/localization/dx.messages.fr.js -> /output/js/localization/dx.messages.fr.js.gz
+2022/04/18 13:05:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/js/localization/dx.messages.tr.min.js /tmp/work/dist/js/localization/dx.messages.tr.js
+2022/04/18 13:05:01 gz /tmp/work/dist/js/localization/dx.messages.nl.min.js -> /output/js/localization/dx.messages.nl.min.js.gz
+2022/04/18 13:05:01 sri /tmp/work/dist/js/localization/dx.messages.nl.js -> /output/js/localization/dx.messages.nl.js.sri
+2022/04/18 13:05:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.nl.js.br /tmp/work/dist/js/localization/dx.messages.nl.js
+2022/04/18 13:05:01 br /tmp/work/dist/js/localization/dx.messages.pt.js -> /output/js/localization/dx.messages.pt.js.br
+2022/04/18 13:05:01 gz /tmp/work/dist/js/localization/dx.messages.pt.js -> /output/js/localization/dx.messages.pt.js.gz
+2022/04/18 13:05:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/js/localization/dx.messages.vi.min.js /tmp/work/dist/js/localization/dx.messages.vi.js
+2022/04/18 13:05:01 br /tmp/work/dist/js/localization/dx.messages.ja.js -> /output/js/localization/dx.messages.ja.js.br
+2022/04/18 13:05:01 br /tmp/work/dist/js/localization/dx.messages.ru.min.js -> /output/js/localization/dx.messages.ru.min.js.br
+2022/04/18 13:05:01 gz /tmp/work/dist/js/localization/dx.messages.ja.js -> /output/js/localization/dx.messages.ja.js.gz
+2022/04/18 13:05:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/js/localization/dx.messages.zh-tw.min.js /tmp/work/dist/js/localization/dx.messages.zh-tw.js
+2022/04/18 13:05:01 gz /tmp/work/dist/js/localization/dx.messages.ru.min.js -> /output/js/localization/dx.messages.ru.min.js.gz
+2022/04/18 13:05:01 sri /tmp/work/dist/js/localization/dx.messages.ru.js -> /output/js/localization/dx.messages.ru.js.sri
+2022/04/18 13:05:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.ru.js.br /tmp/work/dist/js/localization/dx.messages.ru.js
+2022/04/18 13:05:01 br /tmp/work/dist/js/localization/dx.messages.nl.js -> /output/js/localization/dx.messages.nl.js.br
+2022/04/18 13:05:01 gz /tmp/work/dist/js/localization/dx.messages.nl.js -> /output/js/localization/dx.messages.nl.js.gz
+2022/04/18 13:05:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/js/localization/dx.messages.zh.min.js /tmp/work/dist/js/localization/dx.messages.zh.js
+2022/04/18 13:05:01 br /tmp/work/dist/js/localization/dx.messages.ru.js -> /output/js/localization/dx.messages.ru.js.br
+2022/04/18 13:05:01 gz /tmp/work/dist/js/localization/dx.messages.ru.js -> /output/js/localization/dx.messages.ru.js.gz
+2022/04/18 13:05:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/js/vectormap-data/africa.min.js /tmp/work/dist/js/vectormap-data/africa.js
+2022/04/18 13:05:01 sri /tmp/work/dist/js/localization/dx.messages.zh-tw.min.js -> /output/js/localization/dx.messages.zh-tw.min.js.sri
+2022/04/18 13:05:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.zh-tw.min.js.br /tmp/work/dist/js/localization/dx.messages.zh-tw.min.js
+2022/04/18 13:05:01 sri /tmp/work/dist/js/localization/dx.messages.sl.min.js -> /output/js/localization/dx.messages.sl.min.js.sri
+2022/04/18 13:05:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.sl.min.js.br /tmp/work/dist/js/localization/dx.messages.sl.min.js
+2022/04/18 13:05:01 br /tmp/work/dist/js/localization/dx.messages.zh-tw.min.js -> /output/js/localization/dx.messages.zh-tw.min.js.br
+2022/04/18 13:05:01 gz /tmp/work/dist/js/localization/dx.messages.zh-tw.min.js -> /output/js/localization/dx.messages.zh-tw.min.js.gz
+2022/04/18 13:05:01 sri /tmp/work/dist/js/localization/dx.messages.zh-tw.js -> /output/js/localization/dx.messages.zh-tw.js.sri
+2022/04/18 13:05:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.zh-tw.js.br /tmp/work/dist/js/localization/dx.messages.zh-tw.js
+2022/04/18 13:05:01 sri /tmp/work/dist/js/localization/dx.messages.tr.min.js -> /output/js/localization/dx.messages.tr.min.js.sri
+2022/04/18 13:05:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.tr.min.js.br /tmp/work/dist/js/localization/dx.messages.tr.min.js
+2022/04/18 13:05:01 sri /tmp/work/dist/js/localization/dx.messages.sv.min.js -> /output/js/localization/dx.messages.sv.min.js.sri
+2022/04/18 13:05:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.sv.min.js.br /tmp/work/dist/js/localization/dx.messages.sv.min.js
+2022/04/18 13:05:01 br /tmp/work/dist/js/localization/dx.messages.sl.min.js -> /output/js/localization/dx.messages.sl.min.js.br
+2022/04/18 13:05:01 gz /tmp/work/dist/js/localization/dx.messages.sl.min.js -> /output/js/localization/dx.messages.sl.min.js.gz
+2022/04/18 13:05:01 sri /tmp/work/dist/js/localization/dx.messages.sl.js -> /output/js/localization/dx.messages.sl.js.sri
+2022/04/18 13:05:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.sl.js.br /tmp/work/dist/js/localization/dx.messages.sl.js
+2022/04/18 13:05:01 br /tmp/work/dist/js/localization/dx.messages.zh-tw.js -> /output/js/localization/dx.messages.zh-tw.js.br
+2022/04/18 13:05:01 gz /tmp/work/dist/js/localization/dx.messages.zh-tw.js -> /output/js/localization/dx.messages.zh-tw.js.gz
+2022/04/18 13:05:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/js/vectormap-data/canada.min.js /tmp/work/dist/js/vectormap-data/canada.js
+2022/04/18 13:05:01 br /tmp/work/dist/js/localization/dx.messages.tr.min.js -> /output/js/localization/dx.messages.tr.min.js.br
+2022/04/18 13:05:01 gz /tmp/work/dist/js/localization/dx.messages.tr.min.js -> /output/js/localization/dx.messages.tr.min.js.gz
+2022/04/18 13:05:01 sri /tmp/work/dist/js/localization/dx.messages.tr.js -> /output/js/localization/dx.messages.tr.js.sri
+2022/04/18 13:05:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.tr.js.br /tmp/work/dist/js/localization/dx.messages.tr.js
+2022/04/18 13:05:01 br /tmp/work/dist/js/localization/dx.messages.sv.min.js -> /output/js/localization/dx.messages.sv.min.js.br
+2022/04/18 13:05:01 gz /tmp/work/dist/js/localization/dx.messages.sv.min.js -> /output/js/localization/dx.messages.sv.min.js.gz
+2022/04/18 13:05:01 sri /tmp/work/dist/js/localization/dx.messages.sv.js -> /output/js/localization/dx.messages.sv.js.sri
+2022/04/18 13:05:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.sv.js.br /tmp/work/dist/js/localization/dx.messages.sv.js
+2022/04/18 13:05:02 sri /tmp/work/dist/js/localization/dx.messages.zh.min.js -> /output/js/localization/dx.messages.zh.min.js.sri
+2022/04/18 13:05:02 br /tmp/work/dist/js/localization/dx.messages.sl.js -> /output/js/localization/dx.messages.sl.js.br
+2022/04/18 13:05:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.zh.min.js.br /tmp/work/dist/js/localization/dx.messages.zh.min.js
+2022/04/18 13:05:02 gz /tmp/work/dist/js/localization/dx.messages.sl.js -> /output/js/localization/dx.messages.sl.js.gz
+2022/04/18 13:05:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/js/vectormap-data/eurasia.min.js /tmp/work/dist/js/vectormap-data/eurasia.js
+2022/04/18 13:05:02 sri /tmp/work/dist/js/localization/dx.messages.vi.min.js -> /output/js/localization/dx.messages.vi.min.js.sri
+2022/04/18 13:05:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.vi.min.js.br /tmp/work/dist/js/localization/dx.messages.vi.min.js
+2022/04/18 13:05:02 br /tmp/work/dist/js/localization/dx.messages.tr.js -> /output/js/localization/dx.messages.tr.js.br
+2022/04/18 13:05:02 gz /tmp/work/dist/js/localization/dx.messages.tr.js -> /output/js/localization/dx.messages.tr.js.gz
+2022/04/18 13:05:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/js/vectormap-data/europe.min.js /tmp/work/dist/js/vectormap-data/europe.js
+2022/04/18 13:05:02 br /tmp/work/dist/js/localization/dx.messages.sv.js -> /output/js/localization/dx.messages.sv.js.br
+2022/04/18 13:05:02 gz /tmp/work/dist/js/localization/dx.messages.sv.js -> /output/js/localization/dx.messages.sv.js.gz
+2022/04/18 13:05:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/js/vectormap-data/usa.min.js /tmp/work/dist/js/vectormap-data/usa.js
+2022/04/18 13:05:02 br /tmp/work/dist/js/localization/dx.messages.zh.min.js -> /output/js/localization/dx.messages.zh.min.js.br
+2022/04/18 13:05:02 gz /tmp/work/dist/js/localization/dx.messages.zh.min.js -> /output/js/localization/dx.messages.zh.min.js.gz
+2022/04/18 13:05:02 sri /tmp/work/dist/js/localization/dx.messages.zh.js -> /output/js/localization/dx.messages.zh.js.sri
+2022/04/18 13:05:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.zh.js.br /tmp/work/dist/js/localization/dx.messages.zh.js
+2022/04/18 13:05:02 br /tmp/work/dist/js/localization/dx.messages.vi.min.js -> /output/js/localization/dx.messages.vi.min.js.br
+2022/04/18 13:05:02 gz /tmp/work/dist/js/localization/dx.messages.vi.min.js -> /output/js/localization/dx.messages.vi.min.js.gz
+2022/04/18 13:05:02 sri /tmp/work/dist/js/localization/dx.messages.vi.js -> /output/js/localization/dx.messages.vi.js.sri
+2022/04/18 13:05:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/localization/dx.messages.vi.js.br /tmp/work/dist/js/localization/dx.messages.vi.js
+2022/04/18 13:05:02 br /tmp/work/dist/js/localization/dx.messages.zh.js -> /output/js/localization/dx.messages.zh.js.br
+2022/04/18 13:05:02 gz /tmp/work/dist/js/localization/dx.messages.zh.js -> /output/js/localization/dx.messages.zh.js.gz
+2022/04/18 13:05:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/js/vectormap-data/world.min.js /tmp/work/dist/js/vectormap-data/world.js
+2022/04/18 13:05:02 br /tmp/work/dist/js/localization/dx.messages.vi.js -> /output/js/localization/dx.messages.vi.js.br
+2022/04/18 13:05:02 gz /tmp/work/dist/js/localization/dx.messages.vi.js -> /output/js/localization/dx.messages.vi.js.gz
+2022/04/18 13:05:02 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.carmine.compact.min.css /tmp/work/dist/css/dx.carmine.compact.css
+2022/04/18 13:05:04 sri /tmp/work/dist/css/dx.carmine.compact.min.css -> /output/css/dx.carmine.compact.min.css.sri
+2022/04/18 13:05:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.carmine.compact.min.css.br /tmp/work/dist/css/dx.carmine.compact.min.css
+2022/04/18 13:05:05 sri /tmp/work/dist/js/vectormap-data/canada.min.js -> /output/js/vectormap-data/canada.min.js.sri
+2022/04/18 13:05:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/vectormap-data/canada.min.js.br /tmp/work/dist/js/vectormap-data/canada.min.js
+2022/04/18 13:05:05 sri /tmp/work/dist/js/vectormap-data/africa.min.js -> /output/js/vectormap-data/africa.min.js.sri
+2022/04/18 13:05:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/vectormap-data/africa.min.js.br /tmp/work/dist/js/vectormap-data/africa.min.js
+2022/04/18 13:05:06 sri /tmp/work/dist/js/vectormap-data/usa.min.js -> /output/js/vectormap-data/usa.min.js.sri
+2022/04/18 13:05:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/vectormap-data/usa.min.js.br /tmp/work/dist/js/vectormap-data/usa.min.js
+2022/04/18 13:05:06 sri /tmp/work/dist/js/vectormap-data/europe.min.js -> /output/js/vectormap-data/europe.min.js.sri
+2022/04/18 13:05:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/vectormap-data/europe.min.js.br /tmp/work/dist/js/vectormap-data/europe.min.js
+2022/04/18 13:05:06 sri /tmp/work/dist/js/vectormap-data/world.min.js -> /output/js/vectormap-data/world.min.js.sri
+2022/04/18 13:05:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/vectormap-data/world.min.js.br /tmp/work/dist/js/vectormap-data/world.min.js
+2022/04/18 13:05:06 br /tmp/work/dist/js/vectormap-data/canada.min.js -> /output/js/vectormap-data/canada.min.js.br
+2022/04/18 13:05:06 gz /tmp/work/dist/js/vectormap-data/canada.min.js -> /output/js/vectormap-data/canada.min.js.gz
+2022/04/18 13:05:06 sri /tmp/work/dist/js/vectormap-data/canada.js -> /output/js/vectormap-data/canada.js.sri
+2022/04/18 13:05:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/vectormap-data/canada.js.br /tmp/work/dist/js/vectormap-data/canada.js
+2022/04/18 13:05:07 br /tmp/work/dist/js/vectormap-data/africa.min.js -> /output/js/vectormap-data/africa.min.js.br
+2022/04/18 13:05:07 br /tmp/work/dist/js/vectormap-data/usa.min.js -> /output/js/vectormap-data/usa.min.js.br
+2022/04/18 13:05:07 gz /tmp/work/dist/js/vectormap-data/africa.min.js -> /output/js/vectormap-data/africa.min.js.gz
+2022/04/18 13:05:07 sri /tmp/work/dist/js/vectormap-data/africa.js -> /output/js/vectormap-data/africa.js.sri
+2022/04/18 13:05:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/vectormap-data/africa.js.br /tmp/work/dist/js/vectormap-data/africa.js
+2022/04/18 13:05:07 gz /tmp/work/dist/js/vectormap-data/usa.min.js -> /output/js/vectormap-data/usa.min.js.gz
+2022/04/18 13:05:07 sri /tmp/work/dist/js/vectormap-data/usa.js -> /output/js/vectormap-data/usa.js.sri
+2022/04/18 13:05:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/vectormap-data/usa.js.br /tmp/work/dist/js/vectormap-data/usa.js
+2022/04/18 13:05:07 br /tmp/work/dist/css/dx.carmine.compact.min.css -> /output/css/dx.carmine.compact.min.css.br
+2022/04/18 13:05:07 br /tmp/work/dist/js/vectormap-data/europe.min.js -> /output/js/vectormap-data/europe.min.js.br
+2022/04/18 13:05:07 gz /tmp/work/dist/css/dx.carmine.compact.min.css -> /output/css/dx.carmine.compact.min.css.gz
+2022/04/18 13:05:07 sri /tmp/work/dist/css/dx.carmine.compact.css -> /output/css/dx.carmine.compact.css.sri
+2022/04/18 13:05:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.carmine.compact.css.br /tmp/work/dist/css/dx.carmine.compact.css
+2022/04/18 13:05:07 gz /tmp/work/dist/js/vectormap-data/europe.min.js -> /output/js/vectormap-data/europe.min.js.gz
+2022/04/18 13:05:07 sri /tmp/work/dist/js/vectormap-data/europe.js -> /output/js/vectormap-data/europe.js.sri
+2022/04/18 13:05:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/vectormap-data/europe.js.br /tmp/work/dist/js/vectormap-data/europe.js
+2022/04/18 13:05:08 br /tmp/work/dist/js/vectormap-data/canada.js -> /output/js/vectormap-data/canada.js.br
+2022/04/18 13:05:08 gz /tmp/work/dist/js/vectormap-data/canada.js -> /output/js/vectormap-data/canada.js.gz
+2022/04/18 13:05:08 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.carmine.min.css /tmp/work/dist/css/dx.carmine.css
+2022/04/18 13:05:08 br /tmp/work/dist/js/vectormap-data/usa.js -> /output/js/vectormap-data/usa.js.br
+2022/04/18 13:05:08 br /tmp/work/dist/js/vectormap-data/world.min.js -> /output/js/vectormap-data/world.min.js.br
+2022/04/18 13:05:08 gz /tmp/work/dist/js/vectormap-data/usa.js -> /output/js/vectormap-data/usa.js.gz
+2022/04/18 13:05:08 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.common.min.css /tmp/work/dist/css/dx.common.css
+2022/04/18 13:05:08 gz /tmp/work/dist/js/vectormap-data/world.min.js -> /output/js/vectormap-data/world.min.js.gz
+2022/04/18 13:05:08 br /tmp/work/dist/js/vectormap-data/africa.js -> /output/js/vectormap-data/africa.js.br
+2022/04/18 13:05:08 sri /tmp/work/dist/js/vectormap-data/world.js -> /output/js/vectormap-data/world.js.sri
+2022/04/18 13:05:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/vectormap-data/world.js.br /tmp/work/dist/js/vectormap-data/world.js
+2022/04/18 13:05:08 gz /tmp/work/dist/js/vectormap-data/africa.js -> /output/js/vectormap-data/africa.js.gz
+2022/04/18 13:05:08 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.contrast.compact.min.css /tmp/work/dist/css/dx.contrast.compact.css
+2022/04/18 13:05:08 sri /tmp/work/dist/css/dx.common.min.css -> /output/css/dx.common.min.css.sri
+2022/04/18 13:05:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.common.min.css.br /tmp/work/dist/css/dx.common.min.css
+2022/04/18 13:05:08 br /tmp/work/dist/css/dx.common.min.css -> /output/css/dx.common.min.css.br
+2022/04/18 13:05:08 gz /tmp/work/dist/css/dx.common.min.css -> /output/css/dx.common.min.css.gz
+2022/04/18 13:05:08 sri /tmp/work/dist/css/dx.common.css -> /output/css/dx.common.css.sri
+2022/04/18 13:05:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.common.css.br /tmp/work/dist/css/dx.common.css
+2022/04/18 13:05:08 br /tmp/work/dist/css/dx.common.css -> /output/css/dx.common.css.br
+2022/04/18 13:05:08 gz /tmp/work/dist/css/dx.common.css -> /output/css/dx.common.css.gz
+2022/04/18 13:05:08 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.contrast.min.css /tmp/work/dist/css/dx.contrast.css
+2022/04/18 13:05:09 br /tmp/work/dist/js/vectormap-data/europe.js -> /output/js/vectormap-data/europe.js.br
+2022/04/18 13:05:09 gz /tmp/work/dist/js/vectormap-data/europe.js -> /output/js/vectormap-data/europe.js.gz
+2022/04/18 13:05:09 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.dark.compact.min.css /tmp/work/dist/css/dx.dark.compact.css
+2022/04/18 13:05:09 sri /tmp/work/dist/js/vectormap-data/eurasia.min.js -> /output/js/vectormap-data/eurasia.min.js.sri
+2022/04/18 13:05:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/vectormap-data/eurasia.min.js.br /tmp/work/dist/js/vectormap-data/eurasia.min.js
+2022/04/18 13:05:10 br /tmp/work/dist/js/vectormap-data/world.js -> /output/js/vectormap-data/world.js.br
+2022/04/18 13:05:10 sri /tmp/work/dist/css/dx.carmine.min.css -> /output/css/dx.carmine.min.css.sri
+2022/04/18 13:05:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.carmine.min.css.br /tmp/work/dist/css/dx.carmine.min.css
+2022/04/18 13:05:10 gz /tmp/work/dist/js/vectormap-data/world.js -> /output/js/vectormap-data/world.js.gz
+2022/04/18 13:05:10 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.dark.min.css /tmp/work/dist/css/dx.dark.css
+2022/04/18 13:05:10 sri /tmp/work/dist/css/dx.contrast.compact.min.css -> /output/css/dx.contrast.compact.min.css.sri
+2022/04/18 13:05:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.contrast.compact.min.css.br /tmp/work/dist/css/dx.contrast.compact.min.css
+2022/04/18 13:05:10 br /tmp/work/dist/css/dx.carmine.compact.css -> /output/css/dx.carmine.compact.css.br
+2022/04/18 13:05:10 gz /tmp/work/dist/css/dx.carmine.compact.css -> /output/css/dx.carmine.compact.css.gz
+2022/04/18 13:05:10 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.darkmoon.compact.min.css /tmp/work/dist/css/dx.darkmoon.compact.css
+2022/04/18 13:05:11 sri /tmp/work/dist/css/dx.contrast.min.css -> /output/css/dx.contrast.min.css.sri
+2022/04/18 13:05:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.contrast.min.css.br /tmp/work/dist/css/dx.contrast.min.css
+2022/04/18 13:05:11 sri /tmp/work/dist/css/dx.dark.compact.min.css -> /output/css/dx.dark.compact.min.css.sri
+2022/04/18 13:05:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.dark.compact.min.css.br /tmp/work/dist/css/dx.dark.compact.min.css
+2022/04/18 13:05:12 sri /tmp/work/dist/css/dx.dark.min.css -> /output/css/dx.dark.min.css.sri
+2022/04/18 13:05:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.dark.min.css.br /tmp/work/dist/css/dx.dark.min.css
+2022/04/18 13:05:13 sri /tmp/work/dist/css/dx.darkmoon.compact.min.css -> /output/css/dx.darkmoon.compact.min.css.sri
+2022/04/18 13:05:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.darkmoon.compact.min.css.br /tmp/work/dist/css/dx.darkmoon.compact.min.css
+2022/04/18 13:05:13 br /tmp/work/dist/css/dx.carmine.min.css -> /output/css/dx.carmine.min.css.br
+2022/04/18 13:05:13 gz /tmp/work/dist/css/dx.carmine.min.css -> /output/css/dx.carmine.min.css.gz
+2022/04/18 13:05:13 sri /tmp/work/dist/css/dx.carmine.css -> /output/css/dx.carmine.css.sri
+2022/04/18 13:05:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.carmine.css.br /tmp/work/dist/css/dx.carmine.css
+2022/04/18 13:05:13 br /tmp/work/dist/css/dx.contrast.compact.min.css -> /output/css/dx.contrast.compact.min.css.br
+2022/04/18 13:05:13 gz /tmp/work/dist/css/dx.contrast.compact.min.css -> /output/css/dx.contrast.compact.min.css.gz
+2022/04/18 13:05:13 sri /tmp/work/dist/css/dx.contrast.compact.css -> /output/css/dx.contrast.compact.css.sri
+2022/04/18 13:05:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.contrast.compact.css.br /tmp/work/dist/css/dx.contrast.compact.css
+2022/04/18 13:05:13 br /tmp/work/dist/js/vectormap-data/eurasia.min.js -> /output/js/vectormap-data/eurasia.min.js.br
+2022/04/18 13:05:13 gz /tmp/work/dist/js/vectormap-data/eurasia.min.js -> /output/js/vectormap-data/eurasia.min.js.gz
+2022/04/18 13:05:13 sri /tmp/work/dist/js/vectormap-data/eurasia.js -> /output/js/vectormap-data/eurasia.js.sri
+2022/04/18 13:05:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/vectormap-data/eurasia.js.br /tmp/work/dist/js/vectormap-data/eurasia.js
+2022/04/18 13:05:13 br /tmp/work/dist/css/dx.contrast.min.css -> /output/css/dx.contrast.min.css.br
+2022/04/18 13:05:14 gz /tmp/work/dist/css/dx.contrast.min.css -> /output/css/dx.contrast.min.css.gz
+2022/04/18 13:05:14 sri /tmp/work/dist/css/dx.contrast.css -> /output/css/dx.contrast.css.sri
+2022/04/18 13:05:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.contrast.css.br /tmp/work/dist/css/dx.contrast.css
+2022/04/18 13:05:14 br /tmp/work/dist/css/dx.dark.compact.min.css -> /output/css/dx.dark.compact.min.css.br
+2022/04/18 13:05:14 gz /tmp/work/dist/css/dx.dark.compact.min.css -> /output/css/dx.dark.compact.min.css.gz
+2022/04/18 13:05:14 sri /tmp/work/dist/css/dx.dark.compact.css -> /output/css/dx.dark.compact.css.sri
+2022/04/18 13:05:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.dark.compact.css.br /tmp/work/dist/css/dx.dark.compact.css
+2022/04/18 13:05:15 br /tmp/work/dist/css/dx.dark.min.css -> /output/css/dx.dark.min.css.br
+2022/04/18 13:05:15 gz /tmp/work/dist/css/dx.dark.min.css -> /output/css/dx.dark.min.css.gz
+2022/04/18 13:05:15 sri /tmp/work/dist/css/dx.dark.css -> /output/css/dx.dark.css.sri
+2022/04/18 13:05:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.dark.css.br /tmp/work/dist/css/dx.dark.css
+2022/04/18 13:05:16 br /tmp/work/dist/css/dx.darkmoon.compact.min.css -> /output/css/dx.darkmoon.compact.min.css.br
+2022/04/18 13:05:16 gz /tmp/work/dist/css/dx.darkmoon.compact.min.css -> /output/css/dx.darkmoon.compact.min.css.gz
+2022/04/18 13:05:16 sri /tmp/work/dist/css/dx.darkmoon.compact.css -> /output/css/dx.darkmoon.compact.css.sri
+2022/04/18 13:05:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.darkmoon.compact.css.br /tmp/work/dist/css/dx.darkmoon.compact.css
+2022/04/18 13:05:16 br /tmp/work/dist/css/dx.contrast.compact.css -> /output/css/dx.contrast.compact.css.br
+2022/04/18 13:05:16 gz /tmp/work/dist/css/dx.contrast.compact.css -> /output/css/dx.contrast.compact.css.gz
+2022/04/18 13:05:16 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.darkmoon.min.css /tmp/work/dist/css/dx.darkmoon.css
+2022/04/18 13:05:17 br /tmp/work/dist/css/dx.carmine.css -> /output/css/dx.carmine.css.br
+2022/04/18 13:05:17 gz /tmp/work/dist/css/dx.carmine.css -> /output/css/dx.carmine.css.gz
+2022/04/18 13:05:17 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.darkviolet.compact.min.css /tmp/work/dist/css/dx.darkviolet.compact.css
+2022/04/18 13:05:17 br /tmp/work/dist/css/dx.contrast.css -> /output/css/dx.contrast.css.br
+2022/04/18 13:05:17 gz /tmp/work/dist/css/dx.contrast.css -> /output/css/dx.contrast.css.gz
+2022/04/18 13:05:17 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.darkviolet.min.css /tmp/work/dist/css/dx.darkviolet.css
+2022/04/18 13:05:17 br /tmp/work/dist/css/dx.dark.compact.css -> /output/css/dx.dark.compact.css.br
+2022/04/18 13:05:17 br /tmp/work/dist/js/vectormap-data/eurasia.js -> /output/js/vectormap-data/eurasia.js.br
+2022/04/18 13:05:17 gz /tmp/work/dist/css/dx.dark.compact.css -> /output/css/dx.dark.compact.css.gz
+2022/04/18 13:05:17 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.greenmist.compact.min.css /tmp/work/dist/css/dx.greenmist.compact.css
+2022/04/18 13:05:18 gz /tmp/work/dist/js/vectormap-data/eurasia.js -> /output/js/vectormap-data/eurasia.js.gz
+2022/04/18 13:05:18 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.greenmist.min.css /tmp/work/dist/css/dx.greenmist.css
+2022/04/18 13:05:19 br /tmp/work/dist/css/dx.dark.css -> /output/css/dx.dark.css.br
+2022/04/18 13:05:19 gz /tmp/work/dist/css/dx.dark.css -> /output/css/dx.dark.css.gz
+2022/04/18 13:05:19 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.light.compact.min.css /tmp/work/dist/css/dx.light.compact.css
+2022/04/18 13:05:19 sri /tmp/work/dist/css/dx.darkmoon.min.css -> /output/css/dx.darkmoon.min.css.sri
+2022/04/18 13:05:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.darkmoon.min.css.br /tmp/work/dist/css/dx.darkmoon.min.css
+2022/04/18 13:05:19 br /tmp/work/dist/css/dx.darkmoon.compact.css -> /output/css/dx.darkmoon.compact.css.br
+2022/04/18 13:05:19 sri /tmp/work/dist/css/dx.darkviolet.compact.min.css -> /output/css/dx.darkviolet.compact.min.css.sri
+2022/04/18 13:05:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.darkviolet.compact.min.css.br /tmp/work/dist/css/dx.darkviolet.compact.min.css
+2022/04/18 13:05:19 gz /tmp/work/dist/css/dx.darkmoon.compact.css -> /output/css/dx.darkmoon.compact.css.gz
+2022/04/18 13:05:19 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.light.min.css /tmp/work/dist/css/dx.light.css
+2022/04/18 13:05:20 sri /tmp/work/dist/css/dx.darkviolet.min.css -> /output/css/dx.darkviolet.min.css.sri
+2022/04/18 13:05:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.darkviolet.min.css.br /tmp/work/dist/css/dx.darkviolet.min.css
+2022/04/18 13:05:20 sri /tmp/work/dist/css/dx.greenmist.compact.min.css -> /output/css/dx.greenmist.compact.min.css.sri
+2022/04/18 13:05:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.greenmist.compact.min.css.br /tmp/work/dist/css/dx.greenmist.compact.min.css
+2022/04/18 13:05:20 sri /tmp/work/dist/css/dx.greenmist.min.css -> /output/css/dx.greenmist.min.css.sri
+2022/04/18 13:05:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.greenmist.min.css.br /tmp/work/dist/css/dx.greenmist.min.css
+2022/04/18 13:05:21 sri /tmp/work/dist/css/dx.light.compact.min.css -> /output/css/dx.light.compact.min.css.sri
+2022/04/18 13:05:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.light.compact.min.css.br /tmp/work/dist/css/dx.light.compact.min.css
+2022/04/18 13:05:22 br /tmp/work/dist/css/dx.darkmoon.min.css -> /output/css/dx.darkmoon.min.css.br
+2022/04/18 13:05:22 sri /tmp/work/dist/css/dx.light.min.css -> /output/css/dx.light.min.css.sri
+2022/04/18 13:05:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.light.min.css.br /tmp/work/dist/css/dx.light.min.css
+2022/04/18 13:05:22 gz /tmp/work/dist/css/dx.darkmoon.min.css -> /output/css/dx.darkmoon.min.css.gz
+2022/04/18 13:05:22 sri /tmp/work/dist/css/dx.darkmoon.css -> /output/css/dx.darkmoon.css.sri
+2022/04/18 13:05:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.darkmoon.css.br /tmp/work/dist/css/dx.darkmoon.css
+2022/04/18 13:05:22 br /tmp/work/dist/css/dx.darkviolet.compact.min.css -> /output/css/dx.darkviolet.compact.min.css.br
+2022/04/18 13:05:22 gz /tmp/work/dist/css/dx.darkviolet.compact.min.css -> /output/css/dx.darkviolet.compact.min.css.gz
+2022/04/18 13:05:22 sri /tmp/work/dist/css/dx.darkviolet.compact.css -> /output/css/dx.darkviolet.compact.css.sri
+2022/04/18 13:05:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.darkviolet.compact.css.br /tmp/work/dist/css/dx.darkviolet.compact.css
+2022/04/18 13:05:23 br /tmp/work/dist/css/dx.darkviolet.min.css -> /output/css/dx.darkviolet.min.css.br
+2022/04/18 13:05:23 gz /tmp/work/dist/css/dx.darkviolet.min.css -> /output/css/dx.darkviolet.min.css.gz
+2022/04/18 13:05:23 sri /tmp/work/dist/css/dx.darkviolet.css -> /output/css/dx.darkviolet.css.sri
+2022/04/18 13:05:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.darkviolet.css.br /tmp/work/dist/css/dx.darkviolet.css
+2022/04/18 13:05:23 br /tmp/work/dist/css/dx.greenmist.compact.min.css -> /output/css/dx.greenmist.compact.min.css.br
+2022/04/18 13:05:23 br /tmp/work/dist/css/dx.greenmist.min.css -> /output/css/dx.greenmist.min.css.br
+2022/04/18 13:05:23 gz /tmp/work/dist/css/dx.greenmist.compact.min.css -> /output/css/dx.greenmist.compact.min.css.gz
+2022/04/18 13:05:23 sri /tmp/work/dist/css/dx.greenmist.compact.css -> /output/css/dx.greenmist.compact.css.sri
+2022/04/18 13:05:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.greenmist.compact.css.br /tmp/work/dist/css/dx.greenmist.compact.css
+2022/04/18 13:05:23 gz /tmp/work/dist/css/dx.greenmist.min.css -> /output/css/dx.greenmist.min.css.gz
+2022/04/18 13:05:23 sri /tmp/work/dist/css/dx.greenmist.css -> /output/css/dx.greenmist.css.sri
+2022/04/18 13:05:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.greenmist.css.br /tmp/work/dist/css/dx.greenmist.css
+2022/04/18 13:05:24 br /tmp/work/dist/css/dx.light.compact.min.css -> /output/css/dx.light.compact.min.css.br
+2022/04/18 13:05:24 gz /tmp/work/dist/css/dx.light.compact.min.css -> /output/css/dx.light.compact.min.css.gz
+2022/04/18 13:05:24 sri /tmp/work/dist/css/dx.light.compact.css -> /output/css/dx.light.compact.css.sri
+2022/04/18 13:05:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.light.compact.css.br /tmp/work/dist/css/dx.light.compact.css
+2022/04/18 13:05:25 br /tmp/work/dist/css/dx.light.min.css -> /output/css/dx.light.min.css.br
+2022/04/18 13:05:25 gz /tmp/work/dist/css/dx.light.min.css -> /output/css/dx.light.min.css.gz
+2022/04/18 13:05:25 sri /tmp/work/dist/css/dx.light.css -> /output/css/dx.light.css.sri
+2022/04/18 13:05:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.light.css.br /tmp/work/dist/css/dx.light.css
+2022/04/18 13:05:25 br /tmp/work/dist/css/dx.darkmoon.css -> /output/css/dx.darkmoon.css.br
+2022/04/18 13:05:25 gz /tmp/work/dist/css/dx.darkmoon.css -> /output/css/dx.darkmoon.css.gz
+2022/04/18 13:05:25 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.material.blue.dark.compact.min.css /tmp/work/dist/css/dx.material.blue.dark.compact.css
+2022/04/18 13:05:26 br /tmp/work/dist/css/dx.darkviolet.compact.css -> /output/css/dx.darkviolet.compact.css.br
+2022/04/18 13:05:26 gz /tmp/work/dist/css/dx.darkviolet.compact.css -> /output/css/dx.darkviolet.compact.css.gz
+2022/04/18 13:05:26 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.material.blue.dark.min.css /tmp/work/dist/css/dx.material.blue.dark.css
+2022/04/18 13:05:26 br /tmp/work/dist/css/dx.darkviolet.css -> /output/css/dx.darkviolet.css.br
+2022/04/18 13:05:26 gz /tmp/work/dist/css/dx.darkviolet.css -> /output/css/dx.darkviolet.css.gz
+2022/04/18 13:05:26 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.material.blue.light.compact.min.css /tmp/work/dist/css/dx.material.blue.light.compact.css
+2022/04/18 13:05:26 br /tmp/work/dist/css/dx.greenmist.css -> /output/css/dx.greenmist.css.br
+2022/04/18 13:05:26 gz /tmp/work/dist/css/dx.greenmist.css -> /output/css/dx.greenmist.css.gz
+2022/04/18 13:05:26 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.material.blue.light.min.css /tmp/work/dist/css/dx.material.blue.light.css
+2022/04/18 13:05:26 br /tmp/work/dist/css/dx.greenmist.compact.css -> /output/css/dx.greenmist.compact.css.br
+2022/04/18 13:05:27 gz /tmp/work/dist/css/dx.greenmist.compact.css -> /output/css/dx.greenmist.compact.css.gz
+2022/04/18 13:05:27 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.material.lime.dark.compact.min.css /tmp/work/dist/css/dx.material.lime.dark.compact.css
+2022/04/18 13:05:27 br /tmp/work/dist/css/dx.light.compact.css -> /output/css/dx.light.compact.css.br
+2022/04/18 13:05:27 gz /tmp/work/dist/css/dx.light.compact.css -> /output/css/dx.light.compact.css.gz
+2022/04/18 13:05:27 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.material.lime.dark.min.css /tmp/work/dist/css/dx.material.lime.dark.css
+2022/04/18 13:05:28 br /tmp/work/dist/css/dx.light.css -> /output/css/dx.light.css.br
+2022/04/18 13:05:28 sri /tmp/work/dist/css/dx.material.blue.dark.compact.min.css -> /output/css/dx.material.blue.dark.compact.min.css.sri
+2022/04/18 13:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.blue.dark.compact.min.css.br /tmp/work/dist/css/dx.material.blue.dark.compact.min.css
+2022/04/18 13:05:28 gz /tmp/work/dist/css/dx.light.css -> /output/css/dx.light.css.gz
+2022/04/18 13:05:28 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.material.lime.light.compact.min.css /tmp/work/dist/css/dx.material.lime.light.compact.css
+2022/04/18 13:05:28 sri /tmp/work/dist/css/dx.material.blue.dark.min.css -> /output/css/dx.material.blue.dark.min.css.sri
+2022/04/18 13:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.blue.dark.min.css.br /tmp/work/dist/css/dx.material.blue.dark.min.css
+2022/04/18 13:05:29 sri /tmp/work/dist/css/dx.material.blue.light.compact.min.css -> /output/css/dx.material.blue.light.compact.min.css.sri
+2022/04/18 13:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.blue.light.compact.min.css.br /tmp/work/dist/css/dx.material.blue.light.compact.min.css
+2022/04/18 13:05:29 sri /tmp/work/dist/css/dx.material.blue.light.min.css -> /output/css/dx.material.blue.light.min.css.sri
+2022/04/18 13:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.blue.light.min.css.br /tmp/work/dist/css/dx.material.blue.light.min.css
+2022/04/18 13:05:30 sri /tmp/work/dist/css/dx.material.lime.dark.compact.min.css -> /output/css/dx.material.lime.dark.compact.min.css.sri
+2022/04/18 13:05:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.lime.dark.compact.min.css.br /tmp/work/dist/css/dx.material.lime.dark.compact.min.css
+2022/04/18 13:05:30 sri /tmp/work/dist/css/dx.material.lime.dark.min.css -> /output/css/dx.material.lime.dark.min.css.sri
+2022/04/18 13:05:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.lime.dark.min.css.br /tmp/work/dist/css/dx.material.lime.dark.min.css
+2022/04/18 13:05:31 sri /tmp/work/dist/css/dx.material.lime.light.compact.min.css -> /output/css/dx.material.lime.light.compact.min.css.sri
+2022/04/18 13:05:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.lime.light.compact.min.css.br /tmp/work/dist/css/dx.material.lime.light.compact.min.css
+2022/04/18 13:05:32 br /tmp/work/dist/css/dx.material.blue.dark.compact.min.css -> /output/css/dx.material.blue.dark.compact.min.css.br
+2022/04/18 13:05:32 gz /tmp/work/dist/css/dx.material.blue.dark.compact.min.css -> /output/css/dx.material.blue.dark.compact.min.css.gz
+2022/04/18 13:05:32 sri /tmp/work/dist/css/dx.material.blue.dark.compact.css -> /output/css/dx.material.blue.dark.compact.css.sri
+2022/04/18 13:05:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.blue.dark.compact.css.br /tmp/work/dist/css/dx.material.blue.dark.compact.css
+2022/04/18 13:05:32 br /tmp/work/dist/css/dx.material.blue.dark.min.css -> /output/css/dx.material.blue.dark.min.css.br
+2022/04/18 13:05:33 gz /tmp/work/dist/css/dx.material.blue.dark.min.css -> /output/css/dx.material.blue.dark.min.css.gz
+2022/04/18 13:05:33 sri /tmp/work/dist/css/dx.material.blue.dark.css -> /output/css/dx.material.blue.dark.css.sri
+2022/04/18 13:05:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.blue.dark.css.br /tmp/work/dist/css/dx.material.blue.dark.css
+2022/04/18 13:05:33 br /tmp/work/dist/css/dx.material.blue.light.compact.min.css -> /output/css/dx.material.blue.light.compact.min.css.br
+2022/04/18 13:05:33 gz /tmp/work/dist/css/dx.material.blue.light.compact.min.css -> /output/css/dx.material.blue.light.compact.min.css.gz
+2022/04/18 13:05:33 sri /tmp/work/dist/css/dx.material.blue.light.compact.css -> /output/css/dx.material.blue.light.compact.css.sri
+2022/04/18 13:05:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.blue.light.compact.css.br /tmp/work/dist/css/dx.material.blue.light.compact.css
+2022/04/18 13:05:33 br /tmp/work/dist/css/dx.material.blue.light.min.css -> /output/css/dx.material.blue.light.min.css.br
+2022/04/18 13:05:34 gz /tmp/work/dist/css/dx.material.blue.light.min.css -> /output/css/dx.material.blue.light.min.css.gz
+2022/04/18 13:05:34 sri /tmp/work/dist/css/dx.material.blue.light.css -> /output/css/dx.material.blue.light.css.sri
+2022/04/18 13:05:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.blue.light.css.br /tmp/work/dist/css/dx.material.blue.light.css
+2022/04/18 13:05:34 br /tmp/work/dist/css/dx.material.lime.dark.compact.min.css -> /output/css/dx.material.lime.dark.compact.min.css.br
+2022/04/18 13:05:34 gz /tmp/work/dist/css/dx.material.lime.dark.compact.min.css -> /output/css/dx.material.lime.dark.compact.min.css.gz
+2022/04/18 13:05:34 sri /tmp/work/dist/css/dx.material.lime.dark.compact.css -> /output/css/dx.material.lime.dark.compact.css.sri
+2022/04/18 13:05:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.lime.dark.compact.css.br /tmp/work/dist/css/dx.material.lime.dark.compact.css
+2022/04/18 13:05:34 br /tmp/work/dist/css/dx.material.lime.dark.min.css -> /output/css/dx.material.lime.dark.min.css.br
+2022/04/18 13:05:34 gz /tmp/work/dist/css/dx.material.lime.dark.min.css -> /output/css/dx.material.lime.dark.min.css.gz
+2022/04/18 13:05:34 sri /tmp/work/dist/css/dx.material.lime.dark.css -> /output/css/dx.material.lime.dark.css.sri
+2022/04/18 13:05:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.lime.dark.css.br /tmp/work/dist/css/dx.material.lime.dark.css
+2022/04/18 13:05:35 br /tmp/work/dist/css/dx.material.lime.light.compact.min.css -> /output/css/dx.material.lime.light.compact.min.css.br
+2022/04/18 13:05:35 gz /tmp/work/dist/css/dx.material.lime.light.compact.min.css -> /output/css/dx.material.lime.light.compact.min.css.gz
+2022/04/18 13:05:35 sri /tmp/work/dist/css/dx.material.lime.light.compact.css -> /output/css/dx.material.lime.light.compact.css.sri
+2022/04/18 13:05:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.lime.light.compact.css.br /tmp/work/dist/css/dx.material.lime.light.compact.css
+2022/04/18 13:05:36 br /tmp/work/dist/css/dx.material.blue.dark.compact.css -> /output/css/dx.material.blue.dark.compact.css.br
+2022/04/18 13:05:37 gz /tmp/work/dist/css/dx.material.blue.dark.compact.css -> /output/css/dx.material.blue.dark.compact.css.gz
+2022/04/18 13:05:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.material.lime.light.min.css /tmp/work/dist/css/dx.material.lime.light.css
+2022/04/18 13:05:37 br /tmp/work/dist/css/dx.material.blue.dark.css -> /output/css/dx.material.blue.dark.css.br
+2022/04/18 13:05:37 gz /tmp/work/dist/css/dx.material.blue.dark.css -> /output/css/dx.material.blue.dark.css.gz
+2022/04/18 13:05:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.material.orange.dark.compact.min.css /tmp/work/dist/css/dx.material.orange.dark.compact.css
+2022/04/18 13:05:38 br /tmp/work/dist/css/dx.material.blue.light.compact.css -> /output/css/dx.material.blue.light.compact.css.br
+2022/04/18 13:05:38 gz /tmp/work/dist/css/dx.material.blue.light.compact.css -> /output/css/dx.material.blue.light.compact.css.gz
+2022/04/18 13:05:38 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.material.orange.dark.min.css /tmp/work/dist/css/dx.material.orange.dark.css
+2022/04/18 13:05:38 br /tmp/work/dist/css/dx.material.blue.light.css -> /output/css/dx.material.blue.light.css.br
+2022/04/18 13:05:38 gz /tmp/work/dist/css/dx.material.blue.light.css -> /output/css/dx.material.blue.light.css.gz
+2022/04/18 13:05:38 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.material.orange.light.compact.min.css /tmp/work/dist/css/dx.material.orange.light.compact.css
+2022/04/18 13:05:38 br /tmp/work/dist/css/dx.material.lime.dark.compact.css -> /output/css/dx.material.lime.dark.compact.css.br
+2022/04/18 13:05:38 gz /tmp/work/dist/css/dx.material.lime.dark.compact.css -> /output/css/dx.material.lime.dark.compact.css.gz
+2022/04/18 13:05:38 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.material.orange.light.min.css /tmp/work/dist/css/dx.material.orange.light.css
+2022/04/18 13:05:39 br /tmp/work/dist/css/dx.material.lime.dark.css -> /output/css/dx.material.lime.dark.css.br
+2022/04/18 13:05:39 gz /tmp/work/dist/css/dx.material.lime.dark.css -> /output/css/dx.material.lime.dark.css.gz
+2022/04/18 13:05:39 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.material.purple.dark.compact.min.css /tmp/work/dist/css/dx.material.purple.dark.compact.css
+2022/04/18 13:05:39 sri /tmp/work/dist/css/dx.material.lime.light.min.css -> /output/css/dx.material.lime.light.min.css.sri
+2022/04/18 13:05:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.lime.light.min.css.br /tmp/work/dist/css/dx.material.lime.light.min.css
+2022/04/18 13:05:39 br /tmp/work/dist/css/dx.material.lime.light.compact.css -> /output/css/dx.material.lime.light.compact.css.br
+2022/04/18 13:05:40 gz /tmp/work/dist/css/dx.material.lime.light.compact.css -> /output/css/dx.material.lime.light.compact.css.gz
+2022/04/18 13:05:40 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.material.purple.dark.min.css /tmp/work/dist/css/dx.material.purple.dark.css
+2022/04/18 13:05:40 sri /tmp/work/dist/css/dx.material.orange.dark.compact.min.css -> /output/css/dx.material.orange.dark.compact.min.css.sri
+2022/04/18 13:05:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.orange.dark.compact.min.css.br /tmp/work/dist/css/dx.material.orange.dark.compact.min.css
+2022/04/18 13:05:41 sri /tmp/work/dist/css/dx.material.orange.dark.min.css -> /output/css/dx.material.orange.dark.min.css.sri
+2022/04/18 13:05:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.orange.dark.min.css.br /tmp/work/dist/css/dx.material.orange.dark.min.css
+2022/04/18 13:05:41 sri /tmp/work/dist/css/dx.material.orange.light.compact.min.css -> /output/css/dx.material.orange.light.compact.min.css.sri
+2022/04/18 13:05:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.orange.light.compact.min.css.br /tmp/work/dist/css/dx.material.orange.light.compact.min.css
+2022/04/18 13:05:41 sri /tmp/work/dist/css/dx.material.orange.light.min.css -> /output/css/dx.material.orange.light.min.css.sri
+2022/04/18 13:05:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.orange.light.min.css.br /tmp/work/dist/css/dx.material.orange.light.min.css
+2022/04/18 13:05:42 sri /tmp/work/dist/css/dx.material.purple.dark.compact.min.css -> /output/css/dx.material.purple.dark.compact.min.css.sri
+2022/04/18 13:05:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.purple.dark.compact.min.css.br /tmp/work/dist/css/dx.material.purple.dark.compact.min.css
+2022/04/18 13:05:43 sri /tmp/work/dist/css/dx.material.purple.dark.min.css -> /output/css/dx.material.purple.dark.min.css.sri
+2022/04/18 13:05:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.purple.dark.min.css.br /tmp/work/dist/css/dx.material.purple.dark.min.css
+2022/04/18 13:05:44 br /tmp/work/dist/css/dx.material.lime.light.min.css -> /output/css/dx.material.lime.light.min.css.br
+2022/04/18 13:05:44 gz /tmp/work/dist/css/dx.material.lime.light.min.css -> /output/css/dx.material.lime.light.min.css.gz
+2022/04/18 13:05:44 sri /tmp/work/dist/css/dx.material.lime.light.css -> /output/css/dx.material.lime.light.css.sri
+2022/04/18 13:05:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.lime.light.css.br /tmp/work/dist/css/dx.material.lime.light.css
+2022/04/18 13:05:44 br /tmp/work/dist/css/dx.material.orange.dark.compact.min.css -> /output/css/dx.material.orange.dark.compact.min.css.br
+2022/04/18 13:05:44 gz /tmp/work/dist/css/dx.material.orange.dark.compact.min.css -> /output/css/dx.material.orange.dark.compact.min.css.gz
+2022/04/18 13:05:44 sri /tmp/work/dist/css/dx.material.orange.dark.compact.css -> /output/css/dx.material.orange.dark.compact.css.sri
+2022/04/18 13:05:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.orange.dark.compact.css.br /tmp/work/dist/css/dx.material.orange.dark.compact.css
+2022/04/18 13:05:45 br /tmp/work/dist/css/dx.material.orange.dark.min.css -> /output/css/dx.material.orange.dark.min.css.br
+2022/04/18 13:05:45 br /tmp/work/dist/css/dx.material.orange.light.compact.min.css -> /output/css/dx.material.orange.light.compact.min.css.br
+2022/04/18 13:05:45 gz /tmp/work/dist/css/dx.material.orange.dark.min.css -> /output/css/dx.material.orange.dark.min.css.gz
+2022/04/18 13:05:45 gz /tmp/work/dist/css/dx.material.orange.light.compact.min.css -> /output/css/dx.material.orange.light.compact.min.css.gz
+2022/04/18 13:05:45 sri /tmp/work/dist/css/dx.material.orange.dark.css -> /output/css/dx.material.orange.dark.css.sri
+2022/04/18 13:05:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.orange.dark.css.br /tmp/work/dist/css/dx.material.orange.dark.css
+2022/04/18 13:05:45 sri /tmp/work/dist/css/dx.material.orange.light.compact.css -> /output/css/dx.material.orange.light.compact.css.sri
+2022/04/18 13:05:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.orange.light.compact.css.br /tmp/work/dist/css/dx.material.orange.light.compact.css
+2022/04/18 13:05:46 br /tmp/work/dist/css/dx.material.orange.light.min.css -> /output/css/dx.material.orange.light.min.css.br
+2022/04/18 13:05:46 gz /tmp/work/dist/css/dx.material.orange.light.min.css -> /output/css/dx.material.orange.light.min.css.gz
+2022/04/18 13:05:46 sri /tmp/work/dist/css/dx.material.orange.light.css -> /output/css/dx.material.orange.light.css.sri
+2022/04/18 13:05:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.orange.light.css.br /tmp/work/dist/css/dx.material.orange.light.css
+2022/04/18 13:05:46 br /tmp/work/dist/css/dx.material.purple.dark.compact.min.css -> /output/css/dx.material.purple.dark.compact.min.css.br
+2022/04/18 13:05:46 gz /tmp/work/dist/css/dx.material.purple.dark.compact.min.css -> /output/css/dx.material.purple.dark.compact.min.css.gz
+2022/04/18 13:05:46 sri /tmp/work/dist/css/dx.material.purple.dark.compact.css -> /output/css/dx.material.purple.dark.compact.css.sri
+2022/04/18 13:05:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.purple.dark.compact.css.br /tmp/work/dist/css/dx.material.purple.dark.compact.css
+2022/04/18 13:05:47 br /tmp/work/dist/css/dx.material.purple.dark.min.css -> /output/css/dx.material.purple.dark.min.css.br
+2022/04/18 13:05:47 gz /tmp/work/dist/css/dx.material.purple.dark.min.css -> /output/css/dx.material.purple.dark.min.css.gz
+2022/04/18 13:05:47 sri /tmp/work/dist/css/dx.material.purple.dark.css -> /output/css/dx.material.purple.dark.css.sri
+2022/04/18 13:05:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.purple.dark.css.br /tmp/work/dist/css/dx.material.purple.dark.css
+2022/04/18 13:05:48 br /tmp/work/dist/css/dx.material.lime.light.css -> /output/css/dx.material.lime.light.css.br
+2022/04/18 13:05:48 gz /tmp/work/dist/css/dx.material.lime.light.css -> /output/css/dx.material.lime.light.css.gz
+2022/04/18 13:05:48 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.material.purple.light.compact.min.css /tmp/work/dist/css/dx.material.purple.light.compact.css
+2022/04/18 13:05:49 br /tmp/work/dist/css/dx.material.orange.dark.compact.css -> /output/css/dx.material.orange.dark.compact.css.br
+2022/04/18 13:05:49 gz /tmp/work/dist/css/dx.material.orange.dark.compact.css -> /output/css/dx.material.orange.dark.compact.css.gz
+2022/04/18 13:05:49 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.material.purple.light.min.css /tmp/work/dist/css/dx.material.purple.light.css
+2022/04/18 13:05:49 br /tmp/work/dist/css/dx.material.orange.light.compact.css -> /output/css/dx.material.orange.light.compact.css.br
+2022/04/18 13:05:49 br /tmp/work/dist/css/dx.material.orange.dark.css -> /output/css/dx.material.orange.dark.css.br
+2022/04/18 13:05:49 gz /tmp/work/dist/css/dx.material.orange.light.compact.css -> /output/css/dx.material.orange.light.compact.css.gz
+2022/04/18 13:05:49 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.material.teal.dark.compact.min.css /tmp/work/dist/css/dx.material.teal.dark.compact.css
+2022/04/18 13:05:49 gz /tmp/work/dist/css/dx.material.orange.dark.css -> /output/css/dx.material.orange.dark.css.gz
+2022/04/18 13:05:49 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.material.teal.dark.min.css /tmp/work/dist/css/dx.material.teal.dark.css
+2022/04/18 13:05:50 br /tmp/work/dist/css/dx.material.orange.light.css -> /output/css/dx.material.orange.light.css.br
+2022/04/18 13:05:50 gz /tmp/work/dist/css/dx.material.orange.light.css -> /output/css/dx.material.orange.light.css.gz
+2022/04/18 13:05:50 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.material.teal.light.compact.min.css /tmp/work/dist/css/dx.material.teal.light.compact.css
+2022/04/18 13:05:50 br /tmp/work/dist/css/dx.material.purple.dark.compact.css -> /output/css/dx.material.purple.dark.compact.css.br
+2022/04/18 13:05:50 gz /tmp/work/dist/css/dx.material.purple.dark.compact.css -> /output/css/dx.material.purple.dark.compact.css.gz
+2022/04/18 13:05:50 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.material.teal.light.min.css /tmp/work/dist/css/dx.material.teal.light.css
+2022/04/18 13:05:51 br /tmp/work/dist/css/dx.material.purple.dark.css -> /output/css/dx.material.purple.dark.css.br
+2022/04/18 13:05:51 gz /tmp/work/dist/css/dx.material.purple.dark.css -> /output/css/dx.material.purple.dark.css.gz
+2022/04/18 13:05:51 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.softblue.compact.min.css /tmp/work/dist/css/dx.softblue.compact.css
+2022/04/18 13:05:51 sri /tmp/work/dist/css/dx.material.purple.light.compact.min.css -> /output/css/dx.material.purple.light.compact.min.css.sri
+2022/04/18 13:05:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.purple.light.compact.min.css.br /tmp/work/dist/css/dx.material.purple.light.compact.min.css
+2022/04/18 13:05:52 sri /tmp/work/dist/css/dx.material.purple.light.min.css -> /output/css/dx.material.purple.light.min.css.sri
+2022/04/18 13:05:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.purple.light.min.css.br /tmp/work/dist/css/dx.material.purple.light.min.css
+2022/04/18 13:05:52 sri /tmp/work/dist/css/dx.material.teal.dark.compact.min.css -> /output/css/dx.material.teal.dark.compact.min.css.sri
+2022/04/18 13:05:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.teal.dark.compact.min.css.br /tmp/work/dist/css/dx.material.teal.dark.compact.min.css
+2022/04/18 13:05:52 sri /tmp/work/dist/css/dx.material.teal.dark.min.css -> /output/css/dx.material.teal.dark.min.css.sri
+2022/04/18 13:05:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.teal.dark.min.css.br /tmp/work/dist/css/dx.material.teal.dark.min.css
+2022/04/18 13:05:53 sri /tmp/work/dist/css/dx.material.teal.light.compact.min.css -> /output/css/dx.material.teal.light.compact.min.css.sri
+2022/04/18 13:05:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.teal.light.compact.min.css.br /tmp/work/dist/css/dx.material.teal.light.compact.min.css
+2022/04/18 13:05:53 sri /tmp/work/dist/css/dx.material.teal.light.min.css -> /output/css/dx.material.teal.light.min.css.sri
+2022/04/18 13:05:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.teal.light.min.css.br /tmp/work/dist/css/dx.material.teal.light.min.css
+2022/04/18 13:05:54 sri /tmp/work/dist/css/dx.softblue.compact.min.css -> /output/css/dx.softblue.compact.min.css.sri
+2022/04/18 13:05:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.softblue.compact.min.css.br /tmp/work/dist/css/dx.softblue.compact.min.css
+2022/04/18 13:05:55 br /tmp/work/dist/css/dx.material.purple.light.compact.min.css -> /output/css/dx.material.purple.light.compact.min.css.br
+2022/04/18 13:05:55 gz /tmp/work/dist/css/dx.material.purple.light.compact.min.css -> /output/css/dx.material.purple.light.compact.min.css.gz
+2022/04/18 13:05:55 sri /tmp/work/dist/css/dx.material.purple.light.compact.css -> /output/css/dx.material.purple.light.compact.css.sri
+2022/04/18 13:05:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.purple.light.compact.css.br /tmp/work/dist/css/dx.material.purple.light.compact.css
+2022/04/18 13:05:56 br /tmp/work/dist/css/dx.material.purple.light.min.css -> /output/css/dx.material.purple.light.min.css.br
+2022/04/18 13:05:56 gz /tmp/work/dist/css/dx.material.purple.light.min.css -> /output/css/dx.material.purple.light.min.css.gz
+2022/04/18 13:05:56 sri /tmp/work/dist/css/dx.material.purple.light.css -> /output/css/dx.material.purple.light.css.sri
+2022/04/18 13:05:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.purple.light.css.br /tmp/work/dist/css/dx.material.purple.light.css
+2022/04/18 13:05:56 br /tmp/work/dist/css/dx.material.teal.dark.compact.min.css -> /output/css/dx.material.teal.dark.compact.min.css.br
+2022/04/18 13:05:56 br /tmp/work/dist/css/dx.material.teal.dark.min.css -> /output/css/dx.material.teal.dark.min.css.br
+2022/04/18 13:05:57 br /tmp/work/dist/css/dx.softblue.compact.min.css -> /output/css/dx.softblue.compact.min.css.br
+2022/04/18 13:05:57 gz /tmp/work/dist/css/dx.material.teal.dark.min.css -> /output/css/dx.material.teal.dark.min.css.gz
+2022/04/18 13:05:57 sri /tmp/work/dist/css/dx.material.teal.dark.css -> /output/css/dx.material.teal.dark.css.sri
+2022/04/18 13:05:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.teal.dark.css.br /tmp/work/dist/css/dx.material.teal.dark.css
+2022/04/18 13:05:57 gz /tmp/work/dist/css/dx.material.teal.dark.compact.min.css -> /output/css/dx.material.teal.dark.compact.min.css.gz
+2022/04/18 13:05:57 sri /tmp/work/dist/css/dx.material.teal.dark.compact.css -> /output/css/dx.material.teal.dark.compact.css.sri
+2022/04/18 13:05:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.teal.dark.compact.css.br /tmp/work/dist/css/dx.material.teal.dark.compact.css
+2022/04/18 13:05:57 gz /tmp/work/dist/css/dx.softblue.compact.min.css -> /output/css/dx.softblue.compact.min.css.gz
+2022/04/18 13:05:57 sri /tmp/work/dist/css/dx.softblue.compact.css -> /output/css/dx.softblue.compact.css.sri
+2022/04/18 13:05:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.softblue.compact.css.br /tmp/work/dist/css/dx.softblue.compact.css
+2022/04/18 13:05:57 br /tmp/work/dist/css/dx.material.teal.light.compact.min.css -> /output/css/dx.material.teal.light.compact.min.css.br
+2022/04/18 13:05:57 gz /tmp/work/dist/css/dx.material.teal.light.compact.min.css -> /output/css/dx.material.teal.light.compact.min.css.gz
+2022/04/18 13:05:57 sri /tmp/work/dist/css/dx.material.teal.light.compact.css -> /output/css/dx.material.teal.light.compact.css.sri
+2022/04/18 13:05:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.teal.light.compact.css.br /tmp/work/dist/css/dx.material.teal.light.compact.css
+2022/04/18 13:05:57 br /tmp/work/dist/css/dx.material.teal.light.min.css -> /output/css/dx.material.teal.light.min.css.br
+2022/04/18 13:05:57 gz /tmp/work/dist/css/dx.material.teal.light.min.css -> /output/css/dx.material.teal.light.min.css.gz
+2022/04/18 13:05:57 sri /tmp/work/dist/css/dx.material.teal.light.css -> /output/css/dx.material.teal.light.css.sri
+2022/04/18 13:05:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.material.teal.light.css.br /tmp/work/dist/css/dx.material.teal.light.css
+2022/04/18 13:05:59 br /tmp/work/dist/css/dx.material.purple.light.compact.css -> /output/css/dx.material.purple.light.compact.css.br
+2022/04/18 13:06:00 gz /tmp/work/dist/css/dx.material.purple.light.compact.css -> /output/css/dx.material.purple.light.compact.css.gz
+2022/04/18 13:06:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/dx.softblue.min.css /tmp/work/dist/css/dx.softblue.css
+2022/04/18 13:06:00 br /tmp/work/dist/css/dx.softblue.compact.css -> /output/css/dx.softblue.compact.css.br
+2022/04/18 13:06:00 gz /tmp/work/dist/css/dx.softblue.compact.css -> /output/css/dx.softblue.compact.css.gz
+2022/04/18 13:06:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/fonts/Roboto-300.ttf.br /tmp/work/dist/css/fonts/Roboto-300.ttf
+2022/04/18 13:06:00 br /tmp/work/dist/css/dx.material.purple.light.css -> /output/css/dx.material.purple.light.css.br
+2022/04/18 13:06:00 gz /tmp/work/dist/css/dx.material.purple.light.css -> /output/css/dx.material.purple.light.css.gz
+2022/04/18 13:06:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/fonts/Roboto-300.woff.br /tmp/work/dist/css/fonts/Roboto-300.woff
+2022/04/18 13:06:01 br /tmp/work/dist/css/dx.material.teal.dark.css -> /output/css/dx.material.teal.dark.css.br
+2022/04/18 13:06:01 br /tmp/work/dist/css/dx.material.teal.dark.compact.css -> /output/css/dx.material.teal.dark.compact.css.br
+2022/04/18 13:06:01 gz /tmp/work/dist/css/dx.material.teal.dark.css -> /output/css/dx.material.teal.dark.css.gz
+2022/04/18 13:06:01 copy /tmp/work/dist/css/fonts/Roboto-300.woff2 -> /output/css/fonts/Roboto-300.woff2
+2022/04/18 13:06:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/fonts/Roboto-400.ttf.br /tmp/work/dist/css/fonts/Roboto-400.ttf
+2022/04/18 13:06:01 br /tmp/work/dist/css/fonts/Roboto-300.woff -> /output/css/fonts/Roboto-300.woff.br
+2022/04/18 13:06:01 gz /tmp/work/dist/css/fonts/Roboto-300.woff -> /output/css/fonts/Roboto-300.woff.gz
+2022/04/18 13:06:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/fonts/Roboto-400.woff.br /tmp/work/dist/css/fonts/Roboto-400.woff
+2022/04/18 13:06:01 gz /tmp/work/dist/css/dx.material.teal.dark.compact.css -> /output/css/dx.material.teal.dark.compact.css.gz
+2022/04/18 13:06:01 copy /tmp/work/dist/css/fonts/Roboto-400.woff2 -> /output/css/fonts/Roboto-400.woff2
+2022/04/18 13:06:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/fonts/Roboto-500.ttf.br /tmp/work/dist/css/fonts/Roboto-500.ttf
+2022/04/18 13:06:01 br /tmp/work/dist/css/fonts/Roboto-300.ttf -> /output/css/fonts/Roboto-300.ttf.br
+2022/04/18 13:06:01 gz /tmp/work/dist/css/fonts/Roboto-300.ttf -> /output/css/fonts/Roboto-300.ttf.gz
+2022/04/18 13:06:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/fonts/Roboto-500.woff.br /tmp/work/dist/css/fonts/Roboto-500.woff
+2022/04/18 13:06:01 br /tmp/work/dist/css/fonts/Roboto-500.woff -> /output/css/fonts/Roboto-500.woff.br
+2022/04/18 13:06:01 gz /tmp/work/dist/css/fonts/Roboto-500.woff -> /output/css/fonts/Roboto-500.woff.gz
+2022/04/18 13:06:01 copy /tmp/work/dist/css/fonts/Roboto-500.woff2 -> /output/css/fonts/Roboto-500.woff2
+2022/04/18 13:06:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/fonts/Roboto-700.ttf.br /tmp/work/dist/css/fonts/Roboto-700.ttf
+2022/04/18 13:06:02 br /tmp/work/dist/css/dx.material.teal.light.compact.css -> /output/css/dx.material.teal.light.compact.css.br
+2022/04/18 13:06:02 gz /tmp/work/dist/css/dx.material.teal.light.compact.css -> /output/css/dx.material.teal.light.compact.css.gz
+2022/04/18 13:06:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/fonts/Roboto-700.woff.br /tmp/work/dist/css/fonts/Roboto-700.woff
+2022/04/18 13:06:02 br /tmp/work/dist/css/dx.material.teal.light.css -> /output/css/dx.material.teal.light.css.br
+2022/04/18 13:06:02 br /tmp/work/dist/css/fonts/Roboto-400.woff -> /output/css/fonts/Roboto-400.woff.br
+2022/04/18 13:06:02 gz /tmp/work/dist/css/fonts/Roboto-400.woff -> /output/css/fonts/Roboto-400.woff.gz
+2022/04/18 13:06:02 copy /tmp/work/dist/css/fonts/Roboto-700.woff2 -> /output/css/fonts/Roboto-700.woff2
+2022/04/18 13:06:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/icons/dxicons.ttf.br /tmp/work/dist/css/icons/dxicons.ttf
+2022/04/18 13:06:02 br /tmp/work/dist/css/fonts/Roboto-700.woff -> /output/css/fonts/Roboto-700.woff.br
+2022/04/18 13:06:02 gz /tmp/work/dist/css/fonts/Roboto-700.woff -> /output/css/fonts/Roboto-700.woff.gz
+2022/04/18 13:06:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/icons/dxicons.woff.br /tmp/work/dist/css/icons/dxicons.woff
+2022/04/18 13:06:02 gz /tmp/work/dist/css/dx.material.teal.light.css -> /output/css/dx.material.teal.light.css.gz
+2022/04/18 13:06:02 sri /tmp/work/dist/css/dx.softblue.min.css -> /output/css/dx.softblue.min.css.sri
+2022/04/18 13:06:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.softblue.min.css.br /tmp/work/dist/css/dx.softblue.min.css
+2022/04/18 13:06:02 copy /tmp/work/dist/css/icons/dxicons.woff2 -> /output/css/icons/dxicons.woff2
+2022/04/18 13:06:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/icons/dxiconsmaterial.ttf.br /tmp/work/dist/css/icons/dxiconsmaterial.ttf
+2022/04/18 13:06:02 br /tmp/work/dist/css/icons/dxicons.woff -> /output/css/icons/dxicons.woff.br
+2022/04/18 13:06:02 gz /tmp/work/dist/css/icons/dxicons.woff -> /output/css/icons/dxicons.woff.gz
+2022/04/18 13:06:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/icons/dxiconsmaterial.woff.br /tmp/work/dist/css/icons/dxiconsmaterial.woff
+2022/04/18 13:06:02 br /tmp/work/dist/css/icons/dxicons.ttf -> /output/css/icons/dxicons.ttf.br
+2022/04/18 13:06:02 gz /tmp/work/dist/css/icons/dxicons.ttf -> /output/css/icons/dxicons.ttf.gz
+2022/04/18 13:06:02 copy /tmp/work/dist/css/icons/dxiconsmaterial.woff2 -> /output/css/icons/dxiconsmaterial.woff2
+2022/04/18 13:06:02 br /tmp/work/dist/css/icons/dxiconsmaterial.ttf -> /output/css/icons/dxiconsmaterial.ttf.br
+2022/04/18 13:06:02 gz /tmp/work/dist/css/icons/dxiconsmaterial.ttf -> /output/css/icons/dxiconsmaterial.ttf.gz
+2022/04/18 13:06:02 br /tmp/work/dist/css/icons/dxiconsmaterial.woff -> /output/css/icons/dxiconsmaterial.woff.br
+2022/04/18 13:06:02 gz /tmp/work/dist/css/icons/dxiconsmaterial.woff -> /output/css/icons/dxiconsmaterial.woff.gz
+2022/04/18 13:06:02 br /tmp/work/dist/css/fonts/Roboto-400.ttf -> /output/css/fonts/Roboto-400.ttf.br
+2022/04/18 13:06:02 gz /tmp/work/dist/css/fonts/Roboto-400.ttf -> /output/css/fonts/Roboto-400.ttf.gz
+2022/04/18 13:06:02 br /tmp/work/dist/css/fonts/Roboto-500.ttf -> /output/css/fonts/Roboto-500.ttf.br
+2022/04/18 13:06:02 gz /tmp/work/dist/css/fonts/Roboto-500.ttf -> /output/css/fonts/Roboto-500.ttf.gz
+2022/04/18 13:06:02 br /tmp/work/dist/css/fonts/Roboto-700.ttf -> /output/css/fonts/Roboto-700.ttf.br
+2022/04/18 13:06:02 gz /tmp/work/dist/css/fonts/Roboto-700.ttf -> /output/css/fonts/Roboto-700.ttf.gz
+2022/04/18 13:06:04 br /tmp/work/dist/css/dx.softblue.min.css -> /output/css/dx.softblue.min.css.br
+2022/04/18 13:06:04 gz /tmp/work/dist/css/dx.softblue.min.css -> /output/css/dx.softblue.min.css.gz
+2022/04/18 13:06:04 sri /tmp/work/dist/css/dx.softblue.css -> /output/css/dx.softblue.css.sri
+2022/04/18 13:06:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/dx.softblue.css.br /tmp/work/dist/css/dx.softblue.css
+2022/04/18 13:06:06 br /tmp/work/dist/css/dx.softblue.css -> /output/css/dx.softblue.css.br
+2022/04/18 13:06:06 gz /tmp/work/dist/css/dx.softblue.css -> /output/css/dx.softblue.css.gz
+2022/04/18 13:06:08 sri /tmp/work/dist/js/dx.all.min.js -> /output/js/dx.all.min.js.sri
+2022/04/18 13:06:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/dx.all.min.js.br /tmp/work/dist/js/dx.all.min.js
+2022/04/18 13:06:21 br /tmp/work/dist/js/dx.all.min.js -> /output/js/dx.all.min.js.br
+2022/04/18 13:06:21 gz /tmp/work/dist/js/dx.all.min.js -> /output/js/dx.all.min.js.gz
+2022/04/18 13:06:21 sri /tmp/work/dist/js/dx.all.js -> /output/js/dx.all.js.sri
+2022/04/18 13:06:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/dx.all.js.br /tmp/work/dist/js/dx.all.js
+2022/04/18 13:06:33 br /tmp/work/dist/js/dx.all.js -> /output/js/dx.all.js.br
+2022/04/18 13:06:34 gz /tmp/work/dist/js/dx.all.js -> /output/js/dx.all.js.gz
+2022/04/18 13:06:34 processed devextreme
