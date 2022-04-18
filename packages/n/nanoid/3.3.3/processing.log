@@ -1,0 +1,74 @@
+2022/04/18 17:04:50 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/04/18 17:04:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/async/index.native.min.js /tmp/work/async/index.native.js
+2022/04/18 17:04:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/index.min.js /tmp/work/index.js
+2022/04/18 17:04:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/index.browser.min.js /tmp/work/index.browser.js
+2022/04/18 17:04:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/async/index.browser.min.js /tmp/work/async/index.browser.js
+2022/04/18 17:04:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/async/index.min.js /tmp/work/async/index.js
+2022/04/18 17:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.d.ts.br /tmp/work/index.d.ts
+2022/04/18 17:04:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/nanoid.min.js /tmp/work/nanoid.js
+2022/04/18 17:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/async/index.d.ts.br /tmp/work/async/index.d.ts
+2022/04/18 17:04:50 br /tmp/work/async/index.d.ts -> /output/async/index.d.ts.br
+2022/04/18 17:04:50 gz /tmp/work/async/index.d.ts -> /output/async/index.d.ts.gz
+2022/04/18 17:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/non-secure/index.d.ts.br /tmp/work/non-secure/index.d.ts
+2022/04/18 17:04:50 br /tmp/work/index.d.ts -> /output/index.d.ts.br
+2022/04/18 17:04:50 gz /tmp/work/index.d.ts -> /output/index.d.ts.gz
+2022/04/18 17:04:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/non-secure/index.min.js /tmp/work/non-secure/index.js
+2022/04/18 17:04:50 br /tmp/work/non-secure/index.d.ts -> /output/non-secure/index.d.ts.br
+2022/04/18 17:04:50 gz /tmp/work/non-secure/index.d.ts -> /output/non-secure/index.d.ts.gz
+2022/04/18 17:04:50 sri /tmp/work/async/index.min.js -> /output/async/index.min.js.sri
+2022/04/18 17:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/async/index.min.js.br /tmp/work/async/index.min.js
+2022/04/18 17:04:50 br /tmp/work/async/index.min.js -> /output/async/index.min.js.br
+2022/04/18 17:04:50 gz /tmp/work/async/index.min.js -> /output/async/index.min.js.gz
+2022/04/18 17:04:50 sri /tmp/work/async/index.js -> /output/async/index.js.sri
+2022/04/18 17:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/async/index.js.br /tmp/work/async/index.js
+2022/04/18 17:04:50 br /tmp/work/async/index.js -> /output/async/index.js.br
+2022/04/18 17:04:50 gz /tmp/work/async/index.js -> /output/async/index.js.gz
+2022/04/18 17:04:50 sri /tmp/work/nanoid.min.js -> /output/nanoid.min.js.sri
+2022/04/18 17:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nanoid.min.js.br /tmp/work/nanoid.min.js
+2022/04/18 17:04:50 br /tmp/work/nanoid.min.js -> /output/nanoid.min.js.br
+2022/04/18 17:04:50 gz /tmp/work/nanoid.min.js -> /output/nanoid.min.js.gz
+2022/04/18 17:04:50 sri /tmp/work/nanoid.js -> /output/nanoid.js.sri
+2022/04/18 17:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nanoid.js.br /tmp/work/nanoid.js
+2022/04/18 17:04:50 br /tmp/work/nanoid.js -> /output/nanoid.js.br
+2022/04/18 17:04:50 gz /tmp/work/nanoid.js -> /output/nanoid.js.gz
+2022/04/18 17:04:50 sri /tmp/work/index.browser.min.js -> /output/index.browser.min.js.sri
+2022/04/18 17:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.browser.min.js.br /tmp/work/index.browser.min.js
+2022/04/18 17:04:50 br /tmp/work/index.browser.min.js -> /output/index.browser.min.js.br
+2022/04/18 17:04:50 gz /tmp/work/index.browser.min.js -> /output/index.browser.min.js.gz
+2022/04/18 17:04:50 sri /tmp/work/index.browser.js -> /output/index.browser.js.sri
+2022/04/18 17:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.browser.js.br /tmp/work/index.browser.js
+2022/04/18 17:04:50 sri /tmp/work/non-secure/index.min.js -> /output/non-secure/index.min.js.sri
+2022/04/18 17:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/non-secure/index.min.js.br /tmp/work/non-secure/index.min.js
+2022/04/18 17:04:50 sri /tmp/work/async/index.native.min.js -> /output/async/index.native.min.js.sri
+2022/04/18 17:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/async/index.native.min.js.br /tmp/work/async/index.native.min.js
+2022/04/18 17:04:50 sri /tmp/work/async/index.browser.min.js -> /output/async/index.browser.min.js.sri
+2022/04/18 17:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/async/index.browser.min.js.br /tmp/work/async/index.browser.min.js
+2022/04/18 17:04:50 br /tmp/work/non-secure/index.min.js -> /output/non-secure/index.min.js.br
+2022/04/18 17:04:50 gz /tmp/work/non-secure/index.min.js -> /output/non-secure/index.min.js.gz
+2022/04/18 17:04:50 sri /tmp/work/non-secure/index.js -> /output/non-secure/index.js.sri
+2022/04/18 17:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/non-secure/index.js.br /tmp/work/non-secure/index.js
+2022/04/18 17:04:50 br /tmp/work/index.browser.js -> /output/index.browser.js.br
+2022/04/18 17:04:50 gz /tmp/work/index.browser.js -> /output/index.browser.js.gz
+2022/04/18 17:04:50 br /tmp/work/async/index.native.min.js -> /output/async/index.native.min.js.br
+2022/04/18 17:04:50 gz /tmp/work/async/index.native.min.js -> /output/async/index.native.min.js.gz
+2022/04/18 17:04:50 sri /tmp/work/async/index.native.js -> /output/async/index.native.js.sri
+2022/04/18 17:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/async/index.native.js.br /tmp/work/async/index.native.js
+2022/04/18 17:04:50 br /tmp/work/async/index.browser.min.js -> /output/async/index.browser.min.js.br
+2022/04/18 17:04:50 br /tmp/work/non-secure/index.js -> /output/non-secure/index.js.br
+2022/04/18 17:04:50 gz /tmp/work/async/index.browser.min.js -> /output/async/index.browser.min.js.gz
+2022/04/18 17:04:50 sri /tmp/work/async/index.browser.js -> /output/async/index.browser.js.sri
+2022/04/18 17:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/async/index.browser.js.br /tmp/work/async/index.browser.js
+2022/04/18 17:04:50 gz /tmp/work/non-secure/index.js -> /output/non-secure/index.js.gz
+2022/04/18 17:04:50 sri /tmp/work/index.min.js -> /output/index.min.js.sri
+2022/04/18 17:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/index.min.js
+2022/04/18 17:04:50 br /tmp/work/async/index.native.js -> /output/async/index.native.js.br
+2022/04/18 17:04:50 gz /tmp/work/async/index.native.js -> /output/async/index.native.js.gz
+2022/04/18 17:04:50 br /tmp/work/async/index.browser.js -> /output/async/index.browser.js.br
+2022/04/18 17:04:50 br /tmp/work/index.min.js -> /output/index.min.js.br
+2022/04/18 17:04:50 gz /tmp/work/async/index.browser.js -> /output/async/index.browser.js.gz
+2022/04/18 17:04:50 gz /tmp/work/index.min.js -> /output/index.min.js.gz
+2022/04/18 17:04:50 sri /tmp/work/index.js -> /output/index.js.sri
+2022/04/18 17:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/index.js
+2022/04/18 17:04:50 br /tmp/work/index.js -> /output/index.js.br
+2022/04/18 17:04:50 gz /tmp/work/index.js -> /output/index.js.gz
+2022/04/18 17:04:50 processed nanoid
