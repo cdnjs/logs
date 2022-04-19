@@ -1,0 +1,329 @@
+2022/04/19 11:37:43 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/colors/package.json.br /tmp/work/colors/package.json
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/observe/package.json.br /tmp/work/observe/package.json
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/server/package.json.br /tmp/work/server/package.json
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/package.json.br /tmp/work/package.json
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/package.json.br /tmp/work/css/package.json
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sheets/package.json.br /tmp/work/sheets/package.json
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim/package.json.br /tmp/work/shim/package.json
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim/server/package.json.br /tmp/work/shim/server/package.json
+2022/04/19 11:37:43 br /tmp/work/colors/package.json -> /output/colors/package.json.br
+2022/04/19 11:37:43 br /tmp/work/server/package.json -> /output/server/package.json.br
+2022/04/19 11:37:43 gz /tmp/work/colors/package.json -> /output/colors/package.json.gz
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/style/package.json.br /tmp/work/style/package.json
+2022/04/19 11:37:43 br /tmp/work/css/package.json -> /output/css/package.json.br
+2022/04/19 11:37:43 br /tmp/work/observe/package.json -> /output/observe/package.json.br
+2022/04/19 11:37:43 br /tmp/work/sheets/package.json -> /output/sheets/package.json.br
+2022/04/19 11:37:43 gz /tmp/work/server/package.json -> /output/server/package.json.gz
+2022/04/19 11:37:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/colors/colors.esnext.min.js /tmp/work/colors/colors.esnext.js
+2022/04/19 11:37:43 br /tmp/work/shim/package.json -> /output/shim/package.json.br
+2022/04/19 11:37:43 gz /tmp/work/css/package.json -> /output/css/package.json.gz
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/colors/colors.esnext.js.map.br /tmp/work/colors/colors.esnext.js.map
+2022/04/19 11:37:43 br /tmp/work/shim/server/package.json -> /output/shim/server/package.json.br
+2022/04/19 11:37:43 gz /tmp/work/shim/package.json -> /output/shim/package.json.gz
+2022/04/19 11:37:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/colors/colors.min.js /tmp/work/colors/colors.js
+2022/04/19 11:37:43 gz /tmp/work/sheets/package.json -> /output/sheets/package.json.gz
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/colors/colors.js.map.br /tmp/work/colors/colors.js.map
+2022/04/19 11:37:43 gz /tmp/work/observe/package.json -> /output/observe/package.json.gz
+2022/04/19 11:37:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/colors/colors.umd.min.js /tmp/work/colors/colors.umd.js
+2022/04/19 11:37:43 gz /tmp/work/shim/server/package.json -> /output/shim/server/package.json.gz
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/colors/colors.umd.js.map.br /tmp/work/colors/colors.umd.js.map
+2022/04/19 11:37:43 br /tmp/work/style/package.json -> /output/style/package.json.br
+2022/04/19 11:37:43 gz /tmp/work/style/package.json -> /output/style/package.json.gz
+2022/04/19 11:37:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/css/css.esnext.min.js /tmp/work/css/css.esnext.js
+2022/04/19 11:37:43 br /tmp/work/package.json -> /output/package.json.br
+2022/04/19 11:37:43 gz /tmp/work/package.json -> /output/package.json.gz
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/css.esnext.js.map.br /tmp/work/css/css.esnext.js.map
+2022/04/19 11:37:43 br /tmp/work/colors/colors.umd.js.map -> /output/colors/colors.umd.js.map.br
+2022/04/19 11:37:43 gz /tmp/work/colors/colors.umd.js.map -> /output/colors/colors.umd.js.map.gz
+2022/04/19 11:37:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/css/css.min.js /tmp/work/css/css.js
+2022/04/19 11:37:43 br /tmp/work/colors/colors.esnext.js.map -> /output/colors/colors.esnext.js.map.br
+2022/04/19 11:37:43 gz /tmp/work/colors/colors.esnext.js.map -> /output/colors/colors.esnext.js.map.gz
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/css.js.map.br /tmp/work/css/css.js.map
+2022/04/19 11:37:43 br /tmp/work/colors/colors.js.map -> /output/colors/colors.js.map.br
+2022/04/19 11:37:43 gz /tmp/work/colors/colors.js.map -> /output/colors/colors.js.map.gz
+2022/04/19 11:37:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/css/css.umd.min.js /tmp/work/css/css.umd.js
+2022/04/19 11:37:43 br /tmp/work/css/css.esnext.js.map -> /output/css/css.esnext.js.map.br
+2022/04/19 11:37:43 gz /tmp/work/css/css.esnext.js.map -> /output/css/css.esnext.js.map.gz
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/css.umd.js.map.br /tmp/work/css/css.umd.js.map
+2022/04/19 11:37:43 br /tmp/work/css/css.js.map -> /output/css/css.js.map.br
+2022/04/19 11:37:43 gz /tmp/work/css/css.js.map -> /output/css/css.js.map.gz
+2022/04/19 11:37:43 br /tmp/work/css/css.umd.js.map -> /output/css/css.umd.js.map.br
+2022/04/19 11:37:43 gz /tmp/work/css/css.umd.js.map -> /output/css/css.umd.js.map.gz
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/observe/observe.esnext.js.map.br /tmp/work/observe/observe.esnext.js.map
+2022/04/19 11:37:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/observe/observe.esnext.min.js /tmp/work/observe/observe.esnext.js
+2022/04/19 11:37:43 br /tmp/work/observe/observe.esnext.js.map -> /output/observe/observe.esnext.js.map.br
+2022/04/19 11:37:43 gz /tmp/work/observe/observe.esnext.js.map -> /output/observe/observe.esnext.js.map.gz
+2022/04/19 11:37:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/observe/observe.min.js /tmp/work/observe/observe.js
+2022/04/19 11:37:43 sri /tmp/work/colors/colors.esnext.min.js -> /output/colors/colors.esnext.min.js.sri
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/colors/colors.esnext.min.js.br /tmp/work/colors/colors.esnext.min.js
+2022/04/19 11:37:43 sri /tmp/work/colors/colors.min.js -> /output/colors/colors.min.js.sri
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/colors/colors.min.js.br /tmp/work/colors/colors.min.js
+2022/04/19 11:37:43 br /tmp/work/colors/colors.esnext.min.js -> /output/colors/colors.esnext.min.js.br
+2022/04/19 11:37:43 gz /tmp/work/colors/colors.esnext.min.js -> /output/colors/colors.esnext.min.js.gz
+2022/04/19 11:37:43 sri /tmp/work/colors/colors.esnext.js -> /output/colors/colors.esnext.js.sri
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/colors/colors.esnext.js.br /tmp/work/colors/colors.esnext.js
+2022/04/19 11:37:43 br /tmp/work/colors/colors.min.js -> /output/colors/colors.min.js.br
+2022/04/19 11:37:43 gz /tmp/work/colors/colors.min.js -> /output/colors/colors.min.js.gz
+2022/04/19 11:37:43 sri /tmp/work/colors/colors.js -> /output/colors/colors.js.sri
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/colors/colors.js.br /tmp/work/colors/colors.js
+2022/04/19 11:37:43 br /tmp/work/colors/colors.esnext.js -> /output/colors/colors.esnext.js.br
+2022/04/19 11:37:43 gz /tmp/work/colors/colors.esnext.js -> /output/colors/colors.esnext.js.gz
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/observe/observe.js.map.br /tmp/work/observe/observe.js.map
+2022/04/19 11:37:43 br /tmp/work/colors/colors.js -> /output/colors/colors.js.br
+2022/04/19 11:37:43 gz /tmp/work/colors/colors.js -> /output/colors/colors.js.gz
+2022/04/19 11:37:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/observe/observe.umd.min.js /tmp/work/observe/observe.umd.js
+2022/04/19 11:37:43 br /tmp/work/observe/observe.js.map -> /output/observe/observe.js.map.br
+2022/04/19 11:37:43 gz /tmp/work/observe/observe.js.map -> /output/observe/observe.js.map.gz
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/observe/observe.umd.js.map.br /tmp/work/observe/observe.umd.js.map
+2022/04/19 11:37:43 sri /tmp/work/colors/colors.umd.min.js -> /output/colors/colors.umd.min.js.sri
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/colors/colors.umd.min.js.br /tmp/work/colors/colors.umd.min.js
+2022/04/19 11:37:43 br /tmp/work/observe/observe.umd.js.map -> /output/observe/observe.umd.js.map.br
+2022/04/19 11:37:43 gz /tmp/work/observe/observe.umd.js.map -> /output/observe/observe.umd.js.map.gz
+2022/04/19 11:37:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/server/server.esnext.min.js /tmp/work/server/server.esnext.js
+2022/04/19 11:37:43 br /tmp/work/colors/colors.umd.min.js -> /output/colors/colors.umd.min.js.br
+2022/04/19 11:37:43 gz /tmp/work/colors/colors.umd.min.js -> /output/colors/colors.umd.min.js.gz
+2022/04/19 11:37:43 sri /tmp/work/colors/colors.umd.js -> /output/colors/colors.umd.js.sri
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/colors/colors.umd.js.br /tmp/work/colors/colors.umd.js
+2022/04/19 11:37:43 br /tmp/work/colors/colors.umd.js -> /output/colors/colors.umd.js.br
+2022/04/19 11:37:43 gz /tmp/work/colors/colors.umd.js -> /output/colors/colors.umd.js.gz
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/server/server.esnext.js.map.br /tmp/work/server/server.esnext.js.map
+2022/04/19 11:37:43 br /tmp/work/server/server.esnext.js.map -> /output/server/server.esnext.js.map.br
+2022/04/19 11:37:43 gz /tmp/work/server/server.esnext.js.map -> /output/server/server.esnext.js.map.gz
+2022/04/19 11:37:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/server/server.min.js /tmp/work/server/server.js
+2022/04/19 11:37:43 sri /tmp/work/css/css.esnext.min.js -> /output/css/css.esnext.min.js.sri
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/css.esnext.min.js.br /tmp/work/css/css.esnext.min.js
+2022/04/19 11:37:43 br /tmp/work/css/css.esnext.min.js -> /output/css/css.esnext.min.js.br
+2022/04/19 11:37:43 gz /tmp/work/css/css.esnext.min.js -> /output/css/css.esnext.min.js.gz
+2022/04/19 11:37:43 sri /tmp/work/css/css.esnext.js -> /output/css/css.esnext.js.sri
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/css.esnext.js.br /tmp/work/css/css.esnext.js
+2022/04/19 11:37:43 br /tmp/work/css/css.esnext.js -> /output/css/css.esnext.js.br
+2022/04/19 11:37:43 gz /tmp/work/css/css.esnext.js -> /output/css/css.esnext.js.gz
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/server/server.js.map.br /tmp/work/server/server.js.map
+2022/04/19 11:37:43 sri /tmp/work/observe/observe.esnext.min.js -> /output/observe/observe.esnext.min.js.sri
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/observe/observe.esnext.min.js.br /tmp/work/observe/observe.esnext.min.js
+2022/04/19 11:37:43 sri /tmp/work/css/css.min.js -> /output/css/css.min.js.sri
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/css.min.js.br /tmp/work/css/css.min.js
+2022/04/19 11:37:43 br /tmp/work/observe/observe.esnext.min.js -> /output/observe/observe.esnext.min.js.br
+2022/04/19 11:37:43 gz /tmp/work/observe/observe.esnext.min.js -> /output/observe/observe.esnext.min.js.gz
+2022/04/19 11:37:43 sri /tmp/work/observe/observe.esnext.js -> /output/observe/observe.esnext.js.sri
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/observe/observe.esnext.js.br /tmp/work/observe/observe.esnext.js
+2022/04/19 11:37:43 br /tmp/work/server/server.js.map -> /output/server/server.js.map.br
+2022/04/19 11:37:43 gz /tmp/work/server/server.js.map -> /output/server/server.js.map.gz
+2022/04/19 11:37:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sheets/sheets.esnext.min.js /tmp/work/sheets/sheets.esnext.js
+2022/04/19 11:37:43 br /tmp/work/css/css.min.js -> /output/css/css.min.js.br
+2022/04/19 11:37:43 gz /tmp/work/css/css.min.js -> /output/css/css.min.js.gz
+2022/04/19 11:37:43 sri /tmp/work/css/css.js -> /output/css/css.js.sri
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/css.js.br /tmp/work/css/css.js
+2022/04/19 11:37:43 br /tmp/work/observe/observe.esnext.js -> /output/observe/observe.esnext.js.br
+2022/04/19 11:37:43 gz /tmp/work/observe/observe.esnext.js -> /output/observe/observe.esnext.js.gz
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sheets/sheets.esnext.js.map.br /tmp/work/sheets/sheets.esnext.js.map
+2022/04/19 11:37:43 sri /tmp/work/observe/observe.min.js -> /output/observe/observe.min.js.sri
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/observe/observe.min.js.br /tmp/work/observe/observe.min.js
+2022/04/19 11:37:43 br /tmp/work/css/css.js -> /output/css/css.js.br
+2022/04/19 11:37:43 gz /tmp/work/css/css.js -> /output/css/css.js.gz
+2022/04/19 11:37:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sheets/sheets.min.js /tmp/work/sheets/sheets.js
+2022/04/19 11:37:43 br /tmp/work/observe/observe.min.js -> /output/observe/observe.min.js.br
+2022/04/19 11:37:43 gz /tmp/work/observe/observe.min.js -> /output/observe/observe.min.js.gz
+2022/04/19 11:37:43 sri /tmp/work/observe/observe.js -> /output/observe/observe.js.sri
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/observe/observe.js.br /tmp/work/observe/observe.js
+2022/04/19 11:37:43 sri /tmp/work/css/css.umd.min.js -> /output/css/css.umd.min.js.sri
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/css.umd.min.js.br /tmp/work/css/css.umd.min.js
+2022/04/19 11:37:43 br /tmp/work/sheets/sheets.esnext.js.map -> /output/sheets/sheets.esnext.js.map.br
+2022/04/19 11:37:43 br /tmp/work/observe/observe.js -> /output/observe/observe.js.br
+2022/04/19 11:37:43 gz /tmp/work/observe/observe.js -> /output/observe/observe.js.gz
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sheets/sheets.js.map.br /tmp/work/sheets/sheets.js.map
+2022/04/19 11:37:43 gz /tmp/work/sheets/sheets.esnext.js.map -> /output/sheets/sheets.esnext.js.map.gz
+2022/04/19 11:37:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sheets/sheets.umd.min.js /tmp/work/sheets/sheets.umd.js
+2022/04/19 11:37:43 br /tmp/work/css/css.umd.min.js -> /output/css/css.umd.min.js.br
+2022/04/19 11:37:43 gz /tmp/work/css/css.umd.min.js -> /output/css/css.umd.min.js.gz
+2022/04/19 11:37:43 sri /tmp/work/css/css.umd.js -> /output/css/css.umd.js.sri
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/css.umd.js.br /tmp/work/css/css.umd.js
+2022/04/19 11:37:43 br /tmp/work/sheets/sheets.js.map -> /output/sheets/sheets.js.map.br
+2022/04/19 11:37:43 gz /tmp/work/sheets/sheets.js.map -> /output/sheets/sheets.js.map.gz
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sheets/sheets.umd.js.map.br /tmp/work/sheets/sheets.umd.js.map
+2022/04/19 11:37:43 br /tmp/work/css/css.umd.js -> /output/css/css.umd.js.br
+2022/04/19 11:37:43 gz /tmp/work/css/css.umd.js -> /output/css/css.umd.js.gz
+2022/04/19 11:37:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/shim/server/server.esnext.min.js /tmp/work/shim/server/server.esnext.js
+2022/04/19 11:37:43 br /tmp/work/sheets/sheets.umd.js.map -> /output/sheets/sheets.umd.js.map.br
+2022/04/19 11:37:43 gz /tmp/work/sheets/sheets.umd.js.map -> /output/sheets/sheets.umd.js.map.gz
+2022/04/19 11:37:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim/server/server.esnext.js.map.br /tmp/work/shim/server/server.esnext.js.map
+2022/04/19 11:37:43 br /tmp/work/shim/server/server.esnext.js.map -> /output/shim/server/server.esnext.js.map.br
+2022/04/19 11:37:44 gz /tmp/work/shim/server/server.esnext.js.map -> /output/shim/server/server.esnext.js.map.gz
+2022/04/19 11:37:44 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/shim/server/server.min.js /tmp/work/shim/server/server.js
+2022/04/19 11:37:44 sri /tmp/work/server/server.esnext.min.js -> /output/server/server.esnext.min.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/server/server.esnext.min.js.br /tmp/work/server/server.esnext.min.js
+2022/04/19 11:37:44 br /tmp/work/server/server.esnext.min.js -> /output/server/server.esnext.min.js.br
+2022/04/19 11:37:44 gz /tmp/work/server/server.esnext.min.js -> /output/server/server.esnext.min.js.gz
+2022/04/19 11:37:44 sri /tmp/work/server/server.esnext.js -> /output/server/server.esnext.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/server/server.esnext.js.br /tmp/work/server/server.esnext.js
+2022/04/19 11:37:44 br /tmp/work/server/server.esnext.js -> /output/server/server.esnext.js.br
+2022/04/19 11:37:44 gz /tmp/work/server/server.esnext.js -> /output/server/server.esnext.js.gz
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim/server/server.js.map.br /tmp/work/shim/server/server.js.map
+2022/04/19 11:37:44 br /tmp/work/shim/server/server.js.map -> /output/shim/server/server.js.map.br
+2022/04/19 11:37:44 gz /tmp/work/shim/server/server.js.map -> /output/shim/server/server.js.map.gz
+2022/04/19 11:37:44 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/shim/shim.esnext.min.js /tmp/work/shim/shim.esnext.js
+2022/04/19 11:37:44 sri /tmp/work/server/server.min.js -> /output/server/server.min.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/server/server.min.js.br /tmp/work/server/server.min.js
+2022/04/19 11:37:44 br /tmp/work/server/server.min.js -> /output/server/server.min.js.br
+2022/04/19 11:37:44 sri /tmp/work/observe/observe.umd.min.js -> /output/observe/observe.umd.min.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/observe/observe.umd.min.js.br /tmp/work/observe/observe.umd.min.js
+2022/04/19 11:37:44 gz /tmp/work/server/server.min.js -> /output/server/server.min.js.gz
+2022/04/19 11:37:44 sri /tmp/work/server/server.js -> /output/server/server.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/server/server.js.br /tmp/work/server/server.js
+2022/04/19 11:37:44 br /tmp/work/observe/observe.umd.min.js -> /output/observe/observe.umd.min.js.br
+2022/04/19 11:37:44 gz /tmp/work/observe/observe.umd.min.js -> /output/observe/observe.umd.min.js.gz
+2022/04/19 11:37:44 sri /tmp/work/observe/observe.umd.js -> /output/observe/observe.umd.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/observe/observe.umd.js.br /tmp/work/observe/observe.umd.js
+2022/04/19 11:37:44 br /tmp/work/server/server.js -> /output/server/server.js.br
+2022/04/19 11:37:44 gz /tmp/work/server/server.js -> /output/server/server.js.gz
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim/shim.esnext.js.map.br /tmp/work/shim/shim.esnext.js.map
+2022/04/19 11:37:44 br /tmp/work/observe/observe.umd.js -> /output/observe/observe.umd.js.br
+2022/04/19 11:37:44 gz /tmp/work/observe/observe.umd.js -> /output/observe/observe.umd.js.gz
+2022/04/19 11:37:44 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/shim/shim.min.js /tmp/work/shim/shim.js
+2022/04/19 11:37:44 br /tmp/work/shim/shim.esnext.js.map -> /output/shim/shim.esnext.js.map.br
+2022/04/19 11:37:44 gz /tmp/work/shim/shim.esnext.js.map -> /output/shim/shim.esnext.js.map.gz
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim/shim.js.map.br /tmp/work/shim/shim.js.map
+2022/04/19 11:37:44 br /tmp/work/shim/shim.js.map -> /output/shim/shim.js.map.br
+2022/04/19 11:37:44 gz /tmp/work/shim/shim.js.map -> /output/shim/shim.js.map.gz
+2022/04/19 11:37:44 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/shim/shim.umd.min.js /tmp/work/shim/shim.umd.js
+2022/04/19 11:37:44 sri /tmp/work/sheets/sheets.esnext.min.js -> /output/sheets/sheets.esnext.min.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sheets/sheets.esnext.min.js.br /tmp/work/sheets/sheets.esnext.min.js
+2022/04/19 11:37:44 br /tmp/work/sheets/sheets.esnext.min.js -> /output/sheets/sheets.esnext.min.js.br
+2022/04/19 11:37:44 gz /tmp/work/sheets/sheets.esnext.min.js -> /output/sheets/sheets.esnext.min.js.gz
+2022/04/19 11:37:44 sri /tmp/work/sheets/sheets.esnext.js -> /output/sheets/sheets.esnext.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sheets/sheets.esnext.js.br /tmp/work/sheets/sheets.esnext.js
+2022/04/19 11:37:44 br /tmp/work/sheets/sheets.esnext.js -> /output/sheets/sheets.esnext.js.br
+2022/04/19 11:37:44 gz /tmp/work/sheets/sheets.esnext.js -> /output/sheets/sheets.esnext.js.gz
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim/shim.umd.js.map.br /tmp/work/shim/shim.umd.js.map
+2022/04/19 11:37:44 sri /tmp/work/sheets/sheets.min.js -> /output/sheets/sheets.min.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sheets/sheets.min.js.br /tmp/work/sheets/sheets.min.js
+2022/04/19 11:37:44 br /tmp/work/shim/shim.umd.js.map -> /output/shim/shim.umd.js.map.br
+2022/04/19 11:37:44 gz /tmp/work/shim/shim.umd.js.map -> /output/shim/shim.umd.js.map.gz
+2022/04/19 11:37:44 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/style/style.esnext.min.js /tmp/work/style/style.esnext.js
+2022/04/19 11:37:44 br /tmp/work/sheets/sheets.min.js -> /output/sheets/sheets.min.js.br
+2022/04/19 11:37:44 gz /tmp/work/sheets/sheets.min.js -> /output/sheets/sheets.min.js.gz
+2022/04/19 11:37:44 sri /tmp/work/sheets/sheets.js -> /output/sheets/sheets.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sheets/sheets.js.br /tmp/work/sheets/sheets.js
+2022/04/19 11:37:44 br /tmp/work/sheets/sheets.js -> /output/sheets/sheets.js.br
+2022/04/19 11:37:44 gz /tmp/work/sheets/sheets.js -> /output/sheets/sheets.js.gz
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/style/style.esnext.js.map.br /tmp/work/style/style.esnext.js.map
+2022/04/19 11:37:44 sri /tmp/work/shim/server/server.esnext.min.js -> /output/shim/server/server.esnext.min.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim/server/server.esnext.min.js.br /tmp/work/shim/server/server.esnext.min.js
+2022/04/19 11:37:44 br /tmp/work/shim/server/server.esnext.min.js -> /output/shim/server/server.esnext.min.js.br
+2022/04/19 11:37:44 gz /tmp/work/shim/server/server.esnext.min.js -> /output/shim/server/server.esnext.min.js.gz
+2022/04/19 11:37:44 sri /tmp/work/shim/server/server.esnext.js -> /output/shim/server/server.esnext.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim/server/server.esnext.js.br /tmp/work/shim/server/server.esnext.js
+2022/04/19 11:37:44 br /tmp/work/shim/server/server.esnext.js -> /output/shim/server/server.esnext.js.br
+2022/04/19 11:37:44 gz /tmp/work/shim/server/server.esnext.js -> /output/shim/server/server.esnext.js.gz
+2022/04/19 11:37:44 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/style/style.min.js /tmp/work/style/style.js
+2022/04/19 11:37:44 sri /tmp/work/sheets/sheets.umd.min.js -> /output/sheets/sheets.umd.min.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sheets/sheets.umd.min.js.br /tmp/work/sheets/sheets.umd.min.js
+2022/04/19 11:37:44 br /tmp/work/sheets/sheets.umd.min.js -> /output/sheets/sheets.umd.min.js.br
+2022/04/19 11:37:44 gz /tmp/work/sheets/sheets.umd.min.js -> /output/sheets/sheets.umd.min.js.gz
+2022/04/19 11:37:44 sri /tmp/work/sheets/sheets.umd.js -> /output/sheets/sheets.umd.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sheets/sheets.umd.js.br /tmp/work/sheets/sheets.umd.js
+2022/04/19 11:37:44 sri /tmp/work/shim/server/server.min.js -> /output/shim/server/server.min.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim/server/server.min.js.br /tmp/work/shim/server/server.min.js
+2022/04/19 11:37:44 br /tmp/work/shim/server/server.min.js -> /output/shim/server/server.min.js.br
+2022/04/19 11:37:44 br /tmp/work/style/style.esnext.js.map -> /output/style/style.esnext.js.map.br
+2022/04/19 11:37:44 br /tmp/work/sheets/sheets.umd.js -> /output/sheets/sheets.umd.js.br
+2022/04/19 11:37:44 gz /tmp/work/shim/server/server.min.js -> /output/shim/server/server.min.js.gz
+2022/04/19 11:37:44 gz /tmp/work/sheets/sheets.umd.js -> /output/sheets/sheets.umd.js.gz
+2022/04/19 11:37:44 sri /tmp/work/shim/server/server.js -> /output/shim/server/server.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim/server/server.js.br /tmp/work/shim/server/server.js
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/style/style.js.map.br /tmp/work/style/style.js.map
+2022/04/19 11:37:44 gz /tmp/work/style/style.esnext.js.map -> /output/style/style.esnext.js.map.gz
+2022/04/19 11:37:44 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/style/style.umd.min.js /tmp/work/style/style.umd.js
+2022/04/19 11:37:44 br /tmp/work/shim/server/server.js -> /output/shim/server/server.js.br
+2022/04/19 11:37:44 gz /tmp/work/shim/server/server.js -> /output/shim/server/server.js.gz
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/style/style.umd.js.map.br /tmp/work/style/style.umd.js.map
+2022/04/19 11:37:44 sri /tmp/work/shim/shim.esnext.min.js -> /output/shim/shim.esnext.min.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim/shim.esnext.min.js.br /tmp/work/shim/shim.esnext.min.js
+2022/04/19 11:37:44 br /tmp/work/shim/shim.esnext.min.js -> /output/shim/shim.esnext.min.js.br
+2022/04/19 11:37:44 gz /tmp/work/shim/shim.esnext.min.js -> /output/shim/shim.esnext.min.js.gz
+2022/04/19 11:37:44 sri /tmp/work/shim/shim.esnext.js -> /output/shim/shim.esnext.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim/shim.esnext.js.br /tmp/work/shim/shim.esnext.js
+2022/04/19 11:37:44 br /tmp/work/shim/shim.esnext.js -> /output/shim/shim.esnext.js.br
+2022/04/19 11:37:44 gz /tmp/work/shim/shim.esnext.js -> /output/shim/shim.esnext.js.gz
+2022/04/19 11:37:44 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/twind.esnext.min.js /tmp/work/twind.esnext.js
+2022/04/19 11:37:44 br /tmp/work/style/style.umd.js.map -> /output/style/style.umd.js.map.br
+2022/04/19 11:37:44 gz /tmp/work/style/style.umd.js.map -> /output/style/style.umd.js.map.gz
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/twind.esnext.js.map.br /tmp/work/twind.esnext.js.map
+2022/04/19 11:37:44 br /tmp/work/style/style.js.map -> /output/style/style.js.map.br
+2022/04/19 11:37:44 gz /tmp/work/style/style.js.map -> /output/style/style.js.map.gz
+2022/04/19 11:37:44 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/twind.min.js /tmp/work/twind.js
+2022/04/19 11:37:44 sri /tmp/work/shim/shim.min.js -> /output/shim/shim.min.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim/shim.min.js.br /tmp/work/shim/shim.min.js
+2022/04/19 11:37:44 br /tmp/work/shim/shim.min.js -> /output/shim/shim.min.js.br
+2022/04/19 11:37:44 gz /tmp/work/shim/shim.min.js -> /output/shim/shim.min.js.gz
+2022/04/19 11:37:44 sri /tmp/work/shim/shim.js -> /output/shim/shim.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim/shim.js.br /tmp/work/shim/shim.js
+2022/04/19 11:37:44 br /tmp/work/shim/shim.js -> /output/shim/shim.js.br
+2022/04/19 11:37:44 gz /tmp/work/shim/shim.js -> /output/shim/shim.js.gz
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/twind.js.map.br /tmp/work/twind.js.map
+2022/04/19 11:37:44 sri /tmp/work/shim/shim.umd.min.js -> /output/shim/shim.umd.min.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim/shim.umd.min.js.br /tmp/work/shim/shim.umd.min.js
+2022/04/19 11:37:44 br /tmp/work/shim/shim.umd.min.js -> /output/shim/shim.umd.min.js.br
+2022/04/19 11:37:44 gz /tmp/work/shim/shim.umd.min.js -> /output/shim/shim.umd.min.js.gz
+2022/04/19 11:37:44 sri /tmp/work/shim/shim.umd.js -> /output/shim/shim.umd.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim/shim.umd.js.br /tmp/work/shim/shim.umd.js
+2022/04/19 11:37:44 br /tmp/work/shim/shim.umd.js -> /output/shim/shim.umd.js.br
+2022/04/19 11:37:44 gz /tmp/work/shim/shim.umd.js -> /output/shim/shim.umd.js.gz
+2022/04/19 11:37:44 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/twind.umd.min.js /tmp/work/twind.umd.js
+2022/04/19 11:37:44 sri /tmp/work/style/style.esnext.min.js -> /output/style/style.esnext.min.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/style/style.esnext.min.js.br /tmp/work/style/style.esnext.min.js
+2022/04/19 11:37:44 br /tmp/work/style/style.esnext.min.js -> /output/style/style.esnext.min.js.br
+2022/04/19 11:37:44 gz /tmp/work/style/style.esnext.min.js -> /output/style/style.esnext.min.js.gz
+2022/04/19 11:37:44 sri /tmp/work/style/style.esnext.js -> /output/style/style.esnext.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/style/style.esnext.js.br /tmp/work/style/style.esnext.js
+2022/04/19 11:37:44 sri /tmp/work/style/style.min.js -> /output/style/style.min.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/style/style.min.js.br /tmp/work/style/style.min.js
+2022/04/19 11:37:44 br /tmp/work/style/style.min.js -> /output/style/style.min.js.br
+2022/04/19 11:37:44 gz /tmp/work/style/style.min.js -> /output/style/style.min.js.gz
+2022/04/19 11:37:44 sri /tmp/work/style/style.js -> /output/style/style.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/style/style.js.br /tmp/work/style/style.js
+2022/04/19 11:37:44 br /tmp/work/style/style.esnext.js -> /output/style/style.esnext.js.br
+2022/04/19 11:37:44 gz /tmp/work/style/style.esnext.js -> /output/style/style.esnext.js.gz
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/twind.umd.js.map.br /tmp/work/twind.umd.js.map
+2022/04/19 11:37:44 br /tmp/work/style/style.js -> /output/style/style.js.br
+2022/04/19 11:37:44 gz /tmp/work/style/style.js -> /output/style/style.js.gz
+2022/04/19 11:37:44 sri /tmp/work/style/style.umd.min.js -> /output/style/style.umd.min.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/style/style.umd.min.js.br /tmp/work/style/style.umd.min.js
+2022/04/19 11:37:44 br /tmp/work/style/style.umd.min.js -> /output/style/style.umd.min.js.br
+2022/04/19 11:37:44 gz /tmp/work/style/style.umd.min.js -> /output/style/style.umd.min.js.gz
+2022/04/19 11:37:44 sri /tmp/work/style/style.umd.js -> /output/style/style.umd.js.sri
+2022/04/19 11:37:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/style/style.umd.js.br /tmp/work/style/style.umd.js
+2022/04/19 11:37:44 br /tmp/work/style/style.umd.js -> /output/style/style.umd.js.br
+2022/04/19 11:37:44 gz /tmp/work/style/style.umd.js -> /output/style/style.umd.js.gz
+2022/04/19 11:37:44 br /tmp/work/twind.esnext.js.map -> /output/twind.esnext.js.map.br
+2022/04/19 11:37:44 gz /tmp/work/twind.esnext.js.map -> /output/twind.esnext.js.map.gz
+2022/04/19 11:37:44 br /tmp/work/twind.js.map -> /output/twind.js.map.br
+2022/04/19 11:37:44 gz /tmp/work/twind.js.map -> /output/twind.js.map.gz
+2022/04/19 11:37:44 br /tmp/work/twind.umd.js.map -> /output/twind.umd.js.map.br
+2022/04/19 11:37:45 gz /tmp/work/twind.umd.js.map -> /output/twind.umd.js.map.gz
+2022/04/19 11:37:45 sri /tmp/work/twind.esnext.min.js -> /output/twind.esnext.min.js.sri
+2022/04/19 11:37:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/twind.esnext.min.js.br /tmp/work/twind.esnext.min.js
+2022/04/19 11:37:45 sri /tmp/work/twind.min.js -> /output/twind.min.js.sri
+2022/04/19 11:37:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/twind.min.js.br /tmp/work/twind.min.js
+2022/04/19 11:37:45 br /tmp/work/twind.esnext.min.js -> /output/twind.esnext.min.js.br
+2022/04/19 11:37:45 gz /tmp/work/twind.esnext.min.js -> /output/twind.esnext.min.js.gz
+2022/04/19 11:37:45 sri /tmp/work/twind.esnext.js -> /output/twind.esnext.js.sri
+2022/04/19 11:37:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/twind.esnext.js.br /tmp/work/twind.esnext.js
+2022/04/19 11:37:45 br /tmp/work/twind.min.js -> /output/twind.min.js.br
+2022/04/19 11:37:45 gz /tmp/work/twind.min.js -> /output/twind.min.js.gz
+2022/04/19 11:37:45 sri /tmp/work/twind.js -> /output/twind.js.sri
+2022/04/19 11:37:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/twind.js.br /tmp/work/twind.js
+2022/04/19 11:37:45 br /tmp/work/twind.js -> /output/twind.js.br
+2022/04/19 11:37:45 br /tmp/work/twind.esnext.js -> /output/twind.esnext.js.br
+2022/04/19 11:37:45 gz /tmp/work/twind.js -> /output/twind.js.gz
+2022/04/19 11:37:45 gz /tmp/work/twind.esnext.js -> /output/twind.esnext.js.gz
+2022/04/19 11:37:45 sri /tmp/work/twind.umd.min.js -> /output/twind.umd.min.js.sri
+2022/04/19 11:37:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/twind.umd.min.js.br /tmp/work/twind.umd.min.js
+2022/04/19 11:37:45 br /tmp/work/twind.umd.min.js -> /output/twind.umd.min.js.br
+2022/04/19 11:37:45 gz /tmp/work/twind.umd.min.js -> /output/twind.umd.min.js.gz
+2022/04/19 11:37:45 sri /tmp/work/twind.umd.js -> /output/twind.umd.js.sri
+2022/04/19 11:37:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/twind.umd.js.br /tmp/work/twind.umd.js
+2022/04/19 11:37:45 br /tmp/work/twind.umd.js -> /output/twind.umd.js.br
+2022/04/19 11:37:45 gz /tmp/work/twind.umd.js -> /output/twind.umd.js.gz
+2022/04/19 11:37:45 processed twind
