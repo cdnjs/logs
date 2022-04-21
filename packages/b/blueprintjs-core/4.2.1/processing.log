@@ -1,0 +1,11 @@
+2022/04/21 22:30:24 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/04/21 22:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/core.bundle.min.js /tmp/work/dist/core.bundle.js
+2022/04/21 22:30:27 sri /tmp/work/dist/core.bundle.min.js -> /output/core.bundle.min.js.sri
+2022/04/21 22:30:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.bundle.min.js.br /tmp/work/dist/core.bundle.min.js
+2022/04/21 22:30:28 br /tmp/work/dist/core.bundle.min.js -> /output/core.bundle.min.js.br
+2022/04/21 22:30:28 gz /tmp/work/dist/core.bundle.min.js -> /output/core.bundle.min.js.gz
+2022/04/21 22:30:28 sri /tmp/work/dist/core.bundle.js -> /output/core.bundle.js.sri
+2022/04/21 22:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.bundle.js.br /tmp/work/dist/core.bundle.js
+2022/04/21 22:30:28 br /tmp/work/dist/core.bundle.js -> /output/core.bundle.js.br
+2022/04/21 22:30:28 gz /tmp/work/dist/core.bundle.js -> /output/core.bundle.js.gz
+2022/04/21 22:30:28 processed blueprintjs-core
