@@ -1,0 +1,20 @@
+2022/04/22 03:08:32 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/04/22 03:08:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/tslib.min.js /tmp/work/tslib.js
+2022/04/22 03:08:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/tslib.es6.min.js /tmp/work/tslib.es6.js
+2022/04/22 03:08:32 sri /tmp/work/tslib.es6.min.js -> /output/tslib.es6.min.js.sri
+2022/04/22 03:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tslib.es6.min.js.br /tmp/work/tslib.es6.min.js
+2022/04/22 03:08:33 br /tmp/work/tslib.es6.min.js -> /output/tslib.es6.min.js.br
+2022/04/22 03:08:33 gz /tmp/work/tslib.es6.min.js -> /output/tslib.es6.min.js.gz
+2022/04/22 03:08:33 sri /tmp/work/tslib.es6.js -> /output/tslib.es6.js.sri
+2022/04/22 03:08:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tslib.es6.js.br /tmp/work/tslib.es6.js
+2022/04/22 03:08:33 sri /tmp/work/tslib.min.js -> /output/tslib.min.js.sri
+2022/04/22 03:08:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tslib.min.js.br /tmp/work/tslib.min.js
+2022/04/22 03:08:33 br /tmp/work/tslib.es6.js -> /output/tslib.es6.js.br
+2022/04/22 03:08:33 gz /tmp/work/tslib.es6.js -> /output/tslib.es6.js.gz
+2022/04/22 03:08:33 br /tmp/work/tslib.min.js -> /output/tslib.min.js.br
+2022/04/22 03:08:33 gz /tmp/work/tslib.min.js -> /output/tslib.min.js.gz
+2022/04/22 03:08:33 sri /tmp/work/tslib.js -> /output/tslib.js.sri
+2022/04/22 03:08:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tslib.js.br /tmp/work/tslib.js
+2022/04/22 03:08:33 br /tmp/work/tslib.js -> /output/tslib.js.br
+2022/04/22 03:08:33 gz /tmp/work/tslib.js -> /output/tslib.js.gz
+2022/04/22 03:08:33 processed tslib
