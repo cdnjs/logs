@@ -1,0 +1,83 @@
+2022/04/24 02:05:26 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/04/24 02:05:26 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/pageview.cjs.min.js /tmp/work/dist/pageview.cjs.js
+2022/04/24 02:05:26 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/pageview.esm.min.js /tmp/work/dist/pageview.esm.js
+2022/04/24 02:05:26 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/pageview.min.js /tmp/work/dist/pageview.js
+2022/04/24 02:05:26 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/shim.min.js /tmp/work/dist/shim.js
+2022/04/24 02:05:26 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/shim.esm.min.js /tmp/work/dist/shim.esm.js
+2022/04/24 02:05:26 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/waline.esm.min.js /tmp/work/dist/waline.esm.js
+2022/04/24 02:05:26 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/component.min.js /tmp/work/dist/component.js
+2022/04/24 02:05:26 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/waline.cjs.min.js /tmp/work/dist/waline.cjs.js
+2022/04/24 02:05:26 sri /tmp/work/dist/pageview.cjs.min.js -> /output/pageview.cjs.min.js.sri
+2022/04/24 02:05:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pageview.cjs.min.js.br /tmp/work/dist/pageview.cjs.min.js
+2022/04/24 02:05:26 sri /tmp/work/dist/pageview.esm.min.js -> /output/pageview.esm.min.js.sri
+2022/04/24 02:05:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pageview.esm.min.js.br /tmp/work/dist/pageview.esm.min.js
+2022/04/24 02:05:26 br /tmp/work/dist/pageview.cjs.min.js -> /output/pageview.cjs.min.js.br
+2022/04/24 02:05:26 gz /tmp/work/dist/pageview.cjs.min.js -> /output/pageview.cjs.min.js.gz
+2022/04/24 02:05:26 sri /tmp/work/dist/pageview.cjs.js -> /output/pageview.cjs.js.sri
+2022/04/24 02:05:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pageview.cjs.js.br /tmp/work/dist/pageview.cjs.js
+2022/04/24 02:05:26 br /tmp/work/dist/pageview.esm.min.js -> /output/pageview.esm.min.js.br
+2022/04/24 02:05:26 gz /tmp/work/dist/pageview.esm.min.js -> /output/pageview.esm.min.js.gz
+2022/04/24 02:05:26 sri /tmp/work/dist/pageview.esm.js -> /output/pageview.esm.js.sri
+2022/04/24 02:05:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pageview.esm.js.br /tmp/work/dist/pageview.esm.js
+2022/04/24 02:05:26 br /tmp/work/dist/pageview.cjs.js -> /output/pageview.cjs.js.br
+2022/04/24 02:05:26 gz /tmp/work/dist/pageview.cjs.js -> /output/pageview.cjs.js.gz
+2022/04/24 02:05:26 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/waline.min.js /tmp/work/dist/waline.js
+2022/04/24 02:05:26 br /tmp/work/dist/pageview.esm.js -> /output/pageview.esm.js.br
+2022/04/24 02:05:26 gz /tmp/work/dist/pageview.esm.js -> /output/pageview.esm.js.gz
+2022/04/24 02:05:27 sri /tmp/work/dist/pageview.min.js -> /output/pageview.min.js.sri
+2022/04/24 02:05:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pageview.min.js.br /tmp/work/dist/pageview.min.js
+2022/04/24 02:05:27 br /tmp/work/dist/pageview.min.js -> /output/pageview.min.js.br
+2022/04/24 02:05:27 gz /tmp/work/dist/pageview.min.js -> /output/pageview.min.js.gz
+2022/04/24 02:05:27 sri /tmp/work/dist/pageview.js -> /output/pageview.js.sri
+2022/04/24 02:05:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pageview.js.br /tmp/work/dist/pageview.js
+2022/04/24 02:05:27 br /tmp/work/dist/pageview.js -> /output/pageview.js.br
+2022/04/24 02:05:27 gz /tmp/work/dist/pageview.js -> /output/pageview.js.gz
+2022/04/24 02:05:27 sri /tmp/work/dist/component.min.js -> /output/component.min.js.sri
+2022/04/24 02:05:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/component.min.js.br /tmp/work/dist/component.min.js
+2022/04/24 02:05:27 br /tmp/work/dist/component.min.js -> /output/component.min.js.br
+2022/04/24 02:05:27 gz /tmp/work/dist/component.min.js -> /output/component.min.js.gz
+2022/04/24 02:05:27 sri /tmp/work/dist/component.js -> /output/component.js.sri
+2022/04/24 02:05:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/component.js.br /tmp/work/dist/component.js
+2022/04/24 02:05:28 sri /tmp/work/dist/shim.esm.min.js -> /output/shim.esm.min.js.sri
+2022/04/24 02:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim.esm.min.js.br /tmp/work/dist/shim.esm.min.js
+2022/04/24 02:05:28 sri /tmp/work/dist/shim.min.js -> /output/shim.min.js.sri
+2022/04/24 02:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim.min.js.br /tmp/work/dist/shim.min.js
+2022/04/24 02:05:28 br /tmp/work/dist/component.js -> /output/component.js.br
+2022/04/24 02:05:28 gz /tmp/work/dist/component.js -> /output/component.js.gz
+2022/04/24 02:05:28 br /tmp/work/dist/shim.esm.min.js -> /output/shim.esm.min.js.br
+2022/04/24 02:05:28 gz /tmp/work/dist/shim.esm.min.js -> /output/shim.esm.min.js.gz
+2022/04/24 02:05:28 sri /tmp/work/dist/shim.esm.js -> /output/shim.esm.js.sri
+2022/04/24 02:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim.esm.js.br /tmp/work/dist/shim.esm.js
+2022/04/24 02:05:28 br /tmp/work/dist/shim.min.js -> /output/shim.min.js.br
+2022/04/24 02:05:28 gz /tmp/work/dist/shim.min.js -> /output/shim.min.js.gz
+2022/04/24 02:05:28 sri /tmp/work/dist/shim.js -> /output/shim.js.sri
+2022/04/24 02:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shim.js.br /tmp/work/dist/shim.js
+2022/04/24 02:05:28 br /tmp/work/dist/shim.esm.js -> /output/shim.esm.js.br
+2022/04/24 02:05:28 gz /tmp/work/dist/shim.esm.js -> /output/shim.esm.js.gz
+2022/04/24 02:05:28 br /tmp/work/dist/shim.js -> /output/shim.js.br
+2022/04/24 02:05:28 gz /tmp/work/dist/shim.js -> /output/shim.js.gz
+2022/04/24 02:05:30 sri /tmp/work/dist/waline.esm.min.js -> /output/waline.esm.min.js.sri
+2022/04/24 02:05:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/waline.esm.min.js.br /tmp/work/dist/waline.esm.min.js
+2022/04/24 02:05:30 sri /tmp/work/dist/waline.cjs.min.js -> /output/waline.cjs.min.js.sri
+2022/04/24 02:05:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/waline.cjs.min.js.br /tmp/work/dist/waline.cjs.min.js
+2022/04/24 02:05:30 br /tmp/work/dist/waline.esm.min.js -> /output/waline.esm.min.js.br
+2022/04/24 02:05:30 gz /tmp/work/dist/waline.esm.min.js -> /output/waline.esm.min.js.gz
+2022/04/24 02:05:30 sri /tmp/work/dist/waline.esm.js -> /output/waline.esm.js.sri
+2022/04/24 02:05:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/waline.esm.js.br /tmp/work/dist/waline.esm.js
+2022/04/24 02:05:30 br /tmp/work/dist/waline.cjs.min.js -> /output/waline.cjs.min.js.br
+2022/04/24 02:05:30 gz /tmp/work/dist/waline.cjs.min.js -> /output/waline.cjs.min.js.gz
+2022/04/24 02:05:30 sri /tmp/work/dist/waline.cjs.js -> /output/waline.cjs.js.sri
+2022/04/24 02:05:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/waline.cjs.js.br /tmp/work/dist/waline.cjs.js
+2022/04/24 02:05:30 sri /tmp/work/dist/waline.min.js -> /output/waline.min.js.sri
+2022/04/24 02:05:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/waline.min.js.br /tmp/work/dist/waline.min.js
+2022/04/24 02:05:31 br /tmp/work/dist/waline.esm.js -> /output/waline.esm.js.br
+2022/04/24 02:05:31 gz /tmp/work/dist/waline.esm.js -> /output/waline.esm.js.gz
+2022/04/24 02:05:31 br /tmp/work/dist/waline.cjs.js -> /output/waline.cjs.js.br
+2022/04/24 02:05:31 gz /tmp/work/dist/waline.cjs.js -> /output/waline.cjs.js.gz
+2022/04/24 02:05:31 br /tmp/work/dist/waline.min.js -> /output/waline.min.js.br
+2022/04/24 02:05:31 gz /tmp/work/dist/waline.min.js -> /output/waline.min.js.gz
+2022/04/24 02:05:31 sri /tmp/work/dist/waline.js -> /output/waline.js.sri
+2022/04/24 02:05:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/waline.js.br /tmp/work/dist/waline.js
+2022/04/24 02:05:31 br /tmp/work/dist/waline.js -> /output/waline.js.br
+2022/04/24 02:05:31 gz /tmp/work/dist/waline.js -> /output/waline.js.gz
+2022/04/24 02:05:31 processed waline
