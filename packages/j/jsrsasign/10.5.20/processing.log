@@ -1,0 +1,590 @@
+2022/04/25 23:41:48 ExtractTarGz: uknown type: 67 in pax_global_header
+2022/04/25 23:41:48 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/04/25 23:41:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/jsrsasign-all-min.min.js /tmp/work/jsrsasign-all-min.js
+2022/04/25 23:41:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/jsrsasign-jwths-min.min.js /tmp/work/jsrsasign-jwths-min.js
+2022/04/25 23:41:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/jsrsasign-rsa-min.min.js /tmp/work/jsrsasign-rsa-min.js
+2022/04/25 23:41:48 /tmp/work/min/asn1-1.0.min.js is already compressed
+2022/04/25 23:41:48 /tmp/work/min/asn1cms-1.0.min.js is already compressed
+2022/04/25 23:41:48 /tmp/work/min/asn1csr-1.0.min.js is already compressed
+2022/04/25 23:41:48 /tmp/work/min/asn1cades-1.0.min.js is already compressed
+2022/04/25 23:41:48 sri /tmp/work/min/asn1csr-1.0.min.js -> /output/min/asn1csr-1.0.min.js.sri
+2022/04/25 23:41:48 /tmp/work/min/asn1hex-1.1.min.js is already compressed
+2022/04/25 23:41:48 sri /tmp/work/min/asn1-1.0.min.js -> /output/min/asn1-1.0.min.js.sri
+2022/04/25 23:41:48 sri /tmp/work/min/asn1cades-1.0.min.js -> /output/min/asn1cades-1.0.min.js.sri
+2022/04/25 23:41:48 sri /tmp/work/min/asn1cms-1.0.min.js -> /output/min/asn1cms-1.0.min.js.sri
+2022/04/25 23:41:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/min/asn1cms-1.0.min.js.br /tmp/work/min/asn1cms-1.0.min.js
+2022/04/25 23:41:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/min/asn1-1.0.min.js.br /tmp/work/min/asn1-1.0.min.js
+2022/04/25 23:41:48 sri /tmp/work/min/asn1hex-1.1.min.js -> /output/min/asn1hex-1.1.min.js.sri
+2022/04/25 23:41:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/min/asn1csr-1.0.min.js.br /tmp/work/min/asn1csr-1.0.min.js
+2022/04/25 23:41:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/min/asn1hex-1.1.min.js.br /tmp/work/min/asn1hex-1.1.min.js
+2022/04/25 23:41:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/min/asn1cades-1.0.min.js.br /tmp/work/min/asn1cades-1.0.min.js
+2022/04/25 23:41:49 br /tmp/work/min/asn1csr-1.0.min.js -> /output/min/asn1csr-1.0.min.js.br
+2022/04/25 23:41:49 gz /tmp/work/min/asn1csr-1.0.min.js -> /output/min/asn1csr-1.0.min.js.gz
+2022/04/25 23:41:49 /tmp/work/min/asn1ocsp-1.0.min.js is already compressed
+2022/04/25 23:41:49 sri /tmp/work/min/asn1ocsp-1.0.min.js -> /output/min/asn1ocsp-1.0.min.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/min/asn1ocsp-1.0.min.js.br /tmp/work/min/asn1ocsp-1.0.min.js
+2022/04/25 23:41:49 br /tmp/work/min/asn1cades-1.0.min.js -> /output/min/asn1cades-1.0.min.js.br
+2022/04/25 23:41:49 gz /tmp/work/min/asn1cades-1.0.min.js -> /output/min/asn1cades-1.0.min.js.gz
+2022/04/25 23:41:49 /tmp/work/min/asn1tsp-1.0.min.js is already compressed
+2022/04/25 23:41:49 sri /tmp/work/min/asn1tsp-1.0.min.js -> /output/min/asn1tsp-1.0.min.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/min/asn1tsp-1.0.min.js.br /tmp/work/min/asn1tsp-1.0.min.js
+2022/04/25 23:41:49 br /tmp/work/min/asn1hex-1.1.min.js -> /output/min/asn1hex-1.1.min.js.br
+2022/04/25 23:41:49 gz /tmp/work/min/asn1hex-1.1.min.js -> /output/min/asn1hex-1.1.min.js.gz
+2022/04/25 23:41:49 /tmp/work/min/asn1x509-1.0.min.js is already compressed
+2022/04/25 23:41:49 sri /tmp/work/min/asn1x509-1.0.min.js -> /output/min/asn1x509-1.0.min.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/min/asn1x509-1.0.min.js.br /tmp/work/min/asn1x509-1.0.min.js
+2022/04/25 23:41:49 br /tmp/work/min/asn1-1.0.min.js -> /output/min/asn1-1.0.min.js.br
+2022/04/25 23:41:49 gz /tmp/work/min/asn1-1.0.min.js -> /output/min/asn1-1.0.min.js.gz
+2022/04/25 23:41:49 /tmp/work/min/base64x-1.1.min.js is already compressed
+2022/04/25 23:41:49 sri /tmp/work/min/base64x-1.1.min.js -> /output/min/base64x-1.1.min.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/min/base64x-1.1.min.js.br /tmp/work/min/base64x-1.1.min.js
+2022/04/25 23:41:49 br /tmp/work/min/asn1ocsp-1.0.min.js -> /output/min/asn1ocsp-1.0.min.js.br
+2022/04/25 23:41:49 gz /tmp/work/min/asn1ocsp-1.0.min.js -> /output/min/asn1ocsp-1.0.min.js.gz
+2022/04/25 23:41:49 /tmp/work/min/crypto-1.1.min.js is already compressed
+2022/04/25 23:41:49 sri /tmp/work/min/crypto-1.1.min.js -> /output/min/crypto-1.1.min.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/min/crypto-1.1.min.js.br /tmp/work/min/crypto-1.1.min.js
+2022/04/25 23:41:49 br /tmp/work/min/asn1tsp-1.0.min.js -> /output/min/asn1tsp-1.0.min.js.br
+2022/04/25 23:41:49 gz /tmp/work/min/asn1tsp-1.0.min.js -> /output/min/asn1tsp-1.0.min.js.gz
+2022/04/25 23:41:49 /tmp/work/min/dsa-2.0.min.js is already compressed
+2022/04/25 23:41:49 sri /tmp/work/min/dsa-2.0.min.js -> /output/min/dsa-2.0.min.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/min/dsa-2.0.min.js.br /tmp/work/min/dsa-2.0.min.js
+2022/04/25 23:41:49 br /tmp/work/min/asn1cms-1.0.min.js -> /output/min/asn1cms-1.0.min.js.br
+2022/04/25 23:41:49 gz /tmp/work/min/asn1cms-1.0.min.js -> /output/min/asn1cms-1.0.min.js.gz
+2022/04/25 23:41:49 /tmp/work/min/ecdsa-modified-1.0.min.js is already compressed
+2022/04/25 23:41:49 sri /tmp/work/min/ecdsa-modified-1.0.min.js -> /output/min/ecdsa-modified-1.0.min.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/min/ecdsa-modified-1.0.min.js.br /tmp/work/min/ecdsa-modified-1.0.min.js
+2022/04/25 23:41:49 br /tmp/work/min/base64x-1.1.min.js -> /output/min/base64x-1.1.min.js.br
+2022/04/25 23:41:49 br /tmp/work/min/dsa-2.0.min.js -> /output/min/dsa-2.0.min.js.br
+2022/04/25 23:41:49 gz /tmp/work/min/base64x-1.1.min.js -> /output/min/base64x-1.1.min.js.gz
+2022/04/25 23:41:49 /tmp/work/min/ecparam-1.0.min.js is already compressed
+2022/04/25 23:41:49 sri /tmp/work/min/ecparam-1.0.min.js -> /output/min/ecparam-1.0.min.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/min/ecparam-1.0.min.js.br /tmp/work/min/ecparam-1.0.min.js
+2022/04/25 23:41:49 gz /tmp/work/min/dsa-2.0.min.js -> /output/min/dsa-2.0.min.js.gz
+2022/04/25 23:41:49 /tmp/work/min/jws-3.3.min.js is already compressed
+2022/04/25 23:41:49 sri /tmp/work/min/jws-3.3.min.js -> /output/min/jws-3.3.min.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/min/jws-3.3.min.js.br /tmp/work/min/jws-3.3.min.js
+2022/04/25 23:41:49 br /tmp/work/min/ecdsa-modified-1.0.min.js -> /output/min/ecdsa-modified-1.0.min.js.br
+2022/04/25 23:41:49 gz /tmp/work/min/ecdsa-modified-1.0.min.js -> /output/min/ecdsa-modified-1.0.min.js.gz
+2022/04/25 23:41:49 /tmp/work/min/jwsjs-2.0.min.js is already compressed
+2022/04/25 23:41:49 sri /tmp/work/min/jwsjs-2.0.min.js -> /output/min/jwsjs-2.0.min.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/min/jwsjs-2.0.min.js.br /tmp/work/min/jwsjs-2.0.min.js
+2022/04/25 23:41:49 br /tmp/work/min/ecparam-1.0.min.js -> /output/min/ecparam-1.0.min.js.br
+2022/04/25 23:41:49 gz /tmp/work/min/ecparam-1.0.min.js -> /output/min/ecparam-1.0.min.js.gz
+2022/04/25 23:41:49 /tmp/work/min/keyutil-1.0.min.js is already compressed
+2022/04/25 23:41:49 sri /tmp/work/min/keyutil-1.0.min.js -> /output/min/keyutil-1.0.min.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/min/keyutil-1.0.min.js.br /tmp/work/min/keyutil-1.0.min.js
+2022/04/25 23:41:49 br /tmp/work/min/crypto-1.1.min.js -> /output/min/crypto-1.1.min.js.br
+2022/04/25 23:41:49 gz /tmp/work/min/crypto-1.1.min.js -> /output/min/crypto-1.1.min.js.gz
+2022/04/25 23:41:49 /tmp/work/min/nodeutil-1.0.min.js is already compressed
+2022/04/25 23:41:49 sri /tmp/work/min/nodeutil-1.0.min.js -> /output/min/nodeutil-1.0.min.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/min/nodeutil-1.0.min.js.br /tmp/work/min/nodeutil-1.0.min.js
+2022/04/25 23:41:49 br /tmp/work/min/jwsjs-2.0.min.js -> /output/min/jwsjs-2.0.min.js.br
+2022/04/25 23:41:49 gz /tmp/work/min/jwsjs-2.0.min.js -> /output/min/jwsjs-2.0.min.js.gz
+2022/04/25 23:41:49 /tmp/work/min/pkcs5pkey-1.0.min.js is already compressed
+2022/04/25 23:41:49 sri /tmp/work/min/pkcs5pkey-1.0.min.js -> /output/min/pkcs5pkey-1.0.min.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/min/pkcs5pkey-1.0.min.js.br /tmp/work/min/pkcs5pkey-1.0.min.js
+2022/04/25 23:41:49 br /tmp/work/min/nodeutil-1.0.min.js -> /output/min/nodeutil-1.0.min.js.br
+2022/04/25 23:41:49 gz /tmp/work/min/nodeutil-1.0.min.js -> /output/min/nodeutil-1.0.min.js.gz
+2022/04/25 23:41:49 /tmp/work/min/rsapem-1.1.min.js is already compressed
+2022/04/25 23:41:49 sri /tmp/work/min/rsapem-1.1.min.js -> /output/min/rsapem-1.1.min.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/min/rsapem-1.1.min.js.br /tmp/work/min/rsapem-1.1.min.js
+2022/04/25 23:41:49 br /tmp/work/min/jws-3.3.min.js -> /output/min/jws-3.3.min.js.br
+2022/04/25 23:41:49 gz /tmp/work/min/jws-3.3.min.js -> /output/min/jws-3.3.min.js.gz
+2022/04/25 23:41:49 /tmp/work/min/rsasign-1.2.min.js is already compressed
+2022/04/25 23:41:49 sri /tmp/work/min/rsasign-1.2.min.js -> /output/min/rsasign-1.2.min.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/min/rsasign-1.2.min.js.br /tmp/work/min/rsasign-1.2.min.js
+2022/04/25 23:41:49 br /tmp/work/min/rsapem-1.1.min.js -> /output/min/rsapem-1.1.min.js.br
+2022/04/25 23:41:49 gz /tmp/work/min/rsapem-1.1.min.js -> /output/min/rsapem-1.1.min.js.gz
+2022/04/25 23:41:49 /tmp/work/min/x509-1.1.min.js is already compressed
+2022/04/25 23:41:49 sri /tmp/work/min/x509-1.1.min.js -> /output/min/x509-1.1.min.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/min/x509-1.1.min.js.br /tmp/work/min/x509-1.1.min.js
+2022/04/25 23:41:49 br /tmp/work/min/rsasign-1.2.min.js -> /output/min/rsasign-1.2.min.js.br
+2022/04/25 23:41:49 gz /tmp/work/min/rsasign-1.2.min.js -> /output/min/rsasign-1.2.min.js.gz
+2022/04/25 23:41:49 /tmp/work/min/x509crl.min.js is already compressed
+2022/04/25 23:41:49 sri /tmp/work/min/x509crl.min.js -> /output/min/x509crl.min.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/min/x509crl.min.js.br /tmp/work/min/x509crl.min.js
+2022/04/25 23:41:49 br /tmp/work/min/pkcs5pkey-1.0.min.js -> /output/min/pkcs5pkey-1.0.min.js.br
+2022/04/25 23:41:49 gz /tmp/work/min/pkcs5pkey-1.0.min.js -> /output/min/pkcs5pkey-1.0.min.js.gz
+2022/04/25 23:41:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/base64-min.min.js /tmp/work/ext/base64-min.js
+2022/04/25 23:41:49 br /tmp/work/min/asn1x509-1.0.min.js -> /output/min/asn1x509-1.0.min.js.br
+2022/04/25 23:41:49 gz /tmp/work/min/asn1x509-1.0.min.js -> /output/min/asn1x509-1.0.min.js.gz
+2022/04/25 23:41:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/base64.min.js /tmp/work/ext/base64.js
+2022/04/25 23:41:49 br /tmp/work/min/x509crl.min.js -> /output/min/x509crl.min.js.br
+2022/04/25 23:41:49 gz /tmp/work/min/x509crl.min.js -> /output/min/x509crl.min.js.gz
+2022/04/25 23:41:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/aes_min.min.js /tmp/work/ext/cj/aes_min.js
+2022/04/25 23:41:49 br /tmp/work/min/keyutil-1.0.min.js -> /output/min/keyutil-1.0.min.js.br
+2022/04/25 23:41:49 gz /tmp/work/min/keyutil-1.0.min.js -> /output/min/keyutil-1.0.min.js.gz
+2022/04/25 23:41:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/aes.min.js /tmp/work/ext/cj/aes.js
+2022/04/25 23:41:49 br /tmp/work/min/x509-1.1.min.js -> /output/min/x509-1.1.min.js.br
+2022/04/25 23:41:49 gz /tmp/work/min/x509-1.1.min.js -> /output/min/x509-1.1.min.js.gz
+2022/04/25 23:41:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/cipher-core_min.min.js /tmp/work/ext/cj/cipher-core_min.js
+2022/04/25 23:41:49 sri /tmp/work/ext/base64-min.min.js -> /output/ext/base64-min.min.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/base64-min.min.js.br /tmp/work/ext/base64-min.min.js
+2022/04/25 23:41:49 br /tmp/work/ext/base64-min.min.js -> /output/ext/base64-min.min.js.br
+2022/04/25 23:41:49 gz /tmp/work/ext/base64-min.min.js -> /output/ext/base64-min.min.js.gz
+2022/04/25 23:41:49 sri /tmp/work/ext/base64-min.js -> /output/ext/base64-min.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/base64-min.js.br /tmp/work/ext/base64-min.js
+2022/04/25 23:41:49 br /tmp/work/ext/base64-min.js -> /output/ext/base64-min.js.br
+2022/04/25 23:41:49 gz /tmp/work/ext/base64-min.js -> /output/ext/base64-min.js.gz
+2022/04/25 23:41:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/cipher-core.min.js /tmp/work/ext/cj/cipher-core.js
+2022/04/25 23:41:49 sri /tmp/work/ext/base64.min.js -> /output/ext/base64.min.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/base64.min.js.br /tmp/work/ext/base64.min.js
+2022/04/25 23:41:49 br /tmp/work/ext/base64.min.js -> /output/ext/base64.min.js.br
+2022/04/25 23:41:49 gz /tmp/work/ext/base64.min.js -> /output/ext/base64.min.js.gz
+2022/04/25 23:41:49 sri /tmp/work/ext/base64.js -> /output/ext/base64.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/base64.js.br /tmp/work/ext/base64.js
+2022/04/25 23:41:49 br /tmp/work/ext/base64.js -> /output/ext/base64.js.br
+2022/04/25 23:41:49 gz /tmp/work/ext/base64.js -> /output/ext/base64.js.gz
+2022/04/25 23:41:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/cryptojs-312-core-fix-min.min.js /tmp/work/ext/cj/cryptojs-312-core-fix-min.js
+2022/04/25 23:41:49 sri /tmp/work/ext/cj/aes.min.js -> /output/ext/cj/aes.min.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/aes.min.js.br /tmp/work/ext/cj/aes.min.js
+2022/04/25 23:41:49 sri /tmp/work/ext/cj/aes_min.min.js -> /output/ext/cj/aes_min.min.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/aes_min.min.js.br /tmp/work/ext/cj/aes_min.min.js
+2022/04/25 23:41:49 br /tmp/work/ext/cj/aes.min.js -> /output/ext/cj/aes.min.js.br
+2022/04/25 23:41:49 gz /tmp/work/ext/cj/aes.min.js -> /output/ext/cj/aes.min.js.gz
+2022/04/25 23:41:49 sri /tmp/work/ext/cj/aes.js -> /output/ext/cj/aes.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/aes.js.br /tmp/work/ext/cj/aes.js
+2022/04/25 23:41:49 br /tmp/work/ext/cj/aes_min.min.js -> /output/ext/cj/aes_min.min.js.br
+2022/04/25 23:41:49 gz /tmp/work/ext/cj/aes_min.min.js -> /output/ext/cj/aes_min.min.js.gz
+2022/04/25 23:41:49 sri /tmp/work/ext/cj/aes_min.js -> /output/ext/cj/aes_min.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/aes_min.js.br /tmp/work/ext/cj/aes_min.js
+2022/04/25 23:41:49 br /tmp/work/ext/cj/aes_min.js -> /output/ext/cj/aes_min.js.br
+2022/04/25 23:41:49 gz /tmp/work/ext/cj/aes_min.js -> /output/ext/cj/aes_min.js.gz
+2022/04/25 23:41:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/cryptojs-312-core-fix.min.js /tmp/work/ext/cj/cryptojs-312-core-fix.js
+2022/04/25 23:41:49 br /tmp/work/ext/cj/aes.js -> /output/ext/cj/aes.js.br
+2022/04/25 23:41:49 gz /tmp/work/ext/cj/aes.js -> /output/ext/cj/aes.js.gz
+2022/04/25 23:41:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/enc-base64_min.min.js /tmp/work/ext/cj/enc-base64_min.js
+2022/04/25 23:41:49 sri /tmp/work/ext/cj/cipher-core_min.min.js -> /output/ext/cj/cipher-core_min.min.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/cipher-core_min.min.js.br /tmp/work/ext/cj/cipher-core_min.min.js
+2022/04/25 23:41:49 br /tmp/work/ext/cj/cipher-core_min.min.js -> /output/ext/cj/cipher-core_min.min.js.br
+2022/04/25 23:41:49 gz /tmp/work/ext/cj/cipher-core_min.min.js -> /output/ext/cj/cipher-core_min.min.js.gz
+2022/04/25 23:41:49 sri /tmp/work/ext/cj/cipher-core_min.js -> /output/ext/cj/cipher-core_min.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/cipher-core_min.js.br /tmp/work/ext/cj/cipher-core_min.js
+2022/04/25 23:41:49 br /tmp/work/ext/cj/cipher-core_min.js -> /output/ext/cj/cipher-core_min.js.br
+2022/04/25 23:41:49 gz /tmp/work/ext/cj/cipher-core_min.js -> /output/ext/cj/cipher-core_min.js.gz
+2022/04/25 23:41:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/enc-base64.min.js /tmp/work/ext/cj/enc-base64.js
+2022/04/25 23:41:49 sri /tmp/work/ext/cj/cryptojs-312-core-fix-min.min.js -> /output/ext/cj/cryptojs-312-core-fix-min.min.js.sri
+2022/04/25 23:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/cryptojs-312-core-fix-min.min.js.br /tmp/work/ext/cj/cryptojs-312-core-fix-min.min.js
+2022/04/25 23:41:50 br /tmp/work/ext/cj/cryptojs-312-core-fix-min.min.js -> /output/ext/cj/cryptojs-312-core-fix-min.min.js.br
+2022/04/25 23:41:50 gz /tmp/work/ext/cj/cryptojs-312-core-fix-min.min.js -> /output/ext/cj/cryptojs-312-core-fix-min.min.js.gz
+2022/04/25 23:41:50 sri /tmp/work/ext/cj/cryptojs-312-core-fix-min.js -> /output/ext/cj/cryptojs-312-core-fix-min.js.sri
+2022/04/25 23:41:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/cryptojs-312-core-fix-min.js.br /tmp/work/ext/cj/cryptojs-312-core-fix-min.js
+2022/04/25 23:41:50 sri /tmp/work/ext/cj/enc-base64_min.min.js -> /output/ext/cj/enc-base64_min.min.js.sri
+2022/04/25 23:41:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/enc-base64_min.min.js.br /tmp/work/ext/cj/enc-base64_min.min.js
+2022/04/25 23:41:50 br /tmp/work/ext/cj/cryptojs-312-core-fix-min.js -> /output/ext/cj/cryptojs-312-core-fix-min.js.br
+2022/04/25 23:41:50 gz /tmp/work/ext/cj/cryptojs-312-core-fix-min.js -> /output/ext/cj/cryptojs-312-core-fix-min.js.gz
+2022/04/25 23:41:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/hmac_min.min.js /tmp/work/ext/cj/hmac_min.js
+2022/04/25 23:41:50 sri /tmp/work/ext/cj/cipher-core.min.js -> /output/ext/cj/cipher-core.min.js.sri
+2022/04/25 23:41:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/cipher-core.min.js.br /tmp/work/ext/cj/cipher-core.min.js
+2022/04/25 23:41:50 br /tmp/work/ext/cj/enc-base64_min.min.js -> /output/ext/cj/enc-base64_min.min.js.br
+2022/04/25 23:41:50 gz /tmp/work/ext/cj/enc-base64_min.min.js -> /output/ext/cj/enc-base64_min.min.js.gz
+2022/04/25 23:41:50 sri /tmp/work/ext/cj/enc-base64_min.js -> /output/ext/cj/enc-base64_min.js.sri
+2022/04/25 23:41:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/enc-base64_min.js.br /tmp/work/ext/cj/enc-base64_min.js
+2022/04/25 23:41:50 br /tmp/work/ext/cj/enc-base64_min.js -> /output/ext/cj/enc-base64_min.js.br
+2022/04/25 23:41:50 br /tmp/work/ext/cj/cipher-core.min.js -> /output/ext/cj/cipher-core.min.js.br
+2022/04/25 23:41:50 gz /tmp/work/ext/cj/enc-base64_min.js -> /output/ext/cj/enc-base64_min.js.gz
+2022/04/25 23:41:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/hmac.min.js /tmp/work/ext/cj/hmac.js
+2022/04/25 23:41:50 gz /tmp/work/ext/cj/cipher-core.min.js -> /output/ext/cj/cipher-core.min.js.gz
+2022/04/25 23:41:50 sri /tmp/work/ext/cj/cipher-core.js -> /output/ext/cj/cipher-core.js.sri
+2022/04/25 23:41:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/cipher-core.js.br /tmp/work/ext/cj/cipher-core.js
+2022/04/25 23:41:50 sri /tmp/work/ext/cj/enc-base64.min.js -> /output/ext/cj/enc-base64.min.js.sri
+2022/04/25 23:41:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/enc-base64.min.js.br /tmp/work/ext/cj/enc-base64.min.js
+2022/04/25 23:41:50 br /tmp/work/ext/cj/enc-base64.min.js -> /output/ext/cj/enc-base64.min.js.br
+2022/04/25 23:41:50 gz /tmp/work/ext/cj/enc-base64.min.js -> /output/ext/cj/enc-base64.min.js.gz
+2022/04/25 23:41:50 sri /tmp/work/ext/cj/enc-base64.js -> /output/ext/cj/enc-base64.js.sri
+2022/04/25 23:41:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/enc-base64.js.br /tmp/work/ext/cj/enc-base64.js
+2022/04/25 23:41:50 br /tmp/work/ext/cj/enc-base64.js -> /output/ext/cj/enc-base64.js.br
+2022/04/25 23:41:50 gz /tmp/work/ext/cj/enc-base64.js -> /output/ext/cj/enc-base64.js.gz
+2022/04/25 23:41:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/md5_min.min.js /tmp/work/ext/cj/md5_min.js
+2022/04/25 23:41:50 br /tmp/work/ext/cj/cipher-core.js -> /output/ext/cj/cipher-core.js.br
+2022/04/25 23:41:50 gz /tmp/work/ext/cj/cipher-core.js -> /output/ext/cj/cipher-core.js.gz
+2022/04/25 23:41:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/md5.min.js /tmp/work/ext/cj/md5.js
+2022/04/25 23:41:50 sri /tmp/work/ext/cj/cryptojs-312-core-fix.min.js -> /output/ext/cj/cryptojs-312-core-fix.min.js.sri
+2022/04/25 23:41:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/cryptojs-312-core-fix.min.js.br /tmp/work/ext/cj/cryptojs-312-core-fix.min.js
+2022/04/25 23:41:50 br /tmp/work/ext/cj/cryptojs-312-core-fix.min.js -> /output/ext/cj/cryptojs-312-core-fix.min.js.br
+2022/04/25 23:41:50 gz /tmp/work/ext/cj/cryptojs-312-core-fix.min.js -> /output/ext/cj/cryptojs-312-core-fix.min.js.gz
+2022/04/25 23:41:50 sri /tmp/work/ext/cj/cryptojs-312-core-fix.js -> /output/ext/cj/cryptojs-312-core-fix.js.sri
+2022/04/25 23:41:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/cryptojs-312-core-fix.js.br /tmp/work/ext/cj/cryptojs-312-core-fix.js
+2022/04/25 23:41:50 sri /tmp/work/ext/cj/hmac_min.min.js -> /output/ext/cj/hmac_min.min.js.sri
+2022/04/25 23:41:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/hmac_min.min.js.br /tmp/work/ext/cj/hmac_min.min.js
+2022/04/25 23:41:50 br /tmp/work/ext/cj/hmac_min.min.js -> /output/ext/cj/hmac_min.min.js.br
+2022/04/25 23:41:50 gz /tmp/work/ext/cj/hmac_min.min.js -> /output/ext/cj/hmac_min.min.js.gz
+2022/04/25 23:41:50 sri /tmp/work/ext/cj/hmac_min.js -> /output/ext/cj/hmac_min.js.sri
+2022/04/25 23:41:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/hmac_min.js.br /tmp/work/ext/cj/hmac_min.js
+2022/04/25 23:41:50 br /tmp/work/ext/cj/cryptojs-312-core-fix.js -> /output/ext/cj/cryptojs-312-core-fix.js.br
+2022/04/25 23:41:50 gz /tmp/work/ext/cj/cryptojs-312-core-fix.js -> /output/ext/cj/cryptojs-312-core-fix.js.gz
+2022/04/25 23:41:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/pbkdf2_min.min.js /tmp/work/ext/cj/pbkdf2_min.js
+2022/04/25 23:41:50 br /tmp/work/ext/cj/hmac_min.js -> /output/ext/cj/hmac_min.js.br
+2022/04/25 23:41:50 gz /tmp/work/ext/cj/hmac_min.js -> /output/ext/cj/hmac_min.js.gz
+2022/04/25 23:41:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/pbkdf2.min.js /tmp/work/ext/cj/pbkdf2.js
+2022/04/25 23:41:50 sri /tmp/work/ext/cj/hmac.min.js -> /output/ext/cj/hmac.min.js.sri
+2022/04/25 23:41:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/hmac.min.js.br /tmp/work/ext/cj/hmac.min.js
+2022/04/25 23:41:50 br /tmp/work/ext/cj/hmac.min.js -> /output/ext/cj/hmac.min.js.br
+2022/04/25 23:41:50 gz /tmp/work/ext/cj/hmac.min.js -> /output/ext/cj/hmac.min.js.gz
+2022/04/25 23:41:50 sri /tmp/work/ext/cj/hmac.js -> /output/ext/cj/hmac.js.sri
+2022/04/25 23:41:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/hmac.js.br /tmp/work/ext/cj/hmac.js
+2022/04/25 23:41:50 br /tmp/work/ext/cj/hmac.js -> /output/ext/cj/hmac.js.br
+2022/04/25 23:41:50 gz /tmp/work/ext/cj/hmac.js -> /output/ext/cj/hmac.js.gz
+2022/04/25 23:41:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/ripemd160_min.min.js /tmp/work/ext/cj/ripemd160_min.js
+2022/04/25 23:41:50 sri /tmp/work/ext/cj/pbkdf2_min.min.js -> /output/ext/cj/pbkdf2_min.min.js.sri
+2022/04/25 23:41:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/pbkdf2_min.min.js.br /tmp/work/ext/cj/pbkdf2_min.min.js
+2022/04/25 23:41:50 br /tmp/work/ext/cj/pbkdf2_min.min.js -> /output/ext/cj/pbkdf2_min.min.js.br
+2022/04/25 23:41:50 sri /tmp/work/ext/cj/pbkdf2.min.js -> /output/ext/cj/pbkdf2.min.js.sri
+2022/04/25 23:41:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/pbkdf2.min.js.br /tmp/work/ext/cj/pbkdf2.min.js
+2022/04/25 23:41:50 gz /tmp/work/ext/cj/pbkdf2_min.min.js -> /output/ext/cj/pbkdf2_min.min.js.gz
+2022/04/25 23:41:50 sri /tmp/work/ext/cj/pbkdf2_min.js -> /output/ext/cj/pbkdf2_min.js.sri
+2022/04/25 23:41:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/pbkdf2_min.js.br /tmp/work/ext/cj/pbkdf2_min.js
+2022/04/25 23:41:50 br /tmp/work/ext/cj/pbkdf2.min.js -> /output/ext/cj/pbkdf2.min.js.br
+2022/04/25 23:41:50 gz /tmp/work/ext/cj/pbkdf2.min.js -> /output/ext/cj/pbkdf2.min.js.gz
+2022/04/25 23:41:50 sri /tmp/work/ext/cj/pbkdf2.js -> /output/ext/cj/pbkdf2.js.sri
+2022/04/25 23:41:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/pbkdf2.js.br /tmp/work/ext/cj/pbkdf2.js
+2022/04/25 23:41:50 br /tmp/work/ext/cj/pbkdf2_min.js -> /output/ext/cj/pbkdf2_min.js.br
+2022/04/25 23:41:50 gz /tmp/work/ext/cj/pbkdf2_min.js -> /output/ext/cj/pbkdf2_min.js.gz
+2022/04/25 23:41:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/ripemd160.min.js /tmp/work/ext/cj/ripemd160.js
+2022/04/25 23:41:50 br /tmp/work/ext/cj/pbkdf2.js -> /output/ext/cj/pbkdf2.js.br
+2022/04/25 23:41:50 gz /tmp/work/ext/cj/pbkdf2.js -> /output/ext/cj/pbkdf2.js.gz
+2022/04/25 23:41:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/sha1_min.min.js /tmp/work/ext/cj/sha1_min.js
+2022/04/25 23:41:50 sri /tmp/work/ext/cj/md5_min.min.js -> /output/ext/cj/md5_min.min.js.sri
+2022/04/25 23:41:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/md5_min.min.js.br /tmp/work/ext/cj/md5_min.min.js
+2022/04/25 23:41:50 br /tmp/work/ext/cj/md5_min.min.js -> /output/ext/cj/md5_min.min.js.br
+2022/04/25 23:41:50 gz /tmp/work/ext/cj/md5_min.min.js -> /output/ext/cj/md5_min.min.js.gz
+2022/04/25 23:41:50 sri /tmp/work/ext/cj/md5_min.js -> /output/ext/cj/md5_min.js.sri
+2022/04/25 23:41:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/md5_min.js.br /tmp/work/ext/cj/md5_min.js
+2022/04/25 23:41:50 br /tmp/work/ext/cj/md5_min.js -> /output/ext/cj/md5_min.js.br
+2022/04/25 23:41:50 gz /tmp/work/ext/cj/md5_min.js -> /output/ext/cj/md5_min.js.gz
+2022/04/25 23:41:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/sha1.min.js /tmp/work/ext/cj/sha1.js
+2022/04/25 23:41:50 sri /tmp/work/ext/cj/ripemd160_min.min.js -> /output/ext/cj/ripemd160_min.min.js.sri
+2022/04/25 23:41:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/ripemd160_min.min.js.br /tmp/work/ext/cj/ripemd160_min.min.js
+2022/04/25 23:41:50 br /tmp/work/ext/cj/ripemd160_min.min.js -> /output/ext/cj/ripemd160_min.min.js.br
+2022/04/25 23:41:50 gz /tmp/work/ext/cj/ripemd160_min.min.js -> /output/ext/cj/ripemd160_min.min.js.gz
+2022/04/25 23:41:50 sri /tmp/work/ext/cj/ripemd160_min.js -> /output/ext/cj/ripemd160_min.js.sri
+2022/04/25 23:41:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/ripemd160_min.js.br /tmp/work/ext/cj/ripemd160_min.js
+2022/04/25 23:41:50 br /tmp/work/ext/cj/ripemd160_min.js -> /output/ext/cj/ripemd160_min.js.br
+2022/04/25 23:41:50 gz /tmp/work/ext/cj/ripemd160_min.js -> /output/ext/cj/ripemd160_min.js.gz
+2022/04/25 23:41:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/sha224_min.min.js /tmp/work/ext/cj/sha224_min.js
+2022/04/25 23:41:51 sri /tmp/work/ext/cj/sha1_min.min.js -> /output/ext/cj/sha1_min.min.js.sri
+2022/04/25 23:41:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/sha1_min.min.js.br /tmp/work/ext/cj/sha1_min.min.js
+2022/04/25 23:41:51 br /tmp/work/ext/cj/sha1_min.min.js -> /output/ext/cj/sha1_min.min.js.br
+2022/04/25 23:41:51 gz /tmp/work/ext/cj/sha1_min.min.js -> /output/ext/cj/sha1_min.min.js.gz
+2022/04/25 23:41:51 sri /tmp/work/ext/cj/sha1_min.js -> /output/ext/cj/sha1_min.js.sri
+2022/04/25 23:41:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/sha1_min.js.br /tmp/work/ext/cj/sha1_min.js
+2022/04/25 23:41:51 br /tmp/work/ext/cj/sha1_min.js -> /output/ext/cj/sha1_min.js.br
+2022/04/25 23:41:51 gz /tmp/work/ext/cj/sha1_min.js -> /output/ext/cj/sha1_min.js.gz
+2022/04/25 23:41:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/sha224.min.js /tmp/work/ext/cj/sha224.js
+2022/04/25 23:41:51 sri /tmp/work/ext/cj/md5.min.js -> /output/ext/cj/md5.min.js.sri
+2022/04/25 23:41:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/md5.min.js.br /tmp/work/ext/cj/md5.min.js
+2022/04/25 23:41:51 br /tmp/work/ext/cj/md5.min.js -> /output/ext/cj/md5.min.js.br
+2022/04/25 23:41:51 gz /tmp/work/ext/cj/md5.min.js -> /output/ext/cj/md5.min.js.gz
+2022/04/25 23:41:51 sri /tmp/work/ext/cj/md5.js -> /output/ext/cj/md5.js.sri
+2022/04/25 23:41:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/md5.js.br /tmp/work/ext/cj/md5.js
+2022/04/25 23:41:51 br /tmp/work/ext/cj/md5.js -> /output/ext/cj/md5.js.br
+2022/04/25 23:41:51 gz /tmp/work/ext/cj/md5.js -> /output/ext/cj/md5.js.gz
+2022/04/25 23:41:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/sha256_min.min.js /tmp/work/ext/cj/sha256_min.js
+2022/04/25 23:41:51 sri /tmp/work/ext/cj/ripemd160.min.js -> /output/ext/cj/ripemd160.min.js.sri
+2022/04/25 23:41:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/ripemd160.min.js.br /tmp/work/ext/cj/ripemd160.min.js
+2022/04/25 23:41:51 br /tmp/work/ext/cj/ripemd160.min.js -> /output/ext/cj/ripemd160.min.js.br
+2022/04/25 23:41:51 gz /tmp/work/ext/cj/ripemd160.min.js -> /output/ext/cj/ripemd160.min.js.gz
+2022/04/25 23:41:51 sri /tmp/work/ext/cj/ripemd160.js -> /output/ext/cj/ripemd160.js.sri
+2022/04/25 23:41:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/ripemd160.js.br /tmp/work/ext/cj/ripemd160.js
+2022/04/25 23:41:51 sri /tmp/work/ext/cj/sha1.min.js -> /output/ext/cj/sha1.min.js.sri
+2022/04/25 23:41:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/sha1.min.js.br /tmp/work/ext/cj/sha1.min.js
+2022/04/25 23:41:51 br /tmp/work/ext/cj/ripemd160.js -> /output/ext/cj/ripemd160.js.br
+2022/04/25 23:41:51 gz /tmp/work/ext/cj/ripemd160.js -> /output/ext/cj/ripemd160.js.gz
+2022/04/25 23:41:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/sha256.min.js /tmp/work/ext/cj/sha256.js
+2022/04/25 23:41:51 br /tmp/work/ext/cj/sha1.min.js -> /output/ext/cj/sha1.min.js.br
+2022/04/25 23:41:51 gz /tmp/work/ext/cj/sha1.min.js -> /output/ext/cj/sha1.min.js.gz
+2022/04/25 23:41:51 sri /tmp/work/ext/cj/sha1.js -> /output/ext/cj/sha1.js.sri
+2022/04/25 23:41:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/sha1.js.br /tmp/work/ext/cj/sha1.js
+2022/04/25 23:41:51 sri /tmp/work/ext/cj/sha224_min.min.js -> /output/ext/cj/sha224_min.min.js.sri
+2022/04/25 23:41:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/sha224_min.min.js.br /tmp/work/ext/cj/sha224_min.min.js
+2022/04/25 23:41:51 br /tmp/work/ext/cj/sha1.js -> /output/ext/cj/sha1.js.br
+2022/04/25 23:41:51 gz /tmp/work/ext/cj/sha1.js -> /output/ext/cj/sha1.js.gz
+2022/04/25 23:41:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/sha384_min.min.js /tmp/work/ext/cj/sha384_min.js
+2022/04/25 23:41:51 br /tmp/work/ext/cj/sha224_min.min.js -> /output/ext/cj/sha224_min.min.js.br
+2022/04/25 23:41:51 gz /tmp/work/ext/cj/sha224_min.min.js -> /output/ext/cj/sha224_min.min.js.gz
+2022/04/25 23:41:51 sri /tmp/work/ext/cj/sha224_min.js -> /output/ext/cj/sha224_min.js.sri
+2022/04/25 23:41:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/sha224_min.js.br /tmp/work/ext/cj/sha224_min.js
+2022/04/25 23:41:51 br /tmp/work/ext/cj/sha224_min.js -> /output/ext/cj/sha224_min.js.br
+2022/04/25 23:41:51 gz /tmp/work/ext/cj/sha224_min.js -> /output/ext/cj/sha224_min.js.gz
+2022/04/25 23:41:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/sha384.min.js /tmp/work/ext/cj/sha384.js
+2022/04/25 23:41:51 sri /tmp/work/ext/cj/sha224.min.js -> /output/ext/cj/sha224.min.js.sri
+2022/04/25 23:41:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/sha224.min.js.br /tmp/work/ext/cj/sha224.min.js
+2022/04/25 23:41:51 br /tmp/work/ext/cj/sha224.min.js -> /output/ext/cj/sha224.min.js.br
+2022/04/25 23:41:51 gz /tmp/work/ext/cj/sha224.min.js -> /output/ext/cj/sha224.min.js.gz
+2022/04/25 23:41:51 sri /tmp/work/ext/cj/sha224.js -> /output/ext/cj/sha224.js.sri
+2022/04/25 23:41:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/sha224.js.br /tmp/work/ext/cj/sha224.js
+2022/04/25 23:41:51 br /tmp/work/ext/cj/sha224.js -> /output/ext/cj/sha224.js.br
+2022/04/25 23:41:51 gz /tmp/work/ext/cj/sha224.js -> /output/ext/cj/sha224.js.gz
+2022/04/25 23:41:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/sha512_min.min.js /tmp/work/ext/cj/sha512_min.js
+2022/04/25 23:41:51 sri /tmp/work/ext/cj/sha384_min.min.js -> /output/ext/cj/sha384_min.min.js.sri
+2022/04/25 23:41:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/sha384_min.min.js.br /tmp/work/ext/cj/sha384_min.min.js
+2022/04/25 23:41:51 br /tmp/work/ext/cj/sha384_min.min.js -> /output/ext/cj/sha384_min.min.js.br
+2022/04/25 23:41:51 gz /tmp/work/ext/cj/sha384_min.min.js -> /output/ext/cj/sha384_min.min.js.gz
+2022/04/25 23:41:51 sri /tmp/work/ext/cj/sha384_min.js -> /output/ext/cj/sha384_min.js.sri
+2022/04/25 23:41:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/sha384_min.js.br /tmp/work/ext/cj/sha384_min.js
+2022/04/25 23:41:51 sri /tmp/work/ext/cj/sha256_min.min.js -> /output/ext/cj/sha256_min.min.js.sri
+2022/04/25 23:41:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/sha256_min.min.js.br /tmp/work/ext/cj/sha256_min.min.js
+2022/04/25 23:41:51 br /tmp/work/ext/cj/sha384_min.js -> /output/ext/cj/sha384_min.js.br
+2022/04/25 23:41:51 gz /tmp/work/ext/cj/sha384_min.js -> /output/ext/cj/sha384_min.js.gz
+2022/04/25 23:41:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/sha512.min.js /tmp/work/ext/cj/sha512.js
+2022/04/25 23:41:51 br /tmp/work/ext/cj/sha256_min.min.js -> /output/ext/cj/sha256_min.min.js.br
+2022/04/25 23:41:51 gz /tmp/work/ext/cj/sha256_min.min.js -> /output/ext/cj/sha256_min.min.js.gz
+2022/04/25 23:41:51 sri /tmp/work/ext/cj/sha256_min.js -> /output/ext/cj/sha256_min.js.sri
+2022/04/25 23:41:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/sha256_min.js.br /tmp/work/ext/cj/sha256_min.js
+2022/04/25 23:41:51 br /tmp/work/ext/cj/sha256_min.js -> /output/ext/cj/sha256_min.js.br
+2022/04/25 23:41:51 gz /tmp/work/ext/cj/sha256_min.js -> /output/ext/cj/sha256_min.js.gz
+2022/04/25 23:41:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/tripledes_min.min.js /tmp/work/ext/cj/tripledes_min.js
+2022/04/25 23:41:51 sri /tmp/work/ext/cj/sha384.min.js -> /output/ext/cj/sha384.min.js.sri
+2022/04/25 23:41:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/sha384.min.js.br /tmp/work/ext/cj/sha384.min.js
+2022/04/25 23:41:51 br /tmp/work/ext/cj/sha384.min.js -> /output/ext/cj/sha384.min.js.br
+2022/04/25 23:41:51 gz /tmp/work/ext/cj/sha384.min.js -> /output/ext/cj/sha384.min.js.gz
+2022/04/25 23:41:51 sri /tmp/work/ext/cj/sha384.js -> /output/ext/cj/sha384.js.sri
+2022/04/25 23:41:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/sha384.js.br /tmp/work/ext/cj/sha384.js
+2022/04/25 23:41:51 br /tmp/work/ext/cj/sha384.js -> /output/ext/cj/sha384.js.br
+2022/04/25 23:41:51 gz /tmp/work/ext/cj/sha384.js -> /output/ext/cj/sha384.js.gz
+2022/04/25 23:41:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/tripledes.min.js /tmp/work/ext/cj/tripledes.js
+2022/04/25 23:41:51 sri /tmp/work/ext/cj/sha256.min.js -> /output/ext/cj/sha256.min.js.sri
+2022/04/25 23:41:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/sha256.min.js.br /tmp/work/ext/cj/sha256.min.js
+2022/04/25 23:41:51 br /tmp/work/ext/cj/sha256.min.js -> /output/ext/cj/sha256.min.js.br
+2022/04/25 23:41:51 gz /tmp/work/ext/cj/sha256.min.js -> /output/ext/cj/sha256.min.js.gz
+2022/04/25 23:41:51 sri /tmp/work/ext/cj/sha256.js -> /output/ext/cj/sha256.js.sri
+2022/04/25 23:41:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/sha256.js.br /tmp/work/ext/cj/sha256.js
+2022/04/25 23:41:51 br /tmp/work/ext/cj/sha256.js -> /output/ext/cj/sha256.js.br
+2022/04/25 23:41:51 gz /tmp/work/ext/cj/sha256.js -> /output/ext/cj/sha256.js.gz
+2022/04/25 23:41:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/x64-core_min.min.js /tmp/work/ext/cj/x64-core_min.js
+2022/04/25 23:41:52 sri /tmp/work/ext/cj/x64-core_min.min.js -> /output/ext/cj/x64-core_min.min.js.sri
+2022/04/25 23:41:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/x64-core_min.min.js.br /tmp/work/ext/cj/x64-core_min.min.js
+2022/04/25 23:41:52 br /tmp/work/ext/cj/x64-core_min.min.js -> /output/ext/cj/x64-core_min.min.js.br
+2022/04/25 23:41:52 gz /tmp/work/ext/cj/x64-core_min.min.js -> /output/ext/cj/x64-core_min.min.js.gz
+2022/04/25 23:41:52 sri /tmp/work/ext/cj/x64-core_min.js -> /output/ext/cj/x64-core_min.js.sri
+2022/04/25 23:41:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/x64-core_min.js.br /tmp/work/ext/cj/x64-core_min.js
+2022/04/25 23:41:52 br /tmp/work/ext/cj/x64-core_min.js -> /output/ext/cj/x64-core_min.js.br
+2022/04/25 23:41:52 gz /tmp/work/ext/cj/x64-core_min.js -> /output/ext/cj/x64-core_min.js.gz
+2022/04/25 23:41:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/cj/x64-core.min.js /tmp/work/ext/cj/x64-core.js
+2022/04/25 23:41:52 sri /tmp/work/ext/cj/sha512_min.min.js -> /output/ext/cj/sha512_min.min.js.sri
+2022/04/25 23:41:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/sha512_min.min.js.br /tmp/work/ext/cj/sha512_min.min.js
+2022/04/25 23:41:52 br /tmp/work/ext/cj/sha512_min.min.js -> /output/ext/cj/sha512_min.min.js.br
+2022/04/25 23:41:52 gz /tmp/work/ext/cj/sha512_min.min.js -> /output/ext/cj/sha512_min.min.js.gz
+2022/04/25 23:41:52 sri /tmp/work/ext/cj/sha512_min.js -> /output/ext/cj/sha512_min.js.sri
+2022/04/25 23:41:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/sha512_min.js.br /tmp/work/ext/cj/sha512_min.js
+2022/04/25 23:41:52 br /tmp/work/ext/cj/sha512_min.js -> /output/ext/cj/sha512_min.js.br
+2022/04/25 23:41:52 gz /tmp/work/ext/cj/sha512_min.js -> /output/ext/cj/sha512_min.js.gz
+2022/04/25 23:41:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/ec-min.min.js /tmp/work/ext/ec-min.js
+2022/04/25 23:41:52 sri /tmp/work/ext/cj/tripledes_min.min.js -> /output/ext/cj/tripledes_min.min.js.sri
+2022/04/25 23:41:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/tripledes_min.min.js.br /tmp/work/ext/cj/tripledes_min.min.js
+2022/04/25 23:41:52 br /tmp/work/ext/cj/tripledes_min.min.js -> /output/ext/cj/tripledes_min.min.js.br
+2022/04/25 23:41:52 gz /tmp/work/ext/cj/tripledes_min.min.js -> /output/ext/cj/tripledes_min.min.js.gz
+2022/04/25 23:41:52 sri /tmp/work/ext/cj/tripledes_min.js -> /output/ext/cj/tripledes_min.js.sri
+2022/04/25 23:41:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/tripledes_min.js.br /tmp/work/ext/cj/tripledes_min.js
+2022/04/25 23:41:52 sri /tmp/work/ext/cj/tripledes.min.js -> /output/ext/cj/tripledes.min.js.sri
+2022/04/25 23:41:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/tripledes.min.js.br /tmp/work/ext/cj/tripledes.min.js
+2022/04/25 23:41:52 sri /tmp/work/ext/cj/sha512.min.js -> /output/ext/cj/sha512.min.js.sri
+2022/04/25 23:41:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/sha512.min.js.br /tmp/work/ext/cj/sha512.min.js
+2022/04/25 23:41:52 br /tmp/work/ext/cj/tripledes_min.js -> /output/ext/cj/tripledes_min.js.br
+2022/04/25 23:41:52 gz /tmp/work/ext/cj/tripledes_min.js -> /output/ext/cj/tripledes_min.js.gz
+2022/04/25 23:41:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/ec-patch-min.min.js /tmp/work/ext/ec-patch-min.js
+2022/04/25 23:41:52 br /tmp/work/ext/cj/sha512.min.js -> /output/ext/cj/sha512.min.js.br
+2022/04/25 23:41:52 gz /tmp/work/ext/cj/sha512.min.js -> /output/ext/cj/sha512.min.js.gz
+2022/04/25 23:41:52 sri /tmp/work/ext/cj/sha512.js -> /output/ext/cj/sha512.js.sri
+2022/04/25 23:41:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/sha512.js.br /tmp/work/ext/cj/sha512.js
+2022/04/25 23:41:52 br /tmp/work/ext/cj/tripledes.min.js -> /output/ext/cj/tripledes.min.js.br
+2022/04/25 23:41:52 gz /tmp/work/ext/cj/tripledes.min.js -> /output/ext/cj/tripledes.min.js.gz
+2022/04/25 23:41:52 sri /tmp/work/ext/cj/tripledes.js -> /output/ext/cj/tripledes.js.sri
+2022/04/25 23:41:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/tripledes.js.br /tmp/work/ext/cj/tripledes.js
+2022/04/25 23:41:52 br /tmp/work/ext/cj/sha512.js -> /output/ext/cj/sha512.js.br
+2022/04/25 23:41:52 gz /tmp/work/ext/cj/sha512.js -> /output/ext/cj/sha512.js.gz
+2022/04/25 23:41:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/ec-patch.min.js /tmp/work/ext/ec-patch.js
+2022/04/25 23:41:52 sri /tmp/work/jsrsasign-jwths-min.min.js -> /output/jsrsasign-jwths-min.min.js.sri
+2022/04/25 23:41:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsrsasign-jwths-min.min.js.br /tmp/work/jsrsasign-jwths-min.min.js
+2022/04/25 23:41:52 br /tmp/work/ext/cj/tripledes.js -> /output/ext/cj/tripledes.js.br
+2022/04/25 23:41:52 gz /tmp/work/ext/cj/tripledes.js -> /output/ext/cj/tripledes.js.gz
+2022/04/25 23:41:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/ec.min.js /tmp/work/ext/ec.js
+2022/04/25 23:41:52 sri /tmp/work/ext/cj/x64-core.min.js -> /output/ext/cj/x64-core.min.js.sri
+2022/04/25 23:41:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/x64-core.min.js.br /tmp/work/ext/cj/x64-core.min.js
+2022/04/25 23:41:52 br /tmp/work/ext/cj/x64-core.min.js -> /output/ext/cj/x64-core.min.js.br
+2022/04/25 23:41:52 gz /tmp/work/ext/cj/x64-core.min.js -> /output/ext/cj/x64-core.min.js.gz
+2022/04/25 23:41:52 sri /tmp/work/ext/cj/x64-core.js -> /output/ext/cj/x64-core.js.sri
+2022/04/25 23:41:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/cj/x64-core.js.br /tmp/work/ext/cj/x64-core.js
+2022/04/25 23:41:52 br /tmp/work/ext/cj/x64-core.js -> /output/ext/cj/x64-core.js.br
+2022/04/25 23:41:52 gz /tmp/work/ext/cj/x64-core.js -> /output/ext/cj/x64-core.js.gz
+2022/04/25 23:41:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/jsbn-min.min.js /tmp/work/ext/jsbn-min.js
+2022/04/25 23:41:52 br /tmp/work/jsrsasign-jwths-min.min.js -> /output/jsrsasign-jwths-min.min.js.br
+2022/04/25 23:41:52 gz /tmp/work/jsrsasign-jwths-min.min.js -> /output/jsrsasign-jwths-min.min.js.gz
+2022/04/25 23:41:52 sri /tmp/work/jsrsasign-jwths-min.js -> /output/jsrsasign-jwths-min.js.sri
+2022/04/25 23:41:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsrsasign-jwths-min.js.br /tmp/work/jsrsasign-jwths-min.js
+2022/04/25 23:41:52 sri /tmp/work/ext/ec-min.min.js -> /output/ext/ec-min.min.js.sri
+2022/04/25 23:41:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/ec-min.min.js.br /tmp/work/ext/ec-min.min.js
+2022/04/25 23:41:52 br /tmp/work/ext/ec-min.min.js -> /output/ext/ec-min.min.js.br
+2022/04/25 23:41:52 gz /tmp/work/ext/ec-min.min.js -> /output/ext/ec-min.min.js.gz
+2022/04/25 23:41:52 sri /tmp/work/ext/ec-min.js -> /output/ext/ec-min.js.sri
+2022/04/25 23:41:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/ec-min.js.br /tmp/work/ext/ec-min.js
+2022/04/25 23:41:52 br /tmp/work/ext/ec-min.js -> /output/ext/ec-min.js.br
+2022/04/25 23:41:52 gz /tmp/work/ext/ec-min.js -> /output/ext/ec-min.js.gz
+2022/04/25 23:41:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/jsbn.min.js /tmp/work/ext/jsbn.js
+2022/04/25 23:41:52 sri /tmp/work/ext/ec-patch-min.min.js -> /output/ext/ec-patch-min.min.js.sri
+2022/04/25 23:41:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/ec-patch-min.min.js.br /tmp/work/ext/ec-patch-min.min.js
+2022/04/25 23:41:52 br /tmp/work/ext/ec-patch-min.min.js -> /output/ext/ec-patch-min.min.js.br
+2022/04/25 23:41:52 gz /tmp/work/ext/ec-patch-min.min.js -> /output/ext/ec-patch-min.min.js.gz
+2022/04/25 23:41:52 sri /tmp/work/ext/ec-patch-min.js -> /output/ext/ec-patch-min.js.sri
+2022/04/25 23:41:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/ec-patch-min.js.br /tmp/work/ext/ec-patch-min.js
+2022/04/25 23:41:52 br /tmp/work/ext/ec-patch-min.js -> /output/ext/ec-patch-min.js.br
+2022/04/25 23:41:52 gz /tmp/work/ext/ec-patch-min.js -> /output/ext/ec-patch-min.js.gz
+2022/04/25 23:41:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/jsbn2-min.min.js /tmp/work/ext/jsbn2-min.js
+2022/04/25 23:41:52 sri /tmp/work/ext/ec-patch.min.js -> /output/ext/ec-patch.min.js.sri
+2022/04/25 23:41:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/ec-patch.min.js.br /tmp/work/ext/ec-patch.min.js
+2022/04/25 23:41:52 br /tmp/work/ext/ec-patch.min.js -> /output/ext/ec-patch.min.js.br
+2022/04/25 23:41:52 gz /tmp/work/ext/ec-patch.min.js -> /output/ext/ec-patch.min.js.gz
+2022/04/25 23:41:52 sri /tmp/work/ext/ec-patch.js -> /output/ext/ec-patch.js.sri
+2022/04/25 23:41:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/ec-patch.js.br /tmp/work/ext/ec-patch.js
+2022/04/25 23:41:52 br /tmp/work/ext/ec-patch.js -> /output/ext/ec-patch.js.br
+2022/04/25 23:41:52 gz /tmp/work/ext/ec-patch.js -> /output/ext/ec-patch.js.gz
+2022/04/25 23:41:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/jsbn2.min.js /tmp/work/ext/jsbn2.js
+2022/04/25 23:41:52 br /tmp/work/jsrsasign-jwths-min.js -> /output/jsrsasign-jwths-min.js.br
+2022/04/25 23:41:52 gz /tmp/work/jsrsasign-jwths-min.js -> /output/jsrsasign-jwths-min.js.gz
+2022/04/25 23:41:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/json-sans-eval-min.min.js /tmp/work/ext/json-sans-eval-min.js
+2022/04/25 23:41:53 sri /tmp/work/ext/ec.min.js -> /output/ext/ec.min.js.sri
+2022/04/25 23:41:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/ec.min.js.br /tmp/work/ext/ec.min.js
+2022/04/25 23:41:53 br /tmp/work/ext/ec.min.js -> /output/ext/ec.min.js.br
+2022/04/25 23:41:53 gz /tmp/work/ext/ec.min.js -> /output/ext/ec.min.js.gz
+2022/04/25 23:41:53 sri /tmp/work/ext/ec.js -> /output/ext/ec.js.sri
+2022/04/25 23:41:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/ec.js.br /tmp/work/ext/ec.js
+2022/04/25 23:41:53 br /tmp/work/ext/ec.js -> /output/ext/ec.js.br
+2022/04/25 23:41:53 gz /tmp/work/ext/ec.js -> /output/ext/ec.js.gz
+2022/04/25 23:41:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/json-sans-eval.min.js /tmp/work/ext/json-sans-eval.js
+2022/04/25 23:41:53 sri /tmp/work/ext/json-sans-eval-min.min.js -> /output/ext/json-sans-eval-min.min.js.sri
+2022/04/25 23:41:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/json-sans-eval-min.min.js.br /tmp/work/ext/json-sans-eval-min.min.js
+2022/04/25 23:41:53 br /tmp/work/ext/json-sans-eval-min.min.js -> /output/ext/json-sans-eval-min.min.js.br
+2022/04/25 23:41:53 gz /tmp/work/ext/json-sans-eval-min.min.js -> /output/ext/json-sans-eval-min.min.js.gz
+2022/04/25 23:41:53 sri /tmp/work/ext/json-sans-eval-min.js -> /output/ext/json-sans-eval-min.js.sri
+2022/04/25 23:41:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/json-sans-eval-min.js.br /tmp/work/ext/json-sans-eval-min.js
+2022/04/25 23:41:53 br /tmp/work/ext/json-sans-eval-min.js -> /output/ext/json-sans-eval-min.js.br
+2022/04/25 23:41:53 gz /tmp/work/ext/json-sans-eval-min.js -> /output/ext/json-sans-eval-min.js.gz
+2022/04/25 23:41:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/prng4-min.min.js /tmp/work/ext/prng4-min.js
+2022/04/25 23:41:53 sri /tmp/work/ext/jsbn-min.min.js -> /output/ext/jsbn-min.min.js.sri
+2022/04/25 23:41:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/jsbn-min.min.js.br /tmp/work/ext/jsbn-min.min.js
+2022/04/25 23:41:53 br /tmp/work/ext/jsbn-min.min.js -> /output/ext/jsbn-min.min.js.br
+2022/04/25 23:41:53 gz /tmp/work/ext/jsbn-min.min.js -> /output/ext/jsbn-min.min.js.gz
+2022/04/25 23:41:53 sri /tmp/work/ext/jsbn-min.js -> /output/ext/jsbn-min.js.sri
+2022/04/25 23:41:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/jsbn-min.js.br /tmp/work/ext/jsbn-min.js
+2022/04/25 23:41:53 br /tmp/work/ext/jsbn-min.js -> /output/ext/jsbn-min.js.br
+2022/04/25 23:41:53 gz /tmp/work/ext/jsbn-min.js -> /output/ext/jsbn-min.js.gz
+2022/04/25 23:41:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/prng4.min.js /tmp/work/ext/prng4.js
+2022/04/25 23:41:53 sri /tmp/work/ext/jsbn.min.js -> /output/ext/jsbn.min.js.sri
+2022/04/25 23:41:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/jsbn.min.js.br /tmp/work/ext/jsbn.min.js
+2022/04/25 23:41:53 sri /tmp/work/ext/prng4-min.min.js -> /output/ext/prng4-min.min.js.sri
+2022/04/25 23:41:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/prng4-min.min.js.br /tmp/work/ext/prng4-min.min.js
+2022/04/25 23:41:53 br /tmp/work/ext/jsbn.min.js -> /output/ext/jsbn.min.js.br
+2022/04/25 23:41:53 gz /tmp/work/ext/jsbn.min.js -> /output/ext/jsbn.min.js.gz
+2022/04/25 23:41:53 sri /tmp/work/ext/jsbn.js -> /output/ext/jsbn.js.sri
+2022/04/25 23:41:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/jsbn.js.br /tmp/work/ext/jsbn.js
+2022/04/25 23:41:53 sri /tmp/work/ext/json-sans-eval.min.js -> /output/ext/json-sans-eval.min.js.sri
+2022/04/25 23:41:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/json-sans-eval.min.js.br /tmp/work/ext/json-sans-eval.min.js
+2022/04/25 23:41:53 br /tmp/work/ext/prng4-min.min.js -> /output/ext/prng4-min.min.js.br
+2022/04/25 23:41:53 gz /tmp/work/ext/prng4-min.min.js -> /output/ext/prng4-min.min.js.gz
+2022/04/25 23:41:53 sri /tmp/work/ext/prng4-min.js -> /output/ext/prng4-min.js.sri
+2022/04/25 23:41:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/prng4-min.js.br /tmp/work/ext/prng4-min.js
+2022/04/25 23:41:53 sri /tmp/work/ext/jsbn2-min.min.js -> /output/ext/jsbn2-min.min.js.sri
+2022/04/25 23:41:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/jsbn2-min.min.js.br /tmp/work/ext/jsbn2-min.min.js
+2022/04/25 23:41:53 br /tmp/work/ext/prng4-min.js -> /output/ext/prng4-min.js.br
+2022/04/25 23:41:53 gz /tmp/work/ext/prng4-min.js -> /output/ext/prng4-min.js.gz
+2022/04/25 23:41:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/rng-min.min.js /tmp/work/ext/rng-min.js
+2022/04/25 23:41:53 br /tmp/work/ext/json-sans-eval.min.js -> /output/ext/json-sans-eval.min.js.br
+2022/04/25 23:41:53 gz /tmp/work/ext/json-sans-eval.min.js -> /output/ext/json-sans-eval.min.js.gz
+2022/04/25 23:41:53 sri /tmp/work/ext/json-sans-eval.js -> /output/ext/json-sans-eval.js.sri
+2022/04/25 23:41:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/json-sans-eval.js.br /tmp/work/ext/json-sans-eval.js
+2022/04/25 23:41:53 br /tmp/work/ext/json-sans-eval.js -> /output/ext/json-sans-eval.js.br
+2022/04/25 23:41:53 gz /tmp/work/ext/json-sans-eval.js -> /output/ext/json-sans-eval.js.gz
+2022/04/25 23:41:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/rng.min.js /tmp/work/ext/rng.js
+2022/04/25 23:41:53 br /tmp/work/ext/jsbn.js -> /output/ext/jsbn.js.br
+2022/04/25 23:41:53 br /tmp/work/ext/jsbn2-min.min.js -> /output/ext/jsbn2-min.min.js.br
+2022/04/25 23:41:53 gz /tmp/work/ext/jsbn2-min.min.js -> /output/ext/jsbn2-min.min.js.gz
+2022/04/25 23:41:53 sri /tmp/work/ext/jsbn2-min.js -> /output/ext/jsbn2-min.js.sri
+2022/04/25 23:41:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/jsbn2-min.js.br /tmp/work/ext/jsbn2-min.js
+2022/04/25 23:41:53 gz /tmp/work/ext/jsbn.js -> /output/ext/jsbn.js.gz
+2022/04/25 23:41:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/rsa-min.min.js /tmp/work/ext/rsa-min.js
+2022/04/25 23:41:53 br /tmp/work/ext/jsbn2-min.js -> /output/ext/jsbn2-min.js.br
+2022/04/25 23:41:53 gz /tmp/work/ext/jsbn2-min.js -> /output/ext/jsbn2-min.js.gz
+2022/04/25 23:41:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/rsa.min.js /tmp/work/ext/rsa.js
+2022/04/25 23:41:53 sri /tmp/work/ext/jsbn2.min.js -> /output/ext/jsbn2.min.js.sri
+2022/04/25 23:41:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/jsbn2.min.js.br /tmp/work/ext/jsbn2.min.js
+2022/04/25 23:41:53 br /tmp/work/ext/jsbn2.min.js -> /output/ext/jsbn2.min.js.br
+2022/04/25 23:41:53 gz /tmp/work/ext/jsbn2.min.js -> /output/ext/jsbn2.min.js.gz
+2022/04/25 23:41:53 sri /tmp/work/ext/jsbn2.js -> /output/ext/jsbn2.js.sri
+2022/04/25 23:41:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/jsbn2.js.br /tmp/work/ext/jsbn2.js
+2022/04/25 23:41:54 sri /tmp/work/ext/prng4.min.js -> /output/ext/prng4.min.js.sri
+2022/04/25 23:41:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/prng4.min.js.br /tmp/work/ext/prng4.min.js
+2022/04/25 23:41:54 br /tmp/work/ext/jsbn2.js -> /output/ext/jsbn2.js.br
+2022/04/25 23:41:54 gz /tmp/work/ext/jsbn2.js -> /output/ext/jsbn2.js.gz
+2022/04/25 23:41:54 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/rsa2-min.min.js /tmp/work/ext/rsa2-min.js
+2022/04/25 23:41:54 br /tmp/work/ext/prng4.min.js -> /output/ext/prng4.min.js.br
+2022/04/25 23:41:54 gz /tmp/work/ext/prng4.min.js -> /output/ext/prng4.min.js.gz
+2022/04/25 23:41:54 sri /tmp/work/ext/prng4.js -> /output/ext/prng4.js.sri
+2022/04/25 23:41:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/prng4.js.br /tmp/work/ext/prng4.js
+2022/04/25 23:41:54 br /tmp/work/ext/prng4.js -> /output/ext/prng4.js.br
+2022/04/25 23:41:54 gz /tmp/work/ext/prng4.js -> /output/ext/prng4.js.gz
+2022/04/25 23:41:54 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/ext/rsa2.min.js /tmp/work/ext/rsa2.js
+2022/04/25 23:41:54 sri /tmp/work/ext/rng-min.min.js -> /output/ext/rng-min.min.js.sri
+2022/04/25 23:41:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/rng-min.min.js.br /tmp/work/ext/rng-min.min.js
+2022/04/25 23:41:54 br /tmp/work/ext/rng-min.min.js -> /output/ext/rng-min.min.js.br
+2022/04/25 23:41:54 gz /tmp/work/ext/rng-min.min.js -> /output/ext/rng-min.min.js.gz
+2022/04/25 23:41:54 sri /tmp/work/ext/rng-min.js -> /output/ext/rng-min.js.sri
+2022/04/25 23:41:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/rng-min.js.br /tmp/work/ext/rng-min.js
+2022/04/25 23:41:54 br /tmp/work/ext/rng-min.js -> /output/ext/rng-min.js.br
+2022/04/25 23:41:54 gz /tmp/work/ext/rng-min.js -> /output/ext/rng-min.js.gz
+2022/04/25 23:41:54 sri /tmp/work/ext/rng.min.js -> /output/ext/rng.min.js.sri
+2022/04/25 23:41:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/rng.min.js.br /tmp/work/ext/rng.min.js
+2022/04/25 23:41:54 sri /tmp/work/jsrsasign-rsa-min.min.js -> /output/jsrsasign-rsa-min.min.js.sri
+2022/04/25 23:41:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsrsasign-rsa-min.min.js.br /tmp/work/jsrsasign-rsa-min.min.js
+2022/04/25 23:41:54 br /tmp/work/ext/rng.min.js -> /output/ext/rng.min.js.br
+2022/04/25 23:41:54 gz /tmp/work/ext/rng.min.js -> /output/ext/rng.min.js.gz
+2022/04/25 23:41:54 sri /tmp/work/ext/rng.js -> /output/ext/rng.js.sri
+2022/04/25 23:41:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/rng.js.br /tmp/work/ext/rng.js
+2022/04/25 23:41:54 br /tmp/work/ext/rng.js -> /output/ext/rng.js.br
+2022/04/25 23:41:54 gz /tmp/work/ext/rng.js -> /output/ext/rng.js.gz
+2022/04/25 23:41:54 sri /tmp/work/ext/rsa.min.js -> /output/ext/rsa.min.js.sri
+2022/04/25 23:41:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/rsa.min.js.br /tmp/work/ext/rsa.min.js
+2022/04/25 23:41:54 br /tmp/work/ext/rsa.min.js -> /output/ext/rsa.min.js.br
+2022/04/25 23:41:54 gz /tmp/work/ext/rsa.min.js -> /output/ext/rsa.min.js.gz
+2022/04/25 23:41:54 sri /tmp/work/ext/rsa.js -> /output/ext/rsa.js.sri
+2022/04/25 23:41:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/rsa.js.br /tmp/work/ext/rsa.js
+2022/04/25 23:41:54 sri /tmp/work/ext/rsa-min.min.js -> /output/ext/rsa-min.min.js.sri
+2022/04/25 23:41:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/rsa-min.min.js.br /tmp/work/ext/rsa-min.min.js
+2022/04/25 23:41:54 br /tmp/work/ext/rsa.js -> /output/ext/rsa.js.br
+2022/04/25 23:41:54 gz /tmp/work/ext/rsa.js -> /output/ext/rsa.js.gz
+2022/04/25 23:41:54 br /tmp/work/ext/rsa-min.min.js -> /output/ext/rsa-min.min.js.br
+2022/04/25 23:41:54 gz /tmp/work/ext/rsa-min.min.js -> /output/ext/rsa-min.min.js.gz
+2022/04/25 23:41:54 sri /tmp/work/ext/rsa-min.js -> /output/ext/rsa-min.js.sri
+2022/04/25 23:41:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/rsa-min.js.br /tmp/work/ext/rsa-min.js
+2022/04/25 23:41:54 br /tmp/work/ext/rsa-min.js -> /output/ext/rsa-min.js.br
+2022/04/25 23:41:54 gz /tmp/work/ext/rsa-min.js -> /output/ext/rsa-min.js.gz
+2022/04/25 23:41:54 sri /tmp/work/ext/rsa2-min.min.js -> /output/ext/rsa2-min.min.js.sri
+2022/04/25 23:41:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/rsa2-min.min.js.br /tmp/work/ext/rsa2-min.min.js
+2022/04/25 23:41:54 br /tmp/work/jsrsasign-rsa-min.min.js -> /output/jsrsasign-rsa-min.min.js.br
+2022/04/25 23:41:54 br /tmp/work/ext/rsa2-min.min.js -> /output/ext/rsa2-min.min.js.br
+2022/04/25 23:41:54 gz /tmp/work/ext/rsa2-min.min.js -> /output/ext/rsa2-min.min.js.gz
+2022/04/25 23:41:54 sri /tmp/work/ext/rsa2-min.js -> /output/ext/rsa2-min.js.sri
+2022/04/25 23:41:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/rsa2-min.js.br /tmp/work/ext/rsa2-min.js
+2022/04/25 23:41:54 gz /tmp/work/jsrsasign-rsa-min.min.js -> /output/jsrsasign-rsa-min.min.js.gz
+2022/04/25 23:41:54 sri /tmp/work/jsrsasign-rsa-min.js -> /output/jsrsasign-rsa-min.js.sri
+2022/04/25 23:41:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsrsasign-rsa-min.js.br /tmp/work/jsrsasign-rsa-min.js
+2022/04/25 23:41:54 sri /tmp/work/ext/rsa2.min.js -> /output/ext/rsa2.min.js.sri
+2022/04/25 23:41:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/rsa2.min.js.br /tmp/work/ext/rsa2.min.js
+2022/04/25 23:41:54 br /tmp/work/ext/rsa2-min.js -> /output/ext/rsa2-min.js.br
+2022/04/25 23:41:54 gz /tmp/work/ext/rsa2-min.js -> /output/ext/rsa2-min.js.gz
+2022/04/25 23:41:54 br /tmp/work/ext/rsa2.min.js -> /output/ext/rsa2.min.js.br
+2022/04/25 23:41:54 gz /tmp/work/ext/rsa2.min.js -> /output/ext/rsa2.min.js.gz
+2022/04/25 23:41:54 sri /tmp/work/ext/rsa2.js -> /output/ext/rsa2.js.sri
+2022/04/25 23:41:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ext/rsa2.js.br /tmp/work/ext/rsa2.js
+2022/04/25 23:41:54 br /tmp/work/ext/rsa2.js -> /output/ext/rsa2.js.br
+2022/04/25 23:41:54 gz /tmp/work/ext/rsa2.js -> /output/ext/rsa2.js.gz
+2022/04/25 23:41:54 br /tmp/work/jsrsasign-rsa-min.js -> /output/jsrsasign-rsa-min.js.br
+2022/04/25 23:41:54 gz /tmp/work/jsrsasign-rsa-min.js -> /output/jsrsasign-rsa-min.js.gz
+2022/04/25 23:41:57 sri /tmp/work/jsrsasign-all-min.min.js -> /output/jsrsasign-all-min.min.js.sri
+2022/04/25 23:41:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsrsasign-all-min.min.js.br /tmp/work/jsrsasign-all-min.min.js
+2022/04/25 23:41:57 br /tmp/work/jsrsasign-all-min.min.js -> /output/jsrsasign-all-min.min.js.br
+2022/04/25 23:41:57 gz /tmp/work/jsrsasign-all-min.min.js -> /output/jsrsasign-all-min.min.js.gz
+2022/04/25 23:41:57 sri /tmp/work/jsrsasign-all-min.js -> /output/jsrsasign-all-min.js.sri
+2022/04/25 23:41:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsrsasign-all-min.js.br /tmp/work/jsrsasign-all-min.js
+2022/04/25 23:41:58 br /tmp/work/jsrsasign-all-min.js -> /output/jsrsasign-all-min.js.br
+2022/04/25 23:41:58 gz /tmp/work/jsrsasign-all-min.js -> /output/jsrsasign-all-min.js.gz
+2022/04/25 23:41:58 processed jsrsasign
