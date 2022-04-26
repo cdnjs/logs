@@ -1,0 +1,110 @@
+2022/04/26 21:02:51 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/04/26 21:02:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/shaka-player.compiled.debug.externs.min.js /tmp/work/dist/shaka-player.compiled.debug.externs.js
+2022/04/26 21:02:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/shaka-player.compiled.debug.min.js /tmp/work/dist/shaka-player.compiled.debug.js
+2022/04/26 21:02:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shaka-player.compiled.d.ts.br /tmp/work/dist/shaka-player.compiled.d.ts
+2022/04/26 21:02:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shaka-player.compiled.debug.d.ts.br /tmp/work/dist/shaka-player.compiled.debug.d.ts
+2022/04/26 21:02:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/shaka-player.compiled.externs.min.js /tmp/work/dist/shaka-player.compiled.externs.js
+2022/04/26 21:02:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/shaka-player.compiled.min.js /tmp/work/dist/shaka-player.compiled.js
+2022/04/26 21:02:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shaka-player.compiled.map.br /tmp/work/dist/shaka-player.compiled.map
+2022/04/26 21:02:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shaka-player.compiled.debug.map.br /tmp/work/dist/shaka-player.compiled.debug.map
+2022/04/26 21:02:52 br /tmp/work/dist/shaka-player.compiled.d.ts -> /output/shaka-player.compiled.d.ts.br
+2022/04/26 21:02:52 br /tmp/work/dist/shaka-player.compiled.debug.d.ts -> /output/shaka-player.compiled.debug.d.ts.br
+2022/04/26 21:02:52 gz /tmp/work/dist/shaka-player.compiled.d.ts -> /output/shaka-player.compiled.d.ts.gz
+2022/04/26 21:02:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shaka-player.ui.d.ts.br /tmp/work/dist/shaka-player.ui.d.ts
+2022/04/26 21:02:52 gz /tmp/work/dist/shaka-player.compiled.debug.d.ts -> /output/shaka-player.compiled.debug.d.ts.gz
+2022/04/26 21:02:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shaka-player.ui.debug.d.ts.br /tmp/work/dist/shaka-player.ui.debug.d.ts
+2022/04/26 21:02:52 sri /tmp/work/dist/shaka-player.compiled.externs.min.js -> /output/shaka-player.compiled.externs.min.js.sri
+2022/04/26 21:02:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shaka-player.compiled.externs.min.js.br /tmp/work/dist/shaka-player.compiled.externs.min.js
+2022/04/26 21:02:52 sri /tmp/work/dist/shaka-player.compiled.debug.externs.min.js -> /output/shaka-player.compiled.debug.externs.min.js.sri
+2022/04/26 21:02:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shaka-player.compiled.debug.externs.min.js.br /tmp/work/dist/shaka-player.compiled.debug.externs.min.js
+2022/04/26 21:02:52 br /tmp/work/dist/shaka-player.compiled.externs.min.js -> /output/shaka-player.compiled.externs.min.js.br
+2022/04/26 21:02:52 gz /tmp/work/dist/shaka-player.compiled.externs.min.js -> /output/shaka-player.compiled.externs.min.js.gz
+2022/04/26 21:02:52 sri /tmp/work/dist/shaka-player.compiled.externs.js -> /output/shaka-player.compiled.externs.js.sri
+2022/04/26 21:02:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shaka-player.compiled.externs.js.br /tmp/work/dist/shaka-player.compiled.externs.js
+2022/04/26 21:02:52 br /tmp/work/dist/shaka-player.compiled.debug.externs.min.js -> /output/shaka-player.compiled.debug.externs.min.js.br
+2022/04/26 21:02:52 gz /tmp/work/dist/shaka-player.compiled.debug.externs.min.js -> /output/shaka-player.compiled.debug.externs.min.js.gz
+2022/04/26 21:02:52 sri /tmp/work/dist/shaka-player.compiled.debug.externs.js -> /output/shaka-player.compiled.debug.externs.js.sri
+2022/04/26 21:02:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shaka-player.compiled.debug.externs.js.br /tmp/work/dist/shaka-player.compiled.debug.externs.js
+2022/04/26 21:02:53 br /tmp/work/dist/shaka-player.compiled.externs.js -> /output/shaka-player.compiled.externs.js.br
+2022/04/26 21:02:53 gz /tmp/work/dist/shaka-player.compiled.externs.js -> /output/shaka-player.compiled.externs.js.gz
+2022/04/26 21:02:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/shaka-player.ui.debug.externs.min.js /tmp/work/dist/shaka-player.ui.debug.externs.js
+2022/04/26 21:02:53 br /tmp/work/dist/shaka-player.compiled.debug.externs.js -> /output/shaka-player.compiled.debug.externs.js.br
+2022/04/26 21:02:53 gz /tmp/work/dist/shaka-player.compiled.debug.externs.js -> /output/shaka-player.compiled.debug.externs.js.gz
+2022/04/26 21:02:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/shaka-player.ui.debug.min.js /tmp/work/dist/shaka-player.ui.debug.js
+2022/04/26 21:02:53 br /tmp/work/dist/shaka-player.ui.debug.d.ts -> /output/shaka-player.ui.debug.d.ts.br
+2022/04/26 21:02:53 br /tmp/work/dist/shaka-player.ui.d.ts -> /output/shaka-player.ui.d.ts.br
+2022/04/26 21:02:53 gz /tmp/work/dist/shaka-player.ui.debug.d.ts -> /output/shaka-player.ui.debug.d.ts.gz
+2022/04/26 21:02:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shaka-player.ui.debug.map.br /tmp/work/dist/shaka-player.ui.debug.map
+2022/04/26 21:02:53 gz /tmp/work/dist/shaka-player.ui.d.ts -> /output/shaka-player.ui.d.ts.gz
+2022/04/26 21:02:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/shaka-player.ui.externs.min.js /tmp/work/dist/shaka-player.ui.externs.js
+2022/04/26 21:02:53 sri /tmp/work/dist/shaka-player.ui.debug.externs.min.js -> /output/shaka-player.ui.debug.externs.min.js.sri
+2022/04/26 21:02:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shaka-player.ui.debug.externs.min.js.br /tmp/work/dist/shaka-player.ui.debug.externs.min.js
+2022/04/26 21:02:53 br /tmp/work/dist/shaka-player.ui.debug.externs.min.js -> /output/shaka-player.ui.debug.externs.min.js.br
+2022/04/26 21:02:53 gz /tmp/work/dist/shaka-player.ui.debug.externs.min.js -> /output/shaka-player.ui.debug.externs.min.js.gz
+2022/04/26 21:02:53 sri /tmp/work/dist/shaka-player.ui.debug.externs.js -> /output/shaka-player.ui.debug.externs.js.sri
+2022/04/26 21:02:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shaka-player.ui.debug.externs.js.br /tmp/work/dist/shaka-player.ui.debug.externs.js
+2022/04/26 21:02:54 sri /tmp/work/dist/shaka-player.ui.externs.min.js -> /output/shaka-player.ui.externs.min.js.sri
+2022/04/26 21:02:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shaka-player.ui.externs.min.js.br /tmp/work/dist/shaka-player.ui.externs.min.js
+2022/04/26 21:02:54 br /tmp/work/dist/shaka-player.ui.externs.min.js -> /output/shaka-player.ui.externs.min.js.br
+2022/04/26 21:02:54 gz /tmp/work/dist/shaka-player.ui.externs.min.js -> /output/shaka-player.ui.externs.min.js.gz
+2022/04/26 21:02:54 sri /tmp/work/dist/shaka-player.ui.externs.js -> /output/shaka-player.ui.externs.js.sri
+2022/04/26 21:02:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shaka-player.ui.externs.js.br /tmp/work/dist/shaka-player.ui.externs.js
+2022/04/26 21:02:54 br /tmp/work/dist/shaka-player.ui.debug.externs.js -> /output/shaka-player.ui.debug.externs.js.br
+2022/04/26 21:02:54 gz /tmp/work/dist/shaka-player.ui.debug.externs.js -> /output/shaka-player.ui.debug.externs.js.gz
+2022/04/26 21:02:54 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/shaka-player.ui.min.js /tmp/work/dist/shaka-player.ui.js
+2022/04/26 21:02:54 br /tmp/work/dist/shaka-player.ui.externs.js -> /output/shaka-player.ui.externs.js.br
+2022/04/26 21:02:54 gz /tmp/work/dist/shaka-player.ui.externs.js -> /output/shaka-player.ui.externs.js.gz
+2022/04/26 21:02:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shaka-player.ui.map.br /tmp/work/dist/shaka-player.ui.map
+2022/04/26 21:02:56 br /tmp/work/dist/shaka-player.compiled.map -> /output/shaka-player.compiled.map.br
+2022/04/26 21:02:57 gz /tmp/work/dist/shaka-player.compiled.map -> /output/shaka-player.compiled.map.gz
+2022/04/26 21:02:57 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/controls.min.css /tmp/work/dist/controls.css
+2022/04/26 21:02:57 sri /tmp/work/dist/controls.min.css -> /output/controls.min.css.sri
+2022/04/26 21:02:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/controls.min.css.br /tmp/work/dist/controls.min.css
+2022/04/26 21:02:57 br /tmp/work/dist/controls.min.css -> /output/controls.min.css.br
+2022/04/26 21:02:57 gz /tmp/work/dist/controls.min.css -> /output/controls.min.css.gz
+2022/04/26 21:02:57 sri /tmp/work/dist/controls.css -> /output/controls.css.sri
+2022/04/26 21:02:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/controls.css.br /tmp/work/dist/controls.css
+2022/04/26 21:02:57 br /tmp/work/dist/controls.css -> /output/controls.css.br
+2022/04/26 21:02:57 gz /tmp/work/dist/controls.css -> /output/controls.css.gz
+2022/04/26 21:02:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/controls.css.map.br /tmp/work/dist/controls.css.map
+2022/04/26 21:02:57 br /tmp/work/dist/controls.css.map -> /output/controls.css.map.br
+2022/04/26 21:02:57 gz /tmp/work/dist/controls.css.map -> /output/controls.css.map.gz
+2022/04/26 21:02:58 br /tmp/work/dist/shaka-player.compiled.debug.map -> /output/shaka-player.compiled.debug.map.br
+2022/04/26 21:02:58 gz /tmp/work/dist/shaka-player.compiled.debug.map -> /output/shaka-player.compiled.debug.map.gz
+2022/04/26 21:03:00 br /tmp/work/dist/shaka-player.ui.map -> /output/shaka-player.ui.map.br
+2022/04/26 21:03:00 gz /tmp/work/dist/shaka-player.ui.map -> /output/shaka-player.ui.map.gz
+2022/04/26 21:03:00 br /tmp/work/dist/shaka-player.ui.debug.map -> /output/shaka-player.ui.debug.map.br
+2022/04/26 21:03:01 gz /tmp/work/dist/shaka-player.ui.debug.map -> /output/shaka-player.ui.debug.map.gz
+2022/04/26 21:03:04 sri /tmp/work/dist/shaka-player.compiled.debug.min.js -> /output/shaka-player.compiled.debug.min.js.sri
+2022/04/26 21:03:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shaka-player.compiled.debug.min.js.br /tmp/work/dist/shaka-player.compiled.debug.min.js
+2022/04/26 21:03:06 sri /tmp/work/dist/shaka-player.ui.debug.min.js -> /output/shaka-player.ui.debug.min.js.sri
+2022/04/26 21:03:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shaka-player.ui.debug.min.js.br /tmp/work/dist/shaka-player.ui.debug.min.js
+2022/04/26 21:03:07 br /tmp/work/dist/shaka-player.compiled.debug.min.js -> /output/shaka-player.compiled.debug.min.js.br
+2022/04/26 21:03:07 gz /tmp/work/dist/shaka-player.compiled.debug.min.js -> /output/shaka-player.compiled.debug.min.js.gz
+2022/04/26 21:03:07 sri /tmp/work/dist/shaka-player.compiled.debug.js -> /output/shaka-player.compiled.debug.js.sri
+2022/04/26 21:03:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shaka-player.compiled.debug.js.br /tmp/work/dist/shaka-player.compiled.debug.js
+2022/04/26 21:03:07 sri /tmp/work/dist/shaka-player.compiled.min.js -> /output/shaka-player.compiled.min.js.sri
+2022/04/26 21:03:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shaka-player.compiled.min.js.br /tmp/work/dist/shaka-player.compiled.min.js
+2022/04/26 21:03:08 br /tmp/work/dist/shaka-player.ui.debug.min.js -> /output/shaka-player.ui.debug.min.js.br
+2022/04/26 21:03:08 gz /tmp/work/dist/shaka-player.ui.debug.min.js -> /output/shaka-player.ui.debug.min.js.gz
+2022/04/26 21:03:08 sri /tmp/work/dist/shaka-player.ui.debug.js -> /output/shaka-player.ui.debug.js.sri
+2022/04/26 21:03:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shaka-player.ui.debug.js.br /tmp/work/dist/shaka-player.ui.debug.js
+2022/04/26 21:03:09 br /tmp/work/dist/shaka-player.compiled.min.js -> /output/shaka-player.compiled.min.js.br
+2022/04/26 21:03:09 gz /tmp/work/dist/shaka-player.compiled.min.js -> /output/shaka-player.compiled.min.js.gz
+2022/04/26 21:03:09 sri /tmp/work/dist/shaka-player.compiled.js -> /output/shaka-player.compiled.js.sri
+2022/04/26 21:03:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shaka-player.compiled.js.br /tmp/work/dist/shaka-player.compiled.js
+2022/04/26 21:03:09 br /tmp/work/dist/shaka-player.compiled.debug.js -> /output/shaka-player.compiled.debug.js.br
+2022/04/26 21:03:09 gz /tmp/work/dist/shaka-player.compiled.debug.js -> /output/shaka-player.compiled.debug.js.gz
+2022/04/26 21:03:10 sri /tmp/work/dist/shaka-player.ui.min.js -> /output/shaka-player.ui.min.js.sri
+2022/04/26 21:03:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shaka-player.ui.min.js.br /tmp/work/dist/shaka-player.ui.min.js
+2022/04/26 21:03:10 br /tmp/work/dist/shaka-player.compiled.js -> /output/shaka-player.compiled.js.br
+2022/04/26 21:03:10 gz /tmp/work/dist/shaka-player.compiled.js -> /output/shaka-player.compiled.js.gz
+2022/04/26 21:03:11 br /tmp/work/dist/shaka-player.ui.min.js -> /output/shaka-player.ui.min.js.br
+2022/04/26 21:03:11 gz /tmp/work/dist/shaka-player.ui.min.js -> /output/shaka-player.ui.min.js.gz
+2022/04/26 21:03:11 sri /tmp/work/dist/shaka-player.ui.js -> /output/shaka-player.ui.js.sri
+2022/04/26 21:03:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/shaka-player.ui.js.br /tmp/work/dist/shaka-player.ui.js
+2022/04/26 21:03:11 br /tmp/work/dist/shaka-player.ui.debug.js -> /output/shaka-player.ui.debug.js.br
+2022/04/26 21:03:11 gz /tmp/work/dist/shaka-player.ui.debug.js -> /output/shaka-player.ui.debug.js.gz
+2022/04/26 21:03:12 br /tmp/work/dist/shaka-player.ui.js -> /output/shaka-player.ui.js.br
+2022/04/26 21:03:12 gz /tmp/work/dist/shaka-player.ui.js -> /output/shaka-player.ui.js.gz
+2022/04/26 21:03:12 processed shaka-player
