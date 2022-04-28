@@ -1,0 +1,11 @@
+2022/04/28 07:37:57 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/04/28 07:37:57 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.min.js /tmp/work/dist/index.js
+2022/04/28 07:38:04 sri /tmp/work/dist/index.min.js -> /output/index.min.js.sri
+2022/04/28 07:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/dist/index.min.js
+2022/04/28 07:38:05 br /tmp/work/dist/index.min.js -> /output/index.min.js.br
+2022/04/28 07:38:05 gz /tmp/work/dist/index.min.js -> /output/index.min.js.gz
+2022/04/28 07:38:05 sri /tmp/work/dist/index.js -> /output/index.js.sri
+2022/04/28 07:38:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/dist/index.js
+2022/04/28 07:38:06 br /tmp/work/dist/index.js -> /output/index.js.br
+2022/04/28 07:38:06 gz /tmp/work/dist/index.js -> /output/index.js.gz
+2022/04/28 07:38:06 processed aitmed-cadl
