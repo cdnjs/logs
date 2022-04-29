@@ -1,0 +1,11 @@
+2022/04/29 15:33:41 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/04/29 15:33:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/index.min.js /tmp/work/build/index.js
+2022/04/29 15:33:41 sri /tmp/work/build/index.min.js -> /output/index.min.js.sri
+2022/04/29 15:33:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/build/index.min.js
+2022/04/29 15:33:41 br /tmp/work/build/index.min.js -> /output/index.min.js.br
+2022/04/29 15:33:41 gz /tmp/work/build/index.min.js -> /output/index.min.js.gz
+2022/04/29 15:33:41 sri /tmp/work/build/index.js -> /output/index.js.sri
+2022/04/29 15:33:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/build/index.js
+2022/04/29 15:33:41 br /tmp/work/build/index.js -> /output/index.js.br
+2022/04/29 15:33:41 gz /tmp/work/build/index.js -> /output/index.js.gz
+2022/04/29 15:33:41 processed css-selector-generator
