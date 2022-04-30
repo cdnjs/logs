@@ -1,0 +1,65 @@
+2022/04/30 17:38:02 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/04/30 17:38:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/jsuites.layout.min.js /tmp/work/dist/jsuites.layout.js
+2022/04/30 17:38:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/jsuites.basic.min.js /tmp/work/dist/jsuites.basic.js
+2022/04/30 17:38:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/jsuites.webcomponents.min.js /tmp/work/dist/jsuites.webcomponents.js
+2022/04/30 17:38:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/jsuites.min.js /tmp/work/dist/jsuites.js
+2022/04/30 17:38:02 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/jsuites.layout.min.css /tmp/work/dist/jsuites.layout.css
+2022/04/30 17:38:02 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/jsuites.min.css /tmp/work/dist/jsuites.css
+2022/04/30 17:38:02 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/jsuites.basic.min.css /tmp/work/dist/jsuites.basic.css
+2022/04/30 17:38:02 sri /tmp/work/dist/jsuites.webcomponents.min.js -> /output/jsuites.webcomponents.min.js.sri
+2022/04/30 17:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsuites.webcomponents.min.js.br /tmp/work/dist/jsuites.webcomponents.min.js
+2022/04/30 17:38:02 br /tmp/work/dist/jsuites.webcomponents.min.js -> /output/jsuites.webcomponents.min.js.br
+2022/04/30 17:38:02 gz /tmp/work/dist/jsuites.webcomponents.min.js -> /output/jsuites.webcomponents.min.js.gz
+2022/04/30 17:38:02 sri /tmp/work/dist/jsuites.webcomponents.js -> /output/jsuites.webcomponents.js.sri
+2022/04/30 17:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsuites.webcomponents.js.br /tmp/work/dist/jsuites.webcomponents.js
+2022/04/30 17:38:02 br /tmp/work/dist/jsuites.webcomponents.js -> /output/jsuites.webcomponents.js.br
+2022/04/30 17:38:02 gz /tmp/work/dist/jsuites.webcomponents.js -> /output/jsuites.webcomponents.js.gz
+2022/04/30 17:38:02 sri /tmp/work/dist/jsuites.basic.min.css -> /output/jsuites.basic.min.css.sri
+2022/04/30 17:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsuites.basic.min.css.br /tmp/work/dist/jsuites.basic.min.css
+2022/04/30 17:38:02 sri /tmp/work/dist/jsuites.layout.min.css -> /output/jsuites.layout.min.css.sri
+2022/04/30 17:38:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsuites.layout.min.css.br /tmp/work/dist/jsuites.layout.min.css
+2022/04/30 17:38:03 sri /tmp/work/dist/jsuites.min.css -> /output/jsuites.min.css.sri
+2022/04/30 17:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsuites.min.css.br /tmp/work/dist/jsuites.min.css
+2022/04/30 17:38:03 br /tmp/work/dist/jsuites.layout.min.css -> /output/jsuites.layout.min.css.br
+2022/04/30 17:38:03 br /tmp/work/dist/jsuites.basic.min.css -> /output/jsuites.basic.min.css.br
+2022/04/30 17:38:03 gz /tmp/work/dist/jsuites.layout.min.css -> /output/jsuites.layout.min.css.gz
+2022/04/30 17:38:03 sri /tmp/work/dist/jsuites.layout.css -> /output/jsuites.layout.css.sri
+2022/04/30 17:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsuites.layout.css.br /tmp/work/dist/jsuites.layout.css
+2022/04/30 17:38:03 gz /tmp/work/dist/jsuites.basic.min.css -> /output/jsuites.basic.min.css.gz
+2022/04/30 17:38:03 sri /tmp/work/dist/jsuites.basic.css -> /output/jsuites.basic.css.sri
+2022/04/30 17:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsuites.basic.css.br /tmp/work/dist/jsuites.basic.css
+2022/04/30 17:38:03 br /tmp/work/dist/jsuites.min.css -> /output/jsuites.min.css.br
+2022/04/30 17:38:03 gz /tmp/work/dist/jsuites.min.css -> /output/jsuites.min.css.gz
+2022/04/30 17:38:03 sri /tmp/work/dist/jsuites.css -> /output/jsuites.css.sri
+2022/04/30 17:38:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsuites.css.br /tmp/work/dist/jsuites.css
+2022/04/30 17:38:03 br /tmp/work/dist/jsuites.layout.css -> /output/jsuites.layout.css.br
+2022/04/30 17:38:03 gz /tmp/work/dist/jsuites.layout.css -> /output/jsuites.layout.css.gz
+2022/04/30 17:38:03 br /tmp/work/dist/jsuites.basic.css -> /output/jsuites.basic.css.br
+2022/04/30 17:38:03 gz /tmp/work/dist/jsuites.basic.css -> /output/jsuites.basic.css.gz
+2022/04/30 17:38:03 br /tmp/work/dist/jsuites.css -> /output/jsuites.css.br
+2022/04/30 17:38:03 gz /tmp/work/dist/jsuites.css -> /output/jsuites.css.gz
+2022/04/30 17:38:04 sri /tmp/work/dist/jsuites.layout.min.js -> /output/jsuites.layout.min.js.sri
+2022/04/30 17:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsuites.layout.min.js.br /tmp/work/dist/jsuites.layout.min.js
+2022/04/30 17:38:04 br /tmp/work/dist/jsuites.layout.min.js -> /output/jsuites.layout.min.js.br
+2022/04/30 17:38:04 gz /tmp/work/dist/jsuites.layout.min.js -> /output/jsuites.layout.min.js.gz
+2022/04/30 17:38:04 sri /tmp/work/dist/jsuites.layout.js -> /output/jsuites.layout.js.sri
+2022/04/30 17:38:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsuites.layout.js.br /tmp/work/dist/jsuites.layout.js
+2022/04/30 17:38:04 br /tmp/work/dist/jsuites.layout.js -> /output/jsuites.layout.js.br
+2022/04/30 17:38:04 gz /tmp/work/dist/jsuites.layout.js -> /output/jsuites.layout.js.gz
+2022/04/30 17:38:06 sri /tmp/work/dist/jsuites.basic.min.js -> /output/jsuites.basic.min.js.sri
+2022/04/30 17:38:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsuites.basic.min.js.br /tmp/work/dist/jsuites.basic.min.js
+2022/04/30 17:38:06 sri /tmp/work/dist/jsuites.min.js -> /output/jsuites.min.js.sri
+2022/04/30 17:38:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsuites.min.js.br /tmp/work/dist/jsuites.min.js
+2022/04/30 17:38:06 br /tmp/work/dist/jsuites.basic.min.js -> /output/jsuites.basic.min.js.br
+2022/04/30 17:38:06 gz /tmp/work/dist/jsuites.basic.min.js -> /output/jsuites.basic.min.js.gz
+2022/04/30 17:38:06 sri /tmp/work/dist/jsuites.basic.js -> /output/jsuites.basic.js.sri
+2022/04/30 17:38:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsuites.basic.js.br /tmp/work/dist/jsuites.basic.js
+2022/04/30 17:38:07 br /tmp/work/dist/jsuites.min.js -> /output/jsuites.min.js.br
+2022/04/30 17:38:07 gz /tmp/work/dist/jsuites.min.js -> /output/jsuites.min.js.gz
+2022/04/30 17:38:07 sri /tmp/work/dist/jsuites.js -> /output/jsuites.js.sri
+2022/04/30 17:38:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsuites.js.br /tmp/work/dist/jsuites.js
+2022/04/30 17:38:07 br /tmp/work/dist/jsuites.basic.js -> /output/jsuites.basic.js.br
+2022/04/30 17:38:07 gz /tmp/work/dist/jsuites.basic.js -> /output/jsuites.basic.js.gz
+2022/04/30 17:38:08 br /tmp/work/dist/jsuites.js -> /output/jsuites.js.br
+2022/04/30 17:38:08 gz /tmp/work/dist/jsuites.js -> /output/jsuites.js.gz
+2022/04/30 17:38:08 processed jsuites
