@@ -1,0 +1,50 @@
+2022/05/30 14:02:37 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/05/30 14:02:37 match *.json in /tmp/work/test but doesn't exists
+2022/05/30 14:02:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/index.min.js /tmp/work/lib/index.js
+2022/05/30 14:02:37 /tmp/work/lib/overlay.min.js is already compressed
+2022/05/30 14:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.map.br /tmp/work/lib/index.js.map
+2022/05/30 14:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/overlay.min.js.map.br /tmp/work/lib/overlay.min.js.map
+2022/05/30 14:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.d.ts.br /tmp/work/lib/index.d.ts
+2022/05/30 14:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modules/injectExtendData.d.ts.br /tmp/work/lib/modules/injectExtendData.d.ts
+2022/05/30 14:02:37 sri /tmp/work/lib/overlay.min.js -> /output/overlay.min.js.sri
+2022/05/30 14:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modules/mergeCombatant.d.ts.br /tmp/work/lib/modules/mergeCombatant.d.ts
+2022/05/30 14:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/overlay.min.js.br /tmp/work/lib/overlay.min.js
+2022/05/30 14:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modules/isCEFSharp.d.ts.br /tmp/work/lib/modules/isCEFSharp.d.ts
+2022/05/30 14:02:37 br /tmp/work/lib/modules/injectExtendData.d.ts -> /output/modules/injectExtendData.d.ts.br
+2022/05/30 14:02:37 br /tmp/work/lib/modules/mergeCombatant.d.ts -> /output/modules/mergeCombatant.d.ts.br
+2022/05/30 14:02:37 gz /tmp/work/lib/modules/injectExtendData.d.ts -> /output/modules/injectExtendData.d.ts.gz
+2022/05/30 14:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/overlay.d.ts.br /tmp/work/lib/overlay.d.ts
+2022/05/30 14:02:37 br /tmp/work/lib/index.d.ts -> /output/index.d.ts.br
+2022/05/30 14:02:37 br /tmp/work/lib/modules/isCEFSharp.d.ts -> /output/modules/isCEFSharp.d.ts.br
+2022/05/30 14:02:37 gz /tmp/work/lib/modules/mergeCombatant.d.ts -> /output/modules/mergeCombatant.d.ts.gz
+2022/05/30 14:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types.d.ts.br /tmp/work/lib/types.d.ts
+2022/05/30 14:02:37 gz /tmp/work/lib/modules/isCEFSharp.d.ts -> /output/modules/isCEFSharp.d.ts.gz
+2022/05/30 14:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/utils/adder.d.ts.br /tmp/work/lib/utils/adder.d.ts
+2022/05/30 14:02:37 gz /tmp/work/lib/index.d.ts -> /output/index.d.ts.gz
+2022/05/30 14:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/utils/getter.d.ts.br /tmp/work/lib/utils/getter.d.ts
+2022/05/30 14:02:37 br /tmp/work/lib/overlay.d.ts -> /output/overlay.d.ts.br
+2022/05/30 14:02:37 br /tmp/work/lib/types.d.ts -> /output/types.d.ts.br
+2022/05/30 14:02:37 br /tmp/work/lib/utils/adder.d.ts -> /output/utils/adder.d.ts.br
+2022/05/30 14:02:37 gz /tmp/work/lib/utils/adder.d.ts -> /output/utils/adder.d.ts.gz
+2022/05/30 14:02:37 gz /tmp/work/lib/overlay.d.ts -> /output/overlay.d.ts.gz
+2022/05/30 14:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/utils/logger.d.ts.br /tmp/work/lib/utils/logger.d.ts
+2022/05/30 14:02:37 br /tmp/work/lib/utils/getter.d.ts -> /output/utils/getter.d.ts.br
+2022/05/30 14:02:37 gz /tmp/work/lib/types.d.ts -> /output/types.d.ts.gz
+2022/05/30 14:02:37 gz /tmp/work/lib/utils/getter.d.ts -> /output/utils/getter.d.ts.gz
+2022/05/30 14:02:37 br /tmp/work/lib/utils/logger.d.ts -> /output/utils/logger.d.ts.br
+2022/05/30 14:02:37 gz /tmp/work/lib/utils/logger.d.ts -> /output/utils/logger.d.ts.gz
+2022/05/30 14:02:37 br /tmp/work/lib/overlay.min.js -> /output/overlay.min.js.br
+2022/05/30 14:02:37 gz /tmp/work/lib/overlay.min.js -> /output/overlay.min.js.gz
+2022/05/30 14:02:37 br /tmp/work/lib/index.js.map -> /output/index.js.map.br
+2022/05/30 14:02:37 gz /tmp/work/lib/index.js.map -> /output/index.js.map.gz
+2022/05/30 14:02:37 br /tmp/work/lib/overlay.min.js.map -> /output/overlay.min.js.map.br
+2022/05/30 14:02:37 gz /tmp/work/lib/overlay.min.js.map -> /output/overlay.min.js.map.gz
+2022/05/30 14:02:37 sri /tmp/work/lib/index.min.js -> /output/index.min.js.sri
+2022/05/30 14:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/lib/index.min.js
+2022/05/30 14:02:37 br /tmp/work/lib/index.min.js -> /output/index.min.js.br
+2022/05/30 14:02:37 gz /tmp/work/lib/index.min.js -> /output/index.min.js.gz
+2022/05/30 14:02:37 sri /tmp/work/lib/index.js -> /output/index.js.sri
+2022/05/30 14:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/lib/index.js
+2022/05/30 14:02:37 br /tmp/work/lib/index.js -> /output/index.js.br
+2022/05/30 14:02:37 gz /tmp/work/lib/index.js -> /output/index.js.gz
+2022/05/30 14:02:37 processed ffxiv-overlay-api
