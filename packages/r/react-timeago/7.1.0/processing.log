@@ -1,0 +1,686 @@
+2022/06/10 17:01:49 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/06/10 17:01:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/dateParser.min.js /tmp/work/lib/dateParser.js
+2022/06/10 17:01:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/formatters/buildFormatter.min.js /tmp/work/lib/formatters/buildFormatter.js
+2022/06/10 17:01:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/index.min.js /tmp/work/lib/index.js
+2022/06/10 17:01:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/af.min.js /tmp/work/lib/language-strings/af.js
+2022/06/10 17:01:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/defaultFormatter.min.js /tmp/work/lib/defaultFormatter.js
+2022/06/10 17:01:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/ar.min.js /tmp/work/lib/language-strings/ar.js
+2022/06/10 17:01:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/az-short.min.js /tmp/work/lib/language-strings/az-short.js
+2022/06/10 17:01:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/az.min.js /tmp/work/lib/language-strings/az.js
+2022/06/10 17:01:49 sri /tmp/work/lib/language-strings/az-short.min.js -> /output/language-strings/az-short.min.js.sri
+2022/06/10 17:01:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/az-short.min.js.br /tmp/work/lib/language-strings/az-short.min.js
+2022/06/10 17:01:49 sri /tmp/work/lib/defaultFormatter.min.js -> /output/defaultFormatter.min.js.sri
+2022/06/10 17:01:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/defaultFormatter.min.js.br /tmp/work/lib/defaultFormatter.min.js
+2022/06/10 17:01:49 sri /tmp/work/lib/language-strings/af.min.js -> /output/language-strings/af.min.js.sri
+2022/06/10 17:01:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/af.min.js.br /tmp/work/lib/language-strings/af.min.js
+2022/06/10 17:01:49 br /tmp/work/lib/defaultFormatter.min.js -> /output/defaultFormatter.min.js.br
+2022/06/10 17:01:49 gz /tmp/work/lib/defaultFormatter.min.js -> /output/defaultFormatter.min.js.gz
+2022/06/10 17:01:49 sri /tmp/work/lib/defaultFormatter.js -> /output/defaultFormatter.js.sri
+2022/06/10 17:01:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/defaultFormatter.js.br /tmp/work/lib/defaultFormatter.js
+2022/06/10 17:01:49 br /tmp/work/lib/language-strings/az-short.min.js -> /output/language-strings/az-short.min.js.br
+2022/06/10 17:01:49 gz /tmp/work/lib/language-strings/az-short.min.js -> /output/language-strings/az-short.min.js.gz
+2022/06/10 17:01:49 sri /tmp/work/lib/language-strings/az-short.js -> /output/language-strings/az-short.js.sri
+2022/06/10 17:01:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/az-short.js.br /tmp/work/lib/language-strings/az-short.js
+2022/06/10 17:01:49 br /tmp/work/lib/language-strings/af.min.js -> /output/language-strings/af.min.js.br
+2022/06/10 17:01:49 gz /tmp/work/lib/language-strings/af.min.js -> /output/language-strings/af.min.js.gz
+2022/06/10 17:01:49 br /tmp/work/lib/defaultFormatter.js -> /output/defaultFormatter.js.br
+2022/06/10 17:01:49 sri /tmp/work/lib/language-strings/af.js -> /output/language-strings/af.js.sri
+2022/06/10 17:01:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/af.js.br /tmp/work/lib/language-strings/af.js
+2022/06/10 17:01:49 br /tmp/work/lib/language-strings/az-short.js -> /output/language-strings/az-short.js.br
+2022/06/10 17:01:49 gz /tmp/work/lib/defaultFormatter.js -> /output/defaultFormatter.js.gz
+2022/06/10 17:01:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/be.min.js /tmp/work/lib/language-strings/be.js
+2022/06/10 17:01:49 gz /tmp/work/lib/language-strings/az-short.js -> /output/language-strings/az-short.js.gz
+2022/06/10 17:01:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/bg.min.js /tmp/work/lib/language-strings/bg.js
+2022/06/10 17:01:49 br /tmp/work/lib/language-strings/af.js -> /output/language-strings/af.js.br
+2022/06/10 17:01:49 gz /tmp/work/lib/language-strings/af.js -> /output/language-strings/af.js.gz
+2022/06/10 17:01:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/bs.min.js /tmp/work/lib/language-strings/bs.js
+2022/06/10 17:01:49 sri /tmp/work/lib/language-strings/az.min.js -> /output/language-strings/az.min.js.sri
+2022/06/10 17:01:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/az.min.js.br /tmp/work/lib/language-strings/az.min.js
+2022/06/10 17:01:49 br /tmp/work/lib/language-strings/az.min.js -> /output/language-strings/az.min.js.br
+2022/06/10 17:01:49 gz /tmp/work/lib/language-strings/az.min.js -> /output/language-strings/az.min.js.gz
+2022/06/10 17:01:49 sri /tmp/work/lib/language-strings/az.js -> /output/language-strings/az.js.sri
+2022/06/10 17:01:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/az.js.br /tmp/work/lib/language-strings/az.js
+2022/06/10 17:01:49 br /tmp/work/lib/language-strings/az.js -> /output/language-strings/az.js.br
+2022/06/10 17:01:49 gz /tmp/work/lib/language-strings/az.js -> /output/language-strings/az.js.gz
+2022/06/10 17:01:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/ca.min.js /tmp/work/lib/language-strings/ca.js
+2022/06/10 17:01:49 sri /tmp/work/lib/language-strings/ar.min.js -> /output/language-strings/ar.min.js.sri
+2022/06/10 17:01:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/ar.min.js.br /tmp/work/lib/language-strings/ar.min.js
+2022/06/10 17:01:49 br /tmp/work/lib/language-strings/ar.min.js -> /output/language-strings/ar.min.js.br
+2022/06/10 17:01:49 sri /tmp/work/lib/dateParser.min.js -> /output/dateParser.min.js.sri
+2022/06/10 17:01:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dateParser.min.js.br /tmp/work/lib/dateParser.min.js
+2022/06/10 17:01:49 gz /tmp/work/lib/language-strings/ar.min.js -> /output/language-strings/ar.min.js.gz
+2022/06/10 17:01:49 sri /tmp/work/lib/language-strings/ar.js -> /output/language-strings/ar.js.sri
+2022/06/10 17:01:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/ar.js.br /tmp/work/lib/language-strings/ar.js
+2022/06/10 17:01:49 br /tmp/work/lib/dateParser.min.js -> /output/dateParser.min.js.br
+2022/06/10 17:01:49 gz /tmp/work/lib/dateParser.min.js -> /output/dateParser.min.js.gz
+2022/06/10 17:01:49 sri /tmp/work/lib/dateParser.js -> /output/dateParser.js.sri
+2022/06/10 17:01:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dateParser.js.br /tmp/work/lib/dateParser.js
+2022/06/10 17:01:49 br /tmp/work/lib/language-strings/ar.js -> /output/language-strings/ar.js.br
+2022/06/10 17:01:49 gz /tmp/work/lib/language-strings/ar.js -> /output/language-strings/ar.js.gz
+2022/06/10 17:01:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/cs.min.js /tmp/work/lib/language-strings/cs.js
+2022/06/10 17:01:49 br /tmp/work/lib/dateParser.js -> /output/dateParser.js.br
+2022/06/10 17:01:49 gz /tmp/work/lib/dateParser.js -> /output/dateParser.js.gz
+2022/06/10 17:01:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/cy.min.js /tmp/work/lib/language-strings/cy.js
+2022/06/10 17:01:49 sri /tmp/work/lib/formatters/buildFormatter.min.js -> /output/formatters/buildFormatter.min.js.sri
+2022/06/10 17:01:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/formatters/buildFormatter.min.js.br /tmp/work/lib/formatters/buildFormatter.min.js
+2022/06/10 17:01:49 br /tmp/work/lib/formatters/buildFormatter.min.js -> /output/formatters/buildFormatter.min.js.br
+2022/06/10 17:01:49 gz /tmp/work/lib/formatters/buildFormatter.min.js -> /output/formatters/buildFormatter.min.js.gz
+2022/06/10 17:01:49 sri /tmp/work/lib/formatters/buildFormatter.js -> /output/formatters/buildFormatter.js.sri
+2022/06/10 17:01:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/formatters/buildFormatter.js.br /tmp/work/lib/formatters/buildFormatter.js
+2022/06/10 17:01:49 br /tmp/work/lib/formatters/buildFormatter.js -> /output/formatters/buildFormatter.js.br
+2022/06/10 17:01:49 gz /tmp/work/lib/formatters/buildFormatter.js -> /output/formatters/buildFormatter.js.gz
+2022/06/10 17:01:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/da.min.js /tmp/work/lib/language-strings/da.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/bg.min.js -> /output/language-strings/bg.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/bg.min.js.br /tmp/work/lib/language-strings/bg.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/bg.min.js -> /output/language-strings/bg.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/bg.min.js -> /output/language-strings/bg.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/bg.js -> /output/language-strings/bg.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/bg.js.br /tmp/work/lib/language-strings/bg.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/bg.js -> /output/language-strings/bg.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/bg.js -> /output/language-strings/bg.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/de-short.min.js /tmp/work/lib/language-strings/de-short.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/ca.min.js -> /output/language-strings/ca.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/ca.min.js.br /tmp/work/lib/language-strings/ca.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/ca.min.js -> /output/language-strings/ca.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/ca.min.js -> /output/language-strings/ca.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/ca.js -> /output/language-strings/ca.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/ca.js.br /tmp/work/lib/language-strings/ca.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/be.min.js -> /output/language-strings/be.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/be.min.js.br /tmp/work/lib/language-strings/be.min.js
+2022/06/10 17:01:50 sri /tmp/work/lib/index.min.js -> /output/index.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/lib/index.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/ca.js -> /output/language-strings/ca.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/ca.js -> /output/language-strings/ca.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/de.min.js /tmp/work/lib/language-strings/de.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/be.min.js -> /output/language-strings/be.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/be.min.js -> /output/language-strings/be.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/be.js -> /output/language-strings/be.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/be.js.br /tmp/work/lib/language-strings/be.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/bs.min.js -> /output/language-strings/bs.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/bs.min.js.br /tmp/work/lib/language-strings/bs.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/index.min.js -> /output/index.min.js.br
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/be.js -> /output/language-strings/be.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/index.min.js -> /output/index.min.js.gz
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/be.js -> /output/language-strings/be.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/dv.min.js /tmp/work/lib/language-strings/dv.js
+2022/06/10 17:01:50 sri /tmp/work/lib/index.js -> /output/index.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/lib/index.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/bs.min.js -> /output/language-strings/bs.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/bs.min.js -> /output/language-strings/bs.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/bs.js -> /output/language-strings/bs.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/bs.js.br /tmp/work/lib/language-strings/bs.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/bs.js -> /output/language-strings/bs.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/bs.js -> /output/language-strings/bs.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/el.min.js /tmp/work/lib/language-strings/el.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/cy.min.js -> /output/language-strings/cy.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/cy.min.js.br /tmp/work/lib/language-strings/cy.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/index.js -> /output/index.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/index.js -> /output/index.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/en-short.min.js /tmp/work/lib/language-strings/en-short.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/cy.min.js -> /output/language-strings/cy.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/cy.min.js -> /output/language-strings/cy.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/cy.js -> /output/language-strings/cy.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/cy.js.br /tmp/work/lib/language-strings/cy.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/cy.js -> /output/language-strings/cy.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/cy.js -> /output/language-strings/cy.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/en.min.js /tmp/work/lib/language-strings/en.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/cs.min.js -> /output/language-strings/cs.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/cs.min.js.br /tmp/work/lib/language-strings/cs.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/cs.min.js -> /output/language-strings/cs.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/cs.min.js -> /output/language-strings/cs.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/cs.js -> /output/language-strings/cs.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/cs.js.br /tmp/work/lib/language-strings/cs.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/da.min.js -> /output/language-strings/da.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/da.min.js.br /tmp/work/lib/language-strings/da.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/cs.js -> /output/language-strings/cs.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/cs.js -> /output/language-strings/cs.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/es-short.min.js /tmp/work/lib/language-strings/es-short.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/da.min.js -> /output/language-strings/da.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/da.min.js -> /output/language-strings/da.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/da.js -> /output/language-strings/da.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/da.js.br /tmp/work/lib/language-strings/da.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/da.js -> /output/language-strings/da.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/da.js -> /output/language-strings/da.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/es.min.js /tmp/work/lib/language-strings/es.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/de-short.min.js -> /output/language-strings/de-short.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/de-short.min.js.br /tmp/work/lib/language-strings/de-short.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/de-short.min.js -> /output/language-strings/de-short.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/de-short.min.js -> /output/language-strings/de-short.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/de-short.js -> /output/language-strings/de-short.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/de-short.js.br /tmp/work/lib/language-strings/de-short.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/de-short.js -> /output/language-strings/de-short.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/de-short.js -> /output/language-strings/de-short.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/et.min.js /tmp/work/lib/language-strings/et.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/de.min.js -> /output/language-strings/de.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/de.min.js.br /tmp/work/lib/language-strings/de.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/de.min.js -> /output/language-strings/de.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/de.min.js -> /output/language-strings/de.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/de.js -> /output/language-strings/de.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/de.js.br /tmp/work/lib/language-strings/de.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/de.js -> /output/language-strings/de.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/de.js -> /output/language-strings/de.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/eu.min.js /tmp/work/lib/language-strings/eu.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/dv.min.js -> /output/language-strings/dv.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/dv.min.js.br /tmp/work/lib/language-strings/dv.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/dv.min.js -> /output/language-strings/dv.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/dv.min.js -> /output/language-strings/dv.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/dv.js -> /output/language-strings/dv.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/dv.js.br /tmp/work/lib/language-strings/dv.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/dv.js -> /output/language-strings/dv.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/dv.js -> /output/language-strings/dv.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/fa-short.min.js /tmp/work/lib/language-strings/fa-short.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/el.min.js -> /output/language-strings/el.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/el.min.js.br /tmp/work/lib/language-strings/el.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/el.min.js -> /output/language-strings/el.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/el.min.js -> /output/language-strings/el.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/el.js -> /output/language-strings/el.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/el.js.br /tmp/work/lib/language-strings/el.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/en-short.min.js -> /output/language-strings/en-short.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/en-short.min.js.br /tmp/work/lib/language-strings/en-short.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/el.js -> /output/language-strings/el.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/el.js -> /output/language-strings/el.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/fa.min.js /tmp/work/lib/language-strings/fa.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/en-short.min.js -> /output/language-strings/en-short.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/en-short.min.js -> /output/language-strings/en-short.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/en-short.js -> /output/language-strings/en-short.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/en-short.js.br /tmp/work/lib/language-strings/en-short.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/en-short.js -> /output/language-strings/en-short.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/en-short.js -> /output/language-strings/en-short.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/fi.min.js /tmp/work/lib/language-strings/fi.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/en.min.js -> /output/language-strings/en.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/en.min.js.br /tmp/work/lib/language-strings/en.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/en.min.js -> /output/language-strings/en.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/en.min.js -> /output/language-strings/en.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/en.js -> /output/language-strings/en.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/en.js.br /tmp/work/lib/language-strings/en.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/en.js -> /output/language-strings/en.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/en.js -> /output/language-strings/en.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/fr-short.min.js /tmp/work/lib/language-strings/fr-short.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/es-short.min.js -> /output/language-strings/es-short.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/es-short.min.js.br /tmp/work/lib/language-strings/es-short.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/es-short.min.js -> /output/language-strings/es-short.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/es-short.min.js -> /output/language-strings/es-short.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/es-short.js -> /output/language-strings/es-short.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/es-short.js.br /tmp/work/lib/language-strings/es-short.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/es-short.js -> /output/language-strings/es-short.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/es-short.js -> /output/language-strings/es-short.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/es.min.js -> /output/language-strings/es.min.js.sri
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/fr.min.js /tmp/work/lib/language-strings/fr.js
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/es.min.js.br /tmp/work/lib/language-strings/es.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/es.min.js -> /output/language-strings/es.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/es.min.js -> /output/language-strings/es.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/es.js -> /output/language-strings/es.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/es.js.br /tmp/work/lib/language-strings/es.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/es.js -> /output/language-strings/es.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/es.js -> /output/language-strings/es.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/gl.min.js /tmp/work/lib/language-strings/gl.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/eu.min.js -> /output/language-strings/eu.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/eu.min.js.br /tmp/work/lib/language-strings/eu.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/eu.min.js -> /output/language-strings/eu.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/eu.min.js -> /output/language-strings/eu.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/eu.js -> /output/language-strings/eu.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/eu.js.br /tmp/work/lib/language-strings/eu.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/eu.js -> /output/language-strings/eu.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/eu.js -> /output/language-strings/eu.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/he.min.js /tmp/work/lib/language-strings/he.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/et.min.js -> /output/language-strings/et.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/et.min.js.br /tmp/work/lib/language-strings/et.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/et.min.js -> /output/language-strings/et.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/et.min.js -> /output/language-strings/et.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/et.js -> /output/language-strings/et.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/et.js.br /tmp/work/lib/language-strings/et.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/et.js -> /output/language-strings/et.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/et.js -> /output/language-strings/et.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/hi.min.js /tmp/work/lib/language-strings/hi.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/fi.min.js -> /output/language-strings/fi.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/fi.min.js.br /tmp/work/lib/language-strings/fi.min.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/fa-short.min.js -> /output/language-strings/fa-short.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/fa-short.min.js.br /tmp/work/lib/language-strings/fa-short.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/fa-short.min.js -> /output/language-strings/fa-short.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/fa-short.min.js -> /output/language-strings/fa-short.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/fa-short.js -> /output/language-strings/fa-short.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/fa-short.js.br /tmp/work/lib/language-strings/fa-short.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/fi.min.js -> /output/language-strings/fi.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/fi.min.js -> /output/language-strings/fi.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/fi.js -> /output/language-strings/fi.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/fi.js.br /tmp/work/lib/language-strings/fi.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/fa-short.js -> /output/language-strings/fa-short.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/fa-short.js -> /output/language-strings/fa-short.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/hr.min.js /tmp/work/lib/language-strings/hr.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/fi.js -> /output/language-strings/fi.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/fi.js -> /output/language-strings/fi.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/hu.min.js /tmp/work/lib/language-strings/hu.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/fa.min.js -> /output/language-strings/fa.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/fa.min.js.br /tmp/work/lib/language-strings/fa.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/fa.min.js -> /output/language-strings/fa.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/fa.min.js -> /output/language-strings/fa.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/fa.js -> /output/language-strings/fa.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/fa.js.br /tmp/work/lib/language-strings/fa.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/fa.js -> /output/language-strings/fa.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/fa.js -> /output/language-strings/fa.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/hy.min.js /tmp/work/lib/language-strings/hy.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/fr-short.min.js -> /output/language-strings/fr-short.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/fr-short.min.js.br /tmp/work/lib/language-strings/fr-short.min.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/fr.min.js -> /output/language-strings/fr.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/fr.min.js.br /tmp/work/lib/language-strings/fr.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/fr-short.min.js -> /output/language-strings/fr-short.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/fr-short.min.js -> /output/language-strings/fr-short.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/fr-short.js -> /output/language-strings/fr-short.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/fr-short.js.br /tmp/work/lib/language-strings/fr-short.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/fr.min.js -> /output/language-strings/fr.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/fr.min.js -> /output/language-strings/fr.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/fr.js -> /output/language-strings/fr.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/fr.js.br /tmp/work/lib/language-strings/fr.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/fr-short.js -> /output/language-strings/fr-short.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/fr-short.js -> /output/language-strings/fr-short.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/id.min.js /tmp/work/lib/language-strings/id.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/fr.js -> /output/language-strings/fr.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/fr.js -> /output/language-strings/fr.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/is.min.js /tmp/work/lib/language-strings/is.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/gl.min.js -> /output/language-strings/gl.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/gl.min.js.br /tmp/work/lib/language-strings/gl.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/gl.min.js -> /output/language-strings/gl.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/gl.min.js -> /output/language-strings/gl.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/gl.js -> /output/language-strings/gl.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/gl.js.br /tmp/work/lib/language-strings/gl.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/gl.js -> /output/language-strings/gl.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/gl.js -> /output/language-strings/gl.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/it-short.min.js /tmp/work/lib/language-strings/it-short.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/he.min.js -> /output/language-strings/he.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/he.min.js.br /tmp/work/lib/language-strings/he.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/he.min.js -> /output/language-strings/he.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/he.min.js -> /output/language-strings/he.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/he.js -> /output/language-strings/he.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/he.js.br /tmp/work/lib/language-strings/he.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/he.js -> /output/language-strings/he.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/he.js -> /output/language-strings/he.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/it.min.js /tmp/work/lib/language-strings/it.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/hi.min.js -> /output/language-strings/hi.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/hi.min.js.br /tmp/work/lib/language-strings/hi.min.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/hu.min.js -> /output/language-strings/hu.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/hu.min.js.br /tmp/work/lib/language-strings/hu.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/hi.min.js -> /output/language-strings/hi.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/hi.min.js -> /output/language-strings/hi.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/hi.js -> /output/language-strings/hi.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/hi.js.br /tmp/work/lib/language-strings/hi.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/hu.min.js -> /output/language-strings/hu.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/hu.min.js -> /output/language-strings/hu.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/hu.js -> /output/language-strings/hu.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/hu.js.br /tmp/work/lib/language-strings/hu.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/hi.js -> /output/language-strings/hi.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/hi.js -> /output/language-strings/hi.js.gz
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/hu.js -> /output/language-strings/hu.js.br
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/ja.min.js /tmp/work/lib/language-strings/ja.js
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/hu.js -> /output/language-strings/hu.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/jv.min.js /tmp/work/lib/language-strings/jv.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/hy.min.js -> /output/language-strings/hy.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/hy.min.js.br /tmp/work/lib/language-strings/hy.min.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/hr.min.js -> /output/language-strings/hr.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/hr.min.js.br /tmp/work/lib/language-strings/hr.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/hy.min.js -> /output/language-strings/hy.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/hy.min.js -> /output/language-strings/hy.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/hy.js -> /output/language-strings/hy.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/hy.js.br /tmp/work/lib/language-strings/hy.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/hy.js -> /output/language-strings/hy.js.br
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/hr.min.js -> /output/language-strings/hr.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/hy.js -> /output/language-strings/hy.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/ka-short.min.js /tmp/work/lib/language-strings/ka-short.js
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/hr.min.js -> /output/language-strings/hr.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/hr.js -> /output/language-strings/hr.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/hr.js.br /tmp/work/lib/language-strings/hr.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/id.min.js -> /output/language-strings/id.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/id.min.js.br /tmp/work/lib/language-strings/id.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/id.min.js -> /output/language-strings/id.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/id.min.js -> /output/language-strings/id.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/id.js -> /output/language-strings/id.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/id.js.br /tmp/work/lib/language-strings/id.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/hr.js -> /output/language-strings/hr.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/hr.js -> /output/language-strings/hr.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/ka.min.js /tmp/work/lib/language-strings/ka.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/is.min.js -> /output/language-strings/is.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/is.min.js.br /tmp/work/lib/language-strings/is.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/id.js -> /output/language-strings/id.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/id.js -> /output/language-strings/id.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/ko.min.js /tmp/work/lib/language-strings/ko.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/is.min.js -> /output/language-strings/is.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/is.min.js -> /output/language-strings/is.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/is.js -> /output/language-strings/is.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/is.js.br /tmp/work/lib/language-strings/is.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/is.js -> /output/language-strings/is.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/is.js -> /output/language-strings/is.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/ky.min.js /tmp/work/lib/language-strings/ky.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/it-short.min.js -> /output/language-strings/it-short.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/it-short.min.js.br /tmp/work/lib/language-strings/it-short.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/it-short.min.js -> /output/language-strings/it-short.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/it-short.min.js -> /output/language-strings/it-short.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/it-short.js -> /output/language-strings/it-short.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/it-short.js.br /tmp/work/lib/language-strings/it-short.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/it-short.js -> /output/language-strings/it-short.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/it-short.js -> /output/language-strings/it-short.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/lt.min.js /tmp/work/lib/language-strings/lt.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/it.min.js -> /output/language-strings/it.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/it.min.js.br /tmp/work/lib/language-strings/it.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/it.min.js -> /output/language-strings/it.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/it.min.js -> /output/language-strings/it.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/it.js -> /output/language-strings/it.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/it.js.br /tmp/work/lib/language-strings/it.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/jv.min.js -> /output/language-strings/jv.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/jv.min.js.br /tmp/work/lib/language-strings/jv.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/jv.min.js -> /output/language-strings/jv.min.js.br
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/it.js -> /output/language-strings/it.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/jv.min.js -> /output/language-strings/jv.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/jv.js -> /output/language-strings/jv.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/jv.js.br /tmp/work/lib/language-strings/jv.js
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/it.js -> /output/language-strings/it.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/lv.min.js /tmp/work/lib/language-strings/lv.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/jv.js -> /output/language-strings/jv.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/jv.js -> /output/language-strings/jv.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/mk.min.js /tmp/work/lib/language-strings/mk.js
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/ja.min.js -> /output/language-strings/ja.min.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/ja.min.js.br /tmp/work/lib/language-strings/ja.min.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/ja.min.js -> /output/language-strings/ja.min.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/ja.min.js -> /output/language-strings/ja.min.js.gz
+2022/06/10 17:01:50 sri /tmp/work/lib/language-strings/ja.js -> /output/language-strings/ja.js.sri
+2022/06/10 17:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/ja.js.br /tmp/work/lib/language-strings/ja.js
+2022/06/10 17:01:50 br /tmp/work/lib/language-strings/ja.js -> /output/language-strings/ja.js.br
+2022/06/10 17:01:50 gz /tmp/work/lib/language-strings/ja.js -> /output/language-strings/ja.js.gz
+2022/06/10 17:01:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/nl.min.js /tmp/work/lib/language-strings/nl.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/ka-short.min.js -> /output/language-strings/ka-short.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/ka-short.min.js.br /tmp/work/lib/language-strings/ka-short.min.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/ka.min.js -> /output/language-strings/ka.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/ka.min.js.br /tmp/work/lib/language-strings/ka.min.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/ka-short.min.js -> /output/language-strings/ka-short.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/ka-short.min.js -> /output/language-strings/ka-short.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/ka-short.js -> /output/language-strings/ka-short.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/ka-short.js.br /tmp/work/lib/language-strings/ka-short.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/ka.min.js -> /output/language-strings/ka.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/ka.min.js -> /output/language-strings/ka.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/ka.js -> /output/language-strings/ka.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/ka.js.br /tmp/work/lib/language-strings/ka.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/ko.min.js -> /output/language-strings/ko.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/ko.min.js.br /tmp/work/lib/language-strings/ko.min.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/ka-short.js -> /output/language-strings/ka-short.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/ka-short.js -> /output/language-strings/ka-short.js.gz
+2022/06/10 17:01:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/no.min.js /tmp/work/lib/language-strings/no.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/ka.js -> /output/language-strings/ka.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/ka.js -> /output/language-strings/ka.js.gz
+2022/06/10 17:01:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/oc.min.js /tmp/work/lib/language-strings/oc.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/ko.min.js -> /output/language-strings/ko.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/ko.min.js -> /output/language-strings/ko.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/ko.js -> /output/language-strings/ko.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/ko.js.br /tmp/work/lib/language-strings/ko.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/ko.js -> /output/language-strings/ko.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/ko.js -> /output/language-strings/ko.js.gz
+2022/06/10 17:01:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/pl.min.js /tmp/work/lib/language-strings/pl.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/ky.min.js -> /output/language-strings/ky.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/ky.min.js.br /tmp/work/lib/language-strings/ky.min.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/ky.min.js -> /output/language-strings/ky.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/ky.min.js -> /output/language-strings/ky.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/ky.js -> /output/language-strings/ky.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/ky.js.br /tmp/work/lib/language-strings/ky.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/lt.min.js -> /output/language-strings/lt.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/lt.min.js.br /tmp/work/lib/language-strings/lt.min.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/ky.js -> /output/language-strings/ky.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/ky.js -> /output/language-strings/ky.js.gz
+2022/06/10 17:01:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/pt-br-short.min.js /tmp/work/lib/language-strings/pt-br-short.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/lt.min.js -> /output/language-strings/lt.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/lt.min.js -> /output/language-strings/lt.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/lt.js -> /output/language-strings/lt.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/lt.js.br /tmp/work/lib/language-strings/lt.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/lt.js -> /output/language-strings/lt.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/lt.js -> /output/language-strings/lt.js.gz
+2022/06/10 17:01:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/pt-br.min.js /tmp/work/lib/language-strings/pt-br.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/lv.min.js -> /output/language-strings/lv.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/lv.min.js.br /tmp/work/lib/language-strings/lv.min.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/nl.min.js -> /output/language-strings/nl.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/nl.min.js.br /tmp/work/lib/language-strings/nl.min.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/lv.min.js -> /output/language-strings/lv.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/lv.min.js -> /output/language-strings/lv.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/lv.js -> /output/language-strings/lv.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/lv.js.br /tmp/work/lib/language-strings/lv.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/mk.min.js -> /output/language-strings/mk.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/mk.min.js.br /tmp/work/lib/language-strings/mk.min.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/nl.min.js -> /output/language-strings/nl.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/nl.min.js -> /output/language-strings/nl.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/nl.js -> /output/language-strings/nl.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/nl.js.br /tmp/work/lib/language-strings/nl.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/lv.js -> /output/language-strings/lv.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/lv.js -> /output/language-strings/lv.js.gz
+2022/06/10 17:01:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/pt-short.min.js /tmp/work/lib/language-strings/pt-short.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/mk.min.js -> /output/language-strings/mk.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/mk.min.js -> /output/language-strings/mk.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/mk.js -> /output/language-strings/mk.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/mk.js.br /tmp/work/lib/language-strings/mk.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/nl.js -> /output/language-strings/nl.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/nl.js -> /output/language-strings/nl.js.gz
+2022/06/10 17:01:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/pt.min.js /tmp/work/lib/language-strings/pt.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/mk.js -> /output/language-strings/mk.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/mk.js -> /output/language-strings/mk.js.gz
+2022/06/10 17:01:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/ro.min.js /tmp/work/lib/language-strings/ro.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/no.min.js -> /output/language-strings/no.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/no.min.js.br /tmp/work/lib/language-strings/no.min.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/oc.min.js -> /output/language-strings/oc.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/oc.min.js.br /tmp/work/lib/language-strings/oc.min.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/no.min.js -> /output/language-strings/no.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/no.min.js -> /output/language-strings/no.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/no.js -> /output/language-strings/no.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/no.js.br /tmp/work/lib/language-strings/no.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/oc.min.js -> /output/language-strings/oc.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/oc.min.js -> /output/language-strings/oc.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/oc.js -> /output/language-strings/oc.js.sri
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/no.js -> /output/language-strings/no.js.br
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/oc.js.br /tmp/work/lib/language-strings/oc.js
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/no.js -> /output/language-strings/no.js.gz
+2022/06/10 17:01:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/rs.min.js /tmp/work/lib/language-strings/rs.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/oc.js -> /output/language-strings/oc.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/oc.js -> /output/language-strings/oc.js.gz
+2022/06/10 17:01:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/ru.min.js /tmp/work/lib/language-strings/ru.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/pl.min.js -> /output/language-strings/pl.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/pl.min.js.br /tmp/work/lib/language-strings/pl.min.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/pl.min.js -> /output/language-strings/pl.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/pl.min.js -> /output/language-strings/pl.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/pl.js -> /output/language-strings/pl.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/pl.js.br /tmp/work/lib/language-strings/pl.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/pl.js -> /output/language-strings/pl.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/pl.js -> /output/language-strings/pl.js.gz
+2022/06/10 17:01:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/rw.min.js /tmp/work/lib/language-strings/rw.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/pt-br-short.min.js -> /output/language-strings/pt-br-short.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/pt-br-short.min.js.br /tmp/work/lib/language-strings/pt-br-short.min.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/pt-br-short.min.js -> /output/language-strings/pt-br-short.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/pt-br-short.min.js -> /output/language-strings/pt-br-short.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/pt-br-short.js -> /output/language-strings/pt-br-short.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/pt-br-short.js.br /tmp/work/lib/language-strings/pt-br-short.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/pt-br-short.js -> /output/language-strings/pt-br-short.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/pt-br-short.js -> /output/language-strings/pt-br-short.js.gz
+2022/06/10 17:01:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/si.min.js /tmp/work/lib/language-strings/si.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/pt-br.min.js -> /output/language-strings/pt-br.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/pt-br.min.js.br /tmp/work/lib/language-strings/pt-br.min.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/pt-br.min.js -> /output/language-strings/pt-br.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/pt-br.min.js -> /output/language-strings/pt-br.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/pt-br.js -> /output/language-strings/pt-br.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/pt-br.js.br /tmp/work/lib/language-strings/pt-br.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/pt-br.js -> /output/language-strings/pt-br.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/pt-br.js -> /output/language-strings/pt-br.js.gz
+2022/06/10 17:01:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/sk.min.js /tmp/work/lib/language-strings/sk.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/pt-short.min.js -> /output/language-strings/pt-short.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/pt-short.min.js.br /tmp/work/lib/language-strings/pt-short.min.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/pt.min.js -> /output/language-strings/pt.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/pt.min.js.br /tmp/work/lib/language-strings/pt.min.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/pt-short.min.js -> /output/language-strings/pt-short.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/pt-short.min.js -> /output/language-strings/pt-short.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/pt-short.js -> /output/language-strings/pt-short.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/pt-short.js.br /tmp/work/lib/language-strings/pt-short.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/pt.min.js -> /output/language-strings/pt.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/pt.min.js -> /output/language-strings/pt.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/pt.js -> /output/language-strings/pt.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/pt.js.br /tmp/work/lib/language-strings/pt.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/ro.min.js -> /output/language-strings/ro.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/ro.min.js.br /tmp/work/lib/language-strings/ro.min.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/pt-short.js -> /output/language-strings/pt-short.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/pt-short.js -> /output/language-strings/pt-short.js.gz
+2022/06/10 17:01:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/sl.min.js /tmp/work/lib/language-strings/sl.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/pt.js -> /output/language-strings/pt.js.br
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/ro.min.js -> /output/language-strings/ro.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/pt.js -> /output/language-strings/pt.js.gz
+2022/06/10 17:01:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/so.min.js /tmp/work/lib/language-strings/so.js
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/ro.min.js -> /output/language-strings/ro.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/ro.js -> /output/language-strings/ro.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/ro.js.br /tmp/work/lib/language-strings/ro.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/ro.js -> /output/language-strings/ro.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/ro.js -> /output/language-strings/ro.js.gz
+2022/06/10 17:01:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/sr.min.js /tmp/work/lib/language-strings/sr.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/rw.min.js -> /output/language-strings/rw.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/rw.min.js.br /tmp/work/lib/language-strings/rw.min.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/rs.min.js -> /output/language-strings/rs.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/rs.min.js.br /tmp/work/lib/language-strings/rs.min.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/rw.min.js -> /output/language-strings/rw.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/rw.min.js -> /output/language-strings/rw.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/rw.js -> /output/language-strings/rw.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/rw.js.br /tmp/work/lib/language-strings/rw.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/rs.min.js -> /output/language-strings/rs.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/rs.min.js -> /output/language-strings/rs.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/rs.js -> /output/language-strings/rs.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/rs.js.br /tmp/work/lib/language-strings/rs.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/ru.min.js -> /output/language-strings/ru.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/ru.min.js.br /tmp/work/lib/language-strings/ru.min.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/rw.js -> /output/language-strings/rw.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/rw.js -> /output/language-strings/rw.js.gz
+2022/06/10 17:01:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/sv.min.js /tmp/work/lib/language-strings/sv.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/ru.min.js -> /output/language-strings/ru.min.js.br
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/rs.js -> /output/language-strings/rs.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/rs.js -> /output/language-strings/rs.js.gz
+2022/06/10 17:01:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/ta.min.js /tmp/work/lib/language-strings/ta.js
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/ru.min.js -> /output/language-strings/ru.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/ru.js -> /output/language-strings/ru.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/ru.js.br /tmp/work/lib/language-strings/ru.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/ru.js -> /output/language-strings/ru.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/ru.js -> /output/language-strings/ru.js.gz
+2022/06/10 17:01:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/th.min.js /tmp/work/lib/language-strings/th.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/si.min.js -> /output/language-strings/si.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/si.min.js.br /tmp/work/lib/language-strings/si.min.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/si.min.js -> /output/language-strings/si.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/si.min.js -> /output/language-strings/si.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/si.js -> /output/language-strings/si.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/si.js.br /tmp/work/lib/language-strings/si.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/si.js -> /output/language-strings/si.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/si.js -> /output/language-strings/si.js.gz
+2022/06/10 17:01:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/tr-short.min.js /tmp/work/lib/language-strings/tr-short.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/sk.min.js -> /output/language-strings/sk.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/sk.min.js.br /tmp/work/lib/language-strings/sk.min.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/sk.min.js -> /output/language-strings/sk.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/sk.min.js -> /output/language-strings/sk.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/sk.js -> /output/language-strings/sk.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/sk.js.br /tmp/work/lib/language-strings/sk.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/sk.js -> /output/language-strings/sk.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/sk.js -> /output/language-strings/sk.js.gz
+2022/06/10 17:01:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/tr.min.js /tmp/work/lib/language-strings/tr.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/so.min.js -> /output/language-strings/so.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/so.min.js.br /tmp/work/lib/language-strings/so.min.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/sl.min.js -> /output/language-strings/sl.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/sl.min.js.br /tmp/work/lib/language-strings/sl.min.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/so.min.js -> /output/language-strings/so.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/so.min.js -> /output/language-strings/so.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/so.js -> /output/language-strings/so.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/so.js.br /tmp/work/lib/language-strings/so.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/sl.min.js -> /output/language-strings/sl.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/sl.min.js -> /output/language-strings/sl.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/sl.js -> /output/language-strings/sl.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/sl.js.br /tmp/work/lib/language-strings/sl.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/so.js -> /output/language-strings/so.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/so.js -> /output/language-strings/so.js.gz
+2022/06/10 17:01:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/uk.min.js /tmp/work/lib/language-strings/uk.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/sl.js -> /output/language-strings/sl.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/sl.js -> /output/language-strings/sl.js.gz
+2022/06/10 17:01:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/uz.min.js /tmp/work/lib/language-strings/uz.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/sr.min.js -> /output/language-strings/sr.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/sr.min.js.br /tmp/work/lib/language-strings/sr.min.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/sr.min.js -> /output/language-strings/sr.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/sr.min.js -> /output/language-strings/sr.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/sr.js -> /output/language-strings/sr.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/sr.js.br /tmp/work/lib/language-strings/sr.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/sr.js -> /output/language-strings/sr.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/sr.js -> /output/language-strings/sr.js.gz
+2022/06/10 17:01:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/vi.min.js /tmp/work/lib/language-strings/vi.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/sv.min.js -> /output/language-strings/sv.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/sv.min.js.br /tmp/work/lib/language-strings/sv.min.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/sv.min.js -> /output/language-strings/sv.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/sv.min.js -> /output/language-strings/sv.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/sv.js -> /output/language-strings/sv.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/sv.js.br /tmp/work/lib/language-strings/sv.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/sv.js -> /output/language-strings/sv.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/sv.js -> /output/language-strings/sv.js.gz
+2022/06/10 17:01:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/zh-CN.min.js /tmp/work/lib/language-strings/zh-CN.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/th.min.js -> /output/language-strings/th.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/th.min.js.br /tmp/work/lib/language-strings/th.min.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/th.min.js -> /output/language-strings/th.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/th.min.js -> /output/language-strings/th.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/th.js -> /output/language-strings/th.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/th.js.br /tmp/work/lib/language-strings/th.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/ta.min.js -> /output/language-strings/ta.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/ta.min.js.br /tmp/work/lib/language-strings/ta.min.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/th.js -> /output/language-strings/th.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/th.js -> /output/language-strings/th.js.gz
+2022/06/10 17:01:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/language-strings/zh-TW.min.js /tmp/work/lib/language-strings/zh-TW.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/ta.min.js -> /output/language-strings/ta.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/ta.min.js -> /output/language-strings/ta.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/ta.js -> /output/language-strings/ta.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/ta.js.br /tmp/work/lib/language-strings/ta.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/ta.js -> /output/language-strings/ta.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/ta.js -> /output/language-strings/ta.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/tr-short.min.js -> /output/language-strings/tr-short.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/tr-short.min.js.br /tmp/work/lib/language-strings/tr-short.min.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/tr-short.min.js -> /output/language-strings/tr-short.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/tr-short.min.js -> /output/language-strings/tr-short.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/tr-short.js -> /output/language-strings/tr-short.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/tr-short.js.br /tmp/work/lib/language-strings/tr-short.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/tr.min.js -> /output/language-strings/tr.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/tr.min.js.br /tmp/work/lib/language-strings/tr.min.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/tr-short.js -> /output/language-strings/tr-short.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/tr-short.js -> /output/language-strings/tr-short.js.gz
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/tr.min.js -> /output/language-strings/tr.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/tr.min.js -> /output/language-strings/tr.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/tr.js -> /output/language-strings/tr.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/tr.js.br /tmp/work/lib/language-strings/tr.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/tr.js -> /output/language-strings/tr.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/tr.js -> /output/language-strings/tr.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/uz.min.js -> /output/language-strings/uz.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/uz.min.js.br /tmp/work/lib/language-strings/uz.min.js
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/vi.min.js -> /output/language-strings/vi.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/vi.min.js.br /tmp/work/lib/language-strings/vi.min.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/uz.min.js -> /output/language-strings/uz.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/uz.min.js -> /output/language-strings/uz.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/uz.js -> /output/language-strings/uz.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/uz.js.br /tmp/work/lib/language-strings/uz.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/vi.min.js -> /output/language-strings/vi.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/vi.min.js -> /output/language-strings/vi.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/vi.js -> /output/language-strings/vi.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/vi.js.br /tmp/work/lib/language-strings/vi.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/uz.js -> /output/language-strings/uz.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/uz.js -> /output/language-strings/uz.js.gz
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/vi.js -> /output/language-strings/vi.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/vi.js -> /output/language-strings/vi.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/uk.min.js -> /output/language-strings/uk.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/uk.min.js.br /tmp/work/lib/language-strings/uk.min.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/uk.min.js -> /output/language-strings/uk.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/uk.min.js -> /output/language-strings/uk.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/uk.js -> /output/language-strings/uk.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/uk.js.br /tmp/work/lib/language-strings/uk.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/uk.js -> /output/language-strings/uk.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/uk.js -> /output/language-strings/uk.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/zh-CN.min.js -> /output/language-strings/zh-CN.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/zh-CN.min.js.br /tmp/work/lib/language-strings/zh-CN.min.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/zh-CN.min.js -> /output/language-strings/zh-CN.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/zh-CN.min.js -> /output/language-strings/zh-CN.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/zh-CN.js -> /output/language-strings/zh-CN.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/zh-CN.js.br /tmp/work/lib/language-strings/zh-CN.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/zh-CN.js -> /output/language-strings/zh-CN.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/zh-CN.js -> /output/language-strings/zh-CN.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/zh-TW.min.js -> /output/language-strings/zh-TW.min.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/zh-TW.min.js.br /tmp/work/lib/language-strings/zh-TW.min.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/zh-TW.min.js -> /output/language-strings/zh-TW.min.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/zh-TW.min.js -> /output/language-strings/zh-TW.min.js.gz
+2022/06/10 17:01:51 sri /tmp/work/lib/language-strings/zh-TW.js -> /output/language-strings/zh-TW.js.sri
+2022/06/10 17:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/language-strings/zh-TW.js.br /tmp/work/lib/language-strings/zh-TW.js
+2022/06/10 17:01:51 br /tmp/work/lib/language-strings/zh-TW.js -> /output/language-strings/zh-TW.js.br
+2022/06/10 17:01:51 gz /tmp/work/lib/language-strings/zh-TW.js -> /output/language-strings/zh-TW.js.gz
+2022/06/10 17:01:51 processed react-timeago
