@@ -1,0 +1,48 @@
+2022/06/11 02:37:57 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/06/11 02:37:57 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/index.cjs.min.js /tmp/work/build/index.cjs.js
+2022/06/11 02:37:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.cjs.js.map.br /tmp/work/build/index.cjs.js.map
+2022/06/11 02:37:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.d.ts.br /tmp/work/build/index.d.ts
+2022/06/11 02:37:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.map.br /tmp/work/build/index.js.map
+2022/06/11 02:37:57 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/index.min.js /tmp/work/build/index.js
+2022/06/11 02:37:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.d.ts.map.br /tmp/work/build/index.d.ts.map
+2022/06/11 02:37:57 /tmp/work/build/index.umd.min.js already has corresponding compressed file
+2022/06/11 02:37:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.umd.js.map.br /tmp/work/build/index.umd.js.map
+2022/06/11 02:37:57 sri /tmp/work/build/index.umd.js -> /output/index.umd.js.sri
+2022/06/11 02:37:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.umd.js.br /tmp/work/build/index.umd.js
+2022/06/11 02:37:57 br /tmp/work/build/index.d.ts.map -> /output/index.d.ts.map.br
+2022/06/11 02:37:57 gz /tmp/work/build/index.d.ts.map -> /output/index.d.ts.map.gz
+2022/06/11 02:37:57 /tmp/work/build/index.umd.min.js is already compressed
+2022/06/11 02:37:57 sri /tmp/work/build/index.umd.min.js -> /output/index.umd.min.js.sri
+2022/06/11 02:37:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.umd.min.js.br /tmp/work/build/index.umd.min.js
+2022/06/11 02:37:57 br /tmp/work/build/index.d.ts -> /output/index.d.ts.br
+2022/06/11 02:37:57 gz /tmp/work/build/index.d.ts -> /output/index.d.ts.gz
+2022/06/11 02:37:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.umd.min.js.map.br /tmp/work/build/index.umd.min.js.map
+2022/06/11 02:37:57 br /tmp/work/build/index.umd.min.js -> /output/index.umd.min.js.br
+2022/06/11 02:37:57 gz /tmp/work/build/index.umd.min.js -> /output/index.umd.min.js.gz
+2022/06/11 02:37:57 br /tmp/work/build/index.umd.min.js.map -> /output/index.umd.min.js.map.br
+2022/06/11 02:37:57 gz /tmp/work/build/index.umd.min.js.map -> /output/index.umd.min.js.map.gz
+2022/06/11 02:37:57 br /tmp/work/build/index.js.map -> /output/index.js.map.br
+2022/06/11 02:37:57 br /tmp/work/build/index.umd.js -> /output/index.umd.js.br
+2022/06/11 02:37:57 gz /tmp/work/build/index.umd.js -> /output/index.umd.js.gz
+2022/06/11 02:37:57 br /tmp/work/build/index.cjs.js.map -> /output/index.cjs.js.map.br
+2022/06/11 02:37:57 gz /tmp/work/build/index.js.map -> /output/index.js.map.gz
+2022/06/11 02:37:57 br /tmp/work/build/index.umd.js.map -> /output/index.umd.js.map.br
+2022/06/11 02:37:57 gz /tmp/work/build/index.cjs.js.map -> /output/index.cjs.js.map.gz
+2022/06/11 02:37:57 gz /tmp/work/build/index.umd.js.map -> /output/index.umd.js.map.gz
+2022/06/11 02:37:58 sri /tmp/work/build/index.min.js -> /output/index.min.js.sri
+2022/06/11 02:37:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/build/index.min.js
+2022/06/11 02:37:58 sri /tmp/work/build/index.cjs.min.js -> /output/index.cjs.min.js.sri
+2022/06/11 02:37:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.cjs.min.js.br /tmp/work/build/index.cjs.min.js
+2022/06/11 02:37:58 br /tmp/work/build/index.min.js -> /output/index.min.js.br
+2022/06/11 02:37:58 gz /tmp/work/build/index.min.js -> /output/index.min.js.gz
+2022/06/11 02:37:58 sri /tmp/work/build/index.js -> /output/index.js.sri
+2022/06/11 02:37:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/build/index.js
+2022/06/11 02:37:58 br /tmp/work/build/index.cjs.min.js -> /output/index.cjs.min.js.br
+2022/06/11 02:37:58 gz /tmp/work/build/index.cjs.min.js -> /output/index.cjs.min.js.gz
+2022/06/11 02:37:58 sri /tmp/work/build/index.cjs.js -> /output/index.cjs.js.sri
+2022/06/11 02:37:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.cjs.js.br /tmp/work/build/index.cjs.js
+2022/06/11 02:37:58 br /tmp/work/build/index.js -> /output/index.js.br
+2022/06/11 02:37:58 gz /tmp/work/build/index.js -> /output/index.js.gz
+2022/06/11 02:37:58 br /tmp/work/build/index.cjs.js -> /output/index.cjs.js.br
+2022/06/11 02:37:58 gz /tmp/work/build/index.cjs.js -> /output/index.cjs.js.gz
+2022/06/11 02:37:58 processed chartjs-plugin-hierarchical
