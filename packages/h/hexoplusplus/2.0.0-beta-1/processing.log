@@ -1,0 +1,155 @@
+2022/06/21 03:08:45 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/06/21 03:08:45 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/dash/theme/dark.min.css /tmp/work/dist/dash/theme/dark.css
+2022/06/21 03:08:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dash/theme/dark.min.js /tmp/work/dist/dash/theme/dark.js
+2022/06/21 03:08:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dash/theme/dash.min.js /tmp/work/dist/dash/theme/dash.js
+2022/06/21 03:08:45 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/dash/theme/font.min.css /tmp/work/dist/dash/theme/font.css
+2022/06/21 03:08:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dash/theme/font.min.js /tmp/work/dist/dash/theme/font.js
+2022/06/21 03:08:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dash/theme/jq.min.js /tmp/work/dist/dash/theme/jq.js
+2022/06/21 03:08:45 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/dash/theme/light.min.css /tmp/work/dist/dash/theme/light.css
+2022/06/21 03:08:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dash/theme/light.min.js /tmp/work/dist/dash/theme/light.js
+2022/06/21 03:08:45 failed with exit status 1: Parse error at /tmp/work/dist/dash/theme/font.js:1,11
+@font-face {
+           ^
+ERROR: Unexpected token: punc «{», expected: punc «;»
+    at JS_Parse_Error.get (eval at <anonymous> (/node_modules/uglify-js/tools/node.js:18:1), <anonymous>:63:23)
+    at fatal (/node_modules/uglify-js/bin/uglifyjs:480:27)
+    at run (/node_modules/uglify-js/bin/uglifyjs:415:9)
+    at Object.<anonymous> (/node_modules/uglify-js/bin/uglifyjs:294:5)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+
+2022/06/21 03:08:45 compress: run /node_modules/uglify-es/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dash/theme/font.min.js /tmp/work/dist/dash/theme/font.js
+2022/06/21 03:08:46 sri /tmp/work/dist/dash/theme/dark.min.js -> /output/dash/theme/dark.min.js.sri
+2022/06/21 03:08:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash/theme/dark.min.js.br /tmp/work/dist/dash/theme/dark.min.js
+2022/06/21 03:08:46 br /tmp/work/dist/dash/theme/dark.min.js -> /output/dash/theme/dark.min.js.br
+2022/06/21 03:08:46 gz /tmp/work/dist/dash/theme/dark.min.js -> /output/dash/theme/dark.min.js.gz
+2022/06/21 03:08:46 sri /tmp/work/dist/dash/theme/dark.js -> /output/dash/theme/dark.js.sri
+2022/06/21 03:08:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash/theme/dark.js.br /tmp/work/dist/dash/theme/dark.js
+2022/06/21 03:08:46 sri /tmp/work/dist/dash/theme/font.min.css -> /output/dash/theme/font.min.css.sri
+2022/06/21 03:08:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash/theme/font.min.css.br /tmp/work/dist/dash/theme/font.min.css
+2022/06/21 03:08:46 br /tmp/work/dist/dash/theme/dark.js -> /output/dash/theme/dark.js.br
+2022/06/21 03:08:46 gz /tmp/work/dist/dash/theme/dark.js -> /output/dash/theme/dark.js.gz
+2022/06/21 03:08:46 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/error/error.min.css /tmp/work/dist/error/error.css
+2022/06/21 03:08:46 br /tmp/work/dist/dash/theme/font.min.css -> /output/dash/theme/font.min.css.br
+2022/06/21 03:08:46 gz /tmp/work/dist/dash/theme/font.min.css -> /output/dash/theme/font.min.css.gz
+2022/06/21 03:08:46 sri /tmp/work/dist/dash/theme/font.css -> /output/dash/theme/font.css.sri
+2022/06/21 03:08:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash/theme/font.css.br /tmp/work/dist/dash/theme/font.css
+2022/06/21 03:08:46 br /tmp/work/dist/dash/theme/font.css -> /output/dash/theme/font.css.br
+2022/06/21 03:08:46 gz /tmp/work/dist/dash/theme/font.css -> /output/dash/theme/font.css.gz
+2022/06/21 03:08:46 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/error/error.min.js /tmp/work/dist/error/error.js
+2022/06/21 03:08:46 failed with exit status 1: Parse error at /tmp/work/dist/dash/theme/font.js:1,0
+@font-face {
+^
+ERROR: Unexpected character '@'
+    at JS_Parse_Error.get (eval at <anonymous> (/node_modules/uglify-es/tools/node.js:21:1), <anonymous>:75:23)
+    at fatal (/node_modules/uglify-es/bin/uglifyjs:300:53)
+    at run (/node_modules/uglify-es/bin/uglifyjs:239:9)
+    at Object.<anonymous> (/node_modules/uglify-es/bin/uglifyjs:169:5)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+
+2022/06/21 03:08:46 sri /tmp/work/dist/dash/theme/light.min.js -> /output/dash/theme/light.min.js.sri
+2022/06/21 03:08:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash/theme/light.min.js.br /tmp/work/dist/dash/theme/light.min.js
+2022/06/21 03:08:46 sri /tmp/work/dist/dash/theme/font.js -> /output/dash/theme/font.js.sri
+2022/06/21 03:08:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash/theme/font.js.br /tmp/work/dist/dash/theme/font.js
+2022/06/21 03:08:47 br /tmp/work/dist/dash/theme/light.min.js -> /output/dash/theme/light.min.js.br
+2022/06/21 03:08:47 gz /tmp/work/dist/dash/theme/light.min.js -> /output/dash/theme/light.min.js.gz
+2022/06/21 03:08:47 sri /tmp/work/dist/dash/theme/light.js -> /output/dash/theme/light.js.sri
+2022/06/21 03:08:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash/theme/light.js.br /tmp/work/dist/dash/theme/light.js
+2022/06/21 03:08:47 sri /tmp/work/dist/error/error.min.css -> /output/error/error.min.css.sri
+2022/06/21 03:08:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/error/error.min.css.br /tmp/work/dist/error/error.min.css
+2022/06/21 03:08:47 br /tmp/work/dist/dash/theme/light.js -> /output/dash/theme/light.js.br
+2022/06/21 03:08:47 gz /tmp/work/dist/dash/theme/light.js -> /output/dash/theme/light.js.gz
+2022/06/21 03:08:47 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/error/login.min.js /tmp/work/dist/error/login.js
+2022/06/21 03:08:47 br /tmp/work/dist/dash/theme/font.js -> /output/dash/theme/font.js.br
+2022/06/21 03:08:47 gz /tmp/work/dist/dash/theme/font.js -> /output/dash/theme/font.js.gz
+2022/06/21 03:08:47 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.worker.min.js /tmp/work/dist/index.worker.js
+2022/06/21 03:08:47 br /tmp/work/dist/error/error.min.css -> /output/error/error.min.css.br
+2022/06/21 03:08:47 gz /tmp/work/dist/error/error.min.css -> /output/error/error.min.css.gz
+2022/06/21 03:08:47 sri /tmp/work/dist/error/error.css -> /output/error/error.css.sri
+2022/06/21 03:08:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/error/error.css.br /tmp/work/dist/error/error.css
+2022/06/21 03:08:47 sri /tmp/work/dist/error/error.min.js -> /output/error/error.min.js.sri
+2022/06/21 03:08:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/error/error.min.js.br /tmp/work/dist/error/error.min.js
+2022/06/21 03:08:47 br /tmp/work/dist/error/error.min.js -> /output/error/error.min.js.br
+2022/06/21 03:08:47 gz /tmp/work/dist/error/error.min.js -> /output/error/error.min.js.gz
+2022/06/21 03:08:47 sri /tmp/work/dist/error/error.js -> /output/error/error.js.sri
+2022/06/21 03:08:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/error/error.js.br /tmp/work/dist/error/error.js
+2022/06/21 03:08:47 br /tmp/work/dist/error/error.js -> /output/error/error.js.br
+2022/06/21 03:08:47 gz /tmp/work/dist/error/error.js -> /output/error/error.js.gz
+2022/06/21 03:08:47 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/login/login.min.css /tmp/work/dist/login/login.css
+2022/06/21 03:08:47 br /tmp/work/dist/error/error.css -> /output/error/error.css.br
+2022/06/21 03:08:47 gz /tmp/work/dist/error/error.css -> /output/error/error.css.gz
+2022/06/21 03:08:47 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/login/login.min.js /tmp/work/dist/login/login.js
+2022/06/21 03:08:48 sri /tmp/work/dist/login/login.min.css -> /output/login/login.min.css.sri
+2022/06/21 03:08:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/login/login.min.css.br /tmp/work/dist/login/login.min.css
+2022/06/21 03:08:48 br /tmp/work/dist/login/login.min.css -> /output/login/login.min.css.br
+2022/06/21 03:08:48 gz /tmp/work/dist/login/login.min.css -> /output/login/login.min.css.gz
+2022/06/21 03:08:48 sri /tmp/work/dist/login/login.css -> /output/login/login.css.sri
+2022/06/21 03:08:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/login/login.css.br /tmp/work/dist/login/login.css
+2022/06/21 03:08:48 br /tmp/work/dist/login/login.css -> /output/login/login.css.br
+2022/06/21 03:08:48 gz /tmp/work/dist/login/login.css -> /output/login/login.css.gz
+2022/06/21 03:08:48 sri /tmp/work/dist/error/login.min.js -> /output/error/login.min.js.sri
+2022/06/21 03:08:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/error/login.min.js.br /tmp/work/dist/error/login.min.js
+2022/06/21 03:08:48 br /tmp/work/dist/error/login.min.js -> /output/error/login.min.js.br
+2022/06/21 03:08:48 gz /tmp/work/dist/error/login.min.js -> /output/error/login.min.js.gz
+2022/06/21 03:08:48 sri /tmp/work/dist/error/login.js -> /output/error/login.js.sri
+2022/06/21 03:08:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/error/login.js.br /tmp/work/dist/error/login.js
+2022/06/21 03:08:48 br /tmp/work/dist/error/login.js -> /output/error/login.js.br
+2022/06/21 03:08:48 gz /tmp/work/dist/error/login.js -> /output/error/login.js.gz
+2022/06/21 03:08:48 sri /tmp/work/dist/login/login.min.js -> /output/login/login.min.js.sri
+2022/06/21 03:08:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/login/login.min.js.br /tmp/work/dist/login/login.min.js
+2022/06/21 03:08:48 br /tmp/work/dist/login/login.min.js -> /output/login/login.min.js.br
+2022/06/21 03:08:48 gz /tmp/work/dist/login/login.min.js -> /output/login/login.min.js.gz
+2022/06/21 03:08:48 sri /tmp/work/dist/login/login.js -> /output/login/login.js.sri
+2022/06/21 03:08:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/login/login.js.br /tmp/work/dist/login/login.js
+2022/06/21 03:08:48 br /tmp/work/dist/login/login.js -> /output/login/login.js.br
+2022/06/21 03:08:48 gz /tmp/work/dist/login/login.js -> /output/login/login.js.gz
+2022/06/21 03:08:48 sri /tmp/work/dist/dash/theme/light.min.css -> /output/dash/theme/light.min.css.sri
+2022/06/21 03:08:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash/theme/light.min.css.br /tmp/work/dist/dash/theme/light.min.css
+2022/06/21 03:08:49 sri /tmp/work/dist/dash/theme/dark.min.css -> /output/dash/theme/dark.min.css.sri
+2022/06/21 03:08:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash/theme/dark.min.css.br /tmp/work/dist/dash/theme/dark.min.css
+2022/06/21 03:08:50 sri /tmp/work/dist/index.worker.min.js -> /output/index.worker.min.js.sri
+2022/06/21 03:08:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.worker.min.js.br /tmp/work/dist/index.worker.min.js
+2022/06/21 03:08:50 br /tmp/work/dist/index.worker.min.js -> /output/index.worker.min.js.br
+2022/06/21 03:08:50 br /tmp/work/dist/dash/theme/light.min.css -> /output/dash/theme/light.min.css.br
+2022/06/21 03:08:50 gz /tmp/work/dist/index.worker.min.js -> /output/index.worker.min.js.gz
+2022/06/21 03:08:50 sri /tmp/work/dist/index.worker.js -> /output/index.worker.js.sri
+2022/06/21 03:08:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.worker.js.br /tmp/work/dist/index.worker.js
+2022/06/21 03:08:50 gz /tmp/work/dist/dash/theme/light.min.css -> /output/dash/theme/light.min.css.gz
+2022/06/21 03:08:50 sri /tmp/work/dist/dash/theme/light.css -> /output/dash/theme/light.css.sri
+2022/06/21 03:08:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash/theme/light.css.br /tmp/work/dist/dash/theme/light.css
+2022/06/21 03:08:51 br /tmp/work/dist/index.worker.js -> /output/index.worker.js.br
+2022/06/21 03:08:51 gz /tmp/work/dist/index.worker.js -> /output/index.worker.js.gz
+2022/06/21 03:08:52 br /tmp/work/dist/dash/theme/light.css -> /output/dash/theme/light.css.br
+2022/06/21 03:08:53 br /tmp/work/dist/dash/theme/dark.min.css -> /output/dash/theme/dark.min.css.br
+2022/06/21 03:08:53 gz /tmp/work/dist/dash/theme/light.css -> /output/dash/theme/light.css.gz
+2022/06/21 03:08:53 gz /tmp/work/dist/dash/theme/dark.min.css -> /output/dash/theme/dark.min.css.gz
+2022/06/21 03:08:53 sri /tmp/work/dist/dash/theme/dark.css -> /output/dash/theme/dark.css.sri
+2022/06/21 03:08:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash/theme/dark.css.br /tmp/work/dist/dash/theme/dark.css
+2022/06/21 03:08:53 sri /tmp/work/dist/dash/theme/jq.min.js -> /output/dash/theme/jq.min.js.sri
+2022/06/21 03:08:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash/theme/jq.min.js.br /tmp/work/dist/dash/theme/jq.min.js
+2022/06/21 03:08:53 br /tmp/work/dist/dash/theme/jq.min.js -> /output/dash/theme/jq.min.js.br
+2022/06/21 03:08:53 gz /tmp/work/dist/dash/theme/jq.min.js -> /output/dash/theme/jq.min.js.gz
+2022/06/21 03:08:53 sri /tmp/work/dist/dash/theme/jq.js -> /output/dash/theme/jq.js.sri
+2022/06/21 03:08:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash/theme/jq.js.br /tmp/work/dist/dash/theme/jq.js
+2022/06/21 03:08:53 br /tmp/work/dist/dash/theme/jq.js -> /output/dash/theme/jq.js.br
+2022/06/21 03:08:53 gz /tmp/work/dist/dash/theme/jq.js -> /output/dash/theme/jq.js.gz
+2022/06/21 03:08:55 br /tmp/work/dist/dash/theme/dark.css -> /output/dash/theme/dark.css.br
+2022/06/21 03:08:55 gz /tmp/work/dist/dash/theme/dark.css -> /output/dash/theme/dark.css.gz
+2022/06/21 03:08:56 sri /tmp/work/dist/dash/theme/dash.min.js -> /output/dash/theme/dash.min.js.sri
+2022/06/21 03:08:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash/theme/dash.min.js.br /tmp/work/dist/dash/theme/dash.min.js
+2022/06/21 03:08:56 br /tmp/work/dist/dash/theme/dash.min.js -> /output/dash/theme/dash.min.js.br
+2022/06/21 03:08:56 gz /tmp/work/dist/dash/theme/dash.min.js -> /output/dash/theme/dash.min.js.gz
+2022/06/21 03:08:56 sri /tmp/work/dist/dash/theme/dash.js -> /output/dash/theme/dash.js.sri
+2022/06/21 03:08:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash/theme/dash.js.br /tmp/work/dist/dash/theme/dash.js
+2022/06/21 03:08:57 br /tmp/work/dist/dash/theme/dash.js -> /output/dash/theme/dash.js.br
+2022/06/21 03:08:57 gz /tmp/work/dist/dash/theme/dash.js -> /output/dash/theme/dash.js.gz
+2022/06/21 03:08:57 processed hexoplusplus
