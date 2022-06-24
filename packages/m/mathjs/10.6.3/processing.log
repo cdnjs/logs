@@ -1,0 +1,14 @@
+2022/06/24 22:05:09 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/06/24 22:05:09 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/browser/math.min.js /tmp/work/lib/browser/math.js
+2022/06/24 22:05:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/math.js.map.br /tmp/work/lib/browser/math.js.map
+2022/06/24 22:05:17 br /tmp/work/lib/browser/math.js.map -> /output/math.js.map.br
+2022/06/24 22:05:17 gz /tmp/work/lib/browser/math.js.map -> /output/math.js.map.gz
+2022/06/24 22:05:19 sri /tmp/work/lib/browser/math.min.js -> /output/math.min.js.sri
+2022/06/24 22:05:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/math.min.js.br /tmp/work/lib/browser/math.min.js
+2022/06/24 22:05:21 br /tmp/work/lib/browser/math.min.js -> /output/math.min.js.br
+2022/06/24 22:05:21 gz /tmp/work/lib/browser/math.min.js -> /output/math.min.js.gz
+2022/06/24 22:05:21 sri /tmp/work/lib/browser/math.js -> /output/math.js.sri
+2022/06/24 22:05:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/math.js.br /tmp/work/lib/browser/math.js
+2022/06/24 22:05:23 br /tmp/work/lib/browser/math.js -> /output/math.js.br
+2022/06/24 22:05:23 gz /tmp/work/lib/browser/math.js -> /output/math.js.gz
+2022/06/24 22:05:23 processed mathjs
