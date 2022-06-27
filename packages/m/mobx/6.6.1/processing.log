@@ -1,0 +1,53 @@
+2022/06/27 09:37:22 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/06/27 09:37:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/mobx.cjs.development.min.js /tmp/work/dist/mobx.cjs.development.js
+2022/06/27 09:37:22 /tmp/work/dist/mobx.cjs.production.min.js is already compressed
+2022/06/27 09:37:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/mobx.esm.development.min.js /tmp/work/dist/mobx.esm.development.js
+2022/06/27 09:37:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/mobx.esm.min.js /tmp/work/dist/mobx.esm.js
+2022/06/27 09:37:22 /tmp/work/dist/mobx.esm.production.min.js is already compressed
+2022/06/27 09:37:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/mobx.umd.development.min.js /tmp/work/dist/mobx.umd.development.js
+2022/06/27 09:37:22 sri /tmp/work/dist/mobx.esm.production.min.js -> /output/mobx.esm.production.min.js.sri
+2022/06/27 09:37:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mobx.esm.production.min.js.br /tmp/work/dist/mobx.esm.production.min.js
+2022/06/27 09:37:22 sri /tmp/work/dist/mobx.cjs.production.min.js -> /output/mobx.cjs.production.min.js.sri
+2022/06/27 09:37:22 /tmp/work/dist/mobx.umd.production.min.js is already compressed
+2022/06/27 09:37:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mobx.cjs.production.min.js.br /tmp/work/dist/mobx.cjs.production.min.js
+2022/06/27 09:37:22 sri /tmp/work/dist/mobx.umd.production.min.js -> /output/mobx.umd.production.min.js.sri
+2022/06/27 09:37:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mobx.umd.production.min.js.br /tmp/work/dist/mobx.umd.production.min.js
+2022/06/27 09:37:22 br /tmp/work/dist/mobx.esm.production.min.js -> /output/mobx.esm.production.min.js.br
+2022/06/27 09:37:23 gz /tmp/work/dist/mobx.esm.production.min.js -> /output/mobx.esm.production.min.js.gz
+2022/06/27 09:37:23 br /tmp/work/dist/mobx.cjs.production.min.js -> /output/mobx.cjs.production.min.js.br
+2022/06/27 09:37:23 gz /tmp/work/dist/mobx.cjs.production.min.js -> /output/mobx.cjs.production.min.js.gz
+2022/06/27 09:37:23 br /tmp/work/dist/mobx.umd.production.min.js -> /output/mobx.umd.production.min.js.br
+2022/06/27 09:37:23 gz /tmp/work/dist/mobx.umd.production.min.js -> /output/mobx.umd.production.min.js.gz
+2022/06/27 09:37:26 sri /tmp/work/dist/mobx.esm.development.min.js -> /output/mobx.esm.development.min.js.sri
+2022/06/27 09:37:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mobx.esm.development.min.js.br /tmp/work/dist/mobx.esm.development.min.js
+2022/06/27 09:37:26 sri /tmp/work/dist/mobx.cjs.development.min.js -> /output/mobx.cjs.development.min.js.sri
+2022/06/27 09:37:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mobx.cjs.development.min.js.br /tmp/work/dist/mobx.cjs.development.min.js
+2022/06/27 09:37:26 br /tmp/work/dist/mobx.cjs.development.min.js -> /output/mobx.cjs.development.min.js.br
+2022/06/27 09:37:26 gz /tmp/work/dist/mobx.cjs.development.min.js -> /output/mobx.cjs.development.min.js.gz
+2022/06/27 09:37:26 sri /tmp/work/dist/mobx.esm.min.js -> /output/mobx.esm.min.js.sri
+2022/06/27 09:37:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mobx.esm.min.js.br /tmp/work/dist/mobx.esm.min.js
+2022/06/27 09:37:26 sri /tmp/work/dist/mobx.cjs.development.js -> /output/mobx.cjs.development.js.sri
+2022/06/27 09:37:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mobx.cjs.development.js.br /tmp/work/dist/mobx.cjs.development.js
+2022/06/27 09:37:26 br /tmp/work/dist/mobx.esm.development.min.js -> /output/mobx.esm.development.min.js.br
+2022/06/27 09:37:27 gz /tmp/work/dist/mobx.esm.development.min.js -> /output/mobx.esm.development.min.js.gz
+2022/06/27 09:37:27 sri /tmp/work/dist/mobx.esm.development.js -> /output/mobx.esm.development.js.sri
+2022/06/27 09:37:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mobx.esm.development.js.br /tmp/work/dist/mobx.esm.development.js
+2022/06/27 09:37:27 br /tmp/work/dist/mobx.esm.min.js -> /output/mobx.esm.min.js.br
+2022/06/27 09:37:27 gz /tmp/work/dist/mobx.esm.min.js -> /output/mobx.esm.min.js.gz
+2022/06/27 09:37:27 sri /tmp/work/dist/mobx.esm.js -> /output/mobx.esm.js.sri
+2022/06/27 09:37:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mobx.esm.js.br /tmp/work/dist/mobx.esm.js
+2022/06/27 09:37:27 sri /tmp/work/dist/mobx.umd.development.min.js -> /output/mobx.umd.development.min.js.sri
+2022/06/27 09:37:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mobx.umd.development.min.js.br /tmp/work/dist/mobx.umd.development.min.js
+2022/06/27 09:37:27 br /tmp/work/dist/mobx.cjs.development.js -> /output/mobx.cjs.development.js.br
+2022/06/27 09:37:27 gz /tmp/work/dist/mobx.cjs.development.js -> /output/mobx.cjs.development.js.gz
+2022/06/27 09:37:27 br /tmp/work/dist/mobx.esm.development.js -> /output/mobx.esm.development.js.br
+2022/06/27 09:37:27 gz /tmp/work/dist/mobx.esm.development.js -> /output/mobx.esm.development.js.gz
+2022/06/27 09:37:27 br /tmp/work/dist/mobx.esm.js -> /output/mobx.esm.js.br
+2022/06/27 09:37:27 br /tmp/work/dist/mobx.umd.development.min.js -> /output/mobx.umd.development.min.js.br
+2022/06/27 09:37:27 gz /tmp/work/dist/mobx.umd.development.min.js -> /output/mobx.umd.development.min.js.gz
+2022/06/27 09:37:27 sri /tmp/work/dist/mobx.umd.development.js -> /output/mobx.umd.development.js.sri
+2022/06/27 09:37:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mobx.umd.development.js.br /tmp/work/dist/mobx.umd.development.js
+2022/06/27 09:37:27 gz /tmp/work/dist/mobx.esm.js -> /output/mobx.esm.js.gz
+2022/06/27 09:37:28 br /tmp/work/dist/mobx.umd.development.js -> /output/mobx.umd.development.js.br
+2022/06/27 09:37:28 gz /tmp/work/dist/mobx.umd.development.js -> /output/mobx.umd.development.js.gz
+2022/06/27 09:37:28 processed mobx
