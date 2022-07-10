@@ -1,0 +1,48 @@
+2022/07/10 12:07:38 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/07/10 12:07:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/intro.min.js /tmp/work/intro.js
+2022/07/10 12:07:38 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/introjs-rtl.min.css /tmp/work/introjs-rtl.css
+2022/07/10 12:07:38 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/introjs.min.css /tmp/work/introjs.css
+2022/07/10 12:07:38 /tmp/work/minified/intro.min.js is already compressed
+2022/07/10 12:07:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/introjs-rtl.min.css.map.br /tmp/work/minified/introjs-rtl.min.css.map
+2022/07/10 12:07:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/intro.min.js.map.br /tmp/work/minified/intro.min.js.map
+2022/07/10 12:07:38 sri /tmp/work/minified/introjs.min.css -> /output/introjs.min.css.sri
+2022/07/10 12:07:38 sri /tmp/work/minified/introjs-rtl.min.css -> /output/introjs-rtl.min.css.sri
+2022/07/10 12:07:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/introjs-rtl.min.css.br /tmp/work/minified/introjs-rtl.min.css
+2022/07/10 12:07:38 sri /tmp/work/minified/intro.min.js -> /output/intro.min.js.sri
+2022/07/10 12:07:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/intro.min.js.br /tmp/work/minified/intro.min.js
+2022/07/10 12:07:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/introjs.min.css.br /tmp/work/minified/introjs.min.css
+2022/07/10 12:07:38 br /tmp/work/minified/introjs-rtl.min.css.map -> /output/introjs-rtl.min.css.map.br
+2022/07/10 12:07:38 gz /tmp/work/minified/introjs-rtl.min.css.map -> /output/introjs-rtl.min.css.map.gz
+2022/07/10 12:07:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/introjs.min.css.map.br /tmp/work/minified/introjs.min.css.map
+2022/07/10 12:07:38 br /tmp/work/minified/introjs-rtl.min.css -> /output/introjs-rtl.min.css.br
+2022/07/10 12:07:38 gz /tmp/work/minified/introjs-rtl.min.css -> /output/introjs-rtl.min.css.gz
+2022/07/10 12:07:38 br /tmp/work/minified/introjs.min.css -> /output/introjs.min.css.br
+2022/07/10 12:07:38 gz /tmp/work/minified/introjs.min.css -> /output/introjs.min.css.gz
+2022/07/10 12:07:38 br /tmp/work/minified/introjs.min.css.map -> /output/introjs.min.css.map.br
+2022/07/10 12:07:38 gz /tmp/work/minified/introjs.min.css.map -> /output/introjs.min.css.map.gz
+2022/07/10 12:07:38 br /tmp/work/minified/intro.min.js -> /output/intro.min.js.br
+2022/07/10 12:07:38 gz /tmp/work/minified/intro.min.js -> /output/intro.min.js.gz
+2022/07/10 12:07:38 sri /tmp/work/introjs-rtl.min.css -> /output/introjs-rtl.min.css.sri
+2022/07/10 12:07:38 file /output/introjs-rtl.min.css.br already exists at the output
+2022/07/10 12:07:38 file /output/introjs-rtl.min.css.gz already exists at the output
+2022/07/10 12:07:38 sri /tmp/work/introjs-rtl.css -> /output/introjs-rtl.css.sri
+2022/07/10 12:07:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/introjs-rtl.css.br /tmp/work/introjs-rtl.css
+2022/07/10 12:07:38 br /tmp/work/introjs-rtl.css -> /output/introjs-rtl.css.br
+2022/07/10 12:07:38 gz /tmp/work/introjs-rtl.css -> /output/introjs-rtl.css.gz
+2022/07/10 12:07:38 sri /tmp/work/introjs.min.css -> /output/introjs.min.css.sri
+2022/07/10 12:07:38 file /output/introjs.min.css.br already exists at the output
+2022/07/10 12:07:38 file /output/introjs.min.css.gz already exists at the output
+2022/07/10 12:07:38 sri /tmp/work/introjs.css -> /output/introjs.css.sri
+2022/07/10 12:07:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/introjs.css.br /tmp/work/introjs.css
+2022/07/10 12:07:38 br /tmp/work/introjs.css -> /output/introjs.css.br
+2022/07/10 12:07:38 gz /tmp/work/introjs.css -> /output/introjs.css.gz
+2022/07/10 12:07:39 br /tmp/work/minified/intro.min.js.map -> /output/intro.min.js.map.br
+2022/07/10 12:07:39 gz /tmp/work/minified/intro.min.js.map -> /output/intro.min.js.map.gz
+2022/07/10 12:07:40 sri /tmp/work/intro.min.js -> /output/intro.min.js.sri
+2022/07/10 12:07:40 file /output/intro.min.js.br already exists at the output
+2022/07/10 12:07:40 file /output/intro.min.js.gz already exists at the output
+2022/07/10 12:07:40 sri /tmp/work/intro.js -> /output/intro.js.sri
+2022/07/10 12:07:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/intro.js.br /tmp/work/intro.js
+2022/07/10 12:07:40 br /tmp/work/intro.js -> /output/intro.js.br
+2022/07/10 12:07:40 gz /tmp/work/intro.js -> /output/intro.js.gz
+2022/07/10 12:07:40 processed intro.js
