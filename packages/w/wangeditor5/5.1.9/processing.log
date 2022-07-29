@@ -1,0 +1,35 @@
+2022/07/29 13:32:20 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/07/29 13:32:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.esm.min.js /tmp/work/dist/index.esm.js
+2022/07/29 13:32:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.min.js /tmp/work/dist/index.js
+2022/07/29 13:32:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.esm.js.map.br /tmp/work/dist/index.esm.js.map
+2022/07/29 13:32:20 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/css/style.min.css /tmp/work/dist/css/style.css
+2022/07/29 13:32:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.map.br /tmp/work/dist/index.js.map
+2022/07/29 13:32:21 sri /tmp/work/dist/css/style.min.css -> /output/css/style.min.css.sri
+2022/07/29 13:32:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/style.min.css.br /tmp/work/dist/css/style.min.css
+2022/07/29 13:32:21 br /tmp/work/dist/css/style.min.css -> /output/css/style.min.css.br
+2022/07/29 13:32:21 gz /tmp/work/dist/css/style.min.css -> /output/css/style.min.css.gz
+2022/07/29 13:32:21 sri /tmp/work/dist/css/style.css -> /output/css/style.css.sri
+2022/07/29 13:32:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/style.css.br /tmp/work/dist/css/style.css
+2022/07/29 13:32:21 br /tmp/work/dist/css/style.css -> /output/css/style.css.br
+2022/07/29 13:32:21 gz /tmp/work/dist/css/style.css -> /output/css/style.css.gz
+2022/07/29 13:32:28 br /tmp/work/dist/index.esm.js.map -> /output/index.esm.js.map.br
+2022/07/29 13:32:28 gz /tmp/work/dist/index.esm.js.map -> /output/index.esm.js.map.gz
+2022/07/29 13:32:28 br /tmp/work/dist/index.js.map -> /output/index.js.map.br
+2022/07/29 13:32:28 gz /tmp/work/dist/index.js.map -> /output/index.js.map.gz
+2022/07/29 13:32:32 sri /tmp/work/dist/index.esm.min.js -> /output/index.esm.min.js.sri
+2022/07/29 13:32:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.esm.min.js.br /tmp/work/dist/index.esm.min.js
+2022/07/29 13:32:34 br /tmp/work/dist/index.esm.min.js -> /output/index.esm.min.js.br
+2022/07/29 13:32:34 gz /tmp/work/dist/index.esm.min.js -> /output/index.esm.min.js.gz
+2022/07/29 13:32:34 sri /tmp/work/dist/index.esm.js -> /output/index.esm.js.sri
+2022/07/29 13:32:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.esm.js.br /tmp/work/dist/index.esm.js
+2022/07/29 13:32:36 br /tmp/work/dist/index.esm.js -> /output/index.esm.js.br
+2022/07/29 13:32:36 gz /tmp/work/dist/index.esm.js -> /output/index.esm.js.gz
+2022/07/29 13:32:36 sri /tmp/work/dist/index.min.js -> /output/index.min.js.sri
+2022/07/29 13:32:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/dist/index.min.js
+2022/07/29 13:32:39 br /tmp/work/dist/index.min.js -> /output/index.min.js.br
+2022/07/29 13:32:39 gz /tmp/work/dist/index.min.js -> /output/index.min.js.gz
+2022/07/29 13:32:39 sri /tmp/work/dist/index.js -> /output/index.js.sri
+2022/07/29 13:32:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/dist/index.js
+2022/07/29 13:32:41 br /tmp/work/dist/index.js -> /output/index.js.br
+2022/07/29 13:32:41 gz /tmp/work/dist/index.js -> /output/index.js.gz
+2022/07/29 13:32:41 processed wangeditor5
