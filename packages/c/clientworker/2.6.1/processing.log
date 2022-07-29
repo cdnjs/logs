@@ -1,0 +1,74 @@
+2022/07/29 04:01:21 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/07/29 04:01:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/autoupdate.min.js /tmp/work/dist/autoupdate.js
+2022/07/29 04:01:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cw.min.js /tmp/work/dist/cw.js
+2022/07/29 04:01:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/main/entry.min.js /tmp/work/main/entry.js
+2022/07/29 04:01:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/main/handle/cgi.min.js /tmp/work/main/handle/cgi.js
+2022/07/29 04:01:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/main/utils/cons.min.js /tmp/work/main/utils/cons.js
+2022/07/29 04:01:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/main/utils/engine.min.js /tmp/work/main/utils/engine.js
+2022/07/29 04:01:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/main/handle/main.min.js /tmp/work/main/handle/main.js
+2022/07/29 04:01:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/main/utils/rebuild.min.js /tmp/work/main/utils/rebuild.js
+2022/07/29 04:01:22 sri /tmp/work/main/utils/cons.min.js -> /output/main/utils/cons.min.js.sri
+2022/07/29 04:01:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/main/utils/cons.min.js.br /tmp/work/main/utils/cons.min.js
+2022/07/29 04:01:22 br /tmp/work/main/utils/cons.min.js -> /output/main/utils/cons.min.js.br
+2022/07/29 04:01:22 gz /tmp/work/main/utils/cons.min.js -> /output/main/utils/cons.min.js.gz
+2022/07/29 04:01:22 sri /tmp/work/main/utils/cons.js -> /output/main/utils/cons.js.sri
+2022/07/29 04:01:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/main/utils/cons.js.br /tmp/work/main/utils/cons.js
+2022/07/29 04:01:22 br /tmp/work/main/utils/cons.js -> /output/main/utils/cons.js.br
+2022/07/29 04:01:22 gz /tmp/work/main/utils/cons.js -> /output/main/utils/cons.js.gz
+2022/07/29 04:01:22 sri /tmp/work/main/entry.min.js -> /output/main/entry.min.js.sri
+2022/07/29 04:01:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/main/entry.min.js.br /tmp/work/main/entry.min.js
+2022/07/29 04:01:22 br /tmp/work/main/entry.min.js -> /output/main/entry.min.js.br
+2022/07/29 04:01:22 gz /tmp/work/main/entry.min.js -> /output/main/entry.min.js.gz
+2022/07/29 04:01:22 sri /tmp/work/main/entry.js -> /output/main/entry.js.sri
+2022/07/29 04:01:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/main/entry.js.br /tmp/work/main/entry.js
+2022/07/29 04:01:22 br /tmp/work/main/entry.js -> /output/main/entry.js.br
+2022/07/29 04:01:22 gz /tmp/work/main/entry.js -> /output/main/entry.js.gz
+2022/07/29 04:01:22 sri /tmp/work/main/utils/rebuild.min.js -> /output/main/utils/rebuild.min.js.sri
+2022/07/29 04:01:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/main/utils/rebuild.min.js.br /tmp/work/main/utils/rebuild.min.js
+2022/07/29 04:01:22 br /tmp/work/main/utils/rebuild.min.js -> /output/main/utils/rebuild.min.js.br
+2022/07/29 04:01:22 gz /tmp/work/main/utils/rebuild.min.js -> /output/main/utils/rebuild.min.js.gz
+2022/07/29 04:01:22 sri /tmp/work/main/utils/rebuild.js -> /output/main/utils/rebuild.js.sri
+2022/07/29 04:01:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/main/utils/rebuild.js.br /tmp/work/main/utils/rebuild.js
+2022/07/29 04:01:22 sri /tmp/work/dist/autoupdate.min.js -> /output/dist/autoupdate.min.js.sri
+2022/07/29 04:01:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dist/autoupdate.min.js.br /tmp/work/dist/autoupdate.min.js
+2022/07/29 04:01:22 br /tmp/work/main/utils/rebuild.js -> /output/main/utils/rebuild.js.br
+2022/07/29 04:01:22 br /tmp/work/dist/autoupdate.min.js -> /output/dist/autoupdate.min.js.br
+2022/07/29 04:01:22 sri /tmp/work/main/handle/cgi.min.js -> /output/main/handle/cgi.min.js.sri
+2022/07/29 04:01:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/main/handle/cgi.min.js.br /tmp/work/main/handle/cgi.min.js
+2022/07/29 04:01:22 gz /tmp/work/main/utils/rebuild.js -> /output/main/utils/rebuild.js.gz
+2022/07/29 04:01:22 gz /tmp/work/dist/autoupdate.min.js -> /output/dist/autoupdate.min.js.gz
+2022/07/29 04:01:22 sri /tmp/work/dist/autoupdate.js -> /output/dist/autoupdate.js.sri
+2022/07/29 04:01:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dist/autoupdate.js.br /tmp/work/dist/autoupdate.js
+2022/07/29 04:01:22 br /tmp/work/main/handle/cgi.min.js -> /output/main/handle/cgi.min.js.br
+2022/07/29 04:01:22 gz /tmp/work/main/handle/cgi.min.js -> /output/main/handle/cgi.min.js.gz
+2022/07/29 04:01:22 sri /tmp/work/main/handle/cgi.js -> /output/main/handle/cgi.js.sri
+2022/07/29 04:01:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/main/handle/cgi.js.br /tmp/work/main/handle/cgi.js
+2022/07/29 04:01:22 br /tmp/work/dist/autoupdate.js -> /output/dist/autoupdate.js.br
+2022/07/29 04:01:22 gz /tmp/work/dist/autoupdate.js -> /output/dist/autoupdate.js.gz
+2022/07/29 04:01:22 br /tmp/work/main/handle/cgi.js -> /output/main/handle/cgi.js.br
+2022/07/29 04:01:22 gz /tmp/work/main/handle/cgi.js -> /output/main/handle/cgi.js.gz
+2022/07/29 04:01:22 sri /tmp/work/main/handle/main.min.js -> /output/main/handle/main.min.js.sri
+2022/07/29 04:01:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/main/handle/main.min.js.br /tmp/work/main/handle/main.min.js
+2022/07/29 04:01:22 br /tmp/work/main/handle/main.min.js -> /output/main/handle/main.min.js.br
+2022/07/29 04:01:22 gz /tmp/work/main/handle/main.min.js -> /output/main/handle/main.min.js.gz
+2022/07/29 04:01:22 sri /tmp/work/main/handle/main.js -> /output/main/handle/main.js.sri
+2022/07/29 04:01:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/main/handle/main.js.br /tmp/work/main/handle/main.js
+2022/07/29 04:01:22 sri /tmp/work/main/utils/engine.min.js -> /output/main/utils/engine.min.js.sri
+2022/07/29 04:01:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/main/utils/engine.min.js.br /tmp/work/main/utils/engine.min.js
+2022/07/29 04:01:22 br /tmp/work/main/utils/engine.min.js -> /output/main/utils/engine.min.js.br
+2022/07/29 04:01:22 gz /tmp/work/main/utils/engine.min.js -> /output/main/utils/engine.min.js.gz
+2022/07/29 04:01:22 sri /tmp/work/main/utils/engine.js -> /output/main/utils/engine.js.sri
+2022/07/29 04:01:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/main/utils/engine.js.br /tmp/work/main/utils/engine.js
+2022/07/29 04:01:22 br /tmp/work/main/handle/main.js -> /output/main/handle/main.js.br
+2022/07/29 04:01:22 gz /tmp/work/main/handle/main.js -> /output/main/handle/main.js.gz
+2022/07/29 04:01:22 br /tmp/work/main/utils/engine.js -> /output/main/utils/engine.js.br
+2022/07/29 04:01:22 gz /tmp/work/main/utils/engine.js -> /output/main/utils/engine.js.gz
+2022/07/29 04:01:23 sri /tmp/work/dist/cw.min.js -> /output/dist/cw.min.js.sri
+2022/07/29 04:01:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dist/cw.min.js.br /tmp/work/dist/cw.min.js
+2022/07/29 04:01:23 br /tmp/work/dist/cw.min.js -> /output/dist/cw.min.js.br
+2022/07/29 04:01:23 gz /tmp/work/dist/cw.min.js -> /output/dist/cw.min.js.gz
+2022/07/29 04:01:23 sri /tmp/work/dist/cw.js -> /output/dist/cw.js.sri
+2022/07/29 04:01:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dist/cw.js.br /tmp/work/dist/cw.js
+2022/07/29 04:01:23 br /tmp/work/dist/cw.js -> /output/dist/cw.js.br
+2022/07/29 04:01:23 gz /tmp/work/dist/cw.js -> /output/dist/cw.js.gz
+2022/07/29 04:01:23 processed clientworker
