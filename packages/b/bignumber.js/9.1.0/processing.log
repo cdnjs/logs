@@ -1,0 +1,11 @@
+2022/08/09 05:34:08 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/08/09 05:34:08 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/bignumber.min.js /tmp/work/bignumber.js
+2022/08/09 05:34:09 sri /tmp/work/bignumber.min.js -> /output/bignumber.min.js.sri
+2022/08/09 05:34:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/bignumber.min.js.br /tmp/work/bignumber.min.js
+2022/08/09 05:34:09 br /tmp/work/bignumber.min.js -> /output/bignumber.min.js.br
+2022/08/09 05:34:09 gz /tmp/work/bignumber.min.js -> /output/bignumber.min.js.gz
+2022/08/09 05:34:09 sri /tmp/work/bignumber.js -> /output/bignumber.js.sri
+2022/08/09 05:34:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/bignumber.js.br /tmp/work/bignumber.js
+2022/08/09 05:34:10 br /tmp/work/bignumber.js -> /output/bignumber.js.br
+2022/08/09 05:34:10 gz /tmp/work/bignumber.js -> /output/bignumber.js.gz
+2022/08/09 05:34:10 processed bignumber.js
