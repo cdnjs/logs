@@ -1,0 +1,35 @@
+2022/08/11 17:32:08 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/08/11 17:32:08 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/min.min.js /tmp/work/min.js
+2022/08/11 17:32:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.d.ts.br /tmp/work/index.d.ts
+2022/08/11 17:32:08 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/index.min.js /tmp/work/index.js
+2022/08/11 17:32:08 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/umd.min.js /tmp/work/umd.js
+2022/08/11 17:32:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd.d.ts.br /tmp/work/umd.d.ts
+2022/08/11 17:32:08 br /tmp/work/umd.d.ts -> /output/umd.d.ts.br
+2022/08/11 17:32:08 gz /tmp/work/umd.d.ts -> /output/umd.d.ts.gz
+2022/08/11 17:32:08 br /tmp/work/index.d.ts -> /output/index.d.ts.br
+2022/08/11 17:32:08 gz /tmp/work/index.d.ts -> /output/index.d.ts.gz
+2022/08/11 17:32:09 sri /tmp/work/min.min.js -> /output/min.min.js.sri
+2022/08/11 17:32:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/min.min.js.br /tmp/work/min.min.js
+2022/08/11 17:32:09 br /tmp/work/min.min.js -> /output/min.min.js.br
+2022/08/11 17:32:09 gz /tmp/work/min.min.js -> /output/min.min.js.gz
+2022/08/11 17:32:09 sri /tmp/work/min.js -> /output/min.js.sri
+2022/08/11 17:32:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/min.js.br /tmp/work/min.js
+2022/08/11 17:32:09 sri /tmp/work/index.min.js -> /output/index.min.js.sri
+2022/08/11 17:32:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/index.min.js
+2022/08/11 17:32:09 sri /tmp/work/umd.min.js -> /output/umd.min.js.sri
+2022/08/11 17:32:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd.min.js.br /tmp/work/umd.min.js
+2022/08/11 17:32:09 br /tmp/work/min.js -> /output/min.js.br
+2022/08/11 17:32:09 gz /tmp/work/min.js -> /output/min.js.gz
+2022/08/11 17:32:09 br /tmp/work/index.min.js -> /output/index.min.js.br
+2022/08/11 17:32:09 gz /tmp/work/index.min.js -> /output/index.min.js.gz
+2022/08/11 17:32:09 sri /tmp/work/index.js -> /output/index.js.sri
+2022/08/11 17:32:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/index.js
+2022/08/11 17:32:10 br /tmp/work/umd.min.js -> /output/umd.min.js.br
+2022/08/11 17:32:10 gz /tmp/work/umd.min.js -> /output/umd.min.js.gz
+2022/08/11 17:32:10 sri /tmp/work/umd.js -> /output/umd.js.sri
+2022/08/11 17:32:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd.js.br /tmp/work/umd.js
+2022/08/11 17:32:10 br /tmp/work/umd.js -> /output/umd.js.br
+2022/08/11 17:32:10 gz /tmp/work/umd.js -> /output/umd.js.gz
+2022/08/11 17:32:10 br /tmp/work/index.js -> /output/index.js.br
+2022/08/11 17:32:10 gz /tmp/work/index.js -> /output/index.js.gz
+2022/08/11 17:32:10 processed hyperHtml
