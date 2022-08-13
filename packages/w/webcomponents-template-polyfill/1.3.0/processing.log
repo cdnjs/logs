@@ -1,0 +1,11 @@
+2022/08/13 09:30:22 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/08/13 09:30:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/template.min.js /tmp/work/template.js
+2022/08/13 09:30:22 sri /tmp/work/template.min.js -> /output/template.min.js.sri
+2022/08/13 09:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template.min.js.br /tmp/work/template.min.js
+2022/08/13 09:30:22 br /tmp/work/template.min.js -> /output/template.min.js.br
+2022/08/13 09:30:22 gz /tmp/work/template.min.js -> /output/template.min.js.gz
+2022/08/13 09:30:22 sri /tmp/work/template.js -> /output/template.js.sri
+2022/08/13 09:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template.js.br /tmp/work/template.js
+2022/08/13 09:30:22 br /tmp/work/template.js -> /output/template.js.br
+2022/08/13 09:30:22 gz /tmp/work/template.js -> /output/template.js.gz
+2022/08/13 09:30:22 processed webcomponents-template-polyfill
