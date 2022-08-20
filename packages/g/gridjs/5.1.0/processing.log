@@ -1,0 +1,63 @@
+2022/08/20 16:31:01 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/08/20 16:31:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/gridjs.min.js /tmp/work/dist/gridjs.js
+2022/08/20 16:31:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/gridjs.module.min.js /tmp/work/dist/gridjs.module.js
+2022/08/20 16:31:01 /tmp/work/dist/gridjs.production.es.min.js is already compressed
+2022/08/20 16:31:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gridjs.js.map.br /tmp/work/dist/gridjs.js.map
+2022/08/20 16:31:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gridjs.module.js.map.br /tmp/work/dist/gridjs.module.js.map
+2022/08/20 16:31:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/gridjs.umd.min.js /tmp/work/dist/gridjs.umd.js
+2022/08/20 16:31:01 /tmp/work/dist/gridjs.production.min.js is already compressed
+2022/08/20 16:31:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gridjs.umd.js.map.br /tmp/work/dist/gridjs.umd.js.map
+2022/08/20 16:31:01 sri /tmp/work/dist/gridjs.production.es.min.js -> /output/gridjs.production.es.min.js.sri
+2022/08/20 16:31:01 sri /tmp/work/dist/gridjs.production.min.js -> /output/gridjs.production.min.js.sri
+2022/08/20 16:31:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gridjs.production.es.min.js.br /tmp/work/dist/gridjs.production.es.min.js
+2022/08/20 16:31:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gridjs.production.min.js.br /tmp/work/dist/gridjs.production.min.js
+2022/08/20 16:31:02 br /tmp/work/dist/gridjs.production.es.min.js -> /output/gridjs.production.es.min.js.br
+2022/08/20 16:31:02 gz /tmp/work/dist/gridjs.production.es.min.js -> /output/gridjs.production.es.min.js.gz
+2022/08/20 16:31:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.d.ts.br /tmp/work/dist/index.d.ts
+2022/08/20 16:31:02 br /tmp/work/dist/gridjs.production.min.js -> /output/gridjs.production.min.js.br
+2022/08/20 16:31:02 gz /tmp/work/dist/gridjs.production.min.js -> /output/gridjs.production.min.js.gz
+2022/08/20 16:31:02 /tmp/work/dist/theme/mermaid.css already has a compressed version: /tmp/work/dist/theme/mermaid.min.css
+2022/08/20 16:31:02 sri /tmp/work/dist/theme/mermaid.css -> /output/theme/mermaid.css.sri
+2022/08/20 16:31:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/theme/mermaid.css.br /tmp/work/dist/theme/mermaid.css
+2022/08/20 16:31:02 br /tmp/work/dist/index.d.ts -> /output/index.d.ts.br
+2022/08/20 16:31:02 gz /tmp/work/dist/index.d.ts -> /output/index.d.ts.gz
+2022/08/20 16:31:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/theme/mermaid.css.map.br /tmp/work/dist/theme/mermaid.css.map
+2022/08/20 16:31:02 br /tmp/work/dist/theme/mermaid.css -> /output/theme/mermaid.css.br
+2022/08/20 16:31:02 br /tmp/work/dist/theme/mermaid.css.map -> /output/theme/mermaid.css.map.br
+2022/08/20 16:31:02 gz /tmp/work/dist/theme/mermaid.css.map -> /output/theme/mermaid.css.map.gz
+2022/08/20 16:31:02 sri /tmp/work/dist/theme/mermaid.min.css -> /output/theme/mermaid.min.css.sri
+2022/08/20 16:31:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/theme/mermaid.min.css.br /tmp/work/dist/theme/mermaid.min.css
+2022/08/20 16:31:02 gz /tmp/work/dist/theme/mermaid.css -> /output/theme/mermaid.css.gz
+2022/08/20 16:31:02 br /tmp/work/dist/theme/mermaid.min.css -> /output/theme/mermaid.min.css.br
+2022/08/20 16:31:02 gz /tmp/work/dist/theme/mermaid.min.css -> /output/theme/mermaid.min.css.gz
+2022/08/20 16:31:02 br /tmp/work/dist/gridjs.module.js.map -> /output/gridjs.module.js.map.br
+2022/08/20 16:31:02 gz /tmp/work/dist/gridjs.module.js.map -> /output/gridjs.module.js.map.gz
+2022/08/20 16:31:02 br /tmp/work/dist/gridjs.umd.js.map -> /output/gridjs.umd.js.map.br
+2022/08/20 16:31:02 br /tmp/work/dist/gridjs.js.map -> /output/gridjs.js.map.br
+2022/08/20 16:31:02 gz /tmp/work/dist/gridjs.umd.js.map -> /output/gridjs.umd.js.map.gz
+2022/08/20 16:31:02 gz /tmp/work/dist/gridjs.js.map -> /output/gridjs.js.map.gz
+2022/08/20 16:31:03 sri /tmp/work/dist/gridjs.module.min.js -> /output/gridjs.module.min.js.sri
+2022/08/20 16:31:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gridjs.module.min.js.br /tmp/work/dist/gridjs.module.min.js
+2022/08/20 16:31:03 sri /tmp/work/dist/gridjs.min.js -> /output/gridjs.min.js.sri
+2022/08/20 16:31:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gridjs.min.js.br /tmp/work/dist/gridjs.min.js
+2022/08/20 16:31:03 br /tmp/work/dist/gridjs.module.min.js -> /output/gridjs.module.min.js.br
+2022/08/20 16:31:03 gz /tmp/work/dist/gridjs.module.min.js -> /output/gridjs.module.min.js.gz
+2022/08/20 16:31:03 sri /tmp/work/dist/gridjs.module.js -> /output/gridjs.module.js.sri
+2022/08/20 16:31:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gridjs.module.js.br /tmp/work/dist/gridjs.module.js
+2022/08/20 16:31:03 br /tmp/work/dist/gridjs.min.js -> /output/gridjs.min.js.br
+2022/08/20 16:31:03 gz /tmp/work/dist/gridjs.min.js -> /output/gridjs.min.js.gz
+2022/08/20 16:31:03 sri /tmp/work/dist/gridjs.js -> /output/gridjs.js.sri
+2022/08/20 16:31:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gridjs.js.br /tmp/work/dist/gridjs.js
+2022/08/20 16:31:03 sri /tmp/work/dist/gridjs.umd.min.js -> /output/gridjs.umd.min.js.sri
+2022/08/20 16:31:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gridjs.umd.min.js.br /tmp/work/dist/gridjs.umd.min.js
+2022/08/20 16:31:03 br /tmp/work/dist/gridjs.module.js -> /output/gridjs.module.js.br
+2022/08/20 16:31:03 gz /tmp/work/dist/gridjs.module.js -> /output/gridjs.module.js.gz
+2022/08/20 16:31:03 br /tmp/work/dist/gridjs.js -> /output/gridjs.js.br
+2022/08/20 16:31:03 gz /tmp/work/dist/gridjs.js -> /output/gridjs.js.gz
+2022/08/20 16:31:04 br /tmp/work/dist/gridjs.umd.min.js -> /output/gridjs.umd.min.js.br
+2022/08/20 16:31:04 gz /tmp/work/dist/gridjs.umd.min.js -> /output/gridjs.umd.min.js.gz
+2022/08/20 16:31:04 sri /tmp/work/dist/gridjs.umd.js -> /output/gridjs.umd.js.sri
+2022/08/20 16:31:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gridjs.umd.js.br /tmp/work/dist/gridjs.umd.js
+2022/08/20 16:31:04 br /tmp/work/dist/gridjs.umd.js -> /output/gridjs.umd.js.br
+2022/08/20 16:31:04 gz /tmp/work/dist/gridjs.umd.js -> /output/gridjs.umd.js.gz
+2022/08/20 16:31:04 processed gridjs
