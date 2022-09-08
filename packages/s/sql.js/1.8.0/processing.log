@@ -1,0 +1,89 @@
+2022/09/08 02:06:52 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/09/08 02:06:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/sql-asm-debug.min.js /tmp/work/dist/sql-asm-debug.js
+2022/09/08 02:06:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/sql-asm.min.js /tmp/work/dist/sql-asm.js
+2022/09/08 02:06:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/sql-wasm-debug.min.js /tmp/work/dist/sql-wasm-debug.js
+2022/09/08 02:06:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/sql-wasm.min.js /tmp/work/dist/sql-wasm.js
+2022/09/08 02:06:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sql-wasm.wasm.br /tmp/work/dist/sql-wasm.wasm
+2022/09/08 02:06:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/sql-asm-memory-growth.min.js /tmp/work/dist/sql-asm-memory-growth.js
+2022/09/08 02:06:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/worker.sql-asm-debug.min.js /tmp/work/dist/worker.sql-asm-debug.js
+2022/09/08 02:06:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sql-wasm-debug.wasm.br /tmp/work/dist/sql-wasm-debug.wasm
+2022/09/08 02:06:56 br /tmp/work/dist/sql-wasm.wasm -> /output/sql-wasm.wasm.br
+2022/09/08 02:06:56 gz /tmp/work/dist/sql-wasm.wasm -> /output/sql-wasm.wasm.gz
+2022/09/08 02:06:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/worker.sql-asm.min.js /tmp/work/dist/worker.sql-asm.js
+2022/09/08 02:06:56 br /tmp/work/dist/sql-wasm-debug.wasm -> /output/sql-wasm-debug.wasm.br
+2022/09/08 02:06:56 sri /tmp/work/dist/sql-wasm.min.js -> /output/sql-wasm.min.js.sri
+2022/09/08 02:06:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sql-wasm.min.js.br /tmp/work/dist/sql-wasm.min.js
+2022/09/08 02:06:56 gz /tmp/work/dist/sql-wasm-debug.wasm -> /output/sql-wasm-debug.wasm.gz
+2022/09/08 02:06:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/worker.sql-wasm-debug.min.js /tmp/work/dist/worker.sql-wasm-debug.js
+2022/09/08 02:06:56 br /tmp/work/dist/sql-wasm.min.js -> /output/sql-wasm.min.js.br
+2022/09/08 02:06:56 gz /tmp/work/dist/sql-wasm.min.js -> /output/sql-wasm.min.js.gz
+2022/09/08 02:06:56 sri /tmp/work/dist/sql-wasm.js -> /output/sql-wasm.js.sri
+2022/09/08 02:06:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sql-wasm.js.br /tmp/work/dist/sql-wasm.js
+2022/09/08 02:06:57 br /tmp/work/dist/sql-wasm.js -> /output/sql-wasm.js.br
+2022/09/08 02:06:57 gz /tmp/work/dist/sql-wasm.js -> /output/sql-wasm.js.gz
+2022/09/08 02:06:57 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/worker.sql-wasm.min.js /tmp/work/dist/worker.sql-wasm.js
+2022/09/08 02:06:58 sri /tmp/work/dist/sql-wasm-debug.min.js -> /output/sql-wasm-debug.min.js.sri
+2022/09/08 02:06:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sql-wasm-debug.min.js.br /tmp/work/dist/sql-wasm-debug.min.js
+2022/09/08 02:06:58 br /tmp/work/dist/sql-wasm-debug.min.js -> /output/sql-wasm-debug.min.js.br
+2022/09/08 02:06:58 gz /tmp/work/dist/sql-wasm-debug.min.js -> /output/sql-wasm-debug.min.js.gz
+2022/09/08 02:06:58 sri /tmp/work/dist/sql-wasm-debug.js -> /output/sql-wasm-debug.js.sri
+2022/09/08 02:06:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sql-wasm-debug.js.br /tmp/work/dist/sql-wasm-debug.js
+2022/09/08 02:06:59 br /tmp/work/dist/sql-wasm-debug.js -> /output/sql-wasm-debug.js.br
+2022/09/08 02:06:59 gz /tmp/work/dist/sql-wasm-debug.js -> /output/sql-wasm-debug.js.gz
+2022/09/08 02:07:00 sri /tmp/work/dist/worker.sql-wasm.min.js -> /output/worker.sql-wasm.min.js.sri
+2022/09/08 02:07:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/worker.sql-wasm.min.js.br /tmp/work/dist/worker.sql-wasm.min.js
+2022/09/08 02:07:00 br /tmp/work/dist/worker.sql-wasm.min.js -> /output/worker.sql-wasm.min.js.br
+2022/09/08 02:07:00 gz /tmp/work/dist/worker.sql-wasm.min.js -> /output/worker.sql-wasm.min.js.gz
+2022/09/08 02:07:00 sri /tmp/work/dist/worker.sql-wasm.js -> /output/worker.sql-wasm.js.sri
+2022/09/08 02:07:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/worker.sql-wasm.js.br /tmp/work/dist/worker.sql-wasm.js
+2022/09/08 02:07:01 br /tmp/work/dist/worker.sql-wasm.js -> /output/worker.sql-wasm.js.br
+2022/09/08 02:07:01 gz /tmp/work/dist/worker.sql-wasm.js -> /output/worker.sql-wasm.js.gz
+2022/09/08 02:07:01 sri /tmp/work/dist/worker.sql-wasm-debug.min.js -> /output/worker.sql-wasm-debug.min.js.sri
+2022/09/08 02:07:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/worker.sql-wasm-debug.min.js.br /tmp/work/dist/worker.sql-wasm-debug.min.js
+2022/09/08 02:07:01 br /tmp/work/dist/worker.sql-wasm-debug.min.js -> /output/worker.sql-wasm-debug.min.js.br
+2022/09/08 02:07:01 gz /tmp/work/dist/worker.sql-wasm-debug.min.js -> /output/worker.sql-wasm-debug.min.js.gz
+2022/09/08 02:07:01 sri /tmp/work/dist/worker.sql-wasm-debug.js -> /output/worker.sql-wasm-debug.js.sri
+2022/09/08 02:07:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/worker.sql-wasm-debug.js.br /tmp/work/dist/worker.sql-wasm-debug.js
+2022/09/08 02:07:02 br /tmp/work/dist/worker.sql-wasm-debug.js -> /output/worker.sql-wasm-debug.js.br
+2022/09/08 02:07:02 gz /tmp/work/dist/worker.sql-wasm-debug.js -> /output/worker.sql-wasm-debug.js.gz
+2022/09/08 02:13:59 sri /tmp/work/dist/sql-asm.min.js -> /output/sql-asm.min.js.sri
+2022/09/08 02:13:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sql-asm.min.js.br /tmp/work/dist/sql-asm.min.js
+2022/09/08 02:14:03 br /tmp/work/dist/sql-asm.min.js -> /output/sql-asm.min.js.br
+2022/09/08 02:14:03 gz /tmp/work/dist/sql-asm.min.js -> /output/sql-asm.min.js.gz
+2022/09/08 02:14:03 sri /tmp/work/dist/sql-asm.js -> /output/sql-asm.js.sri
+2022/09/08 02:14:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sql-asm.js.br /tmp/work/dist/sql-asm.js
+2022/09/08 02:14:07 br /tmp/work/dist/sql-asm.js -> /output/sql-asm.js.br
+2022/09/08 02:14:07 gz /tmp/work/dist/sql-asm.js -> /output/sql-asm.js.gz
+2022/09/08 02:14:12 sri /tmp/work/dist/sql-asm-memory-growth.min.js -> /output/sql-asm-memory-growth.min.js.sri
+2022/09/08 02:14:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sql-asm-memory-growth.min.js.br /tmp/work/dist/sql-asm-memory-growth.min.js
+2022/09/08 02:14:15 br /tmp/work/dist/sql-asm-memory-growth.min.js -> /output/sql-asm-memory-growth.min.js.br
+2022/09/08 02:14:15 gz /tmp/work/dist/sql-asm-memory-growth.min.js -> /output/sql-asm-memory-growth.min.js.gz
+2022/09/08 02:14:15 sri /tmp/work/dist/sql-asm-memory-growth.js -> /output/sql-asm-memory-growth.js.sri
+2022/09/08 02:14:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sql-asm-memory-growth.js.br /tmp/work/dist/sql-asm-memory-growth.js
+2022/09/08 02:14:19 br /tmp/work/dist/sql-asm-memory-growth.js -> /output/sql-asm-memory-growth.js.br
+2022/09/08 02:14:19 gz /tmp/work/dist/sql-asm-memory-growth.js -> /output/sql-asm-memory-growth.js.gz
+2022/09/08 02:14:29 sri /tmp/work/dist/worker.sql-asm-debug.min.js -> /output/worker.sql-asm-debug.min.js.sri
+2022/09/08 02:14:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/worker.sql-asm-debug.min.js.br /tmp/work/dist/worker.sql-asm-debug.min.js
+2022/09/08 02:14:32 br /tmp/work/dist/worker.sql-asm-debug.min.js -> /output/worker.sql-asm-debug.min.js.br
+2022/09/08 02:14:33 gz /tmp/work/dist/worker.sql-asm-debug.min.js -> /output/worker.sql-asm-debug.min.js.gz
+2022/09/08 02:14:33 sri /tmp/work/dist/worker.sql-asm-debug.js -> /output/worker.sql-asm-debug.js.sri
+2022/09/08 02:14:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/worker.sql-asm-debug.js.br /tmp/work/dist/worker.sql-asm-debug.js
+2022/09/08 02:14:42 sri /tmp/work/dist/worker.sql-asm.min.js -> /output/worker.sql-asm.min.js.sri
+2022/09/08 02:14:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/worker.sql-asm.min.js.br /tmp/work/dist/worker.sql-asm.min.js
+2022/09/08 02:14:45 br /tmp/work/dist/worker.sql-asm.min.js -> /output/worker.sql-asm.min.js.br
+2022/09/08 02:14:45 gz /tmp/work/dist/worker.sql-asm.min.js -> /output/worker.sql-asm.min.js.gz
+2022/09/08 02:14:45 sri /tmp/work/dist/worker.sql-asm.js -> /output/worker.sql-asm.js.sri
+2022/09/08 02:14:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/worker.sql-asm.js.br /tmp/work/dist/worker.sql-asm.js
+2022/09/08 02:14:47 br /tmp/work/dist/worker.sql-asm-debug.js -> /output/worker.sql-asm-debug.js.br
+2022/09/08 02:14:48 gz /tmp/work/dist/worker.sql-asm-debug.js -> /output/worker.sql-asm-debug.js.gz
+2022/09/08 02:14:49 br /tmp/work/dist/worker.sql-asm.js -> /output/worker.sql-asm.js.br
+2022/09/08 02:14:49 gz /tmp/work/dist/worker.sql-asm.js -> /output/worker.sql-asm.js.gz
+2022/09/08 02:14:50 sri /tmp/work/dist/sql-asm-debug.min.js -> /output/sql-asm-debug.min.js.sri
+2022/09/08 02:14:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sql-asm-debug.min.js.br /tmp/work/dist/sql-asm-debug.min.js
+2022/09/08 02:14:53 br /tmp/work/dist/sql-asm-debug.min.js -> /output/sql-asm-debug.min.js.br
+2022/09/08 02:14:53 gz /tmp/work/dist/sql-asm-debug.min.js -> /output/sql-asm-debug.min.js.gz
+2022/09/08 02:14:53 sri /tmp/work/dist/sql-asm-debug.js -> /output/sql-asm-debug.js.sri
+2022/09/08 02:14:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sql-asm-debug.js.br /tmp/work/dist/sql-asm-debug.js
+2022/09/08 02:15:08 br /tmp/work/dist/sql-asm-debug.js -> /output/sql-asm-debug.js.br
+2022/09/08 02:15:08 gz /tmp/work/dist/sql-asm-debug.js -> /output/sql-asm-debug.js.gz
+2022/09/08 02:15:08 processed sql.js
