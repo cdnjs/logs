@@ -1,0 +1,14 @@
+2022/10/02 21:34:50 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/10/02 21:34:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/html-entities.json.br /tmp/work/html-entities.json
+2022/10/02 21:34:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/parser.min.js /tmp/work/parser.js
+2022/10/02 21:34:50 br /tmp/work/html-entities.json -> /output/html-entities.json.br
+2022/10/02 21:34:50 gz /tmp/work/html-entities.json -> /output/html-entities.json.gz
+2022/10/02 21:34:51 sri /tmp/work/parser.min.js -> /output/parser.min.js.sri
+2022/10/02 21:34:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser.min.js.br /tmp/work/parser.min.js
+2022/10/02 21:34:51 br /tmp/work/parser.min.js -> /output/parser.min.js.br
+2022/10/02 21:34:51 gz /tmp/work/parser.min.js -> /output/parser.min.js.gz
+2022/10/02 21:34:51 sri /tmp/work/parser.js -> /output/parser.js.sri
+2022/10/02 21:34:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser.js.br /tmp/work/parser.js
+2022/10/02 21:34:51 br /tmp/work/parser.js -> /output/parser.js.br
+2022/10/02 21:34:51 gz /tmp/work/parser.js -> /output/parser.js.gz
+2022/10/02 21:34:51 processed webvtt-parser
