@@ -1,0 +1,11 @@
+2022/10/02 17:02:10 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/10/02 17:02:10 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/parser.min.js /tmp/work/parser.js
+2022/10/02 17:02:11 sri /tmp/work/parser.min.js -> /output/parser.min.js.sri
+2022/10/02 17:02:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser.min.js.br /tmp/work/parser.min.js
+2022/10/02 17:02:11 br /tmp/work/parser.min.js -> /output/parser.min.js.br
+2022/10/02 17:02:11 gz /tmp/work/parser.min.js -> /output/parser.min.js.gz
+2022/10/02 17:02:11 sri /tmp/work/parser.js -> /output/parser.js.sri
+2022/10/02 17:02:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser.js.br /tmp/work/parser.js
+2022/10/02 17:02:11 br /tmp/work/parser.js -> /output/parser.js.br
+2022/10/02 17:02:11 gz /tmp/work/parser.js -> /output/parser.js.gz
+2022/10/02 17:02:11 processed webvtt-parser
