@@ -1,0 +1,11 @@
+2022/10/28 05:32:34 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/10/28 05:32:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/search.min.js /tmp/work/dist/search.js
+2022/10/28 05:32:35 sri /tmp/work/dist/search.min.js -> /output/search.min.js.sri
+2022/10/28 05:32:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/search.min.js.br /tmp/work/dist/search.min.js
+2022/10/28 05:32:35 br /tmp/work/dist/search.min.js -> /output/search.min.js.br
+2022/10/28 05:32:35 gz /tmp/work/dist/search.min.js -> /output/search.min.js.gz
+2022/10/28 05:32:35 sri /tmp/work/dist/search.js -> /output/search.js.sri
+2022/10/28 05:32:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/search.js.br /tmp/work/dist/search.js
+2022/10/28 05:32:35 br /tmp/work/dist/search.js -> /output/search.js.br
+2022/10/28 05:32:35 gz /tmp/work/dist/search.js -> /output/search.js.gz
+2022/10/28 05:32:35 processed hexo-generator-searchdb
