@@ -1,0 +1,11 @@
+2022/11/06 20:01:41 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/11/06 20:01:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/jsonfn.min.js /tmp/work/jsonfn.js
+2022/11/06 20:01:41 sri /tmp/work/jsonfn.min.js -> /output/jsonfn.min.js.sri
+2022/11/06 20:01:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsonfn.min.js.br /tmp/work/jsonfn.min.js
+2022/11/06 20:01:41 br /tmp/work/jsonfn.min.js -> /output/jsonfn.min.js.br
+2022/11/06 20:01:41 gz /tmp/work/jsonfn.min.js -> /output/jsonfn.min.js.gz
+2022/11/06 20:01:41 sri /tmp/work/jsonfn.js -> /output/jsonfn.js.sri
+2022/11/06 20:01:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsonfn.js.br /tmp/work/jsonfn.js
+2022/11/06 20:01:41 br /tmp/work/jsonfn.js -> /output/jsonfn.js.br
+2022/11/06 20:01:41 gz /tmp/work/jsonfn.js -> /output/jsonfn.js.gz
+2022/11/06 20:01:41 processed json-fn
