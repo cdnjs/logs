@@ -1,0 +1,14 @@
+2022/11/08 16:36:18 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/11/08 16:36:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/bin/canvaskit.min.js /tmp/work/bin/canvaskit.js
+2022/11/08 16:36:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/canvaskit.wasm.br /tmp/work/bin/canvaskit.wasm
+2022/11/08 16:36:21 sri /tmp/work/bin/canvaskit.min.js -> /output/canvaskit.min.js.sri
+2022/11/08 16:36:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/canvaskit.min.js.br /tmp/work/bin/canvaskit.min.js
+2022/11/08 16:36:22 br /tmp/work/bin/canvaskit.min.js -> /output/canvaskit.min.js.br
+2022/11/08 16:36:22 gz /tmp/work/bin/canvaskit.min.js -> /output/canvaskit.min.js.gz
+2022/11/08 16:36:22 sri /tmp/work/bin/canvaskit.js -> /output/canvaskit.js.sri
+2022/11/08 16:36:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/canvaskit.js.br /tmp/work/bin/canvaskit.js
+2022/11/08 16:36:22 br /tmp/work/bin/canvaskit.js -> /output/canvaskit.js.br
+2022/11/08 16:36:22 gz /tmp/work/bin/canvaskit.js -> /output/canvaskit.js.gz
+2022/11/08 16:36:49 br /tmp/work/bin/canvaskit.wasm -> /output/canvaskit.wasm.br
+2022/11/08 16:36:50 gz /tmp/work/bin/canvaskit.wasm -> /output/canvaskit.wasm.gz
+2022/11/08 16:36:50 processed canvaskit-wasm
