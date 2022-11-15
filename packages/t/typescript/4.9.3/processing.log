@@ -1,0 +1,11 @@
+2022/11/15 22:07:42 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/11/15 22:07:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/typescript.min.js /tmp/work/lib/typescript.js
+2022/11/15 22:08:16 sri /tmp/work/lib/typescript.min.js -> /output/typescript.min.js.sri
+2022/11/15 22:08:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/typescript.min.js.br /tmp/work/lib/typescript.min.js
+2022/11/15 22:08:24 br /tmp/work/lib/typescript.min.js -> /output/typescript.min.js.br
+2022/11/15 22:08:25 gz /tmp/work/lib/typescript.min.js -> /output/typescript.min.js.gz
+2022/11/15 22:08:25 sri /tmp/work/lib/typescript.js -> /output/typescript.js.sri
+2022/11/15 22:08:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/typescript.js.br /tmp/work/lib/typescript.js
+2022/11/15 22:08:51 br /tmp/work/lib/typescript.js -> /output/typescript.js.br
+2022/11/15 22:08:52 gz /tmp/work/lib/typescript.js -> /output/typescript.js.gz
+2022/11/15 22:08:52 processed typescript
