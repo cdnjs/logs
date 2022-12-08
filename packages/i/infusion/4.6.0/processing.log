@@ -1,0 +1,74 @@
+2022/12/08 20:07:48 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/12/08 20:07:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/infusion-all-no-jquery.min.js /tmp/work/dist/infusion-all-no-jquery.js
+2022/12/08 20:07:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/infusion-all.min.js /tmp/work/dist/infusion-all.js
+2022/12/08 20:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/infusion-all-no-jquery.js.map.br /tmp/work/dist/infusion-all-no-jquery.js.map
+2022/12/08 20:07:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/infusion-framework-no-jquery.min.js /tmp/work/dist/infusion-framework-no-jquery.js
+2022/12/08 20:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/infusion-all.js.map.br /tmp/work/dist/infusion-all.js.map
+2022/12/08 20:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/infusion-framework.js.map.br /tmp/work/dist/infusion-framework.js.map
+2022/12/08 20:07:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/infusion-framework.min.js /tmp/work/dist/infusion-framework.js
+2022/12/08 20:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/infusion-framework-no-jquery.js.map.br /tmp/work/dist/infusion-framework-no-jquery.js.map
+2022/12/08 20:07:49 br /tmp/work/dist/infusion-framework-no-jquery.js.map -> /output/infusion-framework-no-jquery.js.map.br
+2022/12/08 20:07:49 gz /tmp/work/dist/infusion-framework-no-jquery.js.map -> /output/infusion-framework-no-jquery.js.map.gz
+2022/12/08 20:07:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/infusion-uio-no-jquery.min.js /tmp/work/dist/infusion-uio-no-jquery.js
+2022/12/08 20:07:50 br /tmp/work/dist/infusion-framework.js.map -> /output/infusion-framework.js.map.br
+2022/12/08 20:07:50 gz /tmp/work/dist/infusion-framework.js.map -> /output/infusion-framework.js.map.gz
+2022/12/08 20:07:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/infusion-uio-no-jquery.js.map.br /tmp/work/dist/infusion-uio-no-jquery.js.map
+2022/12/08 20:07:50 br /tmp/work/dist/infusion-all-no-jquery.js.map -> /output/infusion-all-no-jquery.js.map.br
+2022/12/08 20:07:50 gz /tmp/work/dist/infusion-all-no-jquery.js.map -> /output/infusion-all-no-jquery.js.map.gz
+2022/12/08 20:07:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/infusion-uio.min.js /tmp/work/dist/infusion-uio.js
+2022/12/08 20:07:51 br /tmp/work/dist/infusion-all.js.map -> /output/infusion-all.js.map.br
+2022/12/08 20:07:51 gz /tmp/work/dist/infusion-all.js.map -> /output/infusion-all.js.map.gz
+2022/12/08 20:07:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/infusion-uio.js.map.br /tmp/work/dist/infusion-uio.js.map
+2022/12/08 20:07:52 br /tmp/work/dist/infusion-uio-no-jquery.js.map -> /output/infusion-uio-no-jquery.js.map.br
+2022/12/08 20:07:52 gz /tmp/work/dist/infusion-uio-no-jquery.js.map -> /output/infusion-uio-no-jquery.js.map.gz
+2022/12/08 20:07:54 br /tmp/work/dist/infusion-uio.js.map -> /output/infusion-uio.js.map.br
+2022/12/08 20:07:54 gz /tmp/work/dist/infusion-uio.js.map -> /output/infusion-uio.js.map.gz
+2022/12/08 20:07:56 sri /tmp/work/dist/infusion-framework-no-jquery.min.js -> /output/infusion-framework-no-jquery.min.js.sri
+2022/12/08 20:07:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/infusion-framework-no-jquery.min.js.br /tmp/work/dist/infusion-framework-no-jquery.min.js
+2022/12/08 20:07:57 br /tmp/work/dist/infusion-framework-no-jquery.min.js -> /output/infusion-framework-no-jquery.min.js.br
+2022/12/08 20:07:57 gz /tmp/work/dist/infusion-framework-no-jquery.min.js -> /output/infusion-framework-no-jquery.min.js.gz
+2022/12/08 20:07:57 sri /tmp/work/dist/infusion-framework-no-jquery.js -> /output/infusion-framework-no-jquery.js.sri
+2022/12/08 20:07:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/infusion-framework-no-jquery.js.br /tmp/work/dist/infusion-framework-no-jquery.js
+2022/12/08 20:07:58 br /tmp/work/dist/infusion-framework-no-jquery.js -> /output/infusion-framework-no-jquery.js.br
+2022/12/08 20:07:58 gz /tmp/work/dist/infusion-framework-no-jquery.js -> /output/infusion-framework-no-jquery.js.gz
+2022/12/08 20:08:00 sri /tmp/work/dist/infusion-uio-no-jquery.min.js -> /output/infusion-uio-no-jquery.min.js.sri
+2022/12/08 20:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/infusion-uio-no-jquery.min.js.br /tmp/work/dist/infusion-uio-no-jquery.min.js
+2022/12/08 20:08:01 sri /tmp/work/dist/infusion-all-no-jquery.min.js -> /output/infusion-all-no-jquery.min.js.sri
+2022/12/08 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/infusion-all-no-jquery.min.js.br /tmp/work/dist/infusion-all-no-jquery.min.js
+2022/12/08 20:08:01 sri /tmp/work/dist/infusion-framework.min.js -> /output/infusion-framework.min.js.sri
+2022/12/08 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/infusion-framework.min.js.br /tmp/work/dist/infusion-framework.min.js
+2022/12/08 20:08:01 br /tmp/work/dist/infusion-uio-no-jquery.min.js -> /output/infusion-uio-no-jquery.min.js.br
+2022/12/08 20:08:01 gz /tmp/work/dist/infusion-uio-no-jquery.min.js -> /output/infusion-uio-no-jquery.min.js.gz
+2022/12/08 20:08:01 sri /tmp/work/dist/infusion-uio-no-jquery.js -> /output/infusion-uio-no-jquery.js.sri
+2022/12/08 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/infusion-uio-no-jquery.js.br /tmp/work/dist/infusion-uio-no-jquery.js
+2022/12/08 20:08:02 br /tmp/work/dist/infusion-framework.min.js -> /output/infusion-framework.min.js.br
+2022/12/08 20:08:02 gz /tmp/work/dist/infusion-framework.min.js -> /output/infusion-framework.min.js.gz
+2022/12/08 20:08:02 sri /tmp/work/dist/infusion-framework.js -> /output/infusion-framework.js.sri
+2022/12/08 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/infusion-framework.js.br /tmp/work/dist/infusion-framework.js
+2022/12/08 20:08:02 br /tmp/work/dist/infusion-all-no-jquery.min.js -> /output/infusion-all-no-jquery.min.js.br
+2022/12/08 20:08:03 gz /tmp/work/dist/infusion-all-no-jquery.min.js -> /output/infusion-all-no-jquery.min.js.gz
+2022/12/08 20:08:03 sri /tmp/work/dist/infusion-all-no-jquery.js -> /output/infusion-all-no-jquery.js.sri
+2022/12/08 20:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/infusion-all-no-jquery.js.br /tmp/work/dist/infusion-all-no-jquery.js
+2022/12/08 20:08:03 br /tmp/work/dist/infusion-uio-no-jquery.js -> /output/infusion-uio-no-jquery.js.br
+2022/12/08 20:08:03 gz /tmp/work/dist/infusion-uio-no-jquery.js -> /output/infusion-uio-no-jquery.js.gz
+2022/12/08 20:08:04 sri /tmp/work/dist/infusion-all.min.js -> /output/infusion-all.min.js.sri
+2022/12/08 20:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/infusion-all.min.js.br /tmp/work/dist/infusion-all.min.js
+2022/12/08 20:08:04 br /tmp/work/dist/infusion-framework.js -> /output/infusion-framework.js.br
+2022/12/08 20:08:04 gz /tmp/work/dist/infusion-framework.js -> /output/infusion-framework.js.gz
+2022/12/08 20:08:04 sri /tmp/work/dist/infusion-uio.min.js -> /output/infusion-uio.min.js.sri
+2022/12/08 20:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/infusion-uio.min.js.br /tmp/work/dist/infusion-uio.min.js
+2022/12/08 20:08:04 br /tmp/work/dist/infusion-all-no-jquery.js -> /output/infusion-all-no-jquery.js.br
+2022/12/08 20:08:04 gz /tmp/work/dist/infusion-all-no-jquery.js -> /output/infusion-all-no-jquery.js.gz
+2022/12/08 20:08:05 br /tmp/work/dist/infusion-all.min.js -> /output/infusion-all.min.js.br
+2022/12/08 20:08:05 gz /tmp/work/dist/infusion-all.min.js -> /output/infusion-all.min.js.gz
+2022/12/08 20:08:05 sri /tmp/work/dist/infusion-all.js -> /output/infusion-all.js.sri
+2022/12/08 20:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/infusion-all.js.br /tmp/work/dist/infusion-all.js
+2022/12/08 20:08:06 br /tmp/work/dist/infusion-uio.min.js -> /output/infusion-uio.min.js.br
+2022/12/08 20:08:06 gz /tmp/work/dist/infusion-uio.min.js -> /output/infusion-uio.min.js.gz
+2022/12/08 20:08:06 sri /tmp/work/dist/infusion-uio.js -> /output/infusion-uio.js.sri
+2022/12/08 20:08:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/infusion-uio.js.br /tmp/work/dist/infusion-uio.js
+2022/12/08 20:08:07 br /tmp/work/dist/infusion-all.js -> /output/infusion-all.js.br
+2022/12/08 20:08:07 br /tmp/work/dist/infusion-uio.js -> /output/infusion-uio.js.br
+2022/12/08 20:08:08 gz /tmp/work/dist/infusion-all.js -> /output/infusion-all.js.gz
+2022/12/08 20:08:08 gz /tmp/work/dist/infusion-uio.js -> /output/infusion-uio.js.gz
+2022/12/08 20:08:08 processed infusion
