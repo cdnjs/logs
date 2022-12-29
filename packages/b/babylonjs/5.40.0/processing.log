@@ -1,0 +1,32 @@
+2022/12/29 11:33:33 optimizing files (Js true, Css true, Png true, Jpg true)
+2022/12/29 11:33:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/babylon.min.js /tmp/work/babylon.js
+2022/12/29 11:33:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/babylon.max.min.js /tmp/work/babylon.max.js
+2022/12/29 11:33:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/babylon.d.ts.br /tmp/work/babylon.d.ts
+2022/12/29 11:33:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/babylon.js.map.br /tmp/work/babylon.js.map
+2022/12/29 11:33:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/babylon.module.d.ts.br /tmp/work/babylon.module.d.ts
+2022/12/29 11:33:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/babylon.max.js.map.br /tmp/work/babylon.max.js.map
+2022/12/29 11:33:46 br /tmp/work/babylon.d.ts -> /output/babylon.d.ts.br
+2022/12/29 11:33:46 gz /tmp/work/babylon.d.ts -> /output/babylon.d.ts.gz
+2022/12/29 11:34:00 br /tmp/work/babylon.module.d.ts -> /output/babylon.module.d.ts.br
+2022/12/29 11:34:01 gz /tmp/work/babylon.module.d.ts -> /output/babylon.module.d.ts.gz
+2022/12/29 11:36:55 sri /tmp/work/babylon.min.js -> /output/babylon.min.js.sri
+2022/12/29 11:36:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/babylon.min.js.br /tmp/work/babylon.min.js
+2022/12/29 11:36:55 br /tmp/work/babylon.js.map -> /output/babylon.js.map.br
+2022/12/29 11:36:57 gz /tmp/work/babylon.js.map -> /output/babylon.js.map.gz
+2022/12/29 11:37:01 sri /tmp/work/babylon.max.min.js -> /output/babylon.max.min.js.sri
+2022/12/29 11:37:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/babylon.max.min.js.br /tmp/work/babylon.max.min.js
+2022/12/29 11:37:01 br /tmp/work/babylon.max.js.map -> /output/babylon.max.js.map.br
+2022/12/29 11:37:03 gz /tmp/work/babylon.max.js.map -> /output/babylon.max.js.map.gz
+2022/12/29 11:37:06 br /tmp/work/babylon.min.js -> /output/babylon.min.js.br
+2022/12/29 11:37:06 gz /tmp/work/babylon.min.js -> /output/babylon.min.js.gz
+2022/12/29 11:37:06 sri /tmp/work/babylon.js -> /output/babylon.js.sri
+2022/12/29 11:37:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/babylon.js.br /tmp/work/babylon.js
+2022/12/29 11:37:13 br /tmp/work/babylon.max.min.js -> /output/babylon.max.min.js.br
+2022/12/29 11:37:14 gz /tmp/work/babylon.max.min.js -> /output/babylon.max.min.js.gz
+2022/12/29 11:37:14 sri /tmp/work/babylon.max.js -> /output/babylon.max.js.sri
+2022/12/29 11:37:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/babylon.max.js.br /tmp/work/babylon.max.js
+2022/12/29 11:37:17 br /tmp/work/babylon.js -> /output/babylon.js.br
+2022/12/29 11:37:17 gz /tmp/work/babylon.js -> /output/babylon.js.gz
+2022/12/29 11:37:49 br /tmp/work/babylon.max.js -> /output/babylon.max.js.br
+2022/12/29 11:37:50 gz /tmp/work/babylon.max.js -> /output/babylon.max.js.gz
+2022/12/29 11:37:50 processed babylonjs
