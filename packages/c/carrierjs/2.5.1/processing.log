@@ -1,0 +1,11 @@
+2023/01/02 19:33:00 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/01/02 19:33:00 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/carrier.min.js /tmp/work/carrier.js
+2023/01/02 19:33:00 sri /tmp/work/carrier.min.js -> /output/carrier.min.js.sri
+2023/01/02 19:33:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carrier.min.js.br /tmp/work/carrier.min.js
+2023/01/02 19:33:00 br /tmp/work/carrier.min.js -> /output/carrier.min.js.br
+2023/01/02 19:33:00 gz /tmp/work/carrier.min.js -> /output/carrier.min.js.gz
+2023/01/02 19:33:00 sri /tmp/work/carrier.js -> /output/carrier.js.sri
+2023/01/02 19:33:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carrier.js.br /tmp/work/carrier.js
+2023/01/02 19:33:00 br /tmp/work/carrier.js -> /output/carrier.js.br
+2023/01/02 19:33:00 gz /tmp/work/carrier.js -> /output/carrier.js.gz
+2023/01/02 19:33:00 processed carrierjs
