@@ -1,0 +1,29 @@
+2023/01/28 07:11:48 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/01/28 07:11:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/ngl.umd.min.js /tmp/work/dist/ngl.umd.js
+2023/01/28 07:11:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/ngl.esm.min.js /tmp/work/dist/ngl.esm.js
+2023/01/28 07:11:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/ngl.min.js /tmp/work/dist/ngl.js
+2023/01/28 07:11:59 sri /tmp/work/dist/ngl.esm.min.js -> /output/ngl.esm.min.js.sri
+2023/01/28 07:11:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ngl.esm.min.js.br /tmp/work/dist/ngl.esm.min.js
+2023/01/28 07:12:01 sri /tmp/work/dist/ngl.umd.min.js -> /output/ngl.umd.min.js.sri
+2023/01/28 07:12:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ngl.umd.min.js.br /tmp/work/dist/ngl.umd.min.js
+2023/01/28 07:12:01 br /tmp/work/dist/ngl.esm.min.js -> /output/ngl.esm.min.js.br
+2023/01/28 07:12:01 gz /tmp/work/dist/ngl.esm.min.js -> /output/ngl.esm.min.js.gz
+2023/01/28 07:12:01 sri /tmp/work/dist/ngl.esm.js -> /output/ngl.esm.js.sri
+2023/01/28 07:12:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ngl.esm.js.br /tmp/work/dist/ngl.esm.js
+2023/01/28 07:12:03 br /tmp/work/dist/ngl.umd.min.js -> /output/ngl.umd.min.js.br
+2023/01/28 07:12:03 gz /tmp/work/dist/ngl.umd.min.js -> /output/ngl.umd.min.js.gz
+2023/01/28 07:12:03 sri /tmp/work/dist/ngl.umd.js -> /output/ngl.umd.js.sri
+2023/01/28 07:12:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ngl.umd.js.br /tmp/work/dist/ngl.umd.js
+2023/01/28 07:12:04 br /tmp/work/dist/ngl.esm.js -> /output/ngl.esm.js.br
+2023/01/28 07:12:04 gz /tmp/work/dist/ngl.esm.js -> /output/ngl.esm.js.gz
+2023/01/28 07:12:04 sri /tmp/work/dist/ngl.min.js -> /output/ngl.min.js.sri
+2023/01/28 07:12:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ngl.min.js.br /tmp/work/dist/ngl.min.js
+2023/01/28 07:12:05 br /tmp/work/dist/ngl.umd.js -> /output/ngl.umd.js.br
+2023/01/28 07:12:05 gz /tmp/work/dist/ngl.umd.js -> /output/ngl.umd.js.gz
+2023/01/28 07:12:07 br /tmp/work/dist/ngl.min.js -> /output/ngl.min.js.br
+2023/01/28 07:12:07 gz /tmp/work/dist/ngl.min.js -> /output/ngl.min.js.gz
+2023/01/28 07:12:07 sri /tmp/work/dist/ngl.js -> /output/ngl.js.sri
+2023/01/28 07:12:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ngl.js.br /tmp/work/dist/ngl.js
+2023/01/28 07:12:10 br /tmp/work/dist/ngl.js -> /output/ngl.js.br
+2023/01/28 07:12:10 gz /tmp/work/dist/ngl.js -> /output/ngl.js.gz
+2023/01/28 07:12:10 processed ngl
