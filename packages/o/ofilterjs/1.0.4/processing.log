@@ -1,0 +1,38 @@
+2023/01/29 05:32:25 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/01/29 05:32:25 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/ofilterjs.cjs.min.js /tmp/work/dist/ofilterjs.cjs.js
+2023/01/29 05:32:25 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/ofilterjs.esm.min.js /tmp/work/dist/ofilterjs.esm.js
+2023/01/29 05:32:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ofilterjs.cjs.js.map.br /tmp/work/dist/ofilterjs.cjs.js.map
+2023/01/29 05:32:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ofilterjs.global.js.map.br /tmp/work/dist/ofilterjs.global.js.map
+2023/01/29 05:32:25 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/ofilterjs.global.min.js /tmp/work/dist/ofilterjs.global.js
+2023/01/29 05:32:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ofilterjs.esm.js.map.br /tmp/work/dist/ofilterjs.esm.js.map
+2023/01/29 05:32:25 br /tmp/work/dist/ofilterjs.global.js.map -> /output/ofilterjs.global.js.map.br
+2023/01/29 05:32:25 gz /tmp/work/dist/ofilterjs.global.js.map -> /output/ofilterjs.global.js.map.gz
+2023/01/29 05:32:25 br /tmp/work/dist/ofilterjs.esm.js.map -> /output/ofilterjs.esm.js.map.br
+2023/01/29 05:32:25 gz /tmp/work/dist/ofilterjs.esm.js.map -> /output/ofilterjs.esm.js.map.gz
+2023/01/29 05:32:25 br /tmp/work/dist/ofilterjs.cjs.js.map -> /output/ofilterjs.cjs.js.map.br
+2023/01/29 05:32:25 gz /tmp/work/dist/ofilterjs.cjs.js.map -> /output/ofilterjs.cjs.js.map.gz
+2023/01/29 05:32:26 sri /tmp/work/dist/ofilterjs.cjs.min.js -> /output/ofilterjs.cjs.min.js.sri
+2023/01/29 05:32:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ofilterjs.cjs.min.js.br /tmp/work/dist/ofilterjs.cjs.min.js
+2023/01/29 05:32:26 sri /tmp/work/dist/ofilterjs.global.min.js -> /output/ofilterjs.global.min.js.sri
+2023/01/29 05:32:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ofilterjs.global.min.js.br /tmp/work/dist/ofilterjs.global.min.js
+2023/01/29 05:32:26 sri /tmp/work/dist/ofilterjs.esm.min.js -> /output/ofilterjs.esm.min.js.sri
+2023/01/29 05:32:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ofilterjs.esm.min.js.br /tmp/work/dist/ofilterjs.esm.min.js
+2023/01/29 05:32:26 br /tmp/work/dist/ofilterjs.cjs.min.js -> /output/ofilterjs.cjs.min.js.br
+2023/01/29 05:32:26 gz /tmp/work/dist/ofilterjs.cjs.min.js -> /output/ofilterjs.cjs.min.js.gz
+2023/01/29 05:32:26 sri /tmp/work/dist/ofilterjs.cjs.js -> /output/ofilterjs.cjs.js.sri
+2023/01/29 05:32:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ofilterjs.cjs.js.br /tmp/work/dist/ofilterjs.cjs.js
+2023/01/29 05:32:26 br /tmp/work/dist/ofilterjs.global.min.js -> /output/ofilterjs.global.min.js.br
+2023/01/29 05:32:26 gz /tmp/work/dist/ofilterjs.global.min.js -> /output/ofilterjs.global.min.js.gz
+2023/01/29 05:32:26 sri /tmp/work/dist/ofilterjs.global.js -> /output/ofilterjs.global.js.sri
+2023/01/29 05:32:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ofilterjs.global.js.br /tmp/work/dist/ofilterjs.global.js
+2023/01/29 05:32:26 br /tmp/work/dist/ofilterjs.esm.min.js -> /output/ofilterjs.esm.min.js.br
+2023/01/29 05:32:26 gz /tmp/work/dist/ofilterjs.esm.min.js -> /output/ofilterjs.esm.min.js.gz
+2023/01/29 05:32:26 sri /tmp/work/dist/ofilterjs.esm.js -> /output/ofilterjs.esm.js.sri
+2023/01/29 05:32:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ofilterjs.esm.js.br /tmp/work/dist/ofilterjs.esm.js
+2023/01/29 05:32:26 br /tmp/work/dist/ofilterjs.cjs.js -> /output/ofilterjs.cjs.js.br
+2023/01/29 05:32:26 gz /tmp/work/dist/ofilterjs.cjs.js -> /output/ofilterjs.cjs.js.gz
+2023/01/29 05:32:26 br /tmp/work/dist/ofilterjs.global.js -> /output/ofilterjs.global.js.br
+2023/01/29 05:32:26 br /tmp/work/dist/ofilterjs.esm.js -> /output/ofilterjs.esm.js.br
+2023/01/29 05:32:26 gz /tmp/work/dist/ofilterjs.global.js -> /output/ofilterjs.global.js.gz
+2023/01/29 05:32:26 gz /tmp/work/dist/ofilterjs.esm.js -> /output/ofilterjs.esm.js.gz
+2023/01/29 05:32:26 processed ofilterjs
