@@ -1,0 +1,11 @@
+2023/01/31 22:30:34 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/01/31 22:30:34 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/editor.min.js /tmp/work/dist/editor.js
+2023/01/31 22:30:41 sri /tmp/work/dist/editor.min.js -> /output/editor.min.js.sri
+2023/01/31 22:30:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/editor.min.js.br /tmp/work/dist/editor.min.js
+2023/01/31 22:30:42 br /tmp/work/dist/editor.min.js -> /output/editor.min.js.br
+2023/01/31 22:30:42 gz /tmp/work/dist/editor.min.js -> /output/editor.min.js.gz
+2023/01/31 22:30:42 sri /tmp/work/dist/editor.js -> /output/editor.js.sri
+2023/01/31 22:30:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/editor.js.br /tmp/work/dist/editor.js
+2023/01/31 22:30:43 br /tmp/work/dist/editor.js -> /output/editor.js.br
+2023/01/31 22:30:43 gz /tmp/work/dist/editor.js -> /output/editor.js.gz
+2023/01/31 22:30:43 processed editor.js
