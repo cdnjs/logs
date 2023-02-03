@@ -1,0 +1,29 @@
+2023/02/03 09:30:54 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/02/03 09:30:54 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/global/ecosystem.min.js /tmp/work/dist/global/ecosystem.js
+2023/02/03 09:30:54 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/global/core.min.js /tmp/work/dist/global/core.js
+2023/02/03 09:30:54 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/global/everything.min.js /tmp/work/dist/global/everything.js
+2023/02/03 09:31:05 sri /tmp/work/dist/global/core.min.js -> /output/core.min.js.sri
+2023/02/03 09:31:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.min.js.br /tmp/work/dist/global/core.min.js
+2023/02/03 09:31:06 sri /tmp/work/dist/global/ecosystem.min.js -> /output/ecosystem.min.js.sri
+2023/02/03 09:31:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ecosystem.min.js.br /tmp/work/dist/global/ecosystem.min.js
+2023/02/03 09:31:06 br /tmp/work/dist/global/core.min.js -> /output/core.min.js.br
+2023/02/03 09:31:06 gz /tmp/work/dist/global/core.min.js -> /output/core.min.js.gz
+2023/02/03 09:31:06 sri /tmp/work/dist/global/core.js -> /output/core.js.sri
+2023/02/03 09:31:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.js.br /tmp/work/dist/global/core.js
+2023/02/03 09:31:06 sri /tmp/work/dist/global/everything.min.js -> /output/everything.min.js.sri
+2023/02/03 09:31:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/everything.min.js.br /tmp/work/dist/global/everything.min.js
+2023/02/03 09:31:08 br /tmp/work/dist/global/ecosystem.min.js -> /output/ecosystem.min.js.br
+2023/02/03 09:31:08 gz /tmp/work/dist/global/ecosystem.min.js -> /output/ecosystem.min.js.gz
+2023/02/03 09:31:08 sri /tmp/work/dist/global/ecosystem.js -> /output/ecosystem.js.sri
+2023/02/03 09:31:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ecosystem.js.br /tmp/work/dist/global/ecosystem.js
+2023/02/03 09:31:08 br /tmp/work/dist/global/everything.min.js -> /output/everything.min.js.br
+2023/02/03 09:31:08 gz /tmp/work/dist/global/everything.min.js -> /output/everything.min.js.gz
+2023/02/03 09:31:08 sri /tmp/work/dist/global/everything.js -> /output/everything.js.sri
+2023/02/03 09:31:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/everything.js.br /tmp/work/dist/global/everything.js
+2023/02/03 09:31:09 br /tmp/work/dist/global/core.js -> /output/core.js.br
+2023/02/03 09:31:09 gz /tmp/work/dist/global/core.js -> /output/core.js.gz
+2023/02/03 09:31:12 br /tmp/work/dist/global/ecosystem.js -> /output/ecosystem.js.br
+2023/02/03 09:31:12 gz /tmp/work/dist/global/ecosystem.js -> /output/ecosystem.js.gz
+2023/02/03 09:31:12 br /tmp/work/dist/global/everything.js -> /output/everything.js.br
+2023/02/03 09:31:12 gz /tmp/work/dist/global/everything.js -> /output/everything.js.gz
+2023/02/03 09:31:12 processed can.js
