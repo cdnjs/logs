@@ -1,0 +1,11 @@
+2023/02/04 00:31:02 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/02/04 00:31:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/tinycolor.min.js /tmp/work/tinycolor.js
+2023/02/04 00:31:03 sri /tmp/work/tinycolor.min.js -> /output/tinycolor.min.js.sri
+2023/02/04 00:31:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tinycolor.min.js.br /tmp/work/tinycolor.min.js
+2023/02/04 00:31:03 br /tmp/work/tinycolor.min.js -> /output/tinycolor.min.js.br
+2023/02/04 00:31:03 gz /tmp/work/tinycolor.min.js -> /output/tinycolor.min.js.gz
+2023/02/04 00:31:03 sri /tmp/work/tinycolor.js -> /output/tinycolor.js.sri
+2023/02/04 00:31:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tinycolor.js.br /tmp/work/tinycolor.js
+2023/02/04 00:31:03 br /tmp/work/tinycolor.js -> /output/tinycolor.js.br
+2023/02/04 00:31:03 gz /tmp/work/tinycolor.js -> /output/tinycolor.js.gz
+2023/02/04 00:31:03 processed tinycolor
