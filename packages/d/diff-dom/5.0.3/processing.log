@@ -1,0 +1,26 @@
+2023/02/06 18:15:16 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/02/06 18:15:16 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.min.js /tmp/work/dist/index.js
+2023/02/06 18:15:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.map.br /tmp/work/dist/index.js.map
+2023/02/06 18:15:16 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/module.min.js /tmp/work/dist/module.js
+2023/02/06 18:15:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/module.js.map.br /tmp/work/dist/module.js.map
+2023/02/06 18:15:17 br /tmp/work/dist/module.js.map -> /output/module.js.map.br
+2023/02/06 18:15:17 gz /tmp/work/dist/module.js.map -> /output/module.js.map.gz
+2023/02/06 18:15:17 br /tmp/work/dist/index.js.map -> /output/index.js.map.br
+2023/02/06 18:15:17 gz /tmp/work/dist/index.js.map -> /output/index.js.map.gz
+2023/02/06 18:15:17 sri /tmp/work/dist/module.min.js -> /output/module.min.js.sri
+2023/02/06 18:15:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/module.min.js.br /tmp/work/dist/module.min.js
+2023/02/06 18:15:17 sri /tmp/work/dist/index.min.js -> /output/index.min.js.sri
+2023/02/06 18:15:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/dist/index.min.js
+2023/02/06 18:15:17 br /tmp/work/dist/module.min.js -> /output/module.min.js.br
+2023/02/06 18:15:17 gz /tmp/work/dist/module.min.js -> /output/module.min.js.gz
+2023/02/06 18:15:17 sri /tmp/work/dist/module.js -> /output/module.js.sri
+2023/02/06 18:15:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/module.js.br /tmp/work/dist/module.js
+2023/02/06 18:15:17 br /tmp/work/dist/index.min.js -> /output/index.min.js.br
+2023/02/06 18:15:17 gz /tmp/work/dist/index.min.js -> /output/index.min.js.gz
+2023/02/06 18:15:17 sri /tmp/work/dist/index.js -> /output/index.js.sri
+2023/02/06 18:15:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/dist/index.js
+2023/02/06 18:15:17 br /tmp/work/dist/module.js -> /output/module.js.br
+2023/02/06 18:15:17 gz /tmp/work/dist/module.js -> /output/module.js.gz
+2023/02/06 18:15:17 br /tmp/work/dist/index.js -> /output/index.js.br
+2023/02/06 18:15:18 gz /tmp/work/dist/index.js -> /output/index.js.gz
+2023/02/06 18:15:18 processed diff-dom
