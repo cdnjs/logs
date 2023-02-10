@@ -1,0 +1,11 @@
+2023/02/10 08:50:49 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/02/10 08:50:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/QCObjects.min.js /tmp/work/QCObjects.js
+2023/02/10 08:50:51 sri /tmp/work/QCObjects.min.js -> /output/QCObjects.min.js.sri
+2023/02/10 08:50:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/QCObjects.min.js.br /tmp/work/QCObjects.min.js
+2023/02/10 08:50:51 br /tmp/work/QCObjects.min.js -> /output/QCObjects.min.js.br
+2023/02/10 08:50:51 gz /tmp/work/QCObjects.min.js -> /output/QCObjects.min.js.gz
+2023/02/10 08:50:51 sri /tmp/work/QCObjects.js -> /output/QCObjects.js.sri
+2023/02/10 08:50:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/QCObjects.js.br /tmp/work/QCObjects.js
+2023/02/10 08:50:52 br /tmp/work/QCObjects.js -> /output/QCObjects.js.br
+2023/02/10 08:50:52 gz /tmp/work/QCObjects.js -> /output/QCObjects.js.gz
+2023/02/10 08:50:52 processed qcobjects
