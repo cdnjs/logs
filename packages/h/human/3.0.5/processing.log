@@ -1,0 +1,77 @@
+2023/02/13 15:20:23 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/02/13 15:20:23 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/human.esm-nobundle.min.js /tmp/work/dist/human.esm-nobundle.js
+2023/02/13 15:20:23 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/human.esm.min.js /tmp/work/dist/human.esm.js
+2023/02/13 15:20:23 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/human.min.js /tmp/work/dist/human.js
+2023/02/13 15:20:23 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/human.node-wasm.min.js /tmp/work/dist/human.node-wasm.js
+2023/02/13 15:20:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.esm.js.map.br /tmp/work/dist/human.esm.js.map
+2023/02/13 15:20:23 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/human.node-gpu.min.js /tmp/work/dist/human.node-gpu.js
+2023/02/13 15:20:23 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/human.node.min.js /tmp/work/dist/human.node.js
+2023/02/13 15:20:23 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/tfjs.esm.min.js /tmp/work/dist/tfjs.esm.js
+2023/02/13 15:20:32 sri /tmp/work/dist/human.node-wasm.min.js -> /output/human.node-wasm.min.js.sri
+2023/02/13 15:20:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.node-wasm.min.js.br /tmp/work/dist/human.node-wasm.min.js
+2023/02/13 15:20:32 sri /tmp/work/dist/human.node.min.js -> /output/human.node.min.js.sri
+2023/02/13 15:20:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.node.min.js.br /tmp/work/dist/human.node.min.js
+2023/02/13 15:20:32 sri /tmp/work/dist/human.node-gpu.min.js -> /output/human.node-gpu.min.js.sri
+2023/02/13 15:20:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.node-gpu.min.js.br /tmp/work/dist/human.node-gpu.min.js
+2023/02/13 15:20:32 sri /tmp/work/dist/human.esm-nobundle.min.js -> /output/human.esm-nobundle.min.js.sri
+2023/02/13 15:20:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.esm-nobundle.min.js.br /tmp/work/dist/human.esm-nobundle.min.js
+2023/02/13 15:20:33 br /tmp/work/dist/human.node-wasm.min.js -> /output/human.node-wasm.min.js.br
+2023/02/13 15:20:33 gz /tmp/work/dist/human.node-wasm.min.js -> /output/human.node-wasm.min.js.gz
+2023/02/13 15:20:33 sri /tmp/work/dist/human.node-wasm.js -> /output/human.node-wasm.js.sri
+2023/02/13 15:20:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.node-wasm.js.br /tmp/work/dist/human.node-wasm.js
+2023/02/13 15:20:33 br /tmp/work/dist/human.node.min.js -> /output/human.node.min.js.br
+2023/02/13 15:20:33 gz /tmp/work/dist/human.node.min.js -> /output/human.node.min.js.gz
+2023/02/13 15:20:33 sri /tmp/work/dist/human.node.js -> /output/human.node.js.sri
+2023/02/13 15:20:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.node.js.br /tmp/work/dist/human.node.js
+2023/02/13 15:20:33 br /tmp/work/dist/human.esm-nobundle.min.js -> /output/human.esm-nobundle.min.js.br
+2023/02/13 15:20:33 gz /tmp/work/dist/human.esm-nobundle.min.js -> /output/human.esm-nobundle.min.js.gz
+2023/02/13 15:20:33 sri /tmp/work/dist/human.esm-nobundle.js -> /output/human.esm-nobundle.js.sri
+2023/02/13 15:20:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.esm-nobundle.js.br /tmp/work/dist/human.esm-nobundle.js
+2023/02/13 15:20:33 br /tmp/work/dist/human.node-gpu.min.js -> /output/human.node-gpu.min.js.br
+2023/02/13 15:20:33 gz /tmp/work/dist/human.node-gpu.min.js -> /output/human.node-gpu.min.js.gz
+2023/02/13 15:20:33 sri /tmp/work/dist/human.node-gpu.js -> /output/human.node-gpu.js.sri
+2023/02/13 15:20:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.node-gpu.js.br /tmp/work/dist/human.node-gpu.js
+2023/02/13 15:20:34 br /tmp/work/dist/human.node-wasm.js -> /output/human.node-wasm.js.br
+2023/02/13 15:20:34 gz /tmp/work/dist/human.node-wasm.js -> /output/human.node-wasm.js.gz
+2023/02/13 15:20:34 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/tfjs.version.min.js /tmp/work/dist/tfjs.version.js
+2023/02/13 15:20:34 br /tmp/work/dist/human.node.js -> /output/human.node.js.br
+2023/02/13 15:20:34 gz /tmp/work/dist/human.node.js -> /output/human.node.js.gz
+2023/02/13 15:20:34 sri /tmp/work/dist/tfjs.version.min.js -> /output/tfjs.version.min.js.sri
+2023/02/13 15:20:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tfjs.version.min.js.br /tmp/work/dist/tfjs.version.min.js
+2023/02/13 15:20:34 br /tmp/work/dist/tfjs.version.min.js -> /output/tfjs.version.min.js.br
+2023/02/13 15:20:34 gz /tmp/work/dist/tfjs.version.min.js -> /output/tfjs.version.min.js.gz
+2023/02/13 15:20:34 sri /tmp/work/dist/tfjs.version.js -> /output/tfjs.version.js.sri
+2023/02/13 15:20:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tfjs.version.js.br /tmp/work/dist/tfjs.version.js
+2023/02/13 15:20:35 br /tmp/work/dist/tfjs.version.js -> /output/tfjs.version.js.br
+2023/02/13 15:20:35 gz /tmp/work/dist/tfjs.version.js -> /output/tfjs.version.js.gz
+2023/02/13 15:20:35 br /tmp/work/dist/human.esm-nobundle.js -> /output/human.esm-nobundle.js.br
+2023/02/13 15:20:35 gz /tmp/work/dist/human.esm-nobundle.js -> /output/human.esm-nobundle.js.gz
+2023/02/13 15:20:35 br /tmp/work/dist/human.node-gpu.js -> /output/human.node-gpu.js.br
+2023/02/13 15:20:35 gz /tmp/work/dist/human.node-gpu.js -> /output/human.node-gpu.js.gz
+2023/02/13 15:20:38 br /tmp/work/dist/human.esm.js.map -> /output/human.esm.js.map.br
+2023/02/13 15:20:39 gz /tmp/work/dist/human.esm.js.map -> /output/human.esm.js.map.gz
+2023/02/13 15:20:42 sri /tmp/work/dist/tfjs.esm.min.js -> /output/tfjs.esm.min.js.sri
+2023/02/13 15:20:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tfjs.esm.min.js.br /tmp/work/dist/tfjs.esm.min.js
+2023/02/13 15:20:44 sri /tmp/work/dist/human.esm.min.js -> /output/human.esm.min.js.sri
+2023/02/13 15:20:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.esm.min.js.br /tmp/work/dist/human.esm.min.js
+2023/02/13 15:20:45 br /tmp/work/dist/tfjs.esm.min.js -> /output/tfjs.esm.min.js.br
+2023/02/13 15:20:45 gz /tmp/work/dist/tfjs.esm.min.js -> /output/tfjs.esm.min.js.gz
+2023/02/13 15:20:45 sri /tmp/work/dist/tfjs.esm.js -> /output/tfjs.esm.js.sri
+2023/02/13 15:20:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tfjs.esm.js.br /tmp/work/dist/tfjs.esm.js
+2023/02/13 15:20:48 br /tmp/work/dist/human.esm.min.js -> /output/human.esm.min.js.br
+2023/02/13 15:20:48 gz /tmp/work/dist/human.esm.min.js -> /output/human.esm.min.js.gz
+2023/02/13 15:20:48 sri /tmp/work/dist/human.esm.js -> /output/human.esm.js.sri
+2023/02/13 15:20:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.esm.js.br /tmp/work/dist/human.esm.js
+2023/02/13 15:20:48 br /tmp/work/dist/tfjs.esm.js -> /output/tfjs.esm.js.br
+2023/02/13 15:20:49 gz /tmp/work/dist/tfjs.esm.js -> /output/tfjs.esm.js.gz
+2023/02/13 15:20:52 sri /tmp/work/dist/human.min.js -> /output/human.min.js.sri
+2023/02/13 15:20:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.min.js.br /tmp/work/dist/human.min.js
+2023/02/13 15:20:53 br /tmp/work/dist/human.esm.js -> /output/human.esm.js.br
+2023/02/13 15:20:53 gz /tmp/work/dist/human.esm.js -> /output/human.esm.js.gz
+2023/02/13 15:20:56 br /tmp/work/dist/human.min.js -> /output/human.min.js.br
+2023/02/13 15:20:56 gz /tmp/work/dist/human.min.js -> /output/human.min.js.gz
+2023/02/13 15:20:56 sri /tmp/work/dist/human.js -> /output/human.js.sri
+2023/02/13 15:20:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/human.js.br /tmp/work/dist/human.js
+2023/02/13 15:21:00 br /tmp/work/dist/human.js -> /output/human.js.br
+2023/02/13 15:21:00 gz /tmp/work/dist/human.js -> /output/human.js.gz
+2023/02/13 15:21:00 processed human
