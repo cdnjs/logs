@@ -1,0 +1,74 @@
+2023/02/17 23:34:45 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/02/17 23:34:46 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.min.js /tmp/work/dist/index.js
+2023/02/17 23:34:46 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/BaseWalletSubprovider.min.js /tmp/work/dist/BaseWalletSubprovider.js
+2023/02/17 23:34:46 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/NonceTracker.min.js /tmp/work/dist/NonceTracker.js
+2023/02/17 23:34:46 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/SignTransactionGasFix.min.js /tmp/work/dist/SignTransactionGasFix.js
+2023/02/17 23:34:46 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/RequestAccountsSubProvider.min.js /tmp/work/dist/RequestAccountsSubProvider.js
+2023/02/17 23:34:46 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/SignedVersionedTypedDataSubProvider.min.js /tmp/work/dist/SignedVersionedTypedDataSubProvider.js
+2023/02/17 23:34:46 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/types.min.js /tmp/work/dist/types.js
+2023/02/17 23:34:46 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/VenlyWalletSubProvider.min.js /tmp/work/dist/VenlyWalletSubProvider.js
+2023/02/17 23:34:46 sri /tmp/work/dist/types.min.js -> /output/types.min.js.sri
+2023/02/17 23:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types.min.js.br /tmp/work/dist/types.min.js
+2023/02/17 23:34:46 br /tmp/work/dist/types.min.js -> /output/types.min.js.br
+2023/02/17 23:34:46 gz /tmp/work/dist/types.min.js -> /output/types.min.js.gz
+2023/02/17 23:34:46 sri /tmp/work/dist/types.js -> /output/types.js.sri
+2023/02/17 23:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types.js.br /tmp/work/dist/types.js
+2023/02/17 23:34:46 br /tmp/work/dist/types.js -> /output/types.js.br
+2023/02/17 23:34:46 gz /tmp/work/dist/types.js -> /output/types.js.gz
+2023/02/17 23:34:46 sri /tmp/work/dist/SignTransactionGasFix.min.js -> /output/SignTransactionGasFix.min.js.sri
+2023/02/17 23:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/SignTransactionGasFix.min.js.br /tmp/work/dist/SignTransactionGasFix.min.js
+2023/02/17 23:34:46 sri /tmp/work/dist/RequestAccountsSubProvider.min.js -> /output/RequestAccountsSubProvider.min.js.sri
+2023/02/17 23:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RequestAccountsSubProvider.min.js.br /tmp/work/dist/RequestAccountsSubProvider.min.js
+2023/02/17 23:34:46 br /tmp/work/dist/SignTransactionGasFix.min.js -> /output/SignTransactionGasFix.min.js.br
+2023/02/17 23:34:46 gz /tmp/work/dist/SignTransactionGasFix.min.js -> /output/SignTransactionGasFix.min.js.gz
+2023/02/17 23:34:46 sri /tmp/work/dist/SignTransactionGasFix.js -> /output/SignTransactionGasFix.js.sri
+2023/02/17 23:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/SignTransactionGasFix.js.br /tmp/work/dist/SignTransactionGasFix.js
+2023/02/17 23:34:46 br /tmp/work/dist/RequestAccountsSubProvider.min.js -> /output/RequestAccountsSubProvider.min.js.br
+2023/02/17 23:34:46 gz /tmp/work/dist/RequestAccountsSubProvider.min.js -> /output/RequestAccountsSubProvider.min.js.gz
+2023/02/17 23:34:46 sri /tmp/work/dist/RequestAccountsSubProvider.js -> /output/RequestAccountsSubProvider.js.sri
+2023/02/17 23:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/RequestAccountsSubProvider.js.br /tmp/work/dist/RequestAccountsSubProvider.js
+2023/02/17 23:34:46 sri /tmp/work/dist/SignedVersionedTypedDataSubProvider.min.js -> /output/SignedVersionedTypedDataSubProvider.min.js.sri
+2023/02/17 23:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/SignedVersionedTypedDataSubProvider.min.js.br /tmp/work/dist/SignedVersionedTypedDataSubProvider.min.js
+2023/02/17 23:34:46 br /tmp/work/dist/SignTransactionGasFix.js -> /output/SignTransactionGasFix.js.br
+2023/02/17 23:34:46 gz /tmp/work/dist/SignTransactionGasFix.js -> /output/SignTransactionGasFix.js.gz
+2023/02/17 23:34:46 br /tmp/work/dist/SignedVersionedTypedDataSubProvider.min.js -> /output/SignedVersionedTypedDataSubProvider.min.js.br
+2023/02/17 23:34:46 gz /tmp/work/dist/SignedVersionedTypedDataSubProvider.min.js -> /output/SignedVersionedTypedDataSubProvider.min.js.gz
+2023/02/17 23:34:46 sri /tmp/work/dist/SignedVersionedTypedDataSubProvider.js -> /output/SignedVersionedTypedDataSubProvider.js.sri
+2023/02/17 23:34:46 sri /tmp/work/dist/NonceTracker.min.js -> /output/NonceTracker.min.js.sri
+2023/02/17 23:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/SignedVersionedTypedDataSubProvider.js.br /tmp/work/dist/SignedVersionedTypedDataSubProvider.js
+2023/02/17 23:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/NonceTracker.min.js.br /tmp/work/dist/NonceTracker.min.js
+2023/02/17 23:34:46 br /tmp/work/dist/RequestAccountsSubProvider.js -> /output/RequestAccountsSubProvider.js.br
+2023/02/17 23:34:46 gz /tmp/work/dist/RequestAccountsSubProvider.js -> /output/RequestAccountsSubProvider.js.gz
+2023/02/17 23:34:46 br /tmp/work/dist/NonceTracker.min.js -> /output/NonceTracker.min.js.br
+2023/02/17 23:34:46 gz /tmp/work/dist/NonceTracker.min.js -> /output/NonceTracker.min.js.gz
+2023/02/17 23:34:46 sri /tmp/work/dist/NonceTracker.js -> /output/NonceTracker.js.sri
+2023/02/17 23:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/NonceTracker.js.br /tmp/work/dist/NonceTracker.js
+2023/02/17 23:34:46 br /tmp/work/dist/SignedVersionedTypedDataSubProvider.js -> /output/SignedVersionedTypedDataSubProvider.js.br
+2023/02/17 23:34:46 gz /tmp/work/dist/SignedVersionedTypedDataSubProvider.js -> /output/SignedVersionedTypedDataSubProvider.js.gz
+2023/02/17 23:34:46 br /tmp/work/dist/NonceTracker.js -> /output/NonceTracker.js.br
+2023/02/17 23:34:46 gz /tmp/work/dist/NonceTracker.js -> /output/NonceTracker.js.gz
+2023/02/17 23:34:46 sri /tmp/work/dist/index.min.js -> /output/index.min.js.sri
+2023/02/17 23:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/dist/index.min.js
+2023/02/17 23:34:46 br /tmp/work/dist/index.min.js -> /output/index.min.js.br
+2023/02/17 23:34:46 gz /tmp/work/dist/index.min.js -> /output/index.min.js.gz
+2023/02/17 23:34:46 sri /tmp/work/dist/index.js -> /output/index.js.sri
+2023/02/17 23:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/dist/index.js
+2023/02/17 23:34:46 sri /tmp/work/dist/BaseWalletSubprovider.min.js -> /output/BaseWalletSubprovider.min.js.sri
+2023/02/17 23:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/BaseWalletSubprovider.min.js.br /tmp/work/dist/BaseWalletSubprovider.min.js
+2023/02/17 23:34:46 br /tmp/work/dist/BaseWalletSubprovider.min.js -> /output/BaseWalletSubprovider.min.js.br
+2023/02/17 23:34:46 gz /tmp/work/dist/BaseWalletSubprovider.min.js -> /output/BaseWalletSubprovider.min.js.gz
+2023/02/17 23:34:46 sri /tmp/work/dist/BaseWalletSubprovider.js -> /output/BaseWalletSubprovider.js.sri
+2023/02/17 23:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/BaseWalletSubprovider.js.br /tmp/work/dist/BaseWalletSubprovider.js
+2023/02/17 23:34:46 br /tmp/work/dist/index.js -> /output/index.js.br
+2023/02/17 23:34:46 gz /tmp/work/dist/index.js -> /output/index.js.gz
+2023/02/17 23:34:46 br /tmp/work/dist/BaseWalletSubprovider.js -> /output/BaseWalletSubprovider.js.br
+2023/02/17 23:34:46 gz /tmp/work/dist/BaseWalletSubprovider.js -> /output/BaseWalletSubprovider.js.gz
+2023/02/17 23:34:46 sri /tmp/work/dist/VenlyWalletSubProvider.min.js -> /output/VenlyWalletSubProvider.min.js.sri
+2023/02/17 23:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/VenlyWalletSubProvider.min.js.br /tmp/work/dist/VenlyWalletSubProvider.min.js
+2023/02/17 23:34:46 br /tmp/work/dist/VenlyWalletSubProvider.min.js -> /output/VenlyWalletSubProvider.min.js.br
+2023/02/17 23:34:46 gz /tmp/work/dist/VenlyWalletSubProvider.min.js -> /output/VenlyWalletSubProvider.min.js.gz
+2023/02/17 23:34:46 sri /tmp/work/dist/VenlyWalletSubProvider.js -> /output/VenlyWalletSubProvider.js.sri
+2023/02/17 23:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/VenlyWalletSubProvider.js.br /tmp/work/dist/VenlyWalletSubProvider.js
+2023/02/17 23:34:46 br /tmp/work/dist/VenlyWalletSubProvider.js -> /output/VenlyWalletSubProvider.js.br
+2023/02/17 23:34:46 gz /tmp/work/dist/VenlyWalletSubProvider.js -> /output/VenlyWalletSubProvider.js.gz
+2023/02/17 23:34:46 processed venly-web3-provider
