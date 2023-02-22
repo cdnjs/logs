@@ -1,0 +1,11 @@
+2023/02/22 18:04:10 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/02/22 18:04:10 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/base64.min.js /tmp/work/base64.js
+2023/02/22 18:04:11 sri /tmp/work/base64.min.js -> /output/base64.min.js.sri
+2023/02/22 18:04:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/base64.min.js.br /tmp/work/base64.min.js
+2023/02/22 18:04:11 br /tmp/work/base64.min.js -> /output/base64.min.js.br
+2023/02/22 18:04:11 gz /tmp/work/base64.min.js -> /output/base64.min.js.gz
+2023/02/22 18:04:11 sri /tmp/work/base64.js -> /output/base64.js.sri
+2023/02/22 18:04:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/base64.js.br /tmp/work/base64.js
+2023/02/22 18:04:11 br /tmp/work/base64.js -> /output/base64.js.br
+2023/02/22 18:04:11 gz /tmp/work/base64.js -> /output/base64.js.gz
+2023/02/22 18:04:11 processed Base64
