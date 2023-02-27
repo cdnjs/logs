@@ -1,0 +1,705 @@
+2023/02/27 09:38:08 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/02/27 09:38:08 /tmp/work/dist/vue-material.css already has a compressed version: /tmp/work/dist/vue-material.min.css
+2023/02/27 09:38:08 /tmp/work/dist/vue-material.min.js already has corresponding compressed file
+2023/02/27 09:38:08 /tmp/work/dist/vue-material.min.js is already compressed
+2023/02/27 09:38:08 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/index.min.css /tmp/work/dist/components/index.css
+2023/02/27 09:38:08 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/index.min.js /tmp/work/dist/components/index.js
+2023/02/27 09:38:08 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdApp/index.min.css /tmp/work/dist/components/MdApp/index.css
+2023/02/27 09:38:08 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdApp/index.min.js /tmp/work/dist/components/MdApp/index.js
+2023/02/27 09:38:08 sri /tmp/work/dist/vue-material.css -> /output/vue-material.css.sri
+2023/02/27 09:38:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue-material.css.br /tmp/work/dist/vue-material.css
+2023/02/27 09:38:08 sri /tmp/work/dist/vue-material.min.css -> /output/vue-material.min.css.sri
+2023/02/27 09:38:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue-material.min.css.br /tmp/work/dist/vue-material.min.css
+2023/02/27 09:38:08 sri /tmp/work/dist/vue-material.min.js -> /output/vue-material.min.js.sri
+2023/02/27 09:38:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue-material.min.js.br /tmp/work/dist/vue-material.min.js
+2023/02/27 09:38:08 sri /tmp/work/dist/vue-material.js -> /output/vue-material.js.sri
+2023/02/27 09:38:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue-material.js.br /tmp/work/dist/vue-material.js
+2023/02/27 09:38:08 sri /tmp/work/dist/components/MdApp/index.min.css -> /output/components/MdApp/index.min.css.sri
+2023/02/27 09:38:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdApp/index.min.css.br /tmp/work/dist/components/MdApp/index.min.css
+2023/02/27 09:38:08 br /tmp/work/dist/components/MdApp/index.min.css -> /output/components/MdApp/index.min.css.br
+2023/02/27 09:38:08 gz /tmp/work/dist/components/MdApp/index.min.css -> /output/components/MdApp/index.min.css.gz
+2023/02/27 09:38:08 sri /tmp/work/dist/components/MdApp/index.css -> /output/components/MdApp/index.css.sri
+2023/02/27 09:38:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdApp/index.css.br /tmp/work/dist/components/MdApp/index.css
+2023/02/27 09:38:08 br /tmp/work/dist/vue-material.min.css -> /output/vue-material.min.css.br
+2023/02/27 09:38:08 br /tmp/work/dist/vue-material.css -> /output/vue-material.css.br
+2023/02/27 09:38:08 gz /tmp/work/dist/vue-material.min.css -> /output/vue-material.min.css.gz
+2023/02/27 09:38:08 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdAutocomplete/index.min.css /tmp/work/dist/components/MdAutocomplete/index.css
+2023/02/27 09:38:08 gz /tmp/work/dist/vue-material.css -> /output/vue-material.css.gz
+2023/02/27 09:38:08 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdAutocomplete/index.min.js /tmp/work/dist/components/MdAutocomplete/index.js
+2023/02/27 09:38:08 br /tmp/work/dist/components/MdApp/index.css -> /output/components/MdApp/index.css.br
+2023/02/27 09:38:08 gz /tmp/work/dist/components/MdApp/index.css -> /output/components/MdApp/index.css.gz
+2023/02/27 09:38:08 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdAvatar/index.min.css /tmp/work/dist/components/MdAvatar/index.css
+2023/02/27 09:38:08 sri /tmp/work/dist/components/MdAutocomplete/index.min.css -> /output/components/MdAutocomplete/index.min.css.sri
+2023/02/27 09:38:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdAutocomplete/index.min.css.br /tmp/work/dist/components/MdAutocomplete/index.min.css
+2023/02/27 09:38:08 br /tmp/work/dist/components/MdAutocomplete/index.min.css -> /output/components/MdAutocomplete/index.min.css.br
+2023/02/27 09:38:08 gz /tmp/work/dist/components/MdAutocomplete/index.min.css -> /output/components/MdAutocomplete/index.min.css.gz
+2023/02/27 09:38:08 sri /tmp/work/dist/components/MdAutocomplete/index.css -> /output/components/MdAutocomplete/index.css.sri
+2023/02/27 09:38:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdAutocomplete/index.css.br /tmp/work/dist/components/MdAutocomplete/index.css
+2023/02/27 09:38:08 br /tmp/work/dist/components/MdAutocomplete/index.css -> /output/components/MdAutocomplete/index.css.br
+2023/02/27 09:38:08 gz /tmp/work/dist/components/MdAutocomplete/index.css -> /output/components/MdAutocomplete/index.css.gz
+2023/02/27 09:38:08 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdAvatar/index.min.js /tmp/work/dist/components/MdAvatar/index.js
+2023/02/27 09:38:08 sri /tmp/work/dist/components/MdAvatar/index.min.css -> /output/components/MdAvatar/index.min.css.sri
+2023/02/27 09:38:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdAvatar/index.min.css.br /tmp/work/dist/components/MdAvatar/index.min.css
+2023/02/27 09:38:08 br /tmp/work/dist/components/MdAvatar/index.min.css -> /output/components/MdAvatar/index.min.css.br
+2023/02/27 09:38:08 gz /tmp/work/dist/components/MdAvatar/index.min.css -> /output/components/MdAvatar/index.min.css.gz
+2023/02/27 09:38:08 sri /tmp/work/dist/components/MdAvatar/index.css -> /output/components/MdAvatar/index.css.sri
+2023/02/27 09:38:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdAvatar/index.css.br /tmp/work/dist/components/MdAvatar/index.css
+2023/02/27 09:38:08 br /tmp/work/dist/components/MdAvatar/index.css -> /output/components/MdAvatar/index.css.br
+2023/02/27 09:38:08 gz /tmp/work/dist/components/MdAvatar/index.css -> /output/components/MdAvatar/index.css.gz
+2023/02/27 09:38:08 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdBadge/index.min.css /tmp/work/dist/components/MdBadge/index.css
+2023/02/27 09:38:08 sri /tmp/work/dist/components/index.min.css -> /output/components/index.min.css.sri
+2023/02/27 09:38:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/index.min.css.br /tmp/work/dist/components/index.min.css
+2023/02/27 09:38:09 sri /tmp/work/dist/components/MdBadge/index.min.css -> /output/components/MdBadge/index.min.css.sri
+2023/02/27 09:38:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdBadge/index.min.css.br /tmp/work/dist/components/MdBadge/index.min.css
+2023/02/27 09:38:09 br /tmp/work/dist/components/MdBadge/index.min.css -> /output/components/MdBadge/index.min.css.br
+2023/02/27 09:38:09 gz /tmp/work/dist/components/MdBadge/index.min.css -> /output/components/MdBadge/index.min.css.gz
+2023/02/27 09:38:09 sri /tmp/work/dist/components/MdBadge/index.css -> /output/components/MdBadge/index.css.sri
+2023/02/27 09:38:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdBadge/index.css.br /tmp/work/dist/components/MdBadge/index.css
+2023/02/27 09:38:09 br /tmp/work/dist/components/MdBadge/index.css -> /output/components/MdBadge/index.css.br
+2023/02/27 09:38:09 gz /tmp/work/dist/components/MdBadge/index.css -> /output/components/MdBadge/index.css.gz
+2023/02/27 09:38:09 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdBadge/index.min.js /tmp/work/dist/components/MdBadge/index.js
+2023/02/27 09:38:09 br /tmp/work/dist/components/index.min.css -> /output/components/index.min.css.br
+2023/02/27 09:38:09 gz /tmp/work/dist/components/index.min.css -> /output/components/index.min.css.gz
+2023/02/27 09:38:09 sri /tmp/work/dist/components/index.css -> /output/components/index.css.sri
+2023/02/27 09:38:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/index.css.br /tmp/work/dist/components/index.css
+2023/02/27 09:38:09 sri /tmp/work/dist/components/MdAutocomplete/index.min.js -> /output/components/MdAutocomplete/index.min.js.sri
+2023/02/27 09:38:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdAutocomplete/index.min.js.br /tmp/work/dist/components/MdAutocomplete/index.min.js
+2023/02/27 09:38:09 br /tmp/work/dist/components/MdAutocomplete/index.min.js -> /output/components/MdAutocomplete/index.min.js.br
+2023/02/27 09:38:09 gz /tmp/work/dist/components/MdAutocomplete/index.min.js -> /output/components/MdAutocomplete/index.min.js.gz
+2023/02/27 09:38:09 sri /tmp/work/dist/components/MdAutocomplete/index.js -> /output/components/MdAutocomplete/index.js.sri
+2023/02/27 09:38:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdAutocomplete/index.js.br /tmp/work/dist/components/MdAutocomplete/index.js
+2023/02/27 09:38:09 br /tmp/work/dist/components/MdAutocomplete/index.js -> /output/components/MdAutocomplete/index.js.br
+2023/02/27 09:38:09 gz /tmp/work/dist/components/MdAutocomplete/index.js -> /output/components/MdAutocomplete/index.js.gz
+2023/02/27 09:38:09 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdBottomBar/index.min.css /tmp/work/dist/components/MdBottomBar/index.css
+2023/02/27 09:38:09 sri /tmp/work/dist/components/MdAvatar/index.min.js -> /output/components/MdAvatar/index.min.js.sri
+2023/02/27 09:38:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdAvatar/index.min.js.br /tmp/work/dist/components/MdAvatar/index.min.js
+2023/02/27 09:38:09 br /tmp/work/dist/components/MdAvatar/index.min.js -> /output/components/MdAvatar/index.min.js.br
+2023/02/27 09:38:09 gz /tmp/work/dist/components/MdAvatar/index.min.js -> /output/components/MdAvatar/index.min.js.gz
+2023/02/27 09:38:09 sri /tmp/work/dist/components/MdAvatar/index.js -> /output/components/MdAvatar/index.js.sri
+2023/02/27 09:38:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdAvatar/index.js.br /tmp/work/dist/components/MdAvatar/index.js
+2023/02/27 09:38:09 br /tmp/work/dist/components/MdAvatar/index.js -> /output/components/MdAvatar/index.js.br
+2023/02/27 09:38:09 gz /tmp/work/dist/components/MdAvatar/index.js -> /output/components/MdAvatar/index.js.gz
+2023/02/27 09:38:09 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdBottomBar/index.min.js /tmp/work/dist/components/MdBottomBar/index.js
+2023/02/27 09:38:09 br /tmp/work/dist/components/index.css -> /output/components/index.css.br
+2023/02/27 09:38:09 gz /tmp/work/dist/components/index.css -> /output/components/index.css.gz
+2023/02/27 09:38:09 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdButton/index.min.css /tmp/work/dist/components/MdButton/index.css
+2023/02/27 09:38:09 sri /tmp/work/dist/components/MdBottomBar/index.min.css -> /output/components/MdBottomBar/index.min.css.sri
+2023/02/27 09:38:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdBottomBar/index.min.css.br /tmp/work/dist/components/MdBottomBar/index.min.css
+2023/02/27 09:38:09 br /tmp/work/dist/vue-material.min.js -> /output/vue-material.min.js.br
+2023/02/27 09:38:09 gz /tmp/work/dist/vue-material.min.js -> /output/vue-material.min.js.gz
+2023/02/27 09:38:09 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdButton/index.min.js /tmp/work/dist/components/MdButton/index.js
+2023/02/27 09:38:09 br /tmp/work/dist/components/MdBottomBar/index.min.css -> /output/components/MdBottomBar/index.min.css.br
+2023/02/27 09:38:09 gz /tmp/work/dist/components/MdBottomBar/index.min.css -> /output/components/MdBottomBar/index.min.css.gz
+2023/02/27 09:38:09 sri /tmp/work/dist/components/MdBottomBar/index.css -> /output/components/MdBottomBar/index.css.sri
+2023/02/27 09:38:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdBottomBar/index.css.br /tmp/work/dist/components/MdBottomBar/index.css
+2023/02/27 09:38:09 br /tmp/work/dist/components/MdBottomBar/index.css -> /output/components/MdBottomBar/index.css.br
+2023/02/27 09:38:09 gz /tmp/work/dist/components/MdBottomBar/index.css -> /output/components/MdBottomBar/index.css.gz
+2023/02/27 09:38:09 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdCard/index.min.css /tmp/work/dist/components/MdCard/index.css
+2023/02/27 09:38:09 sri /tmp/work/dist/components/MdApp/index.min.js -> /output/components/MdApp/index.min.js.sri
+2023/02/27 09:38:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdApp/index.min.js.br /tmp/work/dist/components/MdApp/index.min.js
+2023/02/27 09:38:10 sri /tmp/work/dist/components/MdButton/index.min.css -> /output/components/MdButton/index.min.css.sri
+2023/02/27 09:38:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdButton/index.min.css.br /tmp/work/dist/components/MdButton/index.min.css
+2023/02/27 09:38:10 br /tmp/work/dist/components/MdButton/index.min.css -> /output/components/MdButton/index.min.css.br
+2023/02/27 09:38:10 gz /tmp/work/dist/components/MdButton/index.min.css -> /output/components/MdButton/index.min.css.gz
+2023/02/27 09:38:10 sri /tmp/work/dist/components/MdButton/index.css -> /output/components/MdButton/index.css.sri
+2023/02/27 09:38:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdButton/index.css.br /tmp/work/dist/components/MdButton/index.css
+2023/02/27 09:38:10 br /tmp/work/dist/components/MdApp/index.min.js -> /output/components/MdApp/index.min.js.br
+2023/02/27 09:38:10 gz /tmp/work/dist/components/MdApp/index.min.js -> /output/components/MdApp/index.min.js.gz
+2023/02/27 09:38:10 sri /tmp/work/dist/components/MdApp/index.js -> /output/components/MdApp/index.js.sri
+2023/02/27 09:38:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdApp/index.js.br /tmp/work/dist/components/MdApp/index.js
+2023/02/27 09:38:10 br /tmp/work/dist/components/MdButton/index.css -> /output/components/MdButton/index.css.br
+2023/02/27 09:38:10 sri /tmp/work/dist/components/MdBadge/index.min.js -> /output/components/MdBadge/index.min.js.sri
+2023/02/27 09:38:10 gz /tmp/work/dist/components/MdButton/index.css -> /output/components/MdButton/index.css.gz
+2023/02/27 09:38:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdBadge/index.min.js.br /tmp/work/dist/components/MdBadge/index.min.js
+2023/02/27 09:38:10 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdCard/index.min.js /tmp/work/dist/components/MdCard/index.js
+2023/02/27 09:38:10 br /tmp/work/dist/components/MdBadge/index.min.js -> /output/components/MdBadge/index.min.js.br
+2023/02/27 09:38:10 gz /tmp/work/dist/components/MdBadge/index.min.js -> /output/components/MdBadge/index.min.js.gz
+2023/02/27 09:38:10 sri /tmp/work/dist/components/MdBadge/index.js -> /output/components/MdBadge/index.js.sri
+2023/02/27 09:38:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdBadge/index.js.br /tmp/work/dist/components/MdBadge/index.js
+2023/02/27 09:38:10 br /tmp/work/dist/components/MdApp/index.js -> /output/components/MdApp/index.js.br
+2023/02/27 09:38:10 gz /tmp/work/dist/components/MdApp/index.js -> /output/components/MdApp/index.js.gz
+2023/02/27 09:38:10 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdCheckbox/index.min.css /tmp/work/dist/components/MdCheckbox/index.css
+2023/02/27 09:38:10 br /tmp/work/dist/components/MdBadge/index.js -> /output/components/MdBadge/index.js.br
+2023/02/27 09:38:10 gz /tmp/work/dist/components/MdBadge/index.js -> /output/components/MdBadge/index.js.gz
+2023/02/27 09:38:10 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdCheckbox/index.min.js /tmp/work/dist/components/MdCheckbox/index.js
+2023/02/27 09:38:10 sri /tmp/work/dist/components/MdCard/index.min.css -> /output/components/MdCard/index.min.css.sri
+2023/02/27 09:38:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdCard/index.min.css.br /tmp/work/dist/components/MdCard/index.min.css
+2023/02/27 09:38:10 br /tmp/work/dist/components/MdCard/index.min.css -> /output/components/MdCard/index.min.css.br
+2023/02/27 09:38:10 gz /tmp/work/dist/components/MdCard/index.min.css -> /output/components/MdCard/index.min.css.gz
+2023/02/27 09:38:10 sri /tmp/work/dist/components/MdCard/index.css -> /output/components/MdCard/index.css.sri
+2023/02/27 09:38:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdCard/index.css.br /tmp/work/dist/components/MdCard/index.css
+2023/02/27 09:38:10 br /tmp/work/dist/components/MdCard/index.css -> /output/components/MdCard/index.css.br
+2023/02/27 09:38:10 gz /tmp/work/dist/components/MdCard/index.css -> /output/components/MdCard/index.css.gz
+2023/02/27 09:38:10 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdChips/index.min.css /tmp/work/dist/components/MdChips/index.css
+2023/02/27 09:38:10 sri /tmp/work/dist/components/MdCheckbox/index.min.css -> /output/components/MdCheckbox/index.min.css.sri
+2023/02/27 09:38:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdCheckbox/index.min.css.br /tmp/work/dist/components/MdCheckbox/index.min.css
+2023/02/27 09:38:10 br /tmp/work/dist/components/MdCheckbox/index.min.css -> /output/components/MdCheckbox/index.min.css.br
+2023/02/27 09:38:10 gz /tmp/work/dist/components/MdCheckbox/index.min.css -> /output/components/MdCheckbox/index.min.css.gz
+2023/02/27 09:38:10 sri /tmp/work/dist/components/MdCheckbox/index.css -> /output/components/MdCheckbox/index.css.sri
+2023/02/27 09:38:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdCheckbox/index.css.br /tmp/work/dist/components/MdCheckbox/index.css
+2023/02/27 09:38:10 br /tmp/work/dist/components/MdCheckbox/index.css -> /output/components/MdCheckbox/index.css.br
+2023/02/27 09:38:10 gz /tmp/work/dist/components/MdCheckbox/index.css -> /output/components/MdCheckbox/index.css.gz
+2023/02/27 09:38:10 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdChips/index.min.js /tmp/work/dist/components/MdChips/index.js
+2023/02/27 09:38:10 sri /tmp/work/dist/components/MdChips/index.min.css -> /output/components/MdChips/index.min.css.sri
+2023/02/27 09:38:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdChips/index.min.css.br /tmp/work/dist/components/MdChips/index.min.css
+2023/02/27 09:38:10 br /tmp/work/dist/components/MdChips/index.min.css -> /output/components/MdChips/index.min.css.br
+2023/02/27 09:38:10 gz /tmp/work/dist/components/MdChips/index.min.css -> /output/components/MdChips/index.min.css.gz
+2023/02/27 09:38:10 sri /tmp/work/dist/components/MdChips/index.css -> /output/components/MdChips/index.css.sri
+2023/02/27 09:38:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdChips/index.css.br /tmp/work/dist/components/MdChips/index.css
+2023/02/27 09:38:10 br /tmp/work/dist/components/MdChips/index.css -> /output/components/MdChips/index.css.br
+2023/02/27 09:38:10 gz /tmp/work/dist/components/MdChips/index.css -> /output/components/MdChips/index.css.gz
+2023/02/27 09:38:10 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdContent/index.min.css /tmp/work/dist/components/MdContent/index.css
+2023/02/27 09:38:11 sri /tmp/work/dist/components/MdContent/index.min.css -> /output/components/MdContent/index.min.css.sri
+2023/02/27 09:38:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdContent/index.min.css.br /tmp/work/dist/components/MdContent/index.min.css
+2023/02/27 09:38:11 br /tmp/work/dist/components/MdContent/index.min.css -> /output/components/MdContent/index.min.css.br
+2023/02/27 09:38:11 gz /tmp/work/dist/components/MdContent/index.min.css -> /output/components/MdContent/index.min.css.gz
+2023/02/27 09:38:11 sri /tmp/work/dist/components/MdContent/index.css -> /output/components/MdContent/index.css.sri
+2023/02/27 09:38:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdContent/index.css.br /tmp/work/dist/components/MdContent/index.css
+2023/02/27 09:38:11 br /tmp/work/dist/components/MdContent/index.css -> /output/components/MdContent/index.css.br
+2023/02/27 09:38:11 gz /tmp/work/dist/components/MdContent/index.css -> /output/components/MdContent/index.css.gz
+2023/02/27 09:38:11 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdContent/index.min.js /tmp/work/dist/components/MdContent/index.js
+2023/02/27 09:38:11 sri /tmp/work/dist/components/MdBottomBar/index.min.js -> /output/components/MdBottomBar/index.min.js.sri
+2023/02/27 09:38:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdBottomBar/index.min.js.br /tmp/work/dist/components/MdBottomBar/index.min.js
+2023/02/27 09:38:11 br /tmp/work/dist/components/MdBottomBar/index.min.js -> /output/components/MdBottomBar/index.min.js.br
+2023/02/27 09:38:11 gz /tmp/work/dist/components/MdBottomBar/index.min.js -> /output/components/MdBottomBar/index.min.js.gz
+2023/02/27 09:38:11 sri /tmp/work/dist/components/MdBottomBar/index.js -> /output/components/MdBottomBar/index.js.sri
+2023/02/27 09:38:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdBottomBar/index.js.br /tmp/work/dist/components/MdBottomBar/index.js
+2023/02/27 09:38:11 sri /tmp/work/dist/components/MdButton/index.min.js -> /output/components/MdButton/index.min.js.sri
+2023/02/27 09:38:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdButton/index.min.js.br /tmp/work/dist/components/MdButton/index.min.js
+2023/02/27 09:38:11 br /tmp/work/dist/components/MdBottomBar/index.js -> /output/components/MdBottomBar/index.js.br
+2023/02/27 09:38:11 gz /tmp/work/dist/components/MdBottomBar/index.js -> /output/components/MdBottomBar/index.js.gz
+2023/02/27 09:38:11 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdDatepicker/index.min.css /tmp/work/dist/components/MdDatepicker/index.css
+2023/02/27 09:38:11 sri /tmp/work/dist/components/MdCheckbox/index.min.js -> /output/components/MdCheckbox/index.min.js.sri
+2023/02/27 09:38:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdCheckbox/index.min.js.br /tmp/work/dist/components/MdCheckbox/index.min.js
+2023/02/27 09:38:11 br /tmp/work/dist/components/MdButton/index.min.js -> /output/components/MdButton/index.min.js.br
+2023/02/27 09:38:11 gz /tmp/work/dist/components/MdButton/index.min.js -> /output/components/MdButton/index.min.js.gz
+2023/02/27 09:38:11 sri /tmp/work/dist/components/MdButton/index.js -> /output/components/MdButton/index.js.sri
+2023/02/27 09:38:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdButton/index.js.br /tmp/work/dist/components/MdButton/index.js
+2023/02/27 09:38:11 br /tmp/work/dist/components/MdCheckbox/index.min.js -> /output/components/MdCheckbox/index.min.js.br
+2023/02/27 09:38:11 gz /tmp/work/dist/components/MdCheckbox/index.min.js -> /output/components/MdCheckbox/index.min.js.gz
+2023/02/27 09:38:11 sri /tmp/work/dist/components/MdCheckbox/index.js -> /output/components/MdCheckbox/index.js.sri
+2023/02/27 09:38:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdCheckbox/index.js.br /tmp/work/dist/components/MdCheckbox/index.js
+2023/02/27 09:38:11 br /tmp/work/dist/components/MdCheckbox/index.js -> /output/components/MdCheckbox/index.js.br
+2023/02/27 09:38:11 gz /tmp/work/dist/components/MdCheckbox/index.js -> /output/components/MdCheckbox/index.js.gz
+2023/02/27 09:38:11 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdDatepicker/index.min.js /tmp/work/dist/components/MdDatepicker/index.js
+2023/02/27 09:38:11 br /tmp/work/dist/components/MdButton/index.js -> /output/components/MdButton/index.js.br
+2023/02/27 09:38:11 gz /tmp/work/dist/components/MdButton/index.js -> /output/components/MdButton/index.js.gz
+2023/02/27 09:38:11 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdDialog/index.min.css /tmp/work/dist/components/MdDialog/index.css
+2023/02/27 09:38:11 sri /tmp/work/dist/components/MdCard/index.min.js -> /output/components/MdCard/index.min.js.sri
+2023/02/27 09:38:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdCard/index.min.js.br /tmp/work/dist/components/MdCard/index.min.js
+2023/02/27 09:38:11 br /tmp/work/dist/components/MdCard/index.min.js -> /output/components/MdCard/index.min.js.br
+2023/02/27 09:38:11 gz /tmp/work/dist/components/MdCard/index.min.js -> /output/components/MdCard/index.min.js.gz
+2023/02/27 09:38:11 sri /tmp/work/dist/components/MdCard/index.js -> /output/components/MdCard/index.js.sri
+2023/02/27 09:38:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdCard/index.js.br /tmp/work/dist/components/MdCard/index.js
+2023/02/27 09:38:11 sri /tmp/work/dist/components/MdDatepicker/index.min.css -> /output/components/MdDatepicker/index.min.css.sri
+2023/02/27 09:38:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdDatepicker/index.min.css.br /tmp/work/dist/components/MdDatepicker/index.min.css
+2023/02/27 09:38:11 sri /tmp/work/dist/components/MdDialog/index.min.css -> /output/components/MdDialog/index.min.css.sri
+2023/02/27 09:38:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdDialog/index.min.css.br /tmp/work/dist/components/MdDialog/index.min.css
+2023/02/27 09:38:11 sri /tmp/work/dist/components/MdContent/index.min.js -> /output/components/MdContent/index.min.js.sri
+2023/02/27 09:38:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdContent/index.min.js.br /tmp/work/dist/components/MdContent/index.min.js
+2023/02/27 09:38:11 br /tmp/work/dist/components/MdDatepicker/index.min.css -> /output/components/MdDatepicker/index.min.css.br
+2023/02/27 09:38:11 gz /tmp/work/dist/components/MdDatepicker/index.min.css -> /output/components/MdDatepicker/index.min.css.gz
+2023/02/27 09:38:11 sri /tmp/work/dist/components/MdDatepicker/index.css -> /output/components/MdDatepicker/index.css.sri
+2023/02/27 09:38:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdDatepicker/index.css.br /tmp/work/dist/components/MdDatepicker/index.css
+2023/02/27 09:38:11 br /tmp/work/dist/components/MdCard/index.js -> /output/components/MdCard/index.js.br
+2023/02/27 09:38:11 gz /tmp/work/dist/components/MdCard/index.js -> /output/components/MdCard/index.js.gz
+2023/02/27 09:38:11 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdDialog/index.min.js /tmp/work/dist/components/MdDialog/index.js
+2023/02/27 09:38:11 br /tmp/work/dist/components/MdDialog/index.min.css -> /output/components/MdDialog/index.min.css.br
+2023/02/27 09:38:11 gz /tmp/work/dist/components/MdDialog/index.min.css -> /output/components/MdDialog/index.min.css.gz
+2023/02/27 09:38:11 sri /tmp/work/dist/components/MdDialog/index.css -> /output/components/MdDialog/index.css.sri
+2023/02/27 09:38:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdDialog/index.css.br /tmp/work/dist/components/MdDialog/index.css
+2023/02/27 09:38:11 br /tmp/work/dist/components/MdContent/index.min.js -> /output/components/MdContent/index.min.js.br
+2023/02/27 09:38:11 gz /tmp/work/dist/components/MdContent/index.min.js -> /output/components/MdContent/index.min.js.gz
+2023/02/27 09:38:11 br /tmp/work/dist/components/MdDialog/index.css -> /output/components/MdDialog/index.css.br
+2023/02/27 09:38:11 sri /tmp/work/dist/components/MdContent/index.js -> /output/components/MdContent/index.js.sri
+2023/02/27 09:38:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdContent/index.js.br /tmp/work/dist/components/MdContent/index.js
+2023/02/27 09:38:11 gz /tmp/work/dist/components/MdDialog/index.css -> /output/components/MdDialog/index.css.gz
+2023/02/27 09:38:11 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdDivider/index.min.css /tmp/work/dist/components/MdDivider/index.css
+2023/02/27 09:38:11 br /tmp/work/dist/components/MdDatepicker/index.css -> /output/components/MdDatepicker/index.css.br
+2023/02/27 09:38:11 gz /tmp/work/dist/components/MdDatepicker/index.css -> /output/components/MdDatepicker/index.css.gz
+2023/02/27 09:38:11 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdDivider/index.min.js /tmp/work/dist/components/MdDivider/index.js
+2023/02/27 09:38:12 br /tmp/work/dist/components/MdContent/index.js -> /output/components/MdContent/index.js.br
+2023/02/27 09:38:12 gz /tmp/work/dist/components/MdContent/index.js -> /output/components/MdContent/index.js.gz
+2023/02/27 09:38:12 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdDrawer/index.min.css /tmp/work/dist/components/MdDrawer/index.css
+2023/02/27 09:38:12 sri /tmp/work/dist/components/MdDivider/index.min.css -> /output/components/MdDivider/index.min.css.sri
+2023/02/27 09:38:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdDivider/index.min.css.br /tmp/work/dist/components/MdDivider/index.min.css
+2023/02/27 09:38:12 br /tmp/work/dist/components/MdDivider/index.min.css -> /output/components/MdDivider/index.min.css.br
+2023/02/27 09:38:12 gz /tmp/work/dist/components/MdDivider/index.min.css -> /output/components/MdDivider/index.min.css.gz
+2023/02/27 09:38:12 sri /tmp/work/dist/components/MdDivider/index.css -> /output/components/MdDivider/index.css.sri
+2023/02/27 09:38:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdDivider/index.css.br /tmp/work/dist/components/MdDivider/index.css
+2023/02/27 09:38:12 br /tmp/work/dist/components/MdDivider/index.css -> /output/components/MdDivider/index.css.br
+2023/02/27 09:38:12 gz /tmp/work/dist/components/MdDivider/index.css -> /output/components/MdDivider/index.css.gz
+2023/02/27 09:38:12 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdDrawer/index.min.js /tmp/work/dist/components/MdDrawer/index.js
+2023/02/27 09:38:12 sri /tmp/work/dist/components/MdDrawer/index.min.css -> /output/components/MdDrawer/index.min.css.sri
+2023/02/27 09:38:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdDrawer/index.min.css.br /tmp/work/dist/components/MdDrawer/index.min.css
+2023/02/27 09:38:12 br /tmp/work/dist/components/MdDrawer/index.min.css -> /output/components/MdDrawer/index.min.css.br
+2023/02/27 09:38:12 gz /tmp/work/dist/components/MdDrawer/index.min.css -> /output/components/MdDrawer/index.min.css.gz
+2023/02/27 09:38:12 sri /tmp/work/dist/components/MdDrawer/index.css -> /output/components/MdDrawer/index.css.sri
+2023/02/27 09:38:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdDrawer/index.css.br /tmp/work/dist/components/MdDrawer/index.css
+2023/02/27 09:38:12 br /tmp/work/dist/components/MdDrawer/index.css -> /output/components/MdDrawer/index.css.br
+2023/02/27 09:38:12 gz /tmp/work/dist/components/MdDrawer/index.css -> /output/components/MdDrawer/index.css.gz
+2023/02/27 09:38:12 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdElevation/index.min.css /tmp/work/dist/components/MdElevation/index.css
+2023/02/27 09:38:12 sri /tmp/work/dist/components/MdDivider/index.min.js -> /output/components/MdDivider/index.min.js.sri
+2023/02/27 09:38:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdDivider/index.min.js.br /tmp/work/dist/components/MdDivider/index.min.js
+2023/02/27 09:38:12 br /tmp/work/dist/components/MdDivider/index.min.js -> /output/components/MdDivider/index.min.js.br
+2023/02/27 09:38:12 gz /tmp/work/dist/components/MdDivider/index.min.js -> /output/components/MdDivider/index.min.js.gz
+2023/02/27 09:38:12 sri /tmp/work/dist/components/MdDivider/index.js -> /output/components/MdDivider/index.js.sri
+2023/02/27 09:38:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdDivider/index.js.br /tmp/work/dist/components/MdDivider/index.js
+2023/02/27 09:38:12 br /tmp/work/dist/components/MdDivider/index.js -> /output/components/MdDivider/index.js.br
+2023/02/27 09:38:12 gz /tmp/work/dist/components/MdDivider/index.js -> /output/components/MdDivider/index.js.gz
+2023/02/27 09:38:12 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdElevation/index.min.js /tmp/work/dist/components/MdElevation/index.js
+2023/02/27 09:38:12 sri /tmp/work/dist/components/MdElevation/index.min.css -> /output/components/MdElevation/index.min.css.sri
+2023/02/27 09:38:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdElevation/index.min.css.br /tmp/work/dist/components/MdElevation/index.min.css
+2023/02/27 09:38:12 br /tmp/work/dist/components/MdElevation/index.min.css -> /output/components/MdElevation/index.min.css.br
+2023/02/27 09:38:12 gz /tmp/work/dist/components/MdElevation/index.min.css -> /output/components/MdElevation/index.min.css.gz
+2023/02/27 09:38:12 sri /tmp/work/dist/components/MdElevation/index.css -> /output/components/MdElevation/index.css.sri
+2023/02/27 09:38:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdElevation/index.css.br /tmp/work/dist/components/MdElevation/index.css
+2023/02/27 09:38:12 sri /tmp/work/dist/components/MdChips/index.min.js -> /output/components/MdChips/index.min.js.sri
+2023/02/27 09:38:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdChips/index.min.js.br /tmp/work/dist/components/MdChips/index.min.js
+2023/02/27 09:38:12 br /tmp/work/dist/components/MdElevation/index.css -> /output/components/MdElevation/index.css.br
+2023/02/27 09:38:12 gz /tmp/work/dist/components/MdElevation/index.css -> /output/components/MdElevation/index.css.gz
+2023/02/27 09:38:12 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdEmptyState/index.min.css /tmp/work/dist/components/MdEmptyState/index.css
+2023/02/27 09:38:13 br /tmp/work/dist/vue-material.js -> /output/vue-material.js.br
+2023/02/27 09:38:13 sri /tmp/work/dist/components/MdElevation/index.min.js -> /output/components/MdElevation/index.min.js.sri
+2023/02/27 09:38:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdElevation/index.min.js.br /tmp/work/dist/components/MdElevation/index.min.js
+2023/02/27 09:38:13 br /tmp/work/dist/components/MdChips/index.min.js -> /output/components/MdChips/index.min.js.br
+2023/02/27 09:38:13 gz /tmp/work/dist/components/MdChips/index.min.js -> /output/components/MdChips/index.min.js.gz
+2023/02/27 09:38:13 sri /tmp/work/dist/components/MdChips/index.js -> /output/components/MdChips/index.js.sri
+2023/02/27 09:38:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdChips/index.js.br /tmp/work/dist/components/MdChips/index.js
+2023/02/27 09:38:13 br /tmp/work/dist/components/MdElevation/index.min.js -> /output/components/MdElevation/index.min.js.br
+2023/02/27 09:38:13 gz /tmp/work/dist/components/MdElevation/index.min.js -> /output/components/MdElevation/index.min.js.gz
+2023/02/27 09:38:13 sri /tmp/work/dist/components/MdElevation/index.js -> /output/components/MdElevation/index.js.sri
+2023/02/27 09:38:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdElevation/index.js.br /tmp/work/dist/components/MdElevation/index.js
+2023/02/27 09:38:13 br /tmp/work/dist/components/MdElevation/index.js -> /output/components/MdElevation/index.js.br
+2023/02/27 09:38:13 gz /tmp/work/dist/components/MdElevation/index.js -> /output/components/MdElevation/index.js.gz
+2023/02/27 09:38:13 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdEmptyState/index.min.js /tmp/work/dist/components/MdEmptyState/index.js
+2023/02/27 09:38:13 gz /tmp/work/dist/vue-material.js -> /output/vue-material.js.gz
+2023/02/27 09:38:13 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdField/index.min.css /tmp/work/dist/components/MdField/index.css
+2023/02/27 09:38:13 sri /tmp/work/dist/components/MdDialog/index.min.js -> /output/components/MdDialog/index.min.js.sri
+2023/02/27 09:38:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdDialog/index.min.js.br /tmp/work/dist/components/MdDialog/index.min.js
+2023/02/27 09:38:13 br /tmp/work/dist/components/MdDialog/index.min.js -> /output/components/MdDialog/index.min.js.br
+2023/02/27 09:38:13 gz /tmp/work/dist/components/MdDialog/index.min.js -> /output/components/MdDialog/index.min.js.gz
+2023/02/27 09:38:13 sri /tmp/work/dist/components/MdDialog/index.js -> /output/components/MdDialog/index.js.sri
+2023/02/27 09:38:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdDialog/index.js.br /tmp/work/dist/components/MdDialog/index.js
+2023/02/27 09:38:13 br /tmp/work/dist/components/MdChips/index.js -> /output/components/MdChips/index.js.br
+2023/02/27 09:38:13 sri /tmp/work/dist/components/MdEmptyState/index.min.css -> /output/components/MdEmptyState/index.min.css.sri
+2023/02/27 09:38:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdEmptyState/index.min.css.br /tmp/work/dist/components/MdEmptyState/index.min.css
+2023/02/27 09:38:13 gz /tmp/work/dist/components/MdChips/index.js -> /output/components/MdChips/index.js.gz
+2023/02/27 09:38:13 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdField/index.min.js /tmp/work/dist/components/MdField/index.js
+2023/02/27 09:38:13 br /tmp/work/dist/components/MdEmptyState/index.min.css -> /output/components/MdEmptyState/index.min.css.br
+2023/02/27 09:38:13 gz /tmp/work/dist/components/MdEmptyState/index.min.css -> /output/components/MdEmptyState/index.min.css.gz
+2023/02/27 09:38:13 sri /tmp/work/dist/components/MdEmptyState/index.css -> /output/components/MdEmptyState/index.css.sri
+2023/02/27 09:38:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdEmptyState/index.css.br /tmp/work/dist/components/MdEmptyState/index.css
+2023/02/27 09:38:13 br /tmp/work/dist/components/MdEmptyState/index.css -> /output/components/MdEmptyState/index.css.br
+2023/02/27 09:38:13 gz /tmp/work/dist/components/MdEmptyState/index.css -> /output/components/MdEmptyState/index.css.gz
+2023/02/27 09:38:13 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdHighlightText/index.min.css /tmp/work/dist/components/MdHighlightText/index.css
+2023/02/27 09:38:13 br /tmp/work/dist/components/MdDialog/index.js -> /output/components/MdDialog/index.js.br
+2023/02/27 09:38:13 gz /tmp/work/dist/components/MdDialog/index.js -> /output/components/MdDialog/index.js.gz
+2023/02/27 09:38:13 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdHighlightText/index.min.js /tmp/work/dist/components/MdHighlightText/index.js
+2023/02/27 09:38:13 sri /tmp/work/dist/components/MdDrawer/index.min.js -> /output/components/MdDrawer/index.min.js.sri
+2023/02/27 09:38:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdDrawer/index.min.js.br /tmp/work/dist/components/MdDrawer/index.min.js
+2023/02/27 09:38:13 br /tmp/work/dist/components/MdDrawer/index.min.js -> /output/components/MdDrawer/index.min.js.br
+2023/02/27 09:38:13 gz /tmp/work/dist/components/MdDrawer/index.min.js -> /output/components/MdDrawer/index.min.js.gz
+2023/02/27 09:38:13 sri /tmp/work/dist/components/MdDrawer/index.js -> /output/components/MdDrawer/index.js.sri
+2023/02/27 09:38:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdDrawer/index.js.br /tmp/work/dist/components/MdDrawer/index.js
+2023/02/27 09:38:13 sri /tmp/work/dist/components/MdField/index.min.css -> /output/components/MdField/index.min.css.sri
+2023/02/27 09:38:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdField/index.min.css.br /tmp/work/dist/components/MdField/index.min.css
+2023/02/27 09:38:13 br /tmp/work/dist/components/MdDrawer/index.js -> /output/components/MdDrawer/index.js.br
+2023/02/27 09:38:13 gz /tmp/work/dist/components/MdDrawer/index.js -> /output/components/MdDrawer/index.js.gz
+2023/02/27 09:38:13 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdIcon/index.min.css /tmp/work/dist/components/MdIcon/index.css
+2023/02/27 09:38:13 br /tmp/work/dist/components/MdField/index.min.css -> /output/components/MdField/index.min.css.br
+2023/02/27 09:38:13 gz /tmp/work/dist/components/MdField/index.min.css -> /output/components/MdField/index.min.css.gz
+2023/02/27 09:38:13 sri /tmp/work/dist/components/MdField/index.css -> /output/components/MdField/index.css.sri
+2023/02/27 09:38:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdField/index.css.br /tmp/work/dist/components/MdField/index.css
+2023/02/27 09:38:13 br /tmp/work/dist/components/MdField/index.css -> /output/components/MdField/index.css.br
+2023/02/27 09:38:13 gz /tmp/work/dist/components/MdField/index.css -> /output/components/MdField/index.css.gz
+2023/02/27 09:38:13 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdIcon/index.min.js /tmp/work/dist/components/MdIcon/index.js
+2023/02/27 09:38:13 sri /tmp/work/dist/components/MdHighlightText/index.min.css -> /output/components/MdHighlightText/index.min.css.sri
+2023/02/27 09:38:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdHighlightText/index.min.css.br /tmp/work/dist/components/MdHighlightText/index.min.css
+2023/02/27 09:38:13 br /tmp/work/dist/components/MdHighlightText/index.min.css -> /output/components/MdHighlightText/index.min.css.br
+2023/02/27 09:38:13 gz /tmp/work/dist/components/MdHighlightText/index.min.css -> /output/components/MdHighlightText/index.min.css.gz
+2023/02/27 09:38:13 sri /tmp/work/dist/components/MdHighlightText/index.css -> /output/components/MdHighlightText/index.css.sri
+2023/02/27 09:38:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdHighlightText/index.css.br /tmp/work/dist/components/MdHighlightText/index.css
+2023/02/27 09:38:13 br /tmp/work/dist/components/MdHighlightText/index.css -> /output/components/MdHighlightText/index.css.br
+2023/02/27 09:38:13 gz /tmp/work/dist/components/MdHighlightText/index.css -> /output/components/MdHighlightText/index.css.gz
+2023/02/27 09:38:13 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdImage/index.min.css /tmp/work/dist/components/MdImage/index.css
+2023/02/27 09:38:13 sri /tmp/work/dist/components/MdIcon/index.min.css -> /output/components/MdIcon/index.min.css.sri
+2023/02/27 09:38:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdIcon/index.min.css.br /tmp/work/dist/components/MdIcon/index.min.css
+2023/02/27 09:38:13 br /tmp/work/dist/components/MdIcon/index.min.css -> /output/components/MdIcon/index.min.css.br
+2023/02/27 09:38:13 gz /tmp/work/dist/components/MdIcon/index.min.css -> /output/components/MdIcon/index.min.css.gz
+2023/02/27 09:38:13 sri /tmp/work/dist/components/MdIcon/index.css -> /output/components/MdIcon/index.css.sri
+2023/02/27 09:38:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdIcon/index.css.br /tmp/work/dist/components/MdIcon/index.css
+2023/02/27 09:38:13 br /tmp/work/dist/components/MdIcon/index.css -> /output/components/MdIcon/index.css.br
+2023/02/27 09:38:13 gz /tmp/work/dist/components/MdIcon/index.css -> /output/components/MdIcon/index.css.gz
+2023/02/27 09:38:13 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdImage/index.min.js /tmp/work/dist/components/MdImage/index.js
+2023/02/27 09:38:14 sri /tmp/work/dist/components/MdEmptyState/index.min.js -> /output/components/MdEmptyState/index.min.js.sri
+2023/02/27 09:38:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdEmptyState/index.min.js.br /tmp/work/dist/components/MdEmptyState/index.min.js
+2023/02/27 09:38:14 sri /tmp/work/dist/components/MdImage/index.min.css -> /output/components/MdImage/index.min.css.sri
+2023/02/27 09:38:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdImage/index.min.css.br /tmp/work/dist/components/MdImage/index.min.css
+2023/02/27 09:38:14 br /tmp/work/dist/components/MdImage/index.min.css -> /output/components/MdImage/index.min.css.br
+2023/02/27 09:38:14 gz /tmp/work/dist/components/MdImage/index.min.css -> /output/components/MdImage/index.min.css.gz
+2023/02/27 09:38:14 sri /tmp/work/dist/components/MdImage/index.css -> /output/components/MdImage/index.css.sri
+2023/02/27 09:38:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdImage/index.css.br /tmp/work/dist/components/MdImage/index.css
+2023/02/27 09:38:14 br /tmp/work/dist/components/MdEmptyState/index.min.js -> /output/components/MdEmptyState/index.min.js.br
+2023/02/27 09:38:14 gz /tmp/work/dist/components/MdEmptyState/index.min.js -> /output/components/MdEmptyState/index.min.js.gz
+2023/02/27 09:38:14 sri /tmp/work/dist/components/MdEmptyState/index.js -> /output/components/MdEmptyState/index.js.sri
+2023/02/27 09:38:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdEmptyState/index.js.br /tmp/work/dist/components/MdEmptyState/index.js
+2023/02/27 09:38:14 br /tmp/work/dist/components/MdImage/index.css -> /output/components/MdImage/index.css.br
+2023/02/27 09:38:14 gz /tmp/work/dist/components/MdImage/index.css -> /output/components/MdImage/index.css.gz
+2023/02/27 09:38:14 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdLayout/index.min.css /tmp/work/dist/components/MdLayout/index.css
+2023/02/27 09:38:14 sri /tmp/work/dist/components/MdHighlightText/index.min.js -> /output/components/MdHighlightText/index.min.js.sri
+2023/02/27 09:38:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdHighlightText/index.min.js.br /tmp/work/dist/components/MdHighlightText/index.min.js
+2023/02/27 09:38:14 br /tmp/work/dist/components/MdEmptyState/index.js -> /output/components/MdEmptyState/index.js.br
+2023/02/27 09:38:14 gz /tmp/work/dist/components/MdEmptyState/index.js -> /output/components/MdEmptyState/index.js.gz
+2023/02/27 09:38:14 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdLayout/index.min.js /tmp/work/dist/components/MdLayout/index.js
+2023/02/27 09:38:14 br /tmp/work/dist/components/MdHighlightText/index.min.js -> /output/components/MdHighlightText/index.min.js.br
+2023/02/27 09:38:14 gz /tmp/work/dist/components/MdHighlightText/index.min.js -> /output/components/MdHighlightText/index.min.js.gz
+2023/02/27 09:38:14 sri /tmp/work/dist/components/MdHighlightText/index.js -> /output/components/MdHighlightText/index.js.sri
+2023/02/27 09:38:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdHighlightText/index.js.br /tmp/work/dist/components/MdHighlightText/index.js
+2023/02/27 09:38:14 br /tmp/work/dist/components/MdHighlightText/index.js -> /output/components/MdHighlightText/index.js.br
+2023/02/27 09:38:14 gz /tmp/work/dist/components/MdHighlightText/index.js -> /output/components/MdHighlightText/index.js.gz
+2023/02/27 09:38:14 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdList/index.min.css /tmp/work/dist/components/MdList/index.css
+2023/02/27 09:38:14 sri /tmp/work/dist/components/MdLayout/index.min.js -> /output/components/MdLayout/index.min.js.sri
+2023/02/27 09:38:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdLayout/index.min.js.br /tmp/work/dist/components/MdLayout/index.min.js
+2023/02/27 09:38:14 br /tmp/work/dist/components/MdLayout/index.min.js -> /output/components/MdLayout/index.min.js.br
+2023/02/27 09:38:14 gz /tmp/work/dist/components/MdLayout/index.min.js -> /output/components/MdLayout/index.min.js.gz
+2023/02/27 09:38:14 sri /tmp/work/dist/components/MdLayout/index.js -> /output/components/MdLayout/index.js.sri
+2023/02/27 09:38:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdLayout/index.js.br /tmp/work/dist/components/MdLayout/index.js
+2023/02/27 09:38:14 sri /tmp/work/dist/components/MdIcon/index.min.js -> /output/components/MdIcon/index.min.js.sri
+2023/02/27 09:38:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdIcon/index.min.js.br /tmp/work/dist/components/MdIcon/index.min.js
+2023/02/27 09:38:14 br /tmp/work/dist/components/MdLayout/index.js -> /output/components/MdLayout/index.js.br
+2023/02/27 09:38:14 gz /tmp/work/dist/components/MdLayout/index.js -> /output/components/MdLayout/index.js.gz
+2023/02/27 09:38:14 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdList/index.min.js /tmp/work/dist/components/MdList/index.js
+2023/02/27 09:38:14 sri /tmp/work/dist/components/MdList/index.min.css -> /output/components/MdList/index.min.css.sri
+2023/02/27 09:38:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdList/index.min.css.br /tmp/work/dist/components/MdList/index.min.css
+2023/02/27 09:38:14 br /tmp/work/dist/components/MdIcon/index.min.js -> /output/components/MdIcon/index.min.js.br
+2023/02/27 09:38:14 gz /tmp/work/dist/components/MdIcon/index.min.js -> /output/components/MdIcon/index.min.js.gz
+2023/02/27 09:38:14 sri /tmp/work/dist/components/MdIcon/index.js -> /output/components/MdIcon/index.js.sri
+2023/02/27 09:38:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdIcon/index.js.br /tmp/work/dist/components/MdIcon/index.js
+2023/02/27 09:38:14 sri /tmp/work/dist/components/MdLayout/index.min.css -> /output/components/MdLayout/index.min.css.sri
+2023/02/27 09:38:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdLayout/index.min.css.br /tmp/work/dist/components/MdLayout/index.min.css
+2023/02/27 09:38:14 br /tmp/work/dist/components/MdList/index.min.css -> /output/components/MdList/index.min.css.br
+2023/02/27 09:38:14 gz /tmp/work/dist/components/MdList/index.min.css -> /output/components/MdList/index.min.css.gz
+2023/02/27 09:38:14 sri /tmp/work/dist/components/MdList/index.css -> /output/components/MdList/index.css.sri
+2023/02/27 09:38:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdList/index.css.br /tmp/work/dist/components/MdList/index.css
+2023/02/27 09:38:14 br /tmp/work/dist/components/MdIcon/index.js -> /output/components/MdIcon/index.js.br
+2023/02/27 09:38:14 gz /tmp/work/dist/components/MdIcon/index.js -> /output/components/MdIcon/index.js.gz
+2023/02/27 09:38:14 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdMenu/index.min.css /tmp/work/dist/components/MdMenu/index.css
+2023/02/27 09:38:14 br /tmp/work/dist/components/MdLayout/index.min.css -> /output/components/MdLayout/index.min.css.br
+2023/02/27 09:38:14 gz /tmp/work/dist/components/MdLayout/index.min.css -> /output/components/MdLayout/index.min.css.gz
+2023/02/27 09:38:14 sri /tmp/work/dist/components/MdLayout/index.css -> /output/components/MdLayout/index.css.sri
+2023/02/27 09:38:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdLayout/index.css.br /tmp/work/dist/components/MdLayout/index.css
+2023/02/27 09:38:14 br /tmp/work/dist/components/MdList/index.css -> /output/components/MdList/index.css.br
+2023/02/27 09:38:14 gz /tmp/work/dist/components/MdList/index.css -> /output/components/MdList/index.css.gz
+2023/02/27 09:38:14 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdMenu/index.min.js /tmp/work/dist/components/MdMenu/index.js
+2023/02/27 09:38:14 br /tmp/work/dist/components/MdLayout/index.css -> /output/components/MdLayout/index.css.br
+2023/02/27 09:38:14 gz /tmp/work/dist/components/MdLayout/index.css -> /output/components/MdLayout/index.css.gz
+2023/02/27 09:38:14 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdProgress/index.min.css /tmp/work/dist/components/MdProgress/index.css
+2023/02/27 09:38:14 sri /tmp/work/dist/components/MdImage/index.min.js -> /output/components/MdImage/index.min.js.sri
+2023/02/27 09:38:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdImage/index.min.js.br /tmp/work/dist/components/MdImage/index.min.js
+2023/02/27 09:38:14 br /tmp/work/dist/components/MdImage/index.min.js -> /output/components/MdImage/index.min.js.br
+2023/02/27 09:38:14 gz /tmp/work/dist/components/MdImage/index.min.js -> /output/components/MdImage/index.min.js.gz
+2023/02/27 09:38:14 sri /tmp/work/dist/components/MdImage/index.js -> /output/components/MdImage/index.js.sri
+2023/02/27 09:38:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdImage/index.js.br /tmp/work/dist/components/MdImage/index.js
+2023/02/27 09:38:14 br /tmp/work/dist/components/MdImage/index.js -> /output/components/MdImage/index.js.br
+2023/02/27 09:38:14 gz /tmp/work/dist/components/MdImage/index.js -> /output/components/MdImage/index.js.gz
+2023/02/27 09:38:14 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdProgress/index.min.js /tmp/work/dist/components/MdProgress/index.js
+2023/02/27 09:38:15 sri /tmp/work/dist/components/MdMenu/index.min.css -> /output/components/MdMenu/index.min.css.sri
+2023/02/27 09:38:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdMenu/index.min.css.br /tmp/work/dist/components/MdMenu/index.min.css
+2023/02/27 09:38:15 br /tmp/work/dist/components/MdMenu/index.min.css -> /output/components/MdMenu/index.min.css.br
+2023/02/27 09:38:15 gz /tmp/work/dist/components/MdMenu/index.min.css -> /output/components/MdMenu/index.min.css.gz
+2023/02/27 09:38:15 sri /tmp/work/dist/components/MdMenu/index.css -> /output/components/MdMenu/index.css.sri
+2023/02/27 09:38:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdMenu/index.css.br /tmp/work/dist/components/MdMenu/index.css
+2023/02/27 09:38:15 br /tmp/work/dist/components/MdMenu/index.css -> /output/components/MdMenu/index.css.br
+2023/02/27 09:38:15 gz /tmp/work/dist/components/MdMenu/index.css -> /output/components/MdMenu/index.css.gz
+2023/02/27 09:38:15 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdRadio/index.min.css /tmp/work/dist/components/MdRadio/index.css
+2023/02/27 09:38:15 sri /tmp/work/dist/components/MdProgress/index.min.css -> /output/components/MdProgress/index.min.css.sri
+2023/02/27 09:38:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdProgress/index.min.css.br /tmp/work/dist/components/MdProgress/index.min.css
+2023/02/27 09:38:15 br /tmp/work/dist/components/MdProgress/index.min.css -> /output/components/MdProgress/index.min.css.br
+2023/02/27 09:38:15 gz /tmp/work/dist/components/MdProgress/index.min.css -> /output/components/MdProgress/index.min.css.gz
+2023/02/27 09:38:15 sri /tmp/work/dist/components/MdProgress/index.css -> /output/components/MdProgress/index.css.sri
+2023/02/27 09:38:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdProgress/index.css.br /tmp/work/dist/components/MdProgress/index.css
+2023/02/27 09:38:15 br /tmp/work/dist/components/MdProgress/index.css -> /output/components/MdProgress/index.css.br
+2023/02/27 09:38:15 gz /tmp/work/dist/components/MdProgress/index.css -> /output/components/MdProgress/index.css.gz
+2023/02/27 09:38:15 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdRadio/index.min.js /tmp/work/dist/components/MdRadio/index.js
+2023/02/27 09:38:15 sri /tmp/work/dist/components/MdRadio/index.min.css -> /output/components/MdRadio/index.min.css.sri
+2023/02/27 09:38:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdRadio/index.min.css.br /tmp/work/dist/components/MdRadio/index.min.css
+2023/02/27 09:38:15 br /tmp/work/dist/components/MdRadio/index.min.css -> /output/components/MdRadio/index.min.css.br
+2023/02/27 09:38:15 gz /tmp/work/dist/components/MdRadio/index.min.css -> /output/components/MdRadio/index.min.css.gz
+2023/02/27 09:38:15 sri /tmp/work/dist/components/MdRadio/index.css -> /output/components/MdRadio/index.css.sri
+2023/02/27 09:38:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdRadio/index.css.br /tmp/work/dist/components/MdRadio/index.css
+2023/02/27 09:38:15 br /tmp/work/dist/components/MdRadio/index.css -> /output/components/MdRadio/index.css.br
+2023/02/27 09:38:15 gz /tmp/work/dist/components/MdRadio/index.css -> /output/components/MdRadio/index.css.gz
+2023/02/27 09:38:15 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdRipple/index.min.css /tmp/work/dist/components/MdRipple/index.css
+2023/02/27 09:38:15 sri /tmp/work/dist/components/MdProgress/index.min.js -> /output/components/MdProgress/index.min.js.sri
+2023/02/27 09:38:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdProgress/index.min.js.br /tmp/work/dist/components/MdProgress/index.min.js
+2023/02/27 09:38:15 br /tmp/work/dist/components/MdProgress/index.min.js -> /output/components/MdProgress/index.min.js.br
+2023/02/27 09:38:15 gz /tmp/work/dist/components/MdProgress/index.min.js -> /output/components/MdProgress/index.min.js.gz
+2023/02/27 09:38:15 sri /tmp/work/dist/components/MdProgress/index.js -> /output/components/MdProgress/index.js.sri
+2023/02/27 09:38:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdProgress/index.js.br /tmp/work/dist/components/MdProgress/index.js
+2023/02/27 09:38:16 br /tmp/work/dist/components/MdProgress/index.js -> /output/components/MdProgress/index.js.br
+2023/02/27 09:38:16 gz /tmp/work/dist/components/MdProgress/index.js -> /output/components/MdProgress/index.js.gz
+2023/02/27 09:38:16 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdRipple/index.min.js /tmp/work/dist/components/MdRipple/index.js
+2023/02/27 09:38:16 sri /tmp/work/dist/components/MdRipple/index.min.css -> /output/components/MdRipple/index.min.css.sri
+2023/02/27 09:38:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdRipple/index.min.css.br /tmp/work/dist/components/MdRipple/index.min.css
+2023/02/27 09:38:16 br /tmp/work/dist/components/MdRipple/index.min.css -> /output/components/MdRipple/index.min.css.br
+2023/02/27 09:38:16 gz /tmp/work/dist/components/MdRipple/index.min.css -> /output/components/MdRipple/index.min.css.gz
+2023/02/27 09:38:16 sri /tmp/work/dist/components/MdRipple/index.css -> /output/components/MdRipple/index.css.sri
+2023/02/27 09:38:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdRipple/index.css.br /tmp/work/dist/components/MdRipple/index.css
+2023/02/27 09:38:16 br /tmp/work/dist/components/MdRipple/index.css -> /output/components/MdRipple/index.css.br
+2023/02/27 09:38:16 gz /tmp/work/dist/components/MdRipple/index.css -> /output/components/MdRipple/index.css.gz
+2023/02/27 09:38:16 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdSnackbar/index.min.css /tmp/work/dist/components/MdSnackbar/index.css
+2023/02/27 09:38:16 sri /tmp/work/dist/components/MdSnackbar/index.min.css -> /output/components/MdSnackbar/index.min.css.sri
+2023/02/27 09:38:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdSnackbar/index.min.css.br /tmp/work/dist/components/MdSnackbar/index.min.css
+2023/02/27 09:38:16 br /tmp/work/dist/components/MdSnackbar/index.min.css -> /output/components/MdSnackbar/index.min.css.br
+2023/02/27 09:38:16 gz /tmp/work/dist/components/MdSnackbar/index.min.css -> /output/components/MdSnackbar/index.min.css.gz
+2023/02/27 09:38:16 sri /tmp/work/dist/components/MdSnackbar/index.css -> /output/components/MdSnackbar/index.css.sri
+2023/02/27 09:38:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdSnackbar/index.css.br /tmp/work/dist/components/MdSnackbar/index.css
+2023/02/27 09:38:16 br /tmp/work/dist/components/MdSnackbar/index.css -> /output/components/MdSnackbar/index.css.br
+2023/02/27 09:38:16 gz /tmp/work/dist/components/MdSnackbar/index.css -> /output/components/MdSnackbar/index.css.gz
+2023/02/27 09:38:16 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdSnackbar/index.min.js /tmp/work/dist/components/MdSnackbar/index.js
+2023/02/27 09:38:16 sri /tmp/work/dist/components/MdRadio/index.min.js -> /output/components/MdRadio/index.min.js.sri
+2023/02/27 09:38:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdRadio/index.min.js.br /tmp/work/dist/components/MdRadio/index.min.js
+2023/02/27 09:38:16 br /tmp/work/dist/components/MdRadio/index.min.js -> /output/components/MdRadio/index.min.js.br
+2023/02/27 09:38:16 gz /tmp/work/dist/components/MdRadio/index.min.js -> /output/components/MdRadio/index.min.js.gz
+2023/02/27 09:38:16 sri /tmp/work/dist/components/MdRadio/index.js -> /output/components/MdRadio/index.js.sri
+2023/02/27 09:38:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdRadio/index.js.br /tmp/work/dist/components/MdRadio/index.js
+2023/02/27 09:38:17 br /tmp/work/dist/components/MdRadio/index.js -> /output/components/MdRadio/index.js.br
+2023/02/27 09:38:17 gz /tmp/work/dist/components/MdRadio/index.js -> /output/components/MdRadio/index.js.gz
+2023/02/27 09:38:17 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdSpeedDial/index.min.css /tmp/work/dist/components/MdSpeedDial/index.css
+2023/02/27 09:38:17 sri /tmp/work/dist/components/MdRipple/index.min.js -> /output/components/MdRipple/index.min.js.sri
+2023/02/27 09:38:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdRipple/index.min.js.br /tmp/work/dist/components/MdRipple/index.min.js
+2023/02/27 09:38:17 br /tmp/work/dist/components/MdRipple/index.min.js -> /output/components/MdRipple/index.min.js.br
+2023/02/27 09:38:17 gz /tmp/work/dist/components/MdRipple/index.min.js -> /output/components/MdRipple/index.min.js.gz
+2023/02/27 09:38:17 sri /tmp/work/dist/components/MdRipple/index.js -> /output/components/MdRipple/index.js.sri
+2023/02/27 09:38:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdRipple/index.js.br /tmp/work/dist/components/MdRipple/index.js
+2023/02/27 09:38:17 sri /tmp/work/dist/components/MdList/index.min.js -> /output/components/MdList/index.min.js.sri
+2023/02/27 09:38:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdList/index.min.js.br /tmp/work/dist/components/MdList/index.min.js
+2023/02/27 09:38:17 br /tmp/work/dist/components/MdRipple/index.js -> /output/components/MdRipple/index.js.br
+2023/02/27 09:38:17 gz /tmp/work/dist/components/MdRipple/index.js -> /output/components/MdRipple/index.js.gz
+2023/02/27 09:38:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdSpeedDial/index.min.js /tmp/work/dist/components/MdSpeedDial/index.js
+2023/02/27 09:38:17 sri /tmp/work/dist/components/MdSpeedDial/index.min.css -> /output/components/MdSpeedDial/index.min.css.sri
+2023/02/27 09:38:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdSpeedDial/index.min.css.br /tmp/work/dist/components/MdSpeedDial/index.min.css
+2023/02/27 09:38:17 br /tmp/work/dist/components/MdSpeedDial/index.min.css -> /output/components/MdSpeedDial/index.min.css.br
+2023/02/27 09:38:17 gz /tmp/work/dist/components/MdSpeedDial/index.min.css -> /output/components/MdSpeedDial/index.min.css.gz
+2023/02/27 09:38:17 sri /tmp/work/dist/components/MdSpeedDial/index.css -> /output/components/MdSpeedDial/index.css.sri
+2023/02/27 09:38:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdSpeedDial/index.css.br /tmp/work/dist/components/MdSpeedDial/index.css
+2023/02/27 09:38:17 br /tmp/work/dist/components/MdList/index.min.js -> /output/components/MdList/index.min.js.br
+2023/02/27 09:38:17 gz /tmp/work/dist/components/MdList/index.min.js -> /output/components/MdList/index.min.js.gz
+2023/02/27 09:38:17 sri /tmp/work/dist/components/MdList/index.js -> /output/components/MdList/index.js.sri
+2023/02/27 09:38:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdList/index.js.br /tmp/work/dist/components/MdList/index.js
+2023/02/27 09:38:17 br /tmp/work/dist/components/MdSpeedDial/index.css -> /output/components/MdSpeedDial/index.css.br
+2023/02/27 09:38:17 gz /tmp/work/dist/components/MdSpeedDial/index.css -> /output/components/MdSpeedDial/index.css.gz
+2023/02/27 09:38:17 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdSteppers/index.min.css /tmp/work/dist/components/MdSteppers/index.css
+2023/02/27 09:38:17 br /tmp/work/dist/components/MdList/index.js -> /output/components/MdList/index.js.br
+2023/02/27 09:38:17 gz /tmp/work/dist/components/MdList/index.js -> /output/components/MdList/index.js.gz
+2023/02/27 09:38:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdSteppers/index.min.js /tmp/work/dist/components/MdSteppers/index.js
+2023/02/27 09:38:17 sri /tmp/work/dist/components/MdSteppers/index.min.css -> /output/components/MdSteppers/index.min.css.sri
+2023/02/27 09:38:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdSteppers/index.min.css.br /tmp/work/dist/components/MdSteppers/index.min.css
+2023/02/27 09:38:18 br /tmp/work/dist/components/MdSteppers/index.min.css -> /output/components/MdSteppers/index.min.css.br
+2023/02/27 09:38:18 gz /tmp/work/dist/components/MdSteppers/index.min.css -> /output/components/MdSteppers/index.min.css.gz
+2023/02/27 09:38:18 sri /tmp/work/dist/components/MdSteppers/index.css -> /output/components/MdSteppers/index.css.sri
+2023/02/27 09:38:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdSteppers/index.css.br /tmp/work/dist/components/MdSteppers/index.css
+2023/02/27 09:38:18 sri /tmp/work/dist/components/MdSnackbar/index.min.js -> /output/components/MdSnackbar/index.min.js.sri
+2023/02/27 09:38:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdSnackbar/index.min.js.br /tmp/work/dist/components/MdSnackbar/index.min.js
+2023/02/27 09:38:18 br /tmp/work/dist/components/MdSteppers/index.css -> /output/components/MdSteppers/index.css.br
+2023/02/27 09:38:18 gz /tmp/work/dist/components/MdSteppers/index.css -> /output/components/MdSteppers/index.css.gz
+2023/02/27 09:38:18 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdSubheader/index.min.css /tmp/work/dist/components/MdSubheader/index.css
+2023/02/27 09:38:18 br /tmp/work/dist/components/MdSnackbar/index.min.js -> /output/components/MdSnackbar/index.min.js.br
+2023/02/27 09:38:18 gz /tmp/work/dist/components/MdSnackbar/index.min.js -> /output/components/MdSnackbar/index.min.js.gz
+2023/02/27 09:38:18 sri /tmp/work/dist/components/MdSnackbar/index.js -> /output/components/MdSnackbar/index.js.sri
+2023/02/27 09:38:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdSnackbar/index.js.br /tmp/work/dist/components/MdSnackbar/index.js
+2023/02/27 09:38:18 br /tmp/work/dist/components/MdSnackbar/index.js -> /output/components/MdSnackbar/index.js.br
+2023/02/27 09:38:18 gz /tmp/work/dist/components/MdSnackbar/index.js -> /output/components/MdSnackbar/index.js.gz
+2023/02/27 09:38:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdSubheader/index.min.js /tmp/work/dist/components/MdSubheader/index.js
+2023/02/27 09:38:18 sri /tmp/work/dist/components/MdSubheader/index.min.css -> /output/components/MdSubheader/index.min.css.sri
+2023/02/27 09:38:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdSubheader/index.min.css.br /tmp/work/dist/components/MdSubheader/index.min.css
+2023/02/27 09:38:18 br /tmp/work/dist/components/MdSubheader/index.min.css -> /output/components/MdSubheader/index.min.css.br
+2023/02/27 09:38:18 gz /tmp/work/dist/components/MdSubheader/index.min.css -> /output/components/MdSubheader/index.min.css.gz
+2023/02/27 09:38:18 sri /tmp/work/dist/components/MdSubheader/index.css -> /output/components/MdSubheader/index.css.sri
+2023/02/27 09:38:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdSubheader/index.css.br /tmp/work/dist/components/MdSubheader/index.css
+2023/02/27 09:38:18 br /tmp/work/dist/components/MdSubheader/index.css -> /output/components/MdSubheader/index.css.br
+2023/02/27 09:38:18 gz /tmp/work/dist/components/MdSubheader/index.css -> /output/components/MdSubheader/index.css.gz
+2023/02/27 09:38:18 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdSwitch/index.min.css /tmp/work/dist/components/MdSwitch/index.css
+2023/02/27 09:38:18 sri /tmp/work/dist/components/MdField/index.min.js -> /output/components/MdField/index.min.js.sri
+2023/02/27 09:38:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdField/index.min.js.br /tmp/work/dist/components/MdField/index.min.js
+2023/02/27 09:38:18 sri /tmp/work/dist/components/MdSwitch/index.min.css -> /output/components/MdSwitch/index.min.css.sri
+2023/02/27 09:38:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdSwitch/index.min.css.br /tmp/work/dist/components/MdSwitch/index.min.css
+2023/02/27 09:38:18 br /tmp/work/dist/components/MdSwitch/index.min.css -> /output/components/MdSwitch/index.min.css.br
+2023/02/27 09:38:18 gz /tmp/work/dist/components/MdSwitch/index.min.css -> /output/components/MdSwitch/index.min.css.gz
+2023/02/27 09:38:18 sri /tmp/work/dist/components/MdSwitch/index.css -> /output/components/MdSwitch/index.css.sri
+2023/02/27 09:38:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdSwitch/index.css.br /tmp/work/dist/components/MdSwitch/index.css
+2023/02/27 09:38:18 br /tmp/work/dist/components/MdField/index.min.js -> /output/components/MdField/index.min.js.br
+2023/02/27 09:38:18 br /tmp/work/dist/components/MdSwitch/index.css -> /output/components/MdSwitch/index.css.br
+2023/02/27 09:38:18 gz /tmp/work/dist/components/MdSwitch/index.css -> /output/components/MdSwitch/index.css.gz
+2023/02/27 09:38:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdSwitch/index.min.js /tmp/work/dist/components/MdSwitch/index.js
+2023/02/27 09:38:18 gz /tmp/work/dist/components/MdField/index.min.js -> /output/components/MdField/index.min.js.gz
+2023/02/27 09:38:18 sri /tmp/work/dist/components/MdField/index.js -> /output/components/MdField/index.js.sri
+2023/02/27 09:38:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdField/index.js.br /tmp/work/dist/components/MdField/index.js
+2023/02/27 09:38:19 sri /tmp/work/dist/components/MdSubheader/index.min.js -> /output/components/MdSubheader/index.min.js.sri
+2023/02/27 09:38:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdSubheader/index.min.js.br /tmp/work/dist/components/MdSubheader/index.min.js
+2023/02/27 09:38:19 br /tmp/work/dist/components/MdSubheader/index.min.js -> /output/components/MdSubheader/index.min.js.br
+2023/02/27 09:38:19 gz /tmp/work/dist/components/MdSubheader/index.min.js -> /output/components/MdSubheader/index.min.js.gz
+2023/02/27 09:38:19 sri /tmp/work/dist/components/MdSubheader/index.js -> /output/components/MdSubheader/index.js.sri
+2023/02/27 09:38:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdSubheader/index.js.br /tmp/work/dist/components/MdSubheader/index.js
+2023/02/27 09:38:19 br /tmp/work/dist/components/MdSubheader/index.js -> /output/components/MdSubheader/index.js.br
+2023/02/27 09:38:19 gz /tmp/work/dist/components/MdSubheader/index.js -> /output/components/MdSubheader/index.js.gz
+2023/02/27 09:38:19 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdTable/index.min.css /tmp/work/dist/components/MdTable/index.css
+2023/02/27 09:38:19 br /tmp/work/dist/components/MdField/index.js -> /output/components/MdField/index.js.br
+2023/02/27 09:38:19 gz /tmp/work/dist/components/MdField/index.js -> /output/components/MdField/index.js.gz
+2023/02/27 09:38:19 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdTable/index.min.js /tmp/work/dist/components/MdTable/index.js
+2023/02/27 09:38:19 sri /tmp/work/dist/components/MdSpeedDial/index.min.js -> /output/components/MdSpeedDial/index.min.js.sri
+2023/02/27 09:38:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdSpeedDial/index.min.js.br /tmp/work/dist/components/MdSpeedDial/index.min.js
+2023/02/27 09:38:19 br /tmp/work/dist/components/MdSpeedDial/index.min.js -> /output/components/MdSpeedDial/index.min.js.br
+2023/02/27 09:38:19 gz /tmp/work/dist/components/MdSpeedDial/index.min.js -> /output/components/MdSpeedDial/index.min.js.gz
+2023/02/27 09:38:19 sri /tmp/work/dist/components/MdSpeedDial/index.js -> /output/components/MdSpeedDial/index.js.sri
+2023/02/27 09:38:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdSpeedDial/index.js.br /tmp/work/dist/components/MdSpeedDial/index.js
+2023/02/27 09:38:19 br /tmp/work/dist/components/MdSpeedDial/index.js -> /output/components/MdSpeedDial/index.js.br
+2023/02/27 09:38:19 gz /tmp/work/dist/components/MdSpeedDial/index.js -> /output/components/MdSpeedDial/index.js.gz
+2023/02/27 09:38:19 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdTabs/index.min.css /tmp/work/dist/components/MdTabs/index.css
+2023/02/27 09:38:19 sri /tmp/work/dist/components/MdSteppers/index.min.js -> /output/components/MdSteppers/index.min.js.sri
+2023/02/27 09:38:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdSteppers/index.min.js.br /tmp/work/dist/components/MdSteppers/index.min.js
+2023/02/27 09:38:19 sri /tmp/work/dist/components/MdMenu/index.min.js -> /output/components/MdMenu/index.min.js.sri
+2023/02/27 09:38:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdMenu/index.min.js.br /tmp/work/dist/components/MdMenu/index.min.js
+2023/02/27 09:38:19 br /tmp/work/dist/components/MdSteppers/index.min.js -> /output/components/MdSteppers/index.min.js.br
+2023/02/27 09:38:19 gz /tmp/work/dist/components/MdSteppers/index.min.js -> /output/components/MdSteppers/index.min.js.gz
+2023/02/27 09:38:19 sri /tmp/work/dist/components/MdSteppers/index.js -> /output/components/MdSteppers/index.js.sri
+2023/02/27 09:38:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdSteppers/index.js.br /tmp/work/dist/components/MdSteppers/index.js
+2023/02/27 09:38:19 br /tmp/work/dist/components/MdSteppers/index.js -> /output/components/MdSteppers/index.js.br
+2023/02/27 09:38:19 gz /tmp/work/dist/components/MdSteppers/index.js -> /output/components/MdSteppers/index.js.gz
+2023/02/27 09:38:19 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdTabs/index.min.js /tmp/work/dist/components/MdTabs/index.js
+2023/02/27 09:38:19 sri /tmp/work/dist/components/MdTable/index.min.css -> /output/components/MdTable/index.min.css.sri
+2023/02/27 09:38:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdTable/index.min.css.br /tmp/work/dist/components/MdTable/index.min.css
+2023/02/27 09:38:19 br /tmp/work/dist/components/MdTable/index.min.css -> /output/components/MdTable/index.min.css.br
+2023/02/27 09:38:19 gz /tmp/work/dist/components/MdTable/index.min.css -> /output/components/MdTable/index.min.css.gz
+2023/02/27 09:38:19 sri /tmp/work/dist/components/MdTable/index.css -> /output/components/MdTable/index.css.sri
+2023/02/27 09:38:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdTable/index.css.br /tmp/work/dist/components/MdTable/index.css
+2023/02/27 09:38:19 br /tmp/work/dist/components/MdMenu/index.min.js -> /output/components/MdMenu/index.min.js.br
+2023/02/27 09:38:19 gz /tmp/work/dist/components/MdMenu/index.min.js -> /output/components/MdMenu/index.min.js.gz
+2023/02/27 09:38:19 sri /tmp/work/dist/components/MdMenu/index.js -> /output/components/MdMenu/index.js.sri
+2023/02/27 09:38:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdMenu/index.js.br /tmp/work/dist/components/MdMenu/index.js
+2023/02/27 09:38:19 br /tmp/work/dist/components/MdTable/index.css -> /output/components/MdTable/index.css.br
+2023/02/27 09:38:19 gz /tmp/work/dist/components/MdTable/index.css -> /output/components/MdTable/index.css.gz
+2023/02/27 09:38:19 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdToolbar/index.min.css /tmp/work/dist/components/MdToolbar/index.css
+2023/02/27 09:38:19 sri /tmp/work/dist/components/MdTabs/index.min.css -> /output/components/MdTabs/index.min.css.sri
+2023/02/27 09:38:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdTabs/index.min.css.br /tmp/work/dist/components/MdTabs/index.min.css
+2023/02/27 09:38:19 br /tmp/work/dist/components/MdTabs/index.min.css -> /output/components/MdTabs/index.min.css.br
+2023/02/27 09:38:19 gz /tmp/work/dist/components/MdTabs/index.min.css -> /output/components/MdTabs/index.min.css.gz
+2023/02/27 09:38:19 sri /tmp/work/dist/components/MdTabs/index.css -> /output/components/MdTabs/index.css.sri
+2023/02/27 09:38:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdTabs/index.css.br /tmp/work/dist/components/MdTabs/index.css
+2023/02/27 09:38:19 br /tmp/work/dist/components/MdTabs/index.css -> /output/components/MdTabs/index.css.br
+2023/02/27 09:38:19 gz /tmp/work/dist/components/MdTabs/index.css -> /output/components/MdTabs/index.css.gz
+2023/02/27 09:38:19 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdToolbar/index.min.js /tmp/work/dist/components/MdToolbar/index.js
+2023/02/27 09:38:20 br /tmp/work/dist/components/MdMenu/index.js -> /output/components/MdMenu/index.js.br
+2023/02/27 09:38:20 gz /tmp/work/dist/components/MdMenu/index.js -> /output/components/MdMenu/index.js.gz
+2023/02/27 09:38:20 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/components/MdTooltip/index.min.css /tmp/work/dist/components/MdTooltip/index.css
+2023/02/27 09:38:20 sri /tmp/work/dist/components/MdToolbar/index.min.css -> /output/components/MdToolbar/index.min.css.sri
+2023/02/27 09:38:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdToolbar/index.min.css.br /tmp/work/dist/components/MdToolbar/index.min.css
+2023/02/27 09:38:20 br /tmp/work/dist/components/MdToolbar/index.min.css -> /output/components/MdToolbar/index.min.css.br
+2023/02/27 09:38:20 gz /tmp/work/dist/components/MdToolbar/index.min.css -> /output/components/MdToolbar/index.min.css.gz
+2023/02/27 09:38:20 sri /tmp/work/dist/components/MdToolbar/index.css -> /output/components/MdToolbar/index.css.sri
+2023/02/27 09:38:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdToolbar/index.css.br /tmp/work/dist/components/MdToolbar/index.css
+2023/02/27 09:38:20 br /tmp/work/dist/components/MdToolbar/index.css -> /output/components/MdToolbar/index.css.br
+2023/02/27 09:38:20 gz /tmp/work/dist/components/MdToolbar/index.css -> /output/components/MdToolbar/index.css.gz
+2023/02/27 09:38:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/components/MdTooltip/index.min.js /tmp/work/dist/components/MdTooltip/index.js
+2023/02/27 09:38:20 sri /tmp/work/dist/components/MdSwitch/index.min.js -> /output/components/MdSwitch/index.min.js.sri
+2023/02/27 09:38:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdSwitch/index.min.js.br /tmp/work/dist/components/MdSwitch/index.min.js
+2023/02/27 09:38:20 br /tmp/work/dist/components/MdSwitch/index.min.js -> /output/components/MdSwitch/index.min.js.br
+2023/02/27 09:38:20 gz /tmp/work/dist/components/MdSwitch/index.min.js -> /output/components/MdSwitch/index.min.js.gz
+2023/02/27 09:38:20 sri /tmp/work/dist/components/MdSwitch/index.js -> /output/components/MdSwitch/index.js.sri
+2023/02/27 09:38:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdSwitch/index.js.br /tmp/work/dist/components/MdSwitch/index.js
+2023/02/27 09:38:20 sri /tmp/work/dist/components/MdTooltip/index.min.css -> /output/components/MdTooltip/index.min.css.sri
+2023/02/27 09:38:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdTooltip/index.min.css.br /tmp/work/dist/components/MdTooltip/index.min.css
+2023/02/27 09:38:20 br /tmp/work/dist/components/MdTooltip/index.min.css -> /output/components/MdTooltip/index.min.css.br
+2023/02/27 09:38:20 gz /tmp/work/dist/components/MdTooltip/index.min.css -> /output/components/MdTooltip/index.min.css.gz
+2023/02/27 09:38:20 sri /tmp/work/dist/components/MdTooltip/index.css -> /output/components/MdTooltip/index.css.sri
+2023/02/27 09:38:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdTooltip/index.css.br /tmp/work/dist/components/MdTooltip/index.css
+2023/02/27 09:38:20 br /tmp/work/dist/components/MdTooltip/index.css -> /output/components/MdTooltip/index.css.br
+2023/02/27 09:38:20 gz /tmp/work/dist/components/MdTooltip/index.css -> /output/components/MdTooltip/index.css.gz
+2023/02/27 09:38:20 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/theme/black-green-dark.min.css /tmp/work/dist/theme/black-green-dark.css
+2023/02/27 09:38:20 br /tmp/work/dist/components/MdSwitch/index.js -> /output/components/MdSwitch/index.js.br
+2023/02/27 09:38:20 gz /tmp/work/dist/components/MdSwitch/index.js -> /output/components/MdSwitch/index.js.gz
+2023/02/27 09:38:20 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/theme/black-green-light.min.css /tmp/work/dist/theme/black-green-light.css
+2023/02/27 09:38:20 sri /tmp/work/dist/components/MdToolbar/index.min.js -> /output/components/MdToolbar/index.min.js.sri
+2023/02/27 09:38:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdToolbar/index.min.js.br /tmp/work/dist/components/MdToolbar/index.min.js
+2023/02/27 09:38:20 br /tmp/work/dist/components/MdToolbar/index.min.js -> /output/components/MdToolbar/index.min.js.br
+2023/02/27 09:38:20 gz /tmp/work/dist/components/MdToolbar/index.min.js -> /output/components/MdToolbar/index.min.js.gz
+2023/02/27 09:38:20 sri /tmp/work/dist/components/MdToolbar/index.js -> /output/components/MdToolbar/index.js.sri
+2023/02/27 09:38:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdToolbar/index.js.br /tmp/work/dist/components/MdToolbar/index.js
+2023/02/27 09:38:20 br /tmp/work/dist/components/MdToolbar/index.js -> /output/components/MdToolbar/index.js.br
+2023/02/27 09:38:20 gz /tmp/work/dist/components/MdToolbar/index.js -> /output/components/MdToolbar/index.js.gz
+2023/02/27 09:38:20 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/theme/default-dark.min.css /tmp/work/dist/theme/default-dark.css
+2023/02/27 09:38:20 sri /tmp/work/dist/components/MdDatepicker/index.min.js -> /output/components/MdDatepicker/index.min.js.sri
+2023/02/27 09:38:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdDatepicker/index.min.js.br /tmp/work/dist/components/MdDatepicker/index.min.js
+2023/02/27 09:38:20 sri /tmp/work/dist/theme/black-green-dark.min.css -> /output/theme/black-green-dark.min.css.sri
+2023/02/27 09:38:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/theme/black-green-dark.min.css.br /tmp/work/dist/theme/black-green-dark.min.css
+2023/02/27 09:38:20 sri /tmp/work/dist/theme/black-green-light.min.css -> /output/theme/black-green-light.min.css.sri
+2023/02/27 09:38:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/theme/black-green-light.min.css.br /tmp/work/dist/theme/black-green-light.min.css
+2023/02/27 09:38:21 br /tmp/work/dist/theme/black-green-dark.min.css -> /output/theme/black-green-dark.min.css.br
+2023/02/27 09:38:21 gz /tmp/work/dist/theme/black-green-dark.min.css -> /output/theme/black-green-dark.min.css.gz
+2023/02/27 09:38:21 sri /tmp/work/dist/theme/black-green-dark.css -> /output/theme/black-green-dark.css.sri
+2023/02/27 09:38:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/theme/black-green-dark.css.br /tmp/work/dist/theme/black-green-dark.css
+2023/02/27 09:38:21 br /tmp/work/dist/theme/black-green-light.min.css -> /output/theme/black-green-light.min.css.br
+2023/02/27 09:38:21 gz /tmp/work/dist/theme/black-green-light.min.css -> /output/theme/black-green-light.min.css.gz
+2023/02/27 09:38:21 sri /tmp/work/dist/theme/black-green-light.css -> /output/theme/black-green-light.css.sri
+2023/02/27 09:38:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/theme/black-green-light.css.br /tmp/work/dist/theme/black-green-light.css
+2023/02/27 09:38:21 sri /tmp/work/dist/theme/default-dark.min.css -> /output/theme/default-dark.min.css.sri
+2023/02/27 09:38:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/theme/default-dark.min.css.br /tmp/work/dist/theme/default-dark.min.css
+2023/02/27 09:38:21 br /tmp/work/dist/theme/black-green-dark.css -> /output/theme/black-green-dark.css.br
+2023/02/27 09:38:21 gz /tmp/work/dist/theme/black-green-dark.css -> /output/theme/black-green-dark.css.gz
+2023/02/27 09:38:21 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/theme/default.min.css /tmp/work/dist/theme/default.css
+2023/02/27 09:38:21 br /tmp/work/dist/theme/black-green-light.css -> /output/theme/black-green-light.css.br
+2023/02/27 09:38:21 gz /tmp/work/dist/theme/black-green-light.css -> /output/theme/black-green-light.css.gz
+2023/02/27 09:38:21 br /tmp/work/dist/theme/default-dark.min.css -> /output/theme/default-dark.min.css.br
+2023/02/27 09:38:21 gz /tmp/work/dist/theme/default-dark.min.css -> /output/theme/default-dark.min.css.gz
+2023/02/27 09:38:21 sri /tmp/work/dist/theme/default-dark.css -> /output/theme/default-dark.css.sri
+2023/02/27 09:38:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/theme/default-dark.css.br /tmp/work/dist/theme/default-dark.css
+2023/02/27 09:38:21 sri /tmp/work/dist/components/MdTabs/index.min.js -> /output/components/MdTabs/index.min.js.sri
+2023/02/27 09:38:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdTabs/index.min.js.br /tmp/work/dist/components/MdTabs/index.min.js
+2023/02/27 09:38:21 br /tmp/work/dist/components/MdDatepicker/index.min.js -> /output/components/MdDatepicker/index.min.js.br
+2023/02/27 09:38:21 gz /tmp/work/dist/components/MdDatepicker/index.min.js -> /output/components/MdDatepicker/index.min.js.gz
+2023/02/27 09:38:21 sri /tmp/work/dist/components/MdDatepicker/index.js -> /output/components/MdDatepicker/index.js.sri
+2023/02/27 09:38:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdDatepicker/index.js.br /tmp/work/dist/components/MdDatepicker/index.js
+2023/02/27 09:38:21 br /tmp/work/dist/components/MdTabs/index.min.js -> /output/components/MdTabs/index.min.js.br
+2023/02/27 09:38:21 gz /tmp/work/dist/components/MdTabs/index.min.js -> /output/components/MdTabs/index.min.js.gz
+2023/02/27 09:38:21 sri /tmp/work/dist/components/MdTabs/index.js -> /output/components/MdTabs/index.js.sri
+2023/02/27 09:38:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdTabs/index.js.br /tmp/work/dist/components/MdTabs/index.js
+2023/02/27 09:38:21 br /tmp/work/dist/theme/default-dark.css -> /output/theme/default-dark.css.br
+2023/02/27 09:38:21 gz /tmp/work/dist/theme/default-dark.css -> /output/theme/default-dark.css.gz
+2023/02/27 09:38:21 sri /tmp/work/dist/components/MdTable/index.min.js -> /output/components/MdTable/index.min.js.sri
+2023/02/27 09:38:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdTable/index.min.js.br /tmp/work/dist/components/MdTable/index.min.js
+2023/02/27 09:38:21 br /tmp/work/dist/components/MdTabs/index.js -> /output/components/MdTabs/index.js.br
+2023/02/27 09:38:21 gz /tmp/work/dist/components/MdTabs/index.js -> /output/components/MdTabs/index.js.gz
+2023/02/27 09:38:21 sri /tmp/work/dist/theme/default.min.css -> /output/theme/default.min.css.sri
+2023/02/27 09:38:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/theme/default.min.css.br /tmp/work/dist/theme/default.min.css
+2023/02/27 09:38:22 br /tmp/work/dist/components/MdTable/index.min.js -> /output/components/MdTable/index.min.js.br
+2023/02/27 09:38:22 gz /tmp/work/dist/components/MdTable/index.min.js -> /output/components/MdTable/index.min.js.gz
+2023/02/27 09:38:22 sri /tmp/work/dist/components/MdTable/index.js -> /output/components/MdTable/index.js.sri
+2023/02/27 09:38:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdTable/index.js.br /tmp/work/dist/components/MdTable/index.js
+2023/02/27 09:38:22 br /tmp/work/dist/components/MdTable/index.js -> /output/components/MdTable/index.js.br
+2023/02/27 09:38:22 gz /tmp/work/dist/components/MdTable/index.js -> /output/components/MdTable/index.js.gz
+2023/02/27 09:38:22 br /tmp/work/dist/theme/default.min.css -> /output/theme/default.min.css.br
+2023/02/27 09:38:22 gz /tmp/work/dist/theme/default.min.css -> /output/theme/default.min.css.gz
+2023/02/27 09:38:22 sri /tmp/work/dist/theme/default.css -> /output/theme/default.css.sri
+2023/02/27 09:38:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/theme/default.css.br /tmp/work/dist/theme/default.css
+2023/02/27 09:38:22 sri /tmp/work/dist/components/index.min.js -> /output/components/index.min.js.sri
+2023/02/27 09:38:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/index.min.js.br /tmp/work/dist/components/index.min.js
+2023/02/27 09:38:22 br /tmp/work/dist/theme/default.css -> /output/theme/default.css.br
+2023/02/27 09:38:22 gz /tmp/work/dist/theme/default.css -> /output/theme/default.css.gz
+2023/02/27 09:38:22 sri /tmp/work/dist/components/MdTooltip/index.min.js -> /output/components/MdTooltip/index.min.js.sri
+2023/02/27 09:38:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdTooltip/index.min.js.br /tmp/work/dist/components/MdTooltip/index.min.js
+2023/02/27 09:38:22 br /tmp/work/dist/components/MdDatepicker/index.js -> /output/components/MdDatepicker/index.js.br
+2023/02/27 09:38:22 gz /tmp/work/dist/components/MdDatepicker/index.js -> /output/components/MdDatepicker/index.js.gz
+2023/02/27 09:38:22 br /tmp/work/dist/components/MdTooltip/index.min.js -> /output/components/MdTooltip/index.min.js.br
+2023/02/27 09:38:22 gz /tmp/work/dist/components/MdTooltip/index.min.js -> /output/components/MdTooltip/index.min.js.gz
+2023/02/27 09:38:22 sri /tmp/work/dist/components/MdTooltip/index.js -> /output/components/MdTooltip/index.js.sri
+2023/02/27 09:38:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/MdTooltip/index.js.br /tmp/work/dist/components/MdTooltip/index.js
+2023/02/27 09:38:22 br /tmp/work/dist/components/MdTooltip/index.js -> /output/components/MdTooltip/index.js.br
+2023/02/27 09:38:22 gz /tmp/work/dist/components/MdTooltip/index.js -> /output/components/MdTooltip/index.js.gz
+2023/02/27 09:38:23 br /tmp/work/dist/components/index.min.js -> /output/components/index.min.js.br
+2023/02/27 09:38:23 gz /tmp/work/dist/components/index.min.js -> /output/components/index.min.js.gz
+2023/02/27 09:38:23 sri /tmp/work/dist/components/index.js -> /output/components/index.js.sri
+2023/02/27 09:38:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/components/index.js.br /tmp/work/dist/components/index.js
+2023/02/27 09:38:24 br /tmp/work/dist/components/index.js -> /output/components/index.js.br
+2023/02/27 09:38:24 gz /tmp/work/dist/components/index.js -> /output/components/index.js.gz
+2023/02/27 09:38:24 processed vue-material
