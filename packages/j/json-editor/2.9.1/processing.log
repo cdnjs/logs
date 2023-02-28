@@ -1,0 +1,35 @@
+2023/02/28 21:31:45 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/02/28 21:31:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dev/jsoneditor.min.js /tmp/work/dist/dev/jsoneditor.js
+2023/02/28 21:31:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/jsoneditor.min.js /tmp/work/dist/jsoneditor.js
+2023/02/28 21:31:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/nonmin/jsoneditor.min.js /tmp/work/dist/nonmin/jsoneditor.js
+2023/02/28 21:31:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsoneditor.js.map.br /tmp/work/dist/jsoneditor.js.map
+2023/02/28 21:31:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nonmin/jsoneditor.js.map.br /tmp/work/dist/nonmin/jsoneditor.js.map
+2023/02/28 21:31:47 sri /tmp/work/dist/dev/jsoneditor.min.js -> /output/dev/jsoneditor.min.js.sri
+2023/02/28 21:31:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dev/jsoneditor.min.js.br /tmp/work/dist/dev/jsoneditor.min.js
+2023/02/28 21:31:49 br /tmp/work/dist/nonmin/jsoneditor.js.map -> /output/nonmin/jsoneditor.js.map.br
+2023/02/28 21:31:49 br /tmp/work/dist/jsoneditor.js.map -> /output/jsoneditor.js.map.br
+2023/02/28 21:31:49 gz /tmp/work/dist/nonmin/jsoneditor.js.map -> /output/nonmin/jsoneditor.js.map.gz
+2023/02/28 21:31:49 gz /tmp/work/dist/jsoneditor.js.map -> /output/jsoneditor.js.map.gz
+2023/02/28 21:31:55 br /tmp/work/dist/dev/jsoneditor.min.js -> /output/dev/jsoneditor.min.js.br
+2023/02/28 21:31:55 gz /tmp/work/dist/dev/jsoneditor.min.js -> /output/dev/jsoneditor.min.js.gz
+2023/02/28 21:31:55 sri /tmp/work/dist/dev/jsoneditor.js -> /output/dev/jsoneditor.js.sri
+2023/02/28 21:31:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dev/jsoneditor.js.br /tmp/work/dist/dev/jsoneditor.js
+2023/02/28 21:31:55 sri /tmp/work/dist/jsoneditor.min.js -> /output/jsoneditor.min.js.sri
+2023/02/28 21:31:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsoneditor.min.js.br /tmp/work/dist/jsoneditor.min.js
+2023/02/28 21:31:56 sri /tmp/work/dist/nonmin/jsoneditor.min.js -> /output/nonmin/jsoneditor.min.js.sri
+2023/02/28 21:31:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nonmin/jsoneditor.min.js.br /tmp/work/dist/nonmin/jsoneditor.min.js
+2023/02/28 21:31:56 br /tmp/work/dist/jsoneditor.min.js -> /output/jsoneditor.min.js.br
+2023/02/28 21:31:56 gz /tmp/work/dist/jsoneditor.min.js -> /output/jsoneditor.min.js.gz
+2023/02/28 21:31:56 sri /tmp/work/dist/jsoneditor.js -> /output/jsoneditor.js.sri
+2023/02/28 21:31:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jsoneditor.js.br /tmp/work/dist/jsoneditor.js
+2023/02/28 21:31:57 br /tmp/work/dist/nonmin/jsoneditor.min.js -> /output/nonmin/jsoneditor.min.js.br
+2023/02/28 21:31:57 gz /tmp/work/dist/nonmin/jsoneditor.min.js -> /output/nonmin/jsoneditor.min.js.gz
+2023/02/28 21:31:57 sri /tmp/work/dist/nonmin/jsoneditor.js -> /output/nonmin/jsoneditor.js.sri
+2023/02/28 21:31:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nonmin/jsoneditor.js.br /tmp/work/dist/nonmin/jsoneditor.js
+2023/02/28 21:31:58 br /tmp/work/dist/jsoneditor.js -> /output/jsoneditor.js.br
+2023/02/28 21:31:58 gz /tmp/work/dist/jsoneditor.js -> /output/jsoneditor.js.gz
+2023/02/28 21:32:00 br /tmp/work/dist/nonmin/jsoneditor.js -> /output/nonmin/jsoneditor.js.br
+2023/02/28 21:32:00 gz /tmp/work/dist/nonmin/jsoneditor.js -> /output/nonmin/jsoneditor.js.gz
+2023/02/28 21:32:02 br /tmp/work/dist/dev/jsoneditor.js -> /output/dev/jsoneditor.js.br
+2023/02/28 21:32:02 gz /tmp/work/dist/dev/jsoneditor.js -> /output/dev/jsoneditor.js.gz
+2023/02/28 21:32:02 processed json-editor
