@@ -1,0 +1,23 @@
+2023/03/06 02:04:47 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/03/06 02:04:47 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/ffmpeg-core.min.js /tmp/work/dist/ffmpeg-core.js
+2023/03/06 02:04:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ffmpeg-core.wasm.br /tmp/work/dist/ffmpeg-core.wasm
+2023/03/06 02:04:47 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/ffmpeg-core.worker.min.js /tmp/work/dist/ffmpeg-core.worker.js
+2023/03/06 02:04:47 sri /tmp/work/dist/ffmpeg-core.worker.min.js -> /output/ffmpeg-core.worker.min.js.sri
+2023/03/06 02:04:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ffmpeg-core.worker.min.js.br /tmp/work/dist/ffmpeg-core.worker.min.js
+2023/03/06 02:04:47 br /tmp/work/dist/ffmpeg-core.worker.min.js -> /output/ffmpeg-core.worker.min.js.br
+2023/03/06 02:04:47 gz /tmp/work/dist/ffmpeg-core.worker.min.js -> /output/ffmpeg-core.worker.min.js.gz
+2023/03/06 02:04:47 sri /tmp/work/dist/ffmpeg-core.worker.js -> /output/ffmpeg-core.worker.js.sri
+2023/03/06 02:04:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ffmpeg-core.worker.js.br /tmp/work/dist/ffmpeg-core.worker.js
+2023/03/06 02:04:47 br /tmp/work/dist/ffmpeg-core.worker.js -> /output/ffmpeg-core.worker.js.br
+2023/03/06 02:04:47 gz /tmp/work/dist/ffmpeg-core.worker.js -> /output/ffmpeg-core.worker.js.gz
+2023/03/06 02:04:50 sri /tmp/work/dist/ffmpeg-core.min.js -> /output/ffmpeg-core.min.js.sri
+2023/03/06 02:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ffmpeg-core.min.js.br /tmp/work/dist/ffmpeg-core.min.js
+2023/03/06 02:04:50 br /tmp/work/dist/ffmpeg-core.min.js -> /output/ffmpeg-core.min.js.br
+2023/03/06 02:04:50 gz /tmp/work/dist/ffmpeg-core.min.js -> /output/ffmpeg-core.min.js.gz
+2023/03/06 02:04:50 sri /tmp/work/dist/ffmpeg-core.js -> /output/ffmpeg-core.js.sri
+2023/03/06 02:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ffmpeg-core.js.br /tmp/work/dist/ffmpeg-core.js
+2023/03/06 02:04:50 br /tmp/work/dist/ffmpeg-core.js -> /output/ffmpeg-core.js.br
+2023/03/06 02:04:50 gz /tmp/work/dist/ffmpeg-core.js -> /output/ffmpeg-core.js.gz
+2023/03/06 02:07:00 br /tmp/work/dist/ffmpeg-core.wasm -> /output/ffmpeg-core.wasm.br
+2023/03/06 02:07:01 gz /tmp/work/dist/ffmpeg-core.wasm -> /output/ffmpeg-core.wasm.gz
+2023/03/06 02:07:01 processed ffmpeg-core
