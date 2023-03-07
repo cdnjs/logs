@@ -1,0 +1,32 @@
+2023/03/07 13:00:49 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/03/07 13:00:49 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/index.min.css /tmp/work/dist/index.css
+2023/03/07 13:00:49 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/x6.min.css /tmp/work/dist/x6.css
+2023/03/07 13:00:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.min.js /tmp/work/dist/index.js
+2023/03/07 13:00:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.map.br /tmp/work/dist/index.js.map
+2023/03/07 13:00:49 br /tmp/work/dist/index.js.map -> /output/index.js.map.br
+2023/03/07 13:00:49 gz /tmp/work/dist/index.js.map -> /output/index.js.map.gz
+2023/03/07 13:00:49 sri /tmp/work/dist/index.min.css -> /output/index.min.css.sri
+2023/03/07 13:00:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.css.br /tmp/work/dist/index.min.css
+2023/03/07 13:00:49 sri /tmp/work/dist/x6.min.css -> /output/x6.min.css.sri
+2023/03/07 13:00:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/x6.min.css.br /tmp/work/dist/x6.min.css
+2023/03/07 13:00:49 br /tmp/work/dist/index.min.css -> /output/index.min.css.br
+2023/03/07 13:00:49 gz /tmp/work/dist/index.min.css -> /output/index.min.css.gz
+2023/03/07 13:00:49 sri /tmp/work/dist/index.css -> /output/index.css.sri
+2023/03/07 13:00:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.css.br /tmp/work/dist/index.css
+2023/03/07 13:00:49 br /tmp/work/dist/x6.min.css -> /output/x6.min.css.br
+2023/03/07 13:00:49 gz /tmp/work/dist/x6.min.css -> /output/x6.min.css.gz
+2023/03/07 13:00:49 sri /tmp/work/dist/x6.css -> /output/x6.css.sri
+2023/03/07 13:00:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/x6.css.br /tmp/work/dist/x6.css
+2023/03/07 13:00:49 br /tmp/work/dist/index.css -> /output/index.css.br
+2023/03/07 13:00:49 gz /tmp/work/dist/index.css -> /output/index.css.gz
+2023/03/07 13:00:49 br /tmp/work/dist/x6.css -> /output/x6.css.br
+2023/03/07 13:00:49 gz /tmp/work/dist/x6.css -> /output/x6.css.gz
+2023/03/07 13:00:58 sri /tmp/work/dist/index.min.js -> /output/index.min.js.sri
+2023/03/07 13:00:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/dist/index.min.js
+2023/03/07 13:00:59 br /tmp/work/dist/index.min.js -> /output/index.min.js.br
+2023/03/07 13:00:59 gz /tmp/work/dist/index.min.js -> /output/index.min.js.gz
+2023/03/07 13:00:59 sri /tmp/work/dist/index.js -> /output/index.js.sri
+2023/03/07 13:00:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/dist/index.js
+2023/03/07 13:01:00 br /tmp/work/dist/index.js -> /output/index.js.br
+2023/03/07 13:01:00 gz /tmp/work/dist/index.js -> /output/index.js.gz
+2023/03/07 13:01:00 processed antv-x6
