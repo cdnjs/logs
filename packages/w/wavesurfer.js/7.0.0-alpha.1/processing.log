@@ -1,0 +1,122 @@
+2023/03/12 20:32:37 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/03/12 20:32:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fetcher.min.js /tmp/work/dist/fetcher.js
+2023/03/12 20:32:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/event-emitter.min.js /tmp/work/dist/event-emitter.js
+2023/03/12 20:32:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/decoder.min.js /tmp/work/dist/decoder.js
+2023/03/12 20:32:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/event-emitter.d.ts.br /tmp/work/dist/event-emitter.d.ts
+2023/03/12 20:32:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/base-plugin.min.js /tmp/work/dist/base-plugin.js
+2023/03/12 20:32:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/base-plugin.d.ts.br /tmp/work/dist/base-plugin.d.ts
+2023/03/12 20:32:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fetcher.d.ts.br /tmp/work/dist/fetcher.d.ts
+2023/03/12 20:32:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/decoder.d.ts.br /tmp/work/dist/decoder.d.ts
+2023/03/12 20:32:37 br /tmp/work/dist/event-emitter.d.ts -> /output/event-emitter.d.ts.br
+2023/03/12 20:32:37 gz /tmp/work/dist/event-emitter.d.ts -> /output/event-emitter.d.ts.gz
+2023/03/12 20:32:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.d.ts.br /tmp/work/dist/index.d.ts
+2023/03/12 20:32:37 br /tmp/work/dist/fetcher.d.ts -> /output/fetcher.d.ts.br
+2023/03/12 20:32:37 gz /tmp/work/dist/fetcher.d.ts -> /output/fetcher.d.ts.gz
+2023/03/12 20:32:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.min.js /tmp/work/dist/index.js
+2023/03/12 20:32:37 br /tmp/work/dist/decoder.d.ts -> /output/decoder.d.ts.br
+2023/03/12 20:32:37 gz /tmp/work/dist/decoder.d.ts -> /output/decoder.d.ts.gz
+2023/03/12 20:32:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/player-webaudio.d.ts.br /tmp/work/dist/player-webaudio.d.ts
+2023/03/12 20:32:37 br /tmp/work/dist/base-plugin.d.ts -> /output/base-plugin.d.ts.br
+2023/03/12 20:32:37 gz /tmp/work/dist/base-plugin.d.ts -> /output/base-plugin.d.ts.gz
+2023/03/12 20:32:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/player-webaudio.min.js /tmp/work/dist/player-webaudio.js
+2023/03/12 20:32:37 br /tmp/work/dist/player-webaudio.d.ts -> /output/player-webaudio.d.ts.br
+2023/03/12 20:32:37 gz /tmp/work/dist/player-webaudio.d.ts -> /output/player-webaudio.d.ts.gz
+2023/03/12 20:32:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/player.d.ts.br /tmp/work/dist/player.d.ts
+2023/03/12 20:32:37 br /tmp/work/dist/index.d.ts -> /output/index.d.ts.br
+2023/03/12 20:32:37 gz /tmp/work/dist/index.d.ts -> /output/index.d.ts.gz
+2023/03/12 20:32:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/player.min.js /tmp/work/dist/player.js
+2023/03/12 20:32:37 br /tmp/work/dist/player.d.ts -> /output/player.d.ts.br
+2023/03/12 20:32:37 gz /tmp/work/dist/player.d.ts -> /output/player.d.ts.gz
+2023/03/12 20:32:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/regions.d.ts.br /tmp/work/dist/plugins/regions.d.ts
+2023/03/12 20:32:37 br /tmp/work/dist/plugins/regions.d.ts -> /output/plugins/regions.d.ts.br
+2023/03/12 20:32:37 gz /tmp/work/dist/plugins/regions.d.ts -> /output/plugins/regions.d.ts.gz
+2023/03/12 20:32:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plugins/regions.min.js /tmp/work/dist/plugins/regions.js
+2023/03/12 20:32:38 sri /tmp/work/dist/base-plugin.min.js -> /output/base-plugin.min.js.sri
+2023/03/12 20:32:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/base-plugin.min.js.br /tmp/work/dist/base-plugin.min.js
+2023/03/12 20:32:38 br /tmp/work/dist/base-plugin.min.js -> /output/base-plugin.min.js.br
+2023/03/12 20:32:38 gz /tmp/work/dist/base-plugin.min.js -> /output/base-plugin.min.js.gz
+2023/03/12 20:32:38 sri /tmp/work/dist/base-plugin.js -> /output/base-plugin.js.sri
+2023/03/12 20:32:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/base-plugin.js.br /tmp/work/dist/base-plugin.js
+2023/03/12 20:32:38 br /tmp/work/dist/base-plugin.js -> /output/base-plugin.js.br
+2023/03/12 20:32:38 gz /tmp/work/dist/base-plugin.js -> /output/base-plugin.js.gz
+2023/03/12 20:32:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/renderer.d.ts.br /tmp/work/dist/renderer.d.ts
+2023/03/12 20:32:38 br /tmp/work/dist/renderer.d.ts -> /output/renderer.d.ts.br
+2023/03/12 20:32:38 gz /tmp/work/dist/renderer.d.ts -> /output/renderer.d.ts.gz
+2023/03/12 20:32:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/renderer.min.js /tmp/work/dist/renderer.js
+2023/03/12 20:32:38 sri /tmp/work/dist/event-emitter.min.js -> /output/event-emitter.min.js.sri
+2023/03/12 20:32:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/event-emitter.min.js.br /tmp/work/dist/event-emitter.min.js
+2023/03/12 20:32:38 br /tmp/work/dist/event-emitter.min.js -> /output/event-emitter.min.js.br
+2023/03/12 20:32:38 gz /tmp/work/dist/event-emitter.min.js -> /output/event-emitter.min.js.gz
+2023/03/12 20:32:38 sri /tmp/work/dist/event-emitter.js -> /output/event-emitter.js.sri
+2023/03/12 20:32:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/event-emitter.js.br /tmp/work/dist/event-emitter.js
+2023/03/12 20:32:38 br /tmp/work/dist/event-emitter.js -> /output/event-emitter.js.br
+2023/03/12 20:32:38 gz /tmp/work/dist/event-emitter.js -> /output/event-emitter.js.gz
+2023/03/12 20:32:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/timer.d.ts.br /tmp/work/dist/timer.d.ts
+2023/03/12 20:32:38 sri /tmp/work/dist/fetcher.min.js -> /output/fetcher.min.js.sri
+2023/03/12 20:32:38 sri /tmp/work/dist/player.min.js -> /output/player.min.js.sri
+2023/03/12 20:32:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/player.min.js.br /tmp/work/dist/player.min.js
+2023/03/12 20:32:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fetcher.min.js.br /tmp/work/dist/fetcher.min.js
+2023/03/12 20:32:38 br /tmp/work/dist/timer.d.ts -> /output/timer.d.ts.br
+2023/03/12 20:32:38 sri /tmp/work/dist/player-webaudio.min.js -> /output/player-webaudio.min.js.sri
+2023/03/12 20:32:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/player-webaudio.min.js.br /tmp/work/dist/player-webaudio.min.js
+2023/03/12 20:32:38 gz /tmp/work/dist/timer.d.ts -> /output/timer.d.ts.gz
+2023/03/12 20:32:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/timer.min.js /tmp/work/dist/timer.js
+2023/03/12 20:32:38 br /tmp/work/dist/fetcher.min.js -> /output/fetcher.min.js.br
+2023/03/12 20:32:38 gz /tmp/work/dist/fetcher.min.js -> /output/fetcher.min.js.gz
+2023/03/12 20:32:38 sri /tmp/work/dist/fetcher.js -> /output/fetcher.js.sri
+2023/03/12 20:32:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fetcher.js.br /tmp/work/dist/fetcher.js
+2023/03/12 20:32:38 br /tmp/work/dist/player.min.js -> /output/player.min.js.br
+2023/03/12 20:32:38 gz /tmp/work/dist/player.min.js -> /output/player.min.js.gz
+2023/03/12 20:32:38 sri /tmp/work/dist/player.js -> /output/player.js.sri
+2023/03/12 20:32:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/player.js.br /tmp/work/dist/player.js
+2023/03/12 20:32:38 br /tmp/work/dist/player-webaudio.min.js -> /output/player-webaudio.min.js.br
+2023/03/12 20:32:38 gz /tmp/work/dist/player-webaudio.min.js -> /output/player-webaudio.min.js.gz
+2023/03/12 20:32:38 sri /tmp/work/dist/player-webaudio.js -> /output/player-webaudio.js.sri
+2023/03/12 20:32:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/player-webaudio.js.br /tmp/work/dist/player-webaudio.js
+2023/03/12 20:32:38 br /tmp/work/dist/fetcher.js -> /output/fetcher.js.br
+2023/03/12 20:32:38 gz /tmp/work/dist/fetcher.js -> /output/fetcher.js.gz
+2023/03/12 20:32:38 br /tmp/work/dist/player.js -> /output/player.js.br
+2023/03/12 20:32:38 gz /tmp/work/dist/player.js -> /output/player.js.gz
+2023/03/12 20:32:38 br /tmp/work/dist/player-webaudio.js -> /output/player-webaudio.js.br
+2023/03/12 20:32:38 gz /tmp/work/dist/player-webaudio.js -> /output/player-webaudio.js.gz
+2023/03/12 20:32:38 sri /tmp/work/dist/decoder.min.js -> /output/decoder.min.js.sri
+2023/03/12 20:32:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/decoder.min.js.br /tmp/work/dist/decoder.min.js
+2023/03/12 20:32:38 br /tmp/work/dist/decoder.min.js -> /output/decoder.min.js.br
+2023/03/12 20:32:38 gz /tmp/work/dist/decoder.min.js -> /output/decoder.min.js.gz
+2023/03/12 20:32:38 sri /tmp/work/dist/decoder.js -> /output/decoder.js.sri
+2023/03/12 20:32:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/decoder.js.br /tmp/work/dist/decoder.js
+2023/03/12 20:32:38 br /tmp/work/dist/decoder.js -> /output/decoder.js.br
+2023/03/12 20:32:38 gz /tmp/work/dist/decoder.js -> /output/decoder.js.gz
+2023/03/12 20:32:38 sri /tmp/work/dist/index.min.js -> /output/index.min.js.sri
+2023/03/12 20:32:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/dist/index.min.js
+2023/03/12 20:32:38 br /tmp/work/dist/index.min.js -> /output/index.min.js.br
+2023/03/12 20:32:38 gz /tmp/work/dist/index.min.js -> /output/index.min.js.gz
+2023/03/12 20:32:38 sri /tmp/work/dist/index.js -> /output/index.js.sri
+2023/03/12 20:32:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/dist/index.js
+2023/03/12 20:32:38 sri /tmp/work/dist/plugins/regions.min.js -> /output/plugins/regions.min.js.sri
+2023/03/12 20:32:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/regions.min.js.br /tmp/work/dist/plugins/regions.min.js
+2023/03/12 20:32:38 br /tmp/work/dist/index.js -> /output/index.js.br
+2023/03/12 20:32:38 gz /tmp/work/dist/index.js -> /output/index.js.gz
+2023/03/12 20:32:38 br /tmp/work/dist/plugins/regions.min.js -> /output/plugins/regions.min.js.br
+2023/03/12 20:32:38 gz /tmp/work/dist/plugins/regions.min.js -> /output/plugins/regions.min.js.gz
+2023/03/12 20:32:38 sri /tmp/work/dist/plugins/regions.js -> /output/plugins/regions.js.sri
+2023/03/12 20:32:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/regions.js.br /tmp/work/dist/plugins/regions.js
+2023/03/12 20:32:38 br /tmp/work/dist/plugins/regions.js -> /output/plugins/regions.js.br
+2023/03/12 20:32:38 gz /tmp/work/dist/plugins/regions.js -> /output/plugins/regions.js.gz
+2023/03/12 20:32:38 sri /tmp/work/dist/timer.min.js -> /output/timer.min.js.sri
+2023/03/12 20:32:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/timer.min.js.br /tmp/work/dist/timer.min.js
+2023/03/12 20:32:38 br /tmp/work/dist/timer.min.js -> /output/timer.min.js.br
+2023/03/12 20:32:38 gz /tmp/work/dist/timer.min.js -> /output/timer.min.js.gz
+2023/03/12 20:32:38 sri /tmp/work/dist/timer.js -> /output/timer.js.sri
+2023/03/12 20:32:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/timer.js.br /tmp/work/dist/timer.js
+2023/03/12 20:32:38 br /tmp/work/dist/timer.js -> /output/timer.js.br
+2023/03/12 20:32:38 gz /tmp/work/dist/timer.js -> /output/timer.js.gz
+2023/03/12 20:32:38 sri /tmp/work/dist/renderer.min.js -> /output/renderer.min.js.sri
+2023/03/12 20:32:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/renderer.min.js.br /tmp/work/dist/renderer.min.js
+2023/03/12 20:32:38 br /tmp/work/dist/renderer.min.js -> /output/renderer.min.js.br
+2023/03/12 20:32:38 gz /tmp/work/dist/renderer.min.js -> /output/renderer.min.js.gz
+2023/03/12 20:32:38 sri /tmp/work/dist/renderer.js -> /output/renderer.js.sri
+2023/03/12 20:32:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/renderer.js.br /tmp/work/dist/renderer.js
+2023/03/12 20:32:38 br /tmp/work/dist/renderer.js -> /output/renderer.js.br
+2023/03/12 20:32:38 gz /tmp/work/dist/renderer.js -> /output/renderer.js.gz
+2023/03/12 20:32:38 processed wavesurfer.js
