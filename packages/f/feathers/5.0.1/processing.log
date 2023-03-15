@@ -1,0 +1,65 @@
+2023/03/15 18:05:45 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/03/15 18:05:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/application.min.js /tmp/work/lib/application.js
+2023/03/15 18:05:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/declarations.min.js /tmp/work/lib/declarations.js
+2023/03/15 18:05:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/events.min.js /tmp/work/lib/events.js
+2023/03/15 18:05:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/service.min.js /tmp/work/lib/service.js
+2023/03/15 18:05:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/hooks.min.js /tmp/work/lib/hooks.js
+2023/03/15 18:05:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/index.min.js /tmp/work/lib/index.js
+2023/03/15 18:05:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/version.min.js /tmp/work/lib/version.js
+2023/03/15 18:05:45 sri /tmp/work/lib/version.min.js -> /output/version.min.js.sri
+2023/03/15 18:05:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/version.min.js.br /tmp/work/lib/version.min.js
+2023/03/15 18:05:45 br /tmp/work/lib/version.min.js -> /output/version.min.js.br
+2023/03/15 18:05:45 gz /tmp/work/lib/version.min.js -> /output/version.min.js.gz
+2023/03/15 18:05:45 sri /tmp/work/lib/version.js -> /output/version.js.sri
+2023/03/15 18:05:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/version.js.br /tmp/work/lib/version.js
+2023/03/15 18:05:45 br /tmp/work/lib/version.js -> /output/version.js.br
+2023/03/15 18:05:45 gz /tmp/work/lib/version.js -> /output/version.js.gz
+2023/03/15 18:05:45 sri /tmp/work/lib/declarations.min.js -> /output/declarations.min.js.sri
+2023/03/15 18:05:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/declarations.min.js.br /tmp/work/lib/declarations.min.js
+2023/03/15 18:05:45 br /tmp/work/lib/declarations.min.js -> /output/declarations.min.js.br
+2023/03/15 18:05:45 gz /tmp/work/lib/declarations.min.js -> /output/declarations.min.js.gz
+2023/03/15 18:05:45 sri /tmp/work/lib/declarations.js -> /output/declarations.js.sri
+2023/03/15 18:05:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/declarations.js.br /tmp/work/lib/declarations.js
+2023/03/15 18:05:45 br /tmp/work/lib/declarations.js -> /output/declarations.js.br
+2023/03/15 18:05:45 gz /tmp/work/lib/declarations.js -> /output/declarations.js.gz
+2023/03/15 18:05:45 sri /tmp/work/lib/events.min.js -> /output/events.min.js.sri
+2023/03/15 18:05:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/events.min.js.br /tmp/work/lib/events.min.js
+2023/03/15 18:05:45 br /tmp/work/lib/events.min.js -> /output/events.min.js.br
+2023/03/15 18:05:45 gz /tmp/work/lib/events.min.js -> /output/events.min.js.gz
+2023/03/15 18:05:45 sri /tmp/work/lib/events.js -> /output/events.js.sri
+2023/03/15 18:05:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/events.js.br /tmp/work/lib/events.js
+2023/03/15 18:05:45 br /tmp/work/lib/events.js -> /output/events.js.br
+2023/03/15 18:05:45 gz /tmp/work/lib/events.js -> /output/events.js.gz
+2023/03/15 18:05:45 sri /tmp/work/lib/index.min.js -> /output/index.min.js.sri
+2023/03/15 18:05:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/lib/index.min.js
+2023/03/15 18:05:45 br /tmp/work/lib/index.min.js -> /output/index.min.js.br
+2023/03/15 18:05:45 gz /tmp/work/lib/index.min.js -> /output/index.min.js.gz
+2023/03/15 18:05:45 sri /tmp/work/lib/index.js -> /output/index.js.sri
+2023/03/15 18:05:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/lib/index.js
+2023/03/15 18:05:45 sri /tmp/work/lib/service.min.js -> /output/service.min.js.sri
+2023/03/15 18:05:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/service.min.js.br /tmp/work/lib/service.min.js
+2023/03/15 18:05:45 br /tmp/work/lib/index.js -> /output/index.js.br
+2023/03/15 18:05:45 gz /tmp/work/lib/index.js -> /output/index.js.gz
+2023/03/15 18:05:45 br /tmp/work/lib/service.min.js -> /output/service.min.js.br
+2023/03/15 18:05:45 gz /tmp/work/lib/service.min.js -> /output/service.min.js.gz
+2023/03/15 18:05:45 sri /tmp/work/lib/service.js -> /output/service.js.sri
+2023/03/15 18:05:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/service.js.br /tmp/work/lib/service.js
+2023/03/15 18:05:45 br /tmp/work/lib/service.js -> /output/service.js.br
+2023/03/15 18:05:45 gz /tmp/work/lib/service.js -> /output/service.js.gz
+2023/03/15 18:05:45 sri /tmp/work/lib/application.min.js -> /output/application.min.js.sri
+2023/03/15 18:05:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/application.min.js.br /tmp/work/lib/application.min.js
+2023/03/15 18:05:45 br /tmp/work/lib/application.min.js -> /output/application.min.js.br
+2023/03/15 18:05:45 gz /tmp/work/lib/application.min.js -> /output/application.min.js.gz
+2023/03/15 18:05:45 sri /tmp/work/lib/application.js -> /output/application.js.sri
+2023/03/15 18:05:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/application.js.br /tmp/work/lib/application.js
+2023/03/15 18:05:45 br /tmp/work/lib/application.js -> /output/application.js.br
+2023/03/15 18:05:45 gz /tmp/work/lib/application.js -> /output/application.js.gz
+2023/03/15 18:05:45 sri /tmp/work/lib/hooks.min.js -> /output/hooks.min.js.sri
+2023/03/15 18:05:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hooks.min.js.br /tmp/work/lib/hooks.min.js
+2023/03/15 18:05:45 br /tmp/work/lib/hooks.min.js -> /output/hooks.min.js.br
+2023/03/15 18:05:45 gz /tmp/work/lib/hooks.min.js -> /output/hooks.min.js.gz
+2023/03/15 18:05:45 sri /tmp/work/lib/hooks.js -> /output/hooks.js.sri
+2023/03/15 18:05:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hooks.js.br /tmp/work/lib/hooks.js
+2023/03/15 18:05:45 br /tmp/work/lib/hooks.js -> /output/hooks.js.br
+2023/03/15 18:05:45 gz /tmp/work/lib/hooks.js -> /output/hooks.js.gz
+2023/03/15 18:05:45 processed feathers
