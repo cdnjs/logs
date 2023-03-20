@@ -1,0 +1,14 @@
+2023/03/20 11:08:18 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/03/20 11:08:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/index.min.js /tmp/work/index.js
+2023/03/20 11:08:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.d.ts.br /tmp/work/index.d.ts
+2023/03/20 11:08:18 br /tmp/work/index.d.ts -> /output/index.d.ts.br
+2023/03/20 11:08:18 gz /tmp/work/index.d.ts -> /output/index.d.ts.gz
+2023/03/20 11:08:18 sri /tmp/work/index.min.js -> /output/index.min.js.sri
+2023/03/20 11:08:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/index.min.js
+2023/03/20 11:08:18 br /tmp/work/index.min.js -> /output/index.min.js.br
+2023/03/20 11:08:18 gz /tmp/work/index.min.js -> /output/index.min.js.gz
+2023/03/20 11:08:18 sri /tmp/work/index.js -> /output/index.js.sri
+2023/03/20 11:08:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/index.js
+2023/03/20 11:08:18 br /tmp/work/index.js -> /output/index.js.br
+2023/03/20 11:08:18 gz /tmp/work/index.js -> /output/index.js.gz
+2023/03/20 11:08:18 processed node-open
