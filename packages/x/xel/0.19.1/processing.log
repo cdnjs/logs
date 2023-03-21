@@ -1,0 +1,65 @@
+2023/03/21 22:21:10 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/03/21 22:21:10 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/xel.min.js /tmp/work/xel.js
+2023/03/21 22:21:10 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/themes/cupertino-dark.min.css /tmp/work/themes/cupertino-dark.css
+2023/03/21 22:21:10 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/themes/adwaita.min.css /tmp/work/themes/adwaita.css
+2023/03/21 22:21:10 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/themes/cupertino.min.css /tmp/work/themes/cupertino.css
+2023/03/21 22:21:10 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/themes/fluent-dark.min.css /tmp/work/themes/fluent-dark.css
+2023/03/21 22:21:10 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/themes/fluent.min.css /tmp/work/themes/fluent.css
+2023/03/21 22:21:10 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/themes/adwaita-dark.min.css /tmp/work/themes/adwaita-dark.css
+2023/03/21 22:21:10 sri /tmp/work/themes/fluent.min.css -> /output/themes/fluent.min.css.sri
+2023/03/21 22:21:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes/fluent.min.css.br /tmp/work/themes/fluent.min.css
+2023/03/21 22:21:10 sri /tmp/work/themes/cupertino.min.css -> /output/themes/cupertino.min.css.sri
+2023/03/21 22:21:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes/cupertino.min.css.br /tmp/work/themes/cupertino.min.css
+2023/03/21 22:21:10 sri /tmp/work/themes/adwaita.min.css -> /output/themes/adwaita.min.css.sri
+2023/03/21 22:21:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes/adwaita.min.css.br /tmp/work/themes/adwaita.min.css
+2023/03/21 22:21:10 sri /tmp/work/themes/cupertino-dark.min.css -> /output/themes/cupertino-dark.min.css.sri
+2023/03/21 22:21:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes/cupertino-dark.min.css.br /tmp/work/themes/cupertino-dark.min.css
+2023/03/21 22:21:10 sri /tmp/work/themes/adwaita-dark.min.css -> /output/themes/adwaita-dark.min.css.sri
+2023/03/21 22:21:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes/adwaita-dark.min.css.br /tmp/work/themes/adwaita-dark.min.css
+2023/03/21 22:21:10 sri /tmp/work/themes/fluent-dark.min.css -> /output/themes/fluent-dark.min.css.sri
+2023/03/21 22:21:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes/fluent-dark.min.css.br /tmp/work/themes/fluent-dark.min.css
+2023/03/21 22:21:10 br /tmp/work/themes/fluent.min.css -> /output/themes/fluent.min.css.br
+2023/03/21 22:21:10 gz /tmp/work/themes/fluent.min.css -> /output/themes/fluent.min.css.gz
+2023/03/21 22:21:10 sri /tmp/work/themes/fluent.css -> /output/themes/fluent.css.sri
+2023/03/21 22:21:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes/fluent.css.br /tmp/work/themes/fluent.css
+2023/03/21 22:21:10 br /tmp/work/themes/adwaita.min.css -> /output/themes/adwaita.min.css.br
+2023/03/21 22:21:10 gz /tmp/work/themes/adwaita.min.css -> /output/themes/adwaita.min.css.gz
+2023/03/21 22:21:10 sri /tmp/work/themes/adwaita.css -> /output/themes/adwaita.css.sri
+2023/03/21 22:21:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes/adwaita.css.br /tmp/work/themes/adwaita.css
+2023/03/21 22:21:10 br /tmp/work/themes/cupertino.min.css -> /output/themes/cupertino.min.css.br
+2023/03/21 22:21:10 gz /tmp/work/themes/cupertino.min.css -> /output/themes/cupertino.min.css.gz
+2023/03/21 22:21:10 sri /tmp/work/themes/cupertino.css -> /output/themes/cupertino.css.sri
+2023/03/21 22:21:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes/cupertino.css.br /tmp/work/themes/cupertino.css
+2023/03/21 22:21:10 br /tmp/work/themes/cupertino-dark.min.css -> /output/themes/cupertino-dark.min.css.br
+2023/03/21 22:21:10 gz /tmp/work/themes/cupertino-dark.min.css -> /output/themes/cupertino-dark.min.css.gz
+2023/03/21 22:21:10 sri /tmp/work/themes/cupertino-dark.css -> /output/themes/cupertino-dark.css.sri
+2023/03/21 22:21:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes/cupertino-dark.css.br /tmp/work/themes/cupertino-dark.css
+2023/03/21 22:21:10 br /tmp/work/themes/adwaita-dark.min.css -> /output/themes/adwaita-dark.min.css.br
+2023/03/21 22:21:10 gz /tmp/work/themes/adwaita-dark.min.css -> /output/themes/adwaita-dark.min.css.gz
+2023/03/21 22:21:10 sri /tmp/work/themes/adwaita-dark.css -> /output/themes/adwaita-dark.css.sri
+2023/03/21 22:21:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes/adwaita-dark.css.br /tmp/work/themes/adwaita-dark.css
+2023/03/21 22:21:10 br /tmp/work/themes/fluent-dark.min.css -> /output/themes/fluent-dark.min.css.br
+2023/03/21 22:21:10 gz /tmp/work/themes/fluent-dark.min.css -> /output/themes/fluent-dark.min.css.gz
+2023/03/21 22:21:10 sri /tmp/work/themes/fluent-dark.css -> /output/themes/fluent-dark.css.sri
+2023/03/21 22:21:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/themes/fluent-dark.css.br /tmp/work/themes/fluent-dark.css
+2023/03/21 22:21:10 br /tmp/work/themes/adwaita.css -> /output/themes/adwaita.css.br
+2023/03/21 22:21:10 gz /tmp/work/themes/adwaita.css -> /output/themes/adwaita.css.gz
+2023/03/21 22:21:10 br /tmp/work/themes/fluent.css -> /output/themes/fluent.css.br
+2023/03/21 22:21:10 br /tmp/work/themes/cupertino.css -> /output/themes/cupertino.css.br
+2023/03/21 22:21:10 gz /tmp/work/themes/cupertino.css -> /output/themes/cupertino.css.gz
+2023/03/21 22:21:10 gz /tmp/work/themes/fluent.css -> /output/themes/fluent.css.gz
+2023/03/21 22:21:10 br /tmp/work/themes/cupertino-dark.css -> /output/themes/cupertino-dark.css.br
+2023/03/21 22:21:10 gz /tmp/work/themes/cupertino-dark.css -> /output/themes/cupertino-dark.css.gz
+2023/03/21 22:21:10 br /tmp/work/themes/adwaita-dark.css -> /output/themes/adwaita-dark.css.br
+2023/03/21 22:21:10 gz /tmp/work/themes/adwaita-dark.css -> /output/themes/adwaita-dark.css.gz
+2023/03/21 22:21:10 br /tmp/work/themes/fluent-dark.css -> /output/themes/fluent-dark.css.br
+2023/03/21 22:21:10 gz /tmp/work/themes/fluent-dark.css -> /output/themes/fluent-dark.css.gz
+2023/03/21 22:21:13 sri /tmp/work/xel.min.js -> /output/xel.min.js.sri
+2023/03/21 22:21:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/xel.min.js.br /tmp/work/xel.min.js
+2023/03/21 22:21:14 br /tmp/work/xel.min.js -> /output/xel.min.js.br
+2023/03/21 22:21:14 gz /tmp/work/xel.min.js -> /output/xel.min.js.gz
+2023/03/21 22:21:14 sri /tmp/work/xel.js -> /output/xel.js.sri
+2023/03/21 22:21:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/xel.js.br /tmp/work/xel.js
+2023/03/21 22:21:14 br /tmp/work/xel.js -> /output/xel.js.br
+2023/03/21 22:21:14 gz /tmp/work/xel.js -> /output/xel.js.gz
+2023/03/21 22:21:14 processed xel
