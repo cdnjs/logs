@@ -1,0 +1,161 @@
+2023/03/22 12:03:48 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/03/22 12:03:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm.min.js /tmp/work/dist/esm.js
+2023/03/22 12:03:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/esnext/esm/index.min.js /tmp/work/esnext/esm/index.js
+2023/03/22 12:03:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/umd.min.js /tmp/work/dist/umd.js
+2023/03/22 12:03:48 /tmp/work/esnext/esm/vis-data.min.js already has corresponding compressed file
+2023/03/22 12:03:48 /tmp/work/esnext/esm/vis-data.min.js is already compressed
+2023/03/22 12:03:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/esnext/index.min.js /tmp/work/esnext/index.js
+2023/03/22 12:03:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/esnext/umd/index.min.js /tmp/work/esnext/umd/index.js
+2023/03/22 12:03:48 /tmp/work/esnext/umd/vis-data.min.js already has corresponding compressed file
+2023/03/22 12:03:48 sri /tmp/work/esnext/esm/vis-data.min.js -> /output/esnext/esm/vis-data.min.js.sri
+2023/03/22 12:03:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esnext/esm/vis-data.min.js.br /tmp/work/esnext/esm/vis-data.min.js
+2023/03/22 12:03:48 sri /tmp/work/esnext/esm/vis-data.js -> /output/esnext/esm/vis-data.js.sri
+2023/03/22 12:03:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esnext/esm/vis-data.js.br /tmp/work/esnext/esm/vis-data.js
+2023/03/22 12:03:48 sri /tmp/work/esnext/umd/vis-data.js -> /output/esnext/umd/vis-data.js.sri
+2023/03/22 12:03:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esnext/umd/vis-data.js.br /tmp/work/esnext/umd/vis-data.js
+2023/03/22 12:03:48 br /tmp/work/esnext/esm/vis-data.min.js -> /output/esnext/esm/vis-data.min.js.br
+2023/03/22 12:03:48 gz /tmp/work/esnext/esm/vis-data.min.js -> /output/esnext/esm/vis-data.min.js.gz
+2023/03/22 12:03:48 /tmp/work/esnext/umd/vis-data.min.js is already compressed
+2023/03/22 12:03:48 sri /tmp/work/esnext/umd/vis-data.min.js -> /output/esnext/umd/vis-data.min.js.sri
+2023/03/22 12:03:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esnext/umd/vis-data.min.js.br /tmp/work/esnext/umd/vis-data.min.js
+2023/03/22 12:03:48 br /tmp/work/esnext/umd/vis-data.min.js -> /output/esnext/umd/vis-data.min.js.br
+2023/03/22 12:03:48 gz /tmp/work/esnext/umd/vis-data.min.js -> /output/esnext/umd/vis-data.min.js.gz
+2023/03/22 12:03:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/peer/esm/index.min.js /tmp/work/peer/esm/index.js
+2023/03/22 12:03:49 sri /tmp/work/esnext/umd/index.min.js -> /output/esnext/umd/index.min.js.sri
+2023/03/22 12:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esnext/umd/index.min.js.br /tmp/work/esnext/umd/index.min.js
+2023/03/22 12:03:49 br /tmp/work/esnext/umd/index.min.js -> /output/esnext/umd/index.min.js.br
+2023/03/22 12:03:49 gz /tmp/work/esnext/umd/index.min.js -> /output/esnext/umd/index.min.js.gz
+2023/03/22 12:03:49 sri /tmp/work/esnext/umd/index.js -> /output/esnext/umd/index.js.sri
+2023/03/22 12:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esnext/umd/index.js.br /tmp/work/esnext/umd/index.js
+2023/03/22 12:03:49 sri /tmp/work/esnext/esm/index.min.js -> /output/esnext/esm/index.min.js.sri
+2023/03/22 12:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esnext/esm/index.min.js.br /tmp/work/esnext/esm/index.min.js
+2023/03/22 12:03:49 br /tmp/work/esnext/umd/index.js -> /output/esnext/umd/index.js.br
+2023/03/22 12:03:49 gz /tmp/work/esnext/umd/index.js -> /output/esnext/umd/index.js.gz
+2023/03/22 12:03:49 /tmp/work/peer/esm/vis-data.min.js already has corresponding compressed file
+2023/03/22 12:03:49 sri /tmp/work/esnext/index.min.js -> /output/esnext/index.min.js.sri
+2023/03/22 12:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esnext/index.min.js.br /tmp/work/esnext/index.min.js
+2023/03/22 12:03:49 sri /tmp/work/peer/esm/vis-data.js -> /output/peer/esm/vis-data.js.sri
+2023/03/22 12:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/peer/esm/vis-data.js.br /tmp/work/peer/esm/vis-data.js
+2023/03/22 12:03:49 br /tmp/work/esnext/esm/index.min.js -> /output/esnext/esm/index.min.js.br
+2023/03/22 12:03:49 gz /tmp/work/esnext/esm/index.min.js -> /output/esnext/esm/index.min.js.gz
+2023/03/22 12:03:49 sri /tmp/work/esnext/esm/index.js -> /output/esnext/esm/index.js.sri
+2023/03/22 12:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esnext/esm/index.js.br /tmp/work/esnext/esm/index.js
+2023/03/22 12:03:49 br /tmp/work/esnext/index.min.js -> /output/esnext/index.min.js.br
+2023/03/22 12:03:49 gz /tmp/work/esnext/index.min.js -> /output/esnext/index.min.js.gz
+2023/03/22 12:03:49 sri /tmp/work/esnext/index.js -> /output/esnext/index.js.sri
+2023/03/22 12:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esnext/index.js.br /tmp/work/esnext/index.js
+2023/03/22 12:03:49 br /tmp/work/esnext/esm/index.js -> /output/esnext/esm/index.js.br
+2023/03/22 12:03:49 gz /tmp/work/esnext/esm/index.js -> /output/esnext/esm/index.js.gz
+2023/03/22 12:03:49 /tmp/work/peer/esm/vis-data.min.js is already compressed
+2023/03/22 12:03:49 sri /tmp/work/peer/esm/vis-data.min.js -> /output/peer/esm/vis-data.min.js.sri
+2023/03/22 12:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/peer/esm/vis-data.min.js.br /tmp/work/peer/esm/vis-data.min.js
+2023/03/22 12:03:49 br /tmp/work/esnext/index.js -> /output/esnext/index.js.br
+2023/03/22 12:03:49 gz /tmp/work/esnext/index.js -> /output/esnext/index.js.gz
+2023/03/22 12:03:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/peer/index.min.js /tmp/work/peer/index.js
+2023/03/22 12:03:49 br /tmp/work/esnext/esm/vis-data.js -> /output/esnext/esm/vis-data.js.br
+2023/03/22 12:03:49 gz /tmp/work/esnext/esm/vis-data.js -> /output/esnext/esm/vis-data.js.gz
+2023/03/22 12:03:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/peer/umd/index.min.js /tmp/work/peer/umd/index.js
+2023/03/22 12:03:49 br /tmp/work/esnext/umd/vis-data.js -> /output/esnext/umd/vis-data.js.br
+2023/03/22 12:03:49 gz /tmp/work/esnext/umd/vis-data.js -> /output/esnext/umd/vis-data.js.gz
+2023/03/22 12:03:49 /tmp/work/peer/umd/vis-data.min.js already has corresponding compressed file
+2023/03/22 12:03:49 sri /tmp/work/peer/umd/vis-data.js -> /output/peer/umd/vis-data.js.sri
+2023/03/22 12:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/peer/umd/vis-data.js.br /tmp/work/peer/umd/vis-data.js
+2023/03/22 12:03:49 sri /tmp/work/peer/esm/index.min.js -> /output/peer/esm/index.min.js.sri
+2023/03/22 12:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/peer/esm/index.min.js.br /tmp/work/peer/esm/index.min.js
+2023/03/22 12:03:49 br /tmp/work/peer/esm/index.min.js -> /output/peer/esm/index.min.js.br
+2023/03/22 12:03:49 gz /tmp/work/peer/esm/index.min.js -> /output/peer/esm/index.min.js.gz
+2023/03/22 12:03:49 sri /tmp/work/peer/esm/index.js -> /output/peer/esm/index.js.sri
+2023/03/22 12:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/peer/esm/index.js.br /tmp/work/peer/esm/index.js
+2023/03/22 12:03:49 br /tmp/work/peer/esm/index.js -> /output/peer/esm/index.js.br
+2023/03/22 12:03:49 gz /tmp/work/peer/esm/index.js -> /output/peer/esm/index.js.gz
+2023/03/22 12:03:49 /tmp/work/peer/umd/vis-data.min.js is already compressed
+2023/03/22 12:03:49 sri /tmp/work/peer/umd/vis-data.min.js -> /output/peer/umd/vis-data.min.js.sri
+2023/03/22 12:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/peer/umd/vis-data.min.js.br /tmp/work/peer/umd/vis-data.min.js
+2023/03/22 12:03:49 sri /tmp/work/peer/umd/index.min.js -> /output/peer/umd/index.min.js.sri
+2023/03/22 12:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/peer/umd/index.min.js.br /tmp/work/peer/umd/index.min.js
+2023/03/22 12:03:49 sri /tmp/work/peer/index.min.js -> /output/peer/index.min.js.sri
+2023/03/22 12:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/peer/index.min.js.br /tmp/work/peer/index.min.js
+2023/03/22 12:03:49 br /tmp/work/peer/umd/index.min.js -> /output/peer/umd/index.min.js.br
+2023/03/22 12:03:49 gz /tmp/work/peer/umd/index.min.js -> /output/peer/umd/index.min.js.gz
+2023/03/22 12:03:49 sri /tmp/work/peer/umd/index.js -> /output/peer/umd/index.js.sri
+2023/03/22 12:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/peer/umd/index.js.br /tmp/work/peer/umd/index.js
+2023/03/22 12:03:49 br /tmp/work/peer/index.min.js -> /output/peer/index.min.js.br
+2023/03/22 12:03:49 gz /tmp/work/peer/index.min.js -> /output/peer/index.min.js.gz
+2023/03/22 12:03:49 sri /tmp/work/peer/index.js -> /output/peer/index.js.sri
+2023/03/22 12:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/peer/index.js.br /tmp/work/peer/index.js
+2023/03/22 12:03:49 br /tmp/work/peer/umd/index.js -> /output/peer/umd/index.js.br
+2023/03/22 12:03:49 gz /tmp/work/peer/umd/index.js -> /output/peer/umd/index.js.gz
+2023/03/22 12:03:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/standalone/esm/index.min.js /tmp/work/standalone/esm/index.js
+2023/03/22 12:03:49 br /tmp/work/peer/index.js -> /output/peer/index.js.br
+2023/03/22 12:03:49 gz /tmp/work/peer/index.js -> /output/peer/index.js.gz
+2023/03/22 12:03:49 /tmp/work/standalone/esm/vis-data.min.js already has corresponding compressed file
+2023/03/22 12:03:49 sri /tmp/work/standalone/esm/vis-data.js -> /output/standalone/esm/vis-data.js.sri
+2023/03/22 12:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/standalone/esm/vis-data.js.br /tmp/work/standalone/esm/vis-data.js
+2023/03/22 12:03:49 sri /tmp/work/standalone/esm/index.min.js -> /output/standalone/esm/index.min.js.sri
+2023/03/22 12:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/standalone/esm/index.min.js.br /tmp/work/standalone/esm/index.min.js
+2023/03/22 12:03:49 br /tmp/work/peer/esm/vis-data.min.js -> /output/peer/esm/vis-data.min.js.br
+2023/03/22 12:03:49 gz /tmp/work/peer/esm/vis-data.min.js -> /output/peer/esm/vis-data.min.js.gz
+2023/03/22 12:03:49 /tmp/work/standalone/esm/vis-data.min.js is already compressed
+2023/03/22 12:03:49 sri /tmp/work/standalone/esm/vis-data.min.js -> /output/standalone/esm/vis-data.min.js.sri
+2023/03/22 12:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/standalone/esm/vis-data.min.js.br /tmp/work/standalone/esm/vis-data.min.js
+2023/03/22 12:03:49 br /tmp/work/standalone/esm/index.min.js -> /output/standalone/esm/index.min.js.br
+2023/03/22 12:03:49 gz /tmp/work/standalone/esm/index.min.js -> /output/standalone/esm/index.min.js.gz
+2023/03/22 12:03:49 sri /tmp/work/standalone/esm/index.js -> /output/standalone/esm/index.js.sri
+2023/03/22 12:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/standalone/esm/index.js.br /tmp/work/standalone/esm/index.js
+2023/03/22 12:03:49 br /tmp/work/standalone/esm/index.js -> /output/standalone/esm/index.js.br
+2023/03/22 12:03:49 gz /tmp/work/standalone/esm/index.js -> /output/standalone/esm/index.js.gz
+2023/03/22 12:03:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/standalone/index.min.js /tmp/work/standalone/index.js
+2023/03/22 12:03:49 br /tmp/work/peer/umd/vis-data.min.js -> /output/peer/umd/vis-data.min.js.br
+2023/03/22 12:03:49 gz /tmp/work/peer/umd/vis-data.min.js -> /output/peer/umd/vis-data.min.js.gz
+2023/03/22 12:03:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/standalone/umd/index.min.js /tmp/work/standalone/umd/index.js
+2023/03/22 12:03:49 sri /tmp/work/standalone/index.min.js -> /output/standalone/index.min.js.sri
+2023/03/22 12:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/standalone/index.min.js.br /tmp/work/standalone/index.min.js
+2023/03/22 12:03:49 br /tmp/work/standalone/index.min.js -> /output/standalone/index.min.js.br
+2023/03/22 12:03:49 gz /tmp/work/standalone/index.min.js -> /output/standalone/index.min.js.gz
+2023/03/22 12:03:49 sri /tmp/work/standalone/index.js -> /output/standalone/index.js.sri
+2023/03/22 12:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/standalone/index.js.br /tmp/work/standalone/index.js
+2023/03/22 12:03:49 br /tmp/work/standalone/index.js -> /output/standalone/index.js.br
+2023/03/22 12:03:49 gz /tmp/work/standalone/index.js -> /output/standalone/index.js.gz
+2023/03/22 12:03:49 /tmp/work/standalone/umd/vis-data.min.js already has corresponding compressed file
+2023/03/22 12:03:49 sri /tmp/work/standalone/umd/vis-data.js -> /output/standalone/umd/vis-data.js.sri
+2023/03/22 12:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/standalone/umd/vis-data.js.br /tmp/work/standalone/umd/vis-data.js
+2023/03/22 12:03:49 sri /tmp/work/standalone/umd/index.min.js -> /output/standalone/umd/index.min.js.sri
+2023/03/22 12:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/standalone/umd/index.min.js.br /tmp/work/standalone/umd/index.min.js
+2023/03/22 12:03:49 br /tmp/work/standalone/umd/index.min.js -> /output/standalone/umd/index.min.js.br
+2023/03/22 12:03:49 gz /tmp/work/standalone/umd/index.min.js -> /output/standalone/umd/index.min.js.gz
+2023/03/22 12:03:49 sri /tmp/work/standalone/umd/index.js -> /output/standalone/umd/index.js.sri
+2023/03/22 12:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/standalone/umd/index.js.br /tmp/work/standalone/umd/index.js
+2023/03/22 12:03:49 br /tmp/work/standalone/umd/index.js -> /output/standalone/umd/index.js.br
+2023/03/22 12:03:49 gz /tmp/work/standalone/umd/index.js -> /output/standalone/umd/index.js.gz
+2023/03/22 12:03:49 /tmp/work/standalone/umd/vis-data.min.js is already compressed
+2023/03/22 12:03:49 sri /tmp/work/standalone/umd/vis-data.min.js -> /output/standalone/umd/vis-data.min.js.sri
+2023/03/22 12:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/standalone/umd/vis-data.min.js.br /tmp/work/standalone/umd/vis-data.min.js
+2023/03/22 12:03:50 br /tmp/work/standalone/esm/vis-data.min.js -> /output/standalone/esm/vis-data.min.js.br
+2023/03/22 12:03:50 gz /tmp/work/standalone/esm/vis-data.min.js -> /output/standalone/esm/vis-data.min.js.gz
+2023/03/22 12:03:50 br /tmp/work/standalone/umd/vis-data.min.js -> /output/standalone/umd/vis-data.min.js.br
+2023/03/22 12:03:50 gz /tmp/work/standalone/umd/vis-data.min.js -> /output/standalone/umd/vis-data.min.js.gz
+2023/03/22 12:03:50 br /tmp/work/peer/esm/vis-data.js -> /output/peer/esm/vis-data.js.br
+2023/03/22 12:03:50 gz /tmp/work/peer/esm/vis-data.js -> /output/peer/esm/vis-data.js.gz
+2023/03/22 12:03:50 br /tmp/work/peer/umd/vis-data.js -> /output/peer/umd/vis-data.js.br
+2023/03/22 12:03:50 gz /tmp/work/peer/umd/vis-data.js -> /output/peer/umd/vis-data.js.gz
+2023/03/22 12:03:50 br /tmp/work/standalone/esm/vis-data.js -> /output/standalone/esm/vis-data.js.br
+2023/03/22 12:03:50 gz /tmp/work/standalone/esm/vis-data.js -> /output/standalone/esm/vis-data.js.gz
+2023/03/22 12:03:51 br /tmp/work/standalone/umd/vis-data.js -> /output/standalone/umd/vis-data.js.br
+2023/03/22 12:03:51 gz /tmp/work/standalone/umd/vis-data.js -> /output/standalone/umd/vis-data.js.gz
+2023/03/22 12:03:53 sri /tmp/work/dist/esm.min.js -> /output/dist/esm.min.js.sri
+2023/03/22 12:03:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dist/esm.min.js.br /tmp/work/dist/esm.min.js
+2023/03/22 12:03:53 br /tmp/work/dist/esm.min.js -> /output/dist/esm.min.js.br
+2023/03/22 12:03:53 gz /tmp/work/dist/esm.min.js -> /output/dist/esm.min.js.gz
+2023/03/22 12:03:53 sri /tmp/work/dist/esm.js -> /output/dist/esm.js.sri
+2023/03/22 12:03:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dist/esm.js.br /tmp/work/dist/esm.js
+2023/03/22 12:03:54 br /tmp/work/dist/esm.js -> /output/dist/esm.js.br
+2023/03/22 12:03:54 gz /tmp/work/dist/esm.js -> /output/dist/esm.js.gz
+2023/03/22 12:03:55 sri /tmp/work/dist/umd.min.js -> /output/dist/umd.min.js.sri
+2023/03/22 12:03:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dist/umd.min.js.br /tmp/work/dist/umd.min.js
+2023/03/22 12:03:55 br /tmp/work/dist/umd.min.js -> /output/dist/umd.min.js.br
+2023/03/22 12:03:55 gz /tmp/work/dist/umd.min.js -> /output/dist/umd.min.js.gz
+2023/03/22 12:03:55 sri /tmp/work/dist/umd.js -> /output/dist/umd.js.sri
+2023/03/22 12:03:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dist/umd.js.br /tmp/work/dist/umd.js
+2023/03/22 12:03:56 br /tmp/work/dist/umd.js -> /output/dist/umd.js.br
+2023/03/22 12:03:56 gz /tmp/work/dist/umd.js -> /output/dist/umd.js.gz
+2023/03/22 12:03:56 processed vis-data
