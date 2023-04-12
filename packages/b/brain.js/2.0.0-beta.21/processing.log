@@ -1,0 +1,107 @@
+2023/04/12 17:30:15 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/04/12 17:30:15 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/browser.min.js /tmp/work/dist/browser.js
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/browser.js.map.br /tmp/work/dist/browser.js.map
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cross-validate.d.ts.map.br /tmp/work/dist/cross-validate.d.ts.map
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cross-validate.test.d.ts.map.br /tmp/work/dist/cross-validate.test.d.ts.map
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/feed-forward.d.ts.map.br /tmp/work/dist/feed-forward.d.ts.map
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/feed-forward.end-to-end.test.d.ts.map.br /tmp/work/dist/feed-forward.end-to-end.test.d.ts.map
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.d.ts.map.br /tmp/work/dist/index.d.ts.map
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/feed-forward.unit.test.d.ts.map.br /tmp/work/dist/feed-forward.unit.test.d.ts.map
+2023/04/12 17:30:15 br /tmp/work/dist/cross-validate.test.d.ts.map -> /output/cross-validate.test.d.ts.map.br
+2023/04/12 17:30:15 gz /tmp/work/dist/cross-validate.test.d.ts.map -> /output/cross-validate.test.d.ts.map.gz
+2023/04/12 17:30:15 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.min.js /tmp/work/dist/index.js
+2023/04/12 17:30:15 br /tmp/work/dist/feed-forward.end-to-end.test.d.ts.map -> /output/feed-forward.end-to-end.test.d.ts.map.br
+2023/04/12 17:30:15 br /tmp/work/dist/feed-forward.unit.test.d.ts.map -> /output/feed-forward.unit.test.d.ts.map.br
+2023/04/12 17:30:15 gz /tmp/work/dist/feed-forward.unit.test.d.ts.map -> /output/feed-forward.unit.test.d.ts.map.gz
+2023/04/12 17:30:15 gz /tmp/work/dist/feed-forward.end-to-end.test.d.ts.map -> /output/feed-forward.end-to-end.test.d.ts.map.gz
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/likely.d.ts.map.br /tmp/work/dist/likely.d.ts.map
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.map.br /tmp/work/dist/index.js.map
+2023/04/12 17:30:15 br /tmp/work/dist/index.d.ts.map -> /output/index.d.ts.map.br
+2023/04/12 17:30:15 br /tmp/work/dist/cross-validate.d.ts.map -> /output/cross-validate.d.ts.map.br
+2023/04/12 17:30:15 gz /tmp/work/dist/index.d.ts.map -> /output/index.d.ts.map.gz
+2023/04/12 17:30:15 gz /tmp/work/dist/cross-validate.d.ts.map -> /output/cross-validate.d.ts.map.gz
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/likely.test.d.ts.map.br /tmp/work/dist/likely.test.d.ts.map
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lookup.d.ts.map.br /tmp/work/dist/lookup.d.ts.map
+2023/04/12 17:30:15 br /tmp/work/dist/likely.d.ts.map -> /output/likely.d.ts.map.br
+2023/04/12 17:30:15 gz /tmp/work/dist/likely.d.ts.map -> /output/likely.d.ts.map.gz
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lookup.test.d.ts.map.br /tmp/work/dist/lookup.test.d.ts.map
+2023/04/12 17:30:15 br /tmp/work/dist/feed-forward.d.ts.map -> /output/feed-forward.d.ts.map.br
+2023/04/12 17:30:15 br /tmp/work/dist/likely.test.d.ts.map -> /output/likely.test.d.ts.map.br
+2023/04/12 17:30:15 gz /tmp/work/dist/likely.test.d.ts.map -> /output/likely.test.d.ts.map.gz
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/neural-network-gpu.d.ts.map.br /tmp/work/dist/neural-network-gpu.d.ts.map
+2023/04/12 17:30:15 gz /tmp/work/dist/feed-forward.d.ts.map -> /output/feed-forward.d.ts.map.gz
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/neural-network-gpu.end-to-end.test.d.ts.map.br /tmp/work/dist/neural-network-gpu.end-to-end.test.d.ts.map
+2023/04/12 17:30:15 br /tmp/work/dist/lookup.test.d.ts.map -> /output/lookup.test.d.ts.map.br
+2023/04/12 17:30:15 gz /tmp/work/dist/lookup.test.d.ts.map -> /output/lookup.test.d.ts.map.gz
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/neural-network-gpu.test.d.ts.map.br /tmp/work/dist/neural-network-gpu.test.d.ts.map
+2023/04/12 17:30:15 br /tmp/work/dist/lookup.d.ts.map -> /output/lookup.d.ts.map.br
+2023/04/12 17:30:15 gz /tmp/work/dist/lookup.d.ts.map -> /output/lookup.d.ts.map.gz
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/neural-network-types.d.ts.map.br /tmp/work/dist/neural-network-types.d.ts.map
+2023/04/12 17:30:15 br /tmp/work/dist/neural-network-gpu.end-to-end.test.d.ts.map -> /output/neural-network-gpu.end-to-end.test.d.ts.map.br
+2023/04/12 17:30:15 gz /tmp/work/dist/neural-network-gpu.end-to-end.test.d.ts.map -> /output/neural-network-gpu.end-to-end.test.d.ts.map.gz
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/neural-network.bitwise.test.d.ts.map.br /tmp/work/dist/neural-network.bitwise.test.d.ts.map
+2023/04/12 17:30:15 br /tmp/work/dist/neural-network-gpu.d.ts.map -> /output/neural-network-gpu.d.ts.map.br
+2023/04/12 17:30:15 gz /tmp/work/dist/neural-network-gpu.d.ts.map -> /output/neural-network-gpu.d.ts.map.gz
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/neural-network.d.ts.map.br /tmp/work/dist/neural-network.d.ts.map
+2023/04/12 17:30:15 br /tmp/work/dist/neural-network-gpu.test.d.ts.map -> /output/neural-network-gpu.test.d.ts.map.br
+2023/04/12 17:30:15 gz /tmp/work/dist/neural-network-gpu.test.d.ts.map -> /output/neural-network-gpu.test.d.ts.map.gz
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/neural-network.json.test.d.ts.map.br /tmp/work/dist/neural-network.json.test.d.ts.map
+2023/04/12 17:30:15 br /tmp/work/dist/neural-network-types.d.ts.map -> /output/neural-network-types.d.ts.map.br
+2023/04/12 17:30:15 br /tmp/work/dist/neural-network.bitwise.test.d.ts.map -> /output/neural-network.bitwise.test.d.ts.map.br
+2023/04/12 17:30:15 gz /tmp/work/dist/neural-network-types.d.ts.map -> /output/neural-network-types.d.ts.map.gz
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/neural-network.options.test.d.ts.map.br /tmp/work/dist/neural-network.options.test.d.ts.map
+2023/04/12 17:30:15 gz /tmp/work/dist/neural-network.bitwise.test.d.ts.map -> /output/neural-network.bitwise.test.d.ts.map.gz
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/neural-network.test-method.test.d.ts.map.br /tmp/work/dist/neural-network.test-method.test.d.ts.map
+2023/04/12 17:30:15 br /tmp/work/dist/neural-network.json.test.d.ts.map -> /output/neural-network.json.test.d.ts.map.br
+2023/04/12 17:30:15 br /tmp/work/dist/neural-network.options.test.d.ts.map -> /output/neural-network.options.test.d.ts.map.br
+2023/04/12 17:30:15 gz /tmp/work/dist/neural-network.json.test.d.ts.map -> /output/neural-network.json.test.d.ts.map.gz
+2023/04/12 17:30:15 gz /tmp/work/dist/neural-network.options.test.d.ts.map -> /output/neural-network.options.test.d.ts.map.gz
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/neural-network.to-function.test.d.ts.map.br /tmp/work/dist/neural-network.to-function.test.d.ts.map
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/neural-network.trainopts.test.d.ts.map.br /tmp/work/dist/neural-network.trainopts.test.d.ts.map
+2023/04/12 17:30:15 br /tmp/work/dist/neural-network.test-method.test.d.ts.map -> /output/neural-network.test-method.test.d.ts.map.br
+2023/04/12 17:30:15 br /tmp/work/dist/neural-network.to-function.test.d.ts.map -> /output/neural-network.to-function.test.d.ts.map.br
+2023/04/12 17:30:15 gz /tmp/work/dist/neural-network.test-method.test.d.ts.map -> /output/neural-network.test-method.test.d.ts.map.gz
+2023/04/12 17:30:15 gz /tmp/work/dist/neural-network.to-function.test.d.ts.map -> /output/neural-network.to-function.test.d.ts.map.gz
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/recurrent.baseline.test.d.ts.map.br /tmp/work/dist/recurrent.baseline.test.d.ts.map
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/neural-network.unit.test.d.ts.map.br /tmp/work/dist/neural-network.unit.test.d.ts.map
+2023/04/12 17:30:15 br /tmp/work/dist/neural-network.trainopts.test.d.ts.map -> /output/neural-network.trainopts.test.d.ts.map.br
+2023/04/12 17:30:15 gz /tmp/work/dist/neural-network.trainopts.test.d.ts.map -> /output/neural-network.trainopts.test.d.ts.map.gz
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/recurrent.d.ts.map.br /tmp/work/dist/recurrent.d.ts.map
+2023/04/12 17:30:15 br /tmp/work/dist/recurrent.baseline.test.d.ts.map -> /output/recurrent.baseline.test.d.ts.map.br
+2023/04/12 17:30:15 gz /tmp/work/dist/recurrent.baseline.test.d.ts.map -> /output/recurrent.baseline.test.d.ts.map.gz
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/recurrent.end-to-end.test.d.ts.map.br /tmp/work/dist/recurrent.end-to-end.test.d.ts.map
+2023/04/12 17:30:15 br /tmp/work/dist/neural-network.unit.test.d.ts.map -> /output/neural-network.unit.test.d.ts.map.br
+2023/04/12 17:30:15 br /tmp/work/dist/neural-network.d.ts.map -> /output/neural-network.d.ts.map.br
+2023/04/12 17:30:15 gz /tmp/work/dist/neural-network.unit.test.d.ts.map -> /output/neural-network.unit.test.d.ts.map.gz
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/recurrent.unit.test.d.ts.map.br /tmp/work/dist/recurrent.unit.test.d.ts.map
+2023/04/12 17:30:15 gz /tmp/work/dist/neural-network.d.ts.map -> /output/neural-network.d.ts.map.gz
+2023/04/12 17:30:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/test-utils.d.ts.map.br /tmp/work/dist/test-utils.d.ts.map
+2023/04/12 17:30:15 br /tmp/work/dist/recurrent.end-to-end.test.d.ts.map -> /output/recurrent.end-to-end.test.d.ts.map.br
+2023/04/12 17:30:15 gz /tmp/work/dist/recurrent.end-to-end.test.d.ts.map -> /output/recurrent.end-to-end.test.d.ts.map.gz
+2023/04/12 17:30:15 br /tmp/work/dist/recurrent.unit.test.d.ts.map -> /output/recurrent.unit.test.d.ts.map.br
+2023/04/12 17:30:15 gz /tmp/work/dist/recurrent.unit.test.d.ts.map -> /output/recurrent.unit.test.d.ts.map.gz
+2023/04/12 17:30:15 br /tmp/work/dist/recurrent.d.ts.map -> /output/recurrent.d.ts.map.br
+2023/04/12 17:30:15 gz /tmp/work/dist/recurrent.d.ts.map -> /output/recurrent.d.ts.map.gz
+2023/04/12 17:30:15 br /tmp/work/dist/test-utils.d.ts.map -> /output/test-utils.d.ts.map.br
+2023/04/12 17:30:15 gz /tmp/work/dist/test-utils.d.ts.map -> /output/test-utils.d.ts.map.gz
+2023/04/12 17:30:17 br /tmp/work/dist/index.js.map -> /output/index.js.map.br
+2023/04/12 17:30:17 gz /tmp/work/dist/index.js.map -> /output/index.js.map.gz
+2023/04/12 17:30:18 sri /tmp/work/dist/index.min.js -> /output/index.min.js.sri
+2023/04/12 17:30:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/dist/index.min.js
+2023/04/12 17:30:19 br /tmp/work/dist/index.min.js -> /output/index.min.js.br
+2023/04/12 17:30:19 gz /tmp/work/dist/index.min.js -> /output/index.min.js.gz
+2023/04/12 17:30:19 sri /tmp/work/dist/index.js -> /output/index.js.sri
+2023/04/12 17:30:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/dist/index.js
+2023/04/12 17:30:19 br /tmp/work/dist/index.js -> /output/index.js.br
+2023/04/12 17:30:20 gz /tmp/work/dist/index.js -> /output/index.js.gz
+2023/04/12 17:30:21 br /tmp/work/dist/browser.js.map -> /output/browser.js.map.br
+2023/04/12 17:30:21 gz /tmp/work/dist/browser.js.map -> /output/browser.js.map.gz
+2023/04/12 17:30:23 sri /tmp/work/dist/browser.min.js -> /output/browser.min.js.sri
+2023/04/12 17:30:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/browser.min.js.br /tmp/work/dist/browser.min.js
+2023/04/12 17:30:24 br /tmp/work/dist/browser.min.js -> /output/browser.min.js.br
+2023/04/12 17:30:24 gz /tmp/work/dist/browser.min.js -> /output/browser.min.js.gz
+2023/04/12 17:30:24 sri /tmp/work/dist/browser.js -> /output/browser.js.sri
+2023/04/12 17:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/browser.js.br /tmp/work/dist/browser.js
+2023/04/12 17:30:27 br /tmp/work/dist/browser.js -> /output/browser.js.br
+2023/04/12 17:30:27 gz /tmp/work/dist/browser.js -> /output/browser.js.gz
+2023/04/12 17:30:27 processed brain.js
