@@ -1,0 +1,11 @@
+2023/04/13 22:03:27 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/04/13 22:03:27 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/closure/goog/base.min.js /tmp/work/closure/goog/base.js
+2023/04/13 22:03:28 sri /tmp/work/closure/goog/base.min.js -> /output/base.min.js.sri
+2023/04/13 22:03:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/base.min.js.br /tmp/work/closure/goog/base.min.js
+2023/04/13 22:03:28 br /tmp/work/closure/goog/base.min.js -> /output/base.min.js.br
+2023/04/13 22:03:28 gz /tmp/work/closure/goog/base.min.js -> /output/base.min.js.gz
+2023/04/13 22:03:28 sri /tmp/work/closure/goog/base.js -> /output/base.js.sri
+2023/04/13 22:03:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/base.js.br /tmp/work/closure/goog/base.js
+2023/04/13 22:03:28 br /tmp/work/closure/goog/base.js -> /output/base.js.br
+2023/04/13 22:03:28 gz /tmp/work/closure/goog/base.js -> /output/base.js.gz
+2023/04/13 22:03:28 processed google-closure-library
