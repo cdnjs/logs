@@ -1,0 +1,38 @@
+2023/04/13 02:54:02 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/04/13 02:54:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/ember-template-compiler.min.js /tmp/work/dist/ember-template-compiler.js
+2023/04/13 02:54:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/ember.debug.min.js /tmp/work/dist/ember.debug.js
+2023/04/13 02:54:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/ember-testing.min.js /tmp/work/dist/ember-testing.js
+2023/04/13 02:54:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ember-template-compiler.map.br /tmp/work/dist/ember-template-compiler.map
+2023/04/13 02:54:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ember.debug.map.br /tmp/work/dist/ember.debug.map
+2023/04/13 02:54:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ember-testing.map.br /tmp/work/dist/ember-testing.map
+2023/04/13 02:54:02 br /tmp/work/dist/ember-testing.map -> /output/ember-testing.map.br
+2023/04/13 02:54:02 gz /tmp/work/dist/ember-testing.map -> /output/ember-testing.map.gz
+2023/04/13 02:54:03 sri /tmp/work/dist/ember-testing.min.js -> /output/ember-testing.min.js.sri
+2023/04/13 02:54:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ember-testing.min.js.br /tmp/work/dist/ember-testing.min.js
+2023/04/13 02:54:03 br /tmp/work/dist/ember-testing.min.js -> /output/ember-testing.min.js.br
+2023/04/13 02:54:03 gz /tmp/work/dist/ember-testing.min.js -> /output/ember-testing.min.js.gz
+2023/04/13 02:54:03 sri /tmp/work/dist/ember-testing.js -> /output/ember-testing.js.sri
+2023/04/13 02:54:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ember-testing.js.br /tmp/work/dist/ember-testing.js
+2023/04/13 02:54:04 br /tmp/work/dist/ember-testing.js -> /output/ember-testing.js.br
+2023/04/13 02:54:04 gz /tmp/work/dist/ember-testing.js -> /output/ember-testing.js.gz
+2023/04/13 02:54:04 br /tmp/work/dist/ember-template-compiler.map -> /output/ember-template-compiler.map.br
+2023/04/13 02:54:04 gz /tmp/work/dist/ember-template-compiler.map -> /output/ember-template-compiler.map.gz
+2023/04/13 02:54:08 br /tmp/work/dist/ember.debug.map -> /output/ember.debug.map.br
+2023/04/13 02:54:08 sri /tmp/work/dist/ember-template-compiler.min.js -> /output/ember-template-compiler.min.js.sri
+2023/04/13 02:54:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ember-template-compiler.min.js.br /tmp/work/dist/ember-template-compiler.min.js
+2023/04/13 02:54:08 gz /tmp/work/dist/ember.debug.map -> /output/ember.debug.map.gz
+2023/04/13 02:54:08 br /tmp/work/dist/ember-template-compiler.min.js -> /output/ember-template-compiler.min.js.br
+2023/04/13 02:54:08 gz /tmp/work/dist/ember-template-compiler.min.js -> /output/ember-template-compiler.min.js.gz
+2023/04/13 02:54:08 sri /tmp/work/dist/ember-template-compiler.js -> /output/ember-template-compiler.js.sri
+2023/04/13 02:54:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ember-template-compiler.js.br /tmp/work/dist/ember-template-compiler.js
+2023/04/13 02:54:10 br /tmp/work/dist/ember-template-compiler.js -> /output/ember-template-compiler.js.br
+2023/04/13 02:54:10 gz /tmp/work/dist/ember-template-compiler.js -> /output/ember-template-compiler.js.gz
+2023/04/13 02:54:12 sri /tmp/work/dist/ember.debug.min.js -> /output/ember.debug.min.js.sri
+2023/04/13 02:54:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ember.debug.min.js.br /tmp/work/dist/ember.debug.min.js
+2023/04/13 02:54:13 br /tmp/work/dist/ember.debug.min.js -> /output/ember.debug.min.js.br
+2023/04/13 02:54:13 gz /tmp/work/dist/ember.debug.min.js -> /output/ember.debug.min.js.gz
+2023/04/13 02:54:13 sri /tmp/work/dist/ember.debug.js -> /output/ember.debug.js.sri
+2023/04/13 02:54:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ember.debug.js.br /tmp/work/dist/ember.debug.js
+2023/04/13 02:54:17 br /tmp/work/dist/ember.debug.js -> /output/ember.debug.js.br
+2023/04/13 02:54:17 gz /tmp/work/dist/ember.debug.js -> /output/ember.debug.js.gz
+2023/04/13 02:54:17 processed ember.js
