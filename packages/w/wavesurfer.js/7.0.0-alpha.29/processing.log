@@ -1,0 +1,214 @@
+2023/04/14 08:32:18 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/04/14 08:32:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/base-plugin.min.js /tmp/work/dist/base-plugin.js
+2023/04/14 08:32:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/decoder.min.js /tmp/work/dist/decoder.js
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/decoder.d.ts.br /tmp/work/dist/decoder.d.ts
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/base-plugin.d.ts.br /tmp/work/dist/base-plugin.d.ts
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/event-emitter.d.ts.br /tmp/work/dist/event-emitter.d.ts
+2023/04/14 08:32:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/event-emitter.min.js /tmp/work/dist/event-emitter.js
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fetcher.d.ts.br /tmp/work/dist/fetcher.d.ts
+2023/04/14 08:32:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fetcher.min.js /tmp/work/dist/fetcher.js
+2023/04/14 08:32:18 br /tmp/work/dist/event-emitter.d.ts -> /output/event-emitter.d.ts.br
+2023/04/14 08:32:18 br /tmp/work/dist/base-plugin.d.ts -> /output/base-plugin.d.ts.br
+2023/04/14 08:32:18 br /tmp/work/dist/decoder.d.ts -> /output/decoder.d.ts.br
+2023/04/14 08:32:18 gz /tmp/work/dist/event-emitter.d.ts -> /output/event-emitter.d.ts.gz
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy-adapter.d.ts.br /tmp/work/dist/legacy-adapter.d.ts
+2023/04/14 08:32:18 br /tmp/work/dist/fetcher.d.ts -> /output/fetcher.d.ts.br
+2023/04/14 08:32:18 gz /tmp/work/dist/base-plugin.d.ts -> /output/base-plugin.d.ts.gz
+2023/04/14 08:32:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/legacy-adapter.min.js /tmp/work/dist/legacy-adapter.js
+2023/04/14 08:32:18 gz /tmp/work/dist/decoder.d.ts -> /output/decoder.d.ts.gz
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/player.d.ts.br /tmp/work/dist/player.d.ts
+2023/04/14 08:32:18 gz /tmp/work/dist/fetcher.d.ts -> /output/fetcher.d.ts.gz
+2023/04/14 08:32:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/player.min.js /tmp/work/dist/player.js
+2023/04/14 08:32:18 br /tmp/work/dist/legacy-adapter.d.ts -> /output/legacy-adapter.d.ts.br
+2023/04/14 08:32:18 br /tmp/work/dist/player.d.ts -> /output/player.d.ts.br
+2023/04/14 08:32:18 gz /tmp/work/dist/legacy-adapter.d.ts -> /output/legacy-adapter.d.ts.gz
+2023/04/14 08:32:18 /tmp/work/dist/plugin/wavesurfer.envelope.min.js is already compressed
+2023/04/14 08:32:18 sri /tmp/work/dist/plugin/wavesurfer.envelope.min.js -> /output/plugin/wavesurfer.envelope.min.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugin/wavesurfer.envelope.min.js.br /tmp/work/dist/plugin/wavesurfer.envelope.min.js
+2023/04/14 08:32:18 gz /tmp/work/dist/player.d.ts -> /output/player.d.ts.gz
+2023/04/14 08:32:18 /tmp/work/dist/plugin/wavesurfer.minimap.min.js is already compressed
+2023/04/14 08:32:18 sri /tmp/work/dist/plugin/wavesurfer.minimap.min.js -> /output/plugin/wavesurfer.minimap.min.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugin/wavesurfer.minimap.min.js.br /tmp/work/dist/plugin/wavesurfer.minimap.min.js
+2023/04/14 08:32:18 br /tmp/work/dist/plugin/wavesurfer.envelope.min.js -> /output/plugin/wavesurfer.envelope.min.js.br
+2023/04/14 08:32:18 gz /tmp/work/dist/plugin/wavesurfer.envelope.min.js -> /output/plugin/wavesurfer.envelope.min.js.gz
+2023/04/14 08:32:18 /tmp/work/dist/plugin/wavesurfer.multitrack.min.js is already compressed
+2023/04/14 08:32:18 sri /tmp/work/dist/plugin/wavesurfer.multitrack.min.js -> /output/plugin/wavesurfer.multitrack.min.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugin/wavesurfer.multitrack.min.js.br /tmp/work/dist/plugin/wavesurfer.multitrack.min.js
+2023/04/14 08:32:18 br /tmp/work/dist/plugin/wavesurfer.minimap.min.js -> /output/plugin/wavesurfer.minimap.min.js.br
+2023/04/14 08:32:18 gz /tmp/work/dist/plugin/wavesurfer.minimap.min.js -> /output/plugin/wavesurfer.minimap.min.js.gz
+2023/04/14 08:32:18 /tmp/work/dist/plugin/wavesurfer.regions.min.js is already compressed
+2023/04/14 08:32:18 sri /tmp/work/dist/plugin/wavesurfer.regions.min.js -> /output/plugin/wavesurfer.regions.min.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugin/wavesurfer.regions.min.js.br /tmp/work/dist/plugin/wavesurfer.regions.min.js
+2023/04/14 08:32:18 br /tmp/work/dist/plugin/wavesurfer.regions.min.js -> /output/plugin/wavesurfer.regions.min.js.br
+2023/04/14 08:32:18 gz /tmp/work/dist/plugin/wavesurfer.regions.min.js -> /output/plugin/wavesurfer.regions.min.js.gz
+2023/04/14 08:32:18 /tmp/work/dist/plugin/wavesurfer.timeline.min.js is already compressed
+2023/04/14 08:32:18 sri /tmp/work/dist/plugin/wavesurfer.timeline.min.js -> /output/plugin/wavesurfer.timeline.min.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugin/wavesurfer.timeline.min.js.br /tmp/work/dist/plugin/wavesurfer.timeline.min.js
+2023/04/14 08:32:18 br /tmp/work/dist/plugin/wavesurfer.timeline.min.js -> /output/plugin/wavesurfer.timeline.min.js.br
+2023/04/14 08:32:18 gz /tmp/work/dist/plugin/wavesurfer.timeline.min.js -> /output/plugin/wavesurfer.timeline.min.js.gz
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/envelope.d.ts.br /tmp/work/dist/plugins/envelope.d.ts
+2023/04/14 08:32:18 br /tmp/work/dist/plugins/envelope.d.ts -> /output/plugins/envelope.d.ts.br
+2023/04/14 08:32:18 gz /tmp/work/dist/plugins/envelope.d.ts -> /output/plugins/envelope.d.ts.gz
+2023/04/14 08:32:18 /tmp/work/dist/plugins/envelope.min.js already has corresponding compressed file
+2023/04/14 08:32:18 sri /tmp/work/dist/plugins/envelope.js -> /output/plugins/envelope.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/envelope.js.br /tmp/work/dist/plugins/envelope.js
+2023/04/14 08:32:18 br /tmp/work/dist/plugin/wavesurfer.multitrack.min.js -> /output/plugin/wavesurfer.multitrack.min.js.br
+2023/04/14 08:32:18 gz /tmp/work/dist/plugin/wavesurfer.multitrack.min.js -> /output/plugin/wavesurfer.multitrack.min.js.gz
+2023/04/14 08:32:18 /tmp/work/dist/plugins/envelope.min.js is already compressed
+2023/04/14 08:32:18 sri /tmp/work/dist/plugins/envelope.min.js -> /output/plugins/envelope.min.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/envelope.min.js.br /tmp/work/dist/plugins/envelope.min.js
+2023/04/14 08:32:18 br /tmp/work/dist/plugins/envelope.js -> /output/plugins/envelope.js.br
+2023/04/14 08:32:18 gz /tmp/work/dist/plugins/envelope.js -> /output/plugins/envelope.js.gz
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/minimap.d.ts.br /tmp/work/dist/plugins/minimap.d.ts
+2023/04/14 08:32:18 sri /tmp/work/dist/fetcher.min.js -> /output/fetcher.min.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fetcher.min.js.br /tmp/work/dist/fetcher.min.js
+2023/04/14 08:32:18 br /tmp/work/dist/plugins/minimap.d.ts -> /output/plugins/minimap.d.ts.br
+2023/04/14 08:32:18 br /tmp/work/dist/fetcher.min.js -> /output/fetcher.min.js.br
+2023/04/14 08:32:18 gz /tmp/work/dist/fetcher.min.js -> /output/fetcher.min.js.gz
+2023/04/14 08:32:18 sri /tmp/work/dist/fetcher.js -> /output/fetcher.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fetcher.js.br /tmp/work/dist/fetcher.js
+2023/04/14 08:32:18 gz /tmp/work/dist/plugins/minimap.d.ts -> /output/plugins/minimap.d.ts.gz
+2023/04/14 08:32:18 /tmp/work/dist/plugins/minimap.min.js already has corresponding compressed file
+2023/04/14 08:32:18 sri /tmp/work/dist/plugins/minimap.js -> /output/plugins/minimap.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/minimap.js.br /tmp/work/dist/plugins/minimap.js
+2023/04/14 08:32:18 br /tmp/work/dist/fetcher.js -> /output/fetcher.js.br
+2023/04/14 08:32:18 gz /tmp/work/dist/fetcher.js -> /output/fetcher.js.gz
+2023/04/14 08:32:18 /tmp/work/dist/plugins/minimap.min.js is already compressed
+2023/04/14 08:32:18 sri /tmp/work/dist/plugins/minimap.min.js -> /output/plugins/minimap.min.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/minimap.min.js.br /tmp/work/dist/plugins/minimap.min.js
+2023/04/14 08:32:18 br /tmp/work/dist/plugins/envelope.min.js -> /output/plugins/envelope.min.js.br
+2023/04/14 08:32:18 gz /tmp/work/dist/plugins/envelope.min.js -> /output/plugins/envelope.min.js.gz
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/multitrack.d.ts.br /tmp/work/dist/plugins/multitrack.d.ts
+2023/04/14 08:32:18 sri /tmp/work/dist/base-plugin.min.js -> /output/base-plugin.min.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/base-plugin.min.js.br /tmp/work/dist/base-plugin.min.js
+2023/04/14 08:32:18 br /tmp/work/dist/plugins/minimap.js -> /output/plugins/minimap.js.br
+2023/04/14 08:32:18 gz /tmp/work/dist/plugins/minimap.js -> /output/plugins/minimap.js.gz
+2023/04/14 08:32:18 /tmp/work/dist/plugins/multitrack.min.js already has corresponding compressed file
+2023/04/14 08:32:18 sri /tmp/work/dist/plugins/multitrack.js -> /output/plugins/multitrack.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/multitrack.js.br /tmp/work/dist/plugins/multitrack.js
+2023/04/14 08:32:18 br /tmp/work/dist/base-plugin.min.js -> /output/base-plugin.min.js.br
+2023/04/14 08:32:18 gz /tmp/work/dist/base-plugin.min.js -> /output/base-plugin.min.js.gz
+2023/04/14 08:32:18 sri /tmp/work/dist/base-plugin.js -> /output/base-plugin.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/base-plugin.js.br /tmp/work/dist/base-plugin.js
+2023/04/14 08:32:18 br /tmp/work/dist/plugins/multitrack.d.ts -> /output/plugins/multitrack.d.ts.br
+2023/04/14 08:32:18 gz /tmp/work/dist/plugins/multitrack.d.ts -> /output/plugins/multitrack.d.ts.gz
+2023/04/14 08:32:18 /tmp/work/dist/plugins/multitrack.min.js is already compressed
+2023/04/14 08:32:18 sri /tmp/work/dist/plugins/multitrack.min.js -> /output/plugins/multitrack.min.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/multitrack.min.js.br /tmp/work/dist/plugins/multitrack.min.js
+2023/04/14 08:32:18 br /tmp/work/dist/base-plugin.js -> /output/base-plugin.js.br
+2023/04/14 08:32:18 gz /tmp/work/dist/base-plugin.js -> /output/base-plugin.js.gz
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/record.d.ts.br /tmp/work/dist/plugins/record.d.ts
+2023/04/14 08:32:18 br /tmp/work/dist/plugins/record.d.ts -> /output/plugins/record.d.ts.br
+2023/04/14 08:32:18 gz /tmp/work/dist/plugins/record.d.ts -> /output/plugins/record.d.ts.gz
+2023/04/14 08:32:18 /tmp/work/dist/plugins/record.min.js already has corresponding compressed file
+2023/04/14 08:32:18 sri /tmp/work/dist/plugins/record.js -> /output/plugins/record.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/record.js.br /tmp/work/dist/plugins/record.js
+2023/04/14 08:32:18 sri /tmp/work/dist/legacy-adapter.min.js -> /output/legacy-adapter.min.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy-adapter.min.js.br /tmp/work/dist/legacy-adapter.min.js
+2023/04/14 08:32:18 br /tmp/work/dist/plugins/minimap.min.js -> /output/plugins/minimap.min.js.br
+2023/04/14 08:32:18 br /tmp/work/dist/plugins/record.js -> /output/plugins/record.js.br
+2023/04/14 08:32:18 gz /tmp/work/dist/plugins/minimap.min.js -> /output/plugins/minimap.min.js.gz
+2023/04/14 08:32:18 /tmp/work/dist/plugins/record.min.js is already compressed
+2023/04/14 08:32:18 sri /tmp/work/dist/plugins/record.min.js -> /output/plugins/record.min.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/record.min.js.br /tmp/work/dist/plugins/record.min.js
+2023/04/14 08:32:18 gz /tmp/work/dist/plugins/record.js -> /output/plugins/record.js.gz
+2023/04/14 08:32:18 sri /tmp/work/dist/decoder.min.js -> /output/decoder.min.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/decoder.min.js.br /tmp/work/dist/decoder.min.js
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/regions.d.ts.br /tmp/work/dist/plugins/regions.d.ts
+2023/04/14 08:32:18 br /tmp/work/dist/legacy-adapter.min.js -> /output/legacy-adapter.min.js.br
+2023/04/14 08:32:18 gz /tmp/work/dist/legacy-adapter.min.js -> /output/legacy-adapter.min.js.gz
+2023/04/14 08:32:18 sri /tmp/work/dist/legacy-adapter.js -> /output/legacy-adapter.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy-adapter.js.br /tmp/work/dist/legacy-adapter.js
+2023/04/14 08:32:18 br /tmp/work/dist/decoder.min.js -> /output/decoder.min.js.br
+2023/04/14 08:32:18 gz /tmp/work/dist/decoder.min.js -> /output/decoder.min.js.gz
+2023/04/14 08:32:18 sri /tmp/work/dist/decoder.js -> /output/decoder.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/decoder.js.br /tmp/work/dist/decoder.js
+2023/04/14 08:32:18 br /tmp/work/dist/plugins/regions.d.ts -> /output/plugins/regions.d.ts.br
+2023/04/14 08:32:18 gz /tmp/work/dist/plugins/regions.d.ts -> /output/plugins/regions.d.ts.gz
+2023/04/14 08:32:18 /tmp/work/dist/plugins/regions.min.js already has corresponding compressed file
+2023/04/14 08:32:18 sri /tmp/work/dist/plugins/regions.js -> /output/plugins/regions.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/regions.js.br /tmp/work/dist/plugins/regions.js
+2023/04/14 08:32:18 br /tmp/work/dist/legacy-adapter.js -> /output/legacy-adapter.js.br
+2023/04/14 08:32:18 gz /tmp/work/dist/legacy-adapter.js -> /output/legacy-adapter.js.gz
+2023/04/14 08:32:18 /tmp/work/dist/plugins/regions.min.js is already compressed
+2023/04/14 08:32:18 sri /tmp/work/dist/plugins/regions.min.js -> /output/plugins/regions.min.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/regions.min.js.br /tmp/work/dist/plugins/regions.min.js
+2023/04/14 08:32:18 br /tmp/work/dist/plugins/record.min.js -> /output/plugins/record.min.js.br
+2023/04/14 08:32:18 br /tmp/work/dist/decoder.js -> /output/decoder.js.br
+2023/04/14 08:32:18 gz /tmp/work/dist/plugins/record.min.js -> /output/plugins/record.min.js.gz
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/timeline.d.ts.br /tmp/work/dist/plugins/timeline.d.ts
+2023/04/14 08:32:18 gz /tmp/work/dist/decoder.js -> /output/decoder.js.gz
+2023/04/14 08:32:18 /tmp/work/dist/plugins/timeline.min.js already has corresponding compressed file
+2023/04/14 08:32:18 sri /tmp/work/dist/plugins/timeline.js -> /output/plugins/timeline.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/timeline.js.br /tmp/work/dist/plugins/timeline.js
+2023/04/14 08:32:18 sri /tmp/work/dist/event-emitter.min.js -> /output/event-emitter.min.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/event-emitter.min.js.br /tmp/work/dist/event-emitter.min.js
+2023/04/14 08:32:18 br /tmp/work/dist/plugins/timeline.d.ts -> /output/plugins/timeline.d.ts.br
+2023/04/14 08:32:18 gz /tmp/work/dist/plugins/timeline.d.ts -> /output/plugins/timeline.d.ts.gz
+2023/04/14 08:32:18 /tmp/work/dist/plugins/timeline.min.js is already compressed
+2023/04/14 08:32:18 sri /tmp/work/dist/plugins/timeline.min.js -> /output/plugins/timeline.min.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/timeline.min.js.br /tmp/work/dist/plugins/timeline.min.js
+2023/04/14 08:32:18 br /tmp/work/dist/event-emitter.min.js -> /output/event-emitter.min.js.br
+2023/04/14 08:32:18 gz /tmp/work/dist/event-emitter.min.js -> /output/event-emitter.min.js.gz
+2023/04/14 08:32:18 sri /tmp/work/dist/event-emitter.js -> /output/event-emitter.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/event-emitter.js.br /tmp/work/dist/event-emitter.js
+2023/04/14 08:32:18 br /tmp/work/dist/plugins/multitrack.js -> /output/plugins/multitrack.js.br
+2023/04/14 08:32:18 gz /tmp/work/dist/plugins/multitrack.js -> /output/plugins/multitrack.js.gz
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/renderer.d.ts.br /tmp/work/dist/renderer.d.ts
+2023/04/14 08:32:18 br /tmp/work/dist/event-emitter.js -> /output/event-emitter.js.br
+2023/04/14 08:32:18 br /tmp/work/dist/plugins/regions.min.js -> /output/plugins/regions.min.js.br
+2023/04/14 08:32:18 gz /tmp/work/dist/event-emitter.js -> /output/event-emitter.js.gz
+2023/04/14 08:32:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/renderer.min.js /tmp/work/dist/renderer.js
+2023/04/14 08:32:18 br /tmp/work/dist/plugins/timeline.js -> /output/plugins/timeline.js.br
+2023/04/14 08:32:18 gz /tmp/work/dist/plugins/timeline.js -> /output/plugins/timeline.js.gz
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/timer.d.ts.br /tmp/work/dist/timer.d.ts
+2023/04/14 08:32:18 gz /tmp/work/dist/plugins/regions.min.js -> /output/plugins/regions.min.js.gz
+2023/04/14 08:32:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/timer.min.js /tmp/work/dist/timer.js
+2023/04/14 08:32:18 br /tmp/work/dist/plugins/timeline.min.js -> /output/plugins/timeline.min.js.br
+2023/04/14 08:32:18 gz /tmp/work/dist/plugins/timeline.min.js -> /output/plugins/timeline.min.js.gz
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/wavesurfer.d.ts.br /tmp/work/dist/wavesurfer.d.ts
+2023/04/14 08:32:18 br /tmp/work/dist/timer.d.ts -> /output/timer.d.ts.br
+2023/04/14 08:32:18 gz /tmp/work/dist/timer.d.ts -> /output/timer.d.ts.gz
+2023/04/14 08:32:18 /tmp/work/dist/wavesurfer.min.js already has corresponding compressed file
+2023/04/14 08:32:18 br /tmp/work/dist/plugins/regions.js -> /output/plugins/regions.js.br
+2023/04/14 08:32:18 sri /tmp/work/dist/wavesurfer.js -> /output/wavesurfer.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/wavesurfer.js.br /tmp/work/dist/wavesurfer.js
+2023/04/14 08:32:18 br /tmp/work/dist/renderer.d.ts -> /output/renderer.d.ts.br
+2023/04/14 08:32:18 gz /tmp/work/dist/renderer.d.ts -> /output/renderer.d.ts.gz
+2023/04/14 08:32:18 /tmp/work/dist/wavesurfer.min.js is already compressed
+2023/04/14 08:32:18 sri /tmp/work/dist/wavesurfer.min.js -> /output/wavesurfer.min.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/wavesurfer.min.js.br /tmp/work/dist/wavesurfer.min.js
+2023/04/14 08:32:18 gz /tmp/work/dist/plugins/regions.js -> /output/plugins/regions.js.gz
+2023/04/14 08:32:18 br /tmp/work/dist/wavesurfer.d.ts -> /output/wavesurfer.d.ts.br
+2023/04/14 08:32:18 gz /tmp/work/dist/wavesurfer.d.ts -> /output/wavesurfer.d.ts.gz
+2023/04/14 08:32:18 br /tmp/work/dist/wavesurfer.js -> /output/wavesurfer.js.br
+2023/04/14 08:32:18 gz /tmp/work/dist/wavesurfer.js -> /output/wavesurfer.js.gz
+2023/04/14 08:32:18 br /tmp/work/dist/plugins/multitrack.min.js -> /output/plugins/multitrack.min.js.br
+2023/04/14 08:32:18 sri /tmp/work/dist/player.min.js -> /output/player.min.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/player.min.js.br /tmp/work/dist/player.min.js
+2023/04/14 08:32:18 gz /tmp/work/dist/plugins/multitrack.min.js -> /output/plugins/multitrack.min.js.gz
+2023/04/14 08:32:18 br /tmp/work/dist/player.min.js -> /output/player.min.js.br
+2023/04/14 08:32:18 gz /tmp/work/dist/player.min.js -> /output/player.min.js.gz
+2023/04/14 08:32:18 sri /tmp/work/dist/player.js -> /output/player.js.sri
+2023/04/14 08:32:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/player.js.br /tmp/work/dist/player.js
+2023/04/14 08:32:18 br /tmp/work/dist/wavesurfer.min.js -> /output/wavesurfer.min.js.br
+2023/04/14 08:32:18 gz /tmp/work/dist/wavesurfer.min.js -> /output/wavesurfer.min.js.gz
+2023/04/14 08:32:18 br /tmp/work/dist/player.js -> /output/player.js.br
+2023/04/14 08:32:18 gz /tmp/work/dist/player.js -> /output/player.js.gz
+2023/04/14 08:32:19 sri /tmp/work/dist/timer.min.js -> /output/timer.min.js.sri
+2023/04/14 08:32:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/timer.min.js.br /tmp/work/dist/timer.min.js
+2023/04/14 08:32:19 br /tmp/work/dist/timer.min.js -> /output/timer.min.js.br
+2023/04/14 08:32:19 gz /tmp/work/dist/timer.min.js -> /output/timer.min.js.gz
+2023/04/14 08:32:19 sri /tmp/work/dist/timer.js -> /output/timer.js.sri
+2023/04/14 08:32:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/timer.js.br /tmp/work/dist/timer.js
+2023/04/14 08:32:19 br /tmp/work/dist/timer.js -> /output/timer.js.br
+2023/04/14 08:32:19 gz /tmp/work/dist/timer.js -> /output/timer.js.gz
+2023/04/14 08:32:19 sri /tmp/work/dist/renderer.min.js -> /output/renderer.min.js.sri
+2023/04/14 08:32:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/renderer.min.js.br /tmp/work/dist/renderer.min.js
+2023/04/14 08:32:19 br /tmp/work/dist/renderer.min.js -> /output/renderer.min.js.br
+2023/04/14 08:32:19 gz /tmp/work/dist/renderer.min.js -> /output/renderer.min.js.gz
+2023/04/14 08:32:19 sri /tmp/work/dist/renderer.js -> /output/renderer.js.sri
+2023/04/14 08:32:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/renderer.js.br /tmp/work/dist/renderer.js
+2023/04/14 08:32:19 br /tmp/work/dist/renderer.js -> /output/renderer.js.br
+2023/04/14 08:32:19 gz /tmp/work/dist/renderer.js -> /output/renderer.js.gz
+2023/04/14 08:32:19 processed wavesurfer.js
