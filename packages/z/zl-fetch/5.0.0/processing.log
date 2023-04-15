@@ -1,0 +1,29 @@
+2023/04/15 19:12:17 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/04/15 19:12:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/src/handleResponse.min.js /tmp/work/src/handleResponse.js
+2023/04/15 19:12:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/src/createRequestOptions.min.js /tmp/work/src/createRequestOptions.js
+2023/04/15 19:12:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/src/index.min.js /tmp/work/src/index.js
+2023/04/15 19:12:18 sri /tmp/work/src/createRequestOptions.min.js -> /output/createRequestOptions.min.js.sri
+2023/04/15 19:12:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/createRequestOptions.min.js.br /tmp/work/src/createRequestOptions.min.js
+2023/04/15 19:12:18 sri /tmp/work/src/handleResponse.min.js -> /output/handleResponse.min.js.sri
+2023/04/15 19:12:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/handleResponse.min.js.br /tmp/work/src/handleResponse.min.js
+2023/04/15 19:12:18 sri /tmp/work/src/index.min.js -> /output/index.min.js.sri
+2023/04/15 19:12:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/src/index.min.js
+2023/04/15 19:12:18 br /tmp/work/src/createRequestOptions.min.js -> /output/createRequestOptions.min.js.br
+2023/04/15 19:12:18 gz /tmp/work/src/createRequestOptions.min.js -> /output/createRequestOptions.min.js.gz
+2023/04/15 19:12:18 br /tmp/work/src/handleResponse.min.js -> /output/handleResponse.min.js.br
+2023/04/15 19:12:18 sri /tmp/work/src/createRequestOptions.js -> /output/createRequestOptions.js.sri
+2023/04/15 19:12:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/createRequestOptions.js.br /tmp/work/src/createRequestOptions.js
+2023/04/15 19:12:18 gz /tmp/work/src/handleResponse.min.js -> /output/handleResponse.min.js.gz
+2023/04/15 19:12:18 sri /tmp/work/src/handleResponse.js -> /output/handleResponse.js.sri
+2023/04/15 19:12:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/handleResponse.js.br /tmp/work/src/handleResponse.js
+2023/04/15 19:12:18 br /tmp/work/src/index.min.js -> /output/index.min.js.br
+2023/04/15 19:12:18 gz /tmp/work/src/index.min.js -> /output/index.min.js.gz
+2023/04/15 19:12:18 sri /tmp/work/src/index.js -> /output/index.js.sri
+2023/04/15 19:12:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/src/index.js
+2023/04/15 19:12:18 br /tmp/work/src/handleResponse.js -> /output/handleResponse.js.br
+2023/04/15 19:12:18 gz /tmp/work/src/handleResponse.js -> /output/handleResponse.js.gz
+2023/04/15 19:12:18 br /tmp/work/src/createRequestOptions.js -> /output/createRequestOptions.js.br
+2023/04/15 19:12:18 gz /tmp/work/src/createRequestOptions.js -> /output/createRequestOptions.js.gz
+2023/04/15 19:12:18 br /tmp/work/src/index.js -> /output/index.js.br
+2023/04/15 19:12:18 gz /tmp/work/src/index.js -> /output/index.js.gz
+2023/04/15 19:12:18 processed zl-fetch
