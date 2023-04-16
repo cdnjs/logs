@@ -1,0 +1,11 @@
+2023/04/16 11:31:31 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/04/16 11:31:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lunar.min.js /tmp/work/lunar.js
+2023/04/16 11:31:34 sri /tmp/work/lunar.min.js -> /output/lunar.min.js.sri
+2023/04/16 11:31:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lunar.min.js.br /tmp/work/lunar.min.js
+2023/04/16 11:31:35 br /tmp/work/lunar.min.js -> /output/lunar.min.js.br
+2023/04/16 11:31:35 gz /tmp/work/lunar.min.js -> /output/lunar.min.js.gz
+2023/04/16 11:31:35 sri /tmp/work/lunar.js -> /output/lunar.js.sri
+2023/04/16 11:31:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lunar.js.br /tmp/work/lunar.js
+2023/04/16 11:31:36 br /tmp/work/lunar.js -> /output/lunar.js.br
+2023/04/16 11:31:36 gz /tmp/work/lunar.js -> /output/lunar.js.gz
+2023/04/16 11:31:36 processed lunar-javascript
