@@ -1,0 +1,11 @@
+2023/04/21 15:32:51 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/04/21 15:32:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/index.min.js /tmp/work/build/index.js
+2023/04/21 15:32:52 sri /tmp/work/build/index.min.js -> /output/index.min.js.sri
+2023/04/21 15:32:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/build/index.min.js
+2023/04/21 15:32:52 br /tmp/work/build/index.min.js -> /output/index.min.js.br
+2023/04/21 15:32:52 gz /tmp/work/build/index.min.js -> /output/index.min.js.gz
+2023/04/21 15:32:52 sri /tmp/work/build/index.js -> /output/index.js.sri
+2023/04/21 15:32:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/build/index.js
+2023/04/21 15:32:52 br /tmp/work/build/index.js -> /output/index.js.br
+2023/04/21 15:32:52 gz /tmp/work/build/index.js -> /output/index.js.gz
+2023/04/21 15:32:52 processed oauth4webapi
