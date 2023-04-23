@@ -1,0 +1,11 @@
+2023/04/23 09:40:45 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/04/23 09:40:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/standalone.min.js /tmp/work/standalone.js
+2023/04/23 09:40:47 sri /tmp/work/standalone.min.js -> /output/standalone.min.js.sri
+2023/04/23 09:40:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/standalone.min.js.br /tmp/work/standalone.min.js
+2023/04/23 09:40:47 br /tmp/work/standalone.min.js -> /output/standalone.min.js.br
+2023/04/23 09:40:47 gz /tmp/work/standalone.min.js -> /output/standalone.min.js.gz
+2023/04/23 09:40:47 sri /tmp/work/standalone.js -> /output/standalone.js.sri
+2023/04/23 09:40:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/standalone.js.br /tmp/work/standalone.js
+2023/04/23 09:40:47 br /tmp/work/standalone.js -> /output/standalone.js.br
+2023/04/23 09:40:47 gz /tmp/work/standalone.js -> /output/standalone.js.gz
+2023/04/23 09:40:47 processed prettier
