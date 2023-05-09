@@ -1,0 +1,11 @@
+2023/05/09 04:01:28 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/05/09 04:01:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/src/jscanify.min.js /tmp/work/src/jscanify.js
+2023/05/09 04:01:28 sri /tmp/work/src/jscanify.min.js -> /output/jscanify.min.js.sri
+2023/05/09 04:01:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jscanify.min.js.br /tmp/work/src/jscanify.min.js
+2023/05/09 04:01:28 br /tmp/work/src/jscanify.min.js -> /output/jscanify.min.js.br
+2023/05/09 04:01:28 gz /tmp/work/src/jscanify.min.js -> /output/jscanify.min.js.gz
+2023/05/09 04:01:28 sri /tmp/work/src/jscanify.js -> /output/jscanify.js.sri
+2023/05/09 04:01:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jscanify.js.br /tmp/work/src/jscanify.js
+2023/05/09 04:01:28 br /tmp/work/src/jscanify.js -> /output/jscanify.js.br
+2023/05/09 04:01:28 gz /tmp/work/src/jscanify.js -> /output/jscanify.js.gz
+2023/05/09 04:01:28 processed jscanify
