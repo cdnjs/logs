@@ -1,0 +1,92 @@
+2023/06/08 08:07:24 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/06/08 08:07:24 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/for.min.js /tmp/work/dist/for.js
+2023/06/08 08:07:24 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/image.min.js /tmp/work/dist/image.js
+2023/06/08 08:07:24 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/if.min.js /tmp/work/dist/if.js
+2023/06/08 08:07:24 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/choose.min.js /tmp/work/dist/choose.js
+2023/06/08 08:07:24 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/auto-bind.min.js /tmp/work/dist/auto-bind.js
+2023/06/08 08:07:24 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/element-class.min.js /tmp/work/dist/element-class.js
+2023/06/08 08:07:24 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/body-class.min.js /tmp/work/dist/body-class.js
+2023/06/08 08:07:24 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/class-names.min.js /tmp/work/dist/class-names.js
+2023/06/08 08:07:24 sri /tmp/work/dist/for.min.js -> /output/for.min.js.sri
+2023/06/08 08:07:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/for.min.js.br /tmp/work/dist/for.min.js
+2023/06/08 08:07:24 sri /tmp/work/dist/if.min.js -> /output/if.min.js.sri
+2023/06/08 08:07:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/if.min.js.br /tmp/work/dist/if.min.js
+2023/06/08 08:07:24 br /tmp/work/dist/for.min.js -> /output/for.min.js.br
+2023/06/08 08:07:24 gz /tmp/work/dist/for.min.js -> /output/for.min.js.gz
+2023/06/08 08:07:24 sri /tmp/work/dist/for.js -> /output/for.js.sri
+2023/06/08 08:07:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/for.js.br /tmp/work/dist/for.js
+2023/06/08 08:07:24 br /tmp/work/dist/if.min.js -> /output/if.min.js.br
+2023/06/08 08:07:24 br /tmp/work/dist/for.js -> /output/for.js.br
+2023/06/08 08:07:24 sri /tmp/work/dist/body-class.min.js -> /output/body-class.min.js.sri
+2023/06/08 08:07:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/body-class.min.js.br /tmp/work/dist/body-class.min.js
+2023/06/08 08:07:24 gz /tmp/work/dist/if.min.js -> /output/if.min.js.gz
+2023/06/08 08:07:24 sri /tmp/work/dist/if.js -> /output/if.js.sri
+2023/06/08 08:07:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/if.js.br /tmp/work/dist/if.js
+2023/06/08 08:07:24 gz /tmp/work/dist/for.js -> /output/for.js.gz
+2023/06/08 08:07:24 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.min.js /tmp/work/dist/index.js
+2023/06/08 08:07:24 br /tmp/work/dist/body-class.min.js -> /output/body-class.min.js.br
+2023/06/08 08:07:24 gz /tmp/work/dist/body-class.min.js -> /output/body-class.min.js.gz
+2023/06/08 08:07:24 sri /tmp/work/dist/body-class.js -> /output/body-class.js.sri
+2023/06/08 08:07:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/body-class.js.br /tmp/work/dist/body-class.js
+2023/06/08 08:07:24 br /tmp/work/dist/if.js -> /output/if.js.br
+2023/06/08 08:07:24 gz /tmp/work/dist/if.js -> /output/if.js.gz
+2023/06/08 08:07:24 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/root-class.min.js /tmp/work/dist/root-class.js
+2023/06/08 08:07:24 br /tmp/work/dist/body-class.js -> /output/body-class.js.br
+2023/06/08 08:07:24 gz /tmp/work/dist/body-class.js -> /output/body-class.js.gz
+2023/06/08 08:07:24 sri /tmp/work/dist/element-class.min.js -> /output/element-class.min.js.sri
+2023/06/08 08:07:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/element-class.min.js.br /tmp/work/dist/element-class.min.js
+2023/06/08 08:07:24 sri /tmp/work/dist/class-names.min.js -> /output/class-names.min.js.sri
+2023/06/08 08:07:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/class-names.min.js.br /tmp/work/dist/class-names.min.js
+2023/06/08 08:07:24 sri /tmp/work/dist/choose.min.js -> /output/choose.min.js.sri
+2023/06/08 08:07:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/choose.min.js.br /tmp/work/dist/choose.min.js
+2023/06/08 08:07:24 br /tmp/work/dist/element-class.min.js -> /output/element-class.min.js.br
+2023/06/08 08:07:24 gz /tmp/work/dist/element-class.min.js -> /output/element-class.min.js.gz
+2023/06/08 08:07:24 sri /tmp/work/dist/element-class.js -> /output/element-class.js.sri
+2023/06/08 08:07:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/element-class.js.br /tmp/work/dist/element-class.js
+2023/06/08 08:07:24 br /tmp/work/dist/class-names.min.js -> /output/class-names.min.js.br
+2023/06/08 08:07:24 gz /tmp/work/dist/class-names.min.js -> /output/class-names.min.js.gz
+2023/06/08 08:07:24 sri /tmp/work/dist/class-names.js -> /output/class-names.js.sri
+2023/06/08 08:07:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/class-names.js.br /tmp/work/dist/class-names.js
+2023/06/08 08:07:24 br /tmp/work/dist/choose.min.js -> /output/choose.min.js.br
+2023/06/08 08:07:24 gz /tmp/work/dist/choose.min.js -> /output/choose.min.js.gz
+2023/06/08 08:07:24 sri /tmp/work/dist/choose.js -> /output/choose.js.sri
+2023/06/08 08:07:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/choose.js.br /tmp/work/dist/choose.js
+2023/06/08 08:07:24 br /tmp/work/dist/element-class.js -> /output/element-class.js.br
+2023/06/08 08:07:24 gz /tmp/work/dist/element-class.js -> /output/element-class.js.gz
+2023/06/08 08:07:24 br /tmp/work/dist/class-names.js -> /output/class-names.js.br
+2023/06/08 08:07:24 gz /tmp/work/dist/class-names.js -> /output/class-names.js.gz
+2023/06/08 08:07:24 br /tmp/work/dist/choose.js -> /output/choose.js.br
+2023/06/08 08:07:24 gz /tmp/work/dist/choose.js -> /output/choose.js.gz
+2023/06/08 08:07:24 sri /tmp/work/dist/image.min.js -> /output/image.min.js.sri
+2023/06/08 08:07:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/image.min.js.br /tmp/work/dist/image.min.js
+2023/06/08 08:07:24 br /tmp/work/dist/image.min.js -> /output/image.min.js.br
+2023/06/08 08:07:24 gz /tmp/work/dist/image.min.js -> /output/image.min.js.gz
+2023/06/08 08:07:24 sri /tmp/work/dist/image.js -> /output/image.js.sri
+2023/06/08 08:07:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/image.js.br /tmp/work/dist/image.js
+2023/06/08 08:07:24 br /tmp/work/dist/image.js -> /output/image.js.br
+2023/06/08 08:07:24 gz /tmp/work/dist/image.js -> /output/image.js.gz
+2023/06/08 08:07:24 sri /tmp/work/dist/auto-bind.min.js -> /output/auto-bind.min.js.sri
+2023/06/08 08:07:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/auto-bind.min.js.br /tmp/work/dist/auto-bind.min.js
+2023/06/08 08:07:24 br /tmp/work/dist/auto-bind.min.js -> /output/auto-bind.min.js.br
+2023/06/08 08:07:24 gz /tmp/work/dist/auto-bind.min.js -> /output/auto-bind.min.js.gz
+2023/06/08 08:07:24 sri /tmp/work/dist/auto-bind.js -> /output/auto-bind.js.sri
+2023/06/08 08:07:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/auto-bind.js.br /tmp/work/dist/auto-bind.js
+2023/06/08 08:07:24 br /tmp/work/dist/auto-bind.js -> /output/auto-bind.js.br
+2023/06/08 08:07:24 gz /tmp/work/dist/auto-bind.js -> /output/auto-bind.js.gz
+2023/06/08 08:07:24 sri /tmp/work/dist/root-class.min.js -> /output/root-class.min.js.sri
+2023/06/08 08:07:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/root-class.min.js.br /tmp/work/dist/root-class.min.js
+2023/06/08 08:07:24 br /tmp/work/dist/root-class.min.js -> /output/root-class.min.js.br
+2023/06/08 08:07:24 gz /tmp/work/dist/root-class.min.js -> /output/root-class.min.js.gz
+2023/06/08 08:07:24 sri /tmp/work/dist/root-class.js -> /output/root-class.js.sri
+2023/06/08 08:07:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/root-class.js.br /tmp/work/dist/root-class.js
+2023/06/08 08:07:24 br /tmp/work/dist/root-class.js -> /output/root-class.js.br
+2023/06/08 08:07:24 gz /tmp/work/dist/root-class.js -> /output/root-class.js.gz
+2023/06/08 08:07:24 sri /tmp/work/dist/index.min.js -> /output/index.min.js.sri
+2023/06/08 08:07:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/dist/index.min.js
+2023/06/08 08:07:24 br /tmp/work/dist/index.min.js -> /output/index.min.js.br
+2023/06/08 08:07:24 gz /tmp/work/dist/index.min.js -> /output/index.min.js.gz
+2023/06/08 08:07:24 sri /tmp/work/dist/index.js -> /output/index.js.sri
+2023/06/08 08:07:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/dist/index.js
+2023/06/08 08:07:24 br /tmp/work/dist/index.js -> /output/index.js.br
+2023/06/08 08:07:24 gz /tmp/work/dist/index.js -> /output/index.js.gz
+2023/06/08 08:07:24 processed react-extras
