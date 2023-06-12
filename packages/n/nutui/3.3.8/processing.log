@@ -1,0 +1,20 @@
+2023/06/12 05:07:12 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/06/12 05:07:13 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/nutui.umd.min.js /tmp/work/dist/nutui.umd.js
+2023/06/12 05:07:13 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/style.min.css /tmp/work/dist/style.css
+2023/06/12 05:07:13 sri /tmp/work/dist/style.min.css -> /output/style.min.css.sri
+2023/06/12 05:07:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/style.min.css.br /tmp/work/dist/style.min.css
+2023/06/12 05:07:14 br /tmp/work/dist/style.min.css -> /output/style.min.css.br
+2023/06/12 05:07:14 gz /tmp/work/dist/style.min.css -> /output/style.min.css.gz
+2023/06/12 05:07:14 sri /tmp/work/dist/style.css -> /output/style.css.sri
+2023/06/12 05:07:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/style.css.br /tmp/work/dist/style.css
+2023/06/12 05:07:14 br /tmp/work/dist/style.css -> /output/style.css.br
+2023/06/12 05:07:14 gz /tmp/work/dist/style.css -> /output/style.css.gz
+2023/06/12 05:07:17 sri /tmp/work/dist/nutui.umd.min.js -> /output/nutui.umd.min.js.sri
+2023/06/12 05:07:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nutui.umd.min.js.br /tmp/work/dist/nutui.umd.min.js
+2023/06/12 05:07:18 br /tmp/work/dist/nutui.umd.min.js -> /output/nutui.umd.min.js.br
+2023/06/12 05:07:18 gz /tmp/work/dist/nutui.umd.min.js -> /output/nutui.umd.min.js.gz
+2023/06/12 05:07:18 sri /tmp/work/dist/nutui.umd.js -> /output/nutui.umd.js.sri
+2023/06/12 05:07:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nutui.umd.js.br /tmp/work/dist/nutui.umd.js
+2023/06/12 05:07:19 br /tmp/work/dist/nutui.umd.js -> /output/nutui.umd.js.br
+2023/06/12 05:07:19 gz /tmp/work/dist/nutui.umd.js -> /output/nutui.umd.js.gz
+2023/06/12 05:07:19 processed nutui
