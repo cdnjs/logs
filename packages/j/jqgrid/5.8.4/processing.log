@@ -1,0 +1,1249 @@
+2023/06/26 15:30:27 ExtractTarGz: uknown type: 67 in pax_global_header
+2023/06/26 15:30:27 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/06/26 15:30:28 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/css/ui.jqgrid-bootstrap-ui.min.css /tmp/work/css/ui.jqgrid-bootstrap-ui.css
+2023/06/26 15:30:28 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/css/ui.jqgrid-bootstrap.min.css /tmp/work/css/ui.jqgrid-bootstrap.css
+2023/06/26 15:30:28 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/css/ui.jqgrid-bootstrap4.min.css /tmp/work/css/ui.jqgrid-bootstrap4.css
+2023/06/26 15:30:28 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/css/ui.jqgrid-bootstrap5.min.css /tmp/work/css/ui.jqgrid-bootstrap5.css
+2023/06/26 15:30:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/grid.base.min.js /tmp/work/js/grid.base.js
+2023/06/26 15:30:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/grid.aria.min.js /tmp/work/js/grid.aria.js
+2023/06/26 15:30:28 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/css/ui.jqgrid.min.css /tmp/work/css/ui.jqgrid.css
+2023/06/26 15:30:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/grid.celledit.min.js /tmp/work/js/grid.celledit.js
+2023/06/26 15:30:28 sri /tmp/work/css/ui.jqgrid-bootstrap-ui.min.css -> /output/css/ui.jqgrid-bootstrap-ui.min.css.sri
+2023/06/26 15:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/ui.jqgrid-bootstrap-ui.min.css.br /tmp/work/css/ui.jqgrid-bootstrap-ui.min.css
+2023/06/26 15:30:28 br /tmp/work/css/ui.jqgrid-bootstrap-ui.min.css -> /output/css/ui.jqgrid-bootstrap-ui.min.css.br
+2023/06/26 15:30:28 gz /tmp/work/css/ui.jqgrid-bootstrap-ui.min.css -> /output/css/ui.jqgrid-bootstrap-ui.min.css.gz
+2023/06/26 15:30:28 sri /tmp/work/css/ui.jqgrid-bootstrap-ui.css -> /output/css/ui.jqgrid-bootstrap-ui.css.sri
+2023/06/26 15:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/ui.jqgrid-bootstrap-ui.css.br /tmp/work/css/ui.jqgrid-bootstrap-ui.css
+2023/06/26 15:30:28 br /tmp/work/css/ui.jqgrid-bootstrap-ui.css -> /output/css/ui.jqgrid-bootstrap-ui.css.br
+2023/06/26 15:30:28 gz /tmp/work/css/ui.jqgrid-bootstrap-ui.css -> /output/css/ui.jqgrid-bootstrap-ui.css.gz
+2023/06/26 15:30:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/grid.common.min.js /tmp/work/js/grid.common.js
+2023/06/26 15:30:28 sri /tmp/work/css/ui.jqgrid-bootstrap.min.css -> /output/css/ui.jqgrid-bootstrap.min.css.sri
+2023/06/26 15:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/ui.jqgrid-bootstrap.min.css.br /tmp/work/css/ui.jqgrid-bootstrap.min.css
+2023/06/26 15:30:28 sri /tmp/work/css/ui.jqgrid.min.css -> /output/css/ui.jqgrid.min.css.sri
+2023/06/26 15:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/ui.jqgrid.min.css.br /tmp/work/css/ui.jqgrid.min.css
+2023/06/26 15:30:28 sri /tmp/work/css/ui.jqgrid-bootstrap4.min.css -> /output/css/ui.jqgrid-bootstrap4.min.css.sri
+2023/06/26 15:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/ui.jqgrid-bootstrap4.min.css.br /tmp/work/css/ui.jqgrid-bootstrap4.min.css
+2023/06/26 15:30:28 br /tmp/work/css/ui.jqgrid-bootstrap.min.css -> /output/css/ui.jqgrid-bootstrap.min.css.br
+2023/06/26 15:30:28 gz /tmp/work/css/ui.jqgrid-bootstrap.min.css -> /output/css/ui.jqgrid-bootstrap.min.css.gz
+2023/06/26 15:30:28 sri /tmp/work/css/ui.jqgrid-bootstrap.css -> /output/css/ui.jqgrid-bootstrap.css.sri
+2023/06/26 15:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/ui.jqgrid-bootstrap.css.br /tmp/work/css/ui.jqgrid-bootstrap.css
+2023/06/26 15:30:28 sri /tmp/work/css/ui.jqgrid-bootstrap5.min.css -> /output/css/ui.jqgrid-bootstrap5.min.css.sri
+2023/06/26 15:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/ui.jqgrid-bootstrap5.min.css.br /tmp/work/css/ui.jqgrid-bootstrap5.min.css
+2023/06/26 15:30:28 br /tmp/work/css/ui.jqgrid.min.css -> /output/css/ui.jqgrid.min.css.br
+2023/06/26 15:30:28 gz /tmp/work/css/ui.jqgrid.min.css -> /output/css/ui.jqgrid.min.css.gz
+2023/06/26 15:30:28 sri /tmp/work/css/ui.jqgrid.css -> /output/css/ui.jqgrid.css.sri
+2023/06/26 15:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/ui.jqgrid.css.br /tmp/work/css/ui.jqgrid.css
+2023/06/26 15:30:28 br /tmp/work/css/ui.jqgrid-bootstrap4.min.css -> /output/css/ui.jqgrid-bootstrap4.min.css.br
+2023/06/26 15:30:28 gz /tmp/work/css/ui.jqgrid-bootstrap4.min.css -> /output/css/ui.jqgrid-bootstrap4.min.css.gz
+2023/06/26 15:30:28 sri /tmp/work/css/ui.jqgrid-bootstrap4.css -> /output/css/ui.jqgrid-bootstrap4.css.sri
+2023/06/26 15:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/ui.jqgrid-bootstrap4.css.br /tmp/work/css/ui.jqgrid-bootstrap4.css
+2023/06/26 15:30:28 br /tmp/work/css/ui.jqgrid-bootstrap.css -> /output/css/ui.jqgrid-bootstrap.css.br
+2023/06/26 15:30:28 gz /tmp/work/css/ui.jqgrid-bootstrap.css -> /output/css/ui.jqgrid-bootstrap.css.gz
+2023/06/26 15:30:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/grid.database.min.js /tmp/work/js/grid.database.js
+2023/06/26 15:30:28 br /tmp/work/css/ui.jqgrid-bootstrap5.min.css -> /output/css/ui.jqgrid-bootstrap5.min.css.br
+2023/06/26 15:30:28 gz /tmp/work/css/ui.jqgrid-bootstrap5.min.css -> /output/css/ui.jqgrid-bootstrap5.min.css.gz
+2023/06/26 15:30:28 sri /tmp/work/css/ui.jqgrid-bootstrap5.css -> /output/css/ui.jqgrid-bootstrap5.css.sri
+2023/06/26 15:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/ui.jqgrid-bootstrap5.css.br /tmp/work/css/ui.jqgrid-bootstrap5.css
+2023/06/26 15:30:28 br /tmp/work/css/ui.jqgrid.css -> /output/css/ui.jqgrid.css.br
+2023/06/26 15:30:28 gz /tmp/work/css/ui.jqgrid.css -> /output/css/ui.jqgrid.css.gz
+2023/06/26 15:30:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/grid.export.min.js /tmp/work/js/grid.export.js
+2023/06/26 15:30:28 br /tmp/work/css/ui.jqgrid-bootstrap4.css -> /output/css/ui.jqgrid-bootstrap4.css.br
+2023/06/26 15:30:28 gz /tmp/work/css/ui.jqgrid-bootstrap4.css -> /output/css/ui.jqgrid-bootstrap4.css.gz
+2023/06/26 15:30:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/grid.filter.min.js /tmp/work/js/grid.filter.js
+2023/06/26 15:30:28 br /tmp/work/css/ui.jqgrid-bootstrap5.css -> /output/css/ui.jqgrid-bootstrap5.css.br
+2023/06/26 15:30:28 gz /tmp/work/css/ui.jqgrid-bootstrap5.css -> /output/css/ui.jqgrid-bootstrap5.css.gz
+2023/06/26 15:30:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/grid.formedit.min.js /tmp/work/js/grid.formedit.js
+2023/06/26 15:30:28 sri /tmp/work/js/grid.database.min.js -> /output/js/grid.database.min.js.sri
+2023/06/26 15:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.database.min.js.br /tmp/work/js/grid.database.min.js
+2023/06/26 15:30:28 br /tmp/work/js/grid.database.min.js -> /output/js/grid.database.min.js.br
+2023/06/26 15:30:28 gz /tmp/work/js/grid.database.min.js -> /output/js/grid.database.min.js.gz
+2023/06/26 15:30:28 sri /tmp/work/js/grid.database.js -> /output/js/grid.database.js.sri
+2023/06/26 15:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.database.js.br /tmp/work/js/grid.database.js
+2023/06/26 15:30:28 br /tmp/work/js/grid.database.js -> /output/js/grid.database.js.br
+2023/06/26 15:30:28 gz /tmp/work/js/grid.database.js -> /output/js/grid.database.js.gz
+2023/06/26 15:30:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/grid.frozenrows.min.js /tmp/work/js/grid.frozenrows.js
+2023/06/26 15:30:29 sri /tmp/work/js/grid.aria.min.js -> /output/js/grid.aria.min.js.sri
+2023/06/26 15:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.aria.min.js.br /tmp/work/js/grid.aria.min.js
+2023/06/26 15:30:29 br /tmp/work/js/grid.aria.min.js -> /output/js/grid.aria.min.js.br
+2023/06/26 15:30:29 gz /tmp/work/js/grid.aria.min.js -> /output/js/grid.aria.min.js.gz
+2023/06/26 15:30:29 sri /tmp/work/js/grid.aria.js -> /output/js/grid.aria.js.sri
+2023/06/26 15:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.aria.js.br /tmp/work/js/grid.aria.js
+2023/06/26 15:30:29 sri /tmp/work/js/grid.frozenrows.min.js -> /output/js/grid.frozenrows.min.js.sri
+2023/06/26 15:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.frozenrows.min.js.br /tmp/work/js/grid.frozenrows.min.js
+2023/06/26 15:30:29 br /tmp/work/js/grid.frozenrows.min.js -> /output/js/grid.frozenrows.min.js.br
+2023/06/26 15:30:29 gz /tmp/work/js/grid.frozenrows.min.js -> /output/js/grid.frozenrows.min.js.gz
+2023/06/26 15:30:29 sri /tmp/work/js/grid.frozenrows.js -> /output/js/grid.frozenrows.js.sri
+2023/06/26 15:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.frozenrows.js.br /tmp/work/js/grid.frozenrows.js
+2023/06/26 15:30:29 br /tmp/work/js/grid.frozenrows.js -> /output/js/grid.frozenrows.js.br
+2023/06/26 15:30:29 gz /tmp/work/js/grid.frozenrows.js -> /output/js/grid.frozenrows.js.gz
+2023/06/26 15:30:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/grid.grouping.min.js /tmp/work/js/grid.grouping.js
+2023/06/26 15:30:29 br /tmp/work/js/grid.aria.js -> /output/js/grid.aria.js.br
+2023/06/26 15:30:29 gz /tmp/work/js/grid.aria.js -> /output/js/grid.aria.js.gz
+2023/06/26 15:30:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/grid.import.min.js /tmp/work/js/grid.import.js
+2023/06/26 15:30:29 sri /tmp/work/js/grid.celledit.min.js -> /output/js/grid.celledit.min.js.sri
+2023/06/26 15:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.celledit.min.js.br /tmp/work/js/grid.celledit.min.js
+2023/06/26 15:30:29 br /tmp/work/js/grid.celledit.min.js -> /output/js/grid.celledit.min.js.br
+2023/06/26 15:30:29 gz /tmp/work/js/grid.celledit.min.js -> /output/js/grid.celledit.min.js.gz
+2023/06/26 15:30:29 sri /tmp/work/js/grid.celledit.js -> /output/js/grid.celledit.js.sri
+2023/06/26 15:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.celledit.js.br /tmp/work/js/grid.celledit.js
+2023/06/26 15:30:29 br /tmp/work/js/grid.celledit.js -> /output/js/grid.celledit.js.br
+2023/06/26 15:30:29 gz /tmp/work/js/grid.celledit.js -> /output/js/grid.celledit.js.gz
+2023/06/26 15:30:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/grid.inlinedit.min.js /tmp/work/js/grid.inlinedit.js
+2023/06/26 15:30:29 sri /tmp/work/js/grid.common.min.js -> /output/js/grid.common.min.js.sri
+2023/06/26 15:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.common.min.js.br /tmp/work/js/grid.common.min.js
+2023/06/26 15:30:29 br /tmp/work/js/grid.common.min.js -> /output/js/grid.common.min.js.br
+2023/06/26 15:30:29 gz /tmp/work/js/grid.common.min.js -> /output/js/grid.common.min.js.gz
+2023/06/26 15:30:29 sri /tmp/work/js/grid.common.js -> /output/js/grid.common.js.sri
+2023/06/26 15:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.common.js.br /tmp/work/js/grid.common.js
+2023/06/26 15:30:29 br /tmp/work/js/grid.common.js -> /output/js/grid.common.js.br
+2023/06/26 15:30:29 gz /tmp/work/js/grid.common.js -> /output/js/grid.common.js.gz
+2023/06/26 15:30:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/grid.jqueryui.min.js /tmp/work/js/grid.jqueryui.js
+2023/06/26 15:30:30 sri /tmp/work/js/grid.import.min.js -> /output/js/grid.import.min.js.sri
+2023/06/26 15:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.import.min.js.br /tmp/work/js/grid.import.min.js
+2023/06/26 15:30:30 br /tmp/work/js/grid.import.min.js -> /output/js/grid.import.min.js.br
+2023/06/26 15:30:30 gz /tmp/work/js/grid.import.min.js -> /output/js/grid.import.min.js.gz
+2023/06/26 15:30:30 sri /tmp/work/js/grid.import.js -> /output/js/grid.import.js.sri
+2023/06/26 15:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.import.js.br /tmp/work/js/grid.import.js
+2023/06/26 15:30:30 br /tmp/work/js/grid.import.js -> /output/js/grid.import.js.br
+2023/06/26 15:30:30 gz /tmp/work/js/grid.import.js -> /output/js/grid.import.js.gz
+2023/06/26 15:30:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/grid.pivot.min.js /tmp/work/js/grid.pivot.js
+2023/06/26 15:30:30 sri /tmp/work/js/grid.grouping.min.js -> /output/js/grid.grouping.min.js.sri
+2023/06/26 15:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.grouping.min.js.br /tmp/work/js/grid.grouping.min.js
+2023/06/26 15:30:30 br /tmp/work/js/grid.grouping.min.js -> /output/js/grid.grouping.min.js.br
+2023/06/26 15:30:30 gz /tmp/work/js/grid.grouping.min.js -> /output/js/grid.grouping.min.js.gz
+2023/06/26 15:30:30 sri /tmp/work/js/grid.grouping.js -> /output/js/grid.grouping.js.sri
+2023/06/26 15:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.grouping.js.br /tmp/work/js/grid.grouping.js
+2023/06/26 15:30:30 sri /tmp/work/js/grid.export.min.js -> /output/js/grid.export.min.js.sri
+2023/06/26 15:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.export.min.js.br /tmp/work/js/grid.export.min.js
+2023/06/26 15:30:30 br /tmp/work/js/grid.grouping.js -> /output/js/grid.grouping.js.br
+2023/06/26 15:30:30 gz /tmp/work/js/grid.grouping.js -> /output/js/grid.grouping.js.gz
+2023/06/26 15:30:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/grid.subgrid.min.js /tmp/work/js/grid.subgrid.js
+2023/06/26 15:30:30 br /tmp/work/js/grid.export.min.js -> /output/js/grid.export.min.js.br
+2023/06/26 15:30:30 gz /tmp/work/js/grid.export.min.js -> /output/js/grid.export.min.js.gz
+2023/06/26 15:30:30 sri /tmp/work/js/grid.export.js -> /output/js/grid.export.js.sri
+2023/06/26 15:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.export.js.br /tmp/work/js/grid.export.js
+2023/06/26 15:30:30 sri /tmp/work/js/grid.inlinedit.min.js -> /output/js/grid.inlinedit.min.js.sri
+2023/06/26 15:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.inlinedit.min.js.br /tmp/work/js/grid.inlinedit.min.js
+2023/06/26 15:30:30 sri /tmp/work/js/grid.jqueryui.min.js -> /output/js/grid.jqueryui.min.js.sri
+2023/06/26 15:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.jqueryui.min.js.br /tmp/work/js/grid.jqueryui.min.js
+2023/06/26 15:30:30 sri /tmp/work/js/grid.filter.min.js -> /output/js/grid.filter.min.js.sri
+2023/06/26 15:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.filter.min.js.br /tmp/work/js/grid.filter.min.js
+2023/06/26 15:30:30 br /tmp/work/js/grid.export.js -> /output/js/grid.export.js.br
+2023/06/26 15:30:31 gz /tmp/work/js/grid.export.js -> /output/js/grid.export.js.gz
+2023/06/26 15:30:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/grid.transposed.min.js /tmp/work/js/grid.transposed.js
+2023/06/26 15:30:31 br /tmp/work/js/grid.inlinedit.min.js -> /output/js/grid.inlinedit.min.js.br
+2023/06/26 15:30:31 gz /tmp/work/js/grid.inlinedit.min.js -> /output/js/grid.inlinedit.min.js.gz
+2023/06/26 15:30:31 sri /tmp/work/js/grid.inlinedit.js -> /output/js/grid.inlinedit.js.sri
+2023/06/26 15:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.inlinedit.js.br /tmp/work/js/grid.inlinedit.js
+2023/06/26 15:30:31 br /tmp/work/js/grid.jqueryui.min.js -> /output/js/grid.jqueryui.min.js.br
+2023/06/26 15:30:31 gz /tmp/work/js/grid.jqueryui.min.js -> /output/js/grid.jqueryui.min.js.gz
+2023/06/26 15:30:31 sri /tmp/work/js/grid.jqueryui.js -> /output/js/grid.jqueryui.js.sri
+2023/06/26 15:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.jqueryui.js.br /tmp/work/js/grid.jqueryui.js
+2023/06/26 15:30:31 br /tmp/work/js/grid.inlinedit.js -> /output/js/grid.inlinedit.js.br
+2023/06/26 15:30:31 br /tmp/work/js/grid.jqueryui.js -> /output/js/grid.jqueryui.js.br
+2023/06/26 15:30:31 gz /tmp/work/js/grid.inlinedit.js -> /output/js/grid.inlinedit.js.gz
+2023/06/26 15:30:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/grid.treegrid.min.js /tmp/work/js/grid.treegrid.js
+2023/06/26 15:30:31 gz /tmp/work/js/grid.jqueryui.js -> /output/js/grid.jqueryui.js.gz
+2023/06/26 15:30:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/grid.utils.min.js /tmp/work/js/grid.utils.js
+2023/06/26 15:30:31 br /tmp/work/js/grid.filter.min.js -> /output/js/grid.filter.min.js.br
+2023/06/26 15:30:31 gz /tmp/work/js/grid.filter.min.js -> /output/js/grid.filter.min.js.gz
+2023/06/26 15:30:31 sri /tmp/work/js/grid.filter.js -> /output/js/grid.filter.js.sri
+2023/06/26 15:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.filter.js.br /tmp/work/js/grid.filter.js
+2023/06/26 15:30:31 br /tmp/work/js/grid.filter.js -> /output/js/grid.filter.js.br
+2023/06/26 15:30:31 gz /tmp/work/js/grid.filter.js -> /output/js/grid.filter.js.gz
+2023/06/26 15:30:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-ar.min.js /tmp/work/js/i18n/grid.locale-ar.js
+2023/06/26 15:30:31 sri /tmp/work/js/grid.pivot.min.js -> /output/js/grid.pivot.min.js.sri
+2023/06/26 15:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.pivot.min.js.br /tmp/work/js/grid.pivot.min.js
+2023/06/26 15:30:31 br /tmp/work/js/grid.pivot.min.js -> /output/js/grid.pivot.min.js.br
+2023/06/26 15:30:31 gz /tmp/work/js/grid.pivot.min.js -> /output/js/grid.pivot.min.js.gz
+2023/06/26 15:30:31 sri /tmp/work/js/grid.pivot.js -> /output/js/grid.pivot.js.sri
+2023/06/26 15:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.pivot.js.br /tmp/work/js/grid.pivot.js
+2023/06/26 15:30:31 sri /tmp/work/js/grid.transposed.min.js -> /output/js/grid.transposed.min.js.sri
+2023/06/26 15:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.transposed.min.js.br /tmp/work/js/grid.transposed.min.js
+2023/06/26 15:30:31 br /tmp/work/js/grid.transposed.min.js -> /output/js/grid.transposed.min.js.br
+2023/06/26 15:30:31 gz /tmp/work/js/grid.transposed.min.js -> /output/js/grid.transposed.min.js.gz
+2023/06/26 15:30:31 sri /tmp/work/js/grid.transposed.js -> /output/js/grid.transposed.js.sri
+2023/06/26 15:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.transposed.js.br /tmp/work/js/grid.transposed.js
+2023/06/26 15:30:31 br /tmp/work/js/grid.pivot.js -> /output/js/grid.pivot.js.br
+2023/06/26 15:30:31 br /tmp/work/js/grid.transposed.js -> /output/js/grid.transposed.js.br
+2023/06/26 15:30:31 gz /tmp/work/js/grid.transposed.js -> /output/js/grid.transposed.js.gz
+2023/06/26 15:30:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-bg.min.js /tmp/work/js/i18n/grid.locale-bg.js
+2023/06/26 15:30:31 gz /tmp/work/js/grid.pivot.js -> /output/js/grid.pivot.js.gz
+2023/06/26 15:30:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-ca.min.js /tmp/work/js/i18n/grid.locale-ca.js
+2023/06/26 15:30:31 sri /tmp/work/js/grid.subgrid.min.js -> /output/js/grid.subgrid.min.js.sri
+2023/06/26 15:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.subgrid.min.js.br /tmp/work/js/grid.subgrid.min.js
+2023/06/26 15:30:31 br /tmp/work/js/grid.subgrid.min.js -> /output/js/grid.subgrid.min.js.br
+2023/06/26 15:30:31 gz /tmp/work/js/grid.subgrid.min.js -> /output/js/grid.subgrid.min.js.gz
+2023/06/26 15:30:31 sri /tmp/work/js/grid.subgrid.js -> /output/js/grid.subgrid.js.sri
+2023/06/26 15:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.subgrid.js.br /tmp/work/js/grid.subgrid.js
+2023/06/26 15:30:31 br /tmp/work/js/grid.subgrid.js -> /output/js/grid.subgrid.js.br
+2023/06/26 15:30:31 gz /tmp/work/js/grid.subgrid.js -> /output/js/grid.subgrid.js.gz
+2023/06/26 15:30:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-cn.min.js /tmp/work/js/i18n/grid.locale-cn.js
+2023/06/26 15:30:31 sri /tmp/work/js/i18n/grid.locale-ar.min.js -> /output/js/i18n/grid.locale-ar.min.js.sri
+2023/06/26 15:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-ar.min.js.br /tmp/work/js/i18n/grid.locale-ar.min.js
+2023/06/26 15:30:31 br /tmp/work/js/i18n/grid.locale-ar.min.js -> /output/js/i18n/grid.locale-ar.min.js.br
+2023/06/26 15:30:31 gz /tmp/work/js/i18n/grid.locale-ar.min.js -> /output/js/i18n/grid.locale-ar.min.js.gz
+2023/06/26 15:30:31 sri /tmp/work/js/i18n/grid.locale-ar.js -> /output/js/i18n/grid.locale-ar.js.sri
+2023/06/26 15:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-ar.js.br /tmp/work/js/i18n/grid.locale-ar.js
+2023/06/26 15:30:31 sri /tmp/work/js/grid.utils.min.js -> /output/js/grid.utils.min.js.sri
+2023/06/26 15:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.utils.min.js.br /tmp/work/js/grid.utils.min.js
+2023/06/26 15:30:31 br /tmp/work/js/i18n/grid.locale-ar.js -> /output/js/i18n/grid.locale-ar.js.br
+2023/06/26 15:30:31 gz /tmp/work/js/i18n/grid.locale-ar.js -> /output/js/i18n/grid.locale-ar.js.gz
+2023/06/26 15:30:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-cs.min.js /tmp/work/js/i18n/grid.locale-cs.js
+2023/06/26 15:30:31 br /tmp/work/js/grid.utils.min.js -> /output/js/grid.utils.min.js.br
+2023/06/26 15:30:31 gz /tmp/work/js/grid.utils.min.js -> /output/js/grid.utils.min.js.gz
+2023/06/26 15:30:31 sri /tmp/work/js/grid.utils.js -> /output/js/grid.utils.js.sri
+2023/06/26 15:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.utils.js.br /tmp/work/js/grid.utils.js
+2023/06/26 15:30:31 br /tmp/work/js/grid.utils.js -> /output/js/grid.utils.js.br
+2023/06/26 15:30:31 gz /tmp/work/js/grid.utils.js -> /output/js/grid.utils.js.gz
+2023/06/26 15:30:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-de.min.js /tmp/work/js/i18n/grid.locale-de.js
+2023/06/26 15:30:31 sri /tmp/work/js/i18n/grid.locale-ca.min.js -> /output/js/i18n/grid.locale-ca.min.js.sri
+2023/06/26 15:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-ca.min.js.br /tmp/work/js/i18n/grid.locale-ca.min.js
+2023/06/26 15:30:31 br /tmp/work/js/i18n/grid.locale-ca.min.js -> /output/js/i18n/grid.locale-ca.min.js.br
+2023/06/26 15:30:31 gz /tmp/work/js/i18n/grid.locale-ca.min.js -> /output/js/i18n/grid.locale-ca.min.js.gz
+2023/06/26 15:30:31 sri /tmp/work/js/i18n/grid.locale-ca.js -> /output/js/i18n/grid.locale-ca.js.sri
+2023/06/26 15:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-ca.js.br /tmp/work/js/i18n/grid.locale-ca.js
+2023/06/26 15:30:31 sri /tmp/work/js/i18n/grid.locale-bg.min.js -> /output/js/i18n/grid.locale-bg.min.js.sri
+2023/06/26 15:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-bg.min.js.br /tmp/work/js/i18n/grid.locale-bg.min.js
+2023/06/26 15:30:31 br /tmp/work/js/i18n/grid.locale-ca.js -> /output/js/i18n/grid.locale-ca.js.br
+2023/06/26 15:30:31 gz /tmp/work/js/i18n/grid.locale-ca.js -> /output/js/i18n/grid.locale-ca.js.gz
+2023/06/26 15:30:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-dk.min.js /tmp/work/js/i18n/grid.locale-dk.js
+2023/06/26 15:30:31 sri /tmp/work/js/grid.formedit.min.js -> /output/js/grid.formedit.min.js.sri
+2023/06/26 15:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.formedit.min.js.br /tmp/work/js/grid.formedit.min.js
+2023/06/26 15:30:31 br /tmp/work/js/i18n/grid.locale-bg.min.js -> /output/js/i18n/grid.locale-bg.min.js.br
+2023/06/26 15:30:31 gz /tmp/work/js/i18n/grid.locale-bg.min.js -> /output/js/i18n/grid.locale-bg.min.js.gz
+2023/06/26 15:30:31 sri /tmp/work/js/i18n/grid.locale-bg.js -> /output/js/i18n/grid.locale-bg.js.sri
+2023/06/26 15:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-bg.js.br /tmp/work/js/i18n/grid.locale-bg.js
+2023/06/26 15:30:31 br /tmp/work/js/i18n/grid.locale-bg.js -> /output/js/i18n/grid.locale-bg.js.br
+2023/06/26 15:30:31 gz /tmp/work/js/i18n/grid.locale-bg.js -> /output/js/i18n/grid.locale-bg.js.gz
+2023/06/26 15:30:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-el.min.js /tmp/work/js/i18n/grid.locale-el.js
+2023/06/26 15:30:31 sri /tmp/work/js/i18n/grid.locale-cn.min.js -> /output/js/i18n/grid.locale-cn.min.js.sri
+2023/06/26 15:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-cn.min.js.br /tmp/work/js/i18n/grid.locale-cn.min.js
+2023/06/26 15:30:31 br /tmp/work/js/grid.formedit.min.js -> /output/js/grid.formedit.min.js.br
+2023/06/26 15:30:31 gz /tmp/work/js/grid.formedit.min.js -> /output/js/grid.formedit.min.js.gz
+2023/06/26 15:30:31 sri /tmp/work/js/grid.formedit.js -> /output/js/grid.formedit.js.sri
+2023/06/26 15:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.formedit.js.br /tmp/work/js/grid.formedit.js
+2023/06/26 15:30:31 br /tmp/work/js/i18n/grid.locale-cn.min.js -> /output/js/i18n/grid.locale-cn.min.js.br
+2023/06/26 15:30:31 gz /tmp/work/js/i18n/grid.locale-cn.min.js -> /output/js/i18n/grid.locale-cn.min.js.gz
+2023/06/26 15:30:31 sri /tmp/work/js/i18n/grid.locale-cn.js -> /output/js/i18n/grid.locale-cn.js.sri
+2023/06/26 15:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-cn.js.br /tmp/work/js/i18n/grid.locale-cn.js
+2023/06/26 15:30:31 sri /tmp/work/js/i18n/grid.locale-cs.min.js -> /output/js/i18n/grid.locale-cs.min.js.sri
+2023/06/26 15:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-cs.min.js.br /tmp/work/js/i18n/grid.locale-cs.min.js
+2023/06/26 15:30:31 br /tmp/work/js/i18n/grid.locale-cs.min.js -> /output/js/i18n/grid.locale-cs.min.js.br
+2023/06/26 15:30:31 gz /tmp/work/js/i18n/grid.locale-cs.min.js -> /output/js/i18n/grid.locale-cs.min.js.gz
+2023/06/26 15:30:31 sri /tmp/work/js/i18n/grid.locale-cs.js -> /output/js/i18n/grid.locale-cs.js.sri
+2023/06/26 15:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-cs.js.br /tmp/work/js/i18n/grid.locale-cs.js
+2023/06/26 15:30:31 br /tmp/work/js/i18n/grid.locale-cn.js -> /output/js/i18n/grid.locale-cn.js.br
+2023/06/26 15:30:31 gz /tmp/work/js/i18n/grid.locale-cn.js -> /output/js/i18n/grid.locale-cn.js.gz
+2023/06/26 15:30:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-en.min.js /tmp/work/js/i18n/grid.locale-en.js
+2023/06/26 15:30:31 br /tmp/work/js/i18n/grid.locale-cs.js -> /output/js/i18n/grid.locale-cs.js.br
+2023/06/26 15:30:31 gz /tmp/work/js/i18n/grid.locale-cs.js -> /output/js/i18n/grid.locale-cs.js.gz
+2023/06/26 15:30:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-es.min.js /tmp/work/js/i18n/grid.locale-es.js
+2023/06/26 15:30:31 sri /tmp/work/js/i18n/grid.locale-de.min.js -> /output/js/i18n/grid.locale-de.min.js.sri
+2023/06/26 15:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-de.min.js.br /tmp/work/js/i18n/grid.locale-de.min.js
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-dk.min.js -> /output/js/i18n/grid.locale-dk.min.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-dk.min.js.br /tmp/work/js/i18n/grid.locale-dk.min.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-de.min.js -> /output/js/i18n/grid.locale-de.min.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-de.min.js -> /output/js/i18n/grid.locale-de.min.js.gz
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-de.js -> /output/js/i18n/grid.locale-de.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-de.js.br /tmp/work/js/i18n/grid.locale-de.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-dk.min.js -> /output/js/i18n/grid.locale-dk.min.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-dk.min.js -> /output/js/i18n/grid.locale-dk.min.js.gz
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-dk.js -> /output/js/i18n/grid.locale-dk.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-dk.js.br /tmp/work/js/i18n/grid.locale-dk.js
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-el.min.js -> /output/js/i18n/grid.locale-el.min.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-el.min.js.br /tmp/work/js/i18n/grid.locale-el.min.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-el.min.js -> /output/js/i18n/grid.locale-el.min.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-el.min.js -> /output/js/i18n/grid.locale-el.min.js.gz
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-de.js -> /output/js/i18n/grid.locale-de.js.br
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-dk.js -> /output/js/i18n/grid.locale-dk.js.br
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-el.js -> /output/js/i18n/grid.locale-el.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-el.js.br /tmp/work/js/i18n/grid.locale-el.js
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-de.js -> /output/js/i18n/grid.locale-de.js.gz
+2023/06/26 15:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-fa.min.js /tmp/work/js/i18n/grid.locale-fa.js
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-dk.js -> /output/js/i18n/grid.locale-dk.js.gz
+2023/06/26 15:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-fi.min.js /tmp/work/js/i18n/grid.locale-fi.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-el.js -> /output/js/i18n/grid.locale-el.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-el.js -> /output/js/i18n/grid.locale-el.js.gz
+2023/06/26 15:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-fr.min.js /tmp/work/js/i18n/grid.locale-fr.js
+2023/06/26 15:30:32 br /tmp/work/js/grid.formedit.js -> /output/js/grid.formedit.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/grid.formedit.js -> /output/js/grid.formedit.js.gz
+2023/06/26 15:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-gl.min.js /tmp/work/js/i18n/grid.locale-gl.js
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-en.min.js -> /output/js/i18n/grid.locale-en.min.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-en.min.js.br /tmp/work/js/i18n/grid.locale-en.min.js
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-es.min.js -> /output/js/i18n/grid.locale-es.min.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-es.min.js.br /tmp/work/js/i18n/grid.locale-es.min.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-en.min.js -> /output/js/i18n/grid.locale-en.min.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-en.min.js -> /output/js/i18n/grid.locale-en.min.js.gz
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-en.js -> /output/js/i18n/grid.locale-en.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-en.js.br /tmp/work/js/i18n/grid.locale-en.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-es.min.js -> /output/js/i18n/grid.locale-es.min.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-es.min.js -> /output/js/i18n/grid.locale-es.min.js.gz
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-es.js -> /output/js/i18n/grid.locale-es.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-es.js.br /tmp/work/js/i18n/grid.locale-es.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-en.js -> /output/js/i18n/grid.locale-en.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-en.js -> /output/js/i18n/grid.locale-en.js.gz
+2023/06/26 15:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-he.min.js /tmp/work/js/i18n/grid.locale-he.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-es.js -> /output/js/i18n/grid.locale-es.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-es.js -> /output/js/i18n/grid.locale-es.js.gz
+2023/06/26 15:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-hr.min.js /tmp/work/js/i18n/grid.locale-hr.js
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-fi.min.js -> /output/js/i18n/grid.locale-fi.min.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-fi.min.js.br /tmp/work/js/i18n/grid.locale-fi.min.js
+2023/06/26 15:30:32 sri /tmp/work/js/grid.treegrid.min.js -> /output/js/grid.treegrid.min.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.treegrid.min.js.br /tmp/work/js/grid.treegrid.min.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-fi.min.js -> /output/js/i18n/grid.locale-fi.min.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-fi.min.js -> /output/js/i18n/grid.locale-fi.min.js.gz
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-fi.js -> /output/js/i18n/grid.locale-fi.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-fi.js.br /tmp/work/js/i18n/grid.locale-fi.js
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-gl.min.js -> /output/js/i18n/grid.locale-gl.min.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-gl.min.js.br /tmp/work/js/i18n/grid.locale-gl.min.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-fi.js -> /output/js/i18n/grid.locale-fi.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-fi.js -> /output/js/i18n/grid.locale-fi.js.gz
+2023/06/26 15:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-hu.min.js /tmp/work/js/i18n/grid.locale-hu.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-gl.min.js -> /output/js/i18n/grid.locale-gl.min.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-gl.min.js -> /output/js/i18n/grid.locale-gl.min.js.gz
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-gl.js -> /output/js/i18n/grid.locale-gl.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-gl.js.br /tmp/work/js/i18n/grid.locale-gl.js
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-fr.min.js -> /output/js/i18n/grid.locale-fr.min.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-fr.min.js.br /tmp/work/js/i18n/grid.locale-fr.min.js
+2023/06/26 15:30:32 br /tmp/work/js/grid.treegrid.min.js -> /output/js/grid.treegrid.min.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/grid.treegrid.min.js -> /output/js/grid.treegrid.min.js.gz
+2023/06/26 15:30:32 sri /tmp/work/js/grid.treegrid.js -> /output/js/grid.treegrid.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.treegrid.js.br /tmp/work/js/grid.treegrid.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-gl.js -> /output/js/i18n/grid.locale-gl.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-gl.js -> /output/js/i18n/grid.locale-gl.js.gz
+2023/06/26 15:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-id.min.js /tmp/work/js/i18n/grid.locale-id.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-fr.min.js -> /output/js/i18n/grid.locale-fr.min.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-fr.min.js -> /output/js/i18n/grid.locale-fr.min.js.gz
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-fr.js -> /output/js/i18n/grid.locale-fr.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-fr.js.br /tmp/work/js/i18n/grid.locale-fr.js
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-fa.min.js -> /output/js/i18n/grid.locale-fa.min.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-fa.min.js.br /tmp/work/js/i18n/grid.locale-fa.min.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-fr.js -> /output/js/i18n/grid.locale-fr.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-fr.js -> /output/js/i18n/grid.locale-fr.js.gz
+2023/06/26 15:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-is.min.js /tmp/work/js/i18n/grid.locale-is.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-fa.min.js -> /output/js/i18n/grid.locale-fa.min.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-fa.min.js -> /output/js/i18n/grid.locale-fa.min.js.gz
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-fa.js -> /output/js/i18n/grid.locale-fa.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-fa.js.br /tmp/work/js/i18n/grid.locale-fa.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-fa.js -> /output/js/i18n/grid.locale-fa.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-fa.js -> /output/js/i18n/grid.locale-fa.js.gz
+2023/06/26 15:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-it.min.js /tmp/work/js/i18n/grid.locale-it.js
+2023/06/26 15:30:32 br /tmp/work/js/grid.treegrid.js -> /output/js/grid.treegrid.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/grid.treegrid.js -> /output/js/grid.treegrid.js.gz
+2023/06/26 15:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-ja.min.js /tmp/work/js/i18n/grid.locale-ja.js
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-he.min.js -> /output/js/i18n/grid.locale-he.min.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-he.min.js.br /tmp/work/js/i18n/grid.locale-he.min.js
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-hr.min.js -> /output/js/i18n/grid.locale-hr.min.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-hr.min.js.br /tmp/work/js/i18n/grid.locale-hr.min.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-he.min.js -> /output/js/i18n/grid.locale-he.min.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-he.min.js -> /output/js/i18n/grid.locale-he.min.js.gz
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-he.js -> /output/js/i18n/grid.locale-he.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-he.js.br /tmp/work/js/i18n/grid.locale-he.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-hr.min.js -> /output/js/i18n/grid.locale-hr.min.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-hr.min.js -> /output/js/i18n/grid.locale-hr.min.js.gz
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-hr.js -> /output/js/i18n/grid.locale-hr.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-hr.js.br /tmp/work/js/i18n/grid.locale-hr.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-he.js -> /output/js/i18n/grid.locale-he.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-he.js -> /output/js/i18n/grid.locale-he.js.gz
+2023/06/26 15:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-kr.min.js /tmp/work/js/i18n/grid.locale-kr.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-hr.js -> /output/js/i18n/grid.locale-hr.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-hr.js -> /output/js/i18n/grid.locale-hr.js.gz
+2023/06/26 15:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-lt.min.js /tmp/work/js/i18n/grid.locale-lt.js
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-hu.min.js -> /output/js/i18n/grid.locale-hu.min.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-hu.min.js.br /tmp/work/js/i18n/grid.locale-hu.min.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-hu.min.js -> /output/js/i18n/grid.locale-hu.min.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-hu.min.js -> /output/js/i18n/grid.locale-hu.min.js.gz
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-hu.js -> /output/js/i18n/grid.locale-hu.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-hu.js.br /tmp/work/js/i18n/grid.locale-hu.js
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-id.min.js -> /output/js/i18n/grid.locale-id.min.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-id.min.js.br /tmp/work/js/i18n/grid.locale-id.min.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-hu.js -> /output/js/i18n/grid.locale-hu.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-hu.js -> /output/js/i18n/grid.locale-hu.js.gz
+2023/06/26 15:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-me.min.js /tmp/work/js/i18n/grid.locale-me.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-id.min.js -> /output/js/i18n/grid.locale-id.min.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-id.min.js -> /output/js/i18n/grid.locale-id.min.js.gz
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-id.js -> /output/js/i18n/grid.locale-id.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-id.js.br /tmp/work/js/i18n/grid.locale-id.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-id.js -> /output/js/i18n/grid.locale-id.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-id.js -> /output/js/i18n/grid.locale-id.js.gz
+2023/06/26 15:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-nl.min.js /tmp/work/js/i18n/grid.locale-nl.js
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-it.min.js -> /output/js/i18n/grid.locale-it.min.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-it.min.js.br /tmp/work/js/i18n/grid.locale-it.min.js
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-ja.min.js -> /output/js/i18n/grid.locale-ja.min.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-ja.min.js.br /tmp/work/js/i18n/grid.locale-ja.min.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-it.min.js -> /output/js/i18n/grid.locale-it.min.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-it.min.js -> /output/js/i18n/grid.locale-it.min.js.gz
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-it.js -> /output/js/i18n/grid.locale-it.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-it.js.br /tmp/work/js/i18n/grid.locale-it.js
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-is.min.js -> /output/js/i18n/grid.locale-is.min.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-is.min.js.br /tmp/work/js/i18n/grid.locale-is.min.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-ja.min.js -> /output/js/i18n/grid.locale-ja.min.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-ja.min.js -> /output/js/i18n/grid.locale-ja.min.js.gz
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-ja.js -> /output/js/i18n/grid.locale-ja.js.sri
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-is.min.js -> /output/js/i18n/grid.locale-is.min.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-is.min.js -> /output/js/i18n/grid.locale-is.min.js.gz
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-is.js -> /output/js/i18n/grid.locale-is.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-is.js.br /tmp/work/js/i18n/grid.locale-is.js
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-ja.js.br /tmp/work/js/i18n/grid.locale-ja.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-it.js -> /output/js/i18n/grid.locale-it.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-it.js -> /output/js/i18n/grid.locale-it.js.gz
+2023/06/26 15:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-no.min.js /tmp/work/js/i18n/grid.locale-no.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-is.js -> /output/js/i18n/grid.locale-is.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-is.js -> /output/js/i18n/grid.locale-is.js.gz
+2023/06/26 15:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-pl.min.js /tmp/work/js/i18n/grid.locale-pl.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-ja.js -> /output/js/i18n/grid.locale-ja.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-ja.js -> /output/js/i18n/grid.locale-ja.js.gz
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-kr.min.js -> /output/js/i18n/grid.locale-kr.min.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-kr.min.js.br /tmp/work/js/i18n/grid.locale-kr.min.js
+2023/06/26 15:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-pt-br.min.js /tmp/work/js/i18n/grid.locale-pt-br.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-kr.min.js -> /output/js/i18n/grid.locale-kr.min.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-kr.min.js -> /output/js/i18n/grid.locale-kr.min.js.gz
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-kr.js -> /output/js/i18n/grid.locale-kr.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-kr.js.br /tmp/work/js/i18n/grid.locale-kr.js
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-lt.min.js -> /output/js/i18n/grid.locale-lt.min.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-lt.min.js.br /tmp/work/js/i18n/grid.locale-lt.min.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-kr.js -> /output/js/i18n/grid.locale-kr.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-kr.js -> /output/js/i18n/grid.locale-kr.js.gz
+2023/06/26 15:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-pt.min.js /tmp/work/js/i18n/grid.locale-pt.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-lt.min.js -> /output/js/i18n/grid.locale-lt.min.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-lt.min.js -> /output/js/i18n/grid.locale-lt.min.js.gz
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-lt.js -> /output/js/i18n/grid.locale-lt.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-lt.js.br /tmp/work/js/i18n/grid.locale-lt.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-lt.js -> /output/js/i18n/grid.locale-lt.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-lt.js -> /output/js/i18n/grid.locale-lt.js.gz
+2023/06/26 15:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-ro.min.js /tmp/work/js/i18n/grid.locale-ro.js
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-me.min.js -> /output/js/i18n/grid.locale-me.min.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-me.min.js.br /tmp/work/js/i18n/grid.locale-me.min.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-me.min.js -> /output/js/i18n/grid.locale-me.min.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-me.min.js -> /output/js/i18n/grid.locale-me.min.js.gz
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-me.js -> /output/js/i18n/grid.locale-me.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-me.js.br /tmp/work/js/i18n/grid.locale-me.js
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-nl.min.js -> /output/js/i18n/grid.locale-nl.min.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-nl.min.js.br /tmp/work/js/i18n/grid.locale-nl.min.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-me.js -> /output/js/i18n/grid.locale-me.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-me.js -> /output/js/i18n/grid.locale-me.js.gz
+2023/06/26 15:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-ru.min.js /tmp/work/js/i18n/grid.locale-ru.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-nl.min.js -> /output/js/i18n/grid.locale-nl.min.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-nl.min.js -> /output/js/i18n/grid.locale-nl.min.js.gz
+2023/06/26 15:30:32 sri /tmp/work/js/i18n/grid.locale-nl.js -> /output/js/i18n/grid.locale-nl.js.sri
+2023/06/26 15:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-nl.js.br /tmp/work/js/i18n/grid.locale-nl.js
+2023/06/26 15:30:32 br /tmp/work/js/i18n/grid.locale-nl.js -> /output/js/i18n/grid.locale-nl.js.br
+2023/06/26 15:30:32 gz /tmp/work/js/i18n/grid.locale-nl.js -> /output/js/i18n/grid.locale-nl.js.gz
+2023/06/26 15:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-sk.min.js /tmp/work/js/i18n/grid.locale-sk.js
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-no.min.js -> /output/js/i18n/grid.locale-no.min.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-no.min.js.br /tmp/work/js/i18n/grid.locale-no.min.js
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-pl.min.js -> /output/js/i18n/grid.locale-pl.min.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-pl.min.js.br /tmp/work/js/i18n/grid.locale-pl.min.js
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-pt-br.min.js -> /output/js/i18n/grid.locale-pt-br.min.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-pt-br.min.js.br /tmp/work/js/i18n/grid.locale-pt-br.min.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-no.min.js -> /output/js/i18n/grid.locale-no.min.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-no.min.js -> /output/js/i18n/grid.locale-no.min.js.gz
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-no.js -> /output/js/i18n/grid.locale-no.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-no.js.br /tmp/work/js/i18n/grid.locale-no.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-pl.min.js -> /output/js/i18n/grid.locale-pl.min.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-pl.min.js -> /output/js/i18n/grid.locale-pl.min.js.gz
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-pl.js -> /output/js/i18n/grid.locale-pl.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-pl.js.br /tmp/work/js/i18n/grid.locale-pl.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-pt-br.min.js -> /output/js/i18n/grid.locale-pt-br.min.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-pt-br.min.js -> /output/js/i18n/grid.locale-pt-br.min.js.gz
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-pt-br.js -> /output/js/i18n/grid.locale-pt-br.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-pt-br.js.br /tmp/work/js/i18n/grid.locale-pt-br.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-no.js -> /output/js/i18n/grid.locale-no.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-no.js -> /output/js/i18n/grid.locale-no.js.gz
+2023/06/26 15:30:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-sq.min.js /tmp/work/js/i18n/grid.locale-sq.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-pl.js -> /output/js/i18n/grid.locale-pl.js.br
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-pt-br.js -> /output/js/i18n/grid.locale-pt-br.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-pl.js -> /output/js/i18n/grid.locale-pl.js.gz
+2023/06/26 15:30:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-sr-latin.min.js /tmp/work/js/i18n/grid.locale-sr-latin.js
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-pt-br.js -> /output/js/i18n/grid.locale-pt-br.js.gz
+2023/06/26 15:30:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-sr.min.js /tmp/work/js/i18n/grid.locale-sr.js
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-ro.min.js -> /output/js/i18n/grid.locale-ro.min.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-ro.min.js.br /tmp/work/js/i18n/grid.locale-ro.min.js
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-pt.min.js -> /output/js/i18n/grid.locale-pt.min.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-pt.min.js.br /tmp/work/js/i18n/grid.locale-pt.min.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-ro.min.js -> /output/js/i18n/grid.locale-ro.min.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-ro.min.js -> /output/js/i18n/grid.locale-ro.min.js.gz
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-ro.js -> /output/js/i18n/grid.locale-ro.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-ro.js.br /tmp/work/js/i18n/grid.locale-ro.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-pt.min.js -> /output/js/i18n/grid.locale-pt.min.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-pt.min.js -> /output/js/i18n/grid.locale-pt.min.js.gz
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-pt.js -> /output/js/i18n/grid.locale-pt.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-pt.js.br /tmp/work/js/i18n/grid.locale-pt.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-ro.js -> /output/js/i18n/grid.locale-ro.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-ro.js -> /output/js/i18n/grid.locale-ro.js.gz
+2023/06/26 15:30:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-sv.min.js /tmp/work/js/i18n/grid.locale-sv.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-pt.js -> /output/js/i18n/grid.locale-pt.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-pt.js -> /output/js/i18n/grid.locale-pt.js.gz
+2023/06/26 15:30:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-th.min.js /tmp/work/js/i18n/grid.locale-th.js
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-ru.min.js -> /output/js/i18n/grid.locale-ru.min.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-ru.min.js.br /tmp/work/js/i18n/grid.locale-ru.min.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-ru.min.js -> /output/js/i18n/grid.locale-ru.min.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-ru.min.js -> /output/js/i18n/grid.locale-ru.min.js.gz
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-ru.js -> /output/js/i18n/grid.locale-ru.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-ru.js.br /tmp/work/js/i18n/grid.locale-ru.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-ru.js -> /output/js/i18n/grid.locale-ru.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-ru.js -> /output/js/i18n/grid.locale-ru.js.gz
+2023/06/26 15:30:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-tr.min.js /tmp/work/js/i18n/grid.locale-tr.js
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-sk.min.js -> /output/js/i18n/grid.locale-sk.min.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-sk.min.js.br /tmp/work/js/i18n/grid.locale-sk.min.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-sk.min.js -> /output/js/i18n/grid.locale-sk.min.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-sk.min.js -> /output/js/i18n/grid.locale-sk.min.js.gz
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-sk.js -> /output/js/i18n/grid.locale-sk.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-sk.js.br /tmp/work/js/i18n/grid.locale-sk.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-sk.js -> /output/js/i18n/grid.locale-sk.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-sk.js -> /output/js/i18n/grid.locale-sk.js.gz
+2023/06/26 15:30:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-tw.min.js /tmp/work/js/i18n/grid.locale-tw.js
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-sr-latin.min.js -> /output/js/i18n/grid.locale-sr-latin.min.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-sr-latin.min.js.br /tmp/work/js/i18n/grid.locale-sr-latin.min.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-sr-latin.min.js -> /output/js/i18n/grid.locale-sr-latin.min.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-sr-latin.min.js -> /output/js/i18n/grid.locale-sr-latin.min.js.gz
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-sr-latin.js -> /output/js/i18n/grid.locale-sr-latin.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-sr-latin.js.br /tmp/work/js/i18n/grid.locale-sr-latin.js
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-sr.min.js -> /output/js/i18n/grid.locale-sr.min.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-sr.min.js.br /tmp/work/js/i18n/grid.locale-sr.min.js
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-sq.min.js -> /output/js/i18n/grid.locale-sq.min.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-sq.min.js.br /tmp/work/js/i18n/grid.locale-sq.min.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-sr-latin.js -> /output/js/i18n/grid.locale-sr-latin.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-sr-latin.js -> /output/js/i18n/grid.locale-sr-latin.js.gz
+2023/06/26 15:30:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-uk.min.js /tmp/work/js/i18n/grid.locale-uk.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-sr.min.js -> /output/js/i18n/grid.locale-sr.min.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-sr.min.js -> /output/js/i18n/grid.locale-sr.min.js.gz
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-sr.js -> /output/js/i18n/grid.locale-sr.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-sr.js.br /tmp/work/js/i18n/grid.locale-sr.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-sq.min.js -> /output/js/i18n/grid.locale-sq.min.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-sq.min.js -> /output/js/i18n/grid.locale-sq.min.js.gz
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-sq.js -> /output/js/i18n/grid.locale-sq.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-sq.js.br /tmp/work/js/i18n/grid.locale-sq.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-sr.js -> /output/js/i18n/grid.locale-sr.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-sr.js -> /output/js/i18n/grid.locale-sr.js.gz
+2023/06/26 15:30:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/i18n/grid.locale-vi.min.js /tmp/work/js/i18n/grid.locale-vi.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-sq.js -> /output/js/i18n/grid.locale-sq.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-sq.js -> /output/js/i18n/grid.locale-sq.js.gz
+2023/06/26 15:30:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/jqDnR.min.js /tmp/work/js/jqDnR.js
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-th.min.js -> /output/js/i18n/grid.locale-th.min.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-th.min.js.br /tmp/work/js/i18n/grid.locale-th.min.js
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-sv.min.js -> /output/js/i18n/grid.locale-sv.min.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-sv.min.js.br /tmp/work/js/i18n/grid.locale-sv.min.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-th.min.js -> /output/js/i18n/grid.locale-th.min.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-th.min.js -> /output/js/i18n/grid.locale-th.min.js.gz
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-th.js -> /output/js/i18n/grid.locale-th.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-th.js.br /tmp/work/js/i18n/grid.locale-th.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-sv.min.js -> /output/js/i18n/grid.locale-sv.min.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-sv.min.js -> /output/js/i18n/grid.locale-sv.min.js.gz
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-sv.js -> /output/js/i18n/grid.locale-sv.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-sv.js.br /tmp/work/js/i18n/grid.locale-sv.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-sv.js -> /output/js/i18n/grid.locale-sv.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-sv.js -> /output/js/i18n/grid.locale-sv.js.gz
+2023/06/26 15:30:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/jqModal.min.js /tmp/work/js/jqModal.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-th.js -> /output/js/i18n/grid.locale-th.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-th.js -> /output/js/i18n/grid.locale-th.js.gz
+2023/06/26 15:30:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/jquery.fmatter.min.js /tmp/work/js/jquery.fmatter.js
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-tr.min.js -> /output/js/i18n/grid.locale-tr.min.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-tr.min.js.br /tmp/work/js/i18n/grid.locale-tr.min.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-tr.min.js -> /output/js/i18n/grid.locale-tr.min.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-tr.min.js -> /output/js/i18n/grid.locale-tr.min.js.gz
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-tr.js -> /output/js/i18n/grid.locale-tr.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-tr.js.br /tmp/work/js/i18n/grid.locale-tr.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-tr.js -> /output/js/i18n/grid.locale-tr.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-tr.js -> /output/js/i18n/grid.locale-tr.js.gz
+2023/06/26 15:30:33 /tmp/work/js/jquery.jqGrid.min.js already has corresponding compressed file
+2023/06/26 15:30:33 sri /tmp/work/js/jquery.jqGrid.js -> /output/js/jquery.jqGrid.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/jquery.jqGrid.js.br /tmp/work/js/jquery.jqGrid.js
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-tw.min.js -> /output/js/i18n/grid.locale-tw.min.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-tw.min.js.br /tmp/work/js/i18n/grid.locale-tw.min.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-tw.min.js -> /output/js/i18n/grid.locale-tw.min.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-tw.min.js -> /output/js/i18n/grid.locale-tw.min.js.gz
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-tw.js -> /output/js/i18n/grid.locale-tw.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-tw.js.br /tmp/work/js/i18n/grid.locale-tw.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-tw.js -> /output/js/i18n/grid.locale-tw.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-tw.js -> /output/js/i18n/grid.locale-tw.js.gz
+2023/06/26 15:30:33 /tmp/work/js/jquery.jqGrid.min.js is already compressed
+2023/06/26 15:30:33 sri /tmp/work/js/jquery.jqGrid.min.js -> /output/js/jquery.jqGrid.min.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/jquery.jqGrid.min.js.br /tmp/work/js/jquery.jqGrid.min.js
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-uk.min.js -> /output/js/i18n/grid.locale-uk.min.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-uk.min.js.br /tmp/work/js/i18n/grid.locale-uk.min.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-uk.min.js -> /output/js/i18n/grid.locale-uk.min.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-uk.min.js -> /output/js/i18n/grid.locale-uk.min.js.gz
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-uk.js -> /output/js/i18n/grid.locale-uk.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-uk.js.br /tmp/work/js/i18n/grid.locale-uk.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-uk.js -> /output/js/i18n/grid.locale-uk.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-uk.js -> /output/js/i18n/grid.locale-uk.js.gz
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/jquery.jqGrid.min.js.map.br /tmp/work/js/jquery.jqGrid.min.js.map
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-vi.min.js -> /output/js/i18n/grid.locale-vi.min.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-vi.min.js.br /tmp/work/js/i18n/grid.locale-vi.min.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-vi.min.js -> /output/js/i18n/grid.locale-vi.min.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-vi.min.js -> /output/js/i18n/grid.locale-vi.min.js.gz
+2023/06/26 15:30:33 sri /tmp/work/js/i18n/grid.locale-vi.js -> /output/js/i18n/grid.locale-vi.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/i18n/grid.locale-vi.js.br /tmp/work/js/i18n/grid.locale-vi.js
+2023/06/26 15:30:33 br /tmp/work/js/i18n/grid.locale-vi.js -> /output/js/i18n/grid.locale-vi.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/i18n/grid.locale-vi.js -> /output/js/i18n/grid.locale-vi.js.gz
+2023/06/26 15:30:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/jquery.sortable.min.js /tmp/work/js/jquery.sortable.js
+2023/06/26 15:30:33 sri /tmp/work/js/jqDnR.min.js -> /output/js/jqDnR.min.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/jqDnR.min.js.br /tmp/work/js/jqDnR.min.js
+2023/06/26 15:30:33 br /tmp/work/js/jqDnR.min.js -> /output/js/jqDnR.min.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/jqDnR.min.js -> /output/js/jqDnR.min.js.gz
+2023/06/26 15:30:33 sri /tmp/work/js/jqDnR.js -> /output/js/jqDnR.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/jqDnR.js.br /tmp/work/js/jqDnR.js
+2023/06/26 15:30:33 br /tmp/work/js/jqDnR.js -> /output/js/jqDnR.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/jqDnR.js -> /output/js/jqDnR.js.gz
+2023/06/26 15:30:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/grid.aria.min.js /tmp/work/js/minified/grid.aria.js
+2023/06/26 15:30:33 sri /tmp/work/js/jqModal.min.js -> /output/js/jqModal.min.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/jqModal.min.js.br /tmp/work/js/jqModal.min.js
+2023/06/26 15:30:33 br /tmp/work/js/jqModal.min.js -> /output/js/jqModal.min.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/jqModal.min.js -> /output/js/jqModal.min.js.gz
+2023/06/26 15:30:33 sri /tmp/work/js/jqModal.js -> /output/js/jqModal.js.sri
+2023/06/26 15:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/jqModal.js.br /tmp/work/js/jqModal.js
+2023/06/26 15:30:33 br /tmp/work/js/jqModal.js -> /output/js/jqModal.js.br
+2023/06/26 15:30:33 gz /tmp/work/js/jqModal.js -> /output/js/jqModal.js.gz
+2023/06/26 15:30:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/grid.base.min.js /tmp/work/js/minified/grid.base.js
+2023/06/26 15:30:34 sri /tmp/work/js/jquery.sortable.min.js -> /output/js/jquery.sortable.min.js.sri
+2023/06/26 15:30:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/jquery.sortable.min.js.br /tmp/work/js/jquery.sortable.min.js
+2023/06/26 15:30:34 br /tmp/work/js/jquery.sortable.min.js -> /output/js/jquery.sortable.min.js.br
+2023/06/26 15:30:34 gz /tmp/work/js/jquery.sortable.min.js -> /output/js/jquery.sortable.min.js.gz
+2023/06/26 15:30:34 sri /tmp/work/js/jquery.sortable.js -> /output/js/jquery.sortable.js.sri
+2023/06/26 15:30:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/jquery.sortable.js.br /tmp/work/js/jquery.sortable.js
+2023/06/26 15:30:34 br /tmp/work/js/jquery.sortable.js -> /output/js/jquery.sortable.js.br
+2023/06/26 15:30:34 gz /tmp/work/js/jquery.sortable.js -> /output/js/jquery.sortable.js.gz
+2023/06/26 15:30:34 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/grid.celledit.min.js /tmp/work/js/minified/grid.celledit.js
+2023/06/26 15:30:34 sri /tmp/work/js/jquery.fmatter.min.js -> /output/js/jquery.fmatter.min.js.sri
+2023/06/26 15:30:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/jquery.fmatter.min.js.br /tmp/work/js/jquery.fmatter.min.js
+2023/06/26 15:30:34 br /tmp/work/js/jquery.fmatter.min.js -> /output/js/jquery.fmatter.min.js.br
+2023/06/26 15:30:34 gz /tmp/work/js/jquery.fmatter.min.js -> /output/js/jquery.fmatter.min.js.gz
+2023/06/26 15:30:34 sri /tmp/work/js/jquery.fmatter.js -> /output/js/jquery.fmatter.js.sri
+2023/06/26 15:30:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/jquery.fmatter.js.br /tmp/work/js/jquery.fmatter.js
+2023/06/26 15:30:34 br /tmp/work/js/jquery.fmatter.js -> /output/js/jquery.fmatter.js.br
+2023/06/26 15:30:34 gz /tmp/work/js/jquery.fmatter.js -> /output/js/jquery.fmatter.js.gz
+2023/06/26 15:30:34 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/grid.common.min.js /tmp/work/js/minified/grid.common.js
+2023/06/26 15:30:34 sri /tmp/work/js/minified/grid.aria.min.js -> /output/js/minified/grid.aria.min.js.sri
+2023/06/26 15:30:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.aria.min.js.br /tmp/work/js/minified/grid.aria.min.js
+2023/06/26 15:30:34 sri /tmp/work/js/grid.base.min.js -> /output/js/grid.base.min.js.sri
+2023/06/26 15:30:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.base.min.js.br /tmp/work/js/grid.base.min.js
+2023/06/26 15:30:34 br /tmp/work/js/minified/grid.aria.min.js -> /output/js/minified/grid.aria.min.js.br
+2023/06/26 15:30:34 gz /tmp/work/js/minified/grid.aria.min.js -> /output/js/minified/grid.aria.min.js.gz
+2023/06/26 15:30:34 sri /tmp/work/js/minified/grid.aria.js -> /output/js/minified/grid.aria.js.sri
+2023/06/26 15:30:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.aria.js.br /tmp/work/js/minified/grid.aria.js
+2023/06/26 15:30:34 br /tmp/work/js/minified/grid.aria.js -> /output/js/minified/grid.aria.js.br
+2023/06/26 15:30:34 gz /tmp/work/js/minified/grid.aria.js -> /output/js/minified/grid.aria.js.gz
+2023/06/26 15:30:34 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/grid.database.min.js /tmp/work/js/minified/grid.database.js
+2023/06/26 15:30:34 br /tmp/work/js/jquery.jqGrid.min.js -> /output/js/jquery.jqGrid.min.js.br
+2023/06/26 15:30:34 gz /tmp/work/js/jquery.jqGrid.min.js -> /output/js/jquery.jqGrid.min.js.gz
+2023/06/26 15:30:34 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/grid.export.min.js /tmp/work/js/minified/grid.export.js
+2023/06/26 15:30:35 sri /tmp/work/js/minified/grid.celledit.min.js -> /output/js/minified/grid.celledit.min.js.sri
+2023/06/26 15:30:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.celledit.min.js.br /tmp/work/js/minified/grid.celledit.min.js
+2023/06/26 15:30:35 br /tmp/work/js/minified/grid.celledit.min.js -> /output/js/minified/grid.celledit.min.js.br
+2023/06/26 15:30:35 gz /tmp/work/js/minified/grid.celledit.min.js -> /output/js/minified/grid.celledit.min.js.gz
+2023/06/26 15:30:35 sri /tmp/work/js/minified/grid.celledit.js -> /output/js/minified/grid.celledit.js.sri
+2023/06/26 15:30:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.celledit.js.br /tmp/work/js/minified/grid.celledit.js
+2023/06/26 15:30:35 br /tmp/work/js/minified/grid.celledit.js -> /output/js/minified/grid.celledit.js.br
+2023/06/26 15:30:35 gz /tmp/work/js/minified/grid.celledit.js -> /output/js/minified/grid.celledit.js.gz
+2023/06/26 15:30:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/grid.filter.min.js /tmp/work/js/minified/grid.filter.js
+2023/06/26 15:30:35 sri /tmp/work/js/minified/grid.database.min.js -> /output/js/minified/grid.database.min.js.sri
+2023/06/26 15:30:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.database.min.js.br /tmp/work/js/minified/grid.database.min.js
+2023/06/26 15:30:35 br /tmp/work/js/grid.base.min.js -> /output/js/grid.base.min.js.br
+2023/06/26 15:30:35 gz /tmp/work/js/grid.base.min.js -> /output/js/grid.base.min.js.gz
+2023/06/26 15:30:35 sri /tmp/work/js/grid.base.js -> /output/js/grid.base.js.sri
+2023/06/26 15:30:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/grid.base.js.br /tmp/work/js/grid.base.js
+2023/06/26 15:30:35 br /tmp/work/js/minified/grid.database.min.js -> /output/js/minified/grid.database.min.js.br
+2023/06/26 15:30:35 gz /tmp/work/js/minified/grid.database.min.js -> /output/js/minified/grid.database.min.js.gz
+2023/06/26 15:30:35 sri /tmp/work/js/minified/grid.database.js -> /output/js/minified/grid.database.js.sri
+2023/06/26 15:30:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.database.js.br /tmp/work/js/minified/grid.database.js
+2023/06/26 15:30:35 br /tmp/work/js/minified/grid.database.js -> /output/js/minified/grid.database.js.br
+2023/06/26 15:30:35 gz /tmp/work/js/minified/grid.database.js -> /output/js/minified/grid.database.js.gz
+2023/06/26 15:30:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/grid.formedit.min.js /tmp/work/js/minified/grid.formedit.js
+2023/06/26 15:30:35 sri /tmp/work/js/minified/grid.common.min.js -> /output/js/minified/grid.common.min.js.sri
+2023/06/26 15:30:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.common.min.js.br /tmp/work/js/minified/grid.common.min.js
+2023/06/26 15:30:35 br /tmp/work/js/minified/grid.common.min.js -> /output/js/minified/grid.common.min.js.br
+2023/06/26 15:30:35 gz /tmp/work/js/minified/grid.common.min.js -> /output/js/minified/grid.common.min.js.gz
+2023/06/26 15:30:35 sri /tmp/work/js/minified/grid.common.js -> /output/js/minified/grid.common.js.sri
+2023/06/26 15:30:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.common.js.br /tmp/work/js/minified/grid.common.js
+2023/06/26 15:30:35 br /tmp/work/js/minified/grid.common.js -> /output/js/minified/grid.common.js.br
+2023/06/26 15:30:35 gz /tmp/work/js/minified/grid.common.js -> /output/js/minified/grid.common.js.gz
+2023/06/26 15:30:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/grid.frozenrows.min.js /tmp/work/js/minified/grid.frozenrows.js
+2023/06/26 15:30:35 br /tmp/work/js/jquery.jqGrid.min.js.map -> /output/js/jquery.jqGrid.min.js.map.br
+2023/06/26 15:30:35 br /tmp/work/js/jquery.jqGrid.js -> /output/js/jquery.jqGrid.js.br
+2023/06/26 15:30:35 gz /tmp/work/js/jquery.jqGrid.min.js.map -> /output/js/jquery.jqGrid.min.js.map.gz
+2023/06/26 15:30:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/grid.grouping.min.js /tmp/work/js/minified/grid.grouping.js
+2023/06/26 15:30:35 sri /tmp/work/js/minified/grid.frozenrows.min.js -> /output/js/minified/grid.frozenrows.min.js.sri
+2023/06/26 15:30:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.frozenrows.min.js.br /tmp/work/js/minified/grid.frozenrows.min.js
+2023/06/26 15:30:35 gz /tmp/work/js/jquery.jqGrid.js -> /output/js/jquery.jqGrid.js.gz
+2023/06/26 15:30:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/grid.import.min.js /tmp/work/js/minified/grid.import.js
+2023/06/26 15:30:35 br /tmp/work/js/minified/grid.frozenrows.min.js -> /output/js/minified/grid.frozenrows.min.js.br
+2023/06/26 15:30:35 gz /tmp/work/js/minified/grid.frozenrows.min.js -> /output/js/minified/grid.frozenrows.min.js.gz
+2023/06/26 15:30:35 sri /tmp/work/js/minified/grid.frozenrows.js -> /output/js/minified/grid.frozenrows.js.sri
+2023/06/26 15:30:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.frozenrows.js.br /tmp/work/js/minified/grid.frozenrows.js
+2023/06/26 15:30:35 br /tmp/work/js/minified/grid.frozenrows.js -> /output/js/minified/grid.frozenrows.js.br
+2023/06/26 15:30:35 gz /tmp/work/js/minified/grid.frozenrows.js -> /output/js/minified/grid.frozenrows.js.gz
+2023/06/26 15:30:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/grid.inlinedit.min.js /tmp/work/js/minified/grid.inlinedit.js
+2023/06/26 15:30:35 br /tmp/work/js/grid.base.js -> /output/js/grid.base.js.br
+2023/06/26 15:30:35 gz /tmp/work/js/grid.base.js -> /output/js/grid.base.js.gz
+2023/06/26 15:30:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/grid.jqueryui.min.js /tmp/work/js/minified/grid.jqueryui.js
+2023/06/26 15:30:36 sri /tmp/work/js/minified/grid.import.min.js -> /output/js/minified/grid.import.min.js.sri
+2023/06/26 15:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.import.min.js.br /tmp/work/js/minified/grid.import.min.js
+2023/06/26 15:30:36 br /tmp/work/js/minified/grid.import.min.js -> /output/js/minified/grid.import.min.js.br
+2023/06/26 15:30:36 gz /tmp/work/js/minified/grid.import.min.js -> /output/js/minified/grid.import.min.js.gz
+2023/06/26 15:30:36 sri /tmp/work/js/minified/grid.import.js -> /output/js/minified/grid.import.js.sri
+2023/06/26 15:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.import.js.br /tmp/work/js/minified/grid.import.js
+2023/06/26 15:30:36 br /tmp/work/js/minified/grid.import.js -> /output/js/minified/grid.import.js.br
+2023/06/26 15:30:36 gz /tmp/work/js/minified/grid.import.js -> /output/js/minified/grid.import.js.gz
+2023/06/26 15:30:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/grid.pivot.min.js /tmp/work/js/minified/grid.pivot.js
+2023/06/26 15:30:36 sri /tmp/work/js/minified/grid.jqueryui.min.js -> /output/js/minified/grid.jqueryui.min.js.sri
+2023/06/26 15:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.jqueryui.min.js.br /tmp/work/js/minified/grid.jqueryui.min.js
+2023/06/26 15:30:36 sri /tmp/work/js/minified/grid.grouping.min.js -> /output/js/minified/grid.grouping.min.js.sri
+2023/06/26 15:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.grouping.min.js.br /tmp/work/js/minified/grid.grouping.min.js
+2023/06/26 15:30:36 br /tmp/work/js/minified/grid.jqueryui.min.js -> /output/js/minified/grid.jqueryui.min.js.br
+2023/06/26 15:30:36 gz /tmp/work/js/minified/grid.jqueryui.min.js -> /output/js/minified/grid.jqueryui.min.js.gz
+2023/06/26 15:30:36 sri /tmp/work/js/minified/grid.jqueryui.js -> /output/js/minified/grid.jqueryui.js.sri
+2023/06/26 15:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.jqueryui.js.br /tmp/work/js/minified/grid.jqueryui.js
+2023/06/26 15:30:36 sri /tmp/work/js/minified/grid.export.min.js -> /output/js/minified/grid.export.min.js.sri
+2023/06/26 15:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.export.min.js.br /tmp/work/js/minified/grid.export.min.js
+2023/06/26 15:30:36 br /tmp/work/js/minified/grid.grouping.min.js -> /output/js/minified/grid.grouping.min.js.br
+2023/06/26 15:30:36 gz /tmp/work/js/minified/grid.grouping.min.js -> /output/js/minified/grid.grouping.min.js.gz
+2023/06/26 15:30:36 sri /tmp/work/js/minified/grid.grouping.js -> /output/js/minified/grid.grouping.js.sri
+2023/06/26 15:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.grouping.js.br /tmp/work/js/minified/grid.grouping.js
+2023/06/26 15:30:36 br /tmp/work/js/minified/grid.jqueryui.js -> /output/js/minified/grid.jqueryui.js.br
+2023/06/26 15:30:36 gz /tmp/work/js/minified/grid.jqueryui.js -> /output/js/minified/grid.jqueryui.js.gz
+2023/06/26 15:30:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/grid.subgrid.min.js /tmp/work/js/minified/grid.subgrid.js
+2023/06/26 15:30:36 br /tmp/work/js/minified/grid.grouping.js -> /output/js/minified/grid.grouping.js.br
+2023/06/26 15:30:36 gz /tmp/work/js/minified/grid.grouping.js -> /output/js/minified/grid.grouping.js.gz
+2023/06/26 15:30:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/grid.transposed.min.js /tmp/work/js/minified/grid.transposed.js
+2023/06/26 15:30:36 sri /tmp/work/js/minified/grid.inlinedit.min.js -> /output/js/minified/grid.inlinedit.min.js.sri
+2023/06/26 15:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.inlinedit.min.js.br /tmp/work/js/minified/grid.inlinedit.min.js
+2023/06/26 15:30:36 br /tmp/work/js/minified/grid.inlinedit.min.js -> /output/js/minified/grid.inlinedit.min.js.br
+2023/06/26 15:30:36 gz /tmp/work/js/minified/grid.inlinedit.min.js -> /output/js/minified/grid.inlinedit.min.js.gz
+2023/06/26 15:30:36 sri /tmp/work/js/minified/grid.inlinedit.js -> /output/js/minified/grid.inlinedit.js.sri
+2023/06/26 15:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.inlinedit.js.br /tmp/work/js/minified/grid.inlinedit.js
+2023/06/26 15:30:36 br /tmp/work/js/minified/grid.export.min.js -> /output/js/minified/grid.export.min.js.br
+2023/06/26 15:30:36 gz /tmp/work/js/minified/grid.export.min.js -> /output/js/minified/grid.export.min.js.gz
+2023/06/26 15:30:36 sri /tmp/work/js/minified/grid.export.js -> /output/js/minified/grid.export.js.sri
+2023/06/26 15:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.export.js.br /tmp/work/js/minified/grid.export.js
+2023/06/26 15:30:36 br /tmp/work/js/minified/grid.inlinedit.js -> /output/js/minified/grid.inlinedit.js.br
+2023/06/26 15:30:36 gz /tmp/work/js/minified/grid.inlinedit.js -> /output/js/minified/grid.inlinedit.js.gz
+2023/06/26 15:30:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/grid.treegrid.min.js /tmp/work/js/minified/grid.treegrid.js
+2023/06/26 15:30:37 sri /tmp/work/js/minified/grid.filter.min.js -> /output/js/minified/grid.filter.min.js.sri
+2023/06/26 15:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.filter.min.js.br /tmp/work/js/minified/grid.filter.min.js
+2023/06/26 15:30:37 br /tmp/work/js/minified/grid.filter.min.js -> /output/js/minified/grid.filter.min.js.br
+2023/06/26 15:30:37 gz /tmp/work/js/minified/grid.filter.min.js -> /output/js/minified/grid.filter.min.js.gz
+2023/06/26 15:30:37 sri /tmp/work/js/minified/grid.filter.js -> /output/js/minified/grid.filter.js.sri
+2023/06/26 15:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.filter.js.br /tmp/work/js/minified/grid.filter.js
+2023/06/26 15:30:37 br /tmp/work/js/minified/grid.export.js -> /output/js/minified/grid.export.js.br
+2023/06/26 15:30:37 gz /tmp/work/js/minified/grid.export.js -> /output/js/minified/grid.export.js.gz
+2023/06/26 15:30:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/grid.utils.min.js /tmp/work/js/minified/grid.utils.js
+2023/06/26 15:30:37 br /tmp/work/js/minified/grid.filter.js -> /output/js/minified/grid.filter.js.br
+2023/06/26 15:30:37 gz /tmp/work/js/minified/grid.filter.js -> /output/js/minified/grid.filter.js.gz
+2023/06/26 15:30:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-ar.min.js /tmp/work/js/minified/i18n/grid.locale-ar.js
+2023/06/26 15:30:37 sri /tmp/work/js/minified/grid.transposed.min.js -> /output/js/minified/grid.transposed.min.js.sri
+2023/06/26 15:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.transposed.min.js.br /tmp/work/js/minified/grid.transposed.min.js
+2023/06/26 15:30:37 br /tmp/work/js/minified/grid.transposed.min.js -> /output/js/minified/grid.transposed.min.js.br
+2023/06/26 15:30:37 gz /tmp/work/js/minified/grid.transposed.min.js -> /output/js/minified/grid.transposed.min.js.gz
+2023/06/26 15:30:37 sri /tmp/work/js/minified/grid.transposed.js -> /output/js/minified/grid.transposed.js.sri
+2023/06/26 15:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.transposed.js.br /tmp/work/js/minified/grid.transposed.js
+2023/06/26 15:30:37 br /tmp/work/js/minified/grid.transposed.js -> /output/js/minified/grid.transposed.js.br
+2023/06/26 15:30:37 gz /tmp/work/js/minified/grid.transposed.js -> /output/js/minified/grid.transposed.js.gz
+2023/06/26 15:30:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-bg.min.js /tmp/work/js/minified/i18n/grid.locale-bg.js
+2023/06/26 15:30:37 sri /tmp/work/js/minified/grid.pivot.min.js -> /output/js/minified/grid.pivot.min.js.sri
+2023/06/26 15:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.pivot.min.js.br /tmp/work/js/minified/grid.pivot.min.js
+2023/06/26 15:30:37 br /tmp/work/js/minified/grid.pivot.min.js -> /output/js/minified/grid.pivot.min.js.br
+2023/06/26 15:30:37 gz /tmp/work/js/minified/grid.pivot.min.js -> /output/js/minified/grid.pivot.min.js.gz
+2023/06/26 15:30:37 sri /tmp/work/js/minified/grid.pivot.js -> /output/js/minified/grid.pivot.js.sri
+2023/06/26 15:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.pivot.js.br /tmp/work/js/minified/grid.pivot.js
+2023/06/26 15:30:37 br /tmp/work/js/minified/grid.pivot.js -> /output/js/minified/grid.pivot.js.br
+2023/06/26 15:30:37 gz /tmp/work/js/minified/grid.pivot.js -> /output/js/minified/grid.pivot.js.gz
+2023/06/26 15:30:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-ca.min.js /tmp/work/js/minified/i18n/grid.locale-ca.js
+2023/06/26 15:30:37 sri /tmp/work/js/minified/i18n/grid.locale-ar.min.js -> /output/js/minified/i18n/grid.locale-ar.min.js.sri
+2023/06/26 15:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-ar.min.js.br /tmp/work/js/minified/i18n/grid.locale-ar.min.js
+2023/06/26 15:30:37 br /tmp/work/js/minified/i18n/grid.locale-ar.min.js -> /output/js/minified/i18n/grid.locale-ar.min.js.br
+2023/06/26 15:30:37 gz /tmp/work/js/minified/i18n/grid.locale-ar.min.js -> /output/js/minified/i18n/grid.locale-ar.min.js.gz
+2023/06/26 15:30:37 sri /tmp/work/js/minified/i18n/grid.locale-ar.js -> /output/js/minified/i18n/grid.locale-ar.js.sri
+2023/06/26 15:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-ar.js.br /tmp/work/js/minified/i18n/grid.locale-ar.js
+2023/06/26 15:30:37 br /tmp/work/js/minified/i18n/grid.locale-ar.js -> /output/js/minified/i18n/grid.locale-ar.js.br
+2023/06/26 15:30:37 gz /tmp/work/js/minified/i18n/grid.locale-ar.js -> /output/js/minified/i18n/grid.locale-ar.js.gz
+2023/06/26 15:30:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-cn.min.js /tmp/work/js/minified/i18n/grid.locale-cn.js
+2023/06/26 15:30:37 sri /tmp/work/js/minified/grid.subgrid.min.js -> /output/js/minified/grid.subgrid.min.js.sri
+2023/06/26 15:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.subgrid.min.js.br /tmp/work/js/minified/grid.subgrid.min.js
+2023/06/26 15:30:37 br /tmp/work/js/minified/grid.subgrid.min.js -> /output/js/minified/grid.subgrid.min.js.br
+2023/06/26 15:30:37 gz /tmp/work/js/minified/grid.subgrid.min.js -> /output/js/minified/grid.subgrid.min.js.gz
+2023/06/26 15:30:37 sri /tmp/work/js/minified/grid.subgrid.js -> /output/js/minified/grid.subgrid.js.sri
+2023/06/26 15:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.subgrid.js.br /tmp/work/js/minified/grid.subgrid.js
+2023/06/26 15:30:37 br /tmp/work/js/minified/grid.subgrid.js -> /output/js/minified/grid.subgrid.js.br
+2023/06/26 15:30:37 gz /tmp/work/js/minified/grid.subgrid.js -> /output/js/minified/grid.subgrid.js.gz
+2023/06/26 15:30:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-cs.min.js /tmp/work/js/minified/i18n/grid.locale-cs.js
+2023/06/26 15:30:37 sri /tmp/work/js/minified/i18n/grid.locale-bg.min.js -> /output/js/minified/i18n/grid.locale-bg.min.js.sri
+2023/06/26 15:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-bg.min.js.br /tmp/work/js/minified/i18n/grid.locale-bg.min.js
+2023/06/26 15:30:37 sri /tmp/work/js/minified/grid.formedit.min.js -> /output/js/minified/grid.formedit.min.js.sri
+2023/06/26 15:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.formedit.min.js.br /tmp/work/js/minified/grid.formedit.min.js
+2023/06/26 15:30:37 br /tmp/work/js/minified/i18n/grid.locale-bg.min.js -> /output/js/minified/i18n/grid.locale-bg.min.js.br
+2023/06/26 15:30:37 gz /tmp/work/js/minified/i18n/grid.locale-bg.min.js -> /output/js/minified/i18n/grid.locale-bg.min.js.gz
+2023/06/26 15:30:37 sri /tmp/work/js/minified/i18n/grid.locale-bg.js -> /output/js/minified/i18n/grid.locale-bg.js.sri
+2023/06/26 15:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-bg.js.br /tmp/work/js/minified/i18n/grid.locale-bg.js
+2023/06/26 15:30:37 br /tmp/work/js/minified/i18n/grid.locale-bg.js -> /output/js/minified/i18n/grid.locale-bg.js.br
+2023/06/26 15:30:37 gz /tmp/work/js/minified/i18n/grid.locale-bg.js -> /output/js/minified/i18n/grid.locale-bg.js.gz
+2023/06/26 15:30:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-de.min.js /tmp/work/js/minified/i18n/grid.locale-de.js
+2023/06/26 15:30:37 sri /tmp/work/js/minified/grid.utils.min.js -> /output/js/minified/grid.utils.min.js.sri
+2023/06/26 15:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.utils.min.js.br /tmp/work/js/minified/grid.utils.min.js
+2023/06/26 15:30:37 br /tmp/work/js/minified/grid.utils.min.js -> /output/js/minified/grid.utils.min.js.br
+2023/06/26 15:30:37 gz /tmp/work/js/minified/grid.utils.min.js -> /output/js/minified/grid.utils.min.js.gz
+2023/06/26 15:30:37 sri /tmp/work/js/minified/grid.utils.js -> /output/js/minified/grid.utils.js.sri
+2023/06/26 15:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.utils.js.br /tmp/work/js/minified/grid.utils.js
+2023/06/26 15:30:37 br /tmp/work/js/minified/grid.utils.js -> /output/js/minified/grid.utils.js.br
+2023/06/26 15:30:37 gz /tmp/work/js/minified/grid.utils.js -> /output/js/minified/grid.utils.js.gz
+2023/06/26 15:30:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-dk.min.js /tmp/work/js/minified/i18n/grid.locale-dk.js
+2023/06/26 15:30:37 sri /tmp/work/js/minified/i18n/grid.locale-ca.min.js -> /output/js/minified/i18n/grid.locale-ca.min.js.sri
+2023/06/26 15:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-ca.min.js.br /tmp/work/js/minified/i18n/grid.locale-ca.min.js
+2023/06/26 15:30:37 br /tmp/work/js/minified/grid.formedit.min.js -> /output/js/minified/grid.formedit.min.js.br
+2023/06/26 15:30:37 gz /tmp/work/js/minified/grid.formedit.min.js -> /output/js/minified/grid.formedit.min.js.gz
+2023/06/26 15:30:37 sri /tmp/work/js/minified/grid.formedit.js -> /output/js/minified/grid.formedit.js.sri
+2023/06/26 15:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.formedit.js.br /tmp/work/js/minified/grid.formedit.js
+2023/06/26 15:30:37 br /tmp/work/js/minified/i18n/grid.locale-ca.min.js -> /output/js/minified/i18n/grid.locale-ca.min.js.br
+2023/06/26 15:30:37 gz /tmp/work/js/minified/i18n/grid.locale-ca.min.js -> /output/js/minified/i18n/grid.locale-ca.min.js.gz
+2023/06/26 15:30:37 sri /tmp/work/js/minified/i18n/grid.locale-ca.js -> /output/js/minified/i18n/grid.locale-ca.js.sri
+2023/06/26 15:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-ca.js.br /tmp/work/js/minified/i18n/grid.locale-ca.js
+2023/06/26 15:30:37 br /tmp/work/js/minified/i18n/grid.locale-ca.js -> /output/js/minified/i18n/grid.locale-ca.js.br
+2023/06/26 15:30:37 gz /tmp/work/js/minified/i18n/grid.locale-ca.js -> /output/js/minified/i18n/grid.locale-ca.js.gz
+2023/06/26 15:30:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-el.min.js /tmp/work/js/minified/i18n/grid.locale-el.js
+2023/06/26 15:30:37 sri /tmp/work/js/minified/i18n/grid.locale-cn.min.js -> /output/js/minified/i18n/grid.locale-cn.min.js.sri
+2023/06/26 15:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-cn.min.js.br /tmp/work/js/minified/i18n/grid.locale-cn.min.js
+2023/06/26 15:30:37 br /tmp/work/js/minified/i18n/grid.locale-cn.min.js -> /output/js/minified/i18n/grid.locale-cn.min.js.br
+2023/06/26 15:30:37 gz /tmp/work/js/minified/i18n/grid.locale-cn.min.js -> /output/js/minified/i18n/grid.locale-cn.min.js.gz
+2023/06/26 15:30:37 sri /tmp/work/js/minified/i18n/grid.locale-cn.js -> /output/js/minified/i18n/grid.locale-cn.js.sri
+2023/06/26 15:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-cn.js.br /tmp/work/js/minified/i18n/grid.locale-cn.js
+2023/06/26 15:30:37 br /tmp/work/js/minified/i18n/grid.locale-cn.js -> /output/js/minified/i18n/grid.locale-cn.js.br
+2023/06/26 15:30:37 gz /tmp/work/js/minified/i18n/grid.locale-cn.js -> /output/js/minified/i18n/grid.locale-cn.js.gz
+2023/06/26 15:30:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-en.min.js /tmp/work/js/minified/i18n/grid.locale-en.js
+2023/06/26 15:30:37 sri /tmp/work/js/minified/i18n/grid.locale-cs.min.js -> /output/js/minified/i18n/grid.locale-cs.min.js.sri
+2023/06/26 15:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-cs.min.js.br /tmp/work/js/minified/i18n/grid.locale-cs.min.js
+2023/06/26 15:30:37 br /tmp/work/js/minified/i18n/grid.locale-cs.min.js -> /output/js/minified/i18n/grid.locale-cs.min.js.br
+2023/06/26 15:30:37 gz /tmp/work/js/minified/i18n/grid.locale-cs.min.js -> /output/js/minified/i18n/grid.locale-cs.min.js.gz
+2023/06/26 15:30:37 sri /tmp/work/js/minified/i18n/grid.locale-cs.js -> /output/js/minified/i18n/grid.locale-cs.js.sri
+2023/06/26 15:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-cs.js.br /tmp/work/js/minified/i18n/grid.locale-cs.js
+2023/06/26 15:30:37 br /tmp/work/js/minified/grid.formedit.js -> /output/js/minified/grid.formedit.js.br
+2023/06/26 15:30:37 gz /tmp/work/js/minified/grid.formedit.js -> /output/js/minified/grid.formedit.js.gz
+2023/06/26 15:30:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-es.min.js /tmp/work/js/minified/i18n/grid.locale-es.js
+2023/06/26 15:30:37 br /tmp/work/js/minified/i18n/grid.locale-cs.js -> /output/js/minified/i18n/grid.locale-cs.js.br
+2023/06/26 15:30:37 gz /tmp/work/js/minified/i18n/grid.locale-cs.js -> /output/js/minified/i18n/grid.locale-cs.js.gz
+2023/06/26 15:30:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-fa.min.js /tmp/work/js/minified/i18n/grid.locale-fa.js
+2023/06/26 15:30:37 sri /tmp/work/js/minified/i18n/grid.locale-de.min.js -> /output/js/minified/i18n/grid.locale-de.min.js.sri
+2023/06/26 15:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-de.min.js.br /tmp/work/js/minified/i18n/grid.locale-de.min.js
+2023/06/26 15:30:37 br /tmp/work/js/minified/i18n/grid.locale-de.min.js -> /output/js/minified/i18n/grid.locale-de.min.js.br
+2023/06/26 15:30:37 gz /tmp/work/js/minified/i18n/grid.locale-de.min.js -> /output/js/minified/i18n/grid.locale-de.min.js.gz
+2023/06/26 15:30:37 sri /tmp/work/js/minified/i18n/grid.locale-de.js -> /output/js/minified/i18n/grid.locale-de.js.sri
+2023/06/26 15:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-de.js.br /tmp/work/js/minified/i18n/grid.locale-de.js
+2023/06/26 15:30:37 br /tmp/work/js/minified/i18n/grid.locale-de.js -> /output/js/minified/i18n/grid.locale-de.js.br
+2023/06/26 15:30:37 gz /tmp/work/js/minified/i18n/grid.locale-de.js -> /output/js/minified/i18n/grid.locale-de.js.gz
+2023/06/26 15:30:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-fi.min.js /tmp/work/js/minified/i18n/grid.locale-fi.js
+2023/06/26 15:30:37 sri /tmp/work/js/minified/i18n/grid.locale-dk.min.js -> /output/js/minified/i18n/grid.locale-dk.min.js.sri
+2023/06/26 15:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-dk.min.js.br /tmp/work/js/minified/i18n/grid.locale-dk.min.js
+2023/06/26 15:30:37 br /tmp/work/js/minified/i18n/grid.locale-dk.min.js -> /output/js/minified/i18n/grid.locale-dk.min.js.br
+2023/06/26 15:30:37 gz /tmp/work/js/minified/i18n/grid.locale-dk.min.js -> /output/js/minified/i18n/grid.locale-dk.min.js.gz
+2023/06/26 15:30:37 sri /tmp/work/js/minified/i18n/grid.locale-dk.js -> /output/js/minified/i18n/grid.locale-dk.js.sri
+2023/06/26 15:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-dk.js.br /tmp/work/js/minified/i18n/grid.locale-dk.js
+2023/06/26 15:30:37 br /tmp/work/js/minified/i18n/grid.locale-dk.js -> /output/js/minified/i18n/grid.locale-dk.js.br
+2023/06/26 15:30:37 gz /tmp/work/js/minified/i18n/grid.locale-dk.js -> /output/js/minified/i18n/grid.locale-dk.js.gz
+2023/06/26 15:30:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-fr.min.js /tmp/work/js/minified/i18n/grid.locale-fr.js
+2023/06/26 15:30:37 sri /tmp/work/js/minified/i18n/grid.locale-el.min.js -> /output/js/minified/i18n/grid.locale-el.min.js.sri
+2023/06/26 15:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-el.min.js.br /tmp/work/js/minified/i18n/grid.locale-el.min.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-el.min.js -> /output/js/minified/i18n/grid.locale-el.min.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-el.min.js -> /output/js/minified/i18n/grid.locale-el.min.js.gz
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-el.js -> /output/js/minified/i18n/grid.locale-el.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-el.js.br /tmp/work/js/minified/i18n/grid.locale-el.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-el.js -> /output/js/minified/i18n/grid.locale-el.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-el.js -> /output/js/minified/i18n/grid.locale-el.js.gz
+2023/06/26 15:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-gl.min.js /tmp/work/js/minified/i18n/grid.locale-gl.js
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-fa.min.js -> /output/js/minified/i18n/grid.locale-fa.min.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-fa.min.js.br /tmp/work/js/minified/i18n/grid.locale-fa.min.js
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-en.min.js -> /output/js/minified/i18n/grid.locale-en.min.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-en.min.js.br /tmp/work/js/minified/i18n/grid.locale-en.min.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-en.min.js -> /output/js/minified/i18n/grid.locale-en.min.js.br
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-fa.min.js -> /output/js/minified/i18n/grid.locale-fa.min.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-en.min.js -> /output/js/minified/i18n/grid.locale-en.min.js.gz
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-en.js -> /output/js/minified/i18n/grid.locale-en.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-en.js.br /tmp/work/js/minified/i18n/grid.locale-en.js
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-fa.min.js -> /output/js/minified/i18n/grid.locale-fa.min.js.gz
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-fa.js -> /output/js/minified/i18n/grid.locale-fa.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-fa.js.br /tmp/work/js/minified/i18n/grid.locale-fa.js
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-es.min.js -> /output/js/minified/i18n/grid.locale-es.min.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-es.min.js.br /tmp/work/js/minified/i18n/grid.locale-es.min.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-en.js -> /output/js/minified/i18n/grid.locale-en.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-en.js -> /output/js/minified/i18n/grid.locale-en.js.gz
+2023/06/26 15:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-he.min.js /tmp/work/js/minified/i18n/grid.locale-he.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-es.min.js -> /output/js/minified/i18n/grid.locale-es.min.js.br
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-fa.js -> /output/js/minified/i18n/grid.locale-fa.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-es.min.js -> /output/js/minified/i18n/grid.locale-es.min.js.gz
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-es.js -> /output/js/minified/i18n/grid.locale-es.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-es.js.br /tmp/work/js/minified/i18n/grid.locale-es.js
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-fa.js -> /output/js/minified/i18n/grid.locale-fa.js.gz
+2023/06/26 15:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-hr.min.js /tmp/work/js/minified/i18n/grid.locale-hr.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-es.js -> /output/js/minified/i18n/grid.locale-es.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-es.js -> /output/js/minified/i18n/grid.locale-es.js.gz
+2023/06/26 15:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-hu.min.js /tmp/work/js/minified/i18n/grid.locale-hu.js
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-fi.min.js -> /output/js/minified/i18n/grid.locale-fi.min.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-fi.min.js.br /tmp/work/js/minified/i18n/grid.locale-fi.min.js
+2023/06/26 15:30:38 sri /tmp/work/js/minified/grid.treegrid.min.js -> /output/js/minified/grid.treegrid.min.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.treegrid.min.js.br /tmp/work/js/minified/grid.treegrid.min.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-fi.min.js -> /output/js/minified/i18n/grid.locale-fi.min.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-fi.min.js -> /output/js/minified/i18n/grid.locale-fi.min.js.gz
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-fi.js -> /output/js/minified/i18n/grid.locale-fi.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-fi.js.br /tmp/work/js/minified/i18n/grid.locale-fi.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-fi.js -> /output/js/minified/i18n/grid.locale-fi.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-fi.js -> /output/js/minified/i18n/grid.locale-fi.js.gz
+2023/06/26 15:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-id.min.js /tmp/work/js/minified/i18n/grid.locale-id.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/grid.treegrid.min.js -> /output/js/minified/grid.treegrid.min.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/grid.treegrid.min.js -> /output/js/minified/grid.treegrid.min.js.gz
+2023/06/26 15:30:38 sri /tmp/work/js/minified/grid.treegrid.js -> /output/js/minified/grid.treegrid.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.treegrid.js.br /tmp/work/js/minified/grid.treegrid.js
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-fr.min.js -> /output/js/minified/i18n/grid.locale-fr.min.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-fr.min.js.br /tmp/work/js/minified/i18n/grid.locale-fr.min.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-fr.min.js -> /output/js/minified/i18n/grid.locale-fr.min.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-fr.min.js -> /output/js/minified/i18n/grid.locale-fr.min.js.gz
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-fr.js -> /output/js/minified/i18n/grid.locale-fr.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-fr.js.br /tmp/work/js/minified/i18n/grid.locale-fr.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/grid.treegrid.js -> /output/js/minified/grid.treegrid.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/grid.treegrid.js -> /output/js/minified/grid.treegrid.js.gz
+2023/06/26 15:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-is.min.js /tmp/work/js/minified/i18n/grid.locale-is.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-fr.js -> /output/js/minified/i18n/grid.locale-fr.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-fr.js -> /output/js/minified/i18n/grid.locale-fr.js.gz
+2023/06/26 15:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-it.min.js /tmp/work/js/minified/i18n/grid.locale-it.js
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-gl.min.js -> /output/js/minified/i18n/grid.locale-gl.min.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-gl.min.js.br /tmp/work/js/minified/i18n/grid.locale-gl.min.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-gl.min.js -> /output/js/minified/i18n/grid.locale-gl.min.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-gl.min.js -> /output/js/minified/i18n/grid.locale-gl.min.js.gz
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-gl.js -> /output/js/minified/i18n/grid.locale-gl.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-gl.js.br /tmp/work/js/minified/i18n/grid.locale-gl.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-gl.js -> /output/js/minified/i18n/grid.locale-gl.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-gl.js -> /output/js/minified/i18n/grid.locale-gl.js.gz
+2023/06/26 15:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-ja.min.js /tmp/work/js/minified/i18n/grid.locale-ja.js
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-hr.min.js -> /output/js/minified/i18n/grid.locale-hr.min.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-hr.min.js.br /tmp/work/js/minified/i18n/grid.locale-hr.min.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-hr.min.js -> /output/js/minified/i18n/grid.locale-hr.min.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-hr.min.js -> /output/js/minified/i18n/grid.locale-hr.min.js.gz
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-hr.js -> /output/js/minified/i18n/grid.locale-hr.js.sri
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-he.min.js -> /output/js/minified/i18n/grid.locale-he.min.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-he.min.js.br /tmp/work/js/minified/i18n/grid.locale-he.min.js
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-hr.js.br /tmp/work/js/minified/i18n/grid.locale-hr.js
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-hu.min.js -> /output/js/minified/i18n/grid.locale-hu.min.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-hu.min.js.br /tmp/work/js/minified/i18n/grid.locale-hu.min.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-he.min.js -> /output/js/minified/i18n/grid.locale-he.min.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-he.min.js -> /output/js/minified/i18n/grid.locale-he.min.js.gz
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-he.js -> /output/js/minified/i18n/grid.locale-he.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-he.js.br /tmp/work/js/minified/i18n/grid.locale-he.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-hr.js -> /output/js/minified/i18n/grid.locale-hr.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-hr.js -> /output/js/minified/i18n/grid.locale-hr.js.gz
+2023/06/26 15:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-kr.min.js /tmp/work/js/minified/i18n/grid.locale-kr.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-he.js -> /output/js/minified/i18n/grid.locale-he.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-he.js -> /output/js/minified/i18n/grid.locale-he.js.gz
+2023/06/26 15:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-lt.min.js /tmp/work/js/minified/i18n/grid.locale-lt.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-hu.min.js -> /output/js/minified/i18n/grid.locale-hu.min.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-hu.min.js -> /output/js/minified/i18n/grid.locale-hu.min.js.gz
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-hu.js -> /output/js/minified/i18n/grid.locale-hu.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-hu.js.br /tmp/work/js/minified/i18n/grid.locale-hu.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-hu.js -> /output/js/minified/i18n/grid.locale-hu.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-hu.js -> /output/js/minified/i18n/grid.locale-hu.js.gz
+2023/06/26 15:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-me.min.js /tmp/work/js/minified/i18n/grid.locale-me.js
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-it.min.js -> /output/js/minified/i18n/grid.locale-it.min.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-it.min.js.br /tmp/work/js/minified/i18n/grid.locale-it.min.js
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-is.min.js -> /output/js/minified/i18n/grid.locale-is.min.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-is.min.js.br /tmp/work/js/minified/i18n/grid.locale-is.min.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-it.min.js -> /output/js/minified/i18n/grid.locale-it.min.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-it.min.js -> /output/js/minified/i18n/grid.locale-it.min.js.gz
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-it.js -> /output/js/minified/i18n/grid.locale-it.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-it.js.br /tmp/work/js/minified/i18n/grid.locale-it.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-is.min.js -> /output/js/minified/i18n/grid.locale-is.min.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-is.min.js -> /output/js/minified/i18n/grid.locale-is.min.js.gz
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-is.js -> /output/js/minified/i18n/grid.locale-is.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-is.js.br /tmp/work/js/minified/i18n/grid.locale-is.js
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-id.min.js -> /output/js/minified/i18n/grid.locale-id.min.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-id.min.js.br /tmp/work/js/minified/i18n/grid.locale-id.min.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-it.js -> /output/js/minified/i18n/grid.locale-it.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-it.js -> /output/js/minified/i18n/grid.locale-it.js.gz
+2023/06/26 15:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-nl.min.js /tmp/work/js/minified/i18n/grid.locale-nl.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-id.min.js -> /output/js/minified/i18n/grid.locale-id.min.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-id.min.js -> /output/js/minified/i18n/grid.locale-id.min.js.gz
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-id.js -> /output/js/minified/i18n/grid.locale-id.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-id.js.br /tmp/work/js/minified/i18n/grid.locale-id.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-is.js -> /output/js/minified/i18n/grid.locale-is.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-is.js -> /output/js/minified/i18n/grid.locale-is.js.gz
+2023/06/26 15:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-no.min.js /tmp/work/js/minified/i18n/grid.locale-no.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-id.js -> /output/js/minified/i18n/grid.locale-id.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-id.js -> /output/js/minified/i18n/grid.locale-id.js.gz
+2023/06/26 15:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-pl.min.js /tmp/work/js/minified/i18n/grid.locale-pl.js
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-ja.min.js -> /output/js/minified/i18n/grid.locale-ja.min.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-ja.min.js.br /tmp/work/js/minified/i18n/grid.locale-ja.min.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-ja.min.js -> /output/js/minified/i18n/grid.locale-ja.min.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-ja.min.js -> /output/js/minified/i18n/grid.locale-ja.min.js.gz
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-ja.js -> /output/js/minified/i18n/grid.locale-ja.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-ja.js.br /tmp/work/js/minified/i18n/grid.locale-ja.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-ja.js -> /output/js/minified/i18n/grid.locale-ja.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-ja.js -> /output/js/minified/i18n/grid.locale-ja.js.gz
+2023/06/26 15:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-pt-br.min.js /tmp/work/js/minified/i18n/grid.locale-pt-br.js
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-kr.min.js -> /output/js/minified/i18n/grid.locale-kr.min.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-kr.min.js.br /tmp/work/js/minified/i18n/grid.locale-kr.min.js
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-lt.min.js -> /output/js/minified/i18n/grid.locale-lt.min.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-lt.min.js.br /tmp/work/js/minified/i18n/grid.locale-lt.min.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-kr.min.js -> /output/js/minified/i18n/grid.locale-kr.min.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-kr.min.js -> /output/js/minified/i18n/grid.locale-kr.min.js.gz
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-kr.js -> /output/js/minified/i18n/grid.locale-kr.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-kr.js.br /tmp/work/js/minified/i18n/grid.locale-kr.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-lt.min.js -> /output/js/minified/i18n/grid.locale-lt.min.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-lt.min.js -> /output/js/minified/i18n/grid.locale-lt.min.js.gz
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-lt.js -> /output/js/minified/i18n/grid.locale-lt.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-lt.js.br /tmp/work/js/minified/i18n/grid.locale-lt.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-kr.js -> /output/js/minified/i18n/grid.locale-kr.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-kr.js -> /output/js/minified/i18n/grid.locale-kr.js.gz
+2023/06/26 15:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-pt.min.js /tmp/work/js/minified/i18n/grid.locale-pt.js
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-me.min.js -> /output/js/minified/i18n/grid.locale-me.min.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-me.min.js.br /tmp/work/js/minified/i18n/grid.locale-me.min.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-lt.js -> /output/js/minified/i18n/grid.locale-lt.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-lt.js -> /output/js/minified/i18n/grid.locale-lt.js.gz
+2023/06/26 15:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-ro.min.js /tmp/work/js/minified/i18n/grid.locale-ro.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-me.min.js -> /output/js/minified/i18n/grid.locale-me.min.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-me.min.js -> /output/js/minified/i18n/grid.locale-me.min.js.gz
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-me.js -> /output/js/minified/i18n/grid.locale-me.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-me.js.br /tmp/work/js/minified/i18n/grid.locale-me.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-me.js -> /output/js/minified/i18n/grid.locale-me.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-me.js -> /output/js/minified/i18n/grid.locale-me.js.gz
+2023/06/26 15:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-ru.min.js /tmp/work/js/minified/i18n/grid.locale-ru.js
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-no.min.js -> /output/js/minified/i18n/grid.locale-no.min.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-no.min.js.br /tmp/work/js/minified/i18n/grid.locale-no.min.js
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-nl.min.js -> /output/js/minified/i18n/grid.locale-nl.min.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-nl.min.js.br /tmp/work/js/minified/i18n/grid.locale-nl.min.js
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-pl.min.js -> /output/js/minified/i18n/grid.locale-pl.min.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-pl.min.js.br /tmp/work/js/minified/i18n/grid.locale-pl.min.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-no.min.js -> /output/js/minified/i18n/grid.locale-no.min.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-no.min.js -> /output/js/minified/i18n/grid.locale-no.min.js.gz
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-no.js -> /output/js/minified/i18n/grid.locale-no.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-no.js.br /tmp/work/js/minified/i18n/grid.locale-no.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-nl.min.js -> /output/js/minified/i18n/grid.locale-nl.min.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-nl.min.js -> /output/js/minified/i18n/grid.locale-nl.min.js.gz
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-nl.js -> /output/js/minified/i18n/grid.locale-nl.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-nl.js.br /tmp/work/js/minified/i18n/grid.locale-nl.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-pl.min.js -> /output/js/minified/i18n/grid.locale-pl.min.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-pl.min.js -> /output/js/minified/i18n/grid.locale-pl.min.js.gz
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-pl.js -> /output/js/minified/i18n/grid.locale-pl.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-pl.js.br /tmp/work/js/minified/i18n/grid.locale-pl.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-no.js -> /output/js/minified/i18n/grid.locale-no.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-no.js -> /output/js/minified/i18n/grid.locale-no.js.gz
+2023/06/26 15:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-sk.min.js /tmp/work/js/minified/i18n/grid.locale-sk.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-nl.js -> /output/js/minified/i18n/grid.locale-nl.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-nl.js -> /output/js/minified/i18n/grid.locale-nl.js.gz
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-pl.js -> /output/js/minified/i18n/grid.locale-pl.js.br
+2023/06/26 15:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-sq.min.js /tmp/work/js/minified/i18n/grid.locale-sq.js
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-pl.js -> /output/js/minified/i18n/grid.locale-pl.js.gz
+2023/06/26 15:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-sr-latin.min.js /tmp/work/js/minified/i18n/grid.locale-sr-latin.js
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-pt-br.min.js -> /output/js/minified/i18n/grid.locale-pt-br.min.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-pt-br.min.js.br /tmp/work/js/minified/i18n/grid.locale-pt-br.min.js
+2023/06/26 15:30:38 sri /tmp/work/js/minified/grid.base.min.js -> /output/js/minified/grid.base.min.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.base.min.js.br /tmp/work/js/minified/grid.base.min.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-pt-br.min.js -> /output/js/minified/i18n/grid.locale-pt-br.min.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-pt-br.min.js -> /output/js/minified/i18n/grid.locale-pt-br.min.js.gz
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-pt-br.js -> /output/js/minified/i18n/grid.locale-pt-br.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-pt-br.js.br /tmp/work/js/minified/i18n/grid.locale-pt-br.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-pt-br.js -> /output/js/minified/i18n/grid.locale-pt-br.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-pt-br.js -> /output/js/minified/i18n/grid.locale-pt-br.js.gz
+2023/06/26 15:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-sr.min.js /tmp/work/js/minified/i18n/grid.locale-sr.js
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-pt.min.js -> /output/js/minified/i18n/grid.locale-pt.min.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-pt.min.js.br /tmp/work/js/minified/i18n/grid.locale-pt.min.js
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-ro.min.js -> /output/js/minified/i18n/grid.locale-ro.min.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-ro.min.js.br /tmp/work/js/minified/i18n/grid.locale-ro.min.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-pt.min.js -> /output/js/minified/i18n/grid.locale-pt.min.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-pt.min.js -> /output/js/minified/i18n/grid.locale-pt.min.js.gz
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-pt.js -> /output/js/minified/i18n/grid.locale-pt.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-pt.js.br /tmp/work/js/minified/i18n/grid.locale-pt.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-ro.min.js -> /output/js/minified/i18n/grid.locale-ro.min.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-ro.min.js -> /output/js/minified/i18n/grid.locale-ro.min.js.gz
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-ro.js -> /output/js/minified/i18n/grid.locale-ro.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-ro.js.br /tmp/work/js/minified/i18n/grid.locale-ro.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-pt.js -> /output/js/minified/i18n/grid.locale-pt.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-pt.js -> /output/js/minified/i18n/grid.locale-pt.js.gz
+2023/06/26 15:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-sv.min.js /tmp/work/js/minified/i18n/grid.locale-sv.js
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-ru.min.js -> /output/js/minified/i18n/grid.locale-ru.min.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-ru.min.js.br /tmp/work/js/minified/i18n/grid.locale-ru.min.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-ro.js -> /output/js/minified/i18n/grid.locale-ro.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-ro.js -> /output/js/minified/i18n/grid.locale-ro.js.gz
+2023/06/26 15:30:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-th.min.js /tmp/work/js/minified/i18n/grid.locale-th.js
+2023/06/26 15:30:38 br /tmp/work/js/minified/i18n/grid.locale-ru.min.js -> /output/js/minified/i18n/grid.locale-ru.min.js.br
+2023/06/26 15:30:38 gz /tmp/work/js/minified/i18n/grid.locale-ru.min.js -> /output/js/minified/i18n/grid.locale-ru.min.js.gz
+2023/06/26 15:30:38 sri /tmp/work/js/minified/i18n/grid.locale-ru.js -> /output/js/minified/i18n/grid.locale-ru.js.sri
+2023/06/26 15:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-ru.js.br /tmp/work/js/minified/i18n/grid.locale-ru.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/i18n/grid.locale-ru.js -> /output/js/minified/i18n/grid.locale-ru.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/i18n/grid.locale-ru.js -> /output/js/minified/i18n/grid.locale-ru.js.gz
+2023/06/26 15:30:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-tr.min.js /tmp/work/js/minified/i18n/grid.locale-tr.js
+2023/06/26 15:30:39 sri /tmp/work/js/minified/i18n/grid.locale-sq.min.js -> /output/js/minified/i18n/grid.locale-sq.min.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-sq.min.js.br /tmp/work/js/minified/i18n/grid.locale-sq.min.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/i18n/grid.locale-sq.min.js -> /output/js/minified/i18n/grid.locale-sq.min.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/i18n/grid.locale-sq.min.js -> /output/js/minified/i18n/grid.locale-sq.min.js.gz
+2023/06/26 15:30:39 sri /tmp/work/js/minified/i18n/grid.locale-sq.js -> /output/js/minified/i18n/grid.locale-sq.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-sq.js.br /tmp/work/js/minified/i18n/grid.locale-sq.js
+2023/06/26 15:30:39 sri /tmp/work/js/minified/i18n/grid.locale-sr-latin.min.js -> /output/js/minified/i18n/grid.locale-sr-latin.min.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-sr-latin.min.js.br /tmp/work/js/minified/i18n/grid.locale-sr-latin.min.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/i18n/grid.locale-sq.js -> /output/js/minified/i18n/grid.locale-sq.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/i18n/grid.locale-sq.js -> /output/js/minified/i18n/grid.locale-sq.js.gz
+2023/06/26 15:30:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-tw.min.js /tmp/work/js/minified/i18n/grid.locale-tw.js
+2023/06/26 15:30:39 sri /tmp/work/js/minified/i18n/grid.locale-sk.min.js -> /output/js/minified/i18n/grid.locale-sk.min.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-sk.min.js.br /tmp/work/js/minified/i18n/grid.locale-sk.min.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/i18n/grid.locale-sr-latin.min.js -> /output/js/minified/i18n/grid.locale-sr-latin.min.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/i18n/grid.locale-sr-latin.min.js -> /output/js/minified/i18n/grid.locale-sr-latin.min.js.gz
+2023/06/26 15:30:39 sri /tmp/work/js/minified/i18n/grid.locale-sr-latin.js -> /output/js/minified/i18n/grid.locale-sr-latin.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-sr-latin.js.br /tmp/work/js/minified/i18n/grid.locale-sr-latin.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/i18n/grid.locale-sk.min.js -> /output/js/minified/i18n/grid.locale-sk.min.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/i18n/grid.locale-sk.min.js -> /output/js/minified/i18n/grid.locale-sk.min.js.gz
+2023/06/26 15:30:39 sri /tmp/work/js/minified/i18n/grid.locale-sk.js -> /output/js/minified/i18n/grid.locale-sk.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-sk.js.br /tmp/work/js/minified/i18n/grid.locale-sk.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/i18n/grid.locale-sr-latin.js -> /output/js/minified/i18n/grid.locale-sr-latin.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/i18n/grid.locale-sr-latin.js -> /output/js/minified/i18n/grid.locale-sr-latin.js.gz
+2023/06/26 15:30:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-ua.min.js /tmp/work/js/minified/i18n/grid.locale-ua.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/i18n/grid.locale-sk.js -> /output/js/minified/i18n/grid.locale-sk.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/i18n/grid.locale-sk.js -> /output/js/minified/i18n/grid.locale-sk.js.gz
+2023/06/26 15:30:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-uk.min.js /tmp/work/js/minified/i18n/grid.locale-uk.js
+2023/06/26 15:30:39 sri /tmp/work/js/minified/i18n/grid.locale-sr.min.js -> /output/js/minified/i18n/grid.locale-sr.min.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-sr.min.js.br /tmp/work/js/minified/i18n/grid.locale-sr.min.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/i18n/grid.locale-sr.min.js -> /output/js/minified/i18n/grid.locale-sr.min.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/i18n/grid.locale-sr.min.js -> /output/js/minified/i18n/grid.locale-sr.min.js.gz
+2023/06/26 15:30:39 sri /tmp/work/js/minified/i18n/grid.locale-sr.js -> /output/js/minified/i18n/grid.locale-sr.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-sr.js.br /tmp/work/js/minified/i18n/grid.locale-sr.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/i18n/grid.locale-sr.js -> /output/js/minified/i18n/grid.locale-sr.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/i18n/grid.locale-sr.js -> /output/js/minified/i18n/grid.locale-sr.js.gz
+2023/06/26 15:30:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/i18n/grid.locale-vi.min.js /tmp/work/js/minified/i18n/grid.locale-vi.js
+2023/06/26 15:30:39 sri /tmp/work/js/minified/i18n/grid.locale-th.min.js -> /output/js/minified/i18n/grid.locale-th.min.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-th.min.js.br /tmp/work/js/minified/i18n/grid.locale-th.min.js
+2023/06/26 15:30:39 sri /tmp/work/js/minified/i18n/grid.locale-sv.min.js -> /output/js/minified/i18n/grid.locale-sv.min.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-sv.min.js.br /tmp/work/js/minified/i18n/grid.locale-sv.min.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/i18n/grid.locale-th.min.js -> /output/js/minified/i18n/grid.locale-th.min.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/i18n/grid.locale-th.min.js -> /output/js/minified/i18n/grid.locale-th.min.js.gz
+2023/06/26 15:30:39 sri /tmp/work/js/minified/i18n/grid.locale-th.js -> /output/js/minified/i18n/grid.locale-th.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-th.js.br /tmp/work/js/minified/i18n/grid.locale-th.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/i18n/grid.locale-sv.min.js -> /output/js/minified/i18n/grid.locale-sv.min.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/i18n/grid.locale-sv.min.js -> /output/js/minified/i18n/grid.locale-sv.min.js.gz
+2023/06/26 15:30:39 sri /tmp/work/js/minified/i18n/grid.locale-sv.js -> /output/js/minified/i18n/grid.locale-sv.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-sv.js.br /tmp/work/js/minified/i18n/grid.locale-sv.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/grid.base.min.js -> /output/js/minified/grid.base.min.js.br
+2023/06/26 15:30:39 br /tmp/work/js/minified/i18n/grid.locale-sv.js -> /output/js/minified/i18n/grid.locale-sv.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/i18n/grid.locale-sv.js -> /output/js/minified/i18n/grid.locale-sv.js.gz
+2023/06/26 15:30:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/jqDnR.min.js /tmp/work/js/minified/jqDnR.js
+2023/06/26 15:30:39 sri /tmp/work/js/minified/i18n/grid.locale-tr.min.js -> /output/js/minified/i18n/grid.locale-tr.min.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-tr.min.js.br /tmp/work/js/minified/i18n/grid.locale-tr.min.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/i18n/grid.locale-th.js -> /output/js/minified/i18n/grid.locale-th.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/i18n/grid.locale-th.js -> /output/js/minified/i18n/grid.locale-th.js.gz
+2023/06/26 15:30:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/jqModal.min.js /tmp/work/js/minified/jqModal.js
+2023/06/26 15:30:39 gz /tmp/work/js/minified/grid.base.min.js -> /output/js/minified/grid.base.min.js.gz
+2023/06/26 15:30:39 sri /tmp/work/js/minified/grid.base.js -> /output/js/minified/grid.base.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/grid.base.js.br /tmp/work/js/minified/grid.base.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/i18n/grid.locale-tr.min.js -> /output/js/minified/i18n/grid.locale-tr.min.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/i18n/grid.locale-tr.min.js -> /output/js/minified/i18n/grid.locale-tr.min.js.gz
+2023/06/26 15:30:39 sri /tmp/work/js/minified/i18n/grid.locale-tr.js -> /output/js/minified/i18n/grid.locale-tr.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-tr.js.br /tmp/work/js/minified/i18n/grid.locale-tr.js
+2023/06/26 15:30:39 sri /tmp/work/js/minified/i18n/grid.locale-tw.min.js -> /output/js/minified/i18n/grid.locale-tw.min.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-tw.min.js.br /tmp/work/js/minified/i18n/grid.locale-tw.min.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/i18n/grid.locale-tr.js -> /output/js/minified/i18n/grid.locale-tr.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/i18n/grid.locale-tr.js -> /output/js/minified/i18n/grid.locale-tr.js.gz
+2023/06/26 15:30:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/jquery.fmatter.min.js /tmp/work/js/minified/jquery.fmatter.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/i18n/grid.locale-tw.min.js -> /output/js/minified/i18n/grid.locale-tw.min.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/i18n/grid.locale-tw.min.js -> /output/js/minified/i18n/grid.locale-tw.min.js.gz
+2023/06/26 15:30:39 sri /tmp/work/js/minified/i18n/grid.locale-tw.js -> /output/js/minified/i18n/grid.locale-tw.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-tw.js.br /tmp/work/js/minified/i18n/grid.locale-tw.js
+2023/06/26 15:30:39 sri /tmp/work/js/minified/i18n/grid.locale-ua.min.js -> /output/js/minified/i18n/grid.locale-ua.min.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-ua.min.js.br /tmp/work/js/minified/i18n/grid.locale-ua.min.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/i18n/grid.locale-tw.js -> /output/js/minified/i18n/grid.locale-tw.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/i18n/grid.locale-tw.js -> /output/js/minified/i18n/grid.locale-tw.js.gz
+2023/06/26 15:30:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/js/minified/jquery.sortable.min.js /tmp/work/js/minified/jquery.sortable.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/i18n/grid.locale-ua.min.js -> /output/js/minified/i18n/grid.locale-ua.min.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/i18n/grid.locale-ua.min.js -> /output/js/minified/i18n/grid.locale-ua.min.js.gz
+2023/06/26 15:30:39 sri /tmp/work/js/minified/i18n/grid.locale-ua.js -> /output/js/minified/i18n/grid.locale-ua.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-ua.js.br /tmp/work/js/minified/i18n/grid.locale-ua.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/i18n/grid.locale-ua.js -> /output/js/minified/i18n/grid.locale-ua.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/i18n/grid.locale-ua.js -> /output/js/minified/i18n/grid.locale-ua.js.gz
+2023/06/26 15:30:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/grid.addons.min.js /tmp/work/plugins/grid.addons.js
+2023/06/26 15:30:39 sri /tmp/work/js/minified/i18n/grid.locale-uk.min.js -> /output/js/minified/i18n/grid.locale-uk.min.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-uk.min.js.br /tmp/work/js/minified/i18n/grid.locale-uk.min.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/i18n/grid.locale-uk.min.js -> /output/js/minified/i18n/grid.locale-uk.min.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/i18n/grid.locale-uk.min.js -> /output/js/minified/i18n/grid.locale-uk.min.js.gz
+2023/06/26 15:30:39 sri /tmp/work/js/minified/i18n/grid.locale-uk.js -> /output/js/minified/i18n/grid.locale-uk.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-uk.js.br /tmp/work/js/minified/i18n/grid.locale-uk.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/i18n/grid.locale-uk.js -> /output/js/minified/i18n/grid.locale-uk.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/i18n/grid.locale-uk.js -> /output/js/minified/i18n/grid.locale-uk.js.gz
+2023/06/26 15:30:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/grid.postext.min.js /tmp/work/plugins/grid.postext.js
+2023/06/26 15:30:39 sri /tmp/work/js/minified/i18n/grid.locale-vi.min.js -> /output/js/minified/i18n/grid.locale-vi.min.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-vi.min.js.br /tmp/work/js/minified/i18n/grid.locale-vi.min.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/i18n/grid.locale-vi.min.js -> /output/js/minified/i18n/grid.locale-vi.min.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/i18n/grid.locale-vi.min.js -> /output/js/minified/i18n/grid.locale-vi.min.js.gz
+2023/06/26 15:30:39 sri /tmp/work/js/minified/i18n/grid.locale-vi.js -> /output/js/minified/i18n/grid.locale-vi.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/i18n/grid.locale-vi.js.br /tmp/work/js/minified/i18n/grid.locale-vi.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/i18n/grid.locale-vi.js -> /output/js/minified/i18n/grid.locale-vi.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/i18n/grid.locale-vi.js -> /output/js/minified/i18n/grid.locale-vi.js.gz
+2023/06/26 15:30:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/grid.setcolumns.min.js /tmp/work/plugins/grid.setcolumns.js
+2023/06/26 15:30:39 sri /tmp/work/js/minified/jqDnR.min.js -> /output/js/minified/jqDnR.min.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/jqDnR.min.js.br /tmp/work/js/minified/jqDnR.min.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/jqDnR.min.js -> /output/js/minified/jqDnR.min.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/jqDnR.min.js -> /output/js/minified/jqDnR.min.js.gz
+2023/06/26 15:30:39 sri /tmp/work/js/minified/jqDnR.js -> /output/js/minified/jqDnR.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/jqDnR.js.br /tmp/work/js/minified/jqDnR.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/jqDnR.js -> /output/js/minified/jqDnR.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/jqDnR.js -> /output/js/minified/jqDnR.js.gz
+2023/06/26 15:30:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/grid.tbltogrid.min.js /tmp/work/plugins/grid.tbltogrid.js
+2023/06/26 15:30:39 sri /tmp/work/js/minified/jqModal.min.js -> /output/js/minified/jqModal.min.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/jqModal.min.js.br /tmp/work/js/minified/jqModal.min.js
+2023/06/26 15:30:39 sri /tmp/work/js/minified/jquery.sortable.min.js -> /output/js/minified/jquery.sortable.min.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/jquery.sortable.min.js.br /tmp/work/js/minified/jquery.sortable.min.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/jqModal.min.js -> /output/js/minified/jqModal.min.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/jqModal.min.js -> /output/js/minified/jqModal.min.js.gz
+2023/06/26 15:30:39 sri /tmp/work/js/minified/jqModal.js -> /output/js/minified/jqModal.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/jqModal.js.br /tmp/work/js/minified/jqModal.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/jquery.sortable.min.js -> /output/js/minified/jquery.sortable.min.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/jquery.sortable.min.js -> /output/js/minified/jquery.sortable.min.js.gz
+2023/06/26 15:30:39 sri /tmp/work/js/minified/jquery.sortable.js -> /output/js/minified/jquery.sortable.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/jquery.sortable.js.br /tmp/work/js/minified/jquery.sortable.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/jqModal.js -> /output/js/minified/jqModal.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/jqModal.js -> /output/js/minified/jqModal.js.gz
+2023/06/26 15:30:39 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/plugins/searchFilter.min.css /tmp/work/plugins/searchFilter.css
+2023/06/26 15:30:39 sri /tmp/work/plugins/grid.postext.min.js -> /output/plugins/grid.postext.min.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/grid.postext.min.js.br /tmp/work/plugins/grid.postext.min.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/jquery.sortable.js -> /output/js/minified/jquery.sortable.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/jquery.sortable.js -> /output/js/minified/jquery.sortable.js.gz
+2023/06/26 15:30:39 br /tmp/work/plugins/grid.postext.min.js -> /output/plugins/grid.postext.min.js.br
+2023/06/26 15:30:39 gz /tmp/work/plugins/grid.postext.min.js -> /output/plugins/grid.postext.min.js.gz
+2023/06/26 15:30:39 sri /tmp/work/plugins/grid.postext.js -> /output/plugins/grid.postext.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/grid.postext.js.br /tmp/work/plugins/grid.postext.js
+2023/06/26 15:30:39 br /tmp/work/plugins/grid.postext.js -> /output/plugins/grid.postext.js.br
+2023/06/26 15:30:39 gz /tmp/work/plugins/grid.postext.js -> /output/plugins/grid.postext.js.gz
+2023/06/26 15:30:39 br /tmp/work/js/minified/grid.base.js -> /output/js/minified/grid.base.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/grid.base.js -> /output/js/minified/grid.base.js.gz
+2023/06/26 15:30:39 sri /tmp/work/plugins/searchFilter.min.css -> /output/plugins/searchFilter.min.css.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/searchFilter.min.css.br /tmp/work/plugins/searchFilter.min.css
+2023/06/26 15:30:39 br /tmp/work/plugins/searchFilter.min.css -> /output/plugins/searchFilter.min.css.br
+2023/06/26 15:30:39 gz /tmp/work/plugins/searchFilter.min.css -> /output/plugins/searchFilter.min.css.gz
+2023/06/26 15:30:39 sri /tmp/work/plugins/searchFilter.css -> /output/plugins/searchFilter.css.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/searchFilter.css.br /tmp/work/plugins/searchFilter.css
+2023/06/26 15:30:39 br /tmp/work/plugins/searchFilter.css -> /output/plugins/searchFilter.css.br
+2023/06/26 15:30:39 gz /tmp/work/plugins/searchFilter.css -> /output/plugins/searchFilter.css.gz
+2023/06/26 15:30:39 sri /tmp/work/plugins/grid.setcolumns.min.js -> /output/plugins/grid.setcolumns.min.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/grid.setcolumns.min.js.br /tmp/work/plugins/grid.setcolumns.min.js
+2023/06/26 15:30:39 br /tmp/work/plugins/grid.setcolumns.min.js -> /output/plugins/grid.setcolumns.min.js.br
+2023/06/26 15:30:39 gz /tmp/work/plugins/grid.setcolumns.min.js -> /output/plugins/grid.setcolumns.min.js.gz
+2023/06/26 15:30:39 sri /tmp/work/plugins/grid.setcolumns.js -> /output/plugins/grid.setcolumns.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/grid.setcolumns.js.br /tmp/work/plugins/grid.setcolumns.js
+2023/06/26 15:30:39 sri /tmp/work/plugins/grid.tbltogrid.min.js -> /output/plugins/grid.tbltogrid.min.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/grid.tbltogrid.min.js.br /tmp/work/plugins/grid.tbltogrid.min.js
+2023/06/26 15:30:39 br /tmp/work/plugins/grid.tbltogrid.min.js -> /output/plugins/grid.tbltogrid.min.js.br
+2023/06/26 15:30:39 gz /tmp/work/plugins/grid.tbltogrid.min.js -> /output/plugins/grid.tbltogrid.min.js.gz
+2023/06/26 15:30:39 sri /tmp/work/plugins/grid.tbltogrid.js -> /output/plugins/grid.tbltogrid.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/grid.tbltogrid.js.br /tmp/work/plugins/grid.tbltogrid.js
+2023/06/26 15:30:39 br /tmp/work/plugins/grid.setcolumns.js -> /output/plugins/grid.setcolumns.js.br
+2023/06/26 15:30:39 br /tmp/work/plugins/grid.tbltogrid.js -> /output/plugins/grid.tbltogrid.js.br
+2023/06/26 15:30:39 gz /tmp/work/plugins/grid.setcolumns.js -> /output/plugins/grid.setcolumns.js.gz
+2023/06/26 15:30:39 gz /tmp/work/plugins/grid.tbltogrid.js -> /output/plugins/grid.tbltogrid.js.gz
+2023/06/26 15:30:39 sri /tmp/work/js/minified/jquery.fmatter.min.js -> /output/js/minified/jquery.fmatter.min.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/jquery.fmatter.min.js.br /tmp/work/js/minified/jquery.fmatter.min.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/jquery.fmatter.min.js -> /output/js/minified/jquery.fmatter.min.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/jquery.fmatter.min.js -> /output/js/minified/jquery.fmatter.min.js.gz
+2023/06/26 15:30:39 sri /tmp/work/js/minified/jquery.fmatter.js -> /output/js/minified/jquery.fmatter.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/minified/jquery.fmatter.js.br /tmp/work/js/minified/jquery.fmatter.js
+2023/06/26 15:30:39 br /tmp/work/js/minified/jquery.fmatter.js -> /output/js/minified/jquery.fmatter.js.br
+2023/06/26 15:30:39 gz /tmp/work/js/minified/jquery.fmatter.js -> /output/js/minified/jquery.fmatter.js.gz
+2023/06/26 15:30:39 sri /tmp/work/plugins/grid.addons.min.js -> /output/plugins/grid.addons.min.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/grid.addons.min.js.br /tmp/work/plugins/grid.addons.min.js
+2023/06/26 15:30:39 br /tmp/work/plugins/grid.addons.min.js -> /output/plugins/grid.addons.min.js.br
+2023/06/26 15:30:39 gz /tmp/work/plugins/grid.addons.min.js -> /output/plugins/grid.addons.min.js.gz
+2023/06/26 15:30:39 sri /tmp/work/plugins/grid.addons.js -> /output/plugins/grid.addons.js.sri
+2023/06/26 15:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/grid.addons.js.br /tmp/work/plugins/grid.addons.js
+2023/06/26 15:30:39 br /tmp/work/plugins/grid.addons.js -> /output/plugins/grid.addons.js.br
+2023/06/26 15:30:39 gz /tmp/work/plugins/grid.addons.js -> /output/plugins/grid.addons.js.gz
+2023/06/26 15:30:39 processed jqgrid
