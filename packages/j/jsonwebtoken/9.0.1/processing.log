@@ -1,0 +1,110 @@
+2023/07/06 06:30:36 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/06 06:30:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/decode.min.js /tmp/work/decode.js
+2023/07/06 06:30:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/index.min.js /tmp/work/index.js
+2023/07/06 06:30:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/asymmetricKeyDetailsSupported.min.js /tmp/work/lib/asymmetricKeyDetailsSupported.js
+2023/07/06 06:30:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/JsonWebTokenError.min.js /tmp/work/lib/JsonWebTokenError.js
+2023/07/06 06:30:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/NotBeforeError.min.js /tmp/work/lib/NotBeforeError.js
+2023/07/06 06:30:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/timespan.min.js /tmp/work/lib/timespan.js
+2023/07/06 06:30:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/psSupported.min.js /tmp/work/lib/psSupported.js
+2023/07/06 06:30:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/rsaPssKeyDetailsSupported.min.js /tmp/work/lib/rsaPssKeyDetailsSupported.js
+2023/07/06 06:30:36 sri /tmp/work/lib/rsaPssKeyDetailsSupported.min.js -> /output/lib/rsaPssKeyDetailsSupported.min.js.sri
+2023/07/06 06:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/rsaPssKeyDetailsSupported.min.js.br /tmp/work/lib/rsaPssKeyDetailsSupported.min.js
+2023/07/06 06:30:36 sri /tmp/work/lib/asymmetricKeyDetailsSupported.min.js -> /output/lib/asymmetricKeyDetailsSupported.min.js.sri
+2023/07/06 06:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/asymmetricKeyDetailsSupported.min.js.br /tmp/work/lib/asymmetricKeyDetailsSupported.min.js
+2023/07/06 06:30:36 br /tmp/work/lib/rsaPssKeyDetailsSupported.min.js -> /output/lib/rsaPssKeyDetailsSupported.min.js.br
+2023/07/06 06:30:36 br /tmp/work/lib/asymmetricKeyDetailsSupported.min.js -> /output/lib/asymmetricKeyDetailsSupported.min.js.br
+2023/07/06 06:30:36 gz /tmp/work/lib/rsaPssKeyDetailsSupported.min.js -> /output/lib/rsaPssKeyDetailsSupported.min.js.gz
+2023/07/06 06:30:36 sri /tmp/work/lib/rsaPssKeyDetailsSupported.js -> /output/lib/rsaPssKeyDetailsSupported.js.sri
+2023/07/06 06:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/rsaPssKeyDetailsSupported.js.br /tmp/work/lib/rsaPssKeyDetailsSupported.js
+2023/07/06 06:30:36 sri /tmp/work/lib/psSupported.min.js -> /output/lib/psSupported.min.js.sri
+2023/07/06 06:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/psSupported.min.js.br /tmp/work/lib/psSupported.min.js
+2023/07/06 06:30:36 gz /tmp/work/lib/asymmetricKeyDetailsSupported.min.js -> /output/lib/asymmetricKeyDetailsSupported.min.js.gz
+2023/07/06 06:30:36 sri /tmp/work/lib/asymmetricKeyDetailsSupported.js -> /output/lib/asymmetricKeyDetailsSupported.js.sri
+2023/07/06 06:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/asymmetricKeyDetailsSupported.js.br /tmp/work/lib/asymmetricKeyDetailsSupported.js
+2023/07/06 06:30:36 sri /tmp/work/index.min.js -> /output/index.min.js.sri
+2023/07/06 06:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/index.min.js
+2023/07/06 06:30:36 br /tmp/work/lib/rsaPssKeyDetailsSupported.js -> /output/lib/rsaPssKeyDetailsSupported.js.br
+2023/07/06 06:30:36 br /tmp/work/lib/psSupported.min.js -> /output/lib/psSupported.min.js.br
+2023/07/06 06:30:36 gz /tmp/work/lib/rsaPssKeyDetailsSupported.js -> /output/lib/rsaPssKeyDetailsSupported.js.gz
+2023/07/06 06:30:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/TokenExpiredError.min.js /tmp/work/lib/TokenExpiredError.js
+2023/07/06 06:30:36 gz /tmp/work/lib/psSupported.min.js -> /output/lib/psSupported.min.js.gz
+2023/07/06 06:30:36 br /tmp/work/index.min.js -> /output/index.min.js.br
+2023/07/06 06:30:36 sri /tmp/work/lib/psSupported.js -> /output/lib/psSupported.js.sri
+2023/07/06 06:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/psSupported.js.br /tmp/work/lib/psSupported.js
+2023/07/06 06:30:36 br /tmp/work/lib/asymmetricKeyDetailsSupported.js -> /output/lib/asymmetricKeyDetailsSupported.js.br
+2023/07/06 06:30:36 gz /tmp/work/index.min.js -> /output/index.min.js.gz
+2023/07/06 06:30:36 sri /tmp/work/index.js -> /output/index.js.sri
+2023/07/06 06:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/index.js
+2023/07/06 06:30:36 gz /tmp/work/lib/asymmetricKeyDetailsSupported.js -> /output/lib/asymmetricKeyDetailsSupported.js.gz
+2023/07/06 06:30:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/validateAsymmetricKey.min.js /tmp/work/lib/validateAsymmetricKey.js
+2023/07/06 06:30:36 br /tmp/work/lib/psSupported.js -> /output/lib/psSupported.js.br
+2023/07/06 06:30:36 gz /tmp/work/lib/psSupported.js -> /output/lib/psSupported.js.gz
+2023/07/06 06:30:36 sri /tmp/work/lib/NotBeforeError.min.js -> /output/lib/NotBeforeError.min.js.sri
+2023/07/06 06:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/NotBeforeError.min.js.br /tmp/work/lib/NotBeforeError.min.js
+2023/07/06 06:30:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sign.min.js /tmp/work/sign.js
+2023/07/06 06:30:36 br /tmp/work/index.js -> /output/index.js.br
+2023/07/06 06:30:36 gz /tmp/work/index.js -> /output/index.js.gz
+2023/07/06 06:30:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/verify.min.js /tmp/work/verify.js
+2023/07/06 06:30:36 br /tmp/work/lib/NotBeforeError.min.js -> /output/lib/NotBeforeError.min.js.br
+2023/07/06 06:30:36 gz /tmp/work/lib/NotBeforeError.min.js -> /output/lib/NotBeforeError.min.js.gz
+2023/07/06 06:30:36 sri /tmp/work/lib/NotBeforeError.js -> /output/lib/NotBeforeError.js.sri
+2023/07/06 06:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/NotBeforeError.js.br /tmp/work/lib/NotBeforeError.js
+2023/07/06 06:30:36 br /tmp/work/lib/NotBeforeError.js -> /output/lib/NotBeforeError.js.br
+2023/07/06 06:30:36 gz /tmp/work/lib/NotBeforeError.js -> /output/lib/NotBeforeError.js.gz
+2023/07/06 06:30:36 sri /tmp/work/lib/JsonWebTokenError.min.js -> /output/lib/JsonWebTokenError.min.js.sri
+2023/07/06 06:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/JsonWebTokenError.min.js.br /tmp/work/lib/JsonWebTokenError.min.js
+2023/07/06 06:30:36 br /tmp/work/lib/JsonWebTokenError.min.js -> /output/lib/JsonWebTokenError.min.js.br
+2023/07/06 06:30:36 gz /tmp/work/lib/JsonWebTokenError.min.js -> /output/lib/JsonWebTokenError.min.js.gz
+2023/07/06 06:30:36 sri /tmp/work/lib/JsonWebTokenError.js -> /output/lib/JsonWebTokenError.js.sri
+2023/07/06 06:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/JsonWebTokenError.js.br /tmp/work/lib/JsonWebTokenError.js
+2023/07/06 06:30:36 br /tmp/work/lib/JsonWebTokenError.js -> /output/lib/JsonWebTokenError.js.br
+2023/07/06 06:30:36 gz /tmp/work/lib/JsonWebTokenError.js -> /output/lib/JsonWebTokenError.js.gz
+2023/07/06 06:30:36 sri /tmp/work/lib/timespan.min.js -> /output/lib/timespan.min.js.sri
+2023/07/06 06:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/timespan.min.js.br /tmp/work/lib/timespan.min.js
+2023/07/06 06:30:36 br /tmp/work/lib/timespan.min.js -> /output/lib/timespan.min.js.br
+2023/07/06 06:30:36 gz /tmp/work/lib/timespan.min.js -> /output/lib/timespan.min.js.gz
+2023/07/06 06:30:36 sri /tmp/work/lib/timespan.js -> /output/lib/timespan.js.sri
+2023/07/06 06:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/timespan.js.br /tmp/work/lib/timespan.js
+2023/07/06 06:30:36 br /tmp/work/lib/timespan.js -> /output/lib/timespan.js.br
+2023/07/06 06:30:36 gz /tmp/work/lib/timespan.js -> /output/lib/timespan.js.gz
+2023/07/06 06:30:36 sri /tmp/work/decode.min.js -> /output/decode.min.js.sri
+2023/07/06 06:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/decode.min.js.br /tmp/work/decode.min.js
+2023/07/06 06:30:36 br /tmp/work/decode.min.js -> /output/decode.min.js.br
+2023/07/06 06:30:36 gz /tmp/work/decode.min.js -> /output/decode.min.js.gz
+2023/07/06 06:30:36 sri /tmp/work/decode.js -> /output/decode.js.sri
+2023/07/06 06:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/decode.js.br /tmp/work/decode.js
+2023/07/06 06:30:36 br /tmp/work/decode.js -> /output/decode.js.br
+2023/07/06 06:30:36 gz /tmp/work/decode.js -> /output/decode.js.gz
+2023/07/06 06:30:36 sri /tmp/work/lib/TokenExpiredError.min.js -> /output/lib/TokenExpiredError.min.js.sri
+2023/07/06 06:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/TokenExpiredError.min.js.br /tmp/work/lib/TokenExpiredError.min.js
+2023/07/06 06:30:36 br /tmp/work/lib/TokenExpiredError.min.js -> /output/lib/TokenExpiredError.min.js.br
+2023/07/06 06:30:36 gz /tmp/work/lib/TokenExpiredError.min.js -> /output/lib/TokenExpiredError.min.js.gz
+2023/07/06 06:30:36 sri /tmp/work/lib/TokenExpiredError.js -> /output/lib/TokenExpiredError.js.sri
+2023/07/06 06:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/TokenExpiredError.js.br /tmp/work/lib/TokenExpiredError.js
+2023/07/06 06:30:36 br /tmp/work/lib/TokenExpiredError.js -> /output/lib/TokenExpiredError.js.br
+2023/07/06 06:30:36 gz /tmp/work/lib/TokenExpiredError.js -> /output/lib/TokenExpiredError.js.gz
+2023/07/06 06:30:36 sri /tmp/work/lib/validateAsymmetricKey.min.js -> /output/lib/validateAsymmetricKey.min.js.sri
+2023/07/06 06:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/validateAsymmetricKey.min.js.br /tmp/work/lib/validateAsymmetricKey.min.js
+2023/07/06 06:30:36 br /tmp/work/lib/validateAsymmetricKey.min.js -> /output/lib/validateAsymmetricKey.min.js.br
+2023/07/06 06:30:36 gz /tmp/work/lib/validateAsymmetricKey.min.js -> /output/lib/validateAsymmetricKey.min.js.gz
+2023/07/06 06:30:36 sri /tmp/work/lib/validateAsymmetricKey.js -> /output/lib/validateAsymmetricKey.js.sri
+2023/07/06 06:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/validateAsymmetricKey.js.br /tmp/work/lib/validateAsymmetricKey.js
+2023/07/06 06:30:36 br /tmp/work/lib/validateAsymmetricKey.js -> /output/lib/validateAsymmetricKey.js.br
+2023/07/06 06:30:36 gz /tmp/work/lib/validateAsymmetricKey.js -> /output/lib/validateAsymmetricKey.js.gz
+2023/07/06 06:30:36 sri /tmp/work/sign.min.js -> /output/sign.min.js.sri
+2023/07/06 06:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sign.min.js.br /tmp/work/sign.min.js
+2023/07/06 06:30:36 br /tmp/work/sign.min.js -> /output/sign.min.js.br
+2023/07/06 06:30:36 gz /tmp/work/sign.min.js -> /output/sign.min.js.gz
+2023/07/06 06:30:36 sri /tmp/work/sign.js -> /output/sign.js.sri
+2023/07/06 06:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sign.js.br /tmp/work/sign.js
+2023/07/06 06:30:36 br /tmp/work/sign.js -> /output/sign.js.br
+2023/07/06 06:30:36 gz /tmp/work/sign.js -> /output/sign.js.gz
+2023/07/06 06:30:36 sri /tmp/work/verify.min.js -> /output/verify.min.js.sri
+2023/07/06 06:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/verify.min.js.br /tmp/work/verify.min.js
+2023/07/06 06:30:36 br /tmp/work/verify.min.js -> /output/verify.min.js.br
+2023/07/06 06:30:36 gz /tmp/work/verify.min.js -> /output/verify.min.js.gz
+2023/07/06 06:30:36 sri /tmp/work/verify.js -> /output/verify.js.sri
+2023/07/06 06:30:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/verify.js.br /tmp/work/verify.js
+2023/07/06 06:30:36 br /tmp/work/verify.js -> /output/verify.js.br
+2023/07/06 06:30:36 gz /tmp/work/verify.js -> /output/verify.js.gz
+2023/07/06 06:30:36 processed jsonwebtoken
