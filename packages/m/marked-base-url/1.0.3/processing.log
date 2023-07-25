@@ -1,0 +1,11 @@
+2023/07/25 23:03:10 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/25 23:03:10 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/index.umd.min.js /tmp/work/lib/index.umd.js
+2023/07/25 23:03:10 sri /tmp/work/lib/index.umd.min.js -> /output/index.umd.min.js.sri
+2023/07/25 23:03:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.umd.min.js.br /tmp/work/lib/index.umd.min.js
+2023/07/25 23:03:10 br /tmp/work/lib/index.umd.min.js -> /output/index.umd.min.js.br
+2023/07/25 23:03:10 gz /tmp/work/lib/index.umd.min.js -> /output/index.umd.min.js.gz
+2023/07/25 23:03:10 sri /tmp/work/lib/index.umd.js -> /output/index.umd.js.sri
+2023/07/25 23:03:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.umd.js.br /tmp/work/lib/index.umd.js
+2023/07/25 23:03:10 br /tmp/work/lib/index.umd.js -> /output/index.umd.js.br
+2023/07/25 23:03:10 gz /tmp/work/lib/index.umd.js -> /output/index.umd.js.gz
+2023/07/25 23:03:10 processed marked-base-url
