@@ -1,0 +1,786 @@
+2023/07/25 18:36:28 ExtractTarGz: uknown type: 67 in pax_global_header
+2023/07/25 18:36:30 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/25 18:36:30 /tmp/work/dist/plotly-basic.min.js already has corresponding compressed file
+2023/07/25 18:36:30 /tmp/work/dist/plotly-basic.min.js is already compressed
+2023/07/25 18:36:30 /tmp/work/dist/plotly-cartesian.min.js already has corresponding compressed file
+2023/07/25 18:36:30 /tmp/work/dist/plotly-cartesian.min.js is already compressed
+2023/07/25 18:36:30 /tmp/work/dist/plotly-finance.min.js is already compressed
+2023/07/25 18:36:30 /tmp/work/dist/plotly-geo.min.js already has corresponding compressed file
+2023/07/25 18:36:30 /tmp/work/dist/plotly-finance.min.js already has corresponding compressed file
+2023/07/25 18:36:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-geo-assets.min.js /tmp/work/dist/plotly-geo-assets.js
+2023/07/25 18:36:30 sri /tmp/work/dist/plotly-basic.min.js -> /output/plotly-basic.min.js.sri
+2023/07/25 18:36:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-basic.min.js.br /tmp/work/dist/plotly-basic.min.js
+2023/07/25 18:36:30 sri /tmp/work/dist/plotly-finance.min.js -> /output/plotly-finance.min.js.sri
+2023/07/25 18:36:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-finance.min.js.br /tmp/work/dist/plotly-finance.min.js
+2023/07/25 18:36:30 sri /tmp/work/dist/plotly-cartesian.min.js -> /output/plotly-cartesian.min.js.sri
+2023/07/25 18:36:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-cartesian.min.js.br /tmp/work/dist/plotly-cartesian.min.js
+2023/07/25 18:36:30 sri /tmp/work/dist/plotly-basic.js -> /output/plotly-basic.js.sri
+2023/07/25 18:36:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-basic.js.br /tmp/work/dist/plotly-basic.js
+2023/07/25 18:36:30 sri /tmp/work/dist/plotly-finance.js -> /output/plotly-finance.js.sri
+2023/07/25 18:36:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-finance.js.br /tmp/work/dist/plotly-finance.js
+2023/07/25 18:36:30 sri /tmp/work/dist/plotly-cartesian.js -> /output/plotly-cartesian.js.sri
+2023/07/25 18:36:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-cartesian.js.br /tmp/work/dist/plotly-cartesian.js
+2023/07/25 18:36:30 sri /tmp/work/dist/plotly-geo.js -> /output/plotly-geo.js.sri
+2023/07/25 18:36:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-geo.js.br /tmp/work/dist/plotly-geo.js
+2023/07/25 18:36:32 sri /tmp/work/dist/plotly-geo-assets.min.js -> /output/plotly-geo-assets.min.js.sri
+2023/07/25 18:36:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-geo-assets.min.js.br /tmp/work/dist/plotly-geo-assets.min.js
+2023/07/25 18:36:33 br /tmp/work/dist/plotly-basic.min.js -> /output/plotly-basic.min.js.br
+2023/07/25 18:36:33 gz /tmp/work/dist/plotly-basic.min.js -> /output/plotly-basic.min.js.gz
+2023/07/25 18:36:33 /tmp/work/dist/plotly-geo.min.js is already compressed
+2023/07/25 18:36:33 sri /tmp/work/dist/plotly-geo.min.js -> /output/plotly-geo.min.js.sri
+2023/07/25 18:36:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-geo.min.js.br /tmp/work/dist/plotly-geo.min.js
+2023/07/25 18:36:33 br /tmp/work/dist/plotly-finance.min.js -> /output/plotly-finance.min.js.br
+2023/07/25 18:36:33 gz /tmp/work/dist/plotly-finance.min.js -> /output/plotly-finance.min.js.gz
+2023/07/25 18:36:33 /tmp/work/dist/plotly-gl2d.min.js already has corresponding compressed file
+2023/07/25 18:36:33 sri /tmp/work/dist/plotly-gl2d.js -> /output/plotly-gl2d.js.sri
+2023/07/25 18:36:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-gl2d.js.br /tmp/work/dist/plotly-gl2d.js
+2023/07/25 18:36:34 br /tmp/work/dist/plotly-cartesian.min.js -> /output/plotly-cartesian.min.js.br
+2023/07/25 18:36:34 gz /tmp/work/dist/plotly-cartesian.min.js -> /output/plotly-cartesian.min.js.gz
+2023/07/25 18:36:34 /tmp/work/dist/plotly-gl2d.min.js is already compressed
+2023/07/25 18:36:34 sri /tmp/work/dist/plotly-gl2d.min.js -> /output/plotly-gl2d.min.js.sri
+2023/07/25 18:36:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-gl2d.min.js.br /tmp/work/dist/plotly-gl2d.min.js
+2023/07/25 18:36:36 br /tmp/work/dist/plotly-geo.min.js -> /output/plotly-geo.min.js.br
+2023/07/25 18:36:36 gz /tmp/work/dist/plotly-geo.min.js -> /output/plotly-geo.min.js.gz
+2023/07/25 18:36:36 /tmp/work/dist/plotly-gl3d.min.js already has corresponding compressed file
+2023/07/25 18:36:36 sri /tmp/work/dist/plotly-gl3d.js -> /output/plotly-gl3d.js.sri
+2023/07/25 18:36:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-gl3d.js.br /tmp/work/dist/plotly-gl3d.js
+2023/07/25 18:36:38 br /tmp/work/dist/plotly-basic.js -> /output/plotly-basic.js.br
+2023/07/25 18:36:38 gz /tmp/work/dist/plotly-basic.js -> /output/plotly-basic.js.gz
+2023/07/25 18:36:38 /tmp/work/dist/plotly-gl3d.min.js is already compressed
+2023/07/25 18:36:38 sri /tmp/work/dist/plotly-gl3d.min.js -> /output/plotly-gl3d.min.js.sri
+2023/07/25 18:36:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-gl3d.min.js.br /tmp/work/dist/plotly-gl3d.min.js
+2023/07/25 18:36:38 br /tmp/work/dist/plotly-finance.js -> /output/plotly-finance.js.br
+2023/07/25 18:36:38 gz /tmp/work/dist/plotly-finance.js -> /output/plotly-finance.js.gz
+2023/07/25 18:36:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-af.min.js /tmp/work/dist/plotly-locale-af.js
+2023/07/25 18:36:39 sri /tmp/work/dist/plotly-locale-af.min.js -> /output/plotly-locale-af.min.js.sri
+2023/07/25 18:36:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-af.min.js.br /tmp/work/dist/plotly-locale-af.min.js
+2023/07/25 18:36:39 br /tmp/work/dist/plotly-locale-af.min.js -> /output/plotly-locale-af.min.js.br
+2023/07/25 18:36:39 gz /tmp/work/dist/plotly-locale-af.min.js -> /output/plotly-locale-af.min.js.gz
+2023/07/25 18:36:39 sri /tmp/work/dist/plotly-locale-af.js -> /output/plotly-locale-af.js.sri
+2023/07/25 18:36:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-af.js.br /tmp/work/dist/plotly-locale-af.js
+2023/07/25 18:36:39 br /tmp/work/dist/plotly-locale-af.js -> /output/plotly-locale-af.js.br
+2023/07/25 18:36:39 gz /tmp/work/dist/plotly-locale-af.js -> /output/plotly-locale-af.js.gz
+2023/07/25 18:36:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-am.min.js /tmp/work/dist/plotly-locale-am.js
+2023/07/25 18:36:39 sri /tmp/work/dist/plotly-locale-am.min.js -> /output/plotly-locale-am.min.js.sri
+2023/07/25 18:36:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-am.min.js.br /tmp/work/dist/plotly-locale-am.min.js
+2023/07/25 18:36:39 br /tmp/work/dist/plotly-locale-am.min.js -> /output/plotly-locale-am.min.js.br
+2023/07/25 18:36:39 gz /tmp/work/dist/plotly-locale-am.min.js -> /output/plotly-locale-am.min.js.gz
+2023/07/25 18:36:39 sri /tmp/work/dist/plotly-locale-am.js -> /output/plotly-locale-am.js.sri
+2023/07/25 18:36:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-am.js.br /tmp/work/dist/plotly-locale-am.js
+2023/07/25 18:36:39 br /tmp/work/dist/plotly-locale-am.js -> /output/plotly-locale-am.js.br
+2023/07/25 18:36:39 gz /tmp/work/dist/plotly-locale-am.js -> /output/plotly-locale-am.js.gz
+2023/07/25 18:36:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-ar-dz.min.js /tmp/work/dist/plotly-locale-ar-dz.js
+2023/07/25 18:36:39 br /tmp/work/dist/plotly-geo.js -> /output/plotly-geo.js.br
+2023/07/25 18:36:39 sri /tmp/work/dist/plotly-locale-ar-dz.min.js -> /output/plotly-locale-ar-dz.min.js.sri
+2023/07/25 18:36:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-ar-dz.min.js.br /tmp/work/dist/plotly-locale-ar-dz.min.js
+2023/07/25 18:36:39 br /tmp/work/dist/plotly-locale-ar-dz.min.js -> /output/plotly-locale-ar-dz.min.js.br
+2023/07/25 18:36:39 gz /tmp/work/dist/plotly-locale-ar-dz.min.js -> /output/plotly-locale-ar-dz.min.js.gz
+2023/07/25 18:36:39 sri /tmp/work/dist/plotly-locale-ar-dz.js -> /output/plotly-locale-ar-dz.js.sri
+2023/07/25 18:36:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-ar-dz.js.br /tmp/work/dist/plotly-locale-ar-dz.js
+2023/07/25 18:36:39 br /tmp/work/dist/plotly-locale-ar-dz.js -> /output/plotly-locale-ar-dz.js.br
+2023/07/25 18:36:39 gz /tmp/work/dist/plotly-locale-ar-dz.js -> /output/plotly-locale-ar-dz.js.gz
+2023/07/25 18:36:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-ar-eg.min.js /tmp/work/dist/plotly-locale-ar-eg.js
+2023/07/25 18:36:39 gz /tmp/work/dist/plotly-geo.js -> /output/plotly-geo.js.gz
+2023/07/25 18:36:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-ar.min.js /tmp/work/dist/plotly-locale-ar.js
+2023/07/25 18:36:39 sri /tmp/work/dist/plotly-locale-ar-eg.min.js -> /output/plotly-locale-ar-eg.min.js.sri
+2023/07/25 18:36:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-ar-eg.min.js.br /tmp/work/dist/plotly-locale-ar-eg.min.js
+2023/07/25 18:36:39 br /tmp/work/dist/plotly-locale-ar-eg.min.js -> /output/plotly-locale-ar-eg.min.js.br
+2023/07/25 18:36:39 gz /tmp/work/dist/plotly-locale-ar-eg.min.js -> /output/plotly-locale-ar-eg.min.js.gz
+2023/07/25 18:36:39 sri /tmp/work/dist/plotly-locale-ar-eg.js -> /output/plotly-locale-ar-eg.js.sri
+2023/07/25 18:36:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-ar-eg.js.br /tmp/work/dist/plotly-locale-ar-eg.js
+2023/07/25 18:36:39 br /tmp/work/dist/plotly-locale-ar-eg.js -> /output/plotly-locale-ar-eg.js.br
+2023/07/25 18:36:39 gz /tmp/work/dist/plotly-locale-ar-eg.js -> /output/plotly-locale-ar-eg.js.gz
+2023/07/25 18:36:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-az.min.js /tmp/work/dist/plotly-locale-az.js
+2023/07/25 18:36:39 sri /tmp/work/dist/plotly-locale-ar.min.js -> /output/plotly-locale-ar.min.js.sri
+2023/07/25 18:36:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-ar.min.js.br /tmp/work/dist/plotly-locale-ar.min.js
+2023/07/25 18:36:39 br /tmp/work/dist/plotly-gl2d.min.js -> /output/plotly-gl2d.min.js.br
+2023/07/25 18:36:39 br /tmp/work/dist/plotly-locale-ar.min.js -> /output/plotly-locale-ar.min.js.br
+2023/07/25 18:36:39 gz /tmp/work/dist/plotly-locale-ar.min.js -> /output/plotly-locale-ar.min.js.gz
+2023/07/25 18:36:39 sri /tmp/work/dist/plotly-locale-ar.js -> /output/plotly-locale-ar.js.sri
+2023/07/25 18:36:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-ar.js.br /tmp/work/dist/plotly-locale-ar.js
+2023/07/25 18:36:39 br /tmp/work/dist/plotly-locale-ar.js -> /output/plotly-locale-ar.js.br
+2023/07/25 18:36:39 gz /tmp/work/dist/plotly-locale-ar.js -> /output/plotly-locale-ar.js.gz
+2023/07/25 18:36:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-bg.min.js /tmp/work/dist/plotly-locale-bg.js
+2023/07/25 18:36:39 sri /tmp/work/dist/plotly-locale-az.min.js -> /output/plotly-locale-az.min.js.sri
+2023/07/25 18:36:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-az.min.js.br /tmp/work/dist/plotly-locale-az.min.js
+2023/07/25 18:36:39 br /tmp/work/dist/plotly-locale-az.min.js -> /output/plotly-locale-az.min.js.br
+2023/07/25 18:36:39 gz /tmp/work/dist/plotly-locale-az.min.js -> /output/plotly-locale-az.min.js.gz
+2023/07/25 18:36:39 sri /tmp/work/dist/plotly-locale-az.js -> /output/plotly-locale-az.js.sri
+2023/07/25 18:36:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-az.js.br /tmp/work/dist/plotly-locale-az.js
+2023/07/25 18:36:39 br /tmp/work/dist/plotly-locale-az.js -> /output/plotly-locale-az.js.br
+2023/07/25 18:36:39 gz /tmp/work/dist/plotly-locale-az.js -> /output/plotly-locale-az.js.gz
+2023/07/25 18:36:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-bs.min.js /tmp/work/dist/plotly-locale-bs.js
+2023/07/25 18:36:39 gz /tmp/work/dist/plotly-gl2d.min.js -> /output/plotly-gl2d.min.js.gz
+2023/07/25 18:36:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-ca.min.js /tmp/work/dist/plotly-locale-ca.js
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-bg.min.js -> /output/plotly-locale-bg.min.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-bg.min.js.br /tmp/work/dist/plotly-locale-bg.min.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-bg.min.js -> /output/plotly-locale-bg.min.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-bg.min.js -> /output/plotly-locale-bg.min.js.gz
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-bg.js -> /output/plotly-locale-bg.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-bg.js.br /tmp/work/dist/plotly-locale-bg.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-bg.js -> /output/plotly-locale-bg.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-bg.js -> /output/plotly-locale-bg.js.gz
+2023/07/25 18:36:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-cs.min.js /tmp/work/dist/plotly-locale-cs.js
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-bs.min.js -> /output/plotly-locale-bs.min.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-bs.min.js.br /tmp/work/dist/plotly-locale-bs.min.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-bs.min.js -> /output/plotly-locale-bs.min.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-bs.min.js -> /output/plotly-locale-bs.min.js.gz
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-bs.js -> /output/plotly-locale-bs.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-bs.js.br /tmp/work/dist/plotly-locale-bs.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-bs.js -> /output/plotly-locale-bs.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-bs.js -> /output/plotly-locale-bs.js.gz
+2023/07/25 18:36:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-cy.min.js /tmp/work/dist/plotly-locale-cy.js
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-ca.min.js -> /output/plotly-locale-ca.min.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-ca.min.js.br /tmp/work/dist/plotly-locale-ca.min.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-ca.min.js -> /output/plotly-locale-ca.min.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-ca.min.js -> /output/plotly-locale-ca.min.js.gz
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-ca.js -> /output/plotly-locale-ca.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-ca.js.br /tmp/work/dist/plotly-locale-ca.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-ca.js -> /output/plotly-locale-ca.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-ca.js -> /output/plotly-locale-ca.js.gz
+2023/07/25 18:36:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-da.min.js /tmp/work/dist/plotly-locale-da.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-cartesian.js -> /output/plotly-cartesian.js.br
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-cs.min.js -> /output/plotly-locale-cs.min.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-cs.min.js.br /tmp/work/dist/plotly-locale-cs.min.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-cs.min.js -> /output/plotly-locale-cs.min.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-cs.min.js -> /output/plotly-locale-cs.min.js.gz
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-cs.js -> /output/plotly-locale-cs.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-cs.js.br /tmp/work/dist/plotly-locale-cs.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-cs.js -> /output/plotly-locale-cs.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-cs.js -> /output/plotly-locale-cs.js.gz
+2023/07/25 18:36:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-de-ch.min.js /tmp/work/dist/plotly-locale-de-ch.js
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-cy.min.js -> /output/plotly-locale-cy.min.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-cy.min.js.br /tmp/work/dist/plotly-locale-cy.min.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-cy.min.js -> /output/plotly-locale-cy.min.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-cy.min.js -> /output/plotly-locale-cy.min.js.gz
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-cy.js -> /output/plotly-locale-cy.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-cy.js.br /tmp/work/dist/plotly-locale-cy.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-cy.js -> /output/plotly-locale-cy.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-cy.js -> /output/plotly-locale-cy.js.gz
+2023/07/25 18:36:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-de.min.js /tmp/work/dist/plotly-locale-de.js
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-da.min.js -> /output/plotly-locale-da.min.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-da.min.js.br /tmp/work/dist/plotly-locale-da.min.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-da.min.js -> /output/plotly-locale-da.min.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-da.min.js -> /output/plotly-locale-da.min.js.gz
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-da.js -> /output/plotly-locale-da.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-da.js.br /tmp/work/dist/plotly-locale-da.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-da.js -> /output/plotly-locale-da.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-da.js -> /output/plotly-locale-da.js.gz
+2023/07/25 18:36:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-el.min.js /tmp/work/dist/plotly-locale-el.js
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-de-ch.min.js -> /output/plotly-locale-de-ch.min.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-de-ch.min.js.br /tmp/work/dist/plotly-locale-de-ch.min.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-de-ch.min.js -> /output/plotly-locale-de-ch.min.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-de-ch.min.js -> /output/plotly-locale-de-ch.min.js.gz
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-de-ch.js -> /output/plotly-locale-de-ch.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-de-ch.js.br /tmp/work/dist/plotly-locale-de-ch.js
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-cartesian.js -> /output/plotly-cartesian.js.gz
+2023/07/25 18:36:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-eo.min.js /tmp/work/dist/plotly-locale-eo.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-de-ch.js -> /output/plotly-locale-de-ch.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-de-ch.js -> /output/plotly-locale-de-ch.js.gz
+2023/07/25 18:36:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-es-ar.min.js /tmp/work/dist/plotly-locale-es-ar.js
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-de.min.js -> /output/plotly-locale-de.min.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-de.min.js.br /tmp/work/dist/plotly-locale-de.min.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-de.min.js -> /output/plotly-locale-de.min.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-de.min.js -> /output/plotly-locale-de.min.js.gz
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-de.js -> /output/plotly-locale-de.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-de.js.br /tmp/work/dist/plotly-locale-de.js
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-el.min.js -> /output/plotly-locale-el.min.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-el.min.js.br /tmp/work/dist/plotly-locale-el.min.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-el.min.js -> /output/plotly-locale-el.min.js.br
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-de.js -> /output/plotly-locale-de.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-el.min.js -> /output/plotly-locale-el.min.js.gz
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-el.js -> /output/plotly-locale-el.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-el.js.br /tmp/work/dist/plotly-locale-el.js
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-de.js -> /output/plotly-locale-de.js.gz
+2023/07/25 18:36:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-es-pe.min.js /tmp/work/dist/plotly-locale-es-pe.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-el.js -> /output/plotly-locale-el.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-el.js -> /output/plotly-locale-el.js.gz
+2023/07/25 18:36:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-es.min.js /tmp/work/dist/plotly-locale-es.js
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-es-ar.min.js -> /output/plotly-locale-es-ar.min.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-es-ar.min.js.br /tmp/work/dist/plotly-locale-es-ar.min.js
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-eo.min.js -> /output/plotly-locale-eo.min.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-eo.min.js.br /tmp/work/dist/plotly-locale-eo.min.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-es-ar.min.js -> /output/plotly-locale-es-ar.min.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-es-ar.min.js -> /output/plotly-locale-es-ar.min.js.gz
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-es-ar.js -> /output/plotly-locale-es-ar.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-es-ar.js.br /tmp/work/dist/plotly-locale-es-ar.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-eo.min.js -> /output/plotly-locale-eo.min.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-eo.min.js -> /output/plotly-locale-eo.min.js.gz
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-eo.js -> /output/plotly-locale-eo.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-eo.js.br /tmp/work/dist/plotly-locale-eo.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-es-ar.js -> /output/plotly-locale-es-ar.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-es-ar.js -> /output/plotly-locale-es-ar.js.gz
+2023/07/25 18:36:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-et.min.js /tmp/work/dist/plotly-locale-et.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-eo.js -> /output/plotly-locale-eo.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-eo.js -> /output/plotly-locale-eo.js.gz
+2023/07/25 18:36:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-eu.min.js /tmp/work/dist/plotly-locale-eu.js
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-es-pe.min.js -> /output/plotly-locale-es-pe.min.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-es-pe.min.js.br /tmp/work/dist/plotly-locale-es-pe.min.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-es-pe.min.js -> /output/plotly-locale-es-pe.min.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-es-pe.min.js -> /output/plotly-locale-es-pe.min.js.gz
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-es-pe.js -> /output/plotly-locale-es-pe.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-es-pe.js.br /tmp/work/dist/plotly-locale-es-pe.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-es-pe.js -> /output/plotly-locale-es-pe.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-es-pe.js -> /output/plotly-locale-es-pe.js.gz
+2023/07/25 18:36:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-fa.min.js /tmp/work/dist/plotly-locale-fa.js
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-es.min.js -> /output/plotly-locale-es.min.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-es.min.js.br /tmp/work/dist/plotly-locale-es.min.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-es.min.js -> /output/plotly-locale-es.min.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-es.min.js -> /output/plotly-locale-es.min.js.gz
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-es.js -> /output/plotly-locale-es.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-es.js.br /tmp/work/dist/plotly-locale-es.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-es.js -> /output/plotly-locale-es.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-es.js -> /output/plotly-locale-es.js.gz
+2023/07/25 18:36:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-fi.min.js /tmp/work/dist/plotly-locale-fi.js
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-et.min.js -> /output/plotly-locale-et.min.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-et.min.js.br /tmp/work/dist/plotly-locale-et.min.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-et.min.js -> /output/plotly-locale-et.min.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-et.min.js -> /output/plotly-locale-et.min.js.gz
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-et.js -> /output/plotly-locale-et.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-et.js.br /tmp/work/dist/plotly-locale-et.js
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-eu.min.js -> /output/plotly-locale-eu.min.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-eu.min.js.br /tmp/work/dist/plotly-locale-eu.min.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-et.js -> /output/plotly-locale-et.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-et.js -> /output/plotly-locale-et.js.gz
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-eu.min.js -> /output/plotly-locale-eu.min.js.br
+2023/07/25 18:36:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-fo.min.js /tmp/work/dist/plotly-locale-fo.js
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-eu.min.js -> /output/plotly-locale-eu.min.js.gz
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-eu.js -> /output/plotly-locale-eu.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-eu.js.br /tmp/work/dist/plotly-locale-eu.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-eu.js -> /output/plotly-locale-eu.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-eu.js -> /output/plotly-locale-eu.js.gz
+2023/07/25 18:36:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-fr-ch.min.js /tmp/work/dist/plotly-locale-fr-ch.js
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-fa.min.js -> /output/plotly-locale-fa.min.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-fa.min.js.br /tmp/work/dist/plotly-locale-fa.min.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-fa.min.js -> /output/plotly-locale-fa.min.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-fa.min.js -> /output/plotly-locale-fa.min.js.gz
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-fa.js -> /output/plotly-locale-fa.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-fa.js.br /tmp/work/dist/plotly-locale-fa.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-fa.js -> /output/plotly-locale-fa.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-fa.js -> /output/plotly-locale-fa.js.gz
+2023/07/25 18:36:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-fr.min.js /tmp/work/dist/plotly-locale-fr.js
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-fi.min.js -> /output/plotly-locale-fi.min.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-fi.min.js.br /tmp/work/dist/plotly-locale-fi.min.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-fi.min.js -> /output/plotly-locale-fi.min.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-fi.min.js -> /output/plotly-locale-fi.min.js.gz
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-fi.js -> /output/plotly-locale-fi.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-fi.js.br /tmp/work/dist/plotly-locale-fi.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-fi.js -> /output/plotly-locale-fi.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-fi.js -> /output/plotly-locale-fi.js.gz
+2023/07/25 18:36:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-gl.min.js /tmp/work/dist/plotly-locale-gl.js
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-fo.min.js -> /output/plotly-locale-fo.min.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-fo.min.js.br /tmp/work/dist/plotly-locale-fo.min.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-fo.min.js -> /output/plotly-locale-fo.min.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-fo.min.js -> /output/plotly-locale-fo.min.js.gz
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-fo.js -> /output/plotly-locale-fo.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-fo.js.br /tmp/work/dist/plotly-locale-fo.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-fo.js -> /output/plotly-locale-fo.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-fo.js -> /output/plotly-locale-fo.js.gz
+2023/07/25 18:36:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-gu.min.js /tmp/work/dist/plotly-locale-gu.js
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-fr-ch.min.js -> /output/plotly-locale-fr-ch.min.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-fr-ch.min.js.br /tmp/work/dist/plotly-locale-fr-ch.min.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-fr-ch.min.js -> /output/plotly-locale-fr-ch.min.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-fr-ch.min.js -> /output/plotly-locale-fr-ch.min.js.gz
+2023/07/25 18:36:40 sri /tmp/work/dist/plotly-locale-fr-ch.js -> /output/plotly-locale-fr-ch.js.sri
+2023/07/25 18:36:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-fr-ch.js.br /tmp/work/dist/plotly-locale-fr-ch.js
+2023/07/25 18:36:40 br /tmp/work/dist/plotly-locale-fr-ch.js -> /output/plotly-locale-fr-ch.js.br
+2023/07/25 18:36:40 gz /tmp/work/dist/plotly-locale-fr-ch.js -> /output/plotly-locale-fr-ch.js.gz
+2023/07/25 18:36:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-he.min.js /tmp/work/dist/plotly-locale-he.js
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-fr.min.js -> /output/plotly-locale-fr.min.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-fr.min.js.br /tmp/work/dist/plotly-locale-fr.min.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-fr.min.js -> /output/plotly-locale-fr.min.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-fr.min.js -> /output/plotly-locale-fr.min.js.gz
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-fr.js -> /output/plotly-locale-fr.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-fr.js.br /tmp/work/dist/plotly-locale-fr.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-fr.js -> /output/plotly-locale-fr.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-fr.js -> /output/plotly-locale-fr.js.gz
+2023/07/25 18:36:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-hi-in.min.js /tmp/work/dist/plotly-locale-hi-in.js
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-gl.min.js -> /output/plotly-locale-gl.min.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-gl.min.js.br /tmp/work/dist/plotly-locale-gl.min.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-gl.min.js -> /output/plotly-locale-gl.min.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-gl.min.js -> /output/plotly-locale-gl.min.js.gz
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-gl.js -> /output/plotly-locale-gl.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-gl.js.br /tmp/work/dist/plotly-locale-gl.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-gl.js -> /output/plotly-locale-gl.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-gl.js -> /output/plotly-locale-gl.js.gz
+2023/07/25 18:36:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-hr.min.js /tmp/work/dist/plotly-locale-hr.js
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-gu.min.js -> /output/plotly-locale-gu.min.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-gu.min.js.br /tmp/work/dist/plotly-locale-gu.min.js
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-he.min.js -> /output/plotly-locale-he.min.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-he.min.js.br /tmp/work/dist/plotly-locale-he.min.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-gu.min.js -> /output/plotly-locale-gu.min.js.br
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-he.min.js -> /output/plotly-locale-he.min.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-he.min.js -> /output/plotly-locale-he.min.js.gz
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-gu.min.js -> /output/plotly-locale-gu.min.js.gz
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-he.js -> /output/plotly-locale-he.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-he.js.br /tmp/work/dist/plotly-locale-he.js
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-gu.js -> /output/plotly-locale-gu.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-gu.js.br /tmp/work/dist/plotly-locale-gu.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-he.js -> /output/plotly-locale-he.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-he.js -> /output/plotly-locale-he.js.gz
+2023/07/25 18:36:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-hu.min.js /tmp/work/dist/plotly-locale-hu.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-gu.js -> /output/plotly-locale-gu.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-gu.js -> /output/plotly-locale-gu.js.gz
+2023/07/25 18:36:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-hy.min.js /tmp/work/dist/plotly-locale-hy.js
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-hi-in.min.js -> /output/plotly-locale-hi-in.min.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-hi-in.min.js.br /tmp/work/dist/plotly-locale-hi-in.min.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-hi-in.min.js -> /output/plotly-locale-hi-in.min.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-hi-in.min.js -> /output/plotly-locale-hi-in.min.js.gz
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-hi-in.js -> /output/plotly-locale-hi-in.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-hi-in.js.br /tmp/work/dist/plotly-locale-hi-in.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-hi-in.js -> /output/plotly-locale-hi-in.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-hi-in.js -> /output/plotly-locale-hi-in.js.gz
+2023/07/25 18:36:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-id.min.js /tmp/work/dist/plotly-locale-id.js
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-hr.min.js -> /output/plotly-locale-hr.min.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-hr.min.js.br /tmp/work/dist/plotly-locale-hr.min.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-hr.min.js -> /output/plotly-locale-hr.min.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-hr.min.js -> /output/plotly-locale-hr.min.js.gz
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-hr.js -> /output/plotly-locale-hr.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-hr.js.br /tmp/work/dist/plotly-locale-hr.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-hr.js -> /output/plotly-locale-hr.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-hr.js -> /output/plotly-locale-hr.js.gz
+2023/07/25 18:36:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-is.min.js /tmp/work/dist/plotly-locale-is.js
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-hu.min.js -> /output/plotly-locale-hu.min.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-hu.min.js.br /tmp/work/dist/plotly-locale-hu.min.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-hu.min.js -> /output/plotly-locale-hu.min.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-hu.min.js -> /output/plotly-locale-hu.min.js.gz
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-hu.js -> /output/plotly-locale-hu.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-hu.js.br /tmp/work/dist/plotly-locale-hu.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-hu.js -> /output/plotly-locale-hu.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-hu.js -> /output/plotly-locale-hu.js.gz
+2023/07/25 18:36:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-it.min.js /tmp/work/dist/plotly-locale-it.js
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-hy.min.js -> /output/plotly-locale-hy.min.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-hy.min.js.br /tmp/work/dist/plotly-locale-hy.min.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-hy.min.js -> /output/plotly-locale-hy.min.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-hy.min.js -> /output/plotly-locale-hy.min.js.gz
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-hy.js -> /output/plotly-locale-hy.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-hy.js.br /tmp/work/dist/plotly-locale-hy.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-hy.js -> /output/plotly-locale-hy.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-hy.js -> /output/plotly-locale-hy.js.gz
+2023/07/25 18:36:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-ja.min.js /tmp/work/dist/plotly-locale-ja.js
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-id.min.js -> /output/plotly-locale-id.min.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-id.min.js.br /tmp/work/dist/plotly-locale-id.min.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-id.min.js -> /output/plotly-locale-id.min.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-id.min.js -> /output/plotly-locale-id.min.js.gz
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-id.js -> /output/plotly-locale-id.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-id.js.br /tmp/work/dist/plotly-locale-id.js
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-is.min.js -> /output/plotly-locale-is.min.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-is.min.js.br /tmp/work/dist/plotly-locale-is.min.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-id.js -> /output/plotly-locale-id.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-id.js -> /output/plotly-locale-id.js.gz
+2023/07/25 18:36:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-ka.min.js /tmp/work/dist/plotly-locale-ka.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-is.min.js -> /output/plotly-locale-is.min.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-is.min.js -> /output/plotly-locale-is.min.js.gz
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-is.js -> /output/plotly-locale-is.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-is.js.br /tmp/work/dist/plotly-locale-is.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-is.js -> /output/plotly-locale-is.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-is.js -> /output/plotly-locale-is.js.gz
+2023/07/25 18:36:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-km.min.js /tmp/work/dist/plotly-locale-km.js
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-it.min.js -> /output/plotly-locale-it.min.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-it.min.js.br /tmp/work/dist/plotly-locale-it.min.js
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-ja.min.js -> /output/plotly-locale-ja.min.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-ja.min.js.br /tmp/work/dist/plotly-locale-ja.min.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-it.min.js -> /output/plotly-locale-it.min.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-it.min.js -> /output/plotly-locale-it.min.js.gz
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-it.js -> /output/plotly-locale-it.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-it.js.br /tmp/work/dist/plotly-locale-it.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-ja.min.js -> /output/plotly-locale-ja.min.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-ja.min.js -> /output/plotly-locale-ja.min.js.gz
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-ja.js -> /output/plotly-locale-ja.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-ja.js.br /tmp/work/dist/plotly-locale-ja.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-it.js -> /output/plotly-locale-it.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-it.js -> /output/plotly-locale-it.js.gz
+2023/07/25 18:36:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-ko.min.js /tmp/work/dist/plotly-locale-ko.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-ja.js -> /output/plotly-locale-ja.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-ja.js -> /output/plotly-locale-ja.js.gz
+2023/07/25 18:36:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-lt.min.js /tmp/work/dist/plotly-locale-lt.js
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-ka.min.js -> /output/plotly-locale-ka.min.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-ka.min.js.br /tmp/work/dist/plotly-locale-ka.min.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-ka.min.js -> /output/plotly-locale-ka.min.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-ka.min.js -> /output/plotly-locale-ka.min.js.gz
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-ka.js -> /output/plotly-locale-ka.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-ka.js.br /tmp/work/dist/plotly-locale-ka.js
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-km.min.js -> /output/plotly-locale-km.min.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-km.min.js.br /tmp/work/dist/plotly-locale-km.min.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-km.min.js -> /output/plotly-locale-km.min.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-km.min.js -> /output/plotly-locale-km.min.js.gz
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-km.js -> /output/plotly-locale-km.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-km.js.br /tmp/work/dist/plotly-locale-km.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-ka.js -> /output/plotly-locale-ka.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-ka.js -> /output/plotly-locale-ka.js.gz
+2023/07/25 18:36:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-lv.min.js /tmp/work/dist/plotly-locale-lv.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-km.js -> /output/plotly-locale-km.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-km.js -> /output/plotly-locale-km.js.gz
+2023/07/25 18:36:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-me-me.min.js /tmp/work/dist/plotly-locale-me-me.js
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-lt.min.js -> /output/plotly-locale-lt.min.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-lt.min.js.br /tmp/work/dist/plotly-locale-lt.min.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-lt.min.js -> /output/plotly-locale-lt.min.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-lt.min.js -> /output/plotly-locale-lt.min.js.gz
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-lt.js -> /output/plotly-locale-lt.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-lt.js.br /tmp/work/dist/plotly-locale-lt.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-lt.js -> /output/plotly-locale-lt.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-lt.js -> /output/plotly-locale-lt.js.gz
+2023/07/25 18:36:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-me.min.js /tmp/work/dist/plotly-locale-me.js
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-ko.min.js -> /output/plotly-locale-ko.min.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-ko.min.js.br /tmp/work/dist/plotly-locale-ko.min.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-ko.min.js -> /output/plotly-locale-ko.min.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-ko.min.js -> /output/plotly-locale-ko.min.js.gz
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-ko.js -> /output/plotly-locale-ko.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-ko.js.br /tmp/work/dist/plotly-locale-ko.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-ko.js -> /output/plotly-locale-ko.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-ko.js -> /output/plotly-locale-ko.js.gz
+2023/07/25 18:36:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-mk.min.js /tmp/work/dist/plotly-locale-mk.js
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-lv.min.js -> /output/plotly-locale-lv.min.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-lv.min.js.br /tmp/work/dist/plotly-locale-lv.min.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-lv.min.js -> /output/plotly-locale-lv.min.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-lv.min.js -> /output/plotly-locale-lv.min.js.gz
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-lv.js -> /output/plotly-locale-lv.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-lv.js.br /tmp/work/dist/plotly-locale-lv.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-lv.js -> /output/plotly-locale-lv.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-lv.js -> /output/plotly-locale-lv.js.gz
+2023/07/25 18:36:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-ml.min.js /tmp/work/dist/plotly-locale-ml.js
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-me-me.min.js -> /output/plotly-locale-me-me.min.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-me-me.min.js.br /tmp/work/dist/plotly-locale-me-me.min.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-me-me.min.js -> /output/plotly-locale-me-me.min.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-me-me.min.js -> /output/plotly-locale-me-me.min.js.gz
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-me-me.js -> /output/plotly-locale-me-me.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-me-me.js.br /tmp/work/dist/plotly-locale-me-me.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-me-me.js -> /output/plotly-locale-me-me.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-me-me.js -> /output/plotly-locale-me-me.js.gz
+2023/07/25 18:36:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-ms.min.js /tmp/work/dist/plotly-locale-ms.js
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-me.min.js -> /output/plotly-locale-me.min.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-me.min.js.br /tmp/work/dist/plotly-locale-me.min.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-me.min.js -> /output/plotly-locale-me.min.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-me.min.js -> /output/plotly-locale-me.min.js.gz
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-me.js -> /output/plotly-locale-me.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-me.js.br /tmp/work/dist/plotly-locale-me.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-me.js -> /output/plotly-locale-me.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-me.js -> /output/plotly-locale-me.js.gz
+2023/07/25 18:36:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-mt.min.js /tmp/work/dist/plotly-locale-mt.js
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-mk.min.js -> /output/plotly-locale-mk.min.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-mk.min.js.br /tmp/work/dist/plotly-locale-mk.min.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-mk.min.js -> /output/plotly-locale-mk.min.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-mk.min.js -> /output/plotly-locale-mk.min.js.gz
+2023/07/25 18:36:41 sri /tmp/work/dist/plotly-locale-mk.js -> /output/plotly-locale-mk.js.sri
+2023/07/25 18:36:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-mk.js.br /tmp/work/dist/plotly-locale-mk.js
+2023/07/25 18:36:41 br /tmp/work/dist/plotly-locale-mk.js -> /output/plotly-locale-mk.js.br
+2023/07/25 18:36:41 gz /tmp/work/dist/plotly-locale-mk.js -> /output/plotly-locale-mk.js.gz
+2023/07/25 18:36:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-nl-be.min.js /tmp/work/dist/plotly-locale-nl-be.js
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-ml.min.js -> /output/plotly-locale-ml.min.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-ml.min.js.br /tmp/work/dist/plotly-locale-ml.min.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-ml.min.js -> /output/plotly-locale-ml.min.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-ml.min.js -> /output/plotly-locale-ml.min.js.gz
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-ml.js -> /output/plotly-locale-ml.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-ml.js.br /tmp/work/dist/plotly-locale-ml.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-ml.js -> /output/plotly-locale-ml.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-ml.js -> /output/plotly-locale-ml.js.gz
+2023/07/25 18:36:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-nl.min.js /tmp/work/dist/plotly-locale-nl.js
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-ms.min.js -> /output/plotly-locale-ms.min.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-ms.min.js.br /tmp/work/dist/plotly-locale-ms.min.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-ms.min.js -> /output/plotly-locale-ms.min.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-ms.min.js -> /output/plotly-locale-ms.min.js.gz
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-ms.js -> /output/plotly-locale-ms.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-ms.js.br /tmp/work/dist/plotly-locale-ms.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-ms.js -> /output/plotly-locale-ms.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-ms.js -> /output/plotly-locale-ms.js.gz
+2023/07/25 18:36:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-no.min.js /tmp/work/dist/plotly-locale-no.js
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-mt.min.js -> /output/plotly-locale-mt.min.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-mt.min.js.br /tmp/work/dist/plotly-locale-mt.min.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-mt.min.js -> /output/plotly-locale-mt.min.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-mt.min.js -> /output/plotly-locale-mt.min.js.gz
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-mt.js -> /output/plotly-locale-mt.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-mt.js.br /tmp/work/dist/plotly-locale-mt.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-mt.js -> /output/plotly-locale-mt.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-mt.js -> /output/plotly-locale-mt.js.gz
+2023/07/25 18:36:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-pa.min.js /tmp/work/dist/plotly-locale-pa.js
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-nl-be.min.js -> /output/plotly-locale-nl-be.min.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-nl-be.min.js.br /tmp/work/dist/plotly-locale-nl-be.min.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-nl-be.min.js -> /output/plotly-locale-nl-be.min.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-nl-be.min.js -> /output/plotly-locale-nl-be.min.js.gz
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-nl-be.js -> /output/plotly-locale-nl-be.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-nl-be.js.br /tmp/work/dist/plotly-locale-nl-be.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-nl-be.js -> /output/plotly-locale-nl-be.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-nl-be.js -> /output/plotly-locale-nl-be.js.gz
+2023/07/25 18:36:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-pl.min.js /tmp/work/dist/plotly-locale-pl.js
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-nl.min.js -> /output/plotly-locale-nl.min.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-nl.min.js.br /tmp/work/dist/plotly-locale-nl.min.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-nl.min.js -> /output/plotly-locale-nl.min.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-nl.min.js -> /output/plotly-locale-nl.min.js.gz
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-nl.js -> /output/plotly-locale-nl.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-nl.js.br /tmp/work/dist/plotly-locale-nl.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-nl.js -> /output/plotly-locale-nl.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-nl.js -> /output/plotly-locale-nl.js.gz
+2023/07/25 18:36:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-pt-br.min.js /tmp/work/dist/plotly-locale-pt-br.js
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-no.min.js -> /output/plotly-locale-no.min.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-no.min.js.br /tmp/work/dist/plotly-locale-no.min.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-no.min.js -> /output/plotly-locale-no.min.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-no.min.js -> /output/plotly-locale-no.min.js.gz
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-no.js -> /output/plotly-locale-no.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-no.js.br /tmp/work/dist/plotly-locale-no.js
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-pa.min.js -> /output/plotly-locale-pa.min.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-pa.min.js.br /tmp/work/dist/plotly-locale-pa.min.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-no.js -> /output/plotly-locale-no.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-no.js -> /output/plotly-locale-no.js.gz
+2023/07/25 18:36:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-pt-pt.min.js /tmp/work/dist/plotly-locale-pt-pt.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-pa.min.js -> /output/plotly-locale-pa.min.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-pa.min.js -> /output/plotly-locale-pa.min.js.gz
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-pa.js -> /output/plotly-locale-pa.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-pa.js.br /tmp/work/dist/plotly-locale-pa.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-pa.js -> /output/plotly-locale-pa.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-pa.js -> /output/plotly-locale-pa.js.gz
+2023/07/25 18:36:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-rm.min.js /tmp/work/dist/plotly-locale-rm.js
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-pl.min.js -> /output/plotly-locale-pl.min.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-pl.min.js.br /tmp/work/dist/plotly-locale-pl.min.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-pl.min.js -> /output/plotly-locale-pl.min.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-pl.min.js -> /output/plotly-locale-pl.min.js.gz
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-pl.js -> /output/plotly-locale-pl.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-pl.js.br /tmp/work/dist/plotly-locale-pl.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-pl.js -> /output/plotly-locale-pl.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-pl.js -> /output/plotly-locale-pl.js.gz
+2023/07/25 18:36:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-ro.min.js /tmp/work/dist/plotly-locale-ro.js
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-pt-br.min.js -> /output/plotly-locale-pt-br.min.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-pt-br.min.js.br /tmp/work/dist/plotly-locale-pt-br.min.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-pt-br.min.js -> /output/plotly-locale-pt-br.min.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-pt-br.min.js -> /output/plotly-locale-pt-br.min.js.gz
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-pt-br.js -> /output/plotly-locale-pt-br.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-pt-br.js.br /tmp/work/dist/plotly-locale-pt-br.js
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-rm.min.js -> /output/plotly-locale-rm.min.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-rm.min.js.br /tmp/work/dist/plotly-locale-rm.min.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-pt-br.js -> /output/plotly-locale-pt-br.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-pt-br.js -> /output/plotly-locale-pt-br.js.gz
+2023/07/25 18:36:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-ru.min.js /tmp/work/dist/plotly-locale-ru.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-rm.min.js -> /output/plotly-locale-rm.min.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-rm.min.js -> /output/plotly-locale-rm.min.js.gz
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-rm.js -> /output/plotly-locale-rm.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-rm.js.br /tmp/work/dist/plotly-locale-rm.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-rm.js -> /output/plotly-locale-rm.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-rm.js -> /output/plotly-locale-rm.js.gz
+2023/07/25 18:36:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-si.min.js /tmp/work/dist/plotly-locale-si.js
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-pt-pt.min.js -> /output/plotly-locale-pt-pt.min.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-pt-pt.min.js.br /tmp/work/dist/plotly-locale-pt-pt.min.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-pt-pt.min.js -> /output/plotly-locale-pt-pt.min.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-pt-pt.min.js -> /output/plotly-locale-pt-pt.min.js.gz
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-pt-pt.js -> /output/plotly-locale-pt-pt.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-pt-pt.js.br /tmp/work/dist/plotly-locale-pt-pt.js
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-ro.min.js -> /output/plotly-locale-ro.min.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-ro.min.js.br /tmp/work/dist/plotly-locale-ro.min.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-pt-pt.js -> /output/plotly-locale-pt-pt.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-pt-pt.js -> /output/plotly-locale-pt-pt.js.gz
+2023/07/25 18:36:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-sk.min.js /tmp/work/dist/plotly-locale-sk.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-ro.min.js -> /output/plotly-locale-ro.min.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-ro.min.js -> /output/plotly-locale-ro.min.js.gz
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-ro.js -> /output/plotly-locale-ro.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-ro.js.br /tmp/work/dist/plotly-locale-ro.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-ro.js -> /output/plotly-locale-ro.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-ro.js -> /output/plotly-locale-ro.js.gz
+2023/07/25 18:36:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-sl.min.js /tmp/work/dist/plotly-locale-sl.js
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-si.min.js -> /output/plotly-locale-si.min.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-si.min.js.br /tmp/work/dist/plotly-locale-si.min.js
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-ru.min.js -> /output/plotly-locale-ru.min.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-ru.min.js.br /tmp/work/dist/plotly-locale-ru.min.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-si.min.js -> /output/plotly-locale-si.min.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-si.min.js -> /output/plotly-locale-si.min.js.gz
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-si.js -> /output/plotly-locale-si.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-si.js.br /tmp/work/dist/plotly-locale-si.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-ru.min.js -> /output/plotly-locale-ru.min.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-ru.min.js -> /output/plotly-locale-ru.min.js.gz
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-ru.js -> /output/plotly-locale-ru.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-ru.js.br /tmp/work/dist/plotly-locale-ru.js
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-sl.min.js -> /output/plotly-locale-sl.min.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-sl.min.js.br /tmp/work/dist/plotly-locale-sl.min.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-sl.min.js -> /output/plotly-locale-sl.min.js.br
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-sk.min.js -> /output/plotly-locale-sk.min.js.sri
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-sl.min.js -> /output/plotly-locale-sl.min.js.gz
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-sl.js -> /output/plotly-locale-sl.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-sl.js.br /tmp/work/dist/plotly-locale-sl.js
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-sk.min.js.br /tmp/work/dist/plotly-locale-sk.min.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-sl.js -> /output/plotly-locale-sl.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-sl.js -> /output/plotly-locale-sl.js.gz
+2023/07/25 18:36:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-sq.min.js /tmp/work/dist/plotly-locale-sq.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-si.js -> /output/plotly-locale-si.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-si.js -> /output/plotly-locale-si.js.gz
+2023/07/25 18:36:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-sr-sr.min.js /tmp/work/dist/plotly-locale-sr-sr.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-sk.min.js -> /output/plotly-locale-sk.min.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-sk.min.js -> /output/plotly-locale-sk.min.js.gz
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-sk.js -> /output/plotly-locale-sk.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-sk.js.br /tmp/work/dist/plotly-locale-sk.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-ru.js -> /output/plotly-locale-ru.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-ru.js -> /output/plotly-locale-ru.js.gz
+2023/07/25 18:36:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-sr.min.js /tmp/work/dist/plotly-locale-sr.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-sk.js -> /output/plotly-locale-sk.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-sk.js -> /output/plotly-locale-sk.js.gz
+2023/07/25 18:36:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-sv.min.js /tmp/work/dist/plotly-locale-sv.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-gl3d.min.js -> /output/plotly-gl3d.min.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-gl3d.min.js -> /output/plotly-gl3d.min.js.gz
+2023/07/25 18:36:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-sw.min.js /tmp/work/dist/plotly-locale-sw.js
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-sr-sr.min.js -> /output/plotly-locale-sr-sr.min.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-sr-sr.min.js.br /tmp/work/dist/plotly-locale-sr-sr.min.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-sr-sr.min.js -> /output/plotly-locale-sr-sr.min.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-sr-sr.min.js -> /output/plotly-locale-sr-sr.min.js.gz
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-sr-sr.js -> /output/plotly-locale-sr-sr.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-sr-sr.js.br /tmp/work/dist/plotly-locale-sr-sr.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-sr-sr.js -> /output/plotly-locale-sr-sr.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-sr-sr.js -> /output/plotly-locale-sr-sr.js.gz
+2023/07/25 18:36:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-ta.min.js /tmp/work/dist/plotly-locale-ta.js
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-sq.min.js -> /output/plotly-locale-sq.min.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-sq.min.js.br /tmp/work/dist/plotly-locale-sq.min.js
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-sr.min.js -> /output/plotly-locale-sr.min.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-sr.min.js.br /tmp/work/dist/plotly-locale-sr.min.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-sq.min.js -> /output/plotly-locale-sq.min.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-sq.min.js -> /output/plotly-locale-sq.min.js.gz
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-sq.js -> /output/plotly-locale-sq.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-sq.js.br /tmp/work/dist/plotly-locale-sq.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-sr.min.js -> /output/plotly-locale-sr.min.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-sr.min.js -> /output/plotly-locale-sr.min.js.gz
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-sr.js -> /output/plotly-locale-sr.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-sr.js.br /tmp/work/dist/plotly-locale-sr.js
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-sv.min.js -> /output/plotly-locale-sv.min.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-sv.min.js.br /tmp/work/dist/plotly-locale-sv.min.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-sq.js -> /output/plotly-locale-sq.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-sq.js -> /output/plotly-locale-sq.js.gz
+2023/07/25 18:36:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-th.min.js /tmp/work/dist/plotly-locale-th.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-sr.js -> /output/plotly-locale-sr.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-sr.js -> /output/plotly-locale-sr.js.gz
+2023/07/25 18:36:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-tr.min.js /tmp/work/dist/plotly-locale-tr.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-sv.min.js -> /output/plotly-locale-sv.min.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-sv.min.js -> /output/plotly-locale-sv.min.js.gz
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-sv.js -> /output/plotly-locale-sv.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-sv.js.br /tmp/work/dist/plotly-locale-sv.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-sv.js -> /output/plotly-locale-sv.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-sv.js -> /output/plotly-locale-sv.js.gz
+2023/07/25 18:36:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-tt.min.js /tmp/work/dist/plotly-locale-tt.js
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-ta.min.js -> /output/plotly-locale-ta.min.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-ta.min.js.br /tmp/work/dist/plotly-locale-ta.min.js
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-sw.min.js -> /output/plotly-locale-sw.min.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-sw.min.js.br /tmp/work/dist/plotly-locale-sw.min.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-ta.min.js -> /output/plotly-locale-ta.min.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-ta.min.js -> /output/plotly-locale-ta.min.js.gz
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-ta.js -> /output/plotly-locale-ta.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-ta.js.br /tmp/work/dist/plotly-locale-ta.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-ta.js -> /output/plotly-locale-ta.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-ta.js -> /output/plotly-locale-ta.js.gz
+2023/07/25 18:36:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-uk.min.js /tmp/work/dist/plotly-locale-uk.js
+2023/07/25 18:36:42 br /tmp/work/dist/plotly-locale-sw.min.js -> /output/plotly-locale-sw.min.js.br
+2023/07/25 18:36:42 gz /tmp/work/dist/plotly-locale-sw.min.js -> /output/plotly-locale-sw.min.js.gz
+2023/07/25 18:36:42 sri /tmp/work/dist/plotly-locale-sw.js -> /output/plotly-locale-sw.js.sri
+2023/07/25 18:36:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-sw.js.br /tmp/work/dist/plotly-locale-sw.js
+2023/07/25 18:36:43 br /tmp/work/dist/plotly-locale-sw.js -> /output/plotly-locale-sw.js.br
+2023/07/25 18:36:43 gz /tmp/work/dist/plotly-locale-sw.js -> /output/plotly-locale-sw.js.gz
+2023/07/25 18:36:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-ur.min.js /tmp/work/dist/plotly-locale-ur.js
+2023/07/25 18:36:43 sri /tmp/work/dist/plotly-locale-th.min.js -> /output/plotly-locale-th.min.js.sri
+2023/07/25 18:36:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-th.min.js.br /tmp/work/dist/plotly-locale-th.min.js
+2023/07/25 18:36:43 sri /tmp/work/dist/plotly-locale-tr.min.js -> /output/plotly-locale-tr.min.js.sri
+2023/07/25 18:36:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-tr.min.js.br /tmp/work/dist/plotly-locale-tr.min.js
+2023/07/25 18:36:43 br /tmp/work/dist/plotly-locale-tr.min.js -> /output/plotly-locale-tr.min.js.br
+2023/07/25 18:36:43 gz /tmp/work/dist/plotly-locale-tr.min.js -> /output/plotly-locale-tr.min.js.gz
+2023/07/25 18:36:43 sri /tmp/work/dist/plotly-locale-tr.js -> /output/plotly-locale-tr.js.sri
+2023/07/25 18:36:43 br /tmp/work/dist/plotly-locale-th.min.js -> /output/plotly-locale-th.min.js.br
+2023/07/25 18:36:43 gz /tmp/work/dist/plotly-locale-th.min.js -> /output/plotly-locale-th.min.js.gz
+2023/07/25 18:36:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-tr.js.br /tmp/work/dist/plotly-locale-tr.js
+2023/07/25 18:36:43 sri /tmp/work/dist/plotly-locale-th.js -> /output/plotly-locale-th.js.sri
+2023/07/25 18:36:43 sri /tmp/work/dist/plotly-locale-tt.min.js -> /output/plotly-locale-tt.min.js.sri
+2023/07/25 18:36:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-th.js.br /tmp/work/dist/plotly-locale-th.js
+2023/07/25 18:36:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-tt.min.js.br /tmp/work/dist/plotly-locale-tt.min.js
+2023/07/25 18:36:43 br /tmp/work/dist/plotly-locale-th.js -> /output/plotly-locale-th.js.br
+2023/07/25 18:36:43 br /tmp/work/dist/plotly-locale-tt.min.js -> /output/plotly-locale-tt.min.js.br
+2023/07/25 18:36:43 br /tmp/work/dist/plotly-locale-tr.js -> /output/plotly-locale-tr.js.br
+2023/07/25 18:36:43 gz /tmp/work/dist/plotly-locale-th.js -> /output/plotly-locale-th.js.gz
+2023/07/25 18:36:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-vi.min.js /tmp/work/dist/plotly-locale-vi.js
+2023/07/25 18:36:43 gz /tmp/work/dist/plotly-locale-tr.js -> /output/plotly-locale-tr.js.gz
+2023/07/25 18:36:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-zh-cn.min.js /tmp/work/dist/plotly-locale-zh-cn.js
+2023/07/25 18:36:43 gz /tmp/work/dist/plotly-locale-tt.min.js -> /output/plotly-locale-tt.min.js.gz
+2023/07/25 18:36:43 sri /tmp/work/dist/plotly-locale-tt.js -> /output/plotly-locale-tt.js.sri
+2023/07/25 18:36:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-tt.js.br /tmp/work/dist/plotly-locale-tt.js
+2023/07/25 18:36:43 br /tmp/work/dist/plotly-locale-tt.js -> /output/plotly-locale-tt.js.br
+2023/07/25 18:36:43 gz /tmp/work/dist/plotly-locale-tt.js -> /output/plotly-locale-tt.js.gz
+2023/07/25 18:36:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-zh-hk.min.js /tmp/work/dist/plotly-locale-zh-hk.js
+2023/07/25 18:36:43 sri /tmp/work/dist/plotly-locale-ur.min.js -> /output/plotly-locale-ur.min.js.sri
+2023/07/25 18:36:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-ur.min.js.br /tmp/work/dist/plotly-locale-ur.min.js
+2023/07/25 18:36:43 br /tmp/work/dist/plotly-locale-ur.min.js -> /output/plotly-locale-ur.min.js.br
+2023/07/25 18:36:43 gz /tmp/work/dist/plotly-locale-ur.min.js -> /output/plotly-locale-ur.min.js.gz
+2023/07/25 18:36:43 sri /tmp/work/dist/plotly-locale-ur.js -> /output/plotly-locale-ur.js.sri
+2023/07/25 18:36:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-ur.js.br /tmp/work/dist/plotly-locale-ur.js
+2023/07/25 18:36:43 sri /tmp/work/dist/plotly-locale-uk.min.js -> /output/plotly-locale-uk.min.js.sri
+2023/07/25 18:36:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-uk.min.js.br /tmp/work/dist/plotly-locale-uk.min.js
+2023/07/25 18:36:43 br /tmp/work/dist/plotly-locale-ur.js -> /output/plotly-locale-ur.js.br
+2023/07/25 18:36:43 gz /tmp/work/dist/plotly-locale-ur.js -> /output/plotly-locale-ur.js.gz
+2023/07/25 18:36:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plotly-locale-zh-tw.min.js /tmp/work/dist/plotly-locale-zh-tw.js
+2023/07/25 18:36:43 br /tmp/work/dist/plotly-locale-uk.min.js -> /output/plotly-locale-uk.min.js.br
+2023/07/25 18:36:43 gz /tmp/work/dist/plotly-locale-uk.min.js -> /output/plotly-locale-uk.min.js.gz
+2023/07/25 18:36:43 sri /tmp/work/dist/plotly-locale-uk.js -> /output/plotly-locale-uk.js.sri
+2023/07/25 18:36:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-uk.js.br /tmp/work/dist/plotly-locale-uk.js
+2023/07/25 18:36:43 sri /tmp/work/dist/plotly-locale-vi.min.js -> /output/plotly-locale-vi.min.js.sri
+2023/07/25 18:36:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-vi.min.js.br /tmp/work/dist/plotly-locale-vi.min.js
+2023/07/25 18:36:43 br /tmp/work/dist/plotly-locale-vi.min.js -> /output/plotly-locale-vi.min.js.br
+2023/07/25 18:36:43 gz /tmp/work/dist/plotly-locale-vi.min.js -> /output/plotly-locale-vi.min.js.gz
+2023/07/25 18:36:43 sri /tmp/work/dist/plotly-locale-vi.js -> /output/plotly-locale-vi.js.sri
+2023/07/25 18:36:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-vi.js.br /tmp/work/dist/plotly-locale-vi.js
+2023/07/25 18:36:43 sri /tmp/work/dist/plotly-locale-zh-hk.min.js -> /output/plotly-locale-zh-hk.min.js.sri
+2023/07/25 18:36:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-zh-hk.min.js.br /tmp/work/dist/plotly-locale-zh-hk.min.js
+2023/07/25 18:36:43 br /tmp/work/dist/plotly-locale-vi.js -> /output/plotly-locale-vi.js.br
+2023/07/25 18:36:43 gz /tmp/work/dist/plotly-locale-vi.js -> /output/plotly-locale-vi.js.gz
+2023/07/25 18:36:43 br /tmp/work/dist/plotly-locale-zh-hk.min.js -> /output/plotly-locale-zh-hk.min.js.br
+2023/07/25 18:36:43 /tmp/work/dist/plotly-mapbox.min.js already has corresponding compressed file
+2023/07/25 18:36:43 gz /tmp/work/dist/plotly-locale-zh-hk.min.js -> /output/plotly-locale-zh-hk.min.js.gz
+2023/07/25 18:36:43 sri /tmp/work/dist/plotly-locale-zh-hk.js -> /output/plotly-locale-zh-hk.js.sri
+2023/07/25 18:36:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-zh-hk.js.br /tmp/work/dist/plotly-locale-zh-hk.js
+2023/07/25 18:36:43 sri /tmp/work/dist/plotly-locale-zh-cn.min.js -> /output/plotly-locale-zh-cn.min.js.sri
+2023/07/25 18:36:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-zh-cn.min.js.br /tmp/work/dist/plotly-locale-zh-cn.min.js
+2023/07/25 18:36:43 br /tmp/work/dist/plotly-locale-zh-hk.js -> /output/plotly-locale-zh-hk.js.br
+2023/07/25 18:36:43 br /tmp/work/dist/plotly-locale-zh-cn.min.js -> /output/plotly-locale-zh-cn.min.js.br
+2023/07/25 18:36:43 sri /tmp/work/dist/plotly-mapbox.js -> /output/plotly-mapbox.js.sri
+2023/07/25 18:36:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-mapbox.js.br /tmp/work/dist/plotly-mapbox.js
+2023/07/25 18:36:43 gz /tmp/work/dist/plotly-locale-zh-hk.js -> /output/plotly-locale-zh-hk.js.gz
+2023/07/25 18:36:43 /tmp/work/dist/plotly-mapbox.min.js is already compressed
+2023/07/25 18:36:43 gz /tmp/work/dist/plotly-locale-zh-cn.min.js -> /output/plotly-locale-zh-cn.min.js.gz
+2023/07/25 18:36:43 sri /tmp/work/dist/plotly-locale-zh-cn.js -> /output/plotly-locale-zh-cn.js.sri
+2023/07/25 18:36:43 br /tmp/work/dist/plotly-locale-uk.js -> /output/plotly-locale-uk.js.br
+2023/07/25 18:36:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-zh-cn.js.br /tmp/work/dist/plotly-locale-zh-cn.js
+2023/07/25 18:36:43 sri /tmp/work/dist/plotly-mapbox.min.js -> /output/plotly-mapbox.min.js.sri
+2023/07/25 18:36:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-mapbox.min.js.br /tmp/work/dist/plotly-mapbox.min.js
+2023/07/25 18:36:43 gz /tmp/work/dist/plotly-locale-uk.js -> /output/plotly-locale-uk.js.gz
+2023/07/25 18:36:43 /tmp/work/dist/plotly-strict.min.js already has corresponding compressed file
+2023/07/25 18:36:43 br /tmp/work/dist/plotly-locale-zh-cn.js -> /output/plotly-locale-zh-cn.js.br
+2023/07/25 18:36:43 gz /tmp/work/dist/plotly-locale-zh-cn.js -> /output/plotly-locale-zh-cn.js.gz
+2023/07/25 18:36:43 /tmp/work/dist/plotly-strict.min.js is already compressed
+2023/07/25 18:36:43 sri /tmp/work/dist/plotly-strict.js -> /output/plotly-strict.js.sri
+2023/07/25 18:36:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-strict.js.br /tmp/work/dist/plotly-strict.js
+2023/07/25 18:36:43 sri /tmp/work/dist/plotly-strict.min.js -> /output/plotly-strict.min.js.sri
+2023/07/25 18:36:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-strict.min.js.br /tmp/work/dist/plotly-strict.min.js
+2023/07/25 18:36:43 sri /tmp/work/dist/plotly-locale-zh-tw.min.js -> /output/plotly-locale-zh-tw.min.js.sri
+2023/07/25 18:36:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-zh-tw.min.js.br /tmp/work/dist/plotly-locale-zh-tw.min.js
+2023/07/25 18:36:43 br /tmp/work/dist/plotly-locale-zh-tw.min.js -> /output/plotly-locale-zh-tw.min.js.br
+2023/07/25 18:36:43 gz /tmp/work/dist/plotly-locale-zh-tw.min.js -> /output/plotly-locale-zh-tw.min.js.gz
+2023/07/25 18:36:43 sri /tmp/work/dist/plotly-locale-zh-tw.js -> /output/plotly-locale-zh-tw.js.sri
+2023/07/25 18:36:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-locale-zh-tw.js.br /tmp/work/dist/plotly-locale-zh-tw.js
+2023/07/25 18:36:43 br /tmp/work/dist/plotly-locale-zh-tw.js -> /output/plotly-locale-zh-tw.js.br
+2023/07/25 18:36:43 gz /tmp/work/dist/plotly-locale-zh-tw.js -> /output/plotly-locale-zh-tw.js.gz
+2023/07/25 18:36:43 /tmp/work/dist/plotly.min.js already has corresponding compressed file
+2023/07/25 18:36:43 sri /tmp/work/dist/plotly.js -> /output/plotly.js.sri
+2023/07/25 18:36:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly.js.br /tmp/work/dist/plotly.js
+2023/07/25 18:36:44 br /tmp/work/dist/plotly-geo-assets.min.js -> /output/plotly-geo-assets.min.js.br
+2023/07/25 18:36:45 gz /tmp/work/dist/plotly-geo-assets.min.js -> /output/plotly-geo-assets.min.js.gz
+2023/07/25 18:36:45 sri /tmp/work/dist/plotly-geo-assets.js -> /output/plotly-geo-assets.js.sri
+2023/07/25 18:36:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly-geo-assets.js.br /tmp/work/dist/plotly-geo-assets.js
+2023/07/25 18:36:46 br /tmp/work/dist/plotly-gl2d.js -> /output/plotly-gl2d.js.br
+2023/07/25 18:36:46 br /tmp/work/dist/plotly-gl3d.js -> /output/plotly-gl3d.js.br
+2023/07/25 18:36:46 gz /tmp/work/dist/plotly-gl2d.js -> /output/plotly-gl2d.js.gz
+2023/07/25 18:36:46 /tmp/work/dist/plotly.min.js is already compressed
+2023/07/25 18:36:47 sri /tmp/work/dist/plotly.min.js -> /output/plotly.min.js.sri
+2023/07/25 18:36:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plotly.min.js.br /tmp/work/dist/plotly.min.js
+2023/07/25 18:36:47 gz /tmp/work/dist/plotly-gl3d.js -> /output/plotly-gl3d.js.gz
+2023/07/25 18:36:47 br /tmp/work/dist/plotly-mapbox.min.js -> /output/plotly-mapbox.min.js.br
+2023/07/25 18:36:47 gz /tmp/work/dist/plotly-mapbox.min.js -> /output/plotly-mapbox.min.js.gz
+2023/07/25 18:36:52 br /tmp/work/dist/plotly-strict.min.js -> /output/plotly-strict.min.js.br
+2023/07/25 18:36:52 gz /tmp/work/dist/plotly-strict.min.js -> /output/plotly-strict.min.js.gz
+2023/07/25 18:36:54 br /tmp/work/dist/plotly-mapbox.js -> /output/plotly-mapbox.js.br
+2023/07/25 18:36:54 gz /tmp/work/dist/plotly-mapbox.js -> /output/plotly-mapbox.js.gz
+2023/07/25 18:36:55 br /tmp/work/dist/plotly.min.js -> /output/plotly.min.js.br
+2023/07/25 18:36:56 gz /tmp/work/dist/plotly.min.js -> /output/plotly.min.js.gz
+2023/07/25 18:36:56 br /tmp/work/dist/plotly-geo-assets.js -> /output/plotly-geo-assets.js.br
+2023/07/25 18:36:57 gz /tmp/work/dist/plotly-geo-assets.js -> /output/plotly-geo-assets.js.gz
+2023/07/25 18:37:00 br /tmp/work/dist/plotly.js -> /output/plotly.js.br
+2023/07/25 18:37:01 gz /tmp/work/dist/plotly.js -> /output/plotly.js.gz
+2023/07/25 18:37:03 br /tmp/work/dist/plotly-strict.js -> /output/plotly-strict.js.br
+2023/07/25 18:37:04 gz /tmp/work/dist/plotly-strict.js -> /output/plotly-strict.js.gz
+2023/07/25 18:37:04 processed plotly.js
