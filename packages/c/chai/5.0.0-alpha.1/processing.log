@@ -1,0 +1,11 @@
+2023/07/26 10:38:41 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/26 10:38:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/chai.min.js /tmp/work/chai.js
+2023/07/26 10:38:42 sri /tmp/work/chai.min.js -> /output/chai.min.js.sri
+2023/07/26 10:38:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/chai.min.js.br /tmp/work/chai.min.js
+2023/07/26 10:38:42 br /tmp/work/chai.min.js -> /output/chai.min.js.br
+2023/07/26 10:38:42 gz /tmp/work/chai.min.js -> /output/chai.min.js.gz
+2023/07/26 10:38:42 sri /tmp/work/chai.js -> /output/chai.js.sri
+2023/07/26 10:38:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/chai.js.br /tmp/work/chai.js
+2023/07/26 10:38:42 br /tmp/work/chai.js -> /output/chai.js.br
+2023/07/26 10:38:42 gz /tmp/work/chai.js -> /output/chai.js.gz
+2023/07/26 10:38:42 processed chai
