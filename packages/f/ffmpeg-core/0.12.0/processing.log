@@ -1,0 +1,22 @@
+2023/07/26 21:09:04 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/26 21:09:04 file esm/ffmpeg-core.wasm ignored due to byte size (35825227 > 26214400)
+2023/07/26 21:09:04 file umd/ffmpeg-core.wasm ignored due to byte size (35825227 > 26214400)
+2023/07/26 21:09:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/umd/ffmpeg-core.min.js /tmp/work/dist/umd/ffmpeg-core.js
+2023/07/26 21:09:04 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/ffmpeg-core.min.js /tmp/work/dist/esm/ffmpeg-core.js
+2023/07/26 21:09:06 sri /tmp/work/dist/esm/ffmpeg-core.min.js -> /output/esm/ffmpeg-core.min.js.sri
+2023/07/26 21:09:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/ffmpeg-core.min.js.br /tmp/work/dist/esm/ffmpeg-core.min.js
+2023/07/26 21:09:06 sri /tmp/work/dist/umd/ffmpeg-core.min.js -> /output/umd/ffmpeg-core.min.js.sri
+2023/07/26 21:09:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/ffmpeg-core.min.js.br /tmp/work/dist/umd/ffmpeg-core.min.js
+2023/07/26 21:09:06 br /tmp/work/dist/esm/ffmpeg-core.min.js -> /output/esm/ffmpeg-core.min.js.br
+2023/07/26 21:09:06 gz /tmp/work/dist/esm/ffmpeg-core.min.js -> /output/esm/ffmpeg-core.min.js.gz
+2023/07/26 21:09:06 sri /tmp/work/dist/esm/ffmpeg-core.js -> /output/esm/ffmpeg-core.js.sri
+2023/07/26 21:09:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/ffmpeg-core.js.br /tmp/work/dist/esm/ffmpeg-core.js
+2023/07/26 21:09:06 br /tmp/work/dist/umd/ffmpeg-core.min.js -> /output/umd/ffmpeg-core.min.js.br
+2023/07/26 21:09:06 gz /tmp/work/dist/umd/ffmpeg-core.min.js -> /output/umd/ffmpeg-core.min.js.gz
+2023/07/26 21:09:06 sri /tmp/work/dist/umd/ffmpeg-core.js -> /output/umd/ffmpeg-core.js.sri
+2023/07/26 21:09:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/ffmpeg-core.js.br /tmp/work/dist/umd/ffmpeg-core.js
+2023/07/26 21:09:06 br /tmp/work/dist/esm/ffmpeg-core.js -> /output/esm/ffmpeg-core.js.br
+2023/07/26 21:09:06 br /tmp/work/dist/umd/ffmpeg-core.js -> /output/umd/ffmpeg-core.js.br
+2023/07/26 21:09:06 gz /tmp/work/dist/esm/ffmpeg-core.js -> /output/esm/ffmpeg-core.js.gz
+2023/07/26 21:09:06 gz /tmp/work/dist/umd/ffmpeg-core.js -> /output/umd/ffmpeg-core.js.gz
+2023/07/26 21:09:06 processed ffmpeg-core
