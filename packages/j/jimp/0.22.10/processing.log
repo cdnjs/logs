@@ -1,0 +1,17 @@
+2023/07/27 01:00:21 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/27 01:00:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/browser/lib/jimp.min.js /tmp/work/browser/lib/jimp.js
+2023/07/27 01:00:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jimp.js.map.br /tmp/work/browser/lib/jimp.js.map
+2023/07/27 01:00:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jimp.js.LICENSE.txt.br /tmp/work/browser/lib/jimp.js.LICENSE.txt
+2023/07/27 01:00:21 br /tmp/work/browser/lib/jimp.js.LICENSE.txt -> /output/jimp.js.LICENSE.txt.br
+2023/07/27 01:00:21 gz /tmp/work/browser/lib/jimp.js.LICENSE.txt -> /output/jimp.js.LICENSE.txt.gz
+2023/07/27 01:00:25 br /tmp/work/browser/lib/jimp.js.map -> /output/jimp.js.map.br
+2023/07/27 01:00:25 gz /tmp/work/browser/lib/jimp.js.map -> /output/jimp.js.map.gz
+2023/07/27 01:00:27 sri /tmp/work/browser/lib/jimp.min.js -> /output/jimp.min.js.sri
+2023/07/27 01:00:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jimp.min.js.br /tmp/work/browser/lib/jimp.min.js
+2023/07/27 01:00:28 br /tmp/work/browser/lib/jimp.min.js -> /output/jimp.min.js.br
+2023/07/27 01:00:28 gz /tmp/work/browser/lib/jimp.min.js -> /output/jimp.min.js.gz
+2023/07/27 01:00:28 sri /tmp/work/browser/lib/jimp.js -> /output/jimp.js.sri
+2023/07/27 01:00:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jimp.js.br /tmp/work/browser/lib/jimp.js
+2023/07/27 01:00:29 br /tmp/work/browser/lib/jimp.js -> /output/jimp.js.br
+2023/07/27 01:00:29 gz /tmp/work/browser/lib/jimp.js -> /output/jimp.js.gz
+2023/07/27 01:00:29 processed jimp
