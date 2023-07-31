@@ -1,47 +1,47 @@
-2023/05/08 17:02:51 optimizing files (Js true, Css true, Png true, Jpg true)
-2023/05/08 17:02:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/search/algolia.min.js /tmp/work/source/js/search/algolia.js
-2023/05/08 17:02:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/search/local-search.min.js /tmp/work/source/js/search/local-search.js
-2023/05/08 17:02:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/main.min.js /tmp/work/source/js/main.js
-2023/05/08 17:02:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/tw_cn.min.js /tmp/work/source/js/tw_cn.js
-2023/05/08 17:02:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/utils.min.js /tmp/work/source/js/utils.js
-2023/05/08 17:02:51 sri /tmp/work/source/js/search/algolia.min.js -> /output/js/search/algolia.min.js.sri
-2023/05/08 17:02:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/search/algolia.min.js.br /tmp/work/source/js/search/algolia.min.js
-2023/05/08 17:02:51 sri /tmp/work/source/js/tw_cn.min.js -> /output/js/tw_cn.min.js.sri
-2023/05/08 17:02:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/tw_cn.min.js.br /tmp/work/source/js/tw_cn.min.js
-2023/05/08 17:02:51 br /tmp/work/source/js/search/algolia.min.js -> /output/js/search/algolia.min.js.br
-2023/05/08 17:02:51 gz /tmp/work/source/js/search/algolia.min.js -> /output/js/search/algolia.min.js.gz
-2023/05/08 17:02:51 sri /tmp/work/source/js/search/algolia.js -> /output/js/search/algolia.js.sri
-2023/05/08 17:02:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/search/algolia.js.br /tmp/work/source/js/search/algolia.js
-2023/05/08 17:02:51 br /tmp/work/source/js/search/algolia.js -> /output/js/search/algolia.js.br
-2023/05/08 17:02:51 gz /tmp/work/source/js/search/algolia.js -> /output/js/search/algolia.js.gz
-2023/05/08 17:02:51 br /tmp/work/source/js/tw_cn.min.js -> /output/js/tw_cn.min.js.br
-2023/05/08 17:02:51 gz /tmp/work/source/js/tw_cn.min.js -> /output/js/tw_cn.min.js.gz
-2023/05/08 17:02:51 sri /tmp/work/source/js/tw_cn.js -> /output/js/tw_cn.js.sri
-2023/05/08 17:02:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/tw_cn.js.br /tmp/work/source/js/tw_cn.js
-2023/05/08 17:02:51 br /tmp/work/source/js/tw_cn.js -> /output/js/tw_cn.js.br
-2023/05/08 17:02:51 gz /tmp/work/source/js/tw_cn.js -> /output/js/tw_cn.js.gz
-2023/05/08 17:02:51 sri /tmp/work/source/js/utils.min.js -> /output/js/utils.min.js.sri
-2023/05/08 17:02:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/utils.min.js.br /tmp/work/source/js/utils.min.js
-2023/05/08 17:02:51 br /tmp/work/source/js/utils.min.js -> /output/js/utils.min.js.br
-2023/05/08 17:02:51 gz /tmp/work/source/js/utils.min.js -> /output/js/utils.min.js.gz
-2023/05/08 17:02:51 sri /tmp/work/source/js/utils.js -> /output/js/utils.js.sri
-2023/05/08 17:02:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/utils.js.br /tmp/work/source/js/utils.js
-2023/05/08 17:02:51 sri /tmp/work/source/js/search/local-search.min.js -> /output/js/search/local-search.min.js.sri
-2023/05/08 17:02:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/search/local-search.min.js.br /tmp/work/source/js/search/local-search.min.js
-2023/05/08 17:02:51 br /tmp/work/source/js/utils.js -> /output/js/utils.js.br
-2023/05/08 17:02:51 br /tmp/work/source/js/search/local-search.min.js -> /output/js/search/local-search.min.js.br
-2023/05/08 17:02:51 gz /tmp/work/source/js/search/local-search.min.js -> /output/js/search/local-search.min.js.gz
-2023/05/08 17:02:51 sri /tmp/work/source/js/search/local-search.js -> /output/js/search/local-search.js.sri
-2023/05/08 17:02:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/search/local-search.js.br /tmp/work/source/js/search/local-search.js
-2023/05/08 17:02:51 gz /tmp/work/source/js/utils.js -> /output/js/utils.js.gz
-2023/05/08 17:02:51 br /tmp/work/source/js/search/local-search.js -> /output/js/search/local-search.js.br
-2023/05/08 17:02:51 gz /tmp/work/source/js/search/local-search.js -> /output/js/search/local-search.js.gz
-2023/05/08 17:02:51 sri /tmp/work/source/js/main.min.js -> /output/js/main.min.js.sri
-2023/05/08 17:02:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/main.min.js.br /tmp/work/source/js/main.min.js
-2023/05/08 17:02:51 br /tmp/work/source/js/main.min.js -> /output/js/main.min.js.br
-2023/05/08 17:02:51 gz /tmp/work/source/js/main.min.js -> /output/js/main.min.js.gz
-2023/05/08 17:02:51 sri /tmp/work/source/js/main.js -> /output/js/main.js.sri
-2023/05/08 17:02:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/main.js.br /tmp/work/source/js/main.js
-2023/05/08 17:02:51 br /tmp/work/source/js/main.js -> /output/js/main.js.br
-2023/05/08 17:02:51 gz /tmp/work/source/js/main.js -> /output/js/main.js.gz
-2023/05/08 17:02:51 processed hexo-theme-butterfly
+2023/07/31 12:19:45 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/31 12:19:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/utils.min.js /tmp/work/source/js/utils.js
+2023/07/31 12:19:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/search/algolia.min.js /tmp/work/source/js/search/algolia.js
+2023/07/31 12:19:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/tw_cn.min.js /tmp/work/source/js/tw_cn.js
+2023/07/31 12:19:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/search/local-search.min.js /tmp/work/source/js/search/local-search.js
+2023/07/31 12:19:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/main.min.js /tmp/work/source/js/main.js
+2023/07/31 12:19:46 sri /tmp/work/source/js/utils.min.js -> /output/js/utils.min.js.sri
+2023/07/31 12:19:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/utils.min.js.br /tmp/work/source/js/utils.min.js
+2023/07/31 12:19:46 br /tmp/work/source/js/utils.min.js -> /output/js/utils.min.js.br
+2023/07/31 12:19:46 gz /tmp/work/source/js/utils.min.js -> /output/js/utils.min.js.gz
+2023/07/31 12:19:46 sri /tmp/work/source/js/utils.js -> /output/js/utils.js.sri
+2023/07/31 12:19:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/utils.js.br /tmp/work/source/js/utils.js
+2023/07/31 12:19:46 sri /tmp/work/source/js/tw_cn.min.js -> /output/js/tw_cn.min.js.sri
+2023/07/31 12:19:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/tw_cn.min.js.br /tmp/work/source/js/tw_cn.min.js
+2023/07/31 12:19:46 sri /tmp/work/source/js/search/algolia.min.js -> /output/js/search/algolia.min.js.sri
+2023/07/31 12:19:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/search/algolia.min.js.br /tmp/work/source/js/search/algolia.min.js
+2023/07/31 12:19:46 br /tmp/work/source/js/utils.js -> /output/js/utils.js.br
+2023/07/31 12:19:46 gz /tmp/work/source/js/utils.js -> /output/js/utils.js.gz
+2023/07/31 12:19:46 br /tmp/work/source/js/search/algolia.min.js -> /output/js/search/algolia.min.js.br
+2023/07/31 12:19:46 gz /tmp/work/source/js/search/algolia.min.js -> /output/js/search/algolia.min.js.gz
+2023/07/31 12:19:46 sri /tmp/work/source/js/search/algolia.js -> /output/js/search/algolia.js.sri
+2023/07/31 12:19:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/search/algolia.js.br /tmp/work/source/js/search/algolia.js
+2023/07/31 12:19:47 br /tmp/work/source/js/search/algolia.js -> /output/js/search/algolia.js.br
+2023/07/31 12:19:47 gz /tmp/work/source/js/search/algolia.js -> /output/js/search/algolia.js.gz
+2023/07/31 12:19:47 br /tmp/work/source/js/tw_cn.min.js -> /output/js/tw_cn.min.js.br
+2023/07/31 12:19:47 gz /tmp/work/source/js/tw_cn.min.js -> /output/js/tw_cn.min.js.gz
+2023/07/31 12:19:47 sri /tmp/work/source/js/tw_cn.js -> /output/js/tw_cn.js.sri
+2023/07/31 12:19:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/tw_cn.js.br /tmp/work/source/js/tw_cn.js
+2023/07/31 12:19:47 sri /tmp/work/source/js/search/local-search.min.js -> /output/js/search/local-search.min.js.sri
+2023/07/31 12:19:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/search/local-search.min.js.br /tmp/work/source/js/search/local-search.min.js
+2023/07/31 12:19:47 br /tmp/work/source/js/search/local-search.min.js -> /output/js/search/local-search.min.js.br
+2023/07/31 12:19:47 gz /tmp/work/source/js/search/local-search.min.js -> /output/js/search/local-search.min.js.gz
+2023/07/31 12:19:47 sri /tmp/work/source/js/search/local-search.js -> /output/js/search/local-search.js.sri
+2023/07/31 12:19:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/search/local-search.js.br /tmp/work/source/js/search/local-search.js
+2023/07/31 12:19:47 br /tmp/work/source/js/tw_cn.js -> /output/js/tw_cn.js.br
+2023/07/31 12:19:47 gz /tmp/work/source/js/tw_cn.js -> /output/js/tw_cn.js.gz
+2023/07/31 12:19:47 br /tmp/work/source/js/search/local-search.js -> /output/js/search/local-search.js.br
+2023/07/31 12:19:47 gz /tmp/work/source/js/search/local-search.js -> /output/js/search/local-search.js.gz
+2023/07/31 12:19:47 sri /tmp/work/source/js/main.min.js -> /output/js/main.min.js.sri
+2023/07/31 12:19:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/main.min.js.br /tmp/work/source/js/main.min.js
+2023/07/31 12:19:47 br /tmp/work/source/js/main.min.js -> /output/js/main.min.js.br
+2023/07/31 12:19:47 gz /tmp/work/source/js/main.min.js -> /output/js/main.min.js.gz
+2023/07/31 12:19:47 sri /tmp/work/source/js/main.js -> /output/js/main.js.sri
+2023/07/31 12:19:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/main.js.br /tmp/work/source/js/main.js
+2023/07/31 12:19:47 br /tmp/work/source/js/main.js -> /output/js/main.js.br
+2023/07/31 12:19:47 gz /tmp/work/source/js/main.js -> /output/js/main.js.gz
+2023/07/31 12:19:47 processed hexo-theme-butterfly
