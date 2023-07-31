@@ -1,131 +1,131 @@
-2023/06/21 21:06:32 optimizing files (Js true, Css true, Png true, Jpg true)
-2023/06/21 21:06:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dash.all.debug.min.js /tmp/work/dist/dash.all.debug.js
-2023/06/21 21:06:32 /tmp/work/dist/dash.all.min.js is already compressed
-2023/06/21 21:06:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.all.debug.js.map.br /tmp/work/dist/dash.all.debug.js.map
-2023/06/21 21:06:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.all.min.js.map.br /tmp/work/dist/dash.all.min.js.map
-2023/06/21 21:06:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.all.min.js.LICENSE.txt.br /tmp/work/dist/dash.all.min.js.LICENSE.txt
-2023/06/21 21:06:32 /tmp/work/dist/dash.mediaplayer.min.js is already compressed
-2023/06/21 21:06:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dash.mediaplayer.debug.min.js /tmp/work/dist/dash.mediaplayer.debug.js
-2023/06/21 21:06:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.mediaplayer.debug.js.map.br /tmp/work/dist/dash.mediaplayer.debug.js.map
-2023/06/21 21:06:32 sri /tmp/work/dist/dash.mediaplayer.min.js -> /output/dash.mediaplayer.min.js.sri
-2023/06/21 21:06:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.mediaplayer.min.js.br /tmp/work/dist/dash.mediaplayer.min.js
-2023/06/21 21:06:32 sri /tmp/work/dist/dash.all.min.js -> /output/dash.all.min.js.sri
-2023/06/21 21:06:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.all.min.js.br /tmp/work/dist/dash.all.min.js
-2023/06/21 21:06:32 br /tmp/work/dist/dash.all.min.js.LICENSE.txt -> /output/dash.all.min.js.LICENSE.txt.br
-2023/06/21 21:06:32 gz /tmp/work/dist/dash.all.min.js.LICENSE.txt -> /output/dash.all.min.js.LICENSE.txt.gz
-2023/06/21 21:06:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.mediaplayer.min.js.LICENSE.txt.br /tmp/work/dist/dash.mediaplayer.min.js.LICENSE.txt
-2023/06/21 21:06:32 br /tmp/work/dist/dash.mediaplayer.min.js.LICENSE.txt -> /output/dash.mediaplayer.min.js.LICENSE.txt.br
-2023/06/21 21:06:32 gz /tmp/work/dist/dash.mediaplayer.min.js.LICENSE.txt -> /output/dash.mediaplayer.min.js.LICENSE.txt.gz
-2023/06/21 21:06:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.mediaplayer.min.js.map.br /tmp/work/dist/dash.mediaplayer.min.js.map
-2023/06/21 21:06:34 br /tmp/work/dist/dash.mediaplayer.min.js -> /output/dash.mediaplayer.min.js.br
-2023/06/21 21:06:34 gz /tmp/work/dist/dash.mediaplayer.min.js -> /output/dash.mediaplayer.min.js.gz
-2023/06/21 21:06:34 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dash.mss.debug.min.js /tmp/work/dist/dash.mss.debug.js
-2023/06/21 21:06:35 br /tmp/work/dist/dash.all.min.js -> /output/dash.all.min.js.br
-2023/06/21 21:06:35 gz /tmp/work/dist/dash.all.min.js -> /output/dash.all.min.js.gz
-2023/06/21 21:06:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.mss.debug.js.map.br /tmp/work/dist/dash.mss.debug.js.map
-2023/06/21 21:06:35 br /tmp/work/dist/dash.mss.debug.js.map -> /output/dash.mss.debug.js.map.br
-2023/06/21 21:06:35 gz /tmp/work/dist/dash.mss.debug.js.map -> /output/dash.mss.debug.js.map.gz
-2023/06/21 21:06:35 /tmp/work/dist/dash.mss.min.js is already compressed
-2023/06/21 21:06:35 sri /tmp/work/dist/dash.mss.min.js -> /output/dash.mss.min.js.sri
-2023/06/21 21:06:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.mss.min.js.br /tmp/work/dist/dash.mss.min.js
-2023/06/21 21:06:36 br /tmp/work/dist/dash.mss.min.js -> /output/dash.mss.min.js.br
-2023/06/21 21:06:36 gz /tmp/work/dist/dash.mss.min.js -> /output/dash.mss.min.js.gz
-2023/06/21 21:06:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.mss.min.js.map.br /tmp/work/dist/dash.mss.min.js.map
-2023/06/21 21:06:36 br /tmp/work/dist/dash.mss.min.js.map -> /output/dash.mss.min.js.map.br
-2023/06/21 21:06:36 gz /tmp/work/dist/dash.mss.min.js.map -> /output/dash.mss.min.js.map.gz
-2023/06/21 21:06:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dash.offline.debug.min.js /tmp/work/dist/dash.offline.debug.js
-2023/06/21 21:06:38 sri /tmp/work/dist/dash.mss.debug.min.js -> /output/dash.mss.debug.min.js.sri
-2023/06/21 21:06:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.mss.debug.min.js.br /tmp/work/dist/dash.mss.debug.min.js
-2023/06/21 21:06:38 br /tmp/work/dist/dash.mss.debug.min.js -> /output/dash.mss.debug.min.js.br
-2023/06/21 21:06:38 gz /tmp/work/dist/dash.mss.debug.min.js -> /output/dash.mss.debug.min.js.gz
-2023/06/21 21:06:38 sri /tmp/work/dist/dash.mss.debug.js -> /output/dash.mss.debug.js.sri
-2023/06/21 21:06:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.mss.debug.js.br /tmp/work/dist/dash.mss.debug.js
-2023/06/21 21:06:39 br /tmp/work/dist/dash.mss.debug.js -> /output/dash.mss.debug.js.br
-2023/06/21 21:06:39 gz /tmp/work/dist/dash.mss.debug.js -> /output/dash.mss.debug.js.gz
-2023/06/21 21:06:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.offline.debug.js.map.br /tmp/work/dist/dash.offline.debug.js.map
-2023/06/21 21:06:41 br /tmp/work/dist/dash.mediaplayer.min.js.map -> /output/dash.mediaplayer.min.js.map.br
-2023/06/21 21:06:41 gz /tmp/work/dist/dash.mediaplayer.min.js.map -> /output/dash.mediaplayer.min.js.map.gz
-2023/06/21 21:06:41 /tmp/work/dist/dash.offline.min.js is already compressed
-2023/06/21 21:06:41 sri /tmp/work/dist/dash.offline.min.js -> /output/dash.offline.min.js.sri
-2023/06/21 21:06:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.offline.min.js.br /tmp/work/dist/dash.offline.min.js
-2023/06/21 21:06:42 br /tmp/work/dist/dash.all.min.js.map -> /output/dash.all.min.js.map.br
-2023/06/21 21:06:42 gz /tmp/work/dist/dash.all.min.js.map -> /output/dash.all.min.js.map.gz
-2023/06/21 21:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.offline.min.js.LICENSE.txt.br /tmp/work/dist/dash.offline.min.js.LICENSE.txt
-2023/06/21 21:06:42 br /tmp/work/dist/dash.offline.min.js.LICENSE.txt -> /output/dash.offline.min.js.LICENSE.txt.br
-2023/06/21 21:06:42 gz /tmp/work/dist/dash.offline.min.js.LICENSE.txt -> /output/dash.offline.min.js.LICENSE.txt.gz
-2023/06/21 21:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.offline.min.js.map.br /tmp/work/dist/dash.offline.min.js.map
-2023/06/21 21:06:42 br /tmp/work/dist/dash.offline.min.js -> /output/dash.offline.min.js.br
-2023/06/21 21:06:42 gz /tmp/work/dist/dash.offline.min.js -> /output/dash.offline.min.js.gz
-2023/06/21 21:06:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dash.protection.debug.min.js /tmp/work/dist/dash.protection.debug.js
-2023/06/21 21:06:42 br /tmp/work/dist/dash.mediaplayer.debug.js.map -> /output/dash.mediaplayer.debug.js.map.br
-2023/06/21 21:06:43 gz /tmp/work/dist/dash.mediaplayer.debug.js.map -> /output/dash.mediaplayer.debug.js.map.gz
-2023/06/21 21:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.protection.debug.js.map.br /tmp/work/dist/dash.protection.debug.js.map
-2023/06/21 21:06:43 br /tmp/work/dist/dash.all.debug.js.map -> /output/dash.all.debug.js.map.br
-2023/06/21 21:06:43 br /tmp/work/dist/dash.offline.debug.js.map -> /output/dash.offline.debug.js.map.br
-2023/06/21 21:06:43 gz /tmp/work/dist/dash.offline.debug.js.map -> /output/dash.offline.debug.js.map.gz
-2023/06/21 21:06:43 /tmp/work/dist/dash.protection.min.js is already compressed
-2023/06/21 21:06:43 sri /tmp/work/dist/dash.protection.min.js -> /output/dash.protection.min.js.sri
-2023/06/21 21:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.protection.min.js.br /tmp/work/dist/dash.protection.min.js
-2023/06/21 21:06:44 br /tmp/work/dist/dash.protection.min.js -> /output/dash.protection.min.js.br
-2023/06/21 21:06:44 gz /tmp/work/dist/dash.protection.min.js -> /output/dash.protection.min.js.gz
-2023/06/21 21:06:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.protection.min.js.map.br /tmp/work/dist/dash.protection.min.js.map
-2023/06/21 21:06:44 gz /tmp/work/dist/dash.all.debug.js.map -> /output/dash.all.debug.js.map.gz
-2023/06/21 21:06:44 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dash.reporting.debug.min.js /tmp/work/dist/dash.reporting.debug.js
-2023/06/21 21:06:44 br /tmp/work/dist/dash.protection.debug.js.map -> /output/dash.protection.debug.js.map.br
-2023/06/21 21:06:44 gz /tmp/work/dist/dash.protection.debug.js.map -> /output/dash.protection.debug.js.map.gz
-2023/06/21 21:06:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.reporting.debug.js.map.br /tmp/work/dist/dash.reporting.debug.js.map
-2023/06/21 21:06:45 br /tmp/work/dist/dash.protection.min.js.map -> /output/dash.protection.min.js.map.br
-2023/06/21 21:06:45 gz /tmp/work/dist/dash.protection.min.js.map -> /output/dash.protection.min.js.map.gz
-2023/06/21 21:06:45 /tmp/work/dist/dash.reporting.min.js is already compressed
-2023/06/21 21:06:45 sri /tmp/work/dist/dash.reporting.min.js -> /output/dash.reporting.min.js.sri
-2023/06/21 21:06:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.reporting.min.js.br /tmp/work/dist/dash.reporting.min.js
-2023/06/21 21:06:45 br /tmp/work/dist/dash.reporting.min.js -> /output/dash.reporting.min.js.br
-2023/06/21 21:06:45 gz /tmp/work/dist/dash.reporting.min.js -> /output/dash.reporting.min.js.gz
-2023/06/21 21:06:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.reporting.min.js.map.br /tmp/work/dist/dash.reporting.min.js.map
-2023/06/21 21:06:46 br /tmp/work/dist/dash.reporting.debug.js.map -> /output/dash.reporting.debug.js.map.br
-2023/06/21 21:06:46 gz /tmp/work/dist/dash.reporting.debug.js.map -> /output/dash.reporting.debug.js.map.gz
-2023/06/21 21:06:47 sri /tmp/work/dist/dash.protection.debug.min.js -> /output/dash.protection.debug.min.js.sri
-2023/06/21 21:06:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.protection.debug.min.js.br /tmp/work/dist/dash.protection.debug.min.js
-2023/06/21 21:06:47 br /tmp/work/dist/dash.offline.min.js.map -> /output/dash.offline.min.js.map.br
-2023/06/21 21:06:47 br /tmp/work/dist/dash.reporting.min.js.map -> /output/dash.reporting.min.js.map.br
-2023/06/21 21:06:47 br /tmp/work/dist/dash.protection.debug.min.js -> /output/dash.protection.debug.min.js.br
-2023/06/21 21:06:47 gz /tmp/work/dist/dash.protection.debug.min.js -> /output/dash.protection.debug.min.js.gz
-2023/06/21 21:06:47 sri /tmp/work/dist/dash.protection.debug.js -> /output/dash.protection.debug.js.sri
-2023/06/21 21:06:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.protection.debug.js.br /tmp/work/dist/dash.protection.debug.js
-2023/06/21 21:06:47 gz /tmp/work/dist/dash.offline.min.js.map -> /output/dash.offline.min.js.map.gz
-2023/06/21 21:06:47 gz /tmp/work/dist/dash.reporting.min.js.map -> /output/dash.reporting.min.js.map.gz
-2023/06/21 21:06:47 br /tmp/work/dist/dash.protection.debug.js -> /output/dash.protection.debug.js.br
-2023/06/21 21:06:47 gz /tmp/work/dist/dash.protection.debug.js -> /output/dash.protection.debug.js.gz
-2023/06/21 21:06:48 sri /tmp/work/dist/dash.reporting.debug.min.js -> /output/dash.reporting.debug.min.js.sri
-2023/06/21 21:06:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.reporting.debug.min.js.br /tmp/work/dist/dash.reporting.debug.min.js
-2023/06/21 21:06:48 br /tmp/work/dist/dash.reporting.debug.min.js -> /output/dash.reporting.debug.min.js.br
-2023/06/21 21:06:48 gz /tmp/work/dist/dash.reporting.debug.min.js -> /output/dash.reporting.debug.min.js.gz
-2023/06/21 21:06:48 sri /tmp/work/dist/dash.reporting.debug.js -> /output/dash.reporting.debug.js.sri
-2023/06/21 21:06:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.reporting.debug.js.br /tmp/work/dist/dash.reporting.debug.js
-2023/06/21 21:06:48 sri /tmp/work/dist/dash.offline.debug.min.js -> /output/dash.offline.debug.min.js.sri
-2023/06/21 21:06:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.offline.debug.min.js.br /tmp/work/dist/dash.offline.debug.min.js
-2023/06/21 21:06:49 br /tmp/work/dist/dash.reporting.debug.js -> /output/dash.reporting.debug.js.br
-2023/06/21 21:06:49 gz /tmp/work/dist/dash.reporting.debug.js -> /output/dash.reporting.debug.js.gz
-2023/06/21 21:06:49 br /tmp/work/dist/dash.offline.debug.min.js -> /output/dash.offline.debug.min.js.br
-2023/06/21 21:06:49 gz /tmp/work/dist/dash.offline.debug.min.js -> /output/dash.offline.debug.min.js.gz
-2023/06/21 21:06:49 sri /tmp/work/dist/dash.offline.debug.js -> /output/dash.offline.debug.js.sri
-2023/06/21 21:06:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.offline.debug.js.br /tmp/work/dist/dash.offline.debug.js
-2023/06/21 21:06:50 sri /tmp/work/dist/dash.mediaplayer.debug.min.js -> /output/dash.mediaplayer.debug.min.js.sri
-2023/06/21 21:06:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.mediaplayer.debug.min.js.br /tmp/work/dist/dash.mediaplayer.debug.min.js
-2023/06/21 21:06:51 sri /tmp/work/dist/dash.all.debug.min.js -> /output/dash.all.debug.min.js.sri
-2023/06/21 21:06:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.all.debug.min.js.br /tmp/work/dist/dash.all.debug.min.js
-2023/06/21 21:06:51 br /tmp/work/dist/dash.offline.debug.js -> /output/dash.offline.debug.js.br
-2023/06/21 21:06:51 gz /tmp/work/dist/dash.offline.debug.js -> /output/dash.offline.debug.js.gz
-2023/06/21 21:06:52 br /tmp/work/dist/dash.mediaplayer.debug.min.js -> /output/dash.mediaplayer.debug.min.js.br
-2023/06/21 21:06:52 gz /tmp/work/dist/dash.mediaplayer.debug.min.js -> /output/dash.mediaplayer.debug.min.js.gz
-2023/06/21 21:06:52 sri /tmp/work/dist/dash.mediaplayer.debug.js -> /output/dash.mediaplayer.debug.js.sri
-2023/06/21 21:06:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.mediaplayer.debug.js.br /tmp/work/dist/dash.mediaplayer.debug.js
-2023/06/21 21:06:52 br /tmp/work/dist/dash.all.debug.min.js -> /output/dash.all.debug.min.js.br
-2023/06/21 21:06:52 gz /tmp/work/dist/dash.all.debug.min.js -> /output/dash.all.debug.min.js.gz
-2023/06/21 21:06:52 sri /tmp/work/dist/dash.all.debug.js -> /output/dash.all.debug.js.sri
-2023/06/21 21:06:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.all.debug.js.br /tmp/work/dist/dash.all.debug.js
-2023/06/21 21:06:55 br /tmp/work/dist/dash.mediaplayer.debug.js -> /output/dash.mediaplayer.debug.js.br
-2023/06/21 21:06:55 gz /tmp/work/dist/dash.mediaplayer.debug.js -> /output/dash.mediaplayer.debug.js.gz
-2023/06/21 21:06:56 br /tmp/work/dist/dash.all.debug.js -> /output/dash.all.debug.js.br
-2023/06/21 21:06:57 gz /tmp/work/dist/dash.all.debug.js -> /output/dash.all.debug.js.gz
-2023/06/21 21:06:57 processed dashjs
+2023/07/31 11:57:35 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/31 11:57:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dash.all.debug.min.js /tmp/work/dist/dash.all.debug.js
+2023/07/31 11:57:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.all.debug.js.map.br /tmp/work/dist/dash.all.debug.js.map
+2023/07/31 11:57:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.all.min.js.LICENSE.txt.br /tmp/work/dist/dash.all.min.js.LICENSE.txt
+2023/07/31 11:57:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.all.min.js.map.br /tmp/work/dist/dash.all.min.js.map
+2023/07/31 11:57:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dash.mediaplayer.debug.min.js /tmp/work/dist/dash.mediaplayer.debug.js
+2023/07/31 11:57:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.mediaplayer.debug.js.map.br /tmp/work/dist/dash.mediaplayer.debug.js.map
+2023/07/31 11:57:35 /tmp/work/dist/dash.mediaplayer.min.js is already compressed
+2023/07/31 11:57:35 /tmp/work/dist/dash.all.min.js is already compressed
+2023/07/31 11:57:35 sri /tmp/work/dist/dash.mediaplayer.min.js -> /output/dash.mediaplayer.min.js.sri
+2023/07/31 11:57:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.mediaplayer.min.js.br /tmp/work/dist/dash.mediaplayer.min.js
+2023/07/31 11:57:35 sri /tmp/work/dist/dash.all.min.js -> /output/dash.all.min.js.sri
+2023/07/31 11:57:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.all.min.js.br /tmp/work/dist/dash.all.min.js
+2023/07/31 11:57:35 br /tmp/work/dist/dash.all.min.js.LICENSE.txt -> /output/dash.all.min.js.LICENSE.txt.br
+2023/07/31 11:57:35 gz /tmp/work/dist/dash.all.min.js.LICENSE.txt -> /output/dash.all.min.js.LICENSE.txt.gz
+2023/07/31 11:57:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.mediaplayer.min.js.LICENSE.txt.br /tmp/work/dist/dash.mediaplayer.min.js.LICENSE.txt
+2023/07/31 11:57:35 br /tmp/work/dist/dash.mediaplayer.min.js.LICENSE.txt -> /output/dash.mediaplayer.min.js.LICENSE.txt.br
+2023/07/31 11:57:35 gz /tmp/work/dist/dash.mediaplayer.min.js.LICENSE.txt -> /output/dash.mediaplayer.min.js.LICENSE.txt.gz
+2023/07/31 11:57:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.mediaplayer.min.js.map.br /tmp/work/dist/dash.mediaplayer.min.js.map
+2023/07/31 11:57:46 br /tmp/work/dist/dash.mediaplayer.min.js -> /output/dash.mediaplayer.min.js.br
+2023/07/31 11:57:46 gz /tmp/work/dist/dash.mediaplayer.min.js -> /output/dash.mediaplayer.min.js.gz
+2023/07/31 11:57:46 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dash.mss.debug.min.js /tmp/work/dist/dash.mss.debug.js
+2023/07/31 11:57:47 br /tmp/work/dist/dash.all.min.js -> /output/dash.all.min.js.br
+2023/07/31 11:57:48 gz /tmp/work/dist/dash.all.min.js -> /output/dash.all.min.js.gz
+2023/07/31 11:57:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.mss.debug.js.map.br /tmp/work/dist/dash.mss.debug.js.map
+2023/07/31 11:57:53 br /tmp/work/dist/dash.mss.debug.js.map -> /output/dash.mss.debug.js.map.br
+2023/07/31 11:57:53 gz /tmp/work/dist/dash.mss.debug.js.map -> /output/dash.mss.debug.js.map.gz
+2023/07/31 11:57:53 /tmp/work/dist/dash.mss.min.js is already compressed
+2023/07/31 11:57:53 sri /tmp/work/dist/dash.mss.min.js -> /output/dash.mss.min.js.sri
+2023/07/31 11:57:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.mss.min.js.br /tmp/work/dist/dash.mss.min.js
+2023/07/31 11:57:54 br /tmp/work/dist/dash.mss.min.js -> /output/dash.mss.min.js.br
+2023/07/31 11:57:54 gz /tmp/work/dist/dash.mss.min.js -> /output/dash.mss.min.js.gz
+2023/07/31 11:57:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.mss.min.js.map.br /tmp/work/dist/dash.mss.min.js.map
+2023/07/31 11:58:00 br /tmp/work/dist/dash.mss.min.js.map -> /output/dash.mss.min.js.map.br
+2023/07/31 11:58:00 gz /tmp/work/dist/dash.mss.min.js.map -> /output/dash.mss.min.js.map.gz
+2023/07/31 11:58:00 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dash.offline.debug.min.js /tmp/work/dist/dash.offline.debug.js
+2023/07/31 11:58:02 sri /tmp/work/dist/dash.mss.debug.min.js -> /output/dash.mss.debug.min.js.sri
+2023/07/31 11:58:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.mss.debug.min.js.br /tmp/work/dist/dash.mss.debug.min.js
+2023/07/31 11:58:03 br /tmp/work/dist/dash.mss.debug.min.js -> /output/dash.mss.debug.min.js.br
+2023/07/31 11:58:03 gz /tmp/work/dist/dash.mss.debug.min.js -> /output/dash.mss.debug.min.js.gz
+2023/07/31 11:58:03 sri /tmp/work/dist/dash.mss.debug.js -> /output/dash.mss.debug.js.sri
+2023/07/31 11:58:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.mss.debug.js.br /tmp/work/dist/dash.mss.debug.js
+2023/07/31 11:58:06 br /tmp/work/dist/dash.mss.debug.js -> /output/dash.mss.debug.js.br
+2023/07/31 11:58:06 gz /tmp/work/dist/dash.mss.debug.js -> /output/dash.mss.debug.js.gz
+2023/07/31 11:58:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.offline.debug.js.map.br /tmp/work/dist/dash.offline.debug.js.map
+2023/07/31 11:58:28 br /tmp/work/dist/dash.mediaplayer.min.js.map -> /output/dash.mediaplayer.min.js.map.br
+2023/07/31 11:58:31 gz /tmp/work/dist/dash.mediaplayer.min.js.map -> /output/dash.mediaplayer.min.js.map.gz
+2023/07/31 11:58:31 /tmp/work/dist/dash.offline.min.js is already compressed
+2023/07/31 11:58:31 sri /tmp/work/dist/dash.offline.min.js -> /output/dash.offline.min.js.sri
+2023/07/31 11:58:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.offline.min.js.br /tmp/work/dist/dash.offline.min.js
+2023/07/31 11:58:32 br /tmp/work/dist/dash.offline.debug.js.map -> /output/dash.offline.debug.js.map.br
+2023/07/31 11:58:33 gz /tmp/work/dist/dash.offline.debug.js.map -> /output/dash.offline.debug.js.map.gz
+2023/07/31 11:58:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.offline.min.js.LICENSE.txt.br /tmp/work/dist/dash.offline.min.js.LICENSE.txt
+2023/07/31 11:58:33 br /tmp/work/dist/dash.offline.min.js.LICENSE.txt -> /output/dash.offline.min.js.LICENSE.txt.br
+2023/07/31 11:58:33 gz /tmp/work/dist/dash.offline.min.js.LICENSE.txt -> /output/dash.offline.min.js.LICENSE.txt.gz
+2023/07/31 11:58:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.offline.min.js.map.br /tmp/work/dist/dash.offline.min.js.map
+2023/07/31 11:58:34 br /tmp/work/dist/dash.all.min.js.map -> /output/dash.all.min.js.map.br
+2023/07/31 11:58:36 br /tmp/work/dist/dash.mediaplayer.debug.js.map -> /output/dash.mediaplayer.debug.js.map.br
+2023/07/31 11:58:36 gz /tmp/work/dist/dash.all.min.js.map -> /output/dash.all.min.js.map.gz
+2023/07/31 11:58:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dash.protection.debug.min.js /tmp/work/dist/dash.protection.debug.js
+2023/07/31 11:58:38 br /tmp/work/dist/dash.offline.min.js -> /output/dash.offline.min.js.br
+2023/07/31 11:58:38 gz /tmp/work/dist/dash.offline.min.js -> /output/dash.offline.min.js.gz
+2023/07/31 11:58:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.protection.debug.js.map.br /tmp/work/dist/dash.protection.debug.js.map
+2023/07/31 11:58:39 gz /tmp/work/dist/dash.mediaplayer.debug.js.map -> /output/dash.mediaplayer.debug.js.map.gz
+2023/07/31 11:58:39 /tmp/work/dist/dash.protection.min.js is already compressed
+2023/07/31 11:58:39 sri /tmp/work/dist/dash.protection.min.js -> /output/dash.protection.min.js.sri
+2023/07/31 11:58:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.protection.min.js.br /tmp/work/dist/dash.protection.min.js
+2023/07/31 11:58:41 br /tmp/work/dist/dash.protection.min.js -> /output/dash.protection.min.js.br
+2023/07/31 11:58:41 gz /tmp/work/dist/dash.protection.min.js -> /output/dash.protection.min.js.gz
+2023/07/31 11:58:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.protection.min.js.map.br /tmp/work/dist/dash.protection.min.js.map
+2023/07/31 11:58:45 br /tmp/work/dist/dash.all.debug.js.map -> /output/dash.all.debug.js.map.br
+2023/07/31 11:58:46 br /tmp/work/dist/dash.protection.debug.js.map -> /output/dash.protection.debug.js.map.br
+2023/07/31 11:58:47 br /tmp/work/dist/dash.protection.min.js.map -> /output/dash.protection.min.js.map.br
+2023/07/31 11:58:47 gz /tmp/work/dist/dash.protection.debug.js.map -> /output/dash.protection.debug.js.map.gz
+2023/07/31 11:58:47 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dash.reporting.debug.min.js /tmp/work/dist/dash.reporting.debug.js
+2023/07/31 11:58:47 gz /tmp/work/dist/dash.protection.min.js.map -> /output/dash.protection.min.js.map.gz
+2023/07/31 11:58:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.reporting.debug.js.map.br /tmp/work/dist/dash.reporting.debug.js.map
+2023/07/31 11:58:47 sri /tmp/work/dist/dash.offline.debug.min.js -> /output/dash.offline.debug.min.js.sri
+2023/07/31 11:58:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.offline.debug.min.js.br /tmp/work/dist/dash.offline.debug.min.js
+2023/07/31 11:58:48 gz /tmp/work/dist/dash.all.debug.js.map -> /output/dash.all.debug.js.map.gz
+2023/07/31 11:58:48 /tmp/work/dist/dash.reporting.min.js is already compressed
+2023/07/31 11:58:48 sri /tmp/work/dist/dash.reporting.min.js -> /output/dash.reporting.min.js.sri
+2023/07/31 11:58:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.reporting.min.js.br /tmp/work/dist/dash.reporting.min.js
+2023/07/31 11:58:50 br /tmp/work/dist/dash.reporting.min.js -> /output/dash.reporting.min.js.br
+2023/07/31 11:58:50 gz /tmp/work/dist/dash.reporting.min.js -> /output/dash.reporting.min.js.gz
+2023/07/31 11:58:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.reporting.min.js.map.br /tmp/work/dist/dash.reporting.min.js.map
+2023/07/31 11:58:52 sri /tmp/work/dist/dash.protection.debug.min.js -> /output/dash.protection.debug.min.js.sri
+2023/07/31 11:58:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.protection.debug.min.js.br /tmp/work/dist/dash.protection.debug.min.js
+2023/07/31 11:58:53 br /tmp/work/dist/dash.protection.debug.min.js -> /output/dash.protection.debug.min.js.br
+2023/07/31 11:58:53 gz /tmp/work/dist/dash.protection.debug.min.js -> /output/dash.protection.debug.min.js.gz
+2023/07/31 11:58:53 sri /tmp/work/dist/dash.protection.debug.js -> /output/dash.protection.debug.js.sri
+2023/07/31 11:58:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.protection.debug.js.br /tmp/work/dist/dash.protection.debug.js
+2023/07/31 11:58:53 br /tmp/work/dist/dash.offline.debug.min.js -> /output/dash.offline.debug.min.js.br
+2023/07/31 11:58:54 gz /tmp/work/dist/dash.offline.debug.min.js -> /output/dash.offline.debug.min.js.gz
+2023/07/31 11:58:54 sri /tmp/work/dist/dash.offline.debug.js -> /output/dash.offline.debug.js.sri
+2023/07/31 11:58:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.offline.debug.js.br /tmp/work/dist/dash.offline.debug.js
+2023/07/31 11:58:55 br /tmp/work/dist/dash.reporting.debug.js.map -> /output/dash.reporting.debug.js.map.br
+2023/07/31 11:58:56 gz /tmp/work/dist/dash.reporting.debug.js.map -> /output/dash.reporting.debug.js.map.gz
+2023/07/31 11:58:56 br /tmp/work/dist/dash.offline.min.js.map -> /output/dash.offline.min.js.map.br
+2023/07/31 11:58:57 br /tmp/work/dist/dash.protection.debug.js -> /output/dash.protection.debug.js.br
+2023/07/31 11:58:57 br /tmp/work/dist/dash.reporting.min.js.map -> /output/dash.reporting.min.js.map.br
+2023/07/31 11:58:57 gz /tmp/work/dist/dash.protection.debug.js -> /output/dash.protection.debug.js.gz
+2023/07/31 11:58:57 gz /tmp/work/dist/dash.offline.min.js.map -> /output/dash.offline.min.js.map.gz
+2023/07/31 11:58:57 gz /tmp/work/dist/dash.reporting.min.js.map -> /output/dash.reporting.min.js.map.gz
+2023/07/31 11:58:59 sri /tmp/work/dist/dash.mediaplayer.debug.min.js -> /output/dash.mediaplayer.debug.min.js.sri
+2023/07/31 11:58:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.mediaplayer.debug.min.js.br /tmp/work/dist/dash.mediaplayer.debug.min.js
+2023/07/31 11:59:02 sri /tmp/work/dist/dash.all.debug.min.js -> /output/dash.all.debug.min.js.sri
+2023/07/31 11:59:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.all.debug.min.js.br /tmp/work/dist/dash.all.debug.min.js
+2023/07/31 11:59:02 sri /tmp/work/dist/dash.reporting.debug.min.js -> /output/dash.reporting.debug.min.js.sri
+2023/07/31 11:59:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.reporting.debug.min.js.br /tmp/work/dist/dash.reporting.debug.min.js
+2023/07/31 11:59:02 br /tmp/work/dist/dash.reporting.debug.min.js -> /output/dash.reporting.debug.min.js.br
+2023/07/31 11:59:02 gz /tmp/work/dist/dash.reporting.debug.min.js -> /output/dash.reporting.debug.min.js.gz
+2023/07/31 11:59:02 sri /tmp/work/dist/dash.reporting.debug.js -> /output/dash.reporting.debug.js.sri
+2023/07/31 11:59:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.reporting.debug.js.br /tmp/work/dist/dash.reporting.debug.js
+2023/07/31 11:59:04 br /tmp/work/dist/dash.offline.debug.js -> /output/dash.offline.debug.js.br
+2023/07/31 11:59:04 gz /tmp/work/dist/dash.offline.debug.js -> /output/dash.offline.debug.js.gz
+2023/07/31 11:59:04 br /tmp/work/dist/dash.mediaplayer.debug.min.js -> /output/dash.mediaplayer.debug.min.js.br
+2023/07/31 11:59:05 gz /tmp/work/dist/dash.mediaplayer.debug.min.js -> /output/dash.mediaplayer.debug.min.js.gz
+2023/07/31 11:59:05 sri /tmp/work/dist/dash.mediaplayer.debug.js -> /output/dash.mediaplayer.debug.js.sri
+2023/07/31 11:59:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.mediaplayer.debug.js.br /tmp/work/dist/dash.mediaplayer.debug.js
+2023/07/31 11:59:05 br /tmp/work/dist/dash.reporting.debug.js -> /output/dash.reporting.debug.js.br
+2023/07/31 11:59:05 gz /tmp/work/dist/dash.reporting.debug.js -> /output/dash.reporting.debug.js.gz
+2023/07/31 11:59:06 br /tmp/work/dist/dash.all.debug.min.js -> /output/dash.all.debug.min.js.br
+2023/07/31 11:59:07 gz /tmp/work/dist/dash.all.debug.min.js -> /output/dash.all.debug.min.js.gz
+2023/07/31 11:59:07 sri /tmp/work/dist/dash.all.debug.js -> /output/dash.all.debug.js.sri
+2023/07/31 11:59:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dash.all.debug.js.br /tmp/work/dist/dash.all.debug.js
+2023/07/31 11:59:13 br /tmp/work/dist/dash.mediaplayer.debug.js -> /output/dash.mediaplayer.debug.js.br
+2023/07/31 11:59:13 gz /tmp/work/dist/dash.mediaplayer.debug.js -> /output/dash.mediaplayer.debug.js.gz
+2023/07/31 11:59:15 br /tmp/work/dist/dash.all.debug.js -> /output/dash.all.debug.js.br
+2023/07/31 11:59:15 gz /tmp/work/dist/dash.all.debug.js -> /output/dash.all.debug.js.gz
+2023/07/31 11:59:15 processed dashjs
