@@ -1,642 +1,642 @@
-2023/05/28 20:31:52 ExtractTarGz: uknown type: 67 in pax_global_header
-2023/05/28 20:31:53 optimizing files (Js true, Css true, Png true, Jpg true)
-2023/05/28 20:31:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/firebugx.min.js /tmp/work/lib/firebugx.js
-2023/05/28 20:31:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/jquery.event.drag-2.3.0.min.js /tmp/work/lib/jquery.event.drag-2.3.0.js
-2023/05/28 20:31:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/jquery.event.drop-2.3.0.min.js /tmp/work/lib/jquery.event.drop-2.3.0.js
-2023/05/28 20:31:53 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/arrow_right_peppermint.png /tmp/work/images/arrow_right_peppermint.png
-2023/05/28 20:31:53 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/arrow_redo.png /tmp/work/images/arrow_redo.png
-2023/05/28 20:31:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/actions.gif.br /tmp/work/images/actions.gif
-2023/05/28 20:31:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/ajax-loader-small.gif.br /tmp/work/images/ajax-loader-small.gif
-2023/05/28 20:31:53 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/arrow_right_spearmint.png /tmp/work/images/arrow_right_spearmint.png
-2023/05/28 20:31:53 br /tmp/work/images/actions.gif -> /output/images/actions.gif.br
-2023/05/28 20:31:53 gz /tmp/work/images/actions.gif -> /output/images/actions.gif.gz
-2023/05/28 20:31:53 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/arrow_undo.png /tmp/work/images/arrow_undo.png
-2023/05/28 20:31:53 br /tmp/work/images/ajax-loader-small.gif -> /output/images/ajax-loader-small.gif.br
-2023/05/28 20:31:53 gz /tmp/work/images/ajax-loader-small.gif -> /output/images/ajax-loader-small.gif.gz
-2023/05/28 20:31:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/arrow-right.gif.br /tmp/work/images/arrow-right.gif
-2023/05/28 20:31:53 br /tmp/work/images/arrow-right.gif -> /output/images/arrow-right.gif.br
-2023/05/28 20:31:53 gz /tmp/work/images/arrow-right.gif -> /output/images/arrow-right.gif.gz
-2023/05/28 20:31:53 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/bullet_blue.png /tmp/work/images/bullet_blue.png
-2023/05/28 20:31:53 sri /tmp/work/lib/firebugx.min.js -> /output/lib/firebugx.min.js.sri
-2023/05/28 20:31:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/firebugx.min.js.br /tmp/work/lib/firebugx.min.js
-2023/05/28 20:31:53 br /tmp/work/lib/firebugx.min.js -> /output/lib/firebugx.min.js.br
-2023/05/28 20:31:53 gz /tmp/work/lib/firebugx.min.js -> /output/lib/firebugx.min.js.gz
-2023/05/28 20:31:53 sri /tmp/work/lib/firebugx.js -> /output/lib/firebugx.js.sri
-2023/05/28 20:31:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/firebugx.js.br /tmp/work/lib/firebugx.js
-2023/05/28 20:31:53 br /tmp/work/lib/firebugx.js -> /output/lib/firebugx.js.br
-2023/05/28 20:31:53 gz /tmp/work/lib/firebugx.js -> /output/lib/firebugx.js.gz
-2023/05/28 20:31:53 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/bullet_star.png /tmp/work/images/bullet_star.png
-2023/05/28 20:31:53 sri /tmp/work/lib/jquery.event.drop-2.3.0.min.js -> /output/lib/jquery.event.drop-2.3.0.min.js.sri
-2023/05/28 20:31:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/jquery.event.drop-2.3.0.min.js.br /tmp/work/lib/jquery.event.drop-2.3.0.min.js
-2023/05/28 20:31:53 br /tmp/work/lib/jquery.event.drop-2.3.0.min.js -> /output/lib/jquery.event.drop-2.3.0.min.js.br
-2023/05/28 20:31:53 gz /tmp/work/lib/jquery.event.drop-2.3.0.min.js -> /output/lib/jquery.event.drop-2.3.0.min.js.gz
-2023/05/28 20:31:53 sri /tmp/work/lib/jquery.event.drop-2.3.0.js -> /output/lib/jquery.event.drop-2.3.0.js.sri
-2023/05/28 20:31:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/jquery.event.drop-2.3.0.js.br /tmp/work/lib/jquery.event.drop-2.3.0.js
-2023/05/28 20:31:53 br /tmp/work/lib/jquery.event.drop-2.3.0.js -> /output/lib/jquery.event.drop-2.3.0.js.br
-2023/05/28 20:31:53 gz /tmp/work/lib/jquery.event.drop-2.3.0.js -> /output/lib/jquery.event.drop-2.3.0.js.gz
-2023/05/28 20:31:53 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/bullet_toggle_minus.png /tmp/work/images/bullet_toggle_minus.png
-2023/05/28 20:31:53 sri /tmp/work/lib/jquery.event.drag-2.3.0.min.js -> /output/lib/jquery.event.drag-2.3.0.min.js.sri
-2023/05/28 20:31:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/jquery.event.drag-2.3.0.min.js.br /tmp/work/lib/jquery.event.drag-2.3.0.min.js
-2023/05/28 20:31:53 br /tmp/work/lib/jquery.event.drag-2.3.0.min.js -> /output/lib/jquery.event.drag-2.3.0.min.js.br
-2023/05/28 20:31:53 gz /tmp/work/lib/jquery.event.drag-2.3.0.min.js -> /output/lib/jquery.event.drag-2.3.0.min.js.gz
-2023/05/28 20:31:53 sri /tmp/work/lib/jquery.event.drag-2.3.0.js -> /output/lib/jquery.event.drag-2.3.0.js.sri
-2023/05/28 20:31:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/jquery.event.drag-2.3.0.js.br /tmp/work/lib/jquery.event.drag-2.3.0.js
-2023/05/28 20:31:53 br /tmp/work/lib/jquery.event.drag-2.3.0.js -> /output/lib/jquery.event.drag-2.3.0.js.br
-2023/05/28 20:31:53 gz /tmp/work/lib/jquery.event.drag-2.3.0.js -> /output/lib/jquery.event.drag-2.3.0.js.gz
-2023/05/28 20:31:53 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/bullet_toggle_plus.png /tmp/work/images/bullet_toggle_plus.png
-2023/05/28 20:31:53 Optimizing /tmp/work/images/arrow_right_spearmint.png
+2023/07/31 10:20:24 ExtractTarGz: uknown type: 67 in pax_global_header
+2023/07/31 10:20:24 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/31 10:20:25 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/firebugx.min.js /tmp/work/lib/firebugx.js
+2023/07/31 10:20:25 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/jquery.event.drop-2.3.0.min.js /tmp/work/lib/jquery.event.drop-2.3.0.js
+2023/07/31 10:20:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/actions.gif.br /tmp/work/images/actions.gif
+2023/07/31 10:20:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/ajax-loader-small.gif.br /tmp/work/images/ajax-loader-small.gif
+2023/07/31 10:20:25 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/arrow_redo.png /tmp/work/images/arrow_redo.png
+2023/07/31 10:20:25 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/arrow_right_peppermint.png /tmp/work/images/arrow_right_peppermint.png
+2023/07/31 10:20:25 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/lib/jquery.event.drag-2.3.0.min.js /tmp/work/lib/jquery.event.drag-2.3.0.js
+2023/07/31 10:20:25 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/arrow_right_spearmint.png /tmp/work/images/arrow_right_spearmint.png
+2023/07/31 10:20:25 br /tmp/work/images/actions.gif -> /output/images/actions.gif.br
+2023/07/31 10:20:25 gz /tmp/work/images/actions.gif -> /output/images/actions.gif.gz
+2023/07/31 10:20:25 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/arrow_undo.png /tmp/work/images/arrow_undo.png
+2023/07/31 10:20:25 br /tmp/work/images/ajax-loader-small.gif -> /output/images/ajax-loader-small.gif.br
+2023/07/31 10:20:25 gz /tmp/work/images/ajax-loader-small.gif -> /output/images/ajax-loader-small.gif.gz
+2023/07/31 10:20:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/arrow-right.gif.br /tmp/work/images/arrow-right.gif
+2023/07/31 10:20:25 br /tmp/work/images/arrow-right.gif -> /output/images/arrow-right.gif.br
+2023/07/31 10:20:25 gz /tmp/work/images/arrow-right.gif -> /output/images/arrow-right.gif.gz
+2023/07/31 10:20:25 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/bullet_blue.png /tmp/work/images/bullet_blue.png
+2023/07/31 10:20:25 sri /tmp/work/lib/firebugx.min.js -> /output/lib/firebugx.min.js.sri
+2023/07/31 10:20:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/firebugx.min.js.br /tmp/work/lib/firebugx.min.js
+2023/07/31 10:20:26 br /tmp/work/lib/firebugx.min.js -> /output/lib/firebugx.min.js.br
+2023/07/31 10:20:26 gz /tmp/work/lib/firebugx.min.js -> /output/lib/firebugx.min.js.gz
+2023/07/31 10:20:26 sri /tmp/work/lib/firebugx.js -> /output/lib/firebugx.js.sri
+2023/07/31 10:20:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/firebugx.js.br /tmp/work/lib/firebugx.js
+2023/07/31 10:20:26 br /tmp/work/lib/firebugx.js -> /output/lib/firebugx.js.br
+2023/07/31 10:20:26 gz /tmp/work/lib/firebugx.js -> /output/lib/firebugx.js.gz
+2023/07/31 10:20:26 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/bullet_star.png /tmp/work/images/bullet_star.png
+2023/07/31 10:20:26 sri /tmp/work/lib/jquery.event.drop-2.3.0.min.js -> /output/lib/jquery.event.drop-2.3.0.min.js.sri
+2023/07/31 10:20:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/jquery.event.drop-2.3.0.min.js.br /tmp/work/lib/jquery.event.drop-2.3.0.min.js
+2023/07/31 10:20:26 Optimizing /tmp/work/images/arrow_right_peppermint.png
 Input size: 128 (0K)
 Result size: 126 (0K). Percentage of original: 98.438%
 Result is smaller
 
 
-2023/05/28 20:31:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/arrow_right_spearmint.png.br /tmp/work/images/arrow_right_spearmint.png
-2023/05/28 20:31:53 br /tmp/work/images/arrow_right_spearmint.png -> /output/images/arrow_right_spearmint.png.br
-2023/05/28 20:31:53 gz /tmp/work/images/arrow_right_spearmint.png -> /output/images/arrow_right_spearmint.png.gz
-2023/05/28 20:31:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/calendar.gif.br /tmp/work/images/calendar.gif
-2023/05/28 20:31:53 Optimizing /tmp/work/images/arrow_right_peppermint.png
+2023/07/31 10:20:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/arrow_right_peppermint.png.br /tmp/work/images/arrow_right_peppermint.png
+2023/07/31 10:20:26 br /tmp/work/images/arrow_right_peppermint.png -> /output/images/arrow_right_peppermint.png.br
+2023/07/31 10:20:26 gz /tmp/work/images/arrow_right_peppermint.png -> /output/images/arrow_right_peppermint.png.gz
+2023/07/31 10:20:26 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/bullet_toggle_minus.png /tmp/work/images/bullet_toggle_minus.png
+2023/07/31 10:20:26 br /tmp/work/lib/jquery.event.drop-2.3.0.min.js -> /output/lib/jquery.event.drop-2.3.0.min.js.br
+2023/07/31 10:20:26 gz /tmp/work/lib/jquery.event.drop-2.3.0.min.js -> /output/lib/jquery.event.drop-2.3.0.min.js.gz
+2023/07/31 10:20:26 sri /tmp/work/lib/jquery.event.drop-2.3.0.js -> /output/lib/jquery.event.drop-2.3.0.js.sri
+2023/07/31 10:20:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/jquery.event.drop-2.3.0.js.br /tmp/work/lib/jquery.event.drop-2.3.0.js
+2023/07/31 10:20:26 Optimizing /tmp/work/images/arrow_right_spearmint.png
 Input size: 128 (0K)
 Result size: 126 (0K). Percentage of original: 98.438%
 Result is smaller
 
 
-2023/05/28 20:31:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/arrow_right_peppermint.png.br /tmp/work/images/arrow_right_peppermint.png
-2023/05/28 20:31:53 br /tmp/work/images/arrow_right_peppermint.png -> /output/images/arrow_right_peppermint.png.br
-2023/05/28 20:31:53 gz /tmp/work/images/arrow_right_peppermint.png -> /output/images/arrow_right_peppermint.png.gz
-2023/05/28 20:31:53 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/CheckboxN.png /tmp/work/images/CheckboxN.png
-2023/05/28 20:31:53 br /tmp/work/images/calendar.gif -> /output/images/calendar.gif.br
-2023/05/28 20:31:53 gz /tmp/work/images/calendar.gif -> /output/images/calendar.gif.gz
-2023/05/28 20:31:53 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/CheckboxY.png /tmp/work/images/CheckboxY.png
-2023/05/28 20:31:54 Optimizing /tmp/work/images/CheckboxN.png
+2023/07/31 10:20:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/arrow_right_spearmint.png.br /tmp/work/images/arrow_right_spearmint.png
+2023/07/31 10:20:26 br /tmp/work/images/arrow_right_spearmint.png -> /output/images/arrow_right_spearmint.png.br
+2023/07/31 10:20:26 gz /tmp/work/images/arrow_right_spearmint.png -> /output/images/arrow_right_spearmint.png.gz
+2023/07/31 10:20:26 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/bullet_toggle_plus.png /tmp/work/images/bullet_toggle_plus.png
+2023/07/31 10:20:26 br /tmp/work/lib/jquery.event.drop-2.3.0.js -> /output/lib/jquery.event.drop-2.3.0.js.br
+2023/07/31 10:20:26 gz /tmp/work/lib/jquery.event.drop-2.3.0.js -> /output/lib/jquery.event.drop-2.3.0.js.gz
+2023/07/31 10:20:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/calendar.gif.br /tmp/work/images/calendar.gif
+2023/07/31 10:20:26 br /tmp/work/images/calendar.gif -> /output/images/calendar.gif.br
+2023/07/31 10:20:26 gz /tmp/work/images/calendar.gif -> /output/images/calendar.gif.gz
+2023/07/31 10:20:26 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/CheckboxN.png /tmp/work/images/CheckboxN.png
+2023/07/31 10:20:26 sri /tmp/work/lib/jquery.event.drag-2.3.0.min.js -> /output/lib/jquery.event.drag-2.3.0.min.js.sri
+2023/07/31 10:20:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/jquery.event.drag-2.3.0.min.js.br /tmp/work/lib/jquery.event.drag-2.3.0.min.js
+2023/07/31 10:20:27 br /tmp/work/lib/jquery.event.drag-2.3.0.min.js -> /output/lib/jquery.event.drag-2.3.0.min.js.br
+2023/07/31 10:20:27 gz /tmp/work/lib/jquery.event.drag-2.3.0.min.js -> /output/lib/jquery.event.drag-2.3.0.min.js.gz
+2023/07/31 10:20:27 sri /tmp/work/lib/jquery.event.drag-2.3.0.js -> /output/lib/jquery.event.drag-2.3.0.js.sri
+2023/07/31 10:20:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/jquery.event.drag-2.3.0.js.br /tmp/work/lib/jquery.event.drag-2.3.0.js
+2023/07/31 10:20:27 br /tmp/work/lib/jquery.event.drag-2.3.0.js -> /output/lib/jquery.event.drag-2.3.0.js.br
+2023/07/31 10:20:27 gz /tmp/work/lib/jquery.event.drag-2.3.0.js -> /output/lib/jquery.event.drag-2.3.0.js.gz
+2023/07/31 10:20:27 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/CheckboxY.png /tmp/work/images/CheckboxY.png
+2023/07/31 10:20:27 Optimizing /tmp/work/images/CheckboxN.png
 Input size: 257 (0K)
 Result size: 139 (0K). Percentage of original: 54.086%
 Result is smaller
 
 
-2023/05/28 20:31:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/CheckboxN.png.br /tmp/work/images/CheckboxN.png
-2023/05/28 20:31:54 br /tmp/work/images/CheckboxN.png -> /output/images/CheckboxN.png.br
-2023/05/28 20:31:54 gz /tmp/work/images/CheckboxN.png -> /output/images/CheckboxN.png.gz
-2023/05/28 20:31:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/collapse.gif.br /tmp/work/images/collapse.gif
-2023/05/28 20:31:54 br /tmp/work/images/collapse.gif -> /output/images/collapse.gif.br
-2023/05/28 20:31:54 gz /tmp/work/images/collapse.gif -> /output/images/collapse.gif.gz
-2023/05/28 20:31:54 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/column-grouping.png /tmp/work/images/column-grouping.png
-2023/05/28 20:31:54 Optimizing /tmp/work/images/CheckboxY.png
+2023/07/31 10:20:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/CheckboxN.png.br /tmp/work/images/CheckboxN.png
+2023/07/31 10:20:27 br /tmp/work/images/CheckboxN.png -> /output/images/CheckboxN.png.br
+2023/07/31 10:20:27 gz /tmp/work/images/CheckboxN.png -> /output/images/CheckboxN.png.gz
+2023/07/31 10:20:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/collapse.gif.br /tmp/work/images/collapse.gif
+2023/07/31 10:20:27 br /tmp/work/images/collapse.gif -> /output/images/collapse.gif.br
+2023/07/31 10:20:27 gz /tmp/work/images/collapse.gif -> /output/images/collapse.gif.gz
+2023/07/31 10:20:27 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/column-grouping.png /tmp/work/images/column-grouping.png
+2023/07/31 10:20:28 Optimizing /tmp/work/images/CheckboxY.png
 Input size: 361 (0K)
 Result size: 193 (0K). Percentage of original: 53.463%
 Result is smaller
 
 
-2023/05/28 20:31:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/CheckboxY.png.br /tmp/work/images/CheckboxY.png
-2023/05/28 20:31:54 br /tmp/work/images/CheckboxY.png -> /output/images/CheckboxY.png.br
-2023/05/28 20:31:54 gz /tmp/work/images/CheckboxY.png -> /output/images/CheckboxY.png.gz
-2023/05/28 20:31:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/comment_yellow.gif.br /tmp/work/images/comment_yellow.gif
-2023/05/28 20:31:54 br /tmp/work/images/comment_yellow.gif -> /output/images/comment_yellow.gif.br
-2023/05/28 20:31:54 gz /tmp/work/images/comment_yellow.gif -> /output/images/comment_yellow.gif.gz
-2023/05/28 20:31:54 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/delete.png /tmp/work/images/delete.png
-2023/05/28 20:31:54 Optimizing /tmp/work/images/bullet_star.png
+2023/07/31 10:20:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/CheckboxY.png.br /tmp/work/images/CheckboxY.png
+2023/07/31 10:20:28 br /tmp/work/images/CheckboxY.png -> /output/images/CheckboxY.png.br
+2023/07/31 10:20:28 Optimizing /tmp/work/images/bullet_star.png
 Input size: 279 (0K)
 Result size: 273 (0K). Percentage of original: 97.849%
 Result is smaller
 
 
-2023/05/28 20:31:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bullet_star.png.br /tmp/work/images/bullet_star.png
-2023/05/28 20:31:54 br /tmp/work/images/bullet_star.png -> /output/images/bullet_star.png.br
-2023/05/28 20:31:54 gz /tmp/work/images/bullet_star.png -> /output/images/bullet_star.png.gz
-2023/05/28 20:31:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/down.gif.br /tmp/work/images/down.gif
-2023/05/28 20:31:54 br /tmp/work/images/down.gif -> /output/images/down.gif.br
-2023/05/28 20:31:54 gz /tmp/work/images/down.gif -> /output/images/down.gif.gz
-2023/05/28 20:31:54 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/drag-handle.png /tmp/work/images/drag-handle.png
-2023/05/28 20:31:54 Optimizing /tmp/work/images/arrow_redo.png
-Input size: 572 (0K)
-Result size: 552 (0K). Percentage of original: 96.503%
-Result is smaller
-
-
-2023/05/28 20:31:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/arrow_redo.png.br /tmp/work/images/arrow_redo.png
-2023/05/28 20:31:54 br /tmp/work/images/arrow_redo.png -> /output/images/arrow_redo.png.br
-2023/05/28 20:31:54 gz /tmp/work/images/arrow_redo.png -> /output/images/arrow_redo.png.gz
-2023/05/28 20:31:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/editor-helper-bg.gif.br /tmp/work/images/editor-helper-bg.gif
-2023/05/28 20:31:54 br /tmp/work/images/editor-helper-bg.gif -> /output/images/editor-helper-bg.gif.br
-2023/05/28 20:31:54 gz /tmp/work/images/editor-helper-bg.gif -> /output/images/editor-helper-bg.gif.gz
-2023/05/28 20:31:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/expand.gif.br /tmp/work/images/expand.gif
-2023/05/28 20:31:54 br /tmp/work/images/expand.gif -> /output/images/expand.gif.br
-2023/05/28 20:31:54 gz /tmp/work/images/expand.gif -> /output/images/expand.gif.gz
-2023/05/28 20:31:54 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/GrpCheckboxN.png /tmp/work/images/GrpCheckboxN.png
-2023/05/28 20:31:54 Optimizing /tmp/work/images/arrow_undo.png
+2023/07/31 10:20:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bullet_star.png.br /tmp/work/images/bullet_star.png
+2023/07/31 10:20:28 gz /tmp/work/images/CheckboxY.png -> /output/images/CheckboxY.png.gz
+2023/07/31 10:20:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/comment_yellow.gif.br /tmp/work/images/comment_yellow.gif
+2023/07/31 10:20:28 br /tmp/work/images/bullet_star.png -> /output/images/bullet_star.png.br
+2023/07/31 10:20:28 gz /tmp/work/images/bullet_star.png -> /output/images/bullet_star.png.gz
+2023/07/31 10:20:28 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/delete.png /tmp/work/images/delete.png
+2023/07/31 10:20:28 br /tmp/work/images/comment_yellow.gif -> /output/images/comment_yellow.gif.br
+2023/07/31 10:20:28 gz /tmp/work/images/comment_yellow.gif -> /output/images/comment_yellow.gif.gz
+2023/07/31 10:20:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/down.gif.br /tmp/work/images/down.gif
+2023/07/31 10:20:28 br /tmp/work/images/down.gif -> /output/images/down.gif.br
+2023/07/31 10:20:28 gz /tmp/work/images/down.gif -> /output/images/down.gif.gz
+2023/07/31 10:20:28 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/drag-handle.png /tmp/work/images/drag-handle.png
+2023/07/31 10:20:28 Optimizing /tmp/work/images/arrow_undo.png
 Input size: 578 (0K)
 Result size: 557 (0K). Percentage of original: 96.367%
 Result is smaller
 
 
-2023/05/28 20:31:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/arrow_undo.png.br /tmp/work/images/arrow_undo.png
-2023/05/28 20:31:54 br /tmp/work/images/arrow_undo.png -> /output/images/arrow_undo.png.br
-2023/05/28 20:31:54 gz /tmp/work/images/arrow_undo.png -> /output/images/arrow_undo.png.gz
-2023/05/28 20:31:54 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/GrpCheckboxY.png /tmp/work/images/GrpCheckboxY.png
-2023/05/28 20:31:54 Optimizing /tmp/work/images/column-grouping.png
+2023/07/31 10:20:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/arrow_undo.png.br /tmp/work/images/arrow_undo.png
+2023/07/31 10:20:29 br /tmp/work/images/arrow_undo.png -> /output/images/arrow_undo.png.br
+2023/07/31 10:20:29 gz /tmp/work/images/arrow_undo.png -> /output/images/arrow_undo.png.gz
+2023/07/31 10:20:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/editor-helper-bg.gif.br /tmp/work/images/editor-helper-bg.gif
+2023/07/31 10:20:29 br /tmp/work/images/editor-helper-bg.gif -> /output/images/editor-helper-bg.gif.br
+2023/07/31 10:20:29 gz /tmp/work/images/editor-helper-bg.gif -> /output/images/editor-helper-bg.gif.gz
+2023/07/31 10:20:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/expand.gif.br /tmp/work/images/expand.gif
+2023/07/31 10:20:29 br /tmp/work/images/expand.gif -> /output/images/expand.gif.br
+2023/07/31 10:20:29 gz /tmp/work/images/expand.gif -> /output/images/expand.gif.gz
+2023/07/31 10:20:29 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/GrpCheckboxN.png /tmp/work/images/GrpCheckboxN.png
+2023/07/31 10:20:29 Optimizing /tmp/work/images/column-grouping.png
 Input size: 217 (0K)
 Result size: 135 (0K). Percentage of original: 62.212%
 Result is smaller
 
 
-2023/05/28 20:31:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/column-grouping.png.br /tmp/work/images/column-grouping.png
-2023/05/28 20:31:54 br /tmp/work/images/column-grouping.png -> /output/images/column-grouping.png.br
-2023/05/28 20:31:54 gz /tmp/work/images/column-grouping.png -> /output/images/column-grouping.png.gz
-2023/05/28 20:31:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/header-bg.gif.br /tmp/work/images/header-bg.gif
-2023/05/28 20:31:54 br /tmp/work/images/header-bg.gif -> /output/images/header-bg.gif.br
-2023/05/28 20:31:54 gz /tmp/work/images/header-bg.gif -> /output/images/header-bg.gif.gz
-2023/05/28 20:31:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/header-columns-bg.gif.br /tmp/work/images/header-columns-bg.gif
-2023/05/28 20:31:54 br /tmp/work/images/header-columns-bg.gif -> /output/images/header-columns-bg.gif.br
-2023/05/28 20:31:54 gz /tmp/work/images/header-columns-bg.gif -> /output/images/header-columns-bg.gif.gz
-2023/05/28 20:31:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/header-columns-over-bg.gif.br /tmp/work/images/header-columns-over-bg.gif
-2023/05/28 20:31:54 br /tmp/work/images/header-columns-over-bg.gif -> /output/images/header-columns-over-bg.gif.br
-2023/05/28 20:31:54 gz /tmp/work/images/header-columns-over-bg.gif -> /output/images/header-columns-over-bg.gif.gz
-2023/05/28 20:31:54 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/help.png /tmp/work/images/help.png
-2023/05/28 20:31:54 Optimizing /tmp/work/images/bullet_toggle_minus.png
+2023/07/31 10:20:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/column-grouping.png.br /tmp/work/images/column-grouping.png
+2023/07/31 10:20:29 br /tmp/work/images/column-grouping.png -> /output/images/column-grouping.png.br
+2023/07/31 10:20:29 gz /tmp/work/images/column-grouping.png -> /output/images/column-grouping.png.gz
+2023/07/31 10:20:29 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/GrpCheckboxY.png /tmp/work/images/GrpCheckboxY.png
+2023/07/31 10:20:29 Optimizing /tmp/work/images/bullet_toggle_minus.png
 Input size: 154 (0K)
 Result size: 194 (0K). Percentage of original: 125.974%
 Preserving original PNG since it was smaller
 
 
-2023/05/28 20:31:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bullet_toggle_minus.png.br /tmp/work/images/bullet_toggle_minus.png
-2023/05/28 20:31:54 br /tmp/work/images/bullet_toggle_minus.png -> /output/images/bullet_toggle_minus.png.br
-2023/05/28 20:31:54 gz /tmp/work/images/bullet_toggle_minus.png -> /output/images/bullet_toggle_minus.png.gz
-2023/05/28 20:31:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/info.gif.br /tmp/work/images/info.gif
-2023/05/28 20:31:54 br /tmp/work/images/info.gif -> /output/images/info.gif.br
-2023/05/28 20:31:54 gz /tmp/work/images/info.gif -> /output/images/info.gif.gz
-2023/05/28 20:31:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/listview.gif.br /tmp/work/images/listview.gif
-2023/05/28 20:31:54 br /tmp/work/images/listview.gif -> /output/images/listview.gif.br
-2023/05/28 20:31:54 gz /tmp/work/images/listview.gif -> /output/images/listview.gif.gz
-2023/05/28 20:31:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/pencil.gif.br /tmp/work/images/pencil.gif
-2023/05/28 20:31:54 Optimizing /tmp/work/images/bullet_blue.png
-Input size: 241 (0K)
-Result size: 231 (0K). Percentage of original: 95.851%
+2023/07/31 10:20:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bullet_toggle_minus.png.br /tmp/work/images/bullet_toggle_minus.png
+2023/07/31 10:20:29 br /tmp/work/images/bullet_toggle_minus.png -> /output/images/bullet_toggle_minus.png.br
+2023/07/31 10:20:29 gz /tmp/work/images/bullet_toggle_minus.png -> /output/images/bullet_toggle_minus.png.gz
+2023/07/31 10:20:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/header-bg.gif.br /tmp/work/images/header-bg.gif
+2023/07/31 10:20:29 Optimizing /tmp/work/images/arrow_redo.png
+Input size: 572 (0K)
+Result size: 552 (0K). Percentage of original: 96.503%
 Result is smaller
 
 
-2023/05/28 20:31:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bullet_blue.png.br /tmp/work/images/bullet_blue.png
-2023/05/28 20:31:54 br /tmp/work/images/pencil.gif -> /output/images/pencil.gif.br
-2023/05/28 20:31:54 gz /tmp/work/images/pencil.gif -> /output/images/pencil.gif.gz
-2023/05/28 20:31:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/row-over-bg.gif.br /tmp/work/images/row-over-bg.gif
-2023/05/28 20:31:54 Optimizing /tmp/work/images/drag-handle.png
+2023/07/31 10:20:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/arrow_redo.png.br /tmp/work/images/arrow_redo.png
+2023/07/31 10:20:29 br /tmp/work/images/header-bg.gif -> /output/images/header-bg.gif.br
+2023/07/31 10:20:29 gz /tmp/work/images/header-bg.gif -> /output/images/header-bg.gif.gz
+2023/07/31 10:20:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/header-columns-bg.gif.br /tmp/work/images/header-columns-bg.gif
+2023/07/31 10:20:29 br /tmp/work/images/arrow_redo.png -> /output/images/arrow_redo.png.br
+2023/07/31 10:20:29 gz /tmp/work/images/arrow_redo.png -> /output/images/arrow_redo.png.gz
+2023/07/31 10:20:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/header-columns-over-bg.gif.br /tmp/work/images/header-columns-over-bg.gif
+2023/07/31 10:20:29 br /tmp/work/images/header-columns-bg.gif -> /output/images/header-columns-bg.gif.br
+2023/07/31 10:20:29 gz /tmp/work/images/header-columns-bg.gif -> /output/images/header-columns-bg.gif.gz
+2023/07/31 10:20:29 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/help.png /tmp/work/images/help.png
+2023/07/31 10:20:29 br /tmp/work/images/header-columns-over-bg.gif -> /output/images/header-columns-over-bg.gif.br
+2023/07/31 10:20:29 gz /tmp/work/images/header-columns-over-bg.gif -> /output/images/header-columns-over-bg.gif.gz
+2023/07/31 10:20:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/info.gif.br /tmp/work/images/info.gif
+2023/07/31 10:20:29 Optimizing /tmp/work/images/drag-handle.png
 Input size: 1130 (1K)
 Result size: 98 (0K). Percentage of original: 8.673%
 Result is smaller
 
 
-2023/05/28 20:31:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/drag-handle.png.br /tmp/work/images/drag-handle.png
-2023/05/28 20:31:54 br /tmp/work/images/bullet_blue.png -> /output/images/bullet_blue.png.br
-2023/05/28 20:31:54 gz /tmp/work/images/bullet_blue.png -> /output/images/bullet_blue.png.gz
-2023/05/28 20:31:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/sort-asc.gif.br /tmp/work/images/sort-asc.gif
-2023/05/28 20:31:54 br /tmp/work/images/row-over-bg.gif -> /output/images/row-over-bg.gif.br
-2023/05/28 20:31:54 gz /tmp/work/images/row-over-bg.gif -> /output/images/row-over-bg.gif.gz
-2023/05/28 20:31:54 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/sort-asc.png /tmp/work/images/sort-asc.png
-2023/05/28 20:31:54 br /tmp/work/images/drag-handle.png -> /output/images/drag-handle.png.br
-2023/05/28 20:31:54 gz /tmp/work/images/drag-handle.png -> /output/images/drag-handle.png.gz
-2023/05/28 20:31:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/sort-desc.gif.br /tmp/work/images/sort-desc.gif
-2023/05/28 20:31:54 br /tmp/work/images/sort-asc.gif -> /output/images/sort-asc.gif.br
-2023/05/28 20:31:54 gz /tmp/work/images/sort-asc.gif -> /output/images/sort-asc.gif.gz
-2023/05/28 20:31:54 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/sort-desc.png /tmp/work/images/sort-desc.png
-2023/05/28 20:31:54 br /tmp/work/images/sort-desc.gif -> /output/images/sort-desc.gif.br
-2023/05/28 20:31:54 gz /tmp/work/images/sort-desc.gif -> /output/images/sort-desc.gif.gz
-2023/05/28 20:31:54 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/stripes.png /tmp/work/images/stripes.png
-2023/05/28 20:31:54 Optimizing /tmp/work/images/bullet_toggle_plus.png
+2023/07/31 10:20:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/drag-handle.png.br /tmp/work/images/drag-handle.png
+2023/07/31 10:20:29 Optimizing /tmp/work/images/bullet_toggle_plus.png
 Input size: 156 (0K)
 Result size: 197 (0K). Percentage of original: 126.282%
 Preserving original PNG since it was smaller
 
 
-2023/05/28 20:31:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bullet_toggle_plus.png.br /tmp/work/images/bullet_toggle_plus.png
-2023/05/28 20:31:54 br /tmp/work/images/bullet_toggle_plus.png -> /output/images/bullet_toggle_plus.png.br
-2023/05/28 20:31:54 gz /tmp/work/images/bullet_toggle_plus.png -> /output/images/bullet_toggle_plus.png.gz
-2023/05/28 20:31:54 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/tag_red.png /tmp/work/images/tag_red.png
-2023/05/28 20:31:55 Optimizing /tmp/work/images/delete.png
+2023/07/31 10:20:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bullet_toggle_plus.png.br /tmp/work/images/bullet_toggle_plus.png
+2023/07/31 10:20:29 br /tmp/work/images/info.gif -> /output/images/info.gif.br
+2023/07/31 10:20:29 br /tmp/work/images/bullet_toggle_plus.png -> /output/images/bullet_toggle_plus.png.br
+2023/07/31 10:20:29 gz /tmp/work/images/bullet_toggle_plus.png -> /output/images/bullet_toggle_plus.png.gz
+2023/07/31 10:20:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/listview.gif.br /tmp/work/images/listview.gif
+2023/07/31 10:20:29 gz /tmp/work/images/info.gif -> /output/images/info.gif.gz
+2023/07/31 10:20:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/pencil.gif.br /tmp/work/images/pencil.gif
+2023/07/31 10:20:29 br /tmp/work/images/drag-handle.png -> /output/images/drag-handle.png.br
+2023/07/31 10:20:29 gz /tmp/work/images/drag-handle.png -> /output/images/drag-handle.png.gz
+2023/07/31 10:20:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/row-over-bg.gif.br /tmp/work/images/row-over-bg.gif
+2023/07/31 10:20:29 br /tmp/work/images/listview.gif -> /output/images/listview.gif.br
+2023/07/31 10:20:29 br /tmp/work/images/pencil.gif -> /output/images/pencil.gif.br
+2023/07/31 10:20:29 gz /tmp/work/images/listview.gif -> /output/images/listview.gif.gz
+2023/07/31 10:20:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/sort-asc.gif.br /tmp/work/images/sort-asc.gif
+2023/07/31 10:20:29 br /tmp/work/images/row-over-bg.gif -> /output/images/row-over-bg.gif.br
+2023/07/31 10:20:29 gz /tmp/work/images/pencil.gif -> /output/images/pencil.gif.gz
+2023/07/31 10:20:29 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/sort-asc.png /tmp/work/images/sort-asc.png
+2023/07/31 10:20:29 br /tmp/work/images/sort-asc.gif -> /output/images/sort-asc.gif.br
+2023/07/31 10:20:29 gz /tmp/work/images/sort-asc.gif -> /output/images/sort-asc.gif.gz
+2023/07/31 10:20:29 gz /tmp/work/images/row-over-bg.gif -> /output/images/row-over-bg.gif.gz
+2023/07/31 10:20:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/sort-desc.gif.br /tmp/work/images/sort-desc.gif
+2023/07/31 10:20:29 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/sort-desc.png /tmp/work/images/sort-desc.png
+2023/07/31 10:20:29 br /tmp/work/images/sort-desc.gif -> /output/images/sort-desc.gif.br
+2023/07/31 10:20:29 gz /tmp/work/images/sort-desc.gif -> /output/images/sort-desc.gif.gz
+2023/07/31 10:20:29 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/stripes.png /tmp/work/images/stripes.png
+2023/07/31 10:20:29 Optimizing /tmp/work/images/bullet_blue.png
+Input size: 241 (0K)
+Result size: 231 (0K). Percentage of original: 95.851%
+Result is smaller
+
+
+2023/07/31 10:20:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bullet_blue.png.br /tmp/work/images/bullet_blue.png
+2023/07/31 10:20:29 br /tmp/work/images/bullet_blue.png -> /output/images/bullet_blue.png.br
+2023/07/31 10:20:29 gz /tmp/work/images/bullet_blue.png -> /output/images/bullet_blue.png.gz
+2023/07/31 10:20:29 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/tag_red.png /tmp/work/images/tag_red.png
+2023/07/31 10:20:30 Optimizing /tmp/work/images/delete.png
 Input size: 682 (0K)
 Result size: 623 (0K). Percentage of original: 91.349%
 Result is smaller
 
 
-2023/05/28 20:31:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/delete.png.br /tmp/work/images/delete.png
-2023/05/28 20:31:55 br /tmp/work/images/delete.png -> /output/images/delete.png.br
-2023/05/28 20:31:55 gz /tmp/work/images/delete.png -> /output/images/delete.png.gz
-2023/05/28 20:31:55 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/tick.png /tmp/work/images/tick.png
-2023/05/28 20:31:55 Optimizing /tmp/work/images/GrpCheckboxN.png
-Input size: 282 (0K)
-Result size: 199 (0K). Percentage of original: 70.567%
-Result is smaller
-
-
-2023/05/28 20:31:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/GrpCheckboxN.png.br /tmp/work/images/GrpCheckboxN.png
-2023/05/28 20:31:55 br /tmp/work/images/GrpCheckboxN.png -> /output/images/GrpCheckboxN.png.br
-2023/05/28 20:31:55 gz /tmp/work/images/GrpCheckboxN.png -> /output/images/GrpCheckboxN.png.gz
-2023/05/28 20:31:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/user_identity_plus.gif.br /tmp/work/images/user_identity_plus.gif
-2023/05/28 20:31:55 br /tmp/work/images/user_identity_plus.gif -> /output/images/user_identity_plus.gif.br
-2023/05/28 20:31:55 gz /tmp/work/images/user_identity_plus.gif -> /output/images/user_identity_plus.gif.gz
-2023/05/28 20:31:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/user_identity.gif.br /tmp/work/images/user_identity.gif
-2023/05/28 20:31:55 br /tmp/work/images/user_identity.gif -> /output/images/user_identity.gif.br
-2023/05/28 20:31:55 gz /tmp/work/images/user_identity.gif -> /output/images/user_identity.gif.gz
-2023/05/28 20:31:55 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/slick-default-theme.min.css /tmp/work/slick-default-theme.css
-2023/05/28 20:31:55 Optimizing /tmp/work/images/sort-asc.png
+2023/07/31 10:20:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/delete.png.br /tmp/work/images/delete.png
+2023/07/31 10:20:30 br /tmp/work/images/delete.png -> /output/images/delete.png.br
+2023/07/31 10:20:30 gz /tmp/work/images/delete.png -> /output/images/delete.png.gz
+2023/07/31 10:20:30 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/images/tick.png /tmp/work/images/tick.png
+2023/07/31 10:20:30 Optimizing /tmp/work/images/sort-asc.png
 Input size: 105 (0K)
 Result size: 104 (0K). Percentage of original: 99.048%
 Result is smaller
 
 
-2023/05/28 20:31:55 Optimizing /tmp/work/images/sort-desc.png
+2023/07/31 10:20:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/sort-asc.png.br /tmp/work/images/sort-asc.png
+2023/07/31 10:20:30 br /tmp/work/images/sort-asc.png -> /output/images/sort-asc.png.br
+2023/07/31 10:20:30 gz /tmp/work/images/sort-asc.png -> /output/images/sort-asc.png.gz
+2023/07/31 10:20:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/user_identity_plus.gif.br /tmp/work/images/user_identity_plus.gif
+2023/07/31 10:20:30 br /tmp/work/images/user_identity_plus.gif -> /output/images/user_identity_plus.gif.br
+2023/07/31 10:20:30 gz /tmp/work/images/user_identity_plus.gif -> /output/images/user_identity_plus.gif.gz
+2023/07/31 10:20:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/user_identity.gif.br /tmp/work/images/user_identity.gif
+2023/07/31 10:20:30 br /tmp/work/images/user_identity.gif -> /output/images/user_identity.gif.br
+2023/07/31 10:20:30 gz /tmp/work/images/user_identity.gif -> /output/images/user_identity.gif.gz
+2023/07/31 10:20:30 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/slick-default-theme.min.css /tmp/work/slick-default-theme.css
+2023/07/31 10:20:30 Optimizing /tmp/work/images/sort-desc.png
 Input size: 107 (0K)
 Result size: 106 (0K). Percentage of original: 99.065%
 Result is smaller
 
 
-2023/05/28 20:31:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/sort-desc.png.br /tmp/work/images/sort-desc.png
-2023/05/28 20:31:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/sort-asc.png.br /tmp/work/images/sort-asc.png
-2023/05/28 20:31:55 br /tmp/work/images/sort-desc.png -> /output/images/sort-desc.png.br
-2023/05/28 20:31:55 br /tmp/work/images/sort-asc.png -> /output/images/sort-asc.png.br
-2023/05/28 20:31:55 gz /tmp/work/images/sort-desc.png -> /output/images/sort-desc.png.gz
-2023/05/28 20:31:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/slick.compositeeditor.min.js /tmp/work/slick.compositeeditor.js
-2023/05/28 20:31:55 gz /tmp/work/images/sort-asc.png -> /output/images/sort-asc.png.gz
-2023/05/28 20:31:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/slick.core.min.js /tmp/work/slick.core.js
-2023/05/28 20:31:55 Optimizing /tmp/work/images/stripes.png
+2023/07/31 10:20:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/sort-desc.png.br /tmp/work/images/sort-desc.png
+2023/07/31 10:20:30 br /tmp/work/images/sort-desc.png -> /output/images/sort-desc.png.br
+2023/07/31 10:20:30 gz /tmp/work/images/sort-desc.png -> /output/images/sort-desc.png.gz
+2023/07/31 10:20:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/slick.compositeeditor.min.js /tmp/work/slick.compositeeditor.js
+2023/07/31 10:20:30 Optimizing /tmp/work/images/GrpCheckboxN.png
+Input size: 282 (0K)
+Result size: 199 (0K). Percentage of original: 70.567%
+Result is smaller
+
+
+2023/07/31 10:20:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/GrpCheckboxN.png.br /tmp/work/images/GrpCheckboxN.png
+2023/07/31 10:20:30 br /tmp/work/images/GrpCheckboxN.png -> /output/images/GrpCheckboxN.png.br
+2023/07/31 10:20:30 gz /tmp/work/images/GrpCheckboxN.png -> /output/images/GrpCheckboxN.png.gz
+2023/07/31 10:20:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/slick.core.min.js /tmp/work/slick.core.js
+2023/07/31 10:20:31 Optimizing /tmp/work/images/stripes.png
 Input size: 1125 (1K)
 Result size: 94 (0K). Percentage of original: 8.356%
 Result is smaller
 
 
-2023/05/28 20:31:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/stripes.png.br /tmp/work/images/stripes.png
-2023/05/28 20:31:55 br /tmp/work/images/stripes.png -> /output/images/stripes.png.br
-2023/05/28 20:31:55 gz /tmp/work/images/stripes.png -> /output/images/stripes.png.gz
-2023/05/28 20:31:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/slick.dataview.min.js /tmp/work/slick.dataview.js
-2023/05/28 20:31:55 Optimizing /tmp/work/images/help.png
+2023/07/31 10:20:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/stripes.png.br /tmp/work/images/stripes.png
+2023/07/31 10:20:31 br /tmp/work/images/stripes.png -> /output/images/stripes.png.br
+2023/07/31 10:20:31 gz /tmp/work/images/stripes.png -> /output/images/stripes.png.gz
+2023/07/31 10:20:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/slick.dataview.min.js /tmp/work/slick.dataview.js
+2023/07/31 10:20:31 sri /tmp/work/slick-default-theme.min.css -> /output/slick-default-theme.min.css.sri
+2023/07/31 10:20:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick-default-theme.min.css.br /tmp/work/slick-default-theme.min.css
+2023/07/31 10:20:31 br /tmp/work/slick-default-theme.min.css -> /output/slick-default-theme.min.css.br
+2023/07/31 10:20:31 gz /tmp/work/slick-default-theme.min.css -> /output/slick-default-theme.min.css.gz
+2023/07/31 10:20:31 sri /tmp/work/slick-default-theme.css -> /output/slick-default-theme.css.sri
+2023/07/31 10:20:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick-default-theme.css.br /tmp/work/slick-default-theme.css
+2023/07/31 10:20:31 br /tmp/work/slick-default-theme.css -> /output/slick-default-theme.css.br
+2023/07/31 10:20:31 gz /tmp/work/slick-default-theme.css -> /output/slick-default-theme.css.gz
+2023/07/31 10:20:31 Optimizing /tmp/work/images/help.png
 Input size: 345 (0K)
 Result size: 329 (0K). Percentage of original: 95.362%
 Result is smaller
 
 
-2023/05/28 20:31:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/help.png.br /tmp/work/images/help.png
-2023/05/28 20:31:55 br /tmp/work/images/help.png -> /output/images/help.png.br
-2023/05/28 20:31:55 gz /tmp/work/images/help.png -> /output/images/help.png.gz
-2023/05/28 20:31:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/slick.editors.min.js /tmp/work/slick.editors.js
-2023/05/28 20:31:55 Optimizing /tmp/work/images/GrpCheckboxY.png
+2023/07/31 10:20:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/help.png.br /tmp/work/images/help.png
+2023/07/31 10:20:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/slick.editors.min.js /tmp/work/slick.editors.js
+2023/07/31 10:20:31 br /tmp/work/images/help.png -> /output/images/help.png.br
+2023/07/31 10:20:31 gz /tmp/work/images/help.png -> /output/images/help.png.gz
+2023/07/31 10:20:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/slick.formatters.min.js /tmp/work/slick.formatters.js
+2023/07/31 10:20:32 Optimizing /tmp/work/images/GrpCheckboxY.png
 Input size: 415 (0K)
 Result size: 327 (0K). Percentage of original: 78.795%
 Result is smaller
 
 
-2023/05/28 20:31:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/GrpCheckboxY.png.br /tmp/work/images/GrpCheckboxY.png
-2023/05/28 20:31:55 br /tmp/work/images/GrpCheckboxY.png -> /output/images/GrpCheckboxY.png.br
-2023/05/28 20:31:55 gz /tmp/work/images/GrpCheckboxY.png -> /output/images/GrpCheckboxY.png.gz
-2023/05/28 20:31:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/slick.formatters.min.js /tmp/work/slick.formatters.js
-2023/05/28 20:31:55 sri /tmp/work/slick-default-theme.min.css -> /output/slick-default-theme.min.css.sri
-2023/05/28 20:31:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick-default-theme.min.css.br /tmp/work/slick-default-theme.min.css
-2023/05/28 20:31:55 br /tmp/work/slick-default-theme.min.css -> /output/slick-default-theme.min.css.br
-2023/05/28 20:31:55 gz /tmp/work/slick-default-theme.min.css -> /output/slick-default-theme.min.css.gz
-2023/05/28 20:31:55 sri /tmp/work/slick-default-theme.css -> /output/slick-default-theme.css.sri
-2023/05/28 20:31:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick-default-theme.css.br /tmp/work/slick-default-theme.css
-2023/05/28 20:31:55 br /tmp/work/slick-default-theme.css -> /output/slick-default-theme.css.br
-2023/05/28 20:31:55 gz /tmp/work/slick-default-theme.css -> /output/slick-default-theme.css.gz
-2023/05/28 20:31:55 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/slick.grid.min.css /tmp/work/slick.grid.css
-2023/05/28 20:31:55 sri /tmp/work/slick.formatters.min.js -> /output/slick.formatters.min.js.sri
-2023/05/28 20:31:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.formatters.min.js.br /tmp/work/slick.formatters.min.js
-2023/05/28 20:31:55 sri /tmp/work/slick.compositeeditor.min.js -> /output/slick.compositeeditor.min.js.sri
-2023/05/28 20:31:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.compositeeditor.min.js.br /tmp/work/slick.compositeeditor.min.js
-2023/05/28 20:31:55 br /tmp/work/slick.formatters.min.js -> /output/slick.formatters.min.js.br
-2023/05/28 20:31:55 gz /tmp/work/slick.formatters.min.js -> /output/slick.formatters.min.js.gz
-2023/05/28 20:31:55 sri /tmp/work/slick.formatters.js -> /output/slick.formatters.js.sri
-2023/05/28 20:31:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.formatters.js.br /tmp/work/slick.formatters.js
-2023/05/28 20:31:55 br /tmp/work/slick.compositeeditor.min.js -> /output/slick.compositeeditor.min.js.br
-2023/05/28 20:31:55 gz /tmp/work/slick.compositeeditor.min.js -> /output/slick.compositeeditor.min.js.gz
-2023/05/28 20:31:55 sri /tmp/work/slick.compositeeditor.js -> /output/slick.compositeeditor.js.sri
-2023/05/28 20:31:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.compositeeditor.js.br /tmp/work/slick.compositeeditor.js
-2023/05/28 20:31:55 br /tmp/work/slick.formatters.js -> /output/slick.formatters.js.br
-2023/05/28 20:31:55 gz /tmp/work/slick.formatters.js -> /output/slick.formatters.js.gz
-2023/05/28 20:31:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/slick.grid.min.js /tmp/work/slick.grid.js
-2023/05/28 20:31:55 br /tmp/work/slick.compositeeditor.js -> /output/slick.compositeeditor.js.br
-2023/05/28 20:31:55 gz /tmp/work/slick.compositeeditor.js -> /output/slick.compositeeditor.js.gz
-2023/05/28 20:31:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/slick.groupitemmetadataprovider.min.js /tmp/work/slick.groupitemmetadataprovider.js
-2023/05/28 20:31:55 sri /tmp/work/slick.grid.min.css -> /output/slick.grid.min.css.sri
-2023/05/28 20:31:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.grid.min.css.br /tmp/work/slick.grid.min.css
-2023/05/28 20:31:55 br /tmp/work/slick.grid.min.css -> /output/slick.grid.min.css.br
-2023/05/28 20:31:55 gz /tmp/work/slick.grid.min.css -> /output/slick.grid.min.css.gz
-2023/05/28 20:31:55 sri /tmp/work/slick.grid.css -> /output/slick.grid.css.sri
-2023/05/28 20:31:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.grid.css.br /tmp/work/slick.grid.css
-2023/05/28 20:31:56 br /tmp/work/slick.grid.css -> /output/slick.grid.css.br
-2023/05/28 20:31:56 gz /tmp/work/slick.grid.css -> /output/slick.grid.css.gz
-2023/05/28 20:31:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/slick.interactions.min.js /tmp/work/slick.interactions.js
-2023/05/28 20:31:56 Optimizing /tmp/work/images/tick.png
-Input size: 484 (0K)
-Result size: 465 (0K). Percentage of original: 96.074%
-Result is smaller
-
-
-2023/05/28 20:31:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/tick.png.br /tmp/work/images/tick.png
-2023/05/28 20:31:56 br /tmp/work/images/tick.png -> /output/images/tick.png.br
-2023/05/28 20:31:56 gz /tmp/work/images/tick.png -> /output/images/tick.png.gz
-2023/05/28 20:31:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/slick.remotemodel-yahoo.min.js /tmp/work/slick.remotemodel-yahoo.js
-2023/05/28 20:31:56 sri /tmp/work/slick.core.min.js -> /output/slick.core.min.js.sri
-2023/05/28 20:31:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.core.min.js.br /tmp/work/slick.core.min.js
-2023/05/28 20:31:56 Optimizing /tmp/work/images/tag_red.png
+2023/07/31 10:20:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/GrpCheckboxY.png.br /tmp/work/images/GrpCheckboxY.png
+2023/07/31 10:20:32 br /tmp/work/images/GrpCheckboxY.png -> /output/images/GrpCheckboxY.png.br
+2023/07/31 10:20:32 gz /tmp/work/images/GrpCheckboxY.png -> /output/images/GrpCheckboxY.png.gz
+2023/07/31 10:20:32 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/slick.grid.min.css /tmp/work/slick.grid.css
+2023/07/31 10:20:32 sri /tmp/work/slick.compositeeditor.min.js -> /output/slick.compositeeditor.min.js.sri
+2023/07/31 10:20:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.compositeeditor.min.js.br /tmp/work/slick.compositeeditor.min.js
+2023/07/31 10:20:32 br /tmp/work/slick.compositeeditor.min.js -> /output/slick.compositeeditor.min.js.br
+2023/07/31 10:20:32 gz /tmp/work/slick.compositeeditor.min.js -> /output/slick.compositeeditor.min.js.gz
+2023/07/31 10:20:32 sri /tmp/work/slick.compositeeditor.js -> /output/slick.compositeeditor.js.sri
+2023/07/31 10:20:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.compositeeditor.js.br /tmp/work/slick.compositeeditor.js
+2023/07/31 10:20:32 br /tmp/work/slick.compositeeditor.js -> /output/slick.compositeeditor.js.br
+2023/07/31 10:20:32 gz /tmp/work/slick.compositeeditor.js -> /output/slick.compositeeditor.js.gz
+2023/07/31 10:20:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/slick.grid.min.js /tmp/work/slick.grid.js
+2023/07/31 10:20:33 sri /tmp/work/slick.formatters.min.js -> /output/slick.formatters.min.js.sri
+2023/07/31 10:20:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.formatters.min.js.br /tmp/work/slick.formatters.min.js
+2023/07/31 10:20:33 br /tmp/work/slick.formatters.min.js -> /output/slick.formatters.min.js.br
+2023/07/31 10:20:33 gz /tmp/work/slick.formatters.min.js -> /output/slick.formatters.min.js.gz
+2023/07/31 10:20:33 sri /tmp/work/slick.formatters.js -> /output/slick.formatters.js.sri
+2023/07/31 10:20:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.formatters.js.br /tmp/work/slick.formatters.js
+2023/07/31 10:20:33 br /tmp/work/slick.formatters.js -> /output/slick.formatters.js.br
+2023/07/31 10:20:33 gz /tmp/work/slick.formatters.js -> /output/slick.formatters.js.gz
+2023/07/31 10:20:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/slick.groupitemmetadataprovider.min.js /tmp/work/slick.groupitemmetadataprovider.js
+2023/07/31 10:20:33 Optimizing /tmp/work/images/tag_red.png
 Input size: 537 (0K)
 Result size: 529 (0K). Percentage of original: 98.510%
 Result is smaller
 
 
-2023/05/28 20:31:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/tag_red.png.br /tmp/work/images/tag_red.png
-2023/05/28 20:31:56 br /tmp/work/images/tag_red.png -> /output/images/tag_red.png.br
-2023/05/28 20:31:56 gz /tmp/work/images/tag_red.png -> /output/images/tag_red.png.gz
-2023/05/28 20:31:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/slick.remotemodel.min.js /tmp/work/slick.remotemodel.js
-2023/05/28 20:31:56 br /tmp/work/slick.core.min.js -> /output/slick.core.min.js.br
-2023/05/28 20:31:56 gz /tmp/work/slick.core.min.js -> /output/slick.core.min.js.gz
-2023/05/28 20:31:56 sri /tmp/work/slick.core.js -> /output/slick.core.js.sri
-2023/05/28 20:31:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.core.js.br /tmp/work/slick.core.js
-2023/05/28 20:31:56 br /tmp/work/slick.core.js -> /output/slick.core.js.br
-2023/05/28 20:31:56 gz /tmp/work/slick.core.js -> /output/slick.core.js.gz
-2023/05/28 20:31:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.autotooltips.min.js /tmp/work/plugins/slick.autotooltips.js
-2023/05/28 20:31:56 sri /tmp/work/slick.groupitemmetadataprovider.min.js -> /output/slick.groupitemmetadataprovider.min.js.sri
-2023/05/28 20:31:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.groupitemmetadataprovider.min.js.br /tmp/work/slick.groupitemmetadataprovider.min.js
-2023/05/28 20:31:56 br /tmp/work/slick.groupitemmetadataprovider.min.js -> /output/slick.groupitemmetadataprovider.min.js.br
-2023/05/28 20:31:56 gz /tmp/work/slick.groupitemmetadataprovider.min.js -> /output/slick.groupitemmetadataprovider.min.js.gz
-2023/05/28 20:31:56 sri /tmp/work/slick.groupitemmetadataprovider.js -> /output/slick.groupitemmetadataprovider.js.sri
-2023/05/28 20:31:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.groupitemmetadataprovider.js.br /tmp/work/slick.groupitemmetadataprovider.js
-2023/05/28 20:31:56 br /tmp/work/slick.groupitemmetadataprovider.js -> /output/slick.groupitemmetadataprovider.js.br
-2023/05/28 20:31:56 gz /tmp/work/slick.groupitemmetadataprovider.js -> /output/slick.groupitemmetadataprovider.js.gz
-2023/05/28 20:31:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.cellcopymanager.min.js /tmp/work/plugins/slick.cellcopymanager.js
-2023/05/28 20:31:56 sri /tmp/work/slick.remotemodel-yahoo.min.js -> /output/slick.remotemodel-yahoo.min.js.sri
-2023/05/28 20:31:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.remotemodel-yahoo.min.js.br /tmp/work/slick.remotemodel-yahoo.min.js
-2023/05/28 20:31:56 br /tmp/work/slick.remotemodel-yahoo.min.js -> /output/slick.remotemodel-yahoo.min.js.br
-2023/05/28 20:31:56 gz /tmp/work/slick.remotemodel-yahoo.min.js -> /output/slick.remotemodel-yahoo.min.js.gz
-2023/05/28 20:31:56 sri /tmp/work/slick.remotemodel-yahoo.js -> /output/slick.remotemodel-yahoo.js.sri
-2023/05/28 20:31:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.remotemodel-yahoo.js.br /tmp/work/slick.remotemodel-yahoo.js
-2023/05/28 20:31:56 sri /tmp/work/slick.editors.min.js -> /output/slick.editors.min.js.sri
-2023/05/28 20:31:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.editors.min.js.br /tmp/work/slick.editors.min.js
-2023/05/28 20:31:56 sri /tmp/work/slick.interactions.min.js -> /output/slick.interactions.min.js.sri
-2023/05/28 20:31:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.interactions.min.js.br /tmp/work/slick.interactions.min.js
-2023/05/28 20:31:56 br /tmp/work/slick.remotemodel-yahoo.js -> /output/slick.remotemodel-yahoo.js.br
-2023/05/28 20:31:56 gz /tmp/work/slick.remotemodel-yahoo.js -> /output/slick.remotemodel-yahoo.js.gz
-2023/05/28 20:31:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.cellexternalcopymanager.min.js /tmp/work/plugins/slick.cellexternalcopymanager.js
-2023/05/28 20:31:56 br /tmp/work/slick.editors.min.js -> /output/slick.editors.min.js.br
-2023/05/28 20:31:56 gz /tmp/work/slick.editors.min.js -> /output/slick.editors.min.js.gz
-2023/05/28 20:31:56 sri /tmp/work/slick.editors.js -> /output/slick.editors.js.sri
-2023/05/28 20:31:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.editors.js.br /tmp/work/slick.editors.js
-2023/05/28 20:31:56 br /tmp/work/slick.interactions.min.js -> /output/slick.interactions.min.js.br
-2023/05/28 20:31:56 gz /tmp/work/slick.interactions.min.js -> /output/slick.interactions.min.js.gz
-2023/05/28 20:31:56 sri /tmp/work/slick.interactions.js -> /output/slick.interactions.js.sri
-2023/05/28 20:31:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.interactions.js.br /tmp/work/slick.interactions.js
-2023/05/28 20:31:56 br /tmp/work/slick.interactions.js -> /output/slick.interactions.js.br
-2023/05/28 20:31:56 gz /tmp/work/slick.interactions.js -> /output/slick.interactions.js.gz
-2023/05/28 20:31:56 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/plugins/slick.cellmenu.min.css /tmp/work/plugins/slick.cellmenu.css
-2023/05/28 20:31:56 sri /tmp/work/slick.remotemodel.min.js -> /output/slick.remotemodel.min.js.sri
-2023/05/28 20:31:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.remotemodel.min.js.br /tmp/work/slick.remotemodel.min.js
-2023/05/28 20:31:56 br /tmp/work/slick.editors.js -> /output/slick.editors.js.br
-2023/05/28 20:31:56 gz /tmp/work/slick.editors.js -> /output/slick.editors.js.gz
-2023/05/28 20:31:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.cellmenu.min.js /tmp/work/plugins/slick.cellmenu.js
-2023/05/28 20:31:56 br /tmp/work/slick.remotemodel.min.js -> /output/slick.remotemodel.min.js.br
-2023/05/28 20:31:56 gz /tmp/work/slick.remotemodel.min.js -> /output/slick.remotemodel.min.js.gz
-2023/05/28 20:31:56 sri /tmp/work/slick.remotemodel.js -> /output/slick.remotemodel.js.sri
-2023/05/28 20:31:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.remotemodel.js.br /tmp/work/slick.remotemodel.js
-2023/05/28 20:31:56 br /tmp/work/slick.remotemodel.js -> /output/slick.remotemodel.js.br
-2023/05/28 20:31:56 gz /tmp/work/slick.remotemodel.js -> /output/slick.remotemodel.js.gz
-2023/05/28 20:31:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.cellrangedecorator.min.js /tmp/work/plugins/slick.cellrangedecorator.js
-2023/05/28 20:31:56 sri /tmp/work/plugins/slick.autotooltips.min.js -> /output/plugins/slick.autotooltips.min.js.sri
-2023/05/28 20:31:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.autotooltips.min.js.br /tmp/work/plugins/slick.autotooltips.min.js
-2023/05/28 20:31:56 br /tmp/work/plugins/slick.autotooltips.min.js -> /output/plugins/slick.autotooltips.min.js.br
-2023/05/28 20:31:56 gz /tmp/work/plugins/slick.autotooltips.min.js -> /output/plugins/slick.autotooltips.min.js.gz
-2023/05/28 20:31:56 sri /tmp/work/plugins/slick.autotooltips.js -> /output/plugins/slick.autotooltips.js.sri
-2023/05/28 20:31:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.autotooltips.js.br /tmp/work/plugins/slick.autotooltips.js
-2023/05/28 20:31:56 br /tmp/work/plugins/slick.autotooltips.js -> /output/plugins/slick.autotooltips.js.br
-2023/05/28 20:31:56 gz /tmp/work/plugins/slick.autotooltips.js -> /output/plugins/slick.autotooltips.js.gz
-2023/05/28 20:31:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.cellrangeselector.min.js /tmp/work/plugins/slick.cellrangeselector.js
-2023/05/28 20:31:56 sri /tmp/work/plugins/slick.cellcopymanager.min.js -> /output/plugins/slick.cellcopymanager.min.js.sri
-2023/05/28 20:31:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellcopymanager.min.js.br /tmp/work/plugins/slick.cellcopymanager.min.js
-2023/05/28 20:31:56 br /tmp/work/plugins/slick.cellcopymanager.min.js -> /output/plugins/slick.cellcopymanager.min.js.br
-2023/05/28 20:31:56 gz /tmp/work/plugins/slick.cellcopymanager.min.js -> /output/plugins/slick.cellcopymanager.min.js.gz
-2023/05/28 20:31:56 sri /tmp/work/plugins/slick.cellcopymanager.js -> /output/plugins/slick.cellcopymanager.js.sri
-2023/05/28 20:31:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellcopymanager.js.br /tmp/work/plugins/slick.cellcopymanager.js
-2023/05/28 20:31:56 br /tmp/work/plugins/slick.cellcopymanager.js -> /output/plugins/slick.cellcopymanager.js.br
-2023/05/28 20:31:56 gz /tmp/work/plugins/slick.cellcopymanager.js -> /output/plugins/slick.cellcopymanager.js.gz
-2023/05/28 20:31:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.cellselectionmodel.min.js /tmp/work/plugins/slick.cellselectionmodel.js
-2023/05/28 20:31:56 sri /tmp/work/plugins/slick.cellmenu.min.css -> /output/plugins/slick.cellmenu.min.css.sri
-2023/05/28 20:31:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellmenu.min.css.br /tmp/work/plugins/slick.cellmenu.min.css
-2023/05/28 20:31:56 br /tmp/work/plugins/slick.cellmenu.min.css -> /output/plugins/slick.cellmenu.min.css.br
-2023/05/28 20:31:56 gz /tmp/work/plugins/slick.cellmenu.min.css -> /output/plugins/slick.cellmenu.min.css.gz
-2023/05/28 20:31:56 sri /tmp/work/plugins/slick.cellmenu.css -> /output/plugins/slick.cellmenu.css.sri
-2023/05/28 20:31:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellmenu.css.br /tmp/work/plugins/slick.cellmenu.css
-2023/05/28 20:31:56 br /tmp/work/plugins/slick.cellmenu.css -> /output/plugins/slick.cellmenu.css.br
-2023/05/28 20:31:56 gz /tmp/work/plugins/slick.cellmenu.css -> /output/plugins/slick.cellmenu.css.gz
-2023/05/28 20:31:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.checkboxselectcolumn.min.js /tmp/work/plugins/slick.checkboxselectcolumn.js
-2023/05/28 20:31:56 sri /tmp/work/plugins/slick.cellrangedecorator.min.js -> /output/plugins/slick.cellrangedecorator.min.js.sri
-2023/05/28 20:31:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellrangedecorator.min.js.br /tmp/work/plugins/slick.cellrangedecorator.min.js
-2023/05/28 20:31:56 br /tmp/work/plugins/slick.cellrangedecorator.min.js -> /output/plugins/slick.cellrangedecorator.min.js.br
-2023/05/28 20:31:56 gz /tmp/work/plugins/slick.cellrangedecorator.min.js -> /output/plugins/slick.cellrangedecorator.min.js.gz
-2023/05/28 20:31:56 sri /tmp/work/plugins/slick.cellrangedecorator.js -> /output/plugins/slick.cellrangedecorator.js.sri
-2023/05/28 20:31:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellrangedecorator.js.br /tmp/work/plugins/slick.cellrangedecorator.js
-2023/05/28 20:31:56 sri /tmp/work/slick.dataview.min.js -> /output/slick.dataview.min.js.sri
-2023/05/28 20:31:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.dataview.min.js.br /tmp/work/slick.dataview.min.js
-2023/05/28 20:31:56 br /tmp/work/plugins/slick.cellrangedecorator.js -> /output/plugins/slick.cellrangedecorator.js.br
-2023/05/28 20:31:56 gz /tmp/work/plugins/slick.cellrangedecorator.js -> /output/plugins/slick.cellrangedecorator.js.gz
-2023/05/28 20:31:56 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/plugins/slick.contextmenu.min.css /tmp/work/plugins/slick.contextmenu.css
-2023/05/28 20:31:57 br /tmp/work/slick.dataview.min.js -> /output/slick.dataview.min.js.br
-2023/05/28 20:31:57 gz /tmp/work/slick.dataview.min.js -> /output/slick.dataview.min.js.gz
-2023/05/28 20:31:57 sri /tmp/work/slick.dataview.js -> /output/slick.dataview.js.sri
-2023/05/28 20:31:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.dataview.js.br /tmp/work/slick.dataview.js
-2023/05/28 20:31:57 sri /tmp/work/plugins/slick.cellexternalcopymanager.min.js -> /output/plugins/slick.cellexternalcopymanager.min.js.sri
-2023/05/28 20:31:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellexternalcopymanager.min.js.br /tmp/work/plugins/slick.cellexternalcopymanager.min.js
-2023/05/28 20:31:57 br /tmp/work/plugins/slick.cellexternalcopymanager.min.js -> /output/plugins/slick.cellexternalcopymanager.min.js.br
-2023/05/28 20:31:57 gz /tmp/work/plugins/slick.cellexternalcopymanager.min.js -> /output/plugins/slick.cellexternalcopymanager.min.js.gz
-2023/05/28 20:31:57 sri /tmp/work/plugins/slick.cellexternalcopymanager.js -> /output/plugins/slick.cellexternalcopymanager.js.sri
-2023/05/28 20:31:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellexternalcopymanager.js.br /tmp/work/plugins/slick.cellexternalcopymanager.js
-2023/05/28 20:31:57 br /tmp/work/slick.dataview.js -> /output/slick.dataview.js.br
-2023/05/28 20:31:57 gz /tmp/work/slick.dataview.js -> /output/slick.dataview.js.gz
-2023/05/28 20:31:57 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.contextmenu.min.js /tmp/work/plugins/slick.contextmenu.js
-2023/05/28 20:31:57 br /tmp/work/plugins/slick.cellexternalcopymanager.js -> /output/plugins/slick.cellexternalcopymanager.js.br
-2023/05/28 20:31:57 gz /tmp/work/plugins/slick.cellexternalcopymanager.js -> /output/plugins/slick.cellexternalcopymanager.js.gz
-2023/05/28 20:31:57 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.crossgridrowmovemanager.min.js /tmp/work/plugins/slick.crossgridrowmovemanager.js
-2023/05/28 20:31:57 sri /tmp/work/plugins/slick.contextmenu.min.css -> /output/plugins/slick.contextmenu.min.css.sri
-2023/05/28 20:31:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.contextmenu.min.css.br /tmp/work/plugins/slick.contextmenu.min.css
-2023/05/28 20:31:57 br /tmp/work/plugins/slick.contextmenu.min.css -> /output/plugins/slick.contextmenu.min.css.br
-2023/05/28 20:31:57 sri /tmp/work/plugins/slick.cellselectionmodel.min.js -> /output/plugins/slick.cellselectionmodel.min.js.sri
-2023/05/28 20:31:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellselectionmodel.min.js.br /tmp/work/plugins/slick.cellselectionmodel.min.js
-2023/05/28 20:31:57 gz /tmp/work/plugins/slick.contextmenu.min.css -> /output/plugins/slick.contextmenu.min.css.gz
-2023/05/28 20:31:57 sri /tmp/work/plugins/slick.contextmenu.css -> /output/plugins/slick.contextmenu.css.sri
-2023/05/28 20:31:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.contextmenu.css.br /tmp/work/plugins/slick.contextmenu.css
-2023/05/28 20:31:57 br /tmp/work/plugins/slick.cellselectionmodel.min.js -> /output/plugins/slick.cellselectionmodel.min.js.br
-2023/05/28 20:31:57 gz /tmp/work/plugins/slick.cellselectionmodel.min.js -> /output/plugins/slick.cellselectionmodel.min.js.gz
-2023/05/28 20:31:57 sri /tmp/work/plugins/slick.cellselectionmodel.js -> /output/plugins/slick.cellselectionmodel.js.sri
-2023/05/28 20:31:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellselectionmodel.js.br /tmp/work/plugins/slick.cellselectionmodel.js
-2023/05/28 20:31:57 br /tmp/work/plugins/slick.contextmenu.css -> /output/plugins/slick.contextmenu.css.br
-2023/05/28 20:31:57 gz /tmp/work/plugins/slick.contextmenu.css -> /output/plugins/slick.contextmenu.css.gz
-2023/05/28 20:31:57 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/plugins/slick.customtooltip.min.css /tmp/work/plugins/slick.customtooltip.css
-2023/05/28 20:31:57 br /tmp/work/plugins/slick.cellselectionmodel.js -> /output/plugins/slick.cellselectionmodel.js.br
-2023/05/28 20:31:57 gz /tmp/work/plugins/slick.cellselectionmodel.js -> /output/plugins/slick.cellselectionmodel.js.gz
-2023/05/28 20:31:57 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.customtooltip.min.js /tmp/work/plugins/slick.customtooltip.js
-2023/05/28 20:31:57 sri /tmp/work/plugins/slick.cellrangeselector.min.js -> /output/plugins/slick.cellrangeselector.min.js.sri
-2023/05/28 20:31:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellrangeselector.min.js.br /tmp/work/plugins/slick.cellrangeselector.min.js
-2023/05/28 20:31:57 br /tmp/work/plugins/slick.cellrangeselector.min.js -> /output/plugins/slick.cellrangeselector.min.js.br
-2023/05/28 20:31:57 gz /tmp/work/plugins/slick.cellrangeselector.min.js -> /output/plugins/slick.cellrangeselector.min.js.gz
-2023/05/28 20:31:57 sri /tmp/work/plugins/slick.cellrangeselector.js -> /output/plugins/slick.cellrangeselector.js.sri
-2023/05/28 20:31:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellrangeselector.js.br /tmp/work/plugins/slick.cellrangeselector.js
-2023/05/28 20:31:57 sri /tmp/work/plugins/slick.cellmenu.min.js -> /output/plugins/slick.cellmenu.min.js.sri
-2023/05/28 20:31:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellmenu.min.js.br /tmp/work/plugins/slick.cellmenu.min.js
-2023/05/28 20:31:57 br /tmp/work/plugins/slick.cellmenu.min.js -> /output/plugins/slick.cellmenu.min.js.br
-2023/05/28 20:31:57 gz /tmp/work/plugins/slick.cellmenu.min.js -> /output/plugins/slick.cellmenu.min.js.gz
-2023/05/28 20:31:57 sri /tmp/work/plugins/slick.cellmenu.js -> /output/plugins/slick.cellmenu.js.sri
-2023/05/28 20:31:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellmenu.js.br /tmp/work/plugins/slick.cellmenu.js
-2023/05/28 20:31:57 br /tmp/work/plugins/slick.cellrangeselector.js -> /output/plugins/slick.cellrangeselector.js.br
-2023/05/28 20:31:57 gz /tmp/work/plugins/slick.cellrangeselector.js -> /output/plugins/slick.cellrangeselector.js.gz
-2023/05/28 20:31:57 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/plugins/slick.draggablegrouping.min.css /tmp/work/plugins/slick.draggablegrouping.css
-2023/05/28 20:31:57 br /tmp/work/plugins/slick.cellmenu.js -> /output/plugins/slick.cellmenu.js.br
-2023/05/28 20:31:57 gz /tmp/work/plugins/slick.cellmenu.js -> /output/plugins/slick.cellmenu.js.gz
-2023/05/28 20:31:57 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.draggablegrouping.min.js /tmp/work/plugins/slick.draggablegrouping.js
-2023/05/28 20:31:57 sri /tmp/work/plugins/slick.checkboxselectcolumn.min.js -> /output/plugins/slick.checkboxselectcolumn.min.js.sri
-2023/05/28 20:31:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.checkboxselectcolumn.min.js.br /tmp/work/plugins/slick.checkboxselectcolumn.min.js
-2023/05/28 20:31:57 br /tmp/work/plugins/slick.checkboxselectcolumn.min.js -> /output/plugins/slick.checkboxselectcolumn.min.js.br
-2023/05/28 20:31:57 gz /tmp/work/plugins/slick.checkboxselectcolumn.min.js -> /output/plugins/slick.checkboxselectcolumn.min.js.gz
-2023/05/28 20:31:57 sri /tmp/work/plugins/slick.checkboxselectcolumn.js -> /output/plugins/slick.checkboxselectcolumn.js.sri
-2023/05/28 20:31:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.checkboxselectcolumn.js.br /tmp/work/plugins/slick.checkboxselectcolumn.js
-2023/05/28 20:31:57 sri /tmp/work/plugins/slick.customtooltip.min.css -> /output/plugins/slick.customtooltip.min.css.sri
-2023/05/28 20:31:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.customtooltip.min.css.br /tmp/work/plugins/slick.customtooltip.min.css
-2023/05/28 20:31:57 br /tmp/work/plugins/slick.customtooltip.min.css -> /output/plugins/slick.customtooltip.min.css.br
-2023/05/28 20:31:57 gz /tmp/work/plugins/slick.customtooltip.min.css -> /output/plugins/slick.customtooltip.min.css.gz
-2023/05/28 20:31:57 sri /tmp/work/plugins/slick.customtooltip.css -> /output/plugins/slick.customtooltip.css.sri
-2023/05/28 20:31:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.customtooltip.css.br /tmp/work/plugins/slick.customtooltip.css
-2023/05/28 20:31:57 br /tmp/work/plugins/slick.customtooltip.css -> /output/plugins/slick.customtooltip.css.br
-2023/05/28 20:31:57 gz /tmp/work/plugins/slick.customtooltip.css -> /output/plugins/slick.customtooltip.css.gz
-2023/05/28 20:31:57 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/plugins/slick.headerbuttons.min.css /tmp/work/plugins/slick.headerbuttons.css
-2023/05/28 20:31:57 br /tmp/work/plugins/slick.checkboxselectcolumn.js -> /output/plugins/slick.checkboxselectcolumn.js.br
-2023/05/28 20:31:57 gz /tmp/work/plugins/slick.checkboxselectcolumn.js -> /output/plugins/slick.checkboxselectcolumn.js.gz
-2023/05/28 20:31:57 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.headerbuttons.min.js /tmp/work/plugins/slick.headerbuttons.js
-2023/05/28 20:31:57 sri /tmp/work/plugins/slick.crossgridrowmovemanager.min.js -> /output/plugins/slick.crossgridrowmovemanager.min.js.sri
-2023/05/28 20:31:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.crossgridrowmovemanager.min.js.br /tmp/work/plugins/slick.crossgridrowmovemanager.min.js
-2023/05/28 20:31:57 br /tmp/work/plugins/slick.crossgridrowmovemanager.min.js -> /output/plugins/slick.crossgridrowmovemanager.min.js.br
-2023/05/28 20:31:57 gz /tmp/work/plugins/slick.crossgridrowmovemanager.min.js -> /output/plugins/slick.crossgridrowmovemanager.min.js.gz
-2023/05/28 20:31:57 sri /tmp/work/plugins/slick.crossgridrowmovemanager.js -> /output/plugins/slick.crossgridrowmovemanager.js.sri
-2023/05/28 20:31:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.crossgridrowmovemanager.js.br /tmp/work/plugins/slick.crossgridrowmovemanager.js
-2023/05/28 20:31:57 sri /tmp/work/plugins/slick.draggablegrouping.min.css -> /output/plugins/slick.draggablegrouping.min.css.sri
-2023/05/28 20:31:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.draggablegrouping.min.css.br /tmp/work/plugins/slick.draggablegrouping.min.css
-2023/05/28 20:31:57 br /tmp/work/plugins/slick.draggablegrouping.min.css -> /output/plugins/slick.draggablegrouping.min.css.br
-2023/05/28 20:31:57 gz /tmp/work/plugins/slick.draggablegrouping.min.css -> /output/plugins/slick.draggablegrouping.min.css.gz
-2023/05/28 20:31:57 sri /tmp/work/plugins/slick.draggablegrouping.css -> /output/plugins/slick.draggablegrouping.css.sri
-2023/05/28 20:31:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.draggablegrouping.css.br /tmp/work/plugins/slick.draggablegrouping.css
-2023/05/28 20:31:57 br /tmp/work/plugins/slick.draggablegrouping.css -> /output/plugins/slick.draggablegrouping.css.br
-2023/05/28 20:31:57 gz /tmp/work/plugins/slick.draggablegrouping.css -> /output/plugins/slick.draggablegrouping.css.gz
-2023/05/28 20:31:57 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/plugins/slick.headermenu.min.css /tmp/work/plugins/slick.headermenu.css
-2023/05/28 20:31:57 br /tmp/work/plugins/slick.crossgridrowmovemanager.js -> /output/plugins/slick.crossgridrowmovemanager.js.br
-2023/05/28 20:31:57 gz /tmp/work/plugins/slick.crossgridrowmovemanager.js -> /output/plugins/slick.crossgridrowmovemanager.js.gz
-2023/05/28 20:31:57 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.headermenu.min.js /tmp/work/plugins/slick.headermenu.js
-2023/05/28 20:31:57 sri /tmp/work/plugins/slick.headerbuttons.min.css -> /output/plugins/slick.headerbuttons.min.css.sri
-2023/05/28 20:31:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.headerbuttons.min.css.br /tmp/work/plugins/slick.headerbuttons.min.css
-2023/05/28 20:31:57 br /tmp/work/plugins/slick.headerbuttons.min.css -> /output/plugins/slick.headerbuttons.min.css.br
-2023/05/28 20:31:57 gz /tmp/work/plugins/slick.headerbuttons.min.css -> /output/plugins/slick.headerbuttons.min.css.gz
-2023/05/28 20:31:57 sri /tmp/work/plugins/slick.headerbuttons.css -> /output/plugins/slick.headerbuttons.css.sri
-2023/05/28 20:31:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.headerbuttons.css.br /tmp/work/plugins/slick.headerbuttons.css
-2023/05/28 20:31:57 br /tmp/work/plugins/slick.headerbuttons.css -> /output/plugins/slick.headerbuttons.css.br
-2023/05/28 20:31:57 gz /tmp/work/plugins/slick.headerbuttons.css -> /output/plugins/slick.headerbuttons.css.gz
-2023/05/28 20:31:57 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.resizer.min.js /tmp/work/plugins/slick.resizer.js
-2023/05/28 20:31:57 sri /tmp/work/plugins/slick.headerbuttons.min.js -> /output/plugins/slick.headerbuttons.min.js.sri
-2023/05/28 20:31:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.headerbuttons.min.js.br /tmp/work/plugins/slick.headerbuttons.min.js
-2023/05/28 20:31:57 br /tmp/work/plugins/slick.headerbuttons.min.js -> /output/plugins/slick.headerbuttons.min.js.br
-2023/05/28 20:31:57 gz /tmp/work/plugins/slick.headerbuttons.min.js -> /output/plugins/slick.headerbuttons.min.js.gz
-2023/05/28 20:31:57 sri /tmp/work/plugins/slick.headerbuttons.js -> /output/plugins/slick.headerbuttons.js.sri
-2023/05/28 20:31:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.headerbuttons.js.br /tmp/work/plugins/slick.headerbuttons.js
-2023/05/28 20:31:58 sri /tmp/work/plugins/slick.contextmenu.min.js -> /output/plugins/slick.contextmenu.min.js.sri
-2023/05/28 20:31:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.contextmenu.min.js.br /tmp/work/plugins/slick.contextmenu.min.js
-2023/05/28 20:31:58 br /tmp/work/plugins/slick.contextmenu.min.js -> /output/plugins/slick.contextmenu.min.js.br
-2023/05/28 20:31:58 gz /tmp/work/plugins/slick.contextmenu.min.js -> /output/plugins/slick.contextmenu.min.js.gz
-2023/05/28 20:31:58 sri /tmp/work/plugins/slick.contextmenu.js -> /output/plugins/slick.contextmenu.js.sri
-2023/05/28 20:31:58 br /tmp/work/plugins/slick.headerbuttons.js -> /output/plugins/slick.headerbuttons.js.br
-2023/05/28 20:31:58 gz /tmp/work/plugins/slick.headerbuttons.js -> /output/plugins/slick.headerbuttons.js.gz
-2023/05/28 20:31:58 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/plugins/slick.rowdetailview.min.css /tmp/work/plugins/slick.rowdetailview.css
-2023/05/28 20:31:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.contextmenu.js.br /tmp/work/plugins/slick.contextmenu.js
-2023/05/28 20:31:58 sri /tmp/work/plugins/slick.headermenu.min.css -> /output/plugins/slick.headermenu.min.css.sri
-2023/05/28 20:31:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.headermenu.min.css.br /tmp/work/plugins/slick.headermenu.min.css
-2023/05/28 20:31:58 br /tmp/work/plugins/slick.headermenu.min.css -> /output/plugins/slick.headermenu.min.css.br
-2023/05/28 20:31:58 gz /tmp/work/plugins/slick.headermenu.min.css -> /output/plugins/slick.headermenu.min.css.gz
-2023/05/28 20:31:58 sri /tmp/work/plugins/slick.headermenu.css -> /output/plugins/slick.headermenu.css.sri
-2023/05/28 20:31:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.headermenu.css.br /tmp/work/plugins/slick.headermenu.css
-2023/05/28 20:31:58 br /tmp/work/plugins/slick.headermenu.css -> /output/plugins/slick.headermenu.css.br
-2023/05/28 20:31:58 gz /tmp/work/plugins/slick.headermenu.css -> /output/plugins/slick.headermenu.css.gz
-2023/05/28 20:31:58 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.rowdetailview.min.js /tmp/work/plugins/slick.rowdetailview.js
-2023/05/28 20:31:58 br /tmp/work/plugins/slick.contextmenu.js -> /output/plugins/slick.contextmenu.js.br
-2023/05/28 20:31:58 gz /tmp/work/plugins/slick.contextmenu.js -> /output/plugins/slick.contextmenu.js.gz
-2023/05/28 20:31:58 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.rowmovemanager.min.js /tmp/work/plugins/slick.rowmovemanager.js
-2023/05/28 20:31:58 sri /tmp/work/plugins/slick.draggablegrouping.min.js -> /output/plugins/slick.draggablegrouping.min.js.sri
-2023/05/28 20:31:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.draggablegrouping.min.js.br /tmp/work/plugins/slick.draggablegrouping.min.js
-2023/05/28 20:31:58 sri /tmp/work/plugins/slick.customtooltip.min.js -> /output/plugins/slick.customtooltip.min.js.sri
-2023/05/28 20:31:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.customtooltip.min.js.br /tmp/work/plugins/slick.customtooltip.min.js
-2023/05/28 20:31:58 br /tmp/work/plugins/slick.draggablegrouping.min.js -> /output/plugins/slick.draggablegrouping.min.js.br
-2023/05/28 20:31:58 gz /tmp/work/plugins/slick.draggablegrouping.min.js -> /output/plugins/slick.draggablegrouping.min.js.gz
-2023/05/28 20:31:58 sri /tmp/work/plugins/slick.draggablegrouping.js -> /output/plugins/slick.draggablegrouping.js.sri
-2023/05/28 20:31:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.draggablegrouping.js.br /tmp/work/plugins/slick.draggablegrouping.js
-2023/05/28 20:31:58 br /tmp/work/plugins/slick.customtooltip.min.js -> /output/plugins/slick.customtooltip.min.js.br
-2023/05/28 20:31:58 gz /tmp/work/plugins/slick.customtooltip.min.js -> /output/plugins/slick.customtooltip.min.js.gz
-2023/05/28 20:31:58 sri /tmp/work/plugins/slick.customtooltip.js -> /output/plugins/slick.customtooltip.js.sri
-2023/05/28 20:31:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.customtooltip.js.br /tmp/work/plugins/slick.customtooltip.js
-2023/05/28 20:31:58 sri /tmp/work/plugins/slick.headermenu.min.js -> /output/plugins/slick.headermenu.min.js.sri
-2023/05/28 20:31:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.headermenu.min.js.br /tmp/work/plugins/slick.headermenu.min.js
-2023/05/28 20:31:58 br /tmp/work/plugins/slick.headermenu.min.js -> /output/plugins/slick.headermenu.min.js.br
-2023/05/28 20:31:58 gz /tmp/work/plugins/slick.headermenu.min.js -> /output/plugins/slick.headermenu.min.js.gz
-2023/05/28 20:31:58 sri /tmp/work/plugins/slick.headermenu.js -> /output/plugins/slick.headermenu.js.sri
-2023/05/28 20:31:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.headermenu.js.br /tmp/work/plugins/slick.headermenu.js
-2023/05/28 20:31:58 br /tmp/work/plugins/slick.headermenu.js -> /output/plugins/slick.headermenu.js.br
-2023/05/28 20:31:58 gz /tmp/work/plugins/slick.headermenu.js -> /output/plugins/slick.headermenu.js.gz
-2023/05/28 20:31:58 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.rowselectionmodel.min.js /tmp/work/plugins/slick.rowselectionmodel.js
-2023/05/28 20:31:58 sri /tmp/work/plugins/slick.rowdetailview.min.css -> /output/plugins/slick.rowdetailview.min.css.sri
-2023/05/28 20:31:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.rowdetailview.min.css.br /tmp/work/plugins/slick.rowdetailview.min.css
-2023/05/28 20:31:58 br /tmp/work/plugins/slick.draggablegrouping.js -> /output/plugins/slick.draggablegrouping.js.br
-2023/05/28 20:31:58 gz /tmp/work/plugins/slick.draggablegrouping.js -> /output/plugins/slick.draggablegrouping.js.gz
-2023/05/28 20:31:58 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.state.min.js /tmp/work/plugins/slick.state.js
-2023/05/28 20:31:58 sri /tmp/work/plugins/slick.resizer.min.js -> /output/plugins/slick.resizer.min.js.sri
-2023/05/28 20:31:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.resizer.min.js.br /tmp/work/plugins/slick.resizer.min.js
-2023/05/28 20:31:58 br /tmp/work/plugins/slick.customtooltip.js -> /output/plugins/slick.customtooltip.js.br
-2023/05/28 20:31:58 br /tmp/work/plugins/slick.rowdetailview.min.css -> /output/plugins/slick.rowdetailview.min.css.br
-2023/05/28 20:31:58 gz /tmp/work/plugins/slick.customtooltip.js -> /output/plugins/slick.customtooltip.js.gz
-2023/05/28 20:31:58 gz /tmp/work/plugins/slick.rowdetailview.min.css -> /output/plugins/slick.rowdetailview.min.css.gz
-2023/05/28 20:31:58 sri /tmp/work/plugins/slick.rowdetailview.css -> /output/plugins/slick.rowdetailview.css.sri
-2023/05/28 20:31:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.rowdetailview.css.br /tmp/work/plugins/slick.rowdetailview.css
-2023/05/28 20:31:58 br /tmp/work/plugins/slick.rowdetailview.css -> /output/plugins/slick.rowdetailview.css.br
-2023/05/28 20:31:58 gz /tmp/work/plugins/slick.rowdetailview.css -> /output/plugins/slick.rowdetailview.css.gz
-2023/05/28 20:31:58 br /tmp/work/plugins/slick.resizer.min.js -> /output/plugins/slick.resizer.min.js.br
-2023/05/28 20:31:58 gz /tmp/work/plugins/slick.resizer.min.js -> /output/plugins/slick.resizer.min.js.gz
-2023/05/28 20:31:58 sri /tmp/work/plugins/slick.resizer.js -> /output/plugins/slick.resizer.js.sri
-2023/05/28 20:31:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.resizer.js.br /tmp/work/plugins/slick.resizer.js
-2023/05/28 20:31:58 br /tmp/work/plugins/slick.resizer.js -> /output/plugins/slick.resizer.js.br
-2023/05/28 20:31:58 gz /tmp/work/plugins/slick.resizer.js -> /output/plugins/slick.resizer.js.gz
-2023/05/28 20:31:58 sri /tmp/work/plugins/slick.rowmovemanager.min.js -> /output/plugins/slick.rowmovemanager.min.js.sri
-2023/05/28 20:31:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.rowmovemanager.min.js.br /tmp/work/plugins/slick.rowmovemanager.min.js
-2023/05/28 20:31:58 br /tmp/work/plugins/slick.rowmovemanager.min.js -> /output/plugins/slick.rowmovemanager.min.js.br
-2023/05/28 20:31:58 gz /tmp/work/plugins/slick.rowmovemanager.min.js -> /output/plugins/slick.rowmovemanager.min.js.gz
-2023/05/28 20:31:58 sri /tmp/work/plugins/slick.rowmovemanager.js -> /output/plugins/slick.rowmovemanager.js.sri
-2023/05/28 20:31:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.rowmovemanager.js.br /tmp/work/plugins/slick.rowmovemanager.js
-2023/05/28 20:31:58 br /tmp/work/plugins/slick.rowmovemanager.js -> /output/plugins/slick.rowmovemanager.js.br
-2023/05/28 20:31:58 gz /tmp/work/plugins/slick.rowmovemanager.js -> /output/plugins/slick.rowmovemanager.js.gz
-2023/05/28 20:31:58 sri /tmp/work/plugins/slick.state.min.js -> /output/plugins/slick.state.min.js.sri
-2023/05/28 20:31:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.state.min.js.br /tmp/work/plugins/slick.state.min.js
-2023/05/28 20:31:58 br /tmp/work/plugins/slick.state.min.js -> /output/plugins/slick.state.min.js.br
-2023/05/28 20:31:58 gz /tmp/work/plugins/slick.state.min.js -> /output/plugins/slick.state.min.js.gz
-2023/05/28 20:31:58 sri /tmp/work/plugins/slick.state.js -> /output/plugins/slick.state.js.sri
-2023/05/28 20:31:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.state.js.br /tmp/work/plugins/slick.state.js
-2023/05/28 20:31:58 br /tmp/work/plugins/slick.state.js -> /output/plugins/slick.state.js.br
-2023/05/28 20:31:58 gz /tmp/work/plugins/slick.state.js -> /output/plugins/slick.state.js.gz
-2023/05/28 20:31:58 sri /tmp/work/plugins/slick.rowselectionmodel.min.js -> /output/plugins/slick.rowselectionmodel.min.js.sri
-2023/05/28 20:31:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.rowselectionmodel.min.js.br /tmp/work/plugins/slick.rowselectionmodel.min.js
-2023/05/28 20:31:58 br /tmp/work/plugins/slick.rowselectionmodel.min.js -> /output/plugins/slick.rowselectionmodel.min.js.br
-2023/05/28 20:31:58 gz /tmp/work/plugins/slick.rowselectionmodel.min.js -> /output/plugins/slick.rowselectionmodel.min.js.gz
-2023/05/28 20:31:58 sri /tmp/work/plugins/slick.rowselectionmodel.js -> /output/plugins/slick.rowselectionmodel.js.sri
-2023/05/28 20:31:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.rowselectionmodel.js.br /tmp/work/plugins/slick.rowselectionmodel.js
-2023/05/28 20:31:58 sri /tmp/work/plugins/slick.rowdetailview.min.js -> /output/plugins/slick.rowdetailview.min.js.sri
-2023/05/28 20:31:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.rowdetailview.min.js.br /tmp/work/plugins/slick.rowdetailview.min.js
-2023/05/28 20:31:58 br /tmp/work/plugins/slick.rowselectionmodel.js -> /output/plugins/slick.rowselectionmodel.js.br
-2023/05/28 20:31:58 gz /tmp/work/plugins/slick.rowselectionmodel.js -> /output/plugins/slick.rowselectionmodel.js.gz
-2023/05/28 20:31:58 br /tmp/work/plugins/slick.rowdetailview.min.js -> /output/plugins/slick.rowdetailview.min.js.br
-2023/05/28 20:31:58 gz /tmp/work/plugins/slick.rowdetailview.min.js -> /output/plugins/slick.rowdetailview.min.js.gz
-2023/05/28 20:31:58 sri /tmp/work/plugins/slick.rowdetailview.js -> /output/plugins/slick.rowdetailview.js.sri
-2023/05/28 20:31:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.rowdetailview.js.br /tmp/work/plugins/slick.rowdetailview.js
-2023/05/28 20:31:58 br /tmp/work/plugins/slick.rowdetailview.js -> /output/plugins/slick.rowdetailview.js.br
-2023/05/28 20:31:58 gz /tmp/work/plugins/slick.rowdetailview.js -> /output/plugins/slick.rowdetailview.js.gz
-2023/05/28 20:31:59 sri /tmp/work/slick.grid.min.js -> /output/slick.grid.min.js.sri
-2023/05/28 20:31:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.grid.min.js.br /tmp/work/slick.grid.min.js
-2023/05/28 20:31:59 br /tmp/work/slick.grid.min.js -> /output/slick.grid.min.js.br
-2023/05/28 20:31:59 gz /tmp/work/slick.grid.min.js -> /output/slick.grid.min.js.gz
-2023/05/28 20:31:59 sri /tmp/work/slick.grid.js -> /output/slick.grid.js.sri
-2023/05/28 20:31:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.grid.js.br /tmp/work/slick.grid.js
-2023/05/28 20:32:00 br /tmp/work/slick.grid.js -> /output/slick.grid.js.br
-2023/05/28 20:32:00 gz /tmp/work/slick.grid.js -> /output/slick.grid.js.gz
-2023/05/28 20:32:00 processed 6pac-slickgrid
+2023/07/31 10:20:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/tag_red.png.br /tmp/work/images/tag_red.png
+2023/07/31 10:20:33 br /tmp/work/images/tag_red.png -> /output/images/tag_red.png.br
+2023/07/31 10:20:33 gz /tmp/work/images/tag_red.png -> /output/images/tag_red.png.gz
+2023/07/31 10:20:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/slick.interactions.min.js /tmp/work/slick.interactions.js
+2023/07/31 10:20:33 sri /tmp/work/slick.grid.min.css -> /output/slick.grid.min.css.sri
+2023/07/31 10:20:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.grid.min.css.br /tmp/work/slick.grid.min.css
+2023/07/31 10:20:33 br /tmp/work/slick.grid.min.css -> /output/slick.grid.min.css.br
+2023/07/31 10:20:33 gz /tmp/work/slick.grid.min.css -> /output/slick.grid.min.css.gz
+2023/07/31 10:20:33 sri /tmp/work/slick.grid.css -> /output/slick.grid.css.sri
+2023/07/31 10:20:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.grid.css.br /tmp/work/slick.grid.css
+2023/07/31 10:20:33 br /tmp/work/slick.grid.css -> /output/slick.grid.css.br
+2023/07/31 10:20:33 gz /tmp/work/slick.grid.css -> /output/slick.grid.css.gz
+2023/07/31 10:20:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/slick.remotemodel-yahoo.min.js /tmp/work/slick.remotemodel-yahoo.js
+2023/07/31 10:20:34 Optimizing /tmp/work/images/tick.png
+Input size: 484 (0K)
+Result size: 465 (0K). Percentage of original: 96.074%
+Result is smaller
+
+
+2023/07/31 10:20:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/tick.png.br /tmp/work/images/tick.png
+2023/07/31 10:20:34 br /tmp/work/images/tick.png -> /output/images/tick.png.br
+2023/07/31 10:20:34 gz /tmp/work/images/tick.png -> /output/images/tick.png.gz
+2023/07/31 10:20:34 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/slick.remotemodel.min.js /tmp/work/slick.remotemodel.js
+2023/07/31 10:20:34 sri /tmp/work/slick.core.min.js -> /output/slick.core.min.js.sri
+2023/07/31 10:20:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.core.min.js.br /tmp/work/slick.core.min.js
+2023/07/31 10:20:34 br /tmp/work/slick.core.min.js -> /output/slick.core.min.js.br
+2023/07/31 10:20:34 gz /tmp/work/slick.core.min.js -> /output/slick.core.min.js.gz
+2023/07/31 10:20:34 sri /tmp/work/slick.core.js -> /output/slick.core.js.sri
+2023/07/31 10:20:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.core.js.br /tmp/work/slick.core.js
+2023/07/31 10:20:34 br /tmp/work/slick.core.js -> /output/slick.core.js.br
+2023/07/31 10:20:34 gz /tmp/work/slick.core.js -> /output/slick.core.js.gz
+2023/07/31 10:20:34 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.autotooltips.min.js /tmp/work/plugins/slick.autotooltips.js
+2023/07/31 10:20:34 sri /tmp/work/slick.groupitemmetadataprovider.min.js -> /output/slick.groupitemmetadataprovider.min.js.sri
+2023/07/31 10:20:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.groupitemmetadataprovider.min.js.br /tmp/work/slick.groupitemmetadataprovider.min.js
+2023/07/31 10:20:35 br /tmp/work/slick.groupitemmetadataprovider.min.js -> /output/slick.groupitemmetadataprovider.min.js.br
+2023/07/31 10:20:35 gz /tmp/work/slick.groupitemmetadataprovider.min.js -> /output/slick.groupitemmetadataprovider.min.js.gz
+2023/07/31 10:20:35 sri /tmp/work/slick.groupitemmetadataprovider.js -> /output/slick.groupitemmetadataprovider.js.sri
+2023/07/31 10:20:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.groupitemmetadataprovider.js.br /tmp/work/slick.groupitemmetadataprovider.js
+2023/07/31 10:20:35 sri /tmp/work/slick.remotemodel-yahoo.min.js -> /output/slick.remotemodel-yahoo.min.js.sri
+2023/07/31 10:20:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.remotemodel-yahoo.min.js.br /tmp/work/slick.remotemodel-yahoo.min.js
+2023/07/31 10:20:35 br /tmp/work/slick.remotemodel-yahoo.min.js -> /output/slick.remotemodel-yahoo.min.js.br
+2023/07/31 10:20:35 gz /tmp/work/slick.remotemodel-yahoo.min.js -> /output/slick.remotemodel-yahoo.min.js.gz
+2023/07/31 10:20:35 sri /tmp/work/slick.remotemodel-yahoo.js -> /output/slick.remotemodel-yahoo.js.sri
+2023/07/31 10:20:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.remotemodel-yahoo.js.br /tmp/work/slick.remotemodel-yahoo.js
+2023/07/31 10:20:35 br /tmp/work/slick.groupitemmetadataprovider.js -> /output/slick.groupitemmetadataprovider.js.br
+2023/07/31 10:20:35 gz /tmp/work/slick.groupitemmetadataprovider.js -> /output/slick.groupitemmetadataprovider.js.gz
+2023/07/31 10:20:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.cellcopymanager.min.js /tmp/work/plugins/slick.cellcopymanager.js
+2023/07/31 10:20:35 sri /tmp/work/slick.interactions.min.js -> /output/slick.interactions.min.js.sri
+2023/07/31 10:20:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.interactions.min.js.br /tmp/work/slick.interactions.min.js
+2023/07/31 10:20:35 br /tmp/work/slick.remotemodel-yahoo.js -> /output/slick.remotemodel-yahoo.js.br
+2023/07/31 10:20:35 gz /tmp/work/slick.remotemodel-yahoo.js -> /output/slick.remotemodel-yahoo.js.gz
+2023/07/31 10:20:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.cellexternalcopymanager.min.js /tmp/work/plugins/slick.cellexternalcopymanager.js
+2023/07/31 10:20:35 br /tmp/work/slick.interactions.min.js -> /output/slick.interactions.min.js.br
+2023/07/31 10:20:35 gz /tmp/work/slick.interactions.min.js -> /output/slick.interactions.min.js.gz
+2023/07/31 10:20:35 sri /tmp/work/slick.interactions.js -> /output/slick.interactions.js.sri
+2023/07/31 10:20:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.interactions.js.br /tmp/work/slick.interactions.js
+2023/07/31 10:20:35 br /tmp/work/slick.interactions.js -> /output/slick.interactions.js.br
+2023/07/31 10:20:35 gz /tmp/work/slick.interactions.js -> /output/slick.interactions.js.gz
+2023/07/31 10:20:35 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/plugins/slick.cellmenu.min.css /tmp/work/plugins/slick.cellmenu.css
+2023/07/31 10:20:35 sri /tmp/work/slick.editors.min.js -> /output/slick.editors.min.js.sri
+2023/07/31 10:20:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.editors.min.js.br /tmp/work/slick.editors.min.js
+2023/07/31 10:20:35 br /tmp/work/slick.editors.min.js -> /output/slick.editors.min.js.br
+2023/07/31 10:20:35 gz /tmp/work/slick.editors.min.js -> /output/slick.editors.min.js.gz
+2023/07/31 10:20:35 sri /tmp/work/slick.editors.js -> /output/slick.editors.js.sri
+2023/07/31 10:20:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.editors.js.br /tmp/work/slick.editors.js
+2023/07/31 10:20:36 br /tmp/work/slick.editors.js -> /output/slick.editors.js.br
+2023/07/31 10:20:36 gz /tmp/work/slick.editors.js -> /output/slick.editors.js.gz
+2023/07/31 10:20:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.cellmenu.min.js /tmp/work/plugins/slick.cellmenu.js
+2023/07/31 10:20:36 sri /tmp/work/slick.remotemodel.min.js -> /output/slick.remotemodel.min.js.sri
+2023/07/31 10:20:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.remotemodel.min.js.br /tmp/work/slick.remotemodel.min.js
+2023/07/31 10:20:36 br /tmp/work/slick.remotemodel.min.js -> /output/slick.remotemodel.min.js.br
+2023/07/31 10:20:36 gz /tmp/work/slick.remotemodel.min.js -> /output/slick.remotemodel.min.js.gz
+2023/07/31 10:20:36 sri /tmp/work/slick.remotemodel.js -> /output/slick.remotemodel.js.sri
+2023/07/31 10:20:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.remotemodel.js.br /tmp/work/slick.remotemodel.js
+2023/07/31 10:20:36 br /tmp/work/slick.remotemodel.js -> /output/slick.remotemodel.js.br
+2023/07/31 10:20:36 gz /tmp/work/slick.remotemodel.js -> /output/slick.remotemodel.js.gz
+2023/07/31 10:20:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.cellrangedecorator.min.js /tmp/work/plugins/slick.cellrangedecorator.js
+2023/07/31 10:20:36 sri /tmp/work/plugins/slick.autotooltips.min.js -> /output/plugins/slick.autotooltips.min.js.sri
+2023/07/31 10:20:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.autotooltips.min.js.br /tmp/work/plugins/slick.autotooltips.min.js
+2023/07/31 10:20:36 sri /tmp/work/plugins/slick.cellmenu.min.css -> /output/plugins/slick.cellmenu.min.css.sri
+2023/07/31 10:20:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellmenu.min.css.br /tmp/work/plugins/slick.cellmenu.min.css
+2023/07/31 10:20:36 br /tmp/work/plugins/slick.cellmenu.min.css -> /output/plugins/slick.cellmenu.min.css.br
+2023/07/31 10:20:36 gz /tmp/work/plugins/slick.cellmenu.min.css -> /output/plugins/slick.cellmenu.min.css.gz
+2023/07/31 10:20:36 sri /tmp/work/plugins/slick.cellmenu.css -> /output/plugins/slick.cellmenu.css.sri
+2023/07/31 10:20:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellmenu.css.br /tmp/work/plugins/slick.cellmenu.css
+2023/07/31 10:20:36 br /tmp/work/plugins/slick.autotooltips.min.js -> /output/plugins/slick.autotooltips.min.js.br
+2023/07/31 10:20:36 gz /tmp/work/plugins/slick.autotooltips.min.js -> /output/plugins/slick.autotooltips.min.js.gz
+2023/07/31 10:20:36 sri /tmp/work/plugins/slick.autotooltips.js -> /output/plugins/slick.autotooltips.js.sri
+2023/07/31 10:20:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.autotooltips.js.br /tmp/work/plugins/slick.autotooltips.js
+2023/07/31 10:20:36 br /tmp/work/plugins/slick.cellmenu.css -> /output/plugins/slick.cellmenu.css.br
+2023/07/31 10:20:36 gz /tmp/work/plugins/slick.cellmenu.css -> /output/plugins/slick.cellmenu.css.gz
+2023/07/31 10:20:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.cellrangeselector.min.js /tmp/work/plugins/slick.cellrangeselector.js
+2023/07/31 10:20:36 br /tmp/work/plugins/slick.autotooltips.js -> /output/plugins/slick.autotooltips.js.br
+2023/07/31 10:20:36 gz /tmp/work/plugins/slick.autotooltips.js -> /output/plugins/slick.autotooltips.js.gz
+2023/07/31 10:20:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.cellselectionmodel.min.js /tmp/work/plugins/slick.cellselectionmodel.js
+2023/07/31 10:20:36 sri /tmp/work/plugins/slick.cellcopymanager.min.js -> /output/plugins/slick.cellcopymanager.min.js.sri
+2023/07/31 10:20:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellcopymanager.min.js.br /tmp/work/plugins/slick.cellcopymanager.min.js
+2023/07/31 10:20:36 br /tmp/work/plugins/slick.cellcopymanager.min.js -> /output/plugins/slick.cellcopymanager.min.js.br
+2023/07/31 10:20:36 gz /tmp/work/plugins/slick.cellcopymanager.min.js -> /output/plugins/slick.cellcopymanager.min.js.gz
+2023/07/31 10:20:36 sri /tmp/work/plugins/slick.cellcopymanager.js -> /output/plugins/slick.cellcopymanager.js.sri
+2023/07/31 10:20:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellcopymanager.js.br /tmp/work/plugins/slick.cellcopymanager.js
+2023/07/31 10:20:36 br /tmp/work/plugins/slick.cellcopymanager.js -> /output/plugins/slick.cellcopymanager.js.br
+2023/07/31 10:20:36 gz /tmp/work/plugins/slick.cellcopymanager.js -> /output/plugins/slick.cellcopymanager.js.gz
+2023/07/31 10:20:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.checkboxselectcolumn.min.js /tmp/work/plugins/slick.checkboxselectcolumn.js
+2023/07/31 10:20:37 sri /tmp/work/slick.dataview.min.js -> /output/slick.dataview.min.js.sri
+2023/07/31 10:20:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.dataview.min.js.br /tmp/work/slick.dataview.min.js
+2023/07/31 10:20:37 br /tmp/work/slick.dataview.min.js -> /output/slick.dataview.min.js.br
+2023/07/31 10:20:37 gz /tmp/work/slick.dataview.min.js -> /output/slick.dataview.min.js.gz
+2023/07/31 10:20:37 sri /tmp/work/slick.dataview.js -> /output/slick.dataview.js.sri
+2023/07/31 10:20:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.dataview.js.br /tmp/work/slick.dataview.js
+2023/07/31 10:20:37 sri /tmp/work/plugins/slick.cellrangedecorator.min.js -> /output/plugins/slick.cellrangedecorator.min.js.sri
+2023/07/31 10:20:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellrangedecorator.min.js.br /tmp/work/plugins/slick.cellrangedecorator.min.js
+2023/07/31 10:20:37 br /tmp/work/plugins/slick.cellrangedecorator.min.js -> /output/plugins/slick.cellrangedecorator.min.js.br
+2023/07/31 10:20:37 gz /tmp/work/plugins/slick.cellrangedecorator.min.js -> /output/plugins/slick.cellrangedecorator.min.js.gz
+2023/07/31 10:20:37 sri /tmp/work/plugins/slick.cellrangedecorator.js -> /output/plugins/slick.cellrangedecorator.js.sri
+2023/07/31 10:20:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellrangedecorator.js.br /tmp/work/plugins/slick.cellrangedecorator.js
+2023/07/31 10:20:37 br /tmp/work/plugins/slick.cellrangedecorator.js -> /output/plugins/slick.cellrangedecorator.js.br
+2023/07/31 10:20:37 gz /tmp/work/plugins/slick.cellrangedecorator.js -> /output/plugins/slick.cellrangedecorator.js.gz
+2023/07/31 10:20:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/plugins/slick.contextmenu.min.css /tmp/work/plugins/slick.contextmenu.css
+2023/07/31 10:20:38 br /tmp/work/slick.dataview.js -> /output/slick.dataview.js.br
+2023/07/31 10:20:38 gz /tmp/work/slick.dataview.js -> /output/slick.dataview.js.gz
+2023/07/31 10:20:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.contextmenu.min.js /tmp/work/plugins/slick.contextmenu.js
+2023/07/31 10:20:38 sri /tmp/work/plugins/slick.cellexternalcopymanager.min.js -> /output/plugins/slick.cellexternalcopymanager.min.js.sri
+2023/07/31 10:20:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellexternalcopymanager.min.js.br /tmp/work/plugins/slick.cellexternalcopymanager.min.js
+2023/07/31 10:20:38 br /tmp/work/plugins/slick.cellexternalcopymanager.min.js -> /output/plugins/slick.cellexternalcopymanager.min.js.br
+2023/07/31 10:20:38 gz /tmp/work/plugins/slick.cellexternalcopymanager.min.js -> /output/plugins/slick.cellexternalcopymanager.min.js.gz
+2023/07/31 10:20:38 sri /tmp/work/plugins/slick.cellexternalcopymanager.js -> /output/plugins/slick.cellexternalcopymanager.js.sri
+2023/07/31 10:20:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellexternalcopymanager.js.br /tmp/work/plugins/slick.cellexternalcopymanager.js
+2023/07/31 10:20:38 sri /tmp/work/plugins/slick.contextmenu.min.css -> /output/plugins/slick.contextmenu.min.css.sri
+2023/07/31 10:20:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.contextmenu.min.css.br /tmp/work/plugins/slick.contextmenu.min.css
+2023/07/31 10:20:38 br /tmp/work/plugins/slick.cellexternalcopymanager.js -> /output/plugins/slick.cellexternalcopymanager.js.br
+2023/07/31 10:20:38 gz /tmp/work/plugins/slick.cellexternalcopymanager.js -> /output/plugins/slick.cellexternalcopymanager.js.gz
+2023/07/31 10:20:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.crossgridrowmovemanager.min.js /tmp/work/plugins/slick.crossgridrowmovemanager.js
+2023/07/31 10:20:38 br /tmp/work/plugins/slick.contextmenu.min.css -> /output/plugins/slick.contextmenu.min.css.br
+2023/07/31 10:20:38 gz /tmp/work/plugins/slick.contextmenu.min.css -> /output/plugins/slick.contextmenu.min.css.gz
+2023/07/31 10:20:38 sri /tmp/work/plugins/slick.contextmenu.css -> /output/plugins/slick.contextmenu.css.sri
+2023/07/31 10:20:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.contextmenu.css.br /tmp/work/plugins/slick.contextmenu.css
+2023/07/31 10:20:39 br /tmp/work/plugins/slick.contextmenu.css -> /output/plugins/slick.contextmenu.css.br
+2023/07/31 10:20:39 gz /tmp/work/plugins/slick.contextmenu.css -> /output/plugins/slick.contextmenu.css.gz
+2023/07/31 10:20:39 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/plugins/slick.customtooltip.min.css /tmp/work/plugins/slick.customtooltip.css
+2023/07/31 10:20:39 sri /tmp/work/plugins/slick.cellselectionmodel.min.js -> /output/plugins/slick.cellselectionmodel.min.js.sri
+2023/07/31 10:20:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellselectionmodel.min.js.br /tmp/work/plugins/slick.cellselectionmodel.min.js
+2023/07/31 10:20:39 br /tmp/work/plugins/slick.cellselectionmodel.min.js -> /output/plugins/slick.cellselectionmodel.min.js.br
+2023/07/31 10:20:39 gz /tmp/work/plugins/slick.cellselectionmodel.min.js -> /output/plugins/slick.cellselectionmodel.min.js.gz
+2023/07/31 10:20:39 sri /tmp/work/plugins/slick.cellselectionmodel.js -> /output/plugins/slick.cellselectionmodel.js.sri
+2023/07/31 10:20:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellselectionmodel.js.br /tmp/work/plugins/slick.cellselectionmodel.js
+2023/07/31 10:20:39 sri /tmp/work/plugins/slick.checkboxselectcolumn.min.js -> /output/plugins/slick.checkboxselectcolumn.min.js.sri
+2023/07/31 10:20:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.checkboxselectcolumn.min.js.br /tmp/work/plugins/slick.checkboxselectcolumn.min.js
+2023/07/31 10:20:39 br /tmp/work/plugins/slick.cellselectionmodel.js -> /output/plugins/slick.cellselectionmodel.js.br
+2023/07/31 10:20:39 gz /tmp/work/plugins/slick.cellselectionmodel.js -> /output/plugins/slick.cellselectionmodel.js.gz
+2023/07/31 10:20:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.customtooltip.min.js /tmp/work/plugins/slick.customtooltip.js
+2023/07/31 10:20:39 br /tmp/work/plugins/slick.checkboxselectcolumn.min.js -> /output/plugins/slick.checkboxselectcolumn.min.js.br
+2023/07/31 10:20:39 gz /tmp/work/plugins/slick.checkboxselectcolumn.min.js -> /output/plugins/slick.checkboxselectcolumn.min.js.gz
+2023/07/31 10:20:39 sri /tmp/work/plugins/slick.checkboxselectcolumn.js -> /output/plugins/slick.checkboxselectcolumn.js.sri
+2023/07/31 10:20:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.checkboxselectcolumn.js.br /tmp/work/plugins/slick.checkboxselectcolumn.js
+2023/07/31 10:20:39 br /tmp/work/plugins/slick.checkboxselectcolumn.js -> /output/plugins/slick.checkboxselectcolumn.js.br
+2023/07/31 10:20:39 gz /tmp/work/plugins/slick.checkboxselectcolumn.js -> /output/plugins/slick.checkboxselectcolumn.js.gz
+2023/07/31 10:20:39 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/plugins/slick.draggablegrouping.min.css /tmp/work/plugins/slick.draggablegrouping.css
+2023/07/31 10:20:39 sri /tmp/work/plugins/slick.cellrangeselector.min.js -> /output/plugins/slick.cellrangeselector.min.js.sri
+2023/07/31 10:20:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellrangeselector.min.js.br /tmp/work/plugins/slick.cellrangeselector.min.js
+2023/07/31 10:20:39 br /tmp/work/plugins/slick.cellrangeselector.min.js -> /output/plugins/slick.cellrangeselector.min.js.br
+2023/07/31 10:20:39 gz /tmp/work/plugins/slick.cellrangeselector.min.js -> /output/plugins/slick.cellrangeselector.min.js.gz
+2023/07/31 10:20:39 sri /tmp/work/plugins/slick.cellrangeselector.js -> /output/plugins/slick.cellrangeselector.js.sri
+2023/07/31 10:20:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellrangeselector.js.br /tmp/work/plugins/slick.cellrangeselector.js
+2023/07/31 10:20:39 sri /tmp/work/plugins/slick.cellmenu.min.js -> /output/plugins/slick.cellmenu.min.js.sri
+2023/07/31 10:20:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellmenu.min.js.br /tmp/work/plugins/slick.cellmenu.min.js
+2023/07/31 10:20:39 br /tmp/work/plugins/slick.cellmenu.min.js -> /output/plugins/slick.cellmenu.min.js.br
+2023/07/31 10:20:39 gz /tmp/work/plugins/slick.cellmenu.min.js -> /output/plugins/slick.cellmenu.min.js.gz
+2023/07/31 10:20:39 sri /tmp/work/plugins/slick.cellmenu.js -> /output/plugins/slick.cellmenu.js.sri
+2023/07/31 10:20:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.cellmenu.js.br /tmp/work/plugins/slick.cellmenu.js
+2023/07/31 10:20:39 br /tmp/work/plugins/slick.cellrangeselector.js -> /output/plugins/slick.cellrangeselector.js.br
+2023/07/31 10:20:39 gz /tmp/work/plugins/slick.cellrangeselector.js -> /output/plugins/slick.cellrangeselector.js.gz
+2023/07/31 10:20:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.draggablegrouping.min.js /tmp/work/plugins/slick.draggablegrouping.js
+2023/07/31 10:20:40 br /tmp/work/plugins/slick.cellmenu.js -> /output/plugins/slick.cellmenu.js.br
+2023/07/31 10:20:40 gz /tmp/work/plugins/slick.cellmenu.js -> /output/plugins/slick.cellmenu.js.gz
+2023/07/31 10:20:40 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/plugins/slick.headerbuttons.min.css /tmp/work/plugins/slick.headerbuttons.css
+2023/07/31 10:20:40 sri /tmp/work/plugins/slick.customtooltip.min.css -> /output/plugins/slick.customtooltip.min.css.sri
+2023/07/31 10:20:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.customtooltip.min.css.br /tmp/work/plugins/slick.customtooltip.min.css
+2023/07/31 10:20:40 br /tmp/work/plugins/slick.customtooltip.min.css -> /output/plugins/slick.customtooltip.min.css.br
+2023/07/31 10:20:40 gz /tmp/work/plugins/slick.customtooltip.min.css -> /output/plugins/slick.customtooltip.min.css.gz
+2023/07/31 10:20:40 sri /tmp/work/plugins/slick.customtooltip.css -> /output/plugins/slick.customtooltip.css.sri
+2023/07/31 10:20:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.customtooltip.css.br /tmp/work/plugins/slick.customtooltip.css
+2023/07/31 10:20:40 br /tmp/work/plugins/slick.customtooltip.css -> /output/plugins/slick.customtooltip.css.br
+2023/07/31 10:20:40 gz /tmp/work/plugins/slick.customtooltip.css -> /output/plugins/slick.customtooltip.css.gz
+2023/07/31 10:20:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.headerbuttons.min.js /tmp/work/plugins/slick.headerbuttons.js
+2023/07/31 10:20:40 sri /tmp/work/plugins/slick.draggablegrouping.min.css -> /output/plugins/slick.draggablegrouping.min.css.sri
+2023/07/31 10:20:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.draggablegrouping.min.css.br /tmp/work/plugins/slick.draggablegrouping.min.css
+2023/07/31 10:20:40 br /tmp/work/plugins/slick.draggablegrouping.min.css -> /output/plugins/slick.draggablegrouping.min.css.br
+2023/07/31 10:20:40 gz /tmp/work/plugins/slick.draggablegrouping.min.css -> /output/plugins/slick.draggablegrouping.min.css.gz
+2023/07/31 10:20:40 sri /tmp/work/plugins/slick.draggablegrouping.css -> /output/plugins/slick.draggablegrouping.css.sri
+2023/07/31 10:20:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.draggablegrouping.css.br /tmp/work/plugins/slick.draggablegrouping.css
+2023/07/31 10:20:40 br /tmp/work/plugins/slick.draggablegrouping.css -> /output/plugins/slick.draggablegrouping.css.br
+2023/07/31 10:20:40 gz /tmp/work/plugins/slick.draggablegrouping.css -> /output/plugins/slick.draggablegrouping.css.gz
+2023/07/31 10:20:40 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/plugins/slick.headermenu.min.css /tmp/work/plugins/slick.headermenu.css
+2023/07/31 10:20:40 sri /tmp/work/plugins/slick.contextmenu.min.js -> /output/plugins/slick.contextmenu.min.js.sri
+2023/07/31 10:20:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.contextmenu.min.js.br /tmp/work/plugins/slick.contextmenu.min.js
+2023/07/31 10:20:40 br /tmp/work/plugins/slick.contextmenu.min.js -> /output/plugins/slick.contextmenu.min.js.br
+2023/07/31 10:20:40 gz /tmp/work/plugins/slick.contextmenu.min.js -> /output/plugins/slick.contextmenu.min.js.gz
+2023/07/31 10:20:40 sri /tmp/work/plugins/slick.contextmenu.js -> /output/plugins/slick.contextmenu.js.sri
+2023/07/31 10:20:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.contextmenu.js.br /tmp/work/plugins/slick.contextmenu.js
+2023/07/31 10:20:41 sri /tmp/work/plugins/slick.headerbuttons.min.css -> /output/plugins/slick.headerbuttons.min.css.sri
+2023/07/31 10:20:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.headerbuttons.min.css.br /tmp/work/plugins/slick.headerbuttons.min.css
+2023/07/31 10:20:41 br /tmp/work/plugins/slick.headerbuttons.min.css -> /output/plugins/slick.headerbuttons.min.css.br
+2023/07/31 10:20:41 gz /tmp/work/plugins/slick.headerbuttons.min.css -> /output/plugins/slick.headerbuttons.min.css.gz
+2023/07/31 10:20:41 sri /tmp/work/plugins/slick.headerbuttons.css -> /output/plugins/slick.headerbuttons.css.sri
+2023/07/31 10:20:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.headerbuttons.css.br /tmp/work/plugins/slick.headerbuttons.css
+2023/07/31 10:20:41 br /tmp/work/plugins/slick.contextmenu.js -> /output/plugins/slick.contextmenu.js.br
+2023/07/31 10:20:41 br /tmp/work/plugins/slick.headerbuttons.css -> /output/plugins/slick.headerbuttons.css.br
+2023/07/31 10:20:41 gz /tmp/work/plugins/slick.headerbuttons.css -> /output/plugins/slick.headerbuttons.css.gz
+2023/07/31 10:20:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.headermenu.min.js /tmp/work/plugins/slick.headermenu.js
+2023/07/31 10:20:41 gz /tmp/work/plugins/slick.contextmenu.js -> /output/plugins/slick.contextmenu.js.gz
+2023/07/31 10:20:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.resizer.min.js /tmp/work/plugins/slick.resizer.js
+2023/07/31 10:20:41 sri /tmp/work/plugins/slick.crossgridrowmovemanager.min.js -> /output/plugins/slick.crossgridrowmovemanager.min.js.sri
+2023/07/31 10:20:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.crossgridrowmovemanager.min.js.br /tmp/work/plugins/slick.crossgridrowmovemanager.min.js
+2023/07/31 10:20:41 br /tmp/work/plugins/slick.crossgridrowmovemanager.min.js -> /output/plugins/slick.crossgridrowmovemanager.min.js.br
+2023/07/31 10:20:41 gz /tmp/work/plugins/slick.crossgridrowmovemanager.min.js -> /output/plugins/slick.crossgridrowmovemanager.min.js.gz
+2023/07/31 10:20:41 sri /tmp/work/plugins/slick.crossgridrowmovemanager.js -> /output/plugins/slick.crossgridrowmovemanager.js.sri
+2023/07/31 10:20:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.crossgridrowmovemanager.js.br /tmp/work/plugins/slick.crossgridrowmovemanager.js
+2023/07/31 10:20:41 br /tmp/work/plugins/slick.crossgridrowmovemanager.js -> /output/plugins/slick.crossgridrowmovemanager.js.br
+2023/07/31 10:20:41 gz /tmp/work/plugins/slick.crossgridrowmovemanager.js -> /output/plugins/slick.crossgridrowmovemanager.js.gz
+2023/07/31 10:20:41 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/plugins/slick.rowdetailview.min.css /tmp/work/plugins/slick.rowdetailview.css
+2023/07/31 10:20:41 sri /tmp/work/plugins/slick.headerbuttons.min.js -> /output/plugins/slick.headerbuttons.min.js.sri
+2023/07/31 10:20:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.headerbuttons.min.js.br /tmp/work/plugins/slick.headerbuttons.min.js
+2023/07/31 10:20:41 sri /tmp/work/plugins/slick.headermenu.min.css -> /output/plugins/slick.headermenu.min.css.sri
+2023/07/31 10:20:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.headermenu.min.css.br /tmp/work/plugins/slick.headermenu.min.css
+2023/07/31 10:20:41 br /tmp/work/plugins/slick.headerbuttons.min.js -> /output/plugins/slick.headerbuttons.min.js.br
+2023/07/31 10:20:41 gz /tmp/work/plugins/slick.headerbuttons.min.js -> /output/plugins/slick.headerbuttons.min.js.gz
+2023/07/31 10:20:41 sri /tmp/work/plugins/slick.headerbuttons.js -> /output/plugins/slick.headerbuttons.js.sri
+2023/07/31 10:20:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.headerbuttons.js.br /tmp/work/plugins/slick.headerbuttons.js
+2023/07/31 10:20:41 br /tmp/work/plugins/slick.headermenu.min.css -> /output/plugins/slick.headermenu.min.css.br
+2023/07/31 10:20:41 gz /tmp/work/plugins/slick.headermenu.min.css -> /output/plugins/slick.headermenu.min.css.gz
+2023/07/31 10:20:41 sri /tmp/work/plugins/slick.headermenu.css -> /output/plugins/slick.headermenu.css.sri
+2023/07/31 10:20:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.headermenu.css.br /tmp/work/plugins/slick.headermenu.css
+2023/07/31 10:20:41 br /tmp/work/plugins/slick.headermenu.css -> /output/plugins/slick.headermenu.css.br
+2023/07/31 10:20:42 gz /tmp/work/plugins/slick.headermenu.css -> /output/plugins/slick.headermenu.css.gz
+2023/07/31 10:20:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.rowdetailview.min.js /tmp/work/plugins/slick.rowdetailview.js
+2023/07/31 10:20:42 br /tmp/work/plugins/slick.headerbuttons.js -> /output/plugins/slick.headerbuttons.js.br
+2023/07/31 10:20:42 gz /tmp/work/plugins/slick.headerbuttons.js -> /output/plugins/slick.headerbuttons.js.gz
+2023/07/31 10:20:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.rowmovemanager.min.js /tmp/work/plugins/slick.rowmovemanager.js
+2023/07/31 10:20:42 sri /tmp/work/plugins/slick.draggablegrouping.min.js -> /output/plugins/slick.draggablegrouping.min.js.sri
+2023/07/31 10:20:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.draggablegrouping.min.js.br /tmp/work/plugins/slick.draggablegrouping.min.js
+2023/07/31 10:20:42 br /tmp/work/plugins/slick.draggablegrouping.min.js -> /output/plugins/slick.draggablegrouping.min.js.br
+2023/07/31 10:20:42 gz /tmp/work/plugins/slick.draggablegrouping.min.js -> /output/plugins/slick.draggablegrouping.min.js.gz
+2023/07/31 10:20:42 sri /tmp/work/plugins/slick.draggablegrouping.js -> /output/plugins/slick.draggablegrouping.js.sri
+2023/07/31 10:20:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.draggablegrouping.js.br /tmp/work/plugins/slick.draggablegrouping.js
+2023/07/31 10:20:42 br /tmp/work/plugins/slick.draggablegrouping.js -> /output/plugins/slick.draggablegrouping.js.br
+2023/07/31 10:20:42 gz /tmp/work/plugins/slick.draggablegrouping.js -> /output/plugins/slick.draggablegrouping.js.gz
+2023/07/31 10:20:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.rowselectionmodel.min.js /tmp/work/plugins/slick.rowselectionmodel.js
+2023/07/31 10:20:42 sri /tmp/work/plugins/slick.rowdetailview.min.css -> /output/plugins/slick.rowdetailview.min.css.sri
+2023/07/31 10:20:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.rowdetailview.min.css.br /tmp/work/plugins/slick.rowdetailview.min.css
+2023/07/31 10:20:42 br /tmp/work/plugins/slick.rowdetailview.min.css -> /output/plugins/slick.rowdetailview.min.css.br
+2023/07/31 10:20:42 gz /tmp/work/plugins/slick.rowdetailview.min.css -> /output/plugins/slick.rowdetailview.min.css.gz
+2023/07/31 10:20:42 sri /tmp/work/plugins/slick.rowdetailview.css -> /output/plugins/slick.rowdetailview.css.sri
+2023/07/31 10:20:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.rowdetailview.css.br /tmp/work/plugins/slick.rowdetailview.css
+2023/07/31 10:20:42 br /tmp/work/plugins/slick.rowdetailview.css -> /output/plugins/slick.rowdetailview.css.br
+2023/07/31 10:20:42 gz /tmp/work/plugins/slick.rowdetailview.css -> /output/plugins/slick.rowdetailview.css.gz
+2023/07/31 10:20:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/plugins/slick.state.min.js /tmp/work/plugins/slick.state.js
+2023/07/31 10:20:43 sri /tmp/work/plugins/slick.resizer.min.js -> /output/plugins/slick.resizer.min.js.sri
+2023/07/31 10:20:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.resizer.min.js.br /tmp/work/plugins/slick.resizer.min.js
+2023/07/31 10:20:43 sri /tmp/work/plugins/slick.customtooltip.min.js -> /output/plugins/slick.customtooltip.min.js.sri
+2023/07/31 10:20:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.customtooltip.min.js.br /tmp/work/plugins/slick.customtooltip.min.js
+2023/07/31 10:20:43 br /tmp/work/plugins/slick.resizer.min.js -> /output/plugins/slick.resizer.min.js.br
+2023/07/31 10:20:43 gz /tmp/work/plugins/slick.resizer.min.js -> /output/plugins/slick.resizer.min.js.gz
+2023/07/31 10:20:43 sri /tmp/work/plugins/slick.resizer.js -> /output/plugins/slick.resizer.js.sri
+2023/07/31 10:20:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.resizer.js.br /tmp/work/plugins/slick.resizer.js
+2023/07/31 10:20:43 br /tmp/work/plugins/slick.customtooltip.min.js -> /output/plugins/slick.customtooltip.min.js.br
+2023/07/31 10:20:43 gz /tmp/work/plugins/slick.customtooltip.min.js -> /output/plugins/slick.customtooltip.min.js.gz
+2023/07/31 10:20:43 sri /tmp/work/plugins/slick.customtooltip.js -> /output/plugins/slick.customtooltip.js.sri
+2023/07/31 10:20:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.customtooltip.js.br /tmp/work/plugins/slick.customtooltip.js
+2023/07/31 10:20:43 br /tmp/work/plugins/slick.resizer.js -> /output/plugins/slick.resizer.js.br
+2023/07/31 10:20:43 gz /tmp/work/plugins/slick.resizer.js -> /output/plugins/slick.resizer.js.gz
+2023/07/31 10:20:43 sri /tmp/work/plugins/slick.headermenu.min.js -> /output/plugins/slick.headermenu.min.js.sri
+2023/07/31 10:20:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.headermenu.min.js.br /tmp/work/plugins/slick.headermenu.min.js
+2023/07/31 10:20:43 br /tmp/work/plugins/slick.customtooltip.js -> /output/plugins/slick.customtooltip.js.br
+2023/07/31 10:20:43 gz /tmp/work/plugins/slick.customtooltip.js -> /output/plugins/slick.customtooltip.js.gz
+2023/07/31 10:20:43 br /tmp/work/plugins/slick.headermenu.min.js -> /output/plugins/slick.headermenu.min.js.br
+2023/07/31 10:20:43 gz /tmp/work/plugins/slick.headermenu.min.js -> /output/plugins/slick.headermenu.min.js.gz
+2023/07/31 10:20:43 sri /tmp/work/plugins/slick.headermenu.js -> /output/plugins/slick.headermenu.js.sri
+2023/07/31 10:20:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.headermenu.js.br /tmp/work/plugins/slick.headermenu.js
+2023/07/31 10:20:44 br /tmp/work/plugins/slick.headermenu.js -> /output/plugins/slick.headermenu.js.br
+2023/07/31 10:20:44 gz /tmp/work/plugins/slick.headermenu.js -> /output/plugins/slick.headermenu.js.gz
+2023/07/31 10:20:44 sri /tmp/work/plugins/slick.rowselectionmodel.min.js -> /output/plugins/slick.rowselectionmodel.min.js.sri
+2023/07/31 10:20:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.rowselectionmodel.min.js.br /tmp/work/plugins/slick.rowselectionmodel.min.js
+2023/07/31 10:20:44 br /tmp/work/plugins/slick.rowselectionmodel.min.js -> /output/plugins/slick.rowselectionmodel.min.js.br
+2023/07/31 10:20:44 gz /tmp/work/plugins/slick.rowselectionmodel.min.js -> /output/plugins/slick.rowselectionmodel.min.js.gz
+2023/07/31 10:20:44 sri /tmp/work/plugins/slick.rowselectionmodel.js -> /output/plugins/slick.rowselectionmodel.js.sri
+2023/07/31 10:20:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.rowselectionmodel.js.br /tmp/work/plugins/slick.rowselectionmodel.js
+2023/07/31 10:20:44 sri /tmp/work/plugins/slick.state.min.js -> /output/plugins/slick.state.min.js.sri
+2023/07/31 10:20:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.state.min.js.br /tmp/work/plugins/slick.state.min.js
+2023/07/31 10:20:44 sri /tmp/work/plugins/slick.rowmovemanager.min.js -> /output/plugins/slick.rowmovemanager.min.js.sri
+2023/07/31 10:20:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.rowmovemanager.min.js.br /tmp/work/plugins/slick.rowmovemanager.min.js
+2023/07/31 10:20:44 br /tmp/work/plugins/slick.rowmovemanager.min.js -> /output/plugins/slick.rowmovemanager.min.js.br
+2023/07/31 10:20:44 gz /tmp/work/plugins/slick.rowmovemanager.min.js -> /output/plugins/slick.rowmovemanager.min.js.gz
+2023/07/31 10:20:44 sri /tmp/work/plugins/slick.rowmovemanager.js -> /output/plugins/slick.rowmovemanager.js.sri
+2023/07/31 10:20:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.rowmovemanager.js.br /tmp/work/plugins/slick.rowmovemanager.js
+2023/07/31 10:20:44 br /tmp/work/plugins/slick.state.min.js -> /output/plugins/slick.state.min.js.br
+2023/07/31 10:20:44 gz /tmp/work/plugins/slick.state.min.js -> /output/plugins/slick.state.min.js.gz
+2023/07/31 10:20:44 sri /tmp/work/plugins/slick.state.js -> /output/plugins/slick.state.js.sri
+2023/07/31 10:20:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.state.js.br /tmp/work/plugins/slick.state.js
+2023/07/31 10:20:44 br /tmp/work/plugins/slick.rowmovemanager.js -> /output/plugins/slick.rowmovemanager.js.br
+2023/07/31 10:20:44 gz /tmp/work/plugins/slick.rowmovemanager.js -> /output/plugins/slick.rowmovemanager.js.gz
+2023/07/31 10:20:44 br /tmp/work/plugins/slick.rowselectionmodel.js -> /output/plugins/slick.rowselectionmodel.js.br
+2023/07/31 10:20:44 gz /tmp/work/plugins/slick.rowselectionmodel.js -> /output/plugins/slick.rowselectionmodel.js.gz
+2023/07/31 10:20:44 br /tmp/work/plugins/slick.state.js -> /output/plugins/slick.state.js.br
+2023/07/31 10:20:44 gz /tmp/work/plugins/slick.state.js -> /output/plugins/slick.state.js.gz
+2023/07/31 10:20:44 sri /tmp/work/plugins/slick.rowdetailview.min.js -> /output/plugins/slick.rowdetailview.min.js.sri
+2023/07/31 10:20:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.rowdetailview.min.js.br /tmp/work/plugins/slick.rowdetailview.min.js
+2023/07/31 10:20:44 br /tmp/work/plugins/slick.rowdetailview.min.js -> /output/plugins/slick.rowdetailview.min.js.br
+2023/07/31 10:20:44 gz /tmp/work/plugins/slick.rowdetailview.min.js -> /output/plugins/slick.rowdetailview.min.js.gz
+2023/07/31 10:20:44 sri /tmp/work/plugins/slick.rowdetailview.js -> /output/plugins/slick.rowdetailview.js.sri
+2023/07/31 10:20:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/slick.rowdetailview.js.br /tmp/work/plugins/slick.rowdetailview.js
+2023/07/31 10:20:44 br /tmp/work/plugins/slick.rowdetailview.js -> /output/plugins/slick.rowdetailview.js.br
+2023/07/31 10:20:44 gz /tmp/work/plugins/slick.rowdetailview.js -> /output/plugins/slick.rowdetailview.js.gz
+2023/07/31 10:20:46 sri /tmp/work/slick.grid.min.js -> /output/slick.grid.min.js.sri
+2023/07/31 10:20:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.grid.min.js.br /tmp/work/slick.grid.min.js
+2023/07/31 10:20:46 br /tmp/work/slick.grid.min.js -> /output/slick.grid.min.js.br
+2023/07/31 10:20:46 gz /tmp/work/slick.grid.min.js -> /output/slick.grid.min.js.gz
+2023/07/31 10:20:46 sri /tmp/work/slick.grid.js -> /output/slick.grid.js.sri
+2023/07/31 10:20:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slick.grid.js.br /tmp/work/slick.grid.js
+2023/07/31 10:20:46 br /tmp/work/slick.grid.js -> /output/slick.grid.js.br
+2023/07/31 10:20:46 gz /tmp/work/slick.grid.js -> /output/slick.grid.js.gz
+2023/07/31 10:20:46 processed 6pac-slickgrid
