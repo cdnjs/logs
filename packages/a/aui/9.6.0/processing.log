@@ -1,104 +1,104 @@
-2023/04/24 16:37:05 optimizing files (Js true, Css true, Png true, Jpg true)
-2023/04/24 16:37:05 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/aui/aui-css-deprecations.min.js /tmp/work/dist/aui/aui-css-deprecations.js
-2023/04/24 16:37:05 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/aui/aui-prototyping-browserfocus.min.css /tmp/work/dist/aui/aui-prototyping-browserfocus.css
-2023/04/24 16:37:05 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/aui/aui-prototyping-darkmode.min.css /tmp/work/dist/aui/aui-prototyping-darkmode.css
-2023/04/24 16:37:05 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/aui/aui-prototyping.min.css /tmp/work/dist/aui/aui-prototyping.css
-2023/04/24 16:37:05 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/aui/aui-prototyping.min.js /tmp/work/dist/aui/aui-prototyping.js
-2023/04/24 16:37:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping.js.map.br /tmp/work/dist/aui/aui-prototyping.js.map
-2023/04/24 16:37:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-css-deprecations.js.map.br /tmp/work/dist/aui/aui-css-deprecations.js.map
-2023/04/24 16:37:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping.css.map.br /tmp/work/dist/aui/aui-prototyping.css.map
-2023/04/24 16:37:05 br /tmp/work/dist/aui/aui-css-deprecations.js.map -> /output/aui/aui-css-deprecations.js.map.br
-2023/04/24 16:37:05 gz /tmp/work/dist/aui/aui-css-deprecations.js.map -> /output/aui/aui-css-deprecations.js.map.gz
-2023/04/24 16:37:05 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/aui/aui-prototyping.nodeps.min.css /tmp/work/dist/aui/aui-prototyping.nodeps.css
-2023/04/24 16:37:06 sri /tmp/work/dist/aui/aui-prototyping-darkmode.min.css -> /output/aui/aui-prototyping-darkmode.min.css.sri
-2023/04/24 16:37:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping-darkmode.min.css.br /tmp/work/dist/aui/aui-prototyping-darkmode.min.css
-2023/04/24 16:37:06 sri /tmp/work/dist/aui/aui-prototyping-browserfocus.min.css -> /output/aui/aui-prototyping-browserfocus.min.css.sri
-2023/04/24 16:37:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping-browserfocus.min.css.br /tmp/work/dist/aui/aui-prototyping-browserfocus.min.css
-2023/04/24 16:37:06 br /tmp/work/dist/aui/aui-prototyping-darkmode.min.css -> /output/aui/aui-prototyping-darkmode.min.css.br
-2023/04/24 16:37:06 gz /tmp/work/dist/aui/aui-prototyping-darkmode.min.css -> /output/aui/aui-prototyping-darkmode.min.css.gz
-2023/04/24 16:37:06 sri /tmp/work/dist/aui/aui-prototyping-darkmode.css -> /output/aui/aui-prototyping-darkmode.css.sri
-2023/04/24 16:37:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping-darkmode.css.br /tmp/work/dist/aui/aui-prototyping-darkmode.css
-2023/04/24 16:37:06 br /tmp/work/dist/aui/aui-prototyping-browserfocus.min.css -> /output/aui/aui-prototyping-browserfocus.min.css.br
-2023/04/24 16:37:06 gz /tmp/work/dist/aui/aui-prototyping-browserfocus.min.css -> /output/aui/aui-prototyping-browserfocus.min.css.gz
-2023/04/24 16:37:06 sri /tmp/work/dist/aui/aui-prototyping-browserfocus.css -> /output/aui/aui-prototyping-browserfocus.css.sri
-2023/04/24 16:37:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping-browserfocus.css.br /tmp/work/dist/aui/aui-prototyping-browserfocus.css
-2023/04/24 16:37:06 br /tmp/work/dist/aui/aui-prototyping-darkmode.css -> /output/aui/aui-prototyping-darkmode.css.br
-2023/04/24 16:37:06 gz /tmp/work/dist/aui/aui-prototyping-darkmode.css -> /output/aui/aui-prototyping-darkmode.css.gz
-2023/04/24 16:37:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping.nodeps.css.map.br /tmp/work/dist/aui/aui-prototyping.nodeps.css.map
-2023/04/24 16:37:06 br /tmp/work/dist/aui/aui-prototyping-browserfocus.css -> /output/aui/aui-prototyping-browserfocus.css.br
-2023/04/24 16:37:06 gz /tmp/work/dist/aui/aui-prototyping-browserfocus.css -> /output/aui/aui-prototyping-browserfocus.css.gz
-2023/04/24 16:37:06 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/aui/aui-prototyping.nodeps.min.js /tmp/work/dist/aui/aui-prototyping.nodeps.js
-2023/04/24 16:37:06 sri /tmp/work/dist/aui/aui-css-deprecations.min.js -> /output/aui/aui-css-deprecations.min.js.sri
-2023/04/24 16:37:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-css-deprecations.min.js.br /tmp/work/dist/aui/aui-css-deprecations.min.js
-2023/04/24 16:37:06 br /tmp/work/dist/aui/aui-css-deprecations.min.js -> /output/aui/aui-css-deprecations.min.js.br
-2023/04/24 16:37:06 gz /tmp/work/dist/aui/aui-css-deprecations.min.js -> /output/aui/aui-css-deprecations.min.js.gz
-2023/04/24 16:37:06 sri /tmp/work/dist/aui/aui-css-deprecations.js -> /output/aui/aui-css-deprecations.js.sri
-2023/04/24 16:37:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-css-deprecations.js.br /tmp/work/dist/aui/aui-css-deprecations.js
-2023/04/24 16:37:06 br /tmp/work/dist/aui/aui-css-deprecations.js -> /output/aui/aui-css-deprecations.js.br
-2023/04/24 16:37:06 gz /tmp/work/dist/aui/aui-css-deprecations.js -> /output/aui/aui-css-deprecations.js.gz
-2023/04/24 16:37:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping.nodeps.js.map.br /tmp/work/dist/aui/aui-prototyping.nodeps.js.map
-2023/04/24 16:37:07 sri /tmp/work/dist/aui/aui-prototyping.min.css -> /output/aui/aui-prototyping.min.css.sri
-2023/04/24 16:37:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping.min.css.br /tmp/work/dist/aui/aui-prototyping.min.css
-2023/04/24 16:37:07 sri /tmp/work/dist/aui/aui-prototyping.nodeps.min.css -> /output/aui/aui-prototyping.nodeps.min.css.sri
-2023/04/24 16:37:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping.nodeps.min.css.br /tmp/work/dist/aui/aui-prototyping.nodeps.min.css
-2023/04/24 16:37:07 br /tmp/work/dist/aui/aui-prototyping.css.map -> /output/aui/aui-prototyping.css.map.br
-2023/04/24 16:37:07 gz /tmp/work/dist/aui/aui-prototyping.css.map -> /output/aui/aui-prototyping.css.map.gz
-2023/04/24 16:37:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/fonts/adgs-icons.eot.br /tmp/work/dist/aui/fonts/adgs-icons.eot
-2023/04/24 16:37:07 br /tmp/work/dist/aui/fonts/adgs-icons.eot -> /output/aui/fonts/adgs-icons.eot.br
-2023/04/24 16:37:07 gz /tmp/work/dist/aui/fonts/adgs-icons.eot -> /output/aui/fonts/adgs-icons.eot.gz
-2023/04/24 16:37:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/fonts/adgs-icons.ttf.br /tmp/work/dist/aui/fonts/adgs-icons.ttf
-2023/04/24 16:37:07 br /tmp/work/dist/aui/aui-prototyping.nodeps.css.map -> /output/aui/aui-prototyping.nodeps.css.map.br
-2023/04/24 16:37:07 gz /tmp/work/dist/aui/aui-prototyping.nodeps.css.map -> /output/aui/aui-prototyping.nodeps.css.map.gz
-2023/04/24 16:37:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/fonts/adgs-icons.woff.br /tmp/work/dist/aui/fonts/adgs-icons.woff
-2023/04/24 16:37:07 br /tmp/work/dist/aui/aui-prototyping.min.css -> /output/aui/aui-prototyping.min.css.br
-2023/04/24 16:37:07 br /tmp/work/dist/aui/fonts/adgs-icons.ttf -> /output/aui/fonts/adgs-icons.ttf.br
-2023/04/24 16:37:07 gz /tmp/work/dist/aui/fonts/adgs-icons.ttf -> /output/aui/fonts/adgs-icons.ttf.gz
-2023/04/24 16:37:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/fonts/atlassian-icons.eot.br /tmp/work/dist/aui/fonts/atlassian-icons.eot
-2023/04/24 16:37:07 gz /tmp/work/dist/aui/aui-prototyping.min.css -> /output/aui/aui-prototyping.min.css.gz
-2023/04/24 16:37:07 sri /tmp/work/dist/aui/aui-prototyping.css -> /output/aui/aui-prototyping.css.sri
-2023/04/24 16:37:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping.css.br /tmp/work/dist/aui/aui-prototyping.css
-2023/04/24 16:37:08 br /tmp/work/dist/aui/fonts/adgs-icons.woff -> /output/aui/fonts/adgs-icons.woff.br
-2023/04/24 16:37:08 gz /tmp/work/dist/aui/fonts/adgs-icons.woff -> /output/aui/fonts/adgs-icons.woff.gz
-2023/04/24 16:37:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/fonts/atlassian-icons.ttf.br /tmp/work/dist/aui/fonts/atlassian-icons.ttf
-2023/04/24 16:37:08 br /tmp/work/dist/aui/aui-prototyping.nodeps.min.css -> /output/aui/aui-prototyping.nodeps.min.css.br
-2023/04/24 16:37:08 gz /tmp/work/dist/aui/aui-prototyping.nodeps.min.css -> /output/aui/aui-prototyping.nodeps.min.css.gz
-2023/04/24 16:37:08 sri /tmp/work/dist/aui/aui-prototyping.nodeps.css -> /output/aui/aui-prototyping.nodeps.css.sri
-2023/04/24 16:37:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping.nodeps.css.br /tmp/work/dist/aui/aui-prototyping.nodeps.css
-2023/04/24 16:37:08 br /tmp/work/dist/aui/fonts/atlassian-icons.eot -> /output/aui/fonts/atlassian-icons.eot.br
-2023/04/24 16:37:08 gz /tmp/work/dist/aui/fonts/atlassian-icons.eot -> /output/aui/fonts/atlassian-icons.eot.gz
-2023/04/24 16:37:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/fonts/atlassian-icons.woff.br /tmp/work/dist/aui/fonts/atlassian-icons.woff
-2023/04/24 16:37:08 br /tmp/work/dist/aui/fonts/atlassian-icons.ttf -> /output/aui/fonts/atlassian-icons.ttf.br
-2023/04/24 16:37:08 gz /tmp/work/dist/aui/fonts/atlassian-icons.ttf -> /output/aui/fonts/atlassian-icons.ttf.gz
-2023/04/24 16:37:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/images/adgs-icons.svg.br /tmp/work/dist/aui/images/adgs-icons.svg
-2023/04/24 16:37:08 br /tmp/work/dist/aui/fonts/atlassian-icons.woff -> /output/aui/fonts/atlassian-icons.woff.br
-2023/04/24 16:37:08 gz /tmp/work/dist/aui/fonts/atlassian-icons.woff -> /output/aui/fonts/atlassian-icons.woff.gz
-2023/04/24 16:37:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/images/atlassian-icons.svg.br /tmp/work/dist/aui/images/atlassian-icons.svg
-2023/04/24 16:37:08 br /tmp/work/dist/aui/aui-prototyping.css -> /output/aui/aui-prototyping.css.br
-2023/04/24 16:37:08 gz /tmp/work/dist/aui/aui-prototyping.css -> /output/aui/aui-prototyping.css.gz
-2023/04/24 16:37:08 br /tmp/work/dist/aui/aui-prototyping.nodeps.css -> /output/aui/aui-prototyping.nodeps.css.br
-2023/04/24 16:37:08 gz /tmp/work/dist/aui/aui-prototyping.nodeps.css -> /output/aui/aui-prototyping.nodeps.css.gz
-2023/04/24 16:37:09 br /tmp/work/dist/aui/images/atlassian-icons.svg -> /output/aui/images/atlassian-icons.svg.br
-2023/04/24 16:37:09 gz /tmp/work/dist/aui/images/atlassian-icons.svg -> /output/aui/images/atlassian-icons.svg.gz
-2023/04/24 16:37:09 br /tmp/work/dist/aui/images/adgs-icons.svg -> /output/aui/images/adgs-icons.svg.br
-2023/04/24 16:37:09 gz /tmp/work/dist/aui/images/adgs-icons.svg -> /output/aui/images/adgs-icons.svg.gz
-2023/04/24 16:37:12 br /tmp/work/dist/aui/aui-prototyping.nodeps.js.map -> /output/aui/aui-prototyping.nodeps.js.map.br
-2023/04/24 16:37:12 br /tmp/work/dist/aui/aui-prototyping.js.map -> /output/aui/aui-prototyping.js.map.br
-2023/04/24 16:37:12 gz /tmp/work/dist/aui/aui-prototyping.nodeps.js.map -> /output/aui/aui-prototyping.nodeps.js.map.gz
-2023/04/24 16:37:12 gz /tmp/work/dist/aui/aui-prototyping.js.map -> /output/aui/aui-prototyping.js.map.gz
-2023/04/24 16:37:16 sri /tmp/work/dist/aui/aui-prototyping.nodeps.min.js -> /output/aui/aui-prototyping.nodeps.min.js.sri
-2023/04/24 16:37:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping.nodeps.min.js.br /tmp/work/dist/aui/aui-prototyping.nodeps.min.js
-2023/04/24 16:37:17 sri /tmp/work/dist/aui/aui-prototyping.min.js -> /output/aui/aui-prototyping.min.js.sri
-2023/04/24 16:37:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping.min.js.br /tmp/work/dist/aui/aui-prototyping.min.js
-2023/04/24 16:37:17 br /tmp/work/dist/aui/aui-prototyping.nodeps.min.js -> /output/aui/aui-prototyping.nodeps.min.js.br
-2023/04/24 16:37:17 gz /tmp/work/dist/aui/aui-prototyping.nodeps.min.js -> /output/aui/aui-prototyping.nodeps.min.js.gz
-2023/04/24 16:37:17 sri /tmp/work/dist/aui/aui-prototyping.nodeps.js -> /output/aui/aui-prototyping.nodeps.js.sri
-2023/04/24 16:37:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping.nodeps.js.br /tmp/work/dist/aui/aui-prototyping.nodeps.js
-2023/04/24 16:37:18 br /tmp/work/dist/aui/aui-prototyping.min.js -> /output/aui/aui-prototyping.min.js.br
-2023/04/24 16:37:18 gz /tmp/work/dist/aui/aui-prototyping.min.js -> /output/aui/aui-prototyping.min.js.gz
-2023/04/24 16:37:18 sri /tmp/work/dist/aui/aui-prototyping.js -> /output/aui/aui-prototyping.js.sri
-2023/04/24 16:37:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping.js.br /tmp/work/dist/aui/aui-prototyping.js
-2023/04/24 16:37:18 br /tmp/work/dist/aui/aui-prototyping.nodeps.js -> /output/aui/aui-prototyping.nodeps.js.br
-2023/04/24 16:37:18 gz /tmp/work/dist/aui/aui-prototyping.nodeps.js -> /output/aui/aui-prototyping.nodeps.js.gz
-2023/04/24 16:37:19 br /tmp/work/dist/aui/aui-prototyping.js -> /output/aui/aui-prototyping.js.br
-2023/04/24 16:37:19 gz /tmp/work/dist/aui/aui-prototyping.js -> /output/aui/aui-prototyping.js.gz
-2023/04/24 16:37:19 processed aui
+2023/07/31 10:41:00 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/31 10:41:00 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/aui/aui-css-deprecations.min.js /tmp/work/dist/aui/aui-css-deprecations.js
+2023/07/31 10:41:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-css-deprecations.js.map.br /tmp/work/dist/aui/aui-css-deprecations.js.map
+2023/07/31 10:41:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/aui/aui-prototyping-browserfocus.min.css /tmp/work/dist/aui/aui-prototyping-browserfocus.css
+2023/07/31 10:41:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/aui/aui-prototyping-darkmode.min.css /tmp/work/dist/aui/aui-prototyping-darkmode.css
+2023/07/31 10:41:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/aui/aui-prototyping.min.css /tmp/work/dist/aui/aui-prototyping.css
+2023/07/31 10:41:00 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/aui/aui-prototyping.min.js /tmp/work/dist/aui/aui-prototyping.js
+2023/07/31 10:41:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping.css.map.br /tmp/work/dist/aui/aui-prototyping.css.map
+2023/07/31 10:41:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping.js.map.br /tmp/work/dist/aui/aui-prototyping.js.map
+2023/07/31 10:41:01 br /tmp/work/dist/aui/aui-css-deprecations.js.map -> /output/aui/aui-css-deprecations.js.map.br
+2023/07/31 10:41:01 gz /tmp/work/dist/aui/aui-css-deprecations.js.map -> /output/aui/aui-css-deprecations.js.map.gz
+2023/07/31 10:41:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/aui/aui-prototyping.nodeps.min.css /tmp/work/dist/aui/aui-prototyping.nodeps.css
+2023/07/31 10:41:01 sri /tmp/work/dist/aui/aui-prototyping-darkmode.min.css -> /output/aui/aui-prototyping-darkmode.min.css.sri
+2023/07/31 10:41:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping-darkmode.min.css.br /tmp/work/dist/aui/aui-prototyping-darkmode.min.css
+2023/07/31 10:41:01 br /tmp/work/dist/aui/aui-prototyping-darkmode.min.css -> /output/aui/aui-prototyping-darkmode.min.css.br
+2023/07/31 10:41:01 gz /tmp/work/dist/aui/aui-prototyping-darkmode.min.css -> /output/aui/aui-prototyping-darkmode.min.css.gz
+2023/07/31 10:41:01 sri /tmp/work/dist/aui/aui-prototyping-darkmode.css -> /output/aui/aui-prototyping-darkmode.css.sri
+2023/07/31 10:41:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping-darkmode.css.br /tmp/work/dist/aui/aui-prototyping-darkmode.css
+2023/07/31 10:41:01 sri /tmp/work/dist/aui/aui-prototyping-browserfocus.min.css -> /output/aui/aui-prototyping-browserfocus.min.css.sri
+2023/07/31 10:41:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping-browserfocus.min.css.br /tmp/work/dist/aui/aui-prototyping-browserfocus.min.css
+2023/07/31 10:41:01 br /tmp/work/dist/aui/aui-prototyping-darkmode.css -> /output/aui/aui-prototyping-darkmode.css.br
+2023/07/31 10:41:01 gz /tmp/work/dist/aui/aui-prototyping-darkmode.css -> /output/aui/aui-prototyping-darkmode.css.gz
+2023/07/31 10:41:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping.nodeps.css.map.br /tmp/work/dist/aui/aui-prototyping.nodeps.css.map
+2023/07/31 10:41:01 br /tmp/work/dist/aui/aui-prototyping-browserfocus.min.css -> /output/aui/aui-prototyping-browserfocus.min.css.br
+2023/07/31 10:41:01 gz /tmp/work/dist/aui/aui-prototyping-browserfocus.min.css -> /output/aui/aui-prototyping-browserfocus.min.css.gz
+2023/07/31 10:41:01 sri /tmp/work/dist/aui/aui-prototyping-browserfocus.css -> /output/aui/aui-prototyping-browserfocus.css.sri
+2023/07/31 10:41:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping-browserfocus.css.br /tmp/work/dist/aui/aui-prototyping-browserfocus.css
+2023/07/31 10:41:02 br /tmp/work/dist/aui/aui-prototyping-browserfocus.css -> /output/aui/aui-prototyping-browserfocus.css.br
+2023/07/31 10:41:02 gz /tmp/work/dist/aui/aui-prototyping-browserfocus.css -> /output/aui/aui-prototyping-browserfocus.css.gz
+2023/07/31 10:41:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/aui/aui-prototyping.nodeps.min.js /tmp/work/dist/aui/aui-prototyping.nodeps.js
+2023/07/31 10:41:03 sri /tmp/work/dist/aui/aui-css-deprecations.min.js -> /output/aui/aui-css-deprecations.min.js.sri
+2023/07/31 10:41:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-css-deprecations.min.js.br /tmp/work/dist/aui/aui-css-deprecations.min.js
+2023/07/31 10:41:03 br /tmp/work/dist/aui/aui-css-deprecations.min.js -> /output/aui/aui-css-deprecations.min.js.br
+2023/07/31 10:41:03 gz /tmp/work/dist/aui/aui-css-deprecations.min.js -> /output/aui/aui-css-deprecations.min.js.gz
+2023/07/31 10:41:03 sri /tmp/work/dist/aui/aui-css-deprecations.js -> /output/aui/aui-css-deprecations.js.sri
+2023/07/31 10:41:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-css-deprecations.js.br /tmp/work/dist/aui/aui-css-deprecations.js
+2023/07/31 10:41:03 br /tmp/work/dist/aui/aui-css-deprecations.js -> /output/aui/aui-css-deprecations.js.br
+2023/07/31 10:41:03 gz /tmp/work/dist/aui/aui-css-deprecations.js -> /output/aui/aui-css-deprecations.js.gz
+2023/07/31 10:41:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping.nodeps.js.map.br /tmp/work/dist/aui/aui-prototyping.nodeps.js.map
+2023/07/31 10:41:05 sri /tmp/work/dist/aui/aui-prototyping.nodeps.min.css -> /output/aui/aui-prototyping.nodeps.min.css.sri
+2023/07/31 10:41:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping.nodeps.min.css.br /tmp/work/dist/aui/aui-prototyping.nodeps.min.css
+2023/07/31 10:41:06 sri /tmp/work/dist/aui/aui-prototyping.min.css -> /output/aui/aui-prototyping.min.css.sri
+2023/07/31 10:41:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping.min.css.br /tmp/work/dist/aui/aui-prototyping.min.css
+2023/07/31 10:41:06 br /tmp/work/dist/aui/aui-prototyping.css.map -> /output/aui/aui-prototyping.css.map.br
+2023/07/31 10:41:06 gz /tmp/work/dist/aui/aui-prototyping.css.map -> /output/aui/aui-prototyping.css.map.gz
+2023/07/31 10:41:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/fonts/adgs-icons.eot.br /tmp/work/dist/aui/fonts/adgs-icons.eot
+2023/07/31 10:41:07 br /tmp/work/dist/aui/fonts/adgs-icons.eot -> /output/aui/fonts/adgs-icons.eot.br
+2023/07/31 10:41:07 gz /tmp/work/dist/aui/fonts/adgs-icons.eot -> /output/aui/fonts/adgs-icons.eot.gz
+2023/07/31 10:41:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/fonts/adgs-icons.ttf.br /tmp/work/dist/aui/fonts/adgs-icons.ttf
+2023/07/31 10:41:08 br /tmp/work/dist/aui/aui-prototyping.nodeps.css.map -> /output/aui/aui-prototyping.nodeps.css.map.br
+2023/07/31 10:41:08 gz /tmp/work/dist/aui/aui-prototyping.nodeps.css.map -> /output/aui/aui-prototyping.nodeps.css.map.gz
+2023/07/31 10:41:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/fonts/adgs-icons.woff.br /tmp/work/dist/aui/fonts/adgs-icons.woff
+2023/07/31 10:41:08 br /tmp/work/dist/aui/aui-prototyping.nodeps.min.css -> /output/aui/aui-prototyping.nodeps.min.css.br
+2023/07/31 10:41:08 gz /tmp/work/dist/aui/aui-prototyping.nodeps.min.css -> /output/aui/aui-prototyping.nodeps.min.css.gz
+2023/07/31 10:41:08 sri /tmp/work/dist/aui/aui-prototyping.nodeps.css -> /output/aui/aui-prototyping.nodeps.css.sri
+2023/07/31 10:41:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping.nodeps.css.br /tmp/work/dist/aui/aui-prototyping.nodeps.css
+2023/07/31 10:41:08 br /tmp/work/dist/aui/fonts/adgs-icons.ttf -> /output/aui/fonts/adgs-icons.ttf.br
+2023/07/31 10:41:08 gz /tmp/work/dist/aui/fonts/adgs-icons.ttf -> /output/aui/fonts/adgs-icons.ttf.gz
+2023/07/31 10:41:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/fonts/atlassian-icons.eot.br /tmp/work/dist/aui/fonts/atlassian-icons.eot
+2023/07/31 10:41:09 br /tmp/work/dist/aui/fonts/adgs-icons.woff -> /output/aui/fonts/adgs-icons.woff.br
+2023/07/31 10:41:09 gz /tmp/work/dist/aui/fonts/adgs-icons.woff -> /output/aui/fonts/adgs-icons.woff.gz
+2023/07/31 10:41:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/fonts/atlassian-icons.ttf.br /tmp/work/dist/aui/fonts/atlassian-icons.ttf
+2023/07/31 10:41:09 br /tmp/work/dist/aui/aui-prototyping.min.css -> /output/aui/aui-prototyping.min.css.br
+2023/07/31 10:41:09 gz /tmp/work/dist/aui/aui-prototyping.min.css -> /output/aui/aui-prototyping.min.css.gz
+2023/07/31 10:41:09 sri /tmp/work/dist/aui/aui-prototyping.css -> /output/aui/aui-prototyping.css.sri
+2023/07/31 10:41:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping.css.br /tmp/work/dist/aui/aui-prototyping.css
+2023/07/31 10:41:10 br /tmp/work/dist/aui/fonts/atlassian-icons.eot -> /output/aui/fonts/atlassian-icons.eot.br
+2023/07/31 10:41:10 gz /tmp/work/dist/aui/fonts/atlassian-icons.eot -> /output/aui/fonts/atlassian-icons.eot.gz
+2023/07/31 10:41:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/fonts/atlassian-icons.woff.br /tmp/work/dist/aui/fonts/atlassian-icons.woff
+2023/07/31 10:41:10 br /tmp/work/dist/aui/fonts/atlassian-icons.ttf -> /output/aui/fonts/atlassian-icons.ttf.br
+2023/07/31 10:41:10 gz /tmp/work/dist/aui/fonts/atlassian-icons.ttf -> /output/aui/fonts/atlassian-icons.ttf.gz
+2023/07/31 10:41:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/images/adgs-icons.svg.br /tmp/work/dist/aui/images/adgs-icons.svg
+2023/07/31 10:41:11 br /tmp/work/dist/aui/fonts/atlassian-icons.woff -> /output/aui/fonts/atlassian-icons.woff.br
+2023/07/31 10:41:11 gz /tmp/work/dist/aui/fonts/atlassian-icons.woff -> /output/aui/fonts/atlassian-icons.woff.gz
+2023/07/31 10:41:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/images/atlassian-icons.svg.br /tmp/work/dist/aui/images/atlassian-icons.svg
+2023/07/31 10:41:11 br /tmp/work/dist/aui/aui-prototyping.nodeps.css -> /output/aui/aui-prototyping.nodeps.css.br
+2023/07/31 10:41:12 gz /tmp/work/dist/aui/aui-prototyping.nodeps.css -> /output/aui/aui-prototyping.nodeps.css.gz
+2023/07/31 10:41:12 br /tmp/work/dist/aui/aui-prototyping.css -> /output/aui/aui-prototyping.css.br
+2023/07/31 10:41:12 gz /tmp/work/dist/aui/aui-prototyping.css -> /output/aui/aui-prototyping.css.gz
+2023/07/31 10:41:12 br /tmp/work/dist/aui/images/atlassian-icons.svg -> /output/aui/images/atlassian-icons.svg.br
+2023/07/31 10:41:12 gz /tmp/work/dist/aui/images/atlassian-icons.svg -> /output/aui/images/atlassian-icons.svg.gz
+2023/07/31 10:41:15 br /tmp/work/dist/aui/images/adgs-icons.svg -> /output/aui/images/adgs-icons.svg.br
+2023/07/31 10:41:15 gz /tmp/work/dist/aui/images/adgs-icons.svg -> /output/aui/images/adgs-icons.svg.gz
+2023/07/31 10:41:24 br /tmp/work/dist/aui/aui-prototyping.nodeps.js.map -> /output/aui/aui-prototyping.nodeps.js.map.br
+2023/07/31 10:41:25 br /tmp/work/dist/aui/aui-prototyping.js.map -> /output/aui/aui-prototyping.js.map.br
+2023/07/31 10:41:25 gz /tmp/work/dist/aui/aui-prototyping.nodeps.js.map -> /output/aui/aui-prototyping.nodeps.js.map.gz
+2023/07/31 10:41:25 gz /tmp/work/dist/aui/aui-prototyping.js.map -> /output/aui/aui-prototyping.js.map.gz
+2023/07/31 10:41:32 sri /tmp/work/dist/aui/aui-prototyping.nodeps.min.js -> /output/aui/aui-prototyping.nodeps.min.js.sri
+2023/07/31 10:41:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping.nodeps.min.js.br /tmp/work/dist/aui/aui-prototyping.nodeps.min.js
+2023/07/31 10:41:33 sri /tmp/work/dist/aui/aui-prototyping.min.js -> /output/aui/aui-prototyping.min.js.sri
+2023/07/31 10:41:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping.min.js.br /tmp/work/dist/aui/aui-prototyping.min.js
+2023/07/31 10:41:34 br /tmp/work/dist/aui/aui-prototyping.nodeps.min.js -> /output/aui/aui-prototyping.nodeps.min.js.br
+2023/07/31 10:41:34 gz /tmp/work/dist/aui/aui-prototyping.nodeps.min.js -> /output/aui/aui-prototyping.nodeps.min.js.gz
+2023/07/31 10:41:34 sri /tmp/work/dist/aui/aui-prototyping.nodeps.js -> /output/aui/aui-prototyping.nodeps.js.sri
+2023/07/31 10:41:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping.nodeps.js.br /tmp/work/dist/aui/aui-prototyping.nodeps.js
+2023/07/31 10:41:35 br /tmp/work/dist/aui/aui-prototyping.min.js -> /output/aui/aui-prototyping.min.js.br
+2023/07/31 10:41:35 gz /tmp/work/dist/aui/aui-prototyping.min.js -> /output/aui/aui-prototyping.min.js.gz
+2023/07/31 10:41:35 sri /tmp/work/dist/aui/aui-prototyping.js -> /output/aui/aui-prototyping.js.sri
+2023/07/31 10:41:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/aui/aui-prototyping.js.br /tmp/work/dist/aui/aui-prototyping.js
+2023/07/31 10:41:35 br /tmp/work/dist/aui/aui-prototyping.nodeps.js -> /output/aui/aui-prototyping.nodeps.js.br
+2023/07/31 10:41:35 gz /tmp/work/dist/aui/aui-prototyping.nodeps.js -> /output/aui/aui-prototyping.nodeps.js.gz
+2023/07/31 10:41:36 br /tmp/work/dist/aui/aui-prototyping.js -> /output/aui/aui-prototyping.js.br
+2023/07/31 10:41:36 gz /tmp/work/dist/aui/aui-prototyping.js -> /output/aui/aui-prototyping.js.gz
+2023/07/31 10:41:36 processed aui
