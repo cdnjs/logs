@@ -1,61 +1,61 @@
-2023/05/03 22:00:34 optimizing files (Js true, Css true, Png true, Jpg true)
-2023/05/03 22:00:34 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/slimselect.cjs.min.js /tmp/work/dist/slimselect.cjs.js
-2023/05/03 22:00:34 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/slimselect.min.css /tmp/work/dist/slimselect.css
-2023/05/03 22:00:34 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/slimselect.global.min.js /tmp/work/dist/slimselect.global.js
-2023/05/03 22:00:34 /tmp/work/dist/slimselect.min.js already has corresponding compressed file
-2023/05/03 22:00:34 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/slimselect.es.min.js /tmp/work/dist/slimselect.es.js
-2023/05/03 22:00:34 /tmp/work/dist/slimselect.umd.min.js already has corresponding compressed file
-2023/05/03 22:00:34 /tmp/work/dist/slimselect.min.js is already compressed
-2023/05/03 22:00:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slimselect.css.map.br /tmp/work/dist/slimselect.css.map
-2023/05/03 22:00:34 sri /tmp/work/dist/slimselect.min.js -> /output/slimselect.min.js.sri
-2023/05/03 22:00:34 sri /tmp/work/dist/slimselect.js -> /output/slimselect.js.sri
-2023/05/03 22:00:34 sri /tmp/work/dist/slimselect.umd.js -> /output/slimselect.umd.js.sri
-2023/05/03 22:00:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slimselect.umd.js.br /tmp/work/dist/slimselect.umd.js
-2023/05/03 22:00:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slimselect.min.js.br /tmp/work/dist/slimselect.min.js
-2023/05/03 22:00:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slimselect.js.br /tmp/work/dist/slimselect.js
-2023/05/03 22:00:34 br /tmp/work/dist/slimselect.css.map -> /output/slimselect.css.map.br
-2023/05/03 22:00:34 gz /tmp/work/dist/slimselect.css.map -> /output/slimselect.css.map.gz
-2023/05/03 22:00:34 /tmp/work/dist/slimselect.umd.min.js is already compressed
-2023/05/03 22:00:34 sri /tmp/work/dist/slimselect.umd.min.js -> /output/slimselect.umd.min.js.sri
-2023/05/03 22:00:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slimselect.umd.min.js.br /tmp/work/dist/slimselect.umd.min.js
-2023/05/03 22:00:34 br /tmp/work/dist/slimselect.min.js -> /output/slimselect.min.js.br
-2023/05/03 22:00:34 gz /tmp/work/dist/slimselect.min.js -> /output/slimselect.min.js.gz
-2023/05/03 22:00:34 br /tmp/work/dist/slimselect.umd.min.js -> /output/slimselect.umd.min.js.br
-2023/05/03 22:00:34 gz /tmp/work/dist/slimselect.umd.min.js -> /output/slimselect.umd.min.js.gz
-2023/05/03 22:00:34 br /tmp/work/dist/slimselect.js -> /output/slimselect.js.br
-2023/05/03 22:00:34 br /tmp/work/dist/slimselect.umd.js -> /output/slimselect.umd.js.br
-2023/05/03 22:00:34 gz /tmp/work/dist/slimselect.js -> /output/slimselect.js.gz
-2023/05/03 22:00:34 sri /tmp/work/dist/slimselect.min.css -> /output/slimselect.min.css.sri
-2023/05/03 22:00:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slimselect.min.css.br /tmp/work/dist/slimselect.min.css
-2023/05/03 22:00:34 gz /tmp/work/dist/slimselect.umd.js -> /output/slimselect.umd.js.gz
-2023/05/03 22:00:34 br /tmp/work/dist/slimselect.min.css -> /output/slimselect.min.css.br
-2023/05/03 22:00:34 gz /tmp/work/dist/slimselect.min.css -> /output/slimselect.min.css.gz
-2023/05/03 22:00:34 sri /tmp/work/dist/slimselect.css -> /output/slimselect.css.sri
-2023/05/03 22:00:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slimselect.css.br /tmp/work/dist/slimselect.css
-2023/05/03 22:00:34 br /tmp/work/dist/slimselect.css -> /output/slimselect.css.br
-2023/05/03 22:00:34 gz /tmp/work/dist/slimselect.css -> /output/slimselect.css.gz
-2023/05/03 22:00:35 sri /tmp/work/dist/slimselect.cjs.min.js -> /output/slimselect.cjs.min.js.sri
-2023/05/03 22:00:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slimselect.cjs.min.js.br /tmp/work/dist/slimselect.cjs.min.js
-2023/05/03 22:00:35 sri /tmp/work/dist/slimselect.es.min.js -> /output/slimselect.es.min.js.sri
-2023/05/03 22:00:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slimselect.es.min.js.br /tmp/work/dist/slimselect.es.min.js
-2023/05/03 22:00:35 sri /tmp/work/dist/slimselect.global.min.js -> /output/slimselect.global.min.js.sri
-2023/05/03 22:00:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slimselect.global.min.js.br /tmp/work/dist/slimselect.global.min.js
-2023/05/03 22:00:35 br /tmp/work/dist/slimselect.cjs.min.js -> /output/slimselect.cjs.min.js.br
-2023/05/03 22:00:35 gz /tmp/work/dist/slimselect.cjs.min.js -> /output/slimselect.cjs.min.js.gz
-2023/05/03 22:00:35 sri /tmp/work/dist/slimselect.cjs.js -> /output/slimselect.cjs.js.sri
-2023/05/03 22:00:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slimselect.cjs.js.br /tmp/work/dist/slimselect.cjs.js
-2023/05/03 22:00:35 br /tmp/work/dist/slimselect.es.min.js -> /output/slimselect.es.min.js.br
-2023/05/03 22:00:35 gz /tmp/work/dist/slimselect.es.min.js -> /output/slimselect.es.min.js.gz
-2023/05/03 22:00:35 sri /tmp/work/dist/slimselect.es.js -> /output/slimselect.es.js.sri
-2023/05/03 22:00:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slimselect.es.js.br /tmp/work/dist/slimselect.es.js
-2023/05/03 22:00:35 br /tmp/work/dist/slimselect.global.min.js -> /output/slimselect.global.min.js.br
-2023/05/03 22:00:35 gz /tmp/work/dist/slimselect.global.min.js -> /output/slimselect.global.min.js.gz
-2023/05/03 22:00:35 sri /tmp/work/dist/slimselect.global.js -> /output/slimselect.global.js.sri
-2023/05/03 22:00:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slimselect.global.js.br /tmp/work/dist/slimselect.global.js
-2023/05/03 22:00:35 br /tmp/work/dist/slimselect.cjs.js -> /output/slimselect.cjs.js.br
-2023/05/03 22:00:35 gz /tmp/work/dist/slimselect.cjs.js -> /output/slimselect.cjs.js.gz
-2023/05/03 22:00:35 br /tmp/work/dist/slimselect.es.js -> /output/slimselect.es.js.br
-2023/05/03 22:00:35 gz /tmp/work/dist/slimselect.es.js -> /output/slimselect.es.js.gz
-2023/05/03 22:00:35 br /tmp/work/dist/slimselect.global.js -> /output/slimselect.global.js.br
-2023/05/03 22:00:35 gz /tmp/work/dist/slimselect.global.js -> /output/slimselect.global.js.gz
-2023/05/03 22:00:35 processed slim-select
+2023/07/31 11:56:58 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/31 11:56:59 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/slimselect.cjs.min.js /tmp/work/dist/slimselect.cjs.js
+2023/07/31 11:56:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slimselect.css.map.br /tmp/work/dist/slimselect.css.map
+2023/07/31 11:56:59 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/slimselect.global.min.js /tmp/work/dist/slimselect.global.js
+2023/07/31 11:56:59 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/slimselect.es.min.js /tmp/work/dist/slimselect.es.js
+2023/07/31 11:56:59 /tmp/work/dist/slimselect.min.js already has corresponding compressed file
+2023/07/31 11:56:59 sri /tmp/work/dist/slimselect.js -> /output/slimselect.js.sri
+2023/07/31 11:56:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slimselect.js.br /tmp/work/dist/slimselect.js
+2023/07/31 11:56:59 /tmp/work/dist/slimselect.min.js is already compressed
+2023/07/31 11:56:59 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/slimselect.min.css /tmp/work/dist/slimselect.css
+2023/07/31 11:56:59 sri /tmp/work/dist/slimselect.min.js -> /output/slimselect.min.js.sri
+2023/07/31 11:56:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slimselect.min.js.br /tmp/work/dist/slimselect.min.js
+2023/07/31 11:56:59 /tmp/work/dist/slimselect.umd.min.js already has corresponding compressed file
+2023/07/31 11:56:59 sri /tmp/work/dist/slimselect.umd.js -> /output/slimselect.umd.js.sri
+2023/07/31 11:56:59 br /tmp/work/dist/slimselect.css.map -> /output/slimselect.css.map.br
+2023/07/31 11:56:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slimselect.umd.js.br /tmp/work/dist/slimselect.umd.js
+2023/07/31 11:56:59 gz /tmp/work/dist/slimselect.css.map -> /output/slimselect.css.map.gz
+2023/07/31 11:56:59 /tmp/work/dist/slimselect.umd.min.js is already compressed
+2023/07/31 11:56:59 sri /tmp/work/dist/slimselect.umd.min.js -> /output/slimselect.umd.min.js.sri
+2023/07/31 11:56:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slimselect.umd.min.js.br /tmp/work/dist/slimselect.umd.min.js
+2023/07/31 11:56:59 br /tmp/work/dist/slimselect.min.js -> /output/slimselect.min.js.br
+2023/07/31 11:56:59 gz /tmp/work/dist/slimselect.min.js -> /output/slimselect.min.js.gz
+2023/07/31 11:56:59 br /tmp/work/dist/slimselect.umd.min.js -> /output/slimselect.umd.min.js.br
+2023/07/31 11:56:59 gz /tmp/work/dist/slimselect.umd.min.js -> /output/slimselect.umd.min.js.gz
+2023/07/31 11:56:59 sri /tmp/work/dist/slimselect.min.css -> /output/slimselect.min.css.sri
+2023/07/31 11:56:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slimselect.min.css.br /tmp/work/dist/slimselect.min.css
+2023/07/31 11:57:00 br /tmp/work/dist/slimselect.js -> /output/slimselect.js.br
+2023/07/31 11:57:00 br /tmp/work/dist/slimselect.min.css -> /output/slimselect.min.css.br
+2023/07/31 11:57:00 gz /tmp/work/dist/slimselect.min.css -> /output/slimselect.min.css.gz
+2023/07/31 11:57:00 sri /tmp/work/dist/slimselect.css -> /output/slimselect.css.sri
+2023/07/31 11:57:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slimselect.css.br /tmp/work/dist/slimselect.css
+2023/07/31 11:57:00 gz /tmp/work/dist/slimselect.js -> /output/slimselect.js.gz
+2023/07/31 11:57:00 br /tmp/work/dist/slimselect.css -> /output/slimselect.css.br
+2023/07/31 11:57:00 gz /tmp/work/dist/slimselect.css -> /output/slimselect.css.gz
+2023/07/31 11:57:00 br /tmp/work/dist/slimselect.umd.js -> /output/slimselect.umd.js.br
+2023/07/31 11:57:00 gz /tmp/work/dist/slimselect.umd.js -> /output/slimselect.umd.js.gz
+2023/07/31 11:57:02 sri /tmp/work/dist/slimselect.cjs.min.js -> /output/slimselect.cjs.min.js.sri
+2023/07/31 11:57:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slimselect.cjs.min.js.br /tmp/work/dist/slimselect.cjs.min.js
+2023/07/31 11:57:02 sri /tmp/work/dist/slimselect.es.min.js -> /output/slimselect.es.min.js.sri
+2023/07/31 11:57:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slimselect.es.min.js.br /tmp/work/dist/slimselect.es.min.js
+2023/07/31 11:57:02 br /tmp/work/dist/slimselect.cjs.min.js -> /output/slimselect.cjs.min.js.br
+2023/07/31 11:57:02 gz /tmp/work/dist/slimselect.cjs.min.js -> /output/slimselect.cjs.min.js.gz
+2023/07/31 11:57:02 sri /tmp/work/dist/slimselect.cjs.js -> /output/slimselect.cjs.js.sri
+2023/07/31 11:57:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slimselect.cjs.js.br /tmp/work/dist/slimselect.cjs.js
+2023/07/31 11:57:02 br /tmp/work/dist/slimselect.es.min.js -> /output/slimselect.es.min.js.br
+2023/07/31 11:57:02 gz /tmp/work/dist/slimselect.es.min.js -> /output/slimselect.es.min.js.gz
+2023/07/31 11:57:02 sri /tmp/work/dist/slimselect.es.js -> /output/slimselect.es.js.sri
+2023/07/31 11:57:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slimselect.es.js.br /tmp/work/dist/slimselect.es.js
+2023/07/31 11:57:02 sri /tmp/work/dist/slimselect.global.min.js -> /output/slimselect.global.min.js.sri
+2023/07/31 11:57:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slimselect.global.min.js.br /tmp/work/dist/slimselect.global.min.js
+2023/07/31 11:57:02 br /tmp/work/dist/slimselect.es.js -> /output/slimselect.es.js.br
+2023/07/31 11:57:02 br /tmp/work/dist/slimselect.global.min.js -> /output/slimselect.global.min.js.br
+2023/07/31 11:57:02 gz /tmp/work/dist/slimselect.es.js -> /output/slimselect.es.js.gz
+2023/07/31 11:57:02 gz /tmp/work/dist/slimselect.global.min.js -> /output/slimselect.global.min.js.gz
+2023/07/31 11:57:02 sri /tmp/work/dist/slimselect.global.js -> /output/slimselect.global.js.sri
+2023/07/31 11:57:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slimselect.global.js.br /tmp/work/dist/slimselect.global.js
+2023/07/31 11:57:03 br /tmp/work/dist/slimselect.cjs.js -> /output/slimselect.cjs.js.br
+2023/07/31 11:57:03 gz /tmp/work/dist/slimselect.cjs.js -> /output/slimselect.cjs.js.gz
+2023/07/31 11:57:03 br /tmp/work/dist/slimselect.global.js -> /output/slimselect.global.js.br
+2023/07/31 11:57:03 gz /tmp/work/dist/slimselect.global.js -> /output/slimselect.global.js.gz
+2023/07/31 11:57:03 processed slim-select
