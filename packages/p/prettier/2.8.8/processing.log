@@ -1,119 +1,119 @@
-2023/04/23 08:53:29 optimizing files (Js true, Css true, Png true, Jpg true)
-2023/04/23 08:53:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/standalone.min.js /tmp/work/standalone.js
-2023/04/23 08:53:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/parser-angular.min.js /tmp/work/parser-angular.js
-2023/04/23 08:53:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/parser-babel.min.js /tmp/work/parser-babel.js
-2023/04/23 08:53:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/parser-glimmer.min.js /tmp/work/parser-glimmer.js
-2023/04/23 08:53:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/parser-flow.min.js /tmp/work/parser-flow.js
-2023/04/23 08:53:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/parser-graphql.min.js /tmp/work/parser-graphql.js
-2023/04/23 08:53:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/parser-espree.min.js /tmp/work/parser-espree.js
-2023/04/23 08:53:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/parser-html.min.js /tmp/work/parser-html.js
-2023/04/23 08:53:32 sri /tmp/work/parser-graphql.min.js -> /output/parser-graphql.min.js.sri
-2023/04/23 08:53:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-graphql.min.js.br /tmp/work/parser-graphql.min.js
-2023/04/23 08:53:32 br /tmp/work/parser-graphql.min.js -> /output/parser-graphql.min.js.br
-2023/04/23 08:53:32 gz /tmp/work/parser-graphql.min.js -> /output/parser-graphql.min.js.gz
-2023/04/23 08:53:32 sri /tmp/work/parser-graphql.js -> /output/parser-graphql.js.sri
-2023/04/23 08:53:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-graphql.js.br /tmp/work/parser-graphql.js
-2023/04/23 08:53:32 br /tmp/work/parser-graphql.js -> /output/parser-graphql.js.br
-2023/04/23 08:53:32 gz /tmp/work/parser-graphql.js -> /output/parser-graphql.js.gz
-2023/04/23 08:53:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/parser-markdown.min.js /tmp/work/parser-markdown.js
-2023/04/23 08:53:33 sri /tmp/work/parser-angular.min.js -> /output/parser-angular.min.js.sri
-2023/04/23 08:53:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-angular.min.js.br /tmp/work/parser-angular.min.js
-2023/04/23 08:53:33 br /tmp/work/parser-angular.min.js -> /output/parser-angular.min.js.br
-2023/04/23 08:53:33 gz /tmp/work/parser-angular.min.js -> /output/parser-angular.min.js.gz
-2023/04/23 08:53:33 sri /tmp/work/parser-angular.js -> /output/parser-angular.js.sri
-2023/04/23 08:53:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-angular.js.br /tmp/work/parser-angular.js
-2023/04/23 08:53:33 br /tmp/work/parser-angular.js -> /output/parser-angular.js.br
-2023/04/23 08:53:33 gz /tmp/work/parser-angular.js -> /output/parser-angular.js.gz
-2023/04/23 08:53:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/parser-meriyah.min.js /tmp/work/parser-meriyah.js
-2023/04/23 08:53:36 sri /tmp/work/parser-html.min.js -> /output/parser-html.min.js.sri
-2023/04/23 08:53:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-html.min.js.br /tmp/work/parser-html.min.js
-2023/04/23 08:53:36 br /tmp/work/parser-html.min.js -> /output/parser-html.min.js.br
-2023/04/23 08:53:36 gz /tmp/work/parser-html.min.js -> /output/parser-html.min.js.gz
-2023/04/23 08:53:36 sri /tmp/work/parser-html.js -> /output/parser-html.js.sri
-2023/04/23 08:53:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-html.js.br /tmp/work/parser-html.js
-2023/04/23 08:53:37 sri /tmp/work/parser-espree.min.js -> /output/parser-espree.min.js.sri
-2023/04/23 08:53:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-espree.min.js.br /tmp/work/parser-espree.min.js
-2023/04/23 08:53:37 br /tmp/work/parser-html.js -> /output/parser-html.js.br
-2023/04/23 08:53:37 gz /tmp/work/parser-html.js -> /output/parser-html.js.gz
-2023/04/23 08:53:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/parser-postcss.min.js /tmp/work/parser-postcss.js
-2023/04/23 08:53:37 sri /tmp/work/parser-glimmer.min.js -> /output/parser-glimmer.min.js.sri
-2023/04/23 08:53:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-glimmer.min.js.br /tmp/work/parser-glimmer.min.js
-2023/04/23 08:53:37 br /tmp/work/parser-espree.min.js -> /output/parser-espree.min.js.br
-2023/04/23 08:53:37 gz /tmp/work/parser-espree.min.js -> /output/parser-espree.min.js.gz
-2023/04/23 08:53:37 sri /tmp/work/parser-espree.js -> /output/parser-espree.js.sri
-2023/04/23 08:53:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-espree.js.br /tmp/work/parser-espree.js
-2023/04/23 08:53:38 br /tmp/work/parser-glimmer.min.js -> /output/parser-glimmer.min.js.br
-2023/04/23 08:53:38 br /tmp/work/parser-espree.js -> /output/parser-espree.js.br
-2023/04/23 08:53:38 gz /tmp/work/parser-glimmer.min.js -> /output/parser-glimmer.min.js.gz
-2023/04/23 08:53:38 sri /tmp/work/parser-glimmer.js -> /output/parser-glimmer.js.sri
-2023/04/23 08:53:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-glimmer.js.br /tmp/work/parser-glimmer.js
-2023/04/23 08:53:38 gz /tmp/work/parser-espree.js -> /output/parser-espree.js.gz
-2023/04/23 08:53:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/parser-typescript.min.js /tmp/work/parser-typescript.js
-2023/04/23 08:53:39 br /tmp/work/parser-glimmer.js -> /output/parser-glimmer.js.br
-2023/04/23 08:53:39 gz /tmp/work/parser-glimmer.js -> /output/parser-glimmer.js.gz
-2023/04/23 08:53:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/parser-yaml.min.js /tmp/work/parser-yaml.js
-2023/04/23 08:53:41 sri /tmp/work/parser-markdown.min.js -> /output/parser-markdown.min.js.sri
-2023/04/23 08:53:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-markdown.min.js.br /tmp/work/parser-markdown.min.js
-2023/04/23 08:53:41 sri /tmp/work/parser-babel.min.js -> /output/parser-babel.min.js.sri
-2023/04/23 08:53:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-babel.min.js.br /tmp/work/parser-babel.min.js
-2023/04/23 08:53:42 br /tmp/work/parser-markdown.min.js -> /output/parser-markdown.min.js.br
-2023/04/23 08:53:42 gz /tmp/work/parser-markdown.min.js -> /output/parser-markdown.min.js.gz
-2023/04/23 08:53:42 sri /tmp/work/parser-markdown.js -> /output/parser-markdown.js.sri
-2023/04/23 08:53:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-markdown.js.br /tmp/work/parser-markdown.js
-2023/04/23 08:53:42 br /tmp/work/parser-markdown.js -> /output/parser-markdown.js.br
-2023/04/23 08:53:42 gz /tmp/work/parser-markdown.js -> /output/parser-markdown.js.gz
-2023/04/23 08:53:43 br /tmp/work/parser-babel.min.js -> /output/parser-babel.min.js.br
-2023/04/23 08:53:43 gz /tmp/work/parser-babel.min.js -> /output/parser-babel.min.js.gz
-2023/04/23 08:53:43 sri /tmp/work/parser-babel.js -> /output/parser-babel.js.sri
-2023/04/23 08:53:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-babel.js.br /tmp/work/parser-babel.js
-2023/04/23 08:53:43 sri /tmp/work/parser-meriyah.min.js -> /output/parser-meriyah.min.js.sri
-2023/04/23 08:53:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-meriyah.min.js.br /tmp/work/parser-meriyah.min.js
-2023/04/23 08:53:43 br /tmp/work/parser-meriyah.min.js -> /output/parser-meriyah.min.js.br
-2023/04/23 08:53:43 gz /tmp/work/parser-meriyah.min.js -> /output/parser-meriyah.min.js.gz
-2023/04/23 08:53:43 sri /tmp/work/parser-meriyah.js -> /output/parser-meriyah.js.sri
-2023/04/23 08:53:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-meriyah.js.br /tmp/work/parser-meriyah.js
-2023/04/23 08:53:44 br /tmp/work/parser-babel.js -> /output/parser-babel.js.br
-2023/04/23 08:53:44 gz /tmp/work/parser-babel.js -> /output/parser-babel.js.gz
-2023/04/23 08:53:44 br /tmp/work/parser-meriyah.js -> /output/parser-meriyah.js.br
-2023/04/23 08:53:44 gz /tmp/work/parser-meriyah.js -> /output/parser-meriyah.js.gz
-2023/04/23 08:53:45 sri /tmp/work/standalone.min.js -> /output/standalone.min.js.sri
-2023/04/23 08:53:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/standalone.min.js.br /tmp/work/standalone.min.js
-2023/04/23 08:53:46 sri /tmp/work/parser-yaml.min.js -> /output/parser-yaml.min.js.sri
-2023/04/23 08:53:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-yaml.min.js.br /tmp/work/parser-yaml.min.js
-2023/04/23 08:53:46 br /tmp/work/parser-yaml.min.js -> /output/parser-yaml.min.js.br
-2023/04/23 08:53:46 gz /tmp/work/parser-yaml.min.js -> /output/parser-yaml.min.js.gz
-2023/04/23 08:53:46 sri /tmp/work/parser-yaml.js -> /output/parser-yaml.js.sri
-2023/04/23 08:53:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-yaml.js.br /tmp/work/parser-yaml.js
-2023/04/23 08:53:46 sri /tmp/work/parser-postcss.min.js -> /output/parser-postcss.min.js.sri
-2023/04/23 08:53:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-postcss.min.js.br /tmp/work/parser-postcss.min.js
-2023/04/23 08:53:47 br /tmp/work/parser-yaml.js -> /output/parser-yaml.js.br
-2023/04/23 08:53:47 gz /tmp/work/parser-yaml.js -> /output/parser-yaml.js.gz
-2023/04/23 08:53:47 br /tmp/work/parser-postcss.min.js -> /output/parser-postcss.min.js.br
-2023/04/23 08:53:47 br /tmp/work/standalone.min.js -> /output/standalone.min.js.br
-2023/04/23 08:53:47 gz /tmp/work/parser-postcss.min.js -> /output/parser-postcss.min.js.gz
-2023/04/23 08:53:47 sri /tmp/work/parser-postcss.js -> /output/parser-postcss.js.sri
-2023/04/23 08:53:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-postcss.js.br /tmp/work/parser-postcss.js
-2023/04/23 08:53:47 gz /tmp/work/standalone.min.js -> /output/standalone.min.js.gz
-2023/04/23 08:53:47 sri /tmp/work/standalone.js -> /output/standalone.js.sri
-2023/04/23 08:53:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/standalone.js.br /tmp/work/standalone.js
-2023/04/23 08:53:47 br /tmp/work/parser-postcss.js -> /output/parser-postcss.js.br
-2023/04/23 08:53:47 gz /tmp/work/parser-postcss.js -> /output/parser-postcss.js.gz
-2023/04/23 08:53:48 br /tmp/work/standalone.js -> /output/standalone.js.br
-2023/04/23 08:53:48 gz /tmp/work/standalone.js -> /output/standalone.js.gz
-2023/04/23 08:53:57 sri /tmp/work/parser-typescript.min.js -> /output/parser-typescript.min.js.sri
-2023/04/23 08:53:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-typescript.min.js.br /tmp/work/parser-typescript.min.js
-2023/04/23 08:54:00 br /tmp/work/parser-typescript.min.js -> /output/parser-typescript.min.js.br
-2023/04/23 08:54:00 gz /tmp/work/parser-typescript.min.js -> /output/parser-typescript.min.js.gz
-2023/04/23 08:54:00 sri /tmp/work/parser-typescript.js -> /output/parser-typescript.js.sri
-2023/04/23 08:54:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-typescript.js.br /tmp/work/parser-typescript.js
-2023/04/23 08:54:03 br /tmp/work/parser-typescript.js -> /output/parser-typescript.js.br
-2023/04/23 08:54:03 gz /tmp/work/parser-typescript.js -> /output/parser-typescript.js.gz
-2023/04/23 08:54:13 sri /tmp/work/parser-flow.min.js -> /output/parser-flow.min.js.sri
-2023/04/23 08:54:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-flow.min.js.br /tmp/work/parser-flow.min.js
-2023/04/23 08:54:15 br /tmp/work/parser-flow.min.js -> /output/parser-flow.min.js.br
-2023/04/23 08:54:15 gz /tmp/work/parser-flow.min.js -> /output/parser-flow.min.js.gz
-2023/04/23 08:54:15 sri /tmp/work/parser-flow.js -> /output/parser-flow.js.sri
-2023/04/23 08:54:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-flow.js.br /tmp/work/parser-flow.js
-2023/04/23 08:54:18 br /tmp/work/parser-flow.js -> /output/parser-flow.js.br
-2023/04/23 08:54:18 gz /tmp/work/parser-flow.js -> /output/parser-flow.js.gz
-2023/04/23 08:54:18 processed prettier
+2023/07/31 12:54:03 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/31 12:54:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/standalone.min.js /tmp/work/standalone.js
+2023/07/31 12:54:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/parser-angular.min.js /tmp/work/parser-angular.js
+2023/07/31 12:54:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/parser-babel.min.js /tmp/work/parser-babel.js
+2023/07/31 12:54:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/parser-espree.min.js /tmp/work/parser-espree.js
+2023/07/31 12:54:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/parser-flow.min.js /tmp/work/parser-flow.js
+2023/07/31 12:54:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/parser-glimmer.min.js /tmp/work/parser-glimmer.js
+2023/07/31 12:54:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/parser-graphql.min.js /tmp/work/parser-graphql.js
+2023/07/31 12:54:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/parser-html.min.js /tmp/work/parser-html.js
+2023/07/31 12:54:13 sri /tmp/work/parser-graphql.min.js -> /output/parser-graphql.min.js.sri
+2023/07/31 12:54:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-graphql.min.js.br /tmp/work/parser-graphql.min.js
+2023/07/31 12:54:14 br /tmp/work/parser-graphql.min.js -> /output/parser-graphql.min.js.br
+2023/07/31 12:54:14 gz /tmp/work/parser-graphql.min.js -> /output/parser-graphql.min.js.gz
+2023/07/31 12:54:14 sri /tmp/work/parser-graphql.js -> /output/parser-graphql.js.sri
+2023/07/31 12:54:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-graphql.js.br /tmp/work/parser-graphql.js
+2023/07/31 12:54:14 br /tmp/work/parser-graphql.js -> /output/parser-graphql.js.br
+2023/07/31 12:54:14 gz /tmp/work/parser-graphql.js -> /output/parser-graphql.js.gz
+2023/07/31 12:54:14 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/parser-markdown.min.js /tmp/work/parser-markdown.js
+2023/07/31 12:54:17 sri /tmp/work/parser-angular.min.js -> /output/parser-angular.min.js.sri
+2023/07/31 12:54:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-angular.min.js.br /tmp/work/parser-angular.min.js
+2023/07/31 12:54:18 br /tmp/work/parser-angular.min.js -> /output/parser-angular.min.js.br
+2023/07/31 12:54:18 gz /tmp/work/parser-angular.min.js -> /output/parser-angular.min.js.gz
+2023/07/31 12:54:18 sri /tmp/work/parser-angular.js -> /output/parser-angular.js.sri
+2023/07/31 12:54:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-angular.js.br /tmp/work/parser-angular.js
+2023/07/31 12:54:19 br /tmp/work/parser-angular.js -> /output/parser-angular.js.br
+2023/07/31 12:54:19 gz /tmp/work/parser-angular.js -> /output/parser-angular.js.gz
+2023/07/31 12:54:19 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/parser-meriyah.min.js /tmp/work/parser-meriyah.js
+2023/07/31 12:54:26 sri /tmp/work/parser-html.min.js -> /output/parser-html.min.js.sri
+2023/07/31 12:54:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-html.min.js.br /tmp/work/parser-html.min.js
+2023/07/31 12:54:26 sri /tmp/work/parser-espree.min.js -> /output/parser-espree.min.js.sri
+2023/07/31 12:54:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-espree.min.js.br /tmp/work/parser-espree.min.js
+2023/07/31 12:54:28 br /tmp/work/parser-espree.min.js -> /output/parser-espree.min.js.br
+2023/07/31 12:54:28 gz /tmp/work/parser-espree.min.js -> /output/parser-espree.min.js.gz
+2023/07/31 12:54:28 sri /tmp/work/parser-espree.js -> /output/parser-espree.js.sri
+2023/07/31 12:54:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-espree.js.br /tmp/work/parser-espree.js
+2023/07/31 12:54:29 br /tmp/work/parser-html.min.js -> /output/parser-html.min.js.br
+2023/07/31 12:54:29 gz /tmp/work/parser-html.min.js -> /output/parser-html.min.js.gz
+2023/07/31 12:54:29 sri /tmp/work/parser-html.js -> /output/parser-html.js.sri
+2023/07/31 12:54:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-html.js.br /tmp/work/parser-html.js
+2023/07/31 12:54:31 br /tmp/work/parser-espree.js -> /output/parser-espree.js.br
+2023/07/31 12:54:31 gz /tmp/work/parser-espree.js -> /output/parser-espree.js.gz
+2023/07/31 12:54:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/parser-postcss.min.js /tmp/work/parser-postcss.js
+2023/07/31 12:54:32 br /tmp/work/parser-html.js -> /output/parser-html.js.br
+2023/07/31 12:54:32 gz /tmp/work/parser-html.js -> /output/parser-html.js.gz
+2023/07/31 12:54:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/parser-typescript.min.js /tmp/work/parser-typescript.js
+2023/07/31 12:54:33 sri /tmp/work/parser-glimmer.min.js -> /output/parser-glimmer.min.js.sri
+2023/07/31 12:54:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-glimmer.min.js.br /tmp/work/parser-glimmer.min.js
+2023/07/31 12:54:37 br /tmp/work/parser-glimmer.min.js -> /output/parser-glimmer.min.js.br
+2023/07/31 12:54:37 gz /tmp/work/parser-glimmer.min.js -> /output/parser-glimmer.min.js.gz
+2023/07/31 12:54:37 sri /tmp/work/parser-glimmer.js -> /output/parser-glimmer.js.sri
+2023/07/31 12:54:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-glimmer.js.br /tmp/work/parser-glimmer.js
+2023/07/31 12:54:41 br /tmp/work/parser-glimmer.js -> /output/parser-glimmer.js.br
+2023/07/31 12:54:41 gz /tmp/work/parser-glimmer.js -> /output/parser-glimmer.js.gz
+2023/07/31 12:54:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/parser-yaml.min.js /tmp/work/parser-yaml.js
+2023/07/31 12:54:48 sri /tmp/work/parser-babel.min.js -> /output/parser-babel.min.js.sri
+2023/07/31 12:54:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-babel.min.js.br /tmp/work/parser-babel.min.js
+2023/07/31 12:54:49 sri /tmp/work/parser-markdown.min.js -> /output/parser-markdown.min.js.sri
+2023/07/31 12:54:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-markdown.min.js.br /tmp/work/parser-markdown.min.js
+2023/07/31 12:54:52 br /tmp/work/parser-markdown.min.js -> /output/parser-markdown.min.js.br
+2023/07/31 12:54:52 gz /tmp/work/parser-markdown.min.js -> /output/parser-markdown.min.js.gz
+2023/07/31 12:54:52 sri /tmp/work/parser-markdown.js -> /output/parser-markdown.js.sri
+2023/07/31 12:54:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-markdown.js.br /tmp/work/parser-markdown.js
+2023/07/31 12:54:53 sri /tmp/work/parser-meriyah.min.js -> /output/parser-meriyah.min.js.sri
+2023/07/31 12:54:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-meriyah.min.js.br /tmp/work/parser-meriyah.min.js
+2023/07/31 12:54:54 br /tmp/work/parser-babel.min.js -> /output/parser-babel.min.js.br
+2023/07/31 12:54:55 gz /tmp/work/parser-babel.min.js -> /output/parser-babel.min.js.gz
+2023/07/31 12:54:55 sri /tmp/work/parser-babel.js -> /output/parser-babel.js.sri
+2023/07/31 12:54:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-babel.js.br /tmp/work/parser-babel.js
+2023/07/31 12:54:56 br /tmp/work/parser-markdown.js -> /output/parser-markdown.js.br
+2023/07/31 12:54:56 gz /tmp/work/parser-markdown.js -> /output/parser-markdown.js.gz
+2023/07/31 12:54:56 br /tmp/work/parser-meriyah.min.js -> /output/parser-meriyah.min.js.br
+2023/07/31 12:54:56 gz /tmp/work/parser-meriyah.min.js -> /output/parser-meriyah.min.js.gz
+2023/07/31 12:54:56 sri /tmp/work/parser-meriyah.js -> /output/parser-meriyah.js.sri
+2023/07/31 12:54:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-meriyah.js.br /tmp/work/parser-meriyah.js
+2023/07/31 12:54:59 br /tmp/work/parser-meriyah.js -> /output/parser-meriyah.js.br
+2023/07/31 12:54:59 gz /tmp/work/parser-meriyah.js -> /output/parser-meriyah.js.gz
+2023/07/31 12:55:01 br /tmp/work/parser-babel.js -> /output/parser-babel.js.br
+2023/07/31 12:55:01 gz /tmp/work/parser-babel.js -> /output/parser-babel.js.gz
+2023/07/31 12:55:04 sri /tmp/work/parser-postcss.min.js -> /output/parser-postcss.min.js.sri
+2023/07/31 12:55:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-postcss.min.js.br /tmp/work/parser-postcss.min.js
+2023/07/31 12:55:04 sri /tmp/work/standalone.min.js -> /output/standalone.min.js.sri
+2023/07/31 12:55:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/standalone.min.js.br /tmp/work/standalone.min.js
+2023/07/31 12:55:05 br /tmp/work/parser-postcss.min.js -> /output/parser-postcss.min.js.br
+2023/07/31 12:55:05 gz /tmp/work/parser-postcss.min.js -> /output/parser-postcss.min.js.gz
+2023/07/31 12:55:05 sri /tmp/work/parser-postcss.js -> /output/parser-postcss.js.sri
+2023/07/31 12:55:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-postcss.js.br /tmp/work/parser-postcss.js
+2023/07/31 12:55:06 sri /tmp/work/parser-yaml.min.js -> /output/parser-yaml.min.js.sri
+2023/07/31 12:55:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-yaml.min.js.br /tmp/work/parser-yaml.min.js
+2023/07/31 12:55:07 br /tmp/work/parser-postcss.js -> /output/parser-postcss.js.br
+2023/07/31 12:55:07 gz /tmp/work/parser-postcss.js -> /output/parser-postcss.js.gz
+2023/07/31 12:55:07 br /tmp/work/parser-yaml.min.js -> /output/parser-yaml.min.js.br
+2023/07/31 12:55:07 gz /tmp/work/parser-yaml.min.js -> /output/parser-yaml.min.js.gz
+2023/07/31 12:55:07 sri /tmp/work/parser-yaml.js -> /output/parser-yaml.js.sri
+2023/07/31 12:55:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-yaml.js.br /tmp/work/parser-yaml.js
+2023/07/31 12:55:08 br /tmp/work/parser-yaml.js -> /output/parser-yaml.js.br
+2023/07/31 12:55:08 gz /tmp/work/parser-yaml.js -> /output/parser-yaml.js.gz
+2023/07/31 12:55:08 br /tmp/work/standalone.min.js -> /output/standalone.min.js.br
+2023/07/31 12:55:08 gz /tmp/work/standalone.min.js -> /output/standalone.min.js.gz
+2023/07/31 12:55:08 sri /tmp/work/standalone.js -> /output/standalone.js.sri
+2023/07/31 12:55:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/standalone.js.br /tmp/work/standalone.js
+2023/07/31 12:55:12 br /tmp/work/standalone.js -> /output/standalone.js.br
+2023/07/31 12:55:12 gz /tmp/work/standalone.js -> /output/standalone.js.gz
+2023/07/31 12:55:29 sri /tmp/work/parser-typescript.min.js -> /output/parser-typescript.min.js.sri
+2023/07/31 12:55:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-typescript.min.js.br /tmp/work/parser-typescript.min.js
+2023/07/31 12:55:33 br /tmp/work/parser-typescript.min.js -> /output/parser-typescript.min.js.br
+2023/07/31 12:55:33 gz /tmp/work/parser-typescript.min.js -> /output/parser-typescript.min.js.gz
+2023/07/31 12:55:33 sri /tmp/work/parser-typescript.js -> /output/parser-typescript.js.sri
+2023/07/31 12:55:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-typescript.js.br /tmp/work/parser-typescript.js
+2023/07/31 12:55:38 br /tmp/work/parser-typescript.js -> /output/parser-typescript.js.br
+2023/07/31 12:55:38 gz /tmp/work/parser-typescript.js -> /output/parser-typescript.js.gz
+2023/07/31 12:55:55 sri /tmp/work/parser-flow.min.js -> /output/parser-flow.min.js.sri
+2023/07/31 12:55:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-flow.min.js.br /tmp/work/parser-flow.min.js
+2023/07/31 12:55:58 br /tmp/work/parser-flow.min.js -> /output/parser-flow.min.js.br
+2023/07/31 12:55:58 gz /tmp/work/parser-flow.min.js -> /output/parser-flow.min.js.gz
+2023/07/31 12:55:58 sri /tmp/work/parser-flow.js -> /output/parser-flow.js.sri
+2023/07/31 12:55:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parser-flow.js.br /tmp/work/parser-flow.js
+2023/07/31 12:56:01 br /tmp/work/parser-flow.js -> /output/parser-flow.js.br
+2023/07/31 12:56:01 gz /tmp/work/parser-flow.js -> /output/parser-flow.js.gz
+2023/07/31 12:56:01 processed prettier
