@@ -1,47 +1,47 @@
-2023/05/24 21:00:22 optimizing files (Js true, Css true, Png true, Jpg true)
-2023/05/24 21:00:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/algoliasearch-lite.esm.browser.min.js /tmp/work/dist/algoliasearch-lite.esm.browser.js
-2023/05/24 21:00:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/algoliasearch-lite.umd.min.js /tmp/work/dist/algoliasearch-lite.umd.js
-2023/05/24 21:00:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/algoliasearch.cjs.min.js /tmp/work/dist/algoliasearch.cjs.js
-2023/05/24 21:00:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/algoliasearch.esm.browser.min.js /tmp/work/dist/algoliasearch.esm.browser.js
-2023/05/24 21:00:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/algoliasearch.umd.min.js /tmp/work/dist/algoliasearch.umd.js
-2023/05/24 21:00:22 sri /tmp/work/dist/algoliasearch.cjs.min.js -> /output/algoliasearch.cjs.min.js.sri
-2023/05/24 21:00:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/algoliasearch.cjs.min.js.br /tmp/work/dist/algoliasearch.cjs.min.js
-2023/05/24 21:00:22 br /tmp/work/dist/algoliasearch.cjs.min.js -> /output/algoliasearch.cjs.min.js.br
-2023/05/24 21:00:22 gz /tmp/work/dist/algoliasearch.cjs.min.js -> /output/algoliasearch.cjs.min.js.gz
-2023/05/24 21:00:22 sri /tmp/work/dist/algoliasearch.cjs.js -> /output/algoliasearch.cjs.js.sri
-2023/05/24 21:00:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/algoliasearch.cjs.js.br /tmp/work/dist/algoliasearch.cjs.js
-2023/05/24 21:00:22 br /tmp/work/dist/algoliasearch.cjs.js -> /output/algoliasearch.cjs.js.br
-2023/05/24 21:00:22 gz /tmp/work/dist/algoliasearch.cjs.js -> /output/algoliasearch.cjs.js.gz
-2023/05/24 21:00:22 sri /tmp/work/dist/algoliasearch-lite.esm.browser.min.js -> /output/algoliasearch-lite.esm.browser.min.js.sri
-2023/05/24 21:00:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/algoliasearch-lite.esm.browser.min.js.br /tmp/work/dist/algoliasearch-lite.esm.browser.min.js
-2023/05/24 21:00:22 br /tmp/work/dist/algoliasearch-lite.esm.browser.min.js -> /output/algoliasearch-lite.esm.browser.min.js.br
-2023/05/24 21:00:22 gz /tmp/work/dist/algoliasearch-lite.esm.browser.min.js -> /output/algoliasearch-lite.esm.browser.min.js.gz
-2023/05/24 21:00:22 sri /tmp/work/dist/algoliasearch-lite.esm.browser.js -> /output/algoliasearch-lite.esm.browser.js.sri
-2023/05/24 21:00:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/algoliasearch-lite.esm.browser.js.br /tmp/work/dist/algoliasearch-lite.esm.browser.js
-2023/05/24 21:00:22 br /tmp/work/dist/algoliasearch-lite.esm.browser.js -> /output/algoliasearch-lite.esm.browser.js.br
-2023/05/24 21:00:22 gz /tmp/work/dist/algoliasearch-lite.esm.browser.js -> /output/algoliasearch-lite.esm.browser.js.gz
-2023/05/24 21:00:23 sri /tmp/work/dist/algoliasearch-lite.umd.min.js -> /output/algoliasearch-lite.umd.min.js.sri
-2023/05/24 21:00:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/algoliasearch-lite.umd.min.js.br /tmp/work/dist/algoliasearch-lite.umd.min.js
-2023/05/24 21:00:23 br /tmp/work/dist/algoliasearch-lite.umd.min.js -> /output/algoliasearch-lite.umd.min.js.br
-2023/05/24 21:00:23 gz /tmp/work/dist/algoliasearch-lite.umd.min.js -> /output/algoliasearch-lite.umd.min.js.gz
-2023/05/24 21:00:23 sri /tmp/work/dist/algoliasearch-lite.umd.js -> /output/algoliasearch-lite.umd.js.sri
-2023/05/24 21:00:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/algoliasearch-lite.umd.js.br /tmp/work/dist/algoliasearch-lite.umd.js
-2023/05/24 21:00:23 br /tmp/work/dist/algoliasearch-lite.umd.js -> /output/algoliasearch-lite.umd.js.br
-2023/05/24 21:00:23 gz /tmp/work/dist/algoliasearch-lite.umd.js -> /output/algoliasearch-lite.umd.js.gz
-2023/05/24 21:00:23 sri /tmp/work/dist/algoliasearch.esm.browser.min.js -> /output/algoliasearch.esm.browser.min.js.sri
-2023/05/24 21:00:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/algoliasearch.esm.browser.min.js.br /tmp/work/dist/algoliasearch.esm.browser.min.js
-2023/05/24 21:00:23 br /tmp/work/dist/algoliasearch.esm.browser.min.js -> /output/algoliasearch.esm.browser.min.js.br
-2023/05/24 21:00:23 gz /tmp/work/dist/algoliasearch.esm.browser.min.js -> /output/algoliasearch.esm.browser.min.js.gz
-2023/05/24 21:00:23 sri /tmp/work/dist/algoliasearch.esm.browser.js -> /output/algoliasearch.esm.browser.js.sri
-2023/05/24 21:00:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/algoliasearch.esm.browser.js.br /tmp/work/dist/algoliasearch.esm.browser.js
-2023/05/24 21:00:23 br /tmp/work/dist/algoliasearch.esm.browser.js -> /output/algoliasearch.esm.browser.js.br
-2023/05/24 21:00:23 gz /tmp/work/dist/algoliasearch.esm.browser.js -> /output/algoliasearch.esm.browser.js.gz
-2023/05/24 21:00:23 sri /tmp/work/dist/algoliasearch.umd.min.js -> /output/algoliasearch.umd.min.js.sri
-2023/05/24 21:00:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/algoliasearch.umd.min.js.br /tmp/work/dist/algoliasearch.umd.min.js
-2023/05/24 21:00:23 br /tmp/work/dist/algoliasearch.umd.min.js -> /output/algoliasearch.umd.min.js.br
-2023/05/24 21:00:23 gz /tmp/work/dist/algoliasearch.umd.min.js -> /output/algoliasearch.umd.min.js.gz
-2023/05/24 21:00:23 sri /tmp/work/dist/algoliasearch.umd.js -> /output/algoliasearch.umd.js.sri
-2023/05/24 21:00:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/algoliasearch.umd.js.br /tmp/work/dist/algoliasearch.umd.js
-2023/05/24 21:00:23 br /tmp/work/dist/algoliasearch.umd.js -> /output/algoliasearch.umd.js.br
-2023/05/24 21:00:23 gz /tmp/work/dist/algoliasearch.umd.js -> /output/algoliasearch.umd.js.gz
-2023/05/24 21:00:23 processed algoliasearch
+2023/07/31 10:40:45 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/31 10:40:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/algoliasearch-lite.esm.browser.min.js /tmp/work/dist/algoliasearch-lite.esm.browser.js
+2023/07/31 10:40:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/algoliasearch-lite.umd.min.js /tmp/work/dist/algoliasearch-lite.umd.js
+2023/07/31 10:40:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/algoliasearch.umd.min.js /tmp/work/dist/algoliasearch.umd.js
+2023/07/31 10:40:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/algoliasearch.esm.browser.min.js /tmp/work/dist/algoliasearch.esm.browser.js
+2023/07/31 10:40:45 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/algoliasearch.cjs.min.js /tmp/work/dist/algoliasearch.cjs.js
+2023/07/31 10:40:46 sri /tmp/work/dist/algoliasearch.cjs.min.js -> /output/algoliasearch.cjs.min.js.sri
+2023/07/31 10:40:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/algoliasearch.cjs.min.js.br /tmp/work/dist/algoliasearch.cjs.min.js
+2023/07/31 10:40:46 br /tmp/work/dist/algoliasearch.cjs.min.js -> /output/algoliasearch.cjs.min.js.br
+2023/07/31 10:40:46 gz /tmp/work/dist/algoliasearch.cjs.min.js -> /output/algoliasearch.cjs.min.js.gz
+2023/07/31 10:40:46 sri /tmp/work/dist/algoliasearch.cjs.js -> /output/algoliasearch.cjs.js.sri
+2023/07/31 10:40:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/algoliasearch.cjs.js.br /tmp/work/dist/algoliasearch.cjs.js
+2023/07/31 10:40:46 br /tmp/work/dist/algoliasearch.cjs.js -> /output/algoliasearch.cjs.js.br
+2023/07/31 10:40:46 gz /tmp/work/dist/algoliasearch.cjs.js -> /output/algoliasearch.cjs.js.gz
+2023/07/31 10:40:47 sri /tmp/work/dist/algoliasearch-lite.esm.browser.min.js -> /output/algoliasearch-lite.esm.browser.min.js.sri
+2023/07/31 10:40:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/algoliasearch-lite.esm.browser.min.js.br /tmp/work/dist/algoliasearch-lite.esm.browser.min.js
+2023/07/31 10:40:47 br /tmp/work/dist/algoliasearch-lite.esm.browser.min.js -> /output/algoliasearch-lite.esm.browser.min.js.br
+2023/07/31 10:40:47 gz /tmp/work/dist/algoliasearch-lite.esm.browser.min.js -> /output/algoliasearch-lite.esm.browser.min.js.gz
+2023/07/31 10:40:47 sri /tmp/work/dist/algoliasearch-lite.esm.browser.js -> /output/algoliasearch-lite.esm.browser.js.sri
+2023/07/31 10:40:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/algoliasearch-lite.esm.browser.js.br /tmp/work/dist/algoliasearch-lite.esm.browser.js
+2023/07/31 10:40:47 br /tmp/work/dist/algoliasearch-lite.esm.browser.js -> /output/algoliasearch-lite.esm.browser.js.br
+2023/07/31 10:40:47 gz /tmp/work/dist/algoliasearch-lite.esm.browser.js -> /output/algoliasearch-lite.esm.browser.js.gz
+2023/07/31 10:40:48 sri /tmp/work/dist/algoliasearch-lite.umd.min.js -> /output/algoliasearch-lite.umd.min.js.sri
+2023/07/31 10:40:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/algoliasearch-lite.umd.min.js.br /tmp/work/dist/algoliasearch-lite.umd.min.js
+2023/07/31 10:40:48 br /tmp/work/dist/algoliasearch-lite.umd.min.js -> /output/algoliasearch-lite.umd.min.js.br
+2023/07/31 10:40:48 gz /tmp/work/dist/algoliasearch-lite.umd.min.js -> /output/algoliasearch-lite.umd.min.js.gz
+2023/07/31 10:40:48 sri /tmp/work/dist/algoliasearch-lite.umd.js -> /output/algoliasearch-lite.umd.js.sri
+2023/07/31 10:40:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/algoliasearch-lite.umd.js.br /tmp/work/dist/algoliasearch-lite.umd.js
+2023/07/31 10:40:48 br /tmp/work/dist/algoliasearch-lite.umd.js -> /output/algoliasearch-lite.umd.js.br
+2023/07/31 10:40:48 gz /tmp/work/dist/algoliasearch-lite.umd.js -> /output/algoliasearch-lite.umd.js.gz
+2023/07/31 10:40:48 sri /tmp/work/dist/algoliasearch.esm.browser.min.js -> /output/algoliasearch.esm.browser.min.js.sri
+2023/07/31 10:40:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/algoliasearch.esm.browser.min.js.br /tmp/work/dist/algoliasearch.esm.browser.min.js
+2023/07/31 10:40:48 br /tmp/work/dist/algoliasearch.esm.browser.min.js -> /output/algoliasearch.esm.browser.min.js.br
+2023/07/31 10:40:48 gz /tmp/work/dist/algoliasearch.esm.browser.min.js -> /output/algoliasearch.esm.browser.min.js.gz
+2023/07/31 10:40:48 sri /tmp/work/dist/algoliasearch.esm.browser.js -> /output/algoliasearch.esm.browser.js.sri
+2023/07/31 10:40:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/algoliasearch.esm.browser.js.br /tmp/work/dist/algoliasearch.esm.browser.js
+2023/07/31 10:40:49 br /tmp/work/dist/algoliasearch.esm.browser.js -> /output/algoliasearch.esm.browser.js.br
+2023/07/31 10:40:49 gz /tmp/work/dist/algoliasearch.esm.browser.js -> /output/algoliasearch.esm.browser.js.gz
+2023/07/31 10:40:49 sri /tmp/work/dist/algoliasearch.umd.min.js -> /output/algoliasearch.umd.min.js.sri
+2023/07/31 10:40:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/algoliasearch.umd.min.js.br /tmp/work/dist/algoliasearch.umd.min.js
+2023/07/31 10:40:49 br /tmp/work/dist/algoliasearch.umd.min.js -> /output/algoliasearch.umd.min.js.br
+2023/07/31 10:40:49 gz /tmp/work/dist/algoliasearch.umd.min.js -> /output/algoliasearch.umd.min.js.gz
+2023/07/31 10:40:49 sri /tmp/work/dist/algoliasearch.umd.js -> /output/algoliasearch.umd.js.sri
+2023/07/31 10:40:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/algoliasearch.umd.js.br /tmp/work/dist/algoliasearch.umd.js
+2023/07/31 10:40:49 br /tmp/work/dist/algoliasearch.umd.js -> /output/algoliasearch.umd.js.br
+2023/07/31 10:40:49 gz /tmp/work/dist/algoliasearch.umd.js -> /output/algoliasearch.umd.js.gz
+2023/07/31 10:40:49 processed algoliasearch
