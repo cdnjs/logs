@@ -1,61 +1,61 @@
-2023/05/26 06:02:33 optimizing files (Js true, Css true, Png true, Jpg true)
-2023/05/26 06:02:33 /tmp/work/dist/hls.min.js already has corresponding compressed file
-2023/05/26 06:02:33 /tmp/work/dist/hls.light.min.js already has corresponding compressed file
-2023/05/26 06:02:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.js.d.ts.br /tmp/work/dist/hls.js.d.ts
-2023/05/26 06:02:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.light.js.map.br /tmp/work/dist/hls.light.js.map
-2023/05/26 06:02:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.js.map.br /tmp/work/dist/hls.js.map
-2023/05/26 06:02:33 /tmp/work/dist/hls.light.min.js is already compressed
-2023/05/26 06:02:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.light.mjs.br /tmp/work/dist/hls.light.mjs
-2023/05/26 06:02:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.light.min.js.map.br /tmp/work/dist/hls.light.min.js.map
-2023/05/26 06:02:33 sri /tmp/work/dist/hls.light.min.js -> /output/hls.light.min.js.sri
-2023/05/26 06:02:33 sri /tmp/work/dist/hls.js -> /output/hls.js.sri
-2023/05/26 06:02:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.light.min.js.br /tmp/work/dist/hls.light.min.js
-2023/05/26 06:02:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.js.br /tmp/work/dist/hls.js
-2023/05/26 06:02:33 sri /tmp/work/dist/hls.light.js -> /output/hls.light.js.sri
-2023/05/26 06:02:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.light.js.br /tmp/work/dist/hls.light.js
-2023/05/26 06:02:33 br /tmp/work/dist/hls.js.d.ts -> /output/hls.js.d.ts.br
-2023/05/26 06:02:33 gz /tmp/work/dist/hls.js.d.ts -> /output/hls.js.d.ts.gz
-2023/05/26 06:02:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.light.mjs.map.br /tmp/work/dist/hls.light.mjs.map
-2023/05/26 06:02:34 br /tmp/work/dist/hls.light.min.js -> /output/hls.light.min.js.br
-2023/05/26 06:02:34 gz /tmp/work/dist/hls.light.min.js -> /output/hls.light.min.js.gz
-2023/05/26 06:02:34 /tmp/work/dist/hls.min.js is already compressed
-2023/05/26 06:02:34 sri /tmp/work/dist/hls.min.js -> /output/hls.min.js.sri
-2023/05/26 06:02:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.min.js.br /tmp/work/dist/hls.min.js
-2023/05/26 06:02:35 br /tmp/work/dist/hls.light.mjs -> /output/hls.light.mjs.br
-2023/05/26 06:02:35 br /tmp/work/dist/hls.min.js -> /output/hls.min.js.br
-2023/05/26 06:02:35 gz /tmp/work/dist/hls.min.js -> /output/hls.min.js.gz
-2023/05/26 06:02:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.min.js.map.br /tmp/work/dist/hls.min.js.map
-2023/05/26 06:02:35 gz /tmp/work/dist/hls.light.mjs -> /output/hls.light.mjs.gz
-2023/05/26 06:02:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.mjs.br /tmp/work/dist/hls.mjs
-2023/05/26 06:02:36 br /tmp/work/dist/hls.light.js -> /output/hls.light.js.br
-2023/05/26 06:02:36 gz /tmp/work/dist/hls.light.js -> /output/hls.light.js.gz
-2023/05/26 06:02:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.mjs.map.br /tmp/work/dist/hls.mjs.map
-2023/05/26 06:02:37 br /tmp/work/dist/hls.js -> /output/hls.js.br
-2023/05/26 06:02:37 gz /tmp/work/dist/hls.js -> /output/hls.js.gz
-2023/05/26 06:02:37 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/hls.worker.min.js /tmp/work/dist/hls.worker.js
-2023/05/26 06:02:37 br /tmp/work/dist/hls.light.min.js.map -> /output/hls.light.min.js.map.br
-2023/05/26 06:02:38 gz /tmp/work/dist/hls.light.min.js.map -> /output/hls.light.min.js.map.gz
-2023/05/26 06:02:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.worker.js.map.br /tmp/work/dist/hls.worker.js.map
-2023/05/26 06:02:39 br /tmp/work/dist/hls.mjs -> /output/hls.mjs.br
-2023/05/26 06:02:39 gz /tmp/work/dist/hls.mjs -> /output/hls.mjs.gz
-2023/05/26 06:02:39 br /tmp/work/dist/hls.light.js.map -> /output/hls.light.js.map.br
-2023/05/26 06:02:39 br /tmp/work/dist/hls.light.mjs.map -> /output/hls.light.mjs.map.br
-2023/05/26 06:02:39 br /tmp/work/dist/hls.worker.js.map -> /output/hls.worker.js.map.br
-2023/05/26 06:02:39 gz /tmp/work/dist/hls.light.js.map -> /output/hls.light.js.map.gz
-2023/05/26 06:02:39 gz /tmp/work/dist/hls.worker.js.map -> /output/hls.worker.js.map.gz
-2023/05/26 06:02:39 gz /tmp/work/dist/hls.light.mjs.map -> /output/hls.light.mjs.map.gz
-2023/05/26 06:02:41 br /tmp/work/dist/hls.js.map -> /output/hls.js.map.br
-2023/05/26 06:02:41 sri /tmp/work/dist/hls.worker.min.js -> /output/hls.worker.min.js.sri
-2023/05/26 06:02:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.worker.min.js.br /tmp/work/dist/hls.worker.min.js
-2023/05/26 06:02:41 br /tmp/work/dist/hls.worker.min.js -> /output/hls.worker.min.js.br
-2023/05/26 06:02:41 gz /tmp/work/dist/hls.worker.min.js -> /output/hls.worker.min.js.gz
-2023/05/26 06:02:41 sri /tmp/work/dist/hls.worker.js -> /output/hls.worker.js.sri
-2023/05/26 06:02:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.worker.js.br /tmp/work/dist/hls.worker.js
-2023/05/26 06:02:41 gz /tmp/work/dist/hls.js.map -> /output/hls.js.map.gz
-2023/05/26 06:02:41 br /tmp/work/dist/hls.min.js.map -> /output/hls.min.js.map.br
-2023/05/26 06:02:41 br /tmp/work/dist/hls.worker.js -> /output/hls.worker.js.br
-2023/05/26 06:02:41 gz /tmp/work/dist/hls.worker.js -> /output/hls.worker.js.gz
-2023/05/26 06:02:41 gz /tmp/work/dist/hls.min.js.map -> /output/hls.min.js.map.gz
-2023/05/26 06:02:42 br /tmp/work/dist/hls.mjs.map -> /output/hls.mjs.map.br
-2023/05/26 06:02:43 gz /tmp/work/dist/hls.mjs.map -> /output/hls.mjs.map.gz
-2023/05/26 06:02:43 processed hls.js
+2023/07/31 12:31:22 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/31 12:31:22 /tmp/work/dist/hls.min.js already has corresponding compressed file
+2023/07/31 12:31:22 sri /tmp/work/dist/hls.js -> /output/hls.js.sri
+2023/07/31 12:31:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.js.d.ts.br /tmp/work/dist/hls.js.d.ts
+2023/07/31 12:31:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.js.map.br /tmp/work/dist/hls.js.map
+2023/07/31 12:31:22 /tmp/work/dist/hls.light.min.js already has corresponding compressed file
+2023/07/31 12:31:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.light.js.map.br /tmp/work/dist/hls.light.js.map
+2023/07/31 12:31:22 /tmp/work/dist/hls.light.min.js is already compressed
+2023/07/31 12:31:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.light.min.js.map.br /tmp/work/dist/hls.light.min.js.map
+2023/07/31 12:31:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.light.mjs.br /tmp/work/dist/hls.light.mjs
+2023/07/31 12:31:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.js.br /tmp/work/dist/hls.js
+2023/07/31 12:31:22 sri /tmp/work/dist/hls.light.js -> /output/hls.light.js.sri
+2023/07/31 12:31:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.light.js.br /tmp/work/dist/hls.light.js
+2023/07/31 12:31:22 sri /tmp/work/dist/hls.light.min.js -> /output/hls.light.min.js.sri
+2023/07/31 12:31:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.light.min.js.br /tmp/work/dist/hls.light.min.js
+2023/07/31 12:31:22 br /tmp/work/dist/hls.js.d.ts -> /output/hls.js.d.ts.br
+2023/07/31 12:31:22 gz /tmp/work/dist/hls.js.d.ts -> /output/hls.js.d.ts.gz
+2023/07/31 12:31:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.light.mjs.map.br /tmp/work/dist/hls.light.mjs.map
+2023/07/31 12:31:26 br /tmp/work/dist/hls.light.min.js -> /output/hls.light.min.js.br
+2023/07/31 12:31:26 gz /tmp/work/dist/hls.light.min.js -> /output/hls.light.min.js.gz
+2023/07/31 12:31:26 /tmp/work/dist/hls.min.js is already compressed
+2023/07/31 12:31:26 sri /tmp/work/dist/hls.min.js -> /output/hls.min.js.sri
+2023/07/31 12:31:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.min.js.br /tmp/work/dist/hls.min.js
+2023/07/31 12:31:28 br /tmp/work/dist/hls.min.js -> /output/hls.min.js.br
+2023/07/31 12:31:28 gz /tmp/work/dist/hls.min.js -> /output/hls.min.js.gz
+2023/07/31 12:31:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.min.js.map.br /tmp/work/dist/hls.min.js.map
+2023/07/31 12:31:31 br /tmp/work/dist/hls.light.mjs -> /output/hls.light.mjs.br
+2023/07/31 12:31:31 gz /tmp/work/dist/hls.light.mjs -> /output/hls.light.mjs.gz
+2023/07/31 12:31:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.mjs.br /tmp/work/dist/hls.mjs
+2023/07/31 12:31:31 br /tmp/work/dist/hls.light.js -> /output/hls.light.js.br
+2023/07/31 12:31:32 gz /tmp/work/dist/hls.light.js -> /output/hls.light.js.gz
+2023/07/31 12:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.mjs.map.br /tmp/work/dist/hls.mjs.map
+2023/07/31 12:31:32 br /tmp/work/dist/hls.light.mjs.map -> /output/hls.light.mjs.map.br
+2023/07/31 12:31:33 gz /tmp/work/dist/hls.light.mjs.map -> /output/hls.light.mjs.map.gz
+2023/07/31 12:31:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/hls.worker.min.js /tmp/work/dist/hls.worker.js
+2023/07/31 12:31:35 br /tmp/work/dist/hls.js -> /output/hls.js.br
+2023/07/31 12:31:35 gz /tmp/work/dist/hls.js -> /output/hls.js.gz
+2023/07/31 12:31:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.worker.js.map.br /tmp/work/dist/hls.worker.js.map
+2023/07/31 12:31:37 br /tmp/work/dist/hls.mjs -> /output/hls.mjs.br
+2023/07/31 12:31:37 gz /tmp/work/dist/hls.mjs -> /output/hls.mjs.gz
+2023/07/31 12:31:38 br /tmp/work/dist/hls.light.min.js.map -> /output/hls.light.min.js.map.br
+2023/07/31 12:31:39 gz /tmp/work/dist/hls.light.min.js.map -> /output/hls.light.min.js.map.gz
+2023/07/31 12:31:40 sri /tmp/work/dist/hls.worker.min.js -> /output/hls.worker.min.js.sri
+2023/07/31 12:31:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.worker.min.js.br /tmp/work/dist/hls.worker.min.js
+2023/07/31 12:31:41 br /tmp/work/dist/hls.worker.min.js -> /output/hls.worker.min.js.br
+2023/07/31 12:31:41 gz /tmp/work/dist/hls.worker.min.js -> /output/hls.worker.min.js.gz
+2023/07/31 12:31:41 sri /tmp/work/dist/hls.worker.js -> /output/hls.worker.js.sri
+2023/07/31 12:31:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hls.worker.js.br /tmp/work/dist/hls.worker.js
+2023/07/31 12:31:41 br /tmp/work/dist/hls.worker.js.map -> /output/hls.worker.js.map.br
+2023/07/31 12:31:41 br /tmp/work/dist/hls.worker.js -> /output/hls.worker.js.br
+2023/07/31 12:31:41 gz /tmp/work/dist/hls.worker.js -> /output/hls.worker.js.gz
+2023/07/31 12:31:41 gz /tmp/work/dist/hls.worker.js.map -> /output/hls.worker.js.map.gz
+2023/07/31 12:31:42 br /tmp/work/dist/hls.light.js.map -> /output/hls.light.js.map.br
+2023/07/31 12:31:42 gz /tmp/work/dist/hls.light.js.map -> /output/hls.light.js.map.gz
+2023/07/31 12:31:43 br /tmp/work/dist/hls.min.js.map -> /output/hls.min.js.map.br
+2023/07/31 12:31:44 gz /tmp/work/dist/hls.min.js.map -> /output/hls.min.js.map.gz
+2023/07/31 12:31:44 br /tmp/work/dist/hls.js.map -> /output/hls.js.map.br
+2023/07/31 12:31:44 gz /tmp/work/dist/hls.js.map -> /output/hls.js.map.gz
+2023/07/31 12:31:45 br /tmp/work/dist/hls.mjs.map -> /output/hls.mjs.map.br
+2023/07/31 12:31:46 gz /tmp/work/dist/hls.mjs.map -> /output/hls.mjs.map.gz
+2023/07/31 12:31:46 processed hls.js
