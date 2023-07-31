@@ -1,46 +1,46 @@
-2023/06/15 00:31:39 optimizing files (Js true, Css true, Png true, Jpg true)
-2023/06/15 00:31:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.esm.min.js /tmp/work/dist/index.esm.js
-2023/06/15 00:31:39 /tmp/work/dist/index.min.js is already compressed
-2023/06/15 00:31:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.umd.min.js /tmp/work/dist/index.umd.js
-2023/06/15 00:31:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.esm.js.map.br /tmp/work/dist/index.esm.js.map
-2023/06/15 00:31:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.umd.js.map.br /tmp/work/dist/index.umd.js.map
-2023/06/15 00:31:39 sri /tmp/work/dist/index.min.js -> /output/index.min.js.sri
-2023/06/15 00:31:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.d.ts.br /tmp/work/dist/index.d.ts
-2023/06/15 00:31:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.dev.min.js /tmp/work/dist/index.dev.js
-2023/06/15 00:31:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.test.d.ts.br /tmp/work/dist/index.test.d.ts
-2023/06/15 00:31:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/dist/index.min.js
-2023/06/15 00:31:39 br /tmp/work/dist/index.test.d.ts -> /output/index.test.d.ts.br
-2023/06/15 00:31:39 gz /tmp/work/dist/index.test.d.ts -> /output/index.test.d.ts.gz
-2023/06/15 00:31:39 br /tmp/work/dist/index.d.ts -> /output/index.d.ts.br
-2023/06/15 00:31:39 gz /tmp/work/dist/index.d.ts -> /output/index.d.ts.gz
-2023/06/15 00:31:39 br /tmp/work/dist/index.esm.js.map -> /output/index.esm.js.map.br
-2023/06/15 00:31:39 gz /tmp/work/dist/index.esm.js.map -> /output/index.esm.js.map.gz
-2023/06/15 00:31:39 br /tmp/work/dist/index.min.js -> /output/index.min.js.br
-2023/06/15 00:31:39 gz /tmp/work/dist/index.min.js -> /output/index.min.js.gz
-2023/06/15 00:31:40 sri /tmp/work/dist/index.esm.min.js -> /output/index.esm.min.js.sri
-2023/06/15 00:31:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.esm.min.js.br /tmp/work/dist/index.esm.min.js
-2023/06/15 00:31:40 br /tmp/work/dist/index.esm.min.js -> /output/index.esm.min.js.br
-2023/06/15 00:31:40 gz /tmp/work/dist/index.esm.min.js -> /output/index.esm.min.js.gz
-2023/06/15 00:31:40 sri /tmp/work/dist/index.esm.js -> /output/index.esm.js.sri
-2023/06/15 00:31:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.esm.js.br /tmp/work/dist/index.esm.js
-2023/06/15 00:31:40 br /tmp/work/dist/index.esm.js -> /output/index.esm.js.br
-2023/06/15 00:31:40 gz /tmp/work/dist/index.esm.js -> /output/index.esm.js.gz
-2023/06/15 00:31:40 br /tmp/work/dist/index.umd.js.map -> /output/index.umd.js.map.br
-2023/06/15 00:31:40 gz /tmp/work/dist/index.umd.js.map -> /output/index.umd.js.map.gz
-2023/06/15 00:31:42 sri /tmp/work/dist/index.umd.min.js -> /output/index.umd.min.js.sri
-2023/06/15 00:31:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.umd.min.js.br /tmp/work/dist/index.umd.min.js
-2023/06/15 00:31:42 br /tmp/work/dist/index.umd.min.js -> /output/index.umd.min.js.br
-2023/06/15 00:31:42 gz /tmp/work/dist/index.umd.min.js -> /output/index.umd.min.js.gz
-2023/06/15 00:31:42 sri /tmp/work/dist/index.umd.js -> /output/index.umd.js.sri
-2023/06/15 00:31:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.umd.js.br /tmp/work/dist/index.umd.js
-2023/06/15 00:31:42 br /tmp/work/dist/index.umd.js -> /output/index.umd.js.br
-2023/06/15 00:31:42 gz /tmp/work/dist/index.umd.js -> /output/index.umd.js.gz
-2023/06/15 00:31:42 sri /tmp/work/dist/index.dev.min.js -> /output/index.dev.min.js.sri
-2023/06/15 00:31:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.dev.min.js.br /tmp/work/dist/index.dev.min.js
-2023/06/15 00:31:42 br /tmp/work/dist/index.dev.min.js -> /output/index.dev.min.js.br
-2023/06/15 00:31:42 gz /tmp/work/dist/index.dev.min.js -> /output/index.dev.min.js.gz
-2023/06/15 00:31:42 sri /tmp/work/dist/index.dev.js -> /output/index.dev.js.sri
-2023/06/15 00:31:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.dev.js.br /tmp/work/dist/index.dev.js
-2023/06/15 00:31:43 br /tmp/work/dist/index.dev.js -> /output/index.dev.js.br
-2023/06/15 00:31:43 gz /tmp/work/dist/index.dev.js -> /output/index.dev.js.gz
-2023/06/15 00:31:43 processed googlemaps-js-api-loader
+2023/07/31 11:15:54 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/31 11:15:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.dev.min.js /tmp/work/dist/index.dev.js
+2023/07/31 11:15:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.test.d.ts.br /tmp/work/dist/index.test.d.ts
+2023/07/31 11:15:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.esm.min.js /tmp/work/dist/index.esm.js
+2023/07/31 11:15:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.esm.js.map.br /tmp/work/dist/index.esm.js.map
+2023/07/31 11:15:55 /tmp/work/dist/index.min.js is already compressed
+2023/07/31 11:15:55 sri /tmp/work/dist/index.min.js -> /output/index.min.js.sri
+2023/07/31 11:15:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/dist/index.min.js
+2023/07/31 11:15:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.umd.min.js /tmp/work/dist/index.umd.js
+2023/07/31 11:15:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.umd.js.map.br /tmp/work/dist/index.umd.js.map
+2023/07/31 11:15:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.d.ts.br /tmp/work/dist/index.d.ts
+2023/07/31 11:15:55 br /tmp/work/dist/index.test.d.ts -> /output/index.test.d.ts.br
+2023/07/31 11:15:55 gz /tmp/work/dist/index.test.d.ts -> /output/index.test.d.ts.gz
+2023/07/31 11:15:55 br /tmp/work/dist/index.d.ts -> /output/index.d.ts.br
+2023/07/31 11:15:55 gz /tmp/work/dist/index.d.ts -> /output/index.d.ts.gz
+2023/07/31 11:15:55 br /tmp/work/dist/index.esm.js.map -> /output/index.esm.js.map.br
+2023/07/31 11:15:55 gz /tmp/work/dist/index.esm.js.map -> /output/index.esm.js.map.gz
+2023/07/31 11:15:55 br /tmp/work/dist/index.min.js -> /output/index.min.js.br
+2023/07/31 11:15:55 gz /tmp/work/dist/index.min.js -> /output/index.min.js.gz
+2023/07/31 11:15:56 sri /tmp/work/dist/index.esm.min.js -> /output/index.esm.min.js.sri
+2023/07/31 11:15:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.esm.min.js.br /tmp/work/dist/index.esm.min.js
+2023/07/31 11:15:56 br /tmp/work/dist/index.esm.min.js -> /output/index.esm.min.js.br
+2023/07/31 11:15:56 gz /tmp/work/dist/index.esm.min.js -> /output/index.esm.min.js.gz
+2023/07/31 11:15:56 sri /tmp/work/dist/index.esm.js -> /output/index.esm.js.sri
+2023/07/31 11:15:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.esm.js.br /tmp/work/dist/index.esm.js
+2023/07/31 11:15:56 br /tmp/work/dist/index.esm.js -> /output/index.esm.js.br
+2023/07/31 11:15:56 gz /tmp/work/dist/index.esm.js -> /output/index.esm.js.gz
+2023/07/31 11:15:57 br /tmp/work/dist/index.umd.js.map -> /output/index.umd.js.map.br
+2023/07/31 11:15:57 gz /tmp/work/dist/index.umd.js.map -> /output/index.umd.js.map.gz
+2023/07/31 11:16:01 sri /tmp/work/dist/index.umd.min.js -> /output/index.umd.min.js.sri
+2023/07/31 11:16:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.umd.min.js.br /tmp/work/dist/index.umd.min.js
+2023/07/31 11:16:01 br /tmp/work/dist/index.umd.min.js -> /output/index.umd.min.js.br
+2023/07/31 11:16:01 gz /tmp/work/dist/index.umd.min.js -> /output/index.umd.min.js.gz
+2023/07/31 11:16:01 sri /tmp/work/dist/index.umd.js -> /output/index.umd.js.sri
+2023/07/31 11:16:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.umd.js.br /tmp/work/dist/index.umd.js
+2023/07/31 11:16:01 br /tmp/work/dist/index.umd.js -> /output/index.umd.js.br
+2023/07/31 11:16:01 gz /tmp/work/dist/index.umd.js -> /output/index.umd.js.gz
+2023/07/31 11:16:01 sri /tmp/work/dist/index.dev.min.js -> /output/index.dev.min.js.sri
+2023/07/31 11:16:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.dev.min.js.br /tmp/work/dist/index.dev.min.js
+2023/07/31 11:16:01 br /tmp/work/dist/index.dev.min.js -> /output/index.dev.min.js.br
+2023/07/31 11:16:01 gz /tmp/work/dist/index.dev.min.js -> /output/index.dev.min.js.gz
+2023/07/31 11:16:01 sri /tmp/work/dist/index.dev.js -> /output/index.dev.js.sri
+2023/07/31 11:16:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.dev.js.br /tmp/work/dist/index.dev.js
+2023/07/31 11:16:02 br /tmp/work/dist/index.dev.js -> /output/index.dev.js.br
+2023/07/31 11:16:02 gz /tmp/work/dist/index.dev.js -> /output/index.dev.js.gz
+2023/07/31 11:16:02 processed googlemaps-js-api-loader
