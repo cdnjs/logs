@@ -1,663 +1,663 @@
-2023/05/26 20:08:29 optimizing files (Js true, Css true, Png true, Jpg true)
-2023/05/26 20:08:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/enums.min.js /tmp/work/dist/cjs/enums.js
-2023/05/26 20:08:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/popper-base.min.js /tmp/work/dist/cjs/popper-base.js
-2023/05/26 20:08:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/popper-lite.min.js /tmp/work/dist/cjs/popper-lite.js
-2023/05/26 20:08:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/popper-base.js.map.br /tmp/work/dist/cjs/popper-base.js.map
-2023/05/26 20:08:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/enums.js.map.br /tmp/work/dist/cjs/enums.js.map
-2023/05/26 20:08:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/popper.min.js /tmp/work/dist/cjs/popper.js
-2023/05/26 20:08:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/popper-lite.js.map.br /tmp/work/dist/cjs/popper-lite.js.map
-2023/05/26 20:08:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/popper.js.map.br /tmp/work/dist/cjs/popper.js.map
-2023/05/26 20:08:29 br /tmp/work/dist/cjs/enums.js.map -> /output/cjs/enums.js.map.br
-2023/05/26 20:08:29 gz /tmp/work/dist/cjs/enums.js.map -> /output/cjs/enums.js.map.gz
-2023/05/26 20:08:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/createPopper.min.js /tmp/work/dist/esm/createPopper.js
-2023/05/26 20:08:29 br /tmp/work/dist/cjs/popper-base.js.map -> /output/cjs/popper-base.js.map.br
-2023/05/26 20:08:29 gz /tmp/work/dist/cjs/popper-base.js.map -> /output/cjs/popper-base.js.map.gz
-2023/05/26 20:08:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/contains.min.js /tmp/work/dist/esm/dom-utils/contains.js
-2023/05/26 20:08:29 sri /tmp/work/dist/cjs/enums.min.js -> /output/cjs/enums.min.js.sri
-2023/05/26 20:08:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/enums.min.js.br /tmp/work/dist/cjs/enums.min.js
-2023/05/26 20:08:29 br /tmp/work/dist/cjs/enums.min.js -> /output/cjs/enums.min.js.br
-2023/05/26 20:08:29 gz /tmp/work/dist/cjs/enums.min.js -> /output/cjs/enums.min.js.gz
-2023/05/26 20:08:29 sri /tmp/work/dist/cjs/enums.js -> /output/cjs/enums.js.sri
-2023/05/26 20:08:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/enums.js.br /tmp/work/dist/cjs/enums.js
-2023/05/26 20:08:29 br /tmp/work/dist/cjs/enums.js -> /output/cjs/enums.js.br
-2023/05/26 20:08:29 gz /tmp/work/dist/cjs/enums.js -> /output/cjs/enums.js.gz
-2023/05/26 20:08:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getBoundingClientRect.min.js /tmp/work/dist/esm/dom-utils/getBoundingClientRect.js
-2023/05/26 20:08:30 br /tmp/work/dist/cjs/popper-lite.js.map -> /output/cjs/popper-lite.js.map.br
-2023/05/26 20:08:30 gz /tmp/work/dist/cjs/popper-lite.js.map -> /output/cjs/popper-lite.js.map.gz
-2023/05/26 20:08:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getClippingRect.min.js /tmp/work/dist/esm/dom-utils/getClippingRect.js
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/createPopper.min.js -> /output/esm/createPopper.min.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/createPopper.min.js.br /tmp/work/dist/esm/createPopper.min.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/createPopper.min.js -> /output/esm/createPopper.min.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/createPopper.min.js -> /output/esm/createPopper.min.js.gz
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/createPopper.js -> /output/esm/createPopper.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/createPopper.js.br /tmp/work/dist/esm/createPopper.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/createPopper.js -> /output/esm/createPopper.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/createPopper.js -> /output/esm/createPopper.js.gz
-2023/05/26 20:08:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getCompositeRect.min.js /tmp/work/dist/esm/dom-utils/getCompositeRect.js
-2023/05/26 20:08:30 br /tmp/work/dist/cjs/popper.js.map -> /output/cjs/popper.js.map.br
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/contains.min.js -> /output/esm/dom-utils/contains.min.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/contains.min.js.br /tmp/work/dist/esm/dom-utils/contains.min.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/contains.min.js -> /output/esm/dom-utils/contains.min.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/contains.min.js -> /output/esm/dom-utils/contains.min.js.gz
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/contains.js -> /output/esm/dom-utils/contains.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/contains.js.br /tmp/work/dist/esm/dom-utils/contains.js
-2023/05/26 20:08:30 gz /tmp/work/dist/cjs/popper.js.map -> /output/cjs/popper.js.map.gz
-2023/05/26 20:08:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getComputedStyle.min.js /tmp/work/dist/esm/dom-utils/getComputedStyle.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/contains.js -> /output/esm/dom-utils/contains.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/contains.js -> /output/esm/dom-utils/contains.js.gz
-2023/05/26 20:08:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getDocumentElement.min.js /tmp/work/dist/esm/dom-utils/getDocumentElement.js
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getBoundingClientRect.min.js -> /output/esm/dom-utils/getBoundingClientRect.min.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getBoundingClientRect.min.js.br /tmp/work/dist/esm/dom-utils/getBoundingClientRect.min.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getBoundingClientRect.min.js -> /output/esm/dom-utils/getBoundingClientRect.min.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getBoundingClientRect.min.js -> /output/esm/dom-utils/getBoundingClientRect.min.js.gz
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getBoundingClientRect.js -> /output/esm/dom-utils/getBoundingClientRect.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getBoundingClientRect.js.br /tmp/work/dist/esm/dom-utils/getBoundingClientRect.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getBoundingClientRect.js -> /output/esm/dom-utils/getBoundingClientRect.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getBoundingClientRect.js -> /output/esm/dom-utils/getBoundingClientRect.js.gz
-2023/05/26 20:08:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getDocumentRect.min.js /tmp/work/dist/esm/dom-utils/getDocumentRect.js
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getClippingRect.min.js -> /output/esm/dom-utils/getClippingRect.min.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getClippingRect.min.js.br /tmp/work/dist/esm/dom-utils/getClippingRect.min.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getClippingRect.min.js -> /output/esm/dom-utils/getClippingRect.min.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getClippingRect.min.js -> /output/esm/dom-utils/getClippingRect.min.js.gz
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getClippingRect.js -> /output/esm/dom-utils/getClippingRect.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getClippingRect.js.br /tmp/work/dist/esm/dom-utils/getClippingRect.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getClippingRect.js -> /output/esm/dom-utils/getClippingRect.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getClippingRect.js -> /output/esm/dom-utils/getClippingRect.js.gz
-2023/05/26 20:08:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getHTMLElementScroll.min.js /tmp/work/dist/esm/dom-utils/getHTMLElementScroll.js
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getComputedStyle.min.js -> /output/esm/dom-utils/getComputedStyle.min.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getComputedStyle.min.js.br /tmp/work/dist/esm/dom-utils/getComputedStyle.min.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getComputedStyle.min.js -> /output/esm/dom-utils/getComputedStyle.min.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getComputedStyle.min.js -> /output/esm/dom-utils/getComputedStyle.min.js.gz
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getComputedStyle.js -> /output/esm/dom-utils/getComputedStyle.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getComputedStyle.js.br /tmp/work/dist/esm/dom-utils/getComputedStyle.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getComputedStyle.js -> /output/esm/dom-utils/getComputedStyle.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getComputedStyle.js -> /output/esm/dom-utils/getComputedStyle.js.gz
-2023/05/26 20:08:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getLayoutRect.min.js /tmp/work/dist/esm/dom-utils/getLayoutRect.js
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getDocumentElement.min.js -> /output/esm/dom-utils/getDocumentElement.min.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getDocumentElement.min.js.br /tmp/work/dist/esm/dom-utils/getDocumentElement.min.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getDocumentElement.min.js -> /output/esm/dom-utils/getDocumentElement.min.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getDocumentElement.min.js -> /output/esm/dom-utils/getDocumentElement.min.js.gz
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getDocumentElement.js -> /output/esm/dom-utils/getDocumentElement.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getDocumentElement.js.br /tmp/work/dist/esm/dom-utils/getDocumentElement.js
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getCompositeRect.min.js -> /output/esm/dom-utils/getCompositeRect.min.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getCompositeRect.min.js.br /tmp/work/dist/esm/dom-utils/getCompositeRect.min.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getDocumentElement.js -> /output/esm/dom-utils/getDocumentElement.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getDocumentElement.js -> /output/esm/dom-utils/getDocumentElement.js.gz
-2023/05/26 20:08:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getNodeName.min.js /tmp/work/dist/esm/dom-utils/getNodeName.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getCompositeRect.min.js -> /output/esm/dom-utils/getCompositeRect.min.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getCompositeRect.min.js -> /output/esm/dom-utils/getCompositeRect.min.js.gz
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getCompositeRect.js -> /output/esm/dom-utils/getCompositeRect.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getCompositeRect.js.br /tmp/work/dist/esm/dom-utils/getCompositeRect.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getCompositeRect.js -> /output/esm/dom-utils/getCompositeRect.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getCompositeRect.js -> /output/esm/dom-utils/getCompositeRect.js.gz
-2023/05/26 20:08:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getNodeScroll.min.js /tmp/work/dist/esm/dom-utils/getNodeScroll.js
-2023/05/26 20:08:30 sri /tmp/work/dist/cjs/popper-base.min.js -> /output/cjs/popper-base.min.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/popper-base.min.js.br /tmp/work/dist/cjs/popper-base.min.js
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getDocumentRect.min.js -> /output/esm/dom-utils/getDocumentRect.min.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getDocumentRect.min.js.br /tmp/work/dist/esm/dom-utils/getDocumentRect.min.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getDocumentRect.min.js -> /output/esm/dom-utils/getDocumentRect.min.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getDocumentRect.min.js -> /output/esm/dom-utils/getDocumentRect.min.js.gz
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getDocumentRect.js -> /output/esm/dom-utils/getDocumentRect.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getDocumentRect.js.br /tmp/work/dist/esm/dom-utils/getDocumentRect.js
-2023/05/26 20:08:30 br /tmp/work/dist/cjs/popper-base.min.js -> /output/cjs/popper-base.min.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/cjs/popper-base.min.js -> /output/cjs/popper-base.min.js.gz
-2023/05/26 20:08:30 sri /tmp/work/dist/cjs/popper-base.js -> /output/cjs/popper-base.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/popper-base.js.br /tmp/work/dist/cjs/popper-base.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getDocumentRect.js -> /output/esm/dom-utils/getDocumentRect.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getDocumentRect.js -> /output/esm/dom-utils/getDocumentRect.js.gz
-2023/05/26 20:08:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getOffsetParent.min.js /tmp/work/dist/esm/dom-utils/getOffsetParent.js
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getHTMLElementScroll.min.js -> /output/esm/dom-utils/getHTMLElementScroll.min.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getHTMLElementScroll.min.js.br /tmp/work/dist/esm/dom-utils/getHTMLElementScroll.min.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getHTMLElementScroll.min.js -> /output/esm/dom-utils/getHTMLElementScroll.min.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getHTMLElementScroll.min.js -> /output/esm/dom-utils/getHTMLElementScroll.min.js.gz
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getHTMLElementScroll.js -> /output/esm/dom-utils/getHTMLElementScroll.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getHTMLElementScroll.js.br /tmp/work/dist/esm/dom-utils/getHTMLElementScroll.js
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getLayoutRect.min.js -> /output/esm/dom-utils/getLayoutRect.min.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getLayoutRect.min.js.br /tmp/work/dist/esm/dom-utils/getLayoutRect.min.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getHTMLElementScroll.js -> /output/esm/dom-utils/getHTMLElementScroll.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getHTMLElementScroll.js -> /output/esm/dom-utils/getHTMLElementScroll.js.gz
-2023/05/26 20:08:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getParentNode.min.js /tmp/work/dist/esm/dom-utils/getParentNode.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getLayoutRect.min.js -> /output/esm/dom-utils/getLayoutRect.min.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getLayoutRect.min.js -> /output/esm/dom-utils/getLayoutRect.min.js.gz
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getLayoutRect.js -> /output/esm/dom-utils/getLayoutRect.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getLayoutRect.js.br /tmp/work/dist/esm/dom-utils/getLayoutRect.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getLayoutRect.js -> /output/esm/dom-utils/getLayoutRect.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getLayoutRect.js -> /output/esm/dom-utils/getLayoutRect.js.gz
-2023/05/26 20:08:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getScrollParent.min.js /tmp/work/dist/esm/dom-utils/getScrollParent.js
-2023/05/26 20:08:30 br /tmp/work/dist/cjs/popper-base.js -> /output/cjs/popper-base.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/cjs/popper-base.js -> /output/cjs/popper-base.js.gz
-2023/05/26 20:08:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getViewportRect.min.js /tmp/work/dist/esm/dom-utils/getViewportRect.js
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getNodeScroll.min.js -> /output/esm/dom-utils/getNodeScroll.min.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getNodeScroll.min.js.br /tmp/work/dist/esm/dom-utils/getNodeScroll.min.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getNodeScroll.min.js -> /output/esm/dom-utils/getNodeScroll.min.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getNodeScroll.min.js -> /output/esm/dom-utils/getNodeScroll.min.js.gz
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getNodeScroll.js -> /output/esm/dom-utils/getNodeScroll.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getNodeScroll.js.br /tmp/work/dist/esm/dom-utils/getNodeScroll.js
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getNodeName.min.js -> /output/esm/dom-utils/getNodeName.min.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getNodeName.min.js.br /tmp/work/dist/esm/dom-utils/getNodeName.min.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getNodeScroll.js -> /output/esm/dom-utils/getNodeScroll.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getNodeScroll.js -> /output/esm/dom-utils/getNodeScroll.js.gz
-2023/05/26 20:08:30 sri /tmp/work/dist/cjs/popper-lite.min.js -> /output/cjs/popper-lite.min.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/popper-lite.min.js.br /tmp/work/dist/cjs/popper-lite.min.js
-2023/05/26 20:08:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getWindow.min.js /tmp/work/dist/esm/dom-utils/getWindow.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getNodeName.min.js -> /output/esm/dom-utils/getNodeName.min.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getNodeName.min.js -> /output/esm/dom-utils/getNodeName.min.js.gz
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getNodeName.js -> /output/esm/dom-utils/getNodeName.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getNodeName.js.br /tmp/work/dist/esm/dom-utils/getNodeName.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getNodeName.js -> /output/esm/dom-utils/getNodeName.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getNodeName.js -> /output/esm/dom-utils/getNodeName.js.gz
-2023/05/26 20:08:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getWindowScroll.min.js /tmp/work/dist/esm/dom-utils/getWindowScroll.js
-2023/05/26 20:08:30 br /tmp/work/dist/cjs/popper-lite.min.js -> /output/cjs/popper-lite.min.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/cjs/popper-lite.min.js -> /output/cjs/popper-lite.min.js.gz
-2023/05/26 20:08:30 sri /tmp/work/dist/cjs/popper-lite.js -> /output/cjs/popper-lite.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/popper-lite.js.br /tmp/work/dist/cjs/popper-lite.js
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getOffsetParent.min.js -> /output/esm/dom-utils/getOffsetParent.min.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getOffsetParent.min.js.br /tmp/work/dist/esm/dom-utils/getOffsetParent.min.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getOffsetParent.min.js -> /output/esm/dom-utils/getOffsetParent.min.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getOffsetParent.min.js -> /output/esm/dom-utils/getOffsetParent.min.js.gz
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getOffsetParent.js -> /output/esm/dom-utils/getOffsetParent.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getOffsetParent.js.br /tmp/work/dist/esm/dom-utils/getOffsetParent.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getOffsetParent.js -> /output/esm/dom-utils/getOffsetParent.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getOffsetParent.js -> /output/esm/dom-utils/getOffsetParent.js.gz
-2023/05/26 20:08:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getWindowScrollBarX.min.js /tmp/work/dist/esm/dom-utils/getWindowScrollBarX.js
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getScrollParent.min.js -> /output/esm/dom-utils/getScrollParent.min.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getScrollParent.min.js.br /tmp/work/dist/esm/dom-utils/getScrollParent.min.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getScrollParent.min.js -> /output/esm/dom-utils/getScrollParent.min.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getScrollParent.min.js -> /output/esm/dom-utils/getScrollParent.min.js.gz
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getScrollParent.js -> /output/esm/dom-utils/getScrollParent.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getScrollParent.js.br /tmp/work/dist/esm/dom-utils/getScrollParent.js
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getParentNode.min.js -> /output/esm/dom-utils/getParentNode.min.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getParentNode.min.js.br /tmp/work/dist/esm/dom-utils/getParentNode.min.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getScrollParent.js -> /output/esm/dom-utils/getScrollParent.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getScrollParent.js -> /output/esm/dom-utils/getScrollParent.js.gz
-2023/05/26 20:08:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/instanceOf.min.js /tmp/work/dist/esm/dom-utils/instanceOf.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getParentNode.min.js -> /output/esm/dom-utils/getParentNode.min.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getParentNode.min.js -> /output/esm/dom-utils/getParentNode.min.js.gz
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getParentNode.js -> /output/esm/dom-utils/getParentNode.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getParentNode.js.br /tmp/work/dist/esm/dom-utils/getParentNode.js
-2023/05/26 20:08:30 br /tmp/work/dist/cjs/popper-lite.js -> /output/cjs/popper-lite.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/cjs/popper-lite.js -> /output/cjs/popper-lite.js.gz
-2023/05/26 20:08:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/isLayoutViewport.min.js /tmp/work/dist/esm/dom-utils/isLayoutViewport.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getParentNode.js -> /output/esm/dom-utils/getParentNode.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getParentNode.js -> /output/esm/dom-utils/getParentNode.js.gz
-2023/05/26 20:08:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/isScrollParent.min.js /tmp/work/dist/esm/dom-utils/isScrollParent.js
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getViewportRect.min.js -> /output/esm/dom-utils/getViewportRect.min.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getViewportRect.min.js.br /tmp/work/dist/esm/dom-utils/getViewportRect.min.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getViewportRect.min.js -> /output/esm/dom-utils/getViewportRect.min.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getViewportRect.min.js -> /output/esm/dom-utils/getViewportRect.min.js.gz
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getViewportRect.js -> /output/esm/dom-utils/getViewportRect.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getViewportRect.js.br /tmp/work/dist/esm/dom-utils/getViewportRect.js
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getWindow.min.js -> /output/esm/dom-utils/getWindow.min.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getWindow.min.js.br /tmp/work/dist/esm/dom-utils/getWindow.min.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getViewportRect.js -> /output/esm/dom-utils/getViewportRect.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getViewportRect.js -> /output/esm/dom-utils/getViewportRect.js.gz
-2023/05/26 20:08:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/isTableElement.min.js /tmp/work/dist/esm/dom-utils/isTableElement.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getWindow.min.js -> /output/esm/dom-utils/getWindow.min.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getWindow.min.js -> /output/esm/dom-utils/getWindow.min.js.gz
-2023/05/26 20:08:30 sri /tmp/work/dist/esm/dom-utils/getWindow.js -> /output/esm/dom-utils/getWindow.js.sri
-2023/05/26 20:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getWindow.js.br /tmp/work/dist/esm/dom-utils/getWindow.js
-2023/05/26 20:08:30 br /tmp/work/dist/esm/dom-utils/getWindow.js -> /output/esm/dom-utils/getWindow.js.br
-2023/05/26 20:08:30 gz /tmp/work/dist/esm/dom-utils/getWindow.js -> /output/esm/dom-utils/getWindow.js.gz
-2023/05/26 20:08:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/listScrollParents.min.js /tmp/work/dist/esm/dom-utils/listScrollParents.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/dom-utils/getWindowScroll.min.js -> /output/esm/dom-utils/getWindowScroll.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getWindowScroll.min.js.br /tmp/work/dist/esm/dom-utils/getWindowScroll.min.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/dom-utils/getWindowScroll.min.js -> /output/esm/dom-utils/getWindowScroll.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/dom-utils/getWindowScroll.min.js -> /output/esm/dom-utils/getWindowScroll.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/dom-utils/getWindowScroll.js -> /output/esm/dom-utils/getWindowScroll.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getWindowScroll.js.br /tmp/work/dist/esm/dom-utils/getWindowScroll.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/dom-utils/getWindowScroll.js -> /output/esm/dom-utils/getWindowScroll.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/dom-utils/getWindowScroll.js -> /output/esm/dom-utils/getWindowScroll.js.gz
-2023/05/26 20:08:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/enums.min.js /tmp/work/dist/esm/enums.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/dom-utils/getWindowScrollBarX.min.js -> /output/esm/dom-utils/getWindowScrollBarX.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getWindowScrollBarX.min.js.br /tmp/work/dist/esm/dom-utils/getWindowScrollBarX.min.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/dom-utils/getWindowScrollBarX.min.js -> /output/esm/dom-utils/getWindowScrollBarX.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/dom-utils/getWindowScrollBarX.min.js -> /output/esm/dom-utils/getWindowScrollBarX.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/dom-utils/getWindowScrollBarX.js -> /output/esm/dom-utils/getWindowScrollBarX.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getWindowScrollBarX.js.br /tmp/work/dist/esm/dom-utils/getWindowScrollBarX.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/dom-utils/getWindowScrollBarX.js -> /output/esm/dom-utils/getWindowScrollBarX.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/dom-utils/getWindowScrollBarX.js -> /output/esm/dom-utils/getWindowScrollBarX.js.gz
-2023/05/26 20:08:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/index.min.js /tmp/work/dist/esm/index.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/dom-utils/isLayoutViewport.min.js -> /output/esm/dom-utils/isLayoutViewport.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/isLayoutViewport.min.js.br /tmp/work/dist/esm/dom-utils/isLayoutViewport.min.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/dom-utils/isLayoutViewport.min.js -> /output/esm/dom-utils/isLayoutViewport.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/dom-utils/isLayoutViewport.min.js -> /output/esm/dom-utils/isLayoutViewport.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/dom-utils/isLayoutViewport.js -> /output/esm/dom-utils/isLayoutViewport.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/isLayoutViewport.js.br /tmp/work/dist/esm/dom-utils/isLayoutViewport.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/dom-utils/isLayoutViewport.js -> /output/esm/dom-utils/isLayoutViewport.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/dom-utils/isLayoutViewport.js -> /output/esm/dom-utils/isLayoutViewport.js.gz
-2023/05/26 20:08:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/modifiers/applyStyles.min.js /tmp/work/dist/esm/modifiers/applyStyles.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/dom-utils/instanceOf.min.js -> /output/esm/dom-utils/instanceOf.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/instanceOf.min.js.br /tmp/work/dist/esm/dom-utils/instanceOf.min.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/dom-utils/instanceOf.min.js -> /output/esm/dom-utils/instanceOf.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/dom-utils/instanceOf.min.js -> /output/esm/dom-utils/instanceOf.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/dom-utils/instanceOf.js -> /output/esm/dom-utils/instanceOf.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/instanceOf.js.br /tmp/work/dist/esm/dom-utils/instanceOf.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/dom-utils/isScrollParent.min.js -> /output/esm/dom-utils/isScrollParent.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/isScrollParent.min.js.br /tmp/work/dist/esm/dom-utils/isScrollParent.min.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/dom-utils/instanceOf.js -> /output/esm/dom-utils/instanceOf.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/dom-utils/instanceOf.js -> /output/esm/dom-utils/instanceOf.js.gz
-2023/05/26 20:08:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/modifiers/arrow.min.js /tmp/work/dist/esm/modifiers/arrow.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/dom-utils/isTableElement.min.js -> /output/esm/dom-utils/isTableElement.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/isTableElement.min.js.br /tmp/work/dist/esm/dom-utils/isTableElement.min.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/dom-utils/isScrollParent.min.js -> /output/esm/dom-utils/isScrollParent.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/dom-utils/isScrollParent.min.js -> /output/esm/dom-utils/isScrollParent.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/dom-utils/isScrollParent.js -> /output/esm/dom-utils/isScrollParent.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/isScrollParent.js.br /tmp/work/dist/esm/dom-utils/isScrollParent.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/dom-utils/isTableElement.min.js -> /output/esm/dom-utils/isTableElement.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/dom-utils/isTableElement.min.js -> /output/esm/dom-utils/isTableElement.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/dom-utils/isTableElement.js -> /output/esm/dom-utils/isTableElement.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/isTableElement.js.br /tmp/work/dist/esm/dom-utils/isTableElement.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/dom-utils/isScrollParent.js -> /output/esm/dom-utils/isScrollParent.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/dom-utils/isScrollParent.js -> /output/esm/dom-utils/isScrollParent.js.gz
-2023/05/26 20:08:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/modifiers/computeStyles.min.js /tmp/work/dist/esm/modifiers/computeStyles.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/dom-utils/isTableElement.js -> /output/esm/dom-utils/isTableElement.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/dom-utils/isTableElement.js -> /output/esm/dom-utils/isTableElement.js.gz
-2023/05/26 20:08:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/modifiers/eventListeners.min.js /tmp/work/dist/esm/modifiers/eventListeners.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/dom-utils/listScrollParents.min.js -> /output/esm/dom-utils/listScrollParents.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/listScrollParents.min.js.br /tmp/work/dist/esm/dom-utils/listScrollParents.min.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/dom-utils/listScrollParents.min.js -> /output/esm/dom-utils/listScrollParents.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/dom-utils/listScrollParents.min.js -> /output/esm/dom-utils/listScrollParents.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/dom-utils/listScrollParents.js -> /output/esm/dom-utils/listScrollParents.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/listScrollParents.js.br /tmp/work/dist/esm/dom-utils/listScrollParents.js
-2023/05/26 20:08:31 sri /tmp/work/dist/cjs/popper.min.js -> /output/cjs/popper.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/popper.min.js.br /tmp/work/dist/cjs/popper.min.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/dom-utils/listScrollParents.js -> /output/esm/dom-utils/listScrollParents.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/dom-utils/listScrollParents.js -> /output/esm/dom-utils/listScrollParents.js.gz
-2023/05/26 20:08:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/modifiers/flip.min.js /tmp/work/dist/esm/modifiers/flip.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/index.min.js -> /output/esm/index.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/index.min.js.br /tmp/work/dist/esm/index.min.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/index.min.js -> /output/esm/index.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/index.min.js -> /output/esm/index.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/index.js -> /output/esm/index.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/index.js.br /tmp/work/dist/esm/index.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/index.js -> /output/esm/index.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/index.js -> /output/esm/index.js.gz
-2023/05/26 20:08:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/modifiers/hide.min.js /tmp/work/dist/esm/modifiers/hide.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/enums.min.js -> /output/esm/enums.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/enums.min.js.br /tmp/work/dist/esm/enums.min.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/enums.min.js -> /output/esm/enums.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/enums.min.js -> /output/esm/enums.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/enums.js -> /output/esm/enums.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/enums.js.br /tmp/work/dist/esm/enums.js
-2023/05/26 20:08:31 br /tmp/work/dist/cjs/popper.min.js -> /output/cjs/popper.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/cjs/popper.min.js -> /output/cjs/popper.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/cjs/popper.js -> /output/cjs/popper.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/popper.js.br /tmp/work/dist/cjs/popper.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/enums.js -> /output/esm/enums.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/enums.js -> /output/esm/enums.js.gz
-2023/05/26 20:08:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/modifiers/index.min.js /tmp/work/dist/esm/modifiers/index.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/modifiers/applyStyles.min.js -> /output/esm/modifiers/applyStyles.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/applyStyles.min.js.br /tmp/work/dist/esm/modifiers/applyStyles.min.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/modifiers/applyStyles.min.js -> /output/esm/modifiers/applyStyles.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/modifiers/applyStyles.min.js -> /output/esm/modifiers/applyStyles.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/modifiers/applyStyles.js -> /output/esm/modifiers/applyStyles.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/applyStyles.js.br /tmp/work/dist/esm/modifiers/applyStyles.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/modifiers/applyStyles.js -> /output/esm/modifiers/applyStyles.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/modifiers/applyStyles.js -> /output/esm/modifiers/applyStyles.js.gz
-2023/05/26 20:08:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/modifiers/offset.min.js /tmp/work/dist/esm/modifiers/offset.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/modifiers/eventListeners.min.js -> /output/esm/modifiers/eventListeners.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/eventListeners.min.js.br /tmp/work/dist/esm/modifiers/eventListeners.min.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/modifiers/eventListeners.min.js -> /output/esm/modifiers/eventListeners.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/modifiers/eventListeners.min.js -> /output/esm/modifiers/eventListeners.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/modifiers/eventListeners.js -> /output/esm/modifiers/eventListeners.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/eventListeners.js.br /tmp/work/dist/esm/modifiers/eventListeners.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/modifiers/arrow.min.js -> /output/esm/modifiers/arrow.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/arrow.min.js.br /tmp/work/dist/esm/modifiers/arrow.min.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/modifiers/eventListeners.js -> /output/esm/modifiers/eventListeners.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/modifiers/eventListeners.js -> /output/esm/modifiers/eventListeners.js.gz
-2023/05/26 20:08:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/modifiers/popperOffsets.min.js /tmp/work/dist/esm/modifiers/popperOffsets.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/modifiers/arrow.min.js -> /output/esm/modifiers/arrow.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/modifiers/arrow.min.js -> /output/esm/modifiers/arrow.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/modifiers/arrow.js -> /output/esm/modifiers/arrow.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/arrow.js.br /tmp/work/dist/esm/modifiers/arrow.js
-2023/05/26 20:08:31 br /tmp/work/dist/cjs/popper.js -> /output/cjs/popper.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/cjs/popper.js -> /output/cjs/popper.js.gz
-2023/05/26 20:08:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/modifiers/preventOverflow.min.js /tmp/work/dist/esm/modifiers/preventOverflow.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/modifiers/arrow.js -> /output/esm/modifiers/arrow.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/modifiers/arrow.js -> /output/esm/modifiers/arrow.js.gz
-2023/05/26 20:08:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/popper-base.min.js /tmp/work/dist/esm/popper-base.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/modifiers/index.min.js -> /output/esm/modifiers/index.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/index.min.js.br /tmp/work/dist/esm/modifiers/index.min.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/modifiers/index.min.js -> /output/esm/modifiers/index.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/modifiers/index.min.js -> /output/esm/modifiers/index.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/modifiers/index.js -> /output/esm/modifiers/index.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/index.js.br /tmp/work/dist/esm/modifiers/index.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/modifiers/index.js -> /output/esm/modifiers/index.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/modifiers/index.js -> /output/esm/modifiers/index.js.gz
-2023/05/26 20:08:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/popper-lite.min.js /tmp/work/dist/esm/popper-lite.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/modifiers/hide.min.js -> /output/esm/modifiers/hide.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/hide.min.js.br /tmp/work/dist/esm/modifiers/hide.min.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/modifiers/hide.min.js -> /output/esm/modifiers/hide.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/modifiers/hide.min.js -> /output/esm/modifiers/hide.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/modifiers/hide.js -> /output/esm/modifiers/hide.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/hide.js.br /tmp/work/dist/esm/modifiers/hide.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/modifiers/hide.js -> /output/esm/modifiers/hide.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/modifiers/hide.js -> /output/esm/modifiers/hide.js.gz
-2023/05/26 20:08:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/popper.min.js /tmp/work/dist/esm/popper.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/modifiers/flip.min.js -> /output/esm/modifiers/flip.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/flip.min.js.br /tmp/work/dist/esm/modifiers/flip.min.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/modifiers/computeStyles.min.js -> /output/esm/modifiers/computeStyles.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/computeStyles.min.js.br /tmp/work/dist/esm/modifiers/computeStyles.min.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/modifiers/computeStyles.min.js -> /output/esm/modifiers/computeStyles.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/modifiers/computeStyles.min.js -> /output/esm/modifiers/computeStyles.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/modifiers/computeStyles.js -> /output/esm/modifiers/computeStyles.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/computeStyles.js.br /tmp/work/dist/esm/modifiers/computeStyles.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/modifiers/flip.min.js -> /output/esm/modifiers/flip.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/modifiers/flip.min.js -> /output/esm/modifiers/flip.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/modifiers/flip.js -> /output/esm/modifiers/flip.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/flip.js.br /tmp/work/dist/esm/modifiers/flip.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/modifiers/flip.js -> /output/esm/modifiers/flip.js.br
-2023/05/26 20:08:31 br /tmp/work/dist/esm/modifiers/computeStyles.js -> /output/esm/modifiers/computeStyles.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/modifiers/flip.js -> /output/esm/modifiers/flip.js.gz
-2023/05/26 20:08:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/types.min.js /tmp/work/dist/esm/types.js
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/modifiers/computeStyles.js -> /output/esm/modifiers/computeStyles.js.gz
-2023/05/26 20:08:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/computeAutoPlacement.min.js /tmp/work/dist/esm/utils/computeAutoPlacement.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/popper-base.min.js -> /output/esm/popper-base.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/popper-base.min.js.br /tmp/work/dist/esm/popper-base.min.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/popper-base.min.js -> /output/esm/popper-base.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/popper-base.min.js -> /output/esm/popper-base.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/popper-base.js -> /output/esm/popper-base.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/popper-base.js.br /tmp/work/dist/esm/popper-base.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/modifiers/popperOffsets.min.js -> /output/esm/modifiers/popperOffsets.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/popperOffsets.min.js.br /tmp/work/dist/esm/modifiers/popperOffsets.min.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/modifiers/offset.min.js -> /output/esm/modifiers/offset.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/offset.min.js.br /tmp/work/dist/esm/modifiers/offset.min.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/popper-base.js -> /output/esm/popper-base.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/popper-base.js -> /output/esm/popper-base.js.gz
-2023/05/26 20:08:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/computeOffsets.min.js /tmp/work/dist/esm/utils/computeOffsets.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/modifiers/popperOffsets.min.js -> /output/esm/modifiers/popperOffsets.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/modifiers/popperOffsets.min.js -> /output/esm/modifiers/popperOffsets.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/modifiers/popperOffsets.js -> /output/esm/modifiers/popperOffsets.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/popperOffsets.js.br /tmp/work/dist/esm/modifiers/popperOffsets.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/modifiers/offset.min.js -> /output/esm/modifiers/offset.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/modifiers/offset.min.js -> /output/esm/modifiers/offset.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/modifiers/offset.js -> /output/esm/modifiers/offset.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/offset.js.br /tmp/work/dist/esm/modifiers/offset.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/modifiers/popperOffsets.js -> /output/esm/modifiers/popperOffsets.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/modifiers/popperOffsets.js -> /output/esm/modifiers/popperOffsets.js.gz
-2023/05/26 20:08:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/debounce.min.js /tmp/work/dist/esm/utils/debounce.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/modifiers/offset.js -> /output/esm/modifiers/offset.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/modifiers/offset.js -> /output/esm/modifiers/offset.js.gz
-2023/05/26 20:08:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/detectOverflow.min.js /tmp/work/dist/esm/utils/detectOverflow.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/popper-lite.min.js -> /output/esm/popper-lite.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/popper-lite.min.js.br /tmp/work/dist/esm/popper-lite.min.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/popper-lite.min.js -> /output/esm/popper-lite.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/popper-lite.min.js -> /output/esm/popper-lite.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/popper-lite.js -> /output/esm/popper-lite.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/popper-lite.js.br /tmp/work/dist/esm/popper-lite.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/popper-lite.js -> /output/esm/popper-lite.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/popper-lite.js -> /output/esm/popper-lite.js.gz
-2023/05/26 20:08:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/expandToHashMap.min.js /tmp/work/dist/esm/utils/expandToHashMap.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/popper.min.js -> /output/esm/popper.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/popper.min.js.br /tmp/work/dist/esm/popper.min.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/popper.min.js -> /output/esm/popper.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/popper.min.js -> /output/esm/popper.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/popper.js -> /output/esm/popper.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/popper.js.br /tmp/work/dist/esm/popper.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/types.min.js -> /output/esm/types.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/types.min.js.br /tmp/work/dist/esm/types.min.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/types.min.js -> /output/esm/types.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/types.min.js -> /output/esm/types.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/types.js -> /output/esm/types.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/types.js.br /tmp/work/dist/esm/types.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/types.js -> /output/esm/types.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/types.js -> /output/esm/types.js.gz
-2023/05/26 20:08:31 br /tmp/work/dist/esm/popper.js -> /output/esm/popper.js.br
-2023/05/26 20:08:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/getAltAxis.min.js /tmp/work/dist/esm/utils/getAltAxis.js
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/popper.js -> /output/esm/popper.js.gz
-2023/05/26 20:08:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/getAltLen.min.js /tmp/work/dist/esm/utils/getAltLen.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/utils/computeAutoPlacement.min.js -> /output/esm/utils/computeAutoPlacement.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/computeAutoPlacement.min.js.br /tmp/work/dist/esm/utils/computeAutoPlacement.min.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/utils/computeAutoPlacement.min.js -> /output/esm/utils/computeAutoPlacement.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/utils/computeAutoPlacement.min.js -> /output/esm/utils/computeAutoPlacement.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/utils/computeAutoPlacement.js -> /output/esm/utils/computeAutoPlacement.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/computeAutoPlacement.js.br /tmp/work/dist/esm/utils/computeAutoPlacement.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/utils/computeAutoPlacement.js -> /output/esm/utils/computeAutoPlacement.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/utils/computeAutoPlacement.js -> /output/esm/utils/computeAutoPlacement.js.gz
-2023/05/26 20:08:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/getBasePlacement.min.js /tmp/work/dist/esm/utils/getBasePlacement.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/modifiers/preventOverflow.min.js -> /output/esm/modifiers/preventOverflow.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/preventOverflow.min.js.br /tmp/work/dist/esm/modifiers/preventOverflow.min.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/utils/debounce.min.js -> /output/esm/utils/debounce.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/debounce.min.js.br /tmp/work/dist/esm/utils/debounce.min.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/utils/expandToHashMap.min.js -> /output/esm/utils/expandToHashMap.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/expandToHashMap.min.js.br /tmp/work/dist/esm/utils/expandToHashMap.min.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/utils/debounce.min.js -> /output/esm/utils/debounce.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/utils/debounce.min.js -> /output/esm/utils/debounce.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/utils/debounce.js -> /output/esm/utils/debounce.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/debounce.js.br /tmp/work/dist/esm/utils/debounce.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/modifiers/preventOverflow.min.js -> /output/esm/modifiers/preventOverflow.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/modifiers/preventOverflow.min.js -> /output/esm/modifiers/preventOverflow.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/modifiers/preventOverflow.js -> /output/esm/modifiers/preventOverflow.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/preventOverflow.js.br /tmp/work/dist/esm/modifiers/preventOverflow.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/utils/getAltAxis.min.js -> /output/esm/utils/getAltAxis.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getAltAxis.min.js.br /tmp/work/dist/esm/utils/getAltAxis.min.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/utils/expandToHashMap.min.js -> /output/esm/utils/expandToHashMap.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/utils/expandToHashMap.min.js -> /output/esm/utils/expandToHashMap.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/utils/expandToHashMap.js -> /output/esm/utils/expandToHashMap.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/expandToHashMap.js.br /tmp/work/dist/esm/utils/expandToHashMap.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/utils/debounce.js -> /output/esm/utils/debounce.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/utils/debounce.js -> /output/esm/utils/debounce.js.gz
-2023/05/26 20:08:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/getFreshSideObject.min.js /tmp/work/dist/esm/utils/getFreshSideObject.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/utils/getAltAxis.min.js -> /output/esm/utils/getAltAxis.min.js.br
-2023/05/26 20:08:31 br /tmp/work/dist/esm/utils/expandToHashMap.js -> /output/esm/utils/expandToHashMap.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/utils/getAltAxis.min.js -> /output/esm/utils/getAltAxis.min.js.gz
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/utils/getAltAxis.js -> /output/esm/utils/getAltAxis.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getAltAxis.js.br /tmp/work/dist/esm/utils/getAltAxis.js
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/utils/expandToHashMap.js -> /output/esm/utils/expandToHashMap.js.gz
-2023/05/26 20:08:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/getMainAxisFromPlacement.min.js /tmp/work/dist/esm/utils/getMainAxisFromPlacement.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/utils/getAltAxis.js -> /output/esm/utils/getAltAxis.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/utils/getAltAxis.js -> /output/esm/utils/getAltAxis.js.gz
-2023/05/26 20:08:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/getOppositePlacement.min.js /tmp/work/dist/esm/utils/getOppositePlacement.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/utils/getAltLen.min.js -> /output/esm/utils/getAltLen.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getAltLen.min.js.br /tmp/work/dist/esm/utils/getAltLen.min.js
-2023/05/26 20:08:31 sri /tmp/work/dist/esm/utils/computeOffsets.min.js -> /output/esm/utils/computeOffsets.min.js.sri
-2023/05/26 20:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/computeOffsets.min.js.br /tmp/work/dist/esm/utils/computeOffsets.min.js
-2023/05/26 20:08:31 br /tmp/work/dist/esm/utils/getAltLen.min.js -> /output/esm/utils/getAltLen.min.js.br
-2023/05/26 20:08:31 gz /tmp/work/dist/esm/utils/getAltLen.min.js -> /output/esm/utils/getAltLen.min.js.gz
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/getAltLen.js -> /output/esm/utils/getAltLen.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getAltLen.js.br /tmp/work/dist/esm/utils/getAltLen.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/computeOffsets.min.js -> /output/esm/utils/computeOffsets.min.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/computeOffsets.min.js -> /output/esm/utils/computeOffsets.min.js.gz
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/computeOffsets.js -> /output/esm/utils/computeOffsets.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/computeOffsets.js.br /tmp/work/dist/esm/utils/computeOffsets.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/getAltLen.js -> /output/esm/utils/getAltLen.js.br
-2023/05/26 20:08:32 br /tmp/work/dist/esm/modifiers/preventOverflow.js -> /output/esm/modifiers/preventOverflow.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/getAltLen.js -> /output/esm/utils/getAltLen.js.gz
-2023/05/26 20:08:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/getOppositeVariationPlacement.min.js /tmp/work/dist/esm/utils/getOppositeVariationPlacement.js
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/modifiers/preventOverflow.js -> /output/esm/modifiers/preventOverflow.js.gz
-2023/05/26 20:08:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/getVariation.min.js /tmp/work/dist/esm/utils/getVariation.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/computeOffsets.js -> /output/esm/utils/computeOffsets.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/computeOffsets.js -> /output/esm/utils/computeOffsets.js.gz
-2023/05/26 20:08:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/math.min.js /tmp/work/dist/esm/utils/math.js
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/detectOverflow.min.js -> /output/esm/utils/detectOverflow.min.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/detectOverflow.min.js.br /tmp/work/dist/esm/utils/detectOverflow.min.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/detectOverflow.min.js -> /output/esm/utils/detectOverflow.min.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/detectOverflow.min.js -> /output/esm/utils/detectOverflow.min.js.gz
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/detectOverflow.js -> /output/esm/utils/detectOverflow.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/detectOverflow.js.br /tmp/work/dist/esm/utils/detectOverflow.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/detectOverflow.js -> /output/esm/utils/detectOverflow.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/detectOverflow.js -> /output/esm/utils/detectOverflow.js.gz
-2023/05/26 20:08:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/mergeByName.min.js /tmp/work/dist/esm/utils/mergeByName.js
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/getBasePlacement.min.js -> /output/esm/utils/getBasePlacement.min.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getBasePlacement.min.js.br /tmp/work/dist/esm/utils/getBasePlacement.min.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/getBasePlacement.min.js -> /output/esm/utils/getBasePlacement.min.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/getBasePlacement.min.js -> /output/esm/utils/getBasePlacement.min.js.gz
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/getBasePlacement.js -> /output/esm/utils/getBasePlacement.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getBasePlacement.js.br /tmp/work/dist/esm/utils/getBasePlacement.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/getBasePlacement.js -> /output/esm/utils/getBasePlacement.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/getBasePlacement.js -> /output/esm/utils/getBasePlacement.js.gz
-2023/05/26 20:08:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/mergePaddingObject.min.js /tmp/work/dist/esm/utils/mergePaddingObject.js
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/getFreshSideObject.min.js -> /output/esm/utils/getFreshSideObject.min.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getFreshSideObject.min.js.br /tmp/work/dist/esm/utils/getFreshSideObject.min.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/getFreshSideObject.min.js -> /output/esm/utils/getFreshSideObject.min.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/getFreshSideObject.min.js -> /output/esm/utils/getFreshSideObject.min.js.gz
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/getFreshSideObject.js -> /output/esm/utils/getFreshSideObject.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getFreshSideObject.js.br /tmp/work/dist/esm/utils/getFreshSideObject.js
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/getOppositePlacement.min.js -> /output/esm/utils/getOppositePlacement.min.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getOppositePlacement.min.js.br /tmp/work/dist/esm/utils/getOppositePlacement.min.js
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/getMainAxisFromPlacement.min.js -> /output/esm/utils/getMainAxisFromPlacement.min.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getMainAxisFromPlacement.min.js.br /tmp/work/dist/esm/utils/getMainAxisFromPlacement.min.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/getFreshSideObject.js -> /output/esm/utils/getFreshSideObject.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/getFreshSideObject.js -> /output/esm/utils/getFreshSideObject.js.gz
-2023/05/26 20:08:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/orderModifiers.min.js /tmp/work/dist/esm/utils/orderModifiers.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/getOppositePlacement.min.js -> /output/esm/utils/getOppositePlacement.min.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/getOppositePlacement.min.js -> /output/esm/utils/getOppositePlacement.min.js.gz
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/getOppositePlacement.js -> /output/esm/utils/getOppositePlacement.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getOppositePlacement.js.br /tmp/work/dist/esm/utils/getOppositePlacement.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/getMainAxisFromPlacement.min.js -> /output/esm/utils/getMainAxisFromPlacement.min.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/getMainAxisFromPlacement.min.js -> /output/esm/utils/getMainAxisFromPlacement.min.js.gz
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/getMainAxisFromPlacement.js -> /output/esm/utils/getMainAxisFromPlacement.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getMainAxisFromPlacement.js.br /tmp/work/dist/esm/utils/getMainAxisFromPlacement.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/getOppositePlacement.js -> /output/esm/utils/getOppositePlacement.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/getOppositePlacement.js -> /output/esm/utils/getOppositePlacement.js.gz
-2023/05/26 20:08:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/rectToClientRect.min.js /tmp/work/dist/esm/utils/rectToClientRect.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/getMainAxisFromPlacement.js -> /output/esm/utils/getMainAxisFromPlacement.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/getMainAxisFromPlacement.js -> /output/esm/utils/getMainAxisFromPlacement.js.gz
-2023/05/26 20:08:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/uniqueBy.min.js /tmp/work/dist/esm/utils/uniqueBy.js
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/getVariation.min.js -> /output/esm/utils/getVariation.min.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getVariation.min.js.br /tmp/work/dist/esm/utils/getVariation.min.js
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/getOppositeVariationPlacement.min.js -> /output/esm/utils/getOppositeVariationPlacement.min.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getOppositeVariationPlacement.min.js.br /tmp/work/dist/esm/utils/getOppositeVariationPlacement.min.js
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/math.min.js -> /output/esm/utils/math.min.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/math.min.js.br /tmp/work/dist/esm/utils/math.min.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/getVariation.min.js -> /output/esm/utils/getVariation.min.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/getVariation.min.js -> /output/esm/utils/getVariation.min.js.gz
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/getVariation.js -> /output/esm/utils/getVariation.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getVariation.js.br /tmp/work/dist/esm/utils/getVariation.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/getOppositeVariationPlacement.min.js -> /output/esm/utils/getOppositeVariationPlacement.min.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/getOppositeVariationPlacement.min.js -> /output/esm/utils/getOppositeVariationPlacement.min.js.gz
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/getOppositeVariationPlacement.js -> /output/esm/utils/getOppositeVariationPlacement.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getOppositeVariationPlacement.js.br /tmp/work/dist/esm/utils/getOppositeVariationPlacement.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/math.min.js -> /output/esm/utils/math.min.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/math.min.js -> /output/esm/utils/math.min.js.gz
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/math.js -> /output/esm/utils/math.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/math.js.br /tmp/work/dist/esm/utils/math.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/getVariation.js -> /output/esm/utils/getVariation.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/getVariation.js -> /output/esm/utils/getVariation.js.gz
-2023/05/26 20:08:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/userAgent.min.js /tmp/work/dist/esm/utils/userAgent.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/getOppositeVariationPlacement.js -> /output/esm/utils/getOppositeVariationPlacement.js.br
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/math.js -> /output/esm/utils/math.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/math.js -> /output/esm/utils/math.js.gz
-2023/05/26 20:08:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/within.min.js /tmp/work/dist/esm/utils/within.js
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/getOppositeVariationPlacement.js -> /output/esm/utils/getOppositeVariationPlacement.js.gz
-2023/05/26 20:08:32 /tmp/work/dist/umd/enums.min.js already has corresponding compressed file
-2023/05/26 20:08:32 sri /tmp/work/dist/umd/enums.js -> /output/umd/enums.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/enums.js.br /tmp/work/dist/umd/enums.js
-2023/05/26 20:08:32 br /tmp/work/dist/umd/enums.js -> /output/umd/enums.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/umd/enums.js -> /output/umd/enums.js.gz
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/enums.js.map.br /tmp/work/dist/umd/enums.js.map
-2023/05/26 20:08:32 br /tmp/work/dist/umd/enums.js.map -> /output/umd/enums.js.map.br
-2023/05/26 20:08:32 gz /tmp/work/dist/umd/enums.js.map -> /output/umd/enums.js.map.gz
-2023/05/26 20:08:32 /tmp/work/dist/umd/enums.min.js is already compressed
-2023/05/26 20:08:32 sri /tmp/work/dist/umd/enums.min.js -> /output/umd/enums.min.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/enums.min.js.br /tmp/work/dist/umd/enums.min.js
-2023/05/26 20:08:32 br /tmp/work/dist/umd/enums.min.js -> /output/umd/enums.min.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/umd/enums.min.js -> /output/umd/enums.min.js.gz
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/enums.min.js.map.br /tmp/work/dist/umd/enums.min.js.map
-2023/05/26 20:08:32 br /tmp/work/dist/umd/enums.min.js.map -> /output/umd/enums.min.js.map.br
-2023/05/26 20:08:32 gz /tmp/work/dist/umd/enums.min.js.map -> /output/umd/enums.min.js.map.gz
-2023/05/26 20:08:32 /tmp/work/dist/umd/popper-base.min.js already has corresponding compressed file
-2023/05/26 20:08:32 sri /tmp/work/dist/umd/popper-base.js -> /output/umd/popper-base.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/popper-base.js.br /tmp/work/dist/umd/popper-base.js
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/mergeByName.min.js -> /output/esm/utils/mergeByName.min.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/mergeByName.min.js.br /tmp/work/dist/esm/utils/mergeByName.min.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/mergeByName.min.js -> /output/esm/utils/mergeByName.min.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/mergeByName.min.js -> /output/esm/utils/mergeByName.min.js.gz
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/mergeByName.js -> /output/esm/utils/mergeByName.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/mergeByName.js.br /tmp/work/dist/esm/utils/mergeByName.js
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/mergePaddingObject.min.js -> /output/esm/utils/mergePaddingObject.min.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/mergePaddingObject.min.js.br /tmp/work/dist/esm/utils/mergePaddingObject.min.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/mergeByName.js -> /output/esm/utils/mergeByName.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/mergeByName.js -> /output/esm/utils/mergeByName.js.gz
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/popper-base.js.map.br /tmp/work/dist/umd/popper-base.js.map
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/mergePaddingObject.min.js -> /output/esm/utils/mergePaddingObject.min.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/mergePaddingObject.min.js -> /output/esm/utils/mergePaddingObject.min.js.gz
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/mergePaddingObject.js -> /output/esm/utils/mergePaddingObject.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/mergePaddingObject.js.br /tmp/work/dist/esm/utils/mergePaddingObject.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/mergePaddingObject.js -> /output/esm/utils/mergePaddingObject.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/mergePaddingObject.js -> /output/esm/utils/mergePaddingObject.js.gz
-2023/05/26 20:08:32 /tmp/work/dist/umd/popper-base.min.js is already compressed
-2023/05/26 20:08:32 sri /tmp/work/dist/umd/popper-base.min.js -> /output/umd/popper-base.min.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/popper-base.min.js.br /tmp/work/dist/umd/popper-base.min.js
-2023/05/26 20:08:32 br /tmp/work/dist/umd/popper-base.min.js -> /output/umd/popper-base.min.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/umd/popper-base.min.js -> /output/umd/popper-base.min.js.gz
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/rectToClientRect.min.js -> /output/esm/utils/rectToClientRect.min.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/rectToClientRect.min.js.br /tmp/work/dist/esm/utils/rectToClientRect.min.js
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/popper-base.min.js.map.br /tmp/work/dist/umd/popper-base.min.js.map
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/rectToClientRect.min.js -> /output/esm/utils/rectToClientRect.min.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/rectToClientRect.min.js -> /output/esm/utils/rectToClientRect.min.js.gz
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/rectToClientRect.js -> /output/esm/utils/rectToClientRect.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/rectToClientRect.js.br /tmp/work/dist/esm/utils/rectToClientRect.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/rectToClientRect.js -> /output/esm/utils/rectToClientRect.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/rectToClientRect.js -> /output/esm/utils/rectToClientRect.js.gz
-2023/05/26 20:08:32 /tmp/work/dist/umd/popper-lite.min.js already has corresponding compressed file
-2023/05/26 20:08:32 sri /tmp/work/dist/umd/popper-lite.js -> /output/umd/popper-lite.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/popper-lite.js.br /tmp/work/dist/umd/popper-lite.js
-2023/05/26 20:08:32 br /tmp/work/dist/umd/popper-base.js -> /output/umd/popper-base.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/umd/popper-base.js -> /output/umd/popper-base.js.gz
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/popper-lite.js.map.br /tmp/work/dist/umd/popper-lite.js.map
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/within.min.js -> /output/esm/utils/within.min.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/within.min.js.br /tmp/work/dist/esm/utils/within.min.js
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/uniqueBy.min.js -> /output/esm/utils/uniqueBy.min.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/uniqueBy.min.js.br /tmp/work/dist/esm/utils/uniqueBy.min.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/within.min.js -> /output/esm/utils/within.min.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/within.min.js -> /output/esm/utils/within.min.js.gz
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/within.js -> /output/esm/utils/within.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/within.js.br /tmp/work/dist/esm/utils/within.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/uniqueBy.min.js -> /output/esm/utils/uniqueBy.min.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/uniqueBy.min.js -> /output/esm/utils/uniqueBy.min.js.gz
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/uniqueBy.js -> /output/esm/utils/uniqueBy.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/uniqueBy.js.br /tmp/work/dist/esm/utils/uniqueBy.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/within.js -> /output/esm/utils/within.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/within.js -> /output/esm/utils/within.js.gz
-2023/05/26 20:08:32 /tmp/work/dist/umd/popper-lite.min.js is already compressed
-2023/05/26 20:08:32 sri /tmp/work/dist/umd/popper-lite.min.js -> /output/umd/popper-lite.min.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/popper-lite.min.js.br /tmp/work/dist/umd/popper-lite.min.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/uniqueBy.js -> /output/esm/utils/uniqueBy.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/uniqueBy.js -> /output/esm/utils/uniqueBy.js.gz
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/popper-lite.min.js.map.br /tmp/work/dist/umd/popper-lite.min.js.map
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/orderModifiers.min.js -> /output/esm/utils/orderModifiers.min.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/orderModifiers.min.js.br /tmp/work/dist/esm/utils/orderModifiers.min.js
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/userAgent.min.js -> /output/esm/utils/userAgent.min.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/userAgent.min.js.br /tmp/work/dist/esm/utils/userAgent.min.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/orderModifiers.min.js -> /output/esm/utils/orderModifiers.min.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/orderModifiers.min.js -> /output/esm/utils/orderModifiers.min.js.gz
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/orderModifiers.js -> /output/esm/utils/orderModifiers.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/orderModifiers.js.br /tmp/work/dist/esm/utils/orderModifiers.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/userAgent.min.js -> /output/esm/utils/userAgent.min.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/userAgent.min.js -> /output/esm/utils/userAgent.min.js.gz
-2023/05/26 20:08:32 sri /tmp/work/dist/esm/utils/userAgent.js -> /output/esm/utils/userAgent.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/userAgent.js.br /tmp/work/dist/esm/utils/userAgent.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/orderModifiers.js -> /output/esm/utils/orderModifiers.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/orderModifiers.js -> /output/esm/utils/orderModifiers.js.gz
-2023/05/26 20:08:32 /tmp/work/dist/umd/popper.min.js already has corresponding compressed file
-2023/05/26 20:08:32 sri /tmp/work/dist/umd/popper.js -> /output/umd/popper.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/popper.js.br /tmp/work/dist/umd/popper.js
-2023/05/26 20:08:32 br /tmp/work/dist/esm/utils/userAgent.js -> /output/esm/utils/userAgent.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/esm/utils/userAgent.js -> /output/esm/utils/userAgent.js.gz
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/popper.js.map.br /tmp/work/dist/umd/popper.js.map
-2023/05/26 20:08:32 br /tmp/work/dist/umd/popper-lite.min.js -> /output/umd/popper-lite.min.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/umd/popper-lite.min.js -> /output/umd/popper-lite.min.js.gz
-2023/05/26 20:08:32 /tmp/work/dist/umd/popper.min.js is already compressed
-2023/05/26 20:08:32 sri /tmp/work/dist/umd/popper.min.js -> /output/umd/popper.min.js.sri
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/popper.min.js.br /tmp/work/dist/umd/popper.min.js
-2023/05/26 20:08:32 br /tmp/work/dist/umd/popper-lite.js -> /output/umd/popper-lite.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/umd/popper-lite.js -> /output/umd/popper-lite.js.gz
-2023/05/26 20:08:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/popper.min.js.map.br /tmp/work/dist/umd/popper.min.js.map
-2023/05/26 20:08:32 br /tmp/work/dist/umd/popper.min.js -> /output/umd/popper.min.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/umd/popper.min.js -> /output/umd/popper.min.js.gz
-2023/05/26 20:08:32 br /tmp/work/dist/umd/popper-base.min.js.map -> /output/umd/popper-base.min.js.map.br
-2023/05/26 20:08:32 br /tmp/work/dist/umd/popper-base.js.map -> /output/umd/popper-base.js.map.br
-2023/05/26 20:08:32 gz /tmp/work/dist/umd/popper-base.min.js.map -> /output/umd/popper-base.min.js.map.gz
-2023/05/26 20:08:32 gz /tmp/work/dist/umd/popper-base.js.map -> /output/umd/popper-base.js.map.gz
-2023/05/26 20:08:32 br /tmp/work/dist/umd/popper-lite.min.js.map -> /output/umd/popper-lite.min.js.map.br
-2023/05/26 20:08:32 gz /tmp/work/dist/umd/popper-lite.min.js.map -> /output/umd/popper-lite.min.js.map.gz
-2023/05/26 20:08:32 br /tmp/work/dist/umd/popper.js -> /output/umd/popper.js.br
-2023/05/26 20:08:32 gz /tmp/work/dist/umd/popper.js -> /output/umd/popper.js.gz
-2023/05/26 20:08:32 br /tmp/work/dist/umd/popper-lite.js.map -> /output/umd/popper-lite.js.map.br
-2023/05/26 20:08:32 gz /tmp/work/dist/umd/popper-lite.js.map -> /output/umd/popper-lite.js.map.gz
-2023/05/26 20:08:32 br /tmp/work/dist/umd/popper.min.js.map -> /output/umd/popper.min.js.map.br
-2023/05/26 20:08:32 gz /tmp/work/dist/umd/popper.min.js.map -> /output/umd/popper.min.js.map.gz
-2023/05/26 20:08:32 br /tmp/work/dist/umd/popper.js.map -> /output/umd/popper.js.map.br
-2023/05/26 20:08:32 gz /tmp/work/dist/umd/popper.js.map -> /output/umd/popper.js.map.gz
-2023/05/26 20:08:32 processed popper.js
+2023/07/31 12:53:09 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/31 12:53:10 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/popper-base.min.js /tmp/work/dist/cjs/popper-base.js
+2023/07/31 12:53:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/enums.js.map.br /tmp/work/dist/cjs/enums.js.map
+2023/07/31 12:53:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/popper-base.js.map.br /tmp/work/dist/cjs/popper-base.js.map
+2023/07/31 12:53:10 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/popper-lite.min.js /tmp/work/dist/cjs/popper-lite.js
+2023/07/31 12:53:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/popper-lite.js.map.br /tmp/work/dist/cjs/popper-lite.js.map
+2023/07/31 12:53:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/popper.js.map.br /tmp/work/dist/cjs/popper.js.map
+2023/07/31 12:53:10 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/enums.min.js /tmp/work/dist/cjs/enums.js
+2023/07/31 12:53:10 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs/popper.min.js /tmp/work/dist/cjs/popper.js
+2023/07/31 12:53:10 br /tmp/work/dist/cjs/enums.js.map -> /output/cjs/enums.js.map.br
+2023/07/31 12:53:10 gz /tmp/work/dist/cjs/enums.js.map -> /output/cjs/enums.js.map.gz
+2023/07/31 12:53:10 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/createPopper.min.js /tmp/work/dist/esm/createPopper.js
+2023/07/31 12:53:10 sri /tmp/work/dist/cjs/enums.min.js -> /output/cjs/enums.min.js.sri
+2023/07/31 12:53:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/enums.min.js.br /tmp/work/dist/cjs/enums.min.js
+2023/07/31 12:53:10 br /tmp/work/dist/cjs/enums.min.js -> /output/cjs/enums.min.js.br
+2023/07/31 12:53:10 gz /tmp/work/dist/cjs/enums.min.js -> /output/cjs/enums.min.js.gz
+2023/07/31 12:53:10 sri /tmp/work/dist/cjs/enums.js -> /output/cjs/enums.js.sri
+2023/07/31 12:53:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/enums.js.br /tmp/work/dist/cjs/enums.js
+2023/07/31 12:53:10 br /tmp/work/dist/cjs/enums.js -> /output/cjs/enums.js.br
+2023/07/31 12:53:10 gz /tmp/work/dist/cjs/enums.js -> /output/cjs/enums.js.gz
+2023/07/31 12:53:10 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/contains.min.js /tmp/work/dist/esm/dom-utils/contains.js
+2023/07/31 12:53:11 br /tmp/work/dist/cjs/popper-base.js.map -> /output/cjs/popper-base.js.map.br
+2023/07/31 12:53:11 gz /tmp/work/dist/cjs/popper-base.js.map -> /output/cjs/popper-base.js.map.gz
+2023/07/31 12:53:11 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getBoundingClientRect.min.js /tmp/work/dist/esm/dom-utils/getBoundingClientRect.js
+2023/07/31 12:53:11 br /tmp/work/dist/cjs/popper-lite.js.map -> /output/cjs/popper-lite.js.map.br
+2023/07/31 12:53:11 gz /tmp/work/dist/cjs/popper-lite.js.map -> /output/cjs/popper-lite.js.map.gz
+2023/07/31 12:53:11 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getClippingRect.min.js /tmp/work/dist/esm/dom-utils/getClippingRect.js
+2023/07/31 12:53:11 br /tmp/work/dist/cjs/popper.js.map -> /output/cjs/popper.js.map.br
+2023/07/31 12:53:11 gz /tmp/work/dist/cjs/popper.js.map -> /output/cjs/popper.js.map.gz
+2023/07/31 12:53:11 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getCompositeRect.min.js /tmp/work/dist/esm/dom-utils/getCompositeRect.js
+2023/07/31 12:53:12 sri /tmp/work/dist/esm/createPopper.min.js -> /output/esm/createPopper.min.js.sri
+2023/07/31 12:53:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/createPopper.min.js.br /tmp/work/dist/esm/createPopper.min.js
+2023/07/31 12:53:12 br /tmp/work/dist/esm/createPopper.min.js -> /output/esm/createPopper.min.js.br
+2023/07/31 12:53:12 gz /tmp/work/dist/esm/createPopper.min.js -> /output/esm/createPopper.min.js.gz
+2023/07/31 12:53:12 sri /tmp/work/dist/esm/createPopper.js -> /output/esm/createPopper.js.sri
+2023/07/31 12:53:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/createPopper.js.br /tmp/work/dist/esm/createPopper.js
+2023/07/31 12:53:12 sri /tmp/work/dist/esm/dom-utils/contains.min.js -> /output/esm/dom-utils/contains.min.js.sri
+2023/07/31 12:53:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/contains.min.js.br /tmp/work/dist/esm/dom-utils/contains.min.js
+2023/07/31 12:53:12 br /tmp/work/dist/esm/dom-utils/contains.min.js -> /output/esm/dom-utils/contains.min.js.br
+2023/07/31 12:53:12 gz /tmp/work/dist/esm/dom-utils/contains.min.js -> /output/esm/dom-utils/contains.min.js.gz
+2023/07/31 12:53:12 sri /tmp/work/dist/esm/dom-utils/contains.js -> /output/esm/dom-utils/contains.js.sri
+2023/07/31 12:53:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/contains.js.br /tmp/work/dist/esm/dom-utils/contains.js
+2023/07/31 12:53:12 br /tmp/work/dist/esm/dom-utils/contains.js -> /output/esm/dom-utils/contains.js.br
+2023/07/31 12:53:12 gz /tmp/work/dist/esm/dom-utils/contains.js -> /output/esm/dom-utils/contains.js.gz
+2023/07/31 12:53:12 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getComputedStyle.min.js /tmp/work/dist/esm/dom-utils/getComputedStyle.js
+2023/07/31 12:53:12 br /tmp/work/dist/esm/createPopper.js -> /output/esm/createPopper.js.br
+2023/07/31 12:53:12 gz /tmp/work/dist/esm/createPopper.js -> /output/esm/createPopper.js.gz
+2023/07/31 12:53:12 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getDocumentElement.min.js /tmp/work/dist/esm/dom-utils/getDocumentElement.js
+2023/07/31 12:53:12 sri /tmp/work/dist/esm/dom-utils/getBoundingClientRect.min.js -> /output/esm/dom-utils/getBoundingClientRect.min.js.sri
+2023/07/31 12:53:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getBoundingClientRect.min.js.br /tmp/work/dist/esm/dom-utils/getBoundingClientRect.min.js
+2023/07/31 12:53:12 br /tmp/work/dist/esm/dom-utils/getBoundingClientRect.min.js -> /output/esm/dom-utils/getBoundingClientRect.min.js.br
+2023/07/31 12:53:12 gz /tmp/work/dist/esm/dom-utils/getBoundingClientRect.min.js -> /output/esm/dom-utils/getBoundingClientRect.min.js.gz
+2023/07/31 12:53:12 sri /tmp/work/dist/esm/dom-utils/getBoundingClientRect.js -> /output/esm/dom-utils/getBoundingClientRect.js.sri
+2023/07/31 12:53:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getBoundingClientRect.js.br /tmp/work/dist/esm/dom-utils/getBoundingClientRect.js
+2023/07/31 12:53:12 br /tmp/work/dist/esm/dom-utils/getBoundingClientRect.js -> /output/esm/dom-utils/getBoundingClientRect.js.br
+2023/07/31 12:53:12 gz /tmp/work/dist/esm/dom-utils/getBoundingClientRect.js -> /output/esm/dom-utils/getBoundingClientRect.js.gz
+2023/07/31 12:53:12 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getDocumentRect.min.js /tmp/work/dist/esm/dom-utils/getDocumentRect.js
+2023/07/31 12:53:12 sri /tmp/work/dist/cjs/popper-base.min.js -> /output/cjs/popper-base.min.js.sri
+2023/07/31 12:53:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/popper-base.min.js.br /tmp/work/dist/cjs/popper-base.min.js
+2023/07/31 12:53:12 sri /tmp/work/dist/esm/dom-utils/getCompositeRect.min.js -> /output/esm/dom-utils/getCompositeRect.min.js.sri
+2023/07/31 12:53:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getCompositeRect.min.js.br /tmp/work/dist/esm/dom-utils/getCompositeRect.min.js
+2023/07/31 12:53:12 sri /tmp/work/dist/esm/dom-utils/getClippingRect.min.js -> /output/esm/dom-utils/getClippingRect.min.js.sri
+2023/07/31 12:53:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getClippingRect.min.js.br /tmp/work/dist/esm/dom-utils/getClippingRect.min.js
+2023/07/31 12:53:12 br /tmp/work/dist/esm/dom-utils/getCompositeRect.min.js -> /output/esm/dom-utils/getCompositeRect.min.js.br
+2023/07/31 12:53:12 gz /tmp/work/dist/esm/dom-utils/getCompositeRect.min.js -> /output/esm/dom-utils/getCompositeRect.min.js.gz
+2023/07/31 12:53:12 sri /tmp/work/dist/esm/dom-utils/getCompositeRect.js -> /output/esm/dom-utils/getCompositeRect.js.sri
+2023/07/31 12:53:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getCompositeRect.js.br /tmp/work/dist/esm/dom-utils/getCompositeRect.js
+2023/07/31 12:53:12 br /tmp/work/dist/esm/dom-utils/getClippingRect.min.js -> /output/esm/dom-utils/getClippingRect.min.js.br
+2023/07/31 12:53:12 gz /tmp/work/dist/esm/dom-utils/getClippingRect.min.js -> /output/esm/dom-utils/getClippingRect.min.js.gz
+2023/07/31 12:53:12 sri /tmp/work/dist/esm/dom-utils/getClippingRect.js -> /output/esm/dom-utils/getClippingRect.js.sri
+2023/07/31 12:53:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getClippingRect.js.br /tmp/work/dist/esm/dom-utils/getClippingRect.js
+2023/07/31 12:53:12 br /tmp/work/dist/cjs/popper-base.min.js -> /output/cjs/popper-base.min.js.br
+2023/07/31 12:53:12 br /tmp/work/dist/esm/dom-utils/getCompositeRect.js -> /output/esm/dom-utils/getCompositeRect.js.br
+2023/07/31 12:53:12 gz /tmp/work/dist/esm/dom-utils/getCompositeRect.js -> /output/esm/dom-utils/getCompositeRect.js.gz
+2023/07/31 12:53:12 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getHTMLElementScroll.min.js /tmp/work/dist/esm/dom-utils/getHTMLElementScroll.js
+2023/07/31 12:53:12 gz /tmp/work/dist/cjs/popper-base.min.js -> /output/cjs/popper-base.min.js.gz
+2023/07/31 12:53:12 sri /tmp/work/dist/cjs/popper-base.js -> /output/cjs/popper-base.js.sri
+2023/07/31 12:53:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/popper-base.js.br /tmp/work/dist/cjs/popper-base.js
+2023/07/31 12:53:12 br /tmp/work/dist/esm/dom-utils/getClippingRect.js -> /output/esm/dom-utils/getClippingRect.js.br
+2023/07/31 12:53:13 gz /tmp/work/dist/esm/dom-utils/getClippingRect.js -> /output/esm/dom-utils/getClippingRect.js.gz
+2023/07/31 12:53:13 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getLayoutRect.min.js /tmp/work/dist/esm/dom-utils/getLayoutRect.js
+2023/07/31 12:53:13 sri /tmp/work/dist/esm/dom-utils/getComputedStyle.min.js -> /output/esm/dom-utils/getComputedStyle.min.js.sri
+2023/07/31 12:53:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getComputedStyle.min.js.br /tmp/work/dist/esm/dom-utils/getComputedStyle.min.js
+2023/07/31 12:53:13 br /tmp/work/dist/esm/dom-utils/getComputedStyle.min.js -> /output/esm/dom-utils/getComputedStyle.min.js.br
+2023/07/31 12:53:13 gz /tmp/work/dist/esm/dom-utils/getComputedStyle.min.js -> /output/esm/dom-utils/getComputedStyle.min.js.gz
+2023/07/31 12:53:13 sri /tmp/work/dist/esm/dom-utils/getComputedStyle.js -> /output/esm/dom-utils/getComputedStyle.js.sri
+2023/07/31 12:53:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getComputedStyle.js.br /tmp/work/dist/esm/dom-utils/getComputedStyle.js
+2023/07/31 12:53:13 br /tmp/work/dist/esm/dom-utils/getComputedStyle.js -> /output/esm/dom-utils/getComputedStyle.js.br
+2023/07/31 12:53:13 gz /tmp/work/dist/esm/dom-utils/getComputedStyle.js -> /output/esm/dom-utils/getComputedStyle.js.gz
+2023/07/31 12:53:13 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getNodeName.min.js /tmp/work/dist/esm/dom-utils/getNodeName.js
+2023/07/31 12:53:13 sri /tmp/work/dist/cjs/popper-lite.min.js -> /output/cjs/popper-lite.min.js.sri
+2023/07/31 12:53:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/popper-lite.min.js.br /tmp/work/dist/cjs/popper-lite.min.js
+2023/07/31 12:53:13 br /tmp/work/dist/cjs/popper-lite.min.js -> /output/cjs/popper-lite.min.js.br
+2023/07/31 12:53:13 gz /tmp/work/dist/cjs/popper-lite.min.js -> /output/cjs/popper-lite.min.js.gz
+2023/07/31 12:53:13 sri /tmp/work/dist/cjs/popper-lite.js -> /output/cjs/popper-lite.js.sri
+2023/07/31 12:53:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/popper-lite.js.br /tmp/work/dist/cjs/popper-lite.js
+2023/07/31 12:53:13 br /tmp/work/dist/cjs/popper-base.js -> /output/cjs/popper-base.js.br
+2023/07/31 12:53:13 gz /tmp/work/dist/cjs/popper-base.js -> /output/cjs/popper-base.js.gz
+2023/07/31 12:53:13 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getNodeScroll.min.js /tmp/work/dist/esm/dom-utils/getNodeScroll.js
+2023/07/31 12:53:13 sri /tmp/work/dist/esm/dom-utils/getDocumentElement.min.js -> /output/esm/dom-utils/getDocumentElement.min.js.sri
+2023/07/31 12:53:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getDocumentElement.min.js.br /tmp/work/dist/esm/dom-utils/getDocumentElement.min.js
+2023/07/31 12:53:13 sri /tmp/work/dist/esm/dom-utils/getDocumentRect.min.js -> /output/esm/dom-utils/getDocumentRect.min.js.sri
+2023/07/31 12:53:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getDocumentRect.min.js.br /tmp/work/dist/esm/dom-utils/getDocumentRect.min.js
+2023/07/31 12:53:13 br /tmp/work/dist/esm/dom-utils/getDocumentElement.min.js -> /output/esm/dom-utils/getDocumentElement.min.js.br
+2023/07/31 12:53:13 gz /tmp/work/dist/esm/dom-utils/getDocumentElement.min.js -> /output/esm/dom-utils/getDocumentElement.min.js.gz
+2023/07/31 12:53:13 sri /tmp/work/dist/esm/dom-utils/getDocumentElement.js -> /output/esm/dom-utils/getDocumentElement.js.sri
+2023/07/31 12:53:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getDocumentElement.js.br /tmp/work/dist/esm/dom-utils/getDocumentElement.js
+2023/07/31 12:53:13 br /tmp/work/dist/esm/dom-utils/getDocumentRect.min.js -> /output/esm/dom-utils/getDocumentRect.min.js.br
+2023/07/31 12:53:13 gz /tmp/work/dist/esm/dom-utils/getDocumentRect.min.js -> /output/esm/dom-utils/getDocumentRect.min.js.gz
+2023/07/31 12:53:13 sri /tmp/work/dist/esm/dom-utils/getDocumentRect.js -> /output/esm/dom-utils/getDocumentRect.js.sri
+2023/07/31 12:53:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getDocumentRect.js.br /tmp/work/dist/esm/dom-utils/getDocumentRect.js
+2023/07/31 12:53:13 br /tmp/work/dist/esm/dom-utils/getDocumentRect.js -> /output/esm/dom-utils/getDocumentRect.js.br
+2023/07/31 12:53:13 gz /tmp/work/dist/esm/dom-utils/getDocumentRect.js -> /output/esm/dom-utils/getDocumentRect.js.gz
+2023/07/31 12:53:13 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getOffsetParent.min.js /tmp/work/dist/esm/dom-utils/getOffsetParent.js
+2023/07/31 12:53:13 br /tmp/work/dist/esm/dom-utils/getDocumentElement.js -> /output/esm/dom-utils/getDocumentElement.js.br
+2023/07/31 12:53:13 gz /tmp/work/dist/esm/dom-utils/getDocumentElement.js -> /output/esm/dom-utils/getDocumentElement.js.gz
+2023/07/31 12:53:13 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getParentNode.min.js /tmp/work/dist/esm/dom-utils/getParentNode.js
+2023/07/31 12:53:13 sri /tmp/work/dist/esm/dom-utils/getHTMLElementScroll.min.js -> /output/esm/dom-utils/getHTMLElementScroll.min.js.sri
+2023/07/31 12:53:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getHTMLElementScroll.min.js.br /tmp/work/dist/esm/dom-utils/getHTMLElementScroll.min.js
+2023/07/31 12:53:13 br /tmp/work/dist/esm/dom-utils/getHTMLElementScroll.min.js -> /output/esm/dom-utils/getHTMLElementScroll.min.js.br
+2023/07/31 12:53:13 br /tmp/work/dist/cjs/popper-lite.js -> /output/cjs/popper-lite.js.br
+2023/07/31 12:53:13 gz /tmp/work/dist/cjs/popper-lite.js -> /output/cjs/popper-lite.js.gz
+2023/07/31 12:53:13 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getScrollParent.min.js /tmp/work/dist/esm/dom-utils/getScrollParent.js
+2023/07/31 12:53:13 gz /tmp/work/dist/esm/dom-utils/getHTMLElementScroll.min.js -> /output/esm/dom-utils/getHTMLElementScroll.min.js.gz
+2023/07/31 12:53:13 sri /tmp/work/dist/esm/dom-utils/getHTMLElementScroll.js -> /output/esm/dom-utils/getHTMLElementScroll.js.sri
+2023/07/31 12:53:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getHTMLElementScroll.js.br /tmp/work/dist/esm/dom-utils/getHTMLElementScroll.js
+2023/07/31 12:53:13 br /tmp/work/dist/esm/dom-utils/getHTMLElementScroll.js -> /output/esm/dom-utils/getHTMLElementScroll.js.br
+2023/07/31 12:53:13 gz /tmp/work/dist/esm/dom-utils/getHTMLElementScroll.js -> /output/esm/dom-utils/getHTMLElementScroll.js.gz
+2023/07/31 12:53:13 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getViewportRect.min.js /tmp/work/dist/esm/dom-utils/getViewportRect.js
+2023/07/31 12:53:13 sri /tmp/work/dist/esm/dom-utils/getNodeName.min.js -> /output/esm/dom-utils/getNodeName.min.js.sri
+2023/07/31 12:53:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getNodeName.min.js.br /tmp/work/dist/esm/dom-utils/getNodeName.min.js
+2023/07/31 12:53:13 br /tmp/work/dist/esm/dom-utils/getNodeName.min.js -> /output/esm/dom-utils/getNodeName.min.js.br
+2023/07/31 12:53:13 gz /tmp/work/dist/esm/dom-utils/getNodeName.min.js -> /output/esm/dom-utils/getNodeName.min.js.gz
+2023/07/31 12:53:13 sri /tmp/work/dist/esm/dom-utils/getNodeName.js -> /output/esm/dom-utils/getNodeName.js.sri
+2023/07/31 12:53:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getNodeName.js.br /tmp/work/dist/esm/dom-utils/getNodeName.js
+2023/07/31 12:53:13 sri /tmp/work/dist/esm/dom-utils/getLayoutRect.min.js -> /output/esm/dom-utils/getLayoutRect.min.js.sri
+2023/07/31 12:53:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getLayoutRect.min.js.br /tmp/work/dist/esm/dom-utils/getLayoutRect.min.js
+2023/07/31 12:53:13 br /tmp/work/dist/esm/dom-utils/getNodeName.js -> /output/esm/dom-utils/getNodeName.js.br
+2023/07/31 12:53:14 br /tmp/work/dist/esm/dom-utils/getLayoutRect.min.js -> /output/esm/dom-utils/getLayoutRect.min.js.br
+2023/07/31 12:53:14 gz /tmp/work/dist/esm/dom-utils/getLayoutRect.min.js -> /output/esm/dom-utils/getLayoutRect.min.js.gz
+2023/07/31 12:53:14 sri /tmp/work/dist/esm/dom-utils/getLayoutRect.js -> /output/esm/dom-utils/getLayoutRect.js.sri
+2023/07/31 12:53:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getLayoutRect.js.br /tmp/work/dist/esm/dom-utils/getLayoutRect.js
+2023/07/31 12:53:14 gz /tmp/work/dist/esm/dom-utils/getNodeName.js -> /output/esm/dom-utils/getNodeName.js.gz
+2023/07/31 12:53:14 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getWindow.min.js /tmp/work/dist/esm/dom-utils/getWindow.js
+2023/07/31 12:53:14 br /tmp/work/dist/esm/dom-utils/getLayoutRect.js -> /output/esm/dom-utils/getLayoutRect.js.br
+2023/07/31 12:53:14 gz /tmp/work/dist/esm/dom-utils/getLayoutRect.js -> /output/esm/dom-utils/getLayoutRect.js.gz
+2023/07/31 12:53:14 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getWindowScroll.min.js /tmp/work/dist/esm/dom-utils/getWindowScroll.js
+2023/07/31 12:53:14 sri /tmp/work/dist/esm/dom-utils/getNodeScroll.min.js -> /output/esm/dom-utils/getNodeScroll.min.js.sri
+2023/07/31 12:53:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getNodeScroll.min.js.br /tmp/work/dist/esm/dom-utils/getNodeScroll.min.js
+2023/07/31 12:53:14 sri /tmp/work/dist/esm/dom-utils/getParentNode.min.js -> /output/esm/dom-utils/getParentNode.min.js.sri
+2023/07/31 12:53:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getParentNode.min.js.br /tmp/work/dist/esm/dom-utils/getParentNode.min.js
+2023/07/31 12:53:14 br /tmp/work/dist/esm/dom-utils/getNodeScroll.min.js -> /output/esm/dom-utils/getNodeScroll.min.js.br
+2023/07/31 12:53:14 gz /tmp/work/dist/esm/dom-utils/getNodeScroll.min.js -> /output/esm/dom-utils/getNodeScroll.min.js.gz
+2023/07/31 12:53:14 sri /tmp/work/dist/esm/dom-utils/getNodeScroll.js -> /output/esm/dom-utils/getNodeScroll.js.sri
+2023/07/31 12:53:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getNodeScroll.js.br /tmp/work/dist/esm/dom-utils/getNodeScroll.js
+2023/07/31 12:53:14 br /tmp/work/dist/esm/dom-utils/getParentNode.min.js -> /output/esm/dom-utils/getParentNode.min.js.br
+2023/07/31 12:53:14 gz /tmp/work/dist/esm/dom-utils/getParentNode.min.js -> /output/esm/dom-utils/getParentNode.min.js.gz
+2023/07/31 12:53:14 sri /tmp/work/dist/esm/dom-utils/getParentNode.js -> /output/esm/dom-utils/getParentNode.js.sri
+2023/07/31 12:53:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getParentNode.js.br /tmp/work/dist/esm/dom-utils/getParentNode.js
+2023/07/31 12:53:14 br /tmp/work/dist/esm/dom-utils/getNodeScroll.js -> /output/esm/dom-utils/getNodeScroll.js.br
+2023/07/31 12:53:14 gz /tmp/work/dist/esm/dom-utils/getNodeScroll.js -> /output/esm/dom-utils/getNodeScroll.js.gz
+2023/07/31 12:53:14 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/getWindowScrollBarX.min.js /tmp/work/dist/esm/dom-utils/getWindowScrollBarX.js
+2023/07/31 12:53:14 sri /tmp/work/dist/esm/dom-utils/getOffsetParent.min.js -> /output/esm/dom-utils/getOffsetParent.min.js.sri
+2023/07/31 12:53:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getOffsetParent.min.js.br /tmp/work/dist/esm/dom-utils/getOffsetParent.min.js
+2023/07/31 12:53:14 br /tmp/work/dist/esm/dom-utils/getParentNode.js -> /output/esm/dom-utils/getParentNode.js.br
+2023/07/31 12:53:14 gz /tmp/work/dist/esm/dom-utils/getParentNode.js -> /output/esm/dom-utils/getParentNode.js.gz
+2023/07/31 12:53:14 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/instanceOf.min.js /tmp/work/dist/esm/dom-utils/instanceOf.js
+2023/07/31 12:53:14 br /tmp/work/dist/esm/dom-utils/getOffsetParent.min.js -> /output/esm/dom-utils/getOffsetParent.min.js.br
+2023/07/31 12:53:14 gz /tmp/work/dist/esm/dom-utils/getOffsetParent.min.js -> /output/esm/dom-utils/getOffsetParent.min.js.gz
+2023/07/31 12:53:14 sri /tmp/work/dist/esm/dom-utils/getOffsetParent.js -> /output/esm/dom-utils/getOffsetParent.js.sri
+2023/07/31 12:53:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getOffsetParent.js.br /tmp/work/dist/esm/dom-utils/getOffsetParent.js
+2023/07/31 12:53:14 br /tmp/work/dist/esm/dom-utils/getOffsetParent.js -> /output/esm/dom-utils/getOffsetParent.js.br
+2023/07/31 12:53:14 gz /tmp/work/dist/esm/dom-utils/getOffsetParent.js -> /output/esm/dom-utils/getOffsetParent.js.gz
+2023/07/31 12:53:14 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/isLayoutViewport.min.js /tmp/work/dist/esm/dom-utils/isLayoutViewport.js
+2023/07/31 12:53:14 sri /tmp/work/dist/esm/dom-utils/getWindow.min.js -> /output/esm/dom-utils/getWindow.min.js.sri
+2023/07/31 12:53:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getWindow.min.js.br /tmp/work/dist/esm/dom-utils/getWindow.min.js
+2023/07/31 12:53:15 br /tmp/work/dist/esm/dom-utils/getWindow.min.js -> /output/esm/dom-utils/getWindow.min.js.br
+2023/07/31 12:53:15 gz /tmp/work/dist/esm/dom-utils/getWindow.min.js -> /output/esm/dom-utils/getWindow.min.js.gz
+2023/07/31 12:53:15 sri /tmp/work/dist/esm/dom-utils/getWindow.js -> /output/esm/dom-utils/getWindow.js.sri
+2023/07/31 12:53:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getWindow.js.br /tmp/work/dist/esm/dom-utils/getWindow.js
+2023/07/31 12:53:15 br /tmp/work/dist/esm/dom-utils/getWindow.js -> /output/esm/dom-utils/getWindow.js.br
+2023/07/31 12:53:15 gz /tmp/work/dist/esm/dom-utils/getWindow.js -> /output/esm/dom-utils/getWindow.js.gz
+2023/07/31 12:53:15 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/isScrollParent.min.js /tmp/work/dist/esm/dom-utils/isScrollParent.js
+2023/07/31 12:53:15 sri /tmp/work/dist/esm/dom-utils/getWindowScroll.min.js -> /output/esm/dom-utils/getWindowScroll.min.js.sri
+2023/07/31 12:53:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getWindowScroll.min.js.br /tmp/work/dist/esm/dom-utils/getWindowScroll.min.js
+2023/07/31 12:53:15 sri /tmp/work/dist/esm/dom-utils/getScrollParent.min.js -> /output/esm/dom-utils/getScrollParent.min.js.sri
+2023/07/31 12:53:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getScrollParent.min.js.br /tmp/work/dist/esm/dom-utils/getScrollParent.min.js
+2023/07/31 12:53:15 br /tmp/work/dist/esm/dom-utils/getWindowScroll.min.js -> /output/esm/dom-utils/getWindowScroll.min.js.br
+2023/07/31 12:53:15 gz /tmp/work/dist/esm/dom-utils/getWindowScroll.min.js -> /output/esm/dom-utils/getWindowScroll.min.js.gz
+2023/07/31 12:53:15 sri /tmp/work/dist/esm/dom-utils/getWindowScroll.js -> /output/esm/dom-utils/getWindowScroll.js.sri
+2023/07/31 12:53:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getWindowScroll.js.br /tmp/work/dist/esm/dom-utils/getWindowScroll.js
+2023/07/31 12:53:15 br /tmp/work/dist/esm/dom-utils/getScrollParent.min.js -> /output/esm/dom-utils/getScrollParent.min.js.br
+2023/07/31 12:53:15 gz /tmp/work/dist/esm/dom-utils/getScrollParent.min.js -> /output/esm/dom-utils/getScrollParent.min.js.gz
+2023/07/31 12:53:15 sri /tmp/work/dist/esm/dom-utils/getScrollParent.js -> /output/esm/dom-utils/getScrollParent.js.sri
+2023/07/31 12:53:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getScrollParent.js.br /tmp/work/dist/esm/dom-utils/getScrollParent.js
+2023/07/31 12:53:15 sri /tmp/work/dist/cjs/popper.min.js -> /output/cjs/popper.min.js.sri
+2023/07/31 12:53:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/popper.min.js.br /tmp/work/dist/cjs/popper.min.js
+2023/07/31 12:53:15 sri /tmp/work/dist/esm/dom-utils/getViewportRect.min.js -> /output/esm/dom-utils/getViewportRect.min.js.sri
+2023/07/31 12:53:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getViewportRect.min.js.br /tmp/work/dist/esm/dom-utils/getViewportRect.min.js
+2023/07/31 12:53:15 br /tmp/work/dist/esm/dom-utils/getWindowScroll.js -> /output/esm/dom-utils/getWindowScroll.js.br
+2023/07/31 12:53:15 gz /tmp/work/dist/esm/dom-utils/getWindowScroll.js -> /output/esm/dom-utils/getWindowScroll.js.gz
+2023/07/31 12:53:15 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/isTableElement.min.js /tmp/work/dist/esm/dom-utils/isTableElement.js
+2023/07/31 12:53:15 br /tmp/work/dist/esm/dom-utils/getScrollParent.js -> /output/esm/dom-utils/getScrollParent.js.br
+2023/07/31 12:53:15 gz /tmp/work/dist/esm/dom-utils/getScrollParent.js -> /output/esm/dom-utils/getScrollParent.js.gz
+2023/07/31 12:53:15 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/dom-utils/listScrollParents.min.js /tmp/work/dist/esm/dom-utils/listScrollParents.js
+2023/07/31 12:53:15 br /tmp/work/dist/esm/dom-utils/getViewportRect.min.js -> /output/esm/dom-utils/getViewportRect.min.js.br
+2023/07/31 12:53:15 gz /tmp/work/dist/esm/dom-utils/getViewportRect.min.js -> /output/esm/dom-utils/getViewportRect.min.js.gz
+2023/07/31 12:53:15 sri /tmp/work/dist/esm/dom-utils/getViewportRect.js -> /output/esm/dom-utils/getViewportRect.js.sri
+2023/07/31 12:53:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getViewportRect.js.br /tmp/work/dist/esm/dom-utils/getViewportRect.js
+2023/07/31 12:53:15 br /tmp/work/dist/esm/dom-utils/getViewportRect.js -> /output/esm/dom-utils/getViewportRect.js.br
+2023/07/31 12:53:15 gz /tmp/work/dist/esm/dom-utils/getViewportRect.js -> /output/esm/dom-utils/getViewportRect.js.gz
+2023/07/31 12:53:15 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/enums.min.js /tmp/work/dist/esm/enums.js
+2023/07/31 12:53:15 sri /tmp/work/dist/esm/dom-utils/getWindowScrollBarX.min.js -> /output/esm/dom-utils/getWindowScrollBarX.min.js.sri
+2023/07/31 12:53:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getWindowScrollBarX.min.js.br /tmp/work/dist/esm/dom-utils/getWindowScrollBarX.min.js
+2023/07/31 12:53:15 br /tmp/work/dist/esm/dom-utils/getWindowScrollBarX.min.js -> /output/esm/dom-utils/getWindowScrollBarX.min.js.br
+2023/07/31 12:53:15 gz /tmp/work/dist/esm/dom-utils/getWindowScrollBarX.min.js -> /output/esm/dom-utils/getWindowScrollBarX.min.js.gz
+2023/07/31 12:53:15 sri /tmp/work/dist/esm/dom-utils/getWindowScrollBarX.js -> /output/esm/dom-utils/getWindowScrollBarX.js.sri
+2023/07/31 12:53:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/getWindowScrollBarX.js.br /tmp/work/dist/esm/dom-utils/getWindowScrollBarX.js
+2023/07/31 12:53:15 br /tmp/work/dist/esm/dom-utils/getWindowScrollBarX.js -> /output/esm/dom-utils/getWindowScrollBarX.js.br
+2023/07/31 12:53:15 gz /tmp/work/dist/esm/dom-utils/getWindowScrollBarX.js -> /output/esm/dom-utils/getWindowScrollBarX.js.gz
+2023/07/31 12:53:15 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/index.min.js /tmp/work/dist/esm/index.js
+2023/07/31 12:53:15 br /tmp/work/dist/cjs/popper.min.js -> /output/cjs/popper.min.js.br
+2023/07/31 12:53:15 gz /tmp/work/dist/cjs/popper.min.js -> /output/cjs/popper.min.js.gz
+2023/07/31 12:53:15 sri /tmp/work/dist/cjs/popper.js -> /output/cjs/popper.js.sri
+2023/07/31 12:53:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/popper.js.br /tmp/work/dist/cjs/popper.js
+2023/07/31 12:53:15 sri /tmp/work/dist/esm/dom-utils/isLayoutViewport.min.js -> /output/esm/dom-utils/isLayoutViewport.min.js.sri
+2023/07/31 12:53:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/isLayoutViewport.min.js.br /tmp/work/dist/esm/dom-utils/isLayoutViewport.min.js
+2023/07/31 12:53:15 sri /tmp/work/dist/esm/dom-utils/instanceOf.min.js -> /output/esm/dom-utils/instanceOf.min.js.sri
+2023/07/31 12:53:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/instanceOf.min.js.br /tmp/work/dist/esm/dom-utils/instanceOf.min.js
+2023/07/31 12:53:15 br /tmp/work/dist/esm/dom-utils/isLayoutViewport.min.js -> /output/esm/dom-utils/isLayoutViewport.min.js.br
+2023/07/31 12:53:15 gz /tmp/work/dist/esm/dom-utils/isLayoutViewport.min.js -> /output/esm/dom-utils/isLayoutViewport.min.js.gz
+2023/07/31 12:53:15 sri /tmp/work/dist/esm/dom-utils/isLayoutViewport.js -> /output/esm/dom-utils/isLayoutViewport.js.sri
+2023/07/31 12:53:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/isLayoutViewport.js.br /tmp/work/dist/esm/dom-utils/isLayoutViewport.js
+2023/07/31 12:53:15 br /tmp/work/dist/esm/dom-utils/instanceOf.min.js -> /output/esm/dom-utils/instanceOf.min.js.br
+2023/07/31 12:53:15 gz /tmp/work/dist/esm/dom-utils/instanceOf.min.js -> /output/esm/dom-utils/instanceOf.min.js.gz
+2023/07/31 12:53:15 sri /tmp/work/dist/esm/dom-utils/instanceOf.js -> /output/esm/dom-utils/instanceOf.js.sri
+2023/07/31 12:53:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/instanceOf.js.br /tmp/work/dist/esm/dom-utils/instanceOf.js
+2023/07/31 12:53:15 br /tmp/work/dist/esm/dom-utils/isLayoutViewport.js -> /output/esm/dom-utils/isLayoutViewport.js.br
+2023/07/31 12:53:15 gz /tmp/work/dist/esm/dom-utils/isLayoutViewport.js -> /output/esm/dom-utils/isLayoutViewport.js.gz
+2023/07/31 12:53:15 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/modifiers/applyStyles.min.js /tmp/work/dist/esm/modifiers/applyStyles.js
+2023/07/31 12:53:15 br /tmp/work/dist/esm/dom-utils/instanceOf.js -> /output/esm/dom-utils/instanceOf.js.br
+2023/07/31 12:53:15 gz /tmp/work/dist/esm/dom-utils/instanceOf.js -> /output/esm/dom-utils/instanceOf.js.gz
+2023/07/31 12:53:15 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/modifiers/arrow.min.js /tmp/work/dist/esm/modifiers/arrow.js
+2023/07/31 12:53:16 sri /tmp/work/dist/esm/dom-utils/isScrollParent.min.js -> /output/esm/dom-utils/isScrollParent.min.js.sri
+2023/07/31 12:53:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/isScrollParent.min.js.br /tmp/work/dist/esm/dom-utils/isScrollParent.min.js
+2023/07/31 12:53:16 br /tmp/work/dist/esm/dom-utils/isScrollParent.min.js -> /output/esm/dom-utils/isScrollParent.min.js.br
+2023/07/31 12:53:16 gz /tmp/work/dist/esm/dom-utils/isScrollParent.min.js -> /output/esm/dom-utils/isScrollParent.min.js.gz
+2023/07/31 12:53:16 sri /tmp/work/dist/esm/dom-utils/isScrollParent.js -> /output/esm/dom-utils/isScrollParent.js.sri
+2023/07/31 12:53:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/isScrollParent.js.br /tmp/work/dist/esm/dom-utils/isScrollParent.js
+2023/07/31 12:53:16 br /tmp/work/dist/esm/dom-utils/isScrollParent.js -> /output/esm/dom-utils/isScrollParent.js.br
+2023/07/31 12:53:16 gz /tmp/work/dist/esm/dom-utils/isScrollParent.js -> /output/esm/dom-utils/isScrollParent.js.gz
+2023/07/31 12:53:16 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/modifiers/computeStyles.min.js /tmp/work/dist/esm/modifiers/computeStyles.js
+2023/07/31 12:53:16 sri /tmp/work/dist/esm/dom-utils/isTableElement.min.js -> /output/esm/dom-utils/isTableElement.min.js.sri
+2023/07/31 12:53:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/isTableElement.min.js.br /tmp/work/dist/esm/dom-utils/isTableElement.min.js
+2023/07/31 12:53:16 br /tmp/work/dist/esm/dom-utils/isTableElement.min.js -> /output/esm/dom-utils/isTableElement.min.js.br
+2023/07/31 12:53:16 gz /tmp/work/dist/esm/dom-utils/isTableElement.min.js -> /output/esm/dom-utils/isTableElement.min.js.gz
+2023/07/31 12:53:16 sri /tmp/work/dist/esm/dom-utils/isTableElement.js -> /output/esm/dom-utils/isTableElement.js.sri
+2023/07/31 12:53:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/isTableElement.js.br /tmp/work/dist/esm/dom-utils/isTableElement.js
+2023/07/31 12:53:16 br /tmp/work/dist/cjs/popper.js -> /output/cjs/popper.js.br
+2023/07/31 12:53:16 gz /tmp/work/dist/cjs/popper.js -> /output/cjs/popper.js.gz
+2023/07/31 12:53:16 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/modifiers/eventListeners.min.js /tmp/work/dist/esm/modifiers/eventListeners.js
+2023/07/31 12:53:16 br /tmp/work/dist/esm/dom-utils/isTableElement.js -> /output/esm/dom-utils/isTableElement.js.br
+2023/07/31 12:53:16 gz /tmp/work/dist/esm/dom-utils/isTableElement.js -> /output/esm/dom-utils/isTableElement.js.gz
+2023/07/31 12:53:16 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/modifiers/flip.min.js /tmp/work/dist/esm/modifiers/flip.js
+2023/07/31 12:53:16 sri /tmp/work/dist/esm/index.min.js -> /output/esm/index.min.js.sri
+2023/07/31 12:53:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/index.min.js.br /tmp/work/dist/esm/index.min.js
+2023/07/31 12:53:16 sri /tmp/work/dist/esm/dom-utils/listScrollParents.min.js -> /output/esm/dom-utils/listScrollParents.min.js.sri
+2023/07/31 12:53:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/listScrollParents.min.js.br /tmp/work/dist/esm/dom-utils/listScrollParents.min.js
+2023/07/31 12:53:16 br /tmp/work/dist/esm/index.min.js -> /output/esm/index.min.js.br
+2023/07/31 12:53:16 gz /tmp/work/dist/esm/index.min.js -> /output/esm/index.min.js.gz
+2023/07/31 12:53:16 sri /tmp/work/dist/esm/index.js -> /output/esm/index.js.sri
+2023/07/31 12:53:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/index.js.br /tmp/work/dist/esm/index.js
+2023/07/31 12:53:16 sri /tmp/work/dist/esm/enums.min.js -> /output/esm/enums.min.js.sri
+2023/07/31 12:53:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/enums.min.js.br /tmp/work/dist/esm/enums.min.js
+2023/07/31 12:53:16 br /tmp/work/dist/esm/dom-utils/listScrollParents.min.js -> /output/esm/dom-utils/listScrollParents.min.js.br
+2023/07/31 12:53:16 gz /tmp/work/dist/esm/dom-utils/listScrollParents.min.js -> /output/esm/dom-utils/listScrollParents.min.js.gz
+2023/07/31 12:53:16 sri /tmp/work/dist/esm/dom-utils/listScrollParents.js -> /output/esm/dom-utils/listScrollParents.js.sri
+2023/07/31 12:53:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/dom-utils/listScrollParents.js.br /tmp/work/dist/esm/dom-utils/listScrollParents.js
+2023/07/31 12:53:16 br /tmp/work/dist/esm/index.js -> /output/esm/index.js.br
+2023/07/31 12:53:16 gz /tmp/work/dist/esm/index.js -> /output/esm/index.js.gz
+2023/07/31 12:53:16 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/modifiers/hide.min.js /tmp/work/dist/esm/modifiers/hide.js
+2023/07/31 12:53:16 br /tmp/work/dist/esm/enums.min.js -> /output/esm/enums.min.js.br
+2023/07/31 12:53:16 gz /tmp/work/dist/esm/enums.min.js -> /output/esm/enums.min.js.gz
+2023/07/31 12:53:16 sri /tmp/work/dist/esm/enums.js -> /output/esm/enums.js.sri
+2023/07/31 12:53:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/enums.js.br /tmp/work/dist/esm/enums.js
+2023/07/31 12:53:16 br /tmp/work/dist/esm/dom-utils/listScrollParents.js -> /output/esm/dom-utils/listScrollParents.js.br
+2023/07/31 12:53:16 gz /tmp/work/dist/esm/dom-utils/listScrollParents.js -> /output/esm/dom-utils/listScrollParents.js.gz
+2023/07/31 12:53:16 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/modifiers/index.min.js /tmp/work/dist/esm/modifiers/index.js
+2023/07/31 12:53:16 br /tmp/work/dist/esm/enums.js -> /output/esm/enums.js.br
+2023/07/31 12:53:16 gz /tmp/work/dist/esm/enums.js -> /output/esm/enums.js.gz
+2023/07/31 12:53:16 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/modifiers/offset.min.js /tmp/work/dist/esm/modifiers/offset.js
+2023/07/31 12:53:16 sri /tmp/work/dist/esm/modifiers/applyStyles.min.js -> /output/esm/modifiers/applyStyles.min.js.sri
+2023/07/31 12:53:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/applyStyles.min.js.br /tmp/work/dist/esm/modifiers/applyStyles.min.js
+2023/07/31 12:53:17 br /tmp/work/dist/esm/modifiers/applyStyles.min.js -> /output/esm/modifiers/applyStyles.min.js.br
+2023/07/31 12:53:17 gz /tmp/work/dist/esm/modifiers/applyStyles.min.js -> /output/esm/modifiers/applyStyles.min.js.gz
+2023/07/31 12:53:17 sri /tmp/work/dist/esm/modifiers/applyStyles.js -> /output/esm/modifiers/applyStyles.js.sri
+2023/07/31 12:53:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/applyStyles.js.br /tmp/work/dist/esm/modifiers/applyStyles.js
+2023/07/31 12:53:17 br /tmp/work/dist/esm/modifiers/applyStyles.js -> /output/esm/modifiers/applyStyles.js.br
+2023/07/31 12:53:17 gz /tmp/work/dist/esm/modifiers/applyStyles.js -> /output/esm/modifiers/applyStyles.js.gz
+2023/07/31 12:53:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/modifiers/popperOffsets.min.js /tmp/work/dist/esm/modifiers/popperOffsets.js
+2023/07/31 12:53:17 sri /tmp/work/dist/esm/modifiers/index.min.js -> /output/esm/modifiers/index.min.js.sri
+2023/07/31 12:53:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/index.min.js.br /tmp/work/dist/esm/modifiers/index.min.js
+2023/07/31 12:53:17 br /tmp/work/dist/esm/modifiers/index.min.js -> /output/esm/modifiers/index.min.js.br
+2023/07/31 12:53:17 gz /tmp/work/dist/esm/modifiers/index.min.js -> /output/esm/modifiers/index.min.js.gz
+2023/07/31 12:53:17 sri /tmp/work/dist/esm/modifiers/index.js -> /output/esm/modifiers/index.js.sri
+2023/07/31 12:53:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/index.js.br /tmp/work/dist/esm/modifiers/index.js
+2023/07/31 12:53:17 sri /tmp/work/dist/esm/modifiers/arrow.min.js -> /output/esm/modifiers/arrow.min.js.sri
+2023/07/31 12:53:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/arrow.min.js.br /tmp/work/dist/esm/modifiers/arrow.min.js
+2023/07/31 12:53:17 br /tmp/work/dist/esm/modifiers/index.js -> /output/esm/modifiers/index.js.br
+2023/07/31 12:53:17 gz /tmp/work/dist/esm/modifiers/index.js -> /output/esm/modifiers/index.js.gz
+2023/07/31 12:53:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/modifiers/preventOverflow.min.js /tmp/work/dist/esm/modifiers/preventOverflow.js
+2023/07/31 12:53:17 br /tmp/work/dist/esm/modifiers/arrow.min.js -> /output/esm/modifiers/arrow.min.js.br
+2023/07/31 12:53:17 gz /tmp/work/dist/esm/modifiers/arrow.min.js -> /output/esm/modifiers/arrow.min.js.gz
+2023/07/31 12:53:17 sri /tmp/work/dist/esm/modifiers/arrow.js -> /output/esm/modifiers/arrow.js.sri
+2023/07/31 12:53:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/arrow.js.br /tmp/work/dist/esm/modifiers/arrow.js
+2023/07/31 12:53:17 br /tmp/work/dist/esm/modifiers/arrow.js -> /output/esm/modifiers/arrow.js.br
+2023/07/31 12:53:17 sri /tmp/work/dist/esm/modifiers/eventListeners.min.js -> /output/esm/modifiers/eventListeners.min.js.sri
+2023/07/31 12:53:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/eventListeners.min.js.br /tmp/work/dist/esm/modifiers/eventListeners.min.js
+2023/07/31 12:53:17 gz /tmp/work/dist/esm/modifiers/arrow.js -> /output/esm/modifiers/arrow.js.gz
+2023/07/31 12:53:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/popper-base.min.js /tmp/work/dist/esm/popper-base.js
+2023/07/31 12:53:17 br /tmp/work/dist/esm/modifiers/eventListeners.min.js -> /output/esm/modifiers/eventListeners.min.js.br
+2023/07/31 12:53:17 gz /tmp/work/dist/esm/modifiers/eventListeners.min.js -> /output/esm/modifiers/eventListeners.min.js.gz
+2023/07/31 12:53:17 sri /tmp/work/dist/esm/modifiers/eventListeners.js -> /output/esm/modifiers/eventListeners.js.sri
+2023/07/31 12:53:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/eventListeners.js.br /tmp/work/dist/esm/modifiers/eventListeners.js
+2023/07/31 12:53:17 br /tmp/work/dist/esm/modifiers/eventListeners.js -> /output/esm/modifiers/eventListeners.js.br
+2023/07/31 12:53:17 gz /tmp/work/dist/esm/modifiers/eventListeners.js -> /output/esm/modifiers/eventListeners.js.gz
+2023/07/31 12:53:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/popper-lite.min.js /tmp/work/dist/esm/popper-lite.js
+2023/07/31 12:53:17 sri /tmp/work/dist/esm/modifiers/flip.min.js -> /output/esm/modifiers/flip.min.js.sri
+2023/07/31 12:53:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/flip.min.js.br /tmp/work/dist/esm/modifiers/flip.min.js
+2023/07/31 12:53:17 br /tmp/work/dist/esm/modifiers/flip.min.js -> /output/esm/modifiers/flip.min.js.br
+2023/07/31 12:53:17 gz /tmp/work/dist/esm/modifiers/flip.min.js -> /output/esm/modifiers/flip.min.js.gz
+2023/07/31 12:53:17 sri /tmp/work/dist/esm/modifiers/flip.js -> /output/esm/modifiers/flip.js.sri
+2023/07/31 12:53:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/flip.js.br /tmp/work/dist/esm/modifiers/flip.js
+2023/07/31 12:53:17 sri /tmp/work/dist/esm/modifiers/hide.min.js -> /output/esm/modifiers/hide.min.js.sri
+2023/07/31 12:53:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/hide.min.js.br /tmp/work/dist/esm/modifiers/hide.min.js
+2023/07/31 12:53:17 br /tmp/work/dist/esm/modifiers/flip.js -> /output/esm/modifiers/flip.js.br
+2023/07/31 12:53:17 gz /tmp/work/dist/esm/modifiers/flip.js -> /output/esm/modifiers/flip.js.gz
+2023/07/31 12:53:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/popper.min.js /tmp/work/dist/esm/popper.js
+2023/07/31 12:53:17 br /tmp/work/dist/esm/modifiers/hide.min.js -> /output/esm/modifiers/hide.min.js.br
+2023/07/31 12:53:17 gz /tmp/work/dist/esm/modifiers/hide.min.js -> /output/esm/modifiers/hide.min.js.gz
+2023/07/31 12:53:17 sri /tmp/work/dist/esm/modifiers/hide.js -> /output/esm/modifiers/hide.js.sri
+2023/07/31 12:53:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/hide.js.br /tmp/work/dist/esm/modifiers/hide.js
+2023/07/31 12:53:17 sri /tmp/work/dist/esm/modifiers/computeStyles.min.js -> /output/esm/modifiers/computeStyles.min.js.sri
+2023/07/31 12:53:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/computeStyles.min.js.br /tmp/work/dist/esm/modifiers/computeStyles.min.js
+2023/07/31 12:53:17 br /tmp/work/dist/esm/modifiers/hide.js -> /output/esm/modifiers/hide.js.br
+2023/07/31 12:53:17 gz /tmp/work/dist/esm/modifiers/hide.js -> /output/esm/modifiers/hide.js.gz
+2023/07/31 12:53:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/types.min.js /tmp/work/dist/esm/types.js
+2023/07/31 12:53:17 br /tmp/work/dist/esm/modifiers/computeStyles.min.js -> /output/esm/modifiers/computeStyles.min.js.br
+2023/07/31 12:53:17 gz /tmp/work/dist/esm/modifiers/computeStyles.min.js -> /output/esm/modifiers/computeStyles.min.js.gz
+2023/07/31 12:53:17 sri /tmp/work/dist/esm/modifiers/computeStyles.js -> /output/esm/modifiers/computeStyles.js.sri
+2023/07/31 12:53:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/computeStyles.js.br /tmp/work/dist/esm/modifiers/computeStyles.js
+2023/07/31 12:53:17 sri /tmp/work/dist/esm/modifiers/offset.min.js -> /output/esm/modifiers/offset.min.js.sri
+2023/07/31 12:53:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/offset.min.js.br /tmp/work/dist/esm/modifiers/offset.min.js
+2023/07/31 12:53:17 br /tmp/work/dist/esm/modifiers/offset.min.js -> /output/esm/modifiers/offset.min.js.br
+2023/07/31 12:53:17 gz /tmp/work/dist/esm/modifiers/offset.min.js -> /output/esm/modifiers/offset.min.js.gz
+2023/07/31 12:53:17 sri /tmp/work/dist/esm/modifiers/offset.js -> /output/esm/modifiers/offset.js.sri
+2023/07/31 12:53:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/offset.js.br /tmp/work/dist/esm/modifiers/offset.js
+2023/07/31 12:53:17 br /tmp/work/dist/esm/modifiers/computeStyles.js -> /output/esm/modifiers/computeStyles.js.br
+2023/07/31 12:53:17 gz /tmp/work/dist/esm/modifiers/computeStyles.js -> /output/esm/modifiers/computeStyles.js.gz
+2023/07/31 12:53:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/computeAutoPlacement.min.js /tmp/work/dist/esm/utils/computeAutoPlacement.js
+2023/07/31 12:53:17 br /tmp/work/dist/esm/modifiers/offset.js -> /output/esm/modifiers/offset.js.br
+2023/07/31 12:53:17 gz /tmp/work/dist/esm/modifiers/offset.js -> /output/esm/modifiers/offset.js.gz
+2023/07/31 12:53:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/computeOffsets.min.js /tmp/work/dist/esm/utils/computeOffsets.js
+2023/07/31 12:53:18 sri /tmp/work/dist/esm/popper-lite.min.js -> /output/esm/popper-lite.min.js.sri
+2023/07/31 12:53:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/popper-lite.min.js.br /tmp/work/dist/esm/popper-lite.min.js
+2023/07/31 12:53:18 br /tmp/work/dist/esm/popper-lite.min.js -> /output/esm/popper-lite.min.js.br
+2023/07/31 12:53:18 gz /tmp/work/dist/esm/popper-lite.min.js -> /output/esm/popper-lite.min.js.gz
+2023/07/31 12:53:18 sri /tmp/work/dist/esm/popper-lite.js -> /output/esm/popper-lite.js.sri
+2023/07/31 12:53:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/popper-lite.js.br /tmp/work/dist/esm/popper-lite.js
+2023/07/31 12:53:18 br /tmp/work/dist/esm/popper-lite.js -> /output/esm/popper-lite.js.br
+2023/07/31 12:53:18 sri /tmp/work/dist/esm/modifiers/popperOffsets.min.js -> /output/esm/modifiers/popperOffsets.min.js.sri
+2023/07/31 12:53:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/popperOffsets.min.js.br /tmp/work/dist/esm/modifiers/popperOffsets.min.js
+2023/07/31 12:53:18 gz /tmp/work/dist/esm/popper-lite.js -> /output/esm/popper-lite.js.gz
+2023/07/31 12:53:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/debounce.min.js /tmp/work/dist/esm/utils/debounce.js
+2023/07/31 12:53:18 br /tmp/work/dist/esm/modifiers/popperOffsets.min.js -> /output/esm/modifiers/popperOffsets.min.js.br
+2023/07/31 12:53:18 gz /tmp/work/dist/esm/modifiers/popperOffsets.min.js -> /output/esm/modifiers/popperOffsets.min.js.gz
+2023/07/31 12:53:18 sri /tmp/work/dist/esm/modifiers/popperOffsets.js -> /output/esm/modifiers/popperOffsets.js.sri
+2023/07/31 12:53:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/popperOffsets.js.br /tmp/work/dist/esm/modifiers/popperOffsets.js
+2023/07/31 12:53:18 br /tmp/work/dist/esm/modifiers/popperOffsets.js -> /output/esm/modifiers/popperOffsets.js.br
+2023/07/31 12:53:18 gz /tmp/work/dist/esm/modifiers/popperOffsets.js -> /output/esm/modifiers/popperOffsets.js.gz
+2023/07/31 12:53:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/detectOverflow.min.js /tmp/work/dist/esm/utils/detectOverflow.js
+2023/07/31 12:53:18 sri /tmp/work/dist/esm/popper-base.min.js -> /output/esm/popper-base.min.js.sri
+2023/07/31 12:53:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/popper-base.min.js.br /tmp/work/dist/esm/popper-base.min.js
+2023/07/31 12:53:18 br /tmp/work/dist/esm/popper-base.min.js -> /output/esm/popper-base.min.js.br
+2023/07/31 12:53:18 gz /tmp/work/dist/esm/popper-base.min.js -> /output/esm/popper-base.min.js.gz
+2023/07/31 12:53:18 sri /tmp/work/dist/esm/popper-base.js -> /output/esm/popper-base.js.sri
+2023/07/31 12:53:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/popper-base.js.br /tmp/work/dist/esm/popper-base.js
+2023/07/31 12:53:18 br /tmp/work/dist/esm/popper-base.js -> /output/esm/popper-base.js.br
+2023/07/31 12:53:18 gz /tmp/work/dist/esm/popper-base.js -> /output/esm/popper-base.js.gz
+2023/07/31 12:53:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/expandToHashMap.min.js /tmp/work/dist/esm/utils/expandToHashMap.js
+2023/07/31 12:53:18 sri /tmp/work/dist/esm/types.min.js -> /output/esm/types.min.js.sri
+2023/07/31 12:53:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/types.min.js.br /tmp/work/dist/esm/types.min.js
+2023/07/31 12:53:18 br /tmp/work/dist/esm/types.min.js -> /output/esm/types.min.js.br
+2023/07/31 12:53:18 gz /tmp/work/dist/esm/types.min.js -> /output/esm/types.min.js.gz
+2023/07/31 12:53:18 sri /tmp/work/dist/esm/types.js -> /output/esm/types.js.sri
+2023/07/31 12:53:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/types.js.br /tmp/work/dist/esm/types.js
+2023/07/31 12:53:18 br /tmp/work/dist/esm/types.js -> /output/esm/types.js.br
+2023/07/31 12:53:18 gz /tmp/work/dist/esm/types.js -> /output/esm/types.js.gz
+2023/07/31 12:53:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/getAltAxis.min.js /tmp/work/dist/esm/utils/getAltAxis.js
+2023/07/31 12:53:18 sri /tmp/work/dist/esm/popper.min.js -> /output/esm/popper.min.js.sri
+2023/07/31 12:53:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/popper.min.js.br /tmp/work/dist/esm/popper.min.js
+2023/07/31 12:53:18 br /tmp/work/dist/esm/popper.min.js -> /output/esm/popper.min.js.br
+2023/07/31 12:53:18 gz /tmp/work/dist/esm/popper.min.js -> /output/esm/popper.min.js.gz
+2023/07/31 12:53:18 sri /tmp/work/dist/esm/popper.js -> /output/esm/popper.js.sri
+2023/07/31 12:53:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/popper.js.br /tmp/work/dist/esm/popper.js
+2023/07/31 12:53:18 br /tmp/work/dist/esm/popper.js -> /output/esm/popper.js.br
+2023/07/31 12:53:18 gz /tmp/work/dist/esm/popper.js -> /output/esm/popper.js.gz
+2023/07/31 12:53:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/getAltLen.min.js /tmp/work/dist/esm/utils/getAltLen.js
+2023/07/31 12:53:18 sri /tmp/work/dist/esm/utils/computeOffsets.min.js -> /output/esm/utils/computeOffsets.min.js.sri
+2023/07/31 12:53:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/computeOffsets.min.js.br /tmp/work/dist/esm/utils/computeOffsets.min.js
+2023/07/31 12:53:18 br /tmp/work/dist/esm/utils/computeOffsets.min.js -> /output/esm/utils/computeOffsets.min.js.br
+2023/07/31 12:53:18 gz /tmp/work/dist/esm/utils/computeOffsets.min.js -> /output/esm/utils/computeOffsets.min.js.gz
+2023/07/31 12:53:18 sri /tmp/work/dist/esm/utils/computeOffsets.js -> /output/esm/utils/computeOffsets.js.sri
+2023/07/31 12:53:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/computeOffsets.js.br /tmp/work/dist/esm/utils/computeOffsets.js
+2023/07/31 12:53:18 br /tmp/work/dist/esm/utils/computeOffsets.js -> /output/esm/utils/computeOffsets.js.br
+2023/07/31 12:53:18 gz /tmp/work/dist/esm/utils/computeOffsets.js -> /output/esm/utils/computeOffsets.js.gz
+2023/07/31 12:53:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/getBasePlacement.min.js /tmp/work/dist/esm/utils/getBasePlacement.js
+2023/07/31 12:53:18 sri /tmp/work/dist/esm/utils/computeAutoPlacement.min.js -> /output/esm/utils/computeAutoPlacement.min.js.sri
+2023/07/31 12:53:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/computeAutoPlacement.min.js.br /tmp/work/dist/esm/utils/computeAutoPlacement.min.js
+2023/07/31 12:53:18 br /tmp/work/dist/esm/utils/computeAutoPlacement.min.js -> /output/esm/utils/computeAutoPlacement.min.js.br
+2023/07/31 12:53:18 gz /tmp/work/dist/esm/utils/computeAutoPlacement.min.js -> /output/esm/utils/computeAutoPlacement.min.js.gz
+2023/07/31 12:53:18 sri /tmp/work/dist/esm/utils/computeAutoPlacement.js -> /output/esm/utils/computeAutoPlacement.js.sri
+2023/07/31 12:53:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/computeAutoPlacement.js.br /tmp/work/dist/esm/utils/computeAutoPlacement.js
+2023/07/31 12:53:18 br /tmp/work/dist/esm/utils/computeAutoPlacement.js -> /output/esm/utils/computeAutoPlacement.js.br
+2023/07/31 12:53:18 gz /tmp/work/dist/esm/utils/computeAutoPlacement.js -> /output/esm/utils/computeAutoPlacement.js.gz
+2023/07/31 12:53:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/getFreshSideObject.min.js /tmp/work/dist/esm/utils/getFreshSideObject.js
+2023/07/31 12:53:18 sri /tmp/work/dist/esm/modifiers/preventOverflow.min.js -> /output/esm/modifiers/preventOverflow.min.js.sri
+2023/07/31 12:53:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/preventOverflow.min.js.br /tmp/work/dist/esm/modifiers/preventOverflow.min.js
+2023/07/31 12:53:18 br /tmp/work/dist/esm/modifiers/preventOverflow.min.js -> /output/esm/modifiers/preventOverflow.min.js.br
+2023/07/31 12:53:18 gz /tmp/work/dist/esm/modifiers/preventOverflow.min.js -> /output/esm/modifiers/preventOverflow.min.js.gz
+2023/07/31 12:53:18 sri /tmp/work/dist/esm/modifiers/preventOverflow.js -> /output/esm/modifiers/preventOverflow.js.sri
+2023/07/31 12:53:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/modifiers/preventOverflow.js.br /tmp/work/dist/esm/modifiers/preventOverflow.js
+2023/07/31 12:53:19 br /tmp/work/dist/esm/modifiers/preventOverflow.js -> /output/esm/modifiers/preventOverflow.js.br
+2023/07/31 12:53:19 gz /tmp/work/dist/esm/modifiers/preventOverflow.js -> /output/esm/modifiers/preventOverflow.js.gz
+2023/07/31 12:53:19 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/getMainAxisFromPlacement.min.js /tmp/work/dist/esm/utils/getMainAxisFromPlacement.js
+2023/07/31 12:53:19 sri /tmp/work/dist/esm/utils/debounce.min.js -> /output/esm/utils/debounce.min.js.sri
+2023/07/31 12:53:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/debounce.min.js.br /tmp/work/dist/esm/utils/debounce.min.js
+2023/07/31 12:53:19 br /tmp/work/dist/esm/utils/debounce.min.js -> /output/esm/utils/debounce.min.js.br
+2023/07/31 12:53:19 gz /tmp/work/dist/esm/utils/debounce.min.js -> /output/esm/utils/debounce.min.js.gz
+2023/07/31 12:53:19 sri /tmp/work/dist/esm/utils/debounce.js -> /output/esm/utils/debounce.js.sri
+2023/07/31 12:53:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/debounce.js.br /tmp/work/dist/esm/utils/debounce.js
+2023/07/31 12:53:19 br /tmp/work/dist/esm/utils/debounce.js -> /output/esm/utils/debounce.js.br
+2023/07/31 12:53:19 gz /tmp/work/dist/esm/utils/debounce.js -> /output/esm/utils/debounce.js.gz
+2023/07/31 12:53:19 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/getOppositePlacement.min.js /tmp/work/dist/esm/utils/getOppositePlacement.js
+2023/07/31 12:53:19 sri /tmp/work/dist/esm/utils/expandToHashMap.min.js -> /output/esm/utils/expandToHashMap.min.js.sri
+2023/07/31 12:53:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/expandToHashMap.min.js.br /tmp/work/dist/esm/utils/expandToHashMap.min.js
+2023/07/31 12:53:19 br /tmp/work/dist/esm/utils/expandToHashMap.min.js -> /output/esm/utils/expandToHashMap.min.js.br
+2023/07/31 12:53:19 gz /tmp/work/dist/esm/utils/expandToHashMap.min.js -> /output/esm/utils/expandToHashMap.min.js.gz
+2023/07/31 12:53:19 sri /tmp/work/dist/esm/utils/expandToHashMap.js -> /output/esm/utils/expandToHashMap.js.sri
+2023/07/31 12:53:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/expandToHashMap.js.br /tmp/work/dist/esm/utils/expandToHashMap.js
+2023/07/31 12:53:19 sri /tmp/work/dist/esm/utils/getAltAxis.min.js -> /output/esm/utils/getAltAxis.min.js.sri
+2023/07/31 12:53:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getAltAxis.min.js.br /tmp/work/dist/esm/utils/getAltAxis.min.js
+2023/07/31 12:53:19 br /tmp/work/dist/esm/utils/expandToHashMap.js -> /output/esm/utils/expandToHashMap.js.br
+2023/07/31 12:53:19 gz /tmp/work/dist/esm/utils/expandToHashMap.js -> /output/esm/utils/expandToHashMap.js.gz
+2023/07/31 12:53:19 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/getOppositeVariationPlacement.min.js /tmp/work/dist/esm/utils/getOppositeVariationPlacement.js
+2023/07/31 12:53:19 br /tmp/work/dist/esm/utils/getAltAxis.min.js -> /output/esm/utils/getAltAxis.min.js.br
+2023/07/31 12:53:19 gz /tmp/work/dist/esm/utils/getAltAxis.min.js -> /output/esm/utils/getAltAxis.min.js.gz
+2023/07/31 12:53:19 sri /tmp/work/dist/esm/utils/getAltAxis.js -> /output/esm/utils/getAltAxis.js.sri
+2023/07/31 12:53:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getAltAxis.js.br /tmp/work/dist/esm/utils/getAltAxis.js
+2023/07/31 12:53:19 br /tmp/work/dist/esm/utils/getAltAxis.js -> /output/esm/utils/getAltAxis.js.br
+2023/07/31 12:53:19 gz /tmp/work/dist/esm/utils/getAltAxis.js -> /output/esm/utils/getAltAxis.js.gz
+2023/07/31 12:53:19 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/getVariation.min.js /tmp/work/dist/esm/utils/getVariation.js
+2023/07/31 12:53:19 sri /tmp/work/dist/esm/utils/getAltLen.min.js -> /output/esm/utils/getAltLen.min.js.sri
+2023/07/31 12:53:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getAltLen.min.js.br /tmp/work/dist/esm/utils/getAltLen.min.js
+2023/07/31 12:53:19 br /tmp/work/dist/esm/utils/getAltLen.min.js -> /output/esm/utils/getAltLen.min.js.br
+2023/07/31 12:53:19 gz /tmp/work/dist/esm/utils/getAltLen.min.js -> /output/esm/utils/getAltLen.min.js.gz
+2023/07/31 12:53:19 sri /tmp/work/dist/esm/utils/getAltLen.js -> /output/esm/utils/getAltLen.js.sri
+2023/07/31 12:53:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getAltLen.js.br /tmp/work/dist/esm/utils/getAltLen.js
+2023/07/31 12:53:19 br /tmp/work/dist/esm/utils/getAltLen.js -> /output/esm/utils/getAltLen.js.br
+2023/07/31 12:53:19 gz /tmp/work/dist/esm/utils/getAltLen.js -> /output/esm/utils/getAltLen.js.gz
+2023/07/31 12:53:19 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/math.min.js /tmp/work/dist/esm/utils/math.js
+2023/07/31 12:53:19 sri /tmp/work/dist/esm/utils/detectOverflow.min.js -> /output/esm/utils/detectOverflow.min.js.sri
+2023/07/31 12:53:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/detectOverflow.min.js.br /tmp/work/dist/esm/utils/detectOverflow.min.js
+2023/07/31 12:53:19 sri /tmp/work/dist/esm/utils/getFreshSideObject.min.js -> /output/esm/utils/getFreshSideObject.min.js.sri
+2023/07/31 12:53:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getFreshSideObject.min.js.br /tmp/work/dist/esm/utils/getFreshSideObject.min.js
+2023/07/31 12:53:19 sri /tmp/work/dist/esm/utils/getBasePlacement.min.js -> /output/esm/utils/getBasePlacement.min.js.sri
+2023/07/31 12:53:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getBasePlacement.min.js.br /tmp/work/dist/esm/utils/getBasePlacement.min.js
+2023/07/31 12:53:19 br /tmp/work/dist/esm/utils/detectOverflow.min.js -> /output/esm/utils/detectOverflow.min.js.br
+2023/07/31 12:53:19 br /tmp/work/dist/esm/utils/getFreshSideObject.min.js -> /output/esm/utils/getFreshSideObject.min.js.br
+2023/07/31 12:53:19 gz /tmp/work/dist/esm/utils/getFreshSideObject.min.js -> /output/esm/utils/getFreshSideObject.min.js.gz
+2023/07/31 12:53:19 sri /tmp/work/dist/esm/utils/getFreshSideObject.js -> /output/esm/utils/getFreshSideObject.js.sri
+2023/07/31 12:53:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getFreshSideObject.js.br /tmp/work/dist/esm/utils/getFreshSideObject.js
+2023/07/31 12:53:19 gz /tmp/work/dist/esm/utils/detectOverflow.min.js -> /output/esm/utils/detectOverflow.min.js.gz
+2023/07/31 12:53:19 sri /tmp/work/dist/esm/utils/detectOverflow.js -> /output/esm/utils/detectOverflow.js.sri
+2023/07/31 12:53:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/detectOverflow.js.br /tmp/work/dist/esm/utils/detectOverflow.js
+2023/07/31 12:53:19 br /tmp/work/dist/esm/utils/getFreshSideObject.js -> /output/esm/utils/getFreshSideObject.js.br
+2023/07/31 12:53:19 br /tmp/work/dist/esm/utils/getBasePlacement.min.js -> /output/esm/utils/getBasePlacement.min.js.br
+2023/07/31 12:53:19 gz /tmp/work/dist/esm/utils/getFreshSideObject.js -> /output/esm/utils/getFreshSideObject.js.gz
+2023/07/31 12:53:19 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/mergeByName.min.js /tmp/work/dist/esm/utils/mergeByName.js
+2023/07/31 12:53:19 gz /tmp/work/dist/esm/utils/getBasePlacement.min.js -> /output/esm/utils/getBasePlacement.min.js.gz
+2023/07/31 12:53:19 sri /tmp/work/dist/esm/utils/getBasePlacement.js -> /output/esm/utils/getBasePlacement.js.sri
+2023/07/31 12:53:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getBasePlacement.js.br /tmp/work/dist/esm/utils/getBasePlacement.js
+2023/07/31 12:53:19 br /tmp/work/dist/esm/utils/detectOverflow.js -> /output/esm/utils/detectOverflow.js.br
+2023/07/31 12:53:19 gz /tmp/work/dist/esm/utils/detectOverflow.js -> /output/esm/utils/detectOverflow.js.gz
+2023/07/31 12:53:19 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/mergePaddingObject.min.js /tmp/work/dist/esm/utils/mergePaddingObject.js
+2023/07/31 12:53:19 br /tmp/work/dist/esm/utils/getBasePlacement.js -> /output/esm/utils/getBasePlacement.js.br
+2023/07/31 12:53:19 gz /tmp/work/dist/esm/utils/getBasePlacement.js -> /output/esm/utils/getBasePlacement.js.gz
+2023/07/31 12:53:19 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/orderModifiers.min.js /tmp/work/dist/esm/utils/orderModifiers.js
+2023/07/31 12:53:19 sri /tmp/work/dist/esm/utils/getMainAxisFromPlacement.min.js -> /output/esm/utils/getMainAxisFromPlacement.min.js.sri
+2023/07/31 12:53:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getMainAxisFromPlacement.min.js.br /tmp/work/dist/esm/utils/getMainAxisFromPlacement.min.js
+2023/07/31 12:53:19 br /tmp/work/dist/esm/utils/getMainAxisFromPlacement.min.js -> /output/esm/utils/getMainAxisFromPlacement.min.js.br
+2023/07/31 12:53:19 gz /tmp/work/dist/esm/utils/getMainAxisFromPlacement.min.js -> /output/esm/utils/getMainAxisFromPlacement.min.js.gz
+2023/07/31 12:53:19 sri /tmp/work/dist/esm/utils/getMainAxisFromPlacement.js -> /output/esm/utils/getMainAxisFromPlacement.js.sri
+2023/07/31 12:53:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getMainAxisFromPlacement.js.br /tmp/work/dist/esm/utils/getMainAxisFromPlacement.js
+2023/07/31 12:53:19 br /tmp/work/dist/esm/utils/getMainAxisFromPlacement.js -> /output/esm/utils/getMainAxisFromPlacement.js.br
+2023/07/31 12:53:19 gz /tmp/work/dist/esm/utils/getMainAxisFromPlacement.js -> /output/esm/utils/getMainAxisFromPlacement.js.gz
+2023/07/31 12:53:19 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/rectToClientRect.min.js /tmp/work/dist/esm/utils/rectToClientRect.js
+2023/07/31 12:53:19 sri /tmp/work/dist/esm/utils/getOppositePlacement.min.js -> /output/esm/utils/getOppositePlacement.min.js.sri
+2023/07/31 12:53:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getOppositePlacement.min.js.br /tmp/work/dist/esm/utils/getOppositePlacement.min.js
+2023/07/31 12:53:19 br /tmp/work/dist/esm/utils/getOppositePlacement.min.js -> /output/esm/utils/getOppositePlacement.min.js.br
+2023/07/31 12:53:19 gz /tmp/work/dist/esm/utils/getOppositePlacement.min.js -> /output/esm/utils/getOppositePlacement.min.js.gz
+2023/07/31 12:53:19 sri /tmp/work/dist/esm/utils/getOppositePlacement.js -> /output/esm/utils/getOppositePlacement.js.sri
+2023/07/31 12:53:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getOppositePlacement.js.br /tmp/work/dist/esm/utils/getOppositePlacement.js
+2023/07/31 12:53:20 br /tmp/work/dist/esm/utils/getOppositePlacement.js -> /output/esm/utils/getOppositePlacement.js.br
+2023/07/31 12:53:20 gz /tmp/work/dist/esm/utils/getOppositePlacement.js -> /output/esm/utils/getOppositePlacement.js.gz
+2023/07/31 12:53:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/uniqueBy.min.js /tmp/work/dist/esm/utils/uniqueBy.js
+2023/07/31 12:53:20 sri /tmp/work/dist/esm/utils/getVariation.min.js -> /output/esm/utils/getVariation.min.js.sri
+2023/07/31 12:53:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getVariation.min.js.br /tmp/work/dist/esm/utils/getVariation.min.js
+2023/07/31 12:53:20 br /tmp/work/dist/esm/utils/getVariation.min.js -> /output/esm/utils/getVariation.min.js.br
+2023/07/31 12:53:20 gz /tmp/work/dist/esm/utils/getVariation.min.js -> /output/esm/utils/getVariation.min.js.gz
+2023/07/31 12:53:20 sri /tmp/work/dist/esm/utils/getVariation.js -> /output/esm/utils/getVariation.js.sri
+2023/07/31 12:53:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getVariation.js.br /tmp/work/dist/esm/utils/getVariation.js
+2023/07/31 12:53:20 br /tmp/work/dist/esm/utils/getVariation.js -> /output/esm/utils/getVariation.js.br
+2023/07/31 12:53:20 gz /tmp/work/dist/esm/utils/getVariation.js -> /output/esm/utils/getVariation.js.gz
+2023/07/31 12:53:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/userAgent.min.js /tmp/work/dist/esm/utils/userAgent.js
+2023/07/31 12:53:20 sri /tmp/work/dist/esm/utils/getOppositeVariationPlacement.min.js -> /output/esm/utils/getOppositeVariationPlacement.min.js.sri
+2023/07/31 12:53:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getOppositeVariationPlacement.min.js.br /tmp/work/dist/esm/utils/getOppositeVariationPlacement.min.js
+2023/07/31 12:53:20 br /tmp/work/dist/esm/utils/getOppositeVariationPlacement.min.js -> /output/esm/utils/getOppositeVariationPlacement.min.js.br
+2023/07/31 12:53:20 gz /tmp/work/dist/esm/utils/getOppositeVariationPlacement.min.js -> /output/esm/utils/getOppositeVariationPlacement.min.js.gz
+2023/07/31 12:53:20 sri /tmp/work/dist/esm/utils/getOppositeVariationPlacement.js -> /output/esm/utils/getOppositeVariationPlacement.js.sri
+2023/07/31 12:53:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/getOppositeVariationPlacement.js.br /tmp/work/dist/esm/utils/getOppositeVariationPlacement.js
+2023/07/31 12:53:20 br /tmp/work/dist/esm/utils/getOppositeVariationPlacement.js -> /output/esm/utils/getOppositeVariationPlacement.js.br
+2023/07/31 12:53:20 gz /tmp/work/dist/esm/utils/getOppositeVariationPlacement.js -> /output/esm/utils/getOppositeVariationPlacement.js.gz
+2023/07/31 12:53:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/esm/utils/within.min.js /tmp/work/dist/esm/utils/within.js
+2023/07/31 12:53:20 sri /tmp/work/dist/esm/utils/mergeByName.min.js -> /output/esm/utils/mergeByName.min.js.sri
+2023/07/31 12:53:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/mergeByName.min.js.br /tmp/work/dist/esm/utils/mergeByName.min.js
+2023/07/31 12:53:20 br /tmp/work/dist/esm/utils/mergeByName.min.js -> /output/esm/utils/mergeByName.min.js.br
+2023/07/31 12:53:20 gz /tmp/work/dist/esm/utils/mergeByName.min.js -> /output/esm/utils/mergeByName.min.js.gz
+2023/07/31 12:53:20 sri /tmp/work/dist/esm/utils/mergeByName.js -> /output/esm/utils/mergeByName.js.sri
+2023/07/31 12:53:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/mergeByName.js.br /tmp/work/dist/esm/utils/mergeByName.js
+2023/07/31 12:53:20 br /tmp/work/dist/esm/utils/mergeByName.js -> /output/esm/utils/mergeByName.js.br
+2023/07/31 12:53:20 gz /tmp/work/dist/esm/utils/mergeByName.js -> /output/esm/utils/mergeByName.js.gz
+2023/07/31 12:53:20 /tmp/work/dist/umd/enums.min.js already has corresponding compressed file
+2023/07/31 12:53:20 sri /tmp/work/dist/esm/utils/mergePaddingObject.min.js -> /output/esm/utils/mergePaddingObject.min.js.sri
+2023/07/31 12:53:20 sri /tmp/work/dist/umd/enums.js -> /output/umd/enums.js.sri
+2023/07/31 12:53:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/mergePaddingObject.min.js.br /tmp/work/dist/esm/utils/mergePaddingObject.min.js
+2023/07/31 12:53:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/enums.js.br /tmp/work/dist/umd/enums.js
+2023/07/31 12:53:20 sri /tmp/work/dist/esm/utils/math.min.js -> /output/esm/utils/math.min.js.sri
+2023/07/31 12:53:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/math.min.js.br /tmp/work/dist/esm/utils/math.min.js
+2023/07/31 12:53:20 br /tmp/work/dist/esm/utils/mergePaddingObject.min.js -> /output/esm/utils/mergePaddingObject.min.js.br
+2023/07/31 12:53:20 gz /tmp/work/dist/esm/utils/mergePaddingObject.min.js -> /output/esm/utils/mergePaddingObject.min.js.gz
+2023/07/31 12:53:20 sri /tmp/work/dist/esm/utils/mergePaddingObject.js -> /output/esm/utils/mergePaddingObject.js.sri
+2023/07/31 12:53:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/mergePaddingObject.js.br /tmp/work/dist/esm/utils/mergePaddingObject.js
+2023/07/31 12:53:20 br /tmp/work/dist/esm/utils/mergePaddingObject.js -> /output/esm/utils/mergePaddingObject.js.br
+2023/07/31 12:53:20 gz /tmp/work/dist/esm/utils/mergePaddingObject.js -> /output/esm/utils/mergePaddingObject.js.gz
+2023/07/31 12:53:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/enums.js.map.br /tmp/work/dist/umd/enums.js.map
+2023/07/31 12:53:20 br /tmp/work/dist/umd/enums.js -> /output/umd/enums.js.br
+2023/07/31 12:53:20 gz /tmp/work/dist/umd/enums.js -> /output/umd/enums.js.gz
+2023/07/31 12:53:20 /tmp/work/dist/umd/enums.min.js is already compressed
+2023/07/31 12:53:20 sri /tmp/work/dist/umd/enums.min.js -> /output/umd/enums.min.js.sri
+2023/07/31 12:53:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/enums.min.js.br /tmp/work/dist/umd/enums.min.js
+2023/07/31 12:53:20 br /tmp/work/dist/esm/utils/math.min.js -> /output/esm/utils/math.min.js.br
+2023/07/31 12:53:20 gz /tmp/work/dist/esm/utils/math.min.js -> /output/esm/utils/math.min.js.gz
+2023/07/31 12:53:20 sri /tmp/work/dist/esm/utils/math.js -> /output/esm/utils/math.js.sri
+2023/07/31 12:53:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/math.js.br /tmp/work/dist/esm/utils/math.js
+2023/07/31 12:53:20 br /tmp/work/dist/esm/utils/math.js -> /output/esm/utils/math.js.br
+2023/07/31 12:53:20 gz /tmp/work/dist/esm/utils/math.js -> /output/esm/utils/math.js.gz
+2023/07/31 12:53:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/enums.min.js.map.br /tmp/work/dist/umd/enums.min.js.map
+2023/07/31 12:53:20 br /tmp/work/dist/umd/enums.min.js -> /output/umd/enums.min.js.br
+2023/07/31 12:53:20 gz /tmp/work/dist/umd/enums.min.js -> /output/umd/enums.min.js.gz
+2023/07/31 12:53:20 br /tmp/work/dist/umd/enums.js.map -> /output/umd/enums.js.map.br
+2023/07/31 12:53:20 gz /tmp/work/dist/umd/enums.js.map -> /output/umd/enums.js.map.gz
+2023/07/31 12:53:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/popper-base.js.map.br /tmp/work/dist/umd/popper-base.js.map
+2023/07/31 12:53:20 /tmp/work/dist/umd/popper-base.min.js already has corresponding compressed file
+2023/07/31 12:53:20 sri /tmp/work/dist/umd/popper-base.js -> /output/umd/popper-base.js.sri
+2023/07/31 12:53:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/popper-base.js.br /tmp/work/dist/umd/popper-base.js
+2023/07/31 12:53:20 br /tmp/work/dist/umd/enums.min.js.map -> /output/umd/enums.min.js.map.br
+2023/07/31 12:53:20 gz /tmp/work/dist/umd/enums.min.js.map -> /output/umd/enums.min.js.map.gz
+2023/07/31 12:53:20 /tmp/work/dist/umd/popper-base.min.js is already compressed
+2023/07/31 12:53:20 sri /tmp/work/dist/umd/popper-base.min.js -> /output/umd/popper-base.min.js.sri
+2023/07/31 12:53:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/popper-base.min.js.br /tmp/work/dist/umd/popper-base.min.js
+2023/07/31 12:53:20 sri /tmp/work/dist/esm/utils/rectToClientRect.min.js -> /output/esm/utils/rectToClientRect.min.js.sri
+2023/07/31 12:53:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/rectToClientRect.min.js.br /tmp/work/dist/esm/utils/rectToClientRect.min.js
+2023/07/31 12:53:20 br /tmp/work/dist/esm/utils/rectToClientRect.min.js -> /output/esm/utils/rectToClientRect.min.js.br
+2023/07/31 12:53:20 gz /tmp/work/dist/esm/utils/rectToClientRect.min.js -> /output/esm/utils/rectToClientRect.min.js.gz
+2023/07/31 12:53:20 sri /tmp/work/dist/esm/utils/rectToClientRect.js -> /output/esm/utils/rectToClientRect.js.sri
+2023/07/31 12:53:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/rectToClientRect.js.br /tmp/work/dist/esm/utils/rectToClientRect.js
+2023/07/31 12:53:20 br /tmp/work/dist/esm/utils/rectToClientRect.js -> /output/esm/utils/rectToClientRect.js.br
+2023/07/31 12:53:20 gz /tmp/work/dist/esm/utils/rectToClientRect.js -> /output/esm/utils/rectToClientRect.js.gz
+2023/07/31 12:53:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/popper-base.min.js.map.br /tmp/work/dist/umd/popper-base.min.js.map
+2023/07/31 12:53:20 sri /tmp/work/dist/esm/utils/uniqueBy.min.js -> /output/esm/utils/uniqueBy.min.js.sri
+2023/07/31 12:53:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/uniqueBy.min.js.br /tmp/work/dist/esm/utils/uniqueBy.min.js
+2023/07/31 12:53:20 br /tmp/work/dist/umd/popper-base.min.js -> /output/umd/popper-base.min.js.br
+2023/07/31 12:53:20 br /tmp/work/dist/esm/utils/uniqueBy.min.js -> /output/esm/utils/uniqueBy.min.js.br
+2023/07/31 12:53:20 gz /tmp/work/dist/esm/utils/uniqueBy.min.js -> /output/esm/utils/uniqueBy.min.js.gz
+2023/07/31 12:53:20 sri /tmp/work/dist/esm/utils/uniqueBy.js -> /output/esm/utils/uniqueBy.js.sri
+2023/07/31 12:53:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/uniqueBy.js.br /tmp/work/dist/esm/utils/uniqueBy.js
+2023/07/31 12:53:20 gz /tmp/work/dist/umd/popper-base.min.js -> /output/umd/popper-base.min.js.gz
+2023/07/31 12:53:20 /tmp/work/dist/umd/popper-lite.min.js already has corresponding compressed file
+2023/07/31 12:53:20 sri /tmp/work/dist/umd/popper-lite.js -> /output/umd/popper-lite.js.sri
+2023/07/31 12:53:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/popper-lite.js.br /tmp/work/dist/umd/popper-lite.js
+2023/07/31 12:53:20 sri /tmp/work/dist/esm/utils/within.min.js -> /output/esm/utils/within.min.js.sri
+2023/07/31 12:53:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/within.min.js.br /tmp/work/dist/esm/utils/within.min.js
+2023/07/31 12:53:20 br /tmp/work/dist/esm/utils/uniqueBy.js -> /output/esm/utils/uniqueBy.js.br
+2023/07/31 12:53:20 gz /tmp/work/dist/esm/utils/uniqueBy.js -> /output/esm/utils/uniqueBy.js.gz
+2023/07/31 12:53:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/popper-lite.js.map.br /tmp/work/dist/umd/popper-lite.js.map
+2023/07/31 12:53:20 br /tmp/work/dist/esm/utils/within.min.js -> /output/esm/utils/within.min.js.br
+2023/07/31 12:53:21 gz /tmp/work/dist/esm/utils/within.min.js -> /output/esm/utils/within.min.js.gz
+2023/07/31 12:53:21 sri /tmp/work/dist/esm/utils/within.js -> /output/esm/utils/within.js.sri
+2023/07/31 12:53:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/within.js.br /tmp/work/dist/esm/utils/within.js
+2023/07/31 12:53:21 br /tmp/work/dist/esm/utils/within.js -> /output/esm/utils/within.js.br
+2023/07/31 12:53:21 br /tmp/work/dist/umd/popper-base.js -> /output/umd/popper-base.js.br
+2023/07/31 12:53:21 gz /tmp/work/dist/umd/popper-base.js -> /output/umd/popper-base.js.gz
+2023/07/31 12:53:21 /tmp/work/dist/umd/popper-lite.min.js is already compressed
+2023/07/31 12:53:21 gz /tmp/work/dist/esm/utils/within.js -> /output/esm/utils/within.js.gz
+2023/07/31 12:53:21 sri /tmp/work/dist/esm/utils/userAgent.min.js -> /output/esm/utils/userAgent.min.js.sri
+2023/07/31 12:53:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/userAgent.min.js.br /tmp/work/dist/esm/utils/userAgent.min.js
+2023/07/31 12:53:21 sri /tmp/work/dist/umd/popper-lite.min.js -> /output/umd/popper-lite.min.js.sri
+2023/07/31 12:53:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/popper-lite.min.js.br /tmp/work/dist/umd/popper-lite.min.js
+2023/07/31 12:53:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/popper-lite.min.js.map.br /tmp/work/dist/umd/popper-lite.min.js.map
+2023/07/31 12:53:21 sri /tmp/work/dist/esm/utils/orderModifiers.min.js -> /output/esm/utils/orderModifiers.min.js.sri
+2023/07/31 12:53:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/orderModifiers.min.js.br /tmp/work/dist/esm/utils/orderModifiers.min.js
+2023/07/31 12:53:21 br /tmp/work/dist/esm/utils/userAgent.min.js -> /output/esm/utils/userAgent.min.js.br
+2023/07/31 12:53:21 gz /tmp/work/dist/esm/utils/userAgent.min.js -> /output/esm/utils/userAgent.min.js.gz
+2023/07/31 12:53:21 sri /tmp/work/dist/esm/utils/userAgent.js -> /output/esm/utils/userAgent.js.sri
+2023/07/31 12:53:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/userAgent.js.br /tmp/work/dist/esm/utils/userAgent.js
+2023/07/31 12:53:21 br /tmp/work/dist/esm/utils/orderModifiers.min.js -> /output/esm/utils/orderModifiers.min.js.br
+2023/07/31 12:53:21 gz /tmp/work/dist/esm/utils/orderModifiers.min.js -> /output/esm/utils/orderModifiers.min.js.gz
+2023/07/31 12:53:21 sri /tmp/work/dist/esm/utils/orderModifiers.js -> /output/esm/utils/orderModifiers.js.sri
+2023/07/31 12:53:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/utils/orderModifiers.js.br /tmp/work/dist/esm/utils/orderModifiers.js
+2023/07/31 12:53:21 br /tmp/work/dist/esm/utils/userAgent.js -> /output/esm/utils/userAgent.js.br
+2023/07/31 12:53:21 gz /tmp/work/dist/esm/utils/userAgent.js -> /output/esm/utils/userAgent.js.gz
+2023/07/31 12:53:21 /tmp/work/dist/umd/popper.min.js already has corresponding compressed file
+2023/07/31 12:53:21 sri /tmp/work/dist/umd/popper.js -> /output/umd/popper.js.sri
+2023/07/31 12:53:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/popper.js.br /tmp/work/dist/umd/popper.js
+2023/07/31 12:53:21 br /tmp/work/dist/esm/utils/orderModifiers.js -> /output/esm/utils/orderModifiers.js.br
+2023/07/31 12:53:21 gz /tmp/work/dist/esm/utils/orderModifiers.js -> /output/esm/utils/orderModifiers.js.gz
+2023/07/31 12:53:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/popper.js.map.br /tmp/work/dist/umd/popper.js.map
+2023/07/31 12:53:21 br /tmp/work/dist/umd/popper-lite.min.js -> /output/umd/popper-lite.min.js.br
+2023/07/31 12:53:21 gz /tmp/work/dist/umd/popper-lite.min.js -> /output/umd/popper-lite.min.js.gz
+2023/07/31 12:53:21 /tmp/work/dist/umd/popper.min.js is already compressed
+2023/07/31 12:53:21 sri /tmp/work/dist/umd/popper.min.js -> /output/umd/popper.min.js.sri
+2023/07/31 12:53:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/popper.min.js.br /tmp/work/dist/umd/popper.min.js
+2023/07/31 12:53:21 br /tmp/work/dist/umd/popper-base.js.map -> /output/umd/popper-base.js.map.br
+2023/07/31 12:53:21 gz /tmp/work/dist/umd/popper-base.js.map -> /output/umd/popper-base.js.map.gz
+2023/07/31 12:53:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/popper.min.js.map.br /tmp/work/dist/umd/popper.min.js.map
+2023/07/31 12:53:21 br /tmp/work/dist/umd/popper-base.min.js.map -> /output/umd/popper-base.min.js.map.br
+2023/07/31 12:53:21 gz /tmp/work/dist/umd/popper-base.min.js.map -> /output/umd/popper-base.min.js.map.gz
+2023/07/31 12:53:21 br /tmp/work/dist/umd/popper-lite.js -> /output/umd/popper-lite.js.br
+2023/07/31 12:53:21 gz /tmp/work/dist/umd/popper-lite.js -> /output/umd/popper-lite.js.gz
+2023/07/31 12:53:21 br /tmp/work/dist/umd/popper.min.js -> /output/umd/popper.min.js.br
+2023/07/31 12:53:21 gz /tmp/work/dist/umd/popper.min.js -> /output/umd/popper.min.js.gz
+2023/07/31 12:53:21 br /tmp/work/dist/umd/popper.js -> /output/umd/popper.js.br
+2023/07/31 12:53:21 gz /tmp/work/dist/umd/popper.js -> /output/umd/popper.js.gz
+2023/07/31 12:53:21 br /tmp/work/dist/umd/popper-lite.min.js.map -> /output/umd/popper-lite.min.js.map.br
+2023/07/31 12:53:21 gz /tmp/work/dist/umd/popper-lite.min.js.map -> /output/umd/popper-lite.min.js.map.gz
+2023/07/31 12:53:21 br /tmp/work/dist/umd/popper-lite.js.map -> /output/umd/popper-lite.js.map.br
+2023/07/31 12:53:21 gz /tmp/work/dist/umd/popper-lite.js.map -> /output/umd/popper-lite.js.map.gz
+2023/07/31 12:53:22 br /tmp/work/dist/umd/popper.js.map -> /output/umd/popper.js.map.br
+2023/07/31 12:53:22 gz /tmp/work/dist/umd/popper.js.map -> /output/umd/popper.js.map.gz
+2023/07/31 12:53:22 br /tmp/work/dist/umd/popper.min.js.map -> /output/umd/popper.min.js.map.br
+2023/07/31 12:53:22 gz /tmp/work/dist/umd/popper.min.js.map -> /output/umd/popper.min.js.map.gz
+2023/07/31 12:53:22 processed popper.js
