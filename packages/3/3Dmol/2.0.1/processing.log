@@ -1,443 +1,443 @@
-2023/02/07 01:30:49 optimizing files (Js true, Css true, Png true, Jpg true)
-2023/02/07 01:30:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/3Dmol-min.min.js /tmp/work/build/3Dmol-min.js
-2023/02/07 01:30:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/3Dmol.min.js /tmp/work/build/3Dmol.js
-2023/02/07 01:30:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/3Dmol.ui-min.min.js /tmp/work/build/3Dmol.ui-min.js
-2023/02/07 01:30:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol-min.js.LICENSE.txt.br /tmp/work/build/3Dmol-min.js.LICENSE.txt
-2023/02/07 01:30:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/3Dmol.ui.min.js /tmp/work/build/3Dmol.ui.js
-2023/02/07 01:30:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol.ui-min.js.LICENSE.txt.br /tmp/work/build/3Dmol.ui-min.js.LICENSE.txt
-2023/02/07 01:30:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/colors.d.ts.br /tmp/work/build/types/colors.d.ts
-2023/02/07 01:30:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/autoload.d.ts.br /tmp/work/build/types/autoload.d.ts
-2023/02/07 01:30:49 br /tmp/work/build/3Dmol-min.js.LICENSE.txt -> /output/3Dmol-min.js.LICENSE.txt.br
-2023/02/07 01:30:49 gz /tmp/work/build/3Dmol-min.js.LICENSE.txt -> /output/3Dmol-min.js.LICENSE.txt.gz
-2023/02/07 01:30:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/exporter.d.ts.br /tmp/work/build/types/exporter.d.ts
-2023/02/07 01:30:49 br /tmp/work/build/types/autoload.d.ts -> /output/types/autoload.d.ts.br
-2023/02/07 01:30:49 br /tmp/work/build/3Dmol.ui-min.js.LICENSE.txt -> /output/3Dmol.ui-min.js.LICENSE.txt.br
-2023/02/07 01:30:49 gz /tmp/work/build/types/autoload.d.ts -> /output/types/autoload.d.ts.gz
-2023/02/07 01:30:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/glcartoon.d.ts.br /tmp/work/build/types/glcartoon.d.ts
-2023/02/07 01:30:49 br /tmp/work/build/types/exporter.d.ts -> /output/types/exporter.d.ts.br
-2023/02/07 01:30:49 gz /tmp/work/build/3Dmol.ui-min.js.LICENSE.txt -> /output/3Dmol.ui-min.js.LICENSE.txt.gz
-2023/02/07 01:30:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/GLDraw.d.ts.br /tmp/work/build/types/GLDraw.d.ts
-2023/02/07 01:30:49 gz /tmp/work/build/types/exporter.d.ts -> /output/types/exporter.d.ts.gz
-2023/02/07 01:30:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/GLModel.d.ts.br /tmp/work/build/types/GLModel.d.ts
-2023/02/07 01:30:49 br /tmp/work/build/types/glcartoon.d.ts -> /output/types/glcartoon.d.ts.br
-2023/02/07 01:30:49 gz /tmp/work/build/types/glcartoon.d.ts -> /output/types/glcartoon.d.ts.gz
-2023/02/07 01:30:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/GLShape.d.ts.br /tmp/work/build/types/GLShape.d.ts
-2023/02/07 01:30:49 br /tmp/work/build/types/GLDraw.d.ts -> /output/types/GLDraw.d.ts.br
-2023/02/07 01:30:49 gz /tmp/work/build/types/GLDraw.d.ts -> /output/types/GLDraw.d.ts.gz
-2023/02/07 01:30:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/GLViewer.d.ts.br /tmp/work/build/types/GLViewer.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/GLShape.d.ts -> /output/types/GLShape.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/GLShape.d.ts -> /output/types/GLShape.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/Gradient.d.ts.br /tmp/work/build/types/Gradient.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/colors.d.ts -> /output/types/colors.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/colors.d.ts -> /output/types/colors.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/index.d.ts.br /tmp/work/build/types/index.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/GLModel.d.ts -> /output/types/GLModel.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/GLModel.d.ts -> /output/types/GLModel.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/Label.d.ts.br /tmp/work/build/types/Label.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/index.d.ts -> /output/types/index.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/index.d.ts -> /output/types/index.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/CDJSON.d.ts.br /tmp/work/build/types/parsers/CDJSON.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/Label.d.ts -> /output/types/Label.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/Label.d.ts -> /output/types/Label.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/CIF.d.ts.br /tmp/work/build/types/parsers/CIF.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/Gradient.d.ts -> /output/types/Gradient.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/Gradient.d.ts -> /output/types/Gradient.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/CUBE.d.ts.br /tmp/work/build/types/parsers/CUBE.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/CDJSON.d.ts -> /output/types/parsers/CDJSON.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/CDJSON.d.ts -> /output/types/parsers/CDJSON.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/GRO.d.ts.br /tmp/work/build/types/parsers/GRO.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/CIF.d.ts -> /output/types/parsers/CIF.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/CIF.d.ts -> /output/types/parsers/CIF.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/index.d.ts.br /tmp/work/build/types/parsers/index.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/CUBE.d.ts -> /output/types/parsers/CUBE.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/CUBE.d.ts -> /output/types/parsers/CUBE.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/LAMMPSTRJ.d.ts.br /tmp/work/build/types/parsers/LAMMPSTRJ.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/GRO.d.ts -> /output/types/parsers/GRO.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/GRO.d.ts -> /output/types/parsers/GRO.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/MMTF.d.ts.br /tmp/work/build/types/parsers/MMTF.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/index.d.ts -> /output/types/parsers/index.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/index.d.ts -> /output/types/parsers/index.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/MOL2.d.ts.br /tmp/work/build/types/parsers/MOL2.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/LAMMPSTRJ.d.ts -> /output/types/parsers/LAMMPSTRJ.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/LAMMPSTRJ.d.ts -> /output/types/parsers/LAMMPSTRJ.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/ParserOptionsSpec.d.ts.br /tmp/work/build/types/parsers/ParserOptionsSpec.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/MMTF.d.ts -> /output/types/parsers/MMTF.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/MMTF.d.ts -> /output/types/parsers/MMTF.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/PDB.d.ts.br /tmp/work/build/types/parsers/PDB.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/MOL2.d.ts -> /output/types/parsers/MOL2.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/MOL2.d.ts -> /output/types/parsers/MOL2.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/PQR.d.ts.br /tmp/work/build/types/parsers/PQR.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/PDB.d.ts -> /output/types/parsers/PDB.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/PDB.d.ts -> /output/types/parsers/PDB.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/PRMTOP.d.ts.br /tmp/work/build/types/parsers/PRMTOP.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/PQR.d.ts -> /output/types/parsers/PQR.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/PQR.d.ts -> /output/types/parsers/PQR.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/SDF.d.ts.br /tmp/work/build/types/parsers/SDF.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/PRMTOP.d.ts -> /output/types/parsers/PRMTOP.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/PRMTOP.d.ts -> /output/types/parsers/PRMTOP.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/anumToSymbol.d.ts.br /tmp/work/build/types/parsers/utils/anumToSymbol.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/ParserOptionsSpec.d.ts -> /output/types/parsers/ParserOptionsSpec.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/ParserOptionsSpec.d.ts -> /output/types/parsers/ParserOptionsSpec.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/areConnected.d.ts.br /tmp/work/build/types/parsers/utils/areConnected.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/SDF.d.ts -> /output/types/parsers/SDF.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/SDF.d.ts -> /output/types/parsers/SDF.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/assignBackboneHBonds.d.ts.br /tmp/work/build/types/parsers/utils/assignBackboneHBonds.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/utils/anumToSymbol.d.ts -> /output/types/parsers/utils/anumToSymbol.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/utils/anumToSymbol.d.ts -> /output/types/parsers/utils/anumToSymbol.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/assignBonds.d.ts.br /tmp/work/build/types/parsers/utils/assignBonds.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/utils/areConnected.d.ts -> /output/types/parsers/utils/areConnected.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/utils/assignBackboneHBonds.d.ts -> /output/types/parsers/utils/assignBackboneHBonds.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/utils/areConnected.d.ts -> /output/types/parsers/utils/areConnected.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/assignPDBBonds.d.ts.br /tmp/work/build/types/parsers/utils/assignPDBBonds.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/utils/assignBackboneHBonds.d.ts -> /output/types/parsers/utils/assignBackboneHBonds.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/atomNameToElem.d.ts.br /tmp/work/build/types/parsers/utils/atomNameToElem.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/utils/assignBonds.d.ts -> /output/types/parsers/utils/assignBonds.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/utils/assignBonds.d.ts -> /output/types/parsers/utils/assignBonds.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/bondLength.d.ts.br /tmp/work/build/types/parsers/utils/bondLength.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/utils/atomNameToElem.d.ts -> /output/types/parsers/utils/atomNameToElem.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/utils/atomNameToElem.d.ts -> /output/types/parsers/utils/atomNameToElem.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/bondTable.d.ts.br /tmp/work/build/types/parsers/utils/bondTable.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/utils/assignPDBBonds.d.ts -> /output/types/parsers/utils/assignPDBBonds.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/utils/assignPDBBonds.d.ts -> /output/types/parsers/utils/assignPDBBonds.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/computeSecondaryStructure.d.ts.br /tmp/work/build/types/parsers/utils/computeSecondaryStructure.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/utils/bondLength.d.ts -> /output/types/parsers/utils/bondLength.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/utils/bondLength.d.ts -> /output/types/parsers/utils/bondLength.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/getSinglePDB.d.ts.br /tmp/work/build/types/parsers/utils/getSinglePDB.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/utils/bondTable.d.ts -> /output/types/parsers/utils/bondTable.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/utils/computeSecondaryStructure.d.ts -> /output/types/parsers/utils/computeSecondaryStructure.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/utils/computeSecondaryStructure.d.ts -> /output/types/parsers/utils/computeSecondaryStructure.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/isEmpty.d.ts.br /tmp/work/build/types/parsers/utils/isEmpty.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/utils/bondTable.d.ts -> /output/types/parsers/utils/bondTable.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/processSymmetries.d.ts.br /tmp/work/build/types/parsers/utils/processSymmetries.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/utils/getSinglePDB.d.ts -> /output/types/parsers/utils/getSinglePDB.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/utils/getSinglePDB.d.ts -> /output/types/parsers/utils/getSinglePDB.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/standardResidues.d.ts.br /tmp/work/build/types/parsers/utils/standardResidues.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/utils/isEmpty.d.ts -> /output/types/parsers/utils/isEmpty.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/utils/isEmpty.d.ts -> /output/types/parsers/utils/isEmpty.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/validateBonds.d.ts.br /tmp/work/build/types/parsers/utils/validateBonds.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/utils/processSymmetries.d.ts -> /output/types/parsers/utils/processSymmetries.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/utils/standardResidues.d.ts -> /output/types/parsers/utils/standardResidues.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/utils/processSymmetries.d.ts -> /output/types/parsers/utils/processSymmetries.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/VASP.d.ts.br /tmp/work/build/types/parsers/VASP.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/utils/standardResidues.d.ts -> /output/types/parsers/utils/standardResidues.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/XYZ.d.ts.br /tmp/work/build/types/parsers/XYZ.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/utils/validateBonds.d.ts -> /output/types/parsers/utils/validateBonds.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/utils/validateBonds.d.ts -> /output/types/parsers/utils/validateBonds.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/partialCharges.d.ts.br /tmp/work/build/types/partialCharges.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/VASP.d.ts -> /output/types/parsers/VASP.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/VASP.d.ts -> /output/types/parsers/VASP.d.ts.gz
-2023/02/07 01:30:50 br /tmp/work/build/types/GLViewer.d.ts -> /output/types/GLViewer.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/parsers/XYZ.d.ts -> /output/types/parsers/XYZ.d.ts.br
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/ProteinSurface4.d.ts.br /tmp/work/build/types/ProteinSurface4.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/parsers/XYZ.d.ts -> /output/types/parsers/XYZ.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/specs.d.ts.br /tmp/work/build/types/specs.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/GLViewer.d.ts -> /output/types/GLViewer.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/SurfaceWorker.d.ts.br /tmp/work/build/types/SurfaceWorker.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/SurfaceWorker.d.ts -> /output/types/SurfaceWorker.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/SurfaceWorker.d.ts -> /output/types/SurfaceWorker.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/ui/defaultValues.d.ts.br /tmp/work/build/types/ui/defaultValues.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/partialCharges.d.ts -> /output/types/partialCharges.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/partialCharges.d.ts -> /output/types/partialCharges.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/ui/form.d.ts.br /tmp/work/build/types/ui/form.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/ProteinSurface4.d.ts -> /output/types/ProteinSurface4.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/ProteinSurface4.d.ts -> /output/types/ProteinSurface4.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/ui/icon.d.ts.br /tmp/work/build/types/ui/icon.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/ui/defaultValues.d.ts -> /output/types/ui/defaultValues.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/ui/defaultValues.d.ts -> /output/types/ui/defaultValues.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/ui/state.d.ts.br /tmp/work/build/types/ui/state.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/ui/form.d.ts -> /output/types/ui/form.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/specs.d.ts -> /output/types/specs.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/ui/icon.d.ts -> /output/types/ui/icon.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/ui/icon.d.ts -> /output/types/ui/icon.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/ui/ui.d.ts.br /tmp/work/build/types/ui/ui.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/specs.d.ts -> /output/types/specs.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/utilities.d.ts.br /tmp/work/build/types/utilities.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/ui/state.d.ts -> /output/types/ui/state.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/ui/form.d.ts -> /output/types/ui/form.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/vendor/mmtf.d.ts.br /tmp/work/build/types/vendor/mmtf.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/ui/state.d.ts -> /output/types/ui/state.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/VolumeData.d.ts.br /tmp/work/build/types/VolumeData.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/ui/ui.d.ts -> /output/types/ui/ui.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/ui/ui.d.ts -> /output/types/ui/ui.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/VolumetricRender.d.ts.br /tmp/work/build/types/VolumetricRender.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/vendor/mmtf.d.ts -> /output/types/vendor/mmtf.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/vendor/mmtf.d.ts -> /output/types/vendor/mmtf.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/Camera.d.ts.br /tmp/work/build/types/WebGL/Camera.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/utilities.d.ts -> /output/types/utilities.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/utilities.d.ts -> /output/types/utilities.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/constants/Coloring.d.ts.br /tmp/work/build/types/WebGL/constants/Coloring.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/VolumeData.d.ts -> /output/types/VolumeData.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/VolumetricRender.d.ts -> /output/types/VolumetricRender.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/VolumeData.d.ts -> /output/types/VolumeData.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/constants/index.d.ts.br /tmp/work/build/types/WebGL/constants/index.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/VolumetricRender.d.ts -> /output/types/VolumetricRender.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/constants/Shading.d.ts.br /tmp/work/build/types/WebGL/constants/Shading.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/constants/Coloring.d.ts -> /output/types/WebGL/constants/Coloring.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/constants/Coloring.d.ts -> /output/types/WebGL/constants/Coloring.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/constants/Sides.d.ts.br /tmp/work/build/types/WebGL/constants/Sides.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/Camera.d.ts -> /output/types/WebGL/Camera.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/constants/Shading.d.ts -> /output/types/WebGL/constants/Shading.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/Camera.d.ts -> /output/types/WebGL/Camera.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/constants/SpriteAlignment.d.ts.br /tmp/work/build/types/WebGL/constants/SpriteAlignment.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/constants/Shading.d.ts -> /output/types/WebGL/constants/Shading.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/constants/TextureConstants.d.ts.br /tmp/work/build/types/WebGL/constants/TextureConstants.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/constants/index.d.ts -> /output/types/WebGL/constants/index.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/constants/index.d.ts -> /output/types/WebGL/constants/index.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/constants/TextureOperations.d.ts.br /tmp/work/build/types/WebGL/constants/TextureOperations.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/constants/SpriteAlignment.d.ts -> /output/types/WebGL/constants/SpriteAlignment.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/constants/SpriteAlignment.d.ts -> /output/types/WebGL/constants/SpriteAlignment.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/core/EventDispatcher.d.ts.br /tmp/work/build/types/WebGL/core/EventDispatcher.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/constants/Sides.d.ts -> /output/types/WebGL/constants/Sides.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/constants/TextureConstants.d.ts -> /output/types/WebGL/constants/TextureConstants.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/constants/Sides.d.ts -> /output/types/WebGL/constants/Sides.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/core/Geometry.d.ts.br /tmp/work/build/types/WebGL/core/Geometry.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/constants/TextureConstants.d.ts -> /output/types/WebGL/constants/TextureConstants.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/core/index.d.ts.br /tmp/work/build/types/WebGL/core/index.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/constants/TextureOperations.d.ts -> /output/types/WebGL/constants/TextureOperations.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/constants/TextureOperations.d.ts -> /output/types/WebGL/constants/TextureOperations.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/core/Object3D.d.ts.br /tmp/work/build/types/WebGL/core/Object3D.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/core/EventDispatcher.d.ts -> /output/types/WebGL/core/EventDispatcher.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/core/EventDispatcher.d.ts -> /output/types/WebGL/core/EventDispatcher.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/core/Projector.d.ts.br /tmp/work/build/types/WebGL/core/Projector.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/core/Object3D.d.ts -> /output/types/WebGL/core/Object3D.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/core/Object3D.d.ts -> /output/types/WebGL/core/Object3D.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/core/Raycaster.d.ts.br /tmp/work/build/types/WebGL/core/Raycaster.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/core/index.d.ts -> /output/types/WebGL/core/index.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/core/Geometry.d.ts -> /output/types/WebGL/core/Geometry.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/core/index.d.ts -> /output/types/WebGL/core/index.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/core/Texture.d.ts.br /tmp/work/build/types/WebGL/core/Texture.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/core/Geometry.d.ts -> /output/types/WebGL/core/Geometry.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/core/UVMapping.d.ts.br /tmp/work/build/types/WebGL/core/UVMapping.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/core/Projector.d.ts -> /output/types/WebGL/core/Projector.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/core/Raycaster.d.ts -> /output/types/WebGL/core/Raycaster.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/core/Texture.d.ts -> /output/types/WebGL/core/Texture.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/core/Projector.d.ts -> /output/types/WebGL/core/Projector.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/Fog.d.ts.br /tmp/work/build/types/WebGL/Fog.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/core/Raycaster.d.ts -> /output/types/WebGL/core/Raycaster.d.ts.gz
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/core/Texture.d.ts -> /output/types/WebGL/core/Texture.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/index.d.ts.br /tmp/work/build/types/WebGL/index.d.ts
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/ImposterMaterial.d.ts.br /tmp/work/build/types/WebGL/materials/ImposterMaterial.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/core/UVMapping.d.ts -> /output/types/WebGL/core/UVMapping.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/materials/ImposterMaterial.d.ts -> /output/types/WebGL/materials/ImposterMaterial.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/Fog.d.ts -> /output/types/WebGL/Fog.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/core/UVMapping.d.ts -> /output/types/WebGL/core/UVMapping.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/index.d.ts.br /tmp/work/build/types/WebGL/materials/index.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/Fog.d.ts -> /output/types/WebGL/Fog.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/InstancedMaterial.d.ts.br /tmp/work/build/types/WebGL/materials/InstancedMaterial.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/materials/ImposterMaterial.d.ts -> /output/types/WebGL/materials/ImposterMaterial.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/LineBasicMaterial.d.ts.br /tmp/work/build/types/WebGL/materials/LineBasicMaterial.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/index.d.ts -> /output/types/WebGL/index.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/index.d.ts -> /output/types/WebGL/index.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/Material.d.ts.br /tmp/work/build/types/WebGL/materials/Material.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/materials/index.d.ts -> /output/types/WebGL/materials/index.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/materials/index.d.ts -> /output/types/WebGL/materials/index.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/MeshDoubleLambertMaterial.d.ts.br /tmp/work/build/types/WebGL/materials/MeshDoubleLambertMaterial.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/materials/InstancedMaterial.d.ts -> /output/types/WebGL/materials/InstancedMaterial.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/materials/InstancedMaterial.d.ts -> /output/types/WebGL/materials/InstancedMaterial.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/MeshLambertMaterial.d.ts.br /tmp/work/build/types/WebGL/materials/MeshLambertMaterial.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/materials/LineBasicMaterial.d.ts -> /output/types/WebGL/materials/LineBasicMaterial.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/materials/LineBasicMaterial.d.ts -> /output/types/WebGL/materials/LineBasicMaterial.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/MeshOutlineMaterial.d.ts.br /tmp/work/build/types/WebGL/materials/MeshOutlineMaterial.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/materials/MeshDoubleLambertMaterial.d.ts -> /output/types/WebGL/materials/MeshDoubleLambertMaterial.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/materials/MeshLambertMaterial.d.ts -> /output/types/WebGL/materials/MeshLambertMaterial.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/materials/MeshDoubleLambertMaterial.d.ts -> /output/types/WebGL/materials/MeshDoubleLambertMaterial.d.ts.gz
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/materials/MeshLambertMaterial.d.ts -> /output/types/WebGL/materials/MeshLambertMaterial.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/SphereImposterOutlineMaterial.d.ts.br /tmp/work/build/types/WebGL/materials/SphereImposterOutlineMaterial.d.ts
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/SphereImposterMaterial.d.ts.br /tmp/work/build/types/WebGL/materials/SphereImposterMaterial.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/materials/Material.d.ts -> /output/types/WebGL/materials/Material.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/materials/MeshOutlineMaterial.d.ts -> /output/types/WebGL/materials/MeshOutlineMaterial.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/materials/Material.d.ts -> /output/types/WebGL/materials/Material.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/SpriteMaterial.d.ts.br /tmp/work/build/types/WebGL/materials/SpriteMaterial.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/materials/MeshOutlineMaterial.d.ts -> /output/types/WebGL/materials/MeshOutlineMaterial.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/StickImposterMaterial.d.ts.br /tmp/work/build/types/WebGL/materials/StickImposterMaterial.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/materials/SphereImposterOutlineMaterial.d.ts -> /output/types/WebGL/materials/SphereImposterOutlineMaterial.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/materials/SphereImposterOutlineMaterial.d.ts -> /output/types/WebGL/materials/SphereImposterOutlineMaterial.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/StickImposterOutlineMaterial.d.ts.br /tmp/work/build/types/WebGL/materials/StickImposterOutlineMaterial.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/materials/SphereImposterMaterial.d.ts -> /output/types/WebGL/materials/SphereImposterMaterial.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/materials/SpriteMaterial.d.ts -> /output/types/WebGL/materials/SpriteMaterial.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/materials/StickImposterMaterial.d.ts -> /output/types/WebGL/materials/StickImposterMaterial.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/materials/SpriteMaterial.d.ts -> /output/types/WebGL/materials/SpriteMaterial.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/VolumetricMaterial.d.ts.br /tmp/work/build/types/WebGL/materials/VolumetricMaterial.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/materials/StickImposterMaterial.d.ts -> /output/types/WebGL/materials/StickImposterMaterial.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/math/index.d.ts.br /tmp/work/build/types/WebGL/math/index.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/materials/SphereImposterMaterial.d.ts -> /output/types/WebGL/materials/SphereImposterMaterial.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/math/math.d.ts.br /tmp/work/build/types/WebGL/math/math.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/materials/VolumetricMaterial.d.ts -> /output/types/WebGL/materials/VolumetricMaterial.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/materials/StickImposterOutlineMaterial.d.ts -> /output/types/WebGL/materials/StickImposterOutlineMaterial.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/materials/VolumetricMaterial.d.ts -> /output/types/WebGL/materials/VolumetricMaterial.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/math/Quaternion.d.ts.br /tmp/work/build/types/WebGL/math/Quaternion.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/materials/StickImposterOutlineMaterial.d.ts -> /output/types/WebGL/materials/StickImposterOutlineMaterial.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/math/utils/clamp.d.ts.br /tmp/work/build/types/WebGL/math/utils/clamp.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/math/index.d.ts -> /output/types/WebGL/math/index.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/math/index.d.ts -> /output/types/WebGL/math/index.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/math/utils/conversionMatrix3.d.ts.br /tmp/work/build/types/WebGL/math/utils/conversionMatrix3.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/math/math.d.ts -> /output/types/WebGL/math/math.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/math/math.d.ts -> /output/types/WebGL/math/math.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/math/utils/degToRad.d.ts.br /tmp/work/build/types/WebGL/math/utils/degToRad.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/math/utils/conversionMatrix3.d.ts -> /output/types/WebGL/math/utils/conversionMatrix3.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/math/utils/clamp.d.ts -> /output/types/WebGL/math/utils/clamp.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/math/utils/conversionMatrix3.d.ts -> /output/types/WebGL/math/utils/conversionMatrix3.d.ts.gz
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/math/utils/clamp.d.ts -> /output/types/WebGL/math/utils/clamp.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/objects/index.d.ts.br /tmp/work/build/types/WebGL/objects/index.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/math/Quaternion.d.ts -> /output/types/WebGL/math/Quaternion.d.ts.br
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/math/Vector2.d.ts.br /tmp/work/build/types/WebGL/math/Vector2.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/math/utils/degToRad.d.ts -> /output/types/WebGL/math/utils/degToRad.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/math/utils/degToRad.d.ts -> /output/types/WebGL/math/utils/degToRad.d.ts.gz
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/math/Quaternion.d.ts -> /output/types/WebGL/math/Quaternion.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/objects/Mesh.d.ts.br /tmp/work/build/types/WebGL/objects/Mesh.d.ts
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/objects/Line.d.ts.br /tmp/work/build/types/WebGL/objects/Line.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/objects/index.d.ts -> /output/types/WebGL/objects/index.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/objects/index.d.ts -> /output/types/WebGL/objects/index.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/objects/Sprite.d.ts.br /tmp/work/build/types/WebGL/objects/Sprite.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/math/Vector2.d.ts -> /output/types/WebGL/math/Vector2.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/objects/Mesh.d.ts -> /output/types/WebGL/objects/Mesh.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/math/Vector2.d.ts -> /output/types/WebGL/math/Vector2.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/Renderer.d.ts.br /tmp/work/build/types/WebGL/Renderer.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/objects/Mesh.d.ts -> /output/types/WebGL/objects/Mesh.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/index.d.ts.br /tmp/work/build/types/WebGL/shaders/index.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/objects/Line.d.ts -> /output/types/WebGL/objects/Line.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/objects/Line.d.ts -> /output/types/WebGL/objects/Line.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/basic/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/basic/index.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/objects/Sprite.d.ts -> /output/types/WebGL/objects/Sprite.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/objects/Sprite.d.ts -> /output/types/WebGL/objects/Sprite.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/basic/uniforms.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/basic/uniforms.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/index.d.ts -> /output/types/WebGL/shaders/index.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/index.d.ts -> /output/types/WebGL/shaders/index.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/index.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/Renderer.d.ts -> /output/types/WebGL/Renderer.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/lib/basic/index.d.ts -> /output/types/WebGL/shaders/lib/basic/index.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/Renderer.d.ts -> /output/types/WebGL/Renderer.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/instanced/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/instanced/index.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/lib/basic/uniforms.d.ts -> /output/types/WebGL/shaders/lib/basic/uniforms.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/lib/basic/index.d.ts -> /output/types/WebGL/shaders/lib/basic/index.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/instanced/uniforms.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/instanced/uniforms.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/lib/index.d.ts -> /output/types/WebGL/shaders/lib/index.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/lib/basic/uniforms.d.ts -> /output/types/WebGL/shaders/lib/basic/uniforms.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/lambert/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/lambert/index.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/lib/index.d.ts -> /output/types/WebGL/shaders/lib/index.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/lambert/uniforms.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/lambert/uniforms.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/lib/instanced/index.d.ts -> /output/types/WebGL/shaders/lib/instanced/index.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/lib/instanced/index.d.ts -> /output/types/WebGL/shaders/lib/instanced/index.d.ts.gz
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/lib/instanced/uniforms.d.ts -> /output/types/WebGL/shaders/lib/instanced/uniforms.d.ts.br
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/lambertdouble/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/lambertdouble/index.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/lib/lambert/index.d.ts -> /output/types/WebGL/shaders/lib/lambert/index.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/lib/instanced/uniforms.d.ts -> /output/types/WebGL/shaders/lib/instanced/uniforms.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/lambertdouble/uniforms.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/lambertdouble/uniforms.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/lib/lambert/index.d.ts -> /output/types/WebGL/shaders/lib/lambert/index.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/outline/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/outline/index.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/lib/lambert/uniforms.d.ts -> /output/types/WebGL/shaders/lib/lambert/uniforms.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/lib/lambertdouble/index.d.ts -> /output/types/WebGL/shaders/lib/lambertdouble/index.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/lib/lambertdouble/uniforms.d.ts -> /output/types/WebGL/shaders/lib/lambertdouble/uniforms.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/lib/outline/index.d.ts -> /output/types/WebGL/shaders/lib/outline/index.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/lib/lambert/uniforms.d.ts -> /output/types/WebGL/shaders/lib/lambert/uniforms.d.ts.gz
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/lib/outline/index.d.ts -> /output/types/WebGL/shaders/lib/outline/index.d.ts.gz
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/lib/lambertdouble/index.d.ts -> /output/types/WebGL/shaders/lib/lambertdouble/index.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/screen/uniforms.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/screen/uniforms.d.ts
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/screen/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/screen/index.d.ts
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/outline/uniforms.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/outline/uniforms.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/lib/lambertdouble/uniforms.d.ts -> /output/types/WebGL/shaders/lib/lambertdouble/uniforms.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/screenaa/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/screenaa/index.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/lib/screen/index.d.ts -> /output/types/WebGL/shaders/lib/screen/index.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/lib/screen/index.d.ts -> /output/types/WebGL/shaders/lib/screen/index.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/screenaa/uniforms.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/screenaa/uniforms.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/lib/screen/uniforms.d.ts -> /output/types/WebGL/shaders/lib/screen/uniforms.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/lib/outline/uniforms.d.ts -> /output/types/WebGL/shaders/lib/outline/uniforms.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/lib/screenaa/index.d.ts -> /output/types/WebGL/shaders/lib/screenaa/index.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/lib/screen/uniforms.d.ts -> /output/types/WebGL/shaders/lib/screen/uniforms.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/sphereimposter/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/sphereimposter/index.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/lib/outline/uniforms.d.ts -> /output/types/WebGL/shaders/lib/outline/uniforms.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/sphereimposter/uniforms.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/sphereimposter/uniforms.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/lib/screenaa/index.d.ts -> /output/types/WebGL/shaders/lib/screenaa/index.d.ts.gz
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/lib/screenaa/uniforms.d.ts -> /output/types/WebGL/shaders/lib/screenaa/uniforms.d.ts.br
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/sphereimposteroutline/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/sphereimposteroutline/index.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/lib/sphereimposter/index.d.ts -> /output/types/WebGL/shaders/lib/sphereimposter/index.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/lib/screenaa/uniforms.d.ts -> /output/types/WebGL/shaders/lib/screenaa/uniforms.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/sphereimposteroutline/uniforms.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/sphereimposteroutline/uniforms.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/lib/sphereimposter/index.d.ts -> /output/types/WebGL/shaders/lib/sphereimposter/index.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/sprite/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/sprite/index.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/lib/sphereimposteroutline/index.d.ts -> /output/types/WebGL/shaders/lib/sphereimposteroutline/index.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/lib/sphereimposteroutline/index.d.ts -> /output/types/WebGL/shaders/lib/sphereimposteroutline/index.d.ts.gz
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/lib/sphereimposter/uniforms.d.ts -> /output/types/WebGL/shaders/lib/sphereimposter/uniforms.d.ts.br
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/sprite/uniforms.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/sprite/uniforms.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/lib/sphereimposter/uniforms.d.ts -> /output/types/WebGL/shaders/lib/sphereimposter/uniforms.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/stickimposter/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/stickimposter/index.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/lib/sprite/uniforms.d.ts -> /output/types/WebGL/shaders/lib/sprite/uniforms.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/lib/sprite/uniforms.d.ts -> /output/types/WebGL/shaders/lib/sprite/uniforms.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/stickimposter/uniforms.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/stickimposter/uniforms.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/lib/sphereimposteroutline/uniforms.d.ts -> /output/types/WebGL/shaders/lib/sphereimposteroutline/uniforms.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/lib/stickimposter/index.d.ts -> /output/types/WebGL/shaders/lib/stickimposter/index.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/lib/sprite/index.d.ts -> /output/types/WebGL/shaders/lib/sprite/index.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/lib/sphereimposteroutline/uniforms.d.ts -> /output/types/WebGL/shaders/lib/sphereimposteroutline/uniforms.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/stickimposteroutline/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/stickimposteroutline/index.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/lib/sprite/index.d.ts -> /output/types/WebGL/shaders/lib/sprite/index.d.ts.gz
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/lib/stickimposter/uniforms.d.ts -> /output/types/WebGL/shaders/lib/stickimposter/uniforms.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/lib/stickimposter/index.d.ts -> /output/types/WebGL/shaders/lib/stickimposter/index.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/stickimposteroutline/uniforms.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/stickimposteroutline/uniforms.d.ts
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/volumetric/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/volumetric/index.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/lib/stickimposter/uniforms.d.ts -> /output/types/WebGL/shaders/lib/stickimposter/uniforms.d.ts.gz
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/lib/stickimposteroutline/index.d.ts -> /output/types/WebGL/shaders/lib/stickimposteroutline/index.d.ts.br
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/volumetric/uniforms.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/volumetric/uniforms.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/lib/stickimposteroutline/index.d.ts -> /output/types/WebGL/shaders/lib/stickimposteroutline/index.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/ShaderType.d.ts.br /tmp/work/build/types/WebGL/shaders/ShaderType.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/lib/stickimposteroutline/uniforms.d.ts -> /output/types/WebGL/shaders/lib/stickimposteroutline/uniforms.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/lib/stickimposteroutline/uniforms.d.ts -> /output/types/WebGL/shaders/lib/stickimposteroutline/uniforms.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/utils/clone.d.ts.br /tmp/work/build/types/WebGL/shaders/utils/clone.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/lib/volumetric/index.d.ts -> /output/types/WebGL/shaders/lib/volumetric/index.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/lib/volumetric/index.d.ts -> /output/types/WebGL/shaders/lib/volumetric/index.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/utils/index.d.ts.br /tmp/work/build/types/WebGL/shaders/utils/index.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/lib/volumetric/uniforms.d.ts -> /output/types/WebGL/shaders/lib/volumetric/uniforms.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/lib/volumetric/uniforms.d.ts -> /output/types/WebGL/shaders/lib/volumetric/uniforms.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shapes/Cylinder.d.ts.br /tmp/work/build/types/WebGL/shapes/Cylinder.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/utils/index.d.ts -> /output/types/WebGL/shaders/utils/index.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/utils/index.d.ts -> /output/types/WebGL/shaders/utils/index.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shapes/index.d.ts.br /tmp/work/build/types/WebGL/shapes/index.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/ShaderType.d.ts -> /output/types/WebGL/shaders/ShaderType.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/ShaderType.d.ts -> /output/types/WebGL/shaders/ShaderType.d.ts.gz
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shaders/utils/clone.d.ts -> /output/types/WebGL/shaders/utils/clone.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shapes/index.d.ts -> /output/types/WebGL/shapes/index.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shapes/Cylinder.d.ts -> /output/types/WebGL/shapes/Cylinder.d.ts.br
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shapes/Sphere.d.ts.br /tmp/work/build/types/WebGL/shapes/Sphere.d.ts
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shapes/index.d.ts -> /output/types/WebGL/shapes/index.d.ts.gz
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shaders/utils/clone.d.ts -> /output/types/WebGL/shaders/utils/clone.d.ts.gz
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shapes/Cylinder.d.ts -> /output/types/WebGL/shapes/Cylinder.d.ts.gz
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shapes/Triangle.d.ts.br /tmp/work/build/types/WebGL/shapes/Triangle.d.ts
-2023/02/07 01:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/SpritePlugin.d.ts.br /tmp/work/build/types/WebGL/SpritePlugin.d.ts
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shapes/Triangle.d.ts -> /output/types/WebGL/shapes/Triangle.d.ts.br
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/shapes/Sphere.d.ts -> /output/types/WebGL/shapes/Sphere.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shapes/Triangle.d.ts -> /output/types/WebGL/shapes/Triangle.d.ts.gz
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/shapes/Sphere.d.ts -> /output/types/WebGL/shapes/Sphere.d.ts.gz
-2023/02/07 01:30:50 br /tmp/work/build/types/WebGL/SpritePlugin.d.ts -> /output/types/WebGL/SpritePlugin.d.ts.br
-2023/02/07 01:30:50 gz /tmp/work/build/types/WebGL/SpritePlugin.d.ts -> /output/types/WebGL/SpritePlugin.d.ts.gz
-2023/02/07 01:30:55 sri /tmp/work/build/3Dmol.ui-min.min.js -> /output/3Dmol.ui-min.min.js.sri
-2023/02/07 01:30:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol.ui-min.min.js.br /tmp/work/build/3Dmol.ui-min.min.js
-2023/02/07 01:30:55 br /tmp/work/build/3Dmol.ui-min.min.js -> /output/3Dmol.ui-min.min.js.br
-2023/02/07 01:30:55 sri /tmp/work/build/3Dmol.ui.min.js -> /output/3Dmol.ui.min.js.sri
-2023/02/07 01:30:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol.ui.min.js.br /tmp/work/build/3Dmol.ui.min.js
-2023/02/07 01:30:55 gz /tmp/work/build/3Dmol.ui-min.min.js -> /output/3Dmol.ui-min.min.js.gz
-2023/02/07 01:30:55 sri /tmp/work/build/3Dmol.ui-min.js -> /output/3Dmol.ui-min.js.sri
-2023/02/07 01:30:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol.ui-min.js.br /tmp/work/build/3Dmol.ui-min.js
-2023/02/07 01:30:56 br /tmp/work/build/3Dmol.ui.min.js -> /output/3Dmol.ui.min.js.br
-2023/02/07 01:30:56 gz /tmp/work/build/3Dmol.ui.min.js -> /output/3Dmol.ui.min.js.gz
-2023/02/07 01:30:56 sri /tmp/work/build/3Dmol.ui.js -> /output/3Dmol.ui.js.sri
-2023/02/07 01:30:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol.ui.js.br /tmp/work/build/3Dmol.ui.js
-2023/02/07 01:30:56 br /tmp/work/build/3Dmol.ui-min.js -> /output/3Dmol.ui-min.js.br
-2023/02/07 01:30:56 gz /tmp/work/build/3Dmol.ui-min.js -> /output/3Dmol.ui-min.js.gz
-2023/02/07 01:30:59 br /tmp/work/build/3Dmol.ui.js -> /output/3Dmol.ui.js.br
-2023/02/07 01:30:59 gz /tmp/work/build/3Dmol.ui.js -> /output/3Dmol.ui.js.gz
-2023/02/07 01:31:00 sri /tmp/work/build/3Dmol-min.min.js -> /output/3Dmol-min.min.js.sri
-2023/02/07 01:31:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol-min.min.js.br /tmp/work/build/3Dmol-min.min.js
-2023/02/07 01:31:01 sri /tmp/work/build/3Dmol.min.js -> /output/3Dmol.min.js.sri
-2023/02/07 01:31:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol.min.js.br /tmp/work/build/3Dmol.min.js
-2023/02/07 01:31:01 br /tmp/work/build/3Dmol-min.min.js -> /output/3Dmol-min.min.js.br
-2023/02/07 01:31:01 gz /tmp/work/build/3Dmol-min.min.js -> /output/3Dmol-min.min.js.gz
-2023/02/07 01:31:01 sri /tmp/work/build/3Dmol-min.js -> /output/3Dmol-min.js.sri
-2023/02/07 01:31:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol-min.js.br /tmp/work/build/3Dmol-min.js
-2023/02/07 01:31:02 br /tmp/work/build/3Dmol.min.js -> /output/3Dmol.min.js.br
-2023/02/07 01:31:02 gz /tmp/work/build/3Dmol.min.js -> /output/3Dmol.min.js.gz
-2023/02/07 01:31:02 sri /tmp/work/build/3Dmol.js -> /output/3Dmol.js.sri
-2023/02/07 01:31:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol.js.br /tmp/work/build/3Dmol.js
-2023/02/07 01:31:03 br /tmp/work/build/3Dmol-min.js -> /output/3Dmol-min.js.br
-2023/02/07 01:31:03 gz /tmp/work/build/3Dmol-min.js -> /output/3Dmol-min.js.gz
-2023/02/07 01:31:13 br /tmp/work/build/3Dmol.js -> /output/3Dmol.js.br
-2023/02/07 01:31:14 gz /tmp/work/build/3Dmol.js -> /output/3Dmol.js.gz
-2023/02/07 01:31:14 processed 3Dmol
+2023/07/31 10:18:36 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/31 10:18:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/3Dmol-min.min.js /tmp/work/build/3Dmol-min.js
+2023/07/31 10:18:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/3Dmol.min.js /tmp/work/build/3Dmol.js
+2023/07/31 10:18:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/3Dmol.ui-min.min.js /tmp/work/build/3Dmol.ui-min.js
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol.ui-min.js.LICENSE.txt.br /tmp/work/build/3Dmol.ui-min.js.LICENSE.txt
+2023/07/31 10:18:36 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/3Dmol.ui.min.js /tmp/work/build/3Dmol.ui.js
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/autoload.d.ts.br /tmp/work/build/types/autoload.d.ts
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/colors.d.ts.br /tmp/work/build/types/colors.d.ts
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol-min.js.LICENSE.txt.br /tmp/work/build/3Dmol-min.js.LICENSE.txt
+2023/07/31 10:18:36 br /tmp/work/build/3Dmol.ui-min.js.LICENSE.txt -> /output/3Dmol.ui-min.js.LICENSE.txt.br
+2023/07/31 10:18:36 gz /tmp/work/build/3Dmol.ui-min.js.LICENSE.txt -> /output/3Dmol.ui-min.js.LICENSE.txt.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/exporter.d.ts.br /tmp/work/build/types/exporter.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/autoload.d.ts -> /output/types/autoload.d.ts.br
+2023/07/31 10:18:36 gz /tmp/work/build/types/autoload.d.ts -> /output/types/autoload.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/glcartoon.d.ts.br /tmp/work/build/types/glcartoon.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/3Dmol-min.js.LICENSE.txt -> /output/3Dmol-min.js.LICENSE.txt.br
+2023/07/31 10:18:36 gz /tmp/work/build/3Dmol-min.js.LICENSE.txt -> /output/3Dmol-min.js.LICENSE.txt.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/GLDraw.d.ts.br /tmp/work/build/types/GLDraw.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/exporter.d.ts -> /output/types/exporter.d.ts.br
+2023/07/31 10:18:36 gz /tmp/work/build/types/exporter.d.ts -> /output/types/exporter.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/GLModel.d.ts.br /tmp/work/build/types/GLModel.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/glcartoon.d.ts -> /output/types/glcartoon.d.ts.br
+2023/07/31 10:18:36 br /tmp/work/build/types/GLDraw.d.ts -> /output/types/GLDraw.d.ts.br
+2023/07/31 10:18:36 gz /tmp/work/build/types/GLDraw.d.ts -> /output/types/GLDraw.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/GLShape.d.ts.br /tmp/work/build/types/GLShape.d.ts
+2023/07/31 10:18:36 gz /tmp/work/build/types/glcartoon.d.ts -> /output/types/glcartoon.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/GLViewer.d.ts.br /tmp/work/build/types/GLViewer.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/GLShape.d.ts -> /output/types/GLShape.d.ts.br
+2023/07/31 10:18:36 gz /tmp/work/build/types/GLShape.d.ts -> /output/types/GLShape.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/Gradient.d.ts.br /tmp/work/build/types/Gradient.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/Gradient.d.ts -> /output/types/Gradient.d.ts.br
+2023/07/31 10:18:36 gz /tmp/work/build/types/Gradient.d.ts -> /output/types/Gradient.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/index.d.ts.br /tmp/work/build/types/index.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/index.d.ts -> /output/types/index.d.ts.br
+2023/07/31 10:18:36 gz /tmp/work/build/types/index.d.ts -> /output/types/index.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/Label.d.ts.br /tmp/work/build/types/Label.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/colors.d.ts -> /output/types/colors.d.ts.br
+2023/07/31 10:18:36 br /tmp/work/build/types/Label.d.ts -> /output/types/Label.d.ts.br
+2023/07/31 10:18:36 gz /tmp/work/build/types/Label.d.ts -> /output/types/Label.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/CDJSON.d.ts.br /tmp/work/build/types/parsers/CDJSON.d.ts
+2023/07/31 10:18:36 gz /tmp/work/build/types/colors.d.ts -> /output/types/colors.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/CIF.d.ts.br /tmp/work/build/types/parsers/CIF.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/parsers/CDJSON.d.ts -> /output/types/parsers/CDJSON.d.ts.br
+2023/07/31 10:18:36 gz /tmp/work/build/types/parsers/CDJSON.d.ts -> /output/types/parsers/CDJSON.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/CUBE.d.ts.br /tmp/work/build/types/parsers/CUBE.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/parsers/CIF.d.ts -> /output/types/parsers/CIF.d.ts.br
+2023/07/31 10:18:36 gz /tmp/work/build/types/parsers/CIF.d.ts -> /output/types/parsers/CIF.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/GRO.d.ts.br /tmp/work/build/types/parsers/GRO.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/parsers/CUBE.d.ts -> /output/types/parsers/CUBE.d.ts.br
+2023/07/31 10:18:36 gz /tmp/work/build/types/parsers/CUBE.d.ts -> /output/types/parsers/CUBE.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/index.d.ts.br /tmp/work/build/types/parsers/index.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/parsers/GRO.d.ts -> /output/types/parsers/GRO.d.ts.br
+2023/07/31 10:18:36 gz /tmp/work/build/types/parsers/GRO.d.ts -> /output/types/parsers/GRO.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/LAMMPSTRJ.d.ts.br /tmp/work/build/types/parsers/LAMMPSTRJ.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/GLModel.d.ts -> /output/types/GLModel.d.ts.br
+2023/07/31 10:18:36 gz /tmp/work/build/types/GLModel.d.ts -> /output/types/GLModel.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/MMTF.d.ts.br /tmp/work/build/types/parsers/MMTF.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/parsers/MMTF.d.ts -> /output/types/parsers/MMTF.d.ts.br
+2023/07/31 10:18:36 br /tmp/work/build/types/parsers/LAMMPSTRJ.d.ts -> /output/types/parsers/LAMMPSTRJ.d.ts.br
+2023/07/31 10:18:36 br /tmp/work/build/types/parsers/index.d.ts -> /output/types/parsers/index.d.ts.br
+2023/07/31 10:18:36 gz /tmp/work/build/types/parsers/index.d.ts -> /output/types/parsers/index.d.ts.gz
+2023/07/31 10:18:36 gz /tmp/work/build/types/parsers/MMTF.d.ts -> /output/types/parsers/MMTF.d.ts.gz
+2023/07/31 10:18:36 gz /tmp/work/build/types/parsers/LAMMPSTRJ.d.ts -> /output/types/parsers/LAMMPSTRJ.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/PDB.d.ts.br /tmp/work/build/types/parsers/PDB.d.ts
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/MOL2.d.ts.br /tmp/work/build/types/parsers/MOL2.d.ts
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/ParserOptionsSpec.d.ts.br /tmp/work/build/types/parsers/ParserOptionsSpec.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/parsers/PDB.d.ts -> /output/types/parsers/PDB.d.ts.br
+2023/07/31 10:18:36 gz /tmp/work/build/types/parsers/PDB.d.ts -> /output/types/parsers/PDB.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/PQR.d.ts.br /tmp/work/build/types/parsers/PQR.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/parsers/MOL2.d.ts -> /output/types/parsers/MOL2.d.ts.br
+2023/07/31 10:18:36 gz /tmp/work/build/types/parsers/MOL2.d.ts -> /output/types/parsers/MOL2.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/PRMTOP.d.ts.br /tmp/work/build/types/parsers/PRMTOP.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/parsers/PQR.d.ts -> /output/types/parsers/PQR.d.ts.br
+2023/07/31 10:18:36 gz /tmp/work/build/types/parsers/PQR.d.ts -> /output/types/parsers/PQR.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/SDF.d.ts.br /tmp/work/build/types/parsers/SDF.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/parsers/PRMTOP.d.ts -> /output/types/parsers/PRMTOP.d.ts.br
+2023/07/31 10:18:36 gz /tmp/work/build/types/parsers/PRMTOP.d.ts -> /output/types/parsers/PRMTOP.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/anumToSymbol.d.ts.br /tmp/work/build/types/parsers/utils/anumToSymbol.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/GLViewer.d.ts -> /output/types/GLViewer.d.ts.br
+2023/07/31 10:18:36 gz /tmp/work/build/types/GLViewer.d.ts -> /output/types/GLViewer.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/areConnected.d.ts.br /tmp/work/build/types/parsers/utils/areConnected.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/parsers/ParserOptionsSpec.d.ts -> /output/types/parsers/ParserOptionsSpec.d.ts.br
+2023/07/31 10:18:36 gz /tmp/work/build/types/parsers/ParserOptionsSpec.d.ts -> /output/types/parsers/ParserOptionsSpec.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/assignBackboneHBonds.d.ts.br /tmp/work/build/types/parsers/utils/assignBackboneHBonds.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/parsers/SDF.d.ts -> /output/types/parsers/SDF.d.ts.br
+2023/07/31 10:18:36 gz /tmp/work/build/types/parsers/SDF.d.ts -> /output/types/parsers/SDF.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/assignBonds.d.ts.br /tmp/work/build/types/parsers/utils/assignBonds.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/parsers/utils/anumToSymbol.d.ts -> /output/types/parsers/utils/anumToSymbol.d.ts.br
+2023/07/31 10:18:36 br /tmp/work/build/types/parsers/utils/areConnected.d.ts -> /output/types/parsers/utils/areConnected.d.ts.br
+2023/07/31 10:18:36 gz /tmp/work/build/types/parsers/utils/areConnected.d.ts -> /output/types/parsers/utils/areConnected.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/assignPDBBonds.d.ts.br /tmp/work/build/types/parsers/utils/assignPDBBonds.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/parsers/utils/assignBackboneHBonds.d.ts -> /output/types/parsers/utils/assignBackboneHBonds.d.ts.br
+2023/07/31 10:18:36 gz /tmp/work/build/types/parsers/utils/anumToSymbol.d.ts -> /output/types/parsers/utils/anumToSymbol.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/atomNameToElem.d.ts.br /tmp/work/build/types/parsers/utils/atomNameToElem.d.ts
+2023/07/31 10:18:36 gz /tmp/work/build/types/parsers/utils/assignBackboneHBonds.d.ts -> /output/types/parsers/utils/assignBackboneHBonds.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/bondLength.d.ts.br /tmp/work/build/types/parsers/utils/bondLength.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/parsers/utils/assignBonds.d.ts -> /output/types/parsers/utils/assignBonds.d.ts.br
+2023/07/31 10:18:36 gz /tmp/work/build/types/parsers/utils/assignBonds.d.ts -> /output/types/parsers/utils/assignBonds.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/bondTable.d.ts.br /tmp/work/build/types/parsers/utils/bondTable.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/parsers/utils/bondLength.d.ts -> /output/types/parsers/utils/bondLength.d.ts.br
+2023/07/31 10:18:36 gz /tmp/work/build/types/parsers/utils/bondLength.d.ts -> /output/types/parsers/utils/bondLength.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/computeSecondaryStructure.d.ts.br /tmp/work/build/types/parsers/utils/computeSecondaryStructure.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/parsers/utils/assignPDBBonds.d.ts -> /output/types/parsers/utils/assignPDBBonds.d.ts.br
+2023/07/31 10:18:36 gz /tmp/work/build/types/parsers/utils/assignPDBBonds.d.ts -> /output/types/parsers/utils/assignPDBBonds.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/getSinglePDB.d.ts.br /tmp/work/build/types/parsers/utils/getSinglePDB.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/parsers/utils/atomNameToElem.d.ts -> /output/types/parsers/utils/atomNameToElem.d.ts.br
+2023/07/31 10:18:36 gz /tmp/work/build/types/parsers/utils/atomNameToElem.d.ts -> /output/types/parsers/utils/atomNameToElem.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/isEmpty.d.ts.br /tmp/work/build/types/parsers/utils/isEmpty.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/parsers/utils/bondTable.d.ts -> /output/types/parsers/utils/bondTable.d.ts.br
+2023/07/31 10:18:36 gz /tmp/work/build/types/parsers/utils/bondTable.d.ts -> /output/types/parsers/utils/bondTable.d.ts.gz
+2023/07/31 10:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/processSymmetries.d.ts.br /tmp/work/build/types/parsers/utils/processSymmetries.d.ts
+2023/07/31 10:18:36 br /tmp/work/build/types/parsers/utils/getSinglePDB.d.ts -> /output/types/parsers/utils/getSinglePDB.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/parsers/utils/getSinglePDB.d.ts -> /output/types/parsers/utils/getSinglePDB.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/standardResidues.d.ts.br /tmp/work/build/types/parsers/utils/standardResidues.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/parsers/utils/computeSecondaryStructure.d.ts -> /output/types/parsers/utils/computeSecondaryStructure.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/parsers/utils/computeSecondaryStructure.d.ts -> /output/types/parsers/utils/computeSecondaryStructure.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/utils/validateBonds.d.ts.br /tmp/work/build/types/parsers/utils/validateBonds.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/parsers/utils/isEmpty.d.ts -> /output/types/parsers/utils/isEmpty.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/parsers/utils/isEmpty.d.ts -> /output/types/parsers/utils/isEmpty.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/VASP.d.ts.br /tmp/work/build/types/parsers/VASP.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/parsers/utils/processSymmetries.d.ts -> /output/types/parsers/utils/processSymmetries.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/parsers/utils/processSymmetries.d.ts -> /output/types/parsers/utils/processSymmetries.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/parsers/XYZ.d.ts.br /tmp/work/build/types/parsers/XYZ.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/parsers/utils/standardResidues.d.ts -> /output/types/parsers/utils/standardResidues.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/parsers/utils/standardResidues.d.ts -> /output/types/parsers/utils/standardResidues.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/partialCharges.d.ts.br /tmp/work/build/types/partialCharges.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/parsers/utils/validateBonds.d.ts -> /output/types/parsers/utils/validateBonds.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/parsers/utils/validateBonds.d.ts -> /output/types/parsers/utils/validateBonds.d.ts.gz
+2023/07/31 10:18:37 br /tmp/work/build/types/parsers/VASP.d.ts -> /output/types/parsers/VASP.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/parsers/VASP.d.ts -> /output/types/parsers/VASP.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/specs.d.ts.br /tmp/work/build/types/specs.d.ts
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/ProteinSurface4.d.ts.br /tmp/work/build/types/ProteinSurface4.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/parsers/XYZ.d.ts -> /output/types/parsers/XYZ.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/parsers/XYZ.d.ts -> /output/types/parsers/XYZ.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/SurfaceWorker.d.ts.br /tmp/work/build/types/SurfaceWorker.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/SurfaceWorker.d.ts -> /output/types/SurfaceWorker.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/SurfaceWorker.d.ts -> /output/types/SurfaceWorker.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/ui/defaultValues.d.ts.br /tmp/work/build/types/ui/defaultValues.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/ProteinSurface4.d.ts -> /output/types/ProteinSurface4.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/ProteinSurface4.d.ts -> /output/types/ProteinSurface4.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/ui/form.d.ts.br /tmp/work/build/types/ui/form.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/partialCharges.d.ts -> /output/types/partialCharges.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/partialCharges.d.ts -> /output/types/partialCharges.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/ui/icon.d.ts.br /tmp/work/build/types/ui/icon.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/ui/defaultValues.d.ts -> /output/types/ui/defaultValues.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/ui/defaultValues.d.ts -> /output/types/ui/defaultValues.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/ui/state.d.ts.br /tmp/work/build/types/ui/state.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/ui/icon.d.ts -> /output/types/ui/icon.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/ui/icon.d.ts -> /output/types/ui/icon.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/ui/ui.d.ts.br /tmp/work/build/types/ui/ui.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/ui/form.d.ts -> /output/types/ui/form.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/ui/form.d.ts -> /output/types/ui/form.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/utilities.d.ts.br /tmp/work/build/types/utilities.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/ui/state.d.ts -> /output/types/ui/state.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/ui/state.d.ts -> /output/types/ui/state.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/vendor/mmtf.d.ts.br /tmp/work/build/types/vendor/mmtf.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/vendor/mmtf.d.ts -> /output/types/vendor/mmtf.d.ts.br
+2023/07/31 10:18:37 br /tmp/work/build/types/ui/ui.d.ts -> /output/types/ui/ui.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/ui/ui.d.ts -> /output/types/ui/ui.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/VolumeData.d.ts.br /tmp/work/build/types/VolumeData.d.ts
+2023/07/31 10:18:37 gz /tmp/work/build/types/vendor/mmtf.d.ts -> /output/types/vendor/mmtf.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/VolumetricRender.d.ts.br /tmp/work/build/types/VolumetricRender.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/VolumeData.d.ts -> /output/types/VolumeData.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/VolumeData.d.ts -> /output/types/VolumeData.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/Camera.d.ts.br /tmp/work/build/types/WebGL/Camera.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/specs.d.ts -> /output/types/specs.d.ts.br
+2023/07/31 10:18:37 br /tmp/work/build/types/utilities.d.ts -> /output/types/utilities.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/specs.d.ts -> /output/types/specs.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/constants/Coloring.d.ts.br /tmp/work/build/types/WebGL/constants/Coloring.d.ts
+2023/07/31 10:18:37 gz /tmp/work/build/types/utilities.d.ts -> /output/types/utilities.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/constants/index.d.ts.br /tmp/work/build/types/WebGL/constants/index.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/constants/Coloring.d.ts -> /output/types/WebGL/constants/Coloring.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/constants/Coloring.d.ts -> /output/types/WebGL/constants/Coloring.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/constants/Shading.d.ts.br /tmp/work/build/types/WebGL/constants/Shading.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/Camera.d.ts -> /output/types/WebGL/Camera.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/Camera.d.ts -> /output/types/WebGL/Camera.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/constants/Sides.d.ts.br /tmp/work/build/types/WebGL/constants/Sides.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/constants/index.d.ts -> /output/types/WebGL/constants/index.d.ts.br
+2023/07/31 10:18:37 br /tmp/work/build/types/VolumetricRender.d.ts -> /output/types/VolumetricRender.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/constants/index.d.ts -> /output/types/WebGL/constants/index.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/constants/SpriteAlignment.d.ts.br /tmp/work/build/types/WebGL/constants/SpriteAlignment.d.ts
+2023/07/31 10:18:37 gz /tmp/work/build/types/VolumetricRender.d.ts -> /output/types/VolumetricRender.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/constants/TextureConstants.d.ts.br /tmp/work/build/types/WebGL/constants/TextureConstants.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/constants/Shading.d.ts -> /output/types/WebGL/constants/Shading.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/constants/Shading.d.ts -> /output/types/WebGL/constants/Shading.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/constants/TextureOperations.d.ts.br /tmp/work/build/types/WebGL/constants/TextureOperations.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/constants/TextureConstants.d.ts -> /output/types/WebGL/constants/TextureConstants.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/constants/TextureConstants.d.ts -> /output/types/WebGL/constants/TextureConstants.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/core/EventDispatcher.d.ts.br /tmp/work/build/types/WebGL/core/EventDispatcher.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/constants/SpriteAlignment.d.ts -> /output/types/WebGL/constants/SpriteAlignment.d.ts.br
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/constants/Sides.d.ts -> /output/types/WebGL/constants/Sides.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/constants/Sides.d.ts -> /output/types/WebGL/constants/Sides.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/core/Geometry.d.ts.br /tmp/work/build/types/WebGL/core/Geometry.d.ts
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/constants/SpriteAlignment.d.ts -> /output/types/WebGL/constants/SpriteAlignment.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/core/index.d.ts.br /tmp/work/build/types/WebGL/core/index.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/constants/TextureOperations.d.ts -> /output/types/WebGL/constants/TextureOperations.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/constants/TextureOperations.d.ts -> /output/types/WebGL/constants/TextureOperations.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/core/Object3D.d.ts.br /tmp/work/build/types/WebGL/core/Object3D.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/core/EventDispatcher.d.ts -> /output/types/WebGL/core/EventDispatcher.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/core/EventDispatcher.d.ts -> /output/types/WebGL/core/EventDispatcher.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/core/Projector.d.ts.br /tmp/work/build/types/WebGL/core/Projector.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/core/Object3D.d.ts -> /output/types/WebGL/core/Object3D.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/core/Object3D.d.ts -> /output/types/WebGL/core/Object3D.d.ts.gz
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/core/index.d.ts -> /output/types/WebGL/core/index.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/core/index.d.ts -> /output/types/WebGL/core/index.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/core/Raycaster.d.ts.br /tmp/work/build/types/WebGL/core/Raycaster.d.ts
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/core/Texture.d.ts.br /tmp/work/build/types/WebGL/core/Texture.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/core/Geometry.d.ts -> /output/types/WebGL/core/Geometry.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/core/Geometry.d.ts -> /output/types/WebGL/core/Geometry.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/core/UVMapping.d.ts.br /tmp/work/build/types/WebGL/core/UVMapping.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/core/Projector.d.ts -> /output/types/WebGL/core/Projector.d.ts.br
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/core/Raycaster.d.ts -> /output/types/WebGL/core/Raycaster.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/core/Projector.d.ts -> /output/types/WebGL/core/Projector.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/Fog.d.ts.br /tmp/work/build/types/WebGL/Fog.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/core/UVMapping.d.ts -> /output/types/WebGL/core/UVMapping.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/core/UVMapping.d.ts -> /output/types/WebGL/core/UVMapping.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/index.d.ts.br /tmp/work/build/types/WebGL/index.d.ts
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/core/Raycaster.d.ts -> /output/types/WebGL/core/Raycaster.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/ImposterMaterial.d.ts.br /tmp/work/build/types/WebGL/materials/ImposterMaterial.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/Fog.d.ts -> /output/types/WebGL/Fog.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/Fog.d.ts -> /output/types/WebGL/Fog.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/index.d.ts.br /tmp/work/build/types/WebGL/materials/index.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/core/Texture.d.ts -> /output/types/WebGL/core/Texture.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/core/Texture.d.ts -> /output/types/WebGL/core/Texture.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/InstancedMaterial.d.ts.br /tmp/work/build/types/WebGL/materials/InstancedMaterial.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/materials/ImposterMaterial.d.ts -> /output/types/WebGL/materials/ImposterMaterial.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/materials/ImposterMaterial.d.ts -> /output/types/WebGL/materials/ImposterMaterial.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/LineBasicMaterial.d.ts.br /tmp/work/build/types/WebGL/materials/LineBasicMaterial.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/index.d.ts -> /output/types/WebGL/index.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/index.d.ts -> /output/types/WebGL/index.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/Material.d.ts.br /tmp/work/build/types/WebGL/materials/Material.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/materials/index.d.ts -> /output/types/WebGL/materials/index.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/materials/index.d.ts -> /output/types/WebGL/materials/index.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/MeshDoubleLambertMaterial.d.ts.br /tmp/work/build/types/WebGL/materials/MeshDoubleLambertMaterial.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/materials/InstancedMaterial.d.ts -> /output/types/WebGL/materials/InstancedMaterial.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/materials/InstancedMaterial.d.ts -> /output/types/WebGL/materials/InstancedMaterial.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/MeshLambertMaterial.d.ts.br /tmp/work/build/types/WebGL/materials/MeshLambertMaterial.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/materials/Material.d.ts -> /output/types/WebGL/materials/Material.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/materials/Material.d.ts -> /output/types/WebGL/materials/Material.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/MeshOutlineMaterial.d.ts.br /tmp/work/build/types/WebGL/materials/MeshOutlineMaterial.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/materials/LineBasicMaterial.d.ts -> /output/types/WebGL/materials/LineBasicMaterial.d.ts.br
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/materials/MeshDoubleLambertMaterial.d.ts -> /output/types/WebGL/materials/MeshDoubleLambertMaterial.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/materials/LineBasicMaterial.d.ts -> /output/types/WebGL/materials/LineBasicMaterial.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/SphereImposterMaterial.d.ts.br /tmp/work/build/types/WebGL/materials/SphereImposterMaterial.d.ts
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/materials/MeshDoubleLambertMaterial.d.ts -> /output/types/WebGL/materials/MeshDoubleLambertMaterial.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/SphereImposterOutlineMaterial.d.ts.br /tmp/work/build/types/WebGL/materials/SphereImposterOutlineMaterial.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/materials/MeshOutlineMaterial.d.ts -> /output/types/WebGL/materials/MeshOutlineMaterial.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/materials/MeshOutlineMaterial.d.ts -> /output/types/WebGL/materials/MeshOutlineMaterial.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/SpriteMaterial.d.ts.br /tmp/work/build/types/WebGL/materials/SpriteMaterial.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/materials/MeshLambertMaterial.d.ts -> /output/types/WebGL/materials/MeshLambertMaterial.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/materials/MeshLambertMaterial.d.ts -> /output/types/WebGL/materials/MeshLambertMaterial.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/StickImposterMaterial.d.ts.br /tmp/work/build/types/WebGL/materials/StickImposterMaterial.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/materials/SphereImposterMaterial.d.ts -> /output/types/WebGL/materials/SphereImposterMaterial.d.ts.br
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/materials/SphereImposterOutlineMaterial.d.ts -> /output/types/WebGL/materials/SphereImposterOutlineMaterial.d.ts.br
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/materials/SphereImposterOutlineMaterial.d.ts -> /output/types/WebGL/materials/SphereImposterOutlineMaterial.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/StickImposterOutlineMaterial.d.ts.br /tmp/work/build/types/WebGL/materials/StickImposterOutlineMaterial.d.ts
+2023/07/31 10:18:37 gz /tmp/work/build/types/WebGL/materials/SphereImposterMaterial.d.ts -> /output/types/WebGL/materials/SphereImposterMaterial.d.ts.gz
+2023/07/31 10:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/materials/VolumetricMaterial.d.ts.br /tmp/work/build/types/WebGL/materials/VolumetricMaterial.d.ts
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/materials/StickImposterOutlineMaterial.d.ts -> /output/types/WebGL/materials/StickImposterOutlineMaterial.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/materials/StickImposterOutlineMaterial.d.ts -> /output/types/WebGL/materials/StickImposterOutlineMaterial.d.ts.gz
+2023/07/31 10:18:37 br /tmp/work/build/types/WebGL/materials/SpriteMaterial.d.ts -> /output/types/WebGL/materials/SpriteMaterial.d.ts.br
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/math/index.d.ts.br /tmp/work/build/types/WebGL/math/index.d.ts
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/materials/SpriteMaterial.d.ts -> /output/types/WebGL/materials/SpriteMaterial.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/math/math.d.ts.br /tmp/work/build/types/WebGL/math/math.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/materials/StickImposterMaterial.d.ts -> /output/types/WebGL/materials/StickImposterMaterial.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/materials/StickImposterMaterial.d.ts -> /output/types/WebGL/materials/StickImposterMaterial.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/math/Quaternion.d.ts.br /tmp/work/build/types/WebGL/math/Quaternion.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/materials/VolumetricMaterial.d.ts -> /output/types/WebGL/materials/VolumetricMaterial.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/materials/VolumetricMaterial.d.ts -> /output/types/WebGL/materials/VolumetricMaterial.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/math/utils/clamp.d.ts.br /tmp/work/build/types/WebGL/math/utils/clamp.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/math/index.d.ts -> /output/types/WebGL/math/index.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/math/index.d.ts -> /output/types/WebGL/math/index.d.ts.gz
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/math/Quaternion.d.ts -> /output/types/WebGL/math/Quaternion.d.ts.br
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/math/utils/conversionMatrix3.d.ts.br /tmp/work/build/types/WebGL/math/utils/conversionMatrix3.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/math/math.d.ts -> /output/types/WebGL/math/math.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/math/math.d.ts -> /output/types/WebGL/math/math.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/math/utils/degToRad.d.ts.br /tmp/work/build/types/WebGL/math/utils/degToRad.d.ts
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/math/Quaternion.d.ts -> /output/types/WebGL/math/Quaternion.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/math/Vector2.d.ts.br /tmp/work/build/types/WebGL/math/Vector2.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/math/utils/clamp.d.ts -> /output/types/WebGL/math/utils/clamp.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/math/utils/clamp.d.ts -> /output/types/WebGL/math/utils/clamp.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/objects/index.d.ts.br /tmp/work/build/types/WebGL/objects/index.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/math/utils/degToRad.d.ts -> /output/types/WebGL/math/utils/degToRad.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/math/utils/degToRad.d.ts -> /output/types/WebGL/math/utils/degToRad.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/objects/Line.d.ts.br /tmp/work/build/types/WebGL/objects/Line.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/math/utils/conversionMatrix3.d.ts -> /output/types/WebGL/math/utils/conversionMatrix3.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/math/utils/conversionMatrix3.d.ts -> /output/types/WebGL/math/utils/conversionMatrix3.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/objects/Mesh.d.ts.br /tmp/work/build/types/WebGL/objects/Mesh.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/objects/Line.d.ts -> /output/types/WebGL/objects/Line.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/objects/Line.d.ts -> /output/types/WebGL/objects/Line.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/objects/Sprite.d.ts.br /tmp/work/build/types/WebGL/objects/Sprite.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/math/Vector2.d.ts -> /output/types/WebGL/math/Vector2.d.ts.br
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/objects/index.d.ts -> /output/types/WebGL/objects/index.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/objects/index.d.ts -> /output/types/WebGL/objects/index.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/Renderer.d.ts.br /tmp/work/build/types/WebGL/Renderer.d.ts
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/math/Vector2.d.ts -> /output/types/WebGL/math/Vector2.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/index.d.ts.br /tmp/work/build/types/WebGL/shaders/index.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/objects/Mesh.d.ts -> /output/types/WebGL/objects/Mesh.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/objects/Mesh.d.ts -> /output/types/WebGL/objects/Mesh.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/basic/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/basic/index.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/objects/Sprite.d.ts -> /output/types/WebGL/objects/Sprite.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/objects/Sprite.d.ts -> /output/types/WebGL/objects/Sprite.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/basic/uniforms.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/basic/uniforms.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/index.d.ts -> /output/types/WebGL/shaders/index.d.ts.br
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/lib/basic/index.d.ts -> /output/types/WebGL/shaders/lib/basic/index.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/index.d.ts -> /output/types/WebGL/shaders/index.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/index.d.ts
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/lib/basic/index.d.ts -> /output/types/WebGL/shaders/lib/basic/index.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/instanced/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/instanced/index.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/lib/basic/uniforms.d.ts -> /output/types/WebGL/shaders/lib/basic/uniforms.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/lib/basic/uniforms.d.ts -> /output/types/WebGL/shaders/lib/basic/uniforms.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/instanced/uniforms.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/instanced/uniforms.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/Renderer.d.ts -> /output/types/WebGL/Renderer.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/Renderer.d.ts -> /output/types/WebGL/Renderer.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/lambert/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/lambert/index.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/lib/index.d.ts -> /output/types/WebGL/shaders/lib/index.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/lib/index.d.ts -> /output/types/WebGL/shaders/lib/index.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/lambert/uniforms.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/lambert/uniforms.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/lib/lambert/index.d.ts -> /output/types/WebGL/shaders/lib/lambert/index.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/lib/lambert/index.d.ts -> /output/types/WebGL/shaders/lib/lambert/index.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/lambertdouble/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/lambertdouble/index.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/lib/instanced/index.d.ts -> /output/types/WebGL/shaders/lib/instanced/index.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/lib/instanced/index.d.ts -> /output/types/WebGL/shaders/lib/instanced/index.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/lambertdouble/uniforms.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/lambertdouble/uniforms.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/lib/instanced/uniforms.d.ts -> /output/types/WebGL/shaders/lib/instanced/uniforms.d.ts.br
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/lib/lambertdouble/index.d.ts -> /output/types/WebGL/shaders/lib/lambertdouble/index.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/lib/instanced/uniforms.d.ts -> /output/types/WebGL/shaders/lib/instanced/uniforms.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/outline/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/outline/index.d.ts
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/lib/lambertdouble/index.d.ts -> /output/types/WebGL/shaders/lib/lambertdouble/index.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/outline/uniforms.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/outline/uniforms.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/lib/lambert/uniforms.d.ts -> /output/types/WebGL/shaders/lib/lambert/uniforms.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/lib/lambert/uniforms.d.ts -> /output/types/WebGL/shaders/lib/lambert/uniforms.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/screen/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/screen/index.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/lib/outline/index.d.ts -> /output/types/WebGL/shaders/lib/outline/index.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/lib/outline/index.d.ts -> /output/types/WebGL/shaders/lib/outline/index.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/screen/uniforms.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/screen/uniforms.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/lib/lambertdouble/uniforms.d.ts -> /output/types/WebGL/shaders/lib/lambertdouble/uniforms.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/lib/lambertdouble/uniforms.d.ts -> /output/types/WebGL/shaders/lib/lambertdouble/uniforms.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/screenaa/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/screenaa/index.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/lib/outline/uniforms.d.ts -> /output/types/WebGL/shaders/lib/outline/uniforms.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/lib/outline/uniforms.d.ts -> /output/types/WebGL/shaders/lib/outline/uniforms.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/screenaa/uniforms.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/screenaa/uniforms.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/lib/screen/index.d.ts -> /output/types/WebGL/shaders/lib/screen/index.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/lib/screen/index.d.ts -> /output/types/WebGL/shaders/lib/screen/index.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/sphereimposter/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/sphereimposter/index.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/lib/screen/uniforms.d.ts -> /output/types/WebGL/shaders/lib/screen/uniforms.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/lib/screen/uniforms.d.ts -> /output/types/WebGL/shaders/lib/screen/uniforms.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/sphereimposter/uniforms.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/sphereimposter/uniforms.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/lib/screenaa/uniforms.d.ts -> /output/types/WebGL/shaders/lib/screenaa/uniforms.d.ts.br
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/lib/screenaa/index.d.ts -> /output/types/WebGL/shaders/lib/screenaa/index.d.ts.br
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/lib/sphereimposter/index.d.ts -> /output/types/WebGL/shaders/lib/sphereimposter/index.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/lib/screenaa/index.d.ts -> /output/types/WebGL/shaders/lib/screenaa/index.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/sphereimposteroutline/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/sphereimposteroutline/index.d.ts
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/lib/screenaa/uniforms.d.ts -> /output/types/WebGL/shaders/lib/screenaa/uniforms.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/sphereimposteroutline/uniforms.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/sphereimposteroutline/uniforms.d.ts
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/lib/sphereimposter/index.d.ts -> /output/types/WebGL/shaders/lib/sphereimposter/index.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/sprite/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/sprite/index.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/lib/sphereimposter/uniforms.d.ts -> /output/types/WebGL/shaders/lib/sphereimposter/uniforms.d.ts.br
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/lib/sphereimposteroutline/index.d.ts -> /output/types/WebGL/shaders/lib/sphereimposteroutline/index.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/lib/sphereimposter/uniforms.d.ts -> /output/types/WebGL/shaders/lib/sphereimposter/uniforms.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/sprite/uniforms.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/sprite/uniforms.d.ts
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/lib/sphereimposteroutline/index.d.ts -> /output/types/WebGL/shaders/lib/sphereimposteroutline/index.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/stickimposter/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/stickimposter/index.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/lib/sphereimposteroutline/uniforms.d.ts -> /output/types/WebGL/shaders/lib/sphereimposteroutline/uniforms.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/lib/sphereimposteroutline/uniforms.d.ts -> /output/types/WebGL/shaders/lib/sphereimposteroutline/uniforms.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/stickimposter/uniforms.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/stickimposter/uniforms.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/lib/sprite/index.d.ts -> /output/types/WebGL/shaders/lib/sprite/index.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/lib/sprite/index.d.ts -> /output/types/WebGL/shaders/lib/sprite/index.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/stickimposteroutline/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/stickimposteroutline/index.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/lib/sprite/uniforms.d.ts -> /output/types/WebGL/shaders/lib/sprite/uniforms.d.ts.br
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/lib/stickimposter/index.d.ts -> /output/types/WebGL/shaders/lib/stickimposter/index.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/lib/sprite/uniforms.d.ts -> /output/types/WebGL/shaders/lib/sprite/uniforms.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/stickimposteroutline/uniforms.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/stickimposteroutline/uniforms.d.ts
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/lib/stickimposter/index.d.ts -> /output/types/WebGL/shaders/lib/stickimposter/index.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/volumetric/index.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/volumetric/index.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/lib/stickimposter/uniforms.d.ts -> /output/types/WebGL/shaders/lib/stickimposter/uniforms.d.ts.br
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/lib/stickimposteroutline/index.d.ts -> /output/types/WebGL/shaders/lib/stickimposteroutline/index.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/lib/stickimposter/uniforms.d.ts -> /output/types/WebGL/shaders/lib/stickimposter/uniforms.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/lib/volumetric/uniforms.d.ts.br /tmp/work/build/types/WebGL/shaders/lib/volumetric/uniforms.d.ts
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/lib/stickimposteroutline/index.d.ts -> /output/types/WebGL/shaders/lib/stickimposteroutline/index.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/ShaderType.d.ts.br /tmp/work/build/types/WebGL/shaders/ShaderType.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/lib/volumetric/index.d.ts -> /output/types/WebGL/shaders/lib/volumetric/index.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/lib/volumetric/index.d.ts -> /output/types/WebGL/shaders/lib/volumetric/index.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/utils/clone.d.ts.br /tmp/work/build/types/WebGL/shaders/utils/clone.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/lib/stickimposteroutline/uniforms.d.ts -> /output/types/WebGL/shaders/lib/stickimposteroutline/uniforms.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/lib/stickimposteroutline/uniforms.d.ts -> /output/types/WebGL/shaders/lib/stickimposteroutline/uniforms.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shaders/utils/index.d.ts.br /tmp/work/build/types/WebGL/shaders/utils/index.d.ts
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/lib/volumetric/uniforms.d.ts -> /output/types/WebGL/shaders/lib/volumetric/uniforms.d.ts.br
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/ShaderType.d.ts -> /output/types/WebGL/shaders/ShaderType.d.ts.br
+2023/07/31 10:18:38 br /tmp/work/build/types/WebGL/shaders/utils/clone.d.ts -> /output/types/WebGL/shaders/utils/clone.d.ts.br
+2023/07/31 10:18:38 gz /tmp/work/build/types/WebGL/shaders/lib/volumetric/uniforms.d.ts -> /output/types/WebGL/shaders/lib/volumetric/uniforms.d.ts.gz
+2023/07/31 10:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shapes/Cylinder.d.ts.br /tmp/work/build/types/WebGL/shapes/Cylinder.d.ts
+2023/07/31 10:18:39 br /tmp/work/build/types/WebGL/shapes/Cylinder.d.ts -> /output/types/WebGL/shapes/Cylinder.d.ts.br
+2023/07/31 10:18:39 gz /tmp/work/build/types/WebGL/shapes/Cylinder.d.ts -> /output/types/WebGL/shapes/Cylinder.d.ts.gz
+2023/07/31 10:18:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shapes/index.d.ts.br /tmp/work/build/types/WebGL/shapes/index.d.ts
+2023/07/31 10:18:39 br /tmp/work/build/types/WebGL/shaders/utils/index.d.ts -> /output/types/WebGL/shaders/utils/index.d.ts.br
+2023/07/31 10:18:39 gz /tmp/work/build/types/WebGL/shaders/utils/index.d.ts -> /output/types/WebGL/shaders/utils/index.d.ts.gz
+2023/07/31 10:18:39 gz /tmp/work/build/types/WebGL/shaders/utils/clone.d.ts -> /output/types/WebGL/shaders/utils/clone.d.ts.gz
+2023/07/31 10:18:39 gz /tmp/work/build/types/WebGL/shaders/ShaderType.d.ts -> /output/types/WebGL/shaders/ShaderType.d.ts.gz
+2023/07/31 10:18:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shapes/Sphere.d.ts.br /tmp/work/build/types/WebGL/shapes/Sphere.d.ts
+2023/07/31 10:18:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/SpritePlugin.d.ts.br /tmp/work/build/types/WebGL/SpritePlugin.d.ts
+2023/07/31 10:18:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/WebGL/shapes/Triangle.d.ts.br /tmp/work/build/types/WebGL/shapes/Triangle.d.ts
+2023/07/31 10:18:39 br /tmp/work/build/types/WebGL/shapes/index.d.ts -> /output/types/WebGL/shapes/index.d.ts.br
+2023/07/31 10:18:39 gz /tmp/work/build/types/WebGL/shapes/index.d.ts -> /output/types/WebGL/shapes/index.d.ts.gz
+2023/07/31 10:18:39 br /tmp/work/build/types/WebGL/shapes/Sphere.d.ts -> /output/types/WebGL/shapes/Sphere.d.ts.br
+2023/07/31 10:18:39 gz /tmp/work/build/types/WebGL/shapes/Sphere.d.ts -> /output/types/WebGL/shapes/Sphere.d.ts.gz
+2023/07/31 10:18:39 br /tmp/work/build/types/WebGL/shapes/Triangle.d.ts -> /output/types/WebGL/shapes/Triangle.d.ts.br
+2023/07/31 10:18:39 gz /tmp/work/build/types/WebGL/shapes/Triangle.d.ts -> /output/types/WebGL/shapes/Triangle.d.ts.gz
+2023/07/31 10:18:39 br /tmp/work/build/types/WebGL/SpritePlugin.d.ts -> /output/types/WebGL/SpritePlugin.d.ts.br
+2023/07/31 10:18:39 gz /tmp/work/build/types/WebGL/SpritePlugin.d.ts -> /output/types/WebGL/SpritePlugin.d.ts.gz
+2023/07/31 10:18:54 sri /tmp/work/build/3Dmol.ui-min.min.js -> /output/3Dmol.ui-min.min.js.sri
+2023/07/31 10:18:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol.ui-min.min.js.br /tmp/work/build/3Dmol.ui-min.min.js
+2023/07/31 10:18:56 br /tmp/work/build/3Dmol.ui-min.min.js -> /output/3Dmol.ui-min.min.js.br
+2023/07/31 10:18:56 gz /tmp/work/build/3Dmol.ui-min.min.js -> /output/3Dmol.ui-min.min.js.gz
+2023/07/31 10:18:56 sri /tmp/work/build/3Dmol.ui-min.js -> /output/3Dmol.ui-min.js.sri
+2023/07/31 10:18:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol.ui-min.js.br /tmp/work/build/3Dmol.ui-min.js
+2023/07/31 10:18:58 br /tmp/work/build/3Dmol.ui-min.js -> /output/3Dmol.ui-min.js.br
+2023/07/31 10:18:58 gz /tmp/work/build/3Dmol.ui-min.js -> /output/3Dmol.ui-min.js.gz
+2023/07/31 10:18:58 sri /tmp/work/build/3Dmol.ui.min.js -> /output/3Dmol.ui.min.js.sri
+2023/07/31 10:18:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol.ui.min.js.br /tmp/work/build/3Dmol.ui.min.js
+2023/07/31 10:18:59 br /tmp/work/build/3Dmol.ui.min.js -> /output/3Dmol.ui.min.js.br
+2023/07/31 10:18:59 gz /tmp/work/build/3Dmol.ui.min.js -> /output/3Dmol.ui.min.js.gz
+2023/07/31 10:18:59 sri /tmp/work/build/3Dmol.ui.js -> /output/3Dmol.ui.js.sri
+2023/07/31 10:18:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol.ui.js.br /tmp/work/build/3Dmol.ui.js
+2023/07/31 10:19:09 br /tmp/work/build/3Dmol.ui.js -> /output/3Dmol.ui.js.br
+2023/07/31 10:19:09 gz /tmp/work/build/3Dmol.ui.js -> /output/3Dmol.ui.js.gz
+2023/07/31 10:19:10 sri /tmp/work/build/3Dmol-min.min.js -> /output/3Dmol-min.min.js.sri
+2023/07/31 10:19:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol-min.min.js.br /tmp/work/build/3Dmol-min.min.js
+2023/07/31 10:19:12 sri /tmp/work/build/3Dmol.min.js -> /output/3Dmol.min.js.sri
+2023/07/31 10:19:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol.min.js.br /tmp/work/build/3Dmol.min.js
+2023/07/31 10:19:12 br /tmp/work/build/3Dmol-min.min.js -> /output/3Dmol-min.min.js.br
+2023/07/31 10:19:12 gz /tmp/work/build/3Dmol-min.min.js -> /output/3Dmol-min.min.js.gz
+2023/07/31 10:19:12 sri /tmp/work/build/3Dmol-min.js -> /output/3Dmol-min.js.sri
+2023/07/31 10:19:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol-min.js.br /tmp/work/build/3Dmol-min.js
+2023/07/31 10:19:14 br /tmp/work/build/3Dmol.min.js -> /output/3Dmol.min.js.br
+2023/07/31 10:19:14 gz /tmp/work/build/3Dmol.min.js -> /output/3Dmol.min.js.gz
+2023/07/31 10:19:14 sri /tmp/work/build/3Dmol.js -> /output/3Dmol.js.sri
+2023/07/31 10:19:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol.js.br /tmp/work/build/3Dmol.js
+2023/07/31 10:19:14 br /tmp/work/build/3Dmol-min.js -> /output/3Dmol-min.js.br
+2023/07/31 10:19:14 gz /tmp/work/build/3Dmol-min.js -> /output/3Dmol-min.js.gz
+2023/07/31 10:19:25 br /tmp/work/build/3Dmol.js -> /output/3Dmol.js.br
+2023/07/31 10:19:26 gz /tmp/work/build/3Dmol.js -> /output/3Dmol.js.gz
+2023/07/31 10:19:26 processed 3Dmol
