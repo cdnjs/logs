@@ -1,587 +1,587 @@
-2023/04/26 10:09:26 optimizing files (Js true, Css true, Png true, Jpg true)
-2023/04/26 10:09:26 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.esm.min.js /tmp/work/dist/index.esm.js
-2023/04/26 10:09:26 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.umd.min.js /tmp/work/dist/index.umd.js
-2023/04/26 10:09:26 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/carousel/carousel.autoplay.min.css /tmp/work/dist/carousel/carousel.autoplay.css
-2023/04/26 10:09:26 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/carousel.esm.min.js /tmp/work/dist/carousel/carousel.esm.js
-2023/04/26 10:09:26 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/carousel.autoplay.umd.min.js /tmp/work/dist/carousel/carousel.autoplay.umd.js
-2023/04/26 10:09:26 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/carousel.autoplay.esm.min.js /tmp/work/dist/carousel/carousel.autoplay.esm.js
-2023/04/26 10:09:26 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/carousel/carousel.min.css /tmp/work/dist/carousel/carousel.css
-2023/04/26 10:09:26 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/carousel/carousel.thumbs.min.css /tmp/work/dist/carousel/carousel.thumbs.css
-2023/04/26 10:09:26 sri /tmp/work/dist/carousel/carousel.autoplay.min.css -> /output/carousel/carousel.autoplay.min.css.sri
-2023/04/26 10:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.autoplay.min.css.br /tmp/work/dist/carousel/carousel.autoplay.min.css
-2023/04/26 10:09:26 br /tmp/work/dist/carousel/carousel.autoplay.min.css -> /output/carousel/carousel.autoplay.min.css.br
-2023/04/26 10:09:26 gz /tmp/work/dist/carousel/carousel.autoplay.min.css -> /output/carousel/carousel.autoplay.min.css.gz
-2023/04/26 10:09:26 sri /tmp/work/dist/carousel/carousel.autoplay.css -> /output/carousel/carousel.autoplay.css.sri
-2023/04/26 10:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.autoplay.css.br /tmp/work/dist/carousel/carousel.autoplay.css
-2023/04/26 10:09:26 br /tmp/work/dist/carousel/carousel.autoplay.css -> /output/carousel/carousel.autoplay.css.br
-2023/04/26 10:09:26 sri /tmp/work/dist/carousel/carousel.thumbs.min.css -> /output/carousel/carousel.thumbs.min.css.sri
-2023/04/26 10:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.thumbs.min.css.br /tmp/work/dist/carousel/carousel.thumbs.min.css
-2023/04/26 10:09:26 gz /tmp/work/dist/carousel/carousel.autoplay.css -> /output/carousel/carousel.autoplay.css.gz
-2023/04/26 10:09:26 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/carousel.thumbs.esm.min.js /tmp/work/dist/carousel/carousel.thumbs.esm.js
-2023/04/26 10:09:26 br /tmp/work/dist/carousel/carousel.thumbs.min.css -> /output/carousel/carousel.thumbs.min.css.br
-2023/04/26 10:09:26 gz /tmp/work/dist/carousel/carousel.thumbs.min.css -> /output/carousel/carousel.thumbs.min.css.gz
-2023/04/26 10:09:26 sri /tmp/work/dist/carousel/carousel.thumbs.css -> /output/carousel/carousel.thumbs.css.sri
-2023/04/26 10:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.thumbs.css.br /tmp/work/dist/carousel/carousel.thumbs.css
-2023/04/26 10:09:26 br /tmp/work/dist/carousel/carousel.thumbs.css -> /output/carousel/carousel.thumbs.css.br
-2023/04/26 10:09:26 gz /tmp/work/dist/carousel/carousel.thumbs.css -> /output/carousel/carousel.thumbs.css.gz
-2023/04/26 10:09:26 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/carousel.thumbs.umd.min.js /tmp/work/dist/carousel/carousel.thumbs.umd.js
-2023/04/26 10:09:26 sri /tmp/work/dist/carousel/carousel.min.css -> /output/carousel/carousel.min.css.sri
-2023/04/26 10:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.min.css.br /tmp/work/dist/carousel/carousel.min.css
-2023/04/26 10:09:26 sri /tmp/work/dist/carousel/carousel.autoplay.esm.min.js -> /output/carousel/carousel.autoplay.esm.min.js.sri
-2023/04/26 10:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.autoplay.esm.min.js.br /tmp/work/dist/carousel/carousel.autoplay.esm.min.js
-2023/04/26 10:09:26 sri /tmp/work/dist/carousel/carousel.autoplay.umd.min.js -> /output/carousel/carousel.autoplay.umd.min.js.sri
-2023/04/26 10:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.autoplay.umd.min.js.br /tmp/work/dist/carousel/carousel.autoplay.umd.min.js
-2023/04/26 10:09:26 br /tmp/work/dist/carousel/carousel.min.css -> /output/carousel/carousel.min.css.br
-2023/04/26 10:09:26 gz /tmp/work/dist/carousel/carousel.min.css -> /output/carousel/carousel.min.css.gz
-2023/04/26 10:09:26 sri /tmp/work/dist/carousel/carousel.css -> /output/carousel/carousel.css.sri
-2023/04/26 10:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.css.br /tmp/work/dist/carousel/carousel.css
-2023/04/26 10:09:26 br /tmp/work/dist/carousel/carousel.autoplay.esm.min.js -> /output/carousel/carousel.autoplay.esm.min.js.br
-2023/04/26 10:09:26 gz /tmp/work/dist/carousel/carousel.autoplay.esm.min.js -> /output/carousel/carousel.autoplay.esm.min.js.gz
-2023/04/26 10:09:26 sri /tmp/work/dist/carousel/carousel.autoplay.esm.js -> /output/carousel/carousel.autoplay.esm.js.sri
-2023/04/26 10:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.autoplay.esm.js.br /tmp/work/dist/carousel/carousel.autoplay.esm.js
-2023/04/26 10:09:26 br /tmp/work/dist/carousel/carousel.autoplay.umd.min.js -> /output/carousel/carousel.autoplay.umd.min.js.br
-2023/04/26 10:09:26 gz /tmp/work/dist/carousel/carousel.autoplay.umd.min.js -> /output/carousel/carousel.autoplay.umd.min.js.gz
-2023/04/26 10:09:26 sri /tmp/work/dist/carousel/carousel.autoplay.umd.js -> /output/carousel/carousel.autoplay.umd.js.sri
-2023/04/26 10:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.autoplay.umd.js.br /tmp/work/dist/carousel/carousel.autoplay.umd.js
-2023/04/26 10:09:27 br /tmp/work/dist/carousel/carousel.css -> /output/carousel/carousel.css.br
-2023/04/26 10:09:27 gz /tmp/work/dist/carousel/carousel.css -> /output/carousel/carousel.css.gz
-2023/04/26 10:09:27 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/carousel.umd.min.js /tmp/work/dist/carousel/carousel.umd.js
-2023/04/26 10:09:27 br /tmp/work/dist/carousel/carousel.autoplay.esm.js -> /output/carousel/carousel.autoplay.esm.js.br
-2023/04/26 10:09:27 gz /tmp/work/dist/carousel/carousel.autoplay.esm.js -> /output/carousel/carousel.autoplay.esm.js.gz
-2023/04/26 10:09:27 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/fancybox/fancybox.min.css /tmp/work/dist/fancybox/fancybox.css
-2023/04/26 10:09:27 br /tmp/work/dist/carousel/carousel.autoplay.umd.js -> /output/carousel/carousel.autoplay.umd.js.br
-2023/04/26 10:09:27 gz /tmp/work/dist/carousel/carousel.autoplay.umd.js -> /output/carousel/carousel.autoplay.umd.js.gz
-2023/04/26 10:09:27 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/fancybox.esm.min.js /tmp/work/dist/fancybox/fancybox.esm.js
-2023/04/26 10:09:27 sri /tmp/work/dist/fancybox/fancybox.min.css -> /output/fancybox/fancybox.min.css.sri
-2023/04/26 10:09:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/fancybox.min.css.br /tmp/work/dist/fancybox/fancybox.min.css
-2023/04/26 10:09:27 br /tmp/work/dist/fancybox/fancybox.min.css -> /output/fancybox/fancybox.min.css.br
-2023/04/26 10:09:27 gz /tmp/work/dist/fancybox/fancybox.min.css -> /output/fancybox/fancybox.min.css.gz
-2023/04/26 10:09:27 sri /tmp/work/dist/fancybox/fancybox.css -> /output/fancybox/fancybox.css.sri
-2023/04/26 10:09:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/fancybox.css.br /tmp/work/dist/fancybox/fancybox.css
-2023/04/26 10:09:27 br /tmp/work/dist/fancybox/fancybox.css -> /output/fancybox/fancybox.css.br
-2023/04/26 10:09:27 gz /tmp/work/dist/fancybox/fancybox.css -> /output/fancybox/fancybox.css.gz
-2023/04/26 10:09:27 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/fancybox.umd.min.js /tmp/work/dist/fancybox/fancybox.umd.js
-2023/04/26 10:09:27 sri /tmp/work/dist/carousel/carousel.thumbs.esm.min.js -> /output/carousel/carousel.thumbs.esm.min.js.sri
-2023/04/26 10:09:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.thumbs.esm.min.js.br /tmp/work/dist/carousel/carousel.thumbs.esm.min.js
-2023/04/26 10:09:27 br /tmp/work/dist/carousel/carousel.thumbs.esm.min.js -> /output/carousel/carousel.thumbs.esm.min.js.br
-2023/04/26 10:09:27 gz /tmp/work/dist/carousel/carousel.thumbs.esm.min.js -> /output/carousel/carousel.thumbs.esm.min.js.gz
-2023/04/26 10:09:27 sri /tmp/work/dist/carousel/carousel.thumbs.esm.js -> /output/carousel/carousel.thumbs.esm.js.sri
-2023/04/26 10:09:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.thumbs.esm.js.br /tmp/work/dist/carousel/carousel.thumbs.esm.js
-2023/04/26 10:09:27 br /tmp/work/dist/carousel/carousel.thumbs.esm.js -> /output/carousel/carousel.thumbs.esm.js.br
-2023/04/26 10:09:27 gz /tmp/work/dist/carousel/carousel.thumbs.esm.js -> /output/carousel/carousel.thumbs.esm.js.gz
-2023/04/26 10:09:27 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/panzoom/panzoom.min.css /tmp/work/dist/panzoom/panzoom.css
-2023/04/26 10:09:27 sri /tmp/work/dist/carousel/carousel.thumbs.umd.min.js -> /output/carousel/carousel.thumbs.umd.min.js.sri
-2023/04/26 10:09:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.thumbs.umd.min.js.br /tmp/work/dist/carousel/carousel.thumbs.umd.min.js
-2023/04/26 10:09:28 br /tmp/work/dist/carousel/carousel.thumbs.umd.min.js -> /output/carousel/carousel.thumbs.umd.min.js.br
-2023/04/26 10:09:28 gz /tmp/work/dist/carousel/carousel.thumbs.umd.min.js -> /output/carousel/carousel.thumbs.umd.min.js.gz
-2023/04/26 10:09:28 sri /tmp/work/dist/carousel/carousel.thumbs.umd.js -> /output/carousel/carousel.thumbs.umd.js.sri
-2023/04/26 10:09:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.thumbs.umd.js.br /tmp/work/dist/carousel/carousel.thumbs.umd.js
-2023/04/26 10:09:28 br /tmp/work/dist/carousel/carousel.thumbs.umd.js -> /output/carousel/carousel.thumbs.umd.js.br
-2023/04/26 10:09:28 gz /tmp/work/dist/carousel/carousel.thumbs.umd.js -> /output/carousel/carousel.thumbs.umd.js.gz
-2023/04/26 10:09:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/panzoom.esm.min.js /tmp/work/dist/panzoom/panzoom.esm.js
-2023/04/26 10:09:28 sri /tmp/work/dist/panzoom/panzoom.min.css -> /output/panzoom/panzoom.min.css.sri
-2023/04/26 10:09:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.min.css.br /tmp/work/dist/panzoom/panzoom.min.css
-2023/04/26 10:09:28 br /tmp/work/dist/panzoom/panzoom.min.css -> /output/panzoom/panzoom.min.css.br
-2023/04/26 10:09:28 gz /tmp/work/dist/panzoom/panzoom.min.css -> /output/panzoom/panzoom.min.css.gz
-2023/04/26 10:09:28 sri /tmp/work/dist/panzoom/panzoom.css -> /output/panzoom/panzoom.css.sri
-2023/04/26 10:09:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.css.br /tmp/work/dist/panzoom/panzoom.css
-2023/04/26 10:09:28 br /tmp/work/dist/panzoom/panzoom.css -> /output/panzoom/panzoom.css.br
-2023/04/26 10:09:28 gz /tmp/work/dist/panzoom/panzoom.css -> /output/panzoom/panzoom.css.gz
-2023/04/26 10:09:28 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/panzoom/panzoom.pins.min.css /tmp/work/dist/panzoom/panzoom.pins.css
-2023/04/26 10:09:28 sri /tmp/work/dist/panzoom/panzoom.pins.min.css -> /output/panzoom/panzoom.pins.min.css.sri
-2023/04/26 10:09:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.pins.min.css.br /tmp/work/dist/panzoom/panzoom.pins.min.css
-2023/04/26 10:09:28 br /tmp/work/dist/panzoom/panzoom.pins.min.css -> /output/panzoom/panzoom.pins.min.css.br
-2023/04/26 10:09:28 gz /tmp/work/dist/panzoom/panzoom.pins.min.css -> /output/panzoom/panzoom.pins.min.css.gz
-2023/04/26 10:09:28 sri /tmp/work/dist/panzoom/panzoom.pins.css -> /output/panzoom/panzoom.pins.css.sri
-2023/04/26 10:09:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.pins.css.br /tmp/work/dist/panzoom/panzoom.pins.css
-2023/04/26 10:09:28 br /tmp/work/dist/panzoom/panzoom.pins.css -> /output/panzoom/panzoom.pins.css.br
-2023/04/26 10:09:28 gz /tmp/work/dist/panzoom/panzoom.pins.css -> /output/panzoom/panzoom.pins.css.gz
-2023/04/26 10:09:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/panzoom.pins.esm.min.js /tmp/work/dist/panzoom/panzoom.pins.esm.js
-2023/04/26 10:09:29 sri /tmp/work/dist/panzoom/panzoom.pins.esm.min.js -> /output/panzoom/panzoom.pins.esm.min.js.sri
-2023/04/26 10:09:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.pins.esm.min.js.br /tmp/work/dist/panzoom/panzoom.pins.esm.min.js
-2023/04/26 10:09:29 br /tmp/work/dist/panzoom/panzoom.pins.esm.min.js -> /output/panzoom/panzoom.pins.esm.min.js.br
-2023/04/26 10:09:29 gz /tmp/work/dist/panzoom/panzoom.pins.esm.min.js -> /output/panzoom/panzoom.pins.esm.min.js.gz
-2023/04/26 10:09:29 sri /tmp/work/dist/panzoom/panzoom.pins.esm.js -> /output/panzoom/panzoom.pins.esm.js.sri
-2023/04/26 10:09:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.pins.esm.js.br /tmp/work/dist/panzoom/panzoom.pins.esm.js
-2023/04/26 10:09:29 br /tmp/work/dist/panzoom/panzoom.pins.esm.js -> /output/panzoom/panzoom.pins.esm.js.br
-2023/04/26 10:09:29 gz /tmp/work/dist/panzoom/panzoom.pins.esm.js -> /output/panzoom/panzoom.pins.esm.js.gz
-2023/04/26 10:09:29 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/panzoom.pins.umd.min.js /tmp/work/dist/panzoom/panzoom.pins.umd.js
-2023/04/26 10:09:29 sri /tmp/work/dist/carousel/carousel.esm.min.js -> /output/carousel/carousel.esm.min.js.sri
-2023/04/26 10:09:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.esm.min.js.br /tmp/work/dist/carousel/carousel.esm.min.js
-2023/04/26 10:09:29 br /tmp/work/dist/carousel/carousel.esm.min.js -> /output/carousel/carousel.esm.min.js.br
-2023/04/26 10:09:29 gz /tmp/work/dist/carousel/carousel.esm.min.js -> /output/carousel/carousel.esm.min.js.gz
-2023/04/26 10:09:29 sri /tmp/work/dist/carousel/carousel.esm.js -> /output/carousel/carousel.esm.js.sri
-2023/04/26 10:09:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.esm.js.br /tmp/work/dist/carousel/carousel.esm.js
-2023/04/26 10:09:29 sri /tmp/work/dist/panzoom/panzoom.pins.umd.min.js -> /output/panzoom/panzoom.pins.umd.min.js.sri
-2023/04/26 10:09:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.pins.umd.min.js.br /tmp/work/dist/panzoom/panzoom.pins.umd.min.js
-2023/04/26 10:09:29 br /tmp/work/dist/carousel/carousel.esm.js -> /output/carousel/carousel.esm.js.br
-2023/04/26 10:09:30 gz /tmp/work/dist/carousel/carousel.esm.js -> /output/carousel/carousel.esm.js.gz
-2023/04/26 10:09:30 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/panzoom/panzoom.toolbar.min.css /tmp/work/dist/panzoom/panzoom.toolbar.css
-2023/04/26 10:09:30 br /tmp/work/dist/panzoom/panzoom.pins.umd.min.js -> /output/panzoom/panzoom.pins.umd.min.js.br
-2023/04/26 10:09:30 gz /tmp/work/dist/panzoom/panzoom.pins.umd.min.js -> /output/panzoom/panzoom.pins.umd.min.js.gz
-2023/04/26 10:09:30 sri /tmp/work/dist/panzoom/panzoom.pins.umd.js -> /output/panzoom/panzoom.pins.umd.js.sri
-2023/04/26 10:09:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.pins.umd.js.br /tmp/work/dist/panzoom/panzoom.pins.umd.js
-2023/04/26 10:09:30 br /tmp/work/dist/panzoom/panzoom.pins.umd.js -> /output/panzoom/panzoom.pins.umd.js.br
-2023/04/26 10:09:30 gz /tmp/work/dist/panzoom/panzoom.pins.umd.js -> /output/panzoom/panzoom.pins.umd.js.gz
-2023/04/26 10:09:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/panzoom.toolbar.esm.min.js /tmp/work/dist/panzoom/panzoom.toolbar.esm.js
-2023/04/26 10:09:30 sri /tmp/work/dist/panzoom/panzoom.esm.min.js -> /output/panzoom/panzoom.esm.min.js.sri
-2023/04/26 10:09:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.esm.min.js.br /tmp/work/dist/panzoom/panzoom.esm.min.js
-2023/04/26 10:09:30 sri /tmp/work/dist/panzoom/panzoom.toolbar.min.css -> /output/panzoom/panzoom.toolbar.min.css.sri
-2023/04/26 10:09:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.toolbar.min.css.br /tmp/work/dist/panzoom/panzoom.toolbar.min.css
-2023/04/26 10:09:30 br /tmp/work/dist/panzoom/panzoom.toolbar.min.css -> /output/panzoom/panzoom.toolbar.min.css.br
-2023/04/26 10:09:30 gz /tmp/work/dist/panzoom/panzoom.toolbar.min.css -> /output/panzoom/panzoom.toolbar.min.css.gz
-2023/04/26 10:09:30 sri /tmp/work/dist/panzoom/panzoom.toolbar.css -> /output/panzoom/panzoom.toolbar.css.sri
-2023/04/26 10:09:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.toolbar.css.br /tmp/work/dist/panzoom/panzoom.toolbar.css
-2023/04/26 10:09:30 br /tmp/work/dist/panzoom/panzoom.toolbar.css -> /output/panzoom/panzoom.toolbar.css.br
-2023/04/26 10:09:30 gz /tmp/work/dist/panzoom/panzoom.toolbar.css -> /output/panzoom/panzoom.toolbar.css.gz
-2023/04/26 10:09:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/panzoom.toolbar.umd.min.js /tmp/work/dist/panzoom/panzoom.toolbar.umd.js
-2023/04/26 10:09:30 br /tmp/work/dist/panzoom/panzoom.esm.min.js -> /output/panzoom/panzoom.esm.min.js.br
-2023/04/26 10:09:30 gz /tmp/work/dist/panzoom/panzoom.esm.min.js -> /output/panzoom/panzoom.esm.min.js.gz
-2023/04/26 10:09:30 sri /tmp/work/dist/panzoom/panzoom.esm.js -> /output/panzoom/panzoom.esm.js.sri
-2023/04/26 10:09:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.esm.js.br /tmp/work/dist/panzoom/panzoom.esm.js
-2023/04/26 10:09:30 br /tmp/work/dist/panzoom/panzoom.esm.js -> /output/panzoom/panzoom.esm.js.br
-2023/04/26 10:09:30 gz /tmp/work/dist/panzoom/panzoom.esm.js -> /output/panzoom/panzoom.esm.js.gz
-2023/04/26 10:09:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/panzoom.umd.min.js /tmp/work/dist/panzoom/panzoom.umd.js
-2023/04/26 10:09:30 sri /tmp/work/dist/carousel/carousel.umd.min.js -> /output/carousel/carousel.umd.min.js.sri
-2023/04/26 10:09:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.umd.min.js.br /tmp/work/dist/carousel/carousel.umd.min.js
-2023/04/26 10:09:30 sri /tmp/work/dist/panzoom/panzoom.toolbar.esm.min.js -> /output/panzoom/panzoom.toolbar.esm.min.js.sri
-2023/04/26 10:09:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.toolbar.esm.min.js.br /tmp/work/dist/panzoom/panzoom.toolbar.esm.min.js
-2023/04/26 10:09:30 br /tmp/work/dist/panzoom/panzoom.toolbar.esm.min.js -> /output/panzoom/panzoom.toolbar.esm.min.js.br
-2023/04/26 10:09:30 gz /tmp/work/dist/panzoom/panzoom.toolbar.esm.min.js -> /output/panzoom/panzoom.toolbar.esm.min.js.gz
-2023/04/26 10:09:30 sri /tmp/work/dist/panzoom/panzoom.toolbar.esm.js -> /output/panzoom/panzoom.toolbar.esm.js.sri
-2023/04/26 10:09:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.toolbar.esm.js.br /tmp/work/dist/panzoom/panzoom.toolbar.esm.js
-2023/04/26 10:09:30 br /tmp/work/dist/panzoom/panzoom.toolbar.esm.js -> /output/panzoom/panzoom.toolbar.esm.js.br
-2023/04/26 10:09:30 gz /tmp/work/dist/panzoom/panzoom.toolbar.esm.js -> /output/panzoom/panzoom.toolbar.esm.js.gz
-2023/04/26 10:09:30 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/de.esm.min.js /tmp/work/dist/carousel/l10n/de.esm.js
-2023/04/26 10:09:30 br /tmp/work/dist/carousel/carousel.umd.min.js -> /output/carousel/carousel.umd.min.js.br
-2023/04/26 10:09:30 gz /tmp/work/dist/carousel/carousel.umd.min.js -> /output/carousel/carousel.umd.min.js.gz
-2023/04/26 10:09:30 sri /tmp/work/dist/carousel/carousel.umd.js -> /output/carousel/carousel.umd.js.sri
-2023/04/26 10:09:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.umd.js.br /tmp/work/dist/carousel/carousel.umd.js
-2023/04/26 10:09:30 sri /tmp/work/dist/panzoom/panzoom.toolbar.umd.min.js -> /output/panzoom/panzoom.toolbar.umd.min.js.sri
-2023/04/26 10:09:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.toolbar.umd.min.js.br /tmp/work/dist/panzoom/panzoom.toolbar.umd.min.js
-2023/04/26 10:09:31 br /tmp/work/dist/panzoom/panzoom.toolbar.umd.min.js -> /output/panzoom/panzoom.toolbar.umd.min.js.br
-2023/04/26 10:09:31 gz /tmp/work/dist/panzoom/panzoom.toolbar.umd.min.js -> /output/panzoom/panzoom.toolbar.umd.min.js.gz
-2023/04/26 10:09:31 sri /tmp/work/dist/panzoom/panzoom.toolbar.umd.js -> /output/panzoom/panzoom.toolbar.umd.js.sri
-2023/04/26 10:09:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.toolbar.umd.js.br /tmp/work/dist/panzoom/panzoom.toolbar.umd.js
-2023/04/26 10:09:31 br /tmp/work/dist/panzoom/panzoom.toolbar.umd.js -> /output/panzoom/panzoom.toolbar.umd.js.br
-2023/04/26 10:09:31 gz /tmp/work/dist/panzoom/panzoom.toolbar.umd.js -> /output/panzoom/panzoom.toolbar.umd.js.gz
-2023/04/26 10:09:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/de.umd.min.js /tmp/work/dist/carousel/l10n/de.umd.js
-2023/04/26 10:09:31 br /tmp/work/dist/carousel/carousel.umd.js -> /output/carousel/carousel.umd.js.br
-2023/04/26 10:09:31 gz /tmp/work/dist/carousel/carousel.umd.js -> /output/carousel/carousel.umd.js.gz
-2023/04/26 10:09:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/en.esm.min.js /tmp/work/dist/carousel/l10n/en.esm.js
-2023/04/26 10:09:31 sri /tmp/work/dist/carousel/l10n/de.esm.min.js -> /output/carousel/l10n/de.esm.min.js.sri
-2023/04/26 10:09:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/de.esm.min.js.br /tmp/work/dist/carousel/l10n/de.esm.min.js
-2023/04/26 10:09:31 br /tmp/work/dist/carousel/l10n/de.esm.min.js -> /output/carousel/l10n/de.esm.min.js.br
-2023/04/26 10:09:31 gz /tmp/work/dist/carousel/l10n/de.esm.min.js -> /output/carousel/l10n/de.esm.min.js.gz
-2023/04/26 10:09:31 sri /tmp/work/dist/carousel/l10n/de.esm.js -> /output/carousel/l10n/de.esm.js.sri
-2023/04/26 10:09:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/de.esm.js.br /tmp/work/dist/carousel/l10n/de.esm.js
-2023/04/26 10:09:31 br /tmp/work/dist/carousel/l10n/de.esm.js -> /output/carousel/l10n/de.esm.js.br
-2023/04/26 10:09:31 gz /tmp/work/dist/carousel/l10n/de.esm.js -> /output/carousel/l10n/de.esm.js.gz
-2023/04/26 10:09:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/en.umd.min.js /tmp/work/dist/carousel/l10n/en.umd.js
-2023/04/26 10:09:31 sri /tmp/work/dist/carousel/l10n/de.umd.min.js -> /output/carousel/l10n/de.umd.min.js.sri
-2023/04/26 10:09:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/de.umd.min.js.br /tmp/work/dist/carousel/l10n/de.umd.min.js
-2023/04/26 10:09:31 br /tmp/work/dist/carousel/l10n/de.umd.min.js -> /output/carousel/l10n/de.umd.min.js.br
-2023/04/26 10:09:31 gz /tmp/work/dist/carousel/l10n/de.umd.min.js -> /output/carousel/l10n/de.umd.min.js.gz
-2023/04/26 10:09:31 sri /tmp/work/dist/carousel/l10n/de.umd.js -> /output/carousel/l10n/de.umd.js.sri
-2023/04/26 10:09:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/de.umd.js.br /tmp/work/dist/carousel/l10n/de.umd.js
-2023/04/26 10:09:31 br /tmp/work/dist/carousel/l10n/de.umd.js -> /output/carousel/l10n/de.umd.js.br
-2023/04/26 10:09:31 gz /tmp/work/dist/carousel/l10n/de.umd.js -> /output/carousel/l10n/de.umd.js.gz
-2023/04/26 10:09:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/es.esm.min.js /tmp/work/dist/carousel/l10n/es.esm.js
-2023/04/26 10:09:31 sri /tmp/work/dist/carousel/l10n/en.esm.min.js -> /output/carousel/l10n/en.esm.min.js.sri
-2023/04/26 10:09:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/en.esm.min.js.br /tmp/work/dist/carousel/l10n/en.esm.min.js
-2023/04/26 10:09:31 br /tmp/work/dist/carousel/l10n/en.esm.min.js -> /output/carousel/l10n/en.esm.min.js.br
-2023/04/26 10:09:31 gz /tmp/work/dist/carousel/l10n/en.esm.min.js -> /output/carousel/l10n/en.esm.min.js.gz
-2023/04/26 10:09:31 sri /tmp/work/dist/carousel/l10n/en.esm.js -> /output/carousel/l10n/en.esm.js.sri
-2023/04/26 10:09:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/en.esm.js.br /tmp/work/dist/carousel/l10n/en.esm.js
-2023/04/26 10:09:31 br /tmp/work/dist/carousel/l10n/en.esm.js -> /output/carousel/l10n/en.esm.js.br
-2023/04/26 10:09:31 gz /tmp/work/dist/carousel/l10n/en.esm.js -> /output/carousel/l10n/en.esm.js.gz
-2023/04/26 10:09:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/es.umd.min.js /tmp/work/dist/carousel/l10n/es.umd.js
-2023/04/26 10:09:31 sri /tmp/work/dist/carousel/l10n/en.umd.min.js -> /output/carousel/l10n/en.umd.min.js.sri
-2023/04/26 10:09:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/en.umd.min.js.br /tmp/work/dist/carousel/l10n/en.umd.min.js
-2023/04/26 10:09:31 br /tmp/work/dist/carousel/l10n/en.umd.min.js -> /output/carousel/l10n/en.umd.min.js.br
-2023/04/26 10:09:31 gz /tmp/work/dist/carousel/l10n/en.umd.min.js -> /output/carousel/l10n/en.umd.min.js.gz
-2023/04/26 10:09:31 sri /tmp/work/dist/carousel/l10n/en.umd.js -> /output/carousel/l10n/en.umd.js.sri
-2023/04/26 10:09:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/en.umd.js.br /tmp/work/dist/carousel/l10n/en.umd.js
-2023/04/26 10:09:31 br /tmp/work/dist/carousel/l10n/en.umd.js -> /output/carousel/l10n/en.umd.js.br
-2023/04/26 10:09:31 gz /tmp/work/dist/carousel/l10n/en.umd.js -> /output/carousel/l10n/en.umd.js.gz
-2023/04/26 10:09:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/fr.esm.min.js /tmp/work/dist/carousel/l10n/fr.esm.js
-2023/04/26 10:09:31 sri /tmp/work/dist/index.esm.min.js -> /output/index.esm.min.js.sri
-2023/04/26 10:09:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.esm.min.js.br /tmp/work/dist/index.esm.min.js
-2023/04/26 10:09:31 sri /tmp/work/dist/carousel/l10n/es.esm.min.js -> /output/carousel/l10n/es.esm.min.js.sri
-2023/04/26 10:09:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/es.esm.min.js.br /tmp/work/dist/carousel/l10n/es.esm.min.js
-2023/04/26 10:09:31 br /tmp/work/dist/carousel/l10n/es.esm.min.js -> /output/carousel/l10n/es.esm.min.js.br
-2023/04/26 10:09:31 gz /tmp/work/dist/carousel/l10n/es.esm.min.js -> /output/carousel/l10n/es.esm.min.js.gz
-2023/04/26 10:09:31 sri /tmp/work/dist/carousel/l10n/es.esm.js -> /output/carousel/l10n/es.esm.js.sri
-2023/04/26 10:09:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/es.esm.js.br /tmp/work/dist/carousel/l10n/es.esm.js
-2023/04/26 10:09:31 sri /tmp/work/dist/carousel/l10n/es.umd.min.js -> /output/carousel/l10n/es.umd.min.js.sri
-2023/04/26 10:09:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/es.umd.min.js.br /tmp/work/dist/carousel/l10n/es.umd.min.js
-2023/04/26 10:09:31 br /tmp/work/dist/carousel/l10n/es.esm.js -> /output/carousel/l10n/es.esm.js.br
-2023/04/26 10:09:31 gz /tmp/work/dist/carousel/l10n/es.esm.js -> /output/carousel/l10n/es.esm.js.gz
-2023/04/26 10:09:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/fr.umd.min.js /tmp/work/dist/carousel/l10n/fr.umd.js
-2023/04/26 10:09:31 br /tmp/work/dist/carousel/l10n/es.umd.min.js -> /output/carousel/l10n/es.umd.min.js.br
-2023/04/26 10:09:31 gz /tmp/work/dist/carousel/l10n/es.umd.min.js -> /output/carousel/l10n/es.umd.min.js.gz
-2023/04/26 10:09:31 sri /tmp/work/dist/carousel/l10n/es.umd.js -> /output/carousel/l10n/es.umd.js.sri
-2023/04/26 10:09:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/es.umd.js.br /tmp/work/dist/carousel/l10n/es.umd.js
-2023/04/26 10:09:31 br /tmp/work/dist/carousel/l10n/es.umd.js -> /output/carousel/l10n/es.umd.js.br
-2023/04/26 10:09:31 gz /tmp/work/dist/carousel/l10n/es.umd.js -> /output/carousel/l10n/es.umd.js.gz
-2023/04/26 10:09:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/it.esm.min.js /tmp/work/dist/carousel/l10n/it.esm.js
-2023/04/26 10:09:31 sri /tmp/work/dist/carousel/l10n/fr.esm.min.js -> /output/carousel/l10n/fr.esm.min.js.sri
-2023/04/26 10:09:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/fr.esm.min.js.br /tmp/work/dist/carousel/l10n/fr.esm.min.js
-2023/04/26 10:09:31 br /tmp/work/dist/carousel/l10n/fr.esm.min.js -> /output/carousel/l10n/fr.esm.min.js.br
-2023/04/26 10:09:31 gz /tmp/work/dist/carousel/l10n/fr.esm.min.js -> /output/carousel/l10n/fr.esm.min.js.gz
-2023/04/26 10:09:31 sri /tmp/work/dist/carousel/l10n/fr.esm.js -> /output/carousel/l10n/fr.esm.js.sri
-2023/04/26 10:09:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/fr.esm.js.br /tmp/work/dist/carousel/l10n/fr.esm.js
-2023/04/26 10:09:31 br /tmp/work/dist/carousel/l10n/fr.esm.js -> /output/carousel/l10n/fr.esm.js.br
-2023/04/26 10:09:31 gz /tmp/work/dist/carousel/l10n/fr.esm.js -> /output/carousel/l10n/fr.esm.js.gz
-2023/04/26 10:09:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/it.umd.min.js /tmp/work/dist/carousel/l10n/it.umd.js
-2023/04/26 10:09:31 sri /tmp/work/dist/carousel/l10n/it.esm.min.js -> /output/carousel/l10n/it.esm.min.js.sri
-2023/04/26 10:09:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/it.esm.min.js.br /tmp/work/dist/carousel/l10n/it.esm.min.js
-2023/04/26 10:09:31 br /tmp/work/dist/carousel/l10n/it.esm.min.js -> /output/carousel/l10n/it.esm.min.js.br
-2023/04/26 10:09:31 gz /tmp/work/dist/carousel/l10n/it.esm.min.js -> /output/carousel/l10n/it.esm.min.js.gz
-2023/04/26 10:09:31 sri /tmp/work/dist/carousel/l10n/it.esm.js -> /output/carousel/l10n/it.esm.js.sri
-2023/04/26 10:09:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/it.esm.js.br /tmp/work/dist/carousel/l10n/it.esm.js
-2023/04/26 10:09:31 br /tmp/work/dist/carousel/l10n/it.esm.js -> /output/carousel/l10n/it.esm.js.br
-2023/04/26 10:09:31 gz /tmp/work/dist/carousel/l10n/it.esm.js -> /output/carousel/l10n/it.esm.js.gz
-2023/04/26 10:09:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/ja.esm.min.js /tmp/work/dist/carousel/l10n/ja.esm.js
-2023/04/26 10:09:32 sri /tmp/work/dist/carousel/l10n/fr.umd.min.js -> /output/carousel/l10n/fr.umd.min.js.sri
-2023/04/26 10:09:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/fr.umd.min.js.br /tmp/work/dist/carousel/l10n/fr.umd.min.js
-2023/04/26 10:09:32 br /tmp/work/dist/carousel/l10n/fr.umd.min.js -> /output/carousel/l10n/fr.umd.min.js.br
-2023/04/26 10:09:32 gz /tmp/work/dist/carousel/l10n/fr.umd.min.js -> /output/carousel/l10n/fr.umd.min.js.gz
-2023/04/26 10:09:32 sri /tmp/work/dist/carousel/l10n/fr.umd.js -> /output/carousel/l10n/fr.umd.js.sri
-2023/04/26 10:09:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/fr.umd.js.br /tmp/work/dist/carousel/l10n/fr.umd.js
-2023/04/26 10:09:32 br /tmp/work/dist/carousel/l10n/fr.umd.js -> /output/carousel/l10n/fr.umd.js.br
-2023/04/26 10:09:32 gz /tmp/work/dist/carousel/l10n/fr.umd.js -> /output/carousel/l10n/fr.umd.js.gz
-2023/04/26 10:09:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/ja.umd.min.js /tmp/work/dist/carousel/l10n/ja.umd.js
-2023/04/26 10:09:32 br /tmp/work/dist/index.esm.min.js -> /output/index.esm.min.js.br
-2023/04/26 10:09:32 gz /tmp/work/dist/index.esm.min.js -> /output/index.esm.min.js.gz
-2023/04/26 10:09:32 sri /tmp/work/dist/index.esm.js -> /output/index.esm.js.sri
-2023/04/26 10:09:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.esm.js.br /tmp/work/dist/index.esm.js
-2023/04/26 10:09:32 sri /tmp/work/dist/carousel/l10n/it.umd.min.js -> /output/carousel/l10n/it.umd.min.js.sri
-2023/04/26 10:09:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/it.umd.min.js.br /tmp/work/dist/carousel/l10n/it.umd.min.js
-2023/04/26 10:09:32 br /tmp/work/dist/carousel/l10n/it.umd.min.js -> /output/carousel/l10n/it.umd.min.js.br
-2023/04/26 10:09:32 gz /tmp/work/dist/carousel/l10n/it.umd.min.js -> /output/carousel/l10n/it.umd.min.js.gz
-2023/04/26 10:09:32 sri /tmp/work/dist/carousel/l10n/it.umd.js -> /output/carousel/l10n/it.umd.js.sri
-2023/04/26 10:09:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/it.umd.js.br /tmp/work/dist/carousel/l10n/it.umd.js
-2023/04/26 10:09:32 br /tmp/work/dist/carousel/l10n/it.umd.js -> /output/carousel/l10n/it.umd.js.br
-2023/04/26 10:09:32 gz /tmp/work/dist/carousel/l10n/it.umd.js -> /output/carousel/l10n/it.umd.js.gz
-2023/04/26 10:09:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/pl.esm.min.js /tmp/work/dist/carousel/l10n/pl.esm.js
-2023/04/26 10:09:32 sri /tmp/work/dist/carousel/l10n/ja.esm.min.js -> /output/carousel/l10n/ja.esm.min.js.sri
-2023/04/26 10:09:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/ja.esm.min.js.br /tmp/work/dist/carousel/l10n/ja.esm.min.js
-2023/04/26 10:09:32 br /tmp/work/dist/carousel/l10n/ja.esm.min.js -> /output/carousel/l10n/ja.esm.min.js.br
-2023/04/26 10:09:32 gz /tmp/work/dist/carousel/l10n/ja.esm.min.js -> /output/carousel/l10n/ja.esm.min.js.gz
-2023/04/26 10:09:32 sri /tmp/work/dist/carousel/l10n/ja.esm.js -> /output/carousel/l10n/ja.esm.js.sri
-2023/04/26 10:09:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/ja.esm.js.br /tmp/work/dist/carousel/l10n/ja.esm.js
-2023/04/26 10:09:32 br /tmp/work/dist/carousel/l10n/ja.esm.js -> /output/carousel/l10n/ja.esm.js.br
-2023/04/26 10:09:32 gz /tmp/work/dist/carousel/l10n/ja.esm.js -> /output/carousel/l10n/ja.esm.js.gz
-2023/04/26 10:09:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/pl.umd.min.js /tmp/work/dist/carousel/l10n/pl.umd.js
-2023/04/26 10:09:32 sri /tmp/work/dist/carousel/l10n/ja.umd.min.js -> /output/carousel/l10n/ja.umd.min.js.sri
-2023/04/26 10:09:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/ja.umd.min.js.br /tmp/work/dist/carousel/l10n/ja.umd.min.js
-2023/04/26 10:09:32 sri /tmp/work/dist/carousel/l10n/pl.esm.min.js -> /output/carousel/l10n/pl.esm.min.js.sri
-2023/04/26 10:09:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/pl.esm.min.js.br /tmp/work/dist/carousel/l10n/pl.esm.min.js
-2023/04/26 10:09:32 br /tmp/work/dist/carousel/l10n/ja.umd.min.js -> /output/carousel/l10n/ja.umd.min.js.br
-2023/04/26 10:09:32 br /tmp/work/dist/carousel/l10n/pl.esm.min.js -> /output/carousel/l10n/pl.esm.min.js.br
-2023/04/26 10:09:32 gz /tmp/work/dist/carousel/l10n/ja.umd.min.js -> /output/carousel/l10n/ja.umd.min.js.gz
-2023/04/26 10:09:32 sri /tmp/work/dist/carousel/l10n/ja.umd.js -> /output/carousel/l10n/ja.umd.js.sri
-2023/04/26 10:09:32 gz /tmp/work/dist/carousel/l10n/pl.esm.min.js -> /output/carousel/l10n/pl.esm.min.js.gz
-2023/04/26 10:09:32 sri /tmp/work/dist/carousel/l10n/pl.esm.js -> /output/carousel/l10n/pl.esm.js.sri
-2023/04/26 10:09:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/pl.esm.js.br /tmp/work/dist/carousel/l10n/pl.esm.js
-2023/04/26 10:09:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/ja.umd.js.br /tmp/work/dist/carousel/l10n/ja.umd.js
-2023/04/26 10:09:32 br /tmp/work/dist/carousel/l10n/pl.esm.js -> /output/carousel/l10n/pl.esm.js.br
-2023/04/26 10:09:32 gz /tmp/work/dist/carousel/l10n/pl.esm.js -> /output/carousel/l10n/pl.esm.js.gz
-2023/04/26 10:09:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/de.esm.min.js /tmp/work/dist/fancybox/l10n/de.esm.js
-2023/04/26 10:09:32 br /tmp/work/dist/carousel/l10n/ja.umd.js -> /output/carousel/l10n/ja.umd.js.br
-2023/04/26 10:09:32 gz /tmp/work/dist/carousel/l10n/ja.umd.js -> /output/carousel/l10n/ja.umd.js.gz
-2023/04/26 10:09:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/de.umd.min.js /tmp/work/dist/fancybox/l10n/de.umd.js
-2023/04/26 10:09:32 sri /tmp/work/dist/fancybox/fancybox.esm.min.js -> /output/fancybox/fancybox.esm.min.js.sri
-2023/04/26 10:09:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/fancybox.esm.min.js.br /tmp/work/dist/fancybox/fancybox.esm.min.js
-2023/04/26 10:09:32 sri /tmp/work/dist/index.umd.min.js -> /output/index.umd.min.js.sri
-2023/04/26 10:09:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.umd.min.js.br /tmp/work/dist/index.umd.min.js
-2023/04/26 10:09:32 br /tmp/work/dist/index.esm.js -> /output/index.esm.js.br
-2023/04/26 10:09:32 gz /tmp/work/dist/index.esm.js -> /output/index.esm.js.gz
-2023/04/26 10:09:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/en.esm.min.js /tmp/work/dist/fancybox/l10n/en.esm.js
-2023/04/26 10:09:32 sri /tmp/work/dist/carousel/l10n/pl.umd.min.js -> /output/carousel/l10n/pl.umd.min.js.sri
-2023/04/26 10:09:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/pl.umd.min.js.br /tmp/work/dist/carousel/l10n/pl.umd.min.js
-2023/04/26 10:09:32 br /tmp/work/dist/carousel/l10n/pl.umd.min.js -> /output/carousel/l10n/pl.umd.min.js.br
-2023/04/26 10:09:32 gz /tmp/work/dist/carousel/l10n/pl.umd.min.js -> /output/carousel/l10n/pl.umd.min.js.gz
-2023/04/26 10:09:32 sri /tmp/work/dist/carousel/l10n/pl.umd.js -> /output/carousel/l10n/pl.umd.js.sri
-2023/04/26 10:09:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/pl.umd.js.br /tmp/work/dist/carousel/l10n/pl.umd.js
-2023/04/26 10:09:32 br /tmp/work/dist/carousel/l10n/pl.umd.js -> /output/carousel/l10n/pl.umd.js.br
-2023/04/26 10:09:32 gz /tmp/work/dist/carousel/l10n/pl.umd.js -> /output/carousel/l10n/pl.umd.js.gz
-2023/04/26 10:09:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/en.umd.min.js /tmp/work/dist/fancybox/l10n/en.umd.js
-2023/04/26 10:09:32 sri /tmp/work/dist/fancybox/l10n/de.esm.min.js -> /output/fancybox/l10n/de.esm.min.js.sri
-2023/04/26 10:09:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/de.esm.min.js.br /tmp/work/dist/fancybox/l10n/de.esm.min.js
-2023/04/26 10:09:32 br /tmp/work/dist/fancybox/l10n/de.esm.min.js -> /output/fancybox/l10n/de.esm.min.js.br
-2023/04/26 10:09:32 gz /tmp/work/dist/fancybox/l10n/de.esm.min.js -> /output/fancybox/l10n/de.esm.min.js.gz
-2023/04/26 10:09:32 sri /tmp/work/dist/fancybox/l10n/de.esm.js -> /output/fancybox/l10n/de.esm.js.sri
-2023/04/26 10:09:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/de.esm.js.br /tmp/work/dist/fancybox/l10n/de.esm.js
-2023/04/26 10:09:32 br /tmp/work/dist/fancybox/l10n/de.esm.js -> /output/fancybox/l10n/de.esm.js.br
-2023/04/26 10:09:32 gz /tmp/work/dist/fancybox/l10n/de.esm.js -> /output/fancybox/l10n/de.esm.js.gz
-2023/04/26 10:09:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/es.esm.min.js /tmp/work/dist/fancybox/l10n/es.esm.js
-2023/04/26 10:09:32 sri /tmp/work/dist/fancybox/l10n/de.umd.min.js -> /output/fancybox/l10n/de.umd.min.js.sri
-2023/04/26 10:09:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/de.umd.min.js.br /tmp/work/dist/fancybox/l10n/de.umd.min.js
-2023/04/26 10:09:32 br /tmp/work/dist/fancybox/l10n/de.umd.min.js -> /output/fancybox/l10n/de.umd.min.js.br
-2023/04/26 10:09:32 gz /tmp/work/dist/fancybox/l10n/de.umd.min.js -> /output/fancybox/l10n/de.umd.min.js.gz
-2023/04/26 10:09:32 sri /tmp/work/dist/fancybox/l10n/de.umd.js -> /output/fancybox/l10n/de.umd.js.sri
-2023/04/26 10:09:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/de.umd.js.br /tmp/work/dist/fancybox/l10n/de.umd.js
-2023/04/26 10:09:32 br /tmp/work/dist/fancybox/l10n/de.umd.js -> /output/fancybox/l10n/de.umd.js.br
-2023/04/26 10:09:32 gz /tmp/work/dist/fancybox/l10n/de.umd.js -> /output/fancybox/l10n/de.umd.js.gz
-2023/04/26 10:09:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/es.umd.min.js /tmp/work/dist/fancybox/l10n/es.umd.js
-2023/04/26 10:09:32 sri /tmp/work/dist/fancybox/l10n/en.esm.min.js -> /output/fancybox/l10n/en.esm.min.js.sri
-2023/04/26 10:09:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/en.esm.min.js.br /tmp/work/dist/fancybox/l10n/en.esm.min.js
-2023/04/26 10:09:32 br /tmp/work/dist/fancybox/l10n/en.esm.min.js -> /output/fancybox/l10n/en.esm.min.js.br
-2023/04/26 10:09:32 gz /tmp/work/dist/fancybox/l10n/en.esm.min.js -> /output/fancybox/l10n/en.esm.min.js.gz
-2023/04/26 10:09:32 sri /tmp/work/dist/fancybox/l10n/en.esm.js -> /output/fancybox/l10n/en.esm.js.sri
-2023/04/26 10:09:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/en.esm.js.br /tmp/work/dist/fancybox/l10n/en.esm.js
-2023/04/26 10:09:32 br /tmp/work/dist/fancybox/l10n/en.esm.js -> /output/fancybox/l10n/en.esm.js.br
-2023/04/26 10:09:32 gz /tmp/work/dist/fancybox/l10n/en.esm.js -> /output/fancybox/l10n/en.esm.js.gz
-2023/04/26 10:09:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/fr.esm.min.js /tmp/work/dist/fancybox/l10n/fr.esm.js
-2023/04/26 10:09:32 br /tmp/work/dist/fancybox/fancybox.esm.min.js -> /output/fancybox/fancybox.esm.min.js.br
-2023/04/26 10:09:32 br /tmp/work/dist/index.umd.min.js -> /output/index.umd.min.js.br
-2023/04/26 10:09:32 gz /tmp/work/dist/fancybox/fancybox.esm.min.js -> /output/fancybox/fancybox.esm.min.js.gz
-2023/04/26 10:09:32 sri /tmp/work/dist/fancybox/fancybox.esm.js -> /output/fancybox/fancybox.esm.js.sri
-2023/04/26 10:09:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/fancybox.esm.js.br /tmp/work/dist/fancybox/fancybox.esm.js
-2023/04/26 10:09:32 gz /tmp/work/dist/index.umd.min.js -> /output/index.umd.min.js.gz
-2023/04/26 10:09:32 sri /tmp/work/dist/index.umd.js -> /output/index.umd.js.sri
-2023/04/26 10:09:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.umd.js.br /tmp/work/dist/index.umd.js
-2023/04/26 10:09:32 sri /tmp/work/dist/fancybox/l10n/es.esm.min.js -> /output/fancybox/l10n/es.esm.min.js.sri
-2023/04/26 10:09:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/es.esm.min.js.br /tmp/work/dist/fancybox/l10n/es.esm.min.js
-2023/04/26 10:09:32 sri /tmp/work/dist/fancybox/l10n/en.umd.min.js -> /output/fancybox/l10n/en.umd.min.js.sri
-2023/04/26 10:09:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/en.umd.min.js.br /tmp/work/dist/fancybox/l10n/en.umd.min.js
-2023/04/26 10:09:32 br /tmp/work/dist/fancybox/l10n/es.esm.min.js -> /output/fancybox/l10n/es.esm.min.js.br
-2023/04/26 10:09:32 gz /tmp/work/dist/fancybox/l10n/es.esm.min.js -> /output/fancybox/l10n/es.esm.min.js.gz
-2023/04/26 10:09:32 sri /tmp/work/dist/fancybox/l10n/es.esm.js -> /output/fancybox/l10n/es.esm.js.sri
-2023/04/26 10:09:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/es.esm.js.br /tmp/work/dist/fancybox/l10n/es.esm.js
-2023/04/26 10:09:32 br /tmp/work/dist/fancybox/l10n/en.umd.min.js -> /output/fancybox/l10n/en.umd.min.js.br
-2023/04/26 10:09:32 gz /tmp/work/dist/fancybox/l10n/en.umd.min.js -> /output/fancybox/l10n/en.umd.min.js.gz
-2023/04/26 10:09:32 sri /tmp/work/dist/fancybox/l10n/en.umd.js -> /output/fancybox/l10n/en.umd.js.sri
-2023/04/26 10:09:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/en.umd.js.br /tmp/work/dist/fancybox/l10n/en.umd.js
-2023/04/26 10:09:32 br /tmp/work/dist/fancybox/l10n/es.esm.js -> /output/fancybox/l10n/es.esm.js.br
-2023/04/26 10:09:32 gz /tmp/work/dist/fancybox/l10n/es.esm.js -> /output/fancybox/l10n/es.esm.js.gz
-2023/04/26 10:09:32 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/fr.umd.min.js /tmp/work/dist/fancybox/l10n/fr.umd.js
-2023/04/26 10:09:33 sri /tmp/work/dist/fancybox/l10n/es.umd.min.js -> /output/fancybox/l10n/es.umd.min.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/es.umd.min.js.br /tmp/work/dist/fancybox/l10n/es.umd.min.js
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/panzoom.umd.min.js -> /output/panzoom/panzoom.umd.min.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.umd.min.js.br /tmp/work/dist/panzoom/panzoom.umd.min.js
-2023/04/26 10:09:33 br /tmp/work/dist/fancybox/l10n/en.umd.js -> /output/fancybox/l10n/en.umd.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/fancybox/l10n/en.umd.js -> /output/fancybox/l10n/en.umd.js.gz
-2023/04/26 10:09:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/it.esm.min.js /tmp/work/dist/fancybox/l10n/it.esm.js
-2023/04/26 10:09:33 br /tmp/work/dist/fancybox/l10n/es.umd.min.js -> /output/fancybox/l10n/es.umd.min.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/fancybox/l10n/es.umd.min.js -> /output/fancybox/l10n/es.umd.min.js.gz
-2023/04/26 10:09:33 sri /tmp/work/dist/fancybox/l10n/es.umd.js -> /output/fancybox/l10n/es.umd.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/es.umd.js.br /tmp/work/dist/fancybox/l10n/es.umd.js
-2023/04/26 10:09:33 br /tmp/work/dist/fancybox/l10n/es.umd.js -> /output/fancybox/l10n/es.umd.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/fancybox/l10n/es.umd.js -> /output/fancybox/l10n/es.umd.js.gz
-2023/04/26 10:09:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/it.umd.min.js /tmp/work/dist/fancybox/l10n/it.umd.js
-2023/04/26 10:09:33 sri /tmp/work/dist/fancybox/l10n/fr.esm.min.js -> /output/fancybox/l10n/fr.esm.min.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/fr.esm.min.js.br /tmp/work/dist/fancybox/l10n/fr.esm.min.js
-2023/04/26 10:09:33 br /tmp/work/dist/fancybox/l10n/fr.esm.min.js -> /output/fancybox/l10n/fr.esm.min.js.br
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/panzoom.umd.min.js -> /output/panzoom/panzoom.umd.min.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/fancybox/l10n/fr.esm.min.js -> /output/fancybox/l10n/fr.esm.min.js.gz
-2023/04/26 10:09:33 sri /tmp/work/dist/fancybox/l10n/fr.esm.js -> /output/fancybox/l10n/fr.esm.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/fr.esm.js.br /tmp/work/dist/fancybox/l10n/fr.esm.js
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/panzoom.umd.min.js -> /output/panzoom/panzoom.umd.min.js.gz
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/panzoom.umd.js -> /output/panzoom/panzoom.umd.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.umd.js.br /tmp/work/dist/panzoom/panzoom.umd.js
-2023/04/26 10:09:33 br /tmp/work/dist/fancybox/l10n/fr.esm.js -> /output/fancybox/l10n/fr.esm.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/fancybox/l10n/fr.esm.js -> /output/fancybox/l10n/fr.esm.js.gz
-2023/04/26 10:09:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/ja.esm.min.js /tmp/work/dist/fancybox/l10n/ja.esm.js
-2023/04/26 10:09:33 sri /tmp/work/dist/fancybox/l10n/it.esm.min.js -> /output/fancybox/l10n/it.esm.min.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/it.esm.min.js.br /tmp/work/dist/fancybox/l10n/it.esm.min.js
-2023/04/26 10:09:33 br /tmp/work/dist/fancybox/l10n/it.esm.min.js -> /output/fancybox/l10n/it.esm.min.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/fancybox/l10n/it.esm.min.js -> /output/fancybox/l10n/it.esm.min.js.gz
-2023/04/26 10:09:33 sri /tmp/work/dist/fancybox/l10n/it.esm.js -> /output/fancybox/l10n/it.esm.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/it.esm.js.br /tmp/work/dist/fancybox/l10n/it.esm.js
-2023/04/26 10:09:33 br /tmp/work/dist/fancybox/l10n/it.esm.js -> /output/fancybox/l10n/it.esm.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/fancybox/l10n/it.esm.js -> /output/fancybox/l10n/it.esm.js.gz
-2023/04/26 10:09:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/ja.umd.min.js /tmp/work/dist/fancybox/l10n/ja.umd.js
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/panzoom.umd.js -> /output/panzoom/panzoom.umd.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/panzoom.umd.js -> /output/panzoom/panzoom.umd.js.gz
-2023/04/26 10:09:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/pl.esm.min.js /tmp/work/dist/fancybox/l10n/pl.esm.js
-2023/04/26 10:09:33 sri /tmp/work/dist/fancybox/l10n/fr.umd.min.js -> /output/fancybox/l10n/fr.umd.min.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/fr.umd.min.js.br /tmp/work/dist/fancybox/l10n/fr.umd.min.js
-2023/04/26 10:09:33 br /tmp/work/dist/fancybox/l10n/fr.umd.min.js -> /output/fancybox/l10n/fr.umd.min.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/fancybox/l10n/fr.umd.min.js -> /output/fancybox/l10n/fr.umd.min.js.gz
-2023/04/26 10:09:33 sri /tmp/work/dist/fancybox/l10n/fr.umd.js -> /output/fancybox/l10n/fr.umd.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/fr.umd.js.br /tmp/work/dist/fancybox/l10n/fr.umd.js
-2023/04/26 10:09:33 br /tmp/work/dist/fancybox/l10n/fr.umd.js -> /output/fancybox/l10n/fr.umd.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/fancybox/l10n/fr.umd.js -> /output/fancybox/l10n/fr.umd.js.gz
-2023/04/26 10:09:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/pl.umd.min.js /tmp/work/dist/fancybox/l10n/pl.umd.js
-2023/04/26 10:09:33 sri /tmp/work/dist/fancybox/l10n/it.umd.min.js -> /output/fancybox/l10n/it.umd.min.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/it.umd.min.js.br /tmp/work/dist/fancybox/l10n/it.umd.min.js
-2023/04/26 10:09:33 br /tmp/work/dist/fancybox/l10n/it.umd.min.js -> /output/fancybox/l10n/it.umd.min.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/fancybox/l10n/it.umd.min.js -> /output/fancybox/l10n/it.umd.min.js.gz
-2023/04/26 10:09:33 sri /tmp/work/dist/fancybox/l10n/it.umd.js -> /output/fancybox/l10n/it.umd.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/it.umd.js.br /tmp/work/dist/fancybox/l10n/it.umd.js
-2023/04/26 10:09:33 br /tmp/work/dist/fancybox/l10n/it.umd.js -> /output/fancybox/l10n/it.umd.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/fancybox/l10n/it.umd.js -> /output/fancybox/l10n/it.umd.js.gz
-2023/04/26 10:09:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/de.esm.min.js /tmp/work/dist/panzoom/l10n/de.esm.js
-2023/04/26 10:09:33 sri /tmp/work/dist/fancybox/l10n/ja.esm.min.js -> /output/fancybox/l10n/ja.esm.min.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/ja.esm.min.js.br /tmp/work/dist/fancybox/l10n/ja.esm.min.js
-2023/04/26 10:09:33 br /tmp/work/dist/fancybox/l10n/ja.esm.min.js -> /output/fancybox/l10n/ja.esm.min.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/fancybox/l10n/ja.esm.min.js -> /output/fancybox/l10n/ja.esm.min.js.gz
-2023/04/26 10:09:33 sri /tmp/work/dist/fancybox/l10n/ja.esm.js -> /output/fancybox/l10n/ja.esm.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/ja.esm.js.br /tmp/work/dist/fancybox/l10n/ja.esm.js
-2023/04/26 10:09:33 br /tmp/work/dist/fancybox/l10n/ja.esm.js -> /output/fancybox/l10n/ja.esm.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/fancybox/l10n/ja.esm.js -> /output/fancybox/l10n/ja.esm.js.gz
-2023/04/26 10:09:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/de.umd.min.js /tmp/work/dist/panzoom/l10n/de.umd.js
-2023/04/26 10:09:33 br /tmp/work/dist/fancybox/fancybox.esm.js -> /output/fancybox/fancybox.esm.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/fancybox/fancybox.esm.js -> /output/fancybox/fancybox.esm.js.gz
-2023/04/26 10:09:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/en.esm.min.js /tmp/work/dist/panzoom/l10n/en.esm.js
-2023/04/26 10:09:33 br /tmp/work/dist/index.umd.js -> /output/index.umd.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/index.umd.js -> /output/index.umd.js.gz
-2023/04/26 10:09:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/en.umd.min.js /tmp/work/dist/panzoom/l10n/en.umd.js
-2023/04/26 10:09:33 sri /tmp/work/dist/fancybox/l10n/pl.esm.min.js -> /output/fancybox/l10n/pl.esm.min.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/pl.esm.min.js.br /tmp/work/dist/fancybox/l10n/pl.esm.min.js
-2023/04/26 10:09:33 sri /tmp/work/dist/fancybox/l10n/ja.umd.min.js -> /output/fancybox/l10n/ja.umd.min.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/ja.umd.min.js.br /tmp/work/dist/fancybox/l10n/ja.umd.min.js
-2023/04/26 10:09:33 br /tmp/work/dist/fancybox/l10n/pl.esm.min.js -> /output/fancybox/l10n/pl.esm.min.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/fancybox/l10n/pl.esm.min.js -> /output/fancybox/l10n/pl.esm.min.js.gz
-2023/04/26 10:09:33 sri /tmp/work/dist/fancybox/l10n/pl.esm.js -> /output/fancybox/l10n/pl.esm.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/pl.esm.js.br /tmp/work/dist/fancybox/l10n/pl.esm.js
-2023/04/26 10:09:33 br /tmp/work/dist/fancybox/l10n/ja.umd.min.js -> /output/fancybox/l10n/ja.umd.min.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/fancybox/l10n/ja.umd.min.js -> /output/fancybox/l10n/ja.umd.min.js.gz
-2023/04/26 10:09:33 sri /tmp/work/dist/fancybox/l10n/ja.umd.js -> /output/fancybox/l10n/ja.umd.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/ja.umd.js.br /tmp/work/dist/fancybox/l10n/ja.umd.js
-2023/04/26 10:09:33 br /tmp/work/dist/fancybox/l10n/pl.esm.js -> /output/fancybox/l10n/pl.esm.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/fancybox/l10n/pl.esm.js -> /output/fancybox/l10n/pl.esm.js.gz
-2023/04/26 10:09:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/es.esm.min.js /tmp/work/dist/panzoom/l10n/es.esm.js
-2023/04/26 10:09:33 br /tmp/work/dist/fancybox/l10n/ja.umd.js -> /output/fancybox/l10n/ja.umd.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/fancybox/l10n/ja.umd.js -> /output/fancybox/l10n/ja.umd.js.gz
-2023/04/26 10:09:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/es.umd.min.js /tmp/work/dist/panzoom/l10n/es.umd.js
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/l10n/de.esm.min.js -> /output/panzoom/l10n/de.esm.min.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/de.esm.min.js.br /tmp/work/dist/panzoom/l10n/de.esm.min.js
-2023/04/26 10:09:33 sri /tmp/work/dist/fancybox/l10n/pl.umd.min.js -> /output/fancybox/l10n/pl.umd.min.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/pl.umd.min.js.br /tmp/work/dist/fancybox/l10n/pl.umd.min.js
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/l10n/de.esm.min.js -> /output/panzoom/l10n/de.esm.min.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/l10n/de.esm.min.js -> /output/panzoom/l10n/de.esm.min.js.gz
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/l10n/de.esm.js -> /output/panzoom/l10n/de.esm.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/de.esm.js.br /tmp/work/dist/panzoom/l10n/de.esm.js
-2023/04/26 10:09:33 br /tmp/work/dist/fancybox/l10n/pl.umd.min.js -> /output/fancybox/l10n/pl.umd.min.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/fancybox/l10n/pl.umd.min.js -> /output/fancybox/l10n/pl.umd.min.js.gz
-2023/04/26 10:09:33 sri /tmp/work/dist/fancybox/l10n/pl.umd.js -> /output/fancybox/l10n/pl.umd.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/pl.umd.js.br /tmp/work/dist/fancybox/l10n/pl.umd.js
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/l10n/de.esm.js -> /output/panzoom/l10n/de.esm.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/l10n/de.esm.js -> /output/panzoom/l10n/de.esm.js.gz
-2023/04/26 10:09:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/fr.esm.min.js /tmp/work/dist/panzoom/l10n/fr.esm.js
-2023/04/26 10:09:33 br /tmp/work/dist/fancybox/l10n/pl.umd.js -> /output/fancybox/l10n/pl.umd.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/fancybox/l10n/pl.umd.js -> /output/fancybox/l10n/pl.umd.js.gz
-2023/04/26 10:09:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/fr.umd.min.js /tmp/work/dist/panzoom/l10n/fr.umd.js
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/l10n/en.esm.min.js -> /output/panzoom/l10n/en.esm.min.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/en.esm.min.js.br /tmp/work/dist/panzoom/l10n/en.esm.min.js
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/l10n/en.esm.min.js -> /output/panzoom/l10n/en.esm.min.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/l10n/en.esm.min.js -> /output/panzoom/l10n/en.esm.min.js.gz
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/l10n/en.esm.js -> /output/panzoom/l10n/en.esm.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/en.esm.js.br /tmp/work/dist/panzoom/l10n/en.esm.js
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/l10n/de.umd.min.js -> /output/panzoom/l10n/de.umd.min.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/de.umd.min.js.br /tmp/work/dist/panzoom/l10n/de.umd.min.js
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/l10n/en.esm.js -> /output/panzoom/l10n/en.esm.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/l10n/en.esm.js -> /output/panzoom/l10n/en.esm.js.gz
-2023/04/26 10:09:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/it.esm.min.js /tmp/work/dist/panzoom/l10n/it.esm.js
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/l10n/de.umd.min.js -> /output/panzoom/l10n/de.umd.min.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/l10n/de.umd.min.js -> /output/panzoom/l10n/de.umd.min.js.gz
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/l10n/de.umd.js -> /output/panzoom/l10n/de.umd.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/de.umd.js.br /tmp/work/dist/panzoom/l10n/de.umd.js
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/l10n/de.umd.js -> /output/panzoom/l10n/de.umd.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/l10n/de.umd.js -> /output/panzoom/l10n/de.umd.js.gz
-2023/04/26 10:09:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/it.umd.min.js /tmp/work/dist/panzoom/l10n/it.umd.js
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/l10n/en.umd.min.js -> /output/panzoom/l10n/en.umd.min.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/en.umd.min.js.br /tmp/work/dist/panzoom/l10n/en.umd.min.js
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/l10n/en.umd.min.js -> /output/panzoom/l10n/en.umd.min.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/l10n/en.umd.min.js -> /output/panzoom/l10n/en.umd.min.js.gz
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/l10n/en.umd.js -> /output/panzoom/l10n/en.umd.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/en.umd.js.br /tmp/work/dist/panzoom/l10n/en.umd.js
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/l10n/en.umd.js -> /output/panzoom/l10n/en.umd.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/l10n/en.umd.js -> /output/panzoom/l10n/en.umd.js.gz
-2023/04/26 10:09:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/ja.esm.min.js /tmp/work/dist/panzoom/l10n/ja.esm.js
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/l10n/es.esm.min.js -> /output/panzoom/l10n/es.esm.min.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/es.esm.min.js.br /tmp/work/dist/panzoom/l10n/es.esm.min.js
-2023/04/26 10:09:33 sri /tmp/work/dist/fancybox/fancybox.umd.min.js -> /output/fancybox/fancybox.umd.min.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/fancybox.umd.min.js.br /tmp/work/dist/fancybox/fancybox.umd.min.js
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/l10n/es.esm.min.js -> /output/panzoom/l10n/es.esm.min.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/l10n/es.esm.min.js -> /output/panzoom/l10n/es.esm.min.js.gz
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/l10n/es.esm.js -> /output/panzoom/l10n/es.esm.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/es.esm.js.br /tmp/work/dist/panzoom/l10n/es.esm.js
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/l10n/es.esm.js -> /output/panzoom/l10n/es.esm.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/l10n/es.esm.js -> /output/panzoom/l10n/es.esm.js.gz
-2023/04/26 10:09:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/ja.umd.min.js /tmp/work/dist/panzoom/l10n/ja.umd.js
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/l10n/es.umd.min.js -> /output/panzoom/l10n/es.umd.min.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/es.umd.min.js.br /tmp/work/dist/panzoom/l10n/es.umd.min.js
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/l10n/es.umd.min.js -> /output/panzoom/l10n/es.umd.min.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/l10n/es.umd.min.js -> /output/panzoom/l10n/es.umd.min.js.gz
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/l10n/es.umd.js -> /output/panzoom/l10n/es.umd.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/es.umd.js.br /tmp/work/dist/panzoom/l10n/es.umd.js
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/l10n/es.umd.js -> /output/panzoom/l10n/es.umd.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/l10n/es.umd.js -> /output/panzoom/l10n/es.umd.js.gz
-2023/04/26 10:09:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/pl.esm.min.js /tmp/work/dist/panzoom/l10n/pl.esm.js
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/l10n/fr.esm.min.js -> /output/panzoom/l10n/fr.esm.min.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/fr.esm.min.js.br /tmp/work/dist/panzoom/l10n/fr.esm.min.js
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/l10n/fr.esm.min.js -> /output/panzoom/l10n/fr.esm.min.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/l10n/fr.esm.min.js -> /output/panzoom/l10n/fr.esm.min.js.gz
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/l10n/fr.esm.js -> /output/panzoom/l10n/fr.esm.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/fr.esm.js.br /tmp/work/dist/panzoom/l10n/fr.esm.js
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/l10n/fr.esm.js -> /output/panzoom/l10n/fr.esm.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/l10n/fr.esm.js -> /output/panzoom/l10n/fr.esm.js.gz
-2023/04/26 10:09:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/pl.umd.min.js /tmp/work/dist/panzoom/l10n/pl.umd.js
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/l10n/it.esm.min.js -> /output/panzoom/l10n/it.esm.min.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/it.esm.min.js.br /tmp/work/dist/panzoom/l10n/it.esm.min.js
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/l10n/it.esm.min.js -> /output/panzoom/l10n/it.esm.min.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/l10n/it.esm.min.js -> /output/panzoom/l10n/it.esm.min.js.gz
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/l10n/it.esm.js -> /output/panzoom/l10n/it.esm.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/it.esm.js.br /tmp/work/dist/panzoom/l10n/it.esm.js
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/l10n/fr.umd.min.js -> /output/panzoom/l10n/fr.umd.min.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/fr.umd.min.js.br /tmp/work/dist/panzoom/l10n/fr.umd.min.js
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/l10n/it.esm.js -> /output/panzoom/l10n/it.esm.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/l10n/it.esm.js -> /output/panzoom/l10n/it.esm.js.gz
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/l10n/fr.umd.min.js -> /output/panzoom/l10n/fr.umd.min.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/l10n/fr.umd.min.js -> /output/panzoom/l10n/fr.umd.min.js.gz
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/l10n/fr.umd.js -> /output/panzoom/l10n/fr.umd.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/fr.umd.js.br /tmp/work/dist/panzoom/l10n/fr.umd.js
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/l10n/it.umd.min.js -> /output/panzoom/l10n/it.umd.min.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/it.umd.min.js.br /tmp/work/dist/panzoom/l10n/it.umd.min.js
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/l10n/fr.umd.js -> /output/panzoom/l10n/fr.umd.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/l10n/fr.umd.js -> /output/panzoom/l10n/fr.umd.js.gz
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/l10n/it.umd.min.js -> /output/panzoom/l10n/it.umd.min.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/l10n/it.umd.min.js -> /output/panzoom/l10n/it.umd.min.js.gz
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/l10n/it.umd.js -> /output/panzoom/l10n/it.umd.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/it.umd.js.br /tmp/work/dist/panzoom/l10n/it.umd.js
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/l10n/it.umd.js -> /output/panzoom/l10n/it.umd.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/l10n/it.umd.js -> /output/panzoom/l10n/it.umd.js.gz
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/l10n/ja.esm.min.js -> /output/panzoom/l10n/ja.esm.min.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/ja.esm.min.js.br /tmp/work/dist/panzoom/l10n/ja.esm.min.js
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/l10n/ja.esm.min.js -> /output/panzoom/l10n/ja.esm.min.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/l10n/ja.esm.min.js -> /output/panzoom/l10n/ja.esm.min.js.gz
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/l10n/ja.esm.js -> /output/panzoom/l10n/ja.esm.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/ja.esm.js.br /tmp/work/dist/panzoom/l10n/ja.esm.js
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/l10n/ja.esm.js -> /output/panzoom/l10n/ja.esm.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/l10n/ja.esm.js -> /output/panzoom/l10n/ja.esm.js.gz
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/l10n/ja.umd.min.js -> /output/panzoom/l10n/ja.umd.min.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/ja.umd.min.js.br /tmp/work/dist/panzoom/l10n/ja.umd.min.js
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/l10n/ja.umd.min.js -> /output/panzoom/l10n/ja.umd.min.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/l10n/ja.umd.min.js -> /output/panzoom/l10n/ja.umd.min.js.gz
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/l10n/ja.umd.js -> /output/panzoom/l10n/ja.umd.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/ja.umd.js.br /tmp/work/dist/panzoom/l10n/ja.umd.js
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/l10n/ja.umd.js -> /output/panzoom/l10n/ja.umd.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/l10n/ja.umd.js -> /output/panzoom/l10n/ja.umd.js.gz
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/l10n/pl.esm.min.js -> /output/panzoom/l10n/pl.esm.min.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/pl.esm.min.js.br /tmp/work/dist/panzoom/l10n/pl.esm.min.js
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/l10n/pl.esm.min.js -> /output/panzoom/l10n/pl.esm.min.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/l10n/pl.esm.min.js -> /output/panzoom/l10n/pl.esm.min.js.gz
-2023/04/26 10:09:33 sri /tmp/work/dist/panzoom/l10n/pl.esm.js -> /output/panzoom/l10n/pl.esm.js.sri
-2023/04/26 10:09:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/pl.esm.js.br /tmp/work/dist/panzoom/l10n/pl.esm.js
-2023/04/26 10:09:33 br /tmp/work/dist/panzoom/l10n/pl.esm.js -> /output/panzoom/l10n/pl.esm.js.br
-2023/04/26 10:09:33 gz /tmp/work/dist/panzoom/l10n/pl.esm.js -> /output/panzoom/l10n/pl.esm.js.gz
-2023/04/26 10:09:34 sri /tmp/work/dist/panzoom/l10n/pl.umd.min.js -> /output/panzoom/l10n/pl.umd.min.js.sri
-2023/04/26 10:09:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/pl.umd.min.js.br /tmp/work/dist/panzoom/l10n/pl.umd.min.js
-2023/04/26 10:09:34 br /tmp/work/dist/panzoom/l10n/pl.umd.min.js -> /output/panzoom/l10n/pl.umd.min.js.br
-2023/04/26 10:09:34 gz /tmp/work/dist/panzoom/l10n/pl.umd.min.js -> /output/panzoom/l10n/pl.umd.min.js.gz
-2023/04/26 10:09:34 sri /tmp/work/dist/panzoom/l10n/pl.umd.js -> /output/panzoom/l10n/pl.umd.js.sri
-2023/04/26 10:09:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/pl.umd.js.br /tmp/work/dist/panzoom/l10n/pl.umd.js
-2023/04/26 10:09:34 br /tmp/work/dist/panzoom/l10n/pl.umd.js -> /output/panzoom/l10n/pl.umd.js.br
-2023/04/26 10:09:34 gz /tmp/work/dist/panzoom/l10n/pl.umd.js -> /output/panzoom/l10n/pl.umd.js.gz
-2023/04/26 10:09:34 br /tmp/work/dist/fancybox/fancybox.umd.min.js -> /output/fancybox/fancybox.umd.min.js.br
-2023/04/26 10:09:34 gz /tmp/work/dist/fancybox/fancybox.umd.min.js -> /output/fancybox/fancybox.umd.min.js.gz
-2023/04/26 10:09:34 sri /tmp/work/dist/fancybox/fancybox.umd.js -> /output/fancybox/fancybox.umd.js.sri
-2023/04/26 10:09:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/fancybox.umd.js.br /tmp/work/dist/fancybox/fancybox.umd.js
-2023/04/26 10:09:34 br /tmp/work/dist/fancybox/fancybox.umd.js -> /output/fancybox/fancybox.umd.js.br
-2023/04/26 10:09:34 gz /tmp/work/dist/fancybox/fancybox.umd.js -> /output/fancybox/fancybox.umd.js.gz
-2023/04/26 10:09:34 processed fancyapps-ui
+2023/07/31 12:08:55 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/31 12:08:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.umd.min.js /tmp/work/dist/index.umd.js
+2023/07/31 12:08:55 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/carousel/carousel.autoplay.min.css /tmp/work/dist/carousel/carousel.autoplay.css
+2023/07/31 12:08:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/carousel.autoplay.esm.min.js /tmp/work/dist/carousel/carousel.autoplay.esm.js
+2023/07/31 12:08:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/carousel.autoplay.umd.min.js /tmp/work/dist/carousel/carousel.autoplay.umd.js
+2023/07/31 12:08:55 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/carousel/carousel.min.css /tmp/work/dist/carousel/carousel.css
+2023/07/31 12:08:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/carousel.esm.min.js /tmp/work/dist/carousel/carousel.esm.js
+2023/07/31 12:08:55 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/carousel/carousel.thumbs.min.css /tmp/work/dist/carousel/carousel.thumbs.css
+2023/07/31 12:08:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.esm.min.js /tmp/work/dist/index.esm.js
+2023/07/31 12:08:56 sri /tmp/work/dist/carousel/carousel.autoplay.min.css -> /output/carousel/carousel.autoplay.min.css.sri
+2023/07/31 12:08:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.autoplay.min.css.br /tmp/work/dist/carousel/carousel.autoplay.min.css
+2023/07/31 12:08:56 br /tmp/work/dist/carousel/carousel.autoplay.min.css -> /output/carousel/carousel.autoplay.min.css.br
+2023/07/31 12:08:56 gz /tmp/work/dist/carousel/carousel.autoplay.min.css -> /output/carousel/carousel.autoplay.min.css.gz
+2023/07/31 12:08:56 sri /tmp/work/dist/carousel/carousel.autoplay.css -> /output/carousel/carousel.autoplay.css.sri
+2023/07/31 12:08:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.autoplay.css.br /tmp/work/dist/carousel/carousel.autoplay.css
+2023/07/31 12:08:56 br /tmp/work/dist/carousel/carousel.autoplay.css -> /output/carousel/carousel.autoplay.css.br
+2023/07/31 12:08:56 gz /tmp/work/dist/carousel/carousel.autoplay.css -> /output/carousel/carousel.autoplay.css.gz
+2023/07/31 12:08:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/carousel.thumbs.esm.min.js /tmp/work/dist/carousel/carousel.thumbs.esm.js
+2023/07/31 12:08:57 sri /tmp/work/dist/carousel/carousel.thumbs.min.css -> /output/carousel/carousel.thumbs.min.css.sri
+2023/07/31 12:08:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.thumbs.min.css.br /tmp/work/dist/carousel/carousel.thumbs.min.css
+2023/07/31 12:08:57 br /tmp/work/dist/carousel/carousel.thumbs.min.css -> /output/carousel/carousel.thumbs.min.css.br
+2023/07/31 12:08:57 gz /tmp/work/dist/carousel/carousel.thumbs.min.css -> /output/carousel/carousel.thumbs.min.css.gz
+2023/07/31 12:08:57 sri /tmp/work/dist/carousel/carousel.thumbs.css -> /output/carousel/carousel.thumbs.css.sri
+2023/07/31 12:08:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.thumbs.css.br /tmp/work/dist/carousel/carousel.thumbs.css
+2023/07/31 12:08:57 sri /tmp/work/dist/carousel/carousel.min.css -> /output/carousel/carousel.min.css.sri
+2023/07/31 12:08:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.min.css.br /tmp/work/dist/carousel/carousel.min.css
+2023/07/31 12:08:57 br /tmp/work/dist/carousel/carousel.thumbs.css -> /output/carousel/carousel.thumbs.css.br
+2023/07/31 12:08:57 gz /tmp/work/dist/carousel/carousel.thumbs.css -> /output/carousel/carousel.thumbs.css.gz
+2023/07/31 12:08:57 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/carousel.thumbs.umd.min.js /tmp/work/dist/carousel/carousel.thumbs.umd.js
+2023/07/31 12:08:57 br /tmp/work/dist/carousel/carousel.min.css -> /output/carousel/carousel.min.css.br
+2023/07/31 12:08:57 gz /tmp/work/dist/carousel/carousel.min.css -> /output/carousel/carousel.min.css.gz
+2023/07/31 12:08:57 sri /tmp/work/dist/carousel/carousel.css -> /output/carousel/carousel.css.sri
+2023/07/31 12:08:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.css.br /tmp/work/dist/carousel/carousel.css
+2023/07/31 12:08:57 br /tmp/work/dist/carousel/carousel.css -> /output/carousel/carousel.css.br
+2023/07/31 12:08:57 gz /tmp/work/dist/carousel/carousel.css -> /output/carousel/carousel.css.gz
+2023/07/31 12:08:57 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/carousel.umd.min.js /tmp/work/dist/carousel/carousel.umd.js
+2023/07/31 12:08:58 sri /tmp/work/dist/carousel/carousel.autoplay.esm.min.js -> /output/carousel/carousel.autoplay.esm.min.js.sri
+2023/07/31 12:08:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.autoplay.esm.min.js.br /tmp/work/dist/carousel/carousel.autoplay.esm.min.js
+2023/07/31 12:08:58 br /tmp/work/dist/carousel/carousel.autoplay.esm.min.js -> /output/carousel/carousel.autoplay.esm.min.js.br
+2023/07/31 12:08:58 gz /tmp/work/dist/carousel/carousel.autoplay.esm.min.js -> /output/carousel/carousel.autoplay.esm.min.js.gz
+2023/07/31 12:08:58 sri /tmp/work/dist/carousel/carousel.autoplay.esm.js -> /output/carousel/carousel.autoplay.esm.js.sri
+2023/07/31 12:08:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.autoplay.esm.js.br /tmp/work/dist/carousel/carousel.autoplay.esm.js
+2023/07/31 12:08:58 br /tmp/work/dist/carousel/carousel.autoplay.esm.js -> /output/carousel/carousel.autoplay.esm.js.br
+2023/07/31 12:08:58 gz /tmp/work/dist/carousel/carousel.autoplay.esm.js -> /output/carousel/carousel.autoplay.esm.js.gz
+2023/07/31 12:08:58 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/fancybox/fancybox.min.css /tmp/work/dist/fancybox/fancybox.css
+2023/07/31 12:08:59 sri /tmp/work/dist/carousel/carousel.autoplay.umd.min.js -> /output/carousel/carousel.autoplay.umd.min.js.sri
+2023/07/31 12:08:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.autoplay.umd.min.js.br /tmp/work/dist/carousel/carousel.autoplay.umd.min.js
+2023/07/31 12:08:59 br /tmp/work/dist/carousel/carousel.autoplay.umd.min.js -> /output/carousel/carousel.autoplay.umd.min.js.br
+2023/07/31 12:08:59 gz /tmp/work/dist/carousel/carousel.autoplay.umd.min.js -> /output/carousel/carousel.autoplay.umd.min.js.gz
+2023/07/31 12:08:59 sri /tmp/work/dist/carousel/carousel.autoplay.umd.js -> /output/carousel/carousel.autoplay.umd.js.sri
+2023/07/31 12:08:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.autoplay.umd.js.br /tmp/work/dist/carousel/carousel.autoplay.umd.js
+2023/07/31 12:08:59 br /tmp/work/dist/carousel/carousel.autoplay.umd.js -> /output/carousel/carousel.autoplay.umd.js.br
+2023/07/31 12:08:59 gz /tmp/work/dist/carousel/carousel.autoplay.umd.js -> /output/carousel/carousel.autoplay.umd.js.gz
+2023/07/31 12:08:59 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/fancybox.esm.min.js /tmp/work/dist/fancybox/fancybox.esm.js
+2023/07/31 12:09:00 sri /tmp/work/dist/fancybox/fancybox.min.css -> /output/fancybox/fancybox.min.css.sri
+2023/07/31 12:09:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/fancybox.min.css.br /tmp/work/dist/fancybox/fancybox.min.css
+2023/07/31 12:09:00 br /tmp/work/dist/fancybox/fancybox.min.css -> /output/fancybox/fancybox.min.css.br
+2023/07/31 12:09:00 gz /tmp/work/dist/fancybox/fancybox.min.css -> /output/fancybox/fancybox.min.css.gz
+2023/07/31 12:09:00 sri /tmp/work/dist/fancybox/fancybox.css -> /output/fancybox/fancybox.css.sri
+2023/07/31 12:09:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/fancybox.css.br /tmp/work/dist/fancybox/fancybox.css
+2023/07/31 12:09:01 br /tmp/work/dist/fancybox/fancybox.css -> /output/fancybox/fancybox.css.br
+2023/07/31 12:09:01 gz /tmp/work/dist/fancybox/fancybox.css -> /output/fancybox/fancybox.css.gz
+2023/07/31 12:09:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/fancybox.umd.min.js /tmp/work/dist/fancybox/fancybox.umd.js
+2023/07/31 12:09:01 sri /tmp/work/dist/carousel/carousel.thumbs.esm.min.js -> /output/carousel/carousel.thumbs.esm.min.js.sri
+2023/07/31 12:09:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.thumbs.esm.min.js.br /tmp/work/dist/carousel/carousel.thumbs.esm.min.js
+2023/07/31 12:09:01 br /tmp/work/dist/carousel/carousel.thumbs.esm.min.js -> /output/carousel/carousel.thumbs.esm.min.js.br
+2023/07/31 12:09:01 gz /tmp/work/dist/carousel/carousel.thumbs.esm.min.js -> /output/carousel/carousel.thumbs.esm.min.js.gz
+2023/07/31 12:09:01 sri /tmp/work/dist/carousel/carousel.thumbs.esm.js -> /output/carousel/carousel.thumbs.esm.js.sri
+2023/07/31 12:09:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.thumbs.esm.js.br /tmp/work/dist/carousel/carousel.thumbs.esm.js
+2023/07/31 12:09:01 br /tmp/work/dist/carousel/carousel.thumbs.esm.js -> /output/carousel/carousel.thumbs.esm.js.br
+2023/07/31 12:09:01 gz /tmp/work/dist/carousel/carousel.thumbs.esm.js -> /output/carousel/carousel.thumbs.esm.js.gz
+2023/07/31 12:09:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/panzoom/panzoom.min.css /tmp/work/dist/panzoom/panzoom.css
+2023/07/31 12:09:01 sri /tmp/work/dist/carousel/carousel.thumbs.umd.min.js -> /output/carousel/carousel.thumbs.umd.min.js.sri
+2023/07/31 12:09:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.thumbs.umd.min.js.br /tmp/work/dist/carousel/carousel.thumbs.umd.min.js
+2023/07/31 12:09:01 br /tmp/work/dist/carousel/carousel.thumbs.umd.min.js -> /output/carousel/carousel.thumbs.umd.min.js.br
+2023/07/31 12:09:02 gz /tmp/work/dist/carousel/carousel.thumbs.umd.min.js -> /output/carousel/carousel.thumbs.umd.min.js.gz
+2023/07/31 12:09:02 sri /tmp/work/dist/carousel/carousel.thumbs.umd.js -> /output/carousel/carousel.thumbs.umd.js.sri
+2023/07/31 12:09:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.thumbs.umd.js.br /tmp/work/dist/carousel/carousel.thumbs.umd.js
+2023/07/31 12:09:02 br /tmp/work/dist/carousel/carousel.thumbs.umd.js -> /output/carousel/carousel.thumbs.umd.js.br
+2023/07/31 12:09:02 gz /tmp/work/dist/carousel/carousel.thumbs.umd.js -> /output/carousel/carousel.thumbs.umd.js.gz
+2023/07/31 12:09:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/panzoom.esm.min.js /tmp/work/dist/panzoom/panzoom.esm.js
+2023/07/31 12:09:02 sri /tmp/work/dist/panzoom/panzoom.min.css -> /output/panzoom/panzoom.min.css.sri
+2023/07/31 12:09:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.min.css.br /tmp/work/dist/panzoom/panzoom.min.css
+2023/07/31 12:09:02 br /tmp/work/dist/panzoom/panzoom.min.css -> /output/panzoom/panzoom.min.css.br
+2023/07/31 12:09:02 gz /tmp/work/dist/panzoom/panzoom.min.css -> /output/panzoom/panzoom.min.css.gz
+2023/07/31 12:09:02 sri /tmp/work/dist/panzoom/panzoom.css -> /output/panzoom/panzoom.css.sri
+2023/07/31 12:09:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.css.br /tmp/work/dist/panzoom/panzoom.css
+2023/07/31 12:09:02 br /tmp/work/dist/panzoom/panzoom.css -> /output/panzoom/panzoom.css.br
+2023/07/31 12:09:02 gz /tmp/work/dist/panzoom/panzoom.css -> /output/panzoom/panzoom.css.gz
+2023/07/31 12:09:02 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/panzoom/panzoom.pins.min.css /tmp/work/dist/panzoom/panzoom.pins.css
+2023/07/31 12:09:03 sri /tmp/work/dist/panzoom/panzoom.pins.min.css -> /output/panzoom/panzoom.pins.min.css.sri
+2023/07/31 12:09:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.pins.min.css.br /tmp/work/dist/panzoom/panzoom.pins.min.css
+2023/07/31 12:09:03 br /tmp/work/dist/panzoom/panzoom.pins.min.css -> /output/panzoom/panzoom.pins.min.css.br
+2023/07/31 12:09:03 gz /tmp/work/dist/panzoom/panzoom.pins.min.css -> /output/panzoom/panzoom.pins.min.css.gz
+2023/07/31 12:09:03 sri /tmp/work/dist/panzoom/panzoom.pins.css -> /output/panzoom/panzoom.pins.css.sri
+2023/07/31 12:09:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.pins.css.br /tmp/work/dist/panzoom/panzoom.pins.css
+2023/07/31 12:09:03 br /tmp/work/dist/panzoom/panzoom.pins.css -> /output/panzoom/panzoom.pins.css.br
+2023/07/31 12:09:03 gz /tmp/work/dist/panzoom/panzoom.pins.css -> /output/panzoom/panzoom.pins.css.gz
+2023/07/31 12:09:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/panzoom.pins.esm.min.js /tmp/work/dist/panzoom/panzoom.pins.esm.js
+2023/07/31 12:09:06 sri /tmp/work/dist/panzoom/panzoom.pins.esm.min.js -> /output/panzoom/panzoom.pins.esm.min.js.sri
+2023/07/31 12:09:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.pins.esm.min.js.br /tmp/work/dist/panzoom/panzoom.pins.esm.min.js
+2023/07/31 12:09:06 br /tmp/work/dist/panzoom/panzoom.pins.esm.min.js -> /output/panzoom/panzoom.pins.esm.min.js.br
+2023/07/31 12:09:06 gz /tmp/work/dist/panzoom/panzoom.pins.esm.min.js -> /output/panzoom/panzoom.pins.esm.min.js.gz
+2023/07/31 12:09:06 sri /tmp/work/dist/panzoom/panzoom.pins.esm.js -> /output/panzoom/panzoom.pins.esm.js.sri
+2023/07/31 12:09:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.pins.esm.js.br /tmp/work/dist/panzoom/panzoom.pins.esm.js
+2023/07/31 12:09:06 br /tmp/work/dist/panzoom/panzoom.pins.esm.js -> /output/panzoom/panzoom.pins.esm.js.br
+2023/07/31 12:09:06 gz /tmp/work/dist/panzoom/panzoom.pins.esm.js -> /output/panzoom/panzoom.pins.esm.js.gz
+2023/07/31 12:09:06 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/panzoom.pins.umd.min.js /tmp/work/dist/panzoom/panzoom.pins.umd.js
+2023/07/31 12:09:07 sri /tmp/work/dist/carousel/carousel.esm.min.js -> /output/carousel/carousel.esm.min.js.sri
+2023/07/31 12:09:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.esm.min.js.br /tmp/work/dist/carousel/carousel.esm.min.js
+2023/07/31 12:09:08 br /tmp/work/dist/carousel/carousel.esm.min.js -> /output/carousel/carousel.esm.min.js.br
+2023/07/31 12:09:08 gz /tmp/work/dist/carousel/carousel.esm.min.js -> /output/carousel/carousel.esm.min.js.gz
+2023/07/31 12:09:08 sri /tmp/work/dist/carousel/carousel.esm.js -> /output/carousel/carousel.esm.js.sri
+2023/07/31 12:09:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.esm.js.br /tmp/work/dist/carousel/carousel.esm.js
+2023/07/31 12:09:10 br /tmp/work/dist/carousel/carousel.esm.js -> /output/carousel/carousel.esm.js.br
+2023/07/31 12:09:10 gz /tmp/work/dist/carousel/carousel.esm.js -> /output/carousel/carousel.esm.js.gz
+2023/07/31 12:09:10 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/panzoom/panzoom.toolbar.min.css /tmp/work/dist/panzoom/panzoom.toolbar.css
+2023/07/31 12:09:10 sri /tmp/work/dist/carousel/carousel.umd.min.js -> /output/carousel/carousel.umd.min.js.sri
+2023/07/31 12:09:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.umd.min.js.br /tmp/work/dist/carousel/carousel.umd.min.js
+2023/07/31 12:09:10 sri /tmp/work/dist/panzoom/panzoom.esm.min.js -> /output/panzoom/panzoom.esm.min.js.sri
+2023/07/31 12:09:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.esm.min.js.br /tmp/work/dist/panzoom/panzoom.esm.min.js
+2023/07/31 12:09:10 sri /tmp/work/dist/panzoom/panzoom.pins.umd.min.js -> /output/panzoom/panzoom.pins.umd.min.js.sri
+2023/07/31 12:09:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.pins.umd.min.js.br /tmp/work/dist/panzoom/panzoom.pins.umd.min.js
+2023/07/31 12:09:10 br /tmp/work/dist/panzoom/panzoom.pins.umd.min.js -> /output/panzoom/panzoom.pins.umd.min.js.br
+2023/07/31 12:09:10 gz /tmp/work/dist/panzoom/panzoom.pins.umd.min.js -> /output/panzoom/panzoom.pins.umd.min.js.gz
+2023/07/31 12:09:10 sri /tmp/work/dist/panzoom/panzoom.pins.umd.js -> /output/panzoom/panzoom.pins.umd.js.sri
+2023/07/31 12:09:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.pins.umd.js.br /tmp/work/dist/panzoom/panzoom.pins.umd.js
+2023/07/31 12:09:11 br /tmp/work/dist/panzoom/panzoom.pins.umd.js -> /output/panzoom/panzoom.pins.umd.js.br
+2023/07/31 12:09:11 gz /tmp/work/dist/panzoom/panzoom.pins.umd.js -> /output/panzoom/panzoom.pins.umd.js.gz
+2023/07/31 12:09:11 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/panzoom.toolbar.esm.min.js /tmp/work/dist/panzoom/panzoom.toolbar.esm.js
+2023/07/31 12:09:11 br /tmp/work/dist/carousel/carousel.umd.min.js -> /output/carousel/carousel.umd.min.js.br
+2023/07/31 12:09:11 gz /tmp/work/dist/carousel/carousel.umd.min.js -> /output/carousel/carousel.umd.min.js.gz
+2023/07/31 12:09:11 sri /tmp/work/dist/carousel/carousel.umd.js -> /output/carousel/carousel.umd.js.sri
+2023/07/31 12:09:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/carousel.umd.js.br /tmp/work/dist/carousel/carousel.umd.js
+2023/07/31 12:09:11 sri /tmp/work/dist/panzoom/panzoom.toolbar.min.css -> /output/panzoom/panzoom.toolbar.min.css.sri
+2023/07/31 12:09:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.toolbar.min.css.br /tmp/work/dist/panzoom/panzoom.toolbar.min.css
+2023/07/31 12:09:11 br /tmp/work/dist/panzoom/panzoom.toolbar.min.css -> /output/panzoom/panzoom.toolbar.min.css.br
+2023/07/31 12:09:11 gz /tmp/work/dist/panzoom/panzoom.toolbar.min.css -> /output/panzoom/panzoom.toolbar.min.css.gz
+2023/07/31 12:09:11 sri /tmp/work/dist/panzoom/panzoom.toolbar.css -> /output/panzoom/panzoom.toolbar.css.sri
+2023/07/31 12:09:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.toolbar.css.br /tmp/work/dist/panzoom/panzoom.toolbar.css
+2023/07/31 12:09:11 br /tmp/work/dist/panzoom/panzoom.toolbar.css -> /output/panzoom/panzoom.toolbar.css.br
+2023/07/31 12:09:11 gz /tmp/work/dist/panzoom/panzoom.toolbar.css -> /output/panzoom/panzoom.toolbar.css.gz
+2023/07/31 12:09:11 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/panzoom.toolbar.umd.min.js /tmp/work/dist/panzoom/panzoom.toolbar.umd.js
+2023/07/31 12:09:11 br /tmp/work/dist/panzoom/panzoom.esm.min.js -> /output/panzoom/panzoom.esm.min.js.br
+2023/07/31 12:09:11 gz /tmp/work/dist/panzoom/panzoom.esm.min.js -> /output/panzoom/panzoom.esm.min.js.gz
+2023/07/31 12:09:11 sri /tmp/work/dist/panzoom/panzoom.esm.js -> /output/panzoom/panzoom.esm.js.sri
+2023/07/31 12:09:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.esm.js.br /tmp/work/dist/panzoom/panzoom.esm.js
+2023/07/31 12:09:12 br /tmp/work/dist/carousel/carousel.umd.js -> /output/carousel/carousel.umd.js.br
+2023/07/31 12:09:12 gz /tmp/work/dist/carousel/carousel.umd.js -> /output/carousel/carousel.umd.js.gz
+2023/07/31 12:09:12 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/panzoom.umd.min.js /tmp/work/dist/panzoom/panzoom.umd.js
+2023/07/31 12:09:12 br /tmp/work/dist/panzoom/panzoom.esm.js -> /output/panzoom/panzoom.esm.js.br
+2023/07/31 12:09:12 gz /tmp/work/dist/panzoom/panzoom.esm.js -> /output/panzoom/panzoom.esm.js.gz
+2023/07/31 12:09:12 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/de.esm.min.js /tmp/work/dist/carousel/l10n/de.esm.js
+2023/07/31 12:09:14 sri /tmp/work/dist/carousel/l10n/de.esm.min.js -> /output/carousel/l10n/de.esm.min.js.sri
+2023/07/31 12:09:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/de.esm.min.js.br /tmp/work/dist/carousel/l10n/de.esm.min.js
+2023/07/31 12:09:14 br /tmp/work/dist/carousel/l10n/de.esm.min.js -> /output/carousel/l10n/de.esm.min.js.br
+2023/07/31 12:09:14 gz /tmp/work/dist/carousel/l10n/de.esm.min.js -> /output/carousel/l10n/de.esm.min.js.gz
+2023/07/31 12:09:14 sri /tmp/work/dist/carousel/l10n/de.esm.js -> /output/carousel/l10n/de.esm.js.sri
+2023/07/31 12:09:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/de.esm.js.br /tmp/work/dist/carousel/l10n/de.esm.js
+2023/07/31 12:09:14 br /tmp/work/dist/carousel/l10n/de.esm.js -> /output/carousel/l10n/de.esm.js.br
+2023/07/31 12:09:14 gz /tmp/work/dist/carousel/l10n/de.esm.js -> /output/carousel/l10n/de.esm.js.gz
+2023/07/31 12:09:14 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/de.umd.min.js /tmp/work/dist/carousel/l10n/de.umd.js
+2023/07/31 12:09:14 sri /tmp/work/dist/panzoom/panzoom.toolbar.esm.min.js -> /output/panzoom/panzoom.toolbar.esm.min.js.sri
+2023/07/31 12:09:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.toolbar.esm.min.js.br /tmp/work/dist/panzoom/panzoom.toolbar.esm.min.js
+2023/07/31 12:09:14 sri /tmp/work/dist/panzoom/panzoom.toolbar.umd.min.js -> /output/panzoom/panzoom.toolbar.umd.min.js.sri
+2023/07/31 12:09:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.toolbar.umd.min.js.br /tmp/work/dist/panzoom/panzoom.toolbar.umd.min.js
+2023/07/31 12:09:14 br /tmp/work/dist/panzoom/panzoom.toolbar.esm.min.js -> /output/panzoom/panzoom.toolbar.esm.min.js.br
+2023/07/31 12:09:14 gz /tmp/work/dist/panzoom/panzoom.toolbar.esm.min.js -> /output/panzoom/panzoom.toolbar.esm.min.js.gz
+2023/07/31 12:09:14 sri /tmp/work/dist/panzoom/panzoom.toolbar.esm.js -> /output/panzoom/panzoom.toolbar.esm.js.sri
+2023/07/31 12:09:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.toolbar.esm.js.br /tmp/work/dist/panzoom/panzoom.toolbar.esm.js
+2023/07/31 12:09:14 br /tmp/work/dist/panzoom/panzoom.toolbar.esm.js -> /output/panzoom/panzoom.toolbar.esm.js.br
+2023/07/31 12:09:14 gz /tmp/work/dist/panzoom/panzoom.toolbar.esm.js -> /output/panzoom/panzoom.toolbar.esm.js.gz
+2023/07/31 12:09:14 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/en.esm.min.js /tmp/work/dist/carousel/l10n/en.esm.js
+2023/07/31 12:09:15 br /tmp/work/dist/panzoom/panzoom.toolbar.umd.min.js -> /output/panzoom/panzoom.toolbar.umd.min.js.br
+2023/07/31 12:09:15 gz /tmp/work/dist/panzoom/panzoom.toolbar.umd.min.js -> /output/panzoom/panzoom.toolbar.umd.min.js.gz
+2023/07/31 12:09:15 sri /tmp/work/dist/panzoom/panzoom.toolbar.umd.js -> /output/panzoom/panzoom.toolbar.umd.js.sri
+2023/07/31 12:09:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.toolbar.umd.js.br /tmp/work/dist/panzoom/panzoom.toolbar.umd.js
+2023/07/31 12:09:15 br /tmp/work/dist/panzoom/panzoom.toolbar.umd.js -> /output/panzoom/panzoom.toolbar.umd.js.br
+2023/07/31 12:09:15 gz /tmp/work/dist/panzoom/panzoom.toolbar.umd.js -> /output/panzoom/panzoom.toolbar.umd.js.gz
+2023/07/31 12:09:15 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/en.umd.min.js /tmp/work/dist/carousel/l10n/en.umd.js
+2023/07/31 12:09:15 sri /tmp/work/dist/index.esm.min.js -> /output/index.esm.min.js.sri
+2023/07/31 12:09:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.esm.min.js.br /tmp/work/dist/index.esm.min.js
+2023/07/31 12:09:16 sri /tmp/work/dist/carousel/l10n/de.umd.min.js -> /output/carousel/l10n/de.umd.min.js.sri
+2023/07/31 12:09:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/de.umd.min.js.br /tmp/work/dist/carousel/l10n/de.umd.min.js
+2023/07/31 12:09:16 br /tmp/work/dist/carousel/l10n/de.umd.min.js -> /output/carousel/l10n/de.umd.min.js.br
+2023/07/31 12:09:16 gz /tmp/work/dist/carousel/l10n/de.umd.min.js -> /output/carousel/l10n/de.umd.min.js.gz
+2023/07/31 12:09:16 sri /tmp/work/dist/carousel/l10n/de.umd.js -> /output/carousel/l10n/de.umd.js.sri
+2023/07/31 12:09:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/de.umd.js.br /tmp/work/dist/carousel/l10n/de.umd.js
+2023/07/31 12:09:16 br /tmp/work/dist/carousel/l10n/de.umd.js -> /output/carousel/l10n/de.umd.js.br
+2023/07/31 12:09:16 gz /tmp/work/dist/carousel/l10n/de.umd.js -> /output/carousel/l10n/de.umd.js.gz
+2023/07/31 12:09:16 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/es.esm.min.js /tmp/work/dist/carousel/l10n/es.esm.js
+2023/07/31 12:09:16 sri /tmp/work/dist/carousel/l10n/en.umd.min.js -> /output/carousel/l10n/en.umd.min.js.sri
+2023/07/31 12:09:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/en.umd.min.js.br /tmp/work/dist/carousel/l10n/en.umd.min.js
+2023/07/31 12:09:16 br /tmp/work/dist/carousel/l10n/en.umd.min.js -> /output/carousel/l10n/en.umd.min.js.br
+2023/07/31 12:09:16 gz /tmp/work/dist/carousel/l10n/en.umd.min.js -> /output/carousel/l10n/en.umd.min.js.gz
+2023/07/31 12:09:16 sri /tmp/work/dist/carousel/l10n/en.umd.js -> /output/carousel/l10n/en.umd.js.sri
+2023/07/31 12:09:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/en.umd.js.br /tmp/work/dist/carousel/l10n/en.umd.js
+2023/07/31 12:09:16 br /tmp/work/dist/carousel/l10n/en.umd.js -> /output/carousel/l10n/en.umd.js.br
+2023/07/31 12:09:16 gz /tmp/work/dist/carousel/l10n/en.umd.js -> /output/carousel/l10n/en.umd.js.gz
+2023/07/31 12:09:16 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/es.umd.min.js /tmp/work/dist/carousel/l10n/es.umd.js
+2023/07/31 12:09:16 sri /tmp/work/dist/carousel/l10n/en.esm.min.js -> /output/carousel/l10n/en.esm.min.js.sri
+2023/07/31 12:09:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/en.esm.min.js.br /tmp/work/dist/carousel/l10n/en.esm.min.js
+2023/07/31 12:09:16 br /tmp/work/dist/carousel/l10n/en.esm.min.js -> /output/carousel/l10n/en.esm.min.js.br
+2023/07/31 12:09:16 gz /tmp/work/dist/carousel/l10n/en.esm.min.js -> /output/carousel/l10n/en.esm.min.js.gz
+2023/07/31 12:09:16 sri /tmp/work/dist/carousel/l10n/en.esm.js -> /output/carousel/l10n/en.esm.js.sri
+2023/07/31 12:09:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/en.esm.js.br /tmp/work/dist/carousel/l10n/en.esm.js
+2023/07/31 12:09:16 br /tmp/work/dist/carousel/l10n/en.esm.js -> /output/carousel/l10n/en.esm.js.br
+2023/07/31 12:09:16 gz /tmp/work/dist/carousel/l10n/en.esm.js -> /output/carousel/l10n/en.esm.js.gz
+2023/07/31 12:09:16 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/fr.esm.min.js /tmp/work/dist/carousel/l10n/fr.esm.js
+2023/07/31 12:09:17 br /tmp/work/dist/index.esm.min.js -> /output/index.esm.min.js.br
+2023/07/31 12:09:17 gz /tmp/work/dist/index.esm.min.js -> /output/index.esm.min.js.gz
+2023/07/31 12:09:17 sri /tmp/work/dist/index.esm.js -> /output/index.esm.js.sri
+2023/07/31 12:09:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.esm.js.br /tmp/work/dist/index.esm.js
+2023/07/31 12:09:17 sri /tmp/work/dist/carousel/l10n/es.esm.min.js -> /output/carousel/l10n/es.esm.min.js.sri
+2023/07/31 12:09:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/es.esm.min.js.br /tmp/work/dist/carousel/l10n/es.esm.min.js
+2023/07/31 12:09:17 sri /tmp/work/dist/carousel/l10n/es.umd.min.js -> /output/carousel/l10n/es.umd.min.js.sri
+2023/07/31 12:09:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/es.umd.min.js.br /tmp/work/dist/carousel/l10n/es.umd.min.js
+2023/07/31 12:09:17 br /tmp/work/dist/carousel/l10n/es.esm.min.js -> /output/carousel/l10n/es.esm.min.js.br
+2023/07/31 12:09:17 gz /tmp/work/dist/carousel/l10n/es.esm.min.js -> /output/carousel/l10n/es.esm.min.js.gz
+2023/07/31 12:09:17 sri /tmp/work/dist/carousel/l10n/es.esm.js -> /output/carousel/l10n/es.esm.js.sri
+2023/07/31 12:09:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/es.esm.js.br /tmp/work/dist/carousel/l10n/es.esm.js
+2023/07/31 12:09:17 br /tmp/work/dist/carousel/l10n/es.umd.min.js -> /output/carousel/l10n/es.umd.min.js.br
+2023/07/31 12:09:17 gz /tmp/work/dist/carousel/l10n/es.umd.min.js -> /output/carousel/l10n/es.umd.min.js.gz
+2023/07/31 12:09:17 sri /tmp/work/dist/carousel/l10n/es.umd.js -> /output/carousel/l10n/es.umd.js.sri
+2023/07/31 12:09:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/es.umd.js.br /tmp/work/dist/carousel/l10n/es.umd.js
+2023/07/31 12:09:17 br /tmp/work/dist/carousel/l10n/es.umd.js -> /output/carousel/l10n/es.umd.js.br
+2023/07/31 12:09:17 gz /tmp/work/dist/carousel/l10n/es.umd.js -> /output/carousel/l10n/es.umd.js.gz
+2023/07/31 12:09:17 br /tmp/work/dist/carousel/l10n/es.esm.js -> /output/carousel/l10n/es.esm.js.br
+2023/07/31 12:09:17 gz /tmp/work/dist/carousel/l10n/es.esm.js -> /output/carousel/l10n/es.esm.js.gz
+2023/07/31 12:09:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/it.esm.min.js /tmp/work/dist/carousel/l10n/it.esm.js
+2023/07/31 12:09:17 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/fr.umd.min.js /tmp/work/dist/carousel/l10n/fr.umd.js
+2023/07/31 12:09:18 sri /tmp/work/dist/carousel/l10n/fr.esm.min.js -> /output/carousel/l10n/fr.esm.min.js.sri
+2023/07/31 12:09:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/fr.esm.min.js.br /tmp/work/dist/carousel/l10n/fr.esm.min.js
+2023/07/31 12:09:18 br /tmp/work/dist/carousel/l10n/fr.esm.min.js -> /output/carousel/l10n/fr.esm.min.js.br
+2023/07/31 12:09:18 gz /tmp/work/dist/carousel/l10n/fr.esm.min.js -> /output/carousel/l10n/fr.esm.min.js.gz
+2023/07/31 12:09:18 sri /tmp/work/dist/carousel/l10n/fr.esm.js -> /output/carousel/l10n/fr.esm.js.sri
+2023/07/31 12:09:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/fr.esm.js.br /tmp/work/dist/carousel/l10n/fr.esm.js
+2023/07/31 12:09:18 br /tmp/work/dist/carousel/l10n/fr.esm.js -> /output/carousel/l10n/fr.esm.js.br
+2023/07/31 12:09:18 gz /tmp/work/dist/carousel/l10n/fr.esm.js -> /output/carousel/l10n/fr.esm.js.gz
+2023/07/31 12:09:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/it.umd.min.js /tmp/work/dist/carousel/l10n/it.umd.js
+2023/07/31 12:09:18 sri /tmp/work/dist/carousel/l10n/it.esm.min.js -> /output/carousel/l10n/it.esm.min.js.sri
+2023/07/31 12:09:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/it.esm.min.js.br /tmp/work/dist/carousel/l10n/it.esm.min.js
+2023/07/31 12:09:18 br /tmp/work/dist/carousel/l10n/it.esm.min.js -> /output/carousel/l10n/it.esm.min.js.br
+2023/07/31 12:09:18 gz /tmp/work/dist/carousel/l10n/it.esm.min.js -> /output/carousel/l10n/it.esm.min.js.gz
+2023/07/31 12:09:18 sri /tmp/work/dist/carousel/l10n/it.esm.js -> /output/carousel/l10n/it.esm.js.sri
+2023/07/31 12:09:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/it.esm.js.br /tmp/work/dist/carousel/l10n/it.esm.js
+2023/07/31 12:09:18 br /tmp/work/dist/carousel/l10n/it.esm.js -> /output/carousel/l10n/it.esm.js.br
+2023/07/31 12:09:18 gz /tmp/work/dist/carousel/l10n/it.esm.js -> /output/carousel/l10n/it.esm.js.gz
+2023/07/31 12:09:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/ja.esm.min.js /tmp/work/dist/carousel/l10n/ja.esm.js
+2023/07/31 12:09:19 sri /tmp/work/dist/carousel/l10n/fr.umd.min.js -> /output/carousel/l10n/fr.umd.min.js.sri
+2023/07/31 12:09:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/fr.umd.min.js.br /tmp/work/dist/carousel/l10n/fr.umd.min.js
+2023/07/31 12:09:19 br /tmp/work/dist/carousel/l10n/fr.umd.min.js -> /output/carousel/l10n/fr.umd.min.js.br
+2023/07/31 12:09:19 gz /tmp/work/dist/carousel/l10n/fr.umd.min.js -> /output/carousel/l10n/fr.umd.min.js.gz
+2023/07/31 12:09:19 sri /tmp/work/dist/carousel/l10n/fr.umd.js -> /output/carousel/l10n/fr.umd.js.sri
+2023/07/31 12:09:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/fr.umd.js.br /tmp/work/dist/carousel/l10n/fr.umd.js
+2023/07/31 12:09:19 br /tmp/work/dist/carousel/l10n/fr.umd.js -> /output/carousel/l10n/fr.umd.js.br
+2023/07/31 12:09:19 gz /tmp/work/dist/carousel/l10n/fr.umd.js -> /output/carousel/l10n/fr.umd.js.gz
+2023/07/31 12:09:19 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/ja.umd.min.js /tmp/work/dist/carousel/l10n/ja.umd.js
+2023/07/31 12:09:19 sri /tmp/work/dist/carousel/l10n/ja.esm.min.js -> /output/carousel/l10n/ja.esm.min.js.sri
+2023/07/31 12:09:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/ja.esm.min.js.br /tmp/work/dist/carousel/l10n/ja.esm.min.js
+2023/07/31 12:09:19 br /tmp/work/dist/carousel/l10n/ja.esm.min.js -> /output/carousel/l10n/ja.esm.min.js.br
+2023/07/31 12:09:19 gz /tmp/work/dist/carousel/l10n/ja.esm.min.js -> /output/carousel/l10n/ja.esm.min.js.gz
+2023/07/31 12:09:19 sri /tmp/work/dist/carousel/l10n/ja.esm.js -> /output/carousel/l10n/ja.esm.js.sri
+2023/07/31 12:09:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/ja.esm.js.br /tmp/work/dist/carousel/l10n/ja.esm.js
+2023/07/31 12:09:19 br /tmp/work/dist/carousel/l10n/ja.esm.js -> /output/carousel/l10n/ja.esm.js.br
+2023/07/31 12:09:19 gz /tmp/work/dist/carousel/l10n/ja.esm.js -> /output/carousel/l10n/ja.esm.js.gz
+2023/07/31 12:09:19 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/pl.esm.min.js /tmp/work/dist/carousel/l10n/pl.esm.js
+2023/07/31 12:09:20 sri /tmp/work/dist/index.umd.min.js -> /output/index.umd.min.js.sri
+2023/07/31 12:09:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.umd.min.js.br /tmp/work/dist/index.umd.min.js
+2023/07/31 12:09:20 sri /tmp/work/dist/carousel/l10n/it.umd.min.js -> /output/carousel/l10n/it.umd.min.js.sri
+2023/07/31 12:09:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/it.umd.min.js.br /tmp/work/dist/carousel/l10n/it.umd.min.js
+2023/07/31 12:09:20 br /tmp/work/dist/index.esm.js -> /output/index.esm.js.br
+2023/07/31 12:09:20 gz /tmp/work/dist/index.esm.js -> /output/index.esm.js.gz
+2023/07/31 12:09:20 br /tmp/work/dist/carousel/l10n/it.umd.min.js -> /output/carousel/l10n/it.umd.min.js.br
+2023/07/31 12:09:20 gz /tmp/work/dist/carousel/l10n/it.umd.min.js -> /output/carousel/l10n/it.umd.min.js.gz
+2023/07/31 12:09:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/carousel/l10n/pl.umd.min.js /tmp/work/dist/carousel/l10n/pl.umd.js
+2023/07/31 12:09:20 sri /tmp/work/dist/carousel/l10n/it.umd.js -> /output/carousel/l10n/it.umd.js.sri
+2023/07/31 12:09:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/it.umd.js.br /tmp/work/dist/carousel/l10n/it.umd.js
+2023/07/31 12:09:20 br /tmp/work/dist/carousel/l10n/it.umd.js -> /output/carousel/l10n/it.umd.js.br
+2023/07/31 12:09:20 gz /tmp/work/dist/carousel/l10n/it.umd.js -> /output/carousel/l10n/it.umd.js.gz
+2023/07/31 12:09:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/de.esm.min.js /tmp/work/dist/fancybox/l10n/de.esm.js
+2023/07/31 12:09:21 sri /tmp/work/dist/panzoom/panzoom.umd.min.js -> /output/panzoom/panzoom.umd.min.js.sri
+2023/07/31 12:09:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.umd.min.js.br /tmp/work/dist/panzoom/panzoom.umd.min.js
+2023/07/31 12:09:21 sri /tmp/work/dist/carousel/l10n/ja.umd.min.js -> /output/carousel/l10n/ja.umd.min.js.sri
+2023/07/31 12:09:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/ja.umd.min.js.br /tmp/work/dist/carousel/l10n/ja.umd.min.js
+2023/07/31 12:09:21 br /tmp/work/dist/carousel/l10n/ja.umd.min.js -> /output/carousel/l10n/ja.umd.min.js.br
+2023/07/31 12:09:21 gz /tmp/work/dist/carousel/l10n/ja.umd.min.js -> /output/carousel/l10n/ja.umd.min.js.gz
+2023/07/31 12:09:21 sri /tmp/work/dist/carousel/l10n/ja.umd.js -> /output/carousel/l10n/ja.umd.js.sri
+2023/07/31 12:09:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/ja.umd.js.br /tmp/work/dist/carousel/l10n/ja.umd.js
+2023/07/31 12:09:21 br /tmp/work/dist/carousel/l10n/ja.umd.js -> /output/carousel/l10n/ja.umd.js.br
+2023/07/31 12:09:21 gz /tmp/work/dist/carousel/l10n/ja.umd.js -> /output/carousel/l10n/ja.umd.js.gz
+2023/07/31 12:09:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/de.umd.min.js /tmp/work/dist/fancybox/l10n/de.umd.js
+2023/07/31 12:09:21 sri /tmp/work/dist/carousel/l10n/pl.esm.min.js -> /output/carousel/l10n/pl.esm.min.js.sri
+2023/07/31 12:09:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/pl.esm.min.js.br /tmp/work/dist/carousel/l10n/pl.esm.min.js
+2023/07/31 12:09:21 br /tmp/work/dist/carousel/l10n/pl.esm.min.js -> /output/carousel/l10n/pl.esm.min.js.br
+2023/07/31 12:09:21 gz /tmp/work/dist/carousel/l10n/pl.esm.min.js -> /output/carousel/l10n/pl.esm.min.js.gz
+2023/07/31 12:09:21 sri /tmp/work/dist/carousel/l10n/pl.esm.js -> /output/carousel/l10n/pl.esm.js.sri
+2023/07/31 12:09:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/pl.esm.js.br /tmp/work/dist/carousel/l10n/pl.esm.js
+2023/07/31 12:09:21 sri /tmp/work/dist/fancybox/l10n/de.esm.min.js -> /output/fancybox/l10n/de.esm.min.js.sri
+2023/07/31 12:09:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/de.esm.min.js.br /tmp/work/dist/fancybox/l10n/de.esm.min.js
+2023/07/31 12:09:21 sri /tmp/work/dist/fancybox/fancybox.esm.min.js -> /output/fancybox/fancybox.esm.min.js.sri
+2023/07/31 12:09:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/fancybox.esm.min.js.br /tmp/work/dist/fancybox/fancybox.esm.min.js
+2023/07/31 12:09:21 br /tmp/work/dist/carousel/l10n/pl.esm.js -> /output/carousel/l10n/pl.esm.js.br
+2023/07/31 12:09:21 br /tmp/work/dist/fancybox/l10n/de.esm.min.js -> /output/fancybox/l10n/de.esm.min.js.br
+2023/07/31 12:09:21 gz /tmp/work/dist/fancybox/l10n/de.esm.min.js -> /output/fancybox/l10n/de.esm.min.js.gz
+2023/07/31 12:09:21 sri /tmp/work/dist/fancybox/l10n/de.esm.js -> /output/fancybox/l10n/de.esm.js.sri
+2023/07/31 12:09:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/de.esm.js.br /tmp/work/dist/fancybox/l10n/de.esm.js
+2023/07/31 12:09:21 br /tmp/work/dist/index.umd.min.js -> /output/index.umd.min.js.br
+2023/07/31 12:09:21 gz /tmp/work/dist/carousel/l10n/pl.esm.js -> /output/carousel/l10n/pl.esm.js.gz
+2023/07/31 12:09:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/en.esm.min.js /tmp/work/dist/fancybox/l10n/en.esm.js
+2023/07/31 12:09:21 gz /tmp/work/dist/index.umd.min.js -> /output/index.umd.min.js.gz
+2023/07/31 12:09:21 sri /tmp/work/dist/index.umd.js -> /output/index.umd.js.sri
+2023/07/31 12:09:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.umd.js.br /tmp/work/dist/index.umd.js
+2023/07/31 12:09:21 br /tmp/work/dist/fancybox/l10n/de.esm.js -> /output/fancybox/l10n/de.esm.js.br
+2023/07/31 12:09:21 gz /tmp/work/dist/fancybox/l10n/de.esm.js -> /output/fancybox/l10n/de.esm.js.gz
+2023/07/31 12:09:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/en.umd.min.js /tmp/work/dist/fancybox/l10n/en.umd.js
+2023/07/31 12:09:21 br /tmp/work/dist/panzoom/panzoom.umd.min.js -> /output/panzoom/panzoom.umd.min.js.br
+2023/07/31 12:09:21 gz /tmp/work/dist/panzoom/panzoom.umd.min.js -> /output/panzoom/panzoom.umd.min.js.gz
+2023/07/31 12:09:21 sri /tmp/work/dist/panzoom/panzoom.umd.js -> /output/panzoom/panzoom.umd.js.sri
+2023/07/31 12:09:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/panzoom.umd.js.br /tmp/work/dist/panzoom/panzoom.umd.js
+2023/07/31 12:09:21 sri /tmp/work/dist/carousel/l10n/pl.umd.min.js -> /output/carousel/l10n/pl.umd.min.js.sri
+2023/07/31 12:09:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/pl.umd.min.js.br /tmp/work/dist/carousel/l10n/pl.umd.min.js
+2023/07/31 12:09:21 br /tmp/work/dist/carousel/l10n/pl.umd.min.js -> /output/carousel/l10n/pl.umd.min.js.br
+2023/07/31 12:09:21 gz /tmp/work/dist/carousel/l10n/pl.umd.min.js -> /output/carousel/l10n/pl.umd.min.js.gz
+2023/07/31 12:09:21 sri /tmp/work/dist/carousel/l10n/pl.umd.js -> /output/carousel/l10n/pl.umd.js.sri
+2023/07/31 12:09:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/carousel/l10n/pl.umd.js.br /tmp/work/dist/carousel/l10n/pl.umd.js
+2023/07/31 12:09:21 br /tmp/work/dist/carousel/l10n/pl.umd.js -> /output/carousel/l10n/pl.umd.js.br
+2023/07/31 12:09:21 gz /tmp/work/dist/carousel/l10n/pl.umd.js -> /output/carousel/l10n/pl.umd.js.gz
+2023/07/31 12:09:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/es.esm.min.js /tmp/work/dist/fancybox/l10n/es.esm.js
+2023/07/31 12:09:22 br /tmp/work/dist/panzoom/panzoom.umd.js -> /output/panzoom/panzoom.umd.js.br
+2023/07/31 12:09:22 gz /tmp/work/dist/panzoom/panzoom.umd.js -> /output/panzoom/panzoom.umd.js.gz
+2023/07/31 12:09:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/es.umd.min.js /tmp/work/dist/fancybox/l10n/es.umd.js
+2023/07/31 12:09:22 sri /tmp/work/dist/fancybox/l10n/en.esm.min.js -> /output/fancybox/l10n/en.esm.min.js.sri
+2023/07/31 12:09:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/en.esm.min.js.br /tmp/work/dist/fancybox/l10n/en.esm.min.js
+2023/07/31 12:09:22 br /tmp/work/dist/fancybox/l10n/en.esm.min.js -> /output/fancybox/l10n/en.esm.min.js.br
+2023/07/31 12:09:22 gz /tmp/work/dist/fancybox/l10n/en.esm.min.js -> /output/fancybox/l10n/en.esm.min.js.gz
+2023/07/31 12:09:22 sri /tmp/work/dist/fancybox/l10n/en.esm.js -> /output/fancybox/l10n/en.esm.js.sri
+2023/07/31 12:09:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/en.esm.js.br /tmp/work/dist/fancybox/l10n/en.esm.js
+2023/07/31 12:09:22 br /tmp/work/dist/fancybox/l10n/en.esm.js -> /output/fancybox/l10n/en.esm.js.br
+2023/07/31 12:09:22 gz /tmp/work/dist/fancybox/l10n/en.esm.js -> /output/fancybox/l10n/en.esm.js.gz
+2023/07/31 12:09:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/fr.esm.min.js /tmp/work/dist/fancybox/l10n/fr.esm.js
+2023/07/31 12:09:22 sri /tmp/work/dist/fancybox/l10n/de.umd.min.js -> /output/fancybox/l10n/de.umd.min.js.sri
+2023/07/31 12:09:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/de.umd.min.js.br /tmp/work/dist/fancybox/l10n/de.umd.min.js
+2023/07/31 12:09:22 br /tmp/work/dist/fancybox/l10n/de.umd.min.js -> /output/fancybox/l10n/de.umd.min.js.br
+2023/07/31 12:09:22 gz /tmp/work/dist/fancybox/l10n/de.umd.min.js -> /output/fancybox/l10n/de.umd.min.js.gz
+2023/07/31 12:09:22 sri /tmp/work/dist/fancybox/l10n/de.umd.js -> /output/fancybox/l10n/de.umd.js.sri
+2023/07/31 12:09:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/de.umd.js.br /tmp/work/dist/fancybox/l10n/de.umd.js
+2023/07/31 12:09:22 sri /tmp/work/dist/fancybox/l10n/es.esm.min.js -> /output/fancybox/l10n/es.esm.min.js.sri
+2023/07/31 12:09:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/es.esm.min.js.br /tmp/work/dist/fancybox/l10n/es.esm.min.js
+2023/07/31 12:09:22 br /tmp/work/dist/fancybox/l10n/de.umd.js -> /output/fancybox/l10n/de.umd.js.br
+2023/07/31 12:09:22 gz /tmp/work/dist/fancybox/l10n/de.umd.js -> /output/fancybox/l10n/de.umd.js.gz
+2023/07/31 12:09:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/fr.umd.min.js /tmp/work/dist/fancybox/l10n/fr.umd.js
+2023/07/31 12:09:22 br /tmp/work/dist/fancybox/l10n/es.esm.min.js -> /output/fancybox/l10n/es.esm.min.js.br
+2023/07/31 12:09:22 gz /tmp/work/dist/fancybox/l10n/es.esm.min.js -> /output/fancybox/l10n/es.esm.min.js.gz
+2023/07/31 12:09:22 sri /tmp/work/dist/fancybox/l10n/es.esm.js -> /output/fancybox/l10n/es.esm.js.sri
+2023/07/31 12:09:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/es.esm.js.br /tmp/work/dist/fancybox/l10n/es.esm.js
+2023/07/31 12:09:22 br /tmp/work/dist/fancybox/l10n/es.esm.js -> /output/fancybox/l10n/es.esm.js.br
+2023/07/31 12:09:22 gz /tmp/work/dist/fancybox/l10n/es.esm.js -> /output/fancybox/l10n/es.esm.js.gz
+2023/07/31 12:09:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/it.esm.min.js /tmp/work/dist/fancybox/l10n/it.esm.js
+2023/07/31 12:09:22 sri /tmp/work/dist/fancybox/l10n/en.umd.min.js -> /output/fancybox/l10n/en.umd.min.js.sri
+2023/07/31 12:09:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/en.umd.min.js.br /tmp/work/dist/fancybox/l10n/en.umd.min.js
+2023/07/31 12:09:22 br /tmp/work/dist/fancybox/l10n/en.umd.min.js -> /output/fancybox/l10n/en.umd.min.js.br
+2023/07/31 12:09:22 gz /tmp/work/dist/fancybox/l10n/en.umd.min.js -> /output/fancybox/l10n/en.umd.min.js.gz
+2023/07/31 12:09:22 sri /tmp/work/dist/fancybox/l10n/en.umd.js -> /output/fancybox/l10n/en.umd.js.sri
+2023/07/31 12:09:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/en.umd.js.br /tmp/work/dist/fancybox/l10n/en.umd.js
+2023/07/31 12:09:22 br /tmp/work/dist/fancybox/l10n/en.umd.js -> /output/fancybox/l10n/en.umd.js.br
+2023/07/31 12:09:22 gz /tmp/work/dist/fancybox/l10n/en.umd.js -> /output/fancybox/l10n/en.umd.js.gz
+2023/07/31 12:09:22 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/it.umd.min.js /tmp/work/dist/fancybox/l10n/it.umd.js
+2023/07/31 12:09:23 br /tmp/work/dist/index.umd.js -> /output/index.umd.js.br
+2023/07/31 12:09:23 gz /tmp/work/dist/index.umd.js -> /output/index.umd.js.gz
+2023/07/31 12:09:23 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/ja.esm.min.js /tmp/work/dist/fancybox/l10n/ja.esm.js
+2023/07/31 12:09:23 sri /tmp/work/dist/fancybox/l10n/es.umd.min.js -> /output/fancybox/l10n/es.umd.min.js.sri
+2023/07/31 12:09:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/es.umd.min.js.br /tmp/work/dist/fancybox/l10n/es.umd.min.js
+2023/07/31 12:09:23 br /tmp/work/dist/fancybox/l10n/es.umd.min.js -> /output/fancybox/l10n/es.umd.min.js.br
+2023/07/31 12:09:23 gz /tmp/work/dist/fancybox/l10n/es.umd.min.js -> /output/fancybox/l10n/es.umd.min.js.gz
+2023/07/31 12:09:23 sri /tmp/work/dist/fancybox/l10n/es.umd.js -> /output/fancybox/l10n/es.umd.js.sri
+2023/07/31 12:09:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/es.umd.js.br /tmp/work/dist/fancybox/l10n/es.umd.js
+2023/07/31 12:09:23 br /tmp/work/dist/fancybox/l10n/es.umd.js -> /output/fancybox/l10n/es.umd.js.br
+2023/07/31 12:09:23 gz /tmp/work/dist/fancybox/l10n/es.umd.js -> /output/fancybox/l10n/es.umd.js.gz
+2023/07/31 12:09:23 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/ja.umd.min.js /tmp/work/dist/fancybox/l10n/ja.umd.js
+2023/07/31 12:09:23 sri /tmp/work/dist/fancybox/l10n/fr.esm.min.js -> /output/fancybox/l10n/fr.esm.min.js.sri
+2023/07/31 12:09:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/fr.esm.min.js.br /tmp/work/dist/fancybox/l10n/fr.esm.min.js
+2023/07/31 12:09:23 br /tmp/work/dist/fancybox/l10n/fr.esm.min.js -> /output/fancybox/l10n/fr.esm.min.js.br
+2023/07/31 12:09:23 gz /tmp/work/dist/fancybox/l10n/fr.esm.min.js -> /output/fancybox/l10n/fr.esm.min.js.gz
+2023/07/31 12:09:23 sri /tmp/work/dist/fancybox/l10n/fr.esm.js -> /output/fancybox/l10n/fr.esm.js.sri
+2023/07/31 12:09:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/fr.esm.js.br /tmp/work/dist/fancybox/l10n/fr.esm.js
+2023/07/31 12:09:23 br /tmp/work/dist/fancybox/fancybox.esm.min.js -> /output/fancybox/fancybox.esm.min.js.br
+2023/07/31 12:09:23 gz /tmp/work/dist/fancybox/fancybox.esm.min.js -> /output/fancybox/fancybox.esm.min.js.gz
+2023/07/31 12:09:23 sri /tmp/work/dist/fancybox/fancybox.esm.js -> /output/fancybox/fancybox.esm.js.sri
+2023/07/31 12:09:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/fancybox.esm.js.br /tmp/work/dist/fancybox/fancybox.esm.js
+2023/07/31 12:09:23 br /tmp/work/dist/fancybox/l10n/fr.esm.js -> /output/fancybox/l10n/fr.esm.js.br
+2023/07/31 12:09:23 gz /tmp/work/dist/fancybox/l10n/fr.esm.js -> /output/fancybox/l10n/fr.esm.js.gz
+2023/07/31 12:09:23 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/pl.esm.min.js /tmp/work/dist/fancybox/l10n/pl.esm.js
+2023/07/31 12:09:24 sri /tmp/work/dist/fancybox/l10n/fr.umd.min.js -> /output/fancybox/l10n/fr.umd.min.js.sri
+2023/07/31 12:09:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/fr.umd.min.js.br /tmp/work/dist/fancybox/l10n/fr.umd.min.js
+2023/07/31 12:09:24 br /tmp/work/dist/fancybox/l10n/fr.umd.min.js -> /output/fancybox/l10n/fr.umd.min.js.br
+2023/07/31 12:09:24 gz /tmp/work/dist/fancybox/l10n/fr.umd.min.js -> /output/fancybox/l10n/fr.umd.min.js.gz
+2023/07/31 12:09:24 sri /tmp/work/dist/fancybox/l10n/fr.umd.js -> /output/fancybox/l10n/fr.umd.js.sri
+2023/07/31 12:09:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/fr.umd.js.br /tmp/work/dist/fancybox/l10n/fr.umd.js
+2023/07/31 12:09:24 sri /tmp/work/dist/fancybox/l10n/it.esm.min.js -> /output/fancybox/l10n/it.esm.min.js.sri
+2023/07/31 12:09:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/it.esm.min.js.br /tmp/work/dist/fancybox/l10n/it.esm.min.js
+2023/07/31 12:09:24 br /tmp/work/dist/fancybox/l10n/fr.umd.js -> /output/fancybox/l10n/fr.umd.js.br
+2023/07/31 12:09:24 gz /tmp/work/dist/fancybox/l10n/fr.umd.js -> /output/fancybox/l10n/fr.umd.js.gz
+2023/07/31 12:09:24 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/fancybox/l10n/pl.umd.min.js /tmp/work/dist/fancybox/l10n/pl.umd.js
+2023/07/31 12:09:24 br /tmp/work/dist/fancybox/l10n/it.esm.min.js -> /output/fancybox/l10n/it.esm.min.js.br
+2023/07/31 12:09:24 gz /tmp/work/dist/fancybox/l10n/it.esm.min.js -> /output/fancybox/l10n/it.esm.min.js.gz
+2023/07/31 12:09:24 sri /tmp/work/dist/fancybox/l10n/it.esm.js -> /output/fancybox/l10n/it.esm.js.sri
+2023/07/31 12:09:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/it.esm.js.br /tmp/work/dist/fancybox/l10n/it.esm.js
+2023/07/31 12:09:24 sri /tmp/work/dist/fancybox/l10n/it.umd.min.js -> /output/fancybox/l10n/it.umd.min.js.sri
+2023/07/31 12:09:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/it.umd.min.js.br /tmp/work/dist/fancybox/l10n/it.umd.min.js
+2023/07/31 12:09:24 br /tmp/work/dist/fancybox/l10n/it.esm.js -> /output/fancybox/l10n/it.esm.js.br
+2023/07/31 12:09:24 gz /tmp/work/dist/fancybox/l10n/it.esm.js -> /output/fancybox/l10n/it.esm.js.gz
+2023/07/31 12:09:24 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/de.esm.min.js /tmp/work/dist/panzoom/l10n/de.esm.js
+2023/07/31 12:09:24 br /tmp/work/dist/fancybox/l10n/it.umd.min.js -> /output/fancybox/l10n/it.umd.min.js.br
+2023/07/31 12:09:24 gz /tmp/work/dist/fancybox/l10n/it.umd.min.js -> /output/fancybox/l10n/it.umd.min.js.gz
+2023/07/31 12:09:24 sri /tmp/work/dist/fancybox/l10n/it.umd.js -> /output/fancybox/l10n/it.umd.js.sri
+2023/07/31 12:09:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/it.umd.js.br /tmp/work/dist/fancybox/l10n/it.umd.js
+2023/07/31 12:09:24 sri /tmp/work/dist/fancybox/l10n/ja.esm.min.js -> /output/fancybox/l10n/ja.esm.min.js.sri
+2023/07/31 12:09:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/ja.esm.min.js.br /tmp/work/dist/fancybox/l10n/ja.esm.min.js
+2023/07/31 12:09:24 br /tmp/work/dist/fancybox/l10n/it.umd.js -> /output/fancybox/l10n/it.umd.js.br
+2023/07/31 12:09:24 gz /tmp/work/dist/fancybox/l10n/it.umd.js -> /output/fancybox/l10n/it.umd.js.gz
+2023/07/31 12:09:24 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/de.umd.min.js /tmp/work/dist/panzoom/l10n/de.umd.js
+2023/07/31 12:09:24 br /tmp/work/dist/fancybox/l10n/ja.esm.min.js -> /output/fancybox/l10n/ja.esm.min.js.br
+2023/07/31 12:09:24 gz /tmp/work/dist/fancybox/l10n/ja.esm.min.js -> /output/fancybox/l10n/ja.esm.min.js.gz
+2023/07/31 12:09:24 sri /tmp/work/dist/fancybox/l10n/ja.esm.js -> /output/fancybox/l10n/ja.esm.js.sri
+2023/07/31 12:09:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/ja.esm.js.br /tmp/work/dist/fancybox/l10n/ja.esm.js
+2023/07/31 12:09:24 br /tmp/work/dist/fancybox/l10n/ja.esm.js -> /output/fancybox/l10n/ja.esm.js.br
+2023/07/31 12:09:24 gz /tmp/work/dist/fancybox/l10n/ja.esm.js -> /output/fancybox/l10n/ja.esm.js.gz
+2023/07/31 12:09:24 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/en.esm.min.js /tmp/work/dist/panzoom/l10n/en.esm.js
+2023/07/31 12:09:24 sri /tmp/work/dist/fancybox/l10n/pl.esm.min.js -> /output/fancybox/l10n/pl.esm.min.js.sri
+2023/07/31 12:09:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/pl.esm.min.js.br /tmp/work/dist/fancybox/l10n/pl.esm.min.js
+2023/07/31 12:09:24 br /tmp/work/dist/fancybox/l10n/pl.esm.min.js -> /output/fancybox/l10n/pl.esm.min.js.br
+2023/07/31 12:09:24 gz /tmp/work/dist/fancybox/l10n/pl.esm.min.js -> /output/fancybox/l10n/pl.esm.min.js.gz
+2023/07/31 12:09:24 sri /tmp/work/dist/fancybox/l10n/pl.esm.js -> /output/fancybox/l10n/pl.esm.js.sri
+2023/07/31 12:09:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/pl.esm.js.br /tmp/work/dist/fancybox/l10n/pl.esm.js
+2023/07/31 12:09:24 br /tmp/work/dist/fancybox/l10n/pl.esm.js -> /output/fancybox/l10n/pl.esm.js.br
+2023/07/31 12:09:24 gz /tmp/work/dist/fancybox/l10n/pl.esm.js -> /output/fancybox/l10n/pl.esm.js.gz
+2023/07/31 12:09:24 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/en.umd.min.js /tmp/work/dist/panzoom/l10n/en.umd.js
+2023/07/31 12:09:24 sri /tmp/work/dist/fancybox/l10n/ja.umd.min.js -> /output/fancybox/l10n/ja.umd.min.js.sri
+2023/07/31 12:09:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/ja.umd.min.js.br /tmp/work/dist/fancybox/l10n/ja.umd.min.js
+2023/07/31 12:09:24 br /tmp/work/dist/fancybox/l10n/ja.umd.min.js -> /output/fancybox/l10n/ja.umd.min.js.br
+2023/07/31 12:09:24 gz /tmp/work/dist/fancybox/l10n/ja.umd.min.js -> /output/fancybox/l10n/ja.umd.min.js.gz
+2023/07/31 12:09:24 sri /tmp/work/dist/fancybox/l10n/ja.umd.js -> /output/fancybox/l10n/ja.umd.js.sri
+2023/07/31 12:09:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/ja.umd.js.br /tmp/work/dist/fancybox/l10n/ja.umd.js
+2023/07/31 12:09:24 br /tmp/work/dist/fancybox/l10n/ja.umd.js -> /output/fancybox/l10n/ja.umd.js.br
+2023/07/31 12:09:24 gz /tmp/work/dist/fancybox/l10n/ja.umd.js -> /output/fancybox/l10n/ja.umd.js.gz
+2023/07/31 12:09:24 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/es.esm.min.js /tmp/work/dist/panzoom/l10n/es.esm.js
+2023/07/31 12:09:24 sri /tmp/work/dist/fancybox/fancybox.umd.min.js -> /output/fancybox/fancybox.umd.min.js.sri
+2023/07/31 12:09:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/fancybox.umd.min.js.br /tmp/work/dist/fancybox/fancybox.umd.min.js
+2023/07/31 12:09:25 sri /tmp/work/dist/fancybox/l10n/pl.umd.min.js -> /output/fancybox/l10n/pl.umd.min.js.sri
+2023/07/31 12:09:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/pl.umd.min.js.br /tmp/work/dist/fancybox/l10n/pl.umd.min.js
+2023/07/31 12:09:25 br /tmp/work/dist/fancybox/l10n/pl.umd.min.js -> /output/fancybox/l10n/pl.umd.min.js.br
+2023/07/31 12:09:25 gz /tmp/work/dist/fancybox/l10n/pl.umd.min.js -> /output/fancybox/l10n/pl.umd.min.js.gz
+2023/07/31 12:09:25 sri /tmp/work/dist/fancybox/l10n/pl.umd.js -> /output/fancybox/l10n/pl.umd.js.sri
+2023/07/31 12:09:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/l10n/pl.umd.js.br /tmp/work/dist/fancybox/l10n/pl.umd.js
+2023/07/31 12:09:25 br /tmp/work/dist/fancybox/l10n/pl.umd.js -> /output/fancybox/l10n/pl.umd.js.br
+2023/07/31 12:09:25 gz /tmp/work/dist/fancybox/l10n/pl.umd.js -> /output/fancybox/l10n/pl.umd.js.gz
+2023/07/31 12:09:25 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/es.umd.min.js /tmp/work/dist/panzoom/l10n/es.umd.js
+2023/07/31 12:09:25 sri /tmp/work/dist/panzoom/l10n/en.esm.min.js -> /output/panzoom/l10n/en.esm.min.js.sri
+2023/07/31 12:09:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/en.esm.min.js.br /tmp/work/dist/panzoom/l10n/en.esm.min.js
+2023/07/31 12:09:25 br /tmp/work/dist/panzoom/l10n/en.esm.min.js -> /output/panzoom/l10n/en.esm.min.js.br
+2023/07/31 12:09:25 gz /tmp/work/dist/panzoom/l10n/en.esm.min.js -> /output/panzoom/l10n/en.esm.min.js.gz
+2023/07/31 12:09:25 sri /tmp/work/dist/panzoom/l10n/en.esm.js -> /output/panzoom/l10n/en.esm.js.sri
+2023/07/31 12:09:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/en.esm.js.br /tmp/work/dist/panzoom/l10n/en.esm.js
+2023/07/31 12:09:25 br /tmp/work/dist/panzoom/l10n/en.esm.js -> /output/panzoom/l10n/en.esm.js.br
+2023/07/31 12:09:25 gz /tmp/work/dist/panzoom/l10n/en.esm.js -> /output/panzoom/l10n/en.esm.js.gz
+2023/07/31 12:09:25 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/fr.esm.min.js /tmp/work/dist/panzoom/l10n/fr.esm.js
+2023/07/31 12:09:25 sri /tmp/work/dist/panzoom/l10n/de.esm.min.js -> /output/panzoom/l10n/de.esm.min.js.sri
+2023/07/31 12:09:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/de.esm.min.js.br /tmp/work/dist/panzoom/l10n/de.esm.min.js
+2023/07/31 12:09:25 br /tmp/work/dist/panzoom/l10n/de.esm.min.js -> /output/panzoom/l10n/de.esm.min.js.br
+2023/07/31 12:09:25 gz /tmp/work/dist/panzoom/l10n/de.esm.min.js -> /output/panzoom/l10n/de.esm.min.js.gz
+2023/07/31 12:09:25 sri /tmp/work/dist/panzoom/l10n/de.esm.js -> /output/panzoom/l10n/de.esm.js.sri
+2023/07/31 12:09:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/de.esm.js.br /tmp/work/dist/panzoom/l10n/de.esm.js
+2023/07/31 12:09:25 br /tmp/work/dist/panzoom/l10n/de.esm.js -> /output/panzoom/l10n/de.esm.js.br
+2023/07/31 12:09:25 gz /tmp/work/dist/panzoom/l10n/de.esm.js -> /output/panzoom/l10n/de.esm.js.gz
+2023/07/31 12:09:25 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/fr.umd.min.js /tmp/work/dist/panzoom/l10n/fr.umd.js
+2023/07/31 12:09:25 sri /tmp/work/dist/panzoom/l10n/de.umd.min.js -> /output/panzoom/l10n/de.umd.min.js.sri
+2023/07/31 12:09:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/de.umd.min.js.br /tmp/work/dist/panzoom/l10n/de.umd.min.js
+2023/07/31 12:09:25 br /tmp/work/dist/panzoom/l10n/de.umd.min.js -> /output/panzoom/l10n/de.umd.min.js.br
+2023/07/31 12:09:25 gz /tmp/work/dist/panzoom/l10n/de.umd.min.js -> /output/panzoom/l10n/de.umd.min.js.gz
+2023/07/31 12:09:25 sri /tmp/work/dist/panzoom/l10n/de.umd.js -> /output/panzoom/l10n/de.umd.js.sri
+2023/07/31 12:09:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/de.umd.js.br /tmp/work/dist/panzoom/l10n/de.umd.js
+2023/07/31 12:09:25 br /tmp/work/dist/panzoom/l10n/de.umd.js -> /output/panzoom/l10n/de.umd.js.br
+2023/07/31 12:09:25 gz /tmp/work/dist/panzoom/l10n/de.umd.js -> /output/panzoom/l10n/de.umd.js.gz
+2023/07/31 12:09:25 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/it.esm.min.js /tmp/work/dist/panzoom/l10n/it.esm.js
+2023/07/31 12:09:25 sri /tmp/work/dist/panzoom/l10n/es.esm.min.js -> /output/panzoom/l10n/es.esm.min.js.sri
+2023/07/31 12:09:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/es.esm.min.js.br /tmp/work/dist/panzoom/l10n/es.esm.min.js
+2023/07/31 12:09:25 br /tmp/work/dist/panzoom/l10n/es.esm.min.js -> /output/panzoom/l10n/es.esm.min.js.br
+2023/07/31 12:09:25 gz /tmp/work/dist/panzoom/l10n/es.esm.min.js -> /output/panzoom/l10n/es.esm.min.js.gz
+2023/07/31 12:09:25 sri /tmp/work/dist/panzoom/l10n/es.esm.js -> /output/panzoom/l10n/es.esm.js.sri
+2023/07/31 12:09:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/es.esm.js.br /tmp/work/dist/panzoom/l10n/es.esm.js
+2023/07/31 12:09:25 br /tmp/work/dist/panzoom/l10n/es.esm.js -> /output/panzoom/l10n/es.esm.js.br
+2023/07/31 12:09:25 gz /tmp/work/dist/panzoom/l10n/es.esm.js -> /output/panzoom/l10n/es.esm.js.gz
+2023/07/31 12:09:25 sri /tmp/work/dist/panzoom/l10n/en.umd.min.js -> /output/panzoom/l10n/en.umd.min.js.sri
+2023/07/31 12:09:25 br /tmp/work/dist/fancybox/fancybox.esm.js -> /output/fancybox/fancybox.esm.js.br
+2023/07/31 12:09:25 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/it.umd.min.js /tmp/work/dist/panzoom/l10n/it.umd.js
+2023/07/31 12:09:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/en.umd.min.js.br /tmp/work/dist/panzoom/l10n/en.umd.min.js
+2023/07/31 12:09:25 gz /tmp/work/dist/fancybox/fancybox.esm.js -> /output/fancybox/fancybox.esm.js.gz
+2023/07/31 12:09:25 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/ja.esm.min.js /tmp/work/dist/panzoom/l10n/ja.esm.js
+2023/07/31 12:09:25 br /tmp/work/dist/panzoom/l10n/en.umd.min.js -> /output/panzoom/l10n/en.umd.min.js.br
+2023/07/31 12:09:25 gz /tmp/work/dist/panzoom/l10n/en.umd.min.js -> /output/panzoom/l10n/en.umd.min.js.gz
+2023/07/31 12:09:25 sri /tmp/work/dist/panzoom/l10n/en.umd.js -> /output/panzoom/l10n/en.umd.js.sri
+2023/07/31 12:09:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/en.umd.js.br /tmp/work/dist/panzoom/l10n/en.umd.js
+2023/07/31 12:09:25 br /tmp/work/dist/panzoom/l10n/en.umd.js -> /output/panzoom/l10n/en.umd.js.br
+2023/07/31 12:09:25 gz /tmp/work/dist/panzoom/l10n/en.umd.js -> /output/panzoom/l10n/en.umd.js.gz
+2023/07/31 12:09:25 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/ja.umd.min.js /tmp/work/dist/panzoom/l10n/ja.umd.js
+2023/07/31 12:09:26 sri /tmp/work/dist/panzoom/l10n/fr.umd.min.js -> /output/panzoom/l10n/fr.umd.min.js.sri
+2023/07/31 12:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/fr.umd.min.js.br /tmp/work/dist/panzoom/l10n/fr.umd.min.js
+2023/07/31 12:09:26 br /tmp/work/dist/panzoom/l10n/fr.umd.min.js -> /output/panzoom/l10n/fr.umd.min.js.br
+2023/07/31 12:09:26 gz /tmp/work/dist/panzoom/l10n/fr.umd.min.js -> /output/panzoom/l10n/fr.umd.min.js.gz
+2023/07/31 12:09:26 sri /tmp/work/dist/panzoom/l10n/fr.umd.js -> /output/panzoom/l10n/fr.umd.js.sri
+2023/07/31 12:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/fr.umd.js.br /tmp/work/dist/panzoom/l10n/fr.umd.js
+2023/07/31 12:09:26 br /tmp/work/dist/panzoom/l10n/fr.umd.js -> /output/panzoom/l10n/fr.umd.js.br
+2023/07/31 12:09:26 gz /tmp/work/dist/panzoom/l10n/fr.umd.js -> /output/panzoom/l10n/fr.umd.js.gz
+2023/07/31 12:09:26 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/pl.esm.min.js /tmp/work/dist/panzoom/l10n/pl.esm.js
+2023/07/31 12:09:26 sri /tmp/work/dist/panzoom/l10n/es.umd.min.js -> /output/panzoom/l10n/es.umd.min.js.sri
+2023/07/31 12:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/es.umd.min.js.br /tmp/work/dist/panzoom/l10n/es.umd.min.js
+2023/07/31 12:09:26 sri /tmp/work/dist/panzoom/l10n/fr.esm.min.js -> /output/panzoom/l10n/fr.esm.min.js.sri
+2023/07/31 12:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/fr.esm.min.js.br /tmp/work/dist/panzoom/l10n/fr.esm.min.js
+2023/07/31 12:09:26 br /tmp/work/dist/panzoom/l10n/es.umd.min.js -> /output/panzoom/l10n/es.umd.min.js.br
+2023/07/31 12:09:26 gz /tmp/work/dist/panzoom/l10n/es.umd.min.js -> /output/panzoom/l10n/es.umd.min.js.gz
+2023/07/31 12:09:26 br /tmp/work/dist/panzoom/l10n/fr.esm.min.js -> /output/panzoom/l10n/fr.esm.min.js.br
+2023/07/31 12:09:26 sri /tmp/work/dist/panzoom/l10n/es.umd.js -> /output/panzoom/l10n/es.umd.js.sri
+2023/07/31 12:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/es.umd.js.br /tmp/work/dist/panzoom/l10n/es.umd.js
+2023/07/31 12:09:26 gz /tmp/work/dist/panzoom/l10n/fr.esm.min.js -> /output/panzoom/l10n/fr.esm.min.js.gz
+2023/07/31 12:09:26 sri /tmp/work/dist/panzoom/l10n/fr.esm.js -> /output/panzoom/l10n/fr.esm.js.sri
+2023/07/31 12:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/fr.esm.js.br /tmp/work/dist/panzoom/l10n/fr.esm.js
+2023/07/31 12:09:26 br /tmp/work/dist/panzoom/l10n/es.umd.js -> /output/panzoom/l10n/es.umd.js.br
+2023/07/31 12:09:26 gz /tmp/work/dist/panzoom/l10n/es.umd.js -> /output/panzoom/l10n/es.umd.js.gz
+2023/07/31 12:09:26 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/panzoom/l10n/pl.umd.min.js /tmp/work/dist/panzoom/l10n/pl.umd.js
+2023/07/31 12:09:26 br /tmp/work/dist/panzoom/l10n/fr.esm.js -> /output/panzoom/l10n/fr.esm.js.br
+2023/07/31 12:09:26 gz /tmp/work/dist/panzoom/l10n/fr.esm.js -> /output/panzoom/l10n/fr.esm.js.gz
+2023/07/31 12:09:26 sri /tmp/work/dist/panzoom/l10n/it.esm.min.js -> /output/panzoom/l10n/it.esm.min.js.sri
+2023/07/31 12:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/it.esm.min.js.br /tmp/work/dist/panzoom/l10n/it.esm.min.js
+2023/07/31 12:09:26 br /tmp/work/dist/panzoom/l10n/it.esm.min.js -> /output/panzoom/l10n/it.esm.min.js.br
+2023/07/31 12:09:26 gz /tmp/work/dist/panzoom/l10n/it.esm.min.js -> /output/panzoom/l10n/it.esm.min.js.gz
+2023/07/31 12:09:26 sri /tmp/work/dist/panzoom/l10n/it.esm.js -> /output/panzoom/l10n/it.esm.js.sri
+2023/07/31 12:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/it.esm.js.br /tmp/work/dist/panzoom/l10n/it.esm.js
+2023/07/31 12:09:26 br /tmp/work/dist/panzoom/l10n/it.esm.js -> /output/panzoom/l10n/it.esm.js.br
+2023/07/31 12:09:26 gz /tmp/work/dist/panzoom/l10n/it.esm.js -> /output/panzoom/l10n/it.esm.js.gz
+2023/07/31 12:09:26 br /tmp/work/dist/fancybox/fancybox.umd.min.js -> /output/fancybox/fancybox.umd.min.js.br
+2023/07/31 12:09:26 gz /tmp/work/dist/fancybox/fancybox.umd.min.js -> /output/fancybox/fancybox.umd.min.js.gz
+2023/07/31 12:09:26 sri /tmp/work/dist/fancybox/fancybox.umd.js -> /output/fancybox/fancybox.umd.js.sri
+2023/07/31 12:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fancybox/fancybox.umd.js.br /tmp/work/dist/fancybox/fancybox.umd.js
+2023/07/31 12:09:26 sri /tmp/work/dist/panzoom/l10n/it.umd.min.js -> /output/panzoom/l10n/it.umd.min.js.sri
+2023/07/31 12:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/it.umd.min.js.br /tmp/work/dist/panzoom/l10n/it.umd.min.js
+2023/07/31 12:09:26 sri /tmp/work/dist/panzoom/l10n/ja.esm.min.js -> /output/panzoom/l10n/ja.esm.min.js.sri
+2023/07/31 12:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/ja.esm.min.js.br /tmp/work/dist/panzoom/l10n/ja.esm.min.js
+2023/07/31 12:09:26 br /tmp/work/dist/panzoom/l10n/it.umd.min.js -> /output/panzoom/l10n/it.umd.min.js.br
+2023/07/31 12:09:26 gz /tmp/work/dist/panzoom/l10n/it.umd.min.js -> /output/panzoom/l10n/it.umd.min.js.gz
+2023/07/31 12:09:26 sri /tmp/work/dist/panzoom/l10n/it.umd.js -> /output/panzoom/l10n/it.umd.js.sri
+2023/07/31 12:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/it.umd.js.br /tmp/work/dist/panzoom/l10n/it.umd.js
+2023/07/31 12:09:26 br /tmp/work/dist/panzoom/l10n/ja.esm.min.js -> /output/panzoom/l10n/ja.esm.min.js.br
+2023/07/31 12:09:26 gz /tmp/work/dist/panzoom/l10n/ja.esm.min.js -> /output/panzoom/l10n/ja.esm.min.js.gz
+2023/07/31 12:09:26 sri /tmp/work/dist/panzoom/l10n/ja.esm.js -> /output/panzoom/l10n/ja.esm.js.sri
+2023/07/31 12:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/ja.esm.js.br /tmp/work/dist/panzoom/l10n/ja.esm.js
+2023/07/31 12:09:26 br /tmp/work/dist/panzoom/l10n/it.umd.js -> /output/panzoom/l10n/it.umd.js.br
+2023/07/31 12:09:26 gz /tmp/work/dist/panzoom/l10n/it.umd.js -> /output/panzoom/l10n/it.umd.js.gz
+2023/07/31 12:09:26 br /tmp/work/dist/panzoom/l10n/ja.esm.js -> /output/panzoom/l10n/ja.esm.js.br
+2023/07/31 12:09:26 gz /tmp/work/dist/panzoom/l10n/ja.esm.js -> /output/panzoom/l10n/ja.esm.js.gz
+2023/07/31 12:09:26 sri /tmp/work/dist/panzoom/l10n/ja.umd.min.js -> /output/panzoom/l10n/ja.umd.min.js.sri
+2023/07/31 12:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/ja.umd.min.js.br /tmp/work/dist/panzoom/l10n/ja.umd.min.js
+2023/07/31 12:09:26 sri /tmp/work/dist/panzoom/l10n/pl.esm.min.js -> /output/panzoom/l10n/pl.esm.min.js.sri
+2023/07/31 12:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/pl.esm.min.js.br /tmp/work/dist/panzoom/l10n/pl.esm.min.js
+2023/07/31 12:09:26 br /tmp/work/dist/panzoom/l10n/ja.umd.min.js -> /output/panzoom/l10n/ja.umd.min.js.br
+2023/07/31 12:09:26 gz /tmp/work/dist/panzoom/l10n/ja.umd.min.js -> /output/panzoom/l10n/ja.umd.min.js.gz
+2023/07/31 12:09:26 sri /tmp/work/dist/panzoom/l10n/ja.umd.js -> /output/panzoom/l10n/ja.umd.js.sri
+2023/07/31 12:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/ja.umd.js.br /tmp/work/dist/panzoom/l10n/ja.umd.js
+2023/07/31 12:09:26 br /tmp/work/dist/panzoom/l10n/pl.esm.min.js -> /output/panzoom/l10n/pl.esm.min.js.br
+2023/07/31 12:09:26 gz /tmp/work/dist/panzoom/l10n/pl.esm.min.js -> /output/panzoom/l10n/pl.esm.min.js.gz
+2023/07/31 12:09:26 sri /tmp/work/dist/panzoom/l10n/pl.esm.js -> /output/panzoom/l10n/pl.esm.js.sri
+2023/07/31 12:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/pl.esm.js.br /tmp/work/dist/panzoom/l10n/pl.esm.js
+2023/07/31 12:09:26 br /tmp/work/dist/panzoom/l10n/ja.umd.js -> /output/panzoom/l10n/ja.umd.js.br
+2023/07/31 12:09:26 gz /tmp/work/dist/panzoom/l10n/ja.umd.js -> /output/panzoom/l10n/ja.umd.js.gz
+2023/07/31 12:09:26 br /tmp/work/dist/panzoom/l10n/pl.esm.js -> /output/panzoom/l10n/pl.esm.js.br
+2023/07/31 12:09:26 gz /tmp/work/dist/panzoom/l10n/pl.esm.js -> /output/panzoom/l10n/pl.esm.js.gz
+2023/07/31 12:09:26 sri /tmp/work/dist/panzoom/l10n/pl.umd.min.js -> /output/panzoom/l10n/pl.umd.min.js.sri
+2023/07/31 12:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/pl.umd.min.js.br /tmp/work/dist/panzoom/l10n/pl.umd.min.js
+2023/07/31 12:09:26 br /tmp/work/dist/panzoom/l10n/pl.umd.min.js -> /output/panzoom/l10n/pl.umd.min.js.br
+2023/07/31 12:09:26 gz /tmp/work/dist/panzoom/l10n/pl.umd.min.js -> /output/panzoom/l10n/pl.umd.min.js.gz
+2023/07/31 12:09:26 sri /tmp/work/dist/panzoom/l10n/pl.umd.js -> /output/panzoom/l10n/pl.umd.js.sri
+2023/07/31 12:09:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/panzoom/l10n/pl.umd.js.br /tmp/work/dist/panzoom/l10n/pl.umd.js
+2023/07/31 12:09:26 br /tmp/work/dist/panzoom/l10n/pl.umd.js -> /output/panzoom/l10n/pl.umd.js.br
+2023/07/31 12:09:26 gz /tmp/work/dist/panzoom/l10n/pl.umd.js -> /output/panzoom/l10n/pl.umd.js.gz
+2023/07/31 12:09:27 br /tmp/work/dist/fancybox/fancybox.umd.js -> /output/fancybox/fancybox.umd.js.br
+2023/07/31 12:09:27 gz /tmp/work/dist/fancybox/fancybox.umd.js -> /output/fancybox/fancybox.umd.js.gz
+2023/07/31 12:09:27 processed fancyapps-ui
