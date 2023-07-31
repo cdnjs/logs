@@ -1,0 +1,79 @@
+2023/07/31 12:03:20 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/31 12:03:21 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/dist/images/layers-2x.png /tmp/work/dist/images/layers-2x.png
+2023/07/31 12:03:21 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/dist/images/layers.png /tmp/work/dist/images/layers.png
+2023/07/31 12:03:21 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/dist/images/marker-icon.png /tmp/work/dist/images/marker-icon.png
+2023/07/31 12:03:21 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/dist/images/marker-icon-2x.png /tmp/work/dist/images/marker-icon-2x.png
+2023/07/31 12:03:21 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/dist/images/marker-shadow.png /tmp/work/dist/images/marker-shadow.png
+2023/07/31 12:03:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/leaflet-src.min.js /tmp/work/dist/leaflet-src.js
+2023/07/31 12:03:21 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/leaflet.min.css /tmp/work/dist/leaflet.css
+2023/07/31 12:03:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/leaflet.min.js /tmp/work/dist/leaflet.js
+2023/07/31 12:03:22 sri /tmp/work/dist/leaflet.min.css -> /output/leaflet.min.css.sri
+2023/07/31 12:03:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet.min.css.br /tmp/work/dist/leaflet.min.css
+2023/07/31 12:03:22 br /tmp/work/dist/leaflet.min.css -> /output/leaflet.min.css.br
+2023/07/31 12:03:22 gz /tmp/work/dist/leaflet.min.css -> /output/leaflet.min.css.gz
+2023/07/31 12:03:22 sri /tmp/work/dist/leaflet.css -> /output/leaflet.css.sri
+2023/07/31 12:03:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet.css.br /tmp/work/dist/leaflet.css
+2023/07/31 12:03:22 br /tmp/work/dist/leaflet.css -> /output/leaflet.css.br
+2023/07/31 12:03:22 gz /tmp/work/dist/leaflet.css -> /output/leaflet.css.gz
+2023/07/31 12:03:23 Optimizing /tmp/work/dist/images/marker-icon.png
+Input size: 1747 (1K)
+Result size: 1765 (1K). Percentage of original: 101.030%
+Preserving original PNG since it was smaller
+
+
+2023/07/31 12:03:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/marker-icon.png.br /tmp/work/dist/images/marker-icon.png
+2023/07/31 12:03:23 br /tmp/work/dist/images/marker-icon.png -> /output/images/marker-icon.png.br
+2023/07/31 12:03:23 gz /tmp/work/dist/images/marker-icon.png -> /output/images/marker-icon.png.gz
+2023/07/31 12:03:29 Optimizing /tmp/work/dist/images/marker-icon-2x.png
+Input size: 4033 (3K)
+Result size: 4036 (3K). Percentage of original: 100.074%
+Preserving original PNG since it was smaller
+
+
+2023/07/31 12:03:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/marker-icon-2x.png.br /tmp/work/dist/images/marker-icon-2x.png
+2023/07/31 12:03:29 br /tmp/work/dist/images/marker-icon-2x.png -> /output/images/marker-icon-2x.png.br
+2023/07/31 12:03:29 gz /tmp/work/dist/images/marker-icon-2x.png -> /output/images/marker-icon-2x.png.gz
+2023/07/31 12:03:31 sri /tmp/work/dist/leaflet.min.js -> /output/leaflet.min.js.sri
+2023/07/31 12:03:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet.min.js.br /tmp/work/dist/leaflet.min.js
+2023/07/31 12:03:32 Optimizing /tmp/work/dist/images/layers.png
+Input size: 1502 (1K)
+Result size: 914 (0K). Percentage of original: 60.852%
+Result is smaller
+
+
+2023/07/31 12:03:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/layers.png.br /tmp/work/dist/images/layers.png
+2023/07/31 12:03:32 br /tmp/work/dist/images/layers.png -> /output/images/layers.png.br
+2023/07/31 12:03:32 gz /tmp/work/dist/images/layers.png -> /output/images/layers.png.gz
+2023/07/31 12:03:32 br /tmp/work/dist/leaflet.min.js -> /output/leaflet.min.js.br
+2023/07/31 12:03:32 gz /tmp/work/dist/leaflet.min.js -> /output/leaflet.min.js.gz
+2023/07/31 12:03:32 Optimizing /tmp/work/dist/images/marker-shadow.png
+Input size: 797 (0K)
+Result size: 685 (0K). Percentage of original: 85.947%
+Result is smaller
+
+
+2023/07/31 12:03:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/marker-shadow.png.br /tmp/work/dist/images/marker-shadow.png
+2023/07/31 12:03:32 sri /tmp/work/dist/leaflet.js -> /output/leaflet.js.sri
+2023/07/31 12:03:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet.js.br /tmp/work/dist/leaflet.js
+2023/07/31 12:03:32 br /tmp/work/dist/images/marker-shadow.png -> /output/images/marker-shadow.png.br
+2023/07/31 12:03:32 gz /tmp/work/dist/images/marker-shadow.png -> /output/images/marker-shadow.png.gz
+2023/07/31 12:03:32 sri /tmp/work/dist/leaflet-src.min.js -> /output/leaflet-src.min.js.sri
+2023/07/31 12:03:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet-src.min.js.br /tmp/work/dist/leaflet-src.min.js
+2023/07/31 12:03:33 br /tmp/work/dist/leaflet.js -> /output/leaflet.js.br
+2023/07/31 12:03:33 br /tmp/work/dist/leaflet-src.min.js -> /output/leaflet-src.min.js.br
+2023/07/31 12:03:33 gz /tmp/work/dist/leaflet.js -> /output/leaflet.js.gz
+2023/07/31 12:03:33 gz /tmp/work/dist/leaflet-src.min.js -> /output/leaflet-src.min.js.gz
+2023/07/31 12:03:33 sri /tmp/work/dist/leaflet-src.js -> /output/leaflet-src.js.sri
+2023/07/31 12:03:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet-src.js.br /tmp/work/dist/leaflet-src.js
+2023/07/31 12:03:34 br /tmp/work/dist/leaflet-src.js -> /output/leaflet-src.js.br
+2023/07/31 12:03:34 gz /tmp/work/dist/leaflet-src.js -> /output/leaflet-src.js.gz
+2023/07/31 12:03:34 Optimizing /tmp/work/dist/images/layers-2x.png
+Input size: 2898 (2K)
+Result size: 1586 (1K). Percentage of original: 54.727%
+Result is smaller
+
+
+2023/07/31 12:03:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/layers-2x.png.br /tmp/work/dist/images/layers-2x.png
+2023/07/31 12:03:34 br /tmp/work/dist/images/layers-2x.png -> /output/images/layers-2x.png.br
+2023/07/31 12:03:34 gz /tmp/work/dist/images/layers-2x.png -> /output/images/layers-2x.png.gz
+2023/07/31 12:03:34 processed leaflet
