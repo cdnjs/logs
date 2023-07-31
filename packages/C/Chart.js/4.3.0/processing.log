@@ -1,59 +1,59 @@
-2023/04/28 09:37:51 optimizing files (Js true, Css true, Png true, Jpg true)
-2023/04/28 09:37:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/chart.cjs.br /tmp/work/dist/chart.cjs
-2023/04/28 09:37:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/chart.min.js /tmp/work/dist/chart.js
-2023/04/28 09:37:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/chart.cjs.map.br /tmp/work/dist/chart.cjs.map
-2023/04/28 09:37:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/chart.umd.min.js /tmp/work/dist/chart.umd.js
-2023/04/28 09:37:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/chart.js.map.br /tmp/work/dist/chart.js.map
-2023/04/28 09:37:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/helpers.cjs.map.br /tmp/work/dist/helpers.cjs.map
-2023/04/28 09:37:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/chart.umd.js.map.br /tmp/work/dist/chart.umd.js.map
-2023/04/28 09:37:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/helpers.cjs.br /tmp/work/dist/helpers.cjs
-2023/04/28 09:37:52 br /tmp/work/dist/helpers.cjs.map -> /output/helpers.cjs.map.br
-2023/04/28 09:37:52 gz /tmp/work/dist/helpers.cjs.map -> /output/helpers.cjs.map.gz
-2023/04/28 09:37:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/helpers.min.js /tmp/work/dist/helpers.js
-2023/04/28 09:37:52 br /tmp/work/dist/helpers.cjs -> /output/helpers.cjs.br
-2023/04/28 09:37:52 gz /tmp/work/dist/helpers.cjs -> /output/helpers.cjs.gz
-2023/04/28 09:37:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/helpers.js.map.br /tmp/work/dist/helpers.js.map
-2023/04/28 09:37:52 br /tmp/work/dist/helpers.js.map -> /output/helpers.js.map.br
-2023/04/28 09:37:52 gz /tmp/work/dist/helpers.js.map -> /output/helpers.js.map.gz
-2023/04/28 09:37:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.d.ts.br /tmp/work/dist/index.d.ts
-2023/04/28 09:37:52 br /tmp/work/dist/index.d.ts -> /output/index.d.ts.br
-2023/04/28 09:37:52 gz /tmp/work/dist/index.d.ts -> /output/index.d.ts.gz
-2023/04/28 09:37:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.umd.d.ts.br /tmp/work/dist/index.umd.d.ts
-2023/04/28 09:37:52 br /tmp/work/dist/index.umd.d.ts -> /output/index.umd.d.ts.br
-2023/04/28 09:37:52 gz /tmp/work/dist/index.umd.d.ts -> /output/index.umd.d.ts.gz
-2023/04/28 09:37:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types.d.ts.br /tmp/work/dist/types.d.ts
-2023/04/28 09:37:52 br /tmp/work/dist/types.d.ts -> /output/types.d.ts.br
-2023/04/28 09:37:52 gz /tmp/work/dist/types.d.ts -> /output/types.d.ts.gz
-2023/04/28 09:37:53 sri /tmp/work/dist/helpers.min.js -> /output/helpers.min.js.sri
-2023/04/28 09:37:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/helpers.min.js.br /tmp/work/dist/helpers.min.js
-2023/04/28 09:37:53 br /tmp/work/dist/helpers.min.js -> /output/helpers.min.js.br
-2023/04/28 09:37:53 gz /tmp/work/dist/helpers.min.js -> /output/helpers.min.js.gz
-2023/04/28 09:37:53 sri /tmp/work/dist/helpers.js -> /output/helpers.js.sri
-2023/04/28 09:37:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/helpers.js.br /tmp/work/dist/helpers.js
-2023/04/28 09:37:53 br /tmp/work/dist/helpers.js -> /output/helpers.js.br
-2023/04/28 09:37:53 gz /tmp/work/dist/helpers.js -> /output/helpers.js.gz
-2023/04/28 09:37:54 br /tmp/work/dist/chart.cjs -> /output/chart.cjs.br
-2023/04/28 09:37:54 gz /tmp/work/dist/chart.cjs -> /output/chart.cjs.gz
-2023/04/28 09:37:55 br /tmp/work/dist/chart.umd.js.map -> /output/chart.umd.js.map.br
-2023/04/28 09:37:56 gz /tmp/work/dist/chart.umd.js.map -> /output/chart.umd.js.map.gz
-2023/04/28 09:37:56 br /tmp/work/dist/chart.js.map -> /output/chart.js.map.br
-2023/04/28 09:37:56 br /tmp/work/dist/chart.cjs.map -> /output/chart.cjs.map.br
-2023/04/28 09:37:56 gz /tmp/work/dist/chart.js.map -> /output/chart.js.map.gz
-2023/04/28 09:37:56 gz /tmp/work/dist/chart.cjs.map -> /output/chart.cjs.map.gz
-2023/04/28 09:37:57 sri /tmp/work/dist/chart.min.js -> /output/chart.min.js.sri
-2023/04/28 09:37:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/chart.min.js.br /tmp/work/dist/chart.min.js
-2023/04/28 09:37:57 br /tmp/work/dist/chart.min.js -> /output/chart.min.js.br
-2023/04/28 09:37:58 gz /tmp/work/dist/chart.min.js -> /output/chart.min.js.gz
-2023/04/28 09:37:58 sri /tmp/work/dist/chart.js -> /output/chart.js.sri
-2023/04/28 09:37:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/chart.js.br /tmp/work/dist/chart.js
-2023/04/28 09:37:58 sri /tmp/work/dist/chart.umd.min.js -> /output/chart.umd.min.js.sri
-2023/04/28 09:37:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/chart.umd.min.js.br /tmp/work/dist/chart.umd.min.js
-2023/04/28 09:37:58 br /tmp/work/dist/chart.js -> /output/chart.js.br
-2023/04/28 09:37:58 gz /tmp/work/dist/chart.js -> /output/chart.js.gz
-2023/04/28 09:37:58 br /tmp/work/dist/chart.umd.min.js -> /output/chart.umd.min.js.br
-2023/04/28 09:37:58 gz /tmp/work/dist/chart.umd.min.js -> /output/chart.umd.min.js.gz
-2023/04/28 09:37:58 sri /tmp/work/dist/chart.umd.js -> /output/chart.umd.js.sri
-2023/04/28 09:37:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/chart.umd.js.br /tmp/work/dist/chart.umd.js
-2023/04/28 09:37:59 br /tmp/work/dist/chart.umd.js -> /output/chart.umd.js.br
-2023/04/28 09:37:59 gz /tmp/work/dist/chart.umd.js -> /output/chart.umd.js.gz
-2023/04/28 09:37:59 processed Chart.js
+2023/07/31 11:40:44 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/31 11:40:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/chart.cjs.br /tmp/work/dist/chart.cjs
+2023/07/31 11:40:44 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/chart.min.js /tmp/work/dist/chart.js
+2023/07/31 11:40:44 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/chart.umd.min.js /tmp/work/dist/chart.umd.js
+2023/07/31 11:40:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/chart.js.map.br /tmp/work/dist/chart.js.map
+2023/07/31 11:40:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/chart.umd.js.map.br /tmp/work/dist/chart.umd.js.map
+2023/07/31 11:40:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/helpers.cjs.br /tmp/work/dist/helpers.cjs
+2023/07/31 11:40:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/chart.cjs.map.br /tmp/work/dist/chart.cjs.map
+2023/07/31 11:40:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/helpers.cjs.map.br /tmp/work/dist/helpers.cjs.map
+2023/07/31 11:40:44 br /tmp/work/dist/helpers.cjs -> /output/helpers.cjs.br
+2023/07/31 11:40:44 gz /tmp/work/dist/helpers.cjs -> /output/helpers.cjs.gz
+2023/07/31 11:40:44 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/helpers.min.js /tmp/work/dist/helpers.js
+2023/07/31 11:40:44 br /tmp/work/dist/helpers.cjs.map -> /output/helpers.cjs.map.br
+2023/07/31 11:40:44 gz /tmp/work/dist/helpers.cjs.map -> /output/helpers.cjs.map.gz
+2023/07/31 11:40:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/helpers.js.map.br /tmp/work/dist/helpers.js.map
+2023/07/31 11:40:44 br /tmp/work/dist/helpers.js.map -> /output/helpers.js.map.br
+2023/07/31 11:40:44 gz /tmp/work/dist/helpers.js.map -> /output/helpers.js.map.gz
+2023/07/31 11:40:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.d.ts.br /tmp/work/dist/index.d.ts
+2023/07/31 11:40:44 br /tmp/work/dist/index.d.ts -> /output/index.d.ts.br
+2023/07/31 11:40:44 gz /tmp/work/dist/index.d.ts -> /output/index.d.ts.gz
+2023/07/31 11:40:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.umd.d.ts.br /tmp/work/dist/index.umd.d.ts
+2023/07/31 11:40:44 br /tmp/work/dist/index.umd.d.ts -> /output/index.umd.d.ts.br
+2023/07/31 11:40:44 gz /tmp/work/dist/index.umd.d.ts -> /output/index.umd.d.ts.gz
+2023/07/31 11:40:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types.d.ts.br /tmp/work/dist/types.d.ts
+2023/07/31 11:40:44 br /tmp/work/dist/types.d.ts -> /output/types.d.ts.br
+2023/07/31 11:40:44 gz /tmp/work/dist/types.d.ts -> /output/types.d.ts.gz
+2023/07/31 11:40:45 sri /tmp/work/dist/helpers.min.js -> /output/helpers.min.js.sri
+2023/07/31 11:40:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/helpers.min.js.br /tmp/work/dist/helpers.min.js
+2023/07/31 11:40:45 br /tmp/work/dist/helpers.min.js -> /output/helpers.min.js.br
+2023/07/31 11:40:45 gz /tmp/work/dist/helpers.min.js -> /output/helpers.min.js.gz
+2023/07/31 11:40:45 sri /tmp/work/dist/helpers.js -> /output/helpers.js.sri
+2023/07/31 11:40:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/helpers.js.br /tmp/work/dist/helpers.js
+2023/07/31 11:40:45 br /tmp/work/dist/helpers.js -> /output/helpers.js.br
+2023/07/31 11:40:45 gz /tmp/work/dist/helpers.js -> /output/helpers.js.gz
+2023/07/31 11:40:49 br /tmp/work/dist/chart.umd.js.map -> /output/chart.umd.js.map.br
+2023/07/31 11:40:49 gz /tmp/work/dist/chart.umd.js.map -> /output/chart.umd.js.map.gz
+2023/07/31 11:40:49 br /tmp/work/dist/chart.cjs -> /output/chart.cjs.br
+2023/07/31 11:40:49 gz /tmp/work/dist/chart.cjs -> /output/chart.cjs.gz
+2023/07/31 11:40:56 br /tmp/work/dist/chart.cjs.map -> /output/chart.cjs.map.br
+2023/07/31 11:40:56 br /tmp/work/dist/chart.js.map -> /output/chart.js.map.br
+2023/07/31 11:40:56 gz /tmp/work/dist/chart.cjs.map -> /output/chart.cjs.map.gz
+2023/07/31 11:40:56 gz /tmp/work/dist/chart.js.map -> /output/chart.js.map.gz
+2023/07/31 11:40:58 sri /tmp/work/dist/chart.min.js -> /output/chart.min.js.sri
+2023/07/31 11:40:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/chart.min.js.br /tmp/work/dist/chart.min.js
+2023/07/31 11:40:59 br /tmp/work/dist/chart.min.js -> /output/chart.min.js.br
+2023/07/31 11:40:59 gz /tmp/work/dist/chart.min.js -> /output/chart.min.js.gz
+2023/07/31 11:40:59 sri /tmp/work/dist/chart.js -> /output/chart.js.sri
+2023/07/31 11:40:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/chart.js.br /tmp/work/dist/chart.js
+2023/07/31 11:41:01 sri /tmp/work/dist/chart.umd.min.js -> /output/chart.umd.min.js.sri
+2023/07/31 11:41:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/chart.umd.min.js.br /tmp/work/dist/chart.umd.min.js
+2023/07/31 11:41:01 br /tmp/work/dist/chart.js -> /output/chart.js.br
+2023/07/31 11:41:01 gz /tmp/work/dist/chart.js -> /output/chart.js.gz
+2023/07/31 11:41:01 br /tmp/work/dist/chart.umd.min.js -> /output/chart.umd.min.js.br
+2023/07/31 11:41:01 gz /tmp/work/dist/chart.umd.min.js -> /output/chart.umd.min.js.gz
+2023/07/31 11:41:01 sri /tmp/work/dist/chart.umd.js -> /output/chart.umd.js.sri
+2023/07/31 11:41:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/chart.umd.js.br /tmp/work/dist/chart.umd.js
+2023/07/31 11:41:02 br /tmp/work/dist/chart.umd.js -> /output/chart.umd.js.br
+2023/07/31 11:41:02 gz /tmp/work/dist/chart.umd.js -> /output/chart.umd.js.gz
+2023/07/31 11:41:02 processed Chart.js
