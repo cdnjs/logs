@@ -1,65 +1,65 @@
-2021/09/14 20:05:11 optimizing files (Js true, Css true, Png true, Jpg true)
-2021/09/14 20:05:11 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/assets.min.css /tmp/work/assets.css
-2021/09/14 20:05:11 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/forms.min.css /tmp/work/forms.css
-2021/09/14 20:05:11 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/reduce-motion.min.css /tmp/work/reduce-motion.css
-2021/09/14 20:05:11 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/sanitize.min.css /tmp/work/sanitize.css
-2021/09/14 20:05:11 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/system-ui.min.css /tmp/work/system-ui.css
-2021/09/14 20:05:11 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/ui-monospace.min.css /tmp/work/ui-monospace.css
-2021/09/14 20:05:11 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/typography.min.css /tmp/work/typography.css
-2021/09/14 20:05:11 sri /tmp/work/system-ui.min.css -> /output/system-ui.min.css.sri
-2021/09/14 20:05:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/system-ui.min.css.br /tmp/work/system-ui.min.css
-2021/09/14 20:05:11 sri /tmp/work/assets.min.css -> /output/assets.min.css.sri
-2021/09/14 20:05:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/assets.min.css.br /tmp/work/assets.min.css
-2021/09/14 20:05:11 br /tmp/work/assets.min.css -> /output/assets.min.css.br
-2021/09/14 20:05:11 gz /tmp/work/assets.min.css -> /output/assets.min.css.gz
-2021/09/14 20:05:11 sri /tmp/work/assets.css -> /output/assets.css.sri
-2021/09/14 20:05:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/assets.css.br /tmp/work/assets.css
-2021/09/14 20:05:11 br /tmp/work/system-ui.min.css -> /output/system-ui.min.css.br
-2021/09/14 20:05:11 gz /tmp/work/system-ui.min.css -> /output/system-ui.min.css.gz
-2021/09/14 20:05:11 sri /tmp/work/system-ui.css -> /output/system-ui.css.sri
-2021/09/14 20:05:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/system-ui.css.br /tmp/work/system-ui.css
-2021/09/14 20:05:11 br /tmp/work/assets.css -> /output/assets.css.br
-2021/09/14 20:05:11 gz /tmp/work/assets.css -> /output/assets.css.gz
-2021/09/14 20:05:11 sri /tmp/work/reduce-motion.min.css -> /output/reduce-motion.min.css.sri
-2021/09/14 20:05:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/reduce-motion.min.css.br /tmp/work/reduce-motion.min.css
-2021/09/14 20:05:11 br /tmp/work/reduce-motion.min.css -> /output/reduce-motion.min.css.br
-2021/09/14 20:05:11 gz /tmp/work/reduce-motion.min.css -> /output/reduce-motion.min.css.gz
-2021/09/14 20:05:11 sri /tmp/work/reduce-motion.css -> /output/reduce-motion.css.sri
-2021/09/14 20:05:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/reduce-motion.css.br /tmp/work/reduce-motion.css
-2021/09/14 20:05:11 br /tmp/work/system-ui.css -> /output/system-ui.css.br
-2021/09/14 20:05:11 gz /tmp/work/system-ui.css -> /output/system-ui.css.gz
-2021/09/14 20:05:11 sri /tmp/work/sanitize.min.css -> /output/sanitize.min.css.sri
-2021/09/14 20:05:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sanitize.min.css.br /tmp/work/sanitize.min.css
-2021/09/14 20:05:11 br /tmp/work/reduce-motion.css -> /output/reduce-motion.css.br
-2021/09/14 20:05:11 gz /tmp/work/reduce-motion.css -> /output/reduce-motion.css.gz
-2021/09/14 20:05:11 sri /tmp/work/ui-monospace.min.css -> /output/ui-monospace.min.css.sri
-2021/09/14 20:05:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ui-monospace.min.css.br /tmp/work/ui-monospace.min.css
-2021/09/14 20:05:11 sri /tmp/work/forms.min.css -> /output/forms.min.css.sri
-2021/09/14 20:05:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/forms.min.css.br /tmp/work/forms.min.css
-2021/09/14 20:05:11 sri /tmp/work/typography.min.css -> /output/typography.min.css.sri
-2021/09/14 20:05:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/typography.min.css.br /tmp/work/typography.min.css
-2021/09/14 20:05:11 br /tmp/work/typography.min.css -> /output/typography.min.css.br
-2021/09/14 20:05:11 gz /tmp/work/typography.min.css -> /output/typography.min.css.gz
-2021/09/14 20:05:11 sri /tmp/work/typography.css -> /output/typography.css.sri
-2021/09/14 20:05:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/typography.css.br /tmp/work/typography.css
-2021/09/14 20:05:11 br /tmp/work/ui-monospace.min.css -> /output/ui-monospace.min.css.br
-2021/09/14 20:05:11 br /tmp/work/sanitize.min.css -> /output/sanitize.min.css.br
-2021/09/14 20:05:11 br /tmp/work/forms.min.css -> /output/forms.min.css.br
-2021/09/14 20:05:11 gz /tmp/work/ui-monospace.min.css -> /output/ui-monospace.min.css.gz
-2021/09/14 20:05:11 sri /tmp/work/ui-monospace.css -> /output/ui-monospace.css.sri
-2021/09/14 20:05:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ui-monospace.css.br /tmp/work/ui-monospace.css
-2021/09/14 20:05:11 gz /tmp/work/forms.min.css -> /output/forms.min.css.gz
-2021/09/14 20:05:11 sri /tmp/work/forms.css -> /output/forms.css.sri
-2021/09/14 20:05:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/forms.css.br /tmp/work/forms.css
-2021/09/14 20:05:11 gz /tmp/work/sanitize.min.css -> /output/sanitize.min.css.gz
-2021/09/14 20:05:11 sri /tmp/work/sanitize.css -> /output/sanitize.css.sri
-2021/09/14 20:05:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sanitize.css.br /tmp/work/sanitize.css
-2021/09/14 20:05:11 br /tmp/work/typography.css -> /output/typography.css.br
-2021/09/14 20:05:11 gz /tmp/work/typography.css -> /output/typography.css.gz
-2021/09/14 20:05:11 br /tmp/work/ui-monospace.css -> /output/ui-monospace.css.br
-2021/09/14 20:05:11 gz /tmp/work/ui-monospace.css -> /output/ui-monospace.css.gz
-2021/09/14 20:05:11 br /tmp/work/forms.css -> /output/forms.css.br
-2021/09/14 20:05:11 gz /tmp/work/forms.css -> /output/forms.css.gz
-2021/09/14 20:05:11 br /tmp/work/sanitize.css -> /output/sanitize.css.br
-2021/09/14 20:05:11 gz /tmp/work/sanitize.css -> /output/sanitize.css.gz
-2021/09/14 20:05:11 processed 10up-sanitize.css
+2023/07/31 10:15:25 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/31 10:15:25 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/assets.min.css /tmp/work/assets.css
+2023/07/31 10:15:25 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/forms.min.css /tmp/work/forms.css
+2023/07/31 10:15:25 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/system-ui.min.css /tmp/work/system-ui.css
+2023/07/31 10:15:25 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/typography.min.css /tmp/work/typography.css
+2023/07/31 10:15:25 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/reduce-motion.min.css /tmp/work/reduce-motion.css
+2023/07/31 10:15:25 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/sanitize.min.css /tmp/work/sanitize.css
+2023/07/31 10:15:25 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/ui-monospace.min.css /tmp/work/ui-monospace.css
+2023/07/31 10:15:26 sri /tmp/work/assets.min.css -> /output/assets.min.css.sri
+2023/07/31 10:15:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/assets.min.css.br /tmp/work/assets.min.css
+2023/07/31 10:15:26 br /tmp/work/assets.min.css -> /output/assets.min.css.br
+2023/07/31 10:15:26 gz /tmp/work/assets.min.css -> /output/assets.min.css.gz
+2023/07/31 10:15:26 sri /tmp/work/assets.css -> /output/assets.css.sri
+2023/07/31 10:15:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/assets.css.br /tmp/work/assets.css
+2023/07/31 10:15:26 br /tmp/work/assets.css -> /output/assets.css.br
+2023/07/31 10:15:26 sri /tmp/work/ui-monospace.min.css -> /output/ui-monospace.min.css.sri
+2023/07/31 10:15:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ui-monospace.min.css.br /tmp/work/ui-monospace.min.css
+2023/07/31 10:15:26 gz /tmp/work/assets.css -> /output/assets.css.gz
+2023/07/31 10:15:26 br /tmp/work/ui-monospace.min.css -> /output/ui-monospace.min.css.br
+2023/07/31 10:15:26 sri /tmp/work/typography.min.css -> /output/typography.min.css.sri
+2023/07/31 10:15:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/typography.min.css.br /tmp/work/typography.min.css
+2023/07/31 10:15:26 gz /tmp/work/ui-monospace.min.css -> /output/ui-monospace.min.css.gz
+2023/07/31 10:15:26 sri /tmp/work/ui-monospace.css -> /output/ui-monospace.css.sri
+2023/07/31 10:15:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ui-monospace.css.br /tmp/work/ui-monospace.css
+2023/07/31 10:15:26 br /tmp/work/typography.min.css -> /output/typography.min.css.br
+2023/07/31 10:15:26 gz /tmp/work/typography.min.css -> /output/typography.min.css.gz
+2023/07/31 10:15:26 sri /tmp/work/typography.css -> /output/typography.css.sri
+2023/07/31 10:15:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/typography.css.br /tmp/work/typography.css
+2023/07/31 10:15:26 br /tmp/work/ui-monospace.css -> /output/ui-monospace.css.br
+2023/07/31 10:15:26 gz /tmp/work/ui-monospace.css -> /output/ui-monospace.css.gz
+2023/07/31 10:15:26 br /tmp/work/typography.css -> /output/typography.css.br
+2023/07/31 10:15:26 gz /tmp/work/typography.css -> /output/typography.css.gz
+2023/07/31 10:15:26 sri /tmp/work/forms.min.css -> /output/forms.min.css.sri
+2023/07/31 10:15:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/forms.min.css.br /tmp/work/forms.min.css
+2023/07/31 10:15:26 sri /tmp/work/system-ui.min.css -> /output/system-ui.min.css.sri
+2023/07/31 10:15:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/system-ui.min.css.br /tmp/work/system-ui.min.css
+2023/07/31 10:15:26 sri /tmp/work/reduce-motion.min.css -> /output/reduce-motion.min.css.sri
+2023/07/31 10:15:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/reduce-motion.min.css.br /tmp/work/reduce-motion.min.css
+2023/07/31 10:15:26 br /tmp/work/forms.min.css -> /output/forms.min.css.br
+2023/07/31 10:15:26 gz /tmp/work/forms.min.css -> /output/forms.min.css.gz
+2023/07/31 10:15:26 sri /tmp/work/forms.css -> /output/forms.css.sri
+2023/07/31 10:15:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/forms.css.br /tmp/work/forms.css
+2023/07/31 10:15:26 br /tmp/work/reduce-motion.min.css -> /output/reduce-motion.min.css.br
+2023/07/31 10:15:26 gz /tmp/work/reduce-motion.min.css -> /output/reduce-motion.min.css.gz
+2023/07/31 10:15:26 sri /tmp/work/reduce-motion.css -> /output/reduce-motion.css.sri
+2023/07/31 10:15:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/reduce-motion.css.br /tmp/work/reduce-motion.css
+2023/07/31 10:15:26 br /tmp/work/system-ui.min.css -> /output/system-ui.min.css.br
+2023/07/31 10:15:26 gz /tmp/work/system-ui.min.css -> /output/system-ui.min.css.gz
+2023/07/31 10:15:26 sri /tmp/work/system-ui.css -> /output/system-ui.css.sri
+2023/07/31 10:15:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/system-ui.css.br /tmp/work/system-ui.css
+2023/07/31 10:15:26 br /tmp/work/forms.css -> /output/forms.css.br
+2023/07/31 10:15:26 gz /tmp/work/forms.css -> /output/forms.css.gz
+2023/07/31 10:15:26 br /tmp/work/reduce-motion.css -> /output/reduce-motion.css.br
+2023/07/31 10:15:26 br /tmp/work/system-ui.css -> /output/system-ui.css.br
+2023/07/31 10:15:26 gz /tmp/work/reduce-motion.css -> /output/reduce-motion.css.gz
+2023/07/31 10:15:26 gz /tmp/work/system-ui.css -> /output/system-ui.css.gz
+2023/07/31 10:15:26 sri /tmp/work/sanitize.min.css -> /output/sanitize.min.css.sri
+2023/07/31 10:15:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sanitize.min.css.br /tmp/work/sanitize.min.css
+2023/07/31 10:15:26 br /tmp/work/sanitize.min.css -> /output/sanitize.min.css.br
+2023/07/31 10:15:26 gz /tmp/work/sanitize.min.css -> /output/sanitize.min.css.gz
+2023/07/31 10:15:26 sri /tmp/work/sanitize.css -> /output/sanitize.css.sri
+2023/07/31 10:15:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sanitize.css.br /tmp/work/sanitize.css
+2023/07/31 10:15:26 br /tmp/work/sanitize.css -> /output/sanitize.css.br
+2023/07/31 10:15:26 gz /tmp/work/sanitize.css -> /output/sanitize.css.gz
+2023/07/31 10:15:26 processed 10up-sanitize.css
