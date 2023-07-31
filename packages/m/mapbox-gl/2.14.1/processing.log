@@ -1,89 +1,89 @@
-2023/04/14 10:06:51 optimizing files (Js true, Css true, Png true, Jpg true)
-2023/04/14 10:06:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/mapbox-gl-csp-worker.min.js /tmp/work/dist/mapbox-gl-csp-worker.js
-2023/04/14 10:06:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/mapbox-gl-dev.min.js /tmp/work/dist/mapbox-gl-dev.js
-2023/04/14 10:06:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/mapbox-gl-csp.min.js /tmp/work/dist/mapbox-gl-csp.js
-2023/04/14 10:06:51 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/mapbox-gl.min.css /tmp/work/dist/mapbox-gl.css
-2023/04/14 10:06:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-csp.js.map.br /tmp/work/dist/mapbox-gl-csp.js.map
-2023/04/14 10:06:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/mapbox-gl-unminified.min.js /tmp/work/dist/mapbox-gl-unminified.js
-2023/04/14 10:06:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-csp-worker.js.map.br /tmp/work/dist/mapbox-gl-csp-worker.js.map
-2023/04/14 10:06:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-unminified.js.map.br /tmp/work/dist/mapbox-gl-unminified.js.map
-2023/04/14 10:06:52 sri /tmp/work/dist/mapbox-gl.min.css -> /output/mapbox-gl.min.css.sri
-2023/04/14 10:06:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl.min.css.br /tmp/work/dist/mapbox-gl.min.css
-2023/04/14 10:06:52 br /tmp/work/dist/mapbox-gl.min.css -> /output/mapbox-gl.min.css.br
-2023/04/14 10:06:52 gz /tmp/work/dist/mapbox-gl.min.css -> /output/mapbox-gl.min.css.gz
-2023/04/14 10:06:52 sri /tmp/work/dist/mapbox-gl.css -> /output/mapbox-gl.css.sri
-2023/04/14 10:06:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl.css.br /tmp/work/dist/mapbox-gl.css
-2023/04/14 10:06:52 br /tmp/work/dist/mapbox-gl.css -> /output/mapbox-gl.css.br
-2023/04/14 10:06:52 gz /tmp/work/dist/mapbox-gl.css -> /output/mapbox-gl.css.gz
-2023/04/14 10:06:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/mapbox-gl.min.js /tmp/work/dist/mapbox-gl.js
-2023/04/14 10:07:01 br /tmp/work/dist/mapbox-gl-csp-worker.js.map -> /output/mapbox-gl-csp-worker.js.map.br
-2023/04/14 10:07:01 gz /tmp/work/dist/mapbox-gl-csp-worker.js.map -> /output/mapbox-gl-csp-worker.js.map.gz
-2023/04/14 10:07:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl.js.map.br /tmp/work/dist/mapbox-gl.js.map
-2023/04/14 10:07:08 sri /tmp/work/dist/mapbox-gl-csp-worker.min.js -> /output/mapbox-gl-csp-worker.min.js.sri
-2023/04/14 10:07:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-csp-worker.min.js.br /tmp/work/dist/mapbox-gl-csp-worker.min.js
-2023/04/14 10:07:10 br /tmp/work/dist/mapbox-gl-csp.js.map -> /output/mapbox-gl-csp.js.map.br
-2023/04/14 10:07:10 br /tmp/work/dist/mapbox-gl-csp-worker.min.js -> /output/mapbox-gl-csp-worker.min.js.br
-2023/04/14 10:07:10 gz /tmp/work/dist/mapbox-gl-csp-worker.min.js -> /output/mapbox-gl-csp-worker.min.js.gz
-2023/04/14 10:07:10 sri /tmp/work/dist/mapbox-gl-csp-worker.js -> /output/mapbox-gl-csp-worker.js.sri
-2023/04/14 10:07:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-csp-worker.js.br /tmp/work/dist/mapbox-gl-csp-worker.js
-2023/04/14 10:07:11 gz /tmp/work/dist/mapbox-gl-csp.js.map -> /output/mapbox-gl-csp.js.map.gz
-2023/04/14 10:07:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/package.json.br /tmp/work/dist/package.json
-2023/04/14 10:07:11 br /tmp/work/dist/package.json -> /output/package.json.br
-2023/04/14 10:07:11 gz /tmp/work/dist/package.json -> /output/package.json.gz
-2023/04/14 10:07:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/style-spec/index.cjs.br /tmp/work/dist/style-spec/index.cjs
-2023/04/14 10:07:12 br /tmp/work/dist/mapbox-gl-csp-worker.js -> /output/mapbox-gl-csp-worker.js.br
-2023/04/14 10:07:12 gz /tmp/work/dist/mapbox-gl-csp-worker.js -> /output/mapbox-gl-csp-worker.js.gz
-2023/04/14 10:07:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/style-spec/index.cjs.map.br /tmp/work/dist/style-spec/index.cjs.map
-2023/04/14 10:07:13 br /tmp/work/dist/style-spec/index.cjs -> /output/style-spec/index.cjs.br
-2023/04/14 10:07:13 gz /tmp/work/dist/style-spec/index.cjs -> /output/style-spec/index.cjs.gz
-2023/04/14 10:07:13 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/style-spec/index.es.min.js /tmp/work/dist/style-spec/index.es.js
-2023/04/14 10:07:15 sri /tmp/work/dist/mapbox-gl-csp.min.js -> /output/mapbox-gl-csp.min.js.sri
-2023/04/14 10:07:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-csp.min.js.br /tmp/work/dist/mapbox-gl-csp.min.js
-2023/04/14 10:07:16 br /tmp/work/dist/style-spec/index.cjs.map -> /output/style-spec/index.cjs.map.br
-2023/04/14 10:07:16 gz /tmp/work/dist/style-spec/index.cjs.map -> /output/style-spec/index.cjs.map.gz
-2023/04/14 10:07:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/style-spec/index.es.js.map.br /tmp/work/dist/style-spec/index.es.js.map
-2023/04/14 10:07:17 sri /tmp/work/dist/mapbox-gl.min.js -> /output/mapbox-gl.min.js.sri
-2023/04/14 10:07:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl.min.js.br /tmp/work/dist/mapbox-gl.min.js
-2023/04/14 10:07:18 br /tmp/work/dist/mapbox-gl-unminified.js.map -> /output/mapbox-gl-unminified.js.map.br
-2023/04/14 10:07:19 br /tmp/work/dist/style-spec/index.es.js.map -> /output/style-spec/index.es.js.map.br
-2023/04/14 10:07:19 br /tmp/work/dist/mapbox-gl-csp.min.js -> /output/mapbox-gl-csp.min.js.br
-2023/04/14 10:07:19 gz /tmp/work/dist/style-spec/index.es.js.map -> /output/style-spec/index.es.js.map.gz
-2023/04/14 10:07:19 gz /tmp/work/dist/mapbox-gl-csp.min.js -> /output/mapbox-gl-csp.min.js.gz
-2023/04/14 10:07:19 sri /tmp/work/dist/mapbox-gl-csp.js -> /output/mapbox-gl-csp.js.sri
-2023/04/14 10:07:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-csp.js.br /tmp/work/dist/mapbox-gl-csp.js
-2023/04/14 10:07:19 gz /tmp/work/dist/mapbox-gl-unminified.js.map -> /output/mapbox-gl-unminified.js.map.gz
-2023/04/14 10:07:20 sri /tmp/work/dist/style-spec/index.es.min.js -> /output/style-spec/index.es.min.js.sri
-2023/04/14 10:07:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/style-spec/index.es.min.js.br /tmp/work/dist/style-spec/index.es.min.js
-2023/04/14 10:07:21 br /tmp/work/dist/style-spec/index.es.min.js -> /output/style-spec/index.es.min.js.br
-2023/04/14 10:07:21 gz /tmp/work/dist/style-spec/index.es.min.js -> /output/style-spec/index.es.min.js.gz
-2023/04/14 10:07:21 sri /tmp/work/dist/style-spec/index.es.js -> /output/style-spec/index.es.js.sri
-2023/04/14 10:07:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/style-spec/index.es.js.br /tmp/work/dist/style-spec/index.es.js
-2023/04/14 10:07:21 sri /tmp/work/dist/mapbox-gl-unminified.min.js -> /output/mapbox-gl-unminified.min.js.sri
-2023/04/14 10:07:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-unminified.min.js.br /tmp/work/dist/mapbox-gl-unminified.min.js
-2023/04/14 10:07:21 br /tmp/work/dist/mapbox-gl.min.js -> /output/mapbox-gl.min.js.br
-2023/04/14 10:07:21 gz /tmp/work/dist/mapbox-gl.min.js -> /output/mapbox-gl.min.js.gz
-2023/04/14 10:07:21 sri /tmp/work/dist/mapbox-gl.js -> /output/mapbox-gl.js.sri
-2023/04/14 10:07:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl.js.br /tmp/work/dist/mapbox-gl.js
-2023/04/14 10:07:22 sri /tmp/work/dist/mapbox-gl-dev.min.js -> /output/mapbox-gl-dev.min.js.sri
-2023/04/14 10:07:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-dev.min.js.br /tmp/work/dist/mapbox-gl-dev.min.js
-2023/04/14 10:07:22 br /tmp/work/dist/style-spec/index.es.js -> /output/style-spec/index.es.js.br
-2023/04/14 10:07:22 gz /tmp/work/dist/style-spec/index.es.js -> /output/style-spec/index.es.js.gz
-2023/04/14 10:07:23 br /tmp/work/dist/mapbox-gl-csp.js -> /output/mapbox-gl-csp.js.br
-2023/04/14 10:07:23 gz /tmp/work/dist/mapbox-gl-csp.js -> /output/mapbox-gl-csp.js.gz
-2023/04/14 10:07:23 br /tmp/work/dist/mapbox-gl.js.map -> /output/mapbox-gl.js.map.br
-2023/04/14 10:07:24 br /tmp/work/dist/mapbox-gl-unminified.min.js -> /output/mapbox-gl-unminified.min.js.br
-2023/04/14 10:07:24 gz /tmp/work/dist/mapbox-gl-unminified.min.js -> /output/mapbox-gl-unminified.min.js.gz
-2023/04/14 10:07:24 sri /tmp/work/dist/mapbox-gl-unminified.js -> /output/mapbox-gl-unminified.js.sri
-2023/04/14 10:07:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-unminified.js.br /tmp/work/dist/mapbox-gl-unminified.js
-2023/04/14 10:07:24 br /tmp/work/dist/mapbox-gl.js -> /output/mapbox-gl.js.br
-2023/04/14 10:07:24 gz /tmp/work/dist/mapbox-gl.js -> /output/mapbox-gl.js.gz
-2023/04/14 10:07:25 gz /tmp/work/dist/mapbox-gl.js.map -> /output/mapbox-gl.js.map.gz
-2023/04/14 10:07:25 br /tmp/work/dist/mapbox-gl-dev.min.js -> /output/mapbox-gl-dev.min.js.br
-2023/04/14 10:07:25 gz /tmp/work/dist/mapbox-gl-dev.min.js -> /output/mapbox-gl-dev.min.js.gz
-2023/04/14 10:07:25 sri /tmp/work/dist/mapbox-gl-dev.js -> /output/mapbox-gl-dev.js.sri
-2023/04/14 10:07:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-dev.js.br /tmp/work/dist/mapbox-gl-dev.js
-2023/04/14 10:07:30 br /tmp/work/dist/mapbox-gl-unminified.js -> /output/mapbox-gl-unminified.js.br
-2023/04/14 10:07:31 gz /tmp/work/dist/mapbox-gl-unminified.js -> /output/mapbox-gl-unminified.js.gz
-2023/04/14 10:07:50 br /tmp/work/dist/mapbox-gl-dev.js -> /output/mapbox-gl-dev.js.br
-2023/04/14 10:07:51 gz /tmp/work/dist/mapbox-gl-dev.js -> /output/mapbox-gl-dev.js.gz
-2023/04/14 10:07:51 processed mapbox-gl
+2023/07/31 12:13:51 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/31 12:13:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/mapbox-gl-csp-worker.min.js /tmp/work/dist/mapbox-gl-csp-worker.js
+2023/07/31 12:13:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-csp-worker.js.map.br /tmp/work/dist/mapbox-gl-csp-worker.js.map
+2023/07/31 12:13:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/mapbox-gl-csp.min.js /tmp/work/dist/mapbox-gl-csp.js
+2023/07/31 12:13:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/mapbox-gl-dev.min.js /tmp/work/dist/mapbox-gl-dev.js
+2023/07/31 12:13:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-csp.js.map.br /tmp/work/dist/mapbox-gl-csp.js.map
+2023/07/31 12:13:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-unminified.js.map.br /tmp/work/dist/mapbox-gl-unminified.js.map
+2023/07/31 12:13:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/mapbox-gl-unminified.min.js /tmp/work/dist/mapbox-gl-unminified.js
+2023/07/31 12:13:51 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/mapbox-gl.min.css /tmp/work/dist/mapbox-gl.css
+2023/07/31 12:13:53 sri /tmp/work/dist/mapbox-gl.min.css -> /output/mapbox-gl.min.css.sri
+2023/07/31 12:13:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl.min.css.br /tmp/work/dist/mapbox-gl.min.css
+2023/07/31 12:13:53 br /tmp/work/dist/mapbox-gl.min.css -> /output/mapbox-gl.min.css.br
+2023/07/31 12:13:53 gz /tmp/work/dist/mapbox-gl.min.css -> /output/mapbox-gl.min.css.gz
+2023/07/31 12:13:53 sri /tmp/work/dist/mapbox-gl.css -> /output/mapbox-gl.css.sri
+2023/07/31 12:13:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl.css.br /tmp/work/dist/mapbox-gl.css
+2023/07/31 12:13:54 br /tmp/work/dist/mapbox-gl.css -> /output/mapbox-gl.css.br
+2023/07/31 12:13:54 gz /tmp/work/dist/mapbox-gl.css -> /output/mapbox-gl.css.gz
+2023/07/31 12:13:54 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/mapbox-gl.min.js /tmp/work/dist/mapbox-gl.js
+2023/07/31 12:14:42 br /tmp/work/dist/mapbox-gl-csp-worker.js.map -> /output/mapbox-gl-csp-worker.js.map.br
+2023/07/31 12:14:45 gz /tmp/work/dist/mapbox-gl-csp-worker.js.map -> /output/mapbox-gl-csp-worker.js.map.gz
+2023/07/31 12:14:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl.js.map.br /tmp/work/dist/mapbox-gl.js.map
+2023/07/31 12:14:47 sri /tmp/work/dist/mapbox-gl-csp-worker.min.js -> /output/mapbox-gl-csp-worker.min.js.sri
+2023/07/31 12:14:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-csp-worker.min.js.br /tmp/work/dist/mapbox-gl-csp-worker.min.js
+2023/07/31 12:14:57 br /tmp/work/dist/mapbox-gl-csp-worker.min.js -> /output/mapbox-gl-csp-worker.min.js.br
+2023/07/31 12:14:57 gz /tmp/work/dist/mapbox-gl-csp-worker.min.js -> /output/mapbox-gl-csp-worker.min.js.gz
+2023/07/31 12:14:57 sri /tmp/work/dist/mapbox-gl-csp-worker.js -> /output/mapbox-gl-csp-worker.js.sri
+2023/07/31 12:14:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-csp-worker.js.br /tmp/work/dist/mapbox-gl-csp-worker.js
+2023/07/31 12:15:06 br /tmp/work/dist/mapbox-gl-csp-worker.js -> /output/mapbox-gl-csp-worker.js.br
+2023/07/31 12:15:06 gz /tmp/work/dist/mapbox-gl-csp-worker.js -> /output/mapbox-gl-csp-worker.js.gz
+2023/07/31 12:15:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/package.json.br /tmp/work/dist/package.json
+2023/07/31 12:15:06 br /tmp/work/dist/package.json -> /output/package.json.br
+2023/07/31 12:15:06 gz /tmp/work/dist/package.json -> /output/package.json.gz
+2023/07/31 12:15:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/style-spec/index.cjs.br /tmp/work/dist/style-spec/index.cjs
+2023/07/31 12:15:15 br /tmp/work/dist/style-spec/index.cjs -> /output/style-spec/index.cjs.br
+2023/07/31 12:15:16 gz /tmp/work/dist/style-spec/index.cjs -> /output/style-spec/index.cjs.gz
+2023/07/31 12:15:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/style-spec/index.cjs.map.br /tmp/work/dist/style-spec/index.cjs.map
+2023/07/31 12:15:16 sri /tmp/work/dist/mapbox-gl-csp.min.js -> /output/mapbox-gl-csp.min.js.sri
+2023/07/31 12:15:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-csp.min.js.br /tmp/work/dist/mapbox-gl-csp.min.js
+2023/07/31 12:15:18 br /tmp/work/dist/mapbox-gl-csp.js.map -> /output/mapbox-gl-csp.js.map.br
+2023/07/31 12:15:20 sri /tmp/work/dist/mapbox-gl.min.js -> /output/mapbox-gl.min.js.sri
+2023/07/31 12:15:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl.min.js.br /tmp/work/dist/mapbox-gl.min.js
+2023/07/31 12:15:20 gz /tmp/work/dist/mapbox-gl-csp.js.map -> /output/mapbox-gl-csp.js.map.gz
+2023/07/31 12:15:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/style-spec/index.es.min.js /tmp/work/dist/style-spec/index.es.js
+2023/07/31 12:15:26 sri /tmp/work/dist/mapbox-gl-unminified.min.js -> /output/mapbox-gl-unminified.min.js.sri
+2023/07/31 12:15:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-unminified.min.js.br /tmp/work/dist/mapbox-gl-unminified.min.js
+2023/07/31 12:15:27 sri /tmp/work/dist/mapbox-gl-dev.min.js -> /output/mapbox-gl-dev.min.js.sri
+2023/07/31 12:15:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-dev.min.js.br /tmp/work/dist/mapbox-gl-dev.min.js
+2023/07/31 12:15:28 br /tmp/work/dist/style-spec/index.cjs.map -> /output/style-spec/index.cjs.map.br
+2023/07/31 12:15:29 gz /tmp/work/dist/style-spec/index.cjs.map -> /output/style-spec/index.cjs.map.gz
+2023/07/31 12:15:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/style-spec/index.es.js.map.br /tmp/work/dist/style-spec/index.es.js.map
+2023/07/31 12:15:30 br /tmp/work/dist/mapbox-gl-csp.min.js -> /output/mapbox-gl-csp.min.js.br
+2023/07/31 12:15:31 gz /tmp/work/dist/mapbox-gl-csp.min.js -> /output/mapbox-gl-csp.min.js.gz
+2023/07/31 12:15:31 sri /tmp/work/dist/mapbox-gl-csp.js -> /output/mapbox-gl-csp.js.sri
+2023/07/31 12:15:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-csp.js.br /tmp/work/dist/mapbox-gl-csp.js
+2023/07/31 12:15:32 br /tmp/work/dist/mapbox-gl-unminified.min.js -> /output/mapbox-gl-unminified.min.js.br
+2023/07/31 12:15:32 gz /tmp/work/dist/mapbox-gl-unminified.min.js -> /output/mapbox-gl-unminified.min.js.gz
+2023/07/31 12:15:32 sri /tmp/work/dist/mapbox-gl-unminified.js -> /output/mapbox-gl-unminified.js.sri
+2023/07/31 12:15:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-unminified.js.br /tmp/work/dist/mapbox-gl-unminified.js
+2023/07/31 12:15:33 br /tmp/work/dist/mapbox-gl.min.js -> /output/mapbox-gl.min.js.br
+2023/07/31 12:15:33 gz /tmp/work/dist/mapbox-gl.min.js -> /output/mapbox-gl.min.js.gz
+2023/07/31 12:15:33 sri /tmp/work/dist/mapbox-gl.js -> /output/mapbox-gl.js.sri
+2023/07/31 12:15:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl.js.br /tmp/work/dist/mapbox-gl.js
+2023/07/31 12:15:36 br /tmp/work/dist/style-spec/index.es.js.map -> /output/style-spec/index.es.js.map.br
+2023/07/31 12:15:36 gz /tmp/work/dist/style-spec/index.es.js.map -> /output/style-spec/index.es.js.map.gz
+2023/07/31 12:15:37 sri /tmp/work/dist/style-spec/index.es.min.js -> /output/style-spec/index.es.min.js.sri
+2023/07/31 12:15:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/style-spec/index.es.min.js.br /tmp/work/dist/style-spec/index.es.min.js
+2023/07/31 12:15:37 br /tmp/work/dist/style-spec/index.es.min.js -> /output/style-spec/index.es.min.js.br
+2023/07/31 12:15:37 gz /tmp/work/dist/style-spec/index.es.min.js -> /output/style-spec/index.es.min.js.gz
+2023/07/31 12:15:37 sri /tmp/work/dist/style-spec/index.es.js -> /output/style-spec/index.es.js.sri
+2023/07/31 12:15:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/style-spec/index.es.js.br /tmp/work/dist/style-spec/index.es.js
+2023/07/31 12:15:40 br /tmp/work/dist/mapbox-gl.js -> /output/mapbox-gl.js.br
+2023/07/31 12:15:40 gz /tmp/work/dist/mapbox-gl.js -> /output/mapbox-gl.js.gz
+2023/07/31 12:15:40 br /tmp/work/dist/mapbox-gl-dev.min.js -> /output/mapbox-gl-dev.min.js.br
+2023/07/31 12:15:40 gz /tmp/work/dist/mapbox-gl-dev.min.js -> /output/mapbox-gl-dev.min.js.gz
+2023/07/31 12:15:40 sri /tmp/work/dist/mapbox-gl-dev.js -> /output/mapbox-gl-dev.js.sri
+2023/07/31 12:15:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mapbox-gl-dev.js.br /tmp/work/dist/mapbox-gl-dev.js
+2023/07/31 12:15:42 br /tmp/work/dist/mapbox-gl-csp.js -> /output/mapbox-gl-csp.js.br
+2023/07/31 12:15:42 gz /tmp/work/dist/mapbox-gl-csp.js -> /output/mapbox-gl-csp.js.gz
+2023/07/31 12:15:43 br /tmp/work/dist/style-spec/index.es.js -> /output/style-spec/index.es.js.br
+2023/07/31 12:15:43 gz /tmp/work/dist/style-spec/index.es.js -> /output/style-spec/index.es.js.gz
+2023/07/31 12:15:43 br /tmp/work/dist/mapbox-gl-unminified.js.map -> /output/mapbox-gl-unminified.js.map.br
+2023/07/31 12:15:45 gz /tmp/work/dist/mapbox-gl-unminified.js.map -> /output/mapbox-gl-unminified.js.map.gz
+2023/07/31 12:15:51 br /tmp/work/dist/mapbox-gl.js.map -> /output/mapbox-gl.js.map.br
+2023/07/31 12:15:52 br /tmp/work/dist/mapbox-gl-unminified.js -> /output/mapbox-gl-unminified.js.br
+2023/07/31 12:15:53 gz /tmp/work/dist/mapbox-gl-unminified.js -> /output/mapbox-gl-unminified.js.gz
+2023/07/31 12:15:54 gz /tmp/work/dist/mapbox-gl.js.map -> /output/mapbox-gl.js.map.gz
+2023/07/31 12:16:11 br /tmp/work/dist/mapbox-gl-dev.js -> /output/mapbox-gl-dev.js.br
+2023/07/31 12:16:13 gz /tmp/work/dist/mapbox-gl-dev.js -> /output/mapbox-gl-dev.js.gz
+2023/07/31 12:16:13 processed mapbox-gl
