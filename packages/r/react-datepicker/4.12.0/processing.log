@@ -1,66 +1,66 @@
-2023/05/25 20:01:35 optimizing files (Js true, Css true, Png true, Jpg true)
-2023/05/25 20:01:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.min.js /tmp/work/dist/index.js
-2023/05/25 20:01:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/es/index.min.js /tmp/work/dist/es/index.js
-2023/05/25 20:01:35 /tmp/work/dist/react-datepicker-cssmodules.css already has a compressed version: /tmp/work/dist/react-datepicker-cssmodules.min.css
-2023/05/25 20:01:35 /tmp/work/dist/react-datepicker.css already has a compressed version: /tmp/work/dist/react-datepicker.min.css
-2023/05/25 20:01:35 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/react-datepicker-min.module.min.css /tmp/work/dist/react-datepicker-min.module.css
-2023/05/25 20:01:35 /tmp/work/dist/react-datepicker.min.js already has corresponding compressed file
-2023/05/25 20:01:35 sri /tmp/work/dist/react-datepicker-cssmodules.css -> /output/react-datepicker-cssmodules.css.sri
-2023/05/25 20:01:35 sri /tmp/work/dist/react-datepicker-cssmodules.min.css -> /output/react-datepicker-cssmodules.min.css.sri
-2023/05/25 20:01:35 sri /tmp/work/dist/react-datepicker.css -> /output/react-datepicker.css.sri
-2023/05/25 20:01:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/react-datepicker-cssmodules.css.br /tmp/work/dist/react-datepicker-cssmodules.css
-2023/05/25 20:01:35 sri /tmp/work/dist/react-datepicker.min.css -> /output/react-datepicker.min.css.sri
-2023/05/25 20:01:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/react-datepicker.css.br /tmp/work/dist/react-datepicker.css
-2023/05/25 20:01:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/react-datepicker-cssmodules.min.css.br /tmp/work/dist/react-datepicker-cssmodules.min.css
-2023/05/25 20:01:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/react-datepicker.min.css.br /tmp/work/dist/react-datepicker.min.css
-2023/05/25 20:01:35 sri /tmp/work/dist/react-datepicker.js -> /output/react-datepicker.js.sri
-2023/05/25 20:01:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/react-datepicker.js.br /tmp/work/dist/react-datepicker.js
-2023/05/25 20:01:35 br /tmp/work/dist/react-datepicker.min.css -> /output/react-datepicker.min.css.br
-2023/05/25 20:01:35 gz /tmp/work/dist/react-datepicker.min.css -> /output/react-datepicker.min.css.gz
-2023/05/25 20:01:35 /tmp/work/dist/react-datepicker.min.js is already compressed
-2023/05/25 20:01:35 sri /tmp/work/dist/react-datepicker.min.js -> /output/react-datepicker.min.js.sri
-2023/05/25 20:01:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/react-datepicker.min.js.br /tmp/work/dist/react-datepicker.min.js
-2023/05/25 20:01:35 br /tmp/work/dist/react-datepicker.css -> /output/react-datepicker.css.br
-2023/05/25 20:01:35 br /tmp/work/dist/react-datepicker-cssmodules.min.css -> /output/react-datepicker-cssmodules.min.css.br
-2023/05/25 20:01:35 gz /tmp/work/dist/react-datepicker.css -> /output/react-datepicker.css.gz
-2023/05/25 20:01:35 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/react-datepicker.module.min.css /tmp/work/dist/react-datepicker.module.css
-2023/05/25 20:01:35 gz /tmp/work/dist/react-datepicker-cssmodules.min.css -> /output/react-datepicker-cssmodules.min.css.gz
-2023/05/25 20:01:35 br /tmp/work/dist/react-datepicker-cssmodules.css -> /output/react-datepicker-cssmodules.css.br
-2023/05/25 20:01:35 gz /tmp/work/dist/react-datepicker-cssmodules.css -> /output/react-datepicker-cssmodules.css.gz
-2023/05/25 20:01:35 br /tmp/work/dist/react-datepicker.js -> /output/react-datepicker.js.br
-2023/05/25 20:01:35 gz /tmp/work/dist/react-datepicker.js -> /output/react-datepicker.js.gz
-2023/05/25 20:01:36 sri /tmp/work/dist/react-datepicker-min.module.min.css -> /output/react-datepicker-min.module.min.css.sri
-2023/05/25 20:01:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/react-datepicker-min.module.min.css.br /tmp/work/dist/react-datepicker-min.module.min.css
-2023/05/25 20:01:36 br /tmp/work/dist/react-datepicker.min.js -> /output/react-datepicker.min.js.br
-2023/05/25 20:01:36 gz /tmp/work/dist/react-datepicker.min.js -> /output/react-datepicker.min.js.gz
-2023/05/25 20:01:36 br /tmp/work/dist/react-datepicker-min.module.min.css -> /output/react-datepicker-min.module.min.css.br
-2023/05/25 20:01:36 gz /tmp/work/dist/react-datepicker-min.module.min.css -> /output/react-datepicker-min.module.min.css.gz
-2023/05/25 20:01:36 sri /tmp/work/dist/react-datepicker-min.module.css -> /output/react-datepicker-min.module.css.sri
-2023/05/25 20:01:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/react-datepicker-min.module.css.br /tmp/work/dist/react-datepicker-min.module.css
-2023/05/25 20:01:36 sri /tmp/work/dist/react-datepicker.module.min.css -> /output/react-datepicker.module.min.css.sri
-2023/05/25 20:01:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/react-datepicker.module.min.css.br /tmp/work/dist/react-datepicker.module.min.css
-2023/05/25 20:01:36 br /tmp/work/dist/react-datepicker.module.min.css -> /output/react-datepicker.module.min.css.br
-2023/05/25 20:01:36 gz /tmp/work/dist/react-datepicker.module.min.css -> /output/react-datepicker.module.min.css.gz
-2023/05/25 20:01:36 sri /tmp/work/dist/react-datepicker.module.css -> /output/react-datepicker.module.css.sri
-2023/05/25 20:01:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/react-datepicker.module.css.br /tmp/work/dist/react-datepicker.module.css
-2023/05/25 20:01:36 br /tmp/work/dist/react-datepicker-min.module.css -> /output/react-datepicker-min.module.css.br
-2023/05/25 20:01:36 gz /tmp/work/dist/react-datepicker-min.module.css -> /output/react-datepicker-min.module.css.gz
-2023/05/25 20:01:36 br /tmp/work/dist/react-datepicker.module.css -> /output/react-datepicker.module.css.br
-2023/05/25 20:01:36 gz /tmp/work/dist/react-datepicker.module.css -> /output/react-datepicker.module.css.gz
-2023/05/25 20:01:37 sri /tmp/work/dist/es/index.min.js -> /output/es/index.min.js.sri
-2023/05/25 20:01:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/es/index.min.js.br /tmp/work/dist/es/index.min.js
-2023/05/25 20:01:37 sri /tmp/work/dist/index.min.js -> /output/index.min.js.sri
-2023/05/25 20:01:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/dist/index.min.js
-2023/05/25 20:01:37 br /tmp/work/dist/es/index.min.js -> /output/es/index.min.js.br
-2023/05/25 20:01:37 gz /tmp/work/dist/es/index.min.js -> /output/es/index.min.js.gz
-2023/05/25 20:01:37 sri /tmp/work/dist/es/index.js -> /output/es/index.js.sri
-2023/05/25 20:01:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/es/index.js.br /tmp/work/dist/es/index.js
-2023/05/25 20:01:37 br /tmp/work/dist/index.min.js -> /output/index.min.js.br
-2023/05/25 20:01:37 gz /tmp/work/dist/index.min.js -> /output/index.min.js.gz
-2023/05/25 20:01:37 sri /tmp/work/dist/index.js -> /output/index.js.sri
-2023/05/25 20:01:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/dist/index.js
-2023/05/25 20:01:37 br /tmp/work/dist/es/index.js -> /output/es/index.js.br
-2023/05/25 20:01:37 gz /tmp/work/dist/es/index.js -> /output/es/index.js.gz
-2023/05/25 20:01:38 br /tmp/work/dist/index.js -> /output/index.js.br
-2023/05/25 20:01:38 gz /tmp/work/dist/index.js -> /output/index.js.gz
-2023/05/25 20:01:38 processed react-datepicker
+2023/07/31 12:55:46 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/31 12:55:46 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.min.js /tmp/work/dist/index.js
+2023/07/31 12:55:46 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/es/index.min.js /tmp/work/dist/es/index.js
+2023/07/31 12:55:46 /tmp/work/dist/react-datepicker-cssmodules.css already has a compressed version: /tmp/work/dist/react-datepicker-cssmodules.min.css
+2023/07/31 12:55:46 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/react-datepicker-min.module.min.css /tmp/work/dist/react-datepicker-min.module.css
+2023/07/31 12:55:46 /tmp/work/dist/react-datepicker.css already has a compressed version: /tmp/work/dist/react-datepicker.min.css
+2023/07/31 12:55:47 sri /tmp/work/dist/react-datepicker-cssmodules.css -> /output/react-datepicker-cssmodules.css.sri
+2023/07/31 12:55:47 sri /tmp/work/dist/react-datepicker-cssmodules.min.css -> /output/react-datepicker-cssmodules.min.css.sri
+2023/07/31 12:55:47 sri /tmp/work/dist/react-datepicker.css -> /output/react-datepicker.css.sri
+2023/07/31 12:55:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/react-datepicker.css.br /tmp/work/dist/react-datepicker.css
+2023/07/31 12:55:47 /tmp/work/dist/react-datepicker.min.js already has corresponding compressed file
+2023/07/31 12:55:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/react-datepicker-cssmodules.css.br /tmp/work/dist/react-datepicker-cssmodules.css
+2023/07/31 12:55:47 sri /tmp/work/dist/react-datepicker.min.css -> /output/react-datepicker.min.css.sri
+2023/07/31 12:55:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/react-datepicker.min.css.br /tmp/work/dist/react-datepicker.min.css
+2023/07/31 12:55:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/react-datepicker-cssmodules.min.css.br /tmp/work/dist/react-datepicker-cssmodules.min.css
+2023/07/31 12:55:47 sri /tmp/work/dist/react-datepicker.js -> /output/react-datepicker.js.sri
+2023/07/31 12:55:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/react-datepicker.js.br /tmp/work/dist/react-datepicker.js
+2023/07/31 12:55:47 br /tmp/work/dist/react-datepicker.css -> /output/react-datepicker.css.br
+2023/07/31 12:55:47 gz /tmp/work/dist/react-datepicker.css -> /output/react-datepicker.css.gz
+2023/07/31 12:55:47 /tmp/work/dist/react-datepicker.min.js is already compressed
+2023/07/31 12:55:47 sri /tmp/work/dist/react-datepicker.min.js -> /output/react-datepicker.min.js.sri
+2023/07/31 12:55:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/react-datepicker.min.js.br /tmp/work/dist/react-datepicker.min.js
+2023/07/31 12:55:47 br /tmp/work/dist/react-datepicker-cssmodules.min.css -> /output/react-datepicker-cssmodules.min.css.br
+2023/07/31 12:55:47 gz /tmp/work/dist/react-datepicker-cssmodules.min.css -> /output/react-datepicker-cssmodules.min.css.gz
+2023/07/31 12:55:47 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/react-datepicker.module.min.css /tmp/work/dist/react-datepicker.module.css
+2023/07/31 12:55:47 br /tmp/work/dist/react-datepicker-cssmodules.css -> /output/react-datepicker-cssmodules.css.br
+2023/07/31 12:55:47 gz /tmp/work/dist/react-datepicker-cssmodules.css -> /output/react-datepicker-cssmodules.css.gz
+2023/07/31 12:55:47 br /tmp/work/dist/react-datepicker.min.css -> /output/react-datepicker.min.css.br
+2023/07/31 12:55:47 gz /tmp/work/dist/react-datepicker.min.css -> /output/react-datepicker.min.css.gz
+2023/07/31 12:55:47 br /tmp/work/dist/react-datepicker.js -> /output/react-datepicker.js.br
+2023/07/31 12:55:47 gz /tmp/work/dist/react-datepicker.js -> /output/react-datepicker.js.gz
+2023/07/31 12:55:47 sri /tmp/work/dist/react-datepicker-min.module.min.css -> /output/react-datepicker-min.module.min.css.sri
+2023/07/31 12:55:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/react-datepicker-min.module.min.css.br /tmp/work/dist/react-datepicker-min.module.min.css
+2023/07/31 12:55:47 br /tmp/work/dist/react-datepicker.min.js -> /output/react-datepicker.min.js.br
+2023/07/31 12:55:47 br /tmp/work/dist/react-datepicker-min.module.min.css -> /output/react-datepicker-min.module.min.css.br
+2023/07/31 12:55:47 gz /tmp/work/dist/react-datepicker-min.module.min.css -> /output/react-datepicker-min.module.min.css.gz
+2023/07/31 12:55:47 sri /tmp/work/dist/react-datepicker-min.module.css -> /output/react-datepicker-min.module.css.sri
+2023/07/31 12:55:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/react-datepicker-min.module.css.br /tmp/work/dist/react-datepicker-min.module.css
+2023/07/31 12:55:47 sri /tmp/work/dist/react-datepicker.module.min.css -> /output/react-datepicker.module.min.css.sri
+2023/07/31 12:55:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/react-datepicker.module.min.css.br /tmp/work/dist/react-datepicker.module.min.css
+2023/07/31 12:55:47 gz /tmp/work/dist/react-datepicker.min.js -> /output/react-datepicker.min.js.gz
+2023/07/31 12:55:48 br /tmp/work/dist/react-datepicker.module.min.css -> /output/react-datepicker.module.min.css.br
+2023/07/31 12:55:48 gz /tmp/work/dist/react-datepicker.module.min.css -> /output/react-datepicker.module.min.css.gz
+2023/07/31 12:55:48 sri /tmp/work/dist/react-datepicker.module.css -> /output/react-datepicker.module.css.sri
+2023/07/31 12:55:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/react-datepicker.module.css.br /tmp/work/dist/react-datepicker.module.css
+2023/07/31 12:55:48 br /tmp/work/dist/react-datepicker.module.css -> /output/react-datepicker.module.css.br
+2023/07/31 12:55:48 gz /tmp/work/dist/react-datepicker.module.css -> /output/react-datepicker.module.css.gz
+2023/07/31 12:55:48 br /tmp/work/dist/react-datepicker-min.module.css -> /output/react-datepicker-min.module.css.br
+2023/07/31 12:55:48 gz /tmp/work/dist/react-datepicker-min.module.css -> /output/react-datepicker-min.module.css.gz
+2023/07/31 12:55:51 sri /tmp/work/dist/es/index.min.js -> /output/es/index.min.js.sri
+2023/07/31 12:55:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/es/index.min.js.br /tmp/work/dist/es/index.min.js
+2023/07/31 12:55:51 sri /tmp/work/dist/index.min.js -> /output/index.min.js.sri
+2023/07/31 12:55:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/dist/index.min.js
+2023/07/31 12:55:51 br /tmp/work/dist/es/index.min.js -> /output/es/index.min.js.br
+2023/07/31 12:55:51 gz /tmp/work/dist/es/index.min.js -> /output/es/index.min.js.gz
+2023/07/31 12:55:51 sri /tmp/work/dist/es/index.js -> /output/es/index.js.sri
+2023/07/31 12:55:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/es/index.js.br /tmp/work/dist/es/index.js
+2023/07/31 12:55:51 br /tmp/work/dist/es/index.js -> /output/es/index.js.br
+2023/07/31 12:55:51 gz /tmp/work/dist/es/index.js -> /output/es/index.js.gz
+2023/07/31 12:55:52 br /tmp/work/dist/index.min.js -> /output/index.min.js.br
+2023/07/31 12:55:52 gz /tmp/work/dist/index.min.js -> /output/index.min.js.gz
+2023/07/31 12:55:52 sri /tmp/work/dist/index.js -> /output/index.js.sri
+2023/07/31 12:55:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/dist/index.js
+2023/07/31 12:55:52 br /tmp/work/dist/index.js -> /output/index.js.br
+2023/07/31 12:55:52 gz /tmp/work/dist/index.js -> /output/index.js.gz
+2023/07/31 12:55:52 processed react-datepicker
