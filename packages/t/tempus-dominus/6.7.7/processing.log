@@ -1,195 +1,195 @@
-2023/04/22 16:40:52 ExtractTarGz: uknown type: 67 in pax_global_header
-2023/04/22 16:40:52 optimizing files (Js true, Css true, Png true, Jpg true)
-2023/04/22 16:40:52 /tmp/work/dist/css/tempus-dominus.css already has a compressed version: /tmp/work/dist/css/tempus-dominus.min.css
-2023/04/22 16:40:52 /tmp/work/dist/js/jQuery-provider.min.js already has corresponding compressed file
-2023/04/22 16:40:52 /tmp/work/dist/js/jQuery-provider.min.js is already compressed
-2023/04/22 16:40:52 /tmp/work/dist/js/tempus-dominus.esm.min.js already has corresponding compressed file
-2023/04/22 16:40:52 /tmp/work/dist/js/tempus-dominus.esm.min.js is already compressed
-2023/04/22 16:40:52 sri /tmp/work/dist/js/jQuery-provider.min.js -> /output/js/jQuery-provider.min.js.sri
-2023/04/22 16:40:52 /tmp/work/dist/js/tempus-dominus.min.js already has corresponding compressed file
-2023/04/22 16:40:52 sri /tmp/work/dist/js/jQuery-provider.js -> /output/js/jQuery-provider.js.sri
-2023/04/22 16:40:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/jQuery-provider.min.js.br /tmp/work/dist/js/jQuery-provider.min.js
-2023/04/22 16:40:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/jQuery-provider.js.br /tmp/work/dist/js/jQuery-provider.js
-2023/04/22 16:40:52 sri /tmp/work/dist/css/tempus-dominus.min.css -> /output/css/tempus-dominus.min.css.sri
-2023/04/22 16:40:52 sri /tmp/work/dist/css/tempus-dominus.css -> /output/css/tempus-dominus.css.sri
-2023/04/22 16:40:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/tempus-dominus.min.css.br /tmp/work/dist/css/tempus-dominus.min.css
-2023/04/22 16:40:52 /tmp/work/dist/js/tempus-dominus.min.js is already compressed
-2023/04/22 16:40:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/tempus-dominus.css.br /tmp/work/dist/css/tempus-dominus.css
-2023/04/22 16:40:52 sri /tmp/work/dist/js/tempus-dominus.esm.min.js -> /output/js/tempus-dominus.esm.min.js.sri
-2023/04/22 16:40:52 sri /tmp/work/dist/js/tempus-dominus.esm.js -> /output/js/tempus-dominus.esm.js.sri
-2023/04/22 16:40:52 sri /tmp/work/dist/js/tempus-dominus.js -> /output/js/tempus-dominus.js.sri
-2023/04/22 16:40:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/tempus-dominus.esm.min.js.br /tmp/work/dist/js/tempus-dominus.esm.min.js
-2023/04/22 16:40:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/tempus-dominus.js.br /tmp/work/dist/js/tempus-dominus.js
-2023/04/22 16:40:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/tempus-dominus.esm.js.br /tmp/work/dist/js/tempus-dominus.esm.js
-2023/04/22 16:40:52 sri /tmp/work/dist/js/tempus-dominus.min.js -> /output/js/tempus-dominus.min.js.sri
-2023/04/22 16:40:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/tempus-dominus.min.js.br /tmp/work/dist/js/tempus-dominus.min.js
-2023/04/22 16:40:52 br /tmp/work/dist/js/jQuery-provider.min.js -> /output/js/jQuery-provider.min.js.br
-2023/04/22 16:40:52 gz /tmp/work/dist/js/jQuery-provider.min.js -> /output/js/jQuery-provider.min.js.gz
-2023/04/22 16:40:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/locales/ar-SA.min.js /tmp/work/dist/locales/ar-SA.js
-2023/04/22 16:40:52 br /tmp/work/dist/js/jQuery-provider.js -> /output/js/jQuery-provider.js.br
-2023/04/22 16:40:52 gz /tmp/work/dist/js/jQuery-provider.js -> /output/js/jQuery-provider.js.gz
-2023/04/22 16:40:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/locales/ar.min.js /tmp/work/dist/locales/ar.js
-2023/04/22 16:40:53 br /tmp/work/dist/css/tempus-dominus.min.css -> /output/css/tempus-dominus.min.css.br
-2023/04/22 16:40:53 gz /tmp/work/dist/css/tempus-dominus.min.css -> /output/css/tempus-dominus.min.css.gz
-2023/04/22 16:40:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/locales/de.min.js /tmp/work/dist/locales/de.js
-2023/04/22 16:40:53 br /tmp/work/dist/js/tempus-dominus.esm.min.js -> /output/js/tempus-dominus.esm.min.js.br
-2023/04/22 16:40:53 br /tmp/work/dist/js/tempus-dominus.min.js -> /output/js/tempus-dominus.min.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/js/tempus-dominus.esm.min.js -> /output/js/tempus-dominus.esm.min.js.gz
-2023/04/22 16:40:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/locales/es.min.js /tmp/work/dist/locales/es.js
-2023/04/22 16:40:53 gz /tmp/work/dist/js/tempus-dominus.min.js -> /output/js/tempus-dominus.min.js.gz
-2023/04/22 16:40:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/locales/fi.min.js /tmp/work/dist/locales/fi.js
-2023/04/22 16:40:53 br /tmp/work/dist/css/tempus-dominus.css -> /output/css/tempus-dominus.css.br
-2023/04/22 16:40:53 gz /tmp/work/dist/css/tempus-dominus.css -> /output/css/tempus-dominus.css.gz
-2023/04/22 16:40:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/locales/fr.min.js /tmp/work/dist/locales/fr.js
-2023/04/22 16:40:53 sri /tmp/work/dist/locales/ar.min.js -> /output/locales/ar.min.js.sri
-2023/04/22 16:40:53 sri /tmp/work/dist/locales/ar-SA.min.js -> /output/locales/ar-SA.min.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ar.min.js.br /tmp/work/dist/locales/ar.min.js
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ar-SA.min.js.br /tmp/work/dist/locales/ar-SA.min.js
-2023/04/22 16:40:53 br /tmp/work/dist/locales/ar.min.js -> /output/locales/ar.min.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/locales/ar.min.js -> /output/locales/ar.min.js.gz
-2023/04/22 16:40:53 sri /tmp/work/dist/locales/ar.js -> /output/locales/ar.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ar.js.br /tmp/work/dist/locales/ar.js
-2023/04/22 16:40:53 br /tmp/work/dist/locales/ar-SA.min.js -> /output/locales/ar-SA.min.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/locales/ar-SA.min.js -> /output/locales/ar-SA.min.js.gz
-2023/04/22 16:40:53 sri /tmp/work/dist/locales/ar-SA.js -> /output/locales/ar-SA.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ar-SA.js.br /tmp/work/dist/locales/ar-SA.js
-2023/04/22 16:40:53 br /tmp/work/dist/locales/ar.js -> /output/locales/ar.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/locales/ar.js -> /output/locales/ar.js.gz
-2023/04/22 16:40:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/locales/it.min.js /tmp/work/dist/locales/it.js
-2023/04/22 16:40:53 br /tmp/work/dist/locales/ar-SA.js -> /output/locales/ar-SA.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/locales/ar-SA.js -> /output/locales/ar-SA.js.gz
-2023/04/22 16:40:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/locales/nl.min.js /tmp/work/dist/locales/nl.js
-2023/04/22 16:40:53 sri /tmp/work/dist/locales/de.min.js -> /output/locales/de.min.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/de.min.js.br /tmp/work/dist/locales/de.min.js
-2023/04/22 16:40:53 sri /tmp/work/dist/locales/es.min.js -> /output/locales/es.min.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/es.min.js.br /tmp/work/dist/locales/es.min.js
-2023/04/22 16:40:53 br /tmp/work/dist/locales/de.min.js -> /output/locales/de.min.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/locales/de.min.js -> /output/locales/de.min.js.gz
-2023/04/22 16:40:53 sri /tmp/work/dist/locales/de.js -> /output/locales/de.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/de.js.br /tmp/work/dist/locales/de.js
-2023/04/22 16:40:53 sri /tmp/work/dist/locales/fi.min.js -> /output/locales/fi.min.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/fi.min.js.br /tmp/work/dist/locales/fi.min.js
-2023/04/22 16:40:53 br /tmp/work/dist/locales/es.min.js -> /output/locales/es.min.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/locales/es.min.js -> /output/locales/es.min.js.gz
-2023/04/22 16:40:53 sri /tmp/work/dist/locales/es.js -> /output/locales/es.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/es.js.br /tmp/work/dist/locales/es.js
-2023/04/22 16:40:53 br /tmp/work/dist/locales/fi.min.js -> /output/locales/fi.min.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/locales/fi.min.js -> /output/locales/fi.min.js.gz
-2023/04/22 16:40:53 sri /tmp/work/dist/locales/fi.js -> /output/locales/fi.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/fi.js.br /tmp/work/dist/locales/fi.js
-2023/04/22 16:40:53 br /tmp/work/dist/locales/de.js -> /output/locales/de.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/locales/de.js -> /output/locales/de.js.gz
-2023/04/22 16:40:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/locales/pl.min.js /tmp/work/dist/locales/pl.js
-2023/04/22 16:40:53 br /tmp/work/dist/locales/es.js -> /output/locales/es.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/locales/es.js -> /output/locales/es.js.gz
-2023/04/22 16:40:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/locales/ro.min.js /tmp/work/dist/locales/ro.js
-2023/04/22 16:40:53 br /tmp/work/dist/locales/fi.js -> /output/locales/fi.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/locales/fi.js -> /output/locales/fi.js.gz
-2023/04/22 16:40:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/locales/ru.min.js /tmp/work/dist/locales/ru.js
-2023/04/22 16:40:53 sri /tmp/work/dist/locales/fr.min.js -> /output/locales/fr.min.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/fr.min.js.br /tmp/work/dist/locales/fr.min.js
-2023/04/22 16:40:53 br /tmp/work/dist/locales/fr.min.js -> /output/locales/fr.min.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/locales/fr.min.js -> /output/locales/fr.min.js.gz
-2023/04/22 16:40:53 sri /tmp/work/dist/locales/fr.js -> /output/locales/fr.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/fr.js.br /tmp/work/dist/locales/fr.js
-2023/04/22 16:40:53 br /tmp/work/dist/js/tempus-dominus.esm.js -> /output/js/tempus-dominus.esm.js.br
-2023/04/22 16:40:53 sri /tmp/work/dist/locales/it.min.js -> /output/locales/it.min.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/it.min.js.br /tmp/work/dist/locales/it.min.js
-2023/04/22 16:40:53 br /tmp/work/dist/locales/fr.js -> /output/locales/fr.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/locales/fr.js -> /output/locales/fr.js.gz
-2023/04/22 16:40:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/locales/sl.min.js /tmp/work/dist/locales/sl.js
-2023/04/22 16:40:53 br /tmp/work/dist/locales/it.min.js -> /output/locales/it.min.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/locales/it.min.js -> /output/locales/it.min.js.gz
-2023/04/22 16:40:53 sri /tmp/work/dist/locales/it.js -> /output/locales/it.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/it.js.br /tmp/work/dist/locales/it.js
-2023/04/22 16:40:53 sri /tmp/work/dist/locales/nl.min.js -> /output/locales/nl.min.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/nl.min.js.br /tmp/work/dist/locales/nl.min.js
-2023/04/22 16:40:53 gz /tmp/work/dist/js/tempus-dominus.esm.js -> /output/js/tempus-dominus.esm.js.gz
-2023/04/22 16:40:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/locales/tr.min.js /tmp/work/dist/locales/tr.js
-2023/04/22 16:40:53 br /tmp/work/dist/locales/it.js -> /output/locales/it.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/locales/it.js -> /output/locales/it.js.gz
-2023/04/22 16:40:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plugins/bi-one.min.js /tmp/work/dist/plugins/bi-one.js
-2023/04/22 16:40:53 br /tmp/work/dist/js/tempus-dominus.js -> /output/js/tempus-dominus.js.br
-2023/04/22 16:40:53 br /tmp/work/dist/locales/nl.min.js -> /output/locales/nl.min.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/locales/nl.min.js -> /output/locales/nl.min.js.gz
-2023/04/22 16:40:53 sri /tmp/work/dist/locales/nl.js -> /output/locales/nl.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/nl.js.br /tmp/work/dist/locales/nl.js
-2023/04/22 16:40:53 br /tmp/work/dist/locales/nl.js -> /output/locales/nl.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/locales/nl.js -> /output/locales/nl.js.gz
-2023/04/22 16:40:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plugins/customDateFormat.min.js /tmp/work/dist/plugins/customDateFormat.js
-2023/04/22 16:40:53 gz /tmp/work/dist/js/tempus-dominus.js -> /output/js/tempus-dominus.js.gz
-2023/04/22 16:40:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plugins/fa-five.min.js /tmp/work/dist/plugins/fa-five.js
-2023/04/22 16:40:53 sri /tmp/work/dist/locales/ro.min.js -> /output/locales/ro.min.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ro.min.js.br /tmp/work/dist/locales/ro.min.js
-2023/04/22 16:40:53 br /tmp/work/dist/locales/ro.min.js -> /output/locales/ro.min.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/locales/ro.min.js -> /output/locales/ro.min.js.gz
-2023/04/22 16:40:53 sri /tmp/work/dist/locales/ro.js -> /output/locales/ro.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ro.js.br /tmp/work/dist/locales/ro.js
-2023/04/22 16:40:53 sri /tmp/work/dist/locales/pl.min.js -> /output/locales/pl.min.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/pl.min.js.br /tmp/work/dist/locales/pl.min.js
-2023/04/22 16:40:53 sri /tmp/work/dist/locales/ru.min.js -> /output/locales/ru.min.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ru.min.js.br /tmp/work/dist/locales/ru.min.js
-2023/04/22 16:40:53 br /tmp/work/dist/locales/pl.min.js -> /output/locales/pl.min.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/locales/pl.min.js -> /output/locales/pl.min.js.gz
-2023/04/22 16:40:53 sri /tmp/work/dist/locales/pl.js -> /output/locales/pl.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/pl.js.br /tmp/work/dist/locales/pl.js
-2023/04/22 16:40:53 br /tmp/work/dist/locales/ro.js -> /output/locales/ro.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/locales/ro.js -> /output/locales/ro.js.gz
-2023/04/22 16:40:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plugins/moment-parse.min.js /tmp/work/dist/plugins/moment-parse.js
-2023/04/22 16:40:53 br /tmp/work/dist/locales/ru.min.js -> /output/locales/ru.min.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/locales/ru.min.js -> /output/locales/ru.min.js.gz
-2023/04/22 16:40:53 sri /tmp/work/dist/locales/ru.js -> /output/locales/ru.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ru.js.br /tmp/work/dist/locales/ru.js
-2023/04/22 16:40:53 br /tmp/work/dist/locales/pl.js -> /output/locales/pl.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/locales/pl.js -> /output/locales/pl.js.gz
-2023/04/22 16:40:53 br /tmp/work/dist/locales/ru.js -> /output/locales/ru.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/locales/ru.js -> /output/locales/ru.js.gz
-2023/04/22 16:40:53 sri /tmp/work/dist/locales/sl.min.js -> /output/locales/sl.min.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/sl.min.js.br /tmp/work/dist/locales/sl.min.js
-2023/04/22 16:40:53 br /tmp/work/dist/locales/sl.min.js -> /output/locales/sl.min.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/locales/sl.min.js -> /output/locales/sl.min.js.gz
-2023/04/22 16:40:53 sri /tmp/work/dist/locales/sl.js -> /output/locales/sl.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/sl.js.br /tmp/work/dist/locales/sl.js
-2023/04/22 16:40:53 sri /tmp/work/dist/plugins/bi-one.min.js -> /output/plugins/bi-one.min.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/bi-one.min.js.br /tmp/work/dist/plugins/bi-one.min.js
-2023/04/22 16:40:53 sri /tmp/work/dist/locales/tr.min.js -> /output/locales/tr.min.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/tr.min.js.br /tmp/work/dist/locales/tr.min.js
-2023/04/22 16:40:53 br /tmp/work/dist/plugins/bi-one.min.js -> /output/plugins/bi-one.min.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/plugins/bi-one.min.js -> /output/plugins/bi-one.min.js.gz
-2023/04/22 16:40:53 sri /tmp/work/dist/plugins/bi-one.js -> /output/plugins/bi-one.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/bi-one.js.br /tmp/work/dist/plugins/bi-one.js
-2023/04/22 16:40:53 br /tmp/work/dist/locales/sl.js -> /output/locales/sl.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/locales/sl.js -> /output/locales/sl.js.gz
-2023/04/22 16:40:53 br /tmp/work/dist/plugins/bi-one.js -> /output/plugins/bi-one.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/plugins/bi-one.js -> /output/plugins/bi-one.js.gz
-2023/04/22 16:40:53 br /tmp/work/dist/locales/tr.min.js -> /output/locales/tr.min.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/locales/tr.min.js -> /output/locales/tr.min.js.gz
-2023/04/22 16:40:53 sri /tmp/work/dist/locales/tr.js -> /output/locales/tr.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/tr.js.br /tmp/work/dist/locales/tr.js
-2023/04/22 16:40:53 sri /tmp/work/dist/plugins/customDateFormat.min.js -> /output/plugins/customDateFormat.min.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/customDateFormat.min.js.br /tmp/work/dist/plugins/customDateFormat.min.js
-2023/04/22 16:40:53 br /tmp/work/dist/locales/tr.js -> /output/locales/tr.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/locales/tr.js -> /output/locales/tr.js.gz
-2023/04/22 16:40:53 br /tmp/work/dist/plugins/customDateFormat.min.js -> /output/plugins/customDateFormat.min.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/plugins/customDateFormat.min.js -> /output/plugins/customDateFormat.min.js.gz
-2023/04/22 16:40:53 sri /tmp/work/dist/plugins/customDateFormat.js -> /output/plugins/customDateFormat.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/customDateFormat.js.br /tmp/work/dist/plugins/customDateFormat.js
-2023/04/22 16:40:53 br /tmp/work/dist/plugins/customDateFormat.js -> /output/plugins/customDateFormat.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/plugins/customDateFormat.js -> /output/plugins/customDateFormat.js.gz
-2023/04/22 16:40:53 sri /tmp/work/dist/plugins/fa-five.min.js -> /output/plugins/fa-five.min.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/fa-five.min.js.br /tmp/work/dist/plugins/fa-five.min.js
-2023/04/22 16:40:53 br /tmp/work/dist/plugins/fa-five.min.js -> /output/plugins/fa-five.min.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/plugins/fa-five.min.js -> /output/plugins/fa-five.min.js.gz
-2023/04/22 16:40:53 sri /tmp/work/dist/plugins/fa-five.js -> /output/plugins/fa-five.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/fa-five.js.br /tmp/work/dist/plugins/fa-five.js
-2023/04/22 16:40:53 br /tmp/work/dist/plugins/fa-five.js -> /output/plugins/fa-five.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/plugins/fa-five.js -> /output/plugins/fa-five.js.gz
-2023/04/22 16:40:53 sri /tmp/work/dist/plugins/moment-parse.min.js -> /output/plugins/moment-parse.min.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/moment-parse.min.js.br /tmp/work/dist/plugins/moment-parse.min.js
-2023/04/22 16:40:53 br /tmp/work/dist/plugins/moment-parse.min.js -> /output/plugins/moment-parse.min.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/plugins/moment-parse.min.js -> /output/plugins/moment-parse.min.js.gz
-2023/04/22 16:40:53 sri /tmp/work/dist/plugins/moment-parse.js -> /output/plugins/moment-parse.js.sri
-2023/04/22 16:40:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/moment-parse.js.br /tmp/work/dist/plugins/moment-parse.js
-2023/04/22 16:40:53 br /tmp/work/dist/plugins/moment-parse.js -> /output/plugins/moment-parse.js.br
-2023/04/22 16:40:53 gz /tmp/work/dist/plugins/moment-parse.js -> /output/plugins/moment-parse.js.gz
-2023/04/22 16:40:53 processed tempus-dominus
+2023/07/31 11:16:58 ExtractTarGz: uknown type: 67 in pax_global_header
+2023/07/31 11:16:58 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/31 11:16:58 /tmp/work/dist/css/tempus-dominus.css already has a compressed version: /tmp/work/dist/css/tempus-dominus.min.css
+2023/07/31 11:16:58 sri /tmp/work/dist/css/tempus-dominus.css -> /output/css/tempus-dominus.css.sri
+2023/07/31 11:16:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/tempus-dominus.css.br /tmp/work/dist/css/tempus-dominus.css
+2023/07/31 11:16:58 sri /tmp/work/dist/css/tempus-dominus.min.css -> /output/css/tempus-dominus.min.css.sri
+2023/07/31 11:16:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/css/tempus-dominus.min.css.br /tmp/work/dist/css/tempus-dominus.min.css
+2023/07/31 11:16:58 /tmp/work/dist/js/jQuery-provider.min.js already has corresponding compressed file
+2023/07/31 11:16:58 sri /tmp/work/dist/js/jQuery-provider.js -> /output/js/jQuery-provider.js.sri
+2023/07/31 11:16:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/jQuery-provider.js.br /tmp/work/dist/js/jQuery-provider.js
+2023/07/31 11:16:58 /tmp/work/dist/js/jQuery-provider.min.js is already compressed
+2023/07/31 11:16:58 sri /tmp/work/dist/js/jQuery-provider.min.js -> /output/js/jQuery-provider.min.js.sri
+2023/07/31 11:16:58 /tmp/work/dist/js/tempus-dominus.esm.min.js already has corresponding compressed file
+2023/07/31 11:16:58 /tmp/work/dist/js/tempus-dominus.esm.min.js is already compressed
+2023/07/31 11:16:58 /tmp/work/dist/js/tempus-dominus.min.js already has corresponding compressed file
+2023/07/31 11:16:58 /tmp/work/dist/js/tempus-dominus.min.js is already compressed
+2023/07/31 11:16:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/jQuery-provider.min.js.br /tmp/work/dist/js/jQuery-provider.min.js
+2023/07/31 11:16:58 sri /tmp/work/dist/js/tempus-dominus.esm.js -> /output/js/tempus-dominus.esm.js.sri
+2023/07/31 11:16:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/tempus-dominus.esm.js.br /tmp/work/dist/js/tempus-dominus.esm.js
+2023/07/31 11:16:58 sri /tmp/work/dist/js/tempus-dominus.esm.min.js -> /output/js/tempus-dominus.esm.min.js.sri
+2023/07/31 11:16:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/tempus-dominus.esm.min.js.br /tmp/work/dist/js/tempus-dominus.esm.min.js
+2023/07/31 11:16:58 sri /tmp/work/dist/js/tempus-dominus.min.js -> /output/js/tempus-dominus.min.js.sri
+2023/07/31 11:16:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/tempus-dominus.min.js.br /tmp/work/dist/js/tempus-dominus.min.js
+2023/07/31 11:16:58 sri /tmp/work/dist/js/tempus-dominus.js -> /output/js/tempus-dominus.js.sri
+2023/07/31 11:16:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/js/tempus-dominus.js.br /tmp/work/dist/js/tempus-dominus.js
+2023/07/31 11:16:58 br /tmp/work/dist/js/jQuery-provider.min.js -> /output/js/jQuery-provider.min.js.br
+2023/07/31 11:16:58 br /tmp/work/dist/js/jQuery-provider.js -> /output/js/jQuery-provider.js.br
+2023/07/31 11:16:58 gz /tmp/work/dist/js/jQuery-provider.js -> /output/js/jQuery-provider.js.gz
+2023/07/31 11:16:58 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/locales/ar-SA.min.js /tmp/work/dist/locales/ar-SA.js
+2023/07/31 11:16:58 gz /tmp/work/dist/js/jQuery-provider.min.js -> /output/js/jQuery-provider.min.js.gz
+2023/07/31 11:16:58 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/locales/ar.min.js /tmp/work/dist/locales/ar.js
+2023/07/31 11:16:59 br /tmp/work/dist/css/tempus-dominus.min.css -> /output/css/tempus-dominus.min.css.br
+2023/07/31 11:16:59 gz /tmp/work/dist/css/tempus-dominus.min.css -> /output/css/tempus-dominus.min.css.gz
+2023/07/31 11:16:59 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/locales/de.min.js /tmp/work/dist/locales/de.js
+2023/07/31 11:16:59 br /tmp/work/dist/js/tempus-dominus.min.js -> /output/js/tempus-dominus.min.js.br
+2023/07/31 11:16:59 br /tmp/work/dist/js/tempus-dominus.esm.min.js -> /output/js/tempus-dominus.esm.min.js.br
+2023/07/31 11:16:59 gz /tmp/work/dist/js/tempus-dominus.min.js -> /output/js/tempus-dominus.min.js.gz
+2023/07/31 11:16:59 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/locales/es.min.js /tmp/work/dist/locales/es.js
+2023/07/31 11:16:59 gz /tmp/work/dist/js/tempus-dominus.esm.min.js -> /output/js/tempus-dominus.esm.min.js.gz
+2023/07/31 11:16:59 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/locales/fi.min.js /tmp/work/dist/locales/fi.js
+2023/07/31 11:16:59 br /tmp/work/dist/css/tempus-dominus.css -> /output/css/tempus-dominus.css.br
+2023/07/31 11:16:59 gz /tmp/work/dist/css/tempus-dominus.css -> /output/css/tempus-dominus.css.gz
+2023/07/31 11:16:59 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/locales/fr.min.js /tmp/work/dist/locales/fr.js
+2023/07/31 11:16:59 sri /tmp/work/dist/locales/ar-SA.min.js -> /output/locales/ar-SA.min.js.sri
+2023/07/31 11:16:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ar-SA.min.js.br /tmp/work/dist/locales/ar-SA.min.js
+2023/07/31 11:16:59 br /tmp/work/dist/locales/ar-SA.min.js -> /output/locales/ar-SA.min.js.br
+2023/07/31 11:16:59 gz /tmp/work/dist/locales/ar-SA.min.js -> /output/locales/ar-SA.min.js.gz
+2023/07/31 11:16:59 sri /tmp/work/dist/locales/ar-SA.js -> /output/locales/ar-SA.js.sri
+2023/07/31 11:16:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ar-SA.js.br /tmp/work/dist/locales/ar-SA.js
+2023/07/31 11:16:59 br /tmp/work/dist/locales/ar-SA.js -> /output/locales/ar-SA.js.br
+2023/07/31 11:16:59 gz /tmp/work/dist/locales/ar-SA.js -> /output/locales/ar-SA.js.gz
+2023/07/31 11:16:59 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/locales/it.min.js /tmp/work/dist/locales/it.js
+2023/07/31 11:16:59 sri /tmp/work/dist/locales/ar.min.js -> /output/locales/ar.min.js.sri
+2023/07/31 11:16:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ar.min.js.br /tmp/work/dist/locales/ar.min.js
+2023/07/31 11:16:59 br /tmp/work/dist/locales/ar.min.js -> /output/locales/ar.min.js.br
+2023/07/31 11:16:59 gz /tmp/work/dist/locales/ar.min.js -> /output/locales/ar.min.js.gz
+2023/07/31 11:16:59 sri /tmp/work/dist/locales/ar.js -> /output/locales/ar.js.sri
+2023/07/31 11:16:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ar.js.br /tmp/work/dist/locales/ar.js
+2023/07/31 11:16:59 br /tmp/work/dist/locales/ar.js -> /output/locales/ar.js.br
+2023/07/31 11:16:59 gz /tmp/work/dist/locales/ar.js -> /output/locales/ar.js.gz
+2023/07/31 11:16:59 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/locales/nl.min.js /tmp/work/dist/locales/nl.js
+2023/07/31 11:17:00 sri /tmp/work/dist/locales/fi.min.js -> /output/locales/fi.min.js.sri
+2023/07/31 11:17:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/fi.min.js.br /tmp/work/dist/locales/fi.min.js
+2023/07/31 11:17:00 br /tmp/work/dist/locales/fi.min.js -> /output/locales/fi.min.js.br
+2023/07/31 11:17:00 gz /tmp/work/dist/locales/fi.min.js -> /output/locales/fi.min.js.gz
+2023/07/31 11:17:00 sri /tmp/work/dist/locales/fi.js -> /output/locales/fi.js.sri
+2023/07/31 11:17:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/fi.js.br /tmp/work/dist/locales/fi.js
+2023/07/31 11:17:00 sri /tmp/work/dist/locales/de.min.js -> /output/locales/de.min.js.sri
+2023/07/31 11:17:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/de.min.js.br /tmp/work/dist/locales/de.min.js
+2023/07/31 11:17:00 br /tmp/work/dist/locales/fi.js -> /output/locales/fi.js.br
+2023/07/31 11:17:00 gz /tmp/work/dist/locales/fi.js -> /output/locales/fi.js.gz
+2023/07/31 11:17:00 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/locales/pl.min.js /tmp/work/dist/locales/pl.js
+2023/07/31 11:17:00 br /tmp/work/dist/locales/de.min.js -> /output/locales/de.min.js.br
+2023/07/31 11:17:00 gz /tmp/work/dist/locales/de.min.js -> /output/locales/de.min.js.gz
+2023/07/31 11:17:00 sri /tmp/work/dist/locales/de.js -> /output/locales/de.js.sri
+2023/07/31 11:17:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/de.js.br /tmp/work/dist/locales/de.js
+2023/07/31 11:17:00 br /tmp/work/dist/js/tempus-dominus.esm.js -> /output/js/tempus-dominus.esm.js.br
+2023/07/31 11:17:00 br /tmp/work/dist/locales/de.js -> /output/locales/de.js.br
+2023/07/31 11:17:00 gz /tmp/work/dist/locales/de.js -> /output/locales/de.js.gz
+2023/07/31 11:17:00 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/locales/ro.min.js /tmp/work/dist/locales/ro.js
+2023/07/31 11:17:00 sri /tmp/work/dist/locales/fr.min.js -> /output/locales/fr.min.js.sri
+2023/07/31 11:17:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/fr.min.js.br /tmp/work/dist/locales/fr.min.js
+2023/07/31 11:17:00 gz /tmp/work/dist/js/tempus-dominus.esm.js -> /output/js/tempus-dominus.esm.js.gz
+2023/07/31 11:17:00 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/locales/ru.min.js /tmp/work/dist/locales/ru.js
+2023/07/31 11:17:00 br /tmp/work/dist/locales/fr.min.js -> /output/locales/fr.min.js.br
+2023/07/31 11:17:00 gz /tmp/work/dist/locales/fr.min.js -> /output/locales/fr.min.js.gz
+2023/07/31 11:17:00 sri /tmp/work/dist/locales/fr.js -> /output/locales/fr.js.sri
+2023/07/31 11:17:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/fr.js.br /tmp/work/dist/locales/fr.js
+2023/07/31 11:17:00 br /tmp/work/dist/locales/fr.js -> /output/locales/fr.js.br
+2023/07/31 11:17:00 gz /tmp/work/dist/locales/fr.js -> /output/locales/fr.js.gz
+2023/07/31 11:17:00 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/locales/sl.min.js /tmp/work/dist/locales/sl.js
+2023/07/31 11:17:00 sri /tmp/work/dist/locales/it.min.js -> /output/locales/it.min.js.sri
+2023/07/31 11:17:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/it.min.js.br /tmp/work/dist/locales/it.min.js
+2023/07/31 11:17:00 sri /tmp/work/dist/locales/es.min.js -> /output/locales/es.min.js.sri
+2023/07/31 11:17:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/es.min.js.br /tmp/work/dist/locales/es.min.js
+2023/07/31 11:17:00 br /tmp/work/dist/locales/it.min.js -> /output/locales/it.min.js.br
+2023/07/31 11:17:00 gz /tmp/work/dist/locales/it.min.js -> /output/locales/it.min.js.gz
+2023/07/31 11:17:00 sri /tmp/work/dist/locales/it.js -> /output/locales/it.js.sri
+2023/07/31 11:17:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/it.js.br /tmp/work/dist/locales/it.js
+2023/07/31 11:17:00 br /tmp/work/dist/locales/es.min.js -> /output/locales/es.min.js.br
+2023/07/31 11:17:00 gz /tmp/work/dist/locales/es.min.js -> /output/locales/es.min.js.gz
+2023/07/31 11:17:00 br /tmp/work/dist/locales/it.js -> /output/locales/it.js.br
+2023/07/31 11:17:00 gz /tmp/work/dist/locales/it.js -> /output/locales/it.js.gz
+2023/07/31 11:17:00 sri /tmp/work/dist/locales/es.js -> /output/locales/es.js.sri
+2023/07/31 11:17:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/es.js.br /tmp/work/dist/locales/es.js
+2023/07/31 11:17:00 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/locales/tr.min.js /tmp/work/dist/locales/tr.js
+2023/07/31 11:17:00 br /tmp/work/dist/locales/es.js -> /output/locales/es.js.br
+2023/07/31 11:17:00 gz /tmp/work/dist/locales/es.js -> /output/locales/es.js.gz
+2023/07/31 11:17:00 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plugins/bi-one.min.js /tmp/work/dist/plugins/bi-one.js
+2023/07/31 11:17:01 sri /tmp/work/dist/locales/nl.min.js -> /output/locales/nl.min.js.sri
+2023/07/31 11:17:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/nl.min.js.br /tmp/work/dist/locales/nl.min.js
+2023/07/31 11:17:01 br /tmp/work/dist/locales/nl.min.js -> /output/locales/nl.min.js.br
+2023/07/31 11:17:01 gz /tmp/work/dist/locales/nl.min.js -> /output/locales/nl.min.js.gz
+2023/07/31 11:17:01 sri /tmp/work/dist/locales/nl.js -> /output/locales/nl.js.sri
+2023/07/31 11:17:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/nl.js.br /tmp/work/dist/locales/nl.js
+2023/07/31 11:17:01 br /tmp/work/dist/locales/nl.js -> /output/locales/nl.js.br
+2023/07/31 11:17:01 gz /tmp/work/dist/locales/nl.js -> /output/locales/nl.js.gz
+2023/07/31 11:17:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plugins/customDateFormat.min.js /tmp/work/dist/plugins/customDateFormat.js
+2023/07/31 11:17:01 br /tmp/work/dist/js/tempus-dominus.js -> /output/js/tempus-dominus.js.br
+2023/07/31 11:17:01 gz /tmp/work/dist/js/tempus-dominus.js -> /output/js/tempus-dominus.js.gz
+2023/07/31 11:17:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plugins/fa-five.min.js /tmp/work/dist/plugins/fa-five.js
+2023/07/31 11:17:01 sri /tmp/work/dist/locales/ro.min.js -> /output/locales/ro.min.js.sri
+2023/07/31 11:17:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ro.min.js.br /tmp/work/dist/locales/ro.min.js
+2023/07/31 11:17:01 br /tmp/work/dist/locales/ro.min.js -> /output/locales/ro.min.js.br
+2023/07/31 11:17:01 gz /tmp/work/dist/locales/ro.min.js -> /output/locales/ro.min.js.gz
+2023/07/31 11:17:01 sri /tmp/work/dist/locales/ro.js -> /output/locales/ro.js.sri
+2023/07/31 11:17:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ro.js.br /tmp/work/dist/locales/ro.js
+2023/07/31 11:17:01 br /tmp/work/dist/locales/ro.js -> /output/locales/ro.js.br
+2023/07/31 11:17:01 gz /tmp/work/dist/locales/ro.js -> /output/locales/ro.js.gz
+2023/07/31 11:17:01 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/plugins/moment-parse.min.js /tmp/work/dist/plugins/moment-parse.js
+2023/07/31 11:17:01 sri /tmp/work/dist/locales/pl.min.js -> /output/locales/pl.min.js.sri
+2023/07/31 11:17:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/pl.min.js.br /tmp/work/dist/locales/pl.min.js
+2023/07/31 11:17:01 br /tmp/work/dist/locales/pl.min.js -> /output/locales/pl.min.js.br
+2023/07/31 11:17:01 gz /tmp/work/dist/locales/pl.min.js -> /output/locales/pl.min.js.gz
+2023/07/31 11:17:01 sri /tmp/work/dist/locales/pl.js -> /output/locales/pl.js.sri
+2023/07/31 11:17:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/pl.js.br /tmp/work/dist/locales/pl.js
+2023/07/31 11:17:01 br /tmp/work/dist/locales/pl.js -> /output/locales/pl.js.br
+2023/07/31 11:17:01 gz /tmp/work/dist/locales/pl.js -> /output/locales/pl.js.gz
+2023/07/31 11:17:02 sri /tmp/work/dist/locales/ru.min.js -> /output/locales/ru.min.js.sri
+2023/07/31 11:17:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ru.min.js.br /tmp/work/dist/locales/ru.min.js
+2023/07/31 11:17:02 sri /tmp/work/dist/locales/sl.min.js -> /output/locales/sl.min.js.sri
+2023/07/31 11:17:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/sl.min.js.br /tmp/work/dist/locales/sl.min.js
+2023/07/31 11:17:02 br /tmp/work/dist/locales/ru.min.js -> /output/locales/ru.min.js.br
+2023/07/31 11:17:02 gz /tmp/work/dist/locales/ru.min.js -> /output/locales/ru.min.js.gz
+2023/07/31 11:17:02 sri /tmp/work/dist/locales/ru.js -> /output/locales/ru.js.sri
+2023/07/31 11:17:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ru.js.br /tmp/work/dist/locales/ru.js
+2023/07/31 11:17:02 sri /tmp/work/dist/plugins/customDateFormat.min.js -> /output/plugins/customDateFormat.min.js.sri
+2023/07/31 11:17:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/customDateFormat.min.js.br /tmp/work/dist/plugins/customDateFormat.min.js
+2023/07/31 11:17:02 br /tmp/work/dist/locales/sl.min.js -> /output/locales/sl.min.js.br
+2023/07/31 11:17:02 gz /tmp/work/dist/locales/sl.min.js -> /output/locales/sl.min.js.gz
+2023/07/31 11:17:02 sri /tmp/work/dist/locales/sl.js -> /output/locales/sl.js.sri
+2023/07/31 11:17:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/sl.js.br /tmp/work/dist/locales/sl.js
+2023/07/31 11:17:02 br /tmp/work/dist/plugins/customDateFormat.min.js -> /output/plugins/customDateFormat.min.js.br
+2023/07/31 11:17:02 gz /tmp/work/dist/plugins/customDateFormat.min.js -> /output/plugins/customDateFormat.min.js.gz
+2023/07/31 11:17:02 sri /tmp/work/dist/plugins/customDateFormat.js -> /output/plugins/customDateFormat.js.sri
+2023/07/31 11:17:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/customDateFormat.js.br /tmp/work/dist/plugins/customDateFormat.js
+2023/07/31 11:17:02 br /tmp/work/dist/locales/sl.js -> /output/locales/sl.js.br
+2023/07/31 11:17:02 gz /tmp/work/dist/locales/sl.js -> /output/locales/sl.js.gz
+2023/07/31 11:17:02 br /tmp/work/dist/locales/ru.js -> /output/locales/ru.js.br
+2023/07/31 11:17:02 br /tmp/work/dist/plugins/customDateFormat.js -> /output/plugins/customDateFormat.js.br
+2023/07/31 11:17:02 gz /tmp/work/dist/plugins/customDateFormat.js -> /output/plugins/customDateFormat.js.gz
+2023/07/31 11:17:02 gz /tmp/work/dist/locales/ru.js -> /output/locales/ru.js.gz
+2023/07/31 11:17:02 sri /tmp/work/dist/plugins/moment-parse.min.js -> /output/plugins/moment-parse.min.js.sri
+2023/07/31 11:17:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/moment-parse.min.js.br /tmp/work/dist/plugins/moment-parse.min.js
+2023/07/31 11:17:02 br /tmp/work/dist/plugins/moment-parse.min.js -> /output/plugins/moment-parse.min.js.br
+2023/07/31 11:17:02 gz /tmp/work/dist/plugins/moment-parse.min.js -> /output/plugins/moment-parse.min.js.gz
+2023/07/31 11:17:02 sri /tmp/work/dist/plugins/moment-parse.js -> /output/plugins/moment-parse.js.sri
+2023/07/31 11:17:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/moment-parse.js.br /tmp/work/dist/plugins/moment-parse.js
+2023/07/31 11:17:02 br /tmp/work/dist/plugins/moment-parse.js -> /output/plugins/moment-parse.js.br
+2023/07/31 11:17:02 gz /tmp/work/dist/plugins/moment-parse.js -> /output/plugins/moment-parse.js.gz
+2023/07/31 11:17:02 sri /tmp/work/dist/plugins/bi-one.min.js -> /output/plugins/bi-one.min.js.sri
+2023/07/31 11:17:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/bi-one.min.js.br /tmp/work/dist/plugins/bi-one.min.js
+2023/07/31 11:17:02 br /tmp/work/dist/plugins/bi-one.min.js -> /output/plugins/bi-one.min.js.br
+2023/07/31 11:17:02 sri /tmp/work/dist/locales/tr.min.js -> /output/locales/tr.min.js.sri
+2023/07/31 11:17:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/tr.min.js.br /tmp/work/dist/locales/tr.min.js
+2023/07/31 11:17:02 gz /tmp/work/dist/plugins/bi-one.min.js -> /output/plugins/bi-one.min.js.gz
+2023/07/31 11:17:02 sri /tmp/work/dist/plugins/bi-one.js -> /output/plugins/bi-one.js.sri
+2023/07/31 11:17:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/bi-one.js.br /tmp/work/dist/plugins/bi-one.js
+2023/07/31 11:17:02 br /tmp/work/dist/locales/tr.min.js -> /output/locales/tr.min.js.br
+2023/07/31 11:17:02 gz /tmp/work/dist/locales/tr.min.js -> /output/locales/tr.min.js.gz
+2023/07/31 11:17:02 sri /tmp/work/dist/locales/tr.js -> /output/locales/tr.js.sri
+2023/07/31 11:17:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/tr.js.br /tmp/work/dist/locales/tr.js
+2023/07/31 11:17:02 br /tmp/work/dist/plugins/bi-one.js -> /output/plugins/bi-one.js.br
+2023/07/31 11:17:02 gz /tmp/work/dist/plugins/bi-one.js -> /output/plugins/bi-one.js.gz
+2023/07/31 11:17:02 br /tmp/work/dist/locales/tr.js -> /output/locales/tr.js.br
+2023/07/31 11:17:02 gz /tmp/work/dist/locales/tr.js -> /output/locales/tr.js.gz
+2023/07/31 11:17:02 sri /tmp/work/dist/plugins/fa-five.min.js -> /output/plugins/fa-five.min.js.sri
+2023/07/31 11:17:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/fa-five.min.js.br /tmp/work/dist/plugins/fa-five.min.js
+2023/07/31 11:17:02 br /tmp/work/dist/plugins/fa-five.min.js -> /output/plugins/fa-five.min.js.br
+2023/07/31 11:17:02 gz /tmp/work/dist/plugins/fa-five.min.js -> /output/plugins/fa-five.min.js.gz
+2023/07/31 11:17:02 sri /tmp/work/dist/plugins/fa-five.js -> /output/plugins/fa-five.js.sri
+2023/07/31 11:17:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/plugins/fa-five.js.br /tmp/work/dist/plugins/fa-five.js
+2023/07/31 11:17:02 br /tmp/work/dist/plugins/fa-five.js -> /output/plugins/fa-five.js.br
+2023/07/31 11:17:02 gz /tmp/work/dist/plugins/fa-five.js -> /output/plugins/fa-five.js.gz
+2023/07/31 11:17:02 processed tempus-dominus
