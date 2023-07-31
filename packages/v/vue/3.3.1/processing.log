@@ -1,110 +1,110 @@
-2023/05/11 20:05:20 optimizing files (Js true, Css true, Png true, Jpg true)
-2023/05/11 20:05:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/vue.cjs.prod.min.js /tmp/work/dist/vue.cjs.prod.js
-2023/05/11 20:05:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/vue.cjs.min.js /tmp/work/dist/vue.cjs.js
-2023/05/11 20:05:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/vue.esm-browser.min.js /tmp/work/dist/vue.esm-browser.js
-2023/05/11 20:05:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/vue.esm-bundler.min.js /tmp/work/dist/vue.esm-bundler.js
-2023/05/11 20:05:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/vue.global.min.js /tmp/work/dist/vue.global.js
-2023/05/11 20:05:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/vue.global.prod.min.js /tmp/work/dist/vue.global.prod.js
-2023/05/11 20:05:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/vue.esm-browser.prod.min.js /tmp/work/dist/vue.esm-browser.prod.js
-2023/05/11 20:05:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/vue.runtime.esm-browser.min.js /tmp/work/dist/vue.runtime.esm-browser.js
-2023/05/11 20:05:20 sri /tmp/work/dist/vue.esm-bundler.min.js -> /output/vue.esm-bundler.min.js.sri
-2023/05/11 20:05:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.esm-bundler.min.js.br /tmp/work/dist/vue.esm-bundler.min.js
-2023/05/11 20:05:20 sri /tmp/work/dist/vue.cjs.min.js -> /output/vue.cjs.min.js.sri
-2023/05/11 20:05:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.cjs.min.js.br /tmp/work/dist/vue.cjs.min.js
-2023/05/11 20:05:20 br /tmp/work/dist/vue.esm-bundler.min.js -> /output/vue.esm-bundler.min.js.br
-2023/05/11 20:05:20 gz /tmp/work/dist/vue.esm-bundler.min.js -> /output/vue.esm-bundler.min.js.gz
-2023/05/11 20:05:20 sri /tmp/work/dist/vue.esm-bundler.js -> /output/vue.esm-bundler.js.sri
-2023/05/11 20:05:20 sri /tmp/work/dist/vue.cjs.prod.min.js -> /output/vue.cjs.prod.min.js.sri
-2023/05/11 20:05:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.cjs.prod.min.js.br /tmp/work/dist/vue.cjs.prod.min.js
-2023/05/11 20:05:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.esm-bundler.js.br /tmp/work/dist/vue.esm-bundler.js
-2023/05/11 20:05:20 br /tmp/work/dist/vue.cjs.min.js -> /output/vue.cjs.min.js.br
-2023/05/11 20:05:20 gz /tmp/work/dist/vue.cjs.min.js -> /output/vue.cjs.min.js.gz
-2023/05/11 20:05:20 sri /tmp/work/dist/vue.cjs.js -> /output/vue.cjs.js.sri
-2023/05/11 20:05:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.cjs.js.br /tmp/work/dist/vue.cjs.js
-2023/05/11 20:05:20 br /tmp/work/dist/vue.cjs.prod.min.js -> /output/vue.cjs.prod.min.js.br
-2023/05/11 20:05:20 br /tmp/work/dist/vue.esm-bundler.js -> /output/vue.esm-bundler.js.br
-2023/05/11 20:05:20 gz /tmp/work/dist/vue.esm-bundler.js -> /output/vue.esm-bundler.js.gz
-2023/05/11 20:05:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/vue.runtime.esm-browser.prod.min.js /tmp/work/dist/vue.runtime.esm-browser.prod.js
-2023/05/11 20:05:20 gz /tmp/work/dist/vue.cjs.prod.min.js -> /output/vue.cjs.prod.min.js.gz
-2023/05/11 20:05:20 sri /tmp/work/dist/vue.cjs.prod.js -> /output/vue.cjs.prod.js.sri
-2023/05/11 20:05:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.cjs.prod.js.br /tmp/work/dist/vue.cjs.prod.js
-2023/05/11 20:05:20 br /tmp/work/dist/vue.cjs.js -> /output/vue.cjs.js.br
-2023/05/11 20:05:20 gz /tmp/work/dist/vue.cjs.js -> /output/vue.cjs.js.gz
-2023/05/11 20:05:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/vue.runtime.esm-bundler.min.js /tmp/work/dist/vue.runtime.esm-bundler.js
-2023/05/11 20:05:20 br /tmp/work/dist/vue.cjs.prod.js -> /output/vue.cjs.prod.js.br
-2023/05/11 20:05:20 gz /tmp/work/dist/vue.cjs.prod.js -> /output/vue.cjs.prod.js.gz
-2023/05/11 20:05:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/vue.runtime.global.min.js /tmp/work/dist/vue.runtime.global.js
-2023/05/11 20:05:21 sri /tmp/work/dist/vue.runtime.esm-bundler.min.js -> /output/vue.runtime.esm-bundler.min.js.sri
-2023/05/11 20:05:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.runtime.esm-bundler.min.js.br /tmp/work/dist/vue.runtime.esm-bundler.min.js
-2023/05/11 20:05:21 br /tmp/work/dist/vue.runtime.esm-bundler.min.js -> /output/vue.runtime.esm-bundler.min.js.br
-2023/05/11 20:05:21 gz /tmp/work/dist/vue.runtime.esm-bundler.min.js -> /output/vue.runtime.esm-bundler.min.js.gz
-2023/05/11 20:05:21 sri /tmp/work/dist/vue.runtime.esm-bundler.js -> /output/vue.runtime.esm-bundler.js.sri
-2023/05/11 20:05:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.runtime.esm-bundler.js.br /tmp/work/dist/vue.runtime.esm-bundler.js
-2023/05/11 20:05:21 br /tmp/work/dist/vue.runtime.esm-bundler.js -> /output/vue.runtime.esm-bundler.js.br
-2023/05/11 20:05:21 gz /tmp/work/dist/vue.runtime.esm-bundler.js -> /output/vue.runtime.esm-bundler.js.gz
-2023/05/11 20:05:21 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/vue.runtime.global.prod.min.js /tmp/work/dist/vue.runtime.global.prod.js
-2023/05/11 20:05:27 sri /tmp/work/dist/vue.runtime.esm-browser.prod.min.js -> /output/vue.runtime.esm-browser.prod.min.js.sri
-2023/05/11 20:05:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.runtime.esm-browser.prod.min.js.br /tmp/work/dist/vue.runtime.esm-browser.prod.min.js
-2023/05/11 20:05:27 br /tmp/work/dist/vue.runtime.esm-browser.prod.min.js -> /output/vue.runtime.esm-browser.prod.min.js.br
-2023/05/11 20:05:27 gz /tmp/work/dist/vue.runtime.esm-browser.prod.min.js -> /output/vue.runtime.esm-browser.prod.min.js.gz
-2023/05/11 20:05:27 sri /tmp/work/dist/vue.runtime.esm-browser.prod.js -> /output/vue.runtime.esm-browser.prod.js.sri
-2023/05/11 20:05:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.runtime.esm-browser.prod.js.br /tmp/work/dist/vue.runtime.esm-browser.prod.js
-2023/05/11 20:05:28 br /tmp/work/dist/vue.runtime.esm-browser.prod.js -> /output/vue.runtime.esm-browser.prod.js.br
-2023/05/11 20:05:28 gz /tmp/work/dist/vue.runtime.esm-browser.prod.js -> /output/vue.runtime.esm-browser.prod.js.gz
-2023/05/11 20:05:28 sri /tmp/work/dist/vue.runtime.esm-browser.min.js -> /output/vue.runtime.esm-browser.min.js.sri
-2023/05/11 20:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.runtime.esm-browser.min.js.br /tmp/work/dist/vue.runtime.esm-browser.min.js
-2023/05/11 20:05:28 sri /tmp/work/dist/vue.runtime.global.prod.min.js -> /output/vue.runtime.global.prod.min.js.sri
-2023/05/11 20:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.runtime.global.prod.min.js.br /tmp/work/dist/vue.runtime.global.prod.min.js
-2023/05/11 20:05:28 br /tmp/work/dist/vue.runtime.esm-browser.min.js -> /output/vue.runtime.esm-browser.min.js.br
-2023/05/11 20:05:28 gz /tmp/work/dist/vue.runtime.esm-browser.min.js -> /output/vue.runtime.esm-browser.min.js.gz
-2023/05/11 20:05:28 sri /tmp/work/dist/vue.runtime.esm-browser.js -> /output/vue.runtime.esm-browser.js.sri
-2023/05/11 20:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.runtime.esm-browser.js.br /tmp/work/dist/vue.runtime.esm-browser.js
-2023/05/11 20:05:28 br /tmp/work/dist/vue.runtime.global.prod.min.js -> /output/vue.runtime.global.prod.min.js.br
-2023/05/11 20:05:28 gz /tmp/work/dist/vue.runtime.global.prod.min.js -> /output/vue.runtime.global.prod.min.js.gz
-2023/05/11 20:05:28 sri /tmp/work/dist/vue.runtime.global.prod.js -> /output/vue.runtime.global.prod.js.sri
-2023/05/11 20:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.runtime.global.prod.js.br /tmp/work/dist/vue.runtime.global.prod.js
-2023/05/11 20:05:28 sri /tmp/work/dist/vue.esm-browser.prod.min.js -> /output/vue.esm-browser.prod.min.js.sri
-2023/05/11 20:05:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.esm-browser.prod.min.js.br /tmp/work/dist/vue.esm-browser.prod.min.js
-2023/05/11 20:05:29 br /tmp/work/dist/vue.runtime.global.prod.js -> /output/vue.runtime.global.prod.js.br
-2023/05/11 20:05:29 gz /tmp/work/dist/vue.runtime.global.prod.js -> /output/vue.runtime.global.prod.js.gz
-2023/05/11 20:05:29 br /tmp/work/dist/vue.esm-browser.prod.min.js -> /output/vue.esm-browser.prod.min.js.br
-2023/05/11 20:05:29 gz /tmp/work/dist/vue.esm-browser.prod.min.js -> /output/vue.esm-browser.prod.min.js.gz
-2023/05/11 20:05:29 sri /tmp/work/dist/vue.esm-browser.prod.js -> /output/vue.esm-browser.prod.js.sri
-2023/05/11 20:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.esm-browser.prod.js.br /tmp/work/dist/vue.esm-browser.prod.js
-2023/05/11 20:05:29 sri /tmp/work/dist/vue.global.prod.min.js -> /output/vue.global.prod.min.js.sri
-2023/05/11 20:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.global.prod.min.js.br /tmp/work/dist/vue.global.prod.min.js
-2023/05/11 20:05:29 br /tmp/work/dist/vue.runtime.esm-browser.js -> /output/vue.runtime.esm-browser.js.br
-2023/05/11 20:05:29 gz /tmp/work/dist/vue.runtime.esm-browser.js -> /output/vue.runtime.esm-browser.js.gz
-2023/05/11 20:05:29 br /tmp/work/dist/vue.esm-browser.prod.js -> /output/vue.esm-browser.prod.js.br
-2023/05/11 20:05:29 gz /tmp/work/dist/vue.esm-browser.prod.js -> /output/vue.esm-browser.prod.js.gz
-2023/05/11 20:05:29 br /tmp/work/dist/vue.global.prod.min.js -> /output/vue.global.prod.min.js.br
-2023/05/11 20:05:29 gz /tmp/work/dist/vue.global.prod.min.js -> /output/vue.global.prod.min.js.gz
-2023/05/11 20:05:29 sri /tmp/work/dist/vue.global.prod.js -> /output/vue.global.prod.js.sri
-2023/05/11 20:05:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.global.prod.js.br /tmp/work/dist/vue.global.prod.js
-2023/05/11 20:05:30 sri /tmp/work/dist/vue.esm-browser.min.js -> /output/vue.esm-browser.min.js.sri
-2023/05/11 20:05:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.esm-browser.min.js.br /tmp/work/dist/vue.esm-browser.min.js
-2023/05/11 20:05:30 sri /tmp/work/dist/vue.runtime.global.min.js -> /output/vue.runtime.global.min.js.sri
-2023/05/11 20:05:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.runtime.global.min.js.br /tmp/work/dist/vue.runtime.global.min.js
-2023/05/11 20:05:30 br /tmp/work/dist/vue.global.prod.js -> /output/vue.global.prod.js.br
-2023/05/11 20:05:30 gz /tmp/work/dist/vue.global.prod.js -> /output/vue.global.prod.js.gz
-2023/05/11 20:05:30 br /tmp/work/dist/vue.runtime.global.min.js -> /output/vue.runtime.global.min.js.br
-2023/05/11 20:05:30 gz /tmp/work/dist/vue.runtime.global.min.js -> /output/vue.runtime.global.min.js.gz
-2023/05/11 20:05:30 sri /tmp/work/dist/vue.runtime.global.js -> /output/vue.runtime.global.js.sri
-2023/05/11 20:05:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.runtime.global.js.br /tmp/work/dist/vue.runtime.global.js
-2023/05/11 20:05:30 br /tmp/work/dist/vue.esm-browser.min.js -> /output/vue.esm-browser.min.js.br
-2023/05/11 20:05:30 gz /tmp/work/dist/vue.esm-browser.min.js -> /output/vue.esm-browser.min.js.gz
-2023/05/11 20:05:30 sri /tmp/work/dist/vue.esm-browser.js -> /output/vue.esm-browser.js.sri
-2023/05/11 20:05:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.esm-browser.js.br /tmp/work/dist/vue.esm-browser.js
-2023/05/11 20:05:31 sri /tmp/work/dist/vue.global.min.js -> /output/vue.global.min.js.sri
-2023/05/11 20:05:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.global.min.js.br /tmp/work/dist/vue.global.min.js
-2023/05/11 20:05:31 br /tmp/work/dist/vue.runtime.global.js -> /output/vue.runtime.global.js.br
-2023/05/11 20:05:31 gz /tmp/work/dist/vue.runtime.global.js -> /output/vue.runtime.global.js.gz
-2023/05/11 20:05:31 br /tmp/work/dist/vue.global.min.js -> /output/vue.global.min.js.br
-2023/05/11 20:05:31 gz /tmp/work/dist/vue.global.min.js -> /output/vue.global.min.js.gz
-2023/05/11 20:05:31 sri /tmp/work/dist/vue.global.js -> /output/vue.global.js.sri
-2023/05/11 20:05:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.global.js.br /tmp/work/dist/vue.global.js
-2023/05/11 20:05:31 br /tmp/work/dist/vue.esm-browser.js -> /output/vue.esm-browser.js.br
-2023/05/11 20:05:31 gz /tmp/work/dist/vue.esm-browser.js -> /output/vue.esm-browser.js.gz
-2023/05/11 20:05:32 br /tmp/work/dist/vue.global.js -> /output/vue.global.js.br
-2023/05/11 20:05:32 gz /tmp/work/dist/vue.global.js -> /output/vue.global.js.gz
-2023/05/11 20:05:32 processed vue
+2023/07/31 13:07:46 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/31 13:07:46 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/vue.cjs.min.js /tmp/work/dist/vue.cjs.js
+2023/07/31 13:07:46 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/vue.cjs.prod.min.js /tmp/work/dist/vue.cjs.prod.js
+2023/07/31 13:07:46 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/vue.esm-bundler.min.js /tmp/work/dist/vue.esm-bundler.js
+2023/07/31 13:07:46 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/vue.global.prod.min.js /tmp/work/dist/vue.global.prod.js
+2023/07/31 13:07:46 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/vue.esm-browser.min.js /tmp/work/dist/vue.esm-browser.js
+2023/07/31 13:07:46 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/vue.global.min.js /tmp/work/dist/vue.global.js
+2023/07/31 13:07:46 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/vue.runtime.esm-browser.min.js /tmp/work/dist/vue.runtime.esm-browser.js
+2023/07/31 13:07:46 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/vue.esm-browser.prod.min.js /tmp/work/dist/vue.esm-browser.prod.js
+2023/07/31 13:07:47 sri /tmp/work/dist/vue.cjs.prod.min.js -> /output/vue.cjs.prod.min.js.sri
+2023/07/31 13:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.cjs.prod.min.js.br /tmp/work/dist/vue.cjs.prod.min.js
+2023/07/31 13:07:48 br /tmp/work/dist/vue.cjs.prod.min.js -> /output/vue.cjs.prod.min.js.br
+2023/07/31 13:07:48 gz /tmp/work/dist/vue.cjs.prod.min.js -> /output/vue.cjs.prod.min.js.gz
+2023/07/31 13:07:48 sri /tmp/work/dist/vue.cjs.prod.js -> /output/vue.cjs.prod.js.sri
+2023/07/31 13:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.cjs.prod.js.br /tmp/work/dist/vue.cjs.prod.js
+2023/07/31 13:07:48 br /tmp/work/dist/vue.cjs.prod.js -> /output/vue.cjs.prod.js.br
+2023/07/31 13:07:48 gz /tmp/work/dist/vue.cjs.prod.js -> /output/vue.cjs.prod.js.gz
+2023/07/31 13:07:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/vue.runtime.esm-browser.prod.min.js /tmp/work/dist/vue.runtime.esm-browser.prod.js
+2023/07/31 13:07:48 sri /tmp/work/dist/vue.esm-bundler.min.js -> /output/vue.esm-bundler.min.js.sri
+2023/07/31 13:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.esm-bundler.min.js.br /tmp/work/dist/vue.esm-bundler.min.js
+2023/07/31 13:07:48 br /tmp/work/dist/vue.esm-bundler.min.js -> /output/vue.esm-bundler.min.js.br
+2023/07/31 13:07:48 gz /tmp/work/dist/vue.esm-bundler.min.js -> /output/vue.esm-bundler.min.js.gz
+2023/07/31 13:07:48 sri /tmp/work/dist/vue.esm-bundler.js -> /output/vue.esm-bundler.js.sri
+2023/07/31 13:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.esm-bundler.js.br /tmp/work/dist/vue.esm-bundler.js
+2023/07/31 13:07:48 sri /tmp/work/dist/vue.cjs.min.js -> /output/vue.cjs.min.js.sri
+2023/07/31 13:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.cjs.min.js.br /tmp/work/dist/vue.cjs.min.js
+2023/07/31 13:07:48 br /tmp/work/dist/vue.esm-bundler.js -> /output/vue.esm-bundler.js.br
+2023/07/31 13:07:48 gz /tmp/work/dist/vue.esm-bundler.js -> /output/vue.esm-bundler.js.gz
+2023/07/31 13:07:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/vue.runtime.esm-bundler.min.js /tmp/work/dist/vue.runtime.esm-bundler.js
+2023/07/31 13:07:48 br /tmp/work/dist/vue.cjs.min.js -> /output/vue.cjs.min.js.br
+2023/07/31 13:07:48 gz /tmp/work/dist/vue.cjs.min.js -> /output/vue.cjs.min.js.gz
+2023/07/31 13:07:48 sri /tmp/work/dist/vue.cjs.js -> /output/vue.cjs.js.sri
+2023/07/31 13:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.cjs.js.br /tmp/work/dist/vue.cjs.js
+2023/07/31 13:07:48 br /tmp/work/dist/vue.cjs.js -> /output/vue.cjs.js.br
+2023/07/31 13:07:48 gz /tmp/work/dist/vue.cjs.js -> /output/vue.cjs.js.gz
+2023/07/31 13:07:48 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/vue.runtime.global.min.js /tmp/work/dist/vue.runtime.global.js
+2023/07/31 13:07:49 sri /tmp/work/dist/vue.runtime.esm-bundler.min.js -> /output/vue.runtime.esm-bundler.min.js.sri
+2023/07/31 13:07:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.runtime.esm-bundler.min.js.br /tmp/work/dist/vue.runtime.esm-bundler.min.js
+2023/07/31 13:07:49 br /tmp/work/dist/vue.runtime.esm-bundler.min.js -> /output/vue.runtime.esm-bundler.min.js.br
+2023/07/31 13:07:49 gz /tmp/work/dist/vue.runtime.esm-bundler.min.js -> /output/vue.runtime.esm-bundler.min.js.gz
+2023/07/31 13:07:49 sri /tmp/work/dist/vue.runtime.esm-bundler.js -> /output/vue.runtime.esm-bundler.js.sri
+2023/07/31 13:07:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.runtime.esm-bundler.js.br /tmp/work/dist/vue.runtime.esm-bundler.js
+2023/07/31 13:07:49 br /tmp/work/dist/vue.runtime.esm-bundler.js -> /output/vue.runtime.esm-bundler.js.br
+2023/07/31 13:07:49 gz /tmp/work/dist/vue.runtime.esm-bundler.js -> /output/vue.runtime.esm-bundler.js.gz
+2023/07/31 13:07:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/vue.runtime.global.prod.min.js /tmp/work/dist/vue.runtime.global.prod.js
+2023/07/31 13:08:06 sri /tmp/work/dist/vue.runtime.esm-browser.prod.min.js -> /output/vue.runtime.esm-browser.prod.min.js.sri
+2023/07/31 13:08:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.runtime.esm-browser.prod.min.js.br /tmp/work/dist/vue.runtime.esm-browser.prod.min.js
+2023/07/31 13:08:08 br /tmp/work/dist/vue.runtime.esm-browser.prod.min.js -> /output/vue.runtime.esm-browser.prod.min.js.br
+2023/07/31 13:08:08 gz /tmp/work/dist/vue.runtime.esm-browser.prod.min.js -> /output/vue.runtime.esm-browser.prod.min.js.gz
+2023/07/31 13:08:08 sri /tmp/work/dist/vue.runtime.esm-browser.prod.js -> /output/vue.runtime.esm-browser.prod.js.sri
+2023/07/31 13:08:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.runtime.esm-browser.prod.js.br /tmp/work/dist/vue.runtime.esm-browser.prod.js
+2023/07/31 13:08:10 br /tmp/work/dist/vue.runtime.esm-browser.prod.js -> /output/vue.runtime.esm-browser.prod.js.br
+2023/07/31 13:08:10 gz /tmp/work/dist/vue.runtime.esm-browser.prod.js -> /output/vue.runtime.esm-browser.prod.js.gz
+2023/07/31 13:08:13 sri /tmp/work/dist/vue.runtime.esm-browser.min.js -> /output/vue.runtime.esm-browser.min.js.sri
+2023/07/31 13:08:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.runtime.esm-browser.min.js.br /tmp/work/dist/vue.runtime.esm-browser.min.js
+2023/07/31 13:08:14 sri /tmp/work/dist/vue.esm-browser.prod.min.js -> /output/vue.esm-browser.prod.min.js.sri
+2023/07/31 13:08:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.esm-browser.prod.min.js.br /tmp/work/dist/vue.esm-browser.prod.min.js
+2023/07/31 13:08:16 br /tmp/work/dist/vue.runtime.esm-browser.min.js -> /output/vue.runtime.esm-browser.min.js.br
+2023/07/31 13:08:16 gz /tmp/work/dist/vue.runtime.esm-browser.min.js -> /output/vue.runtime.esm-browser.min.js.gz
+2023/07/31 13:08:16 sri /tmp/work/dist/vue.runtime.esm-browser.js -> /output/vue.runtime.esm-browser.js.sri
+2023/07/31 13:08:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.runtime.esm-browser.js.br /tmp/work/dist/vue.runtime.esm-browser.js
+2023/07/31 13:08:17 br /tmp/work/dist/vue.esm-browser.prod.min.js -> /output/vue.esm-browser.prod.min.js.br
+2023/07/31 13:08:17 gz /tmp/work/dist/vue.esm-browser.prod.min.js -> /output/vue.esm-browser.prod.min.js.gz
+2023/07/31 13:08:17 sri /tmp/work/dist/vue.esm-browser.prod.js -> /output/vue.esm-browser.prod.js.sri
+2023/07/31 13:08:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.esm-browser.prod.js.br /tmp/work/dist/vue.esm-browser.prod.js
+2023/07/31 13:08:17 sri /tmp/work/dist/vue.runtime.global.prod.min.js -> /output/vue.runtime.global.prod.min.js.sri
+2023/07/31 13:08:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.runtime.global.prod.min.js.br /tmp/work/dist/vue.runtime.global.prod.min.js
+2023/07/31 13:08:18 br /tmp/work/dist/vue.runtime.global.prod.min.js -> /output/vue.runtime.global.prod.min.js.br
+2023/07/31 13:08:18 gz /tmp/work/dist/vue.runtime.global.prod.min.js -> /output/vue.runtime.global.prod.min.js.gz
+2023/07/31 13:08:18 sri /tmp/work/dist/vue.runtime.global.prod.js -> /output/vue.runtime.global.prod.js.sri
+2023/07/31 13:08:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.runtime.global.prod.js.br /tmp/work/dist/vue.runtime.global.prod.js
+2023/07/31 13:08:18 sri /tmp/work/dist/vue.global.prod.min.js -> /output/vue.global.prod.min.js.sri
+2023/07/31 13:08:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.global.prod.min.js.br /tmp/work/dist/vue.global.prod.min.js
+2023/07/31 13:08:19 br /tmp/work/dist/vue.esm-browser.prod.js -> /output/vue.esm-browser.prod.js.br
+2023/07/31 13:08:19 gz /tmp/work/dist/vue.esm-browser.prod.js -> /output/vue.esm-browser.prod.js.gz
+2023/07/31 13:08:19 br /tmp/work/dist/vue.runtime.global.prod.js -> /output/vue.runtime.global.prod.js.br
+2023/07/31 13:08:19 gz /tmp/work/dist/vue.runtime.global.prod.js -> /output/vue.runtime.global.prod.js.gz
+2023/07/31 13:08:20 sri /tmp/work/dist/vue.esm-browser.min.js -> /output/vue.esm-browser.min.js.sri
+2023/07/31 13:08:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.esm-browser.min.js.br /tmp/work/dist/vue.esm-browser.min.js
+2023/07/31 13:08:20 sri /tmp/work/dist/vue.runtime.global.min.js -> /output/vue.runtime.global.min.js.sri
+2023/07/31 13:08:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.runtime.global.min.js.br /tmp/work/dist/vue.runtime.global.min.js
+2023/07/31 13:08:20 br /tmp/work/dist/vue.runtime.esm-browser.js -> /output/vue.runtime.esm-browser.js.br
+2023/07/31 13:08:20 br /tmp/work/dist/vue.global.prod.min.js -> /output/vue.global.prod.min.js.br
+2023/07/31 13:08:20 gz /tmp/work/dist/vue.global.prod.min.js -> /output/vue.global.prod.min.js.gz
+2023/07/31 13:08:20 sri /tmp/work/dist/vue.global.prod.js -> /output/vue.global.prod.js.sri
+2023/07/31 13:08:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.global.prod.js.br /tmp/work/dist/vue.global.prod.js
+2023/07/31 13:08:20 gz /tmp/work/dist/vue.runtime.esm-browser.js -> /output/vue.runtime.esm-browser.js.gz
+2023/07/31 13:08:21 br /tmp/work/dist/vue.runtime.global.min.js -> /output/vue.runtime.global.min.js.br
+2023/07/31 13:08:21 gz /tmp/work/dist/vue.runtime.global.min.js -> /output/vue.runtime.global.min.js.gz
+2023/07/31 13:08:21 sri /tmp/work/dist/vue.runtime.global.js -> /output/vue.runtime.global.js.sri
+2023/07/31 13:08:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.runtime.global.js.br /tmp/work/dist/vue.runtime.global.js
+2023/07/31 13:08:21 br /tmp/work/dist/vue.global.prod.js -> /output/vue.global.prod.js.br
+2023/07/31 13:08:21 gz /tmp/work/dist/vue.global.prod.js -> /output/vue.global.prod.js.gz
+2023/07/31 13:08:21 br /tmp/work/dist/vue.esm-browser.min.js -> /output/vue.esm-browser.min.js.br
+2023/07/31 13:08:21 gz /tmp/work/dist/vue.esm-browser.min.js -> /output/vue.esm-browser.min.js.gz
+2023/07/31 13:08:21 sri /tmp/work/dist/vue.esm-browser.js -> /output/vue.esm-browser.js.sri
+2023/07/31 13:08:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.esm-browser.js.br /tmp/work/dist/vue.esm-browser.js
+2023/07/31 13:08:22 br /tmp/work/dist/vue.runtime.global.js -> /output/vue.runtime.global.js.br
+2023/07/31 13:08:22 gz /tmp/work/dist/vue.runtime.global.js -> /output/vue.runtime.global.js.gz
+2023/07/31 13:08:22 sri /tmp/work/dist/vue.global.min.js -> /output/vue.global.min.js.sri
+2023/07/31 13:08:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.global.min.js.br /tmp/work/dist/vue.global.min.js
+2023/07/31 13:08:23 br /tmp/work/dist/vue.global.min.js -> /output/vue.global.min.js.br
+2023/07/31 13:08:23 gz /tmp/work/dist/vue.global.min.js -> /output/vue.global.min.js.gz
+2023/07/31 13:08:23 sri /tmp/work/dist/vue.global.js -> /output/vue.global.js.sri
+2023/07/31 13:08:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vue.global.js.br /tmp/work/dist/vue.global.js
+2023/07/31 13:08:23 br /tmp/work/dist/vue.esm-browser.js -> /output/vue.esm-browser.js.br
+2023/07/31 13:08:23 gz /tmp/work/dist/vue.esm-browser.js -> /output/vue.esm-browser.js.gz
+2023/07/31 13:08:24 br /tmp/work/dist/vue.global.js -> /output/vue.global.js.br
+2023/07/31 13:08:24 gz /tmp/work/dist/vue.global.js -> /output/vue.global.js.gz
+2023/07/31 13:08:24 processed vue
