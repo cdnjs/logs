@@ -1,326 +1,326 @@
-2023/05/06 11:04:17 optimizing files (Js true, Css true, Png true, Jpg true)
-2023/05/06 11:04:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/bookmark.min.js /tmp/work/source/js/bookmark.js
-2023/05/06 11:04:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/comments-buttons.min.js /tmp/work/source/js/comments-buttons.js
-2023/05/06 11:04:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/config.min.js /tmp/work/source/js/config.js
-2023/05/06 11:04:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/comments.min.js /tmp/work/source/js/comments.js
-2023/05/06 11:04:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/next-boot.min.js /tmp/work/source/js/next-boot.js
-2023/05/06 11:04:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/motion.min.js /tmp/work/source/js/motion.js
-2023/05/06 11:04:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/pjax.min.js /tmp/work/source/js/pjax.js
-2023/05/06 11:04:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/schedule.min.js /tmp/work/source/js/schedule.js
-2023/05/06 11:04:18 sri /tmp/work/source/js/next-boot.min.js -> /output/next-boot.min.js.sri
-2023/05/06 11:04:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-boot.min.js.br /tmp/work/source/js/next-boot.min.js
-2023/05/06 11:04:18 sri /tmp/work/source/js/motion.min.js -> /output/motion.min.js.sri
-2023/05/06 11:04:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/motion.min.js.br /tmp/work/source/js/motion.min.js
-2023/05/06 11:04:18 br /tmp/work/source/js/next-boot.min.js -> /output/next-boot.min.js.br
-2023/05/06 11:04:18 gz /tmp/work/source/js/next-boot.min.js -> /output/next-boot.min.js.gz
-2023/05/06 11:04:18 sri /tmp/work/source/js/next-boot.js -> /output/next-boot.js.sri
-2023/05/06 11:04:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-boot.js.br /tmp/work/source/js/next-boot.js
-2023/05/06 11:04:18 br /tmp/work/source/js/motion.min.js -> /output/motion.min.js.br
-2023/05/06 11:04:18 gz /tmp/work/source/js/motion.min.js -> /output/motion.min.js.gz
-2023/05/06 11:04:18 sri /tmp/work/source/js/motion.js -> /output/motion.js.sri
-2023/05/06 11:04:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/motion.js.br /tmp/work/source/js/motion.js
-2023/05/06 11:04:18 br /tmp/work/source/js/next-boot.js -> /output/next-boot.js.br
-2023/05/06 11:04:18 gz /tmp/work/source/js/next-boot.js -> /output/next-boot.js.gz
-2023/05/06 11:04:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/schemes/muse.min.js /tmp/work/source/js/schemes/muse.js
-2023/05/06 11:04:18 br /tmp/work/source/js/motion.js -> /output/motion.js.br
-2023/05/06 11:04:18 gz /tmp/work/source/js/motion.js -> /output/motion.js.gz
-2023/05/06 11:04:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/addtoany.min.js /tmp/work/source/js/third-party/addtoany.js
-2023/05/06 11:04:18 sri /tmp/work/source/js/config.min.js -> /output/config.min.js.sri
-2023/05/06 11:04:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/config.min.js.br /tmp/work/source/js/config.min.js
-2023/05/06 11:04:18 br /tmp/work/source/js/config.min.js -> /output/config.min.js.br
-2023/05/06 11:04:18 gz /tmp/work/source/js/config.min.js -> /output/config.min.js.gz
-2023/05/06 11:04:18 sri /tmp/work/source/js/config.js -> /output/config.js.sri
-2023/05/06 11:04:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/config.js.br /tmp/work/source/js/config.js
-2023/05/06 11:04:18 sri /tmp/work/source/js/bookmark.min.js -> /output/bookmark.min.js.sri
-2023/05/06 11:04:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/bookmark.min.js.br /tmp/work/source/js/bookmark.min.js
-2023/05/06 11:04:18 sri /tmp/work/source/js/comments.min.js -> /output/comments.min.js.sri
-2023/05/06 11:04:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/comments.min.js.br /tmp/work/source/js/comments.min.js
-2023/05/06 11:04:18 br /tmp/work/source/js/config.js -> /output/config.js.br
-2023/05/06 11:04:18 gz /tmp/work/source/js/config.js -> /output/config.js.gz
-2023/05/06 11:04:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/analytics/baidu-analytics.min.js /tmp/work/source/js/third-party/analytics/baidu-analytics.js
-2023/05/06 11:04:18 sri /tmp/work/source/js/comments-buttons.min.js -> /output/comments-buttons.min.js.sri
-2023/05/06 11:04:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/comments-buttons.min.js.br /tmp/work/source/js/comments-buttons.min.js
-2023/05/06 11:04:18 sri /tmp/work/source/js/pjax.min.js -> /output/pjax.min.js.sri
-2023/05/06 11:04:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pjax.min.js.br /tmp/work/source/js/pjax.min.js
-2023/05/06 11:04:18 br /tmp/work/source/js/bookmark.min.js -> /output/bookmark.min.js.br
-2023/05/06 11:04:18 gz /tmp/work/source/js/bookmark.min.js -> /output/bookmark.min.js.gz
-2023/05/06 11:04:18 sri /tmp/work/source/js/bookmark.js -> /output/bookmark.js.sri
-2023/05/06 11:04:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/bookmark.js.br /tmp/work/source/js/bookmark.js
-2023/05/06 11:04:18 br /tmp/work/source/js/comments.min.js -> /output/comments.min.js.br
-2023/05/06 11:04:18 br /tmp/work/source/js/bookmark.js -> /output/bookmark.js.br
-2023/05/06 11:04:18 br /tmp/work/source/js/comments-buttons.min.js -> /output/comments-buttons.min.js.br
-2023/05/06 11:04:18 gz /tmp/work/source/js/comments-buttons.min.js -> /output/comments-buttons.min.js.gz
-2023/05/06 11:04:18 sri /tmp/work/source/js/comments-buttons.js -> /output/comments-buttons.js.sri
-2023/05/06 11:04:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/comments-buttons.js.br /tmp/work/source/js/comments-buttons.js
-2023/05/06 11:04:18 gz /tmp/work/source/js/comments.min.js -> /output/comments.min.js.gz
-2023/05/06 11:04:18 sri /tmp/work/source/js/comments.js -> /output/comments.js.sri
-2023/05/06 11:04:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/comments.js.br /tmp/work/source/js/comments.js
-2023/05/06 11:04:18 gz /tmp/work/source/js/bookmark.js -> /output/bookmark.js.gz
-2023/05/06 11:04:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/analytics/google-analytics.min.js /tmp/work/source/js/third-party/analytics/google-analytics.js
-2023/05/06 11:04:18 br /tmp/work/source/js/pjax.min.js -> /output/pjax.min.js.br
-2023/05/06 11:04:18 gz /tmp/work/source/js/pjax.min.js -> /output/pjax.min.js.gz
-2023/05/06 11:04:18 sri /tmp/work/source/js/pjax.js -> /output/pjax.js.sri
-2023/05/06 11:04:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pjax.js.br /tmp/work/source/js/pjax.js
-2023/05/06 11:04:18 br /tmp/work/source/js/comments-buttons.js -> /output/comments-buttons.js.br
-2023/05/06 11:04:18 br /tmp/work/source/js/comments.js -> /output/comments.js.br
-2023/05/06 11:04:18 gz /tmp/work/source/js/comments-buttons.js -> /output/comments-buttons.js.gz
-2023/05/06 11:04:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/analytics/growingio.min.js /tmp/work/source/js/third-party/analytics/growingio.js
-2023/05/06 11:04:18 gz /tmp/work/source/js/comments.js -> /output/comments.js.gz
-2023/05/06 11:04:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/analytics/matomo.min.js /tmp/work/source/js/third-party/analytics/matomo.js
-2023/05/06 11:04:18 br /tmp/work/source/js/pjax.js -> /output/pjax.js.br
-2023/05/06 11:04:18 gz /tmp/work/source/js/pjax.js -> /output/pjax.js.gz
-2023/05/06 11:04:18 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/chat/chatra.min.js /tmp/work/source/js/third-party/chat/chatra.js
-2023/05/06 11:04:18 sri /tmp/work/source/js/schedule.min.js -> /output/schedule.min.js.sri
-2023/05/06 11:04:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schedule.min.js.br /tmp/work/source/js/schedule.min.js
-2023/05/06 11:04:18 br /tmp/work/source/js/schedule.min.js -> /output/schedule.min.js.br
-2023/05/06 11:04:18 gz /tmp/work/source/js/schedule.min.js -> /output/schedule.min.js.gz
-2023/05/06 11:04:18 sri /tmp/work/source/js/schedule.js -> /output/schedule.js.sri
-2023/05/06 11:04:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schedule.js.br /tmp/work/source/js/schedule.js
-2023/05/06 11:04:19 br /tmp/work/source/js/schedule.js -> /output/schedule.js.br
-2023/05/06 11:04:19 gz /tmp/work/source/js/schedule.js -> /output/schedule.js.gz
-2023/05/06 11:04:19 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/chat/gitter.min.js /tmp/work/source/js/third-party/chat/gitter.js
-2023/05/06 11:04:19 sri /tmp/work/source/js/third-party/addtoany.min.js -> /output/third-party/addtoany.min.js.sri
-2023/05/06 11:04:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/addtoany.min.js.br /tmp/work/source/js/third-party/addtoany.min.js
-2023/05/06 11:04:19 br /tmp/work/source/js/third-party/addtoany.min.js -> /output/third-party/addtoany.min.js.br
-2023/05/06 11:04:19 gz /tmp/work/source/js/third-party/addtoany.min.js -> /output/third-party/addtoany.min.js.gz
-2023/05/06 11:04:19 sri /tmp/work/source/js/third-party/addtoany.js -> /output/third-party/addtoany.js.sri
-2023/05/06 11:04:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/addtoany.js.br /tmp/work/source/js/third-party/addtoany.js
-2023/05/06 11:04:19 sri /tmp/work/source/js/third-party/analytics/baidu-analytics.min.js -> /output/third-party/analytics/baidu-analytics.min.js.sri
-2023/05/06 11:04:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/analytics/baidu-analytics.min.js.br /tmp/work/source/js/third-party/analytics/baidu-analytics.min.js
-2023/05/06 11:04:19 br /tmp/work/source/js/third-party/addtoany.js -> /output/third-party/addtoany.js.br
-2023/05/06 11:04:19 gz /tmp/work/source/js/third-party/addtoany.js -> /output/third-party/addtoany.js.gz
-2023/05/06 11:04:19 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/chat/tidio.min.js /tmp/work/source/js/third-party/chat/tidio.js
-2023/05/06 11:04:19 br /tmp/work/source/js/third-party/analytics/baidu-analytics.min.js -> /output/third-party/analytics/baidu-analytics.min.js.br
-2023/05/06 11:04:19 gz /tmp/work/source/js/third-party/analytics/baidu-analytics.min.js -> /output/third-party/analytics/baidu-analytics.min.js.gz
-2023/05/06 11:04:19 sri /tmp/work/source/js/third-party/analytics/baidu-analytics.js -> /output/third-party/analytics/baidu-analytics.js.sri
-2023/05/06 11:04:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/analytics/baidu-analytics.js.br /tmp/work/source/js/third-party/analytics/baidu-analytics.js
-2023/05/06 11:04:19 br /tmp/work/source/js/third-party/analytics/baidu-analytics.js -> /output/third-party/analytics/baidu-analytics.js.br
-2023/05/06 11:04:19 gz /tmp/work/source/js/third-party/analytics/baidu-analytics.js -> /output/third-party/analytics/baidu-analytics.js.gz
-2023/05/06 11:04:19 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/comments/changyan.min.js /tmp/work/source/js/third-party/comments/changyan.js
-2023/05/06 11:04:19 sri /tmp/work/source/js/third-party/chat/chatra.min.js -> /output/third-party/chat/chatra.min.js.sri
-2023/05/06 11:04:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/chat/chatra.min.js.br /tmp/work/source/js/third-party/chat/chatra.min.js
-2023/05/06 11:04:19 br /tmp/work/source/js/third-party/chat/chatra.min.js -> /output/third-party/chat/chatra.min.js.br
-2023/05/06 11:04:19 gz /tmp/work/source/js/third-party/chat/chatra.min.js -> /output/third-party/chat/chatra.min.js.gz
-2023/05/06 11:04:19 sri /tmp/work/source/js/third-party/chat/chatra.js -> /output/third-party/chat/chatra.js.sri
-2023/05/06 11:04:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/chat/chatra.js.br /tmp/work/source/js/third-party/chat/chatra.js
-2023/05/06 11:04:19 br /tmp/work/source/js/third-party/chat/chatra.js -> /output/third-party/chat/chatra.js.br
-2023/05/06 11:04:19 gz /tmp/work/source/js/third-party/chat/chatra.js -> /output/third-party/chat/chatra.js.gz
-2023/05/06 11:04:19 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/comments/disqus.min.js /tmp/work/source/js/third-party/comments/disqus.js
-2023/05/06 11:04:19 sri /tmp/work/source/js/third-party/analytics/growingio.min.js -> /output/third-party/analytics/growingio.min.js.sri
-2023/05/06 11:04:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/analytics/growingio.min.js.br /tmp/work/source/js/third-party/analytics/growingio.min.js
-2023/05/06 11:04:19 br /tmp/work/source/js/third-party/analytics/growingio.min.js -> /output/third-party/analytics/growingio.min.js.br
-2023/05/06 11:04:19 gz /tmp/work/source/js/third-party/analytics/growingio.min.js -> /output/third-party/analytics/growingio.min.js.gz
-2023/05/06 11:04:19 sri /tmp/work/source/js/third-party/analytics/growingio.js -> /output/third-party/analytics/growingio.js.sri
-2023/05/06 11:04:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/analytics/growingio.js.br /tmp/work/source/js/third-party/analytics/growingio.js
-2023/05/06 11:04:19 sri /tmp/work/source/js/schemes/muse.min.js -> /output/schemes/muse.min.js.sri
-2023/05/06 11:04:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schemes/muse.min.js.br /tmp/work/source/js/schemes/muse.min.js
-2023/05/06 11:04:19 br /tmp/work/source/js/third-party/analytics/growingio.js -> /output/third-party/analytics/growingio.js.br
-2023/05/06 11:04:19 gz /tmp/work/source/js/third-party/analytics/growingio.js -> /output/third-party/analytics/growingio.js.gz
-2023/05/06 11:04:19 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/comments/disqusjs.min.js /tmp/work/source/js/third-party/comments/disqusjs.js
-2023/05/06 11:04:19 br /tmp/work/source/js/schemes/muse.min.js -> /output/schemes/muse.min.js.br
-2023/05/06 11:04:19 gz /tmp/work/source/js/schemes/muse.min.js -> /output/schemes/muse.min.js.gz
-2023/05/06 11:04:19 sri /tmp/work/source/js/schemes/muse.js -> /output/schemes/muse.js.sri
-2023/05/06 11:04:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schemes/muse.js.br /tmp/work/source/js/schemes/muse.js
-2023/05/06 11:04:19 br /tmp/work/source/js/schemes/muse.js -> /output/schemes/muse.js.br
-2023/05/06 11:04:19 gz /tmp/work/source/js/schemes/muse.js -> /output/schemes/muse.js.gz
-2023/05/06 11:04:19 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/comments/gitalk.min.js /tmp/work/source/js/third-party/comments/gitalk.js
-2023/05/06 11:04:19 sri /tmp/work/source/js/third-party/chat/gitter.min.js -> /output/third-party/chat/gitter.min.js.sri
-2023/05/06 11:04:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/chat/gitter.min.js.br /tmp/work/source/js/third-party/chat/gitter.min.js
-2023/05/06 11:04:19 br /tmp/work/source/js/third-party/chat/gitter.min.js -> /output/third-party/chat/gitter.min.js.br
-2023/05/06 11:04:19 gz /tmp/work/source/js/third-party/chat/gitter.min.js -> /output/third-party/chat/gitter.min.js.gz
-2023/05/06 11:04:19 sri /tmp/work/source/js/third-party/chat/gitter.js -> /output/third-party/chat/gitter.js.sri
-2023/05/06 11:04:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/chat/gitter.js.br /tmp/work/source/js/third-party/chat/gitter.js
-2023/05/06 11:04:19 br /tmp/work/source/js/third-party/chat/gitter.js -> /output/third-party/chat/gitter.js.br
-2023/05/06 11:04:19 gz /tmp/work/source/js/third-party/chat/gitter.js -> /output/third-party/chat/gitter.js.gz
-2023/05/06 11:04:19 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/comments/isso.min.js /tmp/work/source/js/third-party/comments/isso.js
-2023/05/06 11:04:19 sri /tmp/work/source/js/third-party/analytics/matomo.min.js -> /output/third-party/analytics/matomo.min.js.sri
-2023/05/06 11:04:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/analytics/matomo.min.js.br /tmp/work/source/js/third-party/analytics/matomo.min.js
-2023/05/06 11:04:19 sri /tmp/work/source/js/third-party/chat/tidio.min.js -> /output/third-party/chat/tidio.min.js.sri
-2023/05/06 11:04:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/chat/tidio.min.js.br /tmp/work/source/js/third-party/chat/tidio.min.js
-2023/05/06 11:04:19 br /tmp/work/source/js/third-party/analytics/matomo.min.js -> /output/third-party/analytics/matomo.min.js.br
-2023/05/06 11:04:19 gz /tmp/work/source/js/third-party/analytics/matomo.min.js -> /output/third-party/analytics/matomo.min.js.gz
-2023/05/06 11:04:19 sri /tmp/work/source/js/third-party/analytics/matomo.js -> /output/third-party/analytics/matomo.js.sri
-2023/05/06 11:04:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/analytics/matomo.js.br /tmp/work/source/js/third-party/analytics/matomo.js
-2023/05/06 11:04:19 br /tmp/work/source/js/third-party/chat/tidio.min.js -> /output/third-party/chat/tidio.min.js.br
-2023/05/06 11:04:19 gz /tmp/work/source/js/third-party/chat/tidio.min.js -> /output/third-party/chat/tidio.min.js.gz
-2023/05/06 11:04:19 sri /tmp/work/source/js/third-party/chat/tidio.js -> /output/third-party/chat/tidio.js.sri
-2023/05/06 11:04:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/chat/tidio.js.br /tmp/work/source/js/third-party/chat/tidio.js
-2023/05/06 11:04:19 br /tmp/work/source/js/third-party/analytics/matomo.js -> /output/third-party/analytics/matomo.js.br
-2023/05/06 11:04:19 gz /tmp/work/source/js/third-party/analytics/matomo.js -> /output/third-party/analytics/matomo.js.gz
-2023/05/06 11:04:19 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/comments/livere.min.js /tmp/work/source/js/third-party/comments/livere.js
-2023/05/06 11:04:19 br /tmp/work/source/js/third-party/chat/tidio.js -> /output/third-party/chat/tidio.js.br
-2023/05/06 11:04:19 gz /tmp/work/source/js/third-party/chat/tidio.js -> /output/third-party/chat/tidio.js.gz
-2023/05/06 11:04:19 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/comments/utterances.min.js /tmp/work/source/js/third-party/comments/utterances.js
-2023/05/06 11:04:19 sri /tmp/work/source/js/third-party/comments/changyan.min.js -> /output/third-party/comments/changyan.min.js.sri
-2023/05/06 11:04:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/changyan.min.js.br /tmp/work/source/js/third-party/comments/changyan.min.js
-2023/05/06 11:04:19 sri /tmp/work/source/js/third-party/analytics/google-analytics.min.js -> /output/third-party/analytics/google-analytics.min.js.sri
-2023/05/06 11:04:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/analytics/google-analytics.min.js.br /tmp/work/source/js/third-party/analytics/google-analytics.min.js
-2023/05/06 11:04:19 br /tmp/work/source/js/third-party/comments/changyan.min.js -> /output/third-party/comments/changyan.min.js.br
-2023/05/06 11:04:19 gz /tmp/work/source/js/third-party/comments/changyan.min.js -> /output/third-party/comments/changyan.min.js.gz
-2023/05/06 11:04:19 sri /tmp/work/source/js/third-party/comments/changyan.js -> /output/third-party/comments/changyan.js.sri
-2023/05/06 11:04:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/changyan.js.br /tmp/work/source/js/third-party/comments/changyan.js
-2023/05/06 11:04:19 br /tmp/work/source/js/third-party/analytics/google-analytics.min.js -> /output/third-party/analytics/google-analytics.min.js.br
-2023/05/06 11:04:19 gz /tmp/work/source/js/third-party/analytics/google-analytics.min.js -> /output/third-party/analytics/google-analytics.min.js.gz
-2023/05/06 11:04:19 sri /tmp/work/source/js/third-party/analytics/google-analytics.js -> /output/third-party/analytics/google-analytics.js.sri
-2023/05/06 11:04:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/analytics/google-analytics.js.br /tmp/work/source/js/third-party/analytics/google-analytics.js
-2023/05/06 11:04:19 br /tmp/work/source/js/third-party/comments/changyan.js -> /output/third-party/comments/changyan.js.br
-2023/05/06 11:04:19 br /tmp/work/source/js/third-party/analytics/google-analytics.js -> /output/third-party/analytics/google-analytics.js.br
-2023/05/06 11:04:19 gz /tmp/work/source/js/third-party/comments/changyan.js -> /output/third-party/comments/changyan.js.gz
-2023/05/06 11:04:19 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/fancybox.min.js /tmp/work/source/js/third-party/fancybox.js
-2023/05/06 11:04:19 gz /tmp/work/source/js/third-party/analytics/google-analytics.js -> /output/third-party/analytics/google-analytics.js.gz
-2023/05/06 11:04:19 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/math/katex.min.js /tmp/work/source/js/third-party/math/katex.js
-2023/05/06 11:04:19 sri /tmp/work/source/js/third-party/comments/disqus.min.js -> /output/third-party/comments/disqus.min.js.sri
-2023/05/06 11:04:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/disqus.min.js.br /tmp/work/source/js/third-party/comments/disqus.min.js
-2023/05/06 11:04:19 br /tmp/work/source/js/third-party/comments/disqus.min.js -> /output/third-party/comments/disqus.min.js.br
-2023/05/06 11:04:19 gz /tmp/work/source/js/third-party/comments/disqus.min.js -> /output/third-party/comments/disqus.min.js.gz
-2023/05/06 11:04:19 sri /tmp/work/source/js/third-party/comments/disqus.js -> /output/third-party/comments/disqus.js.sri
-2023/05/06 11:04:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/disqus.js.br /tmp/work/source/js/third-party/comments/disqus.js
-2023/05/06 11:04:20 br /tmp/work/source/js/third-party/comments/disqus.js -> /output/third-party/comments/disqus.js.br
-2023/05/06 11:04:20 gz /tmp/work/source/js/third-party/comments/disqus.js -> /output/third-party/comments/disqus.js.gz
-2023/05/06 11:04:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/math/mathjax.min.js /tmp/work/source/js/third-party/math/mathjax.js
-2023/05/06 11:04:20 sri /tmp/work/source/js/third-party/comments/disqusjs.min.js -> /output/third-party/comments/disqusjs.min.js.sri
-2023/05/06 11:04:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/disqusjs.min.js.br /tmp/work/source/js/third-party/comments/disqusjs.min.js
-2023/05/06 11:04:20 br /tmp/work/source/js/third-party/comments/disqusjs.min.js -> /output/third-party/comments/disqusjs.min.js.br
-2023/05/06 11:04:20 gz /tmp/work/source/js/third-party/comments/disqusjs.min.js -> /output/third-party/comments/disqusjs.min.js.gz
-2023/05/06 11:04:20 sri /tmp/work/source/js/third-party/comments/disqusjs.js -> /output/third-party/comments/disqusjs.js.sri
-2023/05/06 11:04:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/disqusjs.js.br /tmp/work/source/js/third-party/comments/disqusjs.js
-2023/05/06 11:04:20 br /tmp/work/source/js/third-party/comments/disqusjs.js -> /output/third-party/comments/disqusjs.js.br
-2023/05/06 11:04:20 gz /tmp/work/source/js/third-party/comments/disqusjs.js -> /output/third-party/comments/disqusjs.js.gz
-2023/05/06 11:04:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/pace.min.js /tmp/work/source/js/third-party/pace.js
-2023/05/06 11:04:20 sri /tmp/work/source/js/third-party/comments/utterances.min.js -> /output/third-party/comments/utterances.min.js.sri
-2023/05/06 11:04:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/utterances.min.js.br /tmp/work/source/js/third-party/comments/utterances.min.js
-2023/05/06 11:04:20 sri /tmp/work/source/js/third-party/comments/gitalk.min.js -> /output/third-party/comments/gitalk.min.js.sri
-2023/05/06 11:04:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/gitalk.min.js.br /tmp/work/source/js/third-party/comments/gitalk.min.js
-2023/05/06 11:04:20 br /tmp/work/source/js/third-party/comments/utterances.min.js -> /output/third-party/comments/utterances.min.js.br
-2023/05/06 11:04:20 gz /tmp/work/source/js/third-party/comments/utterances.min.js -> /output/third-party/comments/utterances.min.js.gz
-2023/05/06 11:04:20 sri /tmp/work/source/js/third-party/comments/utterances.js -> /output/third-party/comments/utterances.js.sri
-2023/05/06 11:04:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/utterances.js.br /tmp/work/source/js/third-party/comments/utterances.js
-2023/05/06 11:04:20 sri /tmp/work/source/js/third-party/comments/livere.min.js -> /output/third-party/comments/livere.min.js.sri
-2023/05/06 11:04:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/livere.min.js.br /tmp/work/source/js/third-party/comments/livere.min.js
-2023/05/06 11:04:20 br /tmp/work/source/js/third-party/comments/utterances.js -> /output/third-party/comments/utterances.js.br
-2023/05/06 11:04:20 gz /tmp/work/source/js/third-party/comments/utterances.js -> /output/third-party/comments/utterances.js.gz
-2023/05/06 11:04:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/quicklink.min.js /tmp/work/source/js/third-party/quicklink.js
-2023/05/06 11:04:20 br /tmp/work/source/js/third-party/comments/gitalk.min.js -> /output/third-party/comments/gitalk.min.js.br
-2023/05/06 11:04:20 gz /tmp/work/source/js/third-party/comments/gitalk.min.js -> /output/third-party/comments/gitalk.min.js.gz
-2023/05/06 11:04:20 sri /tmp/work/source/js/third-party/comments/gitalk.js -> /output/third-party/comments/gitalk.js.sri
-2023/05/06 11:04:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/gitalk.js.br /tmp/work/source/js/third-party/comments/gitalk.js
-2023/05/06 11:04:20 br /tmp/work/source/js/third-party/comments/livere.min.js -> /output/third-party/comments/livere.min.js.br
-2023/05/06 11:04:20 gz /tmp/work/source/js/third-party/comments/livere.min.js -> /output/third-party/comments/livere.min.js.gz
-2023/05/06 11:04:20 sri /tmp/work/source/js/third-party/comments/livere.js -> /output/third-party/comments/livere.js.sri
-2023/05/06 11:04:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/livere.js.br /tmp/work/source/js/third-party/comments/livere.js
-2023/05/06 11:04:20 br /tmp/work/source/js/third-party/comments/gitalk.js -> /output/third-party/comments/gitalk.js.br
-2023/05/06 11:04:20 gz /tmp/work/source/js/third-party/comments/gitalk.js -> /output/third-party/comments/gitalk.js.gz
-2023/05/06 11:04:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/search/algolia-search.min.js /tmp/work/source/js/third-party/search/algolia-search.js
-2023/05/06 11:04:20 br /tmp/work/source/js/third-party/comments/livere.js -> /output/third-party/comments/livere.js.br
-2023/05/06 11:04:20 gz /tmp/work/source/js/third-party/comments/livere.js -> /output/third-party/comments/livere.js.gz
-2023/05/06 11:04:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/search/local-search.min.js /tmp/work/source/js/third-party/search/local-search.js
-2023/05/06 11:04:20 sri /tmp/work/source/js/third-party/math/katex.min.js -> /output/third-party/math/katex.min.js.sri
-2023/05/06 11:04:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/math/katex.min.js.br /tmp/work/source/js/third-party/math/katex.min.js
-2023/05/06 11:04:20 sri /tmp/work/source/js/third-party/comments/isso.min.js -> /output/third-party/comments/isso.min.js.sri
-2023/05/06 11:04:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/isso.min.js.br /tmp/work/source/js/third-party/comments/isso.min.js
-2023/05/06 11:04:20 br /tmp/work/source/js/third-party/math/katex.min.js -> /output/third-party/math/katex.min.js.br
-2023/05/06 11:04:20 gz /tmp/work/source/js/third-party/math/katex.min.js -> /output/third-party/math/katex.min.js.gz
-2023/05/06 11:04:20 sri /tmp/work/source/js/third-party/math/katex.js -> /output/third-party/math/katex.js.sri
-2023/05/06 11:04:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/math/katex.js.br /tmp/work/source/js/third-party/math/katex.js
-2023/05/06 11:04:20 br /tmp/work/source/js/third-party/comments/isso.min.js -> /output/third-party/comments/isso.min.js.br
-2023/05/06 11:04:20 gz /tmp/work/source/js/third-party/comments/isso.min.js -> /output/third-party/comments/isso.min.js.gz
-2023/05/06 11:04:20 sri /tmp/work/source/js/third-party/comments/isso.js -> /output/third-party/comments/isso.js.sri
-2023/05/06 11:04:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/isso.js.br /tmp/work/source/js/third-party/comments/isso.js
-2023/05/06 11:04:20 br /tmp/work/source/js/third-party/math/katex.js -> /output/third-party/math/katex.js.br
-2023/05/06 11:04:20 sri /tmp/work/source/js/third-party/fancybox.min.js -> /output/third-party/fancybox.min.js.sri
-2023/05/06 11:04:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/fancybox.min.js.br /tmp/work/source/js/third-party/fancybox.min.js
-2023/05/06 11:04:20 gz /tmp/work/source/js/third-party/math/katex.js -> /output/third-party/math/katex.js.gz
-2023/05/06 11:04:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/statistics/firestore.min.js /tmp/work/source/js/third-party/statistics/firestore.js
-2023/05/06 11:04:20 br /tmp/work/source/js/third-party/comments/isso.js -> /output/third-party/comments/isso.js.br
-2023/05/06 11:04:20 br /tmp/work/source/js/third-party/fancybox.min.js -> /output/third-party/fancybox.min.js.br
-2023/05/06 11:04:20 gz /tmp/work/source/js/third-party/comments/isso.js -> /output/third-party/comments/isso.js.gz
-2023/05/06 11:04:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/statistics/lean-analytics.min.js /tmp/work/source/js/third-party/statistics/lean-analytics.js
-2023/05/06 11:04:20 gz /tmp/work/source/js/third-party/fancybox.min.js -> /output/third-party/fancybox.min.js.gz
-2023/05/06 11:04:20 sri /tmp/work/source/js/third-party/fancybox.js -> /output/third-party/fancybox.js.sri
-2023/05/06 11:04:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/fancybox.js.br /tmp/work/source/js/third-party/fancybox.js
-2023/05/06 11:04:20 br /tmp/work/source/js/third-party/fancybox.js -> /output/third-party/fancybox.js.br
-2023/05/06 11:04:20 gz /tmp/work/source/js/third-party/fancybox.js -> /output/third-party/fancybox.js.gz
-2023/05/06 11:04:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/tags/mermaid.min.js /tmp/work/source/js/third-party/tags/mermaid.js
-2023/05/06 11:04:20 sri /tmp/work/source/js/third-party/math/mathjax.min.js -> /output/third-party/math/mathjax.min.js.sri
-2023/05/06 11:04:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/math/mathjax.min.js.br /tmp/work/source/js/third-party/math/mathjax.min.js
-2023/05/06 11:04:20 br /tmp/work/source/js/third-party/math/mathjax.min.js -> /output/third-party/math/mathjax.min.js.br
-2023/05/06 11:04:20 gz /tmp/work/source/js/third-party/math/mathjax.min.js -> /output/third-party/math/mathjax.min.js.gz
-2023/05/06 11:04:20 sri /tmp/work/source/js/third-party/math/mathjax.js -> /output/third-party/math/mathjax.js.sri
-2023/05/06 11:04:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/math/mathjax.js.br /tmp/work/source/js/third-party/math/mathjax.js
-2023/05/06 11:04:20 sri /tmp/work/source/js/third-party/pace.min.js -> /output/third-party/pace.min.js.sri
-2023/05/06 11:04:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/pace.min.js.br /tmp/work/source/js/third-party/pace.min.js
-2023/05/06 11:04:20 br /tmp/work/source/js/third-party/pace.min.js -> /output/third-party/pace.min.js.br
-2023/05/06 11:04:20 gz /tmp/work/source/js/third-party/pace.min.js -> /output/third-party/pace.min.js.gz
-2023/05/06 11:04:20 sri /tmp/work/source/js/third-party/pace.js -> /output/third-party/pace.js.sri
-2023/05/06 11:04:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/pace.js.br /tmp/work/source/js/third-party/pace.js
-2023/05/06 11:04:20 br /tmp/work/source/js/third-party/math/mathjax.js -> /output/third-party/math/mathjax.js.br
-2023/05/06 11:04:20 gz /tmp/work/source/js/third-party/math/mathjax.js -> /output/third-party/math/mathjax.js.gz
-2023/05/06 11:04:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/tags/pdf.min.js /tmp/work/source/js/third-party/tags/pdf.js
-2023/05/06 11:04:20 br /tmp/work/source/js/third-party/pace.js -> /output/third-party/pace.js.br
-2023/05/06 11:04:20 gz /tmp/work/source/js/third-party/pace.js -> /output/third-party/pace.js.gz
-2023/05/06 11:04:20 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/utils.min.js /tmp/work/source/js/utils.js
-2023/05/06 11:04:20 sri /tmp/work/source/js/third-party/quicklink.min.js -> /output/third-party/quicklink.min.js.sri
-2023/05/06 11:04:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/quicklink.min.js.br /tmp/work/source/js/third-party/quicklink.min.js
-2023/05/06 11:04:20 br /tmp/work/source/js/third-party/quicklink.min.js -> /output/third-party/quicklink.min.js.br
-2023/05/06 11:04:20 gz /tmp/work/source/js/third-party/quicklink.min.js -> /output/third-party/quicklink.min.js.gz
-2023/05/06 11:04:20 sri /tmp/work/source/js/third-party/quicklink.js -> /output/third-party/quicklink.js.sri
-2023/05/06 11:04:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/quicklink.js.br /tmp/work/source/js/third-party/quicklink.js
-2023/05/06 11:04:20 br /tmp/work/source/js/third-party/quicklink.js -> /output/third-party/quicklink.js.br
-2023/05/06 11:04:20 gz /tmp/work/source/js/third-party/quicklink.js -> /output/third-party/quicklink.js.gz
-2023/05/06 11:04:21 sri /tmp/work/source/js/third-party/statistics/firestore.min.js -> /output/third-party/statistics/firestore.min.js.sri
-2023/05/06 11:04:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/statistics/firestore.min.js.br /tmp/work/source/js/third-party/statistics/firestore.min.js
-2023/05/06 11:04:21 sri /tmp/work/source/js/third-party/search/algolia-search.min.js -> /output/third-party/search/algolia-search.min.js.sri
-2023/05/06 11:04:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/search/algolia-search.min.js.br /tmp/work/source/js/third-party/search/algolia-search.min.js
-2023/05/06 11:04:21 br /tmp/work/source/js/third-party/statistics/firestore.min.js -> /output/third-party/statistics/firestore.min.js.br
-2023/05/06 11:04:21 gz /tmp/work/source/js/third-party/statistics/firestore.min.js -> /output/third-party/statistics/firestore.min.js.gz
-2023/05/06 11:04:21 sri /tmp/work/source/js/third-party/statistics/firestore.js -> /output/third-party/statistics/firestore.js.sri
-2023/05/06 11:04:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/statistics/firestore.js.br /tmp/work/source/js/third-party/statistics/firestore.js
-2023/05/06 11:04:21 br /tmp/work/source/js/third-party/search/algolia-search.min.js -> /output/third-party/search/algolia-search.min.js.br
-2023/05/06 11:04:21 gz /tmp/work/source/js/third-party/search/algolia-search.min.js -> /output/third-party/search/algolia-search.min.js.gz
-2023/05/06 11:04:21 sri /tmp/work/source/js/third-party/search/algolia-search.js -> /output/third-party/search/algolia-search.js.sri
-2023/05/06 11:04:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/search/algolia-search.js.br /tmp/work/source/js/third-party/search/algolia-search.js
-2023/05/06 11:04:21 br /tmp/work/source/js/third-party/search/algolia-search.js -> /output/third-party/search/algolia-search.js.br
-2023/05/06 11:04:21 gz /tmp/work/source/js/third-party/search/algolia-search.js -> /output/third-party/search/algolia-search.js.gz
-2023/05/06 11:04:21 br /tmp/work/source/js/third-party/statistics/firestore.js -> /output/third-party/statistics/firestore.js.br
-2023/05/06 11:04:21 sri /tmp/work/source/js/third-party/search/local-search.min.js -> /output/third-party/search/local-search.min.js.sri
-2023/05/06 11:04:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/search/local-search.min.js.br /tmp/work/source/js/third-party/search/local-search.min.js
-2023/05/06 11:04:21 gz /tmp/work/source/js/third-party/statistics/firestore.js -> /output/third-party/statistics/firestore.js.gz
-2023/05/06 11:04:21 sri /tmp/work/source/js/third-party/tags/mermaid.min.js -> /output/third-party/tags/mermaid.min.js.sri
-2023/05/06 11:04:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/tags/mermaid.min.js.br /tmp/work/source/js/third-party/tags/mermaid.min.js
-2023/05/06 11:04:21 br /tmp/work/source/js/third-party/search/local-search.min.js -> /output/third-party/search/local-search.min.js.br
-2023/05/06 11:04:21 gz /tmp/work/source/js/third-party/search/local-search.min.js -> /output/third-party/search/local-search.min.js.gz
-2023/05/06 11:04:21 sri /tmp/work/source/js/third-party/search/local-search.js -> /output/third-party/search/local-search.js.sri
-2023/05/06 11:04:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/search/local-search.js.br /tmp/work/source/js/third-party/search/local-search.js
-2023/05/06 11:04:21 br /tmp/work/source/js/third-party/tags/mermaid.min.js -> /output/third-party/tags/mermaid.min.js.br
-2023/05/06 11:04:21 gz /tmp/work/source/js/third-party/tags/mermaid.min.js -> /output/third-party/tags/mermaid.min.js.gz
-2023/05/06 11:04:21 sri /tmp/work/source/js/third-party/tags/mermaid.js -> /output/third-party/tags/mermaid.js.sri
-2023/05/06 11:04:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/tags/mermaid.js.br /tmp/work/source/js/third-party/tags/mermaid.js
-2023/05/06 11:04:21 br /tmp/work/source/js/third-party/tags/mermaid.js -> /output/third-party/tags/mermaid.js.br
-2023/05/06 11:04:21 gz /tmp/work/source/js/third-party/tags/mermaid.js -> /output/third-party/tags/mermaid.js.gz
-2023/05/06 11:04:21 br /tmp/work/source/js/third-party/search/local-search.js -> /output/third-party/search/local-search.js.br
-2023/05/06 11:04:21 gz /tmp/work/source/js/third-party/search/local-search.js -> /output/third-party/search/local-search.js.gz
-2023/05/06 11:04:21 sri /tmp/work/source/js/third-party/tags/pdf.min.js -> /output/third-party/tags/pdf.min.js.sri
-2023/05/06 11:04:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/tags/pdf.min.js.br /tmp/work/source/js/third-party/tags/pdf.min.js
-2023/05/06 11:04:21 br /tmp/work/source/js/third-party/tags/pdf.min.js -> /output/third-party/tags/pdf.min.js.br
-2023/05/06 11:04:21 gz /tmp/work/source/js/third-party/tags/pdf.min.js -> /output/third-party/tags/pdf.min.js.gz
-2023/05/06 11:04:21 sri /tmp/work/source/js/third-party/tags/pdf.js -> /output/third-party/tags/pdf.js.sri
-2023/05/06 11:04:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/tags/pdf.js.br /tmp/work/source/js/third-party/tags/pdf.js
-2023/05/06 11:04:21 br /tmp/work/source/js/third-party/tags/pdf.js -> /output/third-party/tags/pdf.js.br
-2023/05/06 11:04:21 gz /tmp/work/source/js/third-party/tags/pdf.js -> /output/third-party/tags/pdf.js.gz
-2023/05/06 11:04:21 sri /tmp/work/source/js/third-party/statistics/lean-analytics.min.js -> /output/third-party/statistics/lean-analytics.min.js.sri
-2023/05/06 11:04:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/statistics/lean-analytics.min.js.br /tmp/work/source/js/third-party/statistics/lean-analytics.min.js
-2023/05/06 11:04:21 br /tmp/work/source/js/third-party/statistics/lean-analytics.min.js -> /output/third-party/statistics/lean-analytics.min.js.br
-2023/05/06 11:04:21 gz /tmp/work/source/js/third-party/statistics/lean-analytics.min.js -> /output/third-party/statistics/lean-analytics.min.js.gz
-2023/05/06 11:04:21 sri /tmp/work/source/js/third-party/statistics/lean-analytics.js -> /output/third-party/statistics/lean-analytics.js.sri
-2023/05/06 11:04:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/statistics/lean-analytics.js.br /tmp/work/source/js/third-party/statistics/lean-analytics.js
-2023/05/06 11:04:21 br /tmp/work/source/js/third-party/statistics/lean-analytics.js -> /output/third-party/statistics/lean-analytics.js.br
-2023/05/06 11:04:21 gz /tmp/work/source/js/third-party/statistics/lean-analytics.js -> /output/third-party/statistics/lean-analytics.js.gz
-2023/05/06 11:04:21 sri /tmp/work/source/js/utils.min.js -> /output/utils.min.js.sri
-2023/05/06 11:04:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/utils.min.js.br /tmp/work/source/js/utils.min.js
-2023/05/06 11:04:21 br /tmp/work/source/js/utils.min.js -> /output/utils.min.js.br
-2023/05/06 11:04:21 gz /tmp/work/source/js/utils.min.js -> /output/utils.min.js.gz
-2023/05/06 11:04:21 sri /tmp/work/source/js/utils.js -> /output/utils.js.sri
-2023/05/06 11:04:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/utils.js.br /tmp/work/source/js/utils.js
-2023/05/06 11:04:21 br /tmp/work/source/js/utils.js -> /output/utils.js.br
-2023/05/06 11:04:21 gz /tmp/work/source/js/utils.js -> /output/utils.js.gz
-2023/05/06 11:04:21 processed hexo-theme-next
+2023/07/31 11:05:39 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/31 11:05:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/bookmark.min.js /tmp/work/source/js/bookmark.js
+2023/07/31 11:05:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/comments-buttons.min.js /tmp/work/source/js/comments-buttons.js
+2023/07/31 11:05:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/comments.min.js /tmp/work/source/js/comments.js
+2023/07/31 11:05:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/config.min.js /tmp/work/source/js/config.js
+2023/07/31 11:05:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/motion.min.js /tmp/work/source/js/motion.js
+2023/07/31 11:05:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/next-boot.min.js /tmp/work/source/js/next-boot.js
+2023/07/31 11:05:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/pjax.min.js /tmp/work/source/js/pjax.js
+2023/07/31 11:05:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/schedule.min.js /tmp/work/source/js/schedule.js
+2023/07/31 11:05:40 sri /tmp/work/source/js/pjax.min.js -> /output/pjax.min.js.sri
+2023/07/31 11:05:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pjax.min.js.br /tmp/work/source/js/pjax.min.js
+2023/07/31 11:05:40 sri /tmp/work/source/js/bookmark.min.js -> /output/bookmark.min.js.sri
+2023/07/31 11:05:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/bookmark.min.js.br /tmp/work/source/js/bookmark.min.js
+2023/07/31 11:05:40 br /tmp/work/source/js/pjax.min.js -> /output/pjax.min.js.br
+2023/07/31 11:05:40 sri /tmp/work/source/js/comments.min.js -> /output/comments.min.js.sri
+2023/07/31 11:05:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/comments.min.js.br /tmp/work/source/js/comments.min.js
+2023/07/31 11:05:40 gz /tmp/work/source/js/pjax.min.js -> /output/pjax.min.js.gz
+2023/07/31 11:05:40 sri /tmp/work/source/js/pjax.js -> /output/pjax.js.sri
+2023/07/31 11:05:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pjax.js.br /tmp/work/source/js/pjax.js
+2023/07/31 11:05:40 br /tmp/work/source/js/bookmark.min.js -> /output/bookmark.min.js.br
+2023/07/31 11:05:40 sri /tmp/work/source/js/comments-buttons.min.js -> /output/comments-buttons.min.js.sri
+2023/07/31 11:05:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/comments-buttons.min.js.br /tmp/work/source/js/comments-buttons.min.js
+2023/07/31 11:05:40 br /tmp/work/source/js/comments.min.js -> /output/comments.min.js.br
+2023/07/31 11:05:40 gz /tmp/work/source/js/bookmark.min.js -> /output/bookmark.min.js.gz
+2023/07/31 11:05:40 gz /tmp/work/source/js/comments.min.js -> /output/comments.min.js.gz
+2023/07/31 11:05:40 sri /tmp/work/source/js/comments.js -> /output/comments.js.sri
+2023/07/31 11:05:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/comments.js.br /tmp/work/source/js/comments.js
+2023/07/31 11:05:40 sri /tmp/work/source/js/bookmark.js -> /output/bookmark.js.sri
+2023/07/31 11:05:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/bookmark.js.br /tmp/work/source/js/bookmark.js
+2023/07/31 11:05:40 br /tmp/work/source/js/pjax.js -> /output/pjax.js.br
+2023/07/31 11:05:40 gz /tmp/work/source/js/pjax.js -> /output/pjax.js.gz
+2023/07/31 11:05:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/schemes/muse.min.js /tmp/work/source/js/schemes/muse.js
+2023/07/31 11:05:40 br /tmp/work/source/js/comments-buttons.min.js -> /output/comments-buttons.min.js.br
+2023/07/31 11:05:40 gz /tmp/work/source/js/comments-buttons.min.js -> /output/comments-buttons.min.js.gz
+2023/07/31 11:05:40 sri /tmp/work/source/js/comments-buttons.js -> /output/comments-buttons.js.sri
+2023/07/31 11:05:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/comments-buttons.js.br /tmp/work/source/js/comments-buttons.js
+2023/07/31 11:05:40 br /tmp/work/source/js/bookmark.js -> /output/bookmark.js.br
+2023/07/31 11:05:40 gz /tmp/work/source/js/bookmark.js -> /output/bookmark.js.gz
+2023/07/31 11:05:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/addtoany.min.js /tmp/work/source/js/third-party/addtoany.js
+2023/07/31 11:05:40 br /tmp/work/source/js/comments.js -> /output/comments.js.br
+2023/07/31 11:05:40 gz /tmp/work/source/js/comments.js -> /output/comments.js.gz
+2023/07/31 11:05:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/analytics/baidu-analytics.min.js /tmp/work/source/js/third-party/analytics/baidu-analytics.js
+2023/07/31 11:05:40 br /tmp/work/source/js/comments-buttons.js -> /output/comments-buttons.js.br
+2023/07/31 11:05:40 gz /tmp/work/source/js/comments-buttons.js -> /output/comments-buttons.js.gz
+2023/07/31 11:05:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/analytics/google-analytics.min.js /tmp/work/source/js/third-party/analytics/google-analytics.js
+2023/07/31 11:05:40 sri /tmp/work/source/js/config.min.js -> /output/config.min.js.sri
+2023/07/31 11:05:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/config.min.js.br /tmp/work/source/js/config.min.js
+2023/07/31 11:05:40 br /tmp/work/source/js/config.min.js -> /output/config.min.js.br
+2023/07/31 11:05:40 gz /tmp/work/source/js/config.min.js -> /output/config.min.js.gz
+2023/07/31 11:05:40 sri /tmp/work/source/js/config.js -> /output/config.js.sri
+2023/07/31 11:05:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/config.js.br /tmp/work/source/js/config.js
+2023/07/31 11:05:40 br /tmp/work/source/js/config.js -> /output/config.js.br
+2023/07/31 11:05:40 gz /tmp/work/source/js/config.js -> /output/config.js.gz
+2023/07/31 11:05:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/analytics/growingio.min.js /tmp/work/source/js/third-party/analytics/growingio.js
+2023/07/31 11:05:40 sri /tmp/work/source/js/motion.min.js -> /output/motion.min.js.sri
+2023/07/31 11:05:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/motion.min.js.br /tmp/work/source/js/motion.min.js
+2023/07/31 11:05:40 br /tmp/work/source/js/motion.min.js -> /output/motion.min.js.br
+2023/07/31 11:05:40 gz /tmp/work/source/js/motion.min.js -> /output/motion.min.js.gz
+2023/07/31 11:05:40 sri /tmp/work/source/js/motion.js -> /output/motion.js.sri
+2023/07/31 11:05:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/motion.js.br /tmp/work/source/js/motion.js
+2023/07/31 11:05:41 sri /tmp/work/source/js/next-boot.min.js -> /output/next-boot.min.js.sri
+2023/07/31 11:05:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-boot.min.js.br /tmp/work/source/js/next-boot.min.js
+2023/07/31 11:05:41 sri /tmp/work/source/js/schedule.min.js -> /output/schedule.min.js.sri
+2023/07/31 11:05:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schedule.min.js.br /tmp/work/source/js/schedule.min.js
+2023/07/31 11:05:41 br /tmp/work/source/js/next-boot.min.js -> /output/next-boot.min.js.br
+2023/07/31 11:05:41 gz /tmp/work/source/js/next-boot.min.js -> /output/next-boot.min.js.gz
+2023/07/31 11:05:41 sri /tmp/work/source/js/next-boot.js -> /output/next-boot.js.sri
+2023/07/31 11:05:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-boot.js.br /tmp/work/source/js/next-boot.js
+2023/07/31 11:05:41 br /tmp/work/source/js/motion.js -> /output/motion.js.br
+2023/07/31 11:05:41 gz /tmp/work/source/js/motion.js -> /output/motion.js.gz
+2023/07/31 11:05:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/analytics/matomo.min.js /tmp/work/source/js/third-party/analytics/matomo.js
+2023/07/31 11:05:41 br /tmp/work/source/js/schedule.min.js -> /output/schedule.min.js.br
+2023/07/31 11:05:41 gz /tmp/work/source/js/schedule.min.js -> /output/schedule.min.js.gz
+2023/07/31 11:05:41 sri /tmp/work/source/js/schedule.js -> /output/schedule.js.sri
+2023/07/31 11:05:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schedule.js.br /tmp/work/source/js/schedule.js
+2023/07/31 11:05:41 br /tmp/work/source/js/next-boot.js -> /output/next-boot.js.br
+2023/07/31 11:05:41 gz /tmp/work/source/js/next-boot.js -> /output/next-boot.js.gz
+2023/07/31 11:05:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/chat/chatra.min.js /tmp/work/source/js/third-party/chat/chatra.js
+2023/07/31 11:05:41 br /tmp/work/source/js/schedule.js -> /output/schedule.js.br
+2023/07/31 11:05:41 gz /tmp/work/source/js/schedule.js -> /output/schedule.js.gz
+2023/07/31 11:05:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/chat/gitter.min.js /tmp/work/source/js/third-party/chat/gitter.js
+2023/07/31 11:05:41 sri /tmp/work/source/js/third-party/addtoany.min.js -> /output/third-party/addtoany.min.js.sri
+2023/07/31 11:05:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/addtoany.min.js.br /tmp/work/source/js/third-party/addtoany.min.js
+2023/07/31 11:05:41 sri /tmp/work/source/js/third-party/analytics/baidu-analytics.min.js -> /output/third-party/analytics/baidu-analytics.min.js.sri
+2023/07/31 11:05:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/analytics/baidu-analytics.min.js.br /tmp/work/source/js/third-party/analytics/baidu-analytics.min.js
+2023/07/31 11:05:41 br /tmp/work/source/js/third-party/analytics/baidu-analytics.min.js -> /output/third-party/analytics/baidu-analytics.min.js.br
+2023/07/31 11:05:41 gz /tmp/work/source/js/third-party/analytics/baidu-analytics.min.js -> /output/third-party/analytics/baidu-analytics.min.js.gz
+2023/07/31 11:05:41 sri /tmp/work/source/js/third-party/analytics/baidu-analytics.js -> /output/third-party/analytics/baidu-analytics.js.sri
+2023/07/31 11:05:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/analytics/baidu-analytics.js.br /tmp/work/source/js/third-party/analytics/baidu-analytics.js
+2023/07/31 11:05:41 br /tmp/work/source/js/third-party/addtoany.min.js -> /output/third-party/addtoany.min.js.br
+2023/07/31 11:05:41 gz /tmp/work/source/js/third-party/addtoany.min.js -> /output/third-party/addtoany.min.js.gz
+2023/07/31 11:05:41 sri /tmp/work/source/js/third-party/addtoany.js -> /output/third-party/addtoany.js.sri
+2023/07/31 11:05:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/addtoany.js.br /tmp/work/source/js/third-party/addtoany.js
+2023/07/31 11:05:41 br /tmp/work/source/js/third-party/analytics/baidu-analytics.js -> /output/third-party/analytics/baidu-analytics.js.br
+2023/07/31 11:05:41 gz /tmp/work/source/js/third-party/analytics/baidu-analytics.js -> /output/third-party/analytics/baidu-analytics.js.gz
+2023/07/31 11:05:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/chat/tidio.min.js /tmp/work/source/js/third-party/chat/tidio.js
+2023/07/31 11:05:41 br /tmp/work/source/js/third-party/addtoany.js -> /output/third-party/addtoany.js.br
+2023/07/31 11:05:41 gz /tmp/work/source/js/third-party/addtoany.js -> /output/third-party/addtoany.js.gz
+2023/07/31 11:05:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/comments/changyan.min.js /tmp/work/source/js/third-party/comments/changyan.js
+2023/07/31 11:05:41 sri /tmp/work/source/js/third-party/analytics/growingio.min.js -> /output/third-party/analytics/growingio.min.js.sri
+2023/07/31 11:05:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/analytics/growingio.min.js.br /tmp/work/source/js/third-party/analytics/growingio.min.js
+2023/07/31 11:05:41 sri /tmp/work/source/js/third-party/analytics/matomo.min.js -> /output/third-party/analytics/matomo.min.js.sri
+2023/07/31 11:05:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/analytics/matomo.min.js.br /tmp/work/source/js/third-party/analytics/matomo.min.js
+2023/07/31 11:05:41 br /tmp/work/source/js/third-party/analytics/growingio.min.js -> /output/third-party/analytics/growingio.min.js.br
+2023/07/31 11:05:41 gz /tmp/work/source/js/third-party/analytics/growingio.min.js -> /output/third-party/analytics/growingio.min.js.gz
+2023/07/31 11:05:41 sri /tmp/work/source/js/third-party/analytics/growingio.js -> /output/third-party/analytics/growingio.js.sri
+2023/07/31 11:05:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/analytics/growingio.js.br /tmp/work/source/js/third-party/analytics/growingio.js
+2023/07/31 11:05:41 br /tmp/work/source/js/third-party/analytics/matomo.min.js -> /output/third-party/analytics/matomo.min.js.br
+2023/07/31 11:05:41 gz /tmp/work/source/js/third-party/analytics/matomo.min.js -> /output/third-party/analytics/matomo.min.js.gz
+2023/07/31 11:05:41 sri /tmp/work/source/js/third-party/analytics/matomo.js -> /output/third-party/analytics/matomo.js.sri
+2023/07/31 11:05:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/analytics/matomo.js.br /tmp/work/source/js/third-party/analytics/matomo.js
+2023/07/31 11:05:41 br /tmp/work/source/js/third-party/analytics/growingio.js -> /output/third-party/analytics/growingio.js.br
+2023/07/31 11:05:41 gz /tmp/work/source/js/third-party/analytics/growingio.js -> /output/third-party/analytics/growingio.js.gz
+2023/07/31 11:05:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/comments/disqus.min.js /tmp/work/source/js/third-party/comments/disqus.js
+2023/07/31 11:05:42 br /tmp/work/source/js/third-party/analytics/matomo.js -> /output/third-party/analytics/matomo.js.br
+2023/07/31 11:05:42 gz /tmp/work/source/js/third-party/analytics/matomo.js -> /output/third-party/analytics/matomo.js.gz
+2023/07/31 11:05:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/comments/disqusjs.min.js /tmp/work/source/js/third-party/comments/disqusjs.js
+2023/07/31 11:05:42 sri /tmp/work/source/js/third-party/chat/gitter.min.js -> /output/third-party/chat/gitter.min.js.sri
+2023/07/31 11:05:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/chat/gitter.min.js.br /tmp/work/source/js/third-party/chat/gitter.min.js
+2023/07/31 11:05:42 br /tmp/work/source/js/third-party/chat/gitter.min.js -> /output/third-party/chat/gitter.min.js.br
+2023/07/31 11:05:42 gz /tmp/work/source/js/third-party/chat/gitter.min.js -> /output/third-party/chat/gitter.min.js.gz
+2023/07/31 11:05:42 sri /tmp/work/source/js/third-party/chat/gitter.js -> /output/third-party/chat/gitter.js.sri
+2023/07/31 11:05:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/chat/gitter.js.br /tmp/work/source/js/third-party/chat/gitter.js
+2023/07/31 11:05:42 br /tmp/work/source/js/third-party/chat/gitter.js -> /output/third-party/chat/gitter.js.br
+2023/07/31 11:05:42 sri /tmp/work/source/js/schemes/muse.min.js -> /output/schemes/muse.min.js.sri
+2023/07/31 11:05:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schemes/muse.min.js.br /tmp/work/source/js/schemes/muse.min.js
+2023/07/31 11:05:42 gz /tmp/work/source/js/third-party/chat/gitter.js -> /output/third-party/chat/gitter.js.gz
+2023/07/31 11:05:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/comments/gitalk.min.js /tmp/work/source/js/third-party/comments/gitalk.js
+2023/07/31 11:05:42 sri /tmp/work/source/js/third-party/analytics/google-analytics.min.js -> /output/third-party/analytics/google-analytics.min.js.sri
+2023/07/31 11:05:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/analytics/google-analytics.min.js.br /tmp/work/source/js/third-party/analytics/google-analytics.min.js
+2023/07/31 11:05:42 br /tmp/work/source/js/schemes/muse.min.js -> /output/schemes/muse.min.js.br
+2023/07/31 11:05:42 sri /tmp/work/source/js/third-party/chat/chatra.min.js -> /output/third-party/chat/chatra.min.js.sri
+2023/07/31 11:05:42 gz /tmp/work/source/js/schemes/muse.min.js -> /output/schemes/muse.min.js.gz
+2023/07/31 11:05:42 sri /tmp/work/source/js/schemes/muse.js -> /output/schemes/muse.js.sri
+2023/07/31 11:05:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schemes/muse.js.br /tmp/work/source/js/schemes/muse.js
+2023/07/31 11:05:42 br /tmp/work/source/js/third-party/analytics/google-analytics.min.js -> /output/third-party/analytics/google-analytics.min.js.br
+2023/07/31 11:05:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/chat/chatra.min.js.br /tmp/work/source/js/third-party/chat/chatra.min.js
+2023/07/31 11:05:42 gz /tmp/work/source/js/third-party/analytics/google-analytics.min.js -> /output/third-party/analytics/google-analytics.min.js.gz
+2023/07/31 11:05:42 sri /tmp/work/source/js/third-party/analytics/google-analytics.js -> /output/third-party/analytics/google-analytics.js.sri
+2023/07/31 11:05:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/analytics/google-analytics.js.br /tmp/work/source/js/third-party/analytics/google-analytics.js
+2023/07/31 11:05:42 br /tmp/work/source/js/third-party/chat/chatra.min.js -> /output/third-party/chat/chatra.min.js.br
+2023/07/31 11:05:42 gz /tmp/work/source/js/third-party/chat/chatra.min.js -> /output/third-party/chat/chatra.min.js.gz
+2023/07/31 11:05:42 sri /tmp/work/source/js/third-party/chat/chatra.js -> /output/third-party/chat/chatra.js.sri
+2023/07/31 11:05:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/chat/chatra.js.br /tmp/work/source/js/third-party/chat/chatra.js
+2023/07/31 11:05:42 br /tmp/work/source/js/schemes/muse.js -> /output/schemes/muse.js.br
+2023/07/31 11:05:42 gz /tmp/work/source/js/schemes/muse.js -> /output/schemes/muse.js.gz
+2023/07/31 11:05:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/comments/isso.min.js /tmp/work/source/js/third-party/comments/isso.js
+2023/07/31 11:05:42 br /tmp/work/source/js/third-party/analytics/google-analytics.js -> /output/third-party/analytics/google-analytics.js.br
+2023/07/31 11:05:42 gz /tmp/work/source/js/third-party/analytics/google-analytics.js -> /output/third-party/analytics/google-analytics.js.gz
+2023/07/31 11:05:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/comments/livere.min.js /tmp/work/source/js/third-party/comments/livere.js
+2023/07/31 11:05:42 br /tmp/work/source/js/third-party/chat/chatra.js -> /output/third-party/chat/chatra.js.br
+2023/07/31 11:05:42 gz /tmp/work/source/js/third-party/chat/chatra.js -> /output/third-party/chat/chatra.js.gz
+2023/07/31 11:05:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/comments/utterances.min.js /tmp/work/source/js/third-party/comments/utterances.js
+2023/07/31 11:05:42 sri /tmp/work/source/js/third-party/chat/tidio.min.js -> /output/third-party/chat/tidio.min.js.sri
+2023/07/31 11:05:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/chat/tidio.min.js.br /tmp/work/source/js/third-party/chat/tidio.min.js
+2023/07/31 11:05:42 br /tmp/work/source/js/third-party/chat/tidio.min.js -> /output/third-party/chat/tidio.min.js.br
+2023/07/31 11:05:42 gz /tmp/work/source/js/third-party/chat/tidio.min.js -> /output/third-party/chat/tidio.min.js.gz
+2023/07/31 11:05:42 sri /tmp/work/source/js/third-party/chat/tidio.js -> /output/third-party/chat/tidio.js.sri
+2023/07/31 11:05:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/chat/tidio.js.br /tmp/work/source/js/third-party/chat/tidio.js
+2023/07/31 11:05:42 br /tmp/work/source/js/third-party/chat/tidio.js -> /output/third-party/chat/tidio.js.br
+2023/07/31 11:05:42 gz /tmp/work/source/js/third-party/chat/tidio.js -> /output/third-party/chat/tidio.js.gz
+2023/07/31 11:05:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/fancybox.min.js /tmp/work/source/js/third-party/fancybox.js
+2023/07/31 11:05:42 sri /tmp/work/source/js/third-party/comments/changyan.min.js -> /output/third-party/comments/changyan.min.js.sri
+2023/07/31 11:05:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/changyan.min.js.br /tmp/work/source/js/third-party/comments/changyan.min.js
+2023/07/31 11:05:42 br /tmp/work/source/js/third-party/comments/changyan.min.js -> /output/third-party/comments/changyan.min.js.br
+2023/07/31 11:05:42 gz /tmp/work/source/js/third-party/comments/changyan.min.js -> /output/third-party/comments/changyan.min.js.gz
+2023/07/31 11:05:42 sri /tmp/work/source/js/third-party/comments/changyan.js -> /output/third-party/comments/changyan.js.sri
+2023/07/31 11:05:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/changyan.js.br /tmp/work/source/js/third-party/comments/changyan.js
+2023/07/31 11:05:42 br /tmp/work/source/js/third-party/comments/changyan.js -> /output/third-party/comments/changyan.js.br
+2023/07/31 11:05:42 gz /tmp/work/source/js/third-party/comments/changyan.js -> /output/third-party/comments/changyan.js.gz
+2023/07/31 11:05:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/math/katex.min.js /tmp/work/source/js/third-party/math/katex.js
+2023/07/31 11:05:43 sri /tmp/work/source/js/third-party/comments/disqus.min.js -> /output/third-party/comments/disqus.min.js.sri
+2023/07/31 11:05:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/disqus.min.js.br /tmp/work/source/js/third-party/comments/disqus.min.js
+2023/07/31 11:05:43 br /tmp/work/source/js/third-party/comments/disqus.min.js -> /output/third-party/comments/disqus.min.js.br
+2023/07/31 11:05:43 gz /tmp/work/source/js/third-party/comments/disqus.min.js -> /output/third-party/comments/disqus.min.js.gz
+2023/07/31 11:05:43 sri /tmp/work/source/js/third-party/comments/disqus.js -> /output/third-party/comments/disqus.js.sri
+2023/07/31 11:05:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/disqus.js.br /tmp/work/source/js/third-party/comments/disqus.js
+2023/07/31 11:05:43 br /tmp/work/source/js/third-party/comments/disqus.js -> /output/third-party/comments/disqus.js.br
+2023/07/31 11:05:43 gz /tmp/work/source/js/third-party/comments/disqus.js -> /output/third-party/comments/disqus.js.gz
+2023/07/31 11:05:43 sri /tmp/work/source/js/third-party/comments/utterances.min.js -> /output/third-party/comments/utterances.min.js.sri
+2023/07/31 11:05:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/utterances.min.js.br /tmp/work/source/js/third-party/comments/utterances.min.js
+2023/07/31 11:05:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/math/mathjax.min.js /tmp/work/source/js/third-party/math/mathjax.js
+2023/07/31 11:05:43 sri /tmp/work/source/js/third-party/comments/disqusjs.min.js -> /output/third-party/comments/disqusjs.min.js.sri
+2023/07/31 11:05:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/disqusjs.min.js.br /tmp/work/source/js/third-party/comments/disqusjs.min.js
+2023/07/31 11:05:43 br /tmp/work/source/js/third-party/comments/utterances.min.js -> /output/third-party/comments/utterances.min.js.br
+2023/07/31 11:05:43 gz /tmp/work/source/js/third-party/comments/utterances.min.js -> /output/third-party/comments/utterances.min.js.gz
+2023/07/31 11:05:43 sri /tmp/work/source/js/third-party/comments/utterances.js -> /output/third-party/comments/utterances.js.sri
+2023/07/31 11:05:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/utterances.js.br /tmp/work/source/js/third-party/comments/utterances.js
+2023/07/31 11:05:43 br /tmp/work/source/js/third-party/comments/disqusjs.min.js -> /output/third-party/comments/disqusjs.min.js.br
+2023/07/31 11:05:43 gz /tmp/work/source/js/third-party/comments/disqusjs.min.js -> /output/third-party/comments/disqusjs.min.js.gz
+2023/07/31 11:05:43 sri /tmp/work/source/js/third-party/comments/disqusjs.js -> /output/third-party/comments/disqusjs.js.sri
+2023/07/31 11:05:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/disqusjs.js.br /tmp/work/source/js/third-party/comments/disqusjs.js
+2023/07/31 11:05:43 br /tmp/work/source/js/third-party/comments/utterances.js -> /output/third-party/comments/utterances.js.br
+2023/07/31 11:05:43 gz /tmp/work/source/js/third-party/comments/utterances.js -> /output/third-party/comments/utterances.js.gz
+2023/07/31 11:05:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/pace.min.js /tmp/work/source/js/third-party/pace.js
+2023/07/31 11:05:43 br /tmp/work/source/js/third-party/comments/disqusjs.js -> /output/third-party/comments/disqusjs.js.br
+2023/07/31 11:05:43 gz /tmp/work/source/js/third-party/comments/disqusjs.js -> /output/third-party/comments/disqusjs.js.gz
+2023/07/31 11:05:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/quicklink.min.js /tmp/work/source/js/third-party/quicklink.js
+2023/07/31 11:05:43 sri /tmp/work/source/js/third-party/comments/gitalk.min.js -> /output/third-party/comments/gitalk.min.js.sri
+2023/07/31 11:05:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/gitalk.min.js.br /tmp/work/source/js/third-party/comments/gitalk.min.js
+2023/07/31 11:05:43 sri /tmp/work/source/js/third-party/comments/isso.min.js -> /output/third-party/comments/isso.min.js.sri
+2023/07/31 11:05:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/isso.min.js.br /tmp/work/source/js/third-party/comments/isso.min.js
+2023/07/31 11:05:43 br /tmp/work/source/js/third-party/comments/gitalk.min.js -> /output/third-party/comments/gitalk.min.js.br
+2023/07/31 11:05:43 gz /tmp/work/source/js/third-party/comments/gitalk.min.js -> /output/third-party/comments/gitalk.min.js.gz
+2023/07/31 11:05:43 sri /tmp/work/source/js/third-party/comments/gitalk.js -> /output/third-party/comments/gitalk.js.sri
+2023/07/31 11:05:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/gitalk.js.br /tmp/work/source/js/third-party/comments/gitalk.js
+2023/07/31 11:05:43 br /tmp/work/source/js/third-party/comments/isso.min.js -> /output/third-party/comments/isso.min.js.br
+2023/07/31 11:05:43 gz /tmp/work/source/js/third-party/comments/isso.min.js -> /output/third-party/comments/isso.min.js.gz
+2023/07/31 11:05:43 sri /tmp/work/source/js/third-party/comments/isso.js -> /output/third-party/comments/isso.js.sri
+2023/07/31 11:05:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/isso.js.br /tmp/work/source/js/third-party/comments/isso.js
+2023/07/31 11:05:43 br /tmp/work/source/js/third-party/comments/gitalk.js -> /output/third-party/comments/gitalk.js.br
+2023/07/31 11:05:43 gz /tmp/work/source/js/third-party/comments/gitalk.js -> /output/third-party/comments/gitalk.js.gz
+2023/07/31 11:05:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/search/algolia-search.min.js /tmp/work/source/js/third-party/search/algolia-search.js
+2023/07/31 11:05:43 br /tmp/work/source/js/third-party/comments/isso.js -> /output/third-party/comments/isso.js.br
+2023/07/31 11:05:43 gz /tmp/work/source/js/third-party/comments/isso.js -> /output/third-party/comments/isso.js.gz
+2023/07/31 11:05:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/search/local-search.min.js /tmp/work/source/js/third-party/search/local-search.js
+2023/07/31 11:05:43 sri /tmp/work/source/js/third-party/comments/livere.min.js -> /output/third-party/comments/livere.min.js.sri
+2023/07/31 11:05:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/livere.min.js.br /tmp/work/source/js/third-party/comments/livere.min.js
+2023/07/31 11:05:43 br /tmp/work/source/js/third-party/comments/livere.min.js -> /output/third-party/comments/livere.min.js.br
+2023/07/31 11:05:43 gz /tmp/work/source/js/third-party/comments/livere.min.js -> /output/third-party/comments/livere.min.js.gz
+2023/07/31 11:05:43 sri /tmp/work/source/js/third-party/comments/livere.js -> /output/third-party/comments/livere.js.sri
+2023/07/31 11:05:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/comments/livere.js.br /tmp/work/source/js/third-party/comments/livere.js
+2023/07/31 11:05:43 br /tmp/work/source/js/third-party/comments/livere.js -> /output/third-party/comments/livere.js.br
+2023/07/31 11:05:43 gz /tmp/work/source/js/third-party/comments/livere.js -> /output/third-party/comments/livere.js.gz
+2023/07/31 11:05:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/statistics/firestore.min.js /tmp/work/source/js/third-party/statistics/firestore.js
+2023/07/31 11:05:43 sri /tmp/work/source/js/third-party/fancybox.min.js -> /output/third-party/fancybox.min.js.sri
+2023/07/31 11:05:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/fancybox.min.js.br /tmp/work/source/js/third-party/fancybox.min.js
+2023/07/31 11:05:43 br /tmp/work/source/js/third-party/fancybox.min.js -> /output/third-party/fancybox.min.js.br
+2023/07/31 11:05:43 gz /tmp/work/source/js/third-party/fancybox.min.js -> /output/third-party/fancybox.min.js.gz
+2023/07/31 11:05:43 sri /tmp/work/source/js/third-party/fancybox.js -> /output/third-party/fancybox.js.sri
+2023/07/31 11:05:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/fancybox.js.br /tmp/work/source/js/third-party/fancybox.js
+2023/07/31 11:05:43 br /tmp/work/source/js/third-party/fancybox.js -> /output/third-party/fancybox.js.br
+2023/07/31 11:05:43 gz /tmp/work/source/js/third-party/fancybox.js -> /output/third-party/fancybox.js.gz
+2023/07/31 11:05:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/statistics/lean-analytics.min.js /tmp/work/source/js/third-party/statistics/lean-analytics.js
+2023/07/31 11:05:43 sri /tmp/work/source/js/third-party/math/katex.min.js -> /output/third-party/math/katex.min.js.sri
+2023/07/31 11:05:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/math/katex.min.js.br /tmp/work/source/js/third-party/math/katex.min.js
+2023/07/31 11:05:43 br /tmp/work/source/js/third-party/math/katex.min.js -> /output/third-party/math/katex.min.js.br
+2023/07/31 11:05:43 gz /tmp/work/source/js/third-party/math/katex.min.js -> /output/third-party/math/katex.min.js.gz
+2023/07/31 11:05:43 sri /tmp/work/source/js/third-party/math/katex.js -> /output/third-party/math/katex.js.sri
+2023/07/31 11:05:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/math/katex.js.br /tmp/work/source/js/third-party/math/katex.js
+2023/07/31 11:05:43 br /tmp/work/source/js/third-party/math/katex.js -> /output/third-party/math/katex.js.br
+2023/07/31 11:05:43 gz /tmp/work/source/js/third-party/math/katex.js -> /output/third-party/math/katex.js.gz
+2023/07/31 11:05:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/tags/mermaid.min.js /tmp/work/source/js/third-party/tags/mermaid.js
+2023/07/31 11:05:44 sri /tmp/work/source/js/third-party/pace.min.js -> /output/third-party/pace.min.js.sri
+2023/07/31 11:05:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/pace.min.js.br /tmp/work/source/js/third-party/pace.min.js
+2023/07/31 11:05:44 br /tmp/work/source/js/third-party/pace.min.js -> /output/third-party/pace.min.js.br
+2023/07/31 11:05:44 sri /tmp/work/source/js/third-party/math/mathjax.min.js -> /output/third-party/math/mathjax.min.js.sri
+2023/07/31 11:05:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/math/mathjax.min.js.br /tmp/work/source/js/third-party/math/mathjax.min.js
+2023/07/31 11:05:44 gz /tmp/work/source/js/third-party/pace.min.js -> /output/third-party/pace.min.js.gz
+2023/07/31 11:05:44 sri /tmp/work/source/js/third-party/pace.js -> /output/third-party/pace.js.sri
+2023/07/31 11:05:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/pace.js.br /tmp/work/source/js/third-party/pace.js
+2023/07/31 11:05:44 br /tmp/work/source/js/third-party/math/mathjax.min.js -> /output/third-party/math/mathjax.min.js.br
+2023/07/31 11:05:44 gz /tmp/work/source/js/third-party/math/mathjax.min.js -> /output/third-party/math/mathjax.min.js.gz
+2023/07/31 11:05:44 sri /tmp/work/source/js/third-party/math/mathjax.js -> /output/third-party/math/mathjax.js.sri
+2023/07/31 11:05:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/math/mathjax.js.br /tmp/work/source/js/third-party/math/mathjax.js
+2023/07/31 11:05:44 br /tmp/work/source/js/third-party/pace.js -> /output/third-party/pace.js.br
+2023/07/31 11:05:44 gz /tmp/work/source/js/third-party/pace.js -> /output/third-party/pace.js.gz
+2023/07/31 11:05:44 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/third-party/tags/pdf.min.js /tmp/work/source/js/third-party/tags/pdf.js
+2023/07/31 11:05:44 br /tmp/work/source/js/third-party/math/mathjax.js -> /output/third-party/math/mathjax.js.br
+2023/07/31 11:05:44 gz /tmp/work/source/js/third-party/math/mathjax.js -> /output/third-party/math/mathjax.js.gz
+2023/07/31 11:05:44 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/source/js/utils.min.js /tmp/work/source/js/utils.js
+2023/07/31 11:05:44 sri /tmp/work/source/js/third-party/quicklink.min.js -> /output/third-party/quicklink.min.js.sri
+2023/07/31 11:05:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/quicklink.min.js.br /tmp/work/source/js/third-party/quicklink.min.js
+2023/07/31 11:05:44 br /tmp/work/source/js/third-party/quicklink.min.js -> /output/third-party/quicklink.min.js.br
+2023/07/31 11:05:44 gz /tmp/work/source/js/third-party/quicklink.min.js -> /output/third-party/quicklink.min.js.gz
+2023/07/31 11:05:44 sri /tmp/work/source/js/third-party/quicklink.js -> /output/third-party/quicklink.js.sri
+2023/07/31 11:05:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/quicklink.js.br /tmp/work/source/js/third-party/quicklink.js
+2023/07/31 11:05:44 br /tmp/work/source/js/third-party/quicklink.js -> /output/third-party/quicklink.js.br
+2023/07/31 11:05:44 gz /tmp/work/source/js/third-party/quicklink.js -> /output/third-party/quicklink.js.gz
+2023/07/31 11:05:44 sri /tmp/work/source/js/third-party/search/algolia-search.min.js -> /output/third-party/search/algolia-search.min.js.sri
+2023/07/31 11:05:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/search/algolia-search.min.js.br /tmp/work/source/js/third-party/search/algolia-search.min.js
+2023/07/31 11:05:44 br /tmp/work/source/js/third-party/search/algolia-search.min.js -> /output/third-party/search/algolia-search.min.js.br
+2023/07/31 11:05:44 gz /tmp/work/source/js/third-party/search/algolia-search.min.js -> /output/third-party/search/algolia-search.min.js.gz
+2023/07/31 11:05:44 sri /tmp/work/source/js/third-party/search/algolia-search.js -> /output/third-party/search/algolia-search.js.sri
+2023/07/31 11:05:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/search/algolia-search.js.br /tmp/work/source/js/third-party/search/algolia-search.js
+2023/07/31 11:05:44 br /tmp/work/source/js/third-party/search/algolia-search.js -> /output/third-party/search/algolia-search.js.br
+2023/07/31 11:05:44 gz /tmp/work/source/js/third-party/search/algolia-search.js -> /output/third-party/search/algolia-search.js.gz
+2023/07/31 11:05:44 sri /tmp/work/source/js/third-party/search/local-search.min.js -> /output/third-party/search/local-search.min.js.sri
+2023/07/31 11:05:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/search/local-search.min.js.br /tmp/work/source/js/third-party/search/local-search.min.js
+2023/07/31 11:05:44 sri /tmp/work/source/js/third-party/tags/pdf.min.js -> /output/third-party/tags/pdf.min.js.sri
+2023/07/31 11:05:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/tags/pdf.min.js.br /tmp/work/source/js/third-party/tags/pdf.min.js
+2023/07/31 11:05:44 sri /tmp/work/source/js/third-party/statistics/firestore.min.js -> /output/third-party/statistics/firestore.min.js.sri
+2023/07/31 11:05:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/statistics/firestore.min.js.br /tmp/work/source/js/third-party/statistics/firestore.min.js
+2023/07/31 11:05:44 br /tmp/work/source/js/third-party/search/local-search.min.js -> /output/third-party/search/local-search.min.js.br
+2023/07/31 11:05:44 gz /tmp/work/source/js/third-party/search/local-search.min.js -> /output/third-party/search/local-search.min.js.gz
+2023/07/31 11:05:44 sri /tmp/work/source/js/third-party/search/local-search.js -> /output/third-party/search/local-search.js.sri
+2023/07/31 11:05:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/search/local-search.js.br /tmp/work/source/js/third-party/search/local-search.js
+2023/07/31 11:05:44 br /tmp/work/source/js/third-party/statistics/firestore.min.js -> /output/third-party/statistics/firestore.min.js.br
+2023/07/31 11:05:44 gz /tmp/work/source/js/third-party/statistics/firestore.min.js -> /output/third-party/statistics/firestore.min.js.gz
+2023/07/31 11:05:44 sri /tmp/work/source/js/third-party/statistics/firestore.js -> /output/third-party/statistics/firestore.js.sri
+2023/07/31 11:05:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/statistics/firestore.js.br /tmp/work/source/js/third-party/statistics/firestore.js
+2023/07/31 11:05:44 br /tmp/work/source/js/third-party/tags/pdf.min.js -> /output/third-party/tags/pdf.min.js.br
+2023/07/31 11:05:44 gz /tmp/work/source/js/third-party/tags/pdf.min.js -> /output/third-party/tags/pdf.min.js.gz
+2023/07/31 11:05:44 sri /tmp/work/source/js/third-party/tags/pdf.js -> /output/third-party/tags/pdf.js.sri
+2023/07/31 11:05:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/tags/pdf.js.br /tmp/work/source/js/third-party/tags/pdf.js
+2023/07/31 11:05:44 br /tmp/work/source/js/third-party/statistics/firestore.js -> /output/third-party/statistics/firestore.js.br
+2023/07/31 11:05:44 gz /tmp/work/source/js/third-party/statistics/firestore.js -> /output/third-party/statistics/firestore.js.gz
+2023/07/31 11:05:44 br /tmp/work/source/js/third-party/tags/pdf.js -> /output/third-party/tags/pdf.js.br
+2023/07/31 11:05:44 gz /tmp/work/source/js/third-party/tags/pdf.js -> /output/third-party/tags/pdf.js.gz
+2023/07/31 11:05:44 br /tmp/work/source/js/third-party/search/local-search.js -> /output/third-party/search/local-search.js.br
+2023/07/31 11:05:44 gz /tmp/work/source/js/third-party/search/local-search.js -> /output/third-party/search/local-search.js.gz
+2023/07/31 11:05:44 sri /tmp/work/source/js/third-party/statistics/lean-analytics.min.js -> /output/third-party/statistics/lean-analytics.min.js.sri
+2023/07/31 11:05:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/statistics/lean-analytics.min.js.br /tmp/work/source/js/third-party/statistics/lean-analytics.min.js
+2023/07/31 11:05:44 br /tmp/work/source/js/third-party/statistics/lean-analytics.min.js -> /output/third-party/statistics/lean-analytics.min.js.br
+2023/07/31 11:05:44 gz /tmp/work/source/js/third-party/statistics/lean-analytics.min.js -> /output/third-party/statistics/lean-analytics.min.js.gz
+2023/07/31 11:05:44 sri /tmp/work/source/js/third-party/statistics/lean-analytics.js -> /output/third-party/statistics/lean-analytics.js.sri
+2023/07/31 11:05:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/statistics/lean-analytics.js.br /tmp/work/source/js/third-party/statistics/lean-analytics.js
+2023/07/31 11:05:44 br /tmp/work/source/js/third-party/statistics/lean-analytics.js -> /output/third-party/statistics/lean-analytics.js.br
+2023/07/31 11:05:44 gz /tmp/work/source/js/third-party/statistics/lean-analytics.js -> /output/third-party/statistics/lean-analytics.js.gz
+2023/07/31 11:05:44 sri /tmp/work/source/js/third-party/tags/mermaid.min.js -> /output/third-party/tags/mermaid.min.js.sri
+2023/07/31 11:05:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/tags/mermaid.min.js.br /tmp/work/source/js/third-party/tags/mermaid.min.js
+2023/07/31 11:05:44 br /tmp/work/source/js/third-party/tags/mermaid.min.js -> /output/third-party/tags/mermaid.min.js.br
+2023/07/31 11:05:44 gz /tmp/work/source/js/third-party/tags/mermaid.min.js -> /output/third-party/tags/mermaid.min.js.gz
+2023/07/31 11:05:44 sri /tmp/work/source/js/third-party/tags/mermaid.js -> /output/third-party/tags/mermaid.js.sri
+2023/07/31 11:05:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/third-party/tags/mermaid.js.br /tmp/work/source/js/third-party/tags/mermaid.js
+2023/07/31 11:05:44 br /tmp/work/source/js/third-party/tags/mermaid.js -> /output/third-party/tags/mermaid.js.br
+2023/07/31 11:05:44 gz /tmp/work/source/js/third-party/tags/mermaid.js -> /output/third-party/tags/mermaid.js.gz
+2023/07/31 11:05:45 sri /tmp/work/source/js/utils.min.js -> /output/utils.min.js.sri
+2023/07/31 11:05:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/utils.min.js.br /tmp/work/source/js/utils.min.js
+2023/07/31 11:05:45 br /tmp/work/source/js/utils.min.js -> /output/utils.min.js.br
+2023/07/31 11:05:45 gz /tmp/work/source/js/utils.min.js -> /output/utils.min.js.gz
+2023/07/31 11:05:45 sri /tmp/work/source/js/utils.js -> /output/utils.js.sri
+2023/07/31 11:05:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/utils.js.br /tmp/work/source/js/utils.js
+2023/07/31 11:05:45 br /tmp/work/source/js/utils.js -> /output/utils.js.br
+2023/07/31 11:05:45 gz /tmp/work/source/js/utils.js -> /output/utils.js.gz
+2023/07/31 11:05:45 processed hexo-theme-next
