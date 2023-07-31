@@ -1,41 +1,41 @@
-2023/04/23 12:08:55 optimizing files (Js true, Css true, Png true, Jpg true)
-2023/04/23 12:08:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/tween.cjs.min.js /tmp/work/dist/tween.cjs.js
-2023/04/23 12:08:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/tween.amd.min.js /tmp/work/dist/tween.amd.js
-2023/04/23 12:08:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/tween.esm.min.js /tmp/work/dist/tween.esm.js
-2023/04/23 12:08:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/tween.umd.min.js /tmp/work/dist/tween.umd.js
-2023/04/23 12:08:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tween.d.ts.br /tmp/work/dist/tween.d.ts
-2023/04/23 12:08:55 br /tmp/work/dist/tween.d.ts -> /output/tween.d.ts.br
-2023/04/23 12:08:55 gz /tmp/work/dist/tween.d.ts -> /output/tween.d.ts.gz
-2023/04/23 12:08:56 sri /tmp/work/dist/tween.esm.min.js -> /output/tween.esm.min.js.sri
-2023/04/23 12:08:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tween.esm.min.js.br /tmp/work/dist/tween.esm.min.js
-2023/04/23 12:08:56 sri /tmp/work/dist/tween.cjs.min.js -> /output/tween.cjs.min.js.sri
-2023/04/23 12:08:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tween.cjs.min.js.br /tmp/work/dist/tween.cjs.min.js
-2023/04/23 12:08:56 br /tmp/work/dist/tween.esm.min.js -> /output/tween.esm.min.js.br
-2023/04/23 12:08:56 gz /tmp/work/dist/tween.esm.min.js -> /output/tween.esm.min.js.gz
-2023/04/23 12:08:56 sri /tmp/work/dist/tween.esm.js -> /output/tween.esm.js.sri
-2023/04/23 12:08:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tween.esm.js.br /tmp/work/dist/tween.esm.js
-2023/04/23 12:08:56 br /tmp/work/dist/tween.cjs.min.js -> /output/tween.cjs.min.js.br
-2023/04/23 12:08:56 gz /tmp/work/dist/tween.cjs.min.js -> /output/tween.cjs.min.js.gz
-2023/04/23 12:08:56 sri /tmp/work/dist/tween.cjs.js -> /output/tween.cjs.js.sri
-2023/04/23 12:08:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tween.cjs.js.br /tmp/work/dist/tween.cjs.js
-2023/04/23 12:08:56 sri /tmp/work/dist/tween.umd.min.js -> /output/tween.umd.min.js.sri
-2023/04/23 12:08:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tween.umd.min.js.br /tmp/work/dist/tween.umd.min.js
-2023/04/23 12:08:56 br /tmp/work/dist/tween.esm.js -> /output/tween.esm.js.br
-2023/04/23 12:08:56 gz /tmp/work/dist/tween.esm.js -> /output/tween.esm.js.gz
-2023/04/23 12:08:56 sri /tmp/work/dist/tween.amd.min.js -> /output/tween.amd.min.js.sri
-2023/04/23 12:08:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tween.amd.min.js.br /tmp/work/dist/tween.amd.min.js
-2023/04/23 12:08:56 br /tmp/work/dist/tween.umd.min.js -> /output/tween.umd.min.js.br
-2023/04/23 12:08:56 gz /tmp/work/dist/tween.umd.min.js -> /output/tween.umd.min.js.gz
-2023/04/23 12:08:56 sri /tmp/work/dist/tween.umd.js -> /output/tween.umd.js.sri
-2023/04/23 12:08:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tween.umd.js.br /tmp/work/dist/tween.umd.js
-2023/04/23 12:08:56 br /tmp/work/dist/tween.amd.min.js -> /output/tween.amd.min.js.br
-2023/04/23 12:08:56 gz /tmp/work/dist/tween.amd.min.js -> /output/tween.amd.min.js.gz
-2023/04/23 12:08:56 sri /tmp/work/dist/tween.amd.js -> /output/tween.amd.js.sri
-2023/04/23 12:08:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tween.amd.js.br /tmp/work/dist/tween.amd.js
-2023/04/23 12:08:56 br /tmp/work/dist/tween.cjs.js -> /output/tween.cjs.js.br
-2023/04/23 12:08:56 gz /tmp/work/dist/tween.cjs.js -> /output/tween.cjs.js.gz
-2023/04/23 12:08:56 br /tmp/work/dist/tween.umd.js -> /output/tween.umd.js.br
-2023/04/23 12:08:56 br /tmp/work/dist/tween.amd.js -> /output/tween.amd.js.br
-2023/04/23 12:08:56 gz /tmp/work/dist/tween.umd.js -> /output/tween.umd.js.gz
-2023/04/23 12:08:56 gz /tmp/work/dist/tween.amd.js -> /output/tween.amd.js.gz
-2023/04/23 12:08:56 processed tween.js
+2023/07/31 13:06:27 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/31 13:06:27 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/tween.amd.min.js /tmp/work/dist/tween.amd.js
+2023/07/31 13:06:27 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/tween.cjs.min.js /tmp/work/dist/tween.cjs.js
+2023/07/31 13:06:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tween.d.ts.br /tmp/work/dist/tween.d.ts
+2023/07/31 13:06:27 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/tween.esm.min.js /tmp/work/dist/tween.esm.js
+2023/07/31 13:06:27 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/tween.umd.min.js /tmp/work/dist/tween.umd.js
+2023/07/31 13:06:27 br /tmp/work/dist/tween.d.ts -> /output/tween.d.ts.br
+2023/07/31 13:06:27 gz /tmp/work/dist/tween.d.ts -> /output/tween.d.ts.gz
+2023/07/31 13:06:28 sri /tmp/work/dist/tween.cjs.min.js -> /output/tween.cjs.min.js.sri
+2023/07/31 13:06:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tween.cjs.min.js.br /tmp/work/dist/tween.cjs.min.js
+2023/07/31 13:06:28 br /tmp/work/dist/tween.cjs.min.js -> /output/tween.cjs.min.js.br
+2023/07/31 13:06:28 gz /tmp/work/dist/tween.cjs.min.js -> /output/tween.cjs.min.js.gz
+2023/07/31 13:06:28 sri /tmp/work/dist/tween.cjs.js -> /output/tween.cjs.js.sri
+2023/07/31 13:06:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tween.cjs.js.br /tmp/work/dist/tween.cjs.js
+2023/07/31 13:06:28 br /tmp/work/dist/tween.cjs.js -> /output/tween.cjs.js.br
+2023/07/31 13:06:28 gz /tmp/work/dist/tween.cjs.js -> /output/tween.cjs.js.gz
+2023/07/31 13:06:29 sri /tmp/work/dist/tween.amd.min.js -> /output/tween.amd.min.js.sri
+2023/07/31 13:06:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tween.amd.min.js.br /tmp/work/dist/tween.amd.min.js
+2023/07/31 13:06:29 br /tmp/work/dist/tween.amd.min.js -> /output/tween.amd.min.js.br
+2023/07/31 13:06:29 gz /tmp/work/dist/tween.amd.min.js -> /output/tween.amd.min.js.gz
+2023/07/31 13:06:29 sri /tmp/work/dist/tween.amd.js -> /output/tween.amd.js.sri
+2023/07/31 13:06:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tween.amd.js.br /tmp/work/dist/tween.amd.js
+2023/07/31 13:06:29 br /tmp/work/dist/tween.amd.js -> /output/tween.amd.js.br
+2023/07/31 13:06:29 gz /tmp/work/dist/tween.amd.js -> /output/tween.amd.js.gz
+2023/07/31 13:06:29 sri /tmp/work/dist/tween.esm.min.js -> /output/tween.esm.min.js.sri
+2023/07/31 13:06:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tween.esm.min.js.br /tmp/work/dist/tween.esm.min.js
+2023/07/31 13:06:29 sri /tmp/work/dist/tween.umd.min.js -> /output/tween.umd.min.js.sri
+2023/07/31 13:06:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tween.umd.min.js.br /tmp/work/dist/tween.umd.min.js
+2023/07/31 13:06:29 br /tmp/work/dist/tween.esm.min.js -> /output/tween.esm.min.js.br
+2023/07/31 13:06:29 gz /tmp/work/dist/tween.esm.min.js -> /output/tween.esm.min.js.gz
+2023/07/31 13:06:29 sri /tmp/work/dist/tween.esm.js -> /output/tween.esm.js.sri
+2023/07/31 13:06:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tween.esm.js.br /tmp/work/dist/tween.esm.js
+2023/07/31 13:06:29 br /tmp/work/dist/tween.umd.min.js -> /output/tween.umd.min.js.br
+2023/07/31 13:06:29 gz /tmp/work/dist/tween.umd.min.js -> /output/tween.umd.min.js.gz
+2023/07/31 13:06:29 sri /tmp/work/dist/tween.umd.js -> /output/tween.umd.js.sri
+2023/07/31 13:06:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tween.umd.js.br /tmp/work/dist/tween.umd.js
+2023/07/31 13:06:29 br /tmp/work/dist/tween.esm.js -> /output/tween.esm.js.br
+2023/07/31 13:06:29 gz /tmp/work/dist/tween.esm.js -> /output/tween.esm.js.gz
+2023/07/31 13:06:29 br /tmp/work/dist/tween.umd.js -> /output/tween.umd.js.br
+2023/07/31 13:06:29 gz /tmp/work/dist/tween.umd.js -> /output/tween.umd.js.gz
+2023/07/31 13:06:29 processed tween.js
