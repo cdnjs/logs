@@ -1,90 +1,90 @@
-2023/04/23 01:13:56 optimizing files (Js true, Css true, Png true, Jpg true)
-2023/04/23 01:13:57 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/styled-components-macro.cjs.min.js /tmp/work/dist/styled-components-macro.cjs.js
-2023/04/23 01:13:57 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/styled-components-macro.esm.min.js /tmp/work/dist/styled-components-macro.esm.js
-2023/04/23 01:13:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components-macro.cjs.js.map.br /tmp/work/dist/styled-components-macro.cjs.js.map
-2023/04/23 01:13:57 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/styled-components.browser.cjs.min.js /tmp/work/dist/styled-components.browser.cjs.js
-2023/04/23 01:13:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components-macro.esm.js.map.br /tmp/work/dist/styled-components-macro.esm.js.map
-2023/04/23 01:13:57 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/styled-components.browser.esm.min.js /tmp/work/dist/styled-components.browser.esm.js
-2023/04/23 01:13:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.browser.esm.js.map.br /tmp/work/dist/styled-components.browser.esm.js.map
-2023/04/23 01:13:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.browser.cjs.js.map.br /tmp/work/dist/styled-components.browser.cjs.js.map
-2023/04/23 01:13:57 br /tmp/work/dist/styled-components-macro.cjs.js.map -> /output/styled-components-macro.cjs.js.map.br
-2023/04/23 01:13:57 gz /tmp/work/dist/styled-components-macro.cjs.js.map -> /output/styled-components-macro.cjs.js.map.gz
-2023/04/23 01:13:57 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/styled-components.cjs.min.js /tmp/work/dist/styled-components.cjs.js
-2023/04/23 01:13:57 br /tmp/work/dist/styled-components-macro.esm.js.map -> /output/styled-components-macro.esm.js.map.br
-2023/04/23 01:13:57 gz /tmp/work/dist/styled-components-macro.esm.js.map -> /output/styled-components-macro.esm.js.map.gz
-2023/04/23 01:13:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.cjs.js.map.br /tmp/work/dist/styled-components.cjs.js.map
-2023/04/23 01:13:57 sri /tmp/work/dist/styled-components-macro.esm.min.js -> /output/styled-components-macro.esm.min.js.sri
-2023/04/23 01:13:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components-macro.esm.min.js.br /tmp/work/dist/styled-components-macro.esm.min.js
-2023/04/23 01:13:57 br /tmp/work/dist/styled-components-macro.esm.min.js -> /output/styled-components-macro.esm.min.js.br
-2023/04/23 01:13:57 gz /tmp/work/dist/styled-components-macro.esm.min.js -> /output/styled-components-macro.esm.min.js.gz
-2023/04/23 01:13:57 sri /tmp/work/dist/styled-components-macro.esm.js -> /output/styled-components-macro.esm.js.sri
-2023/04/23 01:13:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components-macro.esm.js.br /tmp/work/dist/styled-components-macro.esm.js
-2023/04/23 01:13:57 sri /tmp/work/dist/styled-components-macro.cjs.min.js -> /output/styled-components-macro.cjs.min.js.sri
-2023/04/23 01:13:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components-macro.cjs.min.js.br /tmp/work/dist/styled-components-macro.cjs.min.js
-2023/04/23 01:13:57 br /tmp/work/dist/styled-components-macro.esm.js -> /output/styled-components-macro.esm.js.br
-2023/04/23 01:13:57 gz /tmp/work/dist/styled-components-macro.esm.js -> /output/styled-components-macro.esm.js.gz
-2023/04/23 01:13:57 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/styled-components.esm.min.js /tmp/work/dist/styled-components.esm.js
-2023/04/23 01:13:57 br /tmp/work/dist/styled-components-macro.cjs.min.js -> /output/styled-components-macro.cjs.min.js.br
-2023/04/23 01:13:57 gz /tmp/work/dist/styled-components-macro.cjs.min.js -> /output/styled-components-macro.cjs.min.js.gz
-2023/04/23 01:13:57 sri /tmp/work/dist/styled-components-macro.cjs.js -> /output/styled-components-macro.cjs.js.sri
-2023/04/23 01:13:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components-macro.cjs.js.br /tmp/work/dist/styled-components-macro.cjs.js
-2023/04/23 01:13:57 br /tmp/work/dist/styled-components-macro.cjs.js -> /output/styled-components-macro.cjs.js.br
-2023/04/23 01:13:57 gz /tmp/work/dist/styled-components-macro.cjs.js -> /output/styled-components-macro.cjs.js.gz
-2023/04/23 01:13:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.esm.js.map.br /tmp/work/dist/styled-components.esm.js.map
-2023/04/23 01:13:57 br /tmp/work/dist/styled-components.browser.cjs.js.map -> /output/styled-components.browser.cjs.js.map.br
-2023/04/23 01:13:57 br /tmp/work/dist/styled-components.browser.esm.js.map -> /output/styled-components.browser.esm.js.map.br
-2023/04/23 01:13:57 gz /tmp/work/dist/styled-components.browser.cjs.js.map -> /output/styled-components.browser.cjs.js.map.gz
-2023/04/23 01:13:57 /tmp/work/dist/styled-components.min.js already has corresponding compressed file
-2023/04/23 01:13:57 sri /tmp/work/dist/styled-components.js -> /output/styled-components.js.sri
-2023/04/23 01:13:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.js.br /tmp/work/dist/styled-components.js
-2023/04/23 01:13:57 gz /tmp/work/dist/styled-components.browser.esm.js.map -> /output/styled-components.browser.esm.js.map.gz
-2023/04/23 01:13:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.js.map.br /tmp/work/dist/styled-components.js.map
-2023/04/23 01:13:57 br /tmp/work/dist/styled-components.cjs.js.map -> /output/styled-components.cjs.js.map.br
-2023/04/23 01:13:57 gz /tmp/work/dist/styled-components.cjs.js.map -> /output/styled-components.cjs.js.map.gz
-2023/04/23 01:13:57 /tmp/work/dist/styled-components.min.js is already compressed
-2023/04/23 01:13:57 sri /tmp/work/dist/styled-components.min.js -> /output/styled-components.min.js.sri
-2023/04/23 01:13:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.min.js.br /tmp/work/dist/styled-components.min.js
-2023/04/23 01:13:57 br /tmp/work/dist/styled-components.js -> /output/styled-components.js.br
-2023/04/23 01:13:57 gz /tmp/work/dist/styled-components.js -> /output/styled-components.js.gz
-2023/04/23 01:13:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.min.js.map.br /tmp/work/dist/styled-components.min.js.map
-2023/04/23 01:13:57 br /tmp/work/dist/styled-components.min.js -> /output/styled-components.min.js.br
-2023/04/23 01:13:57 gz /tmp/work/dist/styled-components.min.js -> /output/styled-components.min.js.gz
-2023/04/23 01:13:57 br /tmp/work/dist/styled-components.esm.js.map -> /output/styled-components.esm.js.map.br
-2023/04/23 01:13:57 gz /tmp/work/dist/styled-components.esm.js.map -> /output/styled-components.esm.js.map.gz
-2023/04/23 01:13:57 br /tmp/work/dist/styled-components.js.map -> /output/styled-components.js.map.br
-2023/04/23 01:13:57 gz /tmp/work/dist/styled-components.js.map -> /output/styled-components.js.map.gz
-2023/04/23 01:13:58 br /tmp/work/dist/styled-components.min.js.map -> /output/styled-components.min.js.map.br
-2023/04/23 01:13:58 gz /tmp/work/dist/styled-components.min.js.map -> /output/styled-components.min.js.map.gz
-2023/04/23 01:13:58 sri /tmp/work/dist/styled-components.browser.cjs.min.js -> /output/styled-components.browser.cjs.min.js.sri
-2023/04/23 01:13:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.browser.cjs.min.js.br /tmp/work/dist/styled-components.browser.cjs.min.js
-2023/04/23 01:13:58 sri /tmp/work/dist/styled-components.browser.esm.min.js -> /output/styled-components.browser.esm.min.js.sri
-2023/04/23 01:13:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.browser.esm.min.js.br /tmp/work/dist/styled-components.browser.esm.min.js
-2023/04/23 01:13:58 sri /tmp/work/dist/styled-components.cjs.min.js -> /output/styled-components.cjs.min.js.sri
-2023/04/23 01:13:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.cjs.min.js.br /tmp/work/dist/styled-components.cjs.min.js
-2023/04/23 01:13:58 br /tmp/work/dist/styled-components.browser.cjs.min.js -> /output/styled-components.browser.cjs.min.js.br
-2023/04/23 01:13:58 gz /tmp/work/dist/styled-components.browser.cjs.min.js -> /output/styled-components.browser.cjs.min.js.gz
-2023/04/23 01:13:58 sri /tmp/work/dist/styled-components.browser.cjs.js -> /output/styled-components.browser.cjs.js.sri
-2023/04/23 01:13:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.browser.cjs.js.br /tmp/work/dist/styled-components.browser.cjs.js
-2023/04/23 01:13:58 br /tmp/work/dist/styled-components.browser.esm.min.js -> /output/styled-components.browser.esm.min.js.br
-2023/04/23 01:13:58 gz /tmp/work/dist/styled-components.browser.esm.min.js -> /output/styled-components.browser.esm.min.js.gz
-2023/04/23 01:13:58 sri /tmp/work/dist/styled-components.browser.esm.js -> /output/styled-components.browser.esm.js.sri
-2023/04/23 01:13:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.browser.esm.js.br /tmp/work/dist/styled-components.browser.esm.js
-2023/04/23 01:13:58 br /tmp/work/dist/styled-components.cjs.min.js -> /output/styled-components.cjs.min.js.br
-2023/04/23 01:13:58 gz /tmp/work/dist/styled-components.cjs.min.js -> /output/styled-components.cjs.min.js.gz
-2023/04/23 01:13:58 sri /tmp/work/dist/styled-components.cjs.js -> /output/styled-components.cjs.js.sri
-2023/04/23 01:13:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.cjs.js.br /tmp/work/dist/styled-components.cjs.js
-2023/04/23 01:13:58 br /tmp/work/dist/styled-components.browser.cjs.js -> /output/styled-components.browser.cjs.js.br
-2023/04/23 01:13:58 gz /tmp/work/dist/styled-components.browser.cjs.js -> /output/styled-components.browser.cjs.js.gz
-2023/04/23 01:13:58 br /tmp/work/dist/styled-components.browser.esm.js -> /output/styled-components.browser.esm.js.br
-2023/04/23 01:13:58 gz /tmp/work/dist/styled-components.browser.esm.js -> /output/styled-components.browser.esm.js.gz
-2023/04/23 01:13:58 sri /tmp/work/dist/styled-components.esm.min.js -> /output/styled-components.esm.min.js.sri
-2023/04/23 01:13:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.esm.min.js.br /tmp/work/dist/styled-components.esm.min.js
-2023/04/23 01:13:58 br /tmp/work/dist/styled-components.cjs.js -> /output/styled-components.cjs.js.br
-2023/04/23 01:13:58 gz /tmp/work/dist/styled-components.cjs.js -> /output/styled-components.cjs.js.gz
-2023/04/23 01:13:58 br /tmp/work/dist/styled-components.esm.min.js -> /output/styled-components.esm.min.js.br
-2023/04/23 01:13:58 gz /tmp/work/dist/styled-components.esm.min.js -> /output/styled-components.esm.min.js.gz
-2023/04/23 01:13:58 sri /tmp/work/dist/styled-components.esm.js -> /output/styled-components.esm.js.sri
-2023/04/23 01:13:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.esm.js.br /tmp/work/dist/styled-components.esm.js
-2023/04/23 01:13:58 br /tmp/work/dist/styled-components.esm.js -> /output/styled-components.esm.js.br
-2023/04/23 01:13:58 gz /tmp/work/dist/styled-components.esm.js -> /output/styled-components.esm.js.gz
-2023/04/23 01:13:58 processed styled-components
+2023/07/31 12:41:11 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/31 12:41:11 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/styled-components-macro.cjs.min.js /tmp/work/dist/styled-components-macro.cjs.js
+2023/07/31 12:41:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components-macro.cjs.js.map.br /tmp/work/dist/styled-components-macro.cjs.js.map
+2023/07/31 12:41:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components-macro.esm.js.map.br /tmp/work/dist/styled-components-macro.esm.js.map
+2023/07/31 12:41:11 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/styled-components-macro.esm.min.js /tmp/work/dist/styled-components-macro.esm.js
+2023/07/31 12:41:11 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/styled-components.browser.cjs.min.js /tmp/work/dist/styled-components.browser.cjs.js
+2023/07/31 12:41:11 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/styled-components.browser.esm.min.js /tmp/work/dist/styled-components.browser.esm.js
+2023/07/31 12:41:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.browser.cjs.js.map.br /tmp/work/dist/styled-components.browser.cjs.js.map
+2023/07/31 12:41:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.browser.esm.js.map.br /tmp/work/dist/styled-components.browser.esm.js.map
+2023/07/31 12:41:11 br /tmp/work/dist/styled-components-macro.cjs.js.map -> /output/styled-components-macro.cjs.js.map.br
+2023/07/31 12:41:11 gz /tmp/work/dist/styled-components-macro.cjs.js.map -> /output/styled-components-macro.cjs.js.map.gz
+2023/07/31 12:41:11 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/styled-components.cjs.min.js /tmp/work/dist/styled-components.cjs.js
+2023/07/31 12:41:11 br /tmp/work/dist/styled-components-macro.esm.js.map -> /output/styled-components-macro.esm.js.map.br
+2023/07/31 12:41:11 gz /tmp/work/dist/styled-components-macro.esm.js.map -> /output/styled-components-macro.esm.js.map.gz
+2023/07/31 12:41:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.cjs.js.map.br /tmp/work/dist/styled-components.cjs.js.map
+2023/07/31 12:41:13 sri /tmp/work/dist/styled-components-macro.esm.min.js -> /output/styled-components-macro.esm.min.js.sri
+2023/07/31 12:41:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components-macro.esm.min.js.br /tmp/work/dist/styled-components-macro.esm.min.js
+2023/07/31 12:41:13 sri /tmp/work/dist/styled-components-macro.cjs.min.js -> /output/styled-components-macro.cjs.min.js.sri
+2023/07/31 12:41:13 br /tmp/work/dist/styled-components-macro.esm.min.js -> /output/styled-components-macro.esm.min.js.br
+2023/07/31 12:41:13 gz /tmp/work/dist/styled-components-macro.esm.min.js -> /output/styled-components-macro.esm.min.js.gz
+2023/07/31 12:41:13 sri /tmp/work/dist/styled-components-macro.esm.js -> /output/styled-components-macro.esm.js.sri
+2023/07/31 12:41:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components-macro.esm.js.br /tmp/work/dist/styled-components-macro.esm.js
+2023/07/31 12:41:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components-macro.cjs.min.js.br /tmp/work/dist/styled-components-macro.cjs.min.js
+2023/07/31 12:41:13 br /tmp/work/dist/styled-components-macro.esm.js -> /output/styled-components-macro.esm.js.br
+2023/07/31 12:41:13 gz /tmp/work/dist/styled-components-macro.esm.js -> /output/styled-components-macro.esm.js.gz
+2023/07/31 12:41:13 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/styled-components.esm.min.js /tmp/work/dist/styled-components.esm.js
+2023/07/31 12:41:13 br /tmp/work/dist/styled-components-macro.cjs.min.js -> /output/styled-components-macro.cjs.min.js.br
+2023/07/31 12:41:13 gz /tmp/work/dist/styled-components-macro.cjs.min.js -> /output/styled-components-macro.cjs.min.js.gz
+2023/07/31 12:41:13 sri /tmp/work/dist/styled-components-macro.cjs.js -> /output/styled-components-macro.cjs.js.sri
+2023/07/31 12:41:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components-macro.cjs.js.br /tmp/work/dist/styled-components-macro.cjs.js
+2023/07/31 12:41:13 br /tmp/work/dist/styled-components.cjs.js.map -> /output/styled-components.cjs.js.map.br
+2023/07/31 12:41:13 gz /tmp/work/dist/styled-components.cjs.js.map -> /output/styled-components.cjs.js.map.gz
+2023/07/31 12:41:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.esm.js.map.br /tmp/work/dist/styled-components.esm.js.map
+2023/07/31 12:41:13 br /tmp/work/dist/styled-components-macro.cjs.js -> /output/styled-components-macro.cjs.js.br
+2023/07/31 12:41:13 gz /tmp/work/dist/styled-components-macro.cjs.js -> /output/styled-components-macro.cjs.js.gz
+2023/07/31 12:41:13 /tmp/work/dist/styled-components.min.js already has corresponding compressed file
+2023/07/31 12:41:13 sri /tmp/work/dist/styled-components.js -> /output/styled-components.js.sri
+2023/07/31 12:41:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.js.br /tmp/work/dist/styled-components.js
+2023/07/31 12:41:13 br /tmp/work/dist/styled-components.browser.cjs.js.map -> /output/styled-components.browser.cjs.js.map.br
+2023/07/31 12:41:13 gz /tmp/work/dist/styled-components.browser.cjs.js.map -> /output/styled-components.browser.cjs.js.map.gz
+2023/07/31 12:41:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.js.map.br /tmp/work/dist/styled-components.js.map
+2023/07/31 12:41:13 br /tmp/work/dist/styled-components.browser.esm.js.map -> /output/styled-components.browser.esm.js.map.br
+2023/07/31 12:41:13 gz /tmp/work/dist/styled-components.browser.esm.js.map -> /output/styled-components.browser.esm.js.map.gz
+2023/07/31 12:41:13 /tmp/work/dist/styled-components.min.js is already compressed
+2023/07/31 12:41:13 sri /tmp/work/dist/styled-components.min.js -> /output/styled-components.min.js.sri
+2023/07/31 12:41:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.min.js.br /tmp/work/dist/styled-components.min.js
+2023/07/31 12:41:13 br /tmp/work/dist/styled-components.js -> /output/styled-components.js.br
+2023/07/31 12:41:13 gz /tmp/work/dist/styled-components.js -> /output/styled-components.js.gz
+2023/07/31 12:41:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.min.js.map.br /tmp/work/dist/styled-components.min.js.map
+2023/07/31 12:41:14 br /tmp/work/dist/styled-components.min.js -> /output/styled-components.min.js.br
+2023/07/31 12:41:14 gz /tmp/work/dist/styled-components.min.js -> /output/styled-components.min.js.gz
+2023/07/31 12:41:14 br /tmp/work/dist/styled-components.esm.js.map -> /output/styled-components.esm.js.map.br
+2023/07/31 12:41:14 gz /tmp/work/dist/styled-components.esm.js.map -> /output/styled-components.esm.js.map.gz
+2023/07/31 12:41:15 br /tmp/work/dist/styled-components.min.js.map -> /output/styled-components.min.js.map.br
+2023/07/31 12:41:15 gz /tmp/work/dist/styled-components.min.js.map -> /output/styled-components.min.js.map.gz
+2023/07/31 12:41:15 br /tmp/work/dist/styled-components.js.map -> /output/styled-components.js.map.br
+2023/07/31 12:41:15 gz /tmp/work/dist/styled-components.js.map -> /output/styled-components.js.map.gz
+2023/07/31 12:41:16 sri /tmp/work/dist/styled-components.browser.cjs.min.js -> /output/styled-components.browser.cjs.min.js.sri
+2023/07/31 12:41:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.browser.cjs.min.js.br /tmp/work/dist/styled-components.browser.cjs.min.js
+2023/07/31 12:41:16 sri /tmp/work/dist/styled-components.browser.esm.min.js -> /output/styled-components.browser.esm.min.js.sri
+2023/07/31 12:41:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.browser.esm.min.js.br /tmp/work/dist/styled-components.browser.esm.min.js
+2023/07/31 12:41:16 sri /tmp/work/dist/styled-components.cjs.min.js -> /output/styled-components.cjs.min.js.sri
+2023/07/31 12:41:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.cjs.min.js.br /tmp/work/dist/styled-components.cjs.min.js
+2023/07/31 12:41:16 br /tmp/work/dist/styled-components.browser.cjs.min.js -> /output/styled-components.browser.cjs.min.js.br
+2023/07/31 12:41:16 gz /tmp/work/dist/styled-components.browser.cjs.min.js -> /output/styled-components.browser.cjs.min.js.gz
+2023/07/31 12:41:16 sri /tmp/work/dist/styled-components.browser.cjs.js -> /output/styled-components.browser.cjs.js.sri
+2023/07/31 12:41:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.browser.cjs.js.br /tmp/work/dist/styled-components.browser.cjs.js
+2023/07/31 12:41:16 br /tmp/work/dist/styled-components.browser.esm.min.js -> /output/styled-components.browser.esm.min.js.br
+2023/07/31 12:41:16 gz /tmp/work/dist/styled-components.browser.esm.min.js -> /output/styled-components.browser.esm.min.js.gz
+2023/07/31 12:41:16 sri /tmp/work/dist/styled-components.browser.esm.js -> /output/styled-components.browser.esm.js.sri
+2023/07/31 12:41:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.browser.esm.js.br /tmp/work/dist/styled-components.browser.esm.js
+2023/07/31 12:41:16 br /tmp/work/dist/styled-components.cjs.min.js -> /output/styled-components.cjs.min.js.br
+2023/07/31 12:41:16 gz /tmp/work/dist/styled-components.cjs.min.js -> /output/styled-components.cjs.min.js.gz
+2023/07/31 12:41:16 sri /tmp/work/dist/styled-components.cjs.js -> /output/styled-components.cjs.js.sri
+2023/07/31 12:41:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.cjs.js.br /tmp/work/dist/styled-components.cjs.js
+2023/07/31 12:41:16 br /tmp/work/dist/styled-components.browser.cjs.js -> /output/styled-components.browser.cjs.js.br
+2023/07/31 12:41:16 gz /tmp/work/dist/styled-components.browser.cjs.js -> /output/styled-components.browser.cjs.js.gz
+2023/07/31 12:41:16 br /tmp/work/dist/styled-components.cjs.js -> /output/styled-components.cjs.js.br
+2023/07/31 12:41:16 gz /tmp/work/dist/styled-components.cjs.js -> /output/styled-components.cjs.js.gz
+2023/07/31 12:41:16 br /tmp/work/dist/styled-components.browser.esm.js -> /output/styled-components.browser.esm.js.br
+2023/07/31 12:41:16 gz /tmp/work/dist/styled-components.browser.esm.js -> /output/styled-components.browser.esm.js.gz
+2023/07/31 12:41:16 sri /tmp/work/dist/styled-components.esm.min.js -> /output/styled-components.esm.min.js.sri
+2023/07/31 12:41:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.esm.min.js.br /tmp/work/dist/styled-components.esm.min.js
+2023/07/31 12:41:16 br /tmp/work/dist/styled-components.esm.min.js -> /output/styled-components.esm.min.js.br
+2023/07/31 12:41:16 gz /tmp/work/dist/styled-components.esm.min.js -> /output/styled-components.esm.min.js.gz
+2023/07/31 12:41:16 sri /tmp/work/dist/styled-components.esm.js -> /output/styled-components.esm.js.sri
+2023/07/31 12:41:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/styled-components.esm.js.br /tmp/work/dist/styled-components.esm.js
+2023/07/31 12:41:17 br /tmp/work/dist/styled-components.esm.js -> /output/styled-components.esm.js.br
+2023/07/31 12:41:17 gz /tmp/work/dist/styled-components.esm.js -> /output/styled-components.esm.js.gz
+2023/07/31 12:41:17 processed styled-components
