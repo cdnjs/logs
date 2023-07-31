@@ -1,38 +1,38 @@
-2022/01/22 17:03:31 optimizing files (Js true, Css true, Png true, Jpg true)
-2022/01/22 17:03:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/3Dmol-nojquery-min.min.js /tmp/work/build/3Dmol-nojquery-min.js
-2022/01/22 17:03:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/3Dmol-nojquery.min.js /tmp/work/build/3Dmol-nojquery.js
-2022/01/22 17:03:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/3Dmol-min.min.js /tmp/work/build/3Dmol-min.js
-2022/01/22 17:03:31 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/3Dmol.min.js /tmp/work/build/3Dmol.js
-2022/01/22 17:03:45 sri /tmp/work/build/3Dmol-nojquery-min.min.js -> /output/3Dmol-nojquery-min.min.js.sri
-2022/01/22 17:03:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol-nojquery-min.min.js.br /tmp/work/build/3Dmol-nojquery-min.min.js
-2022/01/22 17:03:47 br /tmp/work/build/3Dmol-nojquery-min.min.js -> /output/3Dmol-nojquery-min.min.js.br
-2022/01/22 17:03:47 gz /tmp/work/build/3Dmol-nojquery-min.min.js -> /output/3Dmol-nojquery-min.min.js.gz
-2022/01/22 17:03:47 sri /tmp/work/build/3Dmol-nojquery-min.js -> /output/3Dmol-nojquery-min.js.sri
-2022/01/22 17:03:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol-nojquery-min.js.br /tmp/work/build/3Dmol-nojquery-min.js
-2022/01/22 17:03:47 sri /tmp/work/build/3Dmol-nojquery.min.js -> /output/3Dmol-nojquery.min.js.sri
-2022/01/22 17:03:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol-nojquery.min.js.br /tmp/work/build/3Dmol-nojquery.min.js
-2022/01/22 17:03:47 sri /tmp/work/build/3Dmol-min.min.js -> /output/3Dmol-min.min.js.sri
-2022/01/22 17:03:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol-min.min.js.br /tmp/work/build/3Dmol-min.min.js
-2022/01/22 17:03:48 br /tmp/work/build/3Dmol-nojquery-min.js -> /output/3Dmol-nojquery-min.js.br
-2022/01/22 17:03:48 gz /tmp/work/build/3Dmol-nojquery-min.js -> /output/3Dmol-nojquery-min.js.gz
-2022/01/22 17:03:48 br /tmp/work/build/3Dmol-nojquery.min.js -> /output/3Dmol-nojquery.min.js.br
-2022/01/22 17:03:48 gz /tmp/work/build/3Dmol-nojquery.min.js -> /output/3Dmol-nojquery.min.js.gz
-2022/01/22 17:03:48 sri /tmp/work/build/3Dmol-nojquery.js -> /output/3Dmol-nojquery.js.sri
-2022/01/22 17:03:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol-nojquery.js.br /tmp/work/build/3Dmol-nojquery.js
-2022/01/22 17:03:49 br /tmp/work/build/3Dmol-min.min.js -> /output/3Dmol-min.min.js.br
-2022/01/22 17:03:49 gz /tmp/work/build/3Dmol-min.min.js -> /output/3Dmol-min.min.js.gz
-2022/01/22 17:03:49 sri /tmp/work/build/3Dmol-min.js -> /output/3Dmol-min.js.sri
-2022/01/22 17:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol-min.js.br /tmp/work/build/3Dmol-min.js
-2022/01/22 17:03:49 sri /tmp/work/build/3Dmol.min.js -> /output/3Dmol.min.js.sri
-2022/01/22 17:03:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol.min.js.br /tmp/work/build/3Dmol.min.js
-2022/01/22 17:03:50 br /tmp/work/build/3Dmol-min.js -> /output/3Dmol-min.js.br
-2022/01/22 17:03:50 gz /tmp/work/build/3Dmol-min.js -> /output/3Dmol-min.js.gz
-2022/01/22 17:03:51 br /tmp/work/build/3Dmol.min.js -> /output/3Dmol.min.js.br
-2022/01/22 17:03:51 gz /tmp/work/build/3Dmol.min.js -> /output/3Dmol.min.js.gz
-2022/01/22 17:03:51 sri /tmp/work/build/3Dmol.js -> /output/3Dmol.js.sri
-2022/01/22 17:03:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol.js.br /tmp/work/build/3Dmol.js
-2022/01/22 17:03:52 br /tmp/work/build/3Dmol-nojquery.js -> /output/3Dmol-nojquery.js.br
-2022/01/22 17:03:53 gz /tmp/work/build/3Dmol-nojquery.js -> /output/3Dmol-nojquery.js.gz
-2022/01/22 17:03:55 br /tmp/work/build/3Dmol.js -> /output/3Dmol.js.br
-2022/01/22 17:03:56 gz /tmp/work/build/3Dmol.js -> /output/3Dmol.js.gz
-2022/01/22 17:03:56 processed 3Dmol
+2023/07/31 10:17:33 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/07/31 10:17:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/3Dmol-nojquery-min.min.js /tmp/work/build/3Dmol-nojquery-min.js
+2023/07/31 10:17:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/3Dmol-min.min.js /tmp/work/build/3Dmol-min.js
+2023/07/31 10:17:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/3Dmol-nojquery.min.js /tmp/work/build/3Dmol-nojquery.js
+2023/07/31 10:17:33 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/3Dmol.min.js /tmp/work/build/3Dmol.js
+2023/07/31 10:18:05 sri /tmp/work/build/3Dmol-nojquery-min.min.js -> /output/3Dmol-nojquery-min.min.js.sri
+2023/07/31 10:18:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol-nojquery-min.min.js.br /tmp/work/build/3Dmol-nojquery-min.min.js
+2023/07/31 10:18:09 sri /tmp/work/build/3Dmol-nojquery.min.js -> /output/3Dmol-nojquery.min.js.sri
+2023/07/31 10:18:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol-nojquery.min.js.br /tmp/work/build/3Dmol-nojquery.min.js
+2023/07/31 10:18:10 br /tmp/work/build/3Dmol-nojquery-min.min.js -> /output/3Dmol-nojquery-min.min.js.br
+2023/07/31 10:18:10 gz /tmp/work/build/3Dmol-nojquery-min.min.js -> /output/3Dmol-nojquery-min.min.js.gz
+2023/07/31 10:18:10 sri /tmp/work/build/3Dmol-nojquery-min.js -> /output/3Dmol-nojquery-min.js.sri
+2023/07/31 10:18:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol-nojquery-min.js.br /tmp/work/build/3Dmol-nojquery-min.js
+2023/07/31 10:18:11 sri /tmp/work/build/3Dmol-min.min.js -> /output/3Dmol-min.min.js.sri
+2023/07/31 10:18:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol-min.min.js.br /tmp/work/build/3Dmol-min.min.js
+2023/07/31 10:18:14 br /tmp/work/build/3Dmol-nojquery.min.js -> /output/3Dmol-nojquery.min.js.br
+2023/07/31 10:18:14 gz /tmp/work/build/3Dmol-nojquery.min.js -> /output/3Dmol-nojquery.min.js.gz
+2023/07/31 10:18:14 sri /tmp/work/build/3Dmol-nojquery.js -> /output/3Dmol-nojquery.js.sri
+2023/07/31 10:18:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol-nojquery.js.br /tmp/work/build/3Dmol-nojquery.js
+2023/07/31 10:18:15 br /tmp/work/build/3Dmol-nojquery-min.js -> /output/3Dmol-nojquery-min.js.br
+2023/07/31 10:18:15 gz /tmp/work/build/3Dmol-nojquery-min.js -> /output/3Dmol-nojquery-min.js.gz
+2023/07/31 10:18:15 br /tmp/work/build/3Dmol-min.min.js -> /output/3Dmol-min.min.js.br
+2023/07/31 10:18:16 gz /tmp/work/build/3Dmol-min.min.js -> /output/3Dmol-min.min.js.gz
+2023/07/31 10:18:16 sri /tmp/work/build/3Dmol-min.js -> /output/3Dmol-min.js.sri
+2023/07/31 10:18:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol-min.js.br /tmp/work/build/3Dmol-min.js
+2023/07/31 10:18:16 sri /tmp/work/build/3Dmol.min.js -> /output/3Dmol.min.js.sri
+2023/07/31 10:18:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol.min.js.br /tmp/work/build/3Dmol.min.js
+2023/07/31 10:18:19 br /tmp/work/build/3Dmol.min.js -> /output/3Dmol.min.js.br
+2023/07/31 10:18:19 br /tmp/work/build/3Dmol-min.js -> /output/3Dmol-min.js.br
+2023/07/31 10:18:19 gz /tmp/work/build/3Dmol.min.js -> /output/3Dmol.min.js.gz
+2023/07/31 10:18:19 gz /tmp/work/build/3Dmol-min.js -> /output/3Dmol-min.js.gz
+2023/07/31 10:18:19 sri /tmp/work/build/3Dmol.js -> /output/3Dmol.js.sri
+2023/07/31 10:18:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/3Dmol.js.br /tmp/work/build/3Dmol.js
+2023/07/31 10:18:21 br /tmp/work/build/3Dmol-nojquery.js -> /output/3Dmol-nojquery.js.br
+2023/07/31 10:18:21 gz /tmp/work/build/3Dmol-nojquery.js -> /output/3Dmol-nojquery.js.gz
+2023/07/31 10:18:24 br /tmp/work/build/3Dmol.js -> /output/3Dmol.js.br
+2023/07/31 10:18:24 gz /tmp/work/build/3Dmol.js -> /output/3Dmol.js.gz
+2023/07/31 10:18:24 processed 3Dmol
