@@ -1,0 +1,416 @@
+2023/08/02 08:34:37 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/200-italic.min.css /tmp/work/200-italic.css
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/100-italic.min.css /tmp/work/100-italic.css
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/100.min.css /tmp/work/100.css
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/200.min.css /tmp/work/200.css
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/300-italic.min.css /tmp/work/300-italic.css
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/300.min.css /tmp/work/300.css
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/400.min.css /tmp/work/400.css
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/400-italic.min.css /tmp/work/400-italic.css
+2023/08/02 08:34:37 sri /tmp/work/300.min.css -> /output/300.min.css.sri
+2023/08/02 08:34:37 sri /tmp/work/400-italic.min.css -> /output/400-italic.min.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/300.min.css.br /tmp/work/300.min.css
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400-italic.min.css.br /tmp/work/400-italic.min.css
+2023/08/02 08:34:37 sri /tmp/work/300-italic.min.css -> /output/300-italic.min.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/300-italic.min.css.br /tmp/work/300-italic.min.css
+2023/08/02 08:34:37 sri /tmp/work/200.min.css -> /output/200.min.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/200.min.css.br /tmp/work/200.min.css
+2023/08/02 08:34:37 sri /tmp/work/400.min.css -> /output/400.min.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400.min.css.br /tmp/work/400.min.css
+2023/08/02 08:34:37 sri /tmp/work/100.min.css -> /output/100.min.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/100.min.css.br /tmp/work/100.min.css
+2023/08/02 08:34:37 br /tmp/work/300.min.css -> /output/300.min.css.br
+2023/08/02 08:34:37 sri /tmp/work/100-italic.min.css -> /output/100-italic.min.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/100-italic.min.css.br /tmp/work/100-italic.min.css
+2023/08/02 08:34:37 br /tmp/work/300-italic.min.css -> /output/300-italic.min.css.br
+2023/08/02 08:34:37 gz /tmp/work/300.min.css -> /output/300.min.css.gz
+2023/08/02 08:34:37 br /tmp/work/400-italic.min.css -> /output/400-italic.min.css.br
+2023/08/02 08:34:37 sri /tmp/work/300.css -> /output/300.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/300.css.br /tmp/work/300.css
+2023/08/02 08:34:37 br /tmp/work/200.min.css -> /output/200.min.css.br
+2023/08/02 08:34:37 sri /tmp/work/200-italic.min.css -> /output/200-italic.min.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/200-italic.min.css.br /tmp/work/200-italic.min.css
+2023/08/02 08:34:37 br /tmp/work/100.min.css -> /output/100.min.css.br
+2023/08/02 08:34:37 gz /tmp/work/300-italic.min.css -> /output/300-italic.min.css.gz
+2023/08/02 08:34:37 sri /tmp/work/300-italic.css -> /output/300-italic.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/300-italic.css.br /tmp/work/300-italic.css
+2023/08/02 08:34:37 br /tmp/work/400.min.css -> /output/400.min.css.br
+2023/08/02 08:34:37 gz /tmp/work/200.min.css -> /output/200.min.css.gz
+2023/08/02 08:34:37 gz /tmp/work/400-italic.min.css -> /output/400-italic.min.css.gz
+2023/08/02 08:34:37 sri /tmp/work/200.css -> /output/200.css.sri
+2023/08/02 08:34:37 br /tmp/work/100-italic.min.css -> /output/100-italic.min.css.br
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/200.css.br /tmp/work/200.css
+2023/08/02 08:34:37 gz /tmp/work/100.min.css -> /output/100.min.css.gz
+2023/08/02 08:34:37 br /tmp/work/200-italic.min.css -> /output/200-italic.min.css.br
+2023/08/02 08:34:37 sri /tmp/work/400-italic.css -> /output/400-italic.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400-italic.css.br /tmp/work/400-italic.css
+2023/08/02 08:34:37 sri /tmp/work/100.css -> /output/100.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/100.css.br /tmp/work/100.css
+2023/08/02 08:34:37 gz /tmp/work/100-italic.min.css -> /output/100-italic.min.css.gz
+2023/08/02 08:34:37 sri /tmp/work/100-italic.css -> /output/100-italic.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/100-italic.css.br /tmp/work/100-italic.css
+2023/08/02 08:34:37 br /tmp/work/300.css -> /output/300.css.br
+2023/08/02 08:34:37 gz /tmp/work/400.min.css -> /output/400.min.css.gz
+2023/08/02 08:34:37 sri /tmp/work/400.css -> /output/400.css.sri
+2023/08/02 08:34:37 gz /tmp/work/200-italic.min.css -> /output/200-italic.min.css.gz
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400.css.br /tmp/work/400.css
+2023/08/02 08:34:37 br /tmp/work/300-italic.css -> /output/300-italic.css.br
+2023/08/02 08:34:37 sri /tmp/work/200-italic.css -> /output/200-italic.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/200-italic.css.br /tmp/work/200-italic.css
+2023/08/02 08:34:37 gz /tmp/work/300.css -> /output/300.css.gz
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/500-italic.min.css /tmp/work/500-italic.css
+2023/08/02 08:34:37 gz /tmp/work/300-italic.css -> /output/300-italic.css.gz
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/500.min.css /tmp/work/500.css
+2023/08/02 08:34:37 br /tmp/work/200.css -> /output/200.css.br
+2023/08/02 08:34:37 br /tmp/work/100.css -> /output/100.css.br
+2023/08/02 08:34:37 br /tmp/work/400-italic.css -> /output/400-italic.css.br
+2023/08/02 08:34:37 gz /tmp/work/200.css -> /output/200.css.gz
+2023/08/02 08:34:37 br /tmp/work/100-italic.css -> /output/100-italic.css.br
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/600-italic.min.css /tmp/work/600-italic.css
+2023/08/02 08:34:37 gz /tmp/work/100.css -> /output/100.css.gz
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/600.min.css /tmp/work/600.css
+2023/08/02 08:34:37 gz /tmp/work/100-italic.css -> /output/100-italic.css.gz
+2023/08/02 08:34:37 gz /tmp/work/400-italic.css -> /output/400-italic.css.gz
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/700-italic.min.css /tmp/work/700-italic.css
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/700.min.css /tmp/work/700.css
+2023/08/02 08:34:37 br /tmp/work/200-italic.css -> /output/200-italic.css.br
+2023/08/02 08:34:37 gz /tmp/work/200-italic.css -> /output/200-italic.css.gz
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/800-italic.min.css /tmp/work/800-italic.css
+2023/08/02 08:34:37 br /tmp/work/400.css -> /output/400.css.br
+2023/08/02 08:34:37 gz /tmp/work/400.css -> /output/400.css.gz
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/800.min.css /tmp/work/800.css
+2023/08/02 08:34:37 sri /tmp/work/600.min.css -> /output/600.min.css.sri
+2023/08/02 08:34:37 sri /tmp/work/500.min.css -> /output/500.min.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/500.min.css.br /tmp/work/500.min.css
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/600.min.css.br /tmp/work/600.min.css
+2023/08/02 08:34:37 sri /tmp/work/700.min.css -> /output/700.min.css.sri
+2023/08/02 08:34:37 sri /tmp/work/600-italic.min.css -> /output/600-italic.min.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/700.min.css.br /tmp/work/700.min.css
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/600-italic.min.css.br /tmp/work/600-italic.min.css
+2023/08/02 08:34:37 sri /tmp/work/700-italic.min.css -> /output/700-italic.min.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/700-italic.min.css.br /tmp/work/700-italic.min.css
+2023/08/02 08:34:37 br /tmp/work/500.min.css -> /output/500.min.css.br
+2023/08/02 08:34:37 br /tmp/work/600-italic.min.css -> /output/600-italic.min.css.br
+2023/08/02 08:34:37 gz /tmp/work/500.min.css -> /output/500.min.css.gz
+2023/08/02 08:34:37 sri /tmp/work/500.css -> /output/500.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/500.css.br /tmp/work/500.css
+2023/08/02 08:34:37 sri /tmp/work/500-italic.min.css -> /output/500-italic.min.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/500-italic.min.css.br /tmp/work/500-italic.min.css
+2023/08/02 08:34:37 br /tmp/work/600.min.css -> /output/600.min.css.br
+2023/08/02 08:34:37 gz /tmp/work/600-italic.min.css -> /output/600-italic.min.css.gz
+2023/08/02 08:34:37 sri /tmp/work/600-italic.css -> /output/600-italic.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/600-italic.css.br /tmp/work/600-italic.css
+2023/08/02 08:34:37 gz /tmp/work/600.min.css -> /output/600.min.css.gz
+2023/08/02 08:34:37 br /tmp/work/700.min.css -> /output/700.min.css.br
+2023/08/02 08:34:37 sri /tmp/work/600.css -> /output/600.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/600.css.br /tmp/work/600.css
+2023/08/02 08:34:37 br /tmp/work/700-italic.min.css -> /output/700-italic.min.css.br
+2023/08/02 08:34:37 gz /tmp/work/700.min.css -> /output/700.min.css.gz
+2023/08/02 08:34:37 sri /tmp/work/700.css -> /output/700.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/700.css.br /tmp/work/700.css
+2023/08/02 08:34:37 gz /tmp/work/700-italic.min.css -> /output/700-italic.min.css.gz
+2023/08/02 08:34:37 sri /tmp/work/700-italic.css -> /output/700-italic.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/700-italic.css.br /tmp/work/700-italic.css
+2023/08/02 08:34:37 br /tmp/work/500-italic.min.css -> /output/500-italic.min.css.br
+2023/08/02 08:34:37 gz /tmp/work/500-italic.min.css -> /output/500-italic.min.css.gz
+2023/08/02 08:34:37 sri /tmp/work/500-italic.css -> /output/500-italic.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/500-italic.css.br /tmp/work/500-italic.css
+2023/08/02 08:34:37 sri /tmp/work/800.min.css -> /output/800.min.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/800.min.css.br /tmp/work/800.min.css
+2023/08/02 08:34:37 br /tmp/work/500.css -> /output/500.css.br
+2023/08/02 08:34:37 sri /tmp/work/800-italic.min.css -> /output/800-italic.min.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/800-italic.min.css.br /tmp/work/800-italic.min.css
+2023/08/02 08:34:37 br /tmp/work/600-italic.css -> /output/600-italic.css.br
+2023/08/02 08:34:37 gz /tmp/work/500.css -> /output/500.css.gz
+2023/08/02 08:34:37 gz /tmp/work/600-italic.css -> /output/600-italic.css.gz
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/900.min.css /tmp/work/900.css
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/900-italic.min.css /tmp/work/900-italic.css
+2023/08/02 08:34:37 br /tmp/work/600.css -> /output/600.css.br
+2023/08/02 08:34:37 gz /tmp/work/600.css -> /output/600.css.gz
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/all-100-italic.min.css /tmp/work/all-100-italic.css
+2023/08/02 08:34:37 br /tmp/work/700.css -> /output/700.css.br
+2023/08/02 08:34:37 br /tmp/work/700-italic.css -> /output/700-italic.css.br
+2023/08/02 08:34:37 gz /tmp/work/700.css -> /output/700.css.gz
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/all-100.min.css /tmp/work/all-100.css
+2023/08/02 08:34:37 br /tmp/work/800.min.css -> /output/800.min.css.br
+2023/08/02 08:34:37 br /tmp/work/500-italic.css -> /output/500-italic.css.br
+2023/08/02 08:34:37 gz /tmp/work/700-italic.css -> /output/700-italic.css.gz
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/all-200-italic.min.css /tmp/work/all-200-italic.css
+2023/08/02 08:34:37 gz /tmp/work/500-italic.css -> /output/500-italic.css.gz
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/all-200.min.css /tmp/work/all-200.css
+2023/08/02 08:34:37 gz /tmp/work/800.min.css -> /output/800.min.css.gz
+2023/08/02 08:34:37 sri /tmp/work/800.css -> /output/800.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/800.css.br /tmp/work/800.css
+2023/08/02 08:34:37 br /tmp/work/800-italic.min.css -> /output/800-italic.min.css.br
+2023/08/02 08:34:37 gz /tmp/work/800-italic.min.css -> /output/800-italic.min.css.gz
+2023/08/02 08:34:37 sri /tmp/work/800-italic.css -> /output/800-italic.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/800-italic.css.br /tmp/work/800-italic.css
+2023/08/02 08:34:37 br /tmp/work/800.css -> /output/800.css.br
+2023/08/02 08:34:37 gz /tmp/work/800.css -> /output/800.css.gz
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/all-300-italic.min.css /tmp/work/all-300-italic.css
+2023/08/02 08:34:37 br /tmp/work/800-italic.css -> /output/800-italic.css.br
+2023/08/02 08:34:37 gz /tmp/work/800-italic.css -> /output/800-italic.css.gz
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/all-300.min.css /tmp/work/all-300.css
+2023/08/02 08:34:37 sri /tmp/work/all-100.min.css -> /output/all-100.min.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-100.min.css.br /tmp/work/all-100.min.css
+2023/08/02 08:34:37 sri /tmp/work/900-italic.min.css -> /output/900-italic.min.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/900-italic.min.css.br /tmp/work/900-italic.min.css
+2023/08/02 08:34:37 sri /tmp/work/all-100-italic.min.css -> /output/all-100-italic.min.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-100-italic.min.css.br /tmp/work/all-100-italic.min.css
+2023/08/02 08:34:37 br /tmp/work/all-100.min.css -> /output/all-100.min.css.br
+2023/08/02 08:34:37 br /tmp/work/900-italic.min.css -> /output/900-italic.min.css.br
+2023/08/02 08:34:37 gz /tmp/work/all-100.min.css -> /output/all-100.min.css.gz
+2023/08/02 08:34:37 sri /tmp/work/all-100.css -> /output/all-100.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-100.css.br /tmp/work/all-100.css
+2023/08/02 08:34:37 gz /tmp/work/900-italic.min.css -> /output/900-italic.min.css.gz
+2023/08/02 08:34:37 sri /tmp/work/900-italic.css -> /output/900-italic.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/900-italic.css.br /tmp/work/900-italic.css
+2023/08/02 08:34:37 sri /tmp/work/all-200.min.css -> /output/all-200.min.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-200.min.css.br /tmp/work/all-200.min.css
+2023/08/02 08:34:37 br /tmp/work/all-100-italic.min.css -> /output/all-100-italic.min.css.br
+2023/08/02 08:34:37 gz /tmp/work/all-100-italic.min.css -> /output/all-100-italic.min.css.gz
+2023/08/02 08:34:37 sri /tmp/work/all-100-italic.css -> /output/all-100-italic.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-100-italic.css.br /tmp/work/all-100-italic.css
+2023/08/02 08:34:37 br /tmp/work/all-100.css -> /output/all-100.css.br
+2023/08/02 08:34:37 gz /tmp/work/all-100.css -> /output/all-100.css.gz
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/all-400-italic.min.css /tmp/work/all-400-italic.css
+2023/08/02 08:34:37 br /tmp/work/900-italic.css -> /output/900-italic.css.br
+2023/08/02 08:34:37 sri /tmp/work/900.min.css -> /output/900.min.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/900.min.css.br /tmp/work/900.min.css
+2023/08/02 08:34:37 gz /tmp/work/900-italic.css -> /output/900-italic.css.gz
+2023/08/02 08:34:37 br /tmp/work/all-200.min.css -> /output/all-200.min.css.br
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/all-400.min.css /tmp/work/all-400.css
+2023/08/02 08:34:37 br /tmp/work/all-100-italic.css -> /output/all-100-italic.css.br
+2023/08/02 08:34:37 gz /tmp/work/all-200.min.css -> /output/all-200.min.css.gz
+2023/08/02 08:34:37 sri /tmp/work/all-200.css -> /output/all-200.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-200.css.br /tmp/work/all-200.css
+2023/08/02 08:34:37 gz /tmp/work/all-100-italic.css -> /output/all-100-italic.css.gz
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/all-500-italic.min.css /tmp/work/all-500-italic.css
+2023/08/02 08:34:37 br /tmp/work/900.min.css -> /output/900.min.css.br
+2023/08/02 08:34:37 gz /tmp/work/900.min.css -> /output/900.min.css.gz
+2023/08/02 08:34:37 sri /tmp/work/900.css -> /output/900.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/900.css.br /tmp/work/900.css
+2023/08/02 08:34:37 br /tmp/work/all-200.css -> /output/all-200.css.br
+2023/08/02 08:34:37 gz /tmp/work/all-200.css -> /output/all-200.css.gz
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/all-500.min.css /tmp/work/all-500.css
+2023/08/02 08:34:37 br /tmp/work/900.css -> /output/900.css.br
+2023/08/02 08:34:37 sri /tmp/work/all-200-italic.min.css -> /output/all-200-italic.min.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-200-italic.min.css.br /tmp/work/all-200-italic.min.css
+2023/08/02 08:34:37 gz /tmp/work/900.css -> /output/900.css.gz
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/all-600-italic.min.css /tmp/work/all-600-italic.css
+2023/08/02 08:34:37 sri /tmp/work/all-300.min.css -> /output/all-300.min.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-300.min.css.br /tmp/work/all-300.min.css
+2023/08/02 08:34:37 br /tmp/work/all-200-italic.min.css -> /output/all-200-italic.min.css.br
+2023/08/02 08:34:37 gz /tmp/work/all-200-italic.min.css -> /output/all-200-italic.min.css.gz
+2023/08/02 08:34:37 sri /tmp/work/all-200-italic.css -> /output/all-200-italic.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-200-italic.css.br /tmp/work/all-200-italic.css
+2023/08/02 08:34:37 br /tmp/work/all-300.min.css -> /output/all-300.min.css.br
+2023/08/02 08:34:37 gz /tmp/work/all-300.min.css -> /output/all-300.min.css.gz
+2023/08/02 08:34:37 sri /tmp/work/all-300.css -> /output/all-300.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-300.css.br /tmp/work/all-300.css
+2023/08/02 08:34:37 br /tmp/work/all-200-italic.css -> /output/all-200-italic.css.br
+2023/08/02 08:34:37 gz /tmp/work/all-200-italic.css -> /output/all-200-italic.css.gz
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/all-600.min.css /tmp/work/all-600.css
+2023/08/02 08:34:37 br /tmp/work/all-300.css -> /output/all-300.css.br
+2023/08/02 08:34:37 gz /tmp/work/all-300.css -> /output/all-300.css.gz
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/all-700-italic.min.css /tmp/work/all-700-italic.css
+2023/08/02 08:34:37 sri /tmp/work/all-300-italic.min.css -> /output/all-300-italic.min.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-300-italic.min.css.br /tmp/work/all-300-italic.min.css
+2023/08/02 08:34:37 br /tmp/work/all-300-italic.min.css -> /output/all-300-italic.min.css.br
+2023/08/02 08:34:37 gz /tmp/work/all-300-italic.min.css -> /output/all-300-italic.min.css.gz
+2023/08/02 08:34:37 sri /tmp/work/all-300-italic.css -> /output/all-300-italic.css.sri
+2023/08/02 08:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-300-italic.css.br /tmp/work/all-300-italic.css
+2023/08/02 08:34:37 br /tmp/work/all-300-italic.css -> /output/all-300-italic.css.br
+2023/08/02 08:34:37 gz /tmp/work/all-300-italic.css -> /output/all-300-italic.css.gz
+2023/08/02 08:34:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/all-700.min.css /tmp/work/all-700.css
+2023/08/02 08:34:38 sri /tmp/work/all-400-italic.min.css -> /output/all-400-italic.min.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-400-italic.min.css.br /tmp/work/all-400-italic.min.css
+2023/08/02 08:34:38 sri /tmp/work/all-400.min.css -> /output/all-400.min.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-400.min.css.br /tmp/work/all-400.min.css
+2023/08/02 08:34:38 sri /tmp/work/all-500-italic.min.css -> /output/all-500-italic.min.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-500-italic.min.css.br /tmp/work/all-500-italic.min.css
+2023/08/02 08:34:38 br /tmp/work/all-400-italic.min.css -> /output/all-400-italic.min.css.br
+2023/08/02 08:34:38 gz /tmp/work/all-400-italic.min.css -> /output/all-400-italic.min.css.gz
+2023/08/02 08:34:38 sri /tmp/work/all-400-italic.css -> /output/all-400-italic.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-400-italic.css.br /tmp/work/all-400-italic.css
+2023/08/02 08:34:38 br /tmp/work/all-400.min.css -> /output/all-400.min.css.br
+2023/08/02 08:34:38 gz /tmp/work/all-400.min.css -> /output/all-400.min.css.gz
+2023/08/02 08:34:38 sri /tmp/work/all-400.css -> /output/all-400.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-400.css.br /tmp/work/all-400.css
+2023/08/02 08:34:38 br /tmp/work/all-500-italic.min.css -> /output/all-500-italic.min.css.br
+2023/08/02 08:34:38 gz /tmp/work/all-500-italic.min.css -> /output/all-500-italic.min.css.gz
+2023/08/02 08:34:38 sri /tmp/work/all-500-italic.css -> /output/all-500-italic.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-500-italic.css.br /tmp/work/all-500-italic.css
+2023/08/02 08:34:38 sri /tmp/work/all-500.min.css -> /output/all-500.min.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-500.min.css.br /tmp/work/all-500.min.css
+2023/08/02 08:34:38 br /tmp/work/all-400-italic.css -> /output/all-400-italic.css.br
+2023/08/02 08:34:38 gz /tmp/work/all-400-italic.css -> /output/all-400-italic.css.gz
+2023/08/02 08:34:38 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/all-800-italic.min.css /tmp/work/all-800-italic.css
+2023/08/02 08:34:38 br /tmp/work/all-400.css -> /output/all-400.css.br
+2023/08/02 08:34:38 gz /tmp/work/all-400.css -> /output/all-400.css.gz
+2023/08/02 08:34:38 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/all-800.min.css /tmp/work/all-800.css
+2023/08/02 08:34:38 br /tmp/work/all-500.min.css -> /output/all-500.min.css.br
+2023/08/02 08:34:38 gz /tmp/work/all-500.min.css -> /output/all-500.min.css.gz
+2023/08/02 08:34:38 br /tmp/work/all-500-italic.css -> /output/all-500-italic.css.br
+2023/08/02 08:34:38 sri /tmp/work/all-500.css -> /output/all-500.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-500.css.br /tmp/work/all-500.css
+2023/08/02 08:34:38 gz /tmp/work/all-500-italic.css -> /output/all-500-italic.css.gz
+2023/08/02 08:34:38 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/all-900-italic.min.css /tmp/work/all-900-italic.css
+2023/08/02 08:34:38 sri /tmp/work/all-600-italic.min.css -> /output/all-600-italic.min.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-600-italic.min.css.br /tmp/work/all-600-italic.min.css
+2023/08/02 08:34:38 br /tmp/work/all-500.css -> /output/all-500.css.br
+2023/08/02 08:34:38 gz /tmp/work/all-500.css -> /output/all-500.css.gz
+2023/08/02 08:34:38 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/all-900.min.css /tmp/work/all-900.css
+2023/08/02 08:34:38 sri /tmp/work/all-600.min.css -> /output/all-600.min.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-600.min.css.br /tmp/work/all-600.min.css
+2023/08/02 08:34:38 br /tmp/work/all-600-italic.min.css -> /output/all-600-italic.min.css.br
+2023/08/02 08:34:38 gz /tmp/work/all-600-italic.min.css -> /output/all-600-italic.min.css.gz
+2023/08/02 08:34:38 br /tmp/work/all-600.min.css -> /output/all-600.min.css.br
+2023/08/02 08:34:38 sri /tmp/work/all-600-italic.css -> /output/all-600-italic.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-600-italic.css.br /tmp/work/all-600-italic.css
+2023/08/02 08:34:38 sri /tmp/work/all-700-italic.min.css -> /output/all-700-italic.min.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-700-italic.min.css.br /tmp/work/all-700-italic.min.css
+2023/08/02 08:34:38 gz /tmp/work/all-600.min.css -> /output/all-600.min.css.gz
+2023/08/02 08:34:38 sri /tmp/work/all-600.css -> /output/all-600.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-600.css.br /tmp/work/all-600.css
+2023/08/02 08:34:38 br /tmp/work/all-700-italic.min.css -> /output/all-700-italic.min.css.br
+2023/08/02 08:34:38 gz /tmp/work/all-700-italic.min.css -> /output/all-700-italic.min.css.gz
+2023/08/02 08:34:38 sri /tmp/work/all-700-italic.css -> /output/all-700-italic.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-700-italic.css.br /tmp/work/all-700-italic.css
+2023/08/02 08:34:38 br /tmp/work/all-600-italic.css -> /output/all-600-italic.css.br
+2023/08/02 08:34:38 br /tmp/work/all-600.css -> /output/all-600.css.br
+2023/08/02 08:34:38 gz /tmp/work/all-600.css -> /output/all-600.css.gz
+2023/08/02 08:34:38 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/all.min.css /tmp/work/all.css
+2023/08/02 08:34:38 gz /tmp/work/all-600-italic.css -> /output/all-600-italic.css.gz
+2023/08/02 08:34:38 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/index.min.css /tmp/work/index.css
+2023/08/02 08:34:38 br /tmp/work/all-700-italic.css -> /output/all-700-italic.css.br
+2023/08/02 08:34:38 gz /tmp/work/all-700-italic.css -> /output/all-700-italic.css.gz
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/metropolis-all-100-italic.woff.br /tmp/work/files/metropolis-all-100-italic.woff
+2023/08/02 08:34:38 sri /tmp/work/all-700.min.css -> /output/all-700.min.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-700.min.css.br /tmp/work/all-700.min.css
+2023/08/02 08:34:38 br /tmp/work/all-700.min.css -> /output/all-700.min.css.br
+2023/08/02 08:34:38 gz /tmp/work/all-700.min.css -> /output/all-700.min.css.gz
+2023/08/02 08:34:38 sri /tmp/work/all-700.css -> /output/all-700.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-700.css.br /tmp/work/all-700.css
+2023/08/02 08:34:38 br /tmp/work/all-700.css -> /output/all-700.css.br
+2023/08/02 08:34:38 gz /tmp/work/all-700.css -> /output/all-700.css.gz
+2023/08/02 08:34:38 copy /tmp/work/files/metropolis-all-100-italic.woff2 -> /output/files/metropolis-all-100-italic.woff2
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/metropolis-all-100-normal.woff.br /tmp/work/files/metropolis-all-100-normal.woff
+2023/08/02 08:34:38 br /tmp/work/files/metropolis-all-100-italic.woff -> /output/files/metropolis-all-100-italic.woff.br
+2023/08/02 08:34:38 gz /tmp/work/files/metropolis-all-100-italic.woff -> /output/files/metropolis-all-100-italic.woff.gz
+2023/08/02 08:34:38 copy /tmp/work/files/metropolis-all-100-normal.woff2 -> /output/files/metropolis-all-100-normal.woff2
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/metropolis-all-200-italic.woff.br /tmp/work/files/metropolis-all-200-italic.woff
+2023/08/02 08:34:38 br /tmp/work/files/metropolis-all-100-normal.woff -> /output/files/metropolis-all-100-normal.woff.br
+2023/08/02 08:34:38 sri /tmp/work/all-800.min.css -> /output/all-800.min.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-800.min.css.br /tmp/work/all-800.min.css
+2023/08/02 08:34:38 gz /tmp/work/files/metropolis-all-100-normal.woff -> /output/files/metropolis-all-100-normal.woff.gz
+2023/08/02 08:34:38 sri /tmp/work/all-800-italic.min.css -> /output/all-800-italic.min.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-800-italic.min.css.br /tmp/work/all-800-italic.min.css
+2023/08/02 08:34:38 br /tmp/work/all-800.min.css -> /output/all-800.min.css.br
+2023/08/02 08:34:38 gz /tmp/work/all-800.min.css -> /output/all-800.min.css.gz
+2023/08/02 08:34:38 br /tmp/work/all-800-italic.min.css -> /output/all-800-italic.min.css.br
+2023/08/02 08:34:38 sri /tmp/work/all-800.css -> /output/all-800.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-800.css.br /tmp/work/all-800.css
+2023/08/02 08:34:38 gz /tmp/work/all-800-italic.min.css -> /output/all-800-italic.min.css.gz
+2023/08/02 08:34:38 sri /tmp/work/all-800-italic.css -> /output/all-800-italic.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-800-italic.css.br /tmp/work/all-800-italic.css
+2023/08/02 08:34:38 copy /tmp/work/files/metropolis-all-200-italic.woff2 -> /output/files/metropolis-all-200-italic.woff2
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/metropolis-all-200-normal.woff.br /tmp/work/files/metropolis-all-200-normal.woff
+2023/08/02 08:34:38 sri /tmp/work/all-900.min.css -> /output/all-900.min.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-900.min.css.br /tmp/work/all-900.min.css
+2023/08/02 08:34:38 br /tmp/work/all-800.css -> /output/all-800.css.br
+2023/08/02 08:34:38 gz /tmp/work/all-800.css -> /output/all-800.css.gz
+2023/08/02 08:34:38 br /tmp/work/all-800-italic.css -> /output/all-800-italic.css.br
+2023/08/02 08:34:38 gz /tmp/work/all-800-italic.css -> /output/all-800-italic.css.gz
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/metropolis-all-300-italic.woff.br /tmp/work/files/metropolis-all-300-italic.woff
+2023/08/02 08:34:38 br /tmp/work/all-900.min.css -> /output/all-900.min.css.br
+2023/08/02 08:34:38 gz /tmp/work/all-900.min.css -> /output/all-900.min.css.gz
+2023/08/02 08:34:38 sri /tmp/work/all-900.css -> /output/all-900.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-900.css.br /tmp/work/all-900.css
+2023/08/02 08:34:38 sri /tmp/work/all-900-italic.min.css -> /output/all-900-italic.min.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-900-italic.min.css.br /tmp/work/all-900-italic.min.css
+2023/08/02 08:34:38 copy /tmp/work/files/metropolis-all-200-normal.woff2 -> /output/files/metropolis-all-200-normal.woff2
+2023/08/02 08:34:38 br /tmp/work/all-900.css -> /output/all-900.css.br
+2023/08/02 08:34:38 gz /tmp/work/all-900.css -> /output/all-900.css.gz
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/metropolis-all-300-normal.woff.br /tmp/work/files/metropolis-all-300-normal.woff
+2023/08/02 08:34:38 sri /tmp/work/index.min.css -> /output/index.min.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.css.br /tmp/work/index.min.css
+2023/08/02 08:34:38 br /tmp/work/all-900-italic.min.css -> /output/all-900-italic.min.css.br
+2023/08/02 08:34:38 gz /tmp/work/all-900-italic.min.css -> /output/all-900-italic.min.css.gz
+2023/08/02 08:34:38 sri /tmp/work/all-900-italic.css -> /output/all-900-italic.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all-900-italic.css.br /tmp/work/all-900-italic.css
+2023/08/02 08:34:38 copy /tmp/work/files/metropolis-all-300-italic.woff2 -> /output/files/metropolis-all-300-italic.woff2
+2023/08/02 08:34:38 br /tmp/work/index.min.css -> /output/index.min.css.br
+2023/08/02 08:34:38 gz /tmp/work/index.min.css -> /output/index.min.css.gz
+2023/08/02 08:34:38 br /tmp/work/all-900-italic.css -> /output/all-900-italic.css.br
+2023/08/02 08:34:38 sri /tmp/work/index.css -> /output/index.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.css.br /tmp/work/index.css
+2023/08/02 08:34:38 gz /tmp/work/all-900-italic.css -> /output/all-900-italic.css.gz
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/metropolis-all-400-italic.woff.br /tmp/work/files/metropolis-all-400-italic.woff
+2023/08/02 08:34:38 copy /tmp/work/files/metropolis-all-300-normal.woff2 -> /output/files/metropolis-all-300-normal.woff2
+2023/08/02 08:34:38 br /tmp/work/index.css -> /output/index.css.br
+2023/08/02 08:34:38 gz /tmp/work/index.css -> /output/index.css.gz
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/metropolis-all-400-normal.woff.br /tmp/work/files/metropolis-all-400-normal.woff
+2023/08/02 08:34:38 copy /tmp/work/files/metropolis-all-400-italic.woff2 -> /output/files/metropolis-all-400-italic.woff2
+2023/08/02 08:34:38 copy /tmp/work/files/metropolis-all-400-normal.woff2 -> /output/files/metropolis-all-400-normal.woff2
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/metropolis-all-500-italic.woff.br /tmp/work/files/metropolis-all-500-italic.woff
+2023/08/02 08:34:38 sri /tmp/work/all.min.css -> /output/all.min.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all.min.css.br /tmp/work/all.min.css
+2023/08/02 08:34:38 br /tmp/work/all.min.css -> /output/all.min.css.br
+2023/08/02 08:34:38 gz /tmp/work/all.min.css -> /output/all.min.css.gz
+2023/08/02 08:34:38 sri /tmp/work/all.css -> /output/all.css.sri
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/all.css.br /tmp/work/all.css
+2023/08/02 08:34:38 br /tmp/work/all.css -> /output/all.css.br
+2023/08/02 08:34:38 gz /tmp/work/all.css -> /output/all.css.gz
+2023/08/02 08:34:38 copy /tmp/work/files/metropolis-all-500-italic.woff2 -> /output/files/metropolis-all-500-italic.woff2
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/metropolis-all-500-normal.woff.br /tmp/work/files/metropolis-all-500-normal.woff
+2023/08/02 08:34:38 br /tmp/work/files/metropolis-all-200-italic.woff -> /output/files/metropolis-all-200-italic.woff.br
+2023/08/02 08:34:38 gz /tmp/work/files/metropolis-all-200-italic.woff -> /output/files/metropolis-all-200-italic.woff.gz
+2023/08/02 08:34:38 br /tmp/work/files/metropolis-all-300-italic.woff -> /output/files/metropolis-all-300-italic.woff.br
+2023/08/02 08:34:38 copy /tmp/work/files/metropolis-all-500-normal.woff2 -> /output/files/metropolis-all-500-normal.woff2
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/metropolis-all-600-italic.woff.br /tmp/work/files/metropolis-all-600-italic.woff
+2023/08/02 08:34:38 gz /tmp/work/files/metropolis-all-300-italic.woff -> /output/files/metropolis-all-300-italic.woff.gz
+2023/08/02 08:34:38 br /tmp/work/files/metropolis-all-400-normal.woff -> /output/files/metropolis-all-400-normal.woff.br
+2023/08/02 08:34:38 gz /tmp/work/files/metropolis-all-400-normal.woff -> /output/files/metropolis-all-400-normal.woff.gz
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/metropolis-all-600-normal.woff.br /tmp/work/files/metropolis-all-600-normal.woff
+2023/08/02 08:34:38 copy /tmp/work/files/metropolis-all-600-italic.woff2 -> /output/files/metropolis-all-600-italic.woff2
+2023/08/02 08:34:38 copy /tmp/work/files/metropolis-all-600-normal.woff2 -> /output/files/metropolis-all-600-normal.woff2
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/metropolis-all-700-italic.woff.br /tmp/work/files/metropolis-all-700-italic.woff
+2023/08/02 08:34:38 br /tmp/work/files/metropolis-all-200-normal.woff -> /output/files/metropolis-all-200-normal.woff.br
+2023/08/02 08:34:38 gz /tmp/work/files/metropolis-all-200-normal.woff -> /output/files/metropolis-all-200-normal.woff.gz
+2023/08/02 08:34:38 copy /tmp/work/files/metropolis-all-700-italic.woff2 -> /output/files/metropolis-all-700-italic.woff2
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/metropolis-all-700-normal.woff.br /tmp/work/files/metropolis-all-700-normal.woff
+2023/08/02 08:34:38 br /tmp/work/files/metropolis-all-400-italic.woff -> /output/files/metropolis-all-400-italic.woff.br
+2023/08/02 08:34:38 gz /tmp/work/files/metropolis-all-400-italic.woff -> /output/files/metropolis-all-400-italic.woff.gz
+2023/08/02 08:34:38 copy /tmp/work/files/metropolis-all-700-normal.woff2 -> /output/files/metropolis-all-700-normal.woff2
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/metropolis-all-800-italic.woff.br /tmp/work/files/metropolis-all-800-italic.woff
+2023/08/02 08:34:38 br /tmp/work/files/metropolis-all-300-normal.woff -> /output/files/metropolis-all-300-normal.woff.br
+2023/08/02 08:34:38 gz /tmp/work/files/metropolis-all-300-normal.woff -> /output/files/metropolis-all-300-normal.woff.gz
+2023/08/02 08:34:38 copy /tmp/work/files/metropolis-all-800-italic.woff2 -> /output/files/metropolis-all-800-italic.woff2
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/metropolis-all-800-normal.woff.br /tmp/work/files/metropolis-all-800-normal.woff
+2023/08/02 08:34:38 br /tmp/work/files/metropolis-all-500-italic.woff -> /output/files/metropolis-all-500-italic.woff.br
+2023/08/02 08:34:38 gz /tmp/work/files/metropolis-all-500-italic.woff -> /output/files/metropolis-all-500-italic.woff.gz
+2023/08/02 08:34:38 copy /tmp/work/files/metropolis-all-800-normal.woff2 -> /output/files/metropolis-all-800-normal.woff2
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/metropolis-all-900-italic.woff.br /tmp/work/files/metropolis-all-900-italic.woff
+2023/08/02 08:34:38 br /tmp/work/files/metropolis-all-500-normal.woff -> /output/files/metropolis-all-500-normal.woff.br
+2023/08/02 08:34:38 gz /tmp/work/files/metropolis-all-500-normal.woff -> /output/files/metropolis-all-500-normal.woff.gz
+2023/08/02 08:34:38 copy /tmp/work/files/metropolis-all-900-italic.woff2 -> /output/files/metropolis-all-900-italic.woff2
+2023/08/02 08:34:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/metropolis-all-900-normal.woff.br /tmp/work/files/metropolis-all-900-normal.woff
+2023/08/02 08:34:38 br /tmp/work/files/metropolis-all-600-italic.woff -> /output/files/metropolis-all-600-italic.woff.br
+2023/08/02 08:34:38 gz /tmp/work/files/metropolis-all-600-italic.woff -> /output/files/metropolis-all-600-italic.woff.gz
+2023/08/02 08:34:38 copy /tmp/work/files/metropolis-all-900-normal.woff2 -> /output/files/metropolis-all-900-normal.woff2
+2023/08/02 08:34:38 br /tmp/work/files/metropolis-all-900-italic.woff -> /output/files/metropolis-all-900-italic.woff.br
+2023/08/02 08:34:38 br /tmp/work/files/metropolis-all-700-italic.woff -> /output/files/metropolis-all-700-italic.woff.br
+2023/08/02 08:34:38 gz /tmp/work/files/metropolis-all-900-italic.woff -> /output/files/metropolis-all-900-italic.woff.gz
+2023/08/02 08:34:38 gz /tmp/work/files/metropolis-all-700-italic.woff -> /output/files/metropolis-all-700-italic.woff.gz
+2023/08/02 08:34:38 br /tmp/work/files/metropolis-all-800-normal.woff -> /output/files/metropolis-all-800-normal.woff.br
+2023/08/02 08:34:38 gz /tmp/work/files/metropolis-all-800-normal.woff -> /output/files/metropolis-all-800-normal.woff.gz
+2023/08/02 08:34:38 br /tmp/work/files/metropolis-all-600-normal.woff -> /output/files/metropolis-all-600-normal.woff.br
+2023/08/02 08:34:38 gz /tmp/work/files/metropolis-all-600-normal.woff -> /output/files/metropolis-all-600-normal.woff.gz
+2023/08/02 08:34:38 br /tmp/work/files/metropolis-all-700-normal.woff -> /output/files/metropolis-all-700-normal.woff.br
+2023/08/02 08:34:38 gz /tmp/work/files/metropolis-all-700-normal.woff -> /output/files/metropolis-all-700-normal.woff.gz
+2023/08/02 08:34:38 br /tmp/work/files/metropolis-all-800-italic.woff -> /output/files/metropolis-all-800-italic.woff.br
+2023/08/02 08:34:38 gz /tmp/work/files/metropolis-all-800-italic.woff -> /output/files/metropolis-all-800-italic.woff.gz
+2023/08/02 08:34:38 br /tmp/work/files/metropolis-all-900-normal.woff -> /output/files/metropolis-all-900-normal.woff.br
+2023/08/02 08:34:38 gz /tmp/work/files/metropolis-all-900-normal.woff -> /output/files/metropolis-all-900-normal.woff.gz
+2023/08/02 08:34:38 processed fontsource-metropolis
