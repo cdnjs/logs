@@ -1,0 +1,602 @@
+2023/08/04 18:07:45 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/08/04 18:07:45 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/400.min.css /tmp/work/400.css
+2023/08/04 18:07:45 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-400.min.css /tmp/work/cyrillic-400.css
+2023/08/04 18:07:45 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/index.min.css /tmp/work/index.css
+2023/08/04 18:07:45 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic.min.css /tmp/work/cyrillic.css
+2023/08/04 18:07:45 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/japanese.min.css /tmp/work/japanese.css
+2023/08/04 18:07:45 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/greek-400.min.css /tmp/work/greek-400.css
+2023/08/04 18:07:45 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/japanese-400.min.css /tmp/work/japanese-400.css
+2023/08/04 18:07:45 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/greek.min.css /tmp/work/greek.css
+2023/08/04 18:07:46 sri /tmp/work/greek-400.min.css -> /output/greek-400.min.css.sri
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-400.min.css.br /tmp/work/greek-400.min.css
+2023/08/04 18:07:46 sri /tmp/work/cyrillic-400.min.css -> /output/cyrillic-400.min.css.sri
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-400.min.css.br /tmp/work/cyrillic-400.min.css
+2023/08/04 18:07:46 sri /tmp/work/japanese.min.css -> /output/japanese.min.css.sri
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/japanese.min.css.br /tmp/work/japanese.min.css
+2023/08/04 18:07:46 br /tmp/work/greek-400.min.css -> /output/greek-400.min.css.br
+2023/08/04 18:07:46 gz /tmp/work/greek-400.min.css -> /output/greek-400.min.css.gz
+2023/08/04 18:07:46 sri /tmp/work/greek-400.css -> /output/greek-400.css.sri
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-400.css.br /tmp/work/greek-400.css
+2023/08/04 18:07:46 sri /tmp/work/greek.min.css -> /output/greek.min.css.sri
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek.min.css.br /tmp/work/greek.min.css
+2023/08/04 18:07:46 br /tmp/work/cyrillic-400.min.css -> /output/cyrillic-400.min.css.br
+2023/08/04 18:07:46 sri /tmp/work/japanese-400.min.css -> /output/japanese-400.min.css.sri
+2023/08/04 18:07:46 br /tmp/work/japanese.min.css -> /output/japanese.min.css.br
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/japanese-400.min.css.br /tmp/work/japanese-400.min.css
+2023/08/04 18:07:46 gz /tmp/work/cyrillic-400.min.css -> /output/cyrillic-400.min.css.gz
+2023/08/04 18:07:46 sri /tmp/work/cyrillic-400.css -> /output/cyrillic-400.css.sri
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-400.css.br /tmp/work/cyrillic-400.css
+2023/08/04 18:07:46 gz /tmp/work/japanese.min.css -> /output/japanese.min.css.gz
+2023/08/04 18:07:46 sri /tmp/work/japanese.css -> /output/japanese.css.sri
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/japanese.css.br /tmp/work/japanese.css
+2023/08/04 18:07:46 sri /tmp/work/cyrillic.min.css -> /output/cyrillic.min.css.sri
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic.min.css.br /tmp/work/cyrillic.min.css
+2023/08/04 18:07:46 br /tmp/work/greek.min.css -> /output/greek.min.css.br
+2023/08/04 18:07:46 br /tmp/work/greek-400.css -> /output/greek-400.css.br
+2023/08/04 18:07:46 gz /tmp/work/greek.min.css -> /output/greek.min.css.gz
+2023/08/04 18:07:46 sri /tmp/work/greek.css -> /output/greek.css.sri
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek.css.br /tmp/work/greek.css
+2023/08/04 18:07:46 gz /tmp/work/greek-400.css -> /output/greek-400.css.gz
+2023/08/04 18:07:46 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-400.min.css /tmp/work/latin-400.css
+2023/08/04 18:07:46 br /tmp/work/japanese-400.min.css -> /output/japanese-400.min.css.br
+2023/08/04 18:07:46 gz /tmp/work/japanese-400.min.css -> /output/japanese-400.min.css.gz
+2023/08/04 18:07:46 sri /tmp/work/japanese-400.css -> /output/japanese-400.css.sri
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/japanese-400.css.br /tmp/work/japanese-400.css
+2023/08/04 18:07:46 br /tmp/work/japanese.css -> /output/japanese.css.br
+2023/08/04 18:07:46 br /tmp/work/cyrillic-400.css -> /output/cyrillic-400.css.br
+2023/08/04 18:07:46 br /tmp/work/cyrillic.min.css -> /output/cyrillic.min.css.br
+2023/08/04 18:07:46 gz /tmp/work/cyrillic-400.css -> /output/cyrillic-400.css.gz
+2023/08/04 18:07:46 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-ext-400.min.css /tmp/work/latin-ext-400.css
+2023/08/04 18:07:46 gz /tmp/work/cyrillic.min.css -> /output/cyrillic.min.css.gz
+2023/08/04 18:07:46 sri /tmp/work/cyrillic.css -> /output/cyrillic.css.sri
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic.css.br /tmp/work/cyrillic.css
+2023/08/04 18:07:46 br /tmp/work/greek.css -> /output/greek.css.br
+2023/08/04 18:07:46 gz /tmp/work/japanese.css -> /output/japanese.css.gz
+2023/08/04 18:07:46 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-ext.min.css /tmp/work/latin-ext.css
+2023/08/04 18:07:46 br /tmp/work/japanese-400.css -> /output/japanese-400.css.br
+2023/08/04 18:07:46 gz /tmp/work/greek.css -> /output/greek.css.gz
+2023/08/04 18:07:46 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin.min.css /tmp/work/latin.css
+2023/08/04 18:07:46 gz /tmp/work/japanese-400.css -> /output/japanese-400.css.gz
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-10-400-normal.woff.br /tmp/work/files/zen-antique-soft-10-400-normal.woff
+2023/08/04 18:07:46 br /tmp/work/cyrillic.css -> /output/cyrillic.css.br
+2023/08/04 18:07:46 gz /tmp/work/cyrillic.css -> /output/cyrillic.css.gz
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-10-400-normal.woff2 -> /output/files/zen-antique-soft-10-400-normal.woff2
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-100-400-normal.woff.br /tmp/work/files/zen-antique-soft-100-400-normal.woff
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-10-400-normal.woff -> /output/files/zen-antique-soft-10-400-normal.woff.br
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-10-400-normal.woff -> /output/files/zen-antique-soft-10-400-normal.woff.gz
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-100-400-normal.woff2 -> /output/files/zen-antique-soft-100-400-normal.woff2
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-101-400-normal.woff.br /tmp/work/files/zen-antique-soft-101-400-normal.woff
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-100-400-normal.woff -> /output/files/zen-antique-soft-100-400-normal.woff.br
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-100-400-normal.woff -> /output/files/zen-antique-soft-100-400-normal.woff.gz
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-101-400-normal.woff2 -> /output/files/zen-antique-soft-101-400-normal.woff2
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-102-400-normal.woff.br /tmp/work/files/zen-antique-soft-102-400-normal.woff
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-101-400-normal.woff -> /output/files/zen-antique-soft-101-400-normal.woff.br
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-101-400-normal.woff -> /output/files/zen-antique-soft-101-400-normal.woff.gz
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-102-400-normal.woff2 -> /output/files/zen-antique-soft-102-400-normal.woff2
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-103-400-normal.woff.br /tmp/work/files/zen-antique-soft-103-400-normal.woff
+2023/08/04 18:07:46 sri /tmp/work/latin.min.css -> /output/latin.min.css.sri
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin.min.css.br /tmp/work/latin.min.css
+2023/08/04 18:07:46 sri /tmp/work/latin-ext.min.css -> /output/latin-ext.min.css.sri
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext.min.css.br /tmp/work/latin-ext.min.css
+2023/08/04 18:07:46 sri /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.sri
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-400.min.css.br /tmp/work/latin-ext-400.min.css
+2023/08/04 18:07:46 br /tmp/work/latin.min.css -> /output/latin.min.css.br
+2023/08/04 18:07:46 gz /tmp/work/latin.min.css -> /output/latin.min.css.gz
+2023/08/04 18:07:46 sri /tmp/work/latin.css -> /output/latin.css.sri
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin.css.br /tmp/work/latin.css
+2023/08/04 18:07:46 sri /tmp/work/latin-400.min.css -> /output/latin-400.min.css.sri
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400.min.css.br /tmp/work/latin-400.min.css
+2023/08/04 18:07:46 br /tmp/work/latin-ext.min.css -> /output/latin-ext.min.css.br
+2023/08/04 18:07:46 gz /tmp/work/latin-ext.min.css -> /output/latin-ext.min.css.gz
+2023/08/04 18:07:46 sri /tmp/work/latin-ext.css -> /output/latin-ext.css.sri
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext.css.br /tmp/work/latin-ext.css
+2023/08/04 18:07:46 br /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.br
+2023/08/04 18:07:46 gz /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.gz
+2023/08/04 18:07:46 sri /tmp/work/latin-ext-400.css -> /output/latin-ext-400.css.sri
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-400.css.br /tmp/work/latin-ext-400.css
+2023/08/04 18:07:46 br /tmp/work/latin.css -> /output/latin.css.br
+2023/08/04 18:07:46 gz /tmp/work/latin.css -> /output/latin.css.gz
+2023/08/04 18:07:46 br /tmp/work/latin-ext.css -> /output/latin-ext.css.br
+2023/08/04 18:07:46 gz /tmp/work/latin-ext.css -> /output/latin-ext.css.gz
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-103-400-normal.woff2 -> /output/files/zen-antique-soft-103-400-normal.woff2
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-104-400-normal.woff.br /tmp/work/files/zen-antique-soft-104-400-normal.woff
+2023/08/04 18:07:46 br /tmp/work/latin-ext-400.css -> /output/latin-ext-400.css.br
+2023/08/04 18:07:46 gz /tmp/work/latin-ext-400.css -> /output/latin-ext-400.css.gz
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-105-400-normal.woff.br /tmp/work/files/zen-antique-soft-105-400-normal.woff
+2023/08/04 18:07:46 br /tmp/work/latin-400.min.css -> /output/latin-400.min.css.br
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-104-400-normal.woff2 -> /output/files/zen-antique-soft-104-400-normal.woff2
+2023/08/04 18:07:46 gz /tmp/work/latin-400.min.css -> /output/latin-400.min.css.gz
+2023/08/04 18:07:46 sri /tmp/work/latin-400.css -> /output/latin-400.css.sri
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-105-400-normal.woff2 -> /output/files/zen-antique-soft-105-400-normal.woff2
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-106-400-normal.woff.br /tmp/work/files/zen-antique-soft-106-400-normal.woff
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400.css.br /tmp/work/latin-400.css
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-102-400-normal.woff -> /output/files/zen-antique-soft-102-400-normal.woff.br
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-102-400-normal.woff -> /output/files/zen-antique-soft-102-400-normal.woff.gz
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-106-400-normal.woff2 -> /output/files/zen-antique-soft-106-400-normal.woff2
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-107-400-normal.woff.br /tmp/work/files/zen-antique-soft-107-400-normal.woff
+2023/08/04 18:07:46 br /tmp/work/latin-400.css -> /output/latin-400.css.br
+2023/08/04 18:07:46 gz /tmp/work/latin-400.css -> /output/latin-400.css.gz
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-107-400-normal.woff2 -> /output/files/zen-antique-soft-107-400-normal.woff2
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-108-400-normal.woff.br /tmp/work/files/zen-antique-soft-108-400-normal.woff
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-103-400-normal.woff -> /output/files/zen-antique-soft-103-400-normal.woff.br
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-103-400-normal.woff -> /output/files/zen-antique-soft-103-400-normal.woff.gz
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-108-400-normal.woff2 -> /output/files/zen-antique-soft-108-400-normal.woff2
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-109-400-normal.woff.br /tmp/work/files/zen-antique-soft-109-400-normal.woff
+2023/08/04 18:07:46 sri /tmp/work/index.min.css -> /output/index.min.css.sri
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.css.br /tmp/work/index.min.css
+2023/08/04 18:07:46 sri /tmp/work/400.min.css -> /output/400.min.css.sri
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400.min.css.br /tmp/work/400.min.css
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-106-400-normal.woff -> /output/files/zen-antique-soft-106-400-normal.woff.br
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-104-400-normal.woff -> /output/files/zen-antique-soft-104-400-normal.woff.br
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-106-400-normal.woff -> /output/files/zen-antique-soft-106-400-normal.woff.gz
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-104-400-normal.woff -> /output/files/zen-antique-soft-104-400-normal.woff.gz
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-11-400-normal.woff.br /tmp/work/files/zen-antique-soft-11-400-normal.woff
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-105-400-normal.woff -> /output/files/zen-antique-soft-105-400-normal.woff.br
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-109-400-normal.woff2 -> /output/files/zen-antique-soft-109-400-normal.woff2
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-105-400-normal.woff -> /output/files/zen-antique-soft-105-400-normal.woff.gz
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-110-400-normal.woff.br /tmp/work/files/zen-antique-soft-110-400-normal.woff
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-11-400-normal.woff2 -> /output/files/zen-antique-soft-11-400-normal.woff2
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-110-400-normal.woff2 -> /output/files/zen-antique-soft-110-400-normal.woff2
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-111-400-normal.woff.br /tmp/work/files/zen-antique-soft-111-400-normal.woff
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-107-400-normal.woff -> /output/files/zen-antique-soft-107-400-normal.woff.br
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-107-400-normal.woff -> /output/files/zen-antique-soft-107-400-normal.woff.gz
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-111-400-normal.woff2 -> /output/files/zen-antique-soft-111-400-normal.woff2
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-112-400-normal.woff.br /tmp/work/files/zen-antique-soft-112-400-normal.woff
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-109-400-normal.woff -> /output/files/zen-antique-soft-109-400-normal.woff.br
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-109-400-normal.woff -> /output/files/zen-antique-soft-109-400-normal.woff.gz
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-112-400-normal.woff2 -> /output/files/zen-antique-soft-112-400-normal.woff2
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-113-400-normal.woff.br /tmp/work/files/zen-antique-soft-113-400-normal.woff
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-11-400-normal.woff -> /output/files/zen-antique-soft-11-400-normal.woff.br
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-11-400-normal.woff -> /output/files/zen-antique-soft-11-400-normal.woff.gz
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-113-400-normal.woff2 -> /output/files/zen-antique-soft-113-400-normal.woff2
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-114-400-normal.woff.br /tmp/work/files/zen-antique-soft-114-400-normal.woff
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-108-400-normal.woff -> /output/files/zen-antique-soft-108-400-normal.woff.br
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-108-400-normal.woff -> /output/files/zen-antique-soft-108-400-normal.woff.gz
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-114-400-normal.woff2 -> /output/files/zen-antique-soft-114-400-normal.woff2
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-115-400-normal.woff.br /tmp/work/files/zen-antique-soft-115-400-normal.woff
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-112-400-normal.woff -> /output/files/zen-antique-soft-112-400-normal.woff.br
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-110-400-normal.woff -> /output/files/zen-antique-soft-110-400-normal.woff.br
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-110-400-normal.woff -> /output/files/zen-antique-soft-110-400-normal.woff.gz
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-111-400-normal.woff -> /output/files/zen-antique-soft-111-400-normal.woff.br
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-112-400-normal.woff -> /output/files/zen-antique-soft-112-400-normal.woff.gz
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-116-400-normal.woff.br /tmp/work/files/zen-antique-soft-116-400-normal.woff
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-111-400-normal.woff -> /output/files/zen-antique-soft-111-400-normal.woff.gz
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-115-400-normal.woff2 -> /output/files/zen-antique-soft-115-400-normal.woff2
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-117-400-normal.woff.br /tmp/work/files/zen-antique-soft-117-400-normal.woff
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-116-400-normal.woff2 -> /output/files/zen-antique-soft-116-400-normal.woff2
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-117-400-normal.woff2 -> /output/files/zen-antique-soft-117-400-normal.woff2
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-118-400-normal.woff.br /tmp/work/files/zen-antique-soft-118-400-normal.woff
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-115-400-normal.woff -> /output/files/zen-antique-soft-115-400-normal.woff.br
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-115-400-normal.woff -> /output/files/zen-antique-soft-115-400-normal.woff.gz
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-118-400-normal.woff2 -> /output/files/zen-antique-soft-118-400-normal.woff2
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-119-400-normal.woff.br /tmp/work/files/zen-antique-soft-119-400-normal.woff
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-114-400-normal.woff -> /output/files/zen-antique-soft-114-400-normal.woff.br
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-114-400-normal.woff -> /output/files/zen-antique-soft-114-400-normal.woff.gz
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-119-400-normal.woff2 -> /output/files/zen-antique-soft-119-400-normal.woff2
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-12-400-normal.woff.br /tmp/work/files/zen-antique-soft-12-400-normal.woff
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-113-400-normal.woff -> /output/files/zen-antique-soft-113-400-normal.woff.br
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-113-400-normal.woff -> /output/files/zen-antique-soft-113-400-normal.woff.gz
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-12-400-normal.woff2 -> /output/files/zen-antique-soft-12-400-normal.woff2
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-13-400-normal.woff.br /tmp/work/files/zen-antique-soft-13-400-normal.woff
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-117-400-normal.woff -> /output/files/zen-antique-soft-117-400-normal.woff.br
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-117-400-normal.woff -> /output/files/zen-antique-soft-117-400-normal.woff.gz
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-13-400-normal.woff2 -> /output/files/zen-antique-soft-13-400-normal.woff2
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-14-400-normal.woff.br /tmp/work/files/zen-antique-soft-14-400-normal.woff
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-118-400-normal.woff -> /output/files/zen-antique-soft-118-400-normal.woff.br
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-118-400-normal.woff -> /output/files/zen-antique-soft-118-400-normal.woff.gz
+2023/08/04 18:07:46 br /tmp/work/400.min.css -> /output/400.min.css.br
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-14-400-normal.woff2 -> /output/files/zen-antique-soft-14-400-normal.woff2
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-15-400-normal.woff.br /tmp/work/files/zen-antique-soft-15-400-normal.woff
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-116-400-normal.woff -> /output/files/zen-antique-soft-116-400-normal.woff.br
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-116-400-normal.woff -> /output/files/zen-antique-soft-116-400-normal.woff.gz
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-12-400-normal.woff -> /output/files/zen-antique-soft-12-400-normal.woff.br
+2023/08/04 18:07:46 br /tmp/work/index.min.css -> /output/index.min.css.br
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-15-400-normal.woff2 -> /output/files/zen-antique-soft-15-400-normal.woff2
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-16-400-normal.woff.br /tmp/work/files/zen-antique-soft-16-400-normal.woff
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-12-400-normal.woff -> /output/files/zen-antique-soft-12-400-normal.woff.gz
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-13-400-normal.woff -> /output/files/zen-antique-soft-13-400-normal.woff.br
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-13-400-normal.woff -> /output/files/zen-antique-soft-13-400-normal.woff.gz
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-16-400-normal.woff2 -> /output/files/zen-antique-soft-16-400-normal.woff2
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-17-400-normal.woff.br /tmp/work/files/zen-antique-soft-17-400-normal.woff
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-17-400-normal.woff2 -> /output/files/zen-antique-soft-17-400-normal.woff2
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-18-400-normal.woff.br /tmp/work/files/zen-antique-soft-18-400-normal.woff
+2023/08/04 18:07:46 gz /tmp/work/400.min.css -> /output/400.min.css.gz
+2023/08/04 18:07:46 sri /tmp/work/400.css -> /output/400.css.sri
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400.css.br /tmp/work/400.css
+2023/08/04 18:07:46 gz /tmp/work/index.min.css -> /output/index.min.css.gz
+2023/08/04 18:07:46 sri /tmp/work/index.css -> /output/index.css.sri
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.css.br /tmp/work/index.css
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-14-400-normal.woff -> /output/files/zen-antique-soft-14-400-normal.woff.br
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-14-400-normal.woff -> /output/files/zen-antique-soft-14-400-normal.woff.gz
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-16-400-normal.woff -> /output/files/zen-antique-soft-16-400-normal.woff.br
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-18-400-normal.woff2 -> /output/files/zen-antique-soft-18-400-normal.woff2
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-19-400-normal.woff.br /tmp/work/files/zen-antique-soft-19-400-normal.woff
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-16-400-normal.woff -> /output/files/zen-antique-soft-16-400-normal.woff.gz
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-15-400-normal.woff -> /output/files/zen-antique-soft-15-400-normal.woff.br
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-19-400-normal.woff2 -> /output/files/zen-antique-soft-19-400-normal.woff2
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-2-400-normal.woff.br /tmp/work/files/zen-antique-soft-2-400-normal.woff
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-15-400-normal.woff -> /output/files/zen-antique-soft-15-400-normal.woff.gz
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-17-400-normal.woff -> /output/files/zen-antique-soft-17-400-normal.woff.br
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-2-400-normal.woff2 -> /output/files/zen-antique-soft-2-400-normal.woff2
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-20-400-normal.woff.br /tmp/work/files/zen-antique-soft-20-400-normal.woff
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-18-400-normal.woff -> /output/files/zen-antique-soft-18-400-normal.woff.br
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-17-400-normal.woff -> /output/files/zen-antique-soft-17-400-normal.woff.gz
+2023/08/04 18:07:46 gz /tmp/work/files/zen-antique-soft-18-400-normal.woff -> /output/files/zen-antique-soft-18-400-normal.woff.gz
+2023/08/04 18:07:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-21-400-normal.woff.br /tmp/work/files/zen-antique-soft-21-400-normal.woff
+2023/08/04 18:07:46 copy /tmp/work/files/zen-antique-soft-20-400-normal.woff2 -> /output/files/zen-antique-soft-20-400-normal.woff2
+2023/08/04 18:07:46 br /tmp/work/files/zen-antique-soft-2-400-normal.woff -> /output/files/zen-antique-soft-2-400-normal.woff.br
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-21-400-normal.woff2 -> /output/files/zen-antique-soft-21-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-22-400-normal.woff.br /tmp/work/files/zen-antique-soft-22-400-normal.woff
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-2-400-normal.woff -> /output/files/zen-antique-soft-2-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-22-400-normal.woff2 -> /output/files/zen-antique-soft-22-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-23-400-normal.woff.br /tmp/work/files/zen-antique-soft-23-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-20-400-normal.woff -> /output/files/zen-antique-soft-20-400-normal.woff.br
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-19-400-normal.woff -> /output/files/zen-antique-soft-19-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-20-400-normal.woff -> /output/files/zen-antique-soft-20-400-normal.woff.gz
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-19-400-normal.woff -> /output/files/zen-antique-soft-19-400-normal.woff.gz
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-24-400-normal.woff.br /tmp/work/files/zen-antique-soft-24-400-normal.woff
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-23-400-normal.woff2 -> /output/files/zen-antique-soft-23-400-normal.woff2
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-24-400-normal.woff2 -> /output/files/zen-antique-soft-24-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-25-400-normal.woff.br /tmp/work/files/zen-antique-soft-25-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-21-400-normal.woff -> /output/files/zen-antique-soft-21-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-21-400-normal.woff -> /output/files/zen-antique-soft-21-400-normal.woff.gz
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-22-400-normal.woff -> /output/files/zen-antique-soft-22-400-normal.woff.br
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-25-400-normal.woff2 -> /output/files/zen-antique-soft-25-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-26-400-normal.woff.br /tmp/work/files/zen-antique-soft-26-400-normal.woff
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-22-400-normal.woff -> /output/files/zen-antique-soft-22-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-26-400-normal.woff2 -> /output/files/zen-antique-soft-26-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-27-400-normal.woff.br /tmp/work/files/zen-antique-soft-27-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-119-400-normal.woff -> /output/files/zen-antique-soft-119-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-119-400-normal.woff -> /output/files/zen-antique-soft-119-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-27-400-normal.woff2 -> /output/files/zen-antique-soft-27-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-28-400-normal.woff.br /tmp/work/files/zen-antique-soft-28-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-23-400-normal.woff -> /output/files/zen-antique-soft-23-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-23-400-normal.woff -> /output/files/zen-antique-soft-23-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-28-400-normal.woff2 -> /output/files/zen-antique-soft-28-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-29-400-normal.woff.br /tmp/work/files/zen-antique-soft-29-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-24-400-normal.woff -> /output/files/zen-antique-soft-24-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-24-400-normal.woff -> /output/files/zen-antique-soft-24-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-29-400-normal.woff2 -> /output/files/zen-antique-soft-29-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-3-400-normal.woff.br /tmp/work/files/zen-antique-soft-3-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-26-400-normal.woff -> /output/files/zen-antique-soft-26-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-26-400-normal.woff -> /output/files/zen-antique-soft-26-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-3-400-normal.woff2 -> /output/files/zen-antique-soft-3-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-30-400-normal.woff.br /tmp/work/files/zen-antique-soft-30-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-25-400-normal.woff -> /output/files/zen-antique-soft-25-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-25-400-normal.woff -> /output/files/zen-antique-soft-25-400-normal.woff.gz
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-27-400-normal.woff -> /output/files/zen-antique-soft-27-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-27-400-normal.woff -> /output/files/zen-antique-soft-27-400-normal.woff.gz
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-31-400-normal.woff.br /tmp/work/files/zen-antique-soft-31-400-normal.woff
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-30-400-normal.woff2 -> /output/files/zen-antique-soft-30-400-normal.woff2
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-31-400-normal.woff2 -> /output/files/zen-antique-soft-31-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-32-400-normal.woff.br /tmp/work/files/zen-antique-soft-32-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-28-400-normal.woff -> /output/files/zen-antique-soft-28-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-28-400-normal.woff -> /output/files/zen-antique-soft-28-400-normal.woff.gz
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-29-400-normal.woff -> /output/files/zen-antique-soft-29-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-29-400-normal.woff -> /output/files/zen-antique-soft-29-400-normal.woff.gz
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-33-400-normal.woff.br /tmp/work/files/zen-antique-soft-33-400-normal.woff
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-32-400-normal.woff2 -> /output/files/zen-antique-soft-32-400-normal.woff2
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-33-400-normal.woff2 -> /output/files/zen-antique-soft-33-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-34-400-normal.woff.br /tmp/work/files/zen-antique-soft-34-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-30-400-normal.woff -> /output/files/zen-antique-soft-30-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-30-400-normal.woff -> /output/files/zen-antique-soft-30-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-34-400-normal.woff2 -> /output/files/zen-antique-soft-34-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-35-400-normal.woff.br /tmp/work/files/zen-antique-soft-35-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-31-400-normal.woff -> /output/files/zen-antique-soft-31-400-normal.woff.br
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-3-400-normal.woff -> /output/files/zen-antique-soft-3-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-3-400-normal.woff -> /output/files/zen-antique-soft-3-400-normal.woff.gz
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-31-400-normal.woff -> /output/files/zen-antique-soft-31-400-normal.woff.gz
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-36-400-normal.woff.br /tmp/work/files/zen-antique-soft-36-400-normal.woff
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-35-400-normal.woff2 -> /output/files/zen-antique-soft-35-400-normal.woff2
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-36-400-normal.woff2 -> /output/files/zen-antique-soft-36-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-37-400-normal.woff.br /tmp/work/files/zen-antique-soft-37-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-32-400-normal.woff -> /output/files/zen-antique-soft-32-400-normal.woff.br
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-33-400-normal.woff -> /output/files/zen-antique-soft-33-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-32-400-normal.woff -> /output/files/zen-antique-soft-32-400-normal.woff.gz
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-33-400-normal.woff -> /output/files/zen-antique-soft-33-400-normal.woff.gz
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-38-400-normal.woff.br /tmp/work/files/zen-antique-soft-38-400-normal.woff
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-37-400-normal.woff2 -> /output/files/zen-antique-soft-37-400-normal.woff2
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-38-400-normal.woff2 -> /output/files/zen-antique-soft-38-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-39-400-normal.woff.br /tmp/work/files/zen-antique-soft-39-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-34-400-normal.woff -> /output/files/zen-antique-soft-34-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-34-400-normal.woff -> /output/files/zen-antique-soft-34-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-39-400-normal.woff2 -> /output/files/zen-antique-soft-39-400-normal.woff2
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-36-400-normal.woff -> /output/files/zen-antique-soft-36-400-normal.woff.br
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-4-400-normal.woff.br /tmp/work/files/zen-antique-soft-4-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-35-400-normal.woff -> /output/files/zen-antique-soft-35-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-36-400-normal.woff -> /output/files/zen-antique-soft-36-400-normal.woff.gz
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-35-400-normal.woff -> /output/files/zen-antique-soft-35-400-normal.woff.gz
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-40-400-normal.woff.br /tmp/work/files/zen-antique-soft-40-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-4-400-normal.woff -> /output/files/zen-antique-soft-4-400-normal.woff.br
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-4-400-normal.woff2 -> /output/files/zen-antique-soft-4-400-normal.woff2
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-38-400-normal.woff -> /output/files/zen-antique-soft-38-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-4-400-normal.woff -> /output/files/zen-antique-soft-4-400-normal.woff.gz
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-41-400-normal.woff.br /tmp/work/files/zen-antique-soft-41-400-normal.woff
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-38-400-normal.woff -> /output/files/zen-antique-soft-38-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-40-400-normal.woff2 -> /output/files/zen-antique-soft-40-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-42-400-normal.woff.br /tmp/work/files/zen-antique-soft-42-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-37-400-normal.woff -> /output/files/zen-antique-soft-37-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-37-400-normal.woff -> /output/files/zen-antique-soft-37-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-41-400-normal.woff2 -> /output/files/zen-antique-soft-41-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-43-400-normal.woff.br /tmp/work/files/zen-antique-soft-43-400-normal.woff
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-42-400-normal.woff2 -> /output/files/zen-antique-soft-42-400-normal.woff2
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-43-400-normal.woff2 -> /output/files/zen-antique-soft-43-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-44-400-normal.woff.br /tmp/work/files/zen-antique-soft-44-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/index.css -> /output/index.css.br
+2023/08/04 18:07:47 gz /tmp/work/index.css -> /output/index.css.gz
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-39-400-normal.woff -> /output/files/zen-antique-soft-39-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-39-400-normal.woff -> /output/files/zen-antique-soft-39-400-normal.woff.gz
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-45-400-normal.woff.br /tmp/work/files/zen-antique-soft-45-400-normal.woff
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-44-400-normal.woff2 -> /output/files/zen-antique-soft-44-400-normal.woff2
+2023/08/04 18:07:47 br /tmp/work/400.css -> /output/400.css.br
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-45-400-normal.woff2 -> /output/files/zen-antique-soft-45-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-46-400-normal.woff.br /tmp/work/files/zen-antique-soft-46-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-40-400-normal.woff -> /output/files/zen-antique-soft-40-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-40-400-normal.woff -> /output/files/zen-antique-soft-40-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-46-400-normal.woff2 -> /output/files/zen-antique-soft-46-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-47-400-normal.woff.br /tmp/work/files/zen-antique-soft-47-400-normal.woff
+2023/08/04 18:07:47 gz /tmp/work/400.css -> /output/400.css.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-47-400-normal.woff2 -> /output/files/zen-antique-soft-47-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-48-400-normal.woff.br /tmp/work/files/zen-antique-soft-48-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-43-400-normal.woff -> /output/files/zen-antique-soft-43-400-normal.woff.br
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-42-400-normal.woff -> /output/files/zen-antique-soft-42-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-43-400-normal.woff -> /output/files/zen-antique-soft-43-400-normal.woff.gz
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-42-400-normal.woff -> /output/files/zen-antique-soft-42-400-normal.woff.gz
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-49-400-normal.woff.br /tmp/work/files/zen-antique-soft-49-400-normal.woff
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-48-400-normal.woff2 -> /output/files/zen-antique-soft-48-400-normal.woff2
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-49-400-normal.woff2 -> /output/files/zen-antique-soft-49-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-5-400-normal.woff.br /tmp/work/files/zen-antique-soft-5-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-41-400-normal.woff -> /output/files/zen-antique-soft-41-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-41-400-normal.woff -> /output/files/zen-antique-soft-41-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-5-400-normal.woff2 -> /output/files/zen-antique-soft-5-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-50-400-normal.woff.br /tmp/work/files/zen-antique-soft-50-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-45-400-normal.woff -> /output/files/zen-antique-soft-45-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-45-400-normal.woff -> /output/files/zen-antique-soft-45-400-normal.woff.gz
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-44-400-normal.woff -> /output/files/zen-antique-soft-44-400-normal.woff.br
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-50-400-normal.woff2 -> /output/files/zen-antique-soft-50-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-51-400-normal.woff.br /tmp/work/files/zen-antique-soft-51-400-normal.woff
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-44-400-normal.woff -> /output/files/zen-antique-soft-44-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-51-400-normal.woff2 -> /output/files/zen-antique-soft-51-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-52-400-normal.woff.br /tmp/work/files/zen-antique-soft-52-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-46-400-normal.woff -> /output/files/zen-antique-soft-46-400-normal.woff.br
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-47-400-normal.woff -> /output/files/zen-antique-soft-47-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-46-400-normal.woff -> /output/files/zen-antique-soft-46-400-normal.woff.gz
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-47-400-normal.woff -> /output/files/zen-antique-soft-47-400-normal.woff.gz
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-53-400-normal.woff.br /tmp/work/files/zen-antique-soft-53-400-normal.woff
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-52-400-normal.woff2 -> /output/files/zen-antique-soft-52-400-normal.woff2
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-53-400-normal.woff2 -> /output/files/zen-antique-soft-53-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-54-400-normal.woff.br /tmp/work/files/zen-antique-soft-54-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-48-400-normal.woff -> /output/files/zen-antique-soft-48-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-48-400-normal.woff -> /output/files/zen-antique-soft-48-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-54-400-normal.woff2 -> /output/files/zen-antique-soft-54-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-55-400-normal.woff.br /tmp/work/files/zen-antique-soft-55-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-51-400-normal.woff -> /output/files/zen-antique-soft-51-400-normal.woff.br
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-49-400-normal.woff -> /output/files/zen-antique-soft-49-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-51-400-normal.woff -> /output/files/zen-antique-soft-51-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-55-400-normal.woff2 -> /output/files/zen-antique-soft-55-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-56-400-normal.woff.br /tmp/work/files/zen-antique-soft-56-400-normal.woff
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-49-400-normal.woff -> /output/files/zen-antique-soft-49-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-56-400-normal.woff2 -> /output/files/zen-antique-soft-56-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-57-400-normal.woff.br /tmp/work/files/zen-antique-soft-57-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-55-400-normal.woff -> /output/files/zen-antique-soft-55-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-55-400-normal.woff -> /output/files/zen-antique-soft-55-400-normal.woff.gz
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-54-400-normal.woff -> /output/files/zen-antique-soft-54-400-normal.woff.br
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-57-400-normal.woff2 -> /output/files/zen-antique-soft-57-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-58-400-normal.woff.br /tmp/work/files/zen-antique-soft-58-400-normal.woff
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-54-400-normal.woff -> /output/files/zen-antique-soft-54-400-normal.woff.gz
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-5-400-normal.woff -> /output/files/zen-antique-soft-5-400-normal.woff.br
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-58-400-normal.woff2 -> /output/files/zen-antique-soft-58-400-normal.woff2
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-5-400-normal.woff -> /output/files/zen-antique-soft-5-400-normal.woff.gz
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-59-400-normal.woff.br /tmp/work/files/zen-antique-soft-59-400-normal.woff
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-59-400-normal.woff2 -> /output/files/zen-antique-soft-59-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-6-400-normal.woff.br /tmp/work/files/zen-antique-soft-6-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-57-400-normal.woff -> /output/files/zen-antique-soft-57-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-57-400-normal.woff -> /output/files/zen-antique-soft-57-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-6-400-normal.woff2 -> /output/files/zen-antique-soft-6-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-60-400-normal.woff.br /tmp/work/files/zen-antique-soft-60-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-56-400-normal.woff -> /output/files/zen-antique-soft-56-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-56-400-normal.woff -> /output/files/zen-antique-soft-56-400-normal.woff.gz
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-50-400-normal.woff -> /output/files/zen-antique-soft-50-400-normal.woff.br
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-60-400-normal.woff2 -> /output/files/zen-antique-soft-60-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-61-400-normal.woff.br /tmp/work/files/zen-antique-soft-61-400-normal.woff
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-50-400-normal.woff -> /output/files/zen-antique-soft-50-400-normal.woff.gz
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-53-400-normal.woff -> /output/files/zen-antique-soft-53-400-normal.woff.br
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-59-400-normal.woff -> /output/files/zen-antique-soft-59-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-53-400-normal.woff -> /output/files/zen-antique-soft-53-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-61-400-normal.woff2 -> /output/files/zen-antique-soft-61-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-62-400-normal.woff.br /tmp/work/files/zen-antique-soft-62-400-normal.woff
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-59-400-normal.woff -> /output/files/zen-antique-soft-59-400-normal.woff.gz
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-63-400-normal.woff.br /tmp/work/files/zen-antique-soft-63-400-normal.woff
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-62-400-normal.woff2 -> /output/files/zen-antique-soft-62-400-normal.woff2
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-63-400-normal.woff2 -> /output/files/zen-antique-soft-63-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-64-400-normal.woff.br /tmp/work/files/zen-antique-soft-64-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-58-400-normal.woff -> /output/files/zen-antique-soft-58-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-58-400-normal.woff -> /output/files/zen-antique-soft-58-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-64-400-normal.woff2 -> /output/files/zen-antique-soft-64-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-65-400-normal.woff.br /tmp/work/files/zen-antique-soft-65-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-52-400-normal.woff -> /output/files/zen-antique-soft-52-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-52-400-normal.woff -> /output/files/zen-antique-soft-52-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-65-400-normal.woff2 -> /output/files/zen-antique-soft-65-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-66-400-normal.woff.br /tmp/work/files/zen-antique-soft-66-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-6-400-normal.woff -> /output/files/zen-antique-soft-6-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-6-400-normal.woff -> /output/files/zen-antique-soft-6-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-66-400-normal.woff2 -> /output/files/zen-antique-soft-66-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-67-400-normal.woff.br /tmp/work/files/zen-antique-soft-67-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-66-400-normal.woff -> /output/files/zen-antique-soft-66-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-66-400-normal.woff -> /output/files/zen-antique-soft-66-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-67-400-normal.woff2 -> /output/files/zen-antique-soft-67-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-68-400-normal.woff.br /tmp/work/files/zen-antique-soft-68-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-63-400-normal.woff -> /output/files/zen-antique-soft-63-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-63-400-normal.woff -> /output/files/zen-antique-soft-63-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-68-400-normal.woff2 -> /output/files/zen-antique-soft-68-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-69-400-normal.woff.br /tmp/work/files/zen-antique-soft-69-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-62-400-normal.woff -> /output/files/zen-antique-soft-62-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-62-400-normal.woff -> /output/files/zen-antique-soft-62-400-normal.woff.gz
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-60-400-normal.woff -> /output/files/zen-antique-soft-60-400-normal.woff.br
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-69-400-normal.woff2 -> /output/files/zen-antique-soft-69-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-7-400-normal.woff.br /tmp/work/files/zen-antique-soft-7-400-normal.woff
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-60-400-normal.woff -> /output/files/zen-antique-soft-60-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-7-400-normal.woff2 -> /output/files/zen-antique-soft-7-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-70-400-normal.woff.br /tmp/work/files/zen-antique-soft-70-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-61-400-normal.woff -> /output/files/zen-antique-soft-61-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-61-400-normal.woff -> /output/files/zen-antique-soft-61-400-normal.woff.gz
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-67-400-normal.woff -> /output/files/zen-antique-soft-67-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-67-400-normal.woff -> /output/files/zen-antique-soft-67-400-normal.woff.gz
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-71-400-normal.woff.br /tmp/work/files/zen-antique-soft-71-400-normal.woff
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-70-400-normal.woff2 -> /output/files/zen-antique-soft-70-400-normal.woff2
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-71-400-normal.woff2 -> /output/files/zen-antique-soft-71-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-72-400-normal.woff.br /tmp/work/files/zen-antique-soft-72-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-64-400-normal.woff -> /output/files/zen-antique-soft-64-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-64-400-normal.woff -> /output/files/zen-antique-soft-64-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-72-400-normal.woff2 -> /output/files/zen-antique-soft-72-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-73-400-normal.woff.br /tmp/work/files/zen-antique-soft-73-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-65-400-normal.woff -> /output/files/zen-antique-soft-65-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-65-400-normal.woff -> /output/files/zen-antique-soft-65-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-73-400-normal.woff2 -> /output/files/zen-antique-soft-73-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-74-400-normal.woff.br /tmp/work/files/zen-antique-soft-74-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-7-400-normal.woff -> /output/files/zen-antique-soft-7-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-7-400-normal.woff -> /output/files/zen-antique-soft-7-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-74-400-normal.woff2 -> /output/files/zen-antique-soft-74-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-75-400-normal.woff.br /tmp/work/files/zen-antique-soft-75-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-68-400-normal.woff -> /output/files/zen-antique-soft-68-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-68-400-normal.woff -> /output/files/zen-antique-soft-68-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-75-400-normal.woff2 -> /output/files/zen-antique-soft-75-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-76-400-normal.woff.br /tmp/work/files/zen-antique-soft-76-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-71-400-normal.woff -> /output/files/zen-antique-soft-71-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-71-400-normal.woff -> /output/files/zen-antique-soft-71-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-76-400-normal.woff2 -> /output/files/zen-antique-soft-76-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-77-400-normal.woff.br /tmp/work/files/zen-antique-soft-77-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-69-400-normal.woff -> /output/files/zen-antique-soft-69-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-69-400-normal.woff -> /output/files/zen-antique-soft-69-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-77-400-normal.woff2 -> /output/files/zen-antique-soft-77-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-78-400-normal.woff.br /tmp/work/files/zen-antique-soft-78-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-74-400-normal.woff -> /output/files/zen-antique-soft-74-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-74-400-normal.woff -> /output/files/zen-antique-soft-74-400-normal.woff.gz
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-73-400-normal.woff -> /output/files/zen-antique-soft-73-400-normal.woff.br
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-78-400-normal.woff2 -> /output/files/zen-antique-soft-78-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-79-400-normal.woff.br /tmp/work/files/zen-antique-soft-79-400-normal.woff
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-73-400-normal.woff -> /output/files/zen-antique-soft-73-400-normal.woff.gz
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-70-400-normal.woff -> /output/files/zen-antique-soft-70-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-70-400-normal.woff -> /output/files/zen-antique-soft-70-400-normal.woff.gz
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-8-400-normal.woff.br /tmp/work/files/zen-antique-soft-8-400-normal.woff
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-79-400-normal.woff2 -> /output/files/zen-antique-soft-79-400-normal.woff2
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-8-400-normal.woff2 -> /output/files/zen-antique-soft-8-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-80-400-normal.woff.br /tmp/work/files/zen-antique-soft-80-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-72-400-normal.woff -> /output/files/zen-antique-soft-72-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-72-400-normal.woff -> /output/files/zen-antique-soft-72-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-80-400-normal.woff2 -> /output/files/zen-antique-soft-80-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-81-400-normal.woff.br /tmp/work/files/zen-antique-soft-81-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-75-400-normal.woff -> /output/files/zen-antique-soft-75-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-75-400-normal.woff -> /output/files/zen-antique-soft-75-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-81-400-normal.woff2 -> /output/files/zen-antique-soft-81-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-82-400-normal.woff.br /tmp/work/files/zen-antique-soft-82-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-79-400-normal.woff -> /output/files/zen-antique-soft-79-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-79-400-normal.woff -> /output/files/zen-antique-soft-79-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-82-400-normal.woff2 -> /output/files/zen-antique-soft-82-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-83-400-normal.woff.br /tmp/work/files/zen-antique-soft-83-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-8-400-normal.woff -> /output/files/zen-antique-soft-8-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-8-400-normal.woff -> /output/files/zen-antique-soft-8-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-83-400-normal.woff2 -> /output/files/zen-antique-soft-83-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-84-400-normal.woff.br /tmp/work/files/zen-antique-soft-84-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-78-400-normal.woff -> /output/files/zen-antique-soft-78-400-normal.woff.br
+2023/08/04 18:07:47 gz /tmp/work/files/zen-antique-soft-78-400-normal.woff -> /output/files/zen-antique-soft-78-400-normal.woff.gz
+2023/08/04 18:07:47 copy /tmp/work/files/zen-antique-soft-84-400-normal.woff2 -> /output/files/zen-antique-soft-84-400-normal.woff2
+2023/08/04 18:07:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-85-400-normal.woff.br /tmp/work/files/zen-antique-soft-85-400-normal.woff
+2023/08/04 18:07:47 br /tmp/work/files/zen-antique-soft-76-400-normal.woff -> /output/files/zen-antique-soft-76-400-normal.woff.br
+2023/08/04 18:07:48 gz /tmp/work/files/zen-antique-soft-76-400-normal.woff -> /output/files/zen-antique-soft-76-400-normal.woff.gz
+2023/08/04 18:07:48 copy /tmp/work/files/zen-antique-soft-85-400-normal.woff2 -> /output/files/zen-antique-soft-85-400-normal.woff2
+2023/08/04 18:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-86-400-normal.woff.br /tmp/work/files/zen-antique-soft-86-400-normal.woff
+2023/08/04 18:07:48 br /tmp/work/files/zen-antique-soft-77-400-normal.woff -> /output/files/zen-antique-soft-77-400-normal.woff.br
+2023/08/04 18:07:48 gz /tmp/work/files/zen-antique-soft-77-400-normal.woff -> /output/files/zen-antique-soft-77-400-normal.woff.gz
+2023/08/04 18:07:48 copy /tmp/work/files/zen-antique-soft-86-400-normal.woff2 -> /output/files/zen-antique-soft-86-400-normal.woff2
+2023/08/04 18:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-87-400-normal.woff.br /tmp/work/files/zen-antique-soft-87-400-normal.woff
+2023/08/04 18:07:48 br /tmp/work/files/zen-antique-soft-80-400-normal.woff -> /output/files/zen-antique-soft-80-400-normal.woff.br
+2023/08/04 18:07:48 gz /tmp/work/files/zen-antique-soft-80-400-normal.woff -> /output/files/zen-antique-soft-80-400-normal.woff.gz
+2023/08/04 18:07:48 copy /tmp/work/files/zen-antique-soft-87-400-normal.woff2 -> /output/files/zen-antique-soft-87-400-normal.woff2
+2023/08/04 18:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-88-400-normal.woff.br /tmp/work/files/zen-antique-soft-88-400-normal.woff
+2023/08/04 18:07:48 br /tmp/work/files/zen-antique-soft-81-400-normal.woff -> /output/files/zen-antique-soft-81-400-normal.woff.br
+2023/08/04 18:07:48 gz /tmp/work/files/zen-antique-soft-81-400-normal.woff -> /output/files/zen-antique-soft-81-400-normal.woff.gz
+2023/08/04 18:07:48 copy /tmp/work/files/zen-antique-soft-88-400-normal.woff2 -> /output/files/zen-antique-soft-88-400-normal.woff2
+2023/08/04 18:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-89-400-normal.woff.br /tmp/work/files/zen-antique-soft-89-400-normal.woff
+2023/08/04 18:07:48 br /tmp/work/files/zen-antique-soft-86-400-normal.woff -> /output/files/zen-antique-soft-86-400-normal.woff.br
+2023/08/04 18:07:48 gz /tmp/work/files/zen-antique-soft-86-400-normal.woff -> /output/files/zen-antique-soft-86-400-normal.woff.gz
+2023/08/04 18:07:48 copy /tmp/work/files/zen-antique-soft-89-400-normal.woff2 -> /output/files/zen-antique-soft-89-400-normal.woff2
+2023/08/04 18:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-9-400-normal.woff.br /tmp/work/files/zen-antique-soft-9-400-normal.woff
+2023/08/04 18:07:48 br /tmp/work/files/zen-antique-soft-83-400-normal.woff -> /output/files/zen-antique-soft-83-400-normal.woff.br
+2023/08/04 18:07:48 gz /tmp/work/files/zen-antique-soft-83-400-normal.woff -> /output/files/zen-antique-soft-83-400-normal.woff.gz
+2023/08/04 18:07:48 copy /tmp/work/files/zen-antique-soft-9-400-normal.woff2 -> /output/files/zen-antique-soft-9-400-normal.woff2
+2023/08/04 18:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-90-400-normal.woff.br /tmp/work/files/zen-antique-soft-90-400-normal.woff
+2023/08/04 18:07:48 br /tmp/work/files/zen-antique-soft-84-400-normal.woff -> /output/files/zen-antique-soft-84-400-normal.woff.br
+2023/08/04 18:07:48 gz /tmp/work/files/zen-antique-soft-84-400-normal.woff -> /output/files/zen-antique-soft-84-400-normal.woff.gz
+2023/08/04 18:07:48 copy /tmp/work/files/zen-antique-soft-90-400-normal.woff2 -> /output/files/zen-antique-soft-90-400-normal.woff2
+2023/08/04 18:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-91-400-normal.woff.br /tmp/work/files/zen-antique-soft-91-400-normal.woff
+2023/08/04 18:07:48 br /tmp/work/files/zen-antique-soft-87-400-normal.woff -> /output/files/zen-antique-soft-87-400-normal.woff.br
+2023/08/04 18:07:48 gz /tmp/work/files/zen-antique-soft-87-400-normal.woff -> /output/files/zen-antique-soft-87-400-normal.woff.gz
+2023/08/04 18:07:48 copy /tmp/work/files/zen-antique-soft-91-400-normal.woff2 -> /output/files/zen-antique-soft-91-400-normal.woff2
+2023/08/04 18:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-92-400-normal.woff.br /tmp/work/files/zen-antique-soft-92-400-normal.woff
+2023/08/04 18:07:48 br /tmp/work/files/zen-antique-soft-82-400-normal.woff -> /output/files/zen-antique-soft-82-400-normal.woff.br
+2023/08/04 18:07:48 gz /tmp/work/files/zen-antique-soft-82-400-normal.woff -> /output/files/zen-antique-soft-82-400-normal.woff.gz
+2023/08/04 18:07:48 copy /tmp/work/files/zen-antique-soft-92-400-normal.woff2 -> /output/files/zen-antique-soft-92-400-normal.woff2
+2023/08/04 18:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-93-400-normal.woff.br /tmp/work/files/zen-antique-soft-93-400-normal.woff
+2023/08/04 18:07:48 br /tmp/work/files/zen-antique-soft-85-400-normal.woff -> /output/files/zen-antique-soft-85-400-normal.woff.br
+2023/08/04 18:07:48 gz /tmp/work/files/zen-antique-soft-85-400-normal.woff -> /output/files/zen-antique-soft-85-400-normal.woff.gz
+2023/08/04 18:07:48 copy /tmp/work/files/zen-antique-soft-93-400-normal.woff2 -> /output/files/zen-antique-soft-93-400-normal.woff2
+2023/08/04 18:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-94-400-normal.woff.br /tmp/work/files/zen-antique-soft-94-400-normal.woff
+2023/08/04 18:07:48 br /tmp/work/files/zen-antique-soft-89-400-normal.woff -> /output/files/zen-antique-soft-89-400-normal.woff.br
+2023/08/04 18:07:48 gz /tmp/work/files/zen-antique-soft-89-400-normal.woff -> /output/files/zen-antique-soft-89-400-normal.woff.gz
+2023/08/04 18:07:48 copy /tmp/work/files/zen-antique-soft-94-400-normal.woff2 -> /output/files/zen-antique-soft-94-400-normal.woff2
+2023/08/04 18:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-95-400-normal.woff.br /tmp/work/files/zen-antique-soft-95-400-normal.woff
+2023/08/04 18:07:48 br /tmp/work/files/zen-antique-soft-88-400-normal.woff -> /output/files/zen-antique-soft-88-400-normal.woff.br
+2023/08/04 18:07:48 gz /tmp/work/files/zen-antique-soft-88-400-normal.woff -> /output/files/zen-antique-soft-88-400-normal.woff.gz
+2023/08/04 18:07:48 br /tmp/work/files/zen-antique-soft-9-400-normal.woff -> /output/files/zen-antique-soft-9-400-normal.woff.br
+2023/08/04 18:07:48 copy /tmp/work/files/zen-antique-soft-95-400-normal.woff2 -> /output/files/zen-antique-soft-95-400-normal.woff2
+2023/08/04 18:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-96-400-normal.woff.br /tmp/work/files/zen-antique-soft-96-400-normal.woff
+2023/08/04 18:07:48 gz /tmp/work/files/zen-antique-soft-9-400-normal.woff -> /output/files/zen-antique-soft-9-400-normal.woff.gz
+2023/08/04 18:07:48 copy /tmp/work/files/zen-antique-soft-96-400-normal.woff2 -> /output/files/zen-antique-soft-96-400-normal.woff2
+2023/08/04 18:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-97-400-normal.woff.br /tmp/work/files/zen-antique-soft-97-400-normal.woff
+2023/08/04 18:07:48 br /tmp/work/files/zen-antique-soft-90-400-normal.woff -> /output/files/zen-antique-soft-90-400-normal.woff.br
+2023/08/04 18:07:48 gz /tmp/work/files/zen-antique-soft-90-400-normal.woff -> /output/files/zen-antique-soft-90-400-normal.woff.gz
+2023/08/04 18:07:48 copy /tmp/work/files/zen-antique-soft-97-400-normal.woff2 -> /output/files/zen-antique-soft-97-400-normal.woff2
+2023/08/04 18:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-98-400-normal.woff.br /tmp/work/files/zen-antique-soft-98-400-normal.woff
+2023/08/04 18:07:48 br /tmp/work/files/zen-antique-soft-93-400-normal.woff -> /output/files/zen-antique-soft-93-400-normal.woff.br
+2023/08/04 18:07:48 gz /tmp/work/files/zen-antique-soft-93-400-normal.woff -> /output/files/zen-antique-soft-93-400-normal.woff.gz
+2023/08/04 18:07:48 copy /tmp/work/files/zen-antique-soft-98-400-normal.woff2 -> /output/files/zen-antique-soft-98-400-normal.woff2
+2023/08/04 18:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-99-400-normal.woff.br /tmp/work/files/zen-antique-soft-99-400-normal.woff
+2023/08/04 18:07:48 br /tmp/work/files/zen-antique-soft-98-400-normal.woff -> /output/files/zen-antique-soft-98-400-normal.woff.br
+2023/08/04 18:07:48 gz /tmp/work/files/zen-antique-soft-98-400-normal.woff -> /output/files/zen-antique-soft-98-400-normal.woff.gz
+2023/08/04 18:07:48 copy /tmp/work/files/zen-antique-soft-99-400-normal.woff2 -> /output/files/zen-antique-soft-99-400-normal.woff2
+2023/08/04 18:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-cyrillic-400-normal.woff.br /tmp/work/files/zen-antique-soft-cyrillic-400-normal.woff
+2023/08/04 18:07:48 br /tmp/work/files/zen-antique-soft-92-400-normal.woff -> /output/files/zen-antique-soft-92-400-normal.woff.br
+2023/08/04 18:07:48 gz /tmp/work/files/zen-antique-soft-92-400-normal.woff -> /output/files/zen-antique-soft-92-400-normal.woff.gz
+2023/08/04 18:07:48 copy /tmp/work/files/zen-antique-soft-cyrillic-400-normal.woff2 -> /output/files/zen-antique-soft-cyrillic-400-normal.woff2
+2023/08/04 18:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-greek-400-normal.woff.br /tmp/work/files/zen-antique-soft-greek-400-normal.woff
+2023/08/04 18:07:48 br /tmp/work/files/zen-antique-soft-94-400-normal.woff -> /output/files/zen-antique-soft-94-400-normal.woff.br
+2023/08/04 18:07:48 br /tmp/work/files/zen-antique-soft-91-400-normal.woff -> /output/files/zen-antique-soft-91-400-normal.woff.br
+2023/08/04 18:07:48 gz /tmp/work/files/zen-antique-soft-94-400-normal.woff -> /output/files/zen-antique-soft-94-400-normal.woff.gz
+2023/08/04 18:07:48 gz /tmp/work/files/zen-antique-soft-91-400-normal.woff -> /output/files/zen-antique-soft-91-400-normal.woff.gz
+2023/08/04 18:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-japanese-400-normal.woff.br /tmp/work/files/zen-antique-soft-japanese-400-normal.woff
+2023/08/04 18:07:48 copy /tmp/work/files/zen-antique-soft-greek-400-normal.woff2 -> /output/files/zen-antique-soft-greek-400-normal.woff2
+2023/08/04 18:07:48 br /tmp/work/files/zen-antique-soft-97-400-normal.woff -> /output/files/zen-antique-soft-97-400-normal.woff.br
+2023/08/04 18:07:48 copy /tmp/work/files/zen-antique-soft-japanese-400-normal.woff2 -> /output/files/zen-antique-soft-japanese-400-normal.woff2
+2023/08/04 18:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-latin-400-normal.woff.br /tmp/work/files/zen-antique-soft-latin-400-normal.woff
+2023/08/04 18:07:48 gz /tmp/work/files/zen-antique-soft-97-400-normal.woff -> /output/files/zen-antique-soft-97-400-normal.woff.gz
+2023/08/04 18:07:48 br /tmp/work/files/zen-antique-soft-95-400-normal.woff -> /output/files/zen-antique-soft-95-400-normal.woff.br
+2023/08/04 18:07:48 gz /tmp/work/files/zen-antique-soft-95-400-normal.woff -> /output/files/zen-antique-soft-95-400-normal.woff.gz
+2023/08/04 18:07:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/zen-antique-soft-latin-ext-400-normal.woff.br /tmp/work/files/zen-antique-soft-latin-ext-400-normal.woff
+2023/08/04 18:07:48 copy /tmp/work/files/zen-antique-soft-latin-400-normal.woff2 -> /output/files/zen-antique-soft-latin-400-normal.woff2
+2023/08/04 18:07:48 copy /tmp/work/files/zen-antique-soft-latin-ext-400-normal.woff2 -> /output/files/zen-antique-soft-latin-ext-400-normal.woff2
+2023/08/04 18:07:48 br /tmp/work/files/zen-antique-soft-96-400-normal.woff -> /output/files/zen-antique-soft-96-400-normal.woff.br
+2023/08/04 18:07:48 gz /tmp/work/files/zen-antique-soft-96-400-normal.woff -> /output/files/zen-antique-soft-96-400-normal.woff.gz
+2023/08/04 18:07:48 br /tmp/work/files/zen-antique-soft-99-400-normal.woff -> /output/files/zen-antique-soft-99-400-normal.woff.br
+2023/08/04 18:07:48 gz /tmp/work/files/zen-antique-soft-99-400-normal.woff -> /output/files/zen-antique-soft-99-400-normal.woff.gz
+2023/08/04 18:07:48 br /tmp/work/files/zen-antique-soft-latin-400-normal.woff -> /output/files/zen-antique-soft-latin-400-normal.woff.br
+2023/08/04 18:07:48 br /tmp/work/files/zen-antique-soft-greek-400-normal.woff -> /output/files/zen-antique-soft-greek-400-normal.woff.br
+2023/08/04 18:07:48 gz /tmp/work/files/zen-antique-soft-latin-400-normal.woff -> /output/files/zen-antique-soft-latin-400-normal.woff.gz
+2023/08/04 18:07:48 gz /tmp/work/files/zen-antique-soft-greek-400-normal.woff -> /output/files/zen-antique-soft-greek-400-normal.woff.gz
+2023/08/04 18:07:48 br /tmp/work/files/zen-antique-soft-latin-ext-400-normal.woff -> /output/files/zen-antique-soft-latin-ext-400-normal.woff.br
+2023/08/04 18:07:48 br /tmp/work/files/zen-antique-soft-cyrillic-400-normal.woff -> /output/files/zen-antique-soft-cyrillic-400-normal.woff.br
+2023/08/04 18:07:48 gz /tmp/work/files/zen-antique-soft-latin-ext-400-normal.woff -> /output/files/zen-antique-soft-latin-ext-400-normal.woff.gz
+2023/08/04 18:07:48 gz /tmp/work/files/zen-antique-soft-cyrillic-400-normal.woff -> /output/files/zen-antique-soft-cyrillic-400-normal.woff.gz
+2023/08/04 18:07:55 br /tmp/work/files/zen-antique-soft-japanese-400-normal.woff -> /output/files/zen-antique-soft-japanese-400-normal.woff.br
+2023/08/04 18:07:55 gz /tmp/work/files/zen-antique-soft-japanese-400-normal.woff -> /output/files/zen-antique-soft-japanese-400-normal.woff.gz
+2023/08/04 18:07:55 processed fontsource-zen-antique-soft
