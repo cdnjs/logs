@@ -1,0 +1,626 @@
+2023/08/04 13:04:49 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/08/04 13:04:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/ckeditor.min.js /tmp/work/build/ckeditor.js
+2023/08/04 13:04:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ckeditor.js.map.br /tmp/work/build/ckeditor.js.map
+2023/08/04 13:04:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/ar.min.js /tmp/work/build/translations/ar.js
+2023/08/04 13:04:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/af.min.js /tmp/work/build/translations/af.js
+2023/08/04 13:04:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/ast.min.js /tmp/work/build/translations/ast.js
+2023/08/04 13:04:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/az.min.js /tmp/work/build/translations/az.js
+2023/08/04 13:04:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/bg.min.js /tmp/work/build/translations/bg.js
+2023/08/04 13:04:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/bn.min.js /tmp/work/build/translations/bn.js
+2023/08/04 13:04:49 sri /tmp/work/build/translations/af.min.js -> /output/translations/af.min.js.sri
+2023/08/04 13:04:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/af.min.js.br /tmp/work/build/translations/af.min.js
+2023/08/04 13:04:49 sri /tmp/work/build/translations/ast.min.js -> /output/translations/ast.min.js.sri
+2023/08/04 13:04:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/ast.min.js.br /tmp/work/build/translations/ast.min.js
+2023/08/04 13:04:49 br /tmp/work/build/translations/af.min.js -> /output/translations/af.min.js.br
+2023/08/04 13:04:49 gz /tmp/work/build/translations/af.min.js -> /output/translations/af.min.js.gz
+2023/08/04 13:04:49 sri /tmp/work/build/translations/af.js -> /output/translations/af.js.sri
+2023/08/04 13:04:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/af.js.br /tmp/work/build/translations/af.js
+2023/08/04 13:04:49 br /tmp/work/build/translations/ast.min.js -> /output/translations/ast.min.js.br
+2023/08/04 13:04:49 gz /tmp/work/build/translations/ast.min.js -> /output/translations/ast.min.js.gz
+2023/08/04 13:04:49 sri /tmp/work/build/translations/ast.js -> /output/translations/ast.js.sri
+2023/08/04 13:04:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/ast.js.br /tmp/work/build/translations/ast.js
+2023/08/04 13:04:49 br /tmp/work/build/translations/af.js -> /output/translations/af.js.br
+2023/08/04 13:04:49 gz /tmp/work/build/translations/af.js -> /output/translations/af.js.gz
+2023/08/04 13:04:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/bs.min.js /tmp/work/build/translations/bs.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/ast.js -> /output/translations/ast.js.br
+2023/08/04 13:04:50 sri /tmp/work/build/translations/az.min.js -> /output/translations/az.min.js.sri
+2023/08/04 13:04:50 gz /tmp/work/build/translations/ast.js -> /output/translations/ast.js.gz
+2023/08/04 13:04:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/ca.min.js /tmp/work/build/translations/ca.js
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/az.min.js.br /tmp/work/build/translations/az.min.js
+2023/08/04 13:04:50 sri /tmp/work/build/translations/ar.min.js -> /output/translations/ar.min.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/ar.min.js.br /tmp/work/build/translations/ar.min.js
+2023/08/04 13:04:50 sri /tmp/work/build/translations/bg.min.js -> /output/translations/bg.min.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/bg.min.js.br /tmp/work/build/translations/bg.min.js
+2023/08/04 13:04:50 sri /tmp/work/build/translations/bn.min.js -> /output/translations/bn.min.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/bn.min.js.br /tmp/work/build/translations/bn.min.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/az.min.js -> /output/translations/az.min.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/az.min.js -> /output/translations/az.min.js.gz
+2023/08/04 13:04:50 sri /tmp/work/build/translations/az.js -> /output/translations/az.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/az.js.br /tmp/work/build/translations/az.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/ar.min.js -> /output/translations/ar.min.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/ar.min.js -> /output/translations/ar.min.js.gz
+2023/08/04 13:04:50 sri /tmp/work/build/translations/ar.js -> /output/translations/ar.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/ar.js.br /tmp/work/build/translations/ar.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/bg.min.js -> /output/translations/bg.min.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/bg.min.js -> /output/translations/bg.min.js.gz
+2023/08/04 13:04:50 sri /tmp/work/build/translations/bg.js -> /output/translations/bg.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/bg.js.br /tmp/work/build/translations/bg.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/az.js -> /output/translations/az.js.br
+2023/08/04 13:04:50 br /tmp/work/build/translations/bn.min.js -> /output/translations/bn.min.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/az.js -> /output/translations/az.js.gz
+2023/08/04 13:04:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/cs.min.js /tmp/work/build/translations/cs.js
+2023/08/04 13:04:50 gz /tmp/work/build/translations/bn.min.js -> /output/translations/bn.min.js.gz
+2023/08/04 13:04:50 sri /tmp/work/build/translations/bn.js -> /output/translations/bn.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/bn.js.br /tmp/work/build/translations/bn.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/ar.js -> /output/translations/ar.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/ar.js -> /output/translations/ar.js.gz
+2023/08/04 13:04:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/da.min.js /tmp/work/build/translations/da.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/bg.js -> /output/translations/bg.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/bg.js -> /output/translations/bg.js.gz
+2023/08/04 13:04:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/de-ch.min.js /tmp/work/build/translations/de-ch.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/bn.js -> /output/translations/bn.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/bn.js -> /output/translations/bn.js.gz
+2023/08/04 13:04:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/de.min.js /tmp/work/build/translations/de.js
+2023/08/04 13:04:50 sri /tmp/work/build/translations/bs.min.js -> /output/translations/bs.min.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/bs.min.js.br /tmp/work/build/translations/bs.min.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/bs.min.js -> /output/translations/bs.min.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/bs.min.js -> /output/translations/bs.min.js.gz
+2023/08/04 13:04:50 sri /tmp/work/build/translations/bs.js -> /output/translations/bs.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/bs.js.br /tmp/work/build/translations/bs.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/bs.js -> /output/translations/bs.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/bs.js -> /output/translations/bs.js.gz
+2023/08/04 13:04:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/el.min.js /tmp/work/build/translations/el.js
+2023/08/04 13:04:50 sri /tmp/work/build/translations/ca.min.js -> /output/translations/ca.min.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/ca.min.js.br /tmp/work/build/translations/ca.min.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/ca.min.js -> /output/translations/ca.min.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/ca.min.js -> /output/translations/ca.min.js.gz
+2023/08/04 13:04:50 sri /tmp/work/build/translations/ca.js -> /output/translations/ca.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/ca.js.br /tmp/work/build/translations/ca.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/ca.js -> /output/translations/ca.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/ca.js -> /output/translations/ca.js.gz
+2023/08/04 13:04:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/en-au.min.js /tmp/work/build/translations/en-au.js
+2023/08/04 13:04:50 sri /tmp/work/build/translations/da.min.js -> /output/translations/da.min.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/da.min.js.br /tmp/work/build/translations/da.min.js
+2023/08/04 13:04:50 sri /tmp/work/build/translations/cs.min.js -> /output/translations/cs.min.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/cs.min.js.br /tmp/work/build/translations/cs.min.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/da.min.js -> /output/translations/da.min.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/da.min.js -> /output/translations/da.min.js.gz
+2023/08/04 13:04:50 sri /tmp/work/build/translations/da.js -> /output/translations/da.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/da.js.br /tmp/work/build/translations/da.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/cs.min.js -> /output/translations/cs.min.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/cs.min.js -> /output/translations/cs.min.js.gz
+2023/08/04 13:04:50 sri /tmp/work/build/translations/cs.js -> /output/translations/cs.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/cs.js.br /tmp/work/build/translations/cs.js
+2023/08/04 13:04:50 sri /tmp/work/build/translations/de.min.js -> /output/translations/de.min.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/de.min.js.br /tmp/work/build/translations/de.min.js
+2023/08/04 13:04:50 sri /tmp/work/build/translations/de-ch.min.js -> /output/translations/de-ch.min.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/de-ch.min.js.br /tmp/work/build/translations/de-ch.min.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/da.js -> /output/translations/da.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/da.js -> /output/translations/da.js.gz
+2023/08/04 13:04:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/en-gb.min.js /tmp/work/build/translations/en-gb.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/cs.js -> /output/translations/cs.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/cs.js -> /output/translations/cs.js.gz
+2023/08/04 13:04:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/eo.min.js /tmp/work/build/translations/eo.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/de.min.js -> /output/translations/de.min.js.br
+2023/08/04 13:04:50 br /tmp/work/build/translations/de-ch.min.js -> /output/translations/de-ch.min.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/de-ch.min.js -> /output/translations/de-ch.min.js.gz
+2023/08/04 13:04:50 sri /tmp/work/build/translations/de-ch.js -> /output/translations/de-ch.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/de-ch.js.br /tmp/work/build/translations/de-ch.js
+2023/08/04 13:04:50 gz /tmp/work/build/translations/de.min.js -> /output/translations/de.min.js.gz
+2023/08/04 13:04:50 sri /tmp/work/build/translations/de.js -> /output/translations/de.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/de.js.br /tmp/work/build/translations/de.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/de-ch.js -> /output/translations/de-ch.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/de-ch.js -> /output/translations/de-ch.js.gz
+2023/08/04 13:04:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/es-co.min.js /tmp/work/build/translations/es-co.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/de.js -> /output/translations/de.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/de.js -> /output/translations/de.js.gz
+2023/08/04 13:04:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/es.min.js /tmp/work/build/translations/es.js
+2023/08/04 13:04:50 sri /tmp/work/build/translations/el.min.js -> /output/translations/el.min.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/el.min.js.br /tmp/work/build/translations/el.min.js
+2023/08/04 13:04:50 sri /tmp/work/build/translations/en-au.min.js -> /output/translations/en-au.min.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/en-au.min.js.br /tmp/work/build/translations/en-au.min.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/el.min.js -> /output/translations/el.min.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/el.min.js -> /output/translations/el.min.js.gz
+2023/08/04 13:04:50 sri /tmp/work/build/translations/el.js -> /output/translations/el.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/el.js.br /tmp/work/build/translations/el.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/en-au.min.js -> /output/translations/en-au.min.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/en-au.min.js -> /output/translations/en-au.min.js.gz
+2023/08/04 13:04:50 sri /tmp/work/build/translations/en-au.js -> /output/translations/en-au.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/en-au.js.br /tmp/work/build/translations/en-au.js
+2023/08/04 13:04:50 sri /tmp/work/build/translations/eo.min.js -> /output/translations/eo.min.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/eo.min.js.br /tmp/work/build/translations/eo.min.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/el.js -> /output/translations/el.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/el.js -> /output/translations/el.js.gz
+2023/08/04 13:04:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/et.min.js /tmp/work/build/translations/et.js
+2023/08/04 13:04:50 sri /tmp/work/build/translations/en-gb.min.js -> /output/translations/en-gb.min.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/en-gb.min.js.br /tmp/work/build/translations/en-gb.min.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/eo.min.js -> /output/translations/eo.min.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/eo.min.js -> /output/translations/eo.min.js.gz
+2023/08/04 13:04:50 sri /tmp/work/build/translations/eo.js -> /output/translations/eo.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/eo.js.br /tmp/work/build/translations/eo.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/en-au.js -> /output/translations/en-au.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/en-au.js -> /output/translations/en-au.js.gz
+2023/08/04 13:04:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/eu.min.js /tmp/work/build/translations/eu.js
+2023/08/04 13:04:50 sri /tmp/work/build/translations/es-co.min.js -> /output/translations/es-co.min.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/es-co.min.js.br /tmp/work/build/translations/es-co.min.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/es-co.min.js -> /output/translations/es-co.min.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/es-co.min.js -> /output/translations/es-co.min.js.gz
+2023/08/04 13:04:50 sri /tmp/work/build/translations/es-co.js -> /output/translations/es-co.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/es-co.js.br /tmp/work/build/translations/es-co.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/eo.js -> /output/translations/eo.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/eo.js -> /output/translations/eo.js.gz
+2023/08/04 13:04:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/fa.min.js /tmp/work/build/translations/fa.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/en-gb.min.js -> /output/translations/en-gb.min.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/en-gb.min.js -> /output/translations/en-gb.min.js.gz
+2023/08/04 13:04:50 sri /tmp/work/build/translations/en-gb.js -> /output/translations/en-gb.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/en-gb.js.br /tmp/work/build/translations/en-gb.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/es-co.js -> /output/translations/es-co.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/es-co.js -> /output/translations/es-co.js.gz
+2023/08/04 13:04:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/fi.min.js /tmp/work/build/translations/fi.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/en-gb.js -> /output/translations/en-gb.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/en-gb.js -> /output/translations/en-gb.js.gz
+2023/08/04 13:04:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/fr.min.js /tmp/work/build/translations/fr.js
+2023/08/04 13:04:50 sri /tmp/work/build/translations/es.min.js -> /output/translations/es.min.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/es.min.js.br /tmp/work/build/translations/es.min.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/es.min.js -> /output/translations/es.min.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/es.min.js -> /output/translations/es.min.js.gz
+2023/08/04 13:04:50 sri /tmp/work/build/translations/es.js -> /output/translations/es.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/es.js.br /tmp/work/build/translations/es.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/es.js -> /output/translations/es.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/es.js -> /output/translations/es.js.gz
+2023/08/04 13:04:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/gl.min.js /tmp/work/build/translations/gl.js
+2023/08/04 13:04:50 sri /tmp/work/build/translations/eu.min.js -> /output/translations/eu.min.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/eu.min.js.br /tmp/work/build/translations/eu.min.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/eu.min.js -> /output/translations/eu.min.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/eu.min.js -> /output/translations/eu.min.js.gz
+2023/08/04 13:04:50 sri /tmp/work/build/translations/eu.js -> /output/translations/eu.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/eu.js.br /tmp/work/build/translations/eu.js
+2023/08/04 13:04:50 sri /tmp/work/build/translations/et.min.js -> /output/translations/et.min.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/et.min.js.br /tmp/work/build/translations/et.min.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/eu.js -> /output/translations/eu.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/eu.js -> /output/translations/eu.js.gz
+2023/08/04 13:04:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/gu.min.js /tmp/work/build/translations/gu.js
+2023/08/04 13:04:50 sri /tmp/work/build/translations/fa.min.js -> /output/translations/fa.min.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/fa.min.js.br /tmp/work/build/translations/fa.min.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/et.min.js -> /output/translations/et.min.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/et.min.js -> /output/translations/et.min.js.gz
+2023/08/04 13:04:50 sri /tmp/work/build/translations/et.js -> /output/translations/et.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/et.js.br /tmp/work/build/translations/et.js
+2023/08/04 13:04:50 br /tmp/work/build/translations/fa.min.js -> /output/translations/fa.min.js.br
+2023/08/04 13:04:50 gz /tmp/work/build/translations/fa.min.js -> /output/translations/fa.min.js.gz
+2023/08/04 13:04:50 sri /tmp/work/build/translations/fa.js -> /output/translations/fa.js.sri
+2023/08/04 13:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/fa.js.br /tmp/work/build/translations/fa.js
+2023/08/04 13:04:51 sri /tmp/work/build/translations/fi.min.js -> /output/translations/fi.min.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/fi.min.js.br /tmp/work/build/translations/fi.min.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/et.js -> /output/translations/et.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/et.js -> /output/translations/et.js.gz
+2023/08/04 13:04:51 sri /tmp/work/build/translations/fr.min.js -> /output/translations/fr.min.js.sri
+2023/08/04 13:04:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/he.min.js /tmp/work/build/translations/he.js
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/fr.min.js.br /tmp/work/build/translations/fr.min.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/fa.js -> /output/translations/fa.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/fa.js -> /output/translations/fa.js.gz
+2023/08/04 13:04:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/hi.min.js /tmp/work/build/translations/hi.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/fi.min.js -> /output/translations/fi.min.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/fi.min.js -> /output/translations/fi.min.js.gz
+2023/08/04 13:04:51 sri /tmp/work/build/translations/fi.js -> /output/translations/fi.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/fi.js.br /tmp/work/build/translations/fi.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/fr.min.js -> /output/translations/fr.min.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/fr.min.js -> /output/translations/fr.min.js.gz
+2023/08/04 13:04:51 sri /tmp/work/build/translations/fr.js -> /output/translations/fr.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/fr.js.br /tmp/work/build/translations/fr.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/fi.js -> /output/translations/fi.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/fi.js -> /output/translations/fi.js.gz
+2023/08/04 13:04:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/hr.min.js /tmp/work/build/translations/hr.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/fr.js -> /output/translations/fr.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/fr.js -> /output/translations/fr.js.gz
+2023/08/04 13:04:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/hu.min.js /tmp/work/build/translations/hu.js
+2023/08/04 13:04:51 sri /tmp/work/build/translations/gl.min.js -> /output/translations/gl.min.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/gl.min.js.br /tmp/work/build/translations/gl.min.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/gl.min.js -> /output/translations/gl.min.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/gl.min.js -> /output/translations/gl.min.js.gz
+2023/08/04 13:04:51 sri /tmp/work/build/translations/gl.js -> /output/translations/gl.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/gl.js.br /tmp/work/build/translations/gl.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/gl.js -> /output/translations/gl.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/gl.js -> /output/translations/gl.js.gz
+2023/08/04 13:04:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/id.min.js /tmp/work/build/translations/id.js
+2023/08/04 13:04:51 sri /tmp/work/build/translations/gu.min.js -> /output/translations/gu.min.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/gu.min.js.br /tmp/work/build/translations/gu.min.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/gu.min.js -> /output/translations/gu.min.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/gu.min.js -> /output/translations/gu.min.js.gz
+2023/08/04 13:04:51 sri /tmp/work/build/translations/gu.js -> /output/translations/gu.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/gu.js.br /tmp/work/build/translations/gu.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/gu.js -> /output/translations/gu.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/gu.js -> /output/translations/gu.js.gz
+2023/08/04 13:04:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/it.min.js /tmp/work/build/translations/it.js
+2023/08/04 13:04:51 sri /tmp/work/build/translations/he.min.js -> /output/translations/he.min.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/he.min.js.br /tmp/work/build/translations/he.min.js
+2023/08/04 13:04:51 sri /tmp/work/build/translations/hi.min.js -> /output/translations/hi.min.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/hi.min.js.br /tmp/work/build/translations/hi.min.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/he.min.js -> /output/translations/he.min.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/he.min.js -> /output/translations/he.min.js.gz
+2023/08/04 13:04:51 sri /tmp/work/build/translations/he.js -> /output/translations/he.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/he.js.br /tmp/work/build/translations/he.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/hi.min.js -> /output/translations/hi.min.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/hi.min.js -> /output/translations/hi.min.js.gz
+2023/08/04 13:04:51 sri /tmp/work/build/translations/hi.js -> /output/translations/hi.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/hi.js.br /tmp/work/build/translations/hi.js
+2023/08/04 13:04:51 sri /tmp/work/build/translations/hu.min.js -> /output/translations/hu.min.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/hu.min.js.br /tmp/work/build/translations/hu.min.js
+2023/08/04 13:04:51 sri /tmp/work/build/translations/hr.min.js -> /output/translations/hr.min.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/hr.min.js.br /tmp/work/build/translations/hr.min.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/he.js -> /output/translations/he.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/he.js -> /output/translations/he.js.gz
+2023/08/04 13:04:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/ja.min.js /tmp/work/build/translations/ja.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/hi.js -> /output/translations/hi.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/hi.js -> /output/translations/hi.js.gz
+2023/08/04 13:04:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/jv.min.js /tmp/work/build/translations/jv.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/hu.min.js -> /output/translations/hu.min.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/hu.min.js -> /output/translations/hu.min.js.gz
+2023/08/04 13:04:51 sri /tmp/work/build/translations/hu.js -> /output/translations/hu.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/hu.js.br /tmp/work/build/translations/hu.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/hr.min.js -> /output/translations/hr.min.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/hr.min.js -> /output/translations/hr.min.js.gz
+2023/08/04 13:04:51 sri /tmp/work/build/translations/hr.js -> /output/translations/hr.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/hr.js.br /tmp/work/build/translations/hr.js
+2023/08/04 13:04:51 sri /tmp/work/build/translations/id.min.js -> /output/translations/id.min.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/id.min.js.br /tmp/work/build/translations/id.min.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/hu.js -> /output/translations/hu.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/hu.js -> /output/translations/hu.js.gz
+2023/08/04 13:04:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/km.min.js /tmp/work/build/translations/km.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/hr.js -> /output/translations/hr.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/hr.js -> /output/translations/hr.js.gz
+2023/08/04 13:04:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/kn.min.js /tmp/work/build/translations/kn.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/id.min.js -> /output/translations/id.min.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/id.min.js -> /output/translations/id.min.js.gz
+2023/08/04 13:04:51 sri /tmp/work/build/translations/id.js -> /output/translations/id.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/id.js.br /tmp/work/build/translations/id.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/id.js -> /output/translations/id.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/id.js -> /output/translations/id.js.gz
+2023/08/04 13:04:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/ko.min.js /tmp/work/build/translations/ko.js
+2023/08/04 13:04:51 sri /tmp/work/build/translations/it.min.js -> /output/translations/it.min.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/it.min.js.br /tmp/work/build/translations/it.min.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/it.min.js -> /output/translations/it.min.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/it.min.js -> /output/translations/it.min.js.gz
+2023/08/04 13:04:51 sri /tmp/work/build/translations/it.js -> /output/translations/it.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/it.js.br /tmp/work/build/translations/it.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/it.js -> /output/translations/it.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/it.js -> /output/translations/it.js.gz
+2023/08/04 13:04:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/ku.min.js /tmp/work/build/translations/ku.js
+2023/08/04 13:04:51 sri /tmp/work/build/translations/ja.min.js -> /output/translations/ja.min.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/ja.min.js.br /tmp/work/build/translations/ja.min.js
+2023/08/04 13:04:51 sri /tmp/work/build/translations/km.min.js -> /output/translations/km.min.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/km.min.js.br /tmp/work/build/translations/km.min.js
+2023/08/04 13:04:51 sri /tmp/work/build/translations/jv.min.js -> /output/translations/jv.min.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/jv.min.js.br /tmp/work/build/translations/jv.min.js
+2023/08/04 13:04:51 sri /tmp/work/build/translations/kn.min.js -> /output/translations/kn.min.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/kn.min.js.br /tmp/work/build/translations/kn.min.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/jv.min.js -> /output/translations/jv.min.js.br
+2023/08/04 13:04:51 br /tmp/work/build/translations/km.min.js -> /output/translations/km.min.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/jv.min.js -> /output/translations/jv.min.js.gz
+2023/08/04 13:04:51 sri /tmp/work/build/translations/jv.js -> /output/translations/jv.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/jv.js.br /tmp/work/build/translations/jv.js
+2023/08/04 13:04:51 gz /tmp/work/build/translations/km.min.js -> /output/translations/km.min.js.gz
+2023/08/04 13:04:51 sri /tmp/work/build/translations/km.js -> /output/translations/km.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/km.js.br /tmp/work/build/translations/km.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/ja.min.js -> /output/translations/ja.min.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/ja.min.js -> /output/translations/ja.min.js.gz
+2023/08/04 13:04:51 sri /tmp/work/build/translations/ja.js -> /output/translations/ja.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/ja.js.br /tmp/work/build/translations/ja.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/kn.min.js -> /output/translations/kn.min.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/kn.min.js -> /output/translations/kn.min.js.gz
+2023/08/04 13:04:51 sri /tmp/work/build/translations/kn.js -> /output/translations/kn.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/kn.js.br /tmp/work/build/translations/kn.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/jv.js -> /output/translations/jv.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/jv.js -> /output/translations/jv.js.gz
+2023/08/04 13:04:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/lt.min.js /tmp/work/build/translations/lt.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/km.js -> /output/translations/km.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/km.js -> /output/translations/km.js.gz
+2023/08/04 13:04:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/lv.min.js /tmp/work/build/translations/lv.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/kn.js -> /output/translations/kn.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/kn.js -> /output/translations/kn.js.gz
+2023/08/04 13:04:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/ms.min.js /tmp/work/build/translations/ms.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/ja.js -> /output/translations/ja.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/ja.js -> /output/translations/ja.js.gz
+2023/08/04 13:04:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/nb.min.js /tmp/work/build/translations/nb.js
+2023/08/04 13:04:51 sri /tmp/work/build/translations/ko.min.js -> /output/translations/ko.min.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/ko.min.js.br /tmp/work/build/translations/ko.min.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/ko.min.js -> /output/translations/ko.min.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/ko.min.js -> /output/translations/ko.min.js.gz
+2023/08/04 13:04:51 sri /tmp/work/build/translations/ko.js -> /output/translations/ko.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/ko.js.br /tmp/work/build/translations/ko.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/ko.js -> /output/translations/ko.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/ko.js -> /output/translations/ko.js.gz
+2023/08/04 13:04:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/ne.min.js /tmp/work/build/translations/ne.js
+2023/08/04 13:04:51 sri /tmp/work/build/translations/ku.min.js -> /output/translations/ku.min.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/ku.min.js.br /tmp/work/build/translations/ku.min.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/ku.min.js -> /output/translations/ku.min.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/ku.min.js -> /output/translations/ku.min.js.gz
+2023/08/04 13:04:51 sri /tmp/work/build/translations/ku.js -> /output/translations/ku.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/ku.js.br /tmp/work/build/translations/ku.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/ku.js -> /output/translations/ku.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/ku.js -> /output/translations/ku.js.gz
+2023/08/04 13:04:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/nl.min.js /tmp/work/build/translations/nl.js
+2023/08/04 13:04:51 sri /tmp/work/build/translations/nb.min.js -> /output/translations/nb.min.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/nb.min.js.br /tmp/work/build/translations/nb.min.js
+2023/08/04 13:04:51 sri /tmp/work/build/translations/lt.min.js -> /output/translations/lt.min.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/lt.min.js.br /tmp/work/build/translations/lt.min.js
+2023/08/04 13:04:51 sri /tmp/work/build/translations/lv.min.js -> /output/translations/lv.min.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/lv.min.js.br /tmp/work/build/translations/lv.min.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/nb.min.js -> /output/translations/nb.min.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/nb.min.js -> /output/translations/nb.min.js.gz
+2023/08/04 13:04:51 sri /tmp/work/build/translations/nb.js -> /output/translations/nb.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/nb.js.br /tmp/work/build/translations/nb.js
+2023/08/04 13:04:51 sri /tmp/work/build/translations/ms.min.js -> /output/translations/ms.min.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/ms.min.js.br /tmp/work/build/translations/ms.min.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/lt.min.js -> /output/translations/lt.min.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/lt.min.js -> /output/translations/lt.min.js.gz
+2023/08/04 13:04:51 sri /tmp/work/build/translations/lt.js -> /output/translations/lt.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/lt.js.br /tmp/work/build/translations/lt.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/nb.js -> /output/translations/nb.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/nb.js -> /output/translations/nb.js.gz
+2023/08/04 13:04:51 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/no.min.js /tmp/work/build/translations/no.js
+2023/08/04 13:04:51 br /tmp/work/build/translations/lv.min.js -> /output/translations/lv.min.js.br
+2023/08/04 13:04:51 gz /tmp/work/build/translations/lv.min.js -> /output/translations/lv.min.js.gz
+2023/08/04 13:04:51 sri /tmp/work/build/translations/lv.js -> /output/translations/lv.js.sri
+2023/08/04 13:04:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/lv.js.br /tmp/work/build/translations/lv.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/ms.min.js -> /output/translations/ms.min.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/ms.min.js -> /output/translations/ms.min.js.gz
+2023/08/04 13:04:52 sri /tmp/work/build/translations/ms.js -> /output/translations/ms.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/ms.js.br /tmp/work/build/translations/ms.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/lt.js -> /output/translations/lt.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/lt.js -> /output/translations/lt.js.gz
+2023/08/04 13:04:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/oc.min.js /tmp/work/build/translations/oc.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/lv.js -> /output/translations/lv.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/lv.js -> /output/translations/lv.js.gz
+2023/08/04 13:04:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/pl.min.js /tmp/work/build/translations/pl.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/ms.js -> /output/translations/ms.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/ms.js -> /output/translations/ms.js.gz
+2023/08/04 13:04:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/pt-br.min.js /tmp/work/build/translations/pt-br.js
+2023/08/04 13:04:52 sri /tmp/work/build/translations/ne.min.js -> /output/translations/ne.min.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/ne.min.js.br /tmp/work/build/translations/ne.min.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/ne.min.js -> /output/translations/ne.min.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/ne.min.js -> /output/translations/ne.min.js.gz
+2023/08/04 13:04:52 sri /tmp/work/build/translations/ne.js -> /output/translations/ne.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/ne.js.br /tmp/work/build/translations/ne.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/ne.js -> /output/translations/ne.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/ne.js -> /output/translations/ne.js.gz
+2023/08/04 13:04:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/pt.min.js /tmp/work/build/translations/pt.js
+2023/08/04 13:04:52 sri /tmp/work/build/translations/oc.min.js -> /output/translations/oc.min.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/oc.min.js.br /tmp/work/build/translations/oc.min.js
+2023/08/04 13:04:52 sri /tmp/work/build/translations/nl.min.js -> /output/translations/nl.min.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/nl.min.js.br /tmp/work/build/translations/nl.min.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/oc.min.js -> /output/translations/oc.min.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/oc.min.js -> /output/translations/oc.min.js.gz
+2023/08/04 13:04:52 sri /tmp/work/build/translations/oc.js -> /output/translations/oc.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/oc.js.br /tmp/work/build/translations/oc.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/oc.js -> /output/translations/oc.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/oc.js -> /output/translations/oc.js.gz
+2023/08/04 13:04:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/ro.min.js /tmp/work/build/translations/ro.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/nl.min.js -> /output/translations/nl.min.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/nl.min.js -> /output/translations/nl.min.js.gz
+2023/08/04 13:04:52 sri /tmp/work/build/translations/nl.js -> /output/translations/nl.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/nl.js.br /tmp/work/build/translations/nl.js
+2023/08/04 13:04:52 sri /tmp/work/build/translations/no.min.js -> /output/translations/no.min.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/no.min.js.br /tmp/work/build/translations/no.min.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/nl.js -> /output/translations/nl.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/nl.js -> /output/translations/nl.js.gz
+2023/08/04 13:04:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/ru.min.js /tmp/work/build/translations/ru.js
+2023/08/04 13:04:52 sri /tmp/work/build/translations/pl.min.js -> /output/translations/pl.min.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/pl.min.js.br /tmp/work/build/translations/pl.min.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/no.min.js -> /output/translations/no.min.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/no.min.js -> /output/translations/no.min.js.gz
+2023/08/04 13:04:52 sri /tmp/work/build/translations/no.js -> /output/translations/no.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/no.js.br /tmp/work/build/translations/no.js
+2023/08/04 13:04:52 sri /tmp/work/build/translations/pt-br.min.js -> /output/translations/pt-br.min.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/pt-br.min.js.br /tmp/work/build/translations/pt-br.min.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/pl.min.js -> /output/translations/pl.min.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/pl.min.js -> /output/translations/pl.min.js.gz
+2023/08/04 13:04:52 sri /tmp/work/build/translations/pl.js -> /output/translations/pl.js.sri
+2023/08/04 13:04:52 br /tmp/work/build/translations/no.js -> /output/translations/no.js.br
+2023/08/04 13:04:52 br /tmp/work/build/translations/pt-br.min.js -> /output/translations/pt-br.min.js.br
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/pl.js.br /tmp/work/build/translations/pl.js
+2023/08/04 13:04:52 gz /tmp/work/build/translations/no.js -> /output/translations/no.js.gz
+2023/08/04 13:04:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/si.min.js /tmp/work/build/translations/si.js
+2023/08/04 13:04:52 gz /tmp/work/build/translations/pt-br.min.js -> /output/translations/pt-br.min.js.gz
+2023/08/04 13:04:52 sri /tmp/work/build/translations/pt-br.js -> /output/translations/pt-br.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/pt-br.js.br /tmp/work/build/translations/pt-br.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/pl.js -> /output/translations/pl.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/pl.js -> /output/translations/pl.js.gz
+2023/08/04 13:04:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/sk.min.js /tmp/work/build/translations/sk.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/pt-br.js -> /output/translations/pt-br.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/pt-br.js -> /output/translations/pt-br.js.gz
+2023/08/04 13:04:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/sl.min.js /tmp/work/build/translations/sl.js
+2023/08/04 13:04:52 sri /tmp/work/build/translations/pt.min.js -> /output/translations/pt.min.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/pt.min.js.br /tmp/work/build/translations/pt.min.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/pt.min.js -> /output/translations/pt.min.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/pt.min.js -> /output/translations/pt.min.js.gz
+2023/08/04 13:04:52 sri /tmp/work/build/translations/pt.js -> /output/translations/pt.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/pt.js.br /tmp/work/build/translations/pt.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/pt.js -> /output/translations/pt.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/pt.js -> /output/translations/pt.js.gz
+2023/08/04 13:04:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/sq.min.js /tmp/work/build/translations/sq.js
+2023/08/04 13:04:52 sri /tmp/work/build/translations/ro.min.js -> /output/translations/ro.min.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/ro.min.js.br /tmp/work/build/translations/ro.min.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/ro.min.js -> /output/translations/ro.min.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/ro.min.js -> /output/translations/ro.min.js.gz
+2023/08/04 13:04:52 sri /tmp/work/build/translations/ro.js -> /output/translations/ro.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/ro.js.br /tmp/work/build/translations/ro.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/ro.js -> /output/translations/ro.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/ro.js -> /output/translations/ro.js.gz
+2023/08/04 13:04:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/sr-latn.min.js /tmp/work/build/translations/sr-latn.js
+2023/08/04 13:04:52 sri /tmp/work/build/translations/si.min.js -> /output/translations/si.min.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/si.min.js.br /tmp/work/build/translations/si.min.js
+2023/08/04 13:04:52 sri /tmp/work/build/translations/ru.min.js -> /output/translations/ru.min.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/ru.min.js.br /tmp/work/build/translations/ru.min.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/si.min.js -> /output/translations/si.min.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/si.min.js -> /output/translations/si.min.js.gz
+2023/08/04 13:04:52 sri /tmp/work/build/translations/si.js -> /output/translations/si.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/si.js.br /tmp/work/build/translations/si.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/si.js -> /output/translations/si.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/si.js -> /output/translations/si.js.gz
+2023/08/04 13:04:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/sr.min.js /tmp/work/build/translations/sr.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/ru.min.js -> /output/translations/ru.min.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/ru.min.js -> /output/translations/ru.min.js.gz
+2023/08/04 13:04:52 sri /tmp/work/build/translations/sl.min.js -> /output/translations/sl.min.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/sl.min.js.br /tmp/work/build/translations/sl.min.js
+2023/08/04 13:04:52 sri /tmp/work/build/translations/ru.js -> /output/translations/ru.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/ru.js.br /tmp/work/build/translations/ru.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/sl.min.js -> /output/translations/sl.min.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/sl.min.js -> /output/translations/sl.min.js.gz
+2023/08/04 13:04:52 sri /tmp/work/build/translations/sl.js -> /output/translations/sl.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/sl.js.br /tmp/work/build/translations/sl.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/ru.js -> /output/translations/ru.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/ru.js -> /output/translations/ru.js.gz
+2023/08/04 13:04:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/sv.min.js /tmp/work/build/translations/sv.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/sl.js -> /output/translations/sl.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/sl.js -> /output/translations/sl.js.gz
+2023/08/04 13:04:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/th.min.js /tmp/work/build/translations/th.js
+2023/08/04 13:04:52 sri /tmp/work/build/translations/sk.min.js -> /output/translations/sk.min.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/sk.min.js.br /tmp/work/build/translations/sk.min.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/sk.min.js -> /output/translations/sk.min.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/sk.min.js -> /output/translations/sk.min.js.gz
+2023/08/04 13:04:52 sri /tmp/work/build/translations/sk.js -> /output/translations/sk.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/sk.js.br /tmp/work/build/translations/sk.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/sk.js -> /output/translations/sk.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/sk.js -> /output/translations/sk.js.gz
+2023/08/04 13:04:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/tk.min.js /tmp/work/build/translations/tk.js
+2023/08/04 13:04:52 sri /tmp/work/build/translations/sq.min.js -> /output/translations/sq.min.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/sq.min.js.br /tmp/work/build/translations/sq.min.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/sq.min.js -> /output/translations/sq.min.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/sq.min.js -> /output/translations/sq.min.js.gz
+2023/08/04 13:04:52 sri /tmp/work/build/translations/sq.js -> /output/translations/sq.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/sq.js.br /tmp/work/build/translations/sq.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/sq.js -> /output/translations/sq.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/sq.js -> /output/translations/sq.js.gz
+2023/08/04 13:04:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/tr.min.js /tmp/work/build/translations/tr.js
+2023/08/04 13:04:52 sri /tmp/work/build/translations/sr.min.js -> /output/translations/sr.min.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/sr.min.js.br /tmp/work/build/translations/sr.min.js
+2023/08/04 13:04:52 sri /tmp/work/build/translations/sr-latn.min.js -> /output/translations/sr-latn.min.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/sr-latn.min.js.br /tmp/work/build/translations/sr-latn.min.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/sr.min.js -> /output/translations/sr.min.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/sr.min.js -> /output/translations/sr.min.js.gz
+2023/08/04 13:04:52 sri /tmp/work/build/translations/sr.js -> /output/translations/sr.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/sr.js.br /tmp/work/build/translations/sr.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/sr-latn.min.js -> /output/translations/sr-latn.min.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/sr-latn.min.js -> /output/translations/sr-latn.min.js.gz
+2023/08/04 13:04:52 sri /tmp/work/build/translations/th.min.js -> /output/translations/th.min.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/th.min.js.br /tmp/work/build/translations/th.min.js
+2023/08/04 13:04:52 sri /tmp/work/build/translations/sr-latn.js -> /output/translations/sr-latn.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/sr-latn.js.br /tmp/work/build/translations/sr-latn.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/sr-latn.js -> /output/translations/sr-latn.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/sr-latn.js -> /output/translations/sr-latn.js.gz
+2023/08/04 13:04:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/tt.min.js /tmp/work/build/translations/tt.js
+2023/08/04 13:04:52 sri /tmp/work/build/translations/sv.min.js -> /output/translations/sv.min.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/sv.min.js.br /tmp/work/build/translations/sv.min.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/sr.js -> /output/translations/sr.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/sr.js -> /output/translations/sr.js.gz
+2023/08/04 13:04:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/ug.min.js /tmp/work/build/translations/ug.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/sv.min.js -> /output/translations/sv.min.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/sv.min.js -> /output/translations/sv.min.js.gz
+2023/08/04 13:04:52 sri /tmp/work/build/translations/sv.js -> /output/translations/sv.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/sv.js.br /tmp/work/build/translations/sv.js
+2023/08/04 13:04:52 br /tmp/work/build/translations/th.min.js -> /output/translations/th.min.js.br
+2023/08/04 13:04:52 gz /tmp/work/build/translations/th.min.js -> /output/translations/th.min.js.gz
+2023/08/04 13:04:52 sri /tmp/work/build/translations/th.js -> /output/translations/th.js.sri
+2023/08/04 13:04:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/th.js.br /tmp/work/build/translations/th.js
+2023/08/04 13:04:53 br /tmp/work/build/translations/sv.js -> /output/translations/sv.js.br
+2023/08/04 13:04:53 gz /tmp/work/build/translations/sv.js -> /output/translations/sv.js.gz
+2023/08/04 13:04:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/uk.min.js /tmp/work/build/translations/uk.js
+2023/08/04 13:04:53 sri /tmp/work/build/translations/tk.min.js -> /output/translations/tk.min.js.sri
+2023/08/04 13:04:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/tk.min.js.br /tmp/work/build/translations/tk.min.js
+2023/08/04 13:04:53 br /tmp/work/build/translations/th.js -> /output/translations/th.js.br
+2023/08/04 13:04:53 gz /tmp/work/build/translations/th.js -> /output/translations/th.js.gz
+2023/08/04 13:04:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/ur.min.js /tmp/work/build/translations/ur.js
+2023/08/04 13:04:53 br /tmp/work/build/translations/tk.min.js -> /output/translations/tk.min.js.br
+2023/08/04 13:04:53 gz /tmp/work/build/translations/tk.min.js -> /output/translations/tk.min.js.gz
+2023/08/04 13:04:53 sri /tmp/work/build/translations/tk.js -> /output/translations/tk.js.sri
+2023/08/04 13:04:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/tk.js.br /tmp/work/build/translations/tk.js
+2023/08/04 13:04:53 br /tmp/work/build/translations/tk.js -> /output/translations/tk.js.br
+2023/08/04 13:04:53 gz /tmp/work/build/translations/tk.js -> /output/translations/tk.js.gz
+2023/08/04 13:04:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/uz.min.js /tmp/work/build/translations/uz.js
+2023/08/04 13:04:53 sri /tmp/work/build/translations/tr.min.js -> /output/translations/tr.min.js.sri
+2023/08/04 13:04:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/tr.min.js.br /tmp/work/build/translations/tr.min.js
+2023/08/04 13:04:53 br /tmp/work/build/translations/tr.min.js -> /output/translations/tr.min.js.br
+2023/08/04 13:04:53 gz /tmp/work/build/translations/tr.min.js -> /output/translations/tr.min.js.gz
+2023/08/04 13:04:53 sri /tmp/work/build/translations/tr.js -> /output/translations/tr.js.sri
+2023/08/04 13:04:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/tr.js.br /tmp/work/build/translations/tr.js
+2023/08/04 13:04:53 br /tmp/work/build/translations/tr.js -> /output/translations/tr.js.br
+2023/08/04 13:04:53 gz /tmp/work/build/translations/tr.js -> /output/translations/tr.js.gz
+2023/08/04 13:04:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/vi.min.js /tmp/work/build/translations/vi.js
+2023/08/04 13:04:53 sri /tmp/work/build/translations/tt.min.js -> /output/translations/tt.min.js.sri
+2023/08/04 13:04:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/tt.min.js.br /tmp/work/build/translations/tt.min.js
+2023/08/04 13:04:53 br /tmp/work/build/translations/tt.min.js -> /output/translations/tt.min.js.br
+2023/08/04 13:04:53 gz /tmp/work/build/translations/tt.min.js -> /output/translations/tt.min.js.gz
+2023/08/04 13:04:53 sri /tmp/work/build/translations/tt.js -> /output/translations/tt.js.sri
+2023/08/04 13:04:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/tt.js.br /tmp/work/build/translations/tt.js
+2023/08/04 13:04:53 sri /tmp/work/build/translations/ug.min.js -> /output/translations/ug.min.js.sri
+2023/08/04 13:04:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/ug.min.js.br /tmp/work/build/translations/ug.min.js
+2023/08/04 13:04:53 br /tmp/work/build/translations/tt.js -> /output/translations/tt.js.br
+2023/08/04 13:04:53 gz /tmp/work/build/translations/tt.js -> /output/translations/tt.js.gz
+2023/08/04 13:04:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/zh-cn.min.js /tmp/work/build/translations/zh-cn.js
+2023/08/04 13:04:53 br /tmp/work/build/translations/ug.min.js -> /output/translations/ug.min.js.br
+2023/08/04 13:04:53 gz /tmp/work/build/translations/ug.min.js -> /output/translations/ug.min.js.gz
+2023/08/04 13:04:53 sri /tmp/work/build/translations/ug.js -> /output/translations/ug.js.sri
+2023/08/04 13:04:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/ug.js.br /tmp/work/build/translations/ug.js
+2023/08/04 13:04:53 br /tmp/work/build/translations/ug.js -> /output/translations/ug.js.br
+2023/08/04 13:04:53 gz /tmp/work/build/translations/ug.js -> /output/translations/ug.js.gz
+2023/08/04 13:04:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/build/translations/zh.min.js /tmp/work/build/translations/zh.js
+2023/08/04 13:04:53 sri /tmp/work/build/translations/uk.min.js -> /output/translations/uk.min.js.sri
+2023/08/04 13:04:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/uk.min.js.br /tmp/work/build/translations/uk.min.js
+2023/08/04 13:04:53 sri /tmp/work/build/translations/ur.min.js -> /output/translations/ur.min.js.sri
+2023/08/04 13:04:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/ur.min.js.br /tmp/work/build/translations/ur.min.js
+2023/08/04 13:04:53 br /tmp/work/build/translations/uk.min.js -> /output/translations/uk.min.js.br
+2023/08/04 13:04:53 gz /tmp/work/build/translations/uk.min.js -> /output/translations/uk.min.js.gz
+2023/08/04 13:04:53 sri /tmp/work/build/translations/uk.js -> /output/translations/uk.js.sri
+2023/08/04 13:04:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/uk.js.br /tmp/work/build/translations/uk.js
+2023/08/04 13:04:53 br /tmp/work/build/translations/ur.min.js -> /output/translations/ur.min.js.br
+2023/08/04 13:04:53 gz /tmp/work/build/translations/ur.min.js -> /output/translations/ur.min.js.gz
+2023/08/04 13:04:53 sri /tmp/work/build/translations/ur.js -> /output/translations/ur.js.sri
+2023/08/04 13:04:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/ur.js.br /tmp/work/build/translations/ur.js
+2023/08/04 13:04:53 sri /tmp/work/build/translations/uz.min.js -> /output/translations/uz.min.js.sri
+2023/08/04 13:04:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/uz.min.js.br /tmp/work/build/translations/uz.min.js
+2023/08/04 13:04:53 br /tmp/work/build/translations/ur.js -> /output/translations/ur.js.br
+2023/08/04 13:04:53 gz /tmp/work/build/translations/ur.js -> /output/translations/ur.js.gz
+2023/08/04 13:04:53 br /tmp/work/build/translations/uz.min.js -> /output/translations/uz.min.js.br
+2023/08/04 13:04:53 gz /tmp/work/build/translations/uz.min.js -> /output/translations/uz.min.js.gz
+2023/08/04 13:04:53 sri /tmp/work/build/translations/uz.js -> /output/translations/uz.js.sri
+2023/08/04 13:04:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/uz.js.br /tmp/work/build/translations/uz.js
+2023/08/04 13:04:53 br /tmp/work/build/translations/uk.js -> /output/translations/uk.js.br
+2023/08/04 13:04:53 gz /tmp/work/build/translations/uk.js -> /output/translations/uk.js.gz
+2023/08/04 13:04:53 br /tmp/work/build/translations/uz.js -> /output/translations/uz.js.br
+2023/08/04 13:04:53 gz /tmp/work/build/translations/uz.js -> /output/translations/uz.js.gz
+2023/08/04 13:04:53 sri /tmp/work/build/translations/vi.min.js -> /output/translations/vi.min.js.sri
+2023/08/04 13:04:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/vi.min.js.br /tmp/work/build/translations/vi.min.js
+2023/08/04 13:04:53 br /tmp/work/build/translations/vi.min.js -> /output/translations/vi.min.js.br
+2023/08/04 13:04:53 gz /tmp/work/build/translations/vi.min.js -> /output/translations/vi.min.js.gz
+2023/08/04 13:04:53 sri /tmp/work/build/translations/vi.js -> /output/translations/vi.js.sri
+2023/08/04 13:04:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/vi.js.br /tmp/work/build/translations/vi.js
+2023/08/04 13:04:53 br /tmp/work/build/translations/vi.js -> /output/translations/vi.js.br
+2023/08/04 13:04:53 gz /tmp/work/build/translations/vi.js -> /output/translations/vi.js.gz
+2023/08/04 13:04:53 sri /tmp/work/build/translations/zh.min.js -> /output/translations/zh.min.js.sri
+2023/08/04 13:04:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/zh.min.js.br /tmp/work/build/translations/zh.min.js
+2023/08/04 13:04:53 sri /tmp/work/build/translations/zh-cn.min.js -> /output/translations/zh-cn.min.js.sri
+2023/08/04 13:04:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/zh-cn.min.js.br /tmp/work/build/translations/zh-cn.min.js
+2023/08/04 13:04:53 br /tmp/work/build/translations/zh.min.js -> /output/translations/zh.min.js.br
+2023/08/04 13:04:53 gz /tmp/work/build/translations/zh.min.js -> /output/translations/zh.min.js.gz
+2023/08/04 13:04:53 sri /tmp/work/build/translations/zh.js -> /output/translations/zh.js.sri
+2023/08/04 13:04:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/zh.js.br /tmp/work/build/translations/zh.js
+2023/08/04 13:04:53 br /tmp/work/build/translations/zh-cn.min.js -> /output/translations/zh-cn.min.js.br
+2023/08/04 13:04:53 gz /tmp/work/build/translations/zh-cn.min.js -> /output/translations/zh-cn.min.js.gz
+2023/08/04 13:04:53 sri /tmp/work/build/translations/zh-cn.js -> /output/translations/zh-cn.js.sri
+2023/08/04 13:04:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/translations/zh-cn.js.br /tmp/work/build/translations/zh-cn.js
+2023/08/04 13:04:53 br /tmp/work/build/translations/zh.js -> /output/translations/zh.js.br
+2023/08/04 13:04:53 gz /tmp/work/build/translations/zh.js -> /output/translations/zh.js.gz
+2023/08/04 13:04:53 br /tmp/work/build/translations/zh-cn.js -> /output/translations/zh-cn.js.br
+2023/08/04 13:04:53 gz /tmp/work/build/translations/zh-cn.js -> /output/translations/zh-cn.js.gz
+2023/08/04 13:05:03 sri /tmp/work/build/ckeditor.min.js -> /output/ckeditor.min.js.sri
+2023/08/04 13:05:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ckeditor.min.js.br /tmp/work/build/ckeditor.min.js
+2023/08/04 13:05:03 br /tmp/work/build/ckeditor.js.map -> /output/ckeditor.js.map.br
+2023/08/04 13:05:04 gz /tmp/work/build/ckeditor.js.map -> /output/ckeditor.js.map.gz
+2023/08/04 13:05:05 br /tmp/work/build/ckeditor.min.js -> /output/ckeditor.min.js.br
+2023/08/04 13:05:05 gz /tmp/work/build/ckeditor.min.js -> /output/ckeditor.min.js.gz
+2023/08/04 13:05:05 sri /tmp/work/build/ckeditor.js -> /output/ckeditor.js.sri
+2023/08/04 13:05:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ckeditor.js.br /tmp/work/build/ckeditor.js
+2023/08/04 13:05:08 br /tmp/work/build/ckeditor.js -> /output/ckeditor.js.br
+2023/08/04 13:05:08 gz /tmp/work/build/ckeditor.js -> /output/ckeditor.js.gz
+2023/08/04 13:05:08 processed ckeditor5
