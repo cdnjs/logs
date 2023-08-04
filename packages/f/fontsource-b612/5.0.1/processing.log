@@ -1,117 +1,117 @@
-2023/08/04 12:33:57 optimizing files (Js true, Css true, Png true, Jpg true)
-2023/08/04 12:33:57 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/400-italic.min.css /tmp/work/400-italic.css
-2023/08/04 12:33:57 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/index.min.css /tmp/work/index.css
-2023/08/04 12:33:57 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/700.min.css /tmp/work/700.css
-2023/08/04 12:33:57 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-400-italic.min.css /tmp/work/latin-400-italic.css
-2023/08/04 12:33:57 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-400.min.css /tmp/work/latin-400.css
-2023/08/04 12:33:57 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-700-italic.min.css /tmp/work/latin-700-italic.css
-2023/08/04 12:33:57 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/700-italic.min.css /tmp/work/700-italic.css
-2023/08/04 12:33:57 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/400.min.css /tmp/work/400.css
-2023/08/04 12:33:58 sri /tmp/work/index.min.css -> /output/index.min.css.sri
-2023/08/04 12:33:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.css.br /tmp/work/index.min.css
-2023/08/04 12:33:58 sri /tmp/work/latin-400-italic.min.css -> /output/latin-400-italic.min.css.sri
-2023/08/04 12:33:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400-italic.min.css.br /tmp/work/latin-400-italic.min.css
-2023/08/04 12:33:58 sri /tmp/work/latin-700-italic.min.css -> /output/latin-700-italic.min.css.sri
-2023/08/04 12:33:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-700-italic.min.css.br /tmp/work/latin-700-italic.min.css
-2023/08/04 12:33:58 br /tmp/work/index.min.css -> /output/index.min.css.br
-2023/08/04 12:33:58 gz /tmp/work/index.min.css -> /output/index.min.css.gz
-2023/08/04 12:33:58 br /tmp/work/latin-400-italic.min.css -> /output/latin-400-italic.min.css.br
-2023/08/04 12:33:58 sri /tmp/work/index.css -> /output/index.css.sri
-2023/08/04 12:33:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.css.br /tmp/work/index.css
-2023/08/04 12:33:58 gz /tmp/work/latin-400-italic.min.css -> /output/latin-400-italic.min.css.gz
-2023/08/04 12:33:58 sri /tmp/work/latin-400-italic.css -> /output/latin-400-italic.css.sri
-2023/08/04 12:33:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400-italic.css.br /tmp/work/latin-400-italic.css
-2023/08/04 12:33:58 br /tmp/work/latin-700-italic.min.css -> /output/latin-700-italic.min.css.br
-2023/08/04 12:33:58 sri /tmp/work/700.min.css -> /output/700.min.css.sri
-2023/08/04 12:33:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/700.min.css.br /tmp/work/700.min.css
-2023/08/04 12:33:58 gz /tmp/work/latin-700-italic.min.css -> /output/latin-700-italic.min.css.gz
-2023/08/04 12:33:58 sri /tmp/work/400-italic.min.css -> /output/400-italic.min.css.sri
-2023/08/04 12:33:58 br /tmp/work/latin-400-italic.css -> /output/latin-400-italic.css.br
-2023/08/04 12:33:58 sri /tmp/work/latin-700-italic.css -> /output/latin-700-italic.css.sri
-2023/08/04 12:33:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-700-italic.css.br /tmp/work/latin-700-italic.css
-2023/08/04 12:33:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400-italic.min.css.br /tmp/work/400-italic.min.css
-2023/08/04 12:33:58 gz /tmp/work/latin-400-italic.css -> /output/latin-400-italic.css.gz
-2023/08/04 12:33:58 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-700.min.css /tmp/work/latin-700.css
-2023/08/04 12:33:58 br /tmp/work/index.css -> /output/index.css.br
-2023/08/04 12:33:58 br /tmp/work/700.min.css -> /output/700.min.css.br
-2023/08/04 12:33:58 gz /tmp/work/index.css -> /output/index.css.gz
-2023/08/04 12:33:58 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-italic.min.css /tmp/work/latin-italic.css
-2023/08/04 12:33:58 br /tmp/work/latin-700-italic.css -> /output/latin-700-italic.css.br
-2023/08/04 12:33:58 gz /tmp/work/700.min.css -> /output/700.min.css.gz
-2023/08/04 12:33:58 sri /tmp/work/700.css -> /output/700.css.sri
-2023/08/04 12:33:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/700.css.br /tmp/work/700.css
-2023/08/04 12:33:58 gz /tmp/work/latin-700-italic.css -> /output/latin-700-italic.css.gz
-2023/08/04 12:33:58 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin.min.css /tmp/work/latin.css
-2023/08/04 12:33:58 br /tmp/work/400-italic.min.css -> /output/400-italic.min.css.br
-2023/08/04 12:33:58 gz /tmp/work/400-italic.min.css -> /output/400-italic.min.css.gz
-2023/08/04 12:33:58 sri /tmp/work/400-italic.css -> /output/400-italic.css.sri
-2023/08/04 12:33:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400-italic.css.br /tmp/work/400-italic.css
-2023/08/04 12:33:58 br /tmp/work/700.css -> /output/700.css.br
-2023/08/04 12:33:58 gz /tmp/work/700.css -> /output/700.css.gz
-2023/08/04 12:33:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/b612-latin-400-italic.woff.br /tmp/work/files/b612-latin-400-italic.woff
-2023/08/04 12:33:58 br /tmp/work/400-italic.css -> /output/400-italic.css.br
-2023/08/04 12:33:58 gz /tmp/work/400-italic.css -> /output/400-italic.css.gz
-2023/08/04 12:33:58 copy /tmp/work/files/b612-latin-400-italic.woff2 -> /output/files/b612-latin-400-italic.woff2
-2023/08/04 12:33:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/b612-latin-400-normal.woff.br /tmp/work/files/b612-latin-400-normal.woff
-2023/08/04 12:33:58 sri /tmp/work/400.min.css -> /output/400.min.css.sri
-2023/08/04 12:33:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400.min.css.br /tmp/work/400.min.css
-2023/08/04 12:33:58 br /tmp/work/400.min.css -> /output/400.min.css.br
-2023/08/04 12:33:58 gz /tmp/work/400.min.css -> /output/400.min.css.gz
-2023/08/04 12:33:58 sri /tmp/work/400.css -> /output/400.css.sri
-2023/08/04 12:33:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400.css.br /tmp/work/400.css
-2023/08/04 12:33:58 br /tmp/work/400.css -> /output/400.css.br
-2023/08/04 12:33:58 gz /tmp/work/400.css -> /output/400.css.gz
-2023/08/04 12:33:58 copy /tmp/work/files/b612-latin-400-normal.woff2 -> /output/files/b612-latin-400-normal.woff2
-2023/08/04 12:33:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/b612-latin-700-italic.woff.br /tmp/work/files/b612-latin-700-italic.woff
-2023/08/04 12:33:58 sri /tmp/work/latin-400.min.css -> /output/latin-400.min.css.sri
-2023/08/04 12:33:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400.min.css.br /tmp/work/latin-400.min.css
-2023/08/04 12:33:58 sri /tmp/work/700-italic.min.css -> /output/700-italic.min.css.sri
-2023/08/04 12:33:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/700-italic.min.css.br /tmp/work/700-italic.min.css
-2023/08/04 12:33:58 br /tmp/work/latin-400.min.css -> /output/latin-400.min.css.br
-2023/08/04 12:33:58 gz /tmp/work/latin-400.min.css -> /output/latin-400.min.css.gz
-2023/08/04 12:33:58 sri /tmp/work/latin-400.css -> /output/latin-400.css.sri
-2023/08/04 12:33:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400.css.br /tmp/work/latin-400.css
-2023/08/04 12:33:58 br /tmp/work/700-italic.min.css -> /output/700-italic.min.css.br
-2023/08/04 12:33:58 gz /tmp/work/700-italic.min.css -> /output/700-italic.min.css.gz
-2023/08/04 12:33:58 sri /tmp/work/700-italic.css -> /output/700-italic.css.sri
-2023/08/04 12:33:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/700-italic.css.br /tmp/work/700-italic.css
-2023/08/04 12:33:58 br /tmp/work/latin-400.css -> /output/latin-400.css.br
-2023/08/04 12:33:58 gz /tmp/work/latin-400.css -> /output/latin-400.css.gz
-2023/08/04 12:33:58 copy /tmp/work/files/b612-latin-700-italic.woff2 -> /output/files/b612-latin-700-italic.woff2
-2023/08/04 12:33:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/b612-latin-700-normal.woff.br /tmp/work/files/b612-latin-700-normal.woff
-2023/08/04 12:33:58 br /tmp/work/700-italic.css -> /output/700-italic.css.br
-2023/08/04 12:33:58 gz /tmp/work/700-italic.css -> /output/700-italic.css.gz
-2023/08/04 12:33:58 copy /tmp/work/files/b612-latin-700-normal.woff2 -> /output/files/b612-latin-700-normal.woff2
-2023/08/04 12:33:58 br /tmp/work/files/b612-latin-400-normal.woff -> /output/files/b612-latin-400-normal.woff.br
-2023/08/04 12:33:58 gz /tmp/work/files/b612-latin-400-normal.woff -> /output/files/b612-latin-400-normal.woff.gz
-2023/08/04 12:33:58 br /tmp/work/files/b612-latin-400-italic.woff -> /output/files/b612-latin-400-italic.woff.br
-2023/08/04 12:33:58 gz /tmp/work/files/b612-latin-400-italic.woff -> /output/files/b612-latin-400-italic.woff.gz
-2023/08/04 12:33:58 br /tmp/work/files/b612-latin-700-italic.woff -> /output/files/b612-latin-700-italic.woff.br
-2023/08/04 12:33:58 gz /tmp/work/files/b612-latin-700-italic.woff -> /output/files/b612-latin-700-italic.woff.gz
-2023/08/04 12:33:58 br /tmp/work/files/b612-latin-700-normal.woff -> /output/files/b612-latin-700-normal.woff.br
-2023/08/04 12:33:58 gz /tmp/work/files/b612-latin-700-normal.woff -> /output/files/b612-latin-700-normal.woff.gz
-2023/08/04 12:33:58 sri /tmp/work/latin.min.css -> /output/latin.min.css.sri
-2023/08/04 12:33:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin.min.css.br /tmp/work/latin.min.css
-2023/08/04 12:33:58 br /tmp/work/latin.min.css -> /output/latin.min.css.br
-2023/08/04 12:33:58 gz /tmp/work/latin.min.css -> /output/latin.min.css.gz
-2023/08/04 12:33:58 sri /tmp/work/latin.css -> /output/latin.css.sri
-2023/08/04 12:33:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin.css.br /tmp/work/latin.css
-2023/08/04 12:33:58 sri /tmp/work/latin-700.min.css -> /output/latin-700.min.css.sri
-2023/08/04 12:33:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-700.min.css.br /tmp/work/latin-700.min.css
-2023/08/04 12:33:58 br /tmp/work/latin-700.min.css -> /output/latin-700.min.css.br
-2023/08/04 12:33:58 br /tmp/work/latin.css -> /output/latin.css.br
-2023/08/04 12:33:58 gz /tmp/work/latin-700.min.css -> /output/latin-700.min.css.gz
-2023/08/04 12:33:58 gz /tmp/work/latin.css -> /output/latin.css.gz
-2023/08/04 12:33:58 sri /tmp/work/latin-700.css -> /output/latin-700.css.sri
-2023/08/04 12:33:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-700.css.br /tmp/work/latin-700.css
-2023/08/04 12:33:58 br /tmp/work/latin-700.css -> /output/latin-700.css.br
-2023/08/04 12:33:58 gz /tmp/work/latin-700.css -> /output/latin-700.css.gz
-2023/08/04 12:33:58 sri /tmp/work/latin-italic.min.css -> /output/latin-italic.min.css.sri
-2023/08/04 12:33:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-italic.min.css.br /tmp/work/latin-italic.min.css
-2023/08/04 12:33:58 br /tmp/work/latin-italic.min.css -> /output/latin-italic.min.css.br
-2023/08/04 12:33:58 gz /tmp/work/latin-italic.min.css -> /output/latin-italic.min.css.gz
-2023/08/04 12:33:58 sri /tmp/work/latin-italic.css -> /output/latin-italic.css.sri
-2023/08/04 12:33:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-italic.css.br /tmp/work/latin-italic.css
-2023/08/04 12:33:58 br /tmp/work/latin-italic.css -> /output/latin-italic.css.br
-2023/08/04 12:33:58 gz /tmp/work/latin-italic.css -> /output/latin-italic.css.gz
-2023/08/04 12:33:58 processed fontsource-b612
+2023/08/04 15:02:37 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/08/04 15:02:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/400-italic.min.css /tmp/work/400-italic.css
+2023/08/04 15:02:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/700-italic.min.css /tmp/work/700-italic.css
+2023/08/04 15:02:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/700.min.css /tmp/work/700.css
+2023/08/04 15:02:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/400.min.css /tmp/work/400.css
+2023/08/04 15:02:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-400-italic.min.css /tmp/work/latin-400-italic.css
+2023/08/04 15:02:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-700-italic.min.css /tmp/work/latin-700-italic.css
+2023/08/04 15:02:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/index.min.css /tmp/work/index.css
+2023/08/04 15:02:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-400.min.css /tmp/work/latin-400.css
+2023/08/04 15:02:37 sri /tmp/work/700.min.css -> /output/700.min.css.sri
+2023/08/04 15:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/700.min.css.br /tmp/work/700.min.css
+2023/08/04 15:02:37 br /tmp/work/700.min.css -> /output/700.min.css.br
+2023/08/04 15:02:37 gz /tmp/work/700.min.css -> /output/700.min.css.gz
+2023/08/04 15:02:37 sri /tmp/work/700.css -> /output/700.css.sri
+2023/08/04 15:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/700.css.br /tmp/work/700.css
+2023/08/04 15:02:37 sri /tmp/work/latin-400.min.css -> /output/latin-400.min.css.sri
+2023/08/04 15:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400.min.css.br /tmp/work/latin-400.min.css
+2023/08/04 15:02:37 sri /tmp/work/latin-700-italic.min.css -> /output/latin-700-italic.min.css.sri
+2023/08/04 15:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-700-italic.min.css.br /tmp/work/latin-700-italic.min.css
+2023/08/04 15:02:37 sri /tmp/work/latin-400-italic.min.css -> /output/latin-400-italic.min.css.sri
+2023/08/04 15:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400-italic.min.css.br /tmp/work/latin-400-italic.min.css
+2023/08/04 15:02:37 br /tmp/work/700.css -> /output/700.css.br
+2023/08/04 15:02:37 sri /tmp/work/index.min.css -> /output/index.min.css.sri
+2023/08/04 15:02:37 sri /tmp/work/400.min.css -> /output/400.min.css.sri
+2023/08/04 15:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400.min.css.br /tmp/work/400.min.css
+2023/08/04 15:02:37 sri /tmp/work/700-italic.min.css -> /output/700-italic.min.css.sri
+2023/08/04 15:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/700-italic.min.css.br /tmp/work/700-italic.min.css
+2023/08/04 15:02:37 gz /tmp/work/700.css -> /output/700.css.gz
+2023/08/04 15:02:37 br /tmp/work/latin-400.min.css -> /output/latin-400.min.css.br
+2023/08/04 15:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.css.br /tmp/work/index.min.css
+2023/08/04 15:02:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-700.min.css /tmp/work/latin-700.css
+2023/08/04 15:02:37 br /tmp/work/latin-700-italic.min.css -> /output/latin-700-italic.min.css.br
+2023/08/04 15:02:37 gz /tmp/work/latin-400.min.css -> /output/latin-400.min.css.gz
+2023/08/04 15:02:37 sri /tmp/work/latin-400.css -> /output/latin-400.css.sri
+2023/08/04 15:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400.css.br /tmp/work/latin-400.css
+2023/08/04 15:02:37 br /tmp/work/latin-400-italic.min.css -> /output/latin-400-italic.min.css.br
+2023/08/04 15:02:37 gz /tmp/work/latin-700-italic.min.css -> /output/latin-700-italic.min.css.gz
+2023/08/04 15:02:37 sri /tmp/work/latin-700-italic.css -> /output/latin-700-italic.css.sri
+2023/08/04 15:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-700-italic.css.br /tmp/work/latin-700-italic.css
+2023/08/04 15:02:37 gz /tmp/work/latin-400-italic.min.css -> /output/latin-400-italic.min.css.gz
+2023/08/04 15:02:37 sri /tmp/work/latin-400-italic.css -> /output/latin-400-italic.css.sri
+2023/08/04 15:02:37 br /tmp/work/400.min.css -> /output/400.min.css.br
+2023/08/04 15:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400-italic.css.br /tmp/work/latin-400-italic.css
+2023/08/04 15:02:37 br /tmp/work/700-italic.min.css -> /output/700-italic.min.css.br
+2023/08/04 15:02:37 gz /tmp/work/700-italic.min.css -> /output/700-italic.min.css.gz
+2023/08/04 15:02:37 sri /tmp/work/700-italic.css -> /output/700-italic.css.sri
+2023/08/04 15:02:37 br /tmp/work/index.min.css -> /output/index.min.css.br
+2023/08/04 15:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/700-italic.css.br /tmp/work/700-italic.css
+2023/08/04 15:02:37 gz /tmp/work/400.min.css -> /output/400.min.css.gz
+2023/08/04 15:02:37 gz /tmp/work/index.min.css -> /output/index.min.css.gz
+2023/08/04 15:02:37 sri /tmp/work/index.css -> /output/index.css.sri
+2023/08/04 15:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.css.br /tmp/work/index.css
+2023/08/04 15:02:37 br /tmp/work/latin-400.css -> /output/latin-400.css.br
+2023/08/04 15:02:37 br /tmp/work/latin-700-italic.css -> /output/latin-700-italic.css.br
+2023/08/04 15:02:37 sri /tmp/work/400.css -> /output/400.css.sri
+2023/08/04 15:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400.css.br /tmp/work/400.css
+2023/08/04 15:02:37 gz /tmp/work/latin-400.css -> /output/latin-400.css.gz
+2023/08/04 15:02:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-italic.min.css /tmp/work/latin-italic.css
+2023/08/04 15:02:37 gz /tmp/work/latin-700-italic.css -> /output/latin-700-italic.css.gz
+2023/08/04 15:02:37 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin.min.css /tmp/work/latin.css
+2023/08/04 15:02:37 sri /tmp/work/400-italic.min.css -> /output/400-italic.min.css.sri
+2023/08/04 15:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400-italic.min.css.br /tmp/work/400-italic.min.css
+2023/08/04 15:02:37 br /tmp/work/latin-400-italic.css -> /output/latin-400-italic.css.br
+2023/08/04 15:02:37 gz /tmp/work/latin-400-italic.css -> /output/latin-400-italic.css.gz
+2023/08/04 15:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/b612-latin-400-italic.woff.br /tmp/work/files/b612-latin-400-italic.woff
+2023/08/04 15:02:37 br /tmp/work/700-italic.css -> /output/700-italic.css.br
+2023/08/04 15:02:37 br /tmp/work/index.css -> /output/index.css.br
+2023/08/04 15:02:37 gz /tmp/work/700-italic.css -> /output/700-italic.css.gz
+2023/08/04 15:02:37 br /tmp/work/400.css -> /output/400.css.br
+2023/08/04 15:02:37 gz /tmp/work/index.css -> /output/index.css.gz
+2023/08/04 15:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/b612-latin-400-normal.woff.br /tmp/work/files/b612-latin-400-normal.woff
+2023/08/04 15:02:37 br /tmp/work/400-italic.min.css -> /output/400-italic.min.css.br
+2023/08/04 15:02:37 gz /tmp/work/400.css -> /output/400.css.gz
+2023/08/04 15:02:37 gz /tmp/work/400-italic.min.css -> /output/400-italic.min.css.gz
+2023/08/04 15:02:37 sri /tmp/work/400-italic.css -> /output/400-italic.css.sri
+2023/08/04 15:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400-italic.css.br /tmp/work/400-italic.css
+2023/08/04 15:02:37 copy /tmp/work/files/b612-latin-400-normal.woff2 -> /output/files/b612-latin-400-normal.woff2
+2023/08/04 15:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/b612-latin-700-italic.woff.br /tmp/work/files/b612-latin-700-italic.woff
+2023/08/04 15:02:37 copy /tmp/work/files/b612-latin-400-italic.woff2 -> /output/files/b612-latin-400-italic.woff2
+2023/08/04 15:02:37 br /tmp/work/400-italic.css -> /output/400-italic.css.br
+2023/08/04 15:02:37 copy /tmp/work/files/b612-latin-700-italic.woff2 -> /output/files/b612-latin-700-italic.woff2
+2023/08/04 15:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/b612-latin-700-normal.woff.br /tmp/work/files/b612-latin-700-normal.woff
+2023/08/04 15:02:37 gz /tmp/work/400-italic.css -> /output/400-italic.css.gz
+2023/08/04 15:02:37 copy /tmp/work/files/b612-latin-700-normal.woff2 -> /output/files/b612-latin-700-normal.woff2
+2023/08/04 15:02:37 br /tmp/work/files/b612-latin-700-italic.woff -> /output/files/b612-latin-700-italic.woff.br
+2023/08/04 15:02:37 gz /tmp/work/files/b612-latin-700-italic.woff -> /output/files/b612-latin-700-italic.woff.gz
+2023/08/04 15:02:37 br /tmp/work/files/b612-latin-400-normal.woff -> /output/files/b612-latin-400-normal.woff.br
+2023/08/04 15:02:37 gz /tmp/work/files/b612-latin-400-normal.woff -> /output/files/b612-latin-400-normal.woff.gz
+2023/08/04 15:02:37 br /tmp/work/files/b612-latin-700-normal.woff -> /output/files/b612-latin-700-normal.woff.br
+2023/08/04 15:02:37 gz /tmp/work/files/b612-latin-700-normal.woff -> /output/files/b612-latin-700-normal.woff.gz
+2023/08/04 15:02:37 br /tmp/work/files/b612-latin-400-italic.woff -> /output/files/b612-latin-400-italic.woff.br
+2023/08/04 15:02:37 gz /tmp/work/files/b612-latin-400-italic.woff -> /output/files/b612-latin-400-italic.woff.gz
+2023/08/04 15:02:37 sri /tmp/work/latin-700.min.css -> /output/latin-700.min.css.sri
+2023/08/04 15:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-700.min.css.br /tmp/work/latin-700.min.css
+2023/08/04 15:02:37 br /tmp/work/latin-700.min.css -> /output/latin-700.min.css.br
+2023/08/04 15:02:37 gz /tmp/work/latin-700.min.css -> /output/latin-700.min.css.gz
+2023/08/04 15:02:37 sri /tmp/work/latin-700.css -> /output/latin-700.css.sri
+2023/08/04 15:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-700.css.br /tmp/work/latin-700.css
+2023/08/04 15:02:37 br /tmp/work/latin-700.css -> /output/latin-700.css.br
+2023/08/04 15:02:37 gz /tmp/work/latin-700.css -> /output/latin-700.css.gz
+2023/08/04 15:02:37 sri /tmp/work/latin-italic.min.css -> /output/latin-italic.min.css.sri
+2023/08/04 15:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-italic.min.css.br /tmp/work/latin-italic.min.css
+2023/08/04 15:02:37 sri /tmp/work/latin.min.css -> /output/latin.min.css.sri
+2023/08/04 15:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin.min.css.br /tmp/work/latin.min.css
+2023/08/04 15:02:37 br /tmp/work/latin-italic.min.css -> /output/latin-italic.min.css.br
+2023/08/04 15:02:37 br /tmp/work/latin.min.css -> /output/latin.min.css.br
+2023/08/04 15:02:37 gz /tmp/work/latin-italic.min.css -> /output/latin-italic.min.css.gz
+2023/08/04 15:02:37 sri /tmp/work/latin-italic.css -> /output/latin-italic.css.sri
+2023/08/04 15:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-italic.css.br /tmp/work/latin-italic.css
+2023/08/04 15:02:37 gz /tmp/work/latin.min.css -> /output/latin.min.css.gz
+2023/08/04 15:02:37 sri /tmp/work/latin.css -> /output/latin.css.sri
+2023/08/04 15:02:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin.css.br /tmp/work/latin.css
+2023/08/04 15:02:37 br /tmp/work/latin-italic.css -> /output/latin-italic.css.br
+2023/08/04 15:02:37 br /tmp/work/latin.css -> /output/latin.css.br
+2023/08/04 15:02:37 gz /tmp/work/latin-italic.css -> /output/latin-italic.css.gz
+2023/08/04 15:02:37 gz /tmp/work/latin.css -> /output/latin.css.gz
+2023/08/04 15:02:37 processed fontsource-b612
