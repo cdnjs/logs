@@ -1,0 +1,1433 @@
+2023/08/04 15:07:59 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/08/04 15:07:59 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/100-italic.min.css /tmp/work/100-italic.css
+2023/08/04 15:07:59 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/100.min.css /tmp/work/100.css
+2023/08/04 15:07:59 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/200-italic.min.css /tmp/work/200-italic.css
+2023/08/04 15:07:59 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/200.min.css /tmp/work/200.css
+2023/08/04 15:07:59 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/300-italic.min.css /tmp/work/300-italic.css
+2023/08/04 15:07:59 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/400.min.css /tmp/work/400.css
+2023/08/04 15:07:59 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/300.min.css /tmp/work/300.css
+2023/08/04 15:07:59 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/400-italic.min.css /tmp/work/400-italic.css
+2023/08/04 15:07:59 sri /tmp/work/200-italic.min.css -> /output/200-italic.min.css.sri
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/200-italic.min.css.br /tmp/work/200-italic.min.css
+2023/08/04 15:07:59 sri /tmp/work/300.min.css -> /output/300.min.css.sri
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/300.min.css.br /tmp/work/300.min.css
+2023/08/04 15:07:59 sri /tmp/work/400-italic.min.css -> /output/400-italic.min.css.sri
+2023/08/04 15:07:59 sri /tmp/work/300-italic.min.css -> /output/300-italic.min.css.sri
+2023/08/04 15:07:59 sri /tmp/work/100-italic.min.css -> /output/100-italic.min.css.sri
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/100-italic.min.css.br /tmp/work/100-italic.min.css
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/300-italic.min.css.br /tmp/work/300-italic.min.css
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400-italic.min.css.br /tmp/work/400-italic.min.css
+2023/08/04 15:07:59 br /tmp/work/200-italic.min.css -> /output/200-italic.min.css.br
+2023/08/04 15:07:59 gz /tmp/work/200-italic.min.css -> /output/200-italic.min.css.gz
+2023/08/04 15:07:59 sri /tmp/work/200-italic.css -> /output/200-italic.css.sri
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/200-italic.css.br /tmp/work/200-italic.css
+2023/08/04 15:07:59 br /tmp/work/100-italic.min.css -> /output/100-italic.min.css.br
+2023/08/04 15:07:59 br /tmp/work/300.min.css -> /output/300.min.css.br
+2023/08/04 15:07:59 br /tmp/work/300-italic.min.css -> /output/300-italic.min.css.br
+2023/08/04 15:07:59 br /tmp/work/400-italic.min.css -> /output/400-italic.min.css.br
+2023/08/04 15:07:59 gz /tmp/work/100-italic.min.css -> /output/100-italic.min.css.gz
+2023/08/04 15:07:59 sri /tmp/work/100-italic.css -> /output/100-italic.css.sri
+2023/08/04 15:07:59 gz /tmp/work/300.min.css -> /output/300.min.css.gz
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/100-italic.css.br /tmp/work/100-italic.css
+2023/08/04 15:07:59 sri /tmp/work/300.css -> /output/300.css.sri
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/300.css.br /tmp/work/300.css
+2023/08/04 15:07:59 gz /tmp/work/300-italic.min.css -> /output/300-italic.min.css.gz
+2023/08/04 15:07:59 sri /tmp/work/300-italic.css -> /output/300-italic.css.sri
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/300-italic.css.br /tmp/work/300-italic.css
+2023/08/04 15:07:59 sri /tmp/work/100.min.css -> /output/100.min.css.sri
+2023/08/04 15:07:59 gz /tmp/work/400-italic.min.css -> /output/400-italic.min.css.gz
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/100.min.css.br /tmp/work/100.min.css
+2023/08/04 15:07:59 br /tmp/work/200-italic.css -> /output/200-italic.css.br
+2023/08/04 15:07:59 sri /tmp/work/400-italic.css -> /output/400-italic.css.sri
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400-italic.css.br /tmp/work/400-italic.css
+2023/08/04 15:07:59 gz /tmp/work/200-italic.css -> /output/200-italic.css.gz
+2023/08/04 15:07:59 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/500-italic.min.css /tmp/work/500-italic.css
+2023/08/04 15:07:59 sri /tmp/work/400.min.css -> /output/400.min.css.sri
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400.min.css.br /tmp/work/400.min.css
+2023/08/04 15:07:59 br /tmp/work/100.min.css -> /output/100.min.css.br
+2023/08/04 15:07:59 br /tmp/work/300.css -> /output/300.css.br
+2023/08/04 15:07:59 br /tmp/work/100-italic.css -> /output/100-italic.css.br
+2023/08/04 15:07:59 gz /tmp/work/100.min.css -> /output/100.min.css.gz
+2023/08/04 15:07:59 sri /tmp/work/100.css -> /output/100.css.sri
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/100.css.br /tmp/work/100.css
+2023/08/04 15:07:59 br /tmp/work/400.min.css -> /output/400.min.css.br
+2023/08/04 15:07:59 gz /tmp/work/300.css -> /output/300.css.gz
+2023/08/04 15:07:59 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/500.min.css /tmp/work/500.css
+2023/08/04 15:07:59 br /tmp/work/400-italic.css -> /output/400-italic.css.br
+2023/08/04 15:07:59 br /tmp/work/300-italic.css -> /output/300-italic.css.br
+2023/08/04 15:07:59 gz /tmp/work/400.min.css -> /output/400.min.css.gz
+2023/08/04 15:07:59 sri /tmp/work/400.css -> /output/400.css.sri
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400.css.br /tmp/work/400.css
+2023/08/04 15:07:59 gz /tmp/work/400-italic.css -> /output/400-italic.css.gz
+2023/08/04 15:07:59 gz /tmp/work/300-italic.css -> /output/300-italic.css.gz
+2023/08/04 15:07:59 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/600.min.css /tmp/work/600.css
+2023/08/04 15:07:59 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/600-italic.min.css /tmp/work/600-italic.css
+2023/08/04 15:07:59 gz /tmp/work/100-italic.css -> /output/100-italic.css.gz
+2023/08/04 15:07:59 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/700-italic.min.css /tmp/work/700-italic.css
+2023/08/04 15:07:59 sri /tmp/work/200.min.css -> /output/200.min.css.sri
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/200.min.css.br /tmp/work/200.min.css
+2023/08/04 15:07:59 br /tmp/work/100.css -> /output/100.css.br
+2023/08/04 15:07:59 gz /tmp/work/100.css -> /output/100.css.gz
+2023/08/04 15:07:59 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/700.min.css /tmp/work/700.css
+2023/08/04 15:07:59 br /tmp/work/200.min.css -> /output/200.min.css.br
+2023/08/04 15:07:59 br /tmp/work/400.css -> /output/400.css.br
+2023/08/04 15:07:59 gz /tmp/work/200.min.css -> /output/200.min.css.gz
+2023/08/04 15:07:59 gz /tmp/work/400.css -> /output/400.css.gz
+2023/08/04 15:07:59 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/800-italic.min.css /tmp/work/800-italic.css
+2023/08/04 15:07:59 sri /tmp/work/200.css -> /output/200.css.sri
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/200.css.br /tmp/work/200.css
+2023/08/04 15:07:59 br /tmp/work/200.css -> /output/200.css.br
+2023/08/04 15:07:59 gz /tmp/work/200.css -> /output/200.css.gz
+2023/08/04 15:07:59 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/800.min.css /tmp/work/800.css
+2023/08/04 15:07:59 sri /tmp/work/500-italic.min.css -> /output/500-italic.min.css.sri
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/500-italic.min.css.br /tmp/work/500-italic.min.css
+2023/08/04 15:07:59 sri /tmp/work/600.min.css -> /output/600.min.css.sri
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/600.min.css.br /tmp/work/600.min.css
+2023/08/04 15:07:59 sri /tmp/work/700-italic.min.css -> /output/700-italic.min.css.sri
+2023/08/04 15:07:59 br /tmp/work/500-italic.min.css -> /output/500-italic.min.css.br
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/700-italic.min.css.br /tmp/work/700-italic.min.css
+2023/08/04 15:07:59 sri /tmp/work/500.min.css -> /output/500.min.css.sri
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/500.min.css.br /tmp/work/500.min.css
+2023/08/04 15:07:59 sri /tmp/work/600-italic.min.css -> /output/600-italic.min.css.sri
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/600-italic.min.css.br /tmp/work/600-italic.min.css
+2023/08/04 15:07:59 gz /tmp/work/500-italic.min.css -> /output/500-italic.min.css.gz
+2023/08/04 15:07:59 sri /tmp/work/500-italic.css -> /output/500-italic.css.sri
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/500-italic.css.br /tmp/work/500-italic.css
+2023/08/04 15:07:59 sri /tmp/work/700.min.css -> /output/700.min.css.sri
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/700.min.css.br /tmp/work/700.min.css
+2023/08/04 15:07:59 br /tmp/work/600.min.css -> /output/600.min.css.br
+2023/08/04 15:07:59 gz /tmp/work/600.min.css -> /output/600.min.css.gz
+2023/08/04 15:07:59 sri /tmp/work/600.css -> /output/600.css.sri
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/600.css.br /tmp/work/600.css
+2023/08/04 15:07:59 br /tmp/work/500.min.css -> /output/500.min.css.br
+2023/08/04 15:07:59 br /tmp/work/700-italic.min.css -> /output/700-italic.min.css.br
+2023/08/04 15:07:59 br /tmp/work/600-italic.min.css -> /output/600-italic.min.css.br
+2023/08/04 15:07:59 gz /tmp/work/700-italic.min.css -> /output/700-italic.min.css.gz
+2023/08/04 15:07:59 sri /tmp/work/700-italic.css -> /output/700-italic.css.sri
+2023/08/04 15:07:59 gz /tmp/work/500.min.css -> /output/500.min.css.gz
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/700-italic.css.br /tmp/work/700-italic.css
+2023/08/04 15:07:59 sri /tmp/work/500.css -> /output/500.css.sri
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/500.css.br /tmp/work/500.css
+2023/08/04 15:07:59 gz /tmp/work/600-italic.min.css -> /output/600-italic.min.css.gz
+2023/08/04 15:07:59 sri /tmp/work/600-italic.css -> /output/600-italic.css.sri
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/600-italic.css.br /tmp/work/600-italic.css
+2023/08/04 15:07:59 br /tmp/work/500-italic.css -> /output/500-italic.css.br
+2023/08/04 15:07:59 br /tmp/work/700.min.css -> /output/700.min.css.br
+2023/08/04 15:07:59 gz /tmp/work/700.min.css -> /output/700.min.css.gz
+2023/08/04 15:07:59 gz /tmp/work/500-italic.css -> /output/500-italic.css.gz
+2023/08/04 15:07:59 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/900-italic.min.css /tmp/work/900-italic.css
+2023/08/04 15:07:59 sri /tmp/work/700.css -> /output/700.css.sri
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/700.css.br /tmp/work/700.css
+2023/08/04 15:07:59 br /tmp/work/600.css -> /output/600.css.br
+2023/08/04 15:07:59 gz /tmp/work/600.css -> /output/600.css.gz
+2023/08/04 15:07:59 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/900.min.css /tmp/work/900.css
+2023/08/04 15:07:59 br /tmp/work/500.css -> /output/500.css.br
+2023/08/04 15:07:59 br /tmp/work/700-italic.css -> /output/700-italic.css.br
+2023/08/04 15:07:59 gz /tmp/work/500.css -> /output/500.css.gz
+2023/08/04 15:07:59 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-100-italic.min.css /tmp/work/cyrillic-100-italic.css
+2023/08/04 15:07:59 gz /tmp/work/700-italic.css -> /output/700-italic.css.gz
+2023/08/04 15:07:59 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-100.min.css /tmp/work/cyrillic-100.css
+2023/08/04 15:07:59 sri /tmp/work/800-italic.min.css -> /output/800-italic.min.css.sri
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/800-italic.min.css.br /tmp/work/800-italic.min.css
+2023/08/04 15:07:59 br /tmp/work/700.css -> /output/700.css.br
+2023/08/04 15:07:59 br /tmp/work/600-italic.css -> /output/600-italic.css.br
+2023/08/04 15:07:59 gz /tmp/work/600-italic.css -> /output/600-italic.css.gz
+2023/08/04 15:07:59 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-200-italic.min.css /tmp/work/cyrillic-200-italic.css
+2023/08/04 15:07:59 gz /tmp/work/700.css -> /output/700.css.gz
+2023/08/04 15:07:59 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-200.min.css /tmp/work/cyrillic-200.css
+2023/08/04 15:07:59 br /tmp/work/800-italic.min.css -> /output/800-italic.min.css.br
+2023/08/04 15:07:59 gz /tmp/work/800-italic.min.css -> /output/800-italic.min.css.gz
+2023/08/04 15:07:59 sri /tmp/work/800-italic.css -> /output/800-italic.css.sri
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/800-italic.css.br /tmp/work/800-italic.css
+2023/08/04 15:07:59 sri /tmp/work/800.min.css -> /output/800.min.css.sri
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/800.min.css.br /tmp/work/800.min.css
+2023/08/04 15:07:59 br /tmp/work/800-italic.css -> /output/800-italic.css.br
+2023/08/04 15:07:59 gz /tmp/work/800-italic.css -> /output/800-italic.css.gz
+2023/08/04 15:07:59 br /tmp/work/800.min.css -> /output/800.min.css.br
+2023/08/04 15:07:59 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-300-italic.min.css /tmp/work/cyrillic-300-italic.css
+2023/08/04 15:07:59 gz /tmp/work/800.min.css -> /output/800.min.css.gz
+2023/08/04 15:07:59 sri /tmp/work/800.css -> /output/800.css.sri
+2023/08/04 15:07:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/800.css.br /tmp/work/800.css
+2023/08/04 15:07:59 br /tmp/work/800.css -> /output/800.css.br
+2023/08/04 15:07:59 gz /tmp/work/800.css -> /output/800.css.gz
+2023/08/04 15:07:59 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-300.min.css /tmp/work/cyrillic-300.css
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-200-italic.min.css -> /output/cyrillic-200-italic.min.css.sri
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-200.min.css -> /output/cyrillic-200.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-200-italic.min.css.br /tmp/work/cyrillic-200-italic.min.css
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-200.min.css.br /tmp/work/cyrillic-200.min.css
+2023/08/04 15:08:00 sri /tmp/work/900.min.css -> /output/900.min.css.sri
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-100-italic.min.css -> /output/cyrillic-100-italic.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/900.min.css.br /tmp/work/900.min.css
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-100-italic.min.css.br /tmp/work/cyrillic-100-italic.min.css
+2023/08/04 15:08:00 sri /tmp/work/900-italic.min.css -> /output/900-italic.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/900-italic.min.css.br /tmp/work/900-italic.min.css
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-100.min.css -> /output/cyrillic-100.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-100.min.css.br /tmp/work/cyrillic-100.min.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-200-italic.min.css -> /output/cyrillic-200-italic.min.css.br
+2023/08/04 15:08:00 br /tmp/work/cyrillic-200.min.css -> /output/cyrillic-200.min.css.br
+2023/08/04 15:08:00 br /tmp/work/cyrillic-100-italic.min.css -> /output/cyrillic-100-italic.min.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-200.min.css -> /output/cyrillic-200.min.css.gz
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-200.css -> /output/cyrillic-200.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-200.css.br /tmp/work/cyrillic-200.css
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-100-italic.min.css -> /output/cyrillic-100-italic.min.css.gz
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-100-italic.css -> /output/cyrillic-100-italic.css.sri
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-200-italic.min.css -> /output/cyrillic-200-italic.min.css.gz
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-200-italic.css -> /output/cyrillic-200-italic.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-100-italic.css.br /tmp/work/cyrillic-100-italic.css
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-200-italic.css.br /tmp/work/cyrillic-200-italic.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-100.min.css -> /output/cyrillic-100.min.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-100.min.css -> /output/cyrillic-100.min.css.gz
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-100.css -> /output/cyrillic-100.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-100.css.br /tmp/work/cyrillic-100.css
+2023/08/04 15:08:00 br /tmp/work/900.min.css -> /output/900.min.css.br
+2023/08/04 15:08:00 br /tmp/work/cyrillic-200.css -> /output/cyrillic-200.css.br
+2023/08/04 15:08:00 gz /tmp/work/900.min.css -> /output/900.min.css.gz
+2023/08/04 15:08:00 sri /tmp/work/900.css -> /output/900.css.sri
+2023/08/04 15:08:00 br /tmp/work/900-italic.min.css -> /output/900-italic.min.css.br
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/900.css.br /tmp/work/900.css
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-200.css -> /output/cyrillic-200.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-400-italic.min.css /tmp/work/cyrillic-400-italic.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-100-italic.css -> /output/cyrillic-100-italic.css.br
+2023/08/04 15:08:00 br /tmp/work/cyrillic-200-italic.css -> /output/cyrillic-200-italic.css.br
+2023/08/04 15:08:00 gz /tmp/work/900-italic.min.css -> /output/900-italic.min.css.gz
+2023/08/04 15:08:00 sri /tmp/work/900-italic.css -> /output/900-italic.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/900-italic.css.br /tmp/work/900-italic.css
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-200-italic.css -> /output/cyrillic-200-italic.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-400.min.css /tmp/work/cyrillic-400.css
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-100-italic.css -> /output/cyrillic-100-italic.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-500-italic.min.css /tmp/work/cyrillic-500-italic.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-100.css -> /output/cyrillic-100.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-100.css -> /output/cyrillic-100.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-500.min.css /tmp/work/cyrillic-500.css
+2023/08/04 15:08:00 br /tmp/work/900.css -> /output/900.css.br
+2023/08/04 15:08:00 gz /tmp/work/900.css -> /output/900.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-600-italic.min.css /tmp/work/cyrillic-600-italic.css
+2023/08/04 15:08:00 br /tmp/work/900-italic.css -> /output/900-italic.css.br
+2023/08/04 15:08:00 gz /tmp/work/900-italic.css -> /output/900-italic.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-600.min.css /tmp/work/cyrillic-600.css
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-300.min.css -> /output/cyrillic-300.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-300.min.css.br /tmp/work/cyrillic-300.min.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-300.min.css -> /output/cyrillic-300.min.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-300.min.css -> /output/cyrillic-300.min.css.gz
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-300.css -> /output/cyrillic-300.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-300.css.br /tmp/work/cyrillic-300.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-300.css -> /output/cyrillic-300.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-300.css -> /output/cyrillic-300.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-700-italic.min.css /tmp/work/cyrillic-700-italic.css
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-300-italic.min.css -> /output/cyrillic-300-italic.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-300-italic.min.css.br /tmp/work/cyrillic-300-italic.min.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-300-italic.min.css -> /output/cyrillic-300-italic.min.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-300-italic.min.css -> /output/cyrillic-300-italic.min.css.gz
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-300-italic.css -> /output/cyrillic-300-italic.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-300-italic.css.br /tmp/work/cyrillic-300-italic.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-300-italic.css -> /output/cyrillic-300-italic.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-300-italic.css -> /output/cyrillic-300-italic.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-700.min.css /tmp/work/cyrillic-700.css
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-500-italic.min.css -> /output/cyrillic-500-italic.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-500-italic.min.css.br /tmp/work/cyrillic-500-italic.min.css
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-400-italic.min.css -> /output/cyrillic-400-italic.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-400-italic.min.css.br /tmp/work/cyrillic-400-italic.min.css
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-400.min.css -> /output/cyrillic-400.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-400.min.css.br /tmp/work/cyrillic-400.min.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-500-italic.min.css -> /output/cyrillic-500-italic.min.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-500-italic.min.css -> /output/cyrillic-500-italic.min.css.gz
+2023/08/04 15:08:00 br /tmp/work/cyrillic-400-italic.min.css -> /output/cyrillic-400-italic.min.css.br
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-500-italic.css -> /output/cyrillic-500-italic.css.sri
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-500.min.css -> /output/cyrillic-500.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-500.min.css.br /tmp/work/cyrillic-500.min.css
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-400-italic.min.css -> /output/cyrillic-400-italic.min.css.gz
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-500-italic.css.br /tmp/work/cyrillic-500-italic.css
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-400-italic.css -> /output/cyrillic-400-italic.css.sri
+2023/08/04 15:08:00 br /tmp/work/cyrillic-400.min.css -> /output/cyrillic-400.min.css.br
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-400-italic.css.br /tmp/work/cyrillic-400-italic.css
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-400.min.css -> /output/cyrillic-400.min.css.gz
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-400.css -> /output/cyrillic-400.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-400.css.br /tmp/work/cyrillic-400.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-500.min.css -> /output/cyrillic-500.min.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-500.min.css -> /output/cyrillic-500.min.css.gz
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-500.css -> /output/cyrillic-500.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-500.css.br /tmp/work/cyrillic-500.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-500-italic.css -> /output/cyrillic-500-italic.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-500-italic.css -> /output/cyrillic-500-italic.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-800-italic.min.css /tmp/work/cyrillic-800-italic.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-400-italic.css -> /output/cyrillic-400-italic.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-400-italic.css -> /output/cyrillic-400-italic.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-800.min.css /tmp/work/cyrillic-800.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-400.css -> /output/cyrillic-400.css.br
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-600.min.css -> /output/cyrillic-600.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-600.min.css.br /tmp/work/cyrillic-600.min.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-500.css -> /output/cyrillic-500.css.br
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-600-italic.min.css -> /output/cyrillic-600-italic.min.css.sri
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-400.css -> /output/cyrillic-400.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-900-italic.min.css /tmp/work/cyrillic-900-italic.css
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-600-italic.min.css.br /tmp/work/cyrillic-600-italic.min.css
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-500.css -> /output/cyrillic-500.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-900.min.css /tmp/work/cyrillic-900.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-600.min.css -> /output/cyrillic-600.min.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-600.min.css -> /output/cyrillic-600.min.css.gz
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-600.css -> /output/cyrillic-600.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-600.css.br /tmp/work/cyrillic-600.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-600-italic.min.css -> /output/cyrillic-600-italic.min.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-600-italic.min.css -> /output/cyrillic-600-italic.min.css.gz
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-600-italic.css -> /output/cyrillic-600-italic.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-600-italic.css.br /tmp/work/cyrillic-600-italic.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-600.css -> /output/cyrillic-600.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-600.css -> /output/cyrillic-600.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-ext-100-italic.min.css /tmp/work/cyrillic-ext-100-italic.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-600-italic.css -> /output/cyrillic-600-italic.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-600-italic.css -> /output/cyrillic-600-italic.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-ext-100.min.css /tmp/work/cyrillic-ext-100.css
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-700-italic.min.css -> /output/cyrillic-700-italic.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-700-italic.min.css.br /tmp/work/cyrillic-700-italic.min.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-700-italic.min.css -> /output/cyrillic-700-italic.min.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-700-italic.min.css -> /output/cyrillic-700-italic.min.css.gz
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-700-italic.css -> /output/cyrillic-700-italic.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-700-italic.css.br /tmp/work/cyrillic-700-italic.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-700-italic.css -> /output/cyrillic-700-italic.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-700-italic.css -> /output/cyrillic-700-italic.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-ext-200-italic.min.css /tmp/work/cyrillic-ext-200-italic.css
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-700.min.css -> /output/cyrillic-700.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-700.min.css.br /tmp/work/cyrillic-700.min.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-700.min.css -> /output/cyrillic-700.min.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-700.min.css -> /output/cyrillic-700.min.css.gz
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-700.css -> /output/cyrillic-700.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-700.css.br /tmp/work/cyrillic-700.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-700.css -> /output/cyrillic-700.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-700.css -> /output/cyrillic-700.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-ext-200.min.css /tmp/work/cyrillic-ext-200.css
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-900-italic.min.css -> /output/cyrillic-900-italic.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-900-italic.min.css.br /tmp/work/cyrillic-900-italic.min.css
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-900.min.css -> /output/cyrillic-900.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-900.min.css.br /tmp/work/cyrillic-900.min.css
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-800.min.css -> /output/cyrillic-800.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-800.min.css.br /tmp/work/cyrillic-800.min.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-900-italic.min.css -> /output/cyrillic-900-italic.min.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-900-italic.min.css -> /output/cyrillic-900-italic.min.css.gz
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-900-italic.css -> /output/cyrillic-900-italic.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-900-italic.css.br /tmp/work/cyrillic-900-italic.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-900.min.css -> /output/cyrillic-900.min.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-900.min.css -> /output/cyrillic-900.min.css.gz
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-900.css -> /output/cyrillic-900.css.sri
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-ext-100-italic.min.css -> /output/cyrillic-ext-100-italic.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-100-italic.min.css.br /tmp/work/cyrillic-ext-100-italic.min.css
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-900.css.br /tmp/work/cyrillic-900.css
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-800-italic.min.css -> /output/cyrillic-800-italic.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-800-italic.min.css.br /tmp/work/cyrillic-800-italic.min.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-800.min.css -> /output/cyrillic-800.min.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-800.min.css -> /output/cyrillic-800.min.css.gz
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-800.css -> /output/cyrillic-800.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-800.css.br /tmp/work/cyrillic-800.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-900-italic.css -> /output/cyrillic-900-italic.css.br
+2023/08/04 15:08:00 br /tmp/work/cyrillic-ext-100-italic.min.css -> /output/cyrillic-ext-100-italic.min.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-900-italic.css -> /output/cyrillic-900-italic.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-ext-300-italic.min.css /tmp/work/cyrillic-ext-300-italic.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-800-italic.min.css -> /output/cyrillic-800-italic.min.css.br
+2023/08/04 15:08:00 br /tmp/work/cyrillic-900.css -> /output/cyrillic-900.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-ext-100-italic.min.css -> /output/cyrillic-ext-100-italic.min.css.gz
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-800-italic.min.css -> /output/cyrillic-800-italic.min.css.gz
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-900.css -> /output/cyrillic-900.css.gz
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-ext-100-italic.css -> /output/cyrillic-ext-100-italic.css.sri
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-ext-300.min.css /tmp/work/cyrillic-ext-300.css
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-ext-100.min.css -> /output/cyrillic-ext-100.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-100-italic.css.br /tmp/work/cyrillic-ext-100-italic.css
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-800-italic.css -> /output/cyrillic-800-italic.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-100.min.css.br /tmp/work/cyrillic-ext-100.min.css
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-800-italic.css.br /tmp/work/cyrillic-800-italic.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-800.css -> /output/cyrillic-800.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-800.css -> /output/cyrillic-800.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-ext-400-italic.min.css /tmp/work/cyrillic-ext-400-italic.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-800-italic.css -> /output/cyrillic-800-italic.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-800-italic.css -> /output/cyrillic-800-italic.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-ext-400.min.css /tmp/work/cyrillic-ext-400.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-ext-100-italic.css -> /output/cyrillic-ext-100-italic.css.br
+2023/08/04 15:08:00 br /tmp/work/cyrillic-ext-100.min.css -> /output/cyrillic-ext-100.min.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-ext-100-italic.css -> /output/cyrillic-ext-100-italic.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-ext-500-italic.min.css /tmp/work/cyrillic-ext-500-italic.css
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-ext-100.min.css -> /output/cyrillic-ext-100.min.css.gz
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-ext-100.css -> /output/cyrillic-ext-100.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-100.css.br /tmp/work/cyrillic-ext-100.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-ext-100.css -> /output/cyrillic-ext-100.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-ext-100.css -> /output/cyrillic-ext-100.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-ext-500.min.css /tmp/work/cyrillic-ext-500.css
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-ext-200-italic.min.css -> /output/cyrillic-ext-200-italic.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-200-italic.min.css.br /tmp/work/cyrillic-ext-200-italic.min.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-ext-200-italic.min.css -> /output/cyrillic-ext-200-italic.min.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-ext-200-italic.min.css -> /output/cyrillic-ext-200-italic.min.css.gz
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-ext-200-italic.css -> /output/cyrillic-ext-200-italic.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-200-italic.css.br /tmp/work/cyrillic-ext-200-italic.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-ext-200-italic.css -> /output/cyrillic-ext-200-italic.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-ext-200-italic.css -> /output/cyrillic-ext-200-italic.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-ext-600-italic.min.css /tmp/work/cyrillic-ext-600-italic.css
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-ext-200.min.css -> /output/cyrillic-ext-200.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-200.min.css.br /tmp/work/cyrillic-ext-200.min.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-ext-200.min.css -> /output/cyrillic-ext-200.min.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-ext-200.min.css -> /output/cyrillic-ext-200.min.css.gz
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-ext-200.css -> /output/cyrillic-ext-200.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-200.css.br /tmp/work/cyrillic-ext-200.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-ext-200.css -> /output/cyrillic-ext-200.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-ext-200.css -> /output/cyrillic-ext-200.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-ext-600.min.css /tmp/work/cyrillic-ext-600.css
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-ext-300.min.css -> /output/cyrillic-ext-300.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-300.min.css.br /tmp/work/cyrillic-ext-300.min.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-ext-300.min.css -> /output/cyrillic-ext-300.min.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-ext-300.min.css -> /output/cyrillic-ext-300.min.css.gz
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-ext-300.css -> /output/cyrillic-ext-300.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-300.css.br /tmp/work/cyrillic-ext-300.css
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-ext-400.min.css -> /output/cyrillic-ext-400.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-400.min.css.br /tmp/work/cyrillic-ext-400.min.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-ext-300.css -> /output/cyrillic-ext-300.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-ext-300.css -> /output/cyrillic-ext-300.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-ext-700-italic.min.css /tmp/work/cyrillic-ext-700-italic.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-ext-400.min.css -> /output/cyrillic-ext-400.min.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-ext-400.min.css -> /output/cyrillic-ext-400.min.css.gz
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-ext-400.css -> /output/cyrillic-ext-400.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-400.css.br /tmp/work/cyrillic-ext-400.css
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-ext-400-italic.min.css -> /output/cyrillic-ext-400-italic.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-400-italic.min.css.br /tmp/work/cyrillic-ext-400-italic.min.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-ext-400.css -> /output/cyrillic-ext-400.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-ext-400.css -> /output/cyrillic-ext-400.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-ext-700.min.css /tmp/work/cyrillic-ext-700.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-ext-400-italic.min.css -> /output/cyrillic-ext-400-italic.min.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-ext-400-italic.min.css -> /output/cyrillic-ext-400-italic.min.css.gz
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-ext-400-italic.css -> /output/cyrillic-ext-400-italic.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-400-italic.css.br /tmp/work/cyrillic-ext-400-italic.css
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-ext-300-italic.min.css -> /output/cyrillic-ext-300-italic.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-300-italic.min.css.br /tmp/work/cyrillic-ext-300-italic.min.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-ext-400-italic.css -> /output/cyrillic-ext-400-italic.css.br
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-ext-500-italic.min.css -> /output/cyrillic-ext-500-italic.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-500-italic.min.css.br /tmp/work/cyrillic-ext-500-italic.min.css
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-ext-400-italic.css -> /output/cyrillic-ext-400-italic.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-ext-800-italic.min.css /tmp/work/cyrillic-ext-800-italic.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-ext-300-italic.min.css -> /output/cyrillic-ext-300-italic.min.css.br
+2023/08/04 15:08:00 br /tmp/work/cyrillic-ext-500-italic.min.css -> /output/cyrillic-ext-500-italic.min.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-ext-300-italic.min.css -> /output/cyrillic-ext-300-italic.min.css.gz
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-ext-500-italic.min.css -> /output/cyrillic-ext-500-italic.min.css.gz
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-ext-300-italic.css -> /output/cyrillic-ext-300-italic.css.sri
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-ext-500-italic.css -> /output/cyrillic-ext-500-italic.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-500-italic.css.br /tmp/work/cyrillic-ext-500-italic.css
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-300-italic.css.br /tmp/work/cyrillic-ext-300-italic.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-ext-500-italic.css -> /output/cyrillic-ext-500-italic.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-ext-500-italic.css -> /output/cyrillic-ext-500-italic.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-ext-800.min.css /tmp/work/cyrillic-ext-800.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-ext-300-italic.css -> /output/cyrillic-ext-300-italic.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-ext-300-italic.css -> /output/cyrillic-ext-300-italic.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-ext-900-italic.min.css /tmp/work/cyrillic-ext-900-italic.css
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-ext-600-italic.min.css -> /output/cyrillic-ext-600-italic.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-600-italic.min.css.br /tmp/work/cyrillic-ext-600-italic.min.css
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-ext-500.min.css -> /output/cyrillic-ext-500.min.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-500.min.css.br /tmp/work/cyrillic-ext-500.min.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-ext-500.min.css -> /output/cyrillic-ext-500.min.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-ext-500.min.css -> /output/cyrillic-ext-500.min.css.gz
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-ext-500.css -> /output/cyrillic-ext-500.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-500.css.br /tmp/work/cyrillic-ext-500.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-ext-600-italic.min.css -> /output/cyrillic-ext-600-italic.min.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-ext-600-italic.min.css -> /output/cyrillic-ext-600-italic.min.css.gz
+2023/08/04 15:08:00 sri /tmp/work/cyrillic-ext-600-italic.css -> /output/cyrillic-ext-600-italic.css.sri
+2023/08/04 15:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-600-italic.css.br /tmp/work/cyrillic-ext-600-italic.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-ext-600-italic.css -> /output/cyrillic-ext-600-italic.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-ext-600-italic.css -> /output/cyrillic-ext-600-italic.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-ext-900.min.css /tmp/work/cyrillic-ext-900.css
+2023/08/04 15:08:00 br /tmp/work/cyrillic-ext-500.css -> /output/cyrillic-ext-500.css.br
+2023/08/04 15:08:00 gz /tmp/work/cyrillic-ext-500.css -> /output/cyrillic-ext-500.css.gz
+2023/08/04 15:08:00 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-ext-italic.min.css /tmp/work/cyrillic-ext-italic.css
+2023/08/04 15:08:01 sri /tmp/work/cyrillic-ext-600.min.css -> /output/cyrillic-ext-600.min.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-600.min.css.br /tmp/work/cyrillic-ext-600.min.css
+2023/08/04 15:08:01 br /tmp/work/cyrillic-ext-600.min.css -> /output/cyrillic-ext-600.min.css.br
+2023/08/04 15:08:01 gz /tmp/work/cyrillic-ext-600.min.css -> /output/cyrillic-ext-600.min.css.gz
+2023/08/04 15:08:01 sri /tmp/work/cyrillic-ext-600.css -> /output/cyrillic-ext-600.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-600.css.br /tmp/work/cyrillic-ext-600.css
+2023/08/04 15:08:01 br /tmp/work/cyrillic-ext-600.css -> /output/cyrillic-ext-600.css.br
+2023/08/04 15:08:01 gz /tmp/work/cyrillic-ext-600.css -> /output/cyrillic-ext-600.css.gz
+2023/08/04 15:08:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-ext.min.css /tmp/work/cyrillic-ext.css
+2023/08/04 15:08:01 sri /tmp/work/cyrillic-ext-700-italic.min.css -> /output/cyrillic-ext-700-italic.min.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-700-italic.min.css.br /tmp/work/cyrillic-ext-700-italic.min.css
+2023/08/04 15:08:01 br /tmp/work/cyrillic-ext-700-italic.min.css -> /output/cyrillic-ext-700-italic.min.css.br
+2023/08/04 15:08:01 gz /tmp/work/cyrillic-ext-700-italic.min.css -> /output/cyrillic-ext-700-italic.min.css.gz
+2023/08/04 15:08:01 sri /tmp/work/cyrillic-ext-700-italic.css -> /output/cyrillic-ext-700-italic.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-700-italic.css.br /tmp/work/cyrillic-ext-700-italic.css
+2023/08/04 15:08:01 sri /tmp/work/cyrillic-ext-800-italic.min.css -> /output/cyrillic-ext-800-italic.min.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-800-italic.min.css.br /tmp/work/cyrillic-ext-800-italic.min.css
+2023/08/04 15:08:01 br /tmp/work/cyrillic-ext-700-italic.css -> /output/cyrillic-ext-700-italic.css.br
+2023/08/04 15:08:01 gz /tmp/work/cyrillic-ext-700-italic.css -> /output/cyrillic-ext-700-italic.css.gz
+2023/08/04 15:08:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-italic.min.css /tmp/work/cyrillic-italic.css
+2023/08/04 15:08:01 br /tmp/work/cyrillic-ext-800-italic.min.css -> /output/cyrillic-ext-800-italic.min.css.br
+2023/08/04 15:08:01 gz /tmp/work/cyrillic-ext-800-italic.min.css -> /output/cyrillic-ext-800-italic.min.css.gz
+2023/08/04 15:08:01 sri /tmp/work/cyrillic-ext-800-italic.css -> /output/cyrillic-ext-800-italic.css.sri
+2023/08/04 15:08:01 sri /tmp/work/cyrillic-ext-700.min.css -> /output/cyrillic-ext-700.min.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-700.min.css.br /tmp/work/cyrillic-ext-700.min.css
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-800-italic.css.br /tmp/work/cyrillic-ext-800-italic.css
+2023/08/04 15:08:01 br /tmp/work/cyrillic-ext-700.min.css -> /output/cyrillic-ext-700.min.css.br
+2023/08/04 15:08:01 gz /tmp/work/cyrillic-ext-700.min.css -> /output/cyrillic-ext-700.min.css.gz
+2023/08/04 15:08:01 sri /tmp/work/cyrillic-ext-700.css -> /output/cyrillic-ext-700.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-700.css.br /tmp/work/cyrillic-ext-700.css
+2023/08/04 15:08:01 br /tmp/work/cyrillic-ext-800-italic.css -> /output/cyrillic-ext-800-italic.css.br
+2023/08/04 15:08:01 gz /tmp/work/cyrillic-ext-800-italic.css -> /output/cyrillic-ext-800-italic.css.gz
+2023/08/04 15:08:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic.min.css /tmp/work/cyrillic.css
+2023/08/04 15:08:01 br /tmp/work/cyrillic-ext-700.css -> /output/cyrillic-ext-700.css.br
+2023/08/04 15:08:01 gz /tmp/work/cyrillic-ext-700.css -> /output/cyrillic-ext-700.css.gz
+2023/08/04 15:08:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/index.min.css /tmp/work/index.css
+2023/08/04 15:08:01 sri /tmp/work/cyrillic-ext-900-italic.min.css -> /output/cyrillic-ext-900-italic.min.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-900-italic.min.css.br /tmp/work/cyrillic-ext-900-italic.min.css
+2023/08/04 15:08:01 sri /tmp/work/cyrillic-ext-800.min.css -> /output/cyrillic-ext-800.min.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-800.min.css.br /tmp/work/cyrillic-ext-800.min.css
+2023/08/04 15:08:01 br /tmp/work/cyrillic-ext-900-italic.min.css -> /output/cyrillic-ext-900-italic.min.css.br
+2023/08/04 15:08:01 gz /tmp/work/cyrillic-ext-900-italic.min.css -> /output/cyrillic-ext-900-italic.min.css.gz
+2023/08/04 15:08:01 sri /tmp/work/cyrillic-ext-900-italic.css -> /output/cyrillic-ext-900-italic.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-900-italic.css.br /tmp/work/cyrillic-ext-900-italic.css
+2023/08/04 15:08:01 br /tmp/work/cyrillic-ext-800.min.css -> /output/cyrillic-ext-800.min.css.br
+2023/08/04 15:08:01 gz /tmp/work/cyrillic-ext-800.min.css -> /output/cyrillic-ext-800.min.css.gz
+2023/08/04 15:08:01 sri /tmp/work/cyrillic-ext-800.css -> /output/cyrillic-ext-800.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-800.css.br /tmp/work/cyrillic-ext-800.css
+2023/08/04 15:08:01 br /tmp/work/cyrillic-ext-900-italic.css -> /output/cyrillic-ext-900-italic.css.br
+2023/08/04 15:08:01 gz /tmp/work/cyrillic-ext-900-italic.css -> /output/cyrillic-ext-900-italic.css.gz
+2023/08/04 15:08:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-100-italic.min.css /tmp/work/latin-100-italic.css
+2023/08/04 15:08:01 br /tmp/work/cyrillic-ext-800.css -> /output/cyrillic-ext-800.css.br
+2023/08/04 15:08:01 gz /tmp/work/cyrillic-ext-800.css -> /output/cyrillic-ext-800.css.gz
+2023/08/04 15:08:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-100.min.css /tmp/work/latin-100.css
+2023/08/04 15:08:01 sri /tmp/work/cyrillic-ext-900.min.css -> /output/cyrillic-ext-900.min.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-900.min.css.br /tmp/work/cyrillic-ext-900.min.css
+2023/08/04 15:08:01 br /tmp/work/cyrillic-ext-900.min.css -> /output/cyrillic-ext-900.min.css.br
+2023/08/04 15:08:01 gz /tmp/work/cyrillic-ext-900.min.css -> /output/cyrillic-ext-900.min.css.gz
+2023/08/04 15:08:01 sri /tmp/work/cyrillic-ext-900.css -> /output/cyrillic-ext-900.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-900.css.br /tmp/work/cyrillic-ext-900.css
+2023/08/04 15:08:01 br /tmp/work/cyrillic-ext-900.css -> /output/cyrillic-ext-900.css.br
+2023/08/04 15:08:01 gz /tmp/work/cyrillic-ext-900.css -> /output/cyrillic-ext-900.css.gz
+2023/08/04 15:08:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-200-italic.min.css /tmp/work/latin-200-italic.css
+2023/08/04 15:08:01 sri /tmp/work/cyrillic-ext-italic.min.css -> /output/cyrillic-ext-italic.min.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-italic.min.css.br /tmp/work/cyrillic-ext-italic.min.css
+2023/08/04 15:08:01 br /tmp/work/cyrillic-ext-italic.min.css -> /output/cyrillic-ext-italic.min.css.br
+2023/08/04 15:08:01 gz /tmp/work/cyrillic-ext-italic.min.css -> /output/cyrillic-ext-italic.min.css.gz
+2023/08/04 15:08:01 sri /tmp/work/cyrillic-ext-italic.css -> /output/cyrillic-ext-italic.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-italic.css.br /tmp/work/cyrillic-ext-italic.css
+2023/08/04 15:08:01 br /tmp/work/cyrillic-ext-italic.css -> /output/cyrillic-ext-italic.css.br
+2023/08/04 15:08:01 gz /tmp/work/cyrillic-ext-italic.css -> /output/cyrillic-ext-italic.css.gz
+2023/08/04 15:08:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-200.min.css /tmp/work/latin-200.css
+2023/08/04 15:08:01 sri /tmp/work/cyrillic-ext.min.css -> /output/cyrillic-ext.min.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext.min.css.br /tmp/work/cyrillic-ext.min.css
+2023/08/04 15:08:01 br /tmp/work/cyrillic-ext.min.css -> /output/cyrillic-ext.min.css.br
+2023/08/04 15:08:01 gz /tmp/work/cyrillic-ext.min.css -> /output/cyrillic-ext.min.css.gz
+2023/08/04 15:08:01 sri /tmp/work/cyrillic-ext.css -> /output/cyrillic-ext.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext.css.br /tmp/work/cyrillic-ext.css
+2023/08/04 15:08:01 br /tmp/work/cyrillic-ext.css -> /output/cyrillic-ext.css.br
+2023/08/04 15:08:01 gz /tmp/work/cyrillic-ext.css -> /output/cyrillic-ext.css.gz
+2023/08/04 15:08:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-300-italic.min.css /tmp/work/latin-300-italic.css
+2023/08/04 15:08:01 sri /tmp/work/cyrillic-italic.min.css -> /output/cyrillic-italic.min.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-italic.min.css.br /tmp/work/cyrillic-italic.min.css
+2023/08/04 15:08:01 sri /tmp/work/index.min.css -> /output/index.min.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.css.br /tmp/work/index.min.css
+2023/08/04 15:08:01 br /tmp/work/cyrillic-italic.min.css -> /output/cyrillic-italic.min.css.br
+2023/08/04 15:08:01 gz /tmp/work/cyrillic-italic.min.css -> /output/cyrillic-italic.min.css.gz
+2023/08/04 15:08:01 sri /tmp/work/cyrillic-italic.css -> /output/cyrillic-italic.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-italic.css.br /tmp/work/cyrillic-italic.css
+2023/08/04 15:08:01 br /tmp/work/index.min.css -> /output/index.min.css.br
+2023/08/04 15:08:01 gz /tmp/work/index.min.css -> /output/index.min.css.gz
+2023/08/04 15:08:01 sri /tmp/work/index.css -> /output/index.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.css.br /tmp/work/index.css
+2023/08/04 15:08:01 sri /tmp/work/cyrillic.min.css -> /output/cyrillic.min.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic.min.css.br /tmp/work/cyrillic.min.css
+2023/08/04 15:08:01 br /tmp/work/cyrillic-italic.css -> /output/cyrillic-italic.css.br
+2023/08/04 15:08:01 gz /tmp/work/cyrillic-italic.css -> /output/cyrillic-italic.css.gz
+2023/08/04 15:08:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-300.min.css /tmp/work/latin-300.css
+2023/08/04 15:08:01 sri /tmp/work/latin-100.min.css -> /output/latin-100.min.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-100.min.css.br /tmp/work/latin-100.min.css
+2023/08/04 15:08:01 br /tmp/work/latin-100.min.css -> /output/latin-100.min.css.br
+2023/08/04 15:08:01 gz /tmp/work/latin-100.min.css -> /output/latin-100.min.css.gz
+2023/08/04 15:08:01 sri /tmp/work/latin-100.css -> /output/latin-100.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-100.css.br /tmp/work/latin-100.css
+2023/08/04 15:08:01 br /tmp/work/latin-100.css -> /output/latin-100.css.br
+2023/08/04 15:08:01 gz /tmp/work/latin-100.css -> /output/latin-100.css.gz
+2023/08/04 15:08:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-400-italic.min.css /tmp/work/latin-400-italic.css
+2023/08/04 15:08:01 br /tmp/work/cyrillic.min.css -> /output/cyrillic.min.css.br
+2023/08/04 15:08:01 gz /tmp/work/cyrillic.min.css -> /output/cyrillic.min.css.gz
+2023/08/04 15:08:01 sri /tmp/work/cyrillic.css -> /output/cyrillic.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic.css.br /tmp/work/cyrillic.css
+2023/08/04 15:08:01 sri /tmp/work/latin-200-italic.min.css -> /output/latin-200-italic.min.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-200-italic.min.css.br /tmp/work/latin-200-italic.min.css
+2023/08/04 15:08:01 br /tmp/work/index.css -> /output/index.css.br
+2023/08/04 15:08:01 gz /tmp/work/index.css -> /output/index.css.gz
+2023/08/04 15:08:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-400.min.css /tmp/work/latin-400.css
+2023/08/04 15:08:01 br /tmp/work/latin-200-italic.min.css -> /output/latin-200-italic.min.css.br
+2023/08/04 15:08:01 gz /tmp/work/latin-200-italic.min.css -> /output/latin-200-italic.min.css.gz
+2023/08/04 15:08:01 sri /tmp/work/latin-200-italic.css -> /output/latin-200-italic.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-200-italic.css.br /tmp/work/latin-200-italic.css
+2023/08/04 15:08:01 br /tmp/work/latin-200-italic.css -> /output/latin-200-italic.css.br
+2023/08/04 15:08:01 gz /tmp/work/latin-200-italic.css -> /output/latin-200-italic.css.gz
+2023/08/04 15:08:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-500-italic.min.css /tmp/work/latin-500-italic.css
+2023/08/04 15:08:01 br /tmp/work/cyrillic.css -> /output/cyrillic.css.br
+2023/08/04 15:08:01 gz /tmp/work/cyrillic.css -> /output/cyrillic.css.gz
+2023/08/04 15:08:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-500.min.css /tmp/work/latin-500.css
+2023/08/04 15:08:01 sri /tmp/work/latin-100-italic.min.css -> /output/latin-100-italic.min.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-100-italic.min.css.br /tmp/work/latin-100-italic.min.css
+2023/08/04 15:08:01 br /tmp/work/latin-100-italic.min.css -> /output/latin-100-italic.min.css.br
+2023/08/04 15:08:01 gz /tmp/work/latin-100-italic.min.css -> /output/latin-100-italic.min.css.gz
+2023/08/04 15:08:01 sri /tmp/work/latin-100-italic.css -> /output/latin-100-italic.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-100-italic.css.br /tmp/work/latin-100-italic.css
+2023/08/04 15:08:01 br /tmp/work/latin-100-italic.css -> /output/latin-100-italic.css.br
+2023/08/04 15:08:01 gz /tmp/work/latin-100-italic.css -> /output/latin-100-italic.css.gz
+2023/08/04 15:08:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-600-italic.min.css /tmp/work/latin-600-italic.css
+2023/08/04 15:08:01 sri /tmp/work/latin-200.min.css -> /output/latin-200.min.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-200.min.css.br /tmp/work/latin-200.min.css
+2023/08/04 15:08:01 br /tmp/work/latin-200.min.css -> /output/latin-200.min.css.br
+2023/08/04 15:08:01 gz /tmp/work/latin-200.min.css -> /output/latin-200.min.css.gz
+2023/08/04 15:08:01 sri /tmp/work/latin-200.css -> /output/latin-200.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-200.css.br /tmp/work/latin-200.css
+2023/08/04 15:08:01 br /tmp/work/latin-200.css -> /output/latin-200.css.br
+2023/08/04 15:08:01 gz /tmp/work/latin-200.css -> /output/latin-200.css.gz
+2023/08/04 15:08:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-600.min.css /tmp/work/latin-600.css
+2023/08/04 15:08:01 sri /tmp/work/latin-300-italic.min.css -> /output/latin-300-italic.min.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-300-italic.min.css.br /tmp/work/latin-300-italic.min.css
+2023/08/04 15:08:01 br /tmp/work/latin-300-italic.min.css -> /output/latin-300-italic.min.css.br
+2023/08/04 15:08:01 gz /tmp/work/latin-300-italic.min.css -> /output/latin-300-italic.min.css.gz
+2023/08/04 15:08:01 sri /tmp/work/latin-300-italic.css -> /output/latin-300-italic.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-300-italic.css.br /tmp/work/latin-300-italic.css
+2023/08/04 15:08:01 br /tmp/work/latin-300-italic.css -> /output/latin-300-italic.css.br
+2023/08/04 15:08:01 gz /tmp/work/latin-300-italic.css -> /output/latin-300-italic.css.gz
+2023/08/04 15:08:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-700-italic.min.css /tmp/work/latin-700-italic.css
+2023/08/04 15:08:01 sri /tmp/work/latin-500-italic.min.css -> /output/latin-500-italic.min.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-500-italic.min.css.br /tmp/work/latin-500-italic.min.css
+2023/08/04 15:08:01 br /tmp/work/latin-500-italic.min.css -> /output/latin-500-italic.min.css.br
+2023/08/04 15:08:01 gz /tmp/work/latin-500-italic.min.css -> /output/latin-500-italic.min.css.gz
+2023/08/04 15:08:01 sri /tmp/work/latin-500-italic.css -> /output/latin-500-italic.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-500-italic.css.br /tmp/work/latin-500-italic.css
+2023/08/04 15:08:01 br /tmp/work/latin-500-italic.css -> /output/latin-500-italic.css.br
+2023/08/04 15:08:01 gz /tmp/work/latin-500-italic.css -> /output/latin-500-italic.css.gz
+2023/08/04 15:08:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-700.min.css /tmp/work/latin-700.css
+2023/08/04 15:08:01 sri /tmp/work/latin-300.min.css -> /output/latin-300.min.css.sri
+2023/08/04 15:08:01 sri /tmp/work/latin-400-italic.min.css -> /output/latin-400-italic.min.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-300.min.css.br /tmp/work/latin-300.min.css
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400-italic.min.css.br /tmp/work/latin-400-italic.min.css
+2023/08/04 15:08:01 br /tmp/work/latin-300.min.css -> /output/latin-300.min.css.br
+2023/08/04 15:08:01 gz /tmp/work/latin-300.min.css -> /output/latin-300.min.css.gz
+2023/08/04 15:08:01 sri /tmp/work/latin-300.css -> /output/latin-300.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-300.css.br /tmp/work/latin-300.css
+2023/08/04 15:08:01 br /tmp/work/latin-400-italic.min.css -> /output/latin-400-italic.min.css.br
+2023/08/04 15:08:01 gz /tmp/work/latin-400-italic.min.css -> /output/latin-400-italic.min.css.gz
+2023/08/04 15:08:01 sri /tmp/work/latin-400-italic.css -> /output/latin-400-italic.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400-italic.css.br /tmp/work/latin-400-italic.css
+2023/08/04 15:08:01 br /tmp/work/latin-400-italic.css -> /output/latin-400-italic.css.br
+2023/08/04 15:08:01 gz /tmp/work/latin-400-italic.css -> /output/latin-400-italic.css.gz
+2023/08/04 15:08:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-800-italic.min.css /tmp/work/latin-800-italic.css
+2023/08/04 15:08:01 br /tmp/work/latin-300.css -> /output/latin-300.css.br
+2023/08/04 15:08:01 sri /tmp/work/latin-600-italic.min.css -> /output/latin-600-italic.min.css.sri
+2023/08/04 15:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-600-italic.min.css.br /tmp/work/latin-600-italic.min.css
+2023/08/04 15:08:01 sri /tmp/work/latin-400.min.css -> /output/latin-400.min.css.sri
+2023/08/04 15:08:01 gz /tmp/work/latin-300.css -> /output/latin-300.css.gz
+2023/08/04 15:08:02 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-800.min.css /tmp/work/latin-800.css
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400.min.css.br /tmp/work/latin-400.min.css
+2023/08/04 15:08:02 br /tmp/work/latin-600-italic.min.css -> /output/latin-600-italic.min.css.br
+2023/08/04 15:08:02 gz /tmp/work/latin-600-italic.min.css -> /output/latin-600-italic.min.css.gz
+2023/08/04 15:08:02 sri /tmp/work/latin-600-italic.css -> /output/latin-600-italic.css.sri
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-600-italic.css.br /tmp/work/latin-600-italic.css
+2023/08/04 15:08:02 br /tmp/work/latin-400.min.css -> /output/latin-400.min.css.br
+2023/08/04 15:08:02 gz /tmp/work/latin-400.min.css -> /output/latin-400.min.css.gz
+2023/08/04 15:08:02 sri /tmp/work/latin-400.css -> /output/latin-400.css.sri
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400.css.br /tmp/work/latin-400.css
+2023/08/04 15:08:02 br /tmp/work/latin-600-italic.css -> /output/latin-600-italic.css.br
+2023/08/04 15:08:02 gz /tmp/work/latin-600-italic.css -> /output/latin-600-italic.css.gz
+2023/08/04 15:08:02 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-900-italic.min.css /tmp/work/latin-900-italic.css
+2023/08/04 15:08:02 br /tmp/work/latin-400.css -> /output/latin-400.css.br
+2023/08/04 15:08:02 gz /tmp/work/latin-400.css -> /output/latin-400.css.gz
+2023/08/04 15:08:02 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-900.min.css /tmp/work/latin-900.css
+2023/08/04 15:08:02 sri /tmp/work/latin-600.min.css -> /output/latin-600.min.css.sri
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-600.min.css.br /tmp/work/latin-600.min.css
+2023/08/04 15:08:02 br /tmp/work/latin-600.min.css -> /output/latin-600.min.css.br
+2023/08/04 15:08:02 gz /tmp/work/latin-600.min.css -> /output/latin-600.min.css.gz
+2023/08/04 15:08:02 sri /tmp/work/latin-600.css -> /output/latin-600.css.sri
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-600.css.br /tmp/work/latin-600.css
+2023/08/04 15:08:02 sri /tmp/work/latin-700-italic.min.css -> /output/latin-700-italic.min.css.sri
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-700-italic.min.css.br /tmp/work/latin-700-italic.min.css
+2023/08/04 15:08:02 br /tmp/work/latin-600.css -> /output/latin-600.css.br
+2023/08/04 15:08:02 gz /tmp/work/latin-600.css -> /output/latin-600.css.gz
+2023/08/04 15:08:02 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-ext-100-italic.min.css /tmp/work/latin-ext-100-italic.css
+2023/08/04 15:08:02 br /tmp/work/latin-700-italic.min.css -> /output/latin-700-italic.min.css.br
+2023/08/04 15:08:02 sri /tmp/work/latin-500.min.css -> /output/latin-500.min.css.sri
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-500.min.css.br /tmp/work/latin-500.min.css
+2023/08/04 15:08:02 gz /tmp/work/latin-700-italic.min.css -> /output/latin-700-italic.min.css.gz
+2023/08/04 15:08:02 sri /tmp/work/latin-700-italic.css -> /output/latin-700-italic.css.sri
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-700-italic.css.br /tmp/work/latin-700-italic.css
+2023/08/04 15:08:02 br /tmp/work/latin-500.min.css -> /output/latin-500.min.css.br
+2023/08/04 15:08:02 gz /tmp/work/latin-500.min.css -> /output/latin-500.min.css.gz
+2023/08/04 15:08:02 sri /tmp/work/latin-500.css -> /output/latin-500.css.sri
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-500.css.br /tmp/work/latin-500.css
+2023/08/04 15:08:02 br /tmp/work/latin-700-italic.css -> /output/latin-700-italic.css.br
+2023/08/04 15:08:02 gz /tmp/work/latin-700-italic.css -> /output/latin-700-italic.css.gz
+2023/08/04 15:08:02 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-ext-100.min.css /tmp/work/latin-ext-100.css
+2023/08/04 15:08:02 br /tmp/work/latin-500.css -> /output/latin-500.css.br
+2023/08/04 15:08:02 gz /tmp/work/latin-500.css -> /output/latin-500.css.gz
+2023/08/04 15:08:02 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-ext-200-italic.min.css /tmp/work/latin-ext-200-italic.css
+2023/08/04 15:08:02 sri /tmp/work/latin-700.min.css -> /output/latin-700.min.css.sri
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-700.min.css.br /tmp/work/latin-700.min.css
+2023/08/04 15:08:02 sri /tmp/work/latin-900.min.css -> /output/latin-900.min.css.sri
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-900.min.css.br /tmp/work/latin-900.min.css
+2023/08/04 15:08:02 sri /tmp/work/latin-ext-100-italic.min.css -> /output/latin-ext-100-italic.min.css.sri
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-100-italic.min.css.br /tmp/work/latin-ext-100-italic.min.css
+2023/08/04 15:08:02 br /tmp/work/latin-700.min.css -> /output/latin-700.min.css.br
+2023/08/04 15:08:02 br /tmp/work/latin-900.min.css -> /output/latin-900.min.css.br
+2023/08/04 15:08:02 gz /tmp/work/latin-700.min.css -> /output/latin-700.min.css.gz
+2023/08/04 15:08:02 sri /tmp/work/latin-700.css -> /output/latin-700.css.sri
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-700.css.br /tmp/work/latin-700.css
+2023/08/04 15:08:02 gz /tmp/work/latin-900.min.css -> /output/latin-900.min.css.gz
+2023/08/04 15:08:02 sri /tmp/work/latin-900.css -> /output/latin-900.css.sri
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-900.css.br /tmp/work/latin-900.css
+2023/08/04 15:08:02 br /tmp/work/latin-ext-100-italic.min.css -> /output/latin-ext-100-italic.min.css.br
+2023/08/04 15:08:02 gz /tmp/work/latin-ext-100-italic.min.css -> /output/latin-ext-100-italic.min.css.gz
+2023/08/04 15:08:02 sri /tmp/work/latin-ext-100-italic.css -> /output/latin-ext-100-italic.css.sri
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-100-italic.css.br /tmp/work/latin-ext-100-italic.css
+2023/08/04 15:08:02 sri /tmp/work/latin-800-italic.min.css -> /output/latin-800-italic.min.css.sri
+2023/08/04 15:08:02 br /tmp/work/latin-700.css -> /output/latin-700.css.br
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-800-italic.min.css.br /tmp/work/latin-800-italic.min.css
+2023/08/04 15:08:02 sri /tmp/work/latin-800.min.css -> /output/latin-800.min.css.sri
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-800.min.css.br /tmp/work/latin-800.min.css
+2023/08/04 15:08:02 gz /tmp/work/latin-700.css -> /output/latin-700.css.gz
+2023/08/04 15:08:02 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-ext-200.min.css /tmp/work/latin-ext-200.css
+2023/08/04 15:08:02 br /tmp/work/latin-ext-100-italic.css -> /output/latin-ext-100-italic.css.br
+2023/08/04 15:08:02 gz /tmp/work/latin-ext-100-italic.css -> /output/latin-ext-100-italic.css.gz
+2023/08/04 15:08:02 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-ext-300-italic.min.css /tmp/work/latin-ext-300-italic.css
+2023/08/04 15:08:02 br /tmp/work/latin-900.css -> /output/latin-900.css.br
+2023/08/04 15:08:02 gz /tmp/work/latin-900.css -> /output/latin-900.css.gz
+2023/08/04 15:08:02 br /tmp/work/latin-800-italic.min.css -> /output/latin-800-italic.min.css.br
+2023/08/04 15:08:02 sri /tmp/work/latin-900-italic.min.css -> /output/latin-900-italic.min.css.sri
+2023/08/04 15:08:02 br /tmp/work/latin-800.min.css -> /output/latin-800.min.css.br
+2023/08/04 15:08:02 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-ext-300.min.css /tmp/work/latin-ext-300.css
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-900-italic.min.css.br /tmp/work/latin-900-italic.min.css
+2023/08/04 15:08:02 gz /tmp/work/latin-800-italic.min.css -> /output/latin-800-italic.min.css.gz
+2023/08/04 15:08:02 sri /tmp/work/latin-800-italic.css -> /output/latin-800-italic.css.sri
+2023/08/04 15:08:02 gz /tmp/work/latin-800.min.css -> /output/latin-800.min.css.gz
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-800-italic.css.br /tmp/work/latin-800-italic.css
+2023/08/04 15:08:02 sri /tmp/work/latin-800.css -> /output/latin-800.css.sri
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-800.css.br /tmp/work/latin-800.css
+2023/08/04 15:08:02 br /tmp/work/latin-900-italic.min.css -> /output/latin-900-italic.min.css.br
+2023/08/04 15:08:02 gz /tmp/work/latin-900-italic.min.css -> /output/latin-900-italic.min.css.gz
+2023/08/04 15:08:02 sri /tmp/work/latin-900-italic.css -> /output/latin-900-italic.css.sri
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-900-italic.css.br /tmp/work/latin-900-italic.css
+2023/08/04 15:08:02 br /tmp/work/latin-800-italic.css -> /output/latin-800-italic.css.br
+2023/08/04 15:08:02 gz /tmp/work/latin-800-italic.css -> /output/latin-800-italic.css.gz
+2023/08/04 15:08:02 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-ext-400-italic.min.css /tmp/work/latin-ext-400-italic.css
+2023/08/04 15:08:02 br /tmp/work/latin-800.css -> /output/latin-800.css.br
+2023/08/04 15:08:02 gz /tmp/work/latin-800.css -> /output/latin-800.css.gz
+2023/08/04 15:08:02 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-ext-400.min.css /tmp/work/latin-ext-400.css
+2023/08/04 15:08:02 br /tmp/work/latin-900-italic.css -> /output/latin-900-italic.css.br
+2023/08/04 15:08:02 gz /tmp/work/latin-900-italic.css -> /output/latin-900-italic.css.gz
+2023/08/04 15:08:02 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-ext-500-italic.min.css /tmp/work/latin-ext-500-italic.css
+2023/08/04 15:08:02 sri /tmp/work/latin-ext-100.min.css -> /output/latin-ext-100.min.css.sri
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-100.min.css.br /tmp/work/latin-ext-100.min.css
+2023/08/04 15:08:02 br /tmp/work/latin-ext-100.min.css -> /output/latin-ext-100.min.css.br
+2023/08/04 15:08:02 gz /tmp/work/latin-ext-100.min.css -> /output/latin-ext-100.min.css.gz
+2023/08/04 15:08:02 sri /tmp/work/latin-ext-100.css -> /output/latin-ext-100.css.sri
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-100.css.br /tmp/work/latin-ext-100.css
+2023/08/04 15:08:02 br /tmp/work/latin-ext-100.css -> /output/latin-ext-100.css.br
+2023/08/04 15:08:02 gz /tmp/work/latin-ext-100.css -> /output/latin-ext-100.css.gz
+2023/08/04 15:08:02 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-ext-500.min.css /tmp/work/latin-ext-500.css
+2023/08/04 15:08:02 sri /tmp/work/latin-ext-200-italic.min.css -> /output/latin-ext-200-italic.min.css.sri
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-200-italic.min.css.br /tmp/work/latin-ext-200-italic.min.css
+2023/08/04 15:08:02 br /tmp/work/latin-ext-200-italic.min.css -> /output/latin-ext-200-italic.min.css.br
+2023/08/04 15:08:02 gz /tmp/work/latin-ext-200-italic.min.css -> /output/latin-ext-200-italic.min.css.gz
+2023/08/04 15:08:02 sri /tmp/work/latin-ext-200-italic.css -> /output/latin-ext-200-italic.css.sri
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-200-italic.css.br /tmp/work/latin-ext-200-italic.css
+2023/08/04 15:08:02 br /tmp/work/latin-ext-200-italic.css -> /output/latin-ext-200-italic.css.br
+2023/08/04 15:08:02 gz /tmp/work/latin-ext-200-italic.css -> /output/latin-ext-200-italic.css.gz
+2023/08/04 15:08:02 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-ext-600-italic.min.css /tmp/work/latin-ext-600-italic.css
+2023/08/04 15:08:02 sri /tmp/work/latin-ext-300-italic.min.css -> /output/latin-ext-300-italic.min.css.sri
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-300-italic.min.css.br /tmp/work/latin-ext-300-italic.min.css
+2023/08/04 15:08:02 br /tmp/work/latin-ext-300-italic.min.css -> /output/latin-ext-300-italic.min.css.br
+2023/08/04 15:08:02 gz /tmp/work/latin-ext-300-italic.min.css -> /output/latin-ext-300-italic.min.css.gz
+2023/08/04 15:08:02 sri /tmp/work/latin-ext-300-italic.css -> /output/latin-ext-300-italic.css.sri
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-300-italic.css.br /tmp/work/latin-ext-300-italic.css
+2023/08/04 15:08:02 br /tmp/work/latin-ext-300-italic.css -> /output/latin-ext-300-italic.css.br
+2023/08/04 15:08:02 gz /tmp/work/latin-ext-300-italic.css -> /output/latin-ext-300-italic.css.gz
+2023/08/04 15:08:02 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-ext-600.min.css /tmp/work/latin-ext-600.css
+2023/08/04 15:08:02 sri /tmp/work/latin-ext-200.min.css -> /output/latin-ext-200.min.css.sri
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-200.min.css.br /tmp/work/latin-ext-200.min.css
+2023/08/04 15:08:02 br /tmp/work/latin-ext-200.min.css -> /output/latin-ext-200.min.css.br
+2023/08/04 15:08:02 gz /tmp/work/latin-ext-200.min.css -> /output/latin-ext-200.min.css.gz
+2023/08/04 15:08:02 sri /tmp/work/latin-ext-200.css -> /output/latin-ext-200.css.sri
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-200.css.br /tmp/work/latin-ext-200.css
+2023/08/04 15:08:02 br /tmp/work/latin-ext-200.css -> /output/latin-ext-200.css.br
+2023/08/04 15:08:02 gz /tmp/work/latin-ext-200.css -> /output/latin-ext-200.css.gz
+2023/08/04 15:08:02 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-ext-700-italic.min.css /tmp/work/latin-ext-700-italic.css
+2023/08/04 15:08:02 sri /tmp/work/latin-ext-400-italic.min.css -> /output/latin-ext-400-italic.min.css.sri
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-400-italic.min.css.br /tmp/work/latin-ext-400-italic.min.css
+2023/08/04 15:08:02 sri /tmp/work/latin-ext-600-italic.min.css -> /output/latin-ext-600-italic.min.css.sri
+2023/08/04 15:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-600-italic.min.css.br /tmp/work/latin-ext-600-italic.min.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext-400-italic.min.css -> /output/latin-ext-400-italic.min.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-400-italic.min.css -> /output/latin-ext-400-italic.min.css.gz
+2023/08/04 15:08:03 sri /tmp/work/latin-ext-400-italic.css -> /output/latin-ext-400-italic.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-400-italic.css.br /tmp/work/latin-ext-400-italic.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext-600-italic.min.css -> /output/latin-ext-600-italic.min.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-600-italic.min.css -> /output/latin-ext-600-italic.min.css.gz
+2023/08/04 15:08:03 sri /tmp/work/latin-ext-600-italic.css -> /output/latin-ext-600-italic.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-600-italic.css.br /tmp/work/latin-ext-600-italic.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext-400-italic.css -> /output/latin-ext-400-italic.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-400-italic.css -> /output/latin-ext-400-italic.css.gz
+2023/08/04 15:08:03 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-ext-700.min.css /tmp/work/latin-ext-700.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext-600-italic.css -> /output/latin-ext-600-italic.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-600-italic.css -> /output/latin-ext-600-italic.css.gz
+2023/08/04 15:08:03 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-ext-800-italic.min.css /tmp/work/latin-ext-800-italic.css
+2023/08/04 15:08:03 sri /tmp/work/latin-ext-500.min.css -> /output/latin-ext-500.min.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-500.min.css.br /tmp/work/latin-ext-500.min.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext-500.min.css -> /output/latin-ext-500.min.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-500.min.css -> /output/latin-ext-500.min.css.gz
+2023/08/04 15:08:03 sri /tmp/work/latin-ext-500.css -> /output/latin-ext-500.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-500.css.br /tmp/work/latin-ext-500.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext-500.css -> /output/latin-ext-500.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-500.css -> /output/latin-ext-500.css.gz
+2023/08/04 15:08:03 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-ext-800.min.css /tmp/work/latin-ext-800.css
+2023/08/04 15:08:03 sri /tmp/work/latin-ext-300.min.css -> /output/latin-ext-300.min.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-300.min.css.br /tmp/work/latin-ext-300.min.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext-300.min.css -> /output/latin-ext-300.min.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-300.min.css -> /output/latin-ext-300.min.css.gz
+2023/08/04 15:08:03 sri /tmp/work/latin-ext-300.css -> /output/latin-ext-300.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-300.css.br /tmp/work/latin-ext-300.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext-300.css -> /output/latin-ext-300.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-300.css -> /output/latin-ext-300.css.gz
+2023/08/04 15:08:03 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-ext-900-italic.min.css /tmp/work/latin-ext-900-italic.css
+2023/08/04 15:08:03 sri /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-400.min.css.br /tmp/work/latin-ext-400.min.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.gz
+2023/08/04 15:08:03 sri /tmp/work/latin-ext-400.css -> /output/latin-ext-400.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-400.css.br /tmp/work/latin-ext-400.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext-400.css -> /output/latin-ext-400.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-400.css -> /output/latin-ext-400.css.gz
+2023/08/04 15:08:03 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-ext-900.min.css /tmp/work/latin-ext-900.css
+2023/08/04 15:08:03 sri /tmp/work/latin-ext-600.min.css -> /output/latin-ext-600.min.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-600.min.css.br /tmp/work/latin-ext-600.min.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext-600.min.css -> /output/latin-ext-600.min.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-600.min.css -> /output/latin-ext-600.min.css.gz
+2023/08/04 15:08:03 sri /tmp/work/latin-ext-600.css -> /output/latin-ext-600.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-600.css.br /tmp/work/latin-ext-600.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext-600.css -> /output/latin-ext-600.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-600.css -> /output/latin-ext-600.css.gz
+2023/08/04 15:08:03 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-ext-italic.min.css /tmp/work/latin-ext-italic.css
+2023/08/04 15:08:03 sri /tmp/work/latin-ext-700-italic.min.css -> /output/latin-ext-700-italic.min.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-700-italic.min.css.br /tmp/work/latin-ext-700-italic.min.css
+2023/08/04 15:08:03 sri /tmp/work/latin-ext-500-italic.min.css -> /output/latin-ext-500-italic.min.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-500-italic.min.css.br /tmp/work/latin-ext-500-italic.min.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext-700-italic.min.css -> /output/latin-ext-700-italic.min.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-700-italic.min.css -> /output/latin-ext-700-italic.min.css.gz
+2023/08/04 15:08:03 sri /tmp/work/latin-ext-700-italic.css -> /output/latin-ext-700-italic.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-700-italic.css.br /tmp/work/latin-ext-700-italic.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext-700-italic.css -> /output/latin-ext-700-italic.css.br
+2023/08/04 15:08:03 br /tmp/work/latin-ext-500-italic.min.css -> /output/latin-ext-500-italic.min.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-700-italic.css -> /output/latin-ext-700-italic.css.gz
+2023/08/04 15:08:03 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-ext.min.css /tmp/work/latin-ext.css
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-500-italic.min.css -> /output/latin-ext-500-italic.min.css.gz
+2023/08/04 15:08:03 sri /tmp/work/latin-ext-500-italic.css -> /output/latin-ext-500-italic.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-500-italic.css.br /tmp/work/latin-ext-500-italic.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext-500-italic.css -> /output/latin-ext-500-italic.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-500-italic.css -> /output/latin-ext-500-italic.css.gz
+2023/08/04 15:08:03 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-italic.min.css /tmp/work/latin-italic.css
+2023/08/04 15:08:03 sri /tmp/work/latin-ext-800-italic.min.css -> /output/latin-ext-800-italic.min.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-800-italic.min.css.br /tmp/work/latin-ext-800-italic.min.css
+2023/08/04 15:08:03 sri /tmp/work/latin-ext-800.min.css -> /output/latin-ext-800.min.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-800.min.css.br /tmp/work/latin-ext-800.min.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext-800-italic.min.css -> /output/latin-ext-800-italic.min.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-800-italic.min.css -> /output/latin-ext-800-italic.min.css.gz
+2023/08/04 15:08:03 sri /tmp/work/latin-ext-800-italic.css -> /output/latin-ext-800-italic.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-800-italic.css.br /tmp/work/latin-ext-800-italic.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext-800.min.css -> /output/latin-ext-800.min.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-800.min.css -> /output/latin-ext-800.min.css.gz
+2023/08/04 15:08:03 sri /tmp/work/latin-ext-800.css -> /output/latin-ext-800.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-800.css.br /tmp/work/latin-ext-800.css
+2023/08/04 15:08:03 sri /tmp/work/latin-ext-700.min.css -> /output/latin-ext-700.min.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-700.min.css.br /tmp/work/latin-ext-700.min.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext-800.css -> /output/latin-ext-800.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-800.css -> /output/latin-ext-800.css.gz
+2023/08/04 15:08:03 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin.min.css /tmp/work/latin.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext-800-italic.css -> /output/latin-ext-800-italic.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-800-italic.css -> /output/latin-ext-800-italic.css.gz
+2023/08/04 15:08:03 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/vietnamese-100-italic.min.css /tmp/work/vietnamese-100-italic.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext-700.min.css -> /output/latin-ext-700.min.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-700.min.css -> /output/latin-ext-700.min.css.gz
+2023/08/04 15:08:03 sri /tmp/work/latin-ext-700.css -> /output/latin-ext-700.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-700.css.br /tmp/work/latin-ext-700.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext-700.css -> /output/latin-ext-700.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-700.css -> /output/latin-ext-700.css.gz
+2023/08/04 15:08:03 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/vietnamese-100.min.css /tmp/work/vietnamese-100.css
+2023/08/04 15:08:03 sri /tmp/work/latin-ext-900-italic.min.css -> /output/latin-ext-900-italic.min.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-900-italic.min.css.br /tmp/work/latin-ext-900-italic.min.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext-900-italic.min.css -> /output/latin-ext-900-italic.min.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-900-italic.min.css -> /output/latin-ext-900-italic.min.css.gz
+2023/08/04 15:08:03 sri /tmp/work/latin-ext-900-italic.css -> /output/latin-ext-900-italic.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-900-italic.css.br /tmp/work/latin-ext-900-italic.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext-900-italic.css -> /output/latin-ext-900-italic.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-900-italic.css -> /output/latin-ext-900-italic.css.gz
+2023/08/04 15:08:03 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/vietnamese-200-italic.min.css /tmp/work/vietnamese-200-italic.css
+2023/08/04 15:08:03 sri /tmp/work/latin-ext-900.min.css -> /output/latin-ext-900.min.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-900.min.css.br /tmp/work/latin-ext-900.min.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext-900.min.css -> /output/latin-ext-900.min.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-900.min.css -> /output/latin-ext-900.min.css.gz
+2023/08/04 15:08:03 sri /tmp/work/latin-ext-900.css -> /output/latin-ext-900.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-900.css.br /tmp/work/latin-ext-900.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext-900.css -> /output/latin-ext-900.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-900.css -> /output/latin-ext-900.css.gz
+2023/08/04 15:08:03 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/vietnamese-200.min.css /tmp/work/vietnamese-200.css
+2023/08/04 15:08:03 sri /tmp/work/latin-ext.min.css -> /output/latin-ext.min.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext.min.css.br /tmp/work/latin-ext.min.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext.min.css -> /output/latin-ext.min.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext.min.css -> /output/latin-ext.min.css.gz
+2023/08/04 15:08:03 sri /tmp/work/latin-ext.css -> /output/latin-ext.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext.css.br /tmp/work/latin-ext.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext.css -> /output/latin-ext.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext.css -> /output/latin-ext.css.gz
+2023/08/04 15:08:03 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/vietnamese-300-italic.min.css /tmp/work/vietnamese-300-italic.css
+2023/08/04 15:08:03 sri /tmp/work/latin-ext-italic.min.css -> /output/latin-ext-italic.min.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-italic.min.css.br /tmp/work/latin-ext-italic.min.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext-italic.min.css -> /output/latin-ext-italic.min.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-italic.min.css -> /output/latin-ext-italic.min.css.gz
+2023/08/04 15:08:03 sri /tmp/work/latin-ext-italic.css -> /output/latin-ext-italic.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-italic.css.br /tmp/work/latin-ext-italic.css
+2023/08/04 15:08:03 br /tmp/work/latin-ext-italic.css -> /output/latin-ext-italic.css.br
+2023/08/04 15:08:03 gz /tmp/work/latin-ext-italic.css -> /output/latin-ext-italic.css.gz
+2023/08/04 15:08:03 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/vietnamese-300.min.css /tmp/work/vietnamese-300.css
+2023/08/04 15:08:03 sri /tmp/work/latin-italic.min.css -> /output/latin-italic.min.css.sri
+2023/08/04 15:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-italic.min.css.br /tmp/work/latin-italic.min.css
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-100-italic.min.css -> /output/vietnamese-100-italic.min.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-100-italic.min.css.br /tmp/work/vietnamese-100-italic.min.css
+2023/08/04 15:08:04 br /tmp/work/latin-italic.min.css -> /output/latin-italic.min.css.br
+2023/08/04 15:08:04 gz /tmp/work/latin-italic.min.css -> /output/latin-italic.min.css.gz
+2023/08/04 15:08:04 sri /tmp/work/latin-italic.css -> /output/latin-italic.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-italic.css.br /tmp/work/latin-italic.css
+2023/08/04 15:08:04 br /tmp/work/vietnamese-100-italic.min.css -> /output/vietnamese-100-italic.min.css.br
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-100-italic.min.css -> /output/vietnamese-100-italic.min.css.gz
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-100-italic.css -> /output/vietnamese-100-italic.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-100-italic.css.br /tmp/work/vietnamese-100-italic.css
+2023/08/04 15:08:04 br /tmp/work/vietnamese-100-italic.css -> /output/vietnamese-100-italic.css.br
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-100-italic.css -> /output/vietnamese-100-italic.css.gz
+2023/08/04 15:08:04 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/vietnamese-400-italic.min.css /tmp/work/vietnamese-400-italic.css
+2023/08/04 15:08:04 br /tmp/work/latin-italic.css -> /output/latin-italic.css.br
+2023/08/04 15:08:04 gz /tmp/work/latin-italic.css -> /output/latin-italic.css.gz
+2023/08/04 15:08:04 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/vietnamese-400.min.css /tmp/work/vietnamese-400.css
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-200-italic.min.css -> /output/vietnamese-200-italic.min.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-200-italic.min.css.br /tmp/work/vietnamese-200-italic.min.css
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-100.min.css -> /output/vietnamese-100.min.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-100.min.css.br /tmp/work/vietnamese-100.min.css
+2023/08/04 15:08:04 br /tmp/work/vietnamese-200-italic.min.css -> /output/vietnamese-200-italic.min.css.br
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-200-italic.min.css -> /output/vietnamese-200-italic.min.css.gz
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-200-italic.css -> /output/vietnamese-200-italic.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-200-italic.css.br /tmp/work/vietnamese-200-italic.css
+2023/08/04 15:08:04 br /tmp/work/vietnamese-100.min.css -> /output/vietnamese-100.min.css.br
+2023/08/04 15:08:04 sri /tmp/work/latin.min.css -> /output/latin.min.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin.min.css.br /tmp/work/latin.min.css
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-100.min.css -> /output/vietnamese-100.min.css.gz
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-100.css -> /output/vietnamese-100.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-100.css.br /tmp/work/vietnamese-100.css
+2023/08/04 15:08:04 br /tmp/work/vietnamese-100.css -> /output/vietnamese-100.css.br
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-100.css -> /output/vietnamese-100.css.gz
+2023/08/04 15:08:04 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/vietnamese-500-italic.min.css /tmp/work/vietnamese-500-italic.css
+2023/08/04 15:08:04 br /tmp/work/vietnamese-200-italic.css -> /output/vietnamese-200-italic.css.br
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-200-italic.css -> /output/vietnamese-200-italic.css.gz
+2023/08/04 15:08:04 br /tmp/work/latin.min.css -> /output/latin.min.css.br
+2023/08/04 15:08:04 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/vietnamese-500.min.css /tmp/work/vietnamese-500.css
+2023/08/04 15:08:04 gz /tmp/work/latin.min.css -> /output/latin.min.css.gz
+2023/08/04 15:08:04 sri /tmp/work/latin.css -> /output/latin.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin.css.br /tmp/work/latin.css
+2023/08/04 15:08:04 br /tmp/work/latin.css -> /output/latin.css.br
+2023/08/04 15:08:04 gz /tmp/work/latin.css -> /output/latin.css.gz
+2023/08/04 15:08:04 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/vietnamese-600-italic.min.css /tmp/work/vietnamese-600-italic.css
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-200.min.css -> /output/vietnamese-200.min.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-200.min.css.br /tmp/work/vietnamese-200.min.css
+2023/08/04 15:08:04 br /tmp/work/vietnamese-200.min.css -> /output/vietnamese-200.min.css.br
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-200.min.css -> /output/vietnamese-200.min.css.gz
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-200.css -> /output/vietnamese-200.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-200.css.br /tmp/work/vietnamese-200.css
+2023/08/04 15:08:04 br /tmp/work/vietnamese-200.css -> /output/vietnamese-200.css.br
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-200.css -> /output/vietnamese-200.css.gz
+2023/08/04 15:08:04 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/vietnamese-600.min.css /tmp/work/vietnamese-600.css
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-300-italic.min.css -> /output/vietnamese-300-italic.min.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-300-italic.min.css.br /tmp/work/vietnamese-300-italic.min.css
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-500-italic.min.css -> /output/vietnamese-500-italic.min.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-500-italic.min.css.br /tmp/work/vietnamese-500-italic.min.css
+2023/08/04 15:08:04 br /tmp/work/vietnamese-300-italic.min.css -> /output/vietnamese-300-italic.min.css.br
+2023/08/04 15:08:04 br /tmp/work/vietnamese-500-italic.min.css -> /output/vietnamese-500-italic.min.css.br
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-300-italic.min.css -> /output/vietnamese-300-italic.min.css.gz
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-300-italic.css -> /output/vietnamese-300-italic.css.sri
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-500-italic.min.css -> /output/vietnamese-500-italic.min.css.gz
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-500-italic.css -> /output/vietnamese-500-italic.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-500-italic.css.br /tmp/work/vietnamese-500-italic.css
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-300-italic.css.br /tmp/work/vietnamese-300-italic.css
+2023/08/04 15:08:04 br /tmp/work/vietnamese-500-italic.css -> /output/vietnamese-500-italic.css.br
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-500-italic.css -> /output/vietnamese-500-italic.css.gz
+2023/08/04 15:08:04 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/vietnamese-700-italic.min.css /tmp/work/vietnamese-700-italic.css
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-300.min.css -> /output/vietnamese-300.min.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-300.min.css.br /tmp/work/vietnamese-300.min.css
+2023/08/04 15:08:04 br /tmp/work/vietnamese-300-italic.css -> /output/vietnamese-300-italic.css.br
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-300-italic.css -> /output/vietnamese-300-italic.css.gz
+2023/08/04 15:08:04 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/vietnamese-700.min.css /tmp/work/vietnamese-700.css
+2023/08/04 15:08:04 br /tmp/work/vietnamese-300.min.css -> /output/vietnamese-300.min.css.br
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-300.min.css -> /output/vietnamese-300.min.css.gz
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-300.css -> /output/vietnamese-300.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-300.css.br /tmp/work/vietnamese-300.css
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-400-italic.min.css -> /output/vietnamese-400-italic.min.css.sri
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-400.min.css -> /output/vietnamese-400.min.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-400.min.css.br /tmp/work/vietnamese-400.min.css
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-400-italic.min.css.br /tmp/work/vietnamese-400-italic.min.css
+2023/08/04 15:08:04 br /tmp/work/vietnamese-300.css -> /output/vietnamese-300.css.br
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-300.css -> /output/vietnamese-300.css.gz
+2023/08/04 15:08:04 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/vietnamese-800-italic.min.css /tmp/work/vietnamese-800-italic.css
+2023/08/04 15:08:04 br /tmp/work/vietnamese-400.min.css -> /output/vietnamese-400.min.css.br
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-400.min.css -> /output/vietnamese-400.min.css.gz
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-400.css -> /output/vietnamese-400.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-400.css.br /tmp/work/vietnamese-400.css
+2023/08/04 15:08:04 br /tmp/work/vietnamese-400-italic.min.css -> /output/vietnamese-400-italic.min.css.br
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-400-italic.min.css -> /output/vietnamese-400-italic.min.css.gz
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-400-italic.css -> /output/vietnamese-400-italic.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-400-italic.css.br /tmp/work/vietnamese-400-italic.css
+2023/08/04 15:08:04 br /tmp/work/vietnamese-400.css -> /output/vietnamese-400.css.br
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-400.css -> /output/vietnamese-400.css.gz
+2023/08/04 15:08:04 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/vietnamese-800.min.css /tmp/work/vietnamese-800.css
+2023/08/04 15:08:04 br /tmp/work/vietnamese-400-italic.css -> /output/vietnamese-400-italic.css.br
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-400-italic.css -> /output/vietnamese-400-italic.css.gz
+2023/08/04 15:08:04 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/vietnamese-900-italic.min.css /tmp/work/vietnamese-900-italic.css
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-600-italic.min.css -> /output/vietnamese-600-italic.min.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-600-italic.min.css.br /tmp/work/vietnamese-600-italic.min.css
+2023/08/04 15:08:04 br /tmp/work/vietnamese-600-italic.min.css -> /output/vietnamese-600-italic.min.css.br
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-600-italic.min.css -> /output/vietnamese-600-italic.min.css.gz
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-600-italic.css -> /output/vietnamese-600-italic.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-600-italic.css.br /tmp/work/vietnamese-600-italic.css
+2023/08/04 15:08:04 br /tmp/work/vietnamese-600-italic.css -> /output/vietnamese-600-italic.css.br
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-600-italic.css -> /output/vietnamese-600-italic.css.gz
+2023/08/04 15:08:04 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/vietnamese-900.min.css /tmp/work/vietnamese-900.css
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-500.min.css -> /output/vietnamese-500.min.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-500.min.css.br /tmp/work/vietnamese-500.min.css
+2023/08/04 15:08:04 br /tmp/work/vietnamese-500.min.css -> /output/vietnamese-500.min.css.br
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-500.min.css -> /output/vietnamese-500.min.css.gz
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-500.css -> /output/vietnamese-500.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-500.css.br /tmp/work/vietnamese-500.css
+2023/08/04 15:08:04 br /tmp/work/vietnamese-500.css -> /output/vietnamese-500.css.br
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-500.css -> /output/vietnamese-500.css.gz
+2023/08/04 15:08:04 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/vietnamese-italic.min.css /tmp/work/vietnamese-italic.css
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-800-italic.min.css -> /output/vietnamese-800-italic.min.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-800-italic.min.css.br /tmp/work/vietnamese-800-italic.min.css
+2023/08/04 15:08:04 br /tmp/work/vietnamese-800-italic.min.css -> /output/vietnamese-800-italic.min.css.br
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-800-italic.min.css -> /output/vietnamese-800-italic.min.css.gz
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-800-italic.css -> /output/vietnamese-800-italic.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-800-italic.css.br /tmp/work/vietnamese-800-italic.css
+2023/08/04 15:08:04 br /tmp/work/vietnamese-800-italic.css -> /output/vietnamese-800-italic.css.br
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-800-italic.css -> /output/vietnamese-800-italic.css.gz
+2023/08/04 15:08:04 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/vietnamese.min.css /tmp/work/vietnamese.css
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-600.min.css -> /output/vietnamese-600.min.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-600.min.css.br /tmp/work/vietnamese-600.min.css
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-700-italic.min.css -> /output/vietnamese-700-italic.min.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-700-italic.min.css.br /tmp/work/vietnamese-700-italic.min.css
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-900-italic.min.css -> /output/vietnamese-900-italic.min.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-900-italic.min.css.br /tmp/work/vietnamese-900-italic.min.css
+2023/08/04 15:08:04 br /tmp/work/vietnamese-600.min.css -> /output/vietnamese-600.min.css.br
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-600.min.css -> /output/vietnamese-600.min.css.gz
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-600.css -> /output/vietnamese-600.css.sri
+2023/08/04 15:08:04 br /tmp/work/vietnamese-700-italic.min.css -> /output/vietnamese-700-italic.min.css.br
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-600.css.br /tmp/work/vietnamese-600.css
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-700-italic.min.css -> /output/vietnamese-700-italic.min.css.gz
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-700-italic.css -> /output/vietnamese-700-italic.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-700-italic.css.br /tmp/work/vietnamese-700-italic.css
+2023/08/04 15:08:04 br /tmp/work/vietnamese-900-italic.min.css -> /output/vietnamese-900-italic.min.css.br
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-900-italic.min.css -> /output/vietnamese-900-italic.min.css.gz
+2023/08/04 15:08:04 sri /tmp/work/vietnamese-900-italic.css -> /output/vietnamese-900-italic.css.sri
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-900-italic.css.br /tmp/work/vietnamese-900-italic.css
+2023/08/04 15:08:04 br /tmp/work/vietnamese-600.css -> /output/vietnamese-600.css.br
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-600.css -> /output/vietnamese-600.css.gz
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-100-italic.woff.br /tmp/work/files/montserrat-cyrillic-100-italic.woff
+2023/08/04 15:08:04 br /tmp/work/vietnamese-700-italic.css -> /output/vietnamese-700-italic.css.br
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-700-italic.css -> /output/vietnamese-700-italic.css.gz
+2023/08/04 15:08:04 br /tmp/work/vietnamese-900-italic.css -> /output/vietnamese-900-italic.css.br
+2023/08/04 15:08:04 gz /tmp/work/vietnamese-900-italic.css -> /output/vietnamese-900-italic.css.gz
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-100-normal.woff.br /tmp/work/files/montserrat-cyrillic-100-normal.woff
+2023/08/04 15:08:04 copy /tmp/work/files/montserrat-cyrillic-100-italic.woff2 -> /output/files/montserrat-cyrillic-100-italic.woff2
+2023/08/04 15:08:04 copy /tmp/work/files/montserrat-cyrillic-100-normal.woff2 -> /output/files/montserrat-cyrillic-100-normal.woff2
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-200-italic.woff.br /tmp/work/files/montserrat-cyrillic-200-italic.woff
+2023/08/04 15:08:04 br /tmp/work/files/montserrat-cyrillic-100-normal.woff -> /output/files/montserrat-cyrillic-100-normal.woff.br
+2023/08/04 15:08:04 br /tmp/work/files/montserrat-cyrillic-100-italic.woff -> /output/files/montserrat-cyrillic-100-italic.woff.br
+2023/08/04 15:08:04 gz /tmp/work/files/montserrat-cyrillic-100-normal.woff -> /output/files/montserrat-cyrillic-100-normal.woff.gz
+2023/08/04 15:08:04 gz /tmp/work/files/montserrat-cyrillic-100-italic.woff -> /output/files/montserrat-cyrillic-100-italic.woff.gz
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-200-normal.woff.br /tmp/work/files/montserrat-cyrillic-200-normal.woff
+2023/08/04 15:08:04 copy /tmp/work/files/montserrat-cyrillic-200-italic.woff2 -> /output/files/montserrat-cyrillic-200-italic.woff2
+2023/08/04 15:08:04 copy /tmp/work/files/montserrat-cyrillic-200-normal.woff2 -> /output/files/montserrat-cyrillic-200-normal.woff2
+2023/08/04 15:08:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-300-italic.woff.br /tmp/work/files/montserrat-cyrillic-300-italic.woff
+2023/08/04 15:08:05 sri /tmp/work/vietnamese-700.min.css -> /output/vietnamese-700.min.css.sri
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-700.min.css.br /tmp/work/vietnamese-700.min.css
+2023/08/04 15:08:05 sri /tmp/work/vietnamese-800.min.css -> /output/vietnamese-800.min.css.sri
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-800.min.css.br /tmp/work/vietnamese-800.min.css
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-200-italic.woff -> /output/files/montserrat-cyrillic-200-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-200-italic.woff -> /output/files/montserrat-cyrillic-200-italic.woff.gz
+2023/08/04 15:08:05 br /tmp/work/vietnamese-800.min.css -> /output/vietnamese-800.min.css.br
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-300-italic.woff2 -> /output/files/montserrat-cyrillic-300-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-300-normal.woff.br /tmp/work/files/montserrat-cyrillic-300-normal.woff
+2023/08/04 15:08:05 gz /tmp/work/vietnamese-800.min.css -> /output/vietnamese-800.min.css.gz
+2023/08/04 15:08:05 sri /tmp/work/vietnamese-800.css -> /output/vietnamese-800.css.sri
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-800.css.br /tmp/work/vietnamese-800.css
+2023/08/04 15:08:05 br /tmp/work/vietnamese-700.min.css -> /output/vietnamese-700.min.css.br
+2023/08/04 15:08:05 sri /tmp/work/vietnamese-italic.min.css -> /output/vietnamese-italic.min.css.sri
+2023/08/04 15:08:05 gz /tmp/work/vietnamese-700.min.css -> /output/vietnamese-700.min.css.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-italic.min.css.br /tmp/work/vietnamese-italic.min.css
+2023/08/04 15:08:05 sri /tmp/work/vietnamese-700.css -> /output/vietnamese-700.css.sri
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-700.css.br /tmp/work/vietnamese-700.css
+2023/08/04 15:08:05 br /tmp/work/vietnamese-800.css -> /output/vietnamese-800.css.br
+2023/08/04 15:08:05 gz /tmp/work/vietnamese-800.css -> /output/vietnamese-800.css.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-300-normal.woff2 -> /output/files/montserrat-cyrillic-300-normal.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-400-italic.woff.br /tmp/work/files/montserrat-cyrillic-400-italic.woff
+2023/08/04 15:08:05 br /tmp/work/vietnamese-700.css -> /output/vietnamese-700.css.br
+2023/08/04 15:08:05 gz /tmp/work/vietnamese-700.css -> /output/vietnamese-700.css.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-400-italic.woff2 -> /output/files/montserrat-cyrillic-400-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-400-normal.woff.br /tmp/work/files/montserrat-cyrillic-400-normal.woff
+2023/08/04 15:08:05 br /tmp/work/vietnamese-italic.min.css -> /output/vietnamese-italic.min.css.br
+2023/08/04 15:08:05 gz /tmp/work/vietnamese-italic.min.css -> /output/vietnamese-italic.min.css.gz
+2023/08/04 15:08:05 sri /tmp/work/vietnamese-italic.css -> /output/vietnamese-italic.css.sri
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-italic.css.br /tmp/work/vietnamese-italic.css
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-200-normal.woff -> /output/files/montserrat-cyrillic-200-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-200-normal.woff -> /output/files/montserrat-cyrillic-200-normal.woff.gz
+2023/08/04 15:08:05 sri /tmp/work/vietnamese-900.min.css -> /output/vietnamese-900.min.css.sri
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-900.min.css.br /tmp/work/vietnamese-900.min.css
+2023/08/04 15:08:05 br /tmp/work/vietnamese-italic.css -> /output/vietnamese-italic.css.br
+2023/08/04 15:08:05 gz /tmp/work/vietnamese-italic.css -> /output/vietnamese-italic.css.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-500-italic.woff.br /tmp/work/files/montserrat-cyrillic-500-italic.woff
+2023/08/04 15:08:05 br /tmp/work/vietnamese-900.min.css -> /output/vietnamese-900.min.css.br
+2023/08/04 15:08:05 gz /tmp/work/vietnamese-900.min.css -> /output/vietnamese-900.min.css.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-400-normal.woff2 -> /output/files/montserrat-cyrillic-400-normal.woff2
+2023/08/04 15:08:05 sri /tmp/work/vietnamese-900.css -> /output/vietnamese-900.css.sri
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-900.css.br /tmp/work/vietnamese-900.css
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-300-italic.woff -> /output/files/montserrat-cyrillic-300-italic.woff.br
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-500-italic.woff2 -> /output/files/montserrat-cyrillic-500-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-500-normal.woff.br /tmp/work/files/montserrat-cyrillic-500-normal.woff
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-300-italic.woff -> /output/files/montserrat-cyrillic-300-italic.woff.gz
+2023/08/04 15:08:05 br /tmp/work/vietnamese-900.css -> /output/vietnamese-900.css.br
+2023/08/04 15:08:05 gz /tmp/work/vietnamese-900.css -> /output/vietnamese-900.css.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-600-italic.woff.br /tmp/work/files/montserrat-cyrillic-600-italic.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-500-normal.woff2 -> /output/files/montserrat-cyrillic-500-normal.woff2
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-600-italic.woff2 -> /output/files/montserrat-cyrillic-600-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-600-normal.woff.br /tmp/work/files/montserrat-cyrillic-600-normal.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-300-normal.woff -> /output/files/montserrat-cyrillic-300-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-300-normal.woff -> /output/files/montserrat-cyrillic-300-normal.woff.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-600-normal.woff2 -> /output/files/montserrat-cyrillic-600-normal.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-700-italic.woff.br /tmp/work/files/montserrat-cyrillic-700-italic.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-400-normal.woff -> /output/files/montserrat-cyrillic-400-normal.woff.br
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-400-italic.woff -> /output/files/montserrat-cyrillic-400-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-400-normal.woff -> /output/files/montserrat-cyrillic-400-normal.woff.gz
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-400-italic.woff -> /output/files/montserrat-cyrillic-400-italic.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-700-normal.woff.br /tmp/work/files/montserrat-cyrillic-700-normal.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-700-italic.woff2 -> /output/files/montserrat-cyrillic-700-italic.woff2
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-700-normal.woff2 -> /output/files/montserrat-cyrillic-700-normal.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-800-italic.woff.br /tmp/work/files/montserrat-cyrillic-800-italic.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-500-normal.woff -> /output/files/montserrat-cyrillic-500-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-500-normal.woff -> /output/files/montserrat-cyrillic-500-normal.woff.gz
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-500-italic.woff -> /output/files/montserrat-cyrillic-500-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-500-italic.woff -> /output/files/montserrat-cyrillic-500-italic.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-800-normal.woff.br /tmp/work/files/montserrat-cyrillic-800-normal.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-800-italic.woff2 -> /output/files/montserrat-cyrillic-800-italic.woff2
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-600-italic.woff -> /output/files/montserrat-cyrillic-600-italic.woff.br
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-800-normal.woff2 -> /output/files/montserrat-cyrillic-800-normal.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-900-italic.woff.br /tmp/work/files/montserrat-cyrillic-900-italic.woff
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-600-italic.woff -> /output/files/montserrat-cyrillic-600-italic.woff.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-900-italic.woff2 -> /output/files/montserrat-cyrillic-900-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-900-normal.woff.br /tmp/work/files/montserrat-cyrillic-900-normal.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-600-normal.woff -> /output/files/montserrat-cyrillic-600-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-600-normal.woff -> /output/files/montserrat-cyrillic-600-normal.woff.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-900-normal.woff2 -> /output/files/montserrat-cyrillic-900-normal.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-ext-100-italic.woff.br /tmp/work/files/montserrat-cyrillic-ext-100-italic.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-700-normal.woff -> /output/files/montserrat-cyrillic-700-normal.woff.br
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-700-italic.woff -> /output/files/montserrat-cyrillic-700-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-700-normal.woff -> /output/files/montserrat-cyrillic-700-normal.woff.gz
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-700-italic.woff -> /output/files/montserrat-cyrillic-700-italic.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-ext-100-normal.woff.br /tmp/work/files/montserrat-cyrillic-ext-100-normal.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-ext-100-italic.woff2 -> /output/files/montserrat-cyrillic-ext-100-italic.woff2
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-800-italic.woff -> /output/files/montserrat-cyrillic-800-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-800-italic.woff -> /output/files/montserrat-cyrillic-800-italic.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-ext-200-italic.woff.br /tmp/work/files/montserrat-cyrillic-ext-200-italic.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-ext-100-normal.woff2 -> /output/files/montserrat-cyrillic-ext-100-normal.woff2
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-ext-200-italic.woff2 -> /output/files/montserrat-cyrillic-ext-200-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-ext-200-normal.woff.br /tmp/work/files/montserrat-cyrillic-ext-200-normal.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-900-italic.woff -> /output/files/montserrat-cyrillic-900-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-900-italic.woff -> /output/files/montserrat-cyrillic-900-italic.woff.gz
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-800-normal.woff -> /output/files/montserrat-cyrillic-800-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-800-normal.woff -> /output/files/montserrat-cyrillic-800-normal.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-ext-300-italic.woff.br /tmp/work/files/montserrat-cyrillic-ext-300-italic.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-ext-200-normal.woff2 -> /output/files/montserrat-cyrillic-ext-200-normal.woff2
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-900-normal.woff -> /output/files/montserrat-cyrillic-900-normal.woff.br
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-ext-300-italic.woff2 -> /output/files/montserrat-cyrillic-ext-300-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-ext-300-normal.woff.br /tmp/work/files/montserrat-cyrillic-ext-300-normal.woff
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-900-normal.woff -> /output/files/montserrat-cyrillic-900-normal.woff.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-ext-300-normal.woff2 -> /output/files/montserrat-cyrillic-ext-300-normal.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-ext-400-italic.woff.br /tmp/work/files/montserrat-cyrillic-ext-400-italic.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-ext-100-italic.woff -> /output/files/montserrat-cyrillic-ext-100-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-ext-100-italic.woff -> /output/files/montserrat-cyrillic-ext-100-italic.woff.gz
+2023/08/04 15:08:05 sri /tmp/work/vietnamese.min.css -> /output/vietnamese.min.css.sri
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese.min.css.br /tmp/work/vietnamese.min.css
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-ext-400-italic.woff2 -> /output/files/montserrat-cyrillic-ext-400-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-ext-400-normal.woff.br /tmp/work/files/montserrat-cyrillic-ext-400-normal.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-ext-100-normal.woff -> /output/files/montserrat-cyrillic-ext-100-normal.woff.br
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-ext-200-italic.woff -> /output/files/montserrat-cyrillic-ext-200-italic.woff.br
+2023/08/04 15:08:05 br /tmp/work/vietnamese.min.css -> /output/vietnamese.min.css.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-ext-100-normal.woff -> /output/files/montserrat-cyrillic-ext-100-normal.woff.gz
+2023/08/04 15:08:05 gz /tmp/work/vietnamese.min.css -> /output/vietnamese.min.css.gz
+2023/08/04 15:08:05 sri /tmp/work/vietnamese.css -> /output/vietnamese.css.sri
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese.css.br /tmp/work/vietnamese.css
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-ext-200-italic.woff -> /output/files/montserrat-cyrillic-ext-200-italic.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-ext-500-italic.woff.br /tmp/work/files/montserrat-cyrillic-ext-500-italic.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-ext-400-normal.woff2 -> /output/files/montserrat-cyrillic-ext-400-normal.woff2
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-ext-500-italic.woff2 -> /output/files/montserrat-cyrillic-ext-500-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-ext-500-normal.woff.br /tmp/work/files/montserrat-cyrillic-ext-500-normal.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-ext-200-normal.woff -> /output/files/montserrat-cyrillic-ext-200-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-ext-200-normal.woff -> /output/files/montserrat-cyrillic-ext-200-normal.woff.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-ext-500-normal.woff2 -> /output/files/montserrat-cyrillic-ext-500-normal.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-ext-600-italic.woff.br /tmp/work/files/montserrat-cyrillic-ext-600-italic.woff
+2023/08/04 15:08:05 br /tmp/work/vietnamese.css -> /output/vietnamese.css.br
+2023/08/04 15:08:05 gz /tmp/work/vietnamese.css -> /output/vietnamese.css.gz
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-ext-300-italic.woff -> /output/files/montserrat-cyrillic-ext-300-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-ext-300-italic.woff -> /output/files/montserrat-cyrillic-ext-300-italic.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-ext-600-normal.woff.br /tmp/work/files/montserrat-cyrillic-ext-600-normal.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-ext-400-normal.woff -> /output/files/montserrat-cyrillic-ext-400-normal.woff.br
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-ext-300-normal.woff -> /output/files/montserrat-cyrillic-ext-300-normal.woff.br
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-ext-400-italic.woff -> /output/files/montserrat-cyrillic-ext-400-italic.woff.br
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-ext-600-italic.woff2 -> /output/files/montserrat-cyrillic-ext-600-italic.woff2
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-ext-400-normal.woff -> /output/files/montserrat-cyrillic-ext-400-normal.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-ext-700-italic.woff.br /tmp/work/files/montserrat-cyrillic-ext-700-italic.woff
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-ext-300-normal.woff -> /output/files/montserrat-cyrillic-ext-300-normal.woff.gz
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-ext-400-italic.woff -> /output/files/montserrat-cyrillic-ext-400-italic.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-ext-700-normal.woff.br /tmp/work/files/montserrat-cyrillic-ext-700-normal.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-ext-600-normal.woff2 -> /output/files/montserrat-cyrillic-ext-600-normal.woff2
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-ext-700-italic.woff2 -> /output/files/montserrat-cyrillic-ext-700-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-ext-800-italic.woff.br /tmp/work/files/montserrat-cyrillic-ext-800-italic.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-ext-700-normal.woff2 -> /output/files/montserrat-cyrillic-ext-700-normal.woff2
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-ext-500-italic.woff -> /output/files/montserrat-cyrillic-ext-500-italic.woff.br
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-ext-800-italic.woff2 -> /output/files/montserrat-cyrillic-ext-800-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-ext-800-normal.woff.br /tmp/work/files/montserrat-cyrillic-ext-800-normal.woff
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-ext-500-italic.woff -> /output/files/montserrat-cyrillic-ext-500-italic.woff.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-ext-800-normal.woff2 -> /output/files/montserrat-cyrillic-ext-800-normal.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-ext-900-italic.woff.br /tmp/work/files/montserrat-cyrillic-ext-900-italic.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-ext-500-normal.woff -> /output/files/montserrat-cyrillic-ext-500-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-ext-500-normal.woff -> /output/files/montserrat-cyrillic-ext-500-normal.woff.gz
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-ext-600-italic.woff -> /output/files/montserrat-cyrillic-ext-600-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-ext-600-italic.woff -> /output/files/montserrat-cyrillic-ext-600-italic.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-cyrillic-ext-900-normal.woff.br /tmp/work/files/montserrat-cyrillic-ext-900-normal.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-ext-900-italic.woff2 -> /output/files/montserrat-cyrillic-ext-900-italic.woff2
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-cyrillic-ext-900-normal.woff2 -> /output/files/montserrat-cyrillic-ext-900-normal.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-100-italic.woff.br /tmp/work/files/montserrat-latin-100-italic.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-ext-600-normal.woff -> /output/files/montserrat-cyrillic-ext-600-normal.woff.br
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-ext-800-normal.woff -> /output/files/montserrat-cyrillic-ext-800-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-ext-600-normal.woff -> /output/files/montserrat-cyrillic-ext-600-normal.woff.gz
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-ext-800-normal.woff -> /output/files/montserrat-cyrillic-ext-800-normal.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-100-normal.woff.br /tmp/work/files/montserrat-latin-100-normal.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-100-italic.woff2 -> /output/files/montserrat-latin-100-italic.woff2
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-ext-700-normal.woff -> /output/files/montserrat-cyrillic-ext-700-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-ext-700-normal.woff -> /output/files/montserrat-cyrillic-ext-700-normal.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-200-italic.woff.br /tmp/work/files/montserrat-latin-200-italic.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-100-normal.woff2 -> /output/files/montserrat-latin-100-normal.woff2
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-ext-700-italic.woff -> /output/files/montserrat-cyrillic-ext-700-italic.woff.br
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-ext-900-normal.woff -> /output/files/montserrat-cyrillic-ext-900-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-ext-700-italic.woff -> /output/files/montserrat-cyrillic-ext-700-italic.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-200-normal.woff.br /tmp/work/files/montserrat-latin-200-normal.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-200-italic.woff2 -> /output/files/montserrat-latin-200-italic.woff2
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-ext-900-normal.woff -> /output/files/montserrat-cyrillic-ext-900-normal.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-300-italic.woff.br /tmp/work/files/montserrat-latin-300-italic.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-200-normal.woff2 -> /output/files/montserrat-latin-200-normal.woff2
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-ext-800-italic.woff -> /output/files/montserrat-cyrillic-ext-800-italic.woff.br
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-300-italic.woff2 -> /output/files/montserrat-latin-300-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-300-normal.woff.br /tmp/work/files/montserrat-latin-300-normal.woff
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-ext-800-italic.woff -> /output/files/montserrat-cyrillic-ext-800-italic.woff.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-300-normal.woff2 -> /output/files/montserrat-latin-300-normal.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-400-italic.woff.br /tmp/work/files/montserrat-latin-400-italic.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-cyrillic-ext-900-italic.woff -> /output/files/montserrat-cyrillic-ext-900-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-cyrillic-ext-900-italic.woff -> /output/files/montserrat-cyrillic-ext-900-italic.woff.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-400-italic.woff2 -> /output/files/montserrat-latin-400-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-400-normal.woff.br /tmp/work/files/montserrat-latin-400-normal.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-100-italic.woff -> /output/files/montserrat-latin-100-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-100-italic.woff -> /output/files/montserrat-latin-100-italic.woff.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-400-normal.woff2 -> /output/files/montserrat-latin-400-normal.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-500-italic.woff.br /tmp/work/files/montserrat-latin-500-italic.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-100-normal.woff -> /output/files/montserrat-latin-100-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-100-normal.woff -> /output/files/montserrat-latin-100-normal.woff.gz
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-200-normal.woff -> /output/files/montserrat-latin-200-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-200-normal.woff -> /output/files/montserrat-latin-200-normal.woff.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-500-italic.woff2 -> /output/files/montserrat-latin-500-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-500-normal.woff.br /tmp/work/files/montserrat-latin-500-normal.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-500-normal.woff2 -> /output/files/montserrat-latin-500-normal.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-600-italic.woff.br /tmp/work/files/montserrat-latin-600-italic.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-200-italic.woff -> /output/files/montserrat-latin-200-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-200-italic.woff -> /output/files/montserrat-latin-200-italic.woff.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-600-italic.woff2 -> /output/files/montserrat-latin-600-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-600-normal.woff.br /tmp/work/files/montserrat-latin-600-normal.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-300-italic.woff -> /output/files/montserrat-latin-300-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-300-italic.woff -> /output/files/montserrat-latin-300-italic.woff.gz
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-300-normal.woff -> /output/files/montserrat-latin-300-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-300-normal.woff -> /output/files/montserrat-latin-300-normal.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-700-italic.woff.br /tmp/work/files/montserrat-latin-700-italic.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-400-italic.woff -> /output/files/montserrat-latin-400-italic.woff.br
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-600-normal.woff2 -> /output/files/montserrat-latin-600-normal.woff2
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-400-italic.woff -> /output/files/montserrat-latin-400-italic.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-700-normal.woff.br /tmp/work/files/montserrat-latin-700-normal.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-700-italic.woff2 -> /output/files/montserrat-latin-700-italic.woff2
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-700-normal.woff2 -> /output/files/montserrat-latin-700-normal.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-800-italic.woff.br /tmp/work/files/montserrat-latin-800-italic.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-400-normal.woff -> /output/files/montserrat-latin-400-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-400-normal.woff -> /output/files/montserrat-latin-400-normal.woff.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-800-italic.woff2 -> /output/files/montserrat-latin-800-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-800-normal.woff.br /tmp/work/files/montserrat-latin-800-normal.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-500-italic.woff -> /output/files/montserrat-latin-500-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-500-italic.woff -> /output/files/montserrat-latin-500-italic.woff.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-800-normal.woff2 -> /output/files/montserrat-latin-800-normal.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-900-italic.woff.br /tmp/work/files/montserrat-latin-900-italic.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-500-normal.woff -> /output/files/montserrat-latin-500-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-500-normal.woff -> /output/files/montserrat-latin-500-normal.woff.gz
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-600-normal.woff -> /output/files/montserrat-latin-600-normal.woff.br
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-900-italic.woff2 -> /output/files/montserrat-latin-900-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-900-normal.woff.br /tmp/work/files/montserrat-latin-900-normal.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-600-italic.woff -> /output/files/montserrat-latin-600-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-600-italic.woff -> /output/files/montserrat-latin-600-italic.woff.gz
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-600-normal.woff -> /output/files/montserrat-latin-600-normal.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-ext-100-italic.woff.br /tmp/work/files/montserrat-latin-ext-100-italic.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-800-italic.woff -> /output/files/montserrat-latin-800-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-800-italic.woff -> /output/files/montserrat-latin-800-italic.woff.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-900-normal.woff2 -> /output/files/montserrat-latin-900-normal.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-ext-100-normal.woff.br /tmp/work/files/montserrat-latin-ext-100-normal.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-ext-100-italic.woff2 -> /output/files/montserrat-latin-ext-100-italic.woff2
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-ext-100-normal.woff2 -> /output/files/montserrat-latin-ext-100-normal.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-ext-200-italic.woff.br /tmp/work/files/montserrat-latin-ext-200-italic.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-700-italic.woff -> /output/files/montserrat-latin-700-italic.woff.br
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-700-normal.woff -> /output/files/montserrat-latin-700-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-700-italic.woff -> /output/files/montserrat-latin-700-italic.woff.gz
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-700-normal.woff -> /output/files/montserrat-latin-700-normal.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-ext-200-normal.woff.br /tmp/work/files/montserrat-latin-ext-200-normal.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-ext-200-italic.woff2 -> /output/files/montserrat-latin-ext-200-italic.woff2
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-ext-200-normal.woff2 -> /output/files/montserrat-latin-ext-200-normal.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-ext-300-italic.woff.br /tmp/work/files/montserrat-latin-ext-300-italic.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-800-normal.woff -> /output/files/montserrat-latin-800-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-800-normal.woff -> /output/files/montserrat-latin-800-normal.woff.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-ext-300-italic.woff2 -> /output/files/montserrat-latin-ext-300-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-ext-300-normal.woff.br /tmp/work/files/montserrat-latin-ext-300-normal.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-900-italic.woff -> /output/files/montserrat-latin-900-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-900-italic.woff -> /output/files/montserrat-latin-900-italic.woff.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-ext-300-normal.woff2 -> /output/files/montserrat-latin-ext-300-normal.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-ext-400-italic.woff.br /tmp/work/files/montserrat-latin-ext-400-italic.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-ext-200-italic.woff -> /output/files/montserrat-latin-ext-200-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-ext-200-italic.woff -> /output/files/montserrat-latin-ext-200-italic.woff.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-ext-400-italic.woff2 -> /output/files/montserrat-latin-ext-400-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-ext-400-normal.woff.br /tmp/work/files/montserrat-latin-ext-400-normal.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-900-normal.woff -> /output/files/montserrat-latin-900-normal.woff.br
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-ext-100-italic.woff -> /output/files/montserrat-latin-ext-100-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-900-normal.woff -> /output/files/montserrat-latin-900-normal.woff.gz
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-ext-100-italic.woff -> /output/files/montserrat-latin-ext-100-italic.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-ext-500-italic.woff.br /tmp/work/files/montserrat-latin-ext-500-italic.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-ext-400-normal.woff2 -> /output/files/montserrat-latin-ext-400-normal.woff2
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-ext-500-italic.woff2 -> /output/files/montserrat-latin-ext-500-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-ext-500-normal.woff.br /tmp/work/files/montserrat-latin-ext-500-normal.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-ext-100-normal.woff -> /output/files/montserrat-latin-ext-100-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-ext-100-normal.woff -> /output/files/montserrat-latin-ext-100-normal.woff.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-ext-500-normal.woff2 -> /output/files/montserrat-latin-ext-500-normal.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-ext-600-italic.woff.br /tmp/work/files/montserrat-latin-ext-600-italic.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-ext-200-normal.woff -> /output/files/montserrat-latin-ext-200-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-ext-200-normal.woff -> /output/files/montserrat-latin-ext-200-normal.woff.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-ext-600-italic.woff2 -> /output/files/montserrat-latin-ext-600-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-ext-600-normal.woff.br /tmp/work/files/montserrat-latin-ext-600-normal.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-ext-300-italic.woff -> /output/files/montserrat-latin-ext-300-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-ext-300-italic.woff -> /output/files/montserrat-latin-ext-300-italic.woff.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-ext-600-normal.woff2 -> /output/files/montserrat-latin-ext-600-normal.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-ext-700-italic.woff.br /tmp/work/files/montserrat-latin-ext-700-italic.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-ext-300-normal.woff -> /output/files/montserrat-latin-ext-300-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-ext-300-normal.woff -> /output/files/montserrat-latin-ext-300-normal.woff.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-ext-700-italic.woff2 -> /output/files/montserrat-latin-ext-700-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-ext-700-normal.woff.br /tmp/work/files/montserrat-latin-ext-700-normal.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-ext-400-normal.woff -> /output/files/montserrat-latin-ext-400-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-ext-400-normal.woff -> /output/files/montserrat-latin-ext-400-normal.woff.gz
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-ext-400-italic.woff -> /output/files/montserrat-latin-ext-400-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-ext-400-italic.woff -> /output/files/montserrat-latin-ext-400-italic.woff.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-ext-700-normal.woff2 -> /output/files/montserrat-latin-ext-700-normal.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-ext-800-italic.woff.br /tmp/work/files/montserrat-latin-ext-800-italic.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-ext-800-italic.woff2 -> /output/files/montserrat-latin-ext-800-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-ext-800-normal.woff.br /tmp/work/files/montserrat-latin-ext-800-normal.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-ext-500-normal.woff -> /output/files/montserrat-latin-ext-500-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-ext-500-normal.woff -> /output/files/montserrat-latin-ext-500-normal.woff.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-ext-800-normal.woff2 -> /output/files/montserrat-latin-ext-800-normal.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-ext-900-italic.woff.br /tmp/work/files/montserrat-latin-ext-900-italic.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-ext-500-italic.woff -> /output/files/montserrat-latin-ext-500-italic.woff.br
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-ext-600-normal.woff -> /output/files/montserrat-latin-ext-600-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-ext-500-italic.woff -> /output/files/montserrat-latin-ext-500-italic.woff.gz
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-ext-600-normal.woff -> /output/files/montserrat-latin-ext-600-normal.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-latin-ext-900-normal.woff.br /tmp/work/files/montserrat-latin-ext-900-normal.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-ext-900-italic.woff2 -> /output/files/montserrat-latin-ext-900-italic.woff2
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-latin-ext-900-normal.woff2 -> /output/files/montserrat-latin-ext-900-normal.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-vietnamese-100-italic.woff.br /tmp/work/files/montserrat-vietnamese-100-italic.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-ext-600-italic.woff -> /output/files/montserrat-latin-ext-600-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-ext-600-italic.woff -> /output/files/montserrat-latin-ext-600-italic.woff.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-vietnamese-100-italic.woff2 -> /output/files/montserrat-vietnamese-100-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-vietnamese-100-normal.woff.br /tmp/work/files/montserrat-vietnamese-100-normal.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-ext-800-normal.woff -> /output/files/montserrat-latin-ext-800-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-ext-800-normal.woff -> /output/files/montserrat-latin-ext-800-normal.woff.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-vietnamese-100-normal.woff2 -> /output/files/montserrat-vietnamese-100-normal.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-vietnamese-200-italic.woff.br /tmp/work/files/montserrat-vietnamese-200-italic.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-vietnamese-100-italic.woff -> /output/files/montserrat-vietnamese-100-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-vietnamese-100-italic.woff -> /output/files/montserrat-vietnamese-100-italic.woff.gz
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-ext-700-normal.woff -> /output/files/montserrat-latin-ext-700-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-ext-700-normal.woff -> /output/files/montserrat-latin-ext-700-normal.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-vietnamese-200-normal.woff.br /tmp/work/files/montserrat-vietnamese-200-normal.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-ext-700-italic.woff -> /output/files/montserrat-latin-ext-700-italic.woff.br
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-vietnamese-200-italic.woff2 -> /output/files/montserrat-vietnamese-200-italic.woff2
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-ext-700-italic.woff -> /output/files/montserrat-latin-ext-700-italic.woff.gz
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-vietnamese-100-normal.woff -> /output/files/montserrat-vietnamese-100-normal.woff.br
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-vietnamese-300-italic.woff.br /tmp/work/files/montserrat-vietnamese-300-italic.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-vietnamese-200-normal.woff2 -> /output/files/montserrat-vietnamese-200-normal.woff2
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-vietnamese-100-normal.woff -> /output/files/montserrat-vietnamese-100-normal.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-vietnamese-300-normal.woff.br /tmp/work/files/montserrat-vietnamese-300-normal.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-vietnamese-200-italic.woff -> /output/files/montserrat-vietnamese-200-italic.woff.br
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-vietnamese-300-italic.woff2 -> /output/files/montserrat-vietnamese-300-italic.woff2
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-vietnamese-200-italic.woff -> /output/files/montserrat-vietnamese-200-italic.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-vietnamese-400-italic.woff.br /tmp/work/files/montserrat-vietnamese-400-italic.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-vietnamese-300-normal.woff2 -> /output/files/montserrat-vietnamese-300-normal.woff2
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-vietnamese-400-italic.woff2 -> /output/files/montserrat-vietnamese-400-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-vietnamese-400-normal.woff.br /tmp/work/files/montserrat-vietnamese-400-normal.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-ext-800-italic.woff -> /output/files/montserrat-latin-ext-800-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-ext-800-italic.woff -> /output/files/montserrat-latin-ext-800-italic.woff.gz
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-vietnamese-200-normal.woff -> /output/files/montserrat-vietnamese-200-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-vietnamese-200-normal.woff -> /output/files/montserrat-vietnamese-200-normal.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-vietnamese-500-italic.woff.br /tmp/work/files/montserrat-vietnamese-500-italic.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-vietnamese-400-normal.woff2 -> /output/files/montserrat-vietnamese-400-normal.woff2
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-vietnamese-300-italic.woff -> /output/files/montserrat-vietnamese-300-italic.woff.br
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-vietnamese-500-italic.woff2 -> /output/files/montserrat-vietnamese-500-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-vietnamese-500-normal.woff.br /tmp/work/files/montserrat-vietnamese-500-normal.woff
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-vietnamese-300-italic.woff -> /output/files/montserrat-vietnamese-300-italic.woff.gz
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-vietnamese-300-normal.woff -> /output/files/montserrat-vietnamese-300-normal.woff.br
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-ext-900-normal.woff -> /output/files/montserrat-latin-ext-900-normal.woff.br
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-vietnamese-500-normal.woff2 -> /output/files/montserrat-vietnamese-500-normal.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-vietnamese-600-italic.woff.br /tmp/work/files/montserrat-vietnamese-600-italic.woff
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-vietnamese-300-normal.woff -> /output/files/montserrat-vietnamese-300-normal.woff.gz
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-vietnamese-400-italic.woff -> /output/files/montserrat-vietnamese-400-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-vietnamese-400-italic.woff -> /output/files/montserrat-vietnamese-400-italic.woff.gz
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-ext-900-normal.woff -> /output/files/montserrat-latin-ext-900-normal.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-vietnamese-600-normal.woff.br /tmp/work/files/montserrat-vietnamese-600-normal.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-vietnamese-600-italic.woff2 -> /output/files/montserrat-vietnamese-600-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-vietnamese-700-italic.woff.br /tmp/work/files/montserrat-vietnamese-700-italic.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-vietnamese-600-normal.woff2 -> /output/files/montserrat-vietnamese-600-normal.woff2
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-vietnamese-400-normal.woff -> /output/files/montserrat-vietnamese-400-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-vietnamese-400-normal.woff -> /output/files/montserrat-vietnamese-400-normal.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-vietnamese-700-normal.woff.br /tmp/work/files/montserrat-vietnamese-700-normal.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-vietnamese-700-italic.woff2 -> /output/files/montserrat-vietnamese-700-italic.woff2
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-vietnamese-700-normal.woff2 -> /output/files/montserrat-vietnamese-700-normal.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-vietnamese-800-italic.woff.br /tmp/work/files/montserrat-vietnamese-800-italic.woff
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-vietnamese-500-italic.woff -> /output/files/montserrat-vietnamese-500-italic.woff.br
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-latin-ext-900-italic.woff -> /output/files/montserrat-latin-ext-900-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-vietnamese-500-italic.woff -> /output/files/montserrat-vietnamese-500-italic.woff.gz
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-latin-ext-900-italic.woff -> /output/files/montserrat-latin-ext-900-italic.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-vietnamese-800-normal.woff.br /tmp/work/files/montserrat-vietnamese-800-normal.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-vietnamese-800-italic.woff2 -> /output/files/montserrat-vietnamese-800-italic.woff2
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-vietnamese-500-normal.woff -> /output/files/montserrat-vietnamese-500-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-vietnamese-500-normal.woff -> /output/files/montserrat-vietnamese-500-normal.woff.gz
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-vietnamese-900-italic.woff.br /tmp/work/files/montserrat-vietnamese-900-italic.woff
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-vietnamese-800-normal.woff2 -> /output/files/montserrat-vietnamese-800-normal.woff2
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-vietnamese-600-italic.woff -> /output/files/montserrat-vietnamese-600-italic.woff.br
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-vietnamese-900-italic.woff2 -> /output/files/montserrat-vietnamese-900-italic.woff2
+2023/08/04 15:08:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/montserrat-vietnamese-900-normal.woff.br /tmp/work/files/montserrat-vietnamese-900-normal.woff
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-vietnamese-600-italic.woff -> /output/files/montserrat-vietnamese-600-italic.woff.gz
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-vietnamese-600-normal.woff -> /output/files/montserrat-vietnamese-600-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-vietnamese-600-normal.woff -> /output/files/montserrat-vietnamese-600-normal.woff.gz
+2023/08/04 15:08:05 copy /tmp/work/files/montserrat-vietnamese-900-normal.woff2 -> /output/files/montserrat-vietnamese-900-normal.woff2
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-vietnamese-700-italic.woff -> /output/files/montserrat-vietnamese-700-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-vietnamese-700-italic.woff -> /output/files/montserrat-vietnamese-700-italic.woff.gz
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-vietnamese-700-normal.woff -> /output/files/montserrat-vietnamese-700-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-vietnamese-700-normal.woff -> /output/files/montserrat-vietnamese-700-normal.woff.gz
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-vietnamese-800-italic.woff -> /output/files/montserrat-vietnamese-800-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-vietnamese-800-italic.woff -> /output/files/montserrat-vietnamese-800-italic.woff.gz
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-vietnamese-900-italic.woff -> /output/files/montserrat-vietnamese-900-italic.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-vietnamese-900-italic.woff -> /output/files/montserrat-vietnamese-900-italic.woff.gz
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-vietnamese-800-normal.woff -> /output/files/montserrat-vietnamese-800-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-vietnamese-800-normal.woff -> /output/files/montserrat-vietnamese-800-normal.woff.gz
+2023/08/04 15:08:05 br /tmp/work/files/montserrat-vietnamese-900-normal.woff -> /output/files/montserrat-vietnamese-900-normal.woff.br
+2023/08/04 15:08:05 gz /tmp/work/files/montserrat-vietnamese-900-normal.woff -> /output/files/montserrat-vietnamese-900-normal.woff.gz
+2023/08/04 15:08:05 processed fontsource-montserrat
