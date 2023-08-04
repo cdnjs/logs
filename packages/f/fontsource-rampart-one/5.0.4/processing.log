@@ -1,0 +1,588 @@
+2023/08/04 13:34:46 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/08/04 13:34:46 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/400.min.css /tmp/work/400.css
+2023/08/04 13:34:46 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic.min.css /tmp/work/cyrillic.css
+2023/08/04 13:34:46 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/cyrillic-400.min.css /tmp/work/cyrillic-400.css
+2023/08/04 13:34:46 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/index.min.css /tmp/work/index.css
+2023/08/04 13:34:46 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-400.min.css /tmp/work/latin-400.css
+2023/08/04 13:34:46 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/japanese-400.min.css /tmp/work/japanese-400.css
+2023/08/04 13:34:46 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/japanese.min.css /tmp/work/japanese.css
+2023/08/04 13:34:46 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-ext-400.min.css /tmp/work/latin-ext-400.css
+2023/08/04 13:34:46 sri /tmp/work/cyrillic.min.css -> /output/cyrillic.min.css.sri
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic.min.css.br /tmp/work/cyrillic.min.css
+2023/08/04 13:34:46 sri /tmp/work/latin-400.min.css -> /output/latin-400.min.css.sri
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400.min.css.br /tmp/work/latin-400.min.css
+2023/08/04 13:34:46 sri /tmp/work/japanese-400.min.css -> /output/japanese-400.min.css.sri
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/japanese-400.min.css.br /tmp/work/japanese-400.min.css
+2023/08/04 13:34:46 sri /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.sri
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-400.min.css.br /tmp/work/latin-ext-400.min.css
+2023/08/04 13:34:46 br /tmp/work/cyrillic.min.css -> /output/cyrillic.min.css.br
+2023/08/04 13:34:46 gz /tmp/work/cyrillic.min.css -> /output/cyrillic.min.css.gz
+2023/08/04 13:34:46 sri /tmp/work/cyrillic.css -> /output/cyrillic.css.sri
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic.css.br /tmp/work/cyrillic.css
+2023/08/04 13:34:46 sri /tmp/work/cyrillic-400.min.css -> /output/cyrillic-400.min.css.sri
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-400.min.css.br /tmp/work/cyrillic-400.min.css
+2023/08/04 13:34:46 br /tmp/work/latin-400.min.css -> /output/latin-400.min.css.br
+2023/08/04 13:34:46 gz /tmp/work/latin-400.min.css -> /output/latin-400.min.css.gz
+2023/08/04 13:34:46 br /tmp/work/japanese-400.min.css -> /output/japanese-400.min.css.br
+2023/08/04 13:34:46 sri /tmp/work/latin-400.css -> /output/latin-400.css.sri
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400.css.br /tmp/work/latin-400.css
+2023/08/04 13:34:46 br /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.br
+2023/08/04 13:34:46 gz /tmp/work/japanese-400.min.css -> /output/japanese-400.min.css.gz
+2023/08/04 13:34:46 sri /tmp/work/japanese-400.css -> /output/japanese-400.css.sri
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/japanese-400.css.br /tmp/work/japanese-400.css
+2023/08/04 13:34:46 br /tmp/work/cyrillic-400.min.css -> /output/cyrillic-400.min.css.br
+2023/08/04 13:34:46 br /tmp/work/cyrillic.css -> /output/cyrillic.css.br
+2023/08/04 13:34:46 gz /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.gz
+2023/08/04 13:34:46 sri /tmp/work/latin-ext-400.css -> /output/latin-ext-400.css.sri
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-400.css.br /tmp/work/latin-ext-400.css
+2023/08/04 13:34:46 br /tmp/work/latin-400.css -> /output/latin-400.css.br
+2023/08/04 13:34:46 gz /tmp/work/cyrillic.css -> /output/cyrillic.css.gz
+2023/08/04 13:34:46 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-ext.min.css /tmp/work/latin-ext.css
+2023/08/04 13:34:46 gz /tmp/work/cyrillic-400.min.css -> /output/cyrillic-400.min.css.gz
+2023/08/04 13:34:46 sri /tmp/work/cyrillic-400.css -> /output/cyrillic-400.css.sri
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-400.css.br /tmp/work/cyrillic-400.css
+2023/08/04 13:34:46 gz /tmp/work/latin-400.css -> /output/latin-400.css.gz
+2023/08/04 13:34:46 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin.min.css /tmp/work/latin.css
+2023/08/04 13:34:46 br /tmp/work/japanese-400.css -> /output/japanese-400.css.br
+2023/08/04 13:34:46 br /tmp/work/cyrillic-400.css -> /output/cyrillic-400.css.br
+2023/08/04 13:34:46 br /tmp/work/latin-ext-400.css -> /output/latin-ext-400.css.br
+2023/08/04 13:34:46 sri /tmp/work/japanese.min.css -> /output/japanese.min.css.sri
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/japanese.min.css.br /tmp/work/japanese.min.css
+2023/08/04 13:34:46 gz /tmp/work/cyrillic-400.css -> /output/cyrillic-400.css.gz
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-0-400-normal.woff.br /tmp/work/files/rampart-one-0-400-normal.woff
+2023/08/04 13:34:46 gz /tmp/work/latin-ext-400.css -> /output/latin-ext-400.css.gz
+2023/08/04 13:34:46 gz /tmp/work/japanese-400.css -> /output/japanese-400.css.gz
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-1-400-normal.woff.br /tmp/work/files/rampart-one-1-400-normal.woff
+2023/08/04 13:34:46 br /tmp/work/japanese.min.css -> /output/japanese.min.css.br
+2023/08/04 13:34:46 gz /tmp/work/japanese.min.css -> /output/japanese.min.css.gz
+2023/08/04 13:34:46 sri /tmp/work/japanese.css -> /output/japanese.css.sri
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/japanese.css.br /tmp/work/japanese.css
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-0-400-normal.woff2 -> /output/files/rampart-one-0-400-normal.woff2
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-1-400-normal.woff2 -> /output/files/rampart-one-1-400-normal.woff2
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-10-400-normal.woff.br /tmp/work/files/rampart-one-10-400-normal.woff
+2023/08/04 13:34:46 br /tmp/work/japanese.css -> /output/japanese.css.br
+2023/08/04 13:34:46 gz /tmp/work/japanese.css -> /output/japanese.css.gz
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-10-400-normal.woff2 -> /output/files/rampart-one-10-400-normal.woff2
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-100-400-normal.woff.br /tmp/work/files/rampart-one-100-400-normal.woff
+2023/08/04 13:34:46 br /tmp/work/files/rampart-one-1-400-normal.woff -> /output/files/rampart-one-1-400-normal.woff.br
+2023/08/04 13:34:46 gz /tmp/work/files/rampart-one-1-400-normal.woff -> /output/files/rampart-one-1-400-normal.woff.gz
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-100-400-normal.woff2 -> /output/files/rampart-one-100-400-normal.woff2
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-101-400-normal.woff.br /tmp/work/files/rampart-one-101-400-normal.woff
+2023/08/04 13:34:46 br /tmp/work/files/rampart-one-0-400-normal.woff -> /output/files/rampart-one-0-400-normal.woff.br
+2023/08/04 13:34:46 gz /tmp/work/files/rampart-one-0-400-normal.woff -> /output/files/rampart-one-0-400-normal.woff.gz
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-101-400-normal.woff2 -> /output/files/rampart-one-101-400-normal.woff2
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-102-400-normal.woff.br /tmp/work/files/rampart-one-102-400-normal.woff
+2023/08/04 13:34:46 br /tmp/work/files/rampart-one-10-400-normal.woff -> /output/files/rampart-one-10-400-normal.woff.br
+2023/08/04 13:34:46 gz /tmp/work/files/rampart-one-10-400-normal.woff -> /output/files/rampart-one-10-400-normal.woff.gz
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-102-400-normal.woff2 -> /output/files/rampart-one-102-400-normal.woff2
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-103-400-normal.woff.br /tmp/work/files/rampart-one-103-400-normal.woff
+2023/08/04 13:34:46 br /tmp/work/files/rampart-one-102-400-normal.woff -> /output/files/rampart-one-102-400-normal.woff.br
+2023/08/04 13:34:46 gz /tmp/work/files/rampart-one-102-400-normal.woff -> /output/files/rampart-one-102-400-normal.woff.gz
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-103-400-normal.woff2 -> /output/files/rampart-one-103-400-normal.woff2
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-104-400-normal.woff.br /tmp/work/files/rampart-one-104-400-normal.woff
+2023/08/04 13:34:46 br /tmp/work/files/rampart-one-100-400-normal.woff -> /output/files/rampart-one-100-400-normal.woff.br
+2023/08/04 13:34:46 br /tmp/work/files/rampart-one-101-400-normal.woff -> /output/files/rampart-one-101-400-normal.woff.br
+2023/08/04 13:34:46 gz /tmp/work/files/rampart-one-100-400-normal.woff -> /output/files/rampart-one-100-400-normal.woff.gz
+2023/08/04 13:34:46 gz /tmp/work/files/rampart-one-101-400-normal.woff -> /output/files/rampart-one-101-400-normal.woff.gz
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-105-400-normal.woff.br /tmp/work/files/rampart-one-105-400-normal.woff
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-104-400-normal.woff2 -> /output/files/rampart-one-104-400-normal.woff2
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-105-400-normal.woff2 -> /output/files/rampart-one-105-400-normal.woff2
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-106-400-normal.woff.br /tmp/work/files/rampart-one-106-400-normal.woff
+2023/08/04 13:34:46 br /tmp/work/files/rampart-one-104-400-normal.woff -> /output/files/rampart-one-104-400-normal.woff.br
+2023/08/04 13:34:46 gz /tmp/work/files/rampart-one-104-400-normal.woff -> /output/files/rampart-one-104-400-normal.woff.gz
+2023/08/04 13:34:46 br /tmp/work/files/rampart-one-103-400-normal.woff -> /output/files/rampart-one-103-400-normal.woff.br
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-106-400-normal.woff2 -> /output/files/rampart-one-106-400-normal.woff2
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-107-400-normal.woff.br /tmp/work/files/rampart-one-107-400-normal.woff
+2023/08/04 13:34:46 gz /tmp/work/files/rampart-one-103-400-normal.woff -> /output/files/rampart-one-103-400-normal.woff.gz
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-107-400-normal.woff2 -> /output/files/rampart-one-107-400-normal.woff2
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-108-400-normal.woff.br /tmp/work/files/rampart-one-108-400-normal.woff
+2023/08/04 13:34:46 br /tmp/work/files/rampart-one-105-400-normal.woff -> /output/files/rampart-one-105-400-normal.woff.br
+2023/08/04 13:34:46 gz /tmp/work/files/rampart-one-105-400-normal.woff -> /output/files/rampart-one-105-400-normal.woff.gz
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-108-400-normal.woff2 -> /output/files/rampart-one-108-400-normal.woff2
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-109-400-normal.woff.br /tmp/work/files/rampart-one-109-400-normal.woff
+2023/08/04 13:34:46 br /tmp/work/files/rampart-one-107-400-normal.woff -> /output/files/rampart-one-107-400-normal.woff.br
+2023/08/04 13:34:46 br /tmp/work/files/rampart-one-106-400-normal.woff -> /output/files/rampart-one-106-400-normal.woff.br
+2023/08/04 13:34:46 gz /tmp/work/files/rampart-one-107-400-normal.woff -> /output/files/rampart-one-107-400-normal.woff.gz
+2023/08/04 13:34:46 gz /tmp/work/files/rampart-one-106-400-normal.woff -> /output/files/rampart-one-106-400-normal.woff.gz
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-11-400-normal.woff.br /tmp/work/files/rampart-one-11-400-normal.woff
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-109-400-normal.woff2 -> /output/files/rampart-one-109-400-normal.woff2
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-11-400-normal.woff2 -> /output/files/rampart-one-11-400-normal.woff2
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-110-400-normal.woff.br /tmp/work/files/rampart-one-110-400-normal.woff
+2023/08/04 13:34:46 br /tmp/work/files/rampart-one-108-400-normal.woff -> /output/files/rampart-one-108-400-normal.woff.br
+2023/08/04 13:34:46 gz /tmp/work/files/rampart-one-108-400-normal.woff -> /output/files/rampart-one-108-400-normal.woff.gz
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-110-400-normal.woff2 -> /output/files/rampart-one-110-400-normal.woff2
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-111-400-normal.woff.br /tmp/work/files/rampart-one-111-400-normal.woff
+2023/08/04 13:34:46 br /tmp/work/files/rampart-one-109-400-normal.woff -> /output/files/rampart-one-109-400-normal.woff.br
+2023/08/04 13:34:46 gz /tmp/work/files/rampart-one-109-400-normal.woff -> /output/files/rampart-one-109-400-normal.woff.gz
+2023/08/04 13:34:46 sri /tmp/work/latin-ext.min.css -> /output/latin-ext.min.css.sri
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext.min.css.br /tmp/work/latin-ext.min.css
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-111-400-normal.woff2 -> /output/files/rampart-one-111-400-normal.woff2
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-112-400-normal.woff.br /tmp/work/files/rampart-one-112-400-normal.woff
+2023/08/04 13:34:46 br /tmp/work/files/rampart-one-11-400-normal.woff -> /output/files/rampart-one-11-400-normal.woff.br
+2023/08/04 13:34:46 gz /tmp/work/files/rampart-one-11-400-normal.woff -> /output/files/rampart-one-11-400-normal.woff.gz
+2023/08/04 13:34:46 br /tmp/work/latin-ext.min.css -> /output/latin-ext.min.css.br
+2023/08/04 13:34:46 gz /tmp/work/latin-ext.min.css -> /output/latin-ext.min.css.gz
+2023/08/04 13:34:46 sri /tmp/work/latin-ext.css -> /output/latin-ext.css.sri
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext.css.br /tmp/work/latin-ext.css
+2023/08/04 13:34:46 sri /tmp/work/latin.min.css -> /output/latin.min.css.sri
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin.min.css.br /tmp/work/latin.min.css
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-112-400-normal.woff2 -> /output/files/rampart-one-112-400-normal.woff2
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-113-400-normal.woff.br /tmp/work/files/rampart-one-113-400-normal.woff
+2023/08/04 13:34:46 br /tmp/work/latin-ext.css -> /output/latin-ext.css.br
+2023/08/04 13:34:46 br /tmp/work/latin.min.css -> /output/latin.min.css.br
+2023/08/04 13:34:46 gz /tmp/work/latin-ext.css -> /output/latin-ext.css.gz
+2023/08/04 13:34:46 gz /tmp/work/latin.min.css -> /output/latin.min.css.gz
+2023/08/04 13:34:46 sri /tmp/work/latin.css -> /output/latin.css.sri
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin.css.br /tmp/work/latin.css
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-113-400-normal.woff2 -> /output/files/rampart-one-113-400-normal.woff2
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-114-400-normal.woff.br /tmp/work/files/rampart-one-114-400-normal.woff
+2023/08/04 13:34:46 br /tmp/work/latin.css -> /output/latin.css.br
+2023/08/04 13:34:46 gz /tmp/work/latin.css -> /output/latin.css.gz
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-114-400-normal.woff2 -> /output/files/rampart-one-114-400-normal.woff2
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-115-400-normal.woff.br /tmp/work/files/rampart-one-115-400-normal.woff
+2023/08/04 13:34:46 br /tmp/work/files/rampart-one-110-400-normal.woff -> /output/files/rampart-one-110-400-normal.woff.br
+2023/08/04 13:34:46 gz /tmp/work/files/rampart-one-110-400-normal.woff -> /output/files/rampart-one-110-400-normal.woff.gz
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-115-400-normal.woff2 -> /output/files/rampart-one-115-400-normal.woff2
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-116-400-normal.woff.br /tmp/work/files/rampart-one-116-400-normal.woff
+2023/08/04 13:34:46 br /tmp/work/files/rampart-one-111-400-normal.woff -> /output/files/rampart-one-111-400-normal.woff.br
+2023/08/04 13:34:46 gz /tmp/work/files/rampart-one-111-400-normal.woff -> /output/files/rampart-one-111-400-normal.woff.gz
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-116-400-normal.woff2 -> /output/files/rampart-one-116-400-normal.woff2
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-117-400-normal.woff.br /tmp/work/files/rampart-one-117-400-normal.woff
+2023/08/04 13:34:46 br /tmp/work/files/rampart-one-112-400-normal.woff -> /output/files/rampart-one-112-400-normal.woff.br
+2023/08/04 13:34:46 br /tmp/work/files/rampart-one-114-400-normal.woff -> /output/files/rampart-one-114-400-normal.woff.br
+2023/08/04 13:34:46 gz /tmp/work/files/rampart-one-114-400-normal.woff -> /output/files/rampart-one-114-400-normal.woff.gz
+2023/08/04 13:34:46 gz /tmp/work/files/rampart-one-112-400-normal.woff -> /output/files/rampart-one-112-400-normal.woff.gz
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-118-400-normal.woff.br /tmp/work/files/rampart-one-118-400-normal.woff
+2023/08/04 13:34:46 br /tmp/work/files/rampart-one-113-400-normal.woff -> /output/files/rampart-one-113-400-normal.woff.br
+2023/08/04 13:34:46 gz /tmp/work/files/rampart-one-113-400-normal.woff -> /output/files/rampart-one-113-400-normal.woff.gz
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-117-400-normal.woff2 -> /output/files/rampart-one-117-400-normal.woff2
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-119-400-normal.woff.br /tmp/work/files/rampart-one-119-400-normal.woff
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-118-400-normal.woff2 -> /output/files/rampart-one-118-400-normal.woff2
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-119-400-normal.woff2 -> /output/files/rampart-one-119-400-normal.woff2
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-12-400-normal.woff.br /tmp/work/files/rampart-one-12-400-normal.woff
+2023/08/04 13:34:46 br /tmp/work/files/rampart-one-115-400-normal.woff -> /output/files/rampart-one-115-400-normal.woff.br
+2023/08/04 13:34:46 gz /tmp/work/files/rampart-one-115-400-normal.woff -> /output/files/rampart-one-115-400-normal.woff.gz
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-12-400-normal.woff2 -> /output/files/rampart-one-12-400-normal.woff2
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-13-400-normal.woff.br /tmp/work/files/rampart-one-13-400-normal.woff
+2023/08/04 13:34:46 br /tmp/work/files/rampart-one-116-400-normal.woff -> /output/files/rampart-one-116-400-normal.woff.br
+2023/08/04 13:34:46 gz /tmp/work/files/rampart-one-116-400-normal.woff -> /output/files/rampart-one-116-400-normal.woff.gz
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-13-400-normal.woff2 -> /output/files/rampart-one-13-400-normal.woff2
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-14-400-normal.woff.br /tmp/work/files/rampart-one-14-400-normal.woff
+2023/08/04 13:34:46 br /tmp/work/files/rampart-one-117-400-normal.woff -> /output/files/rampart-one-117-400-normal.woff.br
+2023/08/04 13:34:46 gz /tmp/work/files/rampart-one-117-400-normal.woff -> /output/files/rampart-one-117-400-normal.woff.gz
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-14-400-normal.woff2 -> /output/files/rampart-one-14-400-normal.woff2
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-15-400-normal.woff.br /tmp/work/files/rampart-one-15-400-normal.woff
+2023/08/04 13:34:46 br /tmp/work/files/rampart-one-119-400-normal.woff -> /output/files/rampart-one-119-400-normal.woff.br
+2023/08/04 13:34:46 gz /tmp/work/files/rampart-one-119-400-normal.woff -> /output/files/rampart-one-119-400-normal.woff.gz
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-15-400-normal.woff2 -> /output/files/rampart-one-15-400-normal.woff2
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-16-400-normal.woff.br /tmp/work/files/rampart-one-16-400-normal.woff
+2023/08/04 13:34:46 sri /tmp/work/index.min.css -> /output/index.min.css.sri
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.css.br /tmp/work/index.min.css
+2023/08/04 13:34:46 sri /tmp/work/400.min.css -> /output/400.min.css.sri
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400.min.css.br /tmp/work/400.min.css
+2023/08/04 13:34:46 br /tmp/work/files/rampart-one-13-400-normal.woff -> /output/files/rampart-one-13-400-normal.woff.br
+2023/08/04 13:34:46 gz /tmp/work/files/rampart-one-13-400-normal.woff -> /output/files/rampart-one-13-400-normal.woff.gz
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-16-400-normal.woff2 -> /output/files/rampart-one-16-400-normal.woff2
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-17-400-normal.woff.br /tmp/work/files/rampart-one-17-400-normal.woff
+2023/08/04 13:34:46 br /tmp/work/files/rampart-one-118-400-normal.woff -> /output/files/rampart-one-118-400-normal.woff.br
+2023/08/04 13:34:46 gz /tmp/work/files/rampart-one-118-400-normal.woff -> /output/files/rampart-one-118-400-normal.woff.gz
+2023/08/04 13:34:46 copy /tmp/work/files/rampart-one-17-400-normal.woff2 -> /output/files/rampart-one-17-400-normal.woff2
+2023/08/04 13:34:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-18-400-normal.woff.br /tmp/work/files/rampart-one-18-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-14-400-normal.woff -> /output/files/rampart-one-14-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-14-400-normal.woff -> /output/files/rampart-one-14-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-18-400-normal.woff2 -> /output/files/rampart-one-18-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-19-400-normal.woff.br /tmp/work/files/rampart-one-19-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-15-400-normal.woff -> /output/files/rampart-one-15-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-15-400-normal.woff -> /output/files/rampart-one-15-400-normal.woff.gz
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-12-400-normal.woff -> /output/files/rampart-one-12-400-normal.woff.br
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-19-400-normal.woff2 -> /output/files/rampart-one-19-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-2-400-normal.woff.br /tmp/work/files/rampart-one-2-400-normal.woff
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-12-400-normal.woff -> /output/files/rampart-one-12-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-2-400-normal.woff2 -> /output/files/rampart-one-2-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-20-400-normal.woff.br /tmp/work/files/rampart-one-20-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-2-400-normal.woff -> /output/files/rampart-one-2-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-2-400-normal.woff -> /output/files/rampart-one-2-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-20-400-normal.woff2 -> /output/files/rampart-one-20-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-21-400-normal.woff.br /tmp/work/files/rampart-one-21-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-16-400-normal.woff -> /output/files/rampart-one-16-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-16-400-normal.woff -> /output/files/rampart-one-16-400-normal.woff.gz
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-19-400-normal.woff -> /output/files/rampart-one-19-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-19-400-normal.woff -> /output/files/rampart-one-19-400-normal.woff.gz
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-22-400-normal.woff.br /tmp/work/files/rampart-one-22-400-normal.woff
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-21-400-normal.woff2 -> /output/files/rampart-one-21-400-normal.woff2
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-22-400-normal.woff2 -> /output/files/rampart-one-22-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-23-400-normal.woff.br /tmp/work/files/rampart-one-23-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-18-400-normal.woff -> /output/files/rampart-one-18-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-18-400-normal.woff -> /output/files/rampart-one-18-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-23-400-normal.woff2 -> /output/files/rampart-one-23-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-24-400-normal.woff.br /tmp/work/files/rampart-one-24-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-20-400-normal.woff -> /output/files/rampart-one-20-400-normal.woff.br
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-23-400-normal.woff -> /output/files/rampart-one-23-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-20-400-normal.woff -> /output/files/rampart-one-20-400-normal.woff.gz
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-23-400-normal.woff -> /output/files/rampart-one-23-400-normal.woff.gz
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-25-400-normal.woff.br /tmp/work/files/rampart-one-25-400-normal.woff
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-24-400-normal.woff2 -> /output/files/rampart-one-24-400-normal.woff2
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-25-400-normal.woff2 -> /output/files/rampart-one-25-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-26-400-normal.woff.br /tmp/work/files/rampart-one-26-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-17-400-normal.woff -> /output/files/rampart-one-17-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-17-400-normal.woff -> /output/files/rampart-one-17-400-normal.woff.gz
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-24-400-normal.woff -> /output/files/rampart-one-24-400-normal.woff.br
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-26-400-normal.woff2 -> /output/files/rampart-one-26-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-27-400-normal.woff.br /tmp/work/files/rampart-one-27-400-normal.woff
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-24-400-normal.woff -> /output/files/rampart-one-24-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-27-400-normal.woff2 -> /output/files/rampart-one-27-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-28-400-normal.woff.br /tmp/work/files/rampart-one-28-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-25-400-normal.woff -> /output/files/rampart-one-25-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-25-400-normal.woff -> /output/files/rampart-one-25-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-28-400-normal.woff2 -> /output/files/rampart-one-28-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-29-400-normal.woff.br /tmp/work/files/rampart-one-29-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/index.min.css -> /output/index.min.css.br
+2023/08/04 13:34:47 br /tmp/work/400.min.css -> /output/400.min.css.br
+2023/08/04 13:34:47 gz /tmp/work/index.min.css -> /output/index.min.css.gz
+2023/08/04 13:34:47 sri /tmp/work/index.css -> /output/index.css.sri
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.css.br /tmp/work/index.css
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-21-400-normal.woff -> /output/files/rampart-one-21-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-21-400-normal.woff -> /output/files/rampart-one-21-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-29-400-normal.woff2 -> /output/files/rampart-one-29-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-3-400-normal.woff.br /tmp/work/files/rampart-one-3-400-normal.woff
+2023/08/04 13:34:47 gz /tmp/work/400.min.css -> /output/400.min.css.gz
+2023/08/04 13:34:47 sri /tmp/work/400.css -> /output/400.css.sri
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400.css.br /tmp/work/400.css
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-26-400-normal.woff -> /output/files/rampart-one-26-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-26-400-normal.woff -> /output/files/rampart-one-26-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-3-400-normal.woff2 -> /output/files/rampart-one-3-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-30-400-normal.woff.br /tmp/work/files/rampart-one-30-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-22-400-normal.woff -> /output/files/rampart-one-22-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-22-400-normal.woff -> /output/files/rampart-one-22-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-30-400-normal.woff2 -> /output/files/rampart-one-30-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-31-400-normal.woff.br /tmp/work/files/rampart-one-31-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-3-400-normal.woff -> /output/files/rampart-one-3-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-3-400-normal.woff -> /output/files/rampart-one-3-400-normal.woff.gz
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-27-400-normal.woff -> /output/files/rampart-one-27-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-27-400-normal.woff -> /output/files/rampart-one-27-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-31-400-normal.woff2 -> /output/files/rampart-one-31-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-32-400-normal.woff.br /tmp/work/files/rampart-one-32-400-normal.woff
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-32-400-normal.woff2 -> /output/files/rampart-one-32-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-33-400-normal.woff.br /tmp/work/files/rampart-one-33-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-29-400-normal.woff -> /output/files/rampart-one-29-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-29-400-normal.woff -> /output/files/rampart-one-29-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-33-400-normal.woff2 -> /output/files/rampart-one-33-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-34-400-normal.woff.br /tmp/work/files/rampart-one-34-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-28-400-normal.woff -> /output/files/rampart-one-28-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-28-400-normal.woff -> /output/files/rampart-one-28-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-34-400-normal.woff2 -> /output/files/rampart-one-34-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-35-400-normal.woff.br /tmp/work/files/rampart-one-35-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-34-400-normal.woff -> /output/files/rampart-one-34-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-34-400-normal.woff -> /output/files/rampart-one-34-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-35-400-normal.woff2 -> /output/files/rampart-one-35-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-36-400-normal.woff.br /tmp/work/files/rampart-one-36-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-30-400-normal.woff -> /output/files/rampart-one-30-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-30-400-normal.woff -> /output/files/rampart-one-30-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-36-400-normal.woff2 -> /output/files/rampart-one-36-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-37-400-normal.woff.br /tmp/work/files/rampart-one-37-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-36-400-normal.woff -> /output/files/rampart-one-36-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-36-400-normal.woff -> /output/files/rampart-one-36-400-normal.woff.gz
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-35-400-normal.woff -> /output/files/rampart-one-35-400-normal.woff.br
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-37-400-normal.woff2 -> /output/files/rampart-one-37-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-38-400-normal.woff.br /tmp/work/files/rampart-one-38-400-normal.woff
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-35-400-normal.woff -> /output/files/rampart-one-35-400-normal.woff.gz
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-33-400-normal.woff -> /output/files/rampart-one-33-400-normal.woff.br
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-38-400-normal.woff2 -> /output/files/rampart-one-38-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-39-400-normal.woff.br /tmp/work/files/rampart-one-39-400-normal.woff
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-33-400-normal.woff -> /output/files/rampart-one-33-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-39-400-normal.woff2 -> /output/files/rampart-one-39-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-4-400-normal.woff.br /tmp/work/files/rampart-one-4-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-31-400-normal.woff -> /output/files/rampart-one-31-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-31-400-normal.woff -> /output/files/rampart-one-31-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-4-400-normal.woff2 -> /output/files/rampart-one-4-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-40-400-normal.woff.br /tmp/work/files/rampart-one-40-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-4-400-normal.woff -> /output/files/rampart-one-4-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-4-400-normal.woff -> /output/files/rampart-one-4-400-normal.woff.gz
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-32-400-normal.woff -> /output/files/rampart-one-32-400-normal.woff.br
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-40-400-normal.woff2 -> /output/files/rampart-one-40-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-41-400-normal.woff.br /tmp/work/files/rampart-one-41-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-39-400-normal.woff -> /output/files/rampart-one-39-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-32-400-normal.woff -> /output/files/rampart-one-32-400-normal.woff.gz
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-39-400-normal.woff -> /output/files/rampart-one-39-400-normal.woff.gz
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-42-400-normal.woff.br /tmp/work/files/rampart-one-42-400-normal.woff
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-41-400-normal.woff2 -> /output/files/rampart-one-41-400-normal.woff2
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-42-400-normal.woff2 -> /output/files/rampart-one-42-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-43-400-normal.woff.br /tmp/work/files/rampart-one-43-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/index.css -> /output/index.css.br
+2023/08/04 13:34:47 br /tmp/work/400.css -> /output/400.css.br
+2023/08/04 13:34:47 gz /tmp/work/index.css -> /output/index.css.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-43-400-normal.woff2 -> /output/files/rampart-one-43-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-44-400-normal.woff.br /tmp/work/files/rampart-one-44-400-normal.woff
+2023/08/04 13:34:47 gz /tmp/work/400.css -> /output/400.css.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-44-400-normal.woff2 -> /output/files/rampart-one-44-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-45-400-normal.woff.br /tmp/work/files/rampart-one-45-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-38-400-normal.woff -> /output/files/rampart-one-38-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-38-400-normal.woff -> /output/files/rampart-one-38-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-45-400-normal.woff2 -> /output/files/rampart-one-45-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-46-400-normal.woff.br /tmp/work/files/rampart-one-46-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-42-400-normal.woff -> /output/files/rampart-one-42-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-42-400-normal.woff -> /output/files/rampart-one-42-400-normal.woff.gz
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-37-400-normal.woff -> /output/files/rampart-one-37-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-37-400-normal.woff -> /output/files/rampart-one-37-400-normal.woff.gz
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-47-400-normal.woff.br /tmp/work/files/rampart-one-47-400-normal.woff
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-46-400-normal.woff2 -> /output/files/rampart-one-46-400-normal.woff2
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-47-400-normal.woff2 -> /output/files/rampart-one-47-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-48-400-normal.woff.br /tmp/work/files/rampart-one-48-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-43-400-normal.woff -> /output/files/rampart-one-43-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-43-400-normal.woff -> /output/files/rampart-one-43-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-48-400-normal.woff2 -> /output/files/rampart-one-48-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-49-400-normal.woff.br /tmp/work/files/rampart-one-49-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-40-400-normal.woff -> /output/files/rampart-one-40-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-40-400-normal.woff -> /output/files/rampart-one-40-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-49-400-normal.woff2 -> /output/files/rampart-one-49-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-5-400-normal.woff.br /tmp/work/files/rampart-one-5-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-45-400-normal.woff -> /output/files/rampart-one-45-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-45-400-normal.woff -> /output/files/rampart-one-45-400-normal.woff.gz
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-44-400-normal.woff -> /output/files/rampart-one-44-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-44-400-normal.woff -> /output/files/rampart-one-44-400-normal.woff.gz
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-50-400-normal.woff.br /tmp/work/files/rampart-one-50-400-normal.woff
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-5-400-normal.woff2 -> /output/files/rampart-one-5-400-normal.woff2
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-50-400-normal.woff2 -> /output/files/rampart-one-50-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-51-400-normal.woff.br /tmp/work/files/rampart-one-51-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-46-400-normal.woff -> /output/files/rampart-one-46-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-46-400-normal.woff -> /output/files/rampart-one-46-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-51-400-normal.woff2 -> /output/files/rampart-one-51-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-52-400-normal.woff.br /tmp/work/files/rampart-one-52-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-41-400-normal.woff -> /output/files/rampart-one-41-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-41-400-normal.woff -> /output/files/rampart-one-41-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-52-400-normal.woff2 -> /output/files/rampart-one-52-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-53-400-normal.woff.br /tmp/work/files/rampart-one-53-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-51-400-normal.woff -> /output/files/rampart-one-51-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-51-400-normal.woff -> /output/files/rampart-one-51-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-53-400-normal.woff2 -> /output/files/rampart-one-53-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-54-400-normal.woff.br /tmp/work/files/rampart-one-54-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-47-400-normal.woff -> /output/files/rampart-one-47-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-47-400-normal.woff -> /output/files/rampart-one-47-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-54-400-normal.woff2 -> /output/files/rampart-one-54-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-55-400-normal.woff.br /tmp/work/files/rampart-one-55-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-54-400-normal.woff -> /output/files/rampart-one-54-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-54-400-normal.woff -> /output/files/rampart-one-54-400-normal.woff.gz
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-50-400-normal.woff -> /output/files/rampart-one-50-400-normal.woff.br
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-55-400-normal.woff2 -> /output/files/rampart-one-55-400-normal.woff2
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-50-400-normal.woff -> /output/files/rampart-one-50-400-normal.woff.gz
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-56-400-normal.woff.br /tmp/work/files/rampart-one-56-400-normal.woff
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-56-400-normal.woff2 -> /output/files/rampart-one-56-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-57-400-normal.woff.br /tmp/work/files/rampart-one-57-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-57-400-normal.woff -> /output/files/rampart-one-57-400-normal.woff.br
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-48-400-normal.woff -> /output/files/rampart-one-48-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-57-400-normal.woff -> /output/files/rampart-one-57-400-normal.woff.gz
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-48-400-normal.woff -> /output/files/rampart-one-48-400-normal.woff.gz
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-58-400-normal.woff.br /tmp/work/files/rampart-one-58-400-normal.woff
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-57-400-normal.woff2 -> /output/files/rampart-one-57-400-normal.woff2
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-58-400-normal.woff2 -> /output/files/rampart-one-58-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-59-400-normal.woff.br /tmp/work/files/rampart-one-59-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-55-400-normal.woff -> /output/files/rampart-one-55-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-55-400-normal.woff -> /output/files/rampart-one-55-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-59-400-normal.woff2 -> /output/files/rampart-one-59-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-6-400-normal.woff.br /tmp/work/files/rampart-one-6-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-5-400-normal.woff -> /output/files/rampart-one-5-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-5-400-normal.woff -> /output/files/rampart-one-5-400-normal.woff.gz
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-53-400-normal.woff -> /output/files/rampart-one-53-400-normal.woff.br
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-49-400-normal.woff -> /output/files/rampart-one-49-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-53-400-normal.woff -> /output/files/rampart-one-53-400-normal.woff.gz
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-49-400-normal.woff -> /output/files/rampart-one-49-400-normal.woff.gz
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-60-400-normal.woff.br /tmp/work/files/rampart-one-60-400-normal.woff
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-6-400-normal.woff2 -> /output/files/rampart-one-6-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-61-400-normal.woff.br /tmp/work/files/rampart-one-61-400-normal.woff
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-60-400-normal.woff2 -> /output/files/rampart-one-60-400-normal.woff2
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-56-400-normal.woff -> /output/files/rampart-one-56-400-normal.woff.br
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-61-400-normal.woff2 -> /output/files/rampart-one-61-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-62-400-normal.woff.br /tmp/work/files/rampart-one-62-400-normal.woff
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-56-400-normal.woff -> /output/files/rampart-one-56-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-62-400-normal.woff2 -> /output/files/rampart-one-62-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-63-400-normal.woff.br /tmp/work/files/rampart-one-63-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-52-400-normal.woff -> /output/files/rampart-one-52-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-52-400-normal.woff -> /output/files/rampart-one-52-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-63-400-normal.woff2 -> /output/files/rampart-one-63-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-64-400-normal.woff.br /tmp/work/files/rampart-one-64-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-61-400-normal.woff -> /output/files/rampart-one-61-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-61-400-normal.woff -> /output/files/rampart-one-61-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-64-400-normal.woff2 -> /output/files/rampart-one-64-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-65-400-normal.woff.br /tmp/work/files/rampart-one-65-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-58-400-normal.woff -> /output/files/rampart-one-58-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-58-400-normal.woff -> /output/files/rampart-one-58-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-65-400-normal.woff2 -> /output/files/rampart-one-65-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-66-400-normal.woff.br /tmp/work/files/rampart-one-66-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-59-400-normal.woff -> /output/files/rampart-one-59-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-59-400-normal.woff -> /output/files/rampart-one-59-400-normal.woff.gz
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-63-400-normal.woff -> /output/files/rampart-one-63-400-normal.woff.br
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-66-400-normal.woff2 -> /output/files/rampart-one-66-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-67-400-normal.woff.br /tmp/work/files/rampart-one-67-400-normal.woff
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-63-400-normal.woff -> /output/files/rampart-one-63-400-normal.woff.gz
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-60-400-normal.woff -> /output/files/rampart-one-60-400-normal.woff.br
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-62-400-normal.woff -> /output/files/rampart-one-62-400-normal.woff.br
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-67-400-normal.woff2 -> /output/files/rampart-one-67-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-68-400-normal.woff.br /tmp/work/files/rampart-one-68-400-normal.woff
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-60-400-normal.woff -> /output/files/rampart-one-60-400-normal.woff.gz
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-62-400-normal.woff -> /output/files/rampart-one-62-400-normal.woff.gz
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-69-400-normal.woff.br /tmp/work/files/rampart-one-69-400-normal.woff
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-68-400-normal.woff2 -> /output/files/rampart-one-68-400-normal.woff2
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-69-400-normal.woff2 -> /output/files/rampart-one-69-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-7-400-normal.woff.br /tmp/work/files/rampart-one-7-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-64-400-normal.woff -> /output/files/rampart-one-64-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-64-400-normal.woff -> /output/files/rampart-one-64-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-7-400-normal.woff2 -> /output/files/rampart-one-7-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-70-400-normal.woff.br /tmp/work/files/rampart-one-70-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-6-400-normal.woff -> /output/files/rampart-one-6-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-6-400-normal.woff -> /output/files/rampart-one-6-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-70-400-normal.woff2 -> /output/files/rampart-one-70-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-71-400-normal.woff.br /tmp/work/files/rampart-one-71-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-65-400-normal.woff -> /output/files/rampart-one-65-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-65-400-normal.woff -> /output/files/rampart-one-65-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-71-400-normal.woff2 -> /output/files/rampart-one-71-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-72-400-normal.woff.br /tmp/work/files/rampart-one-72-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-66-400-normal.woff -> /output/files/rampart-one-66-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-66-400-normal.woff -> /output/files/rampart-one-66-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-72-400-normal.woff2 -> /output/files/rampart-one-72-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-73-400-normal.woff.br /tmp/work/files/rampart-one-73-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-67-400-normal.woff -> /output/files/rampart-one-67-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-67-400-normal.woff -> /output/files/rampart-one-67-400-normal.woff.gz
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-69-400-normal.woff -> /output/files/rampart-one-69-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-69-400-normal.woff -> /output/files/rampart-one-69-400-normal.woff.gz
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-74-400-normal.woff.br /tmp/work/files/rampart-one-74-400-normal.woff
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-73-400-normal.woff2 -> /output/files/rampart-one-73-400-normal.woff2
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-68-400-normal.woff -> /output/files/rampart-one-68-400-normal.woff.br
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-74-400-normal.woff2 -> /output/files/rampart-one-74-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-75-400-normal.woff.br /tmp/work/files/rampart-one-75-400-normal.woff
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-68-400-normal.woff -> /output/files/rampart-one-68-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-75-400-normal.woff2 -> /output/files/rampart-one-75-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-76-400-normal.woff.br /tmp/work/files/rampart-one-76-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-70-400-normal.woff -> /output/files/rampart-one-70-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-70-400-normal.woff -> /output/files/rampart-one-70-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-76-400-normal.woff2 -> /output/files/rampart-one-76-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-77-400-normal.woff.br /tmp/work/files/rampart-one-77-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-71-400-normal.woff -> /output/files/rampart-one-71-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-71-400-normal.woff -> /output/files/rampart-one-71-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-77-400-normal.woff2 -> /output/files/rampart-one-77-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-78-400-normal.woff.br /tmp/work/files/rampart-one-78-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-75-400-normal.woff -> /output/files/rampart-one-75-400-normal.woff.br
+2023/08/04 13:34:47 gz /tmp/work/files/rampart-one-75-400-normal.woff -> /output/files/rampart-one-75-400-normal.woff.gz
+2023/08/04 13:34:47 copy /tmp/work/files/rampart-one-78-400-normal.woff2 -> /output/files/rampart-one-78-400-normal.woff2
+2023/08/04 13:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-79-400-normal.woff.br /tmp/work/files/rampart-one-79-400-normal.woff
+2023/08/04 13:34:47 br /tmp/work/files/rampart-one-72-400-normal.woff -> /output/files/rampart-one-72-400-normal.woff.br
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-74-400-normal.woff -> /output/files/rampart-one-74-400-normal.woff.br
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-73-400-normal.woff -> /output/files/rampart-one-73-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-72-400-normal.woff -> /output/files/rampart-one-72-400-normal.woff.gz
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-74-400-normal.woff -> /output/files/rampart-one-74-400-normal.woff.gz
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-73-400-normal.woff -> /output/files/rampart-one-73-400-normal.woff.gz
+2023/08/04 13:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-8-400-normal.woff.br /tmp/work/files/rampart-one-8-400-normal.woff
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-76-400-normal.woff -> /output/files/rampart-one-76-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-76-400-normal.woff -> /output/files/rampart-one-76-400-normal.woff.gz
+2023/08/04 13:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-80-400-normal.woff.br /tmp/work/files/rampart-one-80-400-normal.woff
+2023/08/04 13:34:48 copy /tmp/work/files/rampart-one-8-400-normal.woff2 -> /output/files/rampart-one-8-400-normal.woff2
+2023/08/04 13:34:48 copy /tmp/work/files/rampart-one-79-400-normal.woff2 -> /output/files/rampart-one-79-400-normal.woff2
+2023/08/04 13:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-81-400-normal.woff.br /tmp/work/files/rampart-one-81-400-normal.woff
+2023/08/04 13:34:48 copy /tmp/work/files/rampart-one-80-400-normal.woff2 -> /output/files/rampart-one-80-400-normal.woff2
+2023/08/04 13:34:48 copy /tmp/work/files/rampart-one-81-400-normal.woff2 -> /output/files/rampart-one-81-400-normal.woff2
+2023/08/04 13:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-82-400-normal.woff.br /tmp/work/files/rampart-one-82-400-normal.woff
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-77-400-normal.woff -> /output/files/rampart-one-77-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-77-400-normal.woff -> /output/files/rampart-one-77-400-normal.woff.gz
+2023/08/04 13:34:48 copy /tmp/work/files/rampart-one-82-400-normal.woff2 -> /output/files/rampart-one-82-400-normal.woff2
+2023/08/04 13:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-83-400-normal.woff.br /tmp/work/files/rampart-one-83-400-normal.woff
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-78-400-normal.woff -> /output/files/rampart-one-78-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-78-400-normal.woff -> /output/files/rampart-one-78-400-normal.woff.gz
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-81-400-normal.woff -> /output/files/rampart-one-81-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-81-400-normal.woff -> /output/files/rampart-one-81-400-normal.woff.gz
+2023/08/04 13:34:48 copy /tmp/work/files/rampart-one-83-400-normal.woff2 -> /output/files/rampart-one-83-400-normal.woff2
+2023/08/04 13:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-84-400-normal.woff.br /tmp/work/files/rampart-one-84-400-normal.woff
+2023/08/04 13:34:48 copy /tmp/work/files/rampart-one-84-400-normal.woff2 -> /output/files/rampart-one-84-400-normal.woff2
+2023/08/04 13:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-85-400-normal.woff.br /tmp/work/files/rampart-one-85-400-normal.woff
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-79-400-normal.woff -> /output/files/rampart-one-79-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-79-400-normal.woff -> /output/files/rampart-one-79-400-normal.woff.gz
+2023/08/04 13:34:48 copy /tmp/work/files/rampart-one-85-400-normal.woff2 -> /output/files/rampart-one-85-400-normal.woff2
+2023/08/04 13:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-86-400-normal.woff.br /tmp/work/files/rampart-one-86-400-normal.woff
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-7-400-normal.woff -> /output/files/rampart-one-7-400-normal.woff.br
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-80-400-normal.woff -> /output/files/rampart-one-80-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-7-400-normal.woff -> /output/files/rampart-one-7-400-normal.woff.gz
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-80-400-normal.woff -> /output/files/rampart-one-80-400-normal.woff.gz
+2023/08/04 13:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-87-400-normal.woff.br /tmp/work/files/rampart-one-87-400-normal.woff
+2023/08/04 13:34:48 copy /tmp/work/files/rampart-one-86-400-normal.woff2 -> /output/files/rampart-one-86-400-normal.woff2
+2023/08/04 13:34:48 copy /tmp/work/files/rampart-one-87-400-normal.woff2 -> /output/files/rampart-one-87-400-normal.woff2
+2023/08/04 13:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-88-400-normal.woff.br /tmp/work/files/rampart-one-88-400-normal.woff
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-82-400-normal.woff -> /output/files/rampart-one-82-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-82-400-normal.woff -> /output/files/rampart-one-82-400-normal.woff.gz
+2023/08/04 13:34:48 copy /tmp/work/files/rampart-one-88-400-normal.woff2 -> /output/files/rampart-one-88-400-normal.woff2
+2023/08/04 13:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-89-400-normal.woff.br /tmp/work/files/rampart-one-89-400-normal.woff
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-85-400-normal.woff -> /output/files/rampart-one-85-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-85-400-normal.woff -> /output/files/rampart-one-85-400-normal.woff.gz
+2023/08/04 13:34:48 copy /tmp/work/files/rampart-one-89-400-normal.woff2 -> /output/files/rampart-one-89-400-normal.woff2
+2023/08/04 13:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-9-400-normal.woff.br /tmp/work/files/rampart-one-9-400-normal.woff
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-83-400-normal.woff -> /output/files/rampart-one-83-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-83-400-normal.woff -> /output/files/rampart-one-83-400-normal.woff.gz
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-84-400-normal.woff -> /output/files/rampart-one-84-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-84-400-normal.woff -> /output/files/rampart-one-84-400-normal.woff.gz
+2023/08/04 13:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-90-400-normal.woff.br /tmp/work/files/rampart-one-90-400-normal.woff
+2023/08/04 13:34:48 copy /tmp/work/files/rampart-one-9-400-normal.woff2 -> /output/files/rampart-one-9-400-normal.woff2
+2023/08/04 13:34:48 copy /tmp/work/files/rampart-one-90-400-normal.woff2 -> /output/files/rampart-one-90-400-normal.woff2
+2023/08/04 13:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-91-400-normal.woff.br /tmp/work/files/rampart-one-91-400-normal.woff
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-87-400-normal.woff -> /output/files/rampart-one-87-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-87-400-normal.woff -> /output/files/rampart-one-87-400-normal.woff.gz
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-86-400-normal.woff -> /output/files/rampart-one-86-400-normal.woff.br
+2023/08/04 13:34:48 copy /tmp/work/files/rampart-one-91-400-normal.woff2 -> /output/files/rampart-one-91-400-normal.woff2
+2023/08/04 13:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-92-400-normal.woff.br /tmp/work/files/rampart-one-92-400-normal.woff
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-86-400-normal.woff -> /output/files/rampart-one-86-400-normal.woff.gz
+2023/08/04 13:34:48 copy /tmp/work/files/rampart-one-92-400-normal.woff2 -> /output/files/rampart-one-92-400-normal.woff2
+2023/08/04 13:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-93-400-normal.woff.br /tmp/work/files/rampart-one-93-400-normal.woff
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-88-400-normal.woff -> /output/files/rampart-one-88-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-88-400-normal.woff -> /output/files/rampart-one-88-400-normal.woff.gz
+2023/08/04 13:34:48 copy /tmp/work/files/rampart-one-93-400-normal.woff2 -> /output/files/rampart-one-93-400-normal.woff2
+2023/08/04 13:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-94-400-normal.woff.br /tmp/work/files/rampart-one-94-400-normal.woff
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-89-400-normal.woff -> /output/files/rampart-one-89-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-89-400-normal.woff -> /output/files/rampart-one-89-400-normal.woff.gz
+2023/08/04 13:34:48 copy /tmp/work/files/rampart-one-94-400-normal.woff2 -> /output/files/rampart-one-94-400-normal.woff2
+2023/08/04 13:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-95-400-normal.woff.br /tmp/work/files/rampart-one-95-400-normal.woff
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-91-400-normal.woff -> /output/files/rampart-one-91-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-91-400-normal.woff -> /output/files/rampart-one-91-400-normal.woff.gz
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-8-400-normal.woff -> /output/files/rampart-one-8-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-8-400-normal.woff -> /output/files/rampart-one-8-400-normal.woff.gz
+2023/08/04 13:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-96-400-normal.woff.br /tmp/work/files/rampart-one-96-400-normal.woff
+2023/08/04 13:34:48 copy /tmp/work/files/rampart-one-95-400-normal.woff2 -> /output/files/rampart-one-95-400-normal.woff2
+2023/08/04 13:34:48 copy /tmp/work/files/rampart-one-96-400-normal.woff2 -> /output/files/rampart-one-96-400-normal.woff2
+2023/08/04 13:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-97-400-normal.woff.br /tmp/work/files/rampart-one-97-400-normal.woff
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-90-400-normal.woff -> /output/files/rampart-one-90-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-90-400-normal.woff -> /output/files/rampart-one-90-400-normal.woff.gz
+2023/08/04 13:34:48 copy /tmp/work/files/rampart-one-97-400-normal.woff2 -> /output/files/rampart-one-97-400-normal.woff2
+2023/08/04 13:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-98-400-normal.woff.br /tmp/work/files/rampart-one-98-400-normal.woff
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-92-400-normal.woff -> /output/files/rampart-one-92-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-92-400-normal.woff -> /output/files/rampart-one-92-400-normal.woff.gz
+2023/08/04 13:34:48 copy /tmp/work/files/rampart-one-98-400-normal.woff2 -> /output/files/rampart-one-98-400-normal.woff2
+2023/08/04 13:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-99-400-normal.woff.br /tmp/work/files/rampart-one-99-400-normal.woff
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-93-400-normal.woff -> /output/files/rampart-one-93-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-93-400-normal.woff -> /output/files/rampart-one-93-400-normal.woff.gz
+2023/08/04 13:34:48 copy /tmp/work/files/rampart-one-99-400-normal.woff2 -> /output/files/rampart-one-99-400-normal.woff2
+2023/08/04 13:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-cyrillic-400-normal.woff.br /tmp/work/files/rampart-one-cyrillic-400-normal.woff
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-95-400-normal.woff -> /output/files/rampart-one-95-400-normal.woff.br
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-94-400-normal.woff -> /output/files/rampart-one-94-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-95-400-normal.woff -> /output/files/rampart-one-95-400-normal.woff.gz
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-94-400-normal.woff -> /output/files/rampart-one-94-400-normal.woff.gz
+2023/08/04 13:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-japanese-400-normal.woff.br /tmp/work/files/rampart-one-japanese-400-normal.woff
+2023/08/04 13:34:48 copy /tmp/work/files/rampart-one-cyrillic-400-normal.woff2 -> /output/files/rampart-one-cyrillic-400-normal.woff2
+2023/08/04 13:34:48 copy /tmp/work/files/rampart-one-japanese-400-normal.woff2 -> /output/files/rampart-one-japanese-400-normal.woff2
+2023/08/04 13:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-latin-400-normal.woff.br /tmp/work/files/rampart-one-latin-400-normal.woff
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-9-400-normal.woff -> /output/files/rampart-one-9-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-9-400-normal.woff -> /output/files/rampart-one-9-400-normal.woff.gz
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-97-400-normal.woff -> /output/files/rampart-one-97-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-97-400-normal.woff -> /output/files/rampart-one-97-400-normal.woff.gz
+2023/08/04 13:34:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/rampart-one-latin-ext-400-normal.woff.br /tmp/work/files/rampart-one-latin-ext-400-normal.woff
+2023/08/04 13:34:48 copy /tmp/work/files/rampart-one-latin-400-normal.woff2 -> /output/files/rampart-one-latin-400-normal.woff2
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-96-400-normal.woff -> /output/files/rampart-one-96-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-96-400-normal.woff -> /output/files/rampart-one-96-400-normal.woff.gz
+2023/08/04 13:34:48 copy /tmp/work/files/rampart-one-latin-ext-400-normal.woff2 -> /output/files/rampart-one-latin-ext-400-normal.woff2
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-98-400-normal.woff -> /output/files/rampart-one-98-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-98-400-normal.woff -> /output/files/rampart-one-98-400-normal.woff.gz
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-99-400-normal.woff -> /output/files/rampart-one-99-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-99-400-normal.woff -> /output/files/rampart-one-99-400-normal.woff.gz
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-latin-ext-400-normal.woff -> /output/files/rampart-one-latin-ext-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-latin-ext-400-normal.woff -> /output/files/rampart-one-latin-ext-400-normal.woff.gz
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-latin-400-normal.woff -> /output/files/rampart-one-latin-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-latin-400-normal.woff -> /output/files/rampart-one-latin-400-normal.woff.gz
+2023/08/04 13:34:48 br /tmp/work/files/rampart-one-cyrillic-400-normal.woff -> /output/files/rampart-one-cyrillic-400-normal.woff.br
+2023/08/04 13:34:48 gz /tmp/work/files/rampart-one-cyrillic-400-normal.woff -> /output/files/rampart-one-cyrillic-400-normal.woff.gz
+2023/08/04 13:34:50 br /tmp/work/files/rampart-one-japanese-400-normal.woff -> /output/files/rampart-one-japanese-400-normal.woff.br
+2023/08/04 13:34:50 gz /tmp/work/files/rampart-one-japanese-400-normal.woff -> /output/files/rampart-one-japanese-400-normal.woff.gz
+2023/08/04 13:34:50 processed fontsource-rampart-one
