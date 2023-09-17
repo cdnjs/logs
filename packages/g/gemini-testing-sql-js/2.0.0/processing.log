@@ -1,0 +1,14 @@
+2023/09/17 18:00:39 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/09/17 18:00:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/sql-wasm.min.js /tmp/work/dist/sql-wasm.js
+2023/09/17 18:00:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sql-wasm.wasm.br /tmp/work/dist/sql-wasm.wasm
+2023/09/17 18:00:40 sri /tmp/work/dist/sql-wasm.min.js -> /output/sql-wasm.min.js.sri
+2023/09/17 18:00:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sql-wasm.min.js.br /tmp/work/dist/sql-wasm.min.js
+2023/09/17 18:00:40 br /tmp/work/dist/sql-wasm.min.js -> /output/sql-wasm.min.js.br
+2023/09/17 18:00:40 gz /tmp/work/dist/sql-wasm.min.js -> /output/sql-wasm.min.js.gz
+2023/09/17 18:00:40 sri /tmp/work/dist/sql-wasm.js -> /output/sql-wasm.js.sri
+2023/09/17 18:00:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sql-wasm.js.br /tmp/work/dist/sql-wasm.js
+2023/09/17 18:00:41 br /tmp/work/dist/sql-wasm.js -> /output/sql-wasm.js.br
+2023/09/17 18:00:41 gz /tmp/work/dist/sql-wasm.js -> /output/sql-wasm.js.gz
+2023/09/17 18:00:41 br /tmp/work/dist/sql-wasm.wasm -> /output/sql-wasm.wasm.br
+2023/09/17 18:00:41 gz /tmp/work/dist/sql-wasm.wasm -> /output/sql-wasm.wasm.gz
+2023/09/17 18:00:41 processed gemini-testing-sql-js
