@@ -1,0 +1,107 @@
+2023/10/12 19:38:49 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/10/12 19:38:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/codex-search.min.js /tmp/work/dist/codex-search.js
+2023/10/12 19:38:50 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/codex-search.style-legacy.min.css /tmp/work/dist/codex-search.style-legacy.css
+2023/10/12 19:38:50 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/codex-search.style-legacy-rtl.min.css /tmp/work/dist/codex-search.style-legacy-rtl.css
+2023/10/12 19:38:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codex-search.mjs.br /tmp/work/dist/codex-search.mjs
+2023/10/12 19:38:50 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/codex-search.style-rtl.min.css /tmp/work/dist/codex-search.style-rtl.css
+2023/10/12 19:38:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codex.mjs.br /tmp/work/dist/codex.mjs
+2023/10/12 19:38:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/codex.min.js /tmp/work/dist/codex.js
+2023/10/12 19:38:50 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/codex-search.style.min.css /tmp/work/dist/codex-search.style.css
+2023/10/12 19:38:50 br /tmp/work/dist/codex-search.mjs -> /output/codex-search.mjs.br
+2023/10/12 19:38:50 gz /tmp/work/dist/codex-search.mjs -> /output/codex-search.mjs.gz
+2023/10/12 19:38:50 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/codex.style-legacy-rtl.min.css /tmp/work/dist/codex.style-legacy-rtl.css
+2023/10/12 19:38:50 sri /tmp/work/dist/codex-search.style-legacy-rtl.min.css -> /output/codex-search.style-legacy-rtl.min.css.sri
+2023/10/12 19:38:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codex-search.style-legacy-rtl.min.css.br /tmp/work/dist/codex-search.style-legacy-rtl.min.css
+2023/10/12 19:38:50 sri /tmp/work/dist/codex-search.style-rtl.min.css -> /output/codex-search.style-rtl.min.css.sri
+2023/10/12 19:38:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codex-search.style-rtl.min.css.br /tmp/work/dist/codex-search.style-rtl.min.css
+2023/10/12 19:38:50 sri /tmp/work/dist/codex-search.style.min.css -> /output/codex-search.style.min.css.sri
+2023/10/12 19:38:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codex-search.style.min.css.br /tmp/work/dist/codex-search.style.min.css
+2023/10/12 19:38:50 br /tmp/work/dist/codex.mjs -> /output/codex.mjs.br
+2023/10/12 19:38:50 sri /tmp/work/dist/codex-search.style-legacy.min.css -> /output/codex-search.style-legacy.min.css.sri
+2023/10/12 19:38:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codex-search.style-legacy.min.css.br /tmp/work/dist/codex-search.style-legacy.min.css
+2023/10/12 19:38:50 gz /tmp/work/dist/codex.mjs -> /output/codex.mjs.gz
+2023/10/12 19:38:50 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/codex.style-legacy.min.css /tmp/work/dist/codex.style-legacy.css
+2023/10/12 19:38:50 br /tmp/work/dist/codex-search.style-legacy-rtl.min.css -> /output/codex-search.style-legacy-rtl.min.css.br
+2023/10/12 19:38:50 gz /tmp/work/dist/codex-search.style-legacy-rtl.min.css -> /output/codex-search.style-legacy-rtl.min.css.gz
+2023/10/12 19:38:50 sri /tmp/work/dist/codex-search.style-legacy-rtl.css -> /output/codex-search.style-legacy-rtl.css.sri
+2023/10/12 19:38:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codex-search.style-legacy-rtl.css.br /tmp/work/dist/codex-search.style-legacy-rtl.css
+2023/10/12 19:38:50 br /tmp/work/dist/codex-search.style-rtl.min.css -> /output/codex-search.style-rtl.min.css.br
+2023/10/12 19:38:50 br /tmp/work/dist/codex-search.style-legacy.min.css -> /output/codex-search.style-legacy.min.css.br
+2023/10/12 19:38:50 gz /tmp/work/dist/codex-search.style-rtl.min.css -> /output/codex-search.style-rtl.min.css.gz
+2023/10/12 19:38:50 sri /tmp/work/dist/codex-search.style-rtl.css -> /output/codex-search.style-rtl.css.sri
+2023/10/12 19:38:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codex-search.style-rtl.css.br /tmp/work/dist/codex-search.style-rtl.css
+2023/10/12 19:38:50 gz /tmp/work/dist/codex-search.style-legacy.min.css -> /output/codex-search.style-legacy.min.css.gz
+2023/10/12 19:38:50 br /tmp/work/dist/codex-search.style.min.css -> /output/codex-search.style.min.css.br
+2023/10/12 19:38:50 sri /tmp/work/dist/codex-search.style-legacy.css -> /output/codex-search.style-legacy.css.sri
+2023/10/12 19:38:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codex-search.style-legacy.css.br /tmp/work/dist/codex-search.style-legacy.css
+2023/10/12 19:38:50 gz /tmp/work/dist/codex-search.style.min.css -> /output/codex-search.style.min.css.gz
+2023/10/12 19:38:50 sri /tmp/work/dist/codex-search.style.css -> /output/codex-search.style.css.sri
+2023/10/12 19:38:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codex-search.style.css.br /tmp/work/dist/codex-search.style.css
+2023/10/12 19:38:50 br /tmp/work/dist/codex-search.style-legacy-rtl.css -> /output/codex-search.style-legacy-rtl.css.br
+2023/10/12 19:38:50 gz /tmp/work/dist/codex-search.style-legacy-rtl.css -> /output/codex-search.style-legacy-rtl.css.gz
+2023/10/12 19:38:50 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/codex.style-rtl.min.css /tmp/work/dist/codex.style-rtl.css
+2023/10/12 19:38:50 br /tmp/work/dist/codex-search.style-legacy.css -> /output/codex-search.style-legacy.css.br
+2023/10/12 19:38:50 gz /tmp/work/dist/codex-search.style-legacy.css -> /output/codex-search.style-legacy.css.gz
+2023/10/12 19:38:50 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/dist/codex.style.min.css /tmp/work/dist/codex.style.css
+2023/10/12 19:38:50 br /tmp/work/dist/codex-search.style-rtl.css -> /output/codex-search.style-rtl.css.br
+2023/10/12 19:38:50 gz /tmp/work/dist/codex-search.style-rtl.css -> /output/codex-search.style-rtl.css.gz
+2023/10/12 19:38:50 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/codex.umd.min.js /tmp/work/dist/codex.umd.js
+2023/10/12 19:38:50 br /tmp/work/dist/codex-search.style.css -> /output/codex-search.style.css.br
+2023/10/12 19:38:50 gz /tmp/work/dist/codex-search.style.css -> /output/codex-search.style.css.gz
+2023/10/12 19:38:50 sri /tmp/work/dist/codex.style-legacy-rtl.min.css -> /output/codex.style-legacy-rtl.min.css.sri
+2023/10/12 19:38:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codex.style-legacy-rtl.min.css.br /tmp/work/dist/codex.style-legacy-rtl.min.css
+2023/10/12 19:38:51 br /tmp/work/dist/codex.style-legacy-rtl.min.css -> /output/codex.style-legacy-rtl.min.css.br
+2023/10/12 19:38:51 gz /tmp/work/dist/codex.style-legacy-rtl.min.css -> /output/codex.style-legacy-rtl.min.css.gz
+2023/10/12 19:38:51 sri /tmp/work/dist/codex.style-legacy-rtl.css -> /output/codex.style-legacy-rtl.css.sri
+2023/10/12 19:38:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codex.style-legacy-rtl.css.br /tmp/work/dist/codex.style-legacy-rtl.css
+2023/10/12 19:38:51 br /tmp/work/dist/codex.style-legacy-rtl.css -> /output/codex.style-legacy-rtl.css.br
+2023/10/12 19:38:51 gz /tmp/work/dist/codex.style-legacy-rtl.css -> /output/codex.style-legacy-rtl.css.gz
+2023/10/12 19:38:51 sri /tmp/work/dist/codex.style-legacy.min.css -> /output/codex.style-legacy.min.css.sri
+2023/10/12 19:38:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codex.style-legacy.min.css.br /tmp/work/dist/codex.style-legacy.min.css
+2023/10/12 19:38:51 sri /tmp/work/dist/codex.style-rtl.min.css -> /output/codex.style-rtl.min.css.sri
+2023/10/12 19:38:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codex.style-rtl.min.css.br /tmp/work/dist/codex.style-rtl.min.css
+2023/10/12 19:38:51 sri /tmp/work/dist/codex.style.min.css -> /output/codex.style.min.css.sri
+2023/10/12 19:38:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codex.style.min.css.br /tmp/work/dist/codex.style.min.css
+2023/10/12 19:38:51 br /tmp/work/dist/codex.style-legacy.min.css -> /output/codex.style-legacy.min.css.br
+2023/10/12 19:38:51 gz /tmp/work/dist/codex.style-legacy.min.css -> /output/codex.style-legacy.min.css.gz
+2023/10/12 19:38:51 sri /tmp/work/dist/codex.style-legacy.css -> /output/codex.style-legacy.css.sri
+2023/10/12 19:38:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codex.style-legacy.css.br /tmp/work/dist/codex.style-legacy.css
+2023/10/12 19:38:51 br /tmp/work/dist/codex.style-rtl.min.css -> /output/codex.style-rtl.min.css.br
+2023/10/12 19:38:51 sri /tmp/work/dist/codex-search.min.js -> /output/codex-search.min.js.sri
+2023/10/12 19:38:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codex-search.min.js.br /tmp/work/dist/codex-search.min.js
+2023/10/12 19:38:51 gz /tmp/work/dist/codex.style-rtl.min.css -> /output/codex.style-rtl.min.css.gz
+2023/10/12 19:38:51 sri /tmp/work/dist/codex.style-rtl.css -> /output/codex.style-rtl.css.sri
+2023/10/12 19:38:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codex.style-rtl.css.br /tmp/work/dist/codex.style-rtl.css
+2023/10/12 19:38:51 br /tmp/work/dist/codex.style.min.css -> /output/codex.style.min.css.br
+2023/10/12 19:38:51 gz /tmp/work/dist/codex.style.min.css -> /output/codex.style.min.css.gz
+2023/10/12 19:38:51 sri /tmp/work/dist/codex.style.css -> /output/codex.style.css.sri
+2023/10/12 19:38:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codex.style.css.br /tmp/work/dist/codex.style.css
+2023/10/12 19:38:51 br /tmp/work/dist/codex-search.min.js -> /output/codex-search.min.js.br
+2023/10/12 19:38:51 gz /tmp/work/dist/codex-search.min.js -> /output/codex-search.min.js.gz
+2023/10/12 19:38:51 sri /tmp/work/dist/codex-search.js -> /output/codex-search.js.sri
+2023/10/12 19:38:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codex-search.js.br /tmp/work/dist/codex-search.js
+2023/10/12 19:38:51 br /tmp/work/dist/codex.style-legacy.css -> /output/codex.style-legacy.css.br
+2023/10/12 19:38:51 gz /tmp/work/dist/codex.style-legacy.css -> /output/codex.style-legacy.css.gz
+2023/10/12 19:38:51 br /tmp/work/dist/codex-search.js -> /output/codex-search.js.br
+2023/10/12 19:38:51 gz /tmp/work/dist/codex-search.js -> /output/codex-search.js.gz
+2023/10/12 19:38:51 br /tmp/work/dist/codex.style-rtl.css -> /output/codex.style-rtl.css.br
+2023/10/12 19:38:51 gz /tmp/work/dist/codex.style-rtl.css -> /output/codex.style-rtl.css.gz
+2023/10/12 19:38:51 br /tmp/work/dist/codex.style.css -> /output/codex.style.css.br
+2023/10/12 19:38:51 gz /tmp/work/dist/codex.style.css -> /output/codex.style.css.gz
+2023/10/12 19:38:52 sri /tmp/work/dist/codex.min.js -> /output/codex.min.js.sri
+2023/10/12 19:38:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codex.min.js.br /tmp/work/dist/codex.min.js
+2023/10/12 19:38:52 br /tmp/work/dist/codex.min.js -> /output/codex.min.js.br
+2023/10/12 19:38:52 gz /tmp/work/dist/codex.min.js -> /output/codex.min.js.gz
+2023/10/12 19:38:52 sri /tmp/work/dist/codex.js -> /output/codex.js.sri
+2023/10/12 19:38:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codex.js.br /tmp/work/dist/codex.js
+2023/10/12 19:38:52 br /tmp/work/dist/codex.js -> /output/codex.js.br
+2023/10/12 19:38:52 gz /tmp/work/dist/codex.js -> /output/codex.js.gz
+2023/10/12 19:38:53 sri /tmp/work/dist/codex.umd.min.js -> /output/codex.umd.min.js.sri
+2023/10/12 19:38:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codex.umd.min.js.br /tmp/work/dist/codex.umd.min.js
+2023/10/12 19:38:53 br /tmp/work/dist/codex.umd.min.js -> /output/codex.umd.min.js.br
+2023/10/12 19:38:53 gz /tmp/work/dist/codex.umd.min.js -> /output/codex.umd.min.js.gz
+2023/10/12 19:38:53 sri /tmp/work/dist/codex.umd.js -> /output/codex.umd.js.sri
+2023/10/12 19:38:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codex.umd.js.br /tmp/work/dist/codex.umd.js
+2023/10/12 19:38:53 br /tmp/work/dist/codex.umd.js -> /output/codex.umd.js.br
+2023/10/12 19:38:53 gz /tmp/work/dist/codex.umd.js -> /output/codex.umd.js.gz
+2023/10/12 19:38:53 processed codex
