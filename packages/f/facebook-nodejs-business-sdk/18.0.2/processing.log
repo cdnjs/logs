@@ -1,0 +1,74 @@
+2023/10/16 12:33:35 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/10/16 12:33:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/amd.min.js /tmp/work/dist/amd.js
+2023/10/16 12:33:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/cjs.min.js /tmp/work/dist/cjs.js
+2023/10/16 12:33:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/es.min.js /tmp/work/dist/es.js
+2023/10/16 12:33:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/globals.js.map.br /tmp/work/dist/globals.js.map
+2023/10/16 12:33:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs.js.map.br /tmp/work/dist/cjs.js.map
+2023/10/16 12:33:35 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/globals.min.js /tmp/work/dist/globals.js
+2023/10/16 12:33:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/amd.js.map.br /tmp/work/dist/amd.js.map
+2023/10/16 12:33:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/es.js.map.br /tmp/work/dist/es.js.map
+2023/10/16 12:33:38 br /tmp/work/dist/globals.js.map -> /output/globals.js.map.br
+2023/10/16 12:33:38 gz /tmp/work/dist/globals.js.map -> /output/globals.js.map.gz
+2023/10/16 12:33:38 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/iife.min.js /tmp/work/dist/iife.js
+2023/10/16 12:33:40 br /tmp/work/dist/amd.js.map -> /output/amd.js.map.br
+2023/10/16 12:33:40 br /tmp/work/dist/es.js.map -> /output/es.js.map.br
+2023/10/16 12:33:40 br /tmp/work/dist/cjs.js.map -> /output/cjs.js.map.br
+2023/10/16 12:33:40 gz /tmp/work/dist/es.js.map -> /output/es.js.map.gz
+2023/10/16 12:33:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/iife.js.map.br /tmp/work/dist/iife.js.map
+2023/10/16 12:33:40 gz /tmp/work/dist/cjs.js.map -> /output/cjs.js.map.gz
+2023/10/16 12:33:40 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/umd.min.js /tmp/work/dist/umd.js
+2023/10/16 12:33:40 gz /tmp/work/dist/amd.js.map -> /output/amd.js.map.gz
+2023/10/16 12:33:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd.js.map.br /tmp/work/dist/umd.js.map
+2023/10/16 12:33:45 sri /tmp/work/dist/globals.min.js -> /output/globals.min.js.sri
+2023/10/16 12:33:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/globals.min.js.br /tmp/work/dist/globals.min.js
+2023/10/16 12:33:45 br /tmp/work/dist/umd.js.map -> /output/umd.js.map.br
+2023/10/16 12:33:45 gz /tmp/work/dist/umd.js.map -> /output/umd.js.map.gz
+2023/10/16 12:33:45 br /tmp/work/dist/iife.js.map -> /output/iife.js.map.br
+2023/10/16 12:33:46 gz /tmp/work/dist/iife.js.map -> /output/iife.js.map.gz
+2023/10/16 12:33:46 sri /tmp/work/dist/cjs.min.js -> /output/cjs.min.js.sri
+2023/10/16 12:33:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs.min.js.br /tmp/work/dist/cjs.min.js
+2023/10/16 12:33:46 sri /tmp/work/dist/es.min.js -> /output/es.min.js.sri
+2023/10/16 12:33:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/es.min.js.br /tmp/work/dist/es.min.js
+2023/10/16 12:33:47 br /tmp/work/dist/globals.min.js -> /output/globals.min.js.br
+2023/10/16 12:33:47 gz /tmp/work/dist/globals.min.js -> /output/globals.min.js.gz
+2023/10/16 12:33:47 sri /tmp/work/dist/globals.js -> /output/globals.js.sri
+2023/10/16 12:33:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/globals.js.br /tmp/work/dist/globals.js
+2023/10/16 12:33:48 sri /tmp/work/dist/amd.min.js -> /output/amd.min.js.sri
+2023/10/16 12:33:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/amd.min.js.br /tmp/work/dist/amd.min.js
+2023/10/16 12:33:48 br /tmp/work/dist/cjs.min.js -> /output/cjs.min.js.br
+2023/10/16 12:33:48 gz /tmp/work/dist/cjs.min.js -> /output/cjs.min.js.gz
+2023/10/16 12:33:48 sri /tmp/work/dist/cjs.js -> /output/cjs.js.sri
+2023/10/16 12:33:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs.js.br /tmp/work/dist/cjs.js
+2023/10/16 12:33:48 br /tmp/work/dist/es.min.js -> /output/es.min.js.br
+2023/10/16 12:33:48 gz /tmp/work/dist/es.min.js -> /output/es.min.js.gz
+2023/10/16 12:33:48 sri /tmp/work/dist/es.js -> /output/es.js.sri
+2023/10/16 12:33:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/es.js.br /tmp/work/dist/es.js
+2023/10/16 12:33:49 br /tmp/work/dist/globals.js -> /output/globals.js.br
+2023/10/16 12:33:50 gz /tmp/work/dist/globals.js -> /output/globals.js.gz
+2023/10/16 12:33:50 br /tmp/work/dist/amd.min.js -> /output/amd.min.js.br
+2023/10/16 12:33:50 gz /tmp/work/dist/amd.min.js -> /output/amd.min.js.gz
+2023/10/16 12:33:50 sri /tmp/work/dist/amd.js -> /output/amd.js.sri
+2023/10/16 12:33:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/amd.js.br /tmp/work/dist/amd.js
+2023/10/16 12:33:50 sri /tmp/work/dist/iife.min.js -> /output/iife.min.js.sri
+2023/10/16 12:33:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/iife.min.js.br /tmp/work/dist/iife.min.js
+2023/10/16 12:33:51 sri /tmp/work/dist/umd.min.js -> /output/umd.min.js.sri
+2023/10/16 12:33:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd.min.js.br /tmp/work/dist/umd.min.js
+2023/10/16 12:33:52 br /tmp/work/dist/cjs.js -> /output/cjs.js.br
+2023/10/16 12:33:52 gz /tmp/work/dist/cjs.js -> /output/cjs.js.gz
+2023/10/16 12:33:52 br /tmp/work/dist/es.js -> /output/es.js.br
+2023/10/16 12:33:52 gz /tmp/work/dist/es.js -> /output/es.js.gz
+2023/10/16 12:33:52 br /tmp/work/dist/iife.min.js -> /output/iife.min.js.br
+2023/10/16 12:33:52 gz /tmp/work/dist/iife.min.js -> /output/iife.min.js.gz
+2023/10/16 12:33:52 sri /tmp/work/dist/iife.js -> /output/iife.js.sri
+2023/10/16 12:33:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/iife.js.br /tmp/work/dist/iife.js
+2023/10/16 12:33:53 br /tmp/work/dist/umd.min.js -> /output/umd.min.js.br
+2023/10/16 12:33:53 gz /tmp/work/dist/umd.min.js -> /output/umd.min.js.gz
+2023/10/16 12:33:53 sri /tmp/work/dist/umd.js -> /output/umd.js.sri
+2023/10/16 12:33:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd.js.br /tmp/work/dist/umd.js
+2023/10/16 12:33:53 br /tmp/work/dist/amd.js -> /output/amd.js.br
+2023/10/16 12:33:53 gz /tmp/work/dist/amd.js -> /output/amd.js.gz
+2023/10/16 12:33:54 br /tmp/work/dist/iife.js -> /output/iife.js.br
+2023/10/16 12:33:54 gz /tmp/work/dist/iife.js -> /output/iife.js.gz
+2023/10/16 12:33:55 br /tmp/work/dist/umd.js -> /output/umd.js.br
+2023/10/16 12:33:55 gz /tmp/work/dist/umd.js -> /output/umd.js.gz
+2023/10/16 12:33:55 processed facebook-nodejs-business-sdk
