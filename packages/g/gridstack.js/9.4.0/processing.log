@@ -1,0 +1,185 @@
+2023/10/16 00:30:54 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/10/16 00:30:54 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dd-base-impl.min.js /tmp/work/dist/dd-base-impl.js
+2023/10/16 00:30:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dd-base-impl.d.ts.br /tmp/work/dist/dd-base-impl.d.ts
+2023/10/16 00:30:54 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dd-draggable.min.js /tmp/work/dist/dd-draggable.js
+2023/10/16 00:30:54 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dd-droppable.min.js /tmp/work/dist/dd-droppable.js
+2023/10/16 00:30:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dd-draggable.d.ts.br /tmp/work/dist/dd-draggable.d.ts
+2023/10/16 00:30:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dd-element.d.ts.br /tmp/work/dist/dd-element.d.ts
+2023/10/16 00:30:54 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dd-element.min.js /tmp/work/dist/dd-element.js
+2023/10/16 00:30:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dd-droppable.d.ts.br /tmp/work/dist/dd-droppable.d.ts
+2023/10/16 00:30:54 br /tmp/work/dist/dd-base-impl.d.ts -> /output/dd-base-impl.d.ts.br
+2023/10/16 00:30:54 br /tmp/work/dist/dd-draggable.d.ts -> /output/dd-draggable.d.ts.br
+2023/10/16 00:30:54 br /tmp/work/dist/dd-element.d.ts -> /output/dd-element.d.ts.br
+2023/10/16 00:30:54 br /tmp/work/dist/dd-droppable.d.ts -> /output/dd-droppable.d.ts.br
+2023/10/16 00:30:54 gz /tmp/work/dist/dd-base-impl.d.ts -> /output/dd-base-impl.d.ts.gz
+2023/10/16 00:30:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dd-gridstack.d.ts.br /tmp/work/dist/dd-gridstack.d.ts
+2023/10/16 00:30:54 gz /tmp/work/dist/dd-draggable.d.ts -> /output/dd-draggable.d.ts.gz
+2023/10/16 00:30:54 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dd-gridstack.min.js /tmp/work/dist/dd-gridstack.js
+2023/10/16 00:30:54 gz /tmp/work/dist/dd-element.d.ts -> /output/dd-element.d.ts.gz
+2023/10/16 00:30:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dd-manager.d.ts.br /tmp/work/dist/dd-manager.d.ts
+2023/10/16 00:30:54 gz /tmp/work/dist/dd-droppable.d.ts -> /output/dd-droppable.d.ts.gz
+2023/10/16 00:30:54 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dd-manager.min.js /tmp/work/dist/dd-manager.js
+2023/10/16 00:30:54 br /tmp/work/dist/dd-gridstack.d.ts -> /output/dd-gridstack.d.ts.br
+2023/10/16 00:30:54 gz /tmp/work/dist/dd-gridstack.d.ts -> /output/dd-gridstack.d.ts.gz
+2023/10/16 00:30:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dd-resizable-handle.d.ts.br /tmp/work/dist/dd-resizable-handle.d.ts
+2023/10/16 00:30:54 br /tmp/work/dist/dd-manager.d.ts -> /output/dd-manager.d.ts.br
+2023/10/16 00:30:54 gz /tmp/work/dist/dd-manager.d.ts -> /output/dd-manager.d.ts.gz
+2023/10/16 00:30:54 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dd-resizable-handle.min.js /tmp/work/dist/dd-resizable-handle.js
+2023/10/16 00:30:54 br /tmp/work/dist/dd-resizable-handle.d.ts -> /output/dd-resizable-handle.d.ts.br
+2023/10/16 00:30:54 gz /tmp/work/dist/dd-resizable-handle.d.ts -> /output/dd-resizable-handle.d.ts.gz
+2023/10/16 00:30:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dd-resizable.d.ts.br /tmp/work/dist/dd-resizable.d.ts
+2023/10/16 00:30:54 br /tmp/work/dist/dd-resizable.d.ts -> /output/dd-resizable.d.ts.br
+2023/10/16 00:30:54 gz /tmp/work/dist/dd-resizable.d.ts -> /output/dd-resizable.d.ts.gz
+2023/10/16 00:30:54 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dd-resizable.min.js /tmp/work/dist/dd-resizable.js
+2023/10/16 00:30:54 sri /tmp/work/dist/dd-manager.min.js -> /output/dd-manager.min.js.sri
+2023/10/16 00:30:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dd-manager.min.js.br /tmp/work/dist/dd-manager.min.js
+2023/10/16 00:30:54 br /tmp/work/dist/dd-manager.min.js -> /output/dd-manager.min.js.br
+2023/10/16 00:30:54 gz /tmp/work/dist/dd-manager.min.js -> /output/dd-manager.min.js.gz
+2023/10/16 00:30:54 sri /tmp/work/dist/dd-manager.js -> /output/dd-manager.js.sri
+2023/10/16 00:30:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dd-manager.js.br /tmp/work/dist/dd-manager.js
+2023/10/16 00:30:54 br /tmp/work/dist/dd-manager.js -> /output/dd-manager.js.br
+2023/10/16 00:30:54 gz /tmp/work/dist/dd-manager.js -> /output/dd-manager.js.gz
+2023/10/16 00:30:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dd-touch.d.ts.br /tmp/work/dist/dd-touch.d.ts
+2023/10/16 00:30:54 br /tmp/work/dist/dd-touch.d.ts -> /output/dd-touch.d.ts.br
+2023/10/16 00:30:54 gz /tmp/work/dist/dd-touch.d.ts -> /output/dd-touch.d.ts.gz
+2023/10/16 00:30:54 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/dd-touch.min.js /tmp/work/dist/dd-touch.js
+2023/10/16 00:30:54 sri /tmp/work/dist/dd-base-impl.min.js -> /output/dd-base-impl.min.js.sri
+2023/10/16 00:30:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dd-base-impl.min.js.br /tmp/work/dist/dd-base-impl.min.js
+2023/10/16 00:30:54 br /tmp/work/dist/dd-base-impl.min.js -> /output/dd-base-impl.min.js.br
+2023/10/16 00:30:54 gz /tmp/work/dist/dd-base-impl.min.js -> /output/dd-base-impl.min.js.gz
+2023/10/16 00:30:54 sri /tmp/work/dist/dd-base-impl.js -> /output/dd-base-impl.js.sri
+2023/10/16 00:30:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dd-base-impl.js.br /tmp/work/dist/dd-base-impl.js
+2023/10/16 00:30:54 br /tmp/work/dist/dd-base-impl.js -> /output/dd-base-impl.js.br
+2023/10/16 00:30:54 gz /tmp/work/dist/dd-base-impl.js -> /output/dd-base-impl.js.gz
+2023/10/16 00:30:54 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/gridstack-all.min.js /tmp/work/dist/gridstack-all.js
+2023/10/16 00:30:54 sri /tmp/work/dist/dd-element.min.js -> /output/dd-element.min.js.sri
+2023/10/16 00:30:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dd-element.min.js.br /tmp/work/dist/dd-element.min.js
+2023/10/16 00:30:54 br /tmp/work/dist/dd-element.min.js -> /output/dd-element.min.js.br
+2023/10/16 00:30:54 gz /tmp/work/dist/dd-element.min.js -> /output/dd-element.min.js.gz
+2023/10/16 00:30:54 sri /tmp/work/dist/dd-element.js -> /output/dd-element.js.sri
+2023/10/16 00:30:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dd-element.js.br /tmp/work/dist/dd-element.js
+2023/10/16 00:30:54 br /tmp/work/dist/dd-element.js -> /output/dd-element.js.br
+2023/10/16 00:30:54 gz /tmp/work/dist/dd-element.js -> /output/dd-element.js.gz
+2023/10/16 00:30:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gridstack-engine.d.ts.br /tmp/work/dist/gridstack-engine.d.ts
+2023/10/16 00:30:54 sri /tmp/work/dist/dd-resizable-handle.min.js -> /output/dd-resizable-handle.min.js.sri
+2023/10/16 00:30:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dd-resizable-handle.min.js.br /tmp/work/dist/dd-resizable-handle.min.js
+2023/10/16 00:30:54 br /tmp/work/dist/gridstack-engine.d.ts -> /output/gridstack-engine.d.ts.br
+2023/10/16 00:30:54 gz /tmp/work/dist/gridstack-engine.d.ts -> /output/gridstack-engine.d.ts.gz
+2023/10/16 00:30:54 br /tmp/work/dist/dd-resizable-handle.min.js -> /output/dd-resizable-handle.min.js.br
+2023/10/16 00:30:54 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/gridstack-engine.min.js /tmp/work/dist/gridstack-engine.js
+2023/10/16 00:30:54 gz /tmp/work/dist/dd-resizable-handle.min.js -> /output/dd-resizable-handle.min.js.gz
+2023/10/16 00:30:54 sri /tmp/work/dist/dd-resizable-handle.js -> /output/dd-resizable-handle.js.sri
+2023/10/16 00:30:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dd-resizable-handle.js.br /tmp/work/dist/dd-resizable-handle.js
+2023/10/16 00:30:55 br /tmp/work/dist/dd-resizable-handle.js -> /output/dd-resizable-handle.js.br
+2023/10/16 00:30:55 gz /tmp/work/dist/dd-resizable-handle.js -> /output/dd-resizable-handle.js.gz
+2023/10/16 00:30:55 /tmp/work/dist/gridstack-extra.css already has a compressed version: /tmp/work/dist/gridstack-extra.min.css
+2023/10/16 00:30:55 sri /tmp/work/dist/gridstack-extra.css -> /output/gridstack-extra.css.sri
+2023/10/16 00:30:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gridstack-extra.css.br /tmp/work/dist/gridstack-extra.css
+2023/10/16 00:30:55 sri /tmp/work/dist/dd-gridstack.min.js -> /output/dd-gridstack.min.js.sri
+2023/10/16 00:30:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dd-gridstack.min.js.br /tmp/work/dist/dd-gridstack.min.js
+2023/10/16 00:30:55 br /tmp/work/dist/dd-gridstack.min.js -> /output/dd-gridstack.min.js.br
+2023/10/16 00:30:55 gz /tmp/work/dist/dd-gridstack.min.js -> /output/dd-gridstack.min.js.gz
+2023/10/16 00:30:55 sri /tmp/work/dist/dd-gridstack.js -> /output/dd-gridstack.js.sri
+2023/10/16 00:30:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dd-gridstack.js.br /tmp/work/dist/dd-gridstack.js
+2023/10/16 00:30:55 sri /tmp/work/dist/dd-droppable.min.js -> /output/dd-droppable.min.js.sri
+2023/10/16 00:30:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dd-droppable.min.js.br /tmp/work/dist/dd-droppable.min.js
+2023/10/16 00:30:55 br /tmp/work/dist/gridstack-extra.css -> /output/gridstack-extra.css.br
+2023/10/16 00:30:55 gz /tmp/work/dist/gridstack-extra.css -> /output/gridstack-extra.css.gz
+2023/10/16 00:30:55 sri /tmp/work/dist/gridstack-extra.min.css -> /output/gridstack-extra.min.css.sri
+2023/10/16 00:30:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gridstack-extra.min.css.br /tmp/work/dist/gridstack-extra.min.css
+2023/10/16 00:30:55 br /tmp/work/dist/dd-gridstack.js -> /output/dd-gridstack.js.br
+2023/10/16 00:30:55 gz /tmp/work/dist/dd-gridstack.js -> /output/dd-gridstack.js.gz
+2023/10/16 00:30:55 /tmp/work/dist/gridstack.css already has a compressed version: /tmp/work/dist/gridstack.min.css
+2023/10/16 00:30:55 sri /tmp/work/dist/gridstack.css -> /output/gridstack.css.sri
+2023/10/16 00:30:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gridstack.css.br /tmp/work/dist/gridstack.css
+2023/10/16 00:30:55 br /tmp/work/dist/dd-droppable.min.js -> /output/dd-droppable.min.js.br
+2023/10/16 00:30:55 gz /tmp/work/dist/dd-droppable.min.js -> /output/dd-droppable.min.js.gz
+2023/10/16 00:30:55 sri /tmp/work/dist/dd-droppable.js -> /output/dd-droppable.js.sri
+2023/10/16 00:30:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dd-droppable.js.br /tmp/work/dist/dd-droppable.js
+2023/10/16 00:30:55 br /tmp/work/dist/gridstack-extra.min.css -> /output/gridstack-extra.min.css.br
+2023/10/16 00:30:55 gz /tmp/work/dist/gridstack-extra.min.css -> /output/gridstack-extra.min.css.gz
+2023/10/16 00:30:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gridstack.d.ts.br /tmp/work/dist/gridstack.d.ts
+2023/10/16 00:30:55 br /tmp/work/dist/gridstack.css -> /output/gridstack.css.br
+2023/10/16 00:30:55 gz /tmp/work/dist/gridstack.css -> /output/gridstack.css.gz
+2023/10/16 00:30:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/gridstack.min.js /tmp/work/dist/gridstack.js
+2023/10/16 00:30:55 br /tmp/work/dist/dd-droppable.js -> /output/dd-droppable.js.br
+2023/10/16 00:30:55 gz /tmp/work/dist/dd-droppable.js -> /output/dd-droppable.js.gz
+2023/10/16 00:30:55 sri /tmp/work/dist/gridstack.min.css -> /output/gridstack.min.css.sri
+2023/10/16 00:30:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gridstack.min.css.br /tmp/work/dist/gridstack.min.css
+2023/10/16 00:30:55 br /tmp/work/dist/gridstack.min.css -> /output/gridstack.min.css.br
+2023/10/16 00:30:55 gz /tmp/work/dist/gridstack.min.css -> /output/gridstack.min.css.gz
+2023/10/16 00:30:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types.d.ts.br /tmp/work/dist/types.d.ts
+2023/10/16 00:30:55 br /tmp/work/dist/gridstack.d.ts -> /output/gridstack.d.ts.br
+2023/10/16 00:30:55 gz /tmp/work/dist/gridstack.d.ts -> /output/gridstack.d.ts.gz
+2023/10/16 00:30:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/types.min.js /tmp/work/dist/types.js
+2023/10/16 00:30:55 sri /tmp/work/dist/dd-resizable.min.js -> /output/dd-resizable.min.js.sri
+2023/10/16 00:30:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dd-resizable.min.js.br /tmp/work/dist/dd-resizable.min.js
+2023/10/16 00:30:55 br /tmp/work/dist/types.d.ts -> /output/types.d.ts.br
+2023/10/16 00:30:55 gz /tmp/work/dist/types.d.ts -> /output/types.d.ts.gz
+2023/10/16 00:30:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/utils.d.ts.br /tmp/work/dist/utils.d.ts
+2023/10/16 00:30:55 br /tmp/work/dist/dd-resizable.min.js -> /output/dd-resizable.min.js.br
+2023/10/16 00:30:55 gz /tmp/work/dist/dd-resizable.min.js -> /output/dd-resizable.min.js.gz
+2023/10/16 00:30:55 sri /tmp/work/dist/dd-resizable.js -> /output/dd-resizable.js.sri
+2023/10/16 00:30:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dd-resizable.js.br /tmp/work/dist/dd-resizable.js
+2023/10/16 00:30:55 sri /tmp/work/dist/dd-draggable.min.js -> /output/dd-draggable.min.js.sri
+2023/10/16 00:30:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dd-draggable.min.js.br /tmp/work/dist/dd-draggable.min.js
+2023/10/16 00:30:55 br /tmp/work/dist/utils.d.ts -> /output/utils.d.ts.br
+2023/10/16 00:30:55 gz /tmp/work/dist/utils.d.ts -> /output/utils.d.ts.gz
+2023/10/16 00:30:55 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/utils.min.js /tmp/work/dist/utils.js
+2023/10/16 00:30:55 br /tmp/work/dist/dd-draggable.min.js -> /output/dd-draggable.min.js.br
+2023/10/16 00:30:55 gz /tmp/work/dist/dd-draggable.min.js -> /output/dd-draggable.min.js.gz
+2023/10/16 00:30:55 sri /tmp/work/dist/dd-draggable.js -> /output/dd-draggable.js.sri
+2023/10/16 00:30:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dd-draggable.js.br /tmp/work/dist/dd-draggable.js
+2023/10/16 00:30:55 br /tmp/work/dist/dd-resizable.js -> /output/dd-resizable.js.br
+2023/10/16 00:30:55 gz /tmp/work/dist/dd-resizable.js -> /output/dd-resizable.js.gz
+2023/10/16 00:30:55 sri /tmp/work/dist/dd-touch.min.js -> /output/dd-touch.min.js.sri
+2023/10/16 00:30:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dd-touch.min.js.br /tmp/work/dist/dd-touch.min.js
+2023/10/16 00:30:55 br /tmp/work/dist/dd-draggable.js -> /output/dd-draggable.js.br
+2023/10/16 00:30:55 gz /tmp/work/dist/dd-draggable.js -> /output/dd-draggable.js.gz
+2023/10/16 00:30:55 br /tmp/work/dist/dd-touch.min.js -> /output/dd-touch.min.js.br
+2023/10/16 00:30:55 gz /tmp/work/dist/dd-touch.min.js -> /output/dd-touch.min.js.gz
+2023/10/16 00:30:55 sri /tmp/work/dist/dd-touch.js -> /output/dd-touch.js.sri
+2023/10/16 00:30:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dd-touch.js.br /tmp/work/dist/dd-touch.js
+2023/10/16 00:30:55 br /tmp/work/dist/dd-touch.js -> /output/dd-touch.js.br
+2023/10/16 00:30:55 gz /tmp/work/dist/dd-touch.js -> /output/dd-touch.js.gz
+2023/10/16 00:30:55 sri /tmp/work/dist/types.min.js -> /output/types.min.js.sri
+2023/10/16 00:30:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types.min.js.br /tmp/work/dist/types.min.js
+2023/10/16 00:30:55 br /tmp/work/dist/types.min.js -> /output/types.min.js.br
+2023/10/16 00:30:55 gz /tmp/work/dist/types.min.js -> /output/types.min.js.gz
+2023/10/16 00:30:55 sri /tmp/work/dist/types.js -> /output/types.js.sri
+2023/10/16 00:30:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types.js.br /tmp/work/dist/types.js
+2023/10/16 00:30:55 br /tmp/work/dist/types.js -> /output/types.js.br
+2023/10/16 00:30:55 gz /tmp/work/dist/types.js -> /output/types.js.gz
+2023/10/16 00:30:55 sri /tmp/work/dist/utils.min.js -> /output/utils.min.js.sri
+2023/10/16 00:30:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/utils.min.js.br /tmp/work/dist/utils.min.js
+2023/10/16 00:30:55 br /tmp/work/dist/utils.min.js -> /output/utils.min.js.br
+2023/10/16 00:30:55 gz /tmp/work/dist/utils.min.js -> /output/utils.min.js.gz
+2023/10/16 00:30:55 sri /tmp/work/dist/utils.js -> /output/utils.js.sri
+2023/10/16 00:30:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/utils.js.br /tmp/work/dist/utils.js
+2023/10/16 00:30:55 sri /tmp/work/dist/gridstack-engine.min.js -> /output/gridstack-engine.min.js.sri
+2023/10/16 00:30:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gridstack-engine.min.js.br /tmp/work/dist/gridstack-engine.min.js
+2023/10/16 00:30:55 br /tmp/work/dist/gridstack-engine.min.js -> /output/gridstack-engine.min.js.br
+2023/10/16 00:30:55 gz /tmp/work/dist/gridstack-engine.min.js -> /output/gridstack-engine.min.js.gz
+2023/10/16 00:30:55 sri /tmp/work/dist/gridstack-engine.js -> /output/gridstack-engine.js.sri
+2023/10/16 00:30:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gridstack-engine.js.br /tmp/work/dist/gridstack-engine.js
+2023/10/16 00:30:55 br /tmp/work/dist/utils.js -> /output/utils.js.br
+2023/10/16 00:30:55 gz /tmp/work/dist/utils.js -> /output/utils.js.gz
+2023/10/16 00:30:55 br /tmp/work/dist/gridstack-engine.js -> /output/gridstack-engine.js.br
+2023/10/16 00:30:55 gz /tmp/work/dist/gridstack-engine.js -> /output/gridstack-engine.js.gz
+2023/10/16 00:30:56 sri /tmp/work/dist/gridstack.min.js -> /output/gridstack.min.js.sri
+2023/10/16 00:30:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gridstack.min.js.br /tmp/work/dist/gridstack.min.js
+2023/10/16 00:30:56 br /tmp/work/dist/gridstack.min.js -> /output/gridstack.min.js.br
+2023/10/16 00:30:56 gz /tmp/work/dist/gridstack.min.js -> /output/gridstack.min.js.gz
+2023/10/16 00:30:56 sri /tmp/work/dist/gridstack.js -> /output/gridstack.js.sri
+2023/10/16 00:30:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gridstack.js.br /tmp/work/dist/gridstack.js
+2023/10/16 00:30:56 br /tmp/work/dist/gridstack.js -> /output/gridstack.js.br
+2023/10/16 00:30:56 gz /tmp/work/dist/gridstack.js -> /output/gridstack.js.gz
+2023/10/16 00:30:56 sri /tmp/work/dist/gridstack-all.min.js -> /output/gridstack-all.min.js.sri
+2023/10/16 00:30:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gridstack-all.min.js.br /tmp/work/dist/gridstack-all.min.js
+2023/10/16 00:30:56 br /tmp/work/dist/gridstack-all.min.js -> /output/gridstack-all.min.js.br
+2023/10/16 00:30:56 gz /tmp/work/dist/gridstack-all.min.js -> /output/gridstack-all.min.js.gz
+2023/10/16 00:30:56 sri /tmp/work/dist/gridstack-all.js -> /output/gridstack-all.js.sri
+2023/10/16 00:30:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gridstack-all.js.br /tmp/work/dist/gridstack-all.js
+2023/10/16 00:30:56 br /tmp/work/dist/gridstack-all.js -> /output/gridstack-all.js.br
+2023/10/16 00:30:56 gz /tmp/work/dist/gridstack-all.js -> /output/gridstack-all.js.gz
+2023/10/16 00:30:56 processed gridstack.js
