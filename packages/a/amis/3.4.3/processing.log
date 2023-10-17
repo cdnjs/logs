@@ -1,0 +1,275 @@
+2023/10/17 12:08:24 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/10/17 12:08:24 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/sdk/ang-ie11.min.css /tmp/work/sdk/ang-ie11.css
+2023/10/17 12:08:24 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/sdk/antd-ie11.min.css /tmp/work/sdk/antd-ie11.css
+2023/10/17 12:08:24 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/sdk/ang.min.css /tmp/work/sdk/ang.css
+2023/10/17 12:08:24 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sdk/barcode.min.js /tmp/work/sdk/barcode.js
+2023/10/17 12:08:24 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sdk/color-picker.min.js /tmp/work/sdk/color-picker.js
+2023/10/17 12:08:24 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/sdk/antd.min.css /tmp/work/sdk/antd.css
+2023/10/17 12:08:24 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sdk/codemirror.min.js /tmp/work/sdk/codemirror.js
+2023/10/17 12:08:24 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sdk/charts.min.js /tmp/work/sdk/charts.js
+2023/10/17 12:08:28 sri /tmp/work/sdk/barcode.min.js -> /output/barcode.min.js.sri
+2023/10/17 12:08:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/barcode.min.js.br /tmp/work/sdk/barcode.min.js
+2023/10/17 12:08:28 br /tmp/work/sdk/barcode.min.js -> /output/barcode.min.js.br
+2023/10/17 12:08:28 gz /tmp/work/sdk/barcode.min.js -> /output/barcode.min.js.gz
+2023/10/17 12:08:28 sri /tmp/work/sdk/barcode.js -> /output/barcode.js.sri
+2023/10/17 12:08:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/barcode.js.br /tmp/work/sdk/barcode.js
+2023/10/17 12:08:28 br /tmp/work/sdk/barcode.js -> /output/barcode.js.br
+2023/10/17 12:08:28 gz /tmp/work/sdk/barcode.js -> /output/barcode.js.gz
+2023/10/17 12:08:28 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sdk/cropperjs.min.js /tmp/work/sdk/cropperjs.js
+2023/10/17 12:08:29 sri /tmp/work/sdk/color-picker.min.js -> /output/color-picker.min.js.sri
+2023/10/17 12:08:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/color-picker.min.js.br /tmp/work/sdk/color-picker.min.js
+2023/10/17 12:08:29 sri /tmp/work/sdk/ang.min.css -> /output/ang.min.css.sri
+2023/10/17 12:08:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ang.min.css.br /tmp/work/sdk/ang.min.css
+2023/10/17 12:08:29 sri /tmp/work/sdk/ang-ie11.min.css -> /output/ang-ie11.min.css.sri
+2023/10/17 12:08:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ang-ie11.min.css.br /tmp/work/sdk/ang-ie11.min.css
+2023/10/17 12:08:29 sri /tmp/work/sdk/antd.min.css -> /output/antd.min.css.sri
+2023/10/17 12:08:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/antd.min.css.br /tmp/work/sdk/antd.min.css
+2023/10/17 12:08:29 br /tmp/work/sdk/color-picker.min.js -> /output/color-picker.min.js.br
+2023/10/17 12:08:29 gz /tmp/work/sdk/color-picker.min.js -> /output/color-picker.min.js.gz
+2023/10/17 12:08:29 sri /tmp/work/sdk/color-picker.js -> /output/color-picker.js.sri
+2023/10/17 12:08:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/color-picker.js.br /tmp/work/sdk/color-picker.js
+2023/10/17 12:08:30 sri /tmp/work/sdk/antd-ie11.min.css -> /output/antd-ie11.min.css.sri
+2023/10/17 12:08:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/antd-ie11.min.css.br /tmp/work/sdk/antd-ie11.min.css
+2023/10/17 12:08:30 br /tmp/work/sdk/color-picker.js -> /output/color-picker.js.br
+2023/10/17 12:08:30 gz /tmp/work/sdk/color-picker.js -> /output/color-picker.js.gz
+2023/10/17 12:08:30 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/sdk/cxd-ie11.min.css /tmp/work/sdk/cxd-ie11.css
+2023/10/17 12:08:31 sri /tmp/work/sdk/cropperjs.min.js -> /output/cropperjs.min.js.sri
+2023/10/17 12:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cropperjs.min.js.br /tmp/work/sdk/cropperjs.min.js
+2023/10/17 12:08:31 br /tmp/work/sdk/cropperjs.min.js -> /output/cropperjs.min.js.br
+2023/10/17 12:08:31 gz /tmp/work/sdk/cropperjs.min.js -> /output/cropperjs.min.js.gz
+2023/10/17 12:08:31 sri /tmp/work/sdk/cropperjs.js -> /output/cropperjs.js.sri
+2023/10/17 12:08:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cropperjs.js.br /tmp/work/sdk/cropperjs.js
+2023/10/17 12:08:31 br /tmp/work/sdk/cropperjs.js -> /output/cropperjs.js.br
+2023/10/17 12:08:32 gz /tmp/work/sdk/cropperjs.js -> /output/cropperjs.js.gz
+2023/10/17 12:08:32 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/sdk/cxd.min.css /tmp/work/sdk/cxd.css
+2023/10/17 12:08:34 sri /tmp/work/sdk/codemirror.min.js -> /output/codemirror.min.js.sri
+2023/10/17 12:08:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codemirror.min.js.br /tmp/work/sdk/codemirror.min.js
+2023/10/17 12:08:35 sri /tmp/work/sdk/cxd-ie11.min.css -> /output/cxd-ie11.min.css.sri
+2023/10/17 12:08:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cxd-ie11.min.css.br /tmp/work/sdk/cxd-ie11.min.css
+2023/10/17 12:08:35 br /tmp/work/sdk/codemirror.min.js -> /output/codemirror.min.js.br
+2023/10/17 12:08:35 gz /tmp/work/sdk/codemirror.min.js -> /output/codemirror.min.js.gz
+2023/10/17 12:08:35 sri /tmp/work/sdk/codemirror.js -> /output/codemirror.js.sri
+2023/10/17 12:08:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codemirror.js.br /tmp/work/sdk/codemirror.js
+2023/10/17 12:08:35 br /tmp/work/sdk/ang-ie11.min.css -> /output/ang-ie11.min.css.br
+2023/10/17 12:08:35 br /tmp/work/sdk/antd-ie11.min.css -> /output/antd-ie11.min.css.br
+2023/10/17 12:08:35 gz /tmp/work/sdk/ang-ie11.min.css -> /output/ang-ie11.min.css.gz
+2023/10/17 12:08:35 sri /tmp/work/sdk/ang-ie11.css -> /output/ang-ie11.css.sri
+2023/10/17 12:08:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ang-ie11.css.br /tmp/work/sdk/ang-ie11.css
+2023/10/17 12:08:35 gz /tmp/work/sdk/antd-ie11.min.css -> /output/antd-ie11.min.css.gz
+2023/10/17 12:08:35 sri /tmp/work/sdk/antd-ie11.css -> /output/antd-ie11.css.sri
+2023/10/17 12:08:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/antd-ie11.css.br /tmp/work/sdk/antd-ie11.css
+2023/10/17 12:08:36 br /tmp/work/sdk/codemirror.js -> /output/codemirror.js.br
+2023/10/17 12:08:36 gz /tmp/work/sdk/codemirror.js -> /output/codemirror.js.gz
+2023/10/17 12:08:36 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/sdk/dark-ie11.min.css /tmp/work/sdk/dark-ie11.css
+2023/10/17 12:08:36 sri /tmp/work/sdk/cxd.min.css -> /output/cxd.min.css.sri
+2023/10/17 12:08:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cxd.min.css.br /tmp/work/sdk/cxd.min.css
+2023/10/17 12:08:37 br /tmp/work/sdk/ang.min.css -> /output/ang.min.css.br
+2023/10/17 12:08:37 br /tmp/work/sdk/antd.min.css -> /output/antd.min.css.br
+2023/10/17 12:08:37 gz /tmp/work/sdk/ang.min.css -> /output/ang.min.css.gz
+2023/10/17 12:08:37 sri /tmp/work/sdk/ang.css -> /output/ang.css.sri
+2023/10/17 12:08:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ang.css.br /tmp/work/sdk/ang.css
+2023/10/17 12:08:37 gz /tmp/work/sdk/antd.min.css -> /output/antd.min.css.gz
+2023/10/17 12:08:37 sri /tmp/work/sdk/antd.css -> /output/antd.css.sri
+2023/10/17 12:08:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/antd.css.br /tmp/work/sdk/antd.css
+2023/10/17 12:08:40 br /tmp/work/sdk/cxd-ie11.min.css -> /output/cxd-ie11.min.css.br
+2023/10/17 12:08:41 gz /tmp/work/sdk/cxd-ie11.min.css -> /output/cxd-ie11.min.css.gz
+2023/10/17 12:08:41 sri /tmp/work/sdk/cxd-ie11.css -> /output/cxd-ie11.css.sri
+2023/10/17 12:08:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cxd-ie11.css.br /tmp/work/sdk/cxd-ie11.css
+2023/10/17 12:08:41 sri /tmp/work/sdk/dark-ie11.min.css -> /output/dark-ie11.min.css.sri
+2023/10/17 12:08:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dark-ie11.min.css.br /tmp/work/sdk/dark-ie11.min.css
+2023/10/17 12:08:41 br /tmp/work/sdk/ang-ie11.css -> /output/ang-ie11.css.br
+2023/10/17 12:08:41 br /tmp/work/sdk/antd-ie11.css -> /output/antd-ie11.css.br
+2023/10/17 12:08:41 gz /tmp/work/sdk/ang-ie11.css -> /output/ang-ie11.css.gz
+2023/10/17 12:08:41 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/sdk/dark.min.css /tmp/work/sdk/dark.css
+2023/10/17 12:08:41 gz /tmp/work/sdk/antd-ie11.css -> /output/antd-ie11.css.gz
+2023/10/17 12:08:41 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sdk/exceljs.min.js /tmp/work/sdk/exceljs.js
+2023/10/17 12:08:44 br /tmp/work/sdk/cxd.min.css -> /output/cxd.min.css.br
+2023/10/17 12:08:44 gz /tmp/work/sdk/cxd.min.css -> /output/cxd.min.css.gz
+2023/10/17 12:08:44 sri /tmp/work/sdk/cxd.css -> /output/cxd.css.sri
+2023/10/17 12:08:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cxd.css.br /tmp/work/sdk/cxd.css
+2023/10/17 12:08:44 br /tmp/work/sdk/ang.css -> /output/ang.css.br
+2023/10/17 12:08:44 gz /tmp/work/sdk/ang.css -> /output/ang.css.gz
+2023/10/17 12:08:44 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sdk/fomula-doc.min.js /tmp/work/sdk/fomula-doc.js
+2023/10/17 12:08:45 br /tmp/work/sdk/antd.css -> /output/antd.css.br
+2023/10/17 12:08:45 gz /tmp/work/sdk/antd.css -> /output/antd.css.gz
+2023/10/17 12:08:45 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/sdk/helper.min.css /tmp/work/sdk/helper.css
+2023/10/17 12:08:45 sri /tmp/work/sdk/fomula-doc.min.js -> /output/fomula-doc.min.js.sri
+2023/10/17 12:08:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fomula-doc.min.js.br /tmp/work/sdk/fomula-doc.min.js
+2023/10/17 12:08:45 br /tmp/work/sdk/fomula-doc.min.js -> /output/fomula-doc.min.js.br
+2023/10/17 12:08:45 gz /tmp/work/sdk/fomula-doc.min.js -> /output/fomula-doc.min.js.gz
+2023/10/17 12:08:45 sri /tmp/work/sdk/fomula-doc.js -> /output/fomula-doc.js.sri
+2023/10/17 12:08:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/fomula-doc.js.br /tmp/work/sdk/fomula-doc.js
+2023/10/17 12:08:45 br /tmp/work/sdk/fomula-doc.js -> /output/fomula-doc.js.br
+2023/10/17 12:08:45 gz /tmp/work/sdk/fomula-doc.js -> /output/fomula-doc.js.gz
+2023/10/17 12:08:45 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/sdk/iconfont.min.css /tmp/work/sdk/iconfont.css
+2023/10/17 12:08:46 sri /tmp/work/sdk/iconfont.min.css -> /output/iconfont.min.css.sri
+2023/10/17 12:08:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/iconfont.min.css.br /tmp/work/sdk/iconfont.min.css
+2023/10/17 12:08:46 sri /tmp/work/sdk/dark.min.css -> /output/dark.min.css.sri
+2023/10/17 12:08:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dark.min.css.br /tmp/work/sdk/dark.min.css
+2023/10/17 12:08:46 br /tmp/work/sdk/iconfont.min.css -> /output/iconfont.min.css.br
+2023/10/17 12:08:46 gz /tmp/work/sdk/iconfont.min.css -> /output/iconfont.min.css.gz
+2023/10/17 12:08:46 sri /tmp/work/sdk/iconfont.css -> /output/iconfont.css.sri
+2023/10/17 12:08:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/iconfont.css.br /tmp/work/sdk/iconfont.css
+2023/10/17 12:08:46 br /tmp/work/sdk/cxd-ie11.css -> /output/cxd-ie11.css.br
+2023/10/17 12:08:46 br /tmp/work/sdk/dark-ie11.min.css -> /output/dark-ie11.min.css.br
+2023/10/17 12:08:47 gz /tmp/work/sdk/cxd-ie11.css -> /output/cxd-ie11.css.gz
+2023/10/17 12:08:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/iconfont.eot.br /tmp/work/sdk/iconfont.eot
+2023/10/17 12:08:47 gz /tmp/work/sdk/dark-ie11.min.css -> /output/dark-ie11.min.css.gz
+2023/10/17 12:08:47 sri /tmp/work/sdk/dark-ie11.css -> /output/dark-ie11.css.sri
+2023/10/17 12:08:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dark-ie11.css.br /tmp/work/sdk/dark-ie11.css
+2023/10/17 12:08:47 br /tmp/work/sdk/iconfont.css -> /output/iconfont.css.br
+2023/10/17 12:08:47 gz /tmp/work/sdk/iconfont.css -> /output/iconfont.css.gz
+2023/10/17 12:08:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/iconfont.svg.br /tmp/work/sdk/iconfont.svg
+2023/10/17 12:08:47 sri /tmp/work/sdk/helper.min.css -> /output/helper.min.css.sri
+2023/10/17 12:08:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/helper.min.css.br /tmp/work/sdk/helper.min.css
+2023/10/17 12:08:48 br /tmp/work/sdk/iconfont.eot -> /output/iconfont.eot.br
+2023/10/17 12:08:48 gz /tmp/work/sdk/iconfont.eot -> /output/iconfont.eot.gz
+2023/10/17 12:08:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/iconfont.ttf.br /tmp/work/sdk/iconfont.ttf
+2023/10/17 12:08:49 br /tmp/work/sdk/iconfont.ttf -> /output/iconfont.ttf.br
+2023/10/17 12:08:49 gz /tmp/work/sdk/iconfont.ttf -> /output/iconfont.ttf.gz
+2023/10/17 12:08:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/iconfont.woff.br /tmp/work/sdk/iconfont.woff
+2023/10/17 12:08:49 br /tmp/work/sdk/iconfont.svg -> /output/iconfont.svg.br
+2023/10/17 12:08:49 gz /tmp/work/sdk/iconfont.svg -> /output/iconfont.svg.gz
+2023/10/17 12:08:49 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/sdk/ie11-patch.min.css /tmp/work/sdk/ie11-patch.css
+2023/10/17 12:08:49 br /tmp/work/sdk/iconfont.woff -> /output/iconfont.woff.br
+2023/10/17 12:08:49 gz /tmp/work/sdk/iconfont.woff -> /output/iconfont.woff.gz
+2023/10/17 12:08:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sdk/json-view.min.js /tmp/work/sdk/json-view.js
+2023/10/17 12:08:49 sri /tmp/work/sdk/ie11-patch.min.css -> /output/ie11-patch.min.css.sri
+2023/10/17 12:08:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ie11-patch.min.css.br /tmp/work/sdk/ie11-patch.min.css
+2023/10/17 12:08:49 br /tmp/work/sdk/ie11-patch.min.css -> /output/ie11-patch.min.css.br
+2023/10/17 12:08:49 gz /tmp/work/sdk/ie11-patch.min.css -> /output/ie11-patch.min.css.gz
+2023/10/17 12:08:49 sri /tmp/work/sdk/ie11-patch.css -> /output/ie11-patch.css.sri
+2023/10/17 12:08:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ie11-patch.css.br /tmp/work/sdk/ie11-patch.css
+2023/10/17 12:08:49 br /tmp/work/sdk/ie11-patch.css -> /output/ie11-patch.css.br
+2023/10/17 12:08:49 gz /tmp/work/sdk/ie11-patch.css -> /output/ie11-patch.css.gz
+2023/10/17 12:08:49 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sdk/markdown.min.js /tmp/work/sdk/markdown.js
+2023/10/17 12:08:50 br /tmp/work/sdk/helper.min.css -> /output/helper.min.css.br
+2023/10/17 12:08:50 gz /tmp/work/sdk/helper.min.css -> /output/helper.min.css.gz
+2023/10/17 12:08:50 sri /tmp/work/sdk/helper.css -> /output/helper.css.sri
+2023/10/17 12:08:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/helper.css.br /tmp/work/sdk/helper.css
+2023/10/17 12:08:52 br /tmp/work/sdk/cxd.css -> /output/cxd.css.br
+2023/10/17 12:08:52 gz /tmp/work/sdk/cxd.css -> /output/cxd.css.gz
+2023/10/17 12:08:52 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sdk/office-viewer.min.js /tmp/work/sdk/office-viewer.js
+2023/10/17 12:08:53 br /tmp/work/sdk/dark-ie11.css -> /output/dark-ie11.css.br
+2023/10/17 12:08:53 gz /tmp/work/sdk/dark-ie11.css -> /output/dark-ie11.css.gz
+2023/10/17 12:08:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sdk/papaparse.min.js /tmp/work/sdk/papaparse.js
+2023/10/17 12:08:54 sri /tmp/work/sdk/markdown.min.js -> /output/markdown.min.js.sri
+2023/10/17 12:08:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/markdown.min.js.br /tmp/work/sdk/markdown.min.js
+2023/10/17 12:08:54 br /tmp/work/sdk/helper.css -> /output/helper.css.br
+2023/10/17 12:08:54 br /tmp/work/sdk/dark.min.css -> /output/dark.min.css.br
+2023/10/17 12:08:54 br /tmp/work/sdk/markdown.min.js -> /output/markdown.min.js.br
+2023/10/17 12:08:54 gz /tmp/work/sdk/markdown.min.js -> /output/markdown.min.js.gz
+2023/10/17 12:08:54 sri /tmp/work/sdk/markdown.js -> /output/markdown.js.sri
+2023/10/17 12:08:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/markdown.js.br /tmp/work/sdk/markdown.js
+2023/10/17 12:08:54 gz /tmp/work/sdk/helper.css -> /output/helper.css.gz
+2023/10/17 12:08:54 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sdk/rest.min.js /tmp/work/sdk/rest.js
+2023/10/17 12:08:54 gz /tmp/work/sdk/dark.min.css -> /output/dark.min.css.gz
+2023/10/17 12:08:54 sri /tmp/work/sdk/dark.css -> /output/dark.css.sri
+2023/10/17 12:08:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dark.css.br /tmp/work/sdk/dark.css
+2023/10/17 12:08:54 br /tmp/work/sdk/markdown.js -> /output/markdown.js.br
+2023/10/17 12:08:54 gz /tmp/work/sdk/markdown.js -> /output/markdown.js.gz
+2023/10/17 12:08:54 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sdk/rich-text.min.js /tmp/work/sdk/rich-text.js
+2023/10/17 12:08:55 sri /tmp/work/sdk/json-view.min.js -> /output/json-view.min.js.sri
+2023/10/17 12:08:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/json-view.min.js.br /tmp/work/sdk/json-view.min.js
+2023/10/17 12:08:55 sri /tmp/work/sdk/papaparse.min.js -> /output/papaparse.min.js.sri
+2023/10/17 12:08:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/papaparse.min.js.br /tmp/work/sdk/papaparse.min.js
+2023/10/17 12:08:55 br /tmp/work/sdk/papaparse.min.js -> /output/papaparse.min.js.br
+2023/10/17 12:08:55 gz /tmp/work/sdk/papaparse.min.js -> /output/papaparse.min.js.gz
+2023/10/17 12:08:55 sri /tmp/work/sdk/papaparse.js -> /output/papaparse.js.sri
+2023/10/17 12:08:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/papaparse.js.br /tmp/work/sdk/papaparse.js
+2023/10/17 12:08:55 br /tmp/work/sdk/papaparse.js -> /output/papaparse.js.br
+2023/10/17 12:08:55 gz /tmp/work/sdk/papaparse.js -> /output/papaparse.js.gz
+2023/10/17 12:08:55 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/sdk/sdk-ie11.min.css /tmp/work/sdk/sdk-ie11.css
+2023/10/17 12:08:55 br /tmp/work/sdk/json-view.min.js -> /output/json-view.min.js.br
+2023/10/17 12:08:55 gz /tmp/work/sdk/json-view.min.js -> /output/json-view.min.js.gz
+2023/10/17 12:08:55 sri /tmp/work/sdk/json-view.js -> /output/json-view.js.sri
+2023/10/17 12:08:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/json-view.js.br /tmp/work/sdk/json-view.js
+2023/10/17 12:08:55 br /tmp/work/sdk/json-view.js -> /output/json-view.js.br
+2023/10/17 12:08:55 gz /tmp/work/sdk/json-view.js -> /output/json-view.js.gz
+2023/10/17 12:08:55 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/sdk/sdk.min.css /tmp/work/sdk/sdk.css
+2023/10/17 12:08:56 sri /tmp/work/sdk/rest.min.js -> /output/rest.min.js.sri
+2023/10/17 12:08:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/rest.min.js.br /tmp/work/sdk/rest.min.js
+2023/10/17 12:08:56 br /tmp/work/sdk/rest.min.js -> /output/rest.min.js.br
+2023/10/17 12:08:56 gz /tmp/work/sdk/rest.min.js -> /output/rest.min.js.gz
+2023/10/17 12:08:56 sri /tmp/work/sdk/rest.js -> /output/rest.js.sri
+2023/10/17 12:08:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/rest.js.br /tmp/work/sdk/rest.js
+2023/10/17 12:08:56 br /tmp/work/sdk/rest.js -> /output/rest.js.br
+2023/10/17 12:08:56 gz /tmp/work/sdk/rest.js -> /output/rest.js.gz
+2023/10/17 12:08:56 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sdk/sdk.min.js /tmp/work/sdk/sdk.js
+2023/10/17 12:09:01 sri /tmp/work/sdk/sdk-ie11.min.css -> /output/sdk-ie11.min.css.sri
+2023/10/17 12:09:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sdk-ie11.min.css.br /tmp/work/sdk/sdk-ie11.min.css
+2023/10/17 12:09:01 sri /tmp/work/sdk/sdk.min.css -> /output/sdk.min.css.sri
+2023/10/17 12:09:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sdk.min.css.br /tmp/work/sdk/sdk.min.css
+2023/10/17 12:09:02 br /tmp/work/sdk/dark.css -> /output/dark.css.br
+2023/10/17 12:09:02 sri /tmp/work/sdk/office-viewer.min.js -> /output/office-viewer.min.js.sri
+2023/10/17 12:09:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/office-viewer.min.js.br /tmp/work/sdk/office-viewer.min.js
+2023/10/17 12:09:03 gz /tmp/work/sdk/dark.css -> /output/dark.css.gz
+2023/10/17 12:09:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sdk/tinymce.min.js /tmp/work/sdk/tinymce.js
+2023/10/17 12:09:04 br /tmp/work/sdk/office-viewer.min.js -> /output/office-viewer.min.js.br
+2023/10/17 12:09:04 gz /tmp/work/sdk/office-viewer.min.js -> /output/office-viewer.min.js.gz
+2023/10/17 12:09:04 sri /tmp/work/sdk/office-viewer.js -> /output/office-viewer.js.sri
+2023/10/17 12:09:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/office-viewer.js.br /tmp/work/sdk/office-viewer.js
+2023/10/17 12:09:06 br /tmp/work/sdk/office-viewer.js -> /output/office-viewer.js.br
+2023/10/17 12:09:06 gz /tmp/work/sdk/office-viewer.js -> /output/office-viewer.js.gz
+2023/10/17 12:09:06 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/sdk/xlsx.min.js /tmp/work/sdk/xlsx.js
+2023/10/17 12:09:07 br /tmp/work/sdk/sdk-ie11.min.css -> /output/sdk-ie11.min.css.br
+2023/10/17 12:09:07 gz /tmp/work/sdk/sdk-ie11.min.css -> /output/sdk-ie11.min.css.gz
+2023/10/17 12:09:07 sri /tmp/work/sdk/sdk-ie11.css -> /output/sdk-ie11.css.sri
+2023/10/17 12:09:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sdk-ie11.css.br /tmp/work/sdk/sdk-ie11.css
+2023/10/17 12:09:08 sri /tmp/work/sdk/charts.min.js -> /output/charts.min.js.sri
+2023/10/17 12:09:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/charts.min.js.br /tmp/work/sdk/charts.min.js
+2023/10/17 12:09:08 br /tmp/work/sdk/sdk.min.css -> /output/sdk.min.css.br
+2023/10/17 12:09:09 gz /tmp/work/sdk/sdk.min.css -> /output/sdk.min.css.gz
+2023/10/17 12:09:09 sri /tmp/work/sdk/sdk.css -> /output/sdk.css.sri
+2023/10/17 12:09:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sdk.css.br /tmp/work/sdk/sdk.css
+2023/10/17 12:09:11 sri /tmp/work/sdk/rich-text.min.js -> /output/rich-text.min.js.sri
+2023/10/17 12:09:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/rich-text.min.js.br /tmp/work/sdk/rich-text.min.js
+2023/10/17 12:09:12 br /tmp/work/sdk/rich-text.min.js -> /output/rich-text.min.js.br
+2023/10/17 12:09:12 gz /tmp/work/sdk/rich-text.min.js -> /output/rich-text.min.js.gz
+2023/10/17 12:09:12 sri /tmp/work/sdk/rich-text.js -> /output/rich-text.js.sri
+2023/10/17 12:09:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/rich-text.js.br /tmp/work/sdk/rich-text.js
+2023/10/17 12:09:13 br /tmp/work/sdk/charts.min.js -> /output/charts.min.js.br
+2023/10/17 12:09:13 gz /tmp/work/sdk/charts.min.js -> /output/charts.min.js.gz
+2023/10/17 12:09:13 sri /tmp/work/sdk/charts.js -> /output/charts.js.sri
+2023/10/17 12:09:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/charts.js.br /tmp/work/sdk/charts.js
+2023/10/17 12:09:13 br /tmp/work/sdk/sdk-ie11.css -> /output/sdk-ie11.css.br
+2023/10/17 12:09:13 gz /tmp/work/sdk/sdk-ie11.css -> /output/sdk-ie11.css.gz
+2023/10/17 12:09:14 br /tmp/work/sdk/rich-text.js -> /output/rich-text.js.br
+2023/10/17 12:09:14 gz /tmp/work/sdk/rich-text.js -> /output/rich-text.js.gz
+2023/10/17 12:09:16 sri /tmp/work/sdk/exceljs.min.js -> /output/exceljs.min.js.sri
+2023/10/17 12:09:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/exceljs.min.js.br /tmp/work/sdk/exceljs.min.js
+2023/10/17 12:09:16 br /tmp/work/sdk/sdk.css -> /output/sdk.css.br
+2023/10/17 12:09:17 gz /tmp/work/sdk/sdk.css -> /output/sdk.css.gz
+2023/10/17 12:09:17 br /tmp/work/sdk/charts.js -> /output/charts.js.br
+2023/10/17 12:09:17 gz /tmp/work/sdk/charts.js -> /output/charts.js.gz
+2023/10/17 12:09:19 br /tmp/work/sdk/exceljs.min.js -> /output/exceljs.min.js.br
+2023/10/17 12:09:19 gz /tmp/work/sdk/exceljs.min.js -> /output/exceljs.min.js.gz
+2023/10/17 12:09:19 sri /tmp/work/sdk/exceljs.js -> /output/exceljs.js.sri
+2023/10/17 12:09:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/exceljs.js.br /tmp/work/sdk/exceljs.js
+2023/10/17 12:09:21 br /tmp/work/sdk/exceljs.js -> /output/exceljs.js.br
+2023/10/17 12:09:22 gz /tmp/work/sdk/exceljs.js -> /output/exceljs.js.gz
+2023/10/17 12:09:23 sri /tmp/work/sdk/xlsx.min.js -> /output/xlsx.min.js.sri
+2023/10/17 12:09:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/xlsx.min.js.br /tmp/work/sdk/xlsx.min.js
+2023/10/17 12:09:25 br /tmp/work/sdk/xlsx.min.js -> /output/xlsx.min.js.br
+2023/10/17 12:09:25 gz /tmp/work/sdk/xlsx.min.js -> /output/xlsx.min.js.gz
+2023/10/17 12:09:25 sri /tmp/work/sdk/xlsx.js -> /output/xlsx.js.sri
+2023/10/17 12:09:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/xlsx.js.br /tmp/work/sdk/xlsx.js
+2023/10/17 12:09:26 br /tmp/work/sdk/xlsx.js -> /output/xlsx.js.br
+2023/10/17 12:09:27 gz /tmp/work/sdk/xlsx.js -> /output/xlsx.js.gz
+2023/10/17 12:09:31 sri /tmp/work/sdk/tinymce.min.js -> /output/tinymce.min.js.sri
+2023/10/17 12:09:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tinymce.min.js.br /tmp/work/sdk/tinymce.min.js
+2023/10/17 12:09:34 br /tmp/work/sdk/tinymce.min.js -> /output/tinymce.min.js.br
+2023/10/17 12:09:34 gz /tmp/work/sdk/tinymce.min.js -> /output/tinymce.min.js.gz
+2023/10/17 12:09:34 sri /tmp/work/sdk/tinymce.js -> /output/tinymce.js.sri
+2023/10/17 12:09:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/tinymce.js.br /tmp/work/sdk/tinymce.js
+2023/10/17 12:09:37 br /tmp/work/sdk/tinymce.js -> /output/tinymce.js.br
+2023/10/17 12:09:37 gz /tmp/work/sdk/tinymce.js -> /output/tinymce.js.gz
+2023/10/17 12:09:38 sri /tmp/work/sdk/sdk.min.js -> /output/sdk.min.js.sri
+2023/10/17 12:09:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sdk.min.js.br /tmp/work/sdk/sdk.min.js
+2023/10/17 12:09:45 br /tmp/work/sdk/sdk.min.js -> /output/sdk.min.js.br
+2023/10/17 12:09:45 gz /tmp/work/sdk/sdk.min.js -> /output/sdk.min.js.gz
+2023/10/17 12:09:45 sri /tmp/work/sdk/sdk.js -> /output/sdk.js.sri
+2023/10/17 12:09:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sdk.js.br /tmp/work/sdk/sdk.js
+2023/10/17 12:09:52 br /tmp/work/sdk/sdk.js -> /output/sdk.js.br
+2023/10/17 12:09:52 gz /tmp/work/sdk/sdk.js -> /output/sdk.js.gz
+2023/10/17 12:09:52 processed amis
