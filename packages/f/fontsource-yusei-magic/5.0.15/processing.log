@@ -1,0 +1,562 @@
+2023/10/19 20:08:01 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/10/19 20:08:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/400.min.css /tmp/work/400.css
+2023/10/19 20:08:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/index.min.css /tmp/work/index.css
+2023/10/19 20:08:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/japanese-400.min.css /tmp/work/japanese-400.css
+2023/10/19 20:08:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin.min.css /tmp/work/latin.css
+2023/10/19 20:08:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/japanese.min.css /tmp/work/japanese.css
+2023/10/19 20:08:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-400.min.css /tmp/work/latin-400.css
+2023/10/19 20:08:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-ext-400.min.css /tmp/work/latin-ext-400.css
+2023/10/19 20:08:01 compress: run /node_modules/clean-css-cli/bin/cleancss --compatibility --s0 -o /tmp/work/latin-ext.min.css /tmp/work/latin-ext.css
+2023/10/19 20:08:01 sri /tmp/work/japanese.min.css -> /output/japanese.min.css.sri
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/japanese.min.css.br /tmp/work/japanese.min.css
+2023/10/19 20:08:01 sri /tmp/work/japanese-400.min.css -> /output/japanese-400.min.css.sri
+2023/10/19 20:08:01 br /tmp/work/japanese.min.css -> /output/japanese.min.css.br
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/japanese-400.min.css.br /tmp/work/japanese-400.min.css
+2023/10/19 20:08:01 sri /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.sri
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-400.min.css.br /tmp/work/latin-ext-400.min.css
+2023/10/19 20:08:01 sri /tmp/work/latin-400.min.css -> /output/latin-400.min.css.sri
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400.min.css.br /tmp/work/latin-400.min.css
+2023/10/19 20:08:01 gz /tmp/work/japanese.min.css -> /output/japanese.min.css.gz
+2023/10/19 20:08:01 sri /tmp/work/japanese.css -> /output/japanese.css.sri
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/japanese.css.br /tmp/work/japanese.css
+2023/10/19 20:08:01 br /tmp/work/japanese-400.min.css -> /output/japanese-400.min.css.br
+2023/10/19 20:08:01 br /tmp/work/latin-400.min.css -> /output/latin-400.min.css.br
+2023/10/19 20:08:01 gz /tmp/work/japanese-400.min.css -> /output/japanese-400.min.css.gz
+2023/10/19 20:08:01 sri /tmp/work/japanese-400.css -> /output/japanese-400.css.sri
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/japanese-400.css.br /tmp/work/japanese-400.css
+2023/10/19 20:08:01 br /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.br
+2023/10/19 20:08:01 gz /tmp/work/latin-400.min.css -> /output/latin-400.min.css.gz
+2023/10/19 20:08:01 sri /tmp/work/latin-400.css -> /output/latin-400.css.sri
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400.css.br /tmp/work/latin-400.css
+2023/10/19 20:08:01 br /tmp/work/japanese.css -> /output/japanese.css.br
+2023/10/19 20:08:01 gz /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.gz
+2023/10/19 20:08:01 gz /tmp/work/japanese.css -> /output/japanese.css.gz
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-1-400-normal.woff.br /tmp/work/files/yusei-magic-1-400-normal.woff
+2023/10/19 20:08:01 sri /tmp/work/latin-ext-400.css -> /output/latin-ext-400.css.sri
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-400.css.br /tmp/work/latin-ext-400.css
+2023/10/19 20:08:01 br /tmp/work/japanese-400.css -> /output/japanese-400.css.br
+2023/10/19 20:08:01 gz /tmp/work/japanese-400.css -> /output/japanese-400.css.gz
+2023/10/19 20:08:01 br /tmp/work/latin-400.css -> /output/latin-400.css.br
+2023/10/19 20:08:01 sri /tmp/work/latin-ext.min.css -> /output/latin-ext.min.css.sri
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext.min.css.br /tmp/work/latin-ext.min.css
+2023/10/19 20:08:01 br /tmp/work/latin-ext-400.css -> /output/latin-ext-400.css.br
+2023/10/19 20:08:01 gz /tmp/work/latin-400.css -> /output/latin-400.css.gz
+2023/10/19 20:08:01 sri /tmp/work/latin.min.css -> /output/latin.min.css.sri
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin.min.css.br /tmp/work/latin.min.css
+2023/10/19 20:08:01 br /tmp/work/latin-ext.min.css -> /output/latin-ext.min.css.br
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-10-400-normal.woff.br /tmp/work/files/yusei-magic-10-400-normal.woff
+2023/10/19 20:08:01 gz /tmp/work/latin-ext-400.css -> /output/latin-ext-400.css.gz
+2023/10/19 20:08:01 gz /tmp/work/latin-ext.min.css -> /output/latin-ext.min.css.gz
+2023/10/19 20:08:01 sri /tmp/work/latin-ext.css -> /output/latin-ext.css.sri
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext.css.br /tmp/work/latin-ext.css
+2023/10/19 20:08:01 copy /tmp/work/files/yusei-magic-1-400-normal.woff2 -> /output/files/yusei-magic-1-400-normal.woff2
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-100-400-normal.woff.br /tmp/work/files/yusei-magic-100-400-normal.woff
+2023/10/19 20:08:01 br /tmp/work/latin.min.css -> /output/latin.min.css.br
+2023/10/19 20:08:01 copy /tmp/work/files/yusei-magic-10-400-normal.woff2 -> /output/files/yusei-magic-10-400-normal.woff2
+2023/10/19 20:08:01 br /tmp/work/files/yusei-magic-1-400-normal.woff -> /output/files/yusei-magic-1-400-normal.woff.br
+2023/10/19 20:08:01 gz /tmp/work/latin.min.css -> /output/latin.min.css.gz
+2023/10/19 20:08:01 sri /tmp/work/latin.css -> /output/latin.css.sri
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin.css.br /tmp/work/latin.css
+2023/10/19 20:08:01 br /tmp/work/latin-ext.css -> /output/latin-ext.css.br
+2023/10/19 20:08:01 gz /tmp/work/files/yusei-magic-1-400-normal.woff -> /output/files/yusei-magic-1-400-normal.woff.gz
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-101-400-normal.woff.br /tmp/work/files/yusei-magic-101-400-normal.woff
+2023/10/19 20:08:01 gz /tmp/work/latin-ext.css -> /output/latin-ext.css.gz
+2023/10/19 20:08:01 copy /tmp/work/files/yusei-magic-100-400-normal.woff2 -> /output/files/yusei-magic-100-400-normal.woff2
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-102-400-normal.woff.br /tmp/work/files/yusei-magic-102-400-normal.woff
+2023/10/19 20:08:01 copy /tmp/work/files/yusei-magic-101-400-normal.woff2 -> /output/files/yusei-magic-101-400-normal.woff2
+2023/10/19 20:08:01 br /tmp/work/latin.css -> /output/latin.css.br
+2023/10/19 20:08:01 gz /tmp/work/latin.css -> /output/latin.css.gz
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-103-400-normal.woff.br /tmp/work/files/yusei-magic-103-400-normal.woff
+2023/10/19 20:08:01 copy /tmp/work/files/yusei-magic-102-400-normal.woff2 -> /output/files/yusei-magic-102-400-normal.woff2
+2023/10/19 20:08:01 copy /tmp/work/files/yusei-magic-103-400-normal.woff2 -> /output/files/yusei-magic-103-400-normal.woff2
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-104-400-normal.woff.br /tmp/work/files/yusei-magic-104-400-normal.woff
+2023/10/19 20:08:01 br /tmp/work/files/yusei-magic-100-400-normal.woff -> /output/files/yusei-magic-100-400-normal.woff.br
+2023/10/19 20:08:01 gz /tmp/work/files/yusei-magic-100-400-normal.woff -> /output/files/yusei-magic-100-400-normal.woff.gz
+2023/10/19 20:08:01 br /tmp/work/files/yusei-magic-101-400-normal.woff -> /output/files/yusei-magic-101-400-normal.woff.br
+2023/10/19 20:08:01 copy /tmp/work/files/yusei-magic-104-400-normal.woff2 -> /output/files/yusei-magic-104-400-normal.woff2
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-105-400-normal.woff.br /tmp/work/files/yusei-magic-105-400-normal.woff
+2023/10/19 20:08:01 gz /tmp/work/files/yusei-magic-101-400-normal.woff -> /output/files/yusei-magic-101-400-normal.woff.gz
+2023/10/19 20:08:01 copy /tmp/work/files/yusei-magic-105-400-normal.woff2 -> /output/files/yusei-magic-105-400-normal.woff2
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-106-400-normal.woff.br /tmp/work/files/yusei-magic-106-400-normal.woff
+2023/10/19 20:08:01 br /tmp/work/files/yusei-magic-102-400-normal.woff -> /output/files/yusei-magic-102-400-normal.woff.br
+2023/10/19 20:08:01 br /tmp/work/files/yusei-magic-103-400-normal.woff -> /output/files/yusei-magic-103-400-normal.woff.br
+2023/10/19 20:08:01 gz /tmp/work/files/yusei-magic-102-400-normal.woff -> /output/files/yusei-magic-102-400-normal.woff.gz
+2023/10/19 20:08:01 gz /tmp/work/files/yusei-magic-103-400-normal.woff -> /output/files/yusei-magic-103-400-normal.woff.gz
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-107-400-normal.woff.br /tmp/work/files/yusei-magic-107-400-normal.woff
+2023/10/19 20:08:01 copy /tmp/work/files/yusei-magic-106-400-normal.woff2 -> /output/files/yusei-magic-106-400-normal.woff2
+2023/10/19 20:08:01 copy /tmp/work/files/yusei-magic-107-400-normal.woff2 -> /output/files/yusei-magic-107-400-normal.woff2
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-108-400-normal.woff.br /tmp/work/files/yusei-magic-108-400-normal.woff
+2023/10/19 20:08:01 br /tmp/work/files/yusei-magic-104-400-normal.woff -> /output/files/yusei-magic-104-400-normal.woff.br
+2023/10/19 20:08:01 gz /tmp/work/files/yusei-magic-104-400-normal.woff -> /output/files/yusei-magic-104-400-normal.woff.gz
+2023/10/19 20:08:01 copy /tmp/work/files/yusei-magic-108-400-normal.woff2 -> /output/files/yusei-magic-108-400-normal.woff2
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-109-400-normal.woff.br /tmp/work/files/yusei-magic-109-400-normal.woff
+2023/10/19 20:08:01 br /tmp/work/files/yusei-magic-106-400-normal.woff -> /output/files/yusei-magic-106-400-normal.woff.br
+2023/10/19 20:08:01 gz /tmp/work/files/yusei-magic-106-400-normal.woff -> /output/files/yusei-magic-106-400-normal.woff.gz
+2023/10/19 20:08:01 copy /tmp/work/files/yusei-magic-109-400-normal.woff2 -> /output/files/yusei-magic-109-400-normal.woff2
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-11-400-normal.woff.br /tmp/work/files/yusei-magic-11-400-normal.woff
+2023/10/19 20:08:01 br /tmp/work/files/yusei-magic-105-400-normal.woff -> /output/files/yusei-magic-105-400-normal.woff.br
+2023/10/19 20:08:01 br /tmp/work/files/yusei-magic-10-400-normal.woff -> /output/files/yusei-magic-10-400-normal.woff.br
+2023/10/19 20:08:01 gz /tmp/work/files/yusei-magic-105-400-normal.woff -> /output/files/yusei-magic-105-400-normal.woff.gz
+2023/10/19 20:08:01 gz /tmp/work/files/yusei-magic-10-400-normal.woff -> /output/files/yusei-magic-10-400-normal.woff.gz
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-110-400-normal.woff.br /tmp/work/files/yusei-magic-110-400-normal.woff
+2023/10/19 20:08:01 copy /tmp/work/files/yusei-magic-11-400-normal.woff2 -> /output/files/yusei-magic-11-400-normal.woff2
+2023/10/19 20:08:01 br /tmp/work/files/yusei-magic-109-400-normal.woff -> /output/files/yusei-magic-109-400-normal.woff.br
+2023/10/19 20:08:01 copy /tmp/work/files/yusei-magic-110-400-normal.woff2 -> /output/files/yusei-magic-110-400-normal.woff2
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-111-400-normal.woff.br /tmp/work/files/yusei-magic-111-400-normal.woff
+2023/10/19 20:08:01 gz /tmp/work/files/yusei-magic-109-400-normal.woff -> /output/files/yusei-magic-109-400-normal.woff.gz
+2023/10/19 20:08:01 copy /tmp/work/files/yusei-magic-111-400-normal.woff2 -> /output/files/yusei-magic-111-400-normal.woff2
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-112-400-normal.woff.br /tmp/work/files/yusei-magic-112-400-normal.woff
+2023/10/19 20:08:01 br /tmp/work/files/yusei-magic-107-400-normal.woff -> /output/files/yusei-magic-107-400-normal.woff.br
+2023/10/19 20:08:01 gz /tmp/work/files/yusei-magic-107-400-normal.woff -> /output/files/yusei-magic-107-400-normal.woff.gz
+2023/10/19 20:08:01 br /tmp/work/files/yusei-magic-108-400-normal.woff -> /output/files/yusei-magic-108-400-normal.woff.br
+2023/10/19 20:08:01 copy /tmp/work/files/yusei-magic-112-400-normal.woff2 -> /output/files/yusei-magic-112-400-normal.woff2
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-113-400-normal.woff.br /tmp/work/files/yusei-magic-113-400-normal.woff
+2023/10/19 20:08:01 gz /tmp/work/files/yusei-magic-108-400-normal.woff -> /output/files/yusei-magic-108-400-normal.woff.gz
+2023/10/19 20:08:01 copy /tmp/work/files/yusei-magic-113-400-normal.woff2 -> /output/files/yusei-magic-113-400-normal.woff2
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-114-400-normal.woff.br /tmp/work/files/yusei-magic-114-400-normal.woff
+2023/10/19 20:08:01 br /tmp/work/files/yusei-magic-111-400-normal.woff -> /output/files/yusei-magic-111-400-normal.woff.br
+2023/10/19 20:08:01 gz /tmp/work/files/yusei-magic-111-400-normal.woff -> /output/files/yusei-magic-111-400-normal.woff.gz
+2023/10/19 20:08:01 br /tmp/work/files/yusei-magic-110-400-normal.woff -> /output/files/yusei-magic-110-400-normal.woff.br
+2023/10/19 20:08:01 copy /tmp/work/files/yusei-magic-114-400-normal.woff2 -> /output/files/yusei-magic-114-400-normal.woff2
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-115-400-normal.woff.br /tmp/work/files/yusei-magic-115-400-normal.woff
+2023/10/19 20:08:01 gz /tmp/work/files/yusei-magic-110-400-normal.woff -> /output/files/yusei-magic-110-400-normal.woff.gz
+2023/10/19 20:08:01 br /tmp/work/files/yusei-magic-113-400-normal.woff -> /output/files/yusei-magic-113-400-normal.woff.br
+2023/10/19 20:08:01 gz /tmp/work/files/yusei-magic-113-400-normal.woff -> /output/files/yusei-magic-113-400-normal.woff.gz
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-116-400-normal.woff.br /tmp/work/files/yusei-magic-116-400-normal.woff
+2023/10/19 20:08:01 br /tmp/work/files/yusei-magic-112-400-normal.woff -> /output/files/yusei-magic-112-400-normal.woff.br
+2023/10/19 20:08:01 copy /tmp/work/files/yusei-magic-115-400-normal.woff2 -> /output/files/yusei-magic-115-400-normal.woff2
+2023/10/19 20:08:01 gz /tmp/work/files/yusei-magic-112-400-normal.woff -> /output/files/yusei-magic-112-400-normal.woff.gz
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-117-400-normal.woff.br /tmp/work/files/yusei-magic-117-400-normal.woff
+2023/10/19 20:08:01 br /tmp/work/files/yusei-magic-114-400-normal.woff -> /output/files/yusei-magic-114-400-normal.woff.br
+2023/10/19 20:08:01 copy /tmp/work/files/yusei-magic-116-400-normal.woff2 -> /output/files/yusei-magic-116-400-normal.woff2
+2023/10/19 20:08:01 gz /tmp/work/files/yusei-magic-114-400-normal.woff -> /output/files/yusei-magic-114-400-normal.woff.gz
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-118-400-normal.woff.br /tmp/work/files/yusei-magic-118-400-normal.woff
+2023/10/19 20:08:01 copy /tmp/work/files/yusei-magic-117-400-normal.woff2 -> /output/files/yusei-magic-117-400-normal.woff2
+2023/10/19 20:08:01 copy /tmp/work/files/yusei-magic-118-400-normal.woff2 -> /output/files/yusei-magic-118-400-normal.woff2
+2023/10/19 20:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-119-400-normal.woff.br /tmp/work/files/yusei-magic-119-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-117-400-normal.woff -> /output/files/yusei-magic-117-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-117-400-normal.woff -> /output/files/yusei-magic-117-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-119-400-normal.woff2 -> /output/files/yusei-magic-119-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-12-400-normal.woff.br /tmp/work/files/yusei-magic-12-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-115-400-normal.woff -> /output/files/yusei-magic-115-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-115-400-normal.woff -> /output/files/yusei-magic-115-400-normal.woff.gz
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-116-400-normal.woff -> /output/files/yusei-magic-116-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-116-400-normal.woff -> /output/files/yusei-magic-116-400-normal.woff.gz
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-13-400-normal.woff.br /tmp/work/files/yusei-magic-13-400-normal.woff
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-12-400-normal.woff2 -> /output/files/yusei-magic-12-400-normal.woff2
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-13-400-normal.woff2 -> /output/files/yusei-magic-13-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-14-400-normal.woff.br /tmp/work/files/yusei-magic-14-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-118-400-normal.woff -> /output/files/yusei-magic-118-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-118-400-normal.woff -> /output/files/yusei-magic-118-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-14-400-normal.woff2 -> /output/files/yusei-magic-14-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-15-400-normal.woff.br /tmp/work/files/yusei-magic-15-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-11-400-normal.woff -> /output/files/yusei-magic-11-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-11-400-normal.woff -> /output/files/yusei-magic-11-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-15-400-normal.woff2 -> /output/files/yusei-magic-15-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-16-400-normal.woff.br /tmp/work/files/yusei-magic-16-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-119-400-normal.woff -> /output/files/yusei-magic-119-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-119-400-normal.woff -> /output/files/yusei-magic-119-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-16-400-normal.woff2 -> /output/files/yusei-magic-16-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-17-400-normal.woff.br /tmp/work/files/yusei-magic-17-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-13-400-normal.woff -> /output/files/yusei-magic-13-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-13-400-normal.woff -> /output/files/yusei-magic-13-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-17-400-normal.woff2 -> /output/files/yusei-magic-17-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-18-400-normal.woff.br /tmp/work/files/yusei-magic-18-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-12-400-normal.woff -> /output/files/yusei-magic-12-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-12-400-normal.woff -> /output/files/yusei-magic-12-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-18-400-normal.woff2 -> /output/files/yusei-magic-18-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-19-400-normal.woff.br /tmp/work/files/yusei-magic-19-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-15-400-normal.woff -> /output/files/yusei-magic-15-400-normal.woff.br
+2023/10/19 20:08:02 sri /tmp/work/400.min.css -> /output/400.min.css.sri
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400.min.css.br /tmp/work/400.min.css
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-14-400-normal.woff -> /output/files/yusei-magic-14-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-15-400-normal.woff -> /output/files/yusei-magic-15-400-normal.woff.gz
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-14-400-normal.woff -> /output/files/yusei-magic-14-400-normal.woff.gz
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-2-400-normal.woff.br /tmp/work/files/yusei-magic-2-400-normal.woff
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-19-400-normal.woff2 -> /output/files/yusei-magic-19-400-normal.woff2
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-2-400-normal.woff2 -> /output/files/yusei-magic-2-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-20-400-normal.woff.br /tmp/work/files/yusei-magic-20-400-normal.woff
+2023/10/19 20:08:02 sri /tmp/work/index.min.css -> /output/index.min.css.sri
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.css.br /tmp/work/index.min.css
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-17-400-normal.woff -> /output/files/yusei-magic-17-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-17-400-normal.woff -> /output/files/yusei-magic-17-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-20-400-normal.woff2 -> /output/files/yusei-magic-20-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-21-400-normal.woff.br /tmp/work/files/yusei-magic-21-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-2-400-normal.woff -> /output/files/yusei-magic-2-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-2-400-normal.woff -> /output/files/yusei-magic-2-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-21-400-normal.woff2 -> /output/files/yusei-magic-21-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-22-400-normal.woff.br /tmp/work/files/yusei-magic-22-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-16-400-normal.woff -> /output/files/yusei-magic-16-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-16-400-normal.woff -> /output/files/yusei-magic-16-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-22-400-normal.woff2 -> /output/files/yusei-magic-22-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-23-400-normal.woff.br /tmp/work/files/yusei-magic-23-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-20-400-normal.woff -> /output/files/yusei-magic-20-400-normal.woff.br
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-18-400-normal.woff -> /output/files/yusei-magic-18-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-20-400-normal.woff -> /output/files/yusei-magic-20-400-normal.woff.gz
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-18-400-normal.woff -> /output/files/yusei-magic-18-400-normal.woff.gz
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-24-400-normal.woff.br /tmp/work/files/yusei-magic-24-400-normal.woff
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-23-400-normal.woff2 -> /output/files/yusei-magic-23-400-normal.woff2
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-24-400-normal.woff2 -> /output/files/yusei-magic-24-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-25-400-normal.woff.br /tmp/work/files/yusei-magic-25-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-19-400-normal.woff -> /output/files/yusei-magic-19-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-19-400-normal.woff -> /output/files/yusei-magic-19-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-25-400-normal.woff2 -> /output/files/yusei-magic-25-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-26-400-normal.woff.br /tmp/work/files/yusei-magic-26-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-21-400-normal.woff -> /output/files/yusei-magic-21-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-21-400-normal.woff -> /output/files/yusei-magic-21-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-26-400-normal.woff2 -> /output/files/yusei-magic-26-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-27-400-normal.woff.br /tmp/work/files/yusei-magic-27-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-22-400-normal.woff -> /output/files/yusei-magic-22-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-22-400-normal.woff -> /output/files/yusei-magic-22-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-27-400-normal.woff2 -> /output/files/yusei-magic-27-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-28-400-normal.woff.br /tmp/work/files/yusei-magic-28-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-25-400-normal.woff -> /output/files/yusei-magic-25-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-25-400-normal.woff -> /output/files/yusei-magic-25-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-28-400-normal.woff2 -> /output/files/yusei-magic-28-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-29-400-normal.woff.br /tmp/work/files/yusei-magic-29-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-26-400-normal.woff -> /output/files/yusei-magic-26-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-26-400-normal.woff -> /output/files/yusei-magic-26-400-normal.woff.gz
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-24-400-normal.woff -> /output/files/yusei-magic-24-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-24-400-normal.woff -> /output/files/yusei-magic-24-400-normal.woff.gz
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-27-400-normal.woff -> /output/files/yusei-magic-27-400-normal.woff.br
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-3-400-normal.woff.br /tmp/work/files/yusei-magic-3-400-normal.woff
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-29-400-normal.woff2 -> /output/files/yusei-magic-29-400-normal.woff2
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-27-400-normal.woff -> /output/files/yusei-magic-27-400-normal.woff.gz
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-30-400-normal.woff.br /tmp/work/files/yusei-magic-30-400-normal.woff
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-3-400-normal.woff2 -> /output/files/yusei-magic-3-400-normal.woff2
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-30-400-normal.woff2 -> /output/files/yusei-magic-30-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-31-400-normal.woff.br /tmp/work/files/yusei-magic-31-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-28-400-normal.woff -> /output/files/yusei-magic-28-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-28-400-normal.woff -> /output/files/yusei-magic-28-400-normal.woff.gz
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-23-400-normal.woff -> /output/files/yusei-magic-23-400-normal.woff.br
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-31-400-normal.woff2 -> /output/files/yusei-magic-31-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-32-400-normal.woff.br /tmp/work/files/yusei-magic-32-400-normal.woff
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-23-400-normal.woff -> /output/files/yusei-magic-23-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-32-400-normal.woff2 -> /output/files/yusei-magic-32-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-33-400-normal.woff.br /tmp/work/files/yusei-magic-33-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-3-400-normal.woff -> /output/files/yusei-magic-3-400-normal.woff.br
+2023/10/19 20:08:02 br /tmp/work/400.min.css -> /output/400.min.css.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-3-400-normal.woff -> /output/files/yusei-magic-3-400-normal.woff.gz
+2023/10/19 20:08:02 br /tmp/work/index.min.css -> /output/index.min.css.br
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-33-400-normal.woff2 -> /output/files/yusei-magic-33-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-34-400-normal.woff.br /tmp/work/files/yusei-magic-34-400-normal.woff
+2023/10/19 20:08:02 gz /tmp/work/400.min.css -> /output/400.min.css.gz
+2023/10/19 20:08:02 sri /tmp/work/400.css -> /output/400.css.sri
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400.css.br /tmp/work/400.css
+2023/10/19 20:08:02 gz /tmp/work/index.min.css -> /output/index.min.css.gz
+2023/10/19 20:08:02 sri /tmp/work/index.css -> /output/index.css.sri
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.css.br /tmp/work/index.css
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-29-400-normal.woff -> /output/files/yusei-magic-29-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-29-400-normal.woff -> /output/files/yusei-magic-29-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-34-400-normal.woff2 -> /output/files/yusei-magic-34-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-35-400-normal.woff.br /tmp/work/files/yusei-magic-35-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-33-400-normal.woff -> /output/files/yusei-magic-33-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-33-400-normal.woff -> /output/files/yusei-magic-33-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-35-400-normal.woff2 -> /output/files/yusei-magic-35-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-36-400-normal.woff.br /tmp/work/files/yusei-magic-36-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-32-400-normal.woff -> /output/files/yusei-magic-32-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-32-400-normal.woff -> /output/files/yusei-magic-32-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-36-400-normal.woff2 -> /output/files/yusei-magic-36-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-37-400-normal.woff.br /tmp/work/files/yusei-magic-37-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-30-400-normal.woff -> /output/files/yusei-magic-30-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-30-400-normal.woff -> /output/files/yusei-magic-30-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-37-400-normal.woff2 -> /output/files/yusei-magic-37-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-38-400-normal.woff.br /tmp/work/files/yusei-magic-38-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-31-400-normal.woff -> /output/files/yusei-magic-31-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-31-400-normal.woff -> /output/files/yusei-magic-31-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-38-400-normal.woff2 -> /output/files/yusei-magic-38-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-39-400-normal.woff.br /tmp/work/files/yusei-magic-39-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-36-400-normal.woff -> /output/files/yusei-magic-36-400-normal.woff.br
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-34-400-normal.woff -> /output/files/yusei-magic-34-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-36-400-normal.woff -> /output/files/yusei-magic-36-400-normal.woff.gz
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-35-400-normal.woff -> /output/files/yusei-magic-35-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-34-400-normal.woff -> /output/files/yusei-magic-34-400-normal.woff.gz
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-4-400-normal.woff.br /tmp/work/files/yusei-magic-4-400-normal.woff
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-39-400-normal.woff2 -> /output/files/yusei-magic-39-400-normal.woff2
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-35-400-normal.woff -> /output/files/yusei-magic-35-400-normal.woff.gz
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-40-400-normal.woff.br /tmp/work/files/yusei-magic-40-400-normal.woff
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-4-400-normal.woff2 -> /output/files/yusei-magic-4-400-normal.woff2
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-40-400-normal.woff2 -> /output/files/yusei-magic-40-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-41-400-normal.woff.br /tmp/work/files/yusei-magic-41-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-4-400-normal.woff -> /output/files/yusei-magic-4-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-4-400-normal.woff -> /output/files/yusei-magic-4-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-41-400-normal.woff2 -> /output/files/yusei-magic-41-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-42-400-normal.woff.br /tmp/work/files/yusei-magic-42-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-38-400-normal.woff -> /output/files/yusei-magic-38-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-38-400-normal.woff -> /output/files/yusei-magic-38-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-42-400-normal.woff2 -> /output/files/yusei-magic-42-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-43-400-normal.woff.br /tmp/work/files/yusei-magic-43-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-39-400-normal.woff -> /output/files/yusei-magic-39-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-39-400-normal.woff -> /output/files/yusei-magic-39-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-43-400-normal.woff2 -> /output/files/yusei-magic-43-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-44-400-normal.woff.br /tmp/work/files/yusei-magic-44-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-37-400-normal.woff -> /output/files/yusei-magic-37-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-37-400-normal.woff -> /output/files/yusei-magic-37-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-44-400-normal.woff2 -> /output/files/yusei-magic-44-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-45-400-normal.woff.br /tmp/work/files/yusei-magic-45-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-40-400-normal.woff -> /output/files/yusei-magic-40-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-40-400-normal.woff -> /output/files/yusei-magic-40-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-45-400-normal.woff2 -> /output/files/yusei-magic-45-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-46-400-normal.woff.br /tmp/work/files/yusei-magic-46-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-43-400-normal.woff -> /output/files/yusei-magic-43-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-43-400-normal.woff -> /output/files/yusei-magic-43-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-46-400-normal.woff2 -> /output/files/yusei-magic-46-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-47-400-normal.woff.br /tmp/work/files/yusei-magic-47-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-42-400-normal.woff -> /output/files/yusei-magic-42-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-42-400-normal.woff -> /output/files/yusei-magic-42-400-normal.woff.gz
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-41-400-normal.woff -> /output/files/yusei-magic-41-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-41-400-normal.woff -> /output/files/yusei-magic-41-400-normal.woff.gz
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-48-400-normal.woff.br /tmp/work/files/yusei-magic-48-400-normal.woff
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-47-400-normal.woff2 -> /output/files/yusei-magic-47-400-normal.woff2
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-48-400-normal.woff2 -> /output/files/yusei-magic-48-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-49-400-normal.woff.br /tmp/work/files/yusei-magic-49-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-46-400-normal.woff -> /output/files/yusei-magic-46-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-46-400-normal.woff -> /output/files/yusei-magic-46-400-normal.woff.gz
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-45-400-normal.woff -> /output/files/yusei-magic-45-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-45-400-normal.woff -> /output/files/yusei-magic-45-400-normal.woff.gz
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-5-400-normal.woff.br /tmp/work/files/yusei-magic-5-400-normal.woff
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-49-400-normal.woff2 -> /output/files/yusei-magic-49-400-normal.woff2
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-5-400-normal.woff2 -> /output/files/yusei-magic-5-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-50-400-normal.woff.br /tmp/work/files/yusei-magic-50-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-44-400-normal.woff -> /output/files/yusei-magic-44-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-44-400-normal.woff -> /output/files/yusei-magic-44-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-50-400-normal.woff2 -> /output/files/yusei-magic-50-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-51-400-normal.woff.br /tmp/work/files/yusei-magic-51-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-51-400-normal.woff -> /output/files/yusei-magic-51-400-normal.woff.br
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-47-400-normal.woff -> /output/files/yusei-magic-47-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-51-400-normal.woff -> /output/files/yusei-magic-51-400-normal.woff.gz
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-47-400-normal.woff -> /output/files/yusei-magic-47-400-normal.woff.gz
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-52-400-normal.woff.br /tmp/work/files/yusei-magic-52-400-normal.woff
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-51-400-normal.woff2 -> /output/files/yusei-magic-51-400-normal.woff2
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-50-400-normal.woff -> /output/files/yusei-magic-50-400-normal.woff.br
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-52-400-normal.woff2 -> /output/files/yusei-magic-52-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-53-400-normal.woff.br /tmp/work/files/yusei-magic-53-400-normal.woff
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-50-400-normal.woff -> /output/files/yusei-magic-50-400-normal.woff.gz
+2023/10/19 20:08:02 br /tmp/work/400.css -> /output/400.css.br
+2023/10/19 20:08:02 br /tmp/work/index.css -> /output/index.css.br
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-53-400-normal.woff2 -> /output/files/yusei-magic-53-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-54-400-normal.woff.br /tmp/work/files/yusei-magic-54-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-53-400-normal.woff -> /output/files/yusei-magic-53-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-53-400-normal.woff -> /output/files/yusei-magic-53-400-normal.woff.gz
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-54-400-normal.woff -> /output/files/yusei-magic-54-400-normal.woff.br
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-54-400-normal.woff2 -> /output/files/yusei-magic-54-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-55-400-normal.woff.br /tmp/work/files/yusei-magic-55-400-normal.woff
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-54-400-normal.woff -> /output/files/yusei-magic-54-400-normal.woff.gz
+2023/10/19 20:08:02 gz /tmp/work/400.css -> /output/400.css.gz
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-56-400-normal.woff.br /tmp/work/files/yusei-magic-56-400-normal.woff
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-55-400-normal.woff2 -> /output/files/yusei-magic-55-400-normal.woff2
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-48-400-normal.woff -> /output/files/yusei-magic-48-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-48-400-normal.woff -> /output/files/yusei-magic-48-400-normal.woff.gz
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-57-400-normal.woff.br /tmp/work/files/yusei-magic-57-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-52-400-normal.woff -> /output/files/yusei-magic-52-400-normal.woff.br
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-56-400-normal.woff2 -> /output/files/yusei-magic-56-400-normal.woff2
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-52-400-normal.woff -> /output/files/yusei-magic-52-400-normal.woff.gz
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-58-400-normal.woff.br /tmp/work/files/yusei-magic-58-400-normal.woff
+2023/10/19 20:08:02 gz /tmp/work/index.css -> /output/index.css.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-57-400-normal.woff2 -> /output/files/yusei-magic-57-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-59-400-normal.woff.br /tmp/work/files/yusei-magic-59-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-55-400-normal.woff -> /output/files/yusei-magic-55-400-normal.woff.br
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-58-400-normal.woff2 -> /output/files/yusei-magic-58-400-normal.woff2
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-55-400-normal.woff -> /output/files/yusei-magic-55-400-normal.woff.gz
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-6-400-normal.woff.br /tmp/work/files/yusei-magic-6-400-normal.woff
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-59-400-normal.woff2 -> /output/files/yusei-magic-59-400-normal.woff2
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-56-400-normal.woff -> /output/files/yusei-magic-56-400-normal.woff.br
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-6-400-normal.woff2 -> /output/files/yusei-magic-6-400-normal.woff2
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-56-400-normal.woff -> /output/files/yusei-magic-56-400-normal.woff.gz
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-60-400-normal.woff.br /tmp/work/files/yusei-magic-60-400-normal.woff
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-60-400-normal.woff2 -> /output/files/yusei-magic-60-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-61-400-normal.woff.br /tmp/work/files/yusei-magic-61-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-57-400-normal.woff -> /output/files/yusei-magic-57-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-57-400-normal.woff -> /output/files/yusei-magic-57-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-61-400-normal.woff2 -> /output/files/yusei-magic-61-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-62-400-normal.woff.br /tmp/work/files/yusei-magic-62-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-49-400-normal.woff -> /output/files/yusei-magic-49-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-49-400-normal.woff -> /output/files/yusei-magic-49-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-62-400-normal.woff2 -> /output/files/yusei-magic-62-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-63-400-normal.woff.br /tmp/work/files/yusei-magic-63-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-58-400-normal.woff -> /output/files/yusei-magic-58-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-58-400-normal.woff -> /output/files/yusei-magic-58-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-63-400-normal.woff2 -> /output/files/yusei-magic-63-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-64-400-normal.woff.br /tmp/work/files/yusei-magic-64-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-59-400-normal.woff -> /output/files/yusei-magic-59-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-59-400-normal.woff -> /output/files/yusei-magic-59-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-64-400-normal.woff2 -> /output/files/yusei-magic-64-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-65-400-normal.woff.br /tmp/work/files/yusei-magic-65-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-60-400-normal.woff -> /output/files/yusei-magic-60-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-60-400-normal.woff -> /output/files/yusei-magic-60-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-65-400-normal.woff2 -> /output/files/yusei-magic-65-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-66-400-normal.woff.br /tmp/work/files/yusei-magic-66-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-5-400-normal.woff -> /output/files/yusei-magic-5-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-5-400-normal.woff -> /output/files/yusei-magic-5-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-66-400-normal.woff2 -> /output/files/yusei-magic-66-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-67-400-normal.woff.br /tmp/work/files/yusei-magic-67-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-62-400-normal.woff -> /output/files/yusei-magic-62-400-normal.woff.br
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-63-400-normal.woff -> /output/files/yusei-magic-63-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-62-400-normal.woff -> /output/files/yusei-magic-62-400-normal.woff.gz
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-63-400-normal.woff -> /output/files/yusei-magic-63-400-normal.woff.gz
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-68-400-normal.woff.br /tmp/work/files/yusei-magic-68-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-61-400-normal.woff -> /output/files/yusei-magic-61-400-normal.woff.br
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-67-400-normal.woff2 -> /output/files/yusei-magic-67-400-normal.woff2
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-61-400-normal.woff -> /output/files/yusei-magic-61-400-normal.woff.gz
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-69-400-normal.woff.br /tmp/work/files/yusei-magic-69-400-normal.woff
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-68-400-normal.woff2 -> /output/files/yusei-magic-68-400-normal.woff2
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-69-400-normal.woff2 -> /output/files/yusei-magic-69-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-7-400-normal.woff.br /tmp/work/files/yusei-magic-7-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-64-400-normal.woff -> /output/files/yusei-magic-64-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-64-400-normal.woff -> /output/files/yusei-magic-64-400-normal.woff.gz
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-65-400-normal.woff -> /output/files/yusei-magic-65-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-65-400-normal.woff -> /output/files/yusei-magic-65-400-normal.woff.gz
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-70-400-normal.woff.br /tmp/work/files/yusei-magic-70-400-normal.woff
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-7-400-normal.woff2 -> /output/files/yusei-magic-7-400-normal.woff2
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-70-400-normal.woff2 -> /output/files/yusei-magic-70-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-71-400-normal.woff.br /tmp/work/files/yusei-magic-71-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-66-400-normal.woff -> /output/files/yusei-magic-66-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-66-400-normal.woff -> /output/files/yusei-magic-66-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-71-400-normal.woff2 -> /output/files/yusei-magic-71-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-72-400-normal.woff.br /tmp/work/files/yusei-magic-72-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-69-400-normal.woff -> /output/files/yusei-magic-69-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-69-400-normal.woff -> /output/files/yusei-magic-69-400-normal.woff.gz
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-67-400-normal.woff -> /output/files/yusei-magic-67-400-normal.woff.br
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-72-400-normal.woff2 -> /output/files/yusei-magic-72-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-73-400-normal.woff.br /tmp/work/files/yusei-magic-73-400-normal.woff
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-67-400-normal.woff -> /output/files/yusei-magic-67-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-73-400-normal.woff2 -> /output/files/yusei-magic-73-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-74-400-normal.woff.br /tmp/work/files/yusei-magic-74-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-68-400-normal.woff -> /output/files/yusei-magic-68-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-68-400-normal.woff -> /output/files/yusei-magic-68-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-74-400-normal.woff2 -> /output/files/yusei-magic-74-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-75-400-normal.woff.br /tmp/work/files/yusei-magic-75-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-70-400-normal.woff -> /output/files/yusei-magic-70-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-70-400-normal.woff -> /output/files/yusei-magic-70-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-75-400-normal.woff2 -> /output/files/yusei-magic-75-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-76-400-normal.woff.br /tmp/work/files/yusei-magic-76-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-71-400-normal.woff -> /output/files/yusei-magic-71-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-71-400-normal.woff -> /output/files/yusei-magic-71-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-76-400-normal.woff2 -> /output/files/yusei-magic-76-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-77-400-normal.woff.br /tmp/work/files/yusei-magic-77-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-72-400-normal.woff -> /output/files/yusei-magic-72-400-normal.woff.br
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-74-400-normal.woff -> /output/files/yusei-magic-74-400-normal.woff.br
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-6-400-normal.woff -> /output/files/yusei-magic-6-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-72-400-normal.woff -> /output/files/yusei-magic-72-400-normal.woff.gz
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-74-400-normal.woff -> /output/files/yusei-magic-74-400-normal.woff.gz
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-78-400-normal.woff.br /tmp/work/files/yusei-magic-78-400-normal.woff
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-6-400-normal.woff -> /output/files/yusei-magic-6-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-77-400-normal.woff2 -> /output/files/yusei-magic-77-400-normal.woff2
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-73-400-normal.woff -> /output/files/yusei-magic-73-400-normal.woff.br
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-79-400-normal.woff.br /tmp/work/files/yusei-magic-79-400-normal.woff
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-73-400-normal.woff -> /output/files/yusei-magic-73-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-78-400-normal.woff2 -> /output/files/yusei-magic-78-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-8-400-normal.woff.br /tmp/work/files/yusei-magic-8-400-normal.woff
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-79-400-normal.woff2 -> /output/files/yusei-magic-79-400-normal.woff2
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-8-400-normal.woff2 -> /output/files/yusei-magic-8-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-80-400-normal.woff.br /tmp/work/files/yusei-magic-80-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-75-400-normal.woff -> /output/files/yusei-magic-75-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-75-400-normal.woff -> /output/files/yusei-magic-75-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-80-400-normal.woff2 -> /output/files/yusei-magic-80-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-81-400-normal.woff.br /tmp/work/files/yusei-magic-81-400-normal.woff
+2023/10/19 20:08:02 br /tmp/work/files/yusei-magic-76-400-normal.woff -> /output/files/yusei-magic-76-400-normal.woff.br
+2023/10/19 20:08:02 gz /tmp/work/files/yusei-magic-76-400-normal.woff -> /output/files/yusei-magic-76-400-normal.woff.gz
+2023/10/19 20:08:02 copy /tmp/work/files/yusei-magic-81-400-normal.woff2 -> /output/files/yusei-magic-81-400-normal.woff2
+2023/10/19 20:08:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-82-400-normal.woff.br /tmp/work/files/yusei-magic-82-400-normal.woff
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-77-400-normal.woff -> /output/files/yusei-magic-77-400-normal.woff.br
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-77-400-normal.woff -> /output/files/yusei-magic-77-400-normal.woff.gz
+2023/10/19 20:08:03 copy /tmp/work/files/yusei-magic-82-400-normal.woff2 -> /output/files/yusei-magic-82-400-normal.woff2
+2023/10/19 20:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-83-400-normal.woff.br /tmp/work/files/yusei-magic-83-400-normal.woff
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-78-400-normal.woff -> /output/files/yusei-magic-78-400-normal.woff.br
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-78-400-normal.woff -> /output/files/yusei-magic-78-400-normal.woff.gz
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-7-400-normal.woff -> /output/files/yusei-magic-7-400-normal.woff.br
+2023/10/19 20:08:03 copy /tmp/work/files/yusei-magic-83-400-normal.woff2 -> /output/files/yusei-magic-83-400-normal.woff2
+2023/10/19 20:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-84-400-normal.woff.br /tmp/work/files/yusei-magic-84-400-normal.woff
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-7-400-normal.woff -> /output/files/yusei-magic-7-400-normal.woff.gz
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-79-400-normal.woff -> /output/files/yusei-magic-79-400-normal.woff.br
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-79-400-normal.woff -> /output/files/yusei-magic-79-400-normal.woff.gz
+2023/10/19 20:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-85-400-normal.woff.br /tmp/work/files/yusei-magic-85-400-normal.woff
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-80-400-normal.woff -> /output/files/yusei-magic-80-400-normal.woff.br
+2023/10/19 20:08:03 copy /tmp/work/files/yusei-magic-84-400-normal.woff2 -> /output/files/yusei-magic-84-400-normal.woff2
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-80-400-normal.woff -> /output/files/yusei-magic-80-400-normal.woff.gz
+2023/10/19 20:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-86-400-normal.woff.br /tmp/work/files/yusei-magic-86-400-normal.woff
+2023/10/19 20:08:03 copy /tmp/work/files/yusei-magic-85-400-normal.woff2 -> /output/files/yusei-magic-85-400-normal.woff2
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-81-400-normal.woff -> /output/files/yusei-magic-81-400-normal.woff.br
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-81-400-normal.woff -> /output/files/yusei-magic-81-400-normal.woff.gz
+2023/10/19 20:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-87-400-normal.woff.br /tmp/work/files/yusei-magic-87-400-normal.woff
+2023/10/19 20:08:03 copy /tmp/work/files/yusei-magic-86-400-normal.woff2 -> /output/files/yusei-magic-86-400-normal.woff2
+2023/10/19 20:08:03 copy /tmp/work/files/yusei-magic-87-400-normal.woff2 -> /output/files/yusei-magic-87-400-normal.woff2
+2023/10/19 20:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-88-400-normal.woff.br /tmp/work/files/yusei-magic-88-400-normal.woff
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-82-400-normal.woff -> /output/files/yusei-magic-82-400-normal.woff.br
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-82-400-normal.woff -> /output/files/yusei-magic-82-400-normal.woff.gz
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-83-400-normal.woff -> /output/files/yusei-magic-83-400-normal.woff.br
+2023/10/19 20:08:03 copy /tmp/work/files/yusei-magic-88-400-normal.woff2 -> /output/files/yusei-magic-88-400-normal.woff2
+2023/10/19 20:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-89-400-normal.woff.br /tmp/work/files/yusei-magic-89-400-normal.woff
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-83-400-normal.woff -> /output/files/yusei-magic-83-400-normal.woff.gz
+2023/10/19 20:08:03 copy /tmp/work/files/yusei-magic-89-400-normal.woff2 -> /output/files/yusei-magic-89-400-normal.woff2
+2023/10/19 20:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-9-400-normal.woff.br /tmp/work/files/yusei-magic-9-400-normal.woff
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-88-400-normal.woff -> /output/files/yusei-magic-88-400-normal.woff.br
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-85-400-normal.woff -> /output/files/yusei-magic-85-400-normal.woff.br
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-88-400-normal.woff -> /output/files/yusei-magic-88-400-normal.woff.gz
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-85-400-normal.woff -> /output/files/yusei-magic-85-400-normal.woff.gz
+2023/10/19 20:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-90-400-normal.woff.br /tmp/work/files/yusei-magic-90-400-normal.woff
+2023/10/19 20:08:03 copy /tmp/work/files/yusei-magic-9-400-normal.woff2 -> /output/files/yusei-magic-9-400-normal.woff2
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-86-400-normal.woff -> /output/files/yusei-magic-86-400-normal.woff.br
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-86-400-normal.woff -> /output/files/yusei-magic-86-400-normal.woff.gz
+2023/10/19 20:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-91-400-normal.woff.br /tmp/work/files/yusei-magic-91-400-normal.woff
+2023/10/19 20:08:03 copy /tmp/work/files/yusei-magic-90-400-normal.woff2 -> /output/files/yusei-magic-90-400-normal.woff2
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-87-400-normal.woff -> /output/files/yusei-magic-87-400-normal.woff.br
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-84-400-normal.woff -> /output/files/yusei-magic-84-400-normal.woff.br
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-87-400-normal.woff -> /output/files/yusei-magic-87-400-normal.woff.gz
+2023/10/19 20:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-92-400-normal.woff.br /tmp/work/files/yusei-magic-92-400-normal.woff
+2023/10/19 20:08:03 copy /tmp/work/files/yusei-magic-91-400-normal.woff2 -> /output/files/yusei-magic-91-400-normal.woff2
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-84-400-normal.woff -> /output/files/yusei-magic-84-400-normal.woff.gz
+2023/10/19 20:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-93-400-normal.woff.br /tmp/work/files/yusei-magic-93-400-normal.woff
+2023/10/19 20:08:03 copy /tmp/work/files/yusei-magic-92-400-normal.woff2 -> /output/files/yusei-magic-92-400-normal.woff2
+2023/10/19 20:08:03 copy /tmp/work/files/yusei-magic-93-400-normal.woff2 -> /output/files/yusei-magic-93-400-normal.woff2
+2023/10/19 20:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-94-400-normal.woff.br /tmp/work/files/yusei-magic-94-400-normal.woff
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-89-400-normal.woff -> /output/files/yusei-magic-89-400-normal.woff.br
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-89-400-normal.woff -> /output/files/yusei-magic-89-400-normal.woff.gz
+2023/10/19 20:08:03 copy /tmp/work/files/yusei-magic-94-400-normal.woff2 -> /output/files/yusei-magic-94-400-normal.woff2
+2023/10/19 20:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-95-400-normal.woff.br /tmp/work/files/yusei-magic-95-400-normal.woff
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-8-400-normal.woff -> /output/files/yusei-magic-8-400-normal.woff.br
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-8-400-normal.woff -> /output/files/yusei-magic-8-400-normal.woff.gz
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-90-400-normal.woff -> /output/files/yusei-magic-90-400-normal.woff.br
+2023/10/19 20:08:03 copy /tmp/work/files/yusei-magic-95-400-normal.woff2 -> /output/files/yusei-magic-95-400-normal.woff2
+2023/10/19 20:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-96-400-normal.woff.br /tmp/work/files/yusei-magic-96-400-normal.woff
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-90-400-normal.woff -> /output/files/yusei-magic-90-400-normal.woff.gz
+2023/10/19 20:08:03 copy /tmp/work/files/yusei-magic-96-400-normal.woff2 -> /output/files/yusei-magic-96-400-normal.woff2
+2023/10/19 20:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-97-400-normal.woff.br /tmp/work/files/yusei-magic-97-400-normal.woff
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-91-400-normal.woff -> /output/files/yusei-magic-91-400-normal.woff.br
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-91-400-normal.woff -> /output/files/yusei-magic-91-400-normal.woff.gz
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-93-400-normal.woff -> /output/files/yusei-magic-93-400-normal.woff.br
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-93-400-normal.woff -> /output/files/yusei-magic-93-400-normal.woff.gz
+2023/10/19 20:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-98-400-normal.woff.br /tmp/work/files/yusei-magic-98-400-normal.woff
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-92-400-normal.woff -> /output/files/yusei-magic-92-400-normal.woff.br
+2023/10/19 20:08:03 copy /tmp/work/files/yusei-magic-97-400-normal.woff2 -> /output/files/yusei-magic-97-400-normal.woff2
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-92-400-normal.woff -> /output/files/yusei-magic-92-400-normal.woff.gz
+2023/10/19 20:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-99-400-normal.woff.br /tmp/work/files/yusei-magic-99-400-normal.woff
+2023/10/19 20:08:03 copy /tmp/work/files/yusei-magic-98-400-normal.woff2 -> /output/files/yusei-magic-98-400-normal.woff2
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-95-400-normal.woff -> /output/files/yusei-magic-95-400-normal.woff.br
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-95-400-normal.woff -> /output/files/yusei-magic-95-400-normal.woff.gz
+2023/10/19 20:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-japanese-400-normal.woff.br /tmp/work/files/yusei-magic-japanese-400-normal.woff
+2023/10/19 20:08:03 copy /tmp/work/files/yusei-magic-99-400-normal.woff2 -> /output/files/yusei-magic-99-400-normal.woff2
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-94-400-normal.woff -> /output/files/yusei-magic-94-400-normal.woff.br
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-94-400-normal.woff -> /output/files/yusei-magic-94-400-normal.woff.gz
+2023/10/19 20:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-latin-400-normal.woff.br /tmp/work/files/yusei-magic-latin-400-normal.woff
+2023/10/19 20:08:03 copy /tmp/work/files/yusei-magic-japanese-400-normal.woff2 -> /output/files/yusei-magic-japanese-400-normal.woff2
+2023/10/19 20:08:03 copy /tmp/work/files/yusei-magic-latin-400-normal.woff2 -> /output/files/yusei-magic-latin-400-normal.woff2
+2023/10/19 20:08:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/yusei-magic-latin-ext-400-normal.woff.br /tmp/work/files/yusei-magic-latin-ext-400-normal.woff
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-96-400-normal.woff -> /output/files/yusei-magic-96-400-normal.woff.br
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-97-400-normal.woff -> /output/files/yusei-magic-97-400-normal.woff.br
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-96-400-normal.woff -> /output/files/yusei-magic-96-400-normal.woff.gz
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-97-400-normal.woff -> /output/files/yusei-magic-97-400-normal.woff.gz
+2023/10/19 20:08:03 copy /tmp/work/files/yusei-magic-latin-ext-400-normal.woff2 -> /output/files/yusei-magic-latin-ext-400-normal.woff2
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-9-400-normal.woff -> /output/files/yusei-magic-9-400-normal.woff.br
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-9-400-normal.woff -> /output/files/yusei-magic-9-400-normal.woff.gz
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-98-400-normal.woff -> /output/files/yusei-magic-98-400-normal.woff.br
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-98-400-normal.woff -> /output/files/yusei-magic-98-400-normal.woff.gz
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-99-400-normal.woff -> /output/files/yusei-magic-99-400-normal.woff.br
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-99-400-normal.woff -> /output/files/yusei-magic-99-400-normal.woff.gz
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-latin-400-normal.woff -> /output/files/yusei-magic-latin-400-normal.woff.br
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-latin-400-normal.woff -> /output/files/yusei-magic-latin-400-normal.woff.gz
+2023/10/19 20:08:03 br /tmp/work/files/yusei-magic-latin-ext-400-normal.woff -> /output/files/yusei-magic-latin-ext-400-normal.woff.br
+2023/10/19 20:08:03 gz /tmp/work/files/yusei-magic-latin-ext-400-normal.woff -> /output/files/yusei-magic-latin-ext-400-normal.woff.gz
+2023/10/19 20:08:05 br /tmp/work/files/yusei-magic-japanese-400-normal.woff -> /output/files/yusei-magic-japanese-400-normal.woff.br
+2023/10/19 20:08:06 gz /tmp/work/files/yusei-magic-japanese-400-normal.woff -> /output/files/yusei-magic-japanese-400-normal.woff.gz
+2023/10/19 20:08:06 processed fontsource-yusei-magic
