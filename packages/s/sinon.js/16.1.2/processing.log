@@ -1,0 +1,14 @@
+2023/10/19 17:36:39 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/10/19 17:36:39 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/pkg/sinon.min.js /tmp/work/pkg/sinon.js
+2023/10/19 17:36:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sinon-no-sourcemaps.cjs.br /tmp/work/pkg/sinon-no-sourcemaps.cjs
+2023/10/19 17:36:41 br /tmp/work/pkg/sinon-no-sourcemaps.cjs -> /output/sinon-no-sourcemaps.cjs.br
+2023/10/19 17:36:41 gz /tmp/work/pkg/sinon-no-sourcemaps.cjs -> /output/sinon-no-sourcemaps.cjs.gz
+2023/10/19 17:36:44 sri /tmp/work/pkg/sinon.min.js -> /output/sinon.min.js.sri
+2023/10/19 17:36:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sinon.min.js.br /tmp/work/pkg/sinon.min.js
+2023/10/19 17:36:45 br /tmp/work/pkg/sinon.min.js -> /output/sinon.min.js.br
+2023/10/19 17:36:45 gz /tmp/work/pkg/sinon.min.js -> /output/sinon.min.js.gz
+2023/10/19 17:36:45 sri /tmp/work/pkg/sinon.js -> /output/sinon.js.sri
+2023/10/19 17:36:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sinon.js.br /tmp/work/pkg/sinon.js
+2023/10/19 17:36:49 br /tmp/work/pkg/sinon.js -> /output/sinon.js.br
+2023/10/19 17:36:49 gz /tmp/work/pkg/sinon.js -> /output/sinon.js.gz
+2023/10/19 17:36:49 processed sinon.js
