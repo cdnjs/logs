@@ -1,0 +1,14 @@
+2023/10/27 19:36:02 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/10/27 19:36:02 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/acorn.min.js /tmp/work/dist/acorn.js
+2023/10/27 19:36:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/acorn.d.mts.br /tmp/work/dist/acorn.d.mts
+2023/10/27 19:36:02 br /tmp/work/dist/acorn.d.mts -> /output/acorn.d.mts.br
+2023/10/27 19:36:02 gz /tmp/work/dist/acorn.d.mts -> /output/acorn.d.mts.gz
+2023/10/27 19:36:03 sri /tmp/work/dist/acorn.min.js -> /output/acorn.min.js.sri
+2023/10/27 19:36:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/acorn.min.js.br /tmp/work/dist/acorn.min.js
+2023/10/27 19:36:03 br /tmp/work/dist/acorn.min.js -> /output/acorn.min.js.br
+2023/10/27 19:36:03 gz /tmp/work/dist/acorn.min.js -> /output/acorn.min.js.gz
+2023/10/27 19:36:03 sri /tmp/work/dist/acorn.js -> /output/acorn.js.sri
+2023/10/27 19:36:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/acorn.js.br /tmp/work/dist/acorn.js
+2023/10/27 19:36:04 br /tmp/work/dist/acorn.js -> /output/acorn.js.br
+2023/10/27 19:36:04 gz /tmp/work/dist/acorn.js -> /output/acorn.js.gz
+2023/10/27 19:36:04 processed acorn
