@@ -1,0 +1,11 @@
+2023/10/28 03:30:42 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/10/28 03:30:42 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/src/ua-parser.min.js /tmp/work/src/ua-parser.js
+2023/10/28 03:30:43 sri /tmp/work/src/ua-parser.min.js -> /output/ua-parser.min.js.sri
+2023/10/28 03:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ua-parser.min.js.br /tmp/work/src/ua-parser.min.js
+2023/10/28 03:30:43 br /tmp/work/src/ua-parser.min.js -> /output/ua-parser.min.js.br
+2023/10/28 03:30:43 gz /tmp/work/src/ua-parser.min.js -> /output/ua-parser.min.js.gz
+2023/10/28 03:30:43 sri /tmp/work/src/ua-parser.js -> /output/ua-parser.js.sri
+2023/10/28 03:30:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ua-parser.js.br /tmp/work/src/ua-parser.js
+2023/10/28 03:30:43 br /tmp/work/src/ua-parser.js -> /output/ua-parser.js.br
+2023/10/28 03:30:43 gz /tmp/work/src/ua-parser.js -> /output/ua-parser.js.gz
+2023/10/28 03:30:43 processed UAParser.js
