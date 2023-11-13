@@ -1,0 +1,29 @@
+2023/11/13 01:01:43 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/11/13 01:01:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/abcjs-basic-min.min.js /tmp/work/dist/abcjs-basic-min.js
+2023/11/13 01:01:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/abcjs-basic.min.js /tmp/work/dist/abcjs-basic.js
+2023/11/13 01:01:43 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/abcjs-plugin-min.min.js /tmp/work/dist/abcjs-plugin-min.js
+2023/11/13 01:01:50 sri /tmp/work/dist/abcjs-plugin-min.min.js -> /output/abcjs-plugin-min.min.js.sri
+2023/11/13 01:01:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/abcjs-plugin-min.min.js.br /tmp/work/dist/abcjs-plugin-min.min.js
+2023/11/13 01:01:51 sri /tmp/work/dist/abcjs-basic-min.min.js -> /output/abcjs-basic-min.min.js.sri
+2023/11/13 01:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/abcjs-basic-min.min.js.br /tmp/work/dist/abcjs-basic-min.min.js
+2023/11/13 01:01:51 br /tmp/work/dist/abcjs-plugin-min.min.js -> /output/abcjs-plugin-min.min.js.br
+2023/11/13 01:01:51 gz /tmp/work/dist/abcjs-plugin-min.min.js -> /output/abcjs-plugin-min.min.js.gz
+2023/11/13 01:01:51 sri /tmp/work/dist/abcjs-plugin-min.js -> /output/abcjs-plugin-min.js.sri
+2023/11/13 01:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/abcjs-plugin-min.js.br /tmp/work/dist/abcjs-plugin-min.js
+2023/11/13 01:01:51 sri /tmp/work/dist/abcjs-basic.min.js -> /output/abcjs-basic.min.js.sri
+2023/11/13 01:01:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/abcjs-basic.min.js.br /tmp/work/dist/abcjs-basic.min.js
+2023/11/13 01:01:52 br /tmp/work/dist/abcjs-basic-min.min.js -> /output/abcjs-basic-min.min.js.br
+2023/11/13 01:01:52 gz /tmp/work/dist/abcjs-basic-min.min.js -> /output/abcjs-basic-min.min.js.gz
+2023/11/13 01:01:52 sri /tmp/work/dist/abcjs-basic-min.js -> /output/abcjs-basic-min.js.sri
+2023/11/13 01:01:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/abcjs-basic-min.js.br /tmp/work/dist/abcjs-basic-min.js
+2023/11/13 01:01:52 br /tmp/work/dist/abcjs-plugin-min.js -> /output/abcjs-plugin-min.js.br
+2023/11/13 01:01:52 gz /tmp/work/dist/abcjs-plugin-min.js -> /output/abcjs-plugin-min.js.gz
+2023/11/13 01:01:52 br /tmp/work/dist/abcjs-basic.min.js -> /output/abcjs-basic.min.js.br
+2023/11/13 01:01:52 gz /tmp/work/dist/abcjs-basic.min.js -> /output/abcjs-basic.min.js.gz
+2023/11/13 01:01:52 sri /tmp/work/dist/abcjs-basic.js -> /output/abcjs-basic.js.sri
+2023/11/13 01:01:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/abcjs-basic.js.br /tmp/work/dist/abcjs-basic.js
+2023/11/13 01:01:53 br /tmp/work/dist/abcjs-basic-min.js -> /output/abcjs-basic-min.js.br
+2023/11/13 01:01:53 gz /tmp/work/dist/abcjs-basic-min.js -> /output/abcjs-basic-min.js.gz
+2023/11/13 01:01:54 br /tmp/work/dist/abcjs-basic.js -> /output/abcjs-basic.js.br
+2023/11/13 01:01:55 gz /tmp/work/dist/abcjs-basic.js -> /output/abcjs-basic.js.gz
+2023/11/13 01:01:55 processed abcjs
