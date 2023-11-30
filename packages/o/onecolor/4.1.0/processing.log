@@ -1,0 +1,26 @@
+2023/11/30 07:37:08 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/11/30 07:37:09 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/one-color-all.min.js /tmp/work/one-color-all.js
+2023/11/30 07:37:09 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/one-color.min.js /tmp/work/one-color.js
+2023/11/30 07:37:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/one-color-all.js.map.br /tmp/work/one-color-all.js.map
+2023/11/30 07:37:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/one-color.js.map.br /tmp/work/one-color.js.map
+2023/11/30 07:37:09 br /tmp/work/one-color.js.map -> /output/one-color.js.map.br
+2023/11/30 07:37:09 gz /tmp/work/one-color.js.map -> /output/one-color.js.map.gz
+2023/11/30 07:37:09 br /tmp/work/one-color-all.js.map -> /output/one-color-all.js.map.br
+2023/11/30 07:37:09 gz /tmp/work/one-color-all.js.map -> /output/one-color-all.js.map.gz
+2023/11/30 07:37:09 sri /tmp/work/one-color.min.js -> /output/one-color.min.js.sri
+2023/11/30 07:37:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/one-color.min.js.br /tmp/work/one-color.min.js
+2023/11/30 07:37:09 br /tmp/work/one-color.min.js -> /output/one-color.min.js.br
+2023/11/30 07:37:09 gz /tmp/work/one-color.min.js -> /output/one-color.min.js.gz
+2023/11/30 07:37:09 sri /tmp/work/one-color.js -> /output/one-color.js.sri
+2023/11/30 07:37:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/one-color.js.br /tmp/work/one-color.js
+2023/11/30 07:37:09 br /tmp/work/one-color.js -> /output/one-color.js.br
+2023/11/30 07:37:09 gz /tmp/work/one-color.js -> /output/one-color.js.gz
+2023/11/30 07:37:10 sri /tmp/work/one-color-all.min.js -> /output/one-color-all.min.js.sri
+2023/11/30 07:37:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/one-color-all.min.js.br /tmp/work/one-color-all.min.js
+2023/11/30 07:37:10 br /tmp/work/one-color-all.min.js -> /output/one-color-all.min.js.br
+2023/11/30 07:37:10 gz /tmp/work/one-color-all.min.js -> /output/one-color-all.min.js.gz
+2023/11/30 07:37:10 sri /tmp/work/one-color-all.js -> /output/one-color-all.js.sri
+2023/11/30 07:37:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/one-color-all.js.br /tmp/work/one-color-all.js
+2023/11/30 07:37:10 br /tmp/work/one-color-all.js -> /output/one-color-all.js.br
+2023/11/30 07:37:10 gz /tmp/work/one-color-all.js -> /output/one-color-all.js.gz
+2023/11/30 07:37:10 processed onecolor
