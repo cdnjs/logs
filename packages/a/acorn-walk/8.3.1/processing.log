@@ -1,0 +1,11 @@
+2023/12/06 15:32:23 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/12/06 15:32:23 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/walk.min.js /tmp/work/dist/walk.js
+2023/12/06 15:32:23 sri /tmp/work/dist/walk.min.js -> /output/walk.min.js.sri
+2023/12/06 15:32:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/walk.min.js.br /tmp/work/dist/walk.min.js
+2023/12/06 15:32:23 br /tmp/work/dist/walk.min.js -> /output/walk.min.js.br
+2023/12/06 15:32:23 gz /tmp/work/dist/walk.min.js -> /output/walk.min.js.gz
+2023/12/06 15:32:23 sri /tmp/work/dist/walk.js -> /output/walk.js.sri
+2023/12/06 15:32:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/walk.js.br /tmp/work/dist/walk.js
+2023/12/06 15:32:23 br /tmp/work/dist/walk.js -> /output/walk.js.br
+2023/12/06 15:32:23 gz /tmp/work/dist/walk.js -> /output/walk.js.gz
+2023/12/06 15:32:23 processed acorn-walk
