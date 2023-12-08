@@ -1,0 +1,885 @@
+config: {"authors":[{"name":"Jason Desrosiers \u003cjdesrosi@gmail.com\u003e"}],"autoupdate":{"source":"npm","target":"@hyperjump/json-schema","fileMap":[{"basePath":"","files":["annotations/**/*.js","bundle/*.js","draft-04/*.js","draft-06/*.js","draft-07/*.js","draft-2019-09/**/*.js","draft-2020-12/**/*.js","lib/**/*.js","openapi-3-0/**/*.js","openapi-3-1/**/*.js","stable/**/*.js"]}]},"description":"A JSON Schema validator with support for custom keywords, vocabularies, and dialects","filename":"stable/index.js","keywords":["JSON Schema","json-schema","jsonschema","JSON","Schema","2020-12","2019-09","draft-07","draft-06","draft-04","vocabulary","vocabularies"],"license":"MIT","name":"hyperjump-json-schema","repository":{"type":"git","url":"https://github.com/hyperjump-io/json-schema"},"author":"Jason Desrosiers \u003cjdesrosi@gmail.com\u003e"}
+KV keys:
+- hyperjump-json-schema/1.6.6/annotations/annotated-instance.js.br
+- hyperjump-json-schema/1.6.6/annotations/annotated-instance.js.gz
+- hyperjump-json-schema/1.6.6/annotations/annotated-instance.min.js.br
+- hyperjump-json-schema/1.6.6/annotations/annotated-instance.min.js.gz
+- hyperjump-json-schema/1.6.6/annotations/index.js.br
+- hyperjump-json-schema/1.6.6/annotations/index.js.gz
+- hyperjump-json-schema/1.6.6/annotations/index.min.js.br
+- hyperjump-json-schema/1.6.6/annotations/index.min.js.gz
+- hyperjump-json-schema/1.6.6/annotations/validation-error.js.br
+- hyperjump-json-schema/1.6.6/annotations/validation-error.js.gz
+- hyperjump-json-schema/1.6.6/annotations/validation-error.min.js.br
+- hyperjump-json-schema/1.6.6/annotations/validation-error.min.js.gz
+- hyperjump-json-schema/1.6.6/bundle/index.js.br
+- hyperjump-json-schema/1.6.6/bundle/index.js.gz
+- hyperjump-json-schema/1.6.6/bundle/index.min.js.br
+- hyperjump-json-schema/1.6.6/bundle/index.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-04/additionalItems.js.br
+- hyperjump-json-schema/1.6.6/draft-04/additionalItems.js.gz
+- hyperjump-json-schema/1.6.6/draft-04/additionalItems.min.js.br
+- hyperjump-json-schema/1.6.6/draft-04/additionalItems.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-04/dependencies.js.br
+- hyperjump-json-schema/1.6.6/draft-04/dependencies.js.gz
+- hyperjump-json-schema/1.6.6/draft-04/dependencies.min.js.br
+- hyperjump-json-schema/1.6.6/draft-04/dependencies.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-04/exclusiveMaximum.js.br
+- hyperjump-json-schema/1.6.6/draft-04/exclusiveMaximum.js.gz
+- hyperjump-json-schema/1.6.6/draft-04/exclusiveMaximum.min.js.br
+- hyperjump-json-schema/1.6.6/draft-04/exclusiveMaximum.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-04/exclusiveMinimum.js.br
+- hyperjump-json-schema/1.6.6/draft-04/exclusiveMinimum.js.gz
+- hyperjump-json-schema/1.6.6/draft-04/exclusiveMinimum.min.js.br
+- hyperjump-json-schema/1.6.6/draft-04/exclusiveMinimum.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-04/id.js.br
+- hyperjump-json-schema/1.6.6/draft-04/id.js.gz
+- hyperjump-json-schema/1.6.6/draft-04/id.min.js.br
+- hyperjump-json-schema/1.6.6/draft-04/id.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-04/index.js.br
+- hyperjump-json-schema/1.6.6/draft-04/index.js.gz
+- hyperjump-json-schema/1.6.6/draft-04/index.min.js.br
+- hyperjump-json-schema/1.6.6/draft-04/index.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-04/items.js.br
+- hyperjump-json-schema/1.6.6/draft-04/items.js.gz
+- hyperjump-json-schema/1.6.6/draft-04/items.min.js.br
+- hyperjump-json-schema/1.6.6/draft-04/items.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-04/maximum.js.br
+- hyperjump-json-schema/1.6.6/draft-04/maximum.js.gz
+- hyperjump-json-schema/1.6.6/draft-04/maximum.min.js.br
+- hyperjump-json-schema/1.6.6/draft-04/maximum.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-04/minimum.js.br
+- hyperjump-json-schema/1.6.6/draft-04/minimum.js.gz
+- hyperjump-json-schema/1.6.6/draft-04/minimum.min.js.br
+- hyperjump-json-schema/1.6.6/draft-04/minimum.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-04/ref.js.br
+- hyperjump-json-schema/1.6.6/draft-04/ref.js.gz
+- hyperjump-json-schema/1.6.6/draft-04/ref.min.js.br
+- hyperjump-json-schema/1.6.6/draft-04/ref.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-04/schema.js.br
+- hyperjump-json-schema/1.6.6/draft-04/schema.js.gz
+- hyperjump-json-schema/1.6.6/draft-04/schema.min.js.br
+- hyperjump-json-schema/1.6.6/draft-04/schema.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-06/contains.js.br
+- hyperjump-json-schema/1.6.6/draft-06/contains.js.gz
+- hyperjump-json-schema/1.6.6/draft-06/contains.min.js.br
+- hyperjump-json-schema/1.6.6/draft-06/contains.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-06/index.js.br
+- hyperjump-json-schema/1.6.6/draft-06/index.js.gz
+- hyperjump-json-schema/1.6.6/draft-06/index.min.js.br
+- hyperjump-json-schema/1.6.6/draft-06/index.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-06/schema.js.br
+- hyperjump-json-schema/1.6.6/draft-06/schema.js.gz
+- hyperjump-json-schema/1.6.6/draft-06/schema.min.js.br
+- hyperjump-json-schema/1.6.6/draft-06/schema.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-07/index.js.br
+- hyperjump-json-schema/1.6.6/draft-07/index.js.gz
+- hyperjump-json-schema/1.6.6/draft-07/index.min.js.br
+- hyperjump-json-schema/1.6.6/draft-07/index.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-07/schema.js.br
+- hyperjump-json-schema/1.6.6/draft-07/schema.js.gz
+- hyperjump-json-schema/1.6.6/draft-07/schema.min.js.br
+- hyperjump-json-schema/1.6.6/draft-07/schema.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-2019-09/contains.js.br
+- hyperjump-json-schema/1.6.6/draft-2019-09/contains.js.gz
+- hyperjump-json-schema/1.6.6/draft-2019-09/contains.min.js.br
+- hyperjump-json-schema/1.6.6/draft-2019-09/contains.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-2019-09/index.js.br
+- hyperjump-json-schema/1.6.6/draft-2019-09/index.js.gz
+- hyperjump-json-schema/1.6.6/draft-2019-09/index.min.js.br
+- hyperjump-json-schema/1.6.6/draft-2019-09/index.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/applicator.js.br
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/applicator.js.gz
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/applicator.min.js.br
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/applicator.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/content.js.br
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/content.js.gz
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/content.min.js.br
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/content.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/core.js.br
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/core.js.gz
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/core.min.js.br
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/core.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/format.js.br
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/format.js.gz
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/format.min.js.br
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/format.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/meta-data.js.br
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/meta-data.js.gz
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/meta-data.min.js.br
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/meta-data.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/validation.js.br
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/validation.js.gz
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/validation.min.js.br
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/validation.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-2019-09/recursiveAnchor.js.br
+- hyperjump-json-schema/1.6.6/draft-2019-09/recursiveAnchor.js.gz
+- hyperjump-json-schema/1.6.6/draft-2019-09/recursiveAnchor.min.js.br
+- hyperjump-json-schema/1.6.6/draft-2019-09/recursiveAnchor.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-2019-09/schema.js.br
+- hyperjump-json-schema/1.6.6/draft-2019-09/schema.js.gz
+- hyperjump-json-schema/1.6.6/draft-2019-09/schema.min.js.br
+- hyperjump-json-schema/1.6.6/draft-2019-09/schema.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-2020-12/dynamicAnchor.js.br
+- hyperjump-json-schema/1.6.6/draft-2020-12/dynamicAnchor.js.gz
+- hyperjump-json-schema/1.6.6/draft-2020-12/dynamicAnchor.min.js.br
+- hyperjump-json-schema/1.6.6/draft-2020-12/dynamicAnchor.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-2020-12/dynamicRef.js.br
+- hyperjump-json-schema/1.6.6/draft-2020-12/dynamicRef.js.gz
+- hyperjump-json-schema/1.6.6/draft-2020-12/dynamicRef.min.js.br
+- hyperjump-json-schema/1.6.6/draft-2020-12/dynamicRef.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-2020-12/index.js.br
+- hyperjump-json-schema/1.6.6/draft-2020-12/index.js.gz
+- hyperjump-json-schema/1.6.6/draft-2020-12/index.min.js.br
+- hyperjump-json-schema/1.6.6/draft-2020-12/index.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/applicator.js.br
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/applicator.js.gz
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/applicator.min.js.br
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/applicator.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/content.js.br
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/content.js.gz
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/content.min.js.br
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/content.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/core.js.br
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/core.js.gz
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/core.min.js.br
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/core.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/format-annotation.js.br
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/format-annotation.js.gz
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/format-annotation.min.js.br
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/format-annotation.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/format-assertion.js.br
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/format-assertion.js.gz
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/format-assertion.min.js.br
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/format-assertion.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/meta-data.js.br
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/meta-data.js.gz
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/meta-data.min.js.br
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/meta-data.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/unevaluated.js.br
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/unevaluated.js.gz
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/unevaluated.min.js.br
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/unevaluated.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/validation.js.br
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/validation.js.gz
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/validation.min.js.br
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/validation.min.js.gz
+- hyperjump-json-schema/1.6.6/draft-2020-12/schema.js.br
+- hyperjump-json-schema/1.6.6/draft-2020-12/schema.js.gz
+- hyperjump-json-schema/1.6.6/draft-2020-12/schema.min.js.br
+- hyperjump-json-schema/1.6.6/draft-2020-12/schema.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/common.js.br
+- hyperjump-json-schema/1.6.6/lib/common.js.gz
+- hyperjump-json-schema/1.6.6/lib/common.min.js.br
+- hyperjump-json-schema/1.6.6/lib/common.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/configuration.js.br
+- hyperjump-json-schema/1.6.6/lib/configuration.js.gz
+- hyperjump-json-schema/1.6.6/lib/configuration.min.js.br
+- hyperjump-json-schema/1.6.6/lib/configuration.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/context-uri.browser.js.br
+- hyperjump-json-schema/1.6.6/lib/context-uri.browser.js.gz
+- hyperjump-json-schema/1.6.6/lib/context-uri.browser.min.js.br
+- hyperjump-json-schema/1.6.6/lib/context-uri.browser.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/context-uri.js.br
+- hyperjump-json-schema/1.6.6/lib/context-uri.js.gz
+- hyperjump-json-schema/1.6.6/lib/context-uri.min.js.br
+- hyperjump-json-schema/1.6.6/lib/context-uri.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/core.js.br
+- hyperjump-json-schema/1.6.6/lib/core.js.gz
+- hyperjump-json-schema/1.6.6/lib/core.min.js.br
+- hyperjump-json-schema/1.6.6/lib/core.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/experimental.js.br
+- hyperjump-json-schema/1.6.6/lib/experimental.js.gz
+- hyperjump-json-schema/1.6.6/lib/experimental.min.js.br
+- hyperjump-json-schema/1.6.6/lib/experimental.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/fetch.browser.js.br
+- hyperjump-json-schema/1.6.6/lib/fetch.browser.js.gz
+- hyperjump-json-schema/1.6.6/lib/fetch.browser.min.js.br
+- hyperjump-json-schema/1.6.6/lib/fetch.browser.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/fetch.js.br
+- hyperjump-json-schema/1.6.6/lib/fetch.js.gz
+- hyperjump-json-schema/1.6.6/lib/fetch.min.js.br
+- hyperjump-json-schema/1.6.6/lib/fetch.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/index.js.br
+- hyperjump-json-schema/1.6.6/lib/index.js.gz
+- hyperjump-json-schema/1.6.6/lib/index.min.js.br
+- hyperjump-json-schema/1.6.6/lib/index.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/instance.js.br
+- hyperjump-json-schema/1.6.6/lib/instance.js.gz
+- hyperjump-json-schema/1.6.6/lib/instance.min.js.br
+- hyperjump-json-schema/1.6.6/lib/instance.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/invalid-schema-error.js.br
+- hyperjump-json-schema/1.6.6/lib/invalid-schema-error.js.gz
+- hyperjump-json-schema/1.6.6/lib/invalid-schema-error.min.js.br
+- hyperjump-json-schema/1.6.6/lib/invalid-schema-error.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/additionalProperties.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/additionalProperties.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/additionalProperties.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/additionalProperties.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/allOf.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/allOf.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/allOf.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/allOf.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/anchor.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/anchor.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/anchor.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/anchor.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/anyOf.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/anyOf.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/anyOf.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/anyOf.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/comment.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/comment.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/comment.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/comment.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/conditional.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/conditional.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/conditional.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/conditional.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/const.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/const.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/const.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/const.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/contains.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/contains.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/contains.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/contains.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/contentEncoding.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/contentEncoding.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/contentEncoding.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/contentEncoding.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/contentMediaType.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/contentMediaType.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/contentMediaType.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/contentMediaType.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/contentSchema.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/contentSchema.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/contentSchema.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/contentSchema.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/default.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/default.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/default.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/default.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/definitions.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/definitions.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/definitions.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/definitions.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/dependentRequired.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/dependentRequired.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/dependentRequired.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/dependentRequired.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/dependentSchemas.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/dependentSchemas.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/dependentSchemas.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/dependentSchemas.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/deprecated.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/deprecated.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/deprecated.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/deprecated.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/description.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/description.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/description.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/description.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/dynamicAnchor.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/dynamicAnchor.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/dynamicAnchor.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/dynamicAnchor.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/dynamicRef.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/dynamicRef.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/dynamicRef.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/dynamicRef.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/else.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/else.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/else.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/else.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/enum.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/enum.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/enum.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/enum.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/examples.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/examples.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/examples.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/examples.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/exclusiveMaximum.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/exclusiveMaximum.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/exclusiveMaximum.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/exclusiveMaximum.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/exclusiveMinimum.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/exclusiveMinimum.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/exclusiveMinimum.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/exclusiveMinimum.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/format.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/format.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/format.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/format.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/id.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/id.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/id.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/id.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/if.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/if.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/if.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/if.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/itemPattern.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/itemPattern.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/itemPattern.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/itemPattern.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/items.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/items.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/items.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/items.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/maxContains.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/maxContains.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/maxContains.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/maxContains.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/maxItems.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/maxItems.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/maxItems.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/maxItems.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/maxLength.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/maxLength.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/maxLength.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/maxLength.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/maxProperties.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/maxProperties.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/maxProperties.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/maxProperties.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/maximum.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/maximum.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/maximum.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/maximum.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/meta-data.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/meta-data.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/meta-data.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/meta-data.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/minContains.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/minContains.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/minContains.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/minContains.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/minItems.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/minItems.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/minItems.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/minItems.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/minLength.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/minLength.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/minLength.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/minLength.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/minProperties.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/minProperties.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/minProperties.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/minProperties.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/minimum.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/minimum.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/minimum.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/minimum.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/multipleOf.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/multipleOf.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/multipleOf.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/multipleOf.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/not.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/not.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/not.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/not.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/oneOf.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/oneOf.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/oneOf.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/oneOf.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/pattern.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/pattern.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/pattern.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/pattern.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/patternProperties.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/patternProperties.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/patternProperties.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/patternProperties.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/prefixItems.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/prefixItems.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/prefixItems.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/prefixItems.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/properties.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/properties.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/properties.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/properties.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/propertyDependencies.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/propertyDependencies.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/propertyDependencies.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/propertyDependencies.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/propertyNames.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/propertyNames.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/propertyNames.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/propertyNames.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/readOnly.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/readOnly.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/readOnly.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/readOnly.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/ref.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/ref.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/ref.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/ref.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/requireAllExcept.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/requireAllExcept.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/requireAllExcept.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/requireAllExcept.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/required.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/required.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/required.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/required.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/then.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/then.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/then.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/then.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/title.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/title.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/title.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/title.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/type.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/type.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/type.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/type.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/unevaluatedItems.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/unevaluatedItems.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/unevaluatedItems.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/unevaluatedItems.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/unevaluatedProperties.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/unevaluatedProperties.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/unevaluatedProperties.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/unevaluatedProperties.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/uniqueItems.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/uniqueItems.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/uniqueItems.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/uniqueItems.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/unknown.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/unknown.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/unknown.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/unknown.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/validation.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/validation.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/validation.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/validation.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/vocabulary.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/vocabulary.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/vocabulary.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/vocabulary.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/writeOnly.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/writeOnly.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords/writeOnly.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords/writeOnly.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords.js.gz
+- hyperjump-json-schema/1.6.6/lib/keywords.min.js.br
+- hyperjump-json-schema/1.6.6/lib/keywords.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/media-types.js.br
+- hyperjump-json-schema/1.6.6/lib/media-types.js.gz
+- hyperjump-json-schema/1.6.6/lib/media-types.min.js.br
+- hyperjump-json-schema/1.6.6/lib/media-types.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/nfa.js.br
+- hyperjump-json-schema/1.6.6/lib/nfa.js.gz
+- hyperjump-json-schema/1.6.6/lib/nfa.min.js.br
+- hyperjump-json-schema/1.6.6/lib/nfa.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/openapi.js.br
+- hyperjump-json-schema/1.6.6/lib/openapi.js.gz
+- hyperjump-json-schema/1.6.6/lib/openapi.min.js.br
+- hyperjump-json-schema/1.6.6/lib/openapi.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/pubsub.js.br
+- hyperjump-json-schema/1.6.6/lib/pubsub.js.gz
+- hyperjump-json-schema/1.6.6/lib/pubsub.min.js.br
+- hyperjump-json-schema/1.6.6/lib/pubsub.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/reference.js.br
+- hyperjump-json-schema/1.6.6/lib/reference.js.gz
+- hyperjump-json-schema/1.6.6/lib/reference.min.js.br
+- hyperjump-json-schema/1.6.6/lib/reference.min.js.gz
+- hyperjump-json-schema/1.6.6/lib/schema.js.br
+- hyperjump-json-schema/1.6.6/lib/schema.js.gz
+- hyperjump-json-schema/1.6.6/lib/schema.min.js.br
+- hyperjump-json-schema/1.6.6/lib/schema.min.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-0/dialect.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-0/dialect.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-0/dialect.min.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-0/dialect.min.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-0/discriminator.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-0/discriminator.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-0/discriminator.min.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-0/discriminator.min.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-0/example.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-0/example.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-0/example.min.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-0/example.min.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-0/externalDocs.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-0/externalDocs.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-0/externalDocs.min.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-0/externalDocs.min.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-0/index.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-0/index.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-0/index.min.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-0/index.min.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-0/nullable.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-0/nullable.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-0/nullable.min.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-0/nullable.min.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-0/schema/2021-09-28.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-0/schema/2021-09-28.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-0/schema/2021-09-28.min.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-0/schema/2021-09-28.min.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-0/type.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-0/type.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-0/type.min.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-0/type.min.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-0/xml.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-0/xml.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-0/xml.min.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-0/xml.min.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-1/dialect/base.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-1/dialect/base.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-1/dialect/base.min.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-1/dialect/base.min.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-1/index.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-1/index.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-1/index.min.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-1/index.min.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-1/meta/base.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-1/meta/base.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-1/meta/base.min.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-1/meta/base.min.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-1/schema/2022-10-07.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-1/schema/2022-10-07.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-1/schema/2022-10-07.min.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-1/schema/2022-10-07.min.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-1/schema-base/2022-10-07.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-1/schema-base/2022-10-07.js.gz
+- hyperjump-json-schema/1.6.6/openapi-3-1/schema-base/2022-10-07.min.js.br
+- hyperjump-json-schema/1.6.6/openapi-3-1/schema-base/2022-10-07.min.js.gz
+- hyperjump-json-schema/1.6.6/stable/index.js.br
+- hyperjump-json-schema/1.6.6/stable/index.js.gz
+- hyperjump-json-schema/1.6.6/stable/index.min.js.br
+- hyperjump-json-schema/1.6.6/stable/index.min.js.gz
+- hyperjump-json-schema/1.6.6/stable/meta/applicator.js.br
+- hyperjump-json-schema/1.6.6/stable/meta/applicator.js.gz
+- hyperjump-json-schema/1.6.6/stable/meta/applicator.min.js.br
+- hyperjump-json-schema/1.6.6/stable/meta/applicator.min.js.gz
+- hyperjump-json-schema/1.6.6/stable/meta/content.js.br
+- hyperjump-json-schema/1.6.6/stable/meta/content.js.gz
+- hyperjump-json-schema/1.6.6/stable/meta/content.min.js.br
+- hyperjump-json-schema/1.6.6/stable/meta/content.min.js.gz
+- hyperjump-json-schema/1.6.6/stable/meta/core.js.br
+- hyperjump-json-schema/1.6.6/stable/meta/core.js.gz
+- hyperjump-json-schema/1.6.6/stable/meta/core.min.js.br
+- hyperjump-json-schema/1.6.6/stable/meta/core.min.js.gz
+- hyperjump-json-schema/1.6.6/stable/meta/format-annotation.js.br
+- hyperjump-json-schema/1.6.6/stable/meta/format-annotation.js.gz
+- hyperjump-json-schema/1.6.6/stable/meta/format-annotation.min.js.br
+- hyperjump-json-schema/1.6.6/stable/meta/format-annotation.min.js.gz
+- hyperjump-json-schema/1.6.6/stable/meta/format-assertion.js.br
+- hyperjump-json-schema/1.6.6/stable/meta/format-assertion.js.gz
+- hyperjump-json-schema/1.6.6/stable/meta/format-assertion.min.js.br
+- hyperjump-json-schema/1.6.6/stable/meta/format-assertion.min.js.gz
+- hyperjump-json-schema/1.6.6/stable/meta/meta-data.js.br
+- hyperjump-json-schema/1.6.6/stable/meta/meta-data.js.gz
+- hyperjump-json-schema/1.6.6/stable/meta/meta-data.min.js.br
+- hyperjump-json-schema/1.6.6/stable/meta/meta-data.min.js.gz
+- hyperjump-json-schema/1.6.6/stable/meta/unevaluated.js.br
+- hyperjump-json-schema/1.6.6/stable/meta/unevaluated.js.gz
+- hyperjump-json-schema/1.6.6/stable/meta/unevaluated.min.js.br
+- hyperjump-json-schema/1.6.6/stable/meta/unevaluated.min.js.gz
+- hyperjump-json-schema/1.6.6/stable/meta/validation.js.br
+- hyperjump-json-schema/1.6.6/stable/meta/validation.js.gz
+- hyperjump-json-schema/1.6.6/stable/meta/validation.min.js.br
+- hyperjump-json-schema/1.6.6/stable/meta/validation.min.js.gz
+- hyperjump-json-schema/1.6.6/stable/validation.js.br
+- hyperjump-json-schema/1.6.6/stable/validation.js.gz
+- hyperjump-json-schema/1.6.6/stable/validation.min.js.br
+- hyperjump-json-schema/1.6.6/stable/validation.min.js.gz
+SRIs:
+- hyperjump-json-schema/1.6.6/draft-2019-09/index.js: sha512-PZQNfCGxs1VP/2m5qxhe4HrkMWwRl8+BPAdJkIzyKKebcvRBAkku6tjkjJMdFkif9GeyUYyNpPf2dtSCAeGK8A==
+- hyperjump-json-schema/1.6.6/lib/instance.js: sha512-mMP+qs1BPaCh1Iv3uPR3J/Pn7gEewj+W+ih30kHodC4ceaPXoh4TrTBORz8jq8mQLea0rS4TP9ExHNo5QGPe/A==
+- hyperjump-json-schema/1.6.6/lib/keywords/maxLength.js: sha512-X5RiuxvVgD+gSxN5l/zZ6SfBC8VBskusQ33u9c+Yc9xA3GO3ryrBfS+0Kq7MMOPgREpQXkEi+o1GpWvlDb7IyA==
+- hyperjump-json-schema/1.6.6/lib/nfa.js: sha512-a1GuoKRup5FjVrx8bkMzVkWAdpxMARqFUBO5I1AE0FhH+jcn4ixcG8aWex6n0LG4vDiKrwKxWsFJXf1VTheTug==
+- hyperjump-json-schema/1.6.6/draft-04/ref.min.js: sha512-ynELEfDjQOVXWfpshEKMyQlRJ3WtYO7HuHeJjsdOF+DouMCOOgIagGOdEK7Dv8DJnjRervgA95YDGGnRC9rTLg==
+- hyperjump-json-schema/1.6.6/lib/keywords/validation.js: sha512-GegC/Qa7YIazGF/hP8VQq/ClSiQGvihOpCtCaVgFnel1IdXqGCciLB/SunluNxpzj9zx+yeT6IcVsPG4Ys/2pg==
+- hyperjump-json-schema/1.6.6/lib/keywords/maxItems.js: sha512-JrmgmB597R8Vz5KQcicMFmtuAr37c1WLPuyZZtSNyewnwrBumlXxo1GsrTzHRmpNArZ20w4k3235+EWL4ISA6A==
+- hyperjump-json-schema/1.6.6/annotations/annotated-instance.min.js: sha512-yMv0K+FM6w1Y/rA4PabX/kXAa8QC7Xy6/GAgzvet8lBAAY7Q2T9s4lkn+WTAT2dEtedZDKQyFH18JG/1KylH3A==
+- hyperjump-json-schema/1.6.6/annotations/index.js: sha512-zixqk0ccQpGrGxfLpWnCOfB3gYdq+9XrnCTFUGS619Ij9x+YdcVts/843KPjk2IXBxGqCYTV1/+jY40fLjd58g==
+- hyperjump-json-schema/1.6.6/draft-04/schema.js: sha512-ZvJ3unnQvTfwGu92clleheoDy6MDFROIGwtcUqNrqFLqlzKNj8pfg/7CtYUCxvrtv45nZxOkuz0I6kY22jUnXA==
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/applicator.js: sha512-pJb5c5y6A4zm5+Ve7Ge7Lf9Yn8qGGp3zCcTg34qVYjMVexme5ZJYnmydL1FYUYx82o3haUCl/RLzuUR6JV81jw==
+- hyperjump-json-schema/1.6.6/lib/keywords/maximum.js: sha512-0adgaQBZHPbNm59F1ncA4j2bgApLx0EZh3Jh1hrsZe6V46swCEDi+lFih7rsD4dNt9JL7z3sY4xkBX4XuwY4/w==
+- hyperjump-json-schema/1.6.6/openapi-3-0/externalDocs.js: sha512-FvO0K6Wa3BhEI9VUVxEoVT9GXgEgp4pu9WmUJfJW0a5TowkVLzhIkcVIYjyp9cZZmm0PTvB7hpFCLT6zSGGQSQ==
+- hyperjump-json-schema/1.6.6/stable/meta/validation.min.js: sha512-AfLikmw3OL4g09MhX1JmQmB0dpacVpJOBG7s7HfSJZF08iJxWK+hOSo+RTHaBUGg1EkTiTpF6ht8FpPImOKdJQ==
+- hyperjump-json-schema/1.6.6/lib/keywords/unevaluatedItems.js: sha512-+raVIrXi2ikR+ShAoN9Rp+0r42zELwPalD5mdgBdEg5asO2MCim7dazBoJHz0gigGuzm+1948O5hIWhJRgb+Qg==
+- hyperjump-json-schema/1.6.6/openapi-3-0/externalDocs.min.js: sha512-tTWDmWA2JuK/m5cHLmYtyM5CueWpWOAWeuyjmYutVg0RQ76uFntMSVD9XMZ/zikD1ODPeI7NGA+wrCZgF27Ttg==
+- hyperjump-json-schema/1.6.6/openapi-3-0/nullable.js: sha512-dj5oehiEDYtrVtOs9qvg9S6AUV3wHklKNa6WMfpqBoTZEPlDkGn8CO8GGpfZMODemJzNPeQDYPqY5vWYKGqw7w==
+- hyperjump-json-schema/1.6.6/draft-06/schema.min.js: sha512-sS15ipfZxSnXxDyhC2VtTa/8OQstLrok8buqbI97eF1pXd9W+5AragNXIHIuw7IHnV2a8UzTpmUAWW0Fu7C8QA==
+- hyperjump-json-schema/1.6.6/lib/experimental.js: sha512-2gJDeE5xrPYF62xC/bhxI4ELxTPQT0/G+tzGykbjK3UZkPpYTwP5tnpuTnB2vATgwnX6yIVKHQFiBU/tlkd9hQ==
+- hyperjump-json-schema/1.6.6/lib/keywords/maxContains.js: sha512-NLyBSSEgewxg1J8Mi/lVmlBIoPLqDx43OLhlXYzmdRxa7KEkzTnmHaQTIvl4P+oEZBoSwTKZ7lKYyFsx4xOcuQ==
+- hyperjump-json-schema/1.6.6/lib/keywords/patternProperties.min.js: sha512-tIOLxqdWE18rILDz+zNb/aiNgfUaiCoAyjj7M4JIY3vZ6Ahzv+KswFHgWKvrlQmFBuEWywBpPTNCgpZxjwX9tg==
+- hyperjump-json-schema/1.6.6/draft-2019-09/schema.js: sha512-liT9VvsqiLk3g1LxvaLhJr55NHb5piTZpnkYYFxMolDSAjepQ3Ao1GB4hB8S9HLEepzYbvAZ66n1+d37RydDNA==
+- hyperjump-json-schema/1.6.6/lib/core.min.js: sha512-2rFdFgNeTfLGtqhRJ52L7w8rLZ+JXot+22LmMHmzrnyfpGtIwDhIKJKFOToXb01kaCvUEVxfmt9snPLqNuRGbQ==
+- hyperjump-json-schema/1.6.6/lib/keywords/minItems.js: sha512-4iBHIer1gynW8ORwqdSoyB5VMOKkzqqPsUfy1bZ/mBhx/+vIUkjgBcL/72Wgu9WGab+HAZsrMTtPVq4QOrXC9Q==
+- hyperjump-json-schema/1.6.6/stable/meta/content.min.js: sha512-EQWhTkh6AWEtPWxh7VqycGE/nBFXYYexOfPwSoNwRG0u3p0vaa2Hhe5AH0DidMoMrIZFJcZmCG2VfN6tBTsXXg==
+- hyperjump-json-schema/1.6.6/draft-04/id.js: sha512-PorheHFFazIURrS4oVydfRq+T8Xw02JSnlzAT22WJ2CRv1p89wHd4UHgYwEacBgnHvMbdWjdq04aJogPqPfIXg==
+- hyperjump-json-schema/1.6.6/lib/keywords/itemPattern.min.js: sha512-yhdpZogCDkFZ+QY+c1E23kz6IPD9dAQex4LXbfKJBIekVg69wrFvPI4edn7W6JQZxOB7loZ+wVfWfGUf3q+wTg==
+- hyperjump-json-schema/1.6.6/openapi-3-0/example.min.js: sha512-5TLGysB/CwDwY1irF5ZA9r25linbS9wuqyqUFXCBNKaBT+bs00zgGilshO6KakckyQ2bHMVj41ZqwE4QGVsaMQ==
+- hyperjump-json-schema/1.6.6/lib/configuration.js: sha512-yYvzIiIUXio8mZU0yZbkY8mjrheloav6+oEc76MY7uHnU/6XuRiFZgcbZ7Y7+aYzy9+fDNjDztvdwGESUHLD1w==
+- hyperjump-json-schema/1.6.6/lib/invalid-schema-error.js: sha512-xFYh2i5YIh3NTTYxBTBzYVUutANEfb2xrvwZWaKnWqagS2tTi/MsBIJBmUJ7F4fU6qDSzfyOVxSJcYE6O28nQQ==
+- hyperjump-json-schema/1.6.6/draft-04/exclusiveMinimum.js: sha512-snxZBS0x9ZVWF33os6lVPH4iMPWG838onp/s3CFygivAj7LOaihtrKhImWgO5+x9GU4AwPmDFYo1aYyLO1VhQA==
+- hyperjump-json-schema/1.6.6/draft-04/exclusiveMinimum.min.js: sha512-u+IvVx/ZCPoquxSqPFWt4HWLX4y75xm1slRIu4/34zGfJbeQNS0hQ5Mxwg+idQUCeCAb/CLgi5y4t3QYUUHWMg==
+- hyperjump-json-schema/1.6.6/draft-06/index.js: sha512-uF2zQaBZFH065eIkO0ByfUPYn1JDNUGz6m0MM9yJLpI1XBnZfBEukN/eOnm8LqQZ66fMBhbFvKvXJZ1alJDBYQ==
+- hyperjump-json-schema/1.6.6/draft-2020-12/dynamicAnchor.min.js: sha512-uc+9AhaHYIMy18ZS3jEoEXMajc3xliE/1UebH+UQxV61Q+vGOyqksVcD+p+7SCgVQUFYJiVtk8i8QTgtq4tHMA==
+- hyperjump-json-schema/1.6.6/lib/keywords/minProperties.min.js: sha512-MH/niYP0eG6Sn4TQozyMYvjypSufmBPtkTN1Lw27LN1I5jXnVVFy5zqzu8komz7cc4xMeHqapkITxb4vdf+cGg==
+- hyperjump-json-schema/1.6.6/openapi-3-0/schema/2021-09-28.min.js: sha512-DzrQKJRf4yqg6CuO7EreXTxXCJjBhVAYqG4IDf7UakKSR6I+bTCwhwljbU69GRgx7zFqY+vvIBL9Ni+QSn4OMQ==
+- hyperjump-json-schema/1.6.6/stable/validation.min.js: sha512-za3Ha4ojhudJhJEt1NzMQCwNkS2YyWQPcvKvabJClvveMhF14dbej6PH9NkiQnd900TQRkOO7/dgjKdxRmkbJg==
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/content.js: sha512-knjSeNFhWYL+U1vWiqWL7LOs4L1zBDVt3bWlIF/91fApm7kPCYd5hQaomWM0L7CTVRU1QQ+wJDP5ZIrO5uIkpQ==
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/meta-data.min.js: sha512-mAiTulMZBeq7bLSEeF5QUhPyL3Lhmx6tpXO2pNm14valC6UQ6yozPI973Pxg/2SVEbKCeYkhxQl/EMVKg7PchA==
+- hyperjump-json-schema/1.6.6/lib/keywords/minLength.min.js: sha512-fgsI85UgiXpkJk+rcjPD+WiUDB7yxB8Jtcc5SKn7GEoztXVtrIg7mTMuGMaVtLXCKMu+CyD4ej5JAEsUJxc+aA==
+- hyperjump-json-schema/1.6.6/lib/keywords/pattern.min.js: sha512-vJD9OMlDQRblO9xdYHnHT1jj7KSIV2F8KvWCH12A1CSLlrMMrQ/boiY6GiwrnnsXIf6AgufivQxjDt4s4zeHMw==
+- hyperjump-json-schema/1.6.6/lib/keywords/unknown.js: sha512-EAWvt5eO1dkAsXOf7gPVDLEY6GBkQ5mJBIKcJel5izI1jfApiWGKGddvS9A4+0xGsCbpMXPbu6b9yKS+3X4XPA==
+- hyperjump-json-schema/1.6.6/openapi-3-1/dialect/base.js: sha512-piqmVeAKN/qIIFE86KTjiuVImLJgjiO3WVOKK+K1c190F/hjXtRbTyDPP3FYRVjj3CindN5QaTd7wfFz8O/j8Q==
+- hyperjump-json-schema/1.6.6/stable/meta/format-assertion.min.js: sha512-Q0cNpoVUoRdzuVOY9baAdd9uGfbAJQcG4HcFKChLnOdHmtxLBASI1S+gRti7/PFpPaTs24gVonfb+lrCOS5RHw==
+- hyperjump-json-schema/1.6.6/draft-04/maximum.min.js: sha512-HZKgz9zBrHMcyINDOvnE00bP5JQot8uw+X8y8J0qUZ64EKclrme6fU2wwKQAAQLe9H/0BYG87Tqn/KizrQykcA==
+- hyperjump-json-schema/1.6.6/draft-04/minimum.js: sha512-yKSeibh86KOHSfBGF7aXvt7zc8AbFALYgyxVcGyb2YEwKi/2kDYlvoY7Hu7YNMIsOrQp5gf/evLTSpBsN3mzAw==
+- hyperjump-json-schema/1.6.6/lib/keywords/dynamicRef.min.js: sha512-OI6QXUsFq+oQXvomFOSZcDi/9UzhHlpJ3Wjma+O77wv72WKnK0eTqrMcdm3+6wWS6t+yppoSKfLBMzpWVlAQKw==
+- hyperjump-json-schema/1.6.6/lib/keywords/required.min.js: sha512-1iZtvAF0cj7I9Qehs0ByBtNBIBzppujbXOKrC+bq24SawNnQtTebJoMQ0ij7gdbMcxXm3iS5F7yxyAibf4kVnw==
+- hyperjump-json-schema/1.6.6/draft-04/exclusiveMaximum.min.js: sha512-F40PuT7YaNLUS5un0QNDjYuQEptj6AnMeuBnYGWTvXHI1z2cmdSiSXLenfbrVlU/D8M2mj/XQh+BjmSdY5h5BQ==
+- hyperjump-json-schema/1.6.6/draft-04/index.js: sha512-d9xzor+4KdC+YDv15u2DSRtjwvv7Bau2jKOg+0rWeqcFnEmIDwYzpfKoboCHEoXRAzvVx8fR0K0qHQFDpvDenQ==
+- hyperjump-json-schema/1.6.6/openapi-3-0/dialect.js: sha512-FwQyzJ7v/Jegu8v9tSt33iNmrc5h/cPGRsbE1Ce/U+EOR0090ZOcALudrDMP3bz4wIR36AJ/raL5gTo0+1h83w==
+- hyperjump-json-schema/1.6.6/draft-2019-09/schema.min.js: sha512-TtmUvI4i9n8Zz3DLKOjjRWgQ2WggpeAE7po2zcGMWA+/uCAhlutXp4gdtj8nDqhL3kX1bes5eUW4WifnhVwQSg==
+- hyperjump-json-schema/1.6.6/lib/keywords/oneOf.min.js: sha512-96yz3/6wtNTSUTS4s2cw2yzCeLmvLJaOH9bjUjPRNK4vjKzULA/m+flI7yJSQgRwX3z00kuB61jwnTLfCIs/SQ==
+- hyperjump-json-schema/1.6.6/draft-04/maximum.js: sha512-EZkX9HRM2cdZBUX6V5lqJdjij6bs6eZowJu/Ubof5nzve5bbQbL6lls4fT551huJw8GgdXZlVl7e+DwacicqBg==
+- hyperjump-json-schema/1.6.6/lib/common.js: sha512-GzQv1P0Wk4IISSrHsO+QcnXfE0TVY4MqdIWoqSct9gR5pPNauxYJNJKomTPUwNZ/+/RLiYDkM9rEQm/g2xz52w==
+- hyperjump-json-schema/1.6.6/stable/meta/content.js: sha512-d/AZIiwNb5892oqYSlDwAqkJowazfmVEaAV0fRPB5zECRGJRy0lb5ow9i7HKj7p5n8nOLsBMiLbv+8FA2cUWHg==
+- hyperjump-json-schema/1.6.6/lib/keywords/contentMediaType.min.js: sha512-MMi/LELhZFvAoDeLubD9kkJ79gIJEjZi73xOLtgRonoEyBW6gl+99MW/Eyk3Zv37f9JIOzjbF79THk2pt33lBg==
+- hyperjump-json-schema/1.6.6/lib/openapi.min.js: sha512-ZGEqmbphqZh8vHFlANKCTLMNS1apjC23aj+P/o9UAxiy6K9JAlTk/kPrTsMnuVT3ATwcIo0gJtiMTWqixNttkA==
+- hyperjump-json-schema/1.6.6/draft-04/dependencies.js: sha512-yHfR0PdMKEFHYjhgywF2OPij7Ftfq6yhQcYUhRVK+3x0ZO35aJGEIN+sQZGbzESBCN3a/uKA5Okp/fuS3tHh+w==
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/content.js: sha512-jZDf8tEKDndxNhL1CCq0SOhsfqAOlyyhFnQte5RYIpv8uC9fmTF5Uze77kyv4JZCRw/zfavikFLmynMJF8xtDA==
+- hyperjump-json-schema/1.6.6/lib/experimental.min.js: sha512-x5GsbLSULZDpnFVrUf7M21pFWaILkwRgW0mGhB/MTBUCBEUiiLBZaM2v2p1mcX/iYIwKQ54TzpgwTFeKI5gCJg==
+- hyperjump-json-schema/1.6.6/lib/keywords/const.min.js: sha512-FPxOnn3tknm0H1JIa/T7JfW0YFTqBFTs/qIE+8MpuQNLoaPeEXx7TFLPphYUIyp+j0osbzd4e2svI/XVfND32g==
+- hyperjump-json-schema/1.6.6/openapi-3-0/dialect.min.js: sha512-FArRNHgBKH8PTx2Dohv/Wfbzuodv0w/Mk8EHL6xGiUTC8DhFjl0rMB14JuNHhqSMmCRzL1JC/wXnwgAWR8sR9w==
+- hyperjump-json-schema/1.6.6/draft-04/additionalItems.min.js: sha512-qZyFGwRj8J4m8TzFyyFsgkV3DpTNzmcL3RxdqALplMMO+CfftTEoOjcNLKHWmHQ2N78koM49PkE7Obr2UpO4Ow==
+- hyperjump-json-schema/1.6.6/lib/keywords/meta-data.js: sha512-lRApS9ljOgM2LFIgh2eocw4KBwvfa/TqXDO+8LDziE6l5aUI9WydnpPFgHMrk28ymNwv3HZOSrLMyZLCxPnCgg==
+- hyperjump-json-schema/1.6.6/lib/keywords/pattern.js: sha512-7eZnDQBaQl12LQtY/GwSdqgcT80qzBd3+WyHanLnjNlcmdTanUhQkY1VDD+ZWqXsMWkm+T+0nVllbVojBAa0gA==
+- hyperjump-json-schema/1.6.6/lib/keywords/propertyNames.min.js: sha512-H8dYrdrjb2Um6MpjcUxCKdvBj0k3wx/VhwRfciQBimw8v1IGM2Zw/WhQRin6mSmZOM+uP4Ygz/sNALxA7Q1VUA==
+- hyperjump-json-schema/1.6.6/lib/keywords/comment.min.js: sha512-lSMmVugwMSNgn0lRXO4OhOugvxNJ7ssrKIws8G2YpHqG/Wl72UUy07KLLsZUh2N5cw/MHnsIdyW0cVQ42TOtCg==
+- hyperjump-json-schema/1.6.6/lib/keywords/definitions.min.js: sha512-CiYsnKD7EF7nxRSODarD+6i3jR4wDO45epnGCtNJcNhnltI3405BPXCqnj4+kQqHX0ewCsTjAgnV2Jqt1QPSaA==
+- hyperjump-json-schema/1.6.6/lib/keywords/type.js: sha512-97HW4NBNy/Eew+HcFMmicyOFlhV0LaRy5jDBw3fhCsOLmo3wm7uwFbGM3cf5g8vgZG7pTeZTvVk7zRWtFzIhBQ==
+- hyperjump-json-schema/1.6.6/lib/keywords/default.min.js: sha512-nubuLAyivQzX+eV3Yf9E5jydezZxCqDstPjAD0pr6s1osdLHQyJZKP8w/no40Hr/2g7RQMyvj7aPjsRW4rKBGA==
+- hyperjump-json-schema/1.6.6/lib/keywords/writeOnly.js: sha512-CqQkTB2PdSzgWPnHjoLXBs3AtgFUaudblwJwRqqJy9EWEINhWPrkhmE7NH74Q3MS9pN1pEDVHWn3fGkc5xsJKQ==
+- hyperjump-json-schema/1.6.6/draft-04/exclusiveMaximum.js: sha512-d25IoqsB6o26ifE39BR02HHvqWUrqBvpo3ssvGURuUBoWydMKD7k7ul9luXP/YjRD/Mp4TFUJVWjgoA7mYpqMQ==
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/unevaluated.js: sha512-JBmFrT7wADzX1tpbnvvZUBOkmuqrHk5u7HA5Mhw4vYxLvSTgR3eOu+gE6ZfPBOvOynJ5XoWdJU/wJl/PfRSSzA==
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/validation.js: sha512-I/bY1kzVjr0GMDiNVSSAqX6nApdsolYhKlBQoYyMp4YQy0ErVZIWYuxlnoXVFD8Tx4Ax+6Zi4KX4cN1G9DVYPw==
+- hyperjump-json-schema/1.6.6/lib/keywords/minLength.js: sha512-GoO6duainYZJE2oIA8UjH9rV5iQy87WYmckyj2RtExAL11LqC1A3oNxkVEcQdOcusEBzT76HAvZ3zsQf/yh/og==
+- hyperjump-json-schema/1.6.6/lib/keywords/exclusiveMinimum.min.js: sha512-AB7IgxQ54sOE1AA7irVg8DYsxccPGvAQsvB5pSnBgUn4KE4RaMNuuuk/oA+tq6cflzvSQi7d1EkF1t+JK/8b3A==
+- hyperjump-json-schema/1.6.6/bundle/index.min.js: sha512-dkoW3suKrn8AolG+jp1l1GrcKquG289ut+igP5+zINCpazrFWysSKvh00QCqSCyLSX/ZK/IQHjFR2zFwx2RVUw==
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/format.js: sha512-hR91xtXxXPRcjpXftXZOvT5XLcLm+P7PydlHh0E4JxcKvCmbIhKDU1lMQElL3TR63Rg2Hgw+xOmUz5qxpRUEVg==
+- hyperjump-json-schema/1.6.6/draft-2020-12/dynamicAnchor.js: sha512-FRxhLsDqCr+6b7RFlrjLQs6ZGaKF+Im6T8mpkToCWlxyOjvq8xAO9590gCTlg+fFxx+cIC8dPoMnGyXaJjvEjA==
+- hyperjump-json-schema/1.6.6/draft-2020-12/index.min.js: sha512-8NMvJSwzbv35PTjw6Mx/tS38GjVFeTVb/5WRJLGG5M1PW/RC4XviL525RhRrgZMfotEbv7GHG6Y3+2Og1HCs6A==
+- hyperjump-json-schema/1.6.6/draft-04/additionalItems.js: sha512-oZFTppWw65+CBqw0GRaa3u3pMB15z6+VuDRYVNPR21BbgNjFL4xdS0SyFcHvhMwlb20rXC/MKA7lj14HkWaVdA==
+- hyperjump-json-schema/1.6.6/draft-2019-09/recursiveAnchor.js: sha512-fDUf8Oms8Z9FFTDU1uJgiG0cGWWFJorYa0F2+xOyvolKeOSqbzSAsYb0gDw8LdXq75RKAMIpCviaxQ66i5N+QA==
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/meta-data.js: sha512-UYMA1NE4V0lUB2Y/QpLZ0G4ZZAxcYBnWu6tsjX9brDy42Z513/Wx0/98ToSdTE9PStph0S9uHnJZacB730ONWg==
+- hyperjump-json-schema/1.6.6/lib/keywords/properties.min.js: sha512-SgAnuIAh+SL55i5n3r7ZvD2fZpUNB6iesxoTiOVMGAZQ7kFnze1SwI7TwBmOCAs3KhrIF3ttCZCX14dmT7vQ4A==
+- hyperjump-json-schema/1.6.6/lib/keywords/readOnly.js: sha512-BJ0Hm3PYMuNrvE/TBqQaTdrDshNfr4fUZ++xWOH1Y2pEZbgLeANdDYuwc7MwS/Bp0ei+rWPbQYlO/lBa2+qFqA==
+- hyperjump-json-schema/1.6.6/lib/pubsub.js: sha512-t11GrvFa+M+Ew0rfsSxCaw6quFS9FAa4nMP1XE/BM+/dWStm5nBmxK8bjnWlj+pBPo/daOVvXzsCggGTiiY/OA==
+- hyperjump-json-schema/1.6.6/openapi-3-1/schema-base/2022-10-07.min.js: sha512-BZhFb5GckeM/xqgy1SahDl9xjpC5hL1seqJ0VyMFZaNTMhMYrIyKDYK3ZNaRQ9frwMRc0tSiA39sTlVWZd/BVA==
+- hyperjump-json-schema/1.6.6/openapi-3-0/type.min.js: sha512-8GDa5aHpJrByohao2KOypNjVfOerTTAFA3X+zlOfZILWrgZGjFUD3vQNN+tD4TpUsk7GDEr8BZSvDdIxJGKCKg==
+- hyperjump-json-schema/1.6.6/lib/keywords/allOf.min.js: sha512-6TqRBdBxFB4zKrph+gqomxDKFZD1auKe4D6lPshMFCV2L1Gz6HL7AEcTzX+tfQGtmmQdIGE8/iIW0Q8a8zsAog==
+- hyperjump-json-schema/1.6.6/lib/keywords/conditional.js: sha512-tVR3G6g8weURTwBqtN9Yu/m0ZyDCyM7ZecxmNRao4MHP5tjxt+CQruzs1Ar+O+Sj66twoMbwMnyCExZJkKz62g==
+- hyperjump-json-schema/1.6.6/lib/keywords/dependentRequired.js: sha512-d3/wl6q6sd/1S18aQdzPcbECaxfzAPsx8iMbjBLyLdGQA3dSArtCuudvdNhzjBmYbZQrIYoHW6ePaIaz5SoFrg==
+- hyperjump-json-schema/1.6.6/lib/keywords/exclusiveMaximum.min.js: sha512-OokgrAMNnQ3rKANqAVJp7vJWznqQ532ay9Oxdhsr3+0ZQlFGBXLJtV0zdBSn7b5lJY0SYrPg5x1ihWQ5imTGcw==
+- hyperjump-json-schema/1.6.6/annotations/validation-error.min.js: sha512-VBOnrRSfRviG064Nq/Erluh6ldxgdFuIf1rQbi6WK081ToLTxes895wztPwldzijnJM1E5pmwT9iqs9u99JNdw==
+- hyperjump-json-schema/1.6.6/draft-04/id.min.js: sha512-iltKGfYJ4EvSzXV4McbQFbMw9VKGXUluyUhf9+AvWGwZiFWpIASlkMrmFLmW4TGM5mdI8pYN43N6IjZZ8Odttw==
+- hyperjump-json-schema/1.6.6/draft-06/schema.js: sha512-optHvuXSKJs6MtQH1KkJpZZk9iTOdfK0XqKHxRk0JQJb/KriWZj1qfxnBZBAdnw0J69Hlj67CWXrfxoufSYxoA==
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/content.min.js: sha512-7b5YNjSoIwVl4YaH6hHyLbHCr9P7v5eWMmBkTIMvxyl2LIvsWnaCsMNajF7GRVBDR0zfRE88wnVJ7v2fOHahtg==
+- hyperjump-json-schema/1.6.6/lib/keywords/properties.js: sha512-En1ecV6HoRxE/l0DmtqYVdz+5gw4eJHuojyuU+VJjdpcMtOoIyOGmC5dgQBxFfbo1HTPMM6wV3J+b1TcsJaEig==
+- hyperjump-json-schema/1.6.6/lib/keywords/propertyDependencies.js: sha512-ZaZOBJp5BgItFSQeK+CBfnoSrYgut1Tio1Hx2agM40ueERWWx6h5ooxlY8dSU8ZFnLLZnnaEL1XNvXdeHxP+0A==
+- hyperjump-json-schema/1.6.6/lib/keywords.js: sha512-Of6Gfl2S7zu0m5u/KKR+lM0uWO+/Sb/5m3esv2HbusT3AyDaPBhaZ8uJ7g1Od2nSCA3URxZPoMoKHBd87xCMfg==
+- hyperjump-json-schema/1.6.6/openapi-3-0/schema/2021-09-28.js: sha512-GWr9O2KFo78GqDzypme7TaTIHb2KofZCShZTYe+SYxMndr6nTDeXC+vBeIO9RIYOgJ22sTlTTAf9mlvZ+BuLuw==
+- hyperjump-json-schema/1.6.6/openapi-3-1/schema-base/2022-10-07.js: sha512-688SuaDP9eGKCw1ic4YXvp4mzjA/j7qR1pF2pYNTmwkAeLkDrHi4dLIBlASCELQygM4RXZ36UK9nM7HLX/KzUw==
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/applicator.min.js: sha512-Apj+u5COSiJq5qR9le4kU/lJ7aQT8IMYsbfvZLEept/jsLhhROYt2ojE18uDmwrlE++4twMgF4gNcXhluBiJGw==
+- hyperjump-json-schema/1.6.6/lib/keywords/contentMediaType.js: sha512-K4yG6UbbWOaGv3kkNcenQ3gPl38fg7R4S6agMzOqWytss4z62LS+l/ITLA7uS4fSN5BNLzRVTfv7vPeqz/s2yA==
+- hyperjump-json-schema/1.6.6/lib/keywords/description.js: sha512-ZXRLRQjop2iX13K4pUGNMTxU/FJuOlXy6lHNjIsAE0oW66UdCc5B5Ky/twPXE/df7Ipla3OTmVWYS637azXc4A==
+- hyperjump-json-schema/1.6.6/lib/keywords/writeOnly.min.js: sha512-f1Nwb+Peirm5ZDMzL/54Oedc8864+33ztnBq9f4FQLV0Os5+X+qqFze01tMj80cMeEd+1XHc6bwYG+qcC+5PxQ==
+- hyperjump-json-schema/1.6.6/stable/meta/applicator.js: sha512-xvF9+icLMzUS3ZcoPuI4eGW55l2TisPWGruqkRV70Q9YZztT1x2YQv9DAOwd2fjFVBMKv+v65+riS2kzDjkR0A==
+- hyperjump-json-schema/1.6.6/draft-04/minimum.min.js: sha512-FQKnv9Otdbk6iACyMYOAQGBrmNJf6ktCwik8HUu1ICfCa0IqmuKxNMG6kpFTXqtQ9SGdzpwqMm547Rp9s6cszw==
+- hyperjump-json-schema/1.6.6/draft-07/index.js: sha512-GBuG1uoFWJ1+oel+LFCOow8wovpoWiKDwGXRucxYJ2U2ZkEZqYasfv8P4KUJDSWyJhX/UuICMoNuCf14KOjnWA==
+- hyperjump-json-schema/1.6.6/draft-07/index.min.js: sha512-DocI7fKfa5I42kwUiVl3ysQekrAc9QVUfSo7XsoMsQ1TEHMwOL2oLj6zDfxLZBi11jiDUEccZ7Bldf0EFIUgIA==
+- hyperjump-json-schema/1.6.6/lib/keywords.min.js: sha512-D8AKcI4pZne3plOjGAiJcBgTl5oVBAt6HlK7mnxw7oq04n7Q6yKcdHv8WCdfZqfMjorVz9jv0haPUOIPEg12Cg==
+- hyperjump-json-schema/1.6.6/lib/keywords/anyOf.js: sha512-uHG9X1ph0XSLbLPbFuiw0HuP5Eg6Qskrt9LLoFBEJ2QPsOFuoqURYQQvmEvrRi/jFrSQ5hfDAlFOxWYjW2DmaA==
+- hyperjump-json-schema/1.6.6/lib/keywords/maxLength.min.js: sha512-amwO1XyjtSJEAlOEqBqgGDYsqWf9PFPK6fG+OKy5RS28waFCS62sAyD2UQQINwq5BEt+kpHHbjUpQZb9NXYXlw==
+- hyperjump-json-schema/1.6.6/lib/keywords/requireAllExcept.js: sha512-mV6Kf7/KPSkvtCa8MNljLmp/FJdkzGqvSO/Hsy6LNRif5pz1G/86sZr/lOyvSAL3VjfyIRSRCDL7IfFu6YOP7g==
+- hyperjump-json-schema/1.6.6/lib/keywords/uniqueItems.min.js: sha512-WDgRs+Mb2QUTk2zumyM5gjH3+7cmrbIeQLUhLtJLokf4tG+1+oPU9Rt3G+KVQPbuMjS9VAZvhUihxvNtpApFRA==
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/format-assertion.js: sha512-qHlhxfmsDkHqXMPQfOGQNakNP1r7ZO1S/rUuJn8rbeMD7BWy2RwbKbUrF/NUoSc14KPuoCK3xAZrvEVbNKJ4vQ==
+- hyperjump-json-schema/1.6.6/draft-2020-12/schema.js: sha512-3o9FVFqpZ+VmOVK0Jr/c8VRrwTRDCvNcsXfOOMmIG+cUdFWSkdqi8Xr79DWyQEp5EstCEqciFy/CX065aKBAog==
+- hyperjump-json-schema/1.6.6/lib/context-uri.browser.min.js: sha512-AbQKdc9hY4xEfrwdS5LFaWFD9+/gfsu7gA+V9SMYmY7xNA2CoedFVVrbxc/zlVOsFKrrz5FVp86hmFC7Cxs3Rw==
+- hyperjump-json-schema/1.6.6/lib/fetch.js: sha512-yCGqKrwv0NSN5ISHFpq2bYPUFkgJCm70jac462QzYViRbMb030IrcQWe6tIFeZwM+h9h2Pxfy+DVTuNIW81/1w==
+- hyperjump-json-schema/1.6.6/stable/meta/core.min.js: sha512-HaAgIKVY9FVWM+YNfMUGKaYomm62HhOo/WitUFQvTydwKy0dXHlsKB1Vhuix+ESx7IxBVVm8Kt49OoUCM8KLZg==
+- hyperjump-json-schema/1.6.6/stable/meta/unevaluated.js: sha512-GJfzEVQ1q1mAqQn6XhDXV8x5Zv0djYfmdIPrd45NChkvt0ET7y/8CX7AUaexsUj1V7eWC8e/GqkmsrmpfwWshg==
+- hyperjump-json-schema/1.6.6/lib/keywords/propertyDependencies.min.js: sha512-JT9SZW+9aX63q6MPbbJT4d/16IEwmk+HxPnbfTL08Ks4JxurokmvxVOcYhs9VJg5tZFDBEwddcm25iDrKYmOCQ==
+- hyperjump-json-schema/1.6.6/lib/keywords/title.min.js: sha512-6Xs+kBYToeWU+pbXClmZmVJZydY42hYAaq8PeULHEuNZkpQ012ASq5v0qV3pw0kUh+2fpPYlUdHCDQWLKi41Hw==
+- hyperjump-json-schema/1.6.6/lib/keywords/validation.min.js: sha512-T43KHP8hFZCsdyitf8+zh97UYM+PfRy+VOtupZy5ABtPyLwpDE+BcsPoiM1FXEQMVW2Sww9/JhwKucZvdeMR9w==
+- hyperjump-json-schema/1.6.6/stable/index.min.js: sha512-mewsd5OXEg3MNuTpXfKZsmW//LC/R+VNKpI3K9ZdKdvU9Fou/lI0rR2klX2GuPqFrD9yj0Mdv8eakeTmvVJCnw==
+- hyperjump-json-schema/1.6.6/draft-06/contains.js: sha512-VS/myo42b3/bkbUD/4sw9dUUJMGPgp4dIvu1iO9h0osc6j2eIY7ardXTWAN9/BRoQWG3qDGuK8cswjlAMtLRBA==
+- hyperjump-json-schema/1.6.6/draft-07/schema.min.js: sha512-WNtu/NmJfdPooHQnDLaqJSi9RdqpEl9wUoILoWpjIOwJfbQ6Q5vpgyxF4agiYxS8t1MQd7KFwqXwSYH10WL5yg==
+- hyperjump-json-schema/1.6.6/lib/configuration.min.js: sha512-/nR90y7gNaWmWBcYKslC6yfgxJ4A3F5lNVBYeroi1YA0DXsKqf0ssxqTmY6f3DsQKXH530lRhrEXCPO+sAs4Ng==
+- hyperjump-json-schema/1.6.6/lib/keywords/else.min.js: sha512-KY1HDKphtpQVAQO7MYQGAwhy4QJjNFdLqlks18O5d0eUtILCseCHxp6ZK2/Xr+3n7bdAUy9fz3B79Zej86GUjA==
+- hyperjump-json-schema/1.6.6/openapi-3-1/meta/base.min.js: sha512-t8jTzf7xBoEdtR34SL3fobNMaEXA/JDELATl772EV8oAyWl+6JeCFxOlULQOwsHfipHKHBemnY8pntOqfto3Rg==
+- hyperjump-json-schema/1.6.6/stable/meta/format-annotation.min.js: sha512-XLzW2IMAVV0Z3z+Rsp7F0tMaaIaia9CdylVtMMYOb48N4FGqgCK07uZ4xiStHI95Yivus4iFVkzDNUPMySHJUQ==
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/format.min.js: sha512-P19WKqc8b7+ScAUbs7Ob2nlsbx9VEWsLtT5DyD0syvJx0gv/VWPie8VSW24XtqJaOAKGka6jN2ix/QOrjWMSpg==
+- hyperjump-json-schema/1.6.6/draft-2020-12/index.js: sha512-qFDobgvRogmIs+rALa1ixWOxpATCrGEfyqEhGy5ST1ROsmtBEf96S69LaNScN6yraHx4iBG/a0g1XtYgRfpqOQ==
+- hyperjump-json-schema/1.6.6/lib/keywords/maxProperties.min.js: sha512-n43H7UC9XfeaKJ/IsvrnIvTKUC7S44WXuRaEluwA0sIABcMkjeoG86+u4yd8zTHItNn2MuYsRceKY5i3CBrneg==
+- hyperjump-json-schema/1.6.6/openapi-3-0/discriminator.js: sha512-Y30Z5gm7Ijr8/02KmnIQ7TxOHFrAjgAl4i3y7ac7irolBHQcYSdsoHZIVOKQkE+Sw4sXUcvq9thuL7Hb0/gUCw==
+- hyperjump-json-schema/1.6.6/draft-06/index.min.js: sha512-GP0qqmWvTUAGcEaoY5PCIUz51q9wlROdTGV5TDsHFRKId0pPuCTPvZzN5pSLPT13FYT6BsIE2VVk4cTnoueLRQ==
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/core.js: sha512-my9b4JsA/x4jPnIWM/jxiNdpo6NcZ3+hSvwKvTe9fJojosH9fiwUgU2SCdg0kmHxc4h0vLOPI52QODEKBV3Ayw==
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/core.min.js: sha512-7kRJBVQdbU6ftE+NxD/hdSsRw2/6A8mfWuaJNLU/jsDufXf8T1Hb43QKvdKADIZBz4/JLnNCHvIN8hMt4yRTwA==
+- hyperjump-json-schema/1.6.6/openapi-3-0/index.min.js: sha512-qknM29+zr4kuavK/68VH/YMtDWb/zlIaJ/jo8KEHp6OnhTfzJ42ysWoWUGF+hOjWixzlFT+YHiAwH3lXoODRlA==
+- hyperjump-json-schema/1.6.6/lib/schema.min.js: sha512-Lrh05ceflS0FlPv+TKJn3xTRCWQiGJPzRQOUOem5SP6uzXx+i7fI9rbjQ0d2bWVRK2WbxjVhujbQ7YCNs9SC4Q==
+- hyperjump-json-schema/1.6.6/lib/reference.min.js: sha512-XAnz0XxNx135FlIiWPQjcISstt6KGDm/nq4Ok0H5rFQkzRGcKTeTOLQKIf4plINf/jWEohB1KTq1kp795rLV1A==
+- hyperjump-json-schema/1.6.6/openapi-3-1/dialect/base.min.js: sha512-F3kROH/iQsK5BDgmHHDcU1X3JHVCU4A4JE5kgbG4miz8LLd1Ra5gLdnJ1O0UEZ9lVdPKf8JR3PS9znQr3Rhm7Q==
+- hyperjump-json-schema/1.6.6/stable/meta/meta-data.js: sha512-cbXC/JNwNUaaNaLE7z0Bsq3M7Ane/Gsok6zrMZLnUGF5QzltCY00bb4IZ4bwHJp6yGvJ2s+VVLsPq10DOF8TJA==
+- hyperjump-json-schema/1.6.6/draft-2019-09/contains.min.js: sha512-4j2jIxQLbe+f0J05LCMF2fOQkFINWy/+bho99cuIhsUqEP0ijdKtweO5Nx+oaWfvJOtTm8NRnFh1XKimjlF0VA==
+- hyperjump-json-schema/1.6.6/draft-2019-09/index.min.js: sha512-sO2dh5w9zzP5q+ACM5p70fQ5Rf6ZbMeX7sCGOmNeQXpngx+eew8S4EKre3Szpu9DhPE6qTahh533STLSKVlAmA==
+- hyperjump-json-schema/1.6.6/lib/keywords/deprecated.min.js: sha512-ebCruOGZ6f5qO5E2eD0JKBFYI+zMsSxQfyaMfXRqGFhkvG+JEoJtGpEa5z8gWVPL39L/qkRtJdmRkZNLwipaHg==
+- hyperjump-json-schema/1.6.6/lib/nfa.min.js: sha512-w+ppE+IyWt2a+4/K0x5UDeCgF3wvGVvnvEp+AOGmgrM+kOlU4mmrHH2xKwGfB4YRsqKxI65J6l7xjRJvFAxZNw==
+- hyperjump-json-schema/1.6.6/draft-2020-12/schema.min.js: sha512-9Ss8o6Oj6FaTF/3OwG27GR6siG5zsd2i2E9dEqF/+YgexZPM/u6SxGNMaTYAlOI9FLIntMWXq9Ga6+UU43oEXg==
+- hyperjump-json-schema/1.6.6/lib/core.js: sha512-BtCYpMpnYqsVFQbgC/5BMyHljYsxdB1URtM2NixEuG+tzrnzrdi5PSMbcZYuDIJQO/FrTWvq+koxSTIWOAEZ1A==
+- hyperjump-json-schema/1.6.6/lib/keywords/maxProperties.js: sha512-ANvSfoEY/dhvXhXgVbvL/uiltlUH13BINXglMLxSd7MG0V2yiJMhf9gtoQ+mSPu7X8Wa+g70CN0Q8wHlzFRm4w==
+- hyperjump-json-schema/1.6.6/lib/reference.js: sha512-/gWTPUhU6CXUk9RPP2SYVI4f9NUUTeu2HfTH8ZpR+Bk6ny30NMZUF7i8q8OWcCV4st14Nf4B9TLxm5JJGU1iMA==
+- hyperjump-json-schema/1.6.6/draft-2019-09/contains.js: sha512-1/d9Dw19NNh9HNaAcwiSxYA08vhbMlBxTqwjitYaO88WZoSXlJ6ECkj3QIg/FWfyYjCMYhVxeK3Dc+H+uh8bgQ==
+- hyperjump-json-schema/1.6.6/lib/keywords/additionalProperties.min.js: sha512-ko2ozbm0LJTOWCjnJ226Y7pu/qS2TNHpSSaUw7XWcPzVjTxeVDHfJJ/EQJEEmzPuTbsMds7XLPF3DhVdQanwpA==
+- hyperjump-json-schema/1.6.6/lib/keywords/prefixItems.min.js: sha512-RySkr2iaUcfIzdrCEwIR2QjI/p8zKF6AOXqWZnYGcJVTU+1Nd7S5fghmlySooXWhOFGEkElQ0pdMJDkRu2qK3A==
+- hyperjump-json-schema/1.6.6/lib/keywords/readOnly.min.js: sha512-8cRfe51F9gzCrNnW31vpVSWvhR03P9l6MSvfUBhKsmvPg+BnXb6rYNa/c/NxcXB1nxD1swY82fNsGbeAkFiyWA==
+- hyperjump-json-schema/1.6.6/draft-04/items.min.js: sha512-E0gArW1wFQzy0X8yUL2mvH5V46GKahVrytqd36SpQiXI3JYUFgvPMuAg2/O5ffXPLlmSWU0FMEmE6abJ3xsqLA==
+- hyperjump-json-schema/1.6.6/lib/keywords/deprecated.js: sha512-Tdvvy1h/JweiopMqlEywG8JSIEH3AVYubF6YU4o4FiqI4Hn877TqOFK4ku3EHaafIX6fFgVrlpkjuPl970vqWw==
+- hyperjump-json-schema/1.6.6/lib/keywords/then.min.js: sha512-OpvX0kC/n62pyeRbI+hYf5UnfhsQ6ijGY6hnD2SnN0hjN0jKOCldiY11lb5ocoASBy+IkOS4NcvuSfm/D4fnUw==
+- hyperjump-json-schema/1.6.6/lib/keywords/prefixItems.js: sha512-0IWWRNUZ86lsUJFPEwhVXJm2z/XJkzxmYUG70ZiMVIJpg5QNECoYxP/c6C7I/207HJUpksttKIpIsYuiHwA/VA==
+- hyperjump-json-schema/1.6.6/lib/keywords/requireAllExcept.min.js: sha512-nOSgNkU8Kn9oFddVeGTv72mv9+JddXtSYL0HXP//JLwvZ6mtQbHpAwn/bj7n5wBbTjOukMQBBNnnIt8V41HPxw==
+- hyperjump-json-schema/1.6.6/openapi-3-1/schema/2022-10-07.min.js: sha512-pL/NJWr4YZJSJCulYdUdnfx9jINntJZ5WCUR8/2rMQn4UCA6v+h5vovIpBLNcS62sQrXf7OILKeYL5rn04oaZA==
+- hyperjump-json-schema/1.6.6/stable/meta/core.js: sha512-PPwBoguIHrESh5gbk+vDEwxfXphQHP3aeQDyOvwQpbt4hYoQf7Df6YcyCt+VIQP3++ObVwfHnKjnK7aDW2F8Gg==
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/validation.min.js: sha512-u5X2IMguACMz6CezfKYkaLiFt4LnkABK8qBsxiX7bT57NAUB6MeusbIn5nxI9w20svOin2pciIPwOcq2pMGZJg==
+- hyperjump-json-schema/1.6.6/lib/invalid-schema-error.min.js: sha512-XwMt7wmzjlpE5X8j93BCpH8QbFadJjYzADZC7IKsC0Kz3NRfyizJ1IYFVybtc99KGrOCuBnWMhoOM115PQQDhg==
+- hyperjump-json-schema/1.6.6/lib/keywords/conditional.min.js: sha512-VutxTP0ASmdq/JyErLXQI+XgONnyHl82Q48zUtJ3gUPxNdDLCJ44hy+qdtuBzaXSh0JK7uQNwaV5pMpCRMMmjg==
+- hyperjump-json-schema/1.6.6/lib/keywords/items.js: sha512-xoYRDmLNnVBWAtHuh2SPx3lAIVyIMKkrmicWmwbb2coYjz7OsAf66pMsjFWYEnm2ScfroJmog3VbfM21U6SM9w==
+- hyperjump-json-schema/1.6.6/stable/meta/format-annotation.js: sha512-o/KXWoFaZAzUEkVQmsqHUkkRh5aefl1WNHi2MDuDWAkS/I5YCsu2k7UTXde4TaqLErW7Rtd/icADeQk0pPAunA==
+- hyperjump-json-schema/1.6.6/openapi-3-0/xml.js: sha512-/7zP+lV9uQJYq+eYEYce6tj5UwexoVZ7f65V78L3gcb+sl2pREXLA5kdu6Kv1UF1etN8+M4jUmsK02TvJAWBqg==
+- hyperjump-json-schema/1.6.6/lib/common.min.js: sha512-tWakfTlie7LvrNc/jjFhsH+MR8uAYUs4k5mhAeJXamZHwo0VTtnUSSzGk2fDjluAGlUFqveMOoYAEN95ieiNRQ==
+- hyperjump-json-schema/1.6.6/lib/fetch.browser.js: sha512-nR3iHAFsF1Weh4wfLLI4BHZkZCEXzK9JVh3nYEO64IkQgRGGV4ZVVqCLbZd+qcj7UIdYn6Z7xGebcsvbfL5WXQ==
+- hyperjump-json-schema/1.6.6/lib/keywords/if.min.js: sha512-eHT6Oio/cF0eurZN/Snp54xboTUqkxvzDW+lSofslMnRpaSPQJwwB/3m5frZHCLlow7G1pu8gMhc31cMdZXHXw==
+- hyperjump-json-schema/1.6.6/lib/keywords/propertyNames.js: sha512-OZ0nyylQ0wcHHeQwGVIki/wkw+eqCY9qePypYfBBEoCx2aFKyM1Tw0TfSKtvS+88PGmpYjEdUD1FXCkOohcWiw==
+- hyperjump-json-schema/1.6.6/lib/keywords/minContains.js: sha512-GOvgXAoBayhxux3RUZ042i6Jg1uRcpf50OVWSAmWIKBe1EpWzLo6DlXSvdJ2b/9tVMiyokRhSZQF8PxZcX2fug==
+- hyperjump-json-schema/1.6.6/lib/keywords/oneOf.js: sha512-/Vus2w31eLOKaE+RIAPV9o26R9Xo3Wp5tC89aQUIDjkYbbuPxaC4UIkDZ4n/cCc5v2h1snBj9K685gQSpDAKWw==
+- hyperjump-json-schema/1.6.6/stable/meta/validation.js: sha512-61zR7YaoV23IBi4U4jIkJmbcPJe6XnCQKWI3F2TUJ2ZDJS+5TFnvHAr1MZPcKBF1FelxTdr8MHKVQmndofh7xg==
+- hyperjump-json-schema/1.6.6/annotations/validation-error.js: sha512-p+DFFa2PNnr1MN6HePOE6iqNko5lKoqeoxFSonB67oHMTuzPFxV/WVRhpQb4/C8DMU5CqHdHUttwj9Eo13GCGQ==
+- hyperjump-json-schema/1.6.6/draft-04/dependencies.min.js: sha512-6mmMB4oK8ypd+U/RagzcOG52vMCG4Jfu+TDDZFdisu6Gaaq4epwqJXFEPMlF4+0m3VjIxXCYJu+lEORriez5WA==
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/validation.js: sha512-FeyCMFGfYsNdbj8AUDi0iXB8Scn3dv6FEEBGcs43dOjgBElgbnfd4gpCiyO3zKvf4gVUhQ6I7KcBysvd3Iz5Zw==
+- hyperjump-json-schema/1.6.6/lib/keywords/dependentSchemas.min.js: sha512-XAj9iTXAGJyU98C7c05slgT5xmNvekgjJsvnX4+sZ+kAY4hxJTJmXmHjzJ7lTGnkOnP1rwbEs3V6lhwxjQR3FQ==
+- hyperjump-json-schema/1.6.6/draft-2020-12/dynamicRef.js: sha512-y5syAtWuGaIHS9rIQXbstru/xAEQzqwhaeHgbuftjdLwTobEV7CInxrKSVVlVx4vSayZk/vmBJf5QxKaMImwUg==
+- hyperjump-json-schema/1.6.6/lib/keywords/contentSchema.min.js: sha512-y7d1/0wsadmuunoJSQyXEk4esF8dK3h1zeicA2LKP7j4Ac5J/NDBdd7tAqM78okaNH1X3hmJujWY5clYx/3iyg==
+- hyperjump-json-schema/1.6.6/lib/keywords/maxItems.min.js: sha512-a3UTAjL5Hg74/nmigJuN5tzahqCtM+dQHP9WyAm5bQuvuJayrYGj7ouUqVl4fseh1lG12+OkGAwq8bJf3KArAQ==
+- hyperjump-json-schema/1.6.6/lib/keywords/format.min.js: sha512-KZBIYfEIXcBTcFI2krVQoq9QDtv+Q+d3Q5l0CvOelYOTOnz388VdrWGVfD/k3XCHYG1eQ1zOdC74MFvUMTHQUg==
+- hyperjump-json-schema/1.6.6/lib/keywords/unknown.min.js: sha512-d+PJ9KU9Pe8gGKFecQUr6rdNvxfgMJ4tERjtl/ZvTjY05koBORGOnTDkyOp3PN611hOpCpqqNowlFGo2PeZKmA==
+- hyperjump-json-schema/1.6.6/lib/keywords/vocabulary.min.js: sha512-aQ+llDD7d2IZIizSgJuCsUU3oUz7owExvv3p6YTz4rjK96SJH4EU9e7FxXq7BcTHYmCZNZxxtdNrIDNXuZRzGQ==
+- hyperjump-json-schema/1.6.6/lib/fetch.browser.min.js: sha512-pObfNFXiGq+s3wiRybIZJNPRxYDO395MC4ly3eAHoU88j+03rI4jS2v9xN9bhGuUyLhe4H005ISwfNP0Dvm+2A==
+- hyperjump-json-schema/1.6.6/lib/keywords/allOf.js: sha512-18qVgK9KJLnhRBng+i/ZSw5mfMetfaMgBQ/iw+cAkIlVY6XJPn0dYbrXohh4DHgutJK5SwCuQsqNCeMsEDlVGw==
+- hyperjump-json-schema/1.6.6/lib/keywords/anchor.min.js: sha512-oSJDZEeBSKNsZ4lIyjV2rquvlWmpsqNOxZ35UkAfkTyMU2nAbK73qcUjZe87m4clJpXCTI+Mcopa6Kf9lbrU9Q==
+- hyperjump-json-schema/1.6.6/lib/keywords/format.js: sha512-qSbIDRCbkBuu7YPOjX4xHu6KszbhlaFolmjFWDt+kETHZUeXj2FNbMYGvlIbOLFYv7Q6+OO6MNgFfk+K2Bt0/w==
+- hyperjump-json-schema/1.6.6/stable/validation.js: sha512-81crUJfN778hVzhnW3Fgf7tO8xv8UM6MzkdY+eTdN1m5NpmHBMjrzdtlc+oodQ5SR9v+bBizwJl2tHrZVJBBnw==
+- hyperjump-json-schema/1.6.6/draft-06/contains.min.js: sha512-awinI+5CpxVgsFKVKGz428qdKQOd2rTaYOZO3W7R0Aw7pSXfQo+FK6VoxXkKvQpzfnOofKu7o9vJHDs8Vgd3wg==
+- hyperjump-json-schema/1.6.6/lib/keywords/contains.min.js: sha512-Bq1ej/pbqdOx6pVg93nderr7A7tOLghJ5ID5FYpxfJebf1hlCWyJ8aD0DyWhJuQnUK2pQzVaQ+eyPt1jyYNLaA==
+- hyperjump-json-schema/1.6.6/lib/keywords/patternProperties.js: sha512-bQR7orp+5jkLGNshDRL4DcWQuoB2GWlHjrpUOtcMdh3+2QG7/pHpD5yRcjntgUzqUIKQhqlYhGgmD0t5NmZpSw==
+- hyperjump-json-schema/1.6.6/stable/meta/applicator.min.js: sha512-ngEtLJ11HJC3oLXpGB8sSEp0tkYnwHa7VTHlBaaskPBM3lt3OsM7sdGyJFS/imR3cSlOP0xfMybZQzgV6pGnaw==
+- hyperjump-json-schema/1.6.6/openapi-3-1/schema/2022-10-07.js: sha512-JwkuD+aa7q/tIjjcSa0dB/B6jF2SY1NiBL4geId+qaM43ivlD2DE156YLEUTd+qWOUTrjQjIlQMQUh0hEzfoRg==
+- hyperjump-json-schema/1.6.6/lib/keywords/additionalProperties.js: sha512-e07gqCA2tesd8wFno9tCq/YimQF55MeZx/ui77vanDzBtBNSfO2SD5dpcakIpkIYEHjF+3NR1YmIuZhfXGWDdQ==
+- hyperjump-json-schema/1.6.6/lib/keywords/dependentSchemas.js: sha512-ZtHrcy5mVt4xrqJiUzKE/pZw5+SWlf1dYhXzJEA2qVwZSQR4aH5JtvZrEXwQOv7YROfyZ8mhwDvgt4ySFiumUw==
+- hyperjump-json-schema/1.6.6/lib/keywords/id.js: sha512-8OElmT6rH5B2PeRDfh5uOicL2jIJ9m62WLS00tOmnjVQKFq1BekyfN0Co6akXeo6yxTrarig1ZvozQr7XJ754g==
+- hyperjump-json-schema/1.6.6/lib/keywords/title.js: sha512-2QUMw83Q6wikVE5wgyJH/zZ0I7jYGYkpFkJ8J0vVrT3V5tZ2NhQsBksYK47Gjx4g/tYcx8TyfZ1Omx0WYLECCw==
+- hyperjump-json-schema/1.6.6/lib/keywords/default.js: sha512-bcm09j8wD/e8YejbOh2TQYHA/zUsR+v1ZCCeE3WtVEvM0iAf+w+VerWQUQHEbz31dF2druz0sceAedOQAAcIFg==
+- hyperjump-json-schema/1.6.6/lib/keywords/else.js: sha512-vAcobHlVhuQio7ln9xqoSnWGlF35B9ScQHloR9Ga9Zp4V3MBDXiZuTtKAPQU7Prvvuu5XZWzSNb/9+HzhA80dQ==
+- hyperjump-json-schema/1.6.6/lib/keywords/then.js: sha512-wohMcngkiO3anFHNP9b84jfi0IFCVjyNSrHKCh+SssQ4ur3xVzFjTrJRbqyjDG97jE1LCWScSGxDBzij0GGYHw==
+- hyperjump-json-schema/1.6.6/lib/media-types.min.js: sha512-KHtPWqEYR3Mp5ypDVT8rnjjrE4sehlmAKsk/1722zopbCiPv6No2Ql/1jMU5HNsags0ONTVnSS6I8CT00I153A==
+- hyperjump-json-schema/1.6.6/openapi-3-0/type.js: sha512-qq9ekcFiBfD2RGBH11/7aPcXBvcmH9UnrnWNia3aaNIoZuSNX9Eogly6hjjtWb/ibe58oJT4lV6PajhE4y8Rgw==
+- hyperjump-json-schema/1.6.6/stable/index.js: sha512-dc73l4y8mzE1IbjNFrTPGCtbFnJbM7E3/vatORwi+Y5GW7uankOwr8ivwDWIoyGxq320jMkDKcIBdKtXPrntCQ==
+- hyperjump-json-schema/1.6.6/lib/keywords/comment.js: sha512-F6k0FdpVlUskJ0ASl+aL1vU5SS2VocqibbYn5+CjQcvvsCd4i+5ZOAO/NYxPok+PcGPxKEDv/GweqFZI27+5mg==
+- hyperjump-json-schema/1.6.6/lib/keywords/definitions.js: sha512-2vHjB+KdqyRd9voAi5y6Ue7qYzzfK4dKSJciZpzmbXueUUkHPERJSTyhvMXlIXGEkBEzY1GYrdOIPMlLh8LNmg==
+- hyperjump-json-schema/1.6.6/lib/keywords/description.min.js: sha512-0nDP6kPzKbn0OZ0wjtmfXMR4GMVnv4L3x1P5iXDIenX6v2KUmXeJdLzYMb8Rk7D3tfrzVxGPIs6upAlMugABUw==
+- hyperjump-json-schema/1.6.6/lib/keywords/maximum.min.js: sha512-IB6wKuWR8YCYc05ytoTyYqio4oKdOS9Dv1XAg5xAyePQecGQ/3Z1BGVEQOTKoVuRl4ekAjZDGoyf2Qs472tbyA==
+- hyperjump-json-schema/1.6.6/lib/keywords/if.js: sha512-eLQxEi/k5J45Q/wBF+PJb/IV4LIAdlPgffXXb6td4deC0f0QV70/ldabtM2zDMkJp3T0Sv32tAxnL/FG50ww9g==
+- hyperjump-json-schema/1.6.6/openapi-3-0/nullable.min.js: sha512-y+F3203sRtZPLfzQXP1qaqHhLYVU+ZwQ0Peb4deI1Z+eir89DdJ/s5/LyMcdPQdq9hFCkA7qikOjsjbWWZ2XuQ==
+- hyperjump-json-schema/1.6.6/draft-04/schema.min.js: sha512-MSoO+mJKXFmRTRbsR3yL8Z0lWHVfGXyg4qcRM4oCA2oX0bLHD7L+QEHEI47kp+4JhXliyfz/8U+0gRL7JQPSMw==
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/content.min.js: sha512-MfYP9hpvggHUB/gWirpu/UlLcMSeNE51VJh0moIkah75m/ejvpftDPd+T9EYWyeRSvGPrRw0MzEQeZ6HzDCpow==
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/format-annotation.js: sha512-/qg9plkOTCFNCPAQ1T8zg3Cw/TaDAVEHoGCwxmx5LufbGVPNDoVhJPkHxlYlwVesXq1x0/EkXca3A/aDZw0FYw==
+- hyperjump-json-schema/1.6.6/lib/context-uri.js: sha512-HtJaBG038e7TvOSTyxQ+miEe/Rj24a5N+wGv+TVO22xnuxJMXBbIwTr/ql0J/ZvOVHmN33PbNEO/TBCLxH/IZA==
+- hyperjump-json-schema/1.6.6/lib/keywords/exclusiveMinimum.js: sha512-NunwTsyd8Gx0esGlBcArB8E1ojzyx05NianwZFMqaPSJH3Hz1ywBtwjwbJINBN8GFphu5laEkD486NyMXKHo+w==
+- hyperjump-json-schema/1.6.6/lib/keywords/not.js: sha512-XuGhoHVUV96a+Ceu/paNJjCva4IpcgaeiSsouVxkLPqc8tzPxr0ciX64qoCU5N+4SQbOuFW/B2WLeYrmFIO7Qw==
+- hyperjump-json-schema/1.6.6/lib/keywords/vocabulary.js: sha512-lasXofBil9FrSpmfH9cw9zwioy+T5/CSVdGvkUuBioqlNyCJnCMar45k55s9Ah+2rLYwJL8KqlIhEY2PHVxClg==
+- hyperjump-json-schema/1.6.6/openapi-3-1/index.js: sha512-ZwjVgRR6mzIcU5QEtvrB0HXDqiMCuwqhhvAvjccCu6NUz878Eg3ElBDNupBGK9aOJTz4FG1g9P2+hX9wJvuvBg==
+- hyperjump-json-schema/1.6.6/draft-04/items.js: sha512-G6HF/PTXRWjFelf0HbG7qX0FIhjHy5EPzH2/35ik2y1+CxJ8T2kOUKZXJAO9rg51Vz4XWq/Nu8TgCMjPRYjpgw==
+- hyperjump-json-schema/1.6.6/draft-2020-12/dynamicRef.min.js: sha512-GbtCOUSLOGQ2AObAGXzdSzv1s7nDUf+/tteUzitjTQaktGbc7tn2GS2G3fqH9iYgpONXwRAu6v7/bOR21uKPlA==
+- hyperjump-json-schema/1.6.6/lib/context-uri.browser.js: sha512-iXyRmBd7sWIC53oiruEDK0Am0ynGF+WTsoEDMQOdUY7N+PIngJ5x1TvHKiWTsWr2sEzVQWiEgOWe3O9IShKSxg==
+- hyperjump-json-schema/1.6.6/lib/index.min.js: sha512-Yjnx2bxVrmyiqIFgeXtfeauSCEG8uNI+z6DMJSAKMaMIeZHF+I/uoQdz+hVYXewR8/IkXEOx8/cnCdZ5q0a46A==
+- hyperjump-json-schema/1.6.6/lib/keywords/ref.js: sha512-lq7zcbXXj5ThHZQiu8tnBzcL6R673ZQVBixosa3AWzsWAlr4IM7z77hWUC72bbYcRARB7p5OeMmgs7XPLCikFA==
+- hyperjump-json-schema/1.6.6/lib/keywords/required.js: sha512-g+0Qr6geuUle0JuqKwraSEfwRdeXRMqzOJpQPSiP/jnrX5fJ9neJX0P2qIEdaL5bk6v9UyMMeEUZ0Hgquptwxw==
+- hyperjump-json-schema/1.6.6/lib/keywords/unevaluatedItems.min.js: sha512-RxwbDog3sgyjR2HyDxPhUWRbXqKiQSqFy82aZDM2SRV/KdyzIwNYo8hvMEyAuKYwfUT0ITKtjhGq/1bqPS1VZg==
+- hyperjump-json-schema/1.6.6/annotations/index.min.js: sha512-opoEQKdjSCRq4iM6K8863MGdXFe50uNk06zztV6Yp7o6W/Oi9pPw8fS+eb4YAsOnl0YkotjmNMoQo6WbJ0xZQw==
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/format-annotation.min.js: sha512-gdiu3JKUg5aj/mKQEL40FRCXFqNyHerMPq9KnrmNDcL032t4BY1rcRmbfXUTJ97W9zBj/eTfMks85QuvsEivZw==
+- hyperjump-json-schema/1.6.6/lib/keywords/dependentRequired.min.js: sha512-XYKGp/sDucG4GRbGfQFj/MegV8rhr8ip48gpFc3ZURmNUVCDtWbmGFQ5dwwxkoj57kT2f2W9Hja2+2K3Y6jEIw==
+- hyperjump-json-schema/1.6.6/lib/keywords/examples.min.js: sha512-J7BrnfgQTY7JwJ6Xq13J06xG2L1OVEsKzb6EmWlXFMSUjHNTWMMRFSzT/PtDwvbU2aMnW6A6K86/3efihYZKKw==
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/core.min.js: sha512-/Y544O7iGgXvzqFEymGMMsD5laI4jvStX5UInxARl66HSnKxEuOVyd6uDc56/5WLKaNAKuZ51cr0Dy9I6QtZ3g==
+- hyperjump-json-schema/1.6.6/lib/keywords/contains.js: sha512-MmDeUY2E50gOcvi+ubpdF6RqfJIbO/AGk8qFVReX5c99kVwFw7q2iR3ij47D6Oek/MUP2gi2tIAbysWURTqWbQ==
+- hyperjump-json-schema/1.6.6/lib/keywords/exclusiveMaximum.js: sha512-7Vct9rM2pcJR/3vjFPgTn8Ah+zuHJe71dfbkaDTnyNGVMRF6jMHNCL/k4sTk+XqdfpalmtkpRLDCI24RFHMGFw==
+- hyperjump-json-schema/1.6.6/lib/keywords/examples.js: sha512-zLlP1phvCordSHGVKNuyBE+tU7/TOSPUZto11s/MdO9sE9YWRBK1rMq6Y+YnfGi57GDR5wInt0hWLzDKCxRz8Q==
+- hyperjump-json-schema/1.6.6/lib/keywords/not.min.js: sha512-tV+1AKG8/tmY1WvnFQ23EkVgl24a1xoNXV7+SDVlWS6z3+VlVsJ0U8pUcfG7caM0sOtHVY7TYbN5dA1KD+pYpw==
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/meta-data.js: sha512-uThpcvf/K+two0BOIS5sG756PUUWJZ2c5KsbM5NlG5Z3kIoFaRsdA5Td5JRS9fnejCmsN37rCN0HlNbgffoy5g==
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/meta-data.min.js: sha512-v1aMAazz9hWFMvTIbg9NF8JD+mbWDs9778ex3hicFF5vDX3aWBo5Jpyq0E6ZkDGiMX7N6yTUkuf46EdNcBuSrw==
+- hyperjump-json-schema/1.6.6/draft-2019-09/recursiveAnchor.min.js: sha512-P/vejTWE4w9Yjv+RITBNHdK82uu8OgzRau//MEE0w9rPkYJxzkndYawEuSjkm6QiS3pHUTZsLw8apZNkCh9XbQ==
+- hyperjump-json-schema/1.6.6/lib/keywords/dynamicRef.js: sha512-9C5NL8YzUn17WgYOTFUDi5KG640RfH5bNlswytf5Ha8uPG9NPVkUSMpOYEoOrrufFDEbE8ydmyIaKsvyy81scw==
+- hyperjump-json-schema/1.6.6/lib/keywords/meta-data.min.js: sha512-41V7nfIHMz7puEB4EzxeierXcjfxayThViPMSq+3ksLzZD/+DqtMAbqsQQgFYgRRZSNyfMpkYr5HL6WwLthzAw==
+- hyperjump-json-schema/1.6.6/lib/keywords/minContains.min.js: sha512-vX+zgJIzy/bqqKgu5PIOyKMi4PPe6oHcQ857soPD7fjPya8pyFa7Uj0jzY4m8xQCBBagwLJsXT8TMrX2cpq1CQ==
+- hyperjump-json-schema/1.6.6/lib/keywords/minItems.min.js: sha512-jnOM8eA5GXi9Zagl5mlAZdcFH2g0nZv2Kjeca9+EsCO2dmQfzI0FQDprHXoXxbishVPZ+dgtGf6TsFCY0Oj6DQ==
+- hyperjump-json-schema/1.6.6/lib/keywords/unevaluatedProperties.min.js: sha512-OQoGvhNz8GaAxlmllVWbjlQ4qkXMvp+mjk/n3+f6dhpiGjUxArJ1kpQhUN+rKqkRDgLMCjH1Gbv8nNYgRsCinA==
+- hyperjump-json-schema/1.6.6/lib/openapi.js: sha512-HESNhQhowkS7T9BmqS73/MQCw3RhCmXhU+eN0x1W+W+ziQvs1JuwWNKgFrnqTyUxyzf2W0UUFxmNIAkDLe2KAg==
+- hyperjump-json-schema/1.6.6/lib/pubsub.min.js: sha512-5WpAeYAHV1todPwLDaluAolO0V0W1c5CDaKt8Vx512d7UY+FMHLTP0imUoK6Q14TzeJr29lFXLLIFMgNNiYmAA==
+- hyperjump-json-schema/1.6.6/lib/schema.js: sha512-nX9K3CnaxnQMzD2Z1eOt7r4dgruG2Aj2w/+LWAI115279r9poHFNFlYAQ1cS9hMHTIlyPswCdp9J6qiaWf4kCw==
+- hyperjump-json-schema/1.6.6/stable/meta/format-assertion.js: sha512-T0YAWnLLT6lvkf/ORaXrzlDs5y7f1x7A39tvbhBUynm2Ai0bSKrKWDVWU76mGvBaavHt7uip9SOKvO1u+GUXjQ==
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/core.js: sha512-UnfERP/5PafCrcKCs5xtd7U3IB7EJGqvBUv94x9C8cKseE5lSH6BTTj5uzQBG5E0GCIhl5EOxBftI7wYDkoxxg==
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/validation.min.js: sha512-72sVw3WpsQjPVditdvb9hRbvjFkMKGLzWbk2VEESqX2M3uHQyECttbDJGFtzPx+9mxKINzq6MMy6jddQpSqbig==
+- hyperjump-json-schema/1.6.6/lib/keywords/multipleOf.js: sha512-5TvjwmLiVBRsPMAqXDYwUdioBBcfIvcCD1eY/FmrBNhGOTkryxAyDxrL6axRVw1dBWNddyiOr3vK8lKn25cVWQ==
+- hyperjump-json-schema/1.6.6/lib/keywords/type.min.js: sha512-9xrLszwZNMhJowO0AuVZUn5klt2pUqh1WTavQ2401d634KY17i+46/Pqw9InGXS8/PwoWv3hRts8tpWNBGk5kQ==
+- hyperjump-json-schema/1.6.6/openapi-3-1/index.min.js: sha512-ViimdvzVSdyJ2NuCKeELQ7/kavsUiF1IHhq7CUggQDGfNwVffQEmeLpNKm4FyNb5gQimRNyJ6UTrNl/ZGVyq7g==
+- hyperjump-json-schema/1.6.6/bundle/index.js: sha512-68KXOEeDpEBT9FKO+pClHZA/YZIdBRtPC6LKHXLytdvcm/qFrKRgFT2ucxn1nZvDfkwSq1FNnzyvpjKUmVNmwg==
+- hyperjump-json-schema/1.6.6/draft-2019-09/meta/applicator.min.js: sha512-4KvzNVbH6R7ypPZdL2q2cfVqx48tMK4+oofF2b7mxyNDV58CtuGVzg6W5sFwxi25SRnXoDztuYyraIOQH8kQwQ==
+- hyperjump-json-schema/1.6.6/lib/keywords/contentSchema.js: sha512-k6SdK4ijSDLTuHQU/AZn9+aM3m9e8OsZ+YDIAMEcyd0eEagTChZpYOdk9/Q1mM1ThnJHjzCzdKntewsTPuGzyw==
+- hyperjump-json-schema/1.6.6/lib/keywords/dynamicAnchor.min.js: sha512-H/GpvvFDVyoLpuEGHmajaGcl/aKv1pMF4LTIBEgZ9+zDPVjvqBzfMegyU7EbHS8Xs/oYITLyFKbRSODRnm4vGA==
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/applicator.js: sha512-if4j+CYWRkOw9CgIvAFZ3f1ZfCWwXlpTXpQ3eq6O/OzFsKY5BpV/cSgcUtNem0aGKboiYc1Vi12TXUSn9E9WLw==
+- hyperjump-json-schema/1.6.6/lib/keywords/id.min.js: sha512-RIs9PMCyxNE4niHSeVmxqFshDDFHxMzQLthnTtdgkB747pV0tb7qJVQInBVDS/PoBCPZO6X/45K+cHGmSYQzgw==
+- hyperjump-json-schema/1.6.6/lib/keywords/minProperties.js: sha512-60Ippt+uGNyjTKPrGlhZGjDjKYIP2GmdpY7jnb5YqCAfllbXPuGZbc6IC0o6/RFiSdeNYlNfPYvNh6wqWfj62g==
+- hyperjump-json-schema/1.6.6/openapi-3-0/example.js: sha512-BNPiqH55XdKMmk/cTbJTr/Qtbs0ah3sCWLcEM1RjDVaAX2/WUg2n4Uc7RXDYjgZLwXgjnkmAiO3IXNeSmOMMVw==
+- hyperjump-json-schema/1.6.6/openapi-3-1/meta/base.js: sha512-zSSWIdc2Q1gOqkmcPSMQb8w1z6jlmBZ//Hdpdp9VrnyGtYl7P8hG57G+d99I6Hdhqa+iUjc87o7SgJ6c0k993g==
+- hyperjump-json-schema/1.6.6/lib/index.js: sha512-SS8vrxbmkO4kUwrPC5/+D5Ip0AzfEAcPsiEl7M/H1mwu2knui1yDsURA5zQVdkZz9fD4ESS+w1jwqbDJC+5zUw==
+- hyperjump-json-schema/1.6.6/lib/keywords/anyOf.min.js: sha512-g2fwoJxcMmY8dfTIzXVTOwrNJ7ZY8jKyhBOGCJ1Xt5rCrwZ1WZ8U7+MUGO/WOgKb/5GRlIr2a5uhWa12V5CGsQ==
+- hyperjump-json-schema/1.6.6/lib/keywords/contentEncoding.js: sha512-Fmm/4aZBj73Qexslo8yUa0eXN+xBxT8hktGSfW7vcZ2Bf2mn4GGbvqPDdRuP8KWHe4jRBAFrOFzL/aUa5+FbwQ==
+- hyperjump-json-schema/1.6.6/lib/keywords/multipleOf.min.js: sha512-+ljRYVPfo3KcNO2ADz9FkmZ5J1hsI9WGMteBrWorL+1lk7ZBFu2CiPEYvxjNUbq9p8rPlXite3+hxZfQ6dJk3Q==
+- hyperjump-json-schema/1.6.6/draft-04/index.min.js: sha512-5MmTEW0ui66W1hPkkbxfBrPTXzCz3uJNEIjIjI6N1d14noTouTdrUeZ11aeOOihYoDKgXvaymGcyWaeLQoHR9Q==
+- hyperjump-json-schema/1.6.6/lib/keywords/enum.js: sha512-o3e88wckNu5uiqcJZk9xfn7OzHk3XqYJw2UcGJzqGdQOEBgfCVgoSr4IaN1t8u+zPfiCg2BUV1/OvzI9WHVP8g==
+- hyperjump-json-schema/1.6.6/openapi-3-0/index.js: sha512-zJT3QXGR1d9BliW99QWfBePaMDpSWtwDLttim+/0qRRcdJMc/v7bfGgPDJDVmKplOCPI4onRcNSqQEozxvvHtw==
+- hyperjump-json-schema/1.6.6/lib/keywords/minimum.min.js: sha512-6fRv68KxIUU1kdSb5UWcvaEM4bisQHC2Z5ugFyvqOvDL3klPY0EDPFW3sFQcHgNKLVXO+a3XnUr5kme5ucpl1g==
+- hyperjump-json-schema/1.6.6/lib/keywords/uniqueItems.js: sha512-FsZd8uJJr9fsFl2+VDc8wyj0GmN9okAO2gQeG4zFdIGIbjv9vXwUw2WiuSU3nFDDnTnzbjY7vtKZ6+HiD6EJug==
+- hyperjump-json-schema/1.6.6/lib/fetch.min.js: sha512-ZzDClSlA+lBVG3+yejL1fHJPDHz0vAaohMMD/b9HO7xfycVhKeufiBy72vP9ECxfWvrMNyz+2XMDACI3Bvnhxg==
+- hyperjump-json-schema/1.6.6/lib/instance.min.js: sha512-UjfYXn+piLqn/ADL8tB9/7x7YVGh8PynX0oSfttQ6V1g9t3Dji1n55Femfnj2zwPrGY3/6mdOK8O3fkrr844wg==
+- hyperjump-json-schema/1.6.6/lib/keywords/const.js: sha512-+jgvf/4m3XtlsErfaxMJi+DWRKCgCzjMZ2kcNHNjpZRJwfQshX0UV+m4mDF4Sw52+OEuAzbOgiGGLSm21kdDww==
+- hyperjump-json-schema/1.6.6/lib/keywords/dynamicAnchor.js: sha512-Jf2lrLdfk2ouX7I7LjsD1HPXqTLjK2NEFXbzW8/8UemEwC047GAOiQj5Q7d5lNml4m2wRz+yXOnwychvd7djGA==
+- hyperjump-json-schema/1.6.6/lib/context-uri.min.js: sha512-Qg385A53R4t8sLX3PEM6ooTQVTHBEJgDc+XYNOObluToW5ACevbKb0Z1h7m72OE6+PNI48bu62mp/hNUf+t0Aw==
+- hyperjump-json-schema/1.6.6/lib/keywords/itemPattern.js: sha512-LrTerK11uoWZjDU+PWMBg3ccWpZYQyhUAenLkJi+84VypavikwecHuO/Py6ithMvn9hqKXpa0KwwSpAp80uA8Q==
+- hyperjump-json-schema/1.6.6/lib/media-types.js: sha512-uMwMe6864AgdvEGAzqFNao5dpVxwiCM88NBsq+2Q55QnWRFRXUdeHvjQkm6sgCJgvN6DYH1X0r+XayLsC5hyaA==
+- hyperjump-json-schema/1.6.6/lib/keywords/contentEncoding.min.js: sha512-Iu+MsvRPLaU2JBEDrItSYCZ8+ItpWSsFPnwM+BN6169LAnrNGEifVGioSRjHlebMeC1q1hxsx4DxL6XwxibrGQ==
+- hyperjump-json-schema/1.6.6/lib/keywords/items.min.js: sha512-AYRc7sZTiVG2alBVhKfvWKHEGrIRyatmGtGljZGY5ylskBJblJAIX0hKsDJ0umJmTveNfl1Qg0D5FjI38I8WQg==
+- hyperjump-json-schema/1.6.6/stable/meta/meta-data.min.js: sha512-Sug+7WugfvSMGmZXGclrbPqNFDu/tqEzUICd6tfBysgJPOTliHxKdSHYGn2hZBo2JTC3xLLUWe7OXRemaf2KWQ==
+- hyperjump-json-schema/1.6.6/lib/keywords/enum.min.js: sha512-itCbcbOw0WEAMUKDpX23KwNIjA5kjtaLDs5MLBZ+QwoAIk3rvfmZjKFXT8quFWzX/dJF+Jik9ylmEkxqttGbYA==
+- hyperjump-json-schema/1.6.6/lib/keywords/unevaluatedProperties.js: sha512-DkPWt1qLVfd//+Y/dpclC9eQ1EnwIIKpRGolXZVtmNCkFg9lgYhuJl+sNRTpqFsy4D4p82XGjrFpzmeb2hV5zA==
+- hyperjump-json-schema/1.6.6/openapi-3-0/discriminator.min.js: sha512-ek2RDfH4Bbi6/+XUZOs2xH/v72Zap38EG+SAJn0ae+ljOjXOx+K/QS2ALEAHZOB1vHrWO7GbIB//kDPaYOOJOg==
+- hyperjump-json-schema/1.6.6/annotations/annotated-instance.js: sha512-miYHR0IR14BpD2R5wOXprvrV5sHdAEtquz6jIAEc8ic7PrajaPr09gls3yN5Bu6ZYgBJTb2ack9WDJZvSl1CXQ==
+- hyperjump-json-schema/1.6.6/draft-04/ref.js: sha512-L0HAPv9bZDryYFQoUe2Q4Uos8MCxtY3w+Gl3GaD3xnkqD/v7M8RJg4AvFN9JwCMzz5ZgHJv5sMq7aO1ytIlMPw==
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/format-assertion.min.js: sha512-vjcy6Lu3+zyd/IJqj6P25K7VT6gN+UbbpCL2XP3gip7cE2DYn6A+/ujSSXq5vUb5bhSH31dF0lwYyveydxrJYg==
+- hyperjump-json-schema/1.6.6/draft-2020-12/meta/unevaluated.min.js: sha512-1dE/c5tywV8yc9DW5uLyh9TkIwRY7j+jJObGSCNsbeBuflV1il2dMo5DRZObLW8fDaFIE8KDa4wxQEAdtjRquw==
+- hyperjump-json-schema/1.6.6/lib/keywords/ref.min.js: sha512-4k4ZKgCbgIDKU8TvCI8tix2KQf5ocw2uH8Nh8r1lsKQuGa2PC3uQc4uMe6od66/ekQV24gFgZeixSaX8BjlOmw==
+- hyperjump-json-schema/1.6.6/openapi-3-0/xml.min.js: sha512-i5O2nF5C6dvDQj1wk6owA7auTKFN0TKeWwieIok+cZbS1Xmvvs3Ahrsd+8GpzbtZ+gECvoWI5g6PlwoRRK+DQw==
+- hyperjump-json-schema/1.6.6/stable/meta/unevaluated.min.js: sha512-sMm6NlkWjubz5/6YsRaA5numQr/43nwQZqHfPf58UboqlfpstXOPj0rtlOiONufj0o169ReJVgdSlvuD+lgfMw==
+- hyperjump-json-schema/1.6.6/draft-07/schema.js: sha512-e5OnADiSj7xgapVexnbijclGdAAQ2Pvhe/nQN/iQQWqAtzXgux00o+ZrbqitdjwfhTwPca96fcKErkvZ3GK4ow==
+- hyperjump-json-schema/1.6.6/lib/keywords/anchor.js: sha512-T1zJxB9HpG/Q6ROJrc0n9P444208lQceEIdmLVOlhdw1Hu2c/iIA8lBNqeBRtR9bLF/6GcqOCGa8GhUVcc+SsA==
+- hyperjump-json-schema/1.6.6/lib/keywords/maxContains.min.js: sha512-W7hFVuc7FfEUqhqWB8r/P1MA/pqiBNKHeFZUzfzMe9hEhJ+M0LlPjj+PiO8kDGhEOrh8O6xAEtwSVJ8WHLuVxA==
+- hyperjump-json-schema/1.6.6/lib/keywords/minimum.js: sha512-tacqfIRAOWEXE8+ov1qyccpIsjF/Lof3WaQ0kwKYphe5R3I36YteMzM0Rms3E5s9xjdFGq0qOL54Uqe2y4H5kg==
