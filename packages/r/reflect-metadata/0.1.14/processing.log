@@ -1,0 +1,11 @@
+2023/12/08 04:39:03 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/12/08 04:39:03 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/Reflect.min.js /tmp/work/Reflect.js
+2023/12/08 04:39:04 sri /tmp/work/Reflect.min.js -> /output/Reflect.min.js.sri
+2023/12/08 04:39:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/Reflect.min.js.br /tmp/work/Reflect.min.js
+2023/12/08 04:39:04 br /tmp/work/Reflect.min.js -> /output/Reflect.min.js.br
+2023/12/08 04:39:04 gz /tmp/work/Reflect.min.js -> /output/Reflect.min.js.gz
+2023/12/08 04:39:04 sri /tmp/work/Reflect.js -> /output/Reflect.js.sri
+2023/12/08 04:39:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/Reflect.js.br /tmp/work/Reflect.js
+2023/12/08 04:39:04 br /tmp/work/Reflect.js -> /output/Reflect.js.br
+2023/12/08 04:39:04 gz /tmp/work/Reflect.js -> /output/Reflect.js.gz
+2023/12/08 04:39:04 processed reflect-metadata
