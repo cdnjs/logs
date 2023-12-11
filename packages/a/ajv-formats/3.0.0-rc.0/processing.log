@@ -1,0 +1,47 @@
+2023/12/11 21:06:52 optimizing files (Js true, Css true, Png true, Jpg true)
+2023/12/11 21:06:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/formats.min.js /tmp/work/dist/formats.js
+2023/12/11 21:06:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/formats.d.ts.br /tmp/work/dist/formats.d.ts
+2023/12/11 21:06:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/formats.js.map.br /tmp/work/dist/formats.js.map
+2023/12/11 21:06:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.map.br /tmp/work/dist/index.js.map
+2023/12/11 21:06:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/limit.d.ts.br /tmp/work/dist/limit.d.ts
+2023/12/11 21:06:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.d.ts.br /tmp/work/dist/index.d.ts
+2023/12/11 21:06:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/index.min.js /tmp/work/dist/index.js
+2023/12/11 21:06:53 compress: run /node_modules/uglify-js/bin/uglifyjs --mangle --compress if_return=true -o /tmp/work/dist/limit.min.js /tmp/work/dist/limit.js
+2023/12/11 21:06:53 br /tmp/work/dist/limit.d.ts -> /output/limit.d.ts.br
+2023/12/11 21:06:53 br /tmp/work/dist/formats.d.ts -> /output/formats.d.ts.br
+2023/12/11 21:06:53 br /tmp/work/dist/index.d.ts -> /output/index.d.ts.br
+2023/12/11 21:06:53 gz /tmp/work/dist/limit.d.ts -> /output/limit.d.ts.gz
+2023/12/11 21:06:53 br /tmp/work/dist/index.js.map -> /output/index.js.map.br
+2023/12/11 21:06:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/limit.js.map.br /tmp/work/dist/limit.js.map
+2023/12/11 21:06:53 gz /tmp/work/dist/formats.d.ts -> /output/formats.d.ts.gz
+2023/12/11 21:06:53 gz /tmp/work/dist/index.d.ts -> /output/index.d.ts.gz
+2023/12/11 21:06:53 gz /tmp/work/dist/index.js.map -> /output/index.js.map.gz
+2023/12/11 21:06:53 br /tmp/work/dist/limit.js.map -> /output/limit.js.map.br
+2023/12/11 21:06:53 gz /tmp/work/dist/limit.js.map -> /output/limit.js.map.gz
+2023/12/11 21:06:53 br /tmp/work/dist/formats.js.map -> /output/formats.js.map.br
+2023/12/11 21:06:53 gz /tmp/work/dist/formats.js.map -> /output/formats.js.map.gz
+2023/12/11 21:06:53 sri /tmp/work/dist/index.min.js -> /output/index.min.js.sri
+2023/12/11 21:06:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/dist/index.min.js
+2023/12/11 21:06:53 br /tmp/work/dist/index.min.js -> /output/index.min.js.br
+2023/12/11 21:06:53 gz /tmp/work/dist/index.min.js -> /output/index.min.js.gz
+2023/12/11 21:06:53 sri /tmp/work/dist/index.js -> /output/index.js.sri
+2023/12/11 21:06:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/dist/index.js
+2023/12/11 21:06:53 br /tmp/work/dist/index.js -> /output/index.js.br
+2023/12/11 21:06:53 gz /tmp/work/dist/index.js -> /output/index.js.gz
+2023/12/11 21:06:53 sri /tmp/work/dist/limit.min.js -> /output/limit.min.js.sri
+2023/12/11 21:06:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/limit.min.js.br /tmp/work/dist/limit.min.js
+2023/12/11 21:06:53 br /tmp/work/dist/limit.min.js -> /output/limit.min.js.br
+2023/12/11 21:06:53 gz /tmp/work/dist/limit.min.js -> /output/limit.min.js.gz
+2023/12/11 21:06:53 sri /tmp/work/dist/limit.js -> /output/limit.js.sri
+2023/12/11 21:06:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/limit.js.br /tmp/work/dist/limit.js
+2023/12/11 21:06:53 br /tmp/work/dist/limit.js -> /output/limit.js.br
+2023/12/11 21:06:53 gz /tmp/work/dist/limit.js -> /output/limit.js.gz
+2023/12/11 21:06:53 sri /tmp/work/dist/formats.min.js -> /output/formats.min.js.sri
+2023/12/11 21:06:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/formats.min.js.br /tmp/work/dist/formats.min.js
+2023/12/11 21:06:53 br /tmp/work/dist/formats.min.js -> /output/formats.min.js.br
+2023/12/11 21:06:53 gz /tmp/work/dist/formats.min.js -> /output/formats.min.js.gz
+2023/12/11 21:06:53 sri /tmp/work/dist/formats.js -> /output/formats.js.sri
+2023/12/11 21:06:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/formats.js.br /tmp/work/dist/formats.js
+2023/12/11 21:06:53 br /tmp/work/dist/formats.js -> /output/formats.js.br
+2023/12/11 21:06:53 gz /tmp/work/dist/formats.js -> /output/formats.js.gz
+2023/12/11 21:06:53 processed ajv-formats
