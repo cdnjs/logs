@@ -1,81 +1,299 @@
-config: {"authors":[{"name":"Hakim El Hattab","email":"hakim.elhattab@gmail.com","url":"http://hakim.se"}],"autoupdate":{"source":"git","target":"https://github.com/hakimel/reveal.js.git","fileMap":[{"basePath":"dist","files":["**/*.@(js|css|eot|ttf|woff)"]},{"basePath":"","files":["plugin/**/*.@(js|css)"]}]},"description":"The HTML Presentation Framework","filename":"reveal.js","homepage":"https://revealjs.com/","keywords":["reveal.js","reveal","presentations","slides"],"license":"MIT","name":"reveal.js","repository":{"type":"git","url":"https://github.com/hakimel/reveal.js.git"},"author":"Hakim El Hattab \u003chakim.elhattab@gmail.com\u003e (http://hakim.se)"}
+config: {"authors":[{"name":"Hakim El Hattab","email":"hakim.elhattab@gmail.com","url":"http://hakim.se"}],"autoupdate":{"source":"git","target":"https://github.com/hakimel/reveal.js.git","fileMap":[{"basePath":"dist","files":["**/*.@(js|css|eot|ttf|woff)"]},{"basePath":"","files":["plugin/**/*.@(js|css)"]}]},"description":"The HTML Presentation Framework","filename":"reveal.js","homepage":"https://revealjs.com/","keywords":["reveal.js","reveal","presentations","slides"],"license":"MIT","name":"reveal.js","repository":{"type":"git","url":"https://github.com/hakimel/reveal.js.git"},"version":"4.1.0","author":"Hakim El Hattab <hakim.elhattab@gmail.com> (http://hakim.se)"}
+
 KV keys:
+- reveal.js/3.8.0/css/print/paper.css.br
+- reveal.js/3.8.0/css/print/paper.css.gz
+- reveal.js/3.8.0/css/print/paper.min.css.br
+- reveal.js/3.8.0/css/print/paper.min.css.gz
+- reveal.js/3.8.0/css/print/paper.min.css.map.br
+- reveal.js/3.8.0/css/print/paper.min.css.map.gz
+- reveal.js/3.8.0/css/print/pdf.css.br
+- reveal.js/3.8.0/css/print/pdf.css.gz
+- reveal.js/3.8.0/css/print/pdf.min.css.br
+- reveal.js/3.8.0/css/print/pdf.min.css.gz
+- reveal.js/3.8.0/css/print/pdf.min.css.map.br
+- reveal.js/3.8.0/css/print/pdf.min.css.map.gz
+- reveal.js/3.8.0/css/reset.css.br
+- reveal.js/3.8.0/css/reset.css.gz
+- reveal.js/3.8.0/css/reset.min.css.br
+- reveal.js/3.8.0/css/reset.min.css.gz
+- reveal.js/3.8.0/css/reset.min.css.map.br
+- reveal.js/3.8.0/css/reset.min.css.map.gz
+- reveal.js/3.8.0/css/reveal.css.br
+- reveal.js/3.8.0/css/reveal.css.gz
+- reveal.js/3.8.0/css/reveal.min.css.br
+- reveal.js/3.8.0/css/reveal.min.css.gz
+- reveal.js/3.8.0/css/reveal.min.css.map.br
+- reveal.js/3.8.0/css/reveal.min.css.map.gz
+- reveal.js/3.8.0/css/theme/beige.css.br
+- reveal.js/3.8.0/css/theme/beige.css.gz
+- reveal.js/3.8.0/css/theme/beige.min.css.br
+- reveal.js/3.8.0/css/theme/beige.min.css.gz
+- reveal.js/3.8.0/css/theme/beige.min.css.map.br
+- reveal.js/3.8.0/css/theme/beige.min.css.map.gz
+- reveal.js/3.8.0/css/theme/black.css.br
+- reveal.js/3.8.0/css/theme/black.css.gz
+- reveal.js/3.8.0/css/theme/black.min.css.br
+- reveal.js/3.8.0/css/theme/black.min.css.gz
+- reveal.js/3.8.0/css/theme/black.min.css.map.br
+- reveal.js/3.8.0/css/theme/black.min.css.map.gz
+- reveal.js/3.8.0/css/theme/blood.css.br
+- reveal.js/3.8.0/css/theme/blood.css.gz
+- reveal.js/3.8.0/css/theme/blood.min.css.br
+- reveal.js/3.8.0/css/theme/blood.min.css.gz
+- reveal.js/3.8.0/css/theme/blood.min.css.map.br
+- reveal.js/3.8.0/css/theme/blood.min.css.map.gz
+- reveal.js/3.8.0/css/theme/league.css.br
+- reveal.js/3.8.0/css/theme/league.css.gz
+- reveal.js/3.8.0/css/theme/league.min.css.br
+- reveal.js/3.8.0/css/theme/league.min.css.gz
+- reveal.js/3.8.0/css/theme/league.min.css.map.br
+- reveal.js/3.8.0/css/theme/league.min.css.map.gz
+- reveal.js/3.8.0/css/theme/moon.css.br
+- reveal.js/3.8.0/css/theme/moon.css.gz
+- reveal.js/3.8.0/css/theme/moon.min.css.br
+- reveal.js/3.8.0/css/theme/moon.min.css.gz
+- reveal.js/3.8.0/css/theme/moon.min.css.map.br
+- reveal.js/3.8.0/css/theme/moon.min.css.map.gz
+- reveal.js/3.8.0/css/theme/night.css.br
+- reveal.js/3.8.0/css/theme/night.css.gz
+- reveal.js/3.8.0/css/theme/night.min.css.br
+- reveal.js/3.8.0/css/theme/night.min.css.gz
+- reveal.js/3.8.0/css/theme/night.min.css.map.br
+- reveal.js/3.8.0/css/theme/night.min.css.map.gz
+- reveal.js/3.8.0/css/theme/serif.css.br
+- reveal.js/3.8.0/css/theme/serif.css.gz
+- reveal.js/3.8.0/css/theme/serif.min.css.br
+- reveal.js/3.8.0/css/theme/serif.min.css.gz
+- reveal.js/3.8.0/css/theme/serif.min.css.map.br
+- reveal.js/3.8.0/css/theme/serif.min.css.map.gz
+- reveal.js/3.8.0/css/theme/simple.css.br
+- reveal.js/3.8.0/css/theme/simple.css.gz
+- reveal.js/3.8.0/css/theme/simple.min.css.br
+- reveal.js/3.8.0/css/theme/simple.min.css.gz
+- reveal.js/3.8.0/css/theme/simple.min.css.map.br
+- reveal.js/3.8.0/css/theme/simple.min.css.map.gz
+- reveal.js/3.8.0/css/theme/sky.css.br
+- reveal.js/3.8.0/css/theme/sky.css.gz
+- reveal.js/3.8.0/css/theme/sky.min.css.br
+- reveal.js/3.8.0/css/theme/sky.min.css.gz
+- reveal.js/3.8.0/css/theme/sky.min.css.map.br
+- reveal.js/3.8.0/css/theme/sky.min.css.map.gz
+- reveal.js/3.8.0/css/theme/solarized.css.br
+- reveal.js/3.8.0/css/theme/solarized.css.gz
+- reveal.js/3.8.0/css/theme/solarized.min.css.br
+- reveal.js/3.8.0/css/theme/solarized.min.css.gz
+- reveal.js/3.8.0/css/theme/solarized.min.css.map.br
+- reveal.js/3.8.0/css/theme/solarized.min.css.map.gz
+- reveal.js/3.8.0/css/theme/white.css.br
+- reveal.js/3.8.0/css/theme/white.css.gz
+- reveal.js/3.8.0/css/theme/white.min.css.br
+- reveal.js/3.8.0/css/theme/white.min.css.gz
+- reveal.js/3.8.0/css/theme/white.min.css.map.br
+- reveal.js/3.8.0/css/theme/white.min.css.map.gz
+- reveal.js/3.8.0/js/reveal.js.br
+- reveal.js/3.8.0/js/reveal.js.gz
+- reveal.js/3.8.0/js/reveal.min.js.br
+- reveal.js/3.8.0/js/reveal.min.js.gz
+- reveal.js/3.8.0/js/reveal.min.js.map.br
+- reveal.js/3.8.0/js/reveal.min.js.map.gz
+- reveal.js/3.8.0/lib/css/monokai.css.br
+- reveal.js/3.8.0/lib/css/monokai.css.gz
+- reveal.js/3.8.0/lib/css/monokai.min.css.br
+- reveal.js/3.8.0/lib/css/monokai.min.css.gz
+- reveal.js/3.8.0/lib/css/monokai.min.css.map.br
+- reveal.js/3.8.0/lib/css/monokai.min.css.map.gz
+- reveal.js/3.8.0/lib/css/zenburn.css.br
+- reveal.js/3.8.0/lib/css/zenburn.css.gz
+- reveal.js/3.8.0/lib/css/zenburn.min.css.br
+- reveal.js/3.8.0/lib/css/zenburn.min.css.gz
+- reveal.js/3.8.0/lib/css/zenburn.min.css.map.br
+- reveal.js/3.8.0/lib/css/zenburn.min.css.map.gz
+- reveal.js/3.8.0/lib/font/league-gothic/league-gothic.css.br
+- reveal.js/3.8.0/lib/font/league-gothic/league-gothic.css.gz
+- reveal.js/3.8.0/lib/font/league-gothic/league-gothic.eot.br
+- reveal.js/3.8.0/lib/font/league-gothic/league-gothic.eot.gz
+- reveal.js/3.8.0/lib/font/league-gothic/league-gothic.min.css.br
+- reveal.js/3.8.0/lib/font/league-gothic/league-gothic.min.css.gz
+- reveal.js/3.8.0/lib/font/league-gothic/league-gothic.min.css.map.br
+- reveal.js/3.8.0/lib/font/league-gothic/league-gothic.min.css.map.gz
+- reveal.js/3.8.0/lib/font/league-gothic/league-gothic.ttf.br
+- reveal.js/3.8.0/lib/font/league-gothic/league-gothic.ttf.gz
+- reveal.js/3.8.0/lib/font/league-gothic/league-gothic.woff.br
+- reveal.js/3.8.0/lib/font/league-gothic/league-gothic.woff.gz
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro-italic.eot.br
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro-italic.eot.gz
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro-italic.ttf.br
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro-italic.ttf.gz
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro-italic.woff.br
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro-italic.woff.gz
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro-regular.eot.br
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro-regular.eot.gz
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro-regular.ttf.br
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro-regular.ttf.gz
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro-regular.woff.br
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro-regular.woff.gz
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro-semibold.eot.br
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro-semibold.eot.gz
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro-semibold.ttf.br
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro-semibold.ttf.gz
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro-semibold.woff.br
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro-semibold.woff.gz
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro-semibolditalic.eot.br
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro-semibolditalic.eot.gz
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro-semibolditalic.ttf.br
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro-semibolditalic.ttf.gz
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro-semibolditalic.woff.br
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro-semibolditalic.woff.gz
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro.css.br
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro.css.gz
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro.min.css.br
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro.min.css.gz
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro.min.css.map.br
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro.min.css.map.gz
+- reveal.js/3.8.0/lib/js/html5shiv.js.br
+- reveal.js/3.8.0/lib/js/html5shiv.js.gz
+- reveal.js/3.8.0/lib/js/promise.js.br
+- reveal.js/3.8.0/lib/js/promise.js.gz
 - reveal.js/3.8.0/plugin/highlight/highlight.js.br
 - reveal.js/3.8.0/plugin/highlight/highlight.js.gz
 - reveal.js/3.8.0/plugin/highlight/highlight.min.js.br
 - reveal.js/3.8.0/plugin/highlight/highlight.min.js.gz
+- reveal.js/3.8.0/plugin/highlight/highlight.min.js.map.br
+- reveal.js/3.8.0/plugin/highlight/highlight.min.js.map.gz
 - reveal.js/3.8.0/plugin/markdown/markdown.js.br
 - reveal.js/3.8.0/plugin/markdown/markdown.js.gz
 - reveal.js/3.8.0/plugin/markdown/markdown.min.js.br
 - reveal.js/3.8.0/plugin/markdown/markdown.min.js.gz
+- reveal.js/3.8.0/plugin/markdown/markdown.min.js.map.br
+- reveal.js/3.8.0/plugin/markdown/markdown.min.js.map.gz
 - reveal.js/3.8.0/plugin/markdown/marked.js.br
 - reveal.js/3.8.0/plugin/markdown/marked.js.gz
-- reveal.js/3.8.0/plugin/markdown/marked.min.js.br
-- reveal.js/3.8.0/plugin/markdown/marked.min.js.gz
 - reveal.js/3.8.0/plugin/math/math.js.br
 - reveal.js/3.8.0/plugin/math/math.js.gz
 - reveal.js/3.8.0/plugin/math/math.min.js.br
 - reveal.js/3.8.0/plugin/math/math.min.js.gz
+- reveal.js/3.8.0/plugin/math/math.min.js.map.br
+- reveal.js/3.8.0/plugin/math/math.min.js.map.gz
 - reveal.js/3.8.0/plugin/multiplex/client.js.br
 - reveal.js/3.8.0/plugin/multiplex/client.js.gz
 - reveal.js/3.8.0/plugin/multiplex/client.min.js.br
 - reveal.js/3.8.0/plugin/multiplex/client.min.js.gz
+- reveal.js/3.8.0/plugin/multiplex/client.min.js.map.br
+- reveal.js/3.8.0/plugin/multiplex/client.min.js.map.gz
 - reveal.js/3.8.0/plugin/multiplex/index.js.br
 - reveal.js/3.8.0/plugin/multiplex/index.js.gz
 - reveal.js/3.8.0/plugin/multiplex/index.min.js.br
 - reveal.js/3.8.0/plugin/multiplex/index.min.js.gz
+- reveal.js/3.8.0/plugin/multiplex/index.min.js.map.br
+- reveal.js/3.8.0/plugin/multiplex/index.min.js.map.gz
 - reveal.js/3.8.0/plugin/multiplex/master.js.br
 - reveal.js/3.8.0/plugin/multiplex/master.js.gz
 - reveal.js/3.8.0/plugin/multiplex/master.min.js.br
 - reveal.js/3.8.0/plugin/multiplex/master.min.js.gz
+- reveal.js/3.8.0/plugin/multiplex/master.min.js.map.br
+- reveal.js/3.8.0/plugin/multiplex/master.min.js.map.gz
 - reveal.js/3.8.0/plugin/notes/notes.js.br
 - reveal.js/3.8.0/plugin/notes/notes.js.gz
 - reveal.js/3.8.0/plugin/notes/notes.min.js.br
 - reveal.js/3.8.0/plugin/notes/notes.min.js.gz
+- reveal.js/3.8.0/plugin/notes/notes.min.js.map.br
+- reveal.js/3.8.0/plugin/notes/notes.min.js.map.gz
 - reveal.js/3.8.0/plugin/notes-server/client.js.br
 - reveal.js/3.8.0/plugin/notes-server/client.js.gz
 - reveal.js/3.8.0/plugin/notes-server/client.min.js.br
 - reveal.js/3.8.0/plugin/notes-server/client.min.js.gz
+- reveal.js/3.8.0/plugin/notes-server/client.min.js.map.br
+- reveal.js/3.8.0/plugin/notes-server/client.min.js.map.gz
 - reveal.js/3.8.0/plugin/notes-server/index.js.br
 - reveal.js/3.8.0/plugin/notes-server/index.js.gz
 - reveal.js/3.8.0/plugin/notes-server/index.min.js.br
 - reveal.js/3.8.0/plugin/notes-server/index.min.js.gz
+- reveal.js/3.8.0/plugin/notes-server/index.min.js.map.br
+- reveal.js/3.8.0/plugin/notes-server/index.min.js.map.gz
 - reveal.js/3.8.0/plugin/print-pdf/print-pdf.js.br
 - reveal.js/3.8.0/plugin/print-pdf/print-pdf.js.gz
 - reveal.js/3.8.0/plugin/print-pdf/print-pdf.min.js.br
 - reveal.js/3.8.0/plugin/print-pdf/print-pdf.min.js.gz
+- reveal.js/3.8.0/plugin/print-pdf/print-pdf.min.js.map.br
+- reveal.js/3.8.0/plugin/print-pdf/print-pdf.min.js.map.gz
 - reveal.js/3.8.0/plugin/search/search.js.br
 - reveal.js/3.8.0/plugin/search/search.js.gz
 - reveal.js/3.8.0/plugin/search/search.min.js.br
 - reveal.js/3.8.0/plugin/search/search.min.js.gz
+- reveal.js/3.8.0/plugin/search/search.min.js.map.br
+- reveal.js/3.8.0/plugin/search/search.min.js.map.gz
 - reveal.js/3.8.0/plugin/zoom-js/zoom.js.br
 - reveal.js/3.8.0/plugin/zoom-js/zoom.js.gz
 - reveal.js/3.8.0/plugin/zoom-js/zoom.min.js.br
 - reveal.js/3.8.0/plugin/zoom-js/zoom.min.js.gz
+- reveal.js/3.8.0/plugin/zoom-js/zoom.min.js.map.br
+- reveal.js/3.8.0/plugin/zoom-js/zoom.min.js.map.gz
 SRIs:
-- reveal.js/3.8.0/plugin/multiplex/master.min.js: sha512-e+3CJ+No+xt8Nwqw7Mb1Hml8j4WPORolpKWM/9tN5H4aaIuYc8QbViO5L0QLs8ks9URUhGgVllLTe1PTiGmidQ==
-- reveal.js/3.8.0/plugin/notes-server/index.js: sha512-NkpCdhr5iM9tz0YHPfp7W1Lafk2/CgONaEDk1EQdX0WRZEJ3BIuc5ZzxnklRgHdZxjXlieHPXexayJZzmkVO8Q==
-- reveal.js/3.8.0/plugin/search/search.min.js: sha512-ThpJZljPSTQ4uLa9ioL6CFsxBW6td4pBqIZ3s89HVttjE46rygXqauGzkHNAUnz7GaQ7mRlH9bS1MXTCFXnQeA==
-- reveal.js/3.8.0/plugin/highlight/highlight.js: sha512-tCyScFdkpjSjUlVxMZ27PKYxIpbSBL6mF32ZWbolNrxRMeJXkZ7QDj5h4RsGSc5StaR0r0jRADY+yDhQjOQ9Xg==
-- reveal.js/3.8.0/plugin/highlight/highlight.min.js: sha512-dDOAKqmQ93pS57yURFO9+NnMenHRJptaZ9uxv6ApAX4Wz7Neo5e2+19B2eJ57Kmvh8pJeW68vASUVqDvIWE/vw==
-- reveal.js/3.8.0/plugin/markdown/markdown.min.js: sha512-QfnWb70WPNiA+gZGHhLBBf9ZRilqWxX66ZNQAiy80g/zst8emZY5NMSJoaChCffoYY5ZQwbW5OYKFpUP/xKNgQ==
-- reveal.js/3.8.0/plugin/markdown/marked.min.js: sha512-juOahi7zWD8L/lH9noEKzwTtq7ONNPdawZu5OkfqfNmv/5M34H4Vkds+ByT4Ss2Gqo5XwD/nwC3hQUbRPHuNGg==
-- reveal.js/3.8.0/plugin/multiplex/index.js: sha512-yhXgz/Mkejk5GpX75az2SKQ+Jht/IMH3BUJvbJunatj+b9n2N+nWhI2L+nGOc8k7w1VXxIb/U8uDaIr+ruBuOg==
-- reveal.js/3.8.0/plugin/math/math.js: sha512-IteRNvKSUc8LFVwYj1Ep1dc+hMPWey9EEPoPlrryqEjNEhGOegl9tDvcn3czIEgBNtmaLb7TAaEWN2daT1QRuQ==
-- reveal.js/3.8.0/plugin/multiplex/client.js: sha512-CdPln5VfNxaAXA2D3Uk8aZqZuSM0FejZYkyh3XJaPjFWRE1hn5tv5yAr57q3d27jj0rx8y7zLvz2JxhQTR6qMg==
-- reveal.js/3.8.0/plugin/multiplex/client.min.js: sha512-tz0RC0t4xCb4OGxAX8wlXZpyqySzx8vacnhtchniSxKYqxF8AqW1TgAnJBIeoARt3jVTsmNtOjIVu+4k1iH5+Q==
-- reveal.js/3.8.0/plugin/multiplex/index.min.js: sha512-0rKrt/vnr1xg/bXsiM/ZcGq9u7zrZ0tGm/hdu1FWKc6Qc3LWNhJ1VLyxW7Y7S7dyH6oHfUCQrJLchEz2qvsx+A==
-- reveal.js/3.8.0/plugin/zoom-js/zoom.js: sha512-kt0fE24UnyYle5IQ+nOsXi/SWJFsvcggyHQe7a0CbZQ3zp0rS/jdKgKwonjCW095V80e9mG8k22C3m7HJZyNPA==
-- reveal.js/3.8.0/plugin/notes-server/index.min.js: sha512-8aOEmpxVBIjvql86dXpnM30wIkQzRbksE4IpjspcDossVXXchKf/+m6zKtPscFCAQOpqFZ2bC4hQuZcEix+SyQ==
-- reveal.js/3.8.0/plugin/print-pdf/print-pdf.js: sha512-ySSpTm+lh6eB18xMMwJCa1g6V6JUs7lVZ91WpZZxgzhGFQd9hmac10wEfbi3DB5LkTG7oKP83fG5dQwCpyQi2g==
-- reveal.js/3.8.0/plugin/print-pdf/print-pdf.min.js: sha512-uhYwbC0CpSGKTfY5srUsGoJ4fcVYzEmD/OU8PRL6aIkWfoGr89DCN/HU5j+tPKHZzKJyZ2e2TKLgJnSYg0AyAg==
-- reveal.js/3.8.0/plugin/markdown/markdown.js: sha512-qZYVmq09YpMImtMu5xCDLS/mW4dCWoXngurz0kzqmeAT7y3orhqHl3NPAtrsPH3WM0JoYtWEqe1mCJ1ATACF9g==
-- reveal.js/3.8.0/plugin/math/math.min.js: sha512-x7pwFuqXGeO5P/jx9Nz9i/nDxlANqnDtCOekSUOfn/Oqpo28TGqa5iKiYs1uVmbZNTXu8JALPojS/b51cDPuhA==
-- reveal.js/3.8.0/plugin/multiplex/master.js: sha512-IZdc8D58ewgCfZtywR8sfEnezSKZzMAA3/yUdRttLmteww2D0zxil5LyYdSRNAGgLonrMs9AIl9M9XYvjwVZVw==
-- reveal.js/3.8.0/plugin/notes-server/client.js: sha512-3QB5TEPHkZs2Er0yDvG3TwrDNd4CCvpV1Ig5ygavenOAc5wBmJeAyiqaXcRkd/txA8Ft668Xn2fzDZedO0aQYg==
-- reveal.js/3.8.0/plugin/notes-server/client.min.js: sha512-jyjKxASCgfyuKnY/FmQmFq9MiZY/rD8885BzkLz7HMyUNDsnBi3+QItnnilMVLvFWMrfuDL26nlsj+qGeVfUNQ==
-- reveal.js/3.8.0/plugin/search/search.js: sha512-oqcUc2VtbJfYMJy3E3+/8WLd2sH5qrbBW7PS/jfY1yVgcksZX/hNJ559fMBYkXrHyJLOOjqAAgF83tNATeW/9A==
-- reveal.js/3.8.0/plugin/zoom-js/zoom.min.js: sha512-qdpqVCcaCAYrhW+poWy68jnoY0M/1BRTK/Wj7/tlsfeIN/SYxv9mO1+UJkE++5f0XrR0q5RGiIxkDNd5JUwslA==
 - reveal.js/3.8.0/plugin/markdown/marked.js: sha512-tR5H0p9pQEkjx9vrCkxpljoQxWWNQ1mOrz9H0Dpta+ceQgBfDPmKG5WjTMmyTcUNNASkV5pLcZ8vnNjv06Xl2A==
+- reveal.js/3.8.0/js/reveal.min.js: sha512-WeQTqK4wquEFoHcliNs/nkKXaumJxBTnholTbe5pStXJ6oUMftfPxizQirRfo0rskk1nAYEmXjER/GQQyGfU3w==
+- reveal.js/3.8.0/plugin/markdown/markdown.js: sha512-qZYVmq09YpMImtMu5xCDLS/mW4dCWoXngurz0kzqmeAT7y3orhqHl3NPAtrsPH3WM0JoYtWEqe1mCJ1ATACF9g==
+- reveal.js/3.8.0/plugin/multiplex/master.min.js: sha512-aIq0IM/TZVNdxJbYZbQ4ubg1rxlBoAZiHnHlLbC0OzU8wEpqlWu3iTaqjzB+5Us+Ffo/9FbneeainWgDwMjt2w==
+- reveal.js/3.8.0/plugin/print-pdf/print-pdf.js: sha512-ySSpTm+lh6eB18xMMwJCa1g6V6JUs7lVZ91WpZZxgzhGFQd9hmac10wEfbi3DB5LkTG7oKP83fG5dQwCpyQi2g==
+- reveal.js/3.8.0/css/print/pdf.min.css: sha512-E5WQAT9unwz2bbdOawhUV1UaDGwgYvfLrMV6zE7xcKMvrbtHm2CdcyQhupqAydlMWA40Ucx6cdadNsOBX1m0TA==
+- reveal.js/3.8.0/plugin/markdown/markdown.min.js: sha512-mJcRwjVvG24cKHKTTjC7D5XTmQZgTCQs0Sal/ek5pOzaMPiyEN+hkDQH9YQLPTeefiG3ce4Ajoxts5k0AEOP2A==
+- reveal.js/3.8.0/js/reveal.js: sha512-kRM4F5t8uDoMi0/NA5SN8KmDBvqOBCkzy2z8mER4FulKiZMEhke3O2tunKKL71nLivtFByr67KGINiqDngeQqA==
+- reveal.js/3.8.0/lib/css/zenburn.css: sha512-T2v1GuOK/0saIzP0g6neqKR7WrNLPbn+Vc5uDljcbzASruCaSDvliOEeJW3laXjvZuMBxM56uQ4g3KSISpHKpA==
+- reveal.js/3.8.0/lib/css/zenburn.min.css: sha512-3CH2L8hAGJG8B0G/6mjU/mVhP3Fq8+xFl6YoH68bUaE6pvRFC/eKRSlXHyEFeNH1iTvZCDwQiRTeTA3oSbM3gw==
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro.css: sha512-c5ncjzSfE+SQyxugbEjS8KsqS7HKbmPGZpZskZDBaiD3whCRt/Xte38mUxefA9/M/enZQXC4EG1BwusCmQK1fQ==
+- reveal.js/3.8.0/plugin/highlight/highlight.min.js: sha512-zX9DrbIZkdr9i5z7Za+5CWBM3K02s01GqnHRCRv1KizeefAuYq7oTA2jvASCwljnlArmEK28bRxVE/KoIJ/IGw==
+- reveal.js/3.8.0/css/theme/moon.min.css: sha512-zu2RC81UlVNpK1sMPIBna0O4brHwgB5mbs1XERfkasxO9x2VbYAiazSfkucJQBZjNQLPlW1t8wN6Cc4LKdyeNw==
+- reveal.js/3.8.0/css/theme/white.css: sha512-wcOt+Y99ArzKrl+p85z2cPoSRNJV+HIws+PFkw/mOMcy0PXddssPfM0ZR5ntsASHFxguJJlMNt4vSNynvSeYQQ==
+- reveal.js/3.8.0/css/theme/serif.min.css: sha512-JtWrI2Msw7gUpMuPFcM4DbW8uC5rKbNxRbc/8wiSWwA76lLRk4V5NxZDlj/lWgH2OqszZW5u3tZTwrgG/vrVTw==
+- reveal.js/3.8.0/css/theme/solarized.css: sha512-awBa1gsy21CJftUedB5hDvWtyzJYmcgg8yXOrRkv3+0uj1cqanj/zgTCC9hsSXKEKfebJYB3UE/KkghV+z/ChA==
+- reveal.js/3.8.0/lib/font/league-gothic/league-gothic.min.css: sha512-Hclod1qui0Y+njtGMW6+/zHH7l8FSOvQJHSVM4UW/CW+GUN//t9V+luMvPs3K+UsnY2m1IPwkaiRVNzaYarj9A==
 - reveal.js/3.8.0/plugin/notes/notes.js: sha512-ibdDB2pIL1TjNFG3sdFq4dXwqIDqnPQwPlnBqZhbH2iRrU0Riv5LdlRzzCy8ZGwhhYYGQ6RtNjPZTwhbD8T+/g==
-- reveal.js/3.8.0/plugin/notes/notes.min.js: sha512-PYdRgBbpO0kvuOTFac+FFj3P3pLKR/miW5mz6wZ7I6nBcc4RvzIswXOPf2kPPwLnObmfuZq4kzU26q6FTmEgFg==
+- reveal.js/3.8.0/plugin/notes-server/index.js: sha512-NkpCdhr5iM9tz0YHPfp7W1Lafk2/CgONaEDk1EQdX0WRZEJ3BIuc5ZzxnklRgHdZxjXlieHPXexayJZzmkVO8Q==
+- reveal.js/3.8.0/plugin/search/search.min.js: sha512-3jqrnxY5067TzsYcqpcWXY5OV4odm0AMRlXUZEmR25W0R/WLdIyjGjJZwKiweG/I9fDy+Scxuc5l68hav3uITg==
+- reveal.js/3.8.0/css/reset.min.css: sha512-XtuO2ndmRuBHNf3UlauwV3mkw3BF6M4tgOgkiqduea/CPQz83tpyXxIUUwORHinVQuAqnUt4KV+Q74JL5nfmwA==
+- reveal.js/3.8.0/css/theme/league.min.css: sha512-ZeaySnoB29ipnaEY/9Gq2Y8b8EHRJP3qnm+URJouMPtWnOD2Y93YBB/ctJxquSGoWb0oPzan/Eh7qSkTn83NMQ==
+- reveal.js/3.8.0/plugin/zoom-js/zoom.min.js: sha512-l70SYaoyvs+I75cb1XPvj+425FsEKRO/2BAk1ynF1RYdZG3jIbC9WQrOVw6bSMaxUjhq+SeFNU73jnacSlOPbw==
+- reveal.js/3.8.0/css/theme/serif.css: sha512-p7czwVCgtFC1ftsuKJLkv9o0jyceH4/qWMX6LMf8w5n8iKUJIBYiGsrrS4WD14jZBqruLx7VCd50GLIqpIsSQg==
+- reveal.js/3.8.0/css/theme/sky.min.css: sha512-NsIcQAGErQyq9ZN19l8P0lYSi8KlEBvgRVatXYx9AjAEscBUkEmC1D/bE/wzC1wlUa9eyRh1RNyx1HioeECrnA==
+- reveal.js/3.8.0/plugin/search/search.js: sha512-oqcUc2VtbJfYMJy3E3+/8WLd2sH5qrbBW7PS/jfY1yVgcksZX/hNJ559fMBYkXrHyJLOOjqAAgF83tNATeW/9A==
+- reveal.js/3.8.0/css/reveal.min.css: sha512-/iq20zI9S8uu+W2aIHKjk4bjMrobebk/p75ed4UrJNIxscwvWEODgH5/0mMy6Uz9Uhb7L/fSX5dT0V3gIBpClA==
+- reveal.js/3.8.0/plugin/notes/notes.min.js: sha512-0rfEe3JN3XZDY3EJPN4Zh+ZfHheIkJuEqpJAnPtEmY0QYeCZQoSx3JPJE+PgP4Wl6ze4GgBNJNbtilweRGq5Iw==
+- reveal.js/3.8.0/css/theme/league.css: sha512-dHClF84uhdaM6wjBp8VkqQHSJcGwwDnTAlSPacPkNvUo3C0rB+iFgh18vGhubzM7y8aC/UrTKgFr8uJ0wznNPA==
+- reveal.js/3.8.0/css/theme/night.css: sha512-BUjO43wZL2Tbd+NOohHUVk5j01n8II1wwsMb+LaGryIBPhTQNn8ph8uTuKTBioZ/mljXlwnQX8raue8ljDTPOw==
+- reveal.js/3.8.0/css/reveal.css: sha512-fLvbu1Ha85oKB9EuW4afct+fNl7azQBfIknvLGRcsGovC4Qk7iMGkW7jNvTlJfA/l7oQTg88OGBq6EthtP41hw==
+- reveal.js/3.8.0/css/theme/blood.css: sha512-O9OnTksfopFcQsYQouFq/3xZgdpN0FLsGU031p3dIbv8Cc8+7pynS82HN3+XLRFIqVVyQrEfoCK8LcPXemgvmQ==
+- reveal.js/3.8.0/css/theme/beige.min.css: sha512-dK7PTjhbNX8RgXwA5dmSnQjZK+e+1w8fJx2f1Aa50hdMJkH1WuI87Xmf4TN5XTuMHtkijF7Z13osBdEyqQip1A==
+- reveal.js/3.8.0/css/theme/moon.css: sha512-7BUjedU0XH7bxmWlmPkfS10pxxQAOgkX3RpgUa+FLfLqw+LWKp8K7Ys/ccnbbNTNQFSuyTKSidwp9VVCtuLHpQ==
+- reveal.js/3.8.0/plugin/multiplex/index.min.js: sha512-fyjTvdhlC1GUR1t8TkqW6HINqdKxTHkJlHeuMiIdaAfuY5+8KVCUYPYChnNSgsQD/PBvMCmr9QIUnqZdC8HTxw==
+- reveal.js/3.8.0/plugin/multiplex/master.js: sha512-IZdc8D58ewgCfZtywR8sfEnezSKZzMAA3/yUdRttLmteww2D0zxil5LyYdSRNAGgLonrMs9AIl9M9XYvjwVZVw==
+- reveal.js/3.8.0/plugin/print-pdf/print-pdf.min.js: sha512-uhYwbC0CpSGKTfY5srUsGoJ4fcVYzEmD/OU8PRL6aIkWfoGr89DCN/HU5j+tPKHZzKJyZ2e2TKLgJnSYg0AyAg==
+- reveal.js/3.8.0/css/theme/night.min.css: sha512-9d6K9ScAATFqzsmP7NipNJv+dZz7CNIytt5BfH5PwE4Q+uZhhHX4EwwFUon8h3vTFsKI3tV9jBinJrhloLklhQ==
+- reveal.js/3.8.0/plugin/multiplex/client.js: sha512-CdPln5VfNxaAXA2D3Uk8aZqZuSM0FejZYkyh3XJaPjFWRE1hn5tv5yAr57q3d27jj0rx8y7zLvz2JxhQTR6qMg==
+- reveal.js/3.8.0/plugin/notes-server/client.js: sha512-3QB5TEPHkZs2Er0yDvG3TwrDNd4CCvpV1Ig5ygavenOAc5wBmJeAyiqaXcRkd/txA8Ft668Xn2fzDZedO0aQYg==
+- reveal.js/3.8.0/lib/font/league-gothic/league-gothic.css: sha512-+ISQ/Pp+tvJrpu0IiD5kmaR7LOZ0zdHs2/gEn6CzuOXDTojT1UfLwh7amg1iHNYbFl2j8WhNVXyX9XP11pPgHQ==
+- reveal.js/3.8.0/plugin/highlight/highlight.js: sha512-tCyScFdkpjSjUlVxMZ27PKYxIpbSBL6mF32ZWbolNrxRMeJXkZ7QDj5h4RsGSc5StaR0r0jRADY+yDhQjOQ9Xg==
+- reveal.js/3.8.0/plugin/math/math.min.js: sha512-d0iNqA8zE7Nc4tkak2gbQXBf8gAU39IXnQiuT25BmpZBX5ezXl/LMMJXZSBj4KTOTD4/so9wjPZ6QCc6sSIJaw==
+- reveal.js/3.8.0/css/print/pdf.css: sha512-+hIu3PJMJg2MsnR5TfEPPsTuGobLLFXq8Q3tzRjms0VqaLHDtj/8bEk66NIpyyVCfmCOx4HDlSZZB2GJq2SzDg==
+- reveal.js/3.8.0/css/theme/sky.css: sha512-BmhIhQFUasVbDLAV0z9Ng0dNZHq0wazR/R7P04dMUn0lofcvxDX/VuSYXyvMKrwibm8yiGZXiwADg6SW7L/xMQ==
+- reveal.js/3.8.0/plugin/math/math.js: sha512-IteRNvKSUc8LFVwYj1Ep1dc+hMPWey9EEPoPlrryqEjNEhGOegl9tDvcn3czIEgBNtmaLb7TAaEWN2daT1QRuQ==
+- reveal.js/3.8.0/plugin/multiplex/client.min.js: sha512-tz0RC0t4xCb4OGxAX8wlXZpyqySzx8vacnhtchniSxKYqxF8AqW1TgAnJBIeoARt3jVTsmNtOjIVu+4k1iH5+Q==
+- reveal.js/3.8.0/plugin/multiplex/index.js: sha512-yhXgz/Mkejk5GpX75az2SKQ+Jht/IMH3BUJvbJunatj+b9n2N+nWhI2L+nGOc8k7w1VXxIb/U8uDaIr+ruBuOg==
+- reveal.js/3.8.0/plugin/zoom-js/zoom.js: sha512-kt0fE24UnyYle5IQ+nOsXi/SWJFsvcggyHQe7a0CbZQ3zp0rS/jdKgKwonjCW095V80e9mG8k22C3m7HJZyNPA==
+- reveal.js/3.8.0/css/theme/black.css: sha512-N0KiKXj01U5a+x2oxDpnBy6VJK9c3wnCb5zDATjwAQK8K2TJBq2vpeoMuchJyWw8zfUWSxzC3wdAjVNn6avmIA==
+- reveal.js/3.8.0/lib/font/source-sans-pro/source-sans-pro.min.css: sha512-B+yvq0ymUpSUaEEfQ8CKJcmrSZGvtJ49PYJyn21YjUKG6WY2Jz5W+A8ZHwBjaqA+Lu91QBz8iZNiHhWNqOOHbQ==
+- reveal.js/3.8.0/css/theme/white.min.css: sha512-PywMP+S3Tr4b8GIFzWRznBWg/xYC7+HvDghtX6PmQNQPWSIoRL0YE8dMwKfaLYUlEmAdKqHEkS7cTV6pZWkitQ==
+- reveal.js/3.8.0/lib/css/monokai.css: sha512-ITi+aXPAZ6cIHUIulO7jdT3gOiN9w4xIkyqJjFleAkjp2PLj0+oKmjIRlEjudk1bBvjNu4EkyFMstRzwZ+E0GA==
+- reveal.js/3.8.0/lib/js/html5shiv.js: sha512-6E/tmV5eLG1imZaSsJl+l1m/gn2/zJ1iWj4XXs1jMrboTLyeNq/NkTVzqNK7OajYI/eIQ8f5P6niHz3J/VDtOw==
+- reveal.js/3.8.0/css/print/paper.min.css: sha512-LQ0edT4Geg9D3m10xcYUBtFVUdDqsQUnjk1mT7x/rj6Vm17FOgN5TuOJkY9ObCxdYkW3vY9gkTBUEowyXIfdCw==
+- reveal.js/3.8.0/css/theme/beige.css: sha512-sixjYtjmUH8jFNkhekDPKCPazPnTlVMeQmB49hbaQTouVmLOVoOmovWXZX/bTSX0rgWOl2ttf7JUnIR7+g2fbw==
+- reveal.js/3.8.0/lib/css/monokai.min.css: sha512-XP0snXZ2f6x/XIsNeF09Xh8KDkUlkUfCzkU9DkdepJn60HWEsJdFhchVR49ORbSORHIeGWah6Xgl4SkyI70sGg==
+- reveal.js/3.8.0/plugin/notes-server/client.min.js: sha512-RDhmaTxBjMvT0iAGxX7ADS0sPUFwukHboAkl2xHolPUKA0FM1AG2bqW8NNaXT+EVq8dErw655RdhSNHkbaV9Ag==
+- reveal.js/3.8.0/css/print/paper.css: sha512-0rc/pmg5ec+OT9yghwTDeOeIPR0qCeDpWAsMI4SIWTUcX1EBYG/w7OfG5vin16Sb0YgvS5jSCC8g+zD+BONMGQ==
+- reveal.js/3.8.0/css/theme/simple.css: sha512-vrYw558QBaQFVP8ef/tpVsto5usXQ+53Lxc1Etg5VlGCw1JOwFhs7ArWlDVlToFIAoqbj7pqfveyyvdBsKysaw==
+- reveal.js/3.8.0/css/theme/blood.min.css: sha512-20qn59TXbDKA441jYpLI1l+jXq1q6JklhxQcplgQCDjHIlmCNCvsC8N3OxSiiMj0+h1ahnZ6O09inyyJrP+MVw==
+- reveal.js/3.8.0/css/theme/solarized.min.css: sha512-bKAkhA+DquLpFelAHbfKnLDDQVoXywIxwLny0m5Y4uOqPxsAryub5bsROkvMNmveWZYsCO+HUiRJ/SRLosNeqg==
+- reveal.js/3.8.0/lib/js/promise.js: sha512-PcY7khwPTUVTPwSQrigQiUcJQ2VxnppTNaTFqmPfckx8xK/363n/IyeAuCTENcK51saKKHyKQVBeIAcciwqEcQ==
+- reveal.js/3.8.0/css/reset.css: sha512-Q4Cz3JE//UwVLFChrv/lzPe+rK0TVgs3uXcKEWpxZS9gXQ2VicPwx/CNfXG2CyFxwzlYKWKKiNk5aw21abBIzQ==
+- reveal.js/3.8.0/css/theme/black.min.css: sha512-HBZ7DZqfglOrypTC8e/qcmVJngqBpA3Zfb/8jDQh/wvKtGVqgMd77Z8CCVYcgqWdf6srK5ZHwlwmYpxIxxyHcg==
+- reveal.js/3.8.0/css/theme/simple.min.css: sha512-kul3NC4Uz71trz1KTDDu277uGq84FTKG2P1MbRiyZ2qkS9TfJAwXpiIIMMxL2N9t7tkTWynEMJAWAeKYfdxFkA==
+- reveal.js/3.8.0/plugin/notes-server/index.min.js: sha512-rXFxcMslkFUsSs5DTG2t3Nb3KxuueBIWhCE2WXimJadwAFoIDcyvfc65U/z0xZLFTEP4sMyVVc6el95+36+JqA==
