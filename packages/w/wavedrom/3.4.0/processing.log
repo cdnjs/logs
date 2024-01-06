@@ -1,0 +1,71 @@
+2024/01/06 04:05:48 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/01/06 04:05:48 /tmp/work/wavedrom.min.js is already compressed
+2024/01/06 04:05:48 /tmp/work/wavedrom.min.js already has corresponding compressed file
+2024/01/06 04:05:48 /tmp/work/wavedrom.unpkg.min.js is already compressed
+2024/01/06 04:05:48 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/skins/dark.min.js /tmp/work/skins/dark.js]
+2024/01/06 04:05:48 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/skins/default.min.js /tmp/work/skins/default.js]
+2024/01/06 04:05:48 sri /tmp/work/wavedrom.js -> /output/wavedrom.js.sri
+2024/01/06 04:05:48 sri /tmp/work/wavedrom.min.js -> /output/wavedrom.min.js.sri
+2024/01/06 04:05:48 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/skins/narrower.min.js /tmp/work/skins/narrower.js]
+2024/01/06 04:05:48 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/skins/narrow.min.js /tmp/work/skins/narrow.js]
+2024/01/06 04:05:48 sri /tmp/work/wavedrom.unpkg.min.js -> /output/wavedrom.unpkg.min.js.sri
+2024/01/06 04:05:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/wavedrom.unpkg.min.js.br /tmp/work/wavedrom.unpkg.min.js
+2024/01/06 04:05:48 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/skins/lowkey.min.js /tmp/work/skins/lowkey.js]
+2024/01/06 04:05:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/wavedrom.js.br /tmp/work/wavedrom.js
+2024/01/06 04:05:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/wavedrom.min.js.br /tmp/work/wavedrom.min.js
+2024/01/06 04:05:48 br /tmp/work/wavedrom.min.js -> /output/wavedrom.min.js.br
+2024/01/06 04:05:48 gz /tmp/work/wavedrom.min.js -> /output/wavedrom.min.js.gz
+2024/01/06 04:05:48 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/skins/narrowerer.min.js /tmp/work/skins/narrowerer.js]
+2024/01/06 04:05:48 br /tmp/work/wavedrom.js -> /output/wavedrom.js.br
+2024/01/06 04:05:48 gz /tmp/work/wavedrom.js -> /output/wavedrom.js.gz
+2024/01/06 04:05:48 br /tmp/work/wavedrom.unpkg.min.js -> /output/wavedrom.unpkg.min.js.br
+2024/01/06 04:05:48 gz /tmp/work/wavedrom.unpkg.min.js -> /output/wavedrom.unpkg.min.js.gz
+2024/01/06 04:05:49 sri /tmp/work/skins/lowkey.min.js -> /output/skins/lowkey.min.js.sri
+2024/01/06 04:05:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/skins/lowkey.min.js.br /tmp/work/skins/lowkey.min.js
+2024/01/06 04:05:49 sri /tmp/work/skins/dark.min.js -> /output/skins/dark.min.js.sri
+2024/01/06 04:05:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/skins/dark.min.js.br /tmp/work/skins/dark.min.js
+2024/01/06 04:05:49 sri /tmp/work/skins/default.min.js -> /output/skins/default.min.js.sri
+2024/01/06 04:05:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/skins/default.min.js.br /tmp/work/skins/default.min.js
+2024/01/06 04:05:49 sri /tmp/work/skins/narrow.min.js -> /output/skins/narrow.min.js.sri
+2024/01/06 04:05:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/skins/narrow.min.js.br /tmp/work/skins/narrow.min.js
+2024/01/06 04:05:49 sri /tmp/work/skins/narrower.min.js -> /output/skins/narrower.min.js.sri
+2024/01/06 04:05:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/skins/narrower.min.js.br /tmp/work/skins/narrower.min.js
+2024/01/06 04:05:49 sri /tmp/work/skins/narrowerer.min.js -> /output/skins/narrowerer.min.js.sri
+2024/01/06 04:05:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/skins/narrowerer.min.js.br /tmp/work/skins/narrowerer.min.js
+2024/01/06 04:05:49 br /tmp/work/skins/lowkey.min.js -> /output/skins/lowkey.min.js.br
+2024/01/06 04:05:49 gz /tmp/work/skins/lowkey.min.js -> /output/skins/lowkey.min.js.gz
+2024/01/06 04:05:49 sri /tmp/work/skins/lowkey.js -> /output/skins/lowkey.js.sri
+2024/01/06 04:05:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/skins/lowkey.js.br /tmp/work/skins/lowkey.js
+2024/01/06 04:05:49 br /tmp/work/skins/dark.min.js -> /output/skins/dark.min.js.br
+2024/01/06 04:05:49 gz /tmp/work/skins/dark.min.js -> /output/skins/dark.min.js.gz
+2024/01/06 04:05:49 sri /tmp/work/skins/dark.js -> /output/skins/dark.js.sri
+2024/01/06 04:05:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/skins/dark.js.br /tmp/work/skins/dark.js
+2024/01/06 04:05:49 br /tmp/work/skins/default.min.js -> /output/skins/default.min.js.br
+2024/01/06 04:05:49 gz /tmp/work/skins/default.min.js -> /output/skins/default.min.js.gz
+2024/01/06 04:05:49 sri /tmp/work/skins/default.js -> /output/skins/default.js.sri
+2024/01/06 04:05:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/skins/default.js.br /tmp/work/skins/default.js
+2024/01/06 04:05:49 br /tmp/work/skins/narrower.min.js -> /output/skins/narrower.min.js.br
+2024/01/06 04:05:49 gz /tmp/work/skins/narrower.min.js -> /output/skins/narrower.min.js.gz
+2024/01/06 04:05:49 sri /tmp/work/skins/narrower.js -> /output/skins/narrower.js.sri
+2024/01/06 04:05:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/skins/narrower.js.br /tmp/work/skins/narrower.js
+2024/01/06 04:05:49 br /tmp/work/skins/narrow.min.js -> /output/skins/narrow.min.js.br
+2024/01/06 04:05:49 gz /tmp/work/skins/narrow.min.js -> /output/skins/narrow.min.js.gz
+2024/01/06 04:05:49 sri /tmp/work/skins/narrow.js -> /output/skins/narrow.js.sri
+2024/01/06 04:05:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/skins/narrow.js.br /tmp/work/skins/narrow.js
+2024/01/06 04:05:49 br /tmp/work/skins/narrowerer.min.js -> /output/skins/narrowerer.min.js.br
+2024/01/06 04:05:49 gz /tmp/work/skins/narrowerer.min.js -> /output/skins/narrowerer.min.js.gz
+2024/01/06 04:05:49 sri /tmp/work/skins/narrowerer.js -> /output/skins/narrowerer.js.sri
+2024/01/06 04:05:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/skins/narrowerer.js.br /tmp/work/skins/narrowerer.js
+2024/01/06 04:05:49 br /tmp/work/skins/lowkey.js -> /output/skins/lowkey.js.br
+2024/01/06 04:05:49 gz /tmp/work/skins/lowkey.js -> /output/skins/lowkey.js.gz
+2024/01/06 04:05:49 br /tmp/work/skins/dark.js -> /output/skins/dark.js.br
+2024/01/06 04:05:49 gz /tmp/work/skins/dark.js -> /output/skins/dark.js.gz
+2024/01/06 04:05:49 br /tmp/work/skins/default.js -> /output/skins/default.js.br
+2024/01/06 04:05:49 gz /tmp/work/skins/default.js -> /output/skins/default.js.gz
+2024/01/06 04:05:49 br /tmp/work/skins/narrow.js -> /output/skins/narrow.js.br
+2024/01/06 04:05:49 gz /tmp/work/skins/narrow.js -> /output/skins/narrow.js.gz
+2024/01/06 04:05:49 br /tmp/work/skins/narrower.js -> /output/skins/narrower.js.br
+2024/01/06 04:05:49 gz /tmp/work/skins/narrower.js -> /output/skins/narrower.js.gz
+2024/01/06 04:05:49 br /tmp/work/skins/narrowerer.js -> /output/skins/narrowerer.js.br
+2024/01/06 04:05:49 gz /tmp/work/skins/narrowerer.js -> /output/skins/narrowerer.js.gz
+2024/01/06 04:05:49 processed wavedrom
