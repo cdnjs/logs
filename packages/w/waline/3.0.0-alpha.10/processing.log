@@ -1,0 +1,65 @@
+2024/01/06 19:02:06 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/01/06 19:02:06 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/slim.min.js /tmp/work/dist/slim.js]
+2024/01/06 19:02:06 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/waline-meta.min.css /tmp/work/dist/waline-meta.css]
+2024/01/06 19:02:06 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/waline.min.css /tmp/work/dist/waline.css]
+2024/01/06 19:02:06 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/component.min.js /tmp/work/dist/component.js]
+2024/01/06 19:02:06 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/pageview.min.js /tmp/work/dist/pageview.js]
+2024/01/06 19:02:06 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/waline.umd.min.js /tmp/work/dist/waline.umd.js]
+2024/01/06 19:02:06 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/waline.min.js /tmp/work/dist/waline.js]
+2024/01/06 19:02:07 sri /tmp/work/dist/pageview.min.js -> /output/pageview.min.js.sri
+2024/01/06 19:02:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pageview.min.js.br /tmp/work/dist/pageview.min.js
+2024/01/06 19:02:07 br /tmp/work/dist/pageview.min.js -> /output/pageview.min.js.br
+2024/01/06 19:02:07 gz /tmp/work/dist/pageview.min.js -> /output/pageview.min.js.gz
+2024/01/06 19:02:07 sri /tmp/work/dist/pageview.js -> /output/pageview.js.sri
+2024/01/06 19:02:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pageview.js.br /tmp/work/dist/pageview.js
+2024/01/06 19:02:07 br /tmp/work/dist/pageview.js -> /output/pageview.js.br
+2024/01/06 19:02:07 gz /tmp/work/dist/pageview.js -> /output/pageview.js.gz
+2024/01/06 19:02:07 sri /tmp/work/dist/waline-meta.min.css -> /output/waline-meta.min.css.sri
+2024/01/06 19:02:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/waline-meta.min.css.br /tmp/work/dist/waline-meta.min.css
+2024/01/06 19:02:07 sri /tmp/work/dist/waline.min.css -> /output/waline.min.css.sri
+2024/01/06 19:02:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/waline.min.css.br /tmp/work/dist/waline.min.css
+2024/01/06 19:02:07 br /tmp/work/dist/waline-meta.min.css -> /output/waline-meta.min.css.br
+2024/01/06 19:02:07 gz /tmp/work/dist/waline-meta.min.css -> /output/waline-meta.min.css.gz
+2024/01/06 19:02:07 sri /tmp/work/dist/waline-meta.css -> /output/waline-meta.css.sri
+2024/01/06 19:02:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/waline-meta.css.br /tmp/work/dist/waline-meta.css
+2024/01/06 19:02:07 br /tmp/work/dist/waline-meta.css -> /output/waline-meta.css.br
+2024/01/06 19:02:07 gz /tmp/work/dist/waline-meta.css -> /output/waline-meta.css.gz
+2024/01/06 19:02:07 br /tmp/work/dist/waline.min.css -> /output/waline.min.css.br
+2024/01/06 19:02:07 gz /tmp/work/dist/waline.min.css -> /output/waline.min.css.gz
+2024/01/06 19:02:07 sri /tmp/work/dist/waline.css -> /output/waline.css.sri
+2024/01/06 19:02:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/waline.css.br /tmp/work/dist/waline.css
+2024/01/06 19:02:07 br /tmp/work/dist/waline.css -> /output/waline.css.br
+2024/01/06 19:02:07 gz /tmp/work/dist/waline.css -> /output/waline.css.gz
+2024/01/06 19:02:08 sri /tmp/work/dist/component.min.js -> /output/component.min.js.sri
+2024/01/06 19:02:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/component.min.js.br /tmp/work/dist/component.min.js
+2024/01/06 19:02:08 sri /tmp/work/dist/slim.min.js -> /output/slim.min.js.sri
+2024/01/06 19:02:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slim.min.js.br /tmp/work/dist/slim.min.js
+2024/01/06 19:02:08 br /tmp/work/dist/component.min.js -> /output/component.min.js.br
+2024/01/06 19:02:08 gz /tmp/work/dist/component.min.js -> /output/component.min.js.gz
+2024/01/06 19:02:08 sri /tmp/work/dist/component.js -> /output/component.js.sri
+2024/01/06 19:02:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/component.js.br /tmp/work/dist/component.js
+2024/01/06 19:02:08 br /tmp/work/dist/slim.min.js -> /output/slim.min.js.br
+2024/01/06 19:02:08 gz /tmp/work/dist/slim.min.js -> /output/slim.min.js.gz
+2024/01/06 19:02:08 sri /tmp/work/dist/slim.js -> /output/slim.js.sri
+2024/01/06 19:02:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/slim.js.br /tmp/work/dist/slim.js
+2024/01/06 19:02:08 br /tmp/work/dist/component.js -> /output/component.js.br
+2024/01/06 19:02:08 gz /tmp/work/dist/component.js -> /output/component.js.gz
+2024/01/06 19:02:08 br /tmp/work/dist/slim.js -> /output/slim.js.br
+2024/01/06 19:02:08 gz /tmp/work/dist/slim.js -> /output/slim.js.gz
+2024/01/06 19:02:09 sri /tmp/work/dist/waline.min.js -> /output/waline.min.js.sri
+2024/01/06 19:02:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/waline.min.js.br /tmp/work/dist/waline.min.js
+2024/01/06 19:02:09 br /tmp/work/dist/waline.min.js -> /output/waline.min.js.br
+2024/01/06 19:02:09 gz /tmp/work/dist/waline.min.js -> /output/waline.min.js.gz
+2024/01/06 19:02:09 sri /tmp/work/dist/waline.js -> /output/waline.js.sri
+2024/01/06 19:02:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/waline.js.br /tmp/work/dist/waline.js
+2024/01/06 19:02:09 sri /tmp/work/dist/waline.umd.min.js -> /output/waline.umd.min.js.sri
+2024/01/06 19:02:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/waline.umd.min.js.br /tmp/work/dist/waline.umd.min.js
+2024/01/06 19:02:10 br /tmp/work/dist/waline.js -> /output/waline.js.br
+2024/01/06 19:02:10 gz /tmp/work/dist/waline.js -> /output/waline.js.gz
+2024/01/06 19:02:10 br /tmp/work/dist/waline.umd.min.js -> /output/waline.umd.min.js.br
+2024/01/06 19:02:10 gz /tmp/work/dist/waline.umd.min.js -> /output/waline.umd.min.js.gz
+2024/01/06 19:02:10 sri /tmp/work/dist/waline.umd.js -> /output/waline.umd.js.sri
+2024/01/06 19:02:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/waline.umd.js.br /tmp/work/dist/waline.umd.js
+2024/01/06 19:02:10 br /tmp/work/dist/waline.umd.js -> /output/waline.umd.js.br
+2024/01/06 19:02:10 gz /tmp/work/dist/waline.umd.js -> /output/waline.umd.js.gz
+2024/01/06 19:02:10 processed waline
