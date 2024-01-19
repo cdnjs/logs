@@ -1,0 +1,32 @@
+2024/01/19 03:05:32 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/01/19 03:05:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ffi.d.ts.br /tmp/work/ffi.d.ts
+2024/01/19 03:05:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pyodide.d.ts.br /tmp/work/pyodide.d.ts
+2024/01/19 03:05:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pyodide.asm.wasm.br /tmp/work/pyodide.asm.wasm
+2024/01/19 03:05:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pyodide.mjs.br /tmp/work/pyodide.mjs
+2024/01/19 03:05:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/pyodide.asm.min.js /tmp/work/pyodide.asm.js]
+2024/01/19 03:05:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/pyodide.min.js /tmp/work/pyodide.js]
+2024/01/19 03:05:32 br /tmp/work/pyodide.mjs -> /output/pyodide.mjs.br
+2024/01/19 03:05:32 gz /tmp/work/pyodide.mjs -> /output/pyodide.mjs.gz
+2024/01/19 03:05:32 br /tmp/work/ffi.d.ts -> /output/ffi.d.ts.br
+2024/01/19 03:05:32 gz /tmp/work/ffi.d.ts -> /output/ffi.d.ts.gz
+2024/01/19 03:05:32 br /tmp/work/pyodide.d.ts -> /output/pyodide.d.ts.br
+2024/01/19 03:05:32 gz /tmp/work/pyodide.d.ts -> /output/pyodide.d.ts.gz
+2024/01/19 03:05:33 sri /tmp/work/pyodide.min.js -> /output/pyodide.min.js.sri
+2024/01/19 03:05:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pyodide.min.js.br /tmp/work/pyodide.min.js
+2024/01/19 03:05:33 br /tmp/work/pyodide.min.js -> /output/pyodide.min.js.br
+2024/01/19 03:05:33 gz /tmp/work/pyodide.min.js -> /output/pyodide.min.js.gz
+2024/01/19 03:05:33 sri /tmp/work/pyodide.js -> /output/pyodide.js.sri
+2024/01/19 03:05:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pyodide.js.br /tmp/work/pyodide.js
+2024/01/19 03:05:33 br /tmp/work/pyodide.js -> /output/pyodide.js.br
+2024/01/19 03:05:33 gz /tmp/work/pyodide.js -> /output/pyodide.js.gz
+2024/01/19 03:05:37 sri /tmp/work/pyodide.asm.min.js -> /output/pyodide.asm.min.js.sri
+2024/01/19 03:05:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pyodide.asm.min.js.br /tmp/work/pyodide.asm.min.js
+2024/01/19 03:05:39 br /tmp/work/pyodide.asm.min.js -> /output/pyodide.asm.min.js.br
+2024/01/19 03:05:39 gz /tmp/work/pyodide.asm.min.js -> /output/pyodide.asm.min.js.gz
+2024/01/19 03:05:39 sri /tmp/work/pyodide.asm.js -> /output/pyodide.asm.js.sri
+2024/01/19 03:05:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/pyodide.asm.js.br /tmp/work/pyodide.asm.js
+2024/01/19 03:05:41 br /tmp/work/pyodide.asm.js -> /output/pyodide.asm.js.br
+2024/01/19 03:05:41 gz /tmp/work/pyodide.asm.js -> /output/pyodide.asm.js.gz
+2024/01/19 03:06:00 br /tmp/work/pyodide.asm.wasm -> /output/pyodide.asm.wasm.br
+2024/01/19 03:06:01 gz /tmp/work/pyodide.asm.wasm -> /output/pyodide.asm.wasm.gz
+2024/01/19 03:06:01 processed pyodide
