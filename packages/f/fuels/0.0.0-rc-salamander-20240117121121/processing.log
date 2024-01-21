@@ -1,0 +1,56 @@
+2024/01/21 19:08:54 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/01/21 19:08:55 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/cli.global.min.js /tmp/work/dist/cli.global.js]
+2024/01/21 19:08:55 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/bin.global.min.js /tmp/work/dist/bin.global.js]
+2024/01/21 19:08:55 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/cli.min.js /tmp/work/dist/cli.js]
+2024/01/21 19:08:55 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/bin.min.js /tmp/work/dist/bin.js]
+2024/01/21 19:08:55 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/index.global.min.js /tmp/work/dist/index.global.js]
+2024/01/21 19:08:55 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/index.min.js /tmp/work/dist/index.js]
+2024/01/21 19:08:55 sri /tmp/work/dist/index.min.js -> /output/index.min.js.sri
+2024/01/21 19:08:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/dist/index.min.js
+2024/01/21 19:08:55 br /tmp/work/dist/index.min.js -> /output/index.min.js.br
+2024/01/21 19:08:55 gz /tmp/work/dist/index.min.js -> /output/index.min.js.gz
+2024/01/21 19:08:55 sri /tmp/work/dist/index.js -> /output/index.js.sri
+2024/01/21 19:08:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/dist/index.js
+2024/01/21 19:08:55 br /tmp/work/dist/index.js -> /output/index.js.br
+2024/01/21 19:08:55 gz /tmp/work/dist/index.js -> /output/index.js.gz
+2024/01/21 19:08:55 sri /tmp/work/dist/bin.min.js -> /output/bin.min.js.sri
+2024/01/21 19:08:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/bin.min.js.br /tmp/work/dist/bin.min.js
+2024/01/21 19:08:55 sri /tmp/work/dist/cli.min.js -> /output/cli.min.js.sri
+2024/01/21 19:08:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cli.min.js.br /tmp/work/dist/cli.min.js
+2024/01/21 19:08:55 br /tmp/work/dist/cli.min.js -> /output/cli.min.js.br
+2024/01/21 19:08:55 gz /tmp/work/dist/cli.min.js -> /output/cli.min.js.gz
+2024/01/21 19:08:55 sri /tmp/work/dist/cli.js -> /output/cli.js.sri
+2024/01/21 19:08:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cli.js.br /tmp/work/dist/cli.js
+2024/01/21 19:08:55 br /tmp/work/dist/bin.min.js -> /output/bin.min.js.br
+2024/01/21 19:08:55 gz /tmp/work/dist/bin.min.js -> /output/bin.min.js.gz
+2024/01/21 19:08:55 sri /tmp/work/dist/bin.js -> /output/bin.js.sri
+2024/01/21 19:08:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/bin.js.br /tmp/work/dist/bin.js
+2024/01/21 19:08:56 br /tmp/work/dist/cli.js -> /output/cli.js.br
+2024/01/21 19:08:56 gz /tmp/work/dist/cli.js -> /output/cli.js.gz
+2024/01/21 19:08:56 br /tmp/work/dist/bin.js -> /output/bin.js.br
+2024/01/21 19:08:56 gz /tmp/work/dist/bin.js -> /output/bin.js.gz
+2024/01/21 19:09:04 sri /tmp/work/dist/index.global.min.js -> /output/index.global.min.js.sri
+2024/01/21 19:09:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.global.min.js.br /tmp/work/dist/index.global.min.js
+2024/01/21 19:09:06 br /tmp/work/dist/index.global.min.js -> /output/index.global.min.js.br
+2024/01/21 19:09:06 gz /tmp/work/dist/index.global.min.js -> /output/index.global.min.js.gz
+2024/01/21 19:09:06 sri /tmp/work/dist/index.global.js -> /output/index.global.js.sri
+2024/01/21 19:09:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.global.js.br /tmp/work/dist/index.global.js
+2024/01/21 19:09:09 br /tmp/work/dist/index.global.js -> /output/index.global.js.br
+2024/01/21 19:09:09 gz /tmp/work/dist/index.global.js -> /output/index.global.js.gz
+2024/01/21 19:09:11 sri /tmp/work/dist/bin.global.min.js -> /output/bin.global.min.js.sri
+2024/01/21 19:09:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/bin.global.min.js.br /tmp/work/dist/bin.global.min.js
+2024/01/21 19:09:11 sri /tmp/work/dist/cli.global.min.js -> /output/cli.global.min.js.sri
+2024/01/21 19:09:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cli.global.min.js.br /tmp/work/dist/cli.global.min.js
+2024/01/21 19:09:14 br /tmp/work/dist/cli.global.min.js -> /output/cli.global.min.js.br
+2024/01/21 19:09:14 br /tmp/work/dist/bin.global.min.js -> /output/bin.global.min.js.br
+2024/01/21 19:09:14 gz /tmp/work/dist/cli.global.min.js -> /output/cli.global.min.js.gz
+2024/01/21 19:09:14 sri /tmp/work/dist/cli.global.js -> /output/cli.global.js.sri
+2024/01/21 19:09:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cli.global.js.br /tmp/work/dist/cli.global.js
+2024/01/21 19:09:14 gz /tmp/work/dist/bin.global.min.js -> /output/bin.global.min.js.gz
+2024/01/21 19:09:14 sri /tmp/work/dist/bin.global.js -> /output/bin.global.js.sri
+2024/01/21 19:09:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/bin.global.js.br /tmp/work/dist/bin.global.js
+2024/01/21 19:09:20 br /tmp/work/dist/cli.global.js -> /output/cli.global.js.br
+2024/01/21 19:09:20 br /tmp/work/dist/bin.global.js -> /output/bin.global.js.br
+2024/01/21 19:09:20 gz /tmp/work/dist/cli.global.js -> /output/cli.global.js.gz
+2024/01/21 19:09:20 gz /tmp/work/dist/bin.global.js -> /output/bin.global.js.gz
+2024/01/21 19:09:20 processed fuels
