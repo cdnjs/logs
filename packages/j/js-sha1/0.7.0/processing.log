@@ -1,0 +1,15 @@
+2024/01/24 21:35:37 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/01/24 21:35:37 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/src/sha1.min.js /tmp/work/src/sha1.js]
+2024/01/24 21:35:37 /tmp/work/build/sha1.min.js is already compressed
+2024/01/24 21:35:37 sri /tmp/work/build/sha1.min.js -> /output/sha1.min.js.sri
+2024/01/24 21:35:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sha1.min.js.br /tmp/work/build/sha1.min.js
+2024/01/24 21:35:37 br /tmp/work/build/sha1.min.js -> /output/sha1.min.js.br
+2024/01/24 21:35:37 gz /tmp/work/build/sha1.min.js -> /output/sha1.min.js.gz
+2024/01/24 21:35:38 sri /tmp/work/src/sha1.min.js -> /output/sha1.min.js.sri
+2024/01/24 21:35:38 file /output/sha1.min.js.br already exists at the output
+2024/01/24 21:35:38 file /output/sha1.min.js.gz already exists at the output
+2024/01/24 21:35:38 sri /tmp/work/src/sha1.js -> /output/sha1.js.sri
+2024/01/24 21:35:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/sha1.js.br /tmp/work/src/sha1.js
+2024/01/24 21:35:38 br /tmp/work/src/sha1.js -> /output/sha1.js.br
+2024/01/24 21:35:38 gz /tmp/work/src/sha1.js -> /output/sha1.js.gz
+2024/01/24 21:35:38 processed js-sha1
