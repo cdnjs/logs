@@ -1,0 +1,53 @@
+2024/02/29 17:03:48 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/02/29 17:03:48 file duckdb-coi.wasm ignored due to byte size (35690924 > 26214400)
+2024/02/29 17:03:48 file duckdb-eh.wasm ignored due to byte size (35811750 > 26214400)
+2024/02/29 17:03:48 file duckdb-mvp.wasm ignored due to byte size (40037585 > 26214400)
+2024/02/29 17:03:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/duckdb-browser-blocking.cjs.br /tmp/work/dist/duckdb-browser-blocking.cjs
+2024/02/29 17:03:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/duckdb-browser-blocking.mjs.br /tmp/work/dist/duckdb-browser-blocking.mjs
+2024/02/29 17:03:48 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/duckdb-browser-coi.pthread.worker.min.js /tmp/work/dist/duckdb-browser-coi.pthread.worker.js]
+2024/02/29 17:03:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/duckdb-browser.cjs.br /tmp/work/dist/duckdb-browser.cjs
+2024/02/29 17:03:48 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/duckdb-browser-eh.worker.min.js /tmp/work/dist/duckdb-browser-eh.worker.js]
+2024/02/29 17:03:48 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/duckdb-browser-mvp.worker.min.js /tmp/work/dist/duckdb-browser-mvp.worker.js]
+2024/02/29 17:03:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/duckdb-browser.mjs.br /tmp/work/dist/duckdb-browser.mjs
+2024/02/29 17:03:48 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/duckdb-browser-coi.worker.min.js /tmp/work/dist/duckdb-browser-coi.worker.js]
+2024/02/29 17:03:48 br /tmp/work/dist/duckdb-browser.mjs -> /output/duckdb-browser.mjs.br
+2024/02/29 17:03:48 br /tmp/work/dist/duckdb-browser.cjs -> /output/duckdb-browser.cjs.br
+2024/02/29 17:03:48 gz /tmp/work/dist/duckdb-browser.mjs -> /output/duckdb-browser.mjs.gz
+2024/02/29 17:03:48 gz /tmp/work/dist/duckdb-browser.cjs -> /output/duckdb-browser.cjs.gz
+2024/02/29 17:03:50 br /tmp/work/dist/duckdb-browser-blocking.cjs -> /output/duckdb-browser-blocking.cjs.br
+2024/02/29 17:03:50 br /tmp/work/dist/duckdb-browser-blocking.mjs -> /output/duckdb-browser-blocking.mjs.br
+2024/02/29 17:03:50 gz /tmp/work/dist/duckdb-browser-blocking.cjs -> /output/duckdb-browser-blocking.cjs.gz
+2024/02/29 17:03:50 gz /tmp/work/dist/duckdb-browser-blocking.mjs -> /output/duckdb-browser-blocking.mjs.gz
+2024/02/29 17:03:54 sri /tmp/work/dist/duckdb-browser-coi.pthread.worker.min.js -> /output/duckdb-browser-coi.pthread.worker.min.js.sri
+2024/02/29 17:03:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/duckdb-browser-coi.pthread.worker.min.js.br /tmp/work/dist/duckdb-browser-coi.pthread.worker.min.js
+2024/02/29 17:03:56 br /tmp/work/dist/duckdb-browser-coi.pthread.worker.min.js -> /output/duckdb-browser-coi.pthread.worker.min.js.br
+2024/02/29 17:03:56 gz /tmp/work/dist/duckdb-browser-coi.pthread.worker.min.js -> /output/duckdb-browser-coi.pthread.worker.min.js.gz
+2024/02/29 17:03:56 sri /tmp/work/dist/duckdb-browser-coi.pthread.worker.js -> /output/duckdb-browser-coi.pthread.worker.js.sri
+2024/02/29 17:03:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/duckdb-browser-coi.pthread.worker.js.br /tmp/work/dist/duckdb-browser-coi.pthread.worker.js
+2024/02/29 17:03:57 sri /tmp/work/dist/duckdb-browser-eh.worker.min.js -> /output/duckdb-browser-eh.worker.min.js.sri
+2024/02/29 17:03:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/duckdb-browser-eh.worker.min.js.br /tmp/work/dist/duckdb-browser-eh.worker.min.js
+2024/02/29 17:03:57 sri /tmp/work/dist/duckdb-browser-coi.worker.min.js -> /output/duckdb-browser-coi.worker.min.js.sri
+2024/02/29 17:03:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/duckdb-browser-coi.worker.min.js.br /tmp/work/dist/duckdb-browser-coi.worker.min.js
+2024/02/29 17:03:57 sri /tmp/work/dist/duckdb-browser-mvp.worker.min.js -> /output/duckdb-browser-mvp.worker.min.js.sri
+2024/02/29 17:03:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/duckdb-browser-mvp.worker.min.js.br /tmp/work/dist/duckdb-browser-mvp.worker.min.js
+2024/02/29 17:03:57 br /tmp/work/dist/duckdb-browser-coi.pthread.worker.js -> /output/duckdb-browser-coi.pthread.worker.js.br
+2024/02/29 17:03:57 gz /tmp/work/dist/duckdb-browser-coi.pthread.worker.js -> /output/duckdb-browser-coi.pthread.worker.js.gz
+2024/02/29 17:03:58 br /tmp/work/dist/duckdb-browser-eh.worker.min.js -> /output/duckdb-browser-eh.worker.min.js.br
+2024/02/29 17:03:58 gz /tmp/work/dist/duckdb-browser-eh.worker.min.js -> /output/duckdb-browser-eh.worker.min.js.gz
+2024/02/29 17:03:58 sri /tmp/work/dist/duckdb-browser-eh.worker.js -> /output/duckdb-browser-eh.worker.js.sri
+2024/02/29 17:03:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/duckdb-browser-eh.worker.js.br /tmp/work/dist/duckdb-browser-eh.worker.js
+2024/02/29 17:03:58 br /tmp/work/dist/duckdb-browser-coi.worker.min.js -> /output/duckdb-browser-coi.worker.min.js.br
+2024/02/29 17:03:58 br /tmp/work/dist/duckdb-browser-mvp.worker.min.js -> /output/duckdb-browser-mvp.worker.min.js.br
+2024/02/29 17:03:58 gz /tmp/work/dist/duckdb-browser-coi.worker.min.js -> /output/duckdb-browser-coi.worker.min.js.gz
+2024/02/29 17:03:58 sri /tmp/work/dist/duckdb-browser-coi.worker.js -> /output/duckdb-browser-coi.worker.js.sri
+2024/02/29 17:03:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/duckdb-browser-coi.worker.js.br /tmp/work/dist/duckdb-browser-coi.worker.js
+2024/02/29 17:03:58 gz /tmp/work/dist/duckdb-browser-mvp.worker.min.js -> /output/duckdb-browser-mvp.worker.min.js.gz
+2024/02/29 17:03:58 sri /tmp/work/dist/duckdb-browser-mvp.worker.js -> /output/duckdb-browser-mvp.worker.js.sri
+2024/02/29 17:03:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/duckdb-browser-mvp.worker.js.br /tmp/work/dist/duckdb-browser-mvp.worker.js
+2024/02/29 17:03:59 br /tmp/work/dist/duckdb-browser-eh.worker.js -> /output/duckdb-browser-eh.worker.js.br
+2024/02/29 17:03:59 gz /tmp/work/dist/duckdb-browser-eh.worker.js -> /output/duckdb-browser-eh.worker.js.gz
+2024/02/29 17:04:00 br /tmp/work/dist/duckdb-browser-mvp.worker.js -> /output/duckdb-browser-mvp.worker.js.br
+2024/02/29 17:04:00 br /tmp/work/dist/duckdb-browser-coi.worker.js -> /output/duckdb-browser-coi.worker.js.br
+2024/02/29 17:04:00 gz /tmp/work/dist/duckdb-browser-mvp.worker.js -> /output/duckdb-browser-mvp.worker.js.gz
+2024/02/29 17:04:00 gz /tmp/work/dist/duckdb-browser-coi.worker.js -> /output/duckdb-browser-coi.worker.js.gz
+2024/02/29 17:04:00 processed duckdb-wasm
