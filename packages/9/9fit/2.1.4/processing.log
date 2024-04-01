@@ -1,0 +1,459 @@
+2024/04/01 22:30:46 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/04/01 22:30:47 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/static/js/player.min.js /tmp/work/static/js/player.js]
+2024/04/01 22:30:47 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/static/js/playerconfig.min.js /tmp/work/static/js/playerconfig.js]
+2024/04/01 22:30:47 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/static/player/ness.min.js /tmp/work/static/player/ness.js]
+2024/04/01 22:30:47 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/template/ness/chat/js/chat.min.js /tmp/work/template/ness/chat/js/chat.js]
+2024/04/01 22:30:47 sri /tmp/work/template/ness/chat/css/chat.min.css -> /output/template/ness/chat/css/chat.min.css.sri
+2024/04/01 22:30:47 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/template/ness/css/bai.min.css /tmp/work/template/ness/css/bai.css]
+2024/04/01 22:30:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/chat/css/chat.min.css.br /tmp/work/template/ness/chat/css/chat.min.css
+2024/04/01 22:30:47 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/template/ness/css/font.min.css /tmp/work/template/ness/css/font.css]
+2024/04/01 22:30:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/css/font.ttf.br /tmp/work/template/ness/css/font.ttf
+2024/04/01 22:30:47 br /tmp/work/template/ness/chat/css/chat.min.css -> /output/template/ness/chat/css/chat.min.css.br
+2024/04/01 22:30:47 gz /tmp/work/template/ness/chat/css/chat.min.css -> /output/template/ness/chat/css/chat.min.css.gz
+2024/04/01 22:30:47 copy /tmp/work/template/ness/css/font.woff2 -> /output/template/ness/css/font.woff2
+2024/04/01 22:30:47 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/template/ness/css/hei.min.css /tmp/work/template/ness/css/hei.css]
+2024/04/01 22:30:47 br /tmp/work/template/ness/css/font.ttf -> /output/template/ness/css/font.ttf.br
+2024/04/01 22:30:47 gz /tmp/work/template/ness/css/font.ttf -> /output/template/ness/css/font.ttf.gz
+2024/04/01 22:30:47 sri /tmp/work/template/ness/css/iziToast.min.css -> /output/template/ness/css/iziToast.min.css.sri
+2024/04/01 22:30:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/css/iziToast.min.css.br /tmp/work/template/ness/css/iziToast.min.css
+2024/04/01 22:30:48 br /tmp/work/template/ness/css/iziToast.min.css -> /output/template/ness/css/iziToast.min.css.br
+2024/04/01 22:30:48 gz /tmp/work/template/ness/css/iziToast.min.css -> /output/template/ness/css/iziToast.min.css.gz
+2024/04/01 22:30:48 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/template/ness/css/style.min.css /tmp/work/template/ness/css/style.css]
+2024/04/01 22:30:48 sri /tmp/work/static/js/playerconfig.min.js -> /output/static/js/playerconfig.min.js.sri
+2024/04/01 22:30:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/static/js/playerconfig.min.js.br /tmp/work/static/js/playerconfig.min.js
+2024/04/01 22:30:48 sri /tmp/work/template/ness/css/bai.min.css -> /output/template/ness/css/bai.min.css.sri
+2024/04/01 22:30:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/css/bai.min.css.br /tmp/work/template/ness/css/bai.min.css
+2024/04/01 22:30:48 br /tmp/work/template/ness/css/bai.min.css -> /output/template/ness/css/bai.min.css.br
+2024/04/01 22:30:48 gz /tmp/work/template/ness/css/bai.min.css -> /output/template/ness/css/bai.min.css.gz
+2024/04/01 22:30:48 sri /tmp/work/template/ness/css/bai.css -> /output/template/ness/css/bai.css.sri
+2024/04/01 22:30:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/css/bai.css.br /tmp/work/template/ness/css/bai.css
+2024/04/01 22:30:48 br /tmp/work/template/ness/css/bai.css -> /output/template/ness/css/bai.css.br
+2024/04/01 22:30:48 gz /tmp/work/template/ness/css/bai.css -> /output/template/ness/css/bai.css.gz
+2024/04/01 22:30:48 sri /tmp/work/template/ness/css/swiper.min.css -> /output/template/ness/css/swiper.min.css.sri
+2024/04/01 22:30:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/css/swiper.min.css.br /tmp/work/template/ness/css/swiper.min.css
+2024/04/01 22:30:48 br /tmp/work/static/js/playerconfig.min.js -> /output/static/js/playerconfig.min.js.br
+2024/04/01 22:30:48 gz /tmp/work/static/js/playerconfig.min.js -> /output/static/js/playerconfig.min.js.gz
+2024/04/01 22:30:48 sri /tmp/work/static/js/playerconfig.js -> /output/static/js/playerconfig.js.sri
+2024/04/01 22:30:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/static/js/playerconfig.js.br /tmp/work/static/js/playerconfig.js
+2024/04/01 22:30:48 br /tmp/work/static/js/playerconfig.js -> /output/static/js/playerconfig.js.br
+2024/04/01 22:30:48 gz /tmp/work/static/js/playerconfig.js -> /output/static/js/playerconfig.js.gz
+2024/04/01 22:30:48 /tmp/work/template/ness/js/fp.min.js is already compressed
+2024/04/01 22:30:48 sri /tmp/work/template/ness/js/fp.min.js -> /output/template/ness/js/fp.min.js.sri
+2024/04/01 22:30:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/js/fp.min.js.br /tmp/work/template/ness/js/fp.min.js
+2024/04/01 22:30:48 sri /tmp/work/template/ness/css/font.min.css -> /output/template/ness/css/font.min.css.sri
+2024/04/01 22:30:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/css/font.min.css.br /tmp/work/template/ness/css/font.min.css
+2024/04/01 22:30:48 br /tmp/work/template/ness/css/swiper.min.css -> /output/template/ness/css/swiper.min.css.br
+2024/04/01 22:30:48 gz /tmp/work/template/ness/css/swiper.min.css -> /output/template/ness/css/swiper.min.css.gz
+2024/04/01 22:30:48 /tmp/work/template/ness/js/iziToast.min.js is already compressed
+2024/04/01 22:30:48 sri /tmp/work/template/ness/js/iziToast.min.js -> /output/template/ness/js/iziToast.min.js.sri
+2024/04/01 22:30:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/js/iziToast.min.js.br /tmp/work/template/ness/js/iziToast.min.js
+2024/04/01 22:30:48 br /tmp/work/template/ness/css/font.min.css -> /output/template/ness/css/font.min.css.br
+2024/04/01 22:30:48 gz /tmp/work/template/ness/css/font.min.css -> /output/template/ness/css/font.min.css.gz
+2024/04/01 22:30:48 sri /tmp/work/template/ness/css/font.css -> /output/template/ness/css/font.css.sri
+2024/04/01 22:30:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/css/font.css.br /tmp/work/template/ness/css/font.css
+2024/04/01 22:30:48 br /tmp/work/template/ness/css/font.css -> /output/template/ness/css/font.css.br
+2024/04/01 22:30:48 gz /tmp/work/template/ness/css/font.css -> /output/template/ness/css/font.css.gz
+2024/04/01 22:30:48 /tmp/work/template/ness/js/jquery.min.js already has corresponding compressed file
+2024/04/01 22:30:48 sri /tmp/work/template/ness/js/jquery.js -> /output/template/ness/js/jquery.js.sri
+2024/04/01 22:30:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/js/jquery.js.br /tmp/work/template/ness/js/jquery.js
+2024/04/01 22:30:48 br /tmp/work/template/ness/js/iziToast.min.js -> /output/template/ness/js/iziToast.min.js.br
+2024/04/01 22:30:48 gz /tmp/work/template/ness/js/iziToast.min.js -> /output/template/ness/js/iziToast.min.js.gz
+2024/04/01 22:30:48 /tmp/work/template/ness/js/jquery.min.js is already compressed
+2024/04/01 22:30:48 sri /tmp/work/template/ness/js/jquery.min.js -> /output/template/ness/js/jquery.min.js.sri
+2024/04/01 22:30:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/js/jquery.min.js.br /tmp/work/template/ness/js/jquery.min.js
+2024/04/01 22:30:48 br /tmp/work/template/ness/js/fp.min.js -> /output/template/ness/js/fp.min.js.br
+2024/04/01 22:30:48 gz /tmp/work/template/ness/js/fp.min.js -> /output/template/ness/js/fp.min.js.gz
+2024/04/01 22:30:48 /tmp/work/template/ness/js/swiper.min.js is already compressed
+2024/04/01 22:30:48 sri /tmp/work/template/ness/js/swiper.min.js -> /output/template/ness/js/swiper.min.js.sri
+2024/04/01 22:30:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/js/swiper.min.js.br /tmp/work/template/ness/js/swiper.min.js
+2024/04/01 22:30:48 sri /tmp/work/template/ness/css/hei.min.css -> /output/template/ness/css/hei.min.css.sri
+2024/04/01 22:30:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/css/hei.min.css.br /tmp/work/template/ness/css/hei.min.css
+2024/04/01 22:30:48 sri /tmp/work/static/player/ness.min.js -> /output/static/player/ness.min.js.sri
+2024/04/01 22:30:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/static/player/ness.min.js.br /tmp/work/static/player/ness.min.js
+2024/04/01 22:30:48 br /tmp/work/template/ness/css/hei.min.css -> /output/template/ness/css/hei.min.css.br
+2024/04/01 22:30:48 gz /tmp/work/template/ness/css/hei.min.css -> /output/template/ness/css/hei.min.css.gz
+2024/04/01 22:30:48 sri /tmp/work/template/ness/css/hei.css -> /output/template/ness/css/hei.css.sri
+2024/04/01 22:30:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/css/hei.css.br /tmp/work/template/ness/css/hei.css
+2024/04/01 22:30:48 br /tmp/work/static/player/ness.min.js -> /output/static/player/ness.min.js.br
+2024/04/01 22:30:48 gz /tmp/work/static/player/ness.min.js -> /output/static/player/ness.min.js.gz
+2024/04/01 22:30:48 sri /tmp/work/static/player/ness.js -> /output/static/player/ness.js.sri
+2024/04/01 22:30:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/static/player/ness.js.br /tmp/work/static/player/ness.js
+2024/04/01 22:30:48 br /tmp/work/template/ness/css/hei.css -> /output/template/ness/css/hei.css.br
+2024/04/01 22:30:48 gz /tmp/work/template/ness/css/hei.css -> /output/template/ness/css/hei.css.gz
+2024/04/01 22:30:48 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/template/ness/js/system.min.js /tmp/work/template/ness/js/system.js]
+2024/04/01 22:30:48 br /tmp/work/static/player/ness.js -> /output/static/player/ness.js.br
+2024/04/01 22:30:48 gz /tmp/work/static/player/ness.js -> /output/static/player/ness.js.gz
+2024/04/01 22:30:48 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/template/ness/js/toast.script.min.js /tmp/work/template/ness/js/toast.script.js]
+2024/04/01 22:30:48 sri /tmp/work/template/ness/css/style.min.css -> /output/template/ness/css/style.min.css.sri
+2024/04/01 22:30:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/css/style.min.css.br /tmp/work/template/ness/css/style.min.css
+2024/04/01 22:30:48 br /tmp/work/template/ness/js/jquery.js -> /output/template/ness/js/jquery.js.br
+2024/04/01 22:30:48 gz /tmp/work/template/ness/js/jquery.js -> /output/template/ness/js/jquery.js.gz
+2024/04/01 22:30:48 sri /tmp/work/template/ness/player/css/danmaku.min.css -> /output/template/ness/player/css/danmaku.min.css.sri
+2024/04/01 22:30:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/player/css/danmaku.min.css.br /tmp/work/template/ness/player/css/danmaku.min.css
+2024/04/01 22:30:49 br /tmp/work/template/ness/player/css/danmaku.min.css -> /output/template/ness/player/css/danmaku.min.css.br
+2024/04/01 22:30:49 gz /tmp/work/template/ness/player/css/danmaku.min.css -> /output/template/ness/player/css/danmaku.min.css.gz
+2024/04/01 22:30:49 sri /tmp/work/template/ness/player/css/mui-player.min.css -> /output/template/ness/player/css/mui-player.min.css.sri
+2024/04/01 22:30:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/player/css/mui-player.min.css.br /tmp/work/template/ness/player/css/mui-player.min.css
+2024/04/01 22:30:49 br /tmp/work/template/ness/css/style.min.css -> /output/template/ness/css/style.min.css.br
+2024/04/01 22:30:49 gz /tmp/work/template/ness/css/style.min.css -> /output/template/ness/css/style.min.css.gz
+2024/04/01 22:30:49 sri /tmp/work/template/ness/css/style.css -> /output/template/ness/css/style.css.sri
+2024/04/01 22:30:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/css/style.css.br /tmp/work/template/ness/css/style.css
+2024/04/01 22:30:49 br /tmp/work/template/ness/js/jquery.min.js -> /output/template/ness/js/jquery.min.js.br
+2024/04/01 22:30:49 gz /tmp/work/template/ness/js/jquery.min.js -> /output/template/ness/js/jquery.min.js.gz
+2024/04/01 22:30:49 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/template/ness/player/css/muiplayer.min.css /tmp/work/template/ness/player/css/muiplayer.css]
+2024/04/01 22:30:49 br /tmp/work/template/ness/player/css/mui-player.min.css -> /output/template/ness/player/css/mui-player.min.css.br
+2024/04/01 22:30:49 gz /tmp/work/template/ness/player/css/mui-player.min.css -> /output/template/ness/player/css/mui-player.min.css.gz
+2024/04/01 22:30:49 /tmp/work/template/ness/player/js/crypto-js.min.js is already compressed
+2024/04/01 22:30:49 sri /tmp/work/template/ness/player/js/crypto-js.min.js -> /output/template/ness/player/js/crypto-js.min.js.sri
+2024/04/01 22:30:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/player/js/crypto-js.min.js.br /tmp/work/template/ness/player/js/crypto-js.min.js
+2024/04/01 22:30:49 br /tmp/work/template/ness/css/style.css -> /output/template/ness/css/style.css.br
+2024/04/01 22:30:49 gz /tmp/work/template/ness/css/style.css -> /output/template/ness/css/style.css.gz
+2024/04/01 22:30:49 /tmp/work/template/ness/player/js/danmaku.min.js is already compressed
+2024/04/01 22:30:49 sri /tmp/work/template/ness/player/js/danmaku.min.js -> /output/template/ness/player/js/danmaku.min.js.sri
+2024/04/01 22:30:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/player/js/danmaku.min.js.br /tmp/work/template/ness/player/js/danmaku.min.js
+2024/04/01 22:30:49 br /tmp/work/template/ness/player/js/danmaku.min.js -> /output/template/ness/player/js/danmaku.min.js.br
+2024/04/01 22:30:49 gz /tmp/work/template/ness/player/js/danmaku.min.js -> /output/template/ness/player/js/danmaku.min.js.gz
+2024/04/01 22:30:49 /tmp/work/template/ness/player/js/flv.min.js is already compressed
+2024/04/01 22:30:49 sri /tmp/work/template/ness/player/js/flv.min.js -> /output/template/ness/player/js/flv.min.js.sri
+2024/04/01 22:30:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/player/js/flv.min.js.br /tmp/work/template/ness/player/js/flv.min.js
+2024/04/01 22:30:49 br /tmp/work/template/ness/js/swiper.min.js -> /output/template/ness/js/swiper.min.js.br
+2024/04/01 22:30:49 gz /tmp/work/template/ness/js/swiper.min.js -> /output/template/ness/js/swiper.min.js.gz
+2024/04/01 22:30:49 /tmp/work/template/ness/player/js/hls.min.js is already compressed
+2024/04/01 22:30:49 sri /tmp/work/template/ness/player/js/hls.min.js -> /output/template/ness/player/js/hls.min.js.sri
+2024/04/01 22:30:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/player/js/hls.min.js.br /tmp/work/template/ness/player/js/hls.min.js
+2024/04/01 22:30:49 sri /tmp/work/template/ness/player/css/muiplayer.min.css -> /output/template/ness/player/css/muiplayer.min.css.sri
+2024/04/01 22:30:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/player/css/muiplayer.min.css.br /tmp/work/template/ness/player/css/muiplayer.min.css
+2024/04/01 22:30:49 br /tmp/work/template/ness/player/js/crypto-js.min.js -> /output/template/ness/player/js/crypto-js.min.js.br
+2024/04/01 22:30:49 gz /tmp/work/template/ness/player/js/crypto-js.min.js -> /output/template/ness/player/js/crypto-js.min.js.gz
+2024/04/01 22:30:49 /tmp/work/template/ness/player/js/hls.p2p.min.js is already compressed
+2024/04/01 22:30:49 br /tmp/work/template/ness/player/css/muiplayer.min.css -> /output/template/ness/player/css/muiplayer.min.css.br
+2024/04/01 22:30:49 gz /tmp/work/template/ness/player/css/muiplayer.min.css -> /output/template/ness/player/css/muiplayer.min.css.gz
+2024/04/01 22:30:49 sri /tmp/work/template/ness/player/css/muiplayer.css -> /output/template/ness/player/css/muiplayer.css.sri
+2024/04/01 22:30:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/player/css/muiplayer.css.br /tmp/work/template/ness/player/css/muiplayer.css
+2024/04/01 22:30:49 sri /tmp/work/template/ness/player/js/hls.p2p.min.js -> /output/template/ness/player/js/hls.p2p.min.js.sri
+2024/04/01 22:30:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/player/js/hls.p2p.min.js.br /tmp/work/template/ness/player/js/hls.p2p.min.js
+2024/04/01 22:30:49 br /tmp/work/template/ness/player/css/muiplayer.css -> /output/template/ness/player/css/muiplayer.css.br
+2024/04/01 22:30:49 gz /tmp/work/template/ness/player/css/muiplayer.css -> /output/template/ness/player/css/muiplayer.css.gz
+2024/04/01 22:30:49 /tmp/work/template/ness/player/js/long-press-event.min.js is already compressed
+2024/04/01 22:30:49 sri /tmp/work/template/ness/player/js/long-press-event.min.js -> /output/template/ness/player/js/long-press-event.min.js.sri
+2024/04/01 22:30:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/player/js/long-press-event.min.js.br /tmp/work/template/ness/player/js/long-press-event.min.js
+2024/04/01 22:30:49 br /tmp/work/template/ness/player/js/long-press-event.min.js -> /output/template/ness/player/js/long-press-event.min.js.br
+2024/04/01 22:30:49 gz /tmp/work/template/ness/player/js/long-press-event.min.js -> /output/template/ness/player/js/long-press-event.min.js.gz
+2024/04/01 22:30:49 /tmp/work/template/ness/player/js/mp4box.all.min.js is already compressed
+2024/04/01 22:30:49 sri /tmp/work/template/ness/player/js/mp4box.all.min.js -> /output/template/ness/player/js/mp4box.all.min.js.sri
+2024/04/01 22:30:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/player/js/mp4box.all.min.js.br /tmp/work/template/ness/player/js/mp4box.all.min.js
+2024/04/01 22:30:49 br /tmp/work/template/ness/player/js/flv.min.js -> /output/template/ness/player/js/flv.min.js.br
+2024/04/01 22:30:49 gz /tmp/work/template/ness/player/js/flv.min.js -> /output/template/ness/player/js/flv.min.js.gz
+2024/04/01 22:30:49 /tmp/work/template/ness/player/js/mui-player-desktop-plugin.min.js is already compressed
+2024/04/01 22:30:49 sri /tmp/work/template/ness/player/js/mui-player-desktop-plugin.min.js -> /output/template/ness/player/js/mui-player-desktop-plugin.min.js.sri
+2024/04/01 22:30:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/player/js/mui-player-desktop-plugin.min.js.br /tmp/work/template/ness/player/js/mui-player-desktop-plugin.min.js
+2024/04/01 22:30:50 sri /tmp/work/template/ness/js/toast.script.min.js -> /output/template/ness/js/toast.script.min.js.sri
+2024/04/01 22:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/js/toast.script.min.js.br /tmp/work/template/ness/js/toast.script.min.js
+2024/04/01 22:30:50 br /tmp/work/template/ness/js/toast.script.min.js -> /output/template/ness/js/toast.script.min.js.br
+2024/04/01 22:30:50 gz /tmp/work/template/ness/js/toast.script.min.js -> /output/template/ness/js/toast.script.min.js.gz
+2024/04/01 22:30:50 sri /tmp/work/template/ness/js/toast.script.js -> /output/template/ness/js/toast.script.js.sri
+2024/04/01 22:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/js/toast.script.js.br /tmp/work/template/ness/js/toast.script.js
+2024/04/01 22:30:50 br /tmp/work/template/ness/js/toast.script.js -> /output/template/ness/js/toast.script.js.br
+2024/04/01 22:30:50 gz /tmp/work/template/ness/js/toast.script.js -> /output/template/ness/js/toast.script.js.gz
+2024/04/01 22:30:50 /tmp/work/template/ness/player/js/mui-player-mobile-plugin.min.js is already compressed
+2024/04/01 22:30:50 sri /tmp/work/template/ness/player/js/mui-player-mobile-plugin.min.js -> /output/template/ness/player/js/mui-player-mobile-plugin.min.js.sri
+2024/04/01 22:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/player/js/mui-player-mobile-plugin.min.js.br /tmp/work/template/ness/player/js/mui-player-mobile-plugin.min.js
+2024/04/01 22:30:50 sri /tmp/work/template/ness/chat/js/chat.min.js -> /output/template/ness/chat/js/chat.min.js.sri
+2024/04/01 22:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/chat/js/chat.min.js.br /tmp/work/template/ness/chat/js/chat.min.js
+2024/04/01 22:30:50 br /tmp/work/template/ness/player/js/mui-player-desktop-plugin.min.js -> /output/template/ness/player/js/mui-player-desktop-plugin.min.js.br
+2024/04/01 22:30:50 gz /tmp/work/template/ness/player/js/mui-player-desktop-plugin.min.js -> /output/template/ness/player/js/mui-player-desktop-plugin.min.js.gz
+2024/04/01 22:30:50 /tmp/work/template/ness/player/js/mui-player.min.js is already compressed
+2024/04/01 22:30:50 sri /tmp/work/template/ness/player/js/mui-player.min.js -> /output/template/ness/player/js/mui-player.min.js.sri
+2024/04/01 22:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/player/js/mui-player.min.js.br /tmp/work/template/ness/player/js/mui-player.min.js
+2024/04/01 22:30:50 br /tmp/work/template/ness/player/js/mui-player-mobile-plugin.min.js -> /output/template/ness/player/js/mui-player-mobile-plugin.min.js.br
+2024/04/01 22:30:50 gz /tmp/work/template/ness/player/js/mui-player-mobile-plugin.min.js -> /output/template/ness/player/js/mui-player-mobile-plugin.min.js.gz
+2024/04/01 22:30:50 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/template/ness/player/js/play.min.js /tmp/work/template/ness/player/js/play.js]
+2024/04/01 22:30:50 sri /tmp/work/static/js/player.min.js -> /output/static/js/player.min.js.sri
+2024/04/01 22:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/static/js/player.min.js.br /tmp/work/static/js/player.min.js
+2024/04/01 22:30:50 br /tmp/work/template/ness/player/js/mp4box.all.min.js -> /output/template/ness/player/js/mp4box.all.min.js.br
+2024/04/01 22:30:50 gz /tmp/work/template/ness/player/js/mp4box.all.min.js -> /output/template/ness/player/js/mp4box.all.min.js.gz
+2024/04/01 22:30:50 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/static/images/touxiang.png /tmp/work/static/images/touxiang.png
+2024/04/01 22:30:50 br /tmp/work/template/ness/player/js/mui-player.min.js -> /output/template/ness/player/js/mui-player.min.js.br
+2024/04/01 22:30:50 gz /tmp/work/template/ness/player/js/mui-player.min.js -> /output/template/ness/player/js/mui-player.min.js.gz
+2024/04/01 22:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/static/images/face/1.gif.br /tmp/work/static/images/face/1.gif
+2024/04/01 22:30:50 br /tmp/work/template/ness/chat/js/chat.min.js -> /output/template/ness/chat/js/chat.min.js.br
+2024/04/01 22:30:50 gz /tmp/work/template/ness/chat/js/chat.min.js -> /output/template/ness/chat/js/chat.min.js.gz
+2024/04/01 22:30:50 sri /tmp/work/template/ness/chat/js/chat.js -> /output/template/ness/chat/js/chat.js.sri
+2024/04/01 22:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/chat/js/chat.js.br /tmp/work/template/ness/chat/js/chat.js
+2024/04/01 22:30:50 br /tmp/work/static/images/face/1.gif -> /output/static/images/face/1.gif.br
+2024/04/01 22:30:50 gz /tmp/work/static/images/face/1.gif -> /output/static/images/face/1.gif.gz
+2024/04/01 22:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/static/images/face/10.gif.br /tmp/work/static/images/face/10.gif
+2024/04/01 22:30:50 br /tmp/work/static/images/face/10.gif -> /output/static/images/face/10.gif.br
+2024/04/01 22:30:50 br /tmp/work/template/ness/player/js/hls.min.js -> /output/template/ness/player/js/hls.min.js.br
+2024/04/01 22:30:50 gz /tmp/work/static/images/face/10.gif -> /output/static/images/face/10.gif.gz
+2024/04/01 22:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/static/images/face/11.gif.br /tmp/work/static/images/face/11.gif
+2024/04/01 22:30:50 gz /tmp/work/template/ness/player/js/hls.min.js -> /output/template/ness/player/js/hls.min.js.gz
+2024/04/01 22:30:50 br /tmp/work/static/images/face/11.gif -> /output/static/images/face/11.gif.br
+2024/04/01 22:30:50 br /tmp/work/static/js/player.min.js -> /output/static/js/player.min.js.br
+2024/04/01 22:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/static/images/face/12.gif.br /tmp/work/static/images/face/12.gif
+2024/04/01 22:30:50 gz /tmp/work/static/js/player.min.js -> /output/static/js/player.min.js.gz
+2024/04/01 22:30:50 sri /tmp/work/static/js/player.js -> /output/static/js/player.js.sri
+2024/04/01 22:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/static/js/player.js.br /tmp/work/static/js/player.js
+2024/04/01 22:30:50 gz /tmp/work/static/images/face/11.gif -> /output/static/images/face/11.gif.gz
+2024/04/01 22:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/static/images/face/13.gif.br /tmp/work/static/images/face/13.gif
+2024/04/01 22:30:50 br /tmp/work/static/images/face/12.gif -> /output/static/images/face/12.gif.br
+2024/04/01 22:30:50 gz /tmp/work/static/images/face/12.gif -> /output/static/images/face/12.gif.gz
+2024/04/01 22:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/static/images/face/14.gif.br /tmp/work/static/images/face/14.gif
+2024/04/01 22:30:50 br /tmp/work/template/ness/chat/js/chat.js -> /output/template/ness/chat/js/chat.js.br
+2024/04/01 22:30:50 gz /tmp/work/template/ness/chat/js/chat.js -> /output/template/ness/chat/js/chat.js.gz
+2024/04/01 22:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/static/images/face/15.gif.br /tmp/work/static/images/face/15.gif
+2024/04/01 22:30:50 br /tmp/work/static/images/face/13.gif -> /output/static/images/face/13.gif.br
+2024/04/01 22:30:50 gz /tmp/work/static/images/face/13.gif -> /output/static/images/face/13.gif.gz
+2024/04/01 22:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/static/images/face/16.gif.br /tmp/work/static/images/face/16.gif
+2024/04/01 22:30:50 br /tmp/work/static/images/face/15.gif -> /output/static/images/face/15.gif.br
+2024/04/01 22:30:50 gz /tmp/work/static/images/face/15.gif -> /output/static/images/face/15.gif.gz
+2024/04/01 22:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/static/images/face/2.gif.br /tmp/work/static/images/face/2.gif
+2024/04/01 22:30:50 br /tmp/work/static/images/face/14.gif -> /output/static/images/face/14.gif.br
+2024/04/01 22:30:50 gz /tmp/work/static/images/face/14.gif -> /output/static/images/face/14.gif.gz
+2024/04/01 22:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/static/images/face/3.gif.br /tmp/work/static/images/face/3.gif
+2024/04/01 22:30:50 br /tmp/work/static/images/face/16.gif -> /output/static/images/face/16.gif.br
+2024/04/01 22:30:50 gz /tmp/work/static/images/face/16.gif -> /output/static/images/face/16.gif.gz
+2024/04/01 22:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/static/images/face/4.gif.br /tmp/work/static/images/face/4.gif
+2024/04/01 22:30:50 br /tmp/work/static/images/face/3.gif -> /output/static/images/face/3.gif.br
+2024/04/01 22:30:50 gz /tmp/work/static/images/face/3.gif -> /output/static/images/face/3.gif.gz
+2024/04/01 22:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/static/images/face/5.gif.br /tmp/work/static/images/face/5.gif
+2024/04/01 22:30:50 br /tmp/work/static/images/face/4.gif -> /output/static/images/face/4.gif.br
+2024/04/01 22:30:50 br /tmp/work/static/images/face/2.gif -> /output/static/images/face/2.gif.br
+2024/04/01 22:30:50 gz /tmp/work/static/images/face/4.gif -> /output/static/images/face/4.gif.gz
+2024/04/01 22:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/static/images/face/6.gif.br /tmp/work/static/images/face/6.gif
+2024/04/01 22:30:50 gz /tmp/work/static/images/face/2.gif -> /output/static/images/face/2.gif.gz
+2024/04/01 22:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/static/images/face/7.gif.br /tmp/work/static/images/face/7.gif
+2024/04/01 22:30:50 br /tmp/work/static/images/face/5.gif -> /output/static/images/face/5.gif.br
+2024/04/01 22:30:50 gz /tmp/work/static/images/face/5.gif -> /output/static/images/face/5.gif.gz
+2024/04/01 22:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/static/images/face/8.gif.br /tmp/work/static/images/face/8.gif
+2024/04/01 22:30:50 br /tmp/work/static/images/face/6.gif -> /output/static/images/face/6.gif.br
+2024/04/01 22:30:50 gz /tmp/work/static/images/face/6.gif -> /output/static/images/face/6.gif.gz
+2024/04/01 22:30:50 br /tmp/work/static/images/face/7.gif -> /output/static/images/face/7.gif.br
+2024/04/01 22:30:50 gz /tmp/work/static/images/face/7.gif -> /output/static/images/face/7.gif.gz
+2024/04/01 22:30:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/static/images/face/9.gif.br /tmp/work/static/images/face/9.gif
+2024/04/01 22:30:50 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/template/ness/img/11.png /tmp/work/template/ness/img/11.png
+2024/04/01 22:30:50 br /tmp/work/static/images/face/8.gif -> /output/static/images/face/8.gif.br
+2024/04/01 22:30:50 gz /tmp/work/static/images/face/8.gif -> /output/static/images/face/8.gif.gz
+2024/04/01 22:30:50 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/template/ness/img/12.png /tmp/work/template/ness/img/12.png
+2024/04/01 22:30:50 br /tmp/work/static/images/face/9.gif -> /output/static/images/face/9.gif.br
+2024/04/01 22:30:50 gz /tmp/work/static/images/face/9.gif -> /output/static/images/face/9.gif.gz
+2024/04/01 22:30:50 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/template/ness/img/dianying.png /tmp/work/template/ness/img/dianying.png
+2024/04/01 22:30:50 br /tmp/work/static/js/player.js -> /output/static/js/player.js.br
+2024/04/01 22:30:50 gz /tmp/work/static/js/player.js -> /output/static/js/player.js.gz
+2024/04/01 22:30:50 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/template/ness/img/dongman.png /tmp/work/template/ness/img/dongman.png
+2024/04/01 22:30:52 br /tmp/work/template/ness/player/js/hls.p2p.min.js -> /output/template/ness/player/js/hls.p2p.min.js.br
+2024/04/01 22:30:52 gz /tmp/work/template/ness/player/js/hls.p2p.min.js -> /output/template/ness/player/js/hls.p2p.min.js.gz
+2024/04/01 22:30:52 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/template/ness/img/ewm.png /tmp/work/template/ness/img/ewm.png
+2024/04/01 22:30:52 sri /tmp/work/template/ness/js/system.min.js -> /output/template/ness/js/system.min.js.sri
+2024/04/01 22:30:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/js/system.min.js.br /tmp/work/template/ness/js/system.min.js
+2024/04/01 22:30:53 br /tmp/work/template/ness/js/system.min.js -> /output/template/ness/js/system.min.js.br
+2024/04/01 22:30:53 gz /tmp/work/template/ness/js/system.min.js -> /output/template/ness/js/system.min.js.gz
+2024/04/01 22:30:53 sri /tmp/work/template/ness/js/system.js -> /output/template/ness/js/system.js.sri
+2024/04/01 22:30:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/js/system.js.br /tmp/work/template/ness/js/system.js
+2024/04/01 22:30:54 sri /tmp/work/template/ness/player/js/play.min.js -> /output/template/ness/player/js/play.min.js.sri
+2024/04/01 22:30:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/player/js/play.min.js.br /tmp/work/template/ness/player/js/play.min.js
+2024/04/01 22:30:54 br /tmp/work/template/ness/js/system.js -> /output/template/ness/js/system.js.br
+2024/04/01 22:30:54 gz /tmp/work/template/ness/js/system.js -> /output/template/ness/js/system.js.gz
+2024/04/01 22:30:54 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/template/ness/img/favicon.png /tmp/work/template/ness/img/favicon.png
+2024/04/01 22:30:54 br /tmp/work/template/ness/player/js/play.min.js -> /output/template/ness/player/js/play.min.js.br
+2024/04/01 22:30:54 gz /tmp/work/template/ness/player/js/play.min.js -> /output/template/ness/player/js/play.min.js.gz
+2024/04/01 22:30:54 sri /tmp/work/template/ness/player/js/play.js -> /output/template/ness/player/js/play.js.sri
+2024/04/01 22:30:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/player/js/play.js.br /tmp/work/template/ness/player/js/play.js
+2024/04/01 22:30:55 br /tmp/work/template/ness/player/js/play.js -> /output/template/ness/player/js/play.js.br
+2024/04/01 22:30:55 gz /tmp/work/template/ness/player/js/play.js -> /output/template/ness/player/js/play.js.gz
+2024/04/01 22:30:55 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/template/ness/img/img-bj-k.png /tmp/work/template/ness/img/img-bj-k.png
+2024/04/01 22:31:01 Optimizing /tmp/work/template/ness/img/favicon.png
+Input size: 1065 (1K)
+Result size: 1005 (0K). Percentage of original: 94.366%
+Result is smaller
+
+
+2024/04/01 22:31:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/img/favicon.png.br /tmp/work/template/ness/img/favicon.png
+2024/04/01 22:31:01 br /tmp/work/template/ness/img/favicon.png -> /output/template/ness/img/favicon.png.br
+2024/04/01 22:31:01 gz /tmp/work/template/ness/img/favicon.png -> /output/template/ness/img/favicon.png.gz
+2024/04/01 22:31:01 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/template/ness/img/img-bj.png /tmp/work/template/ness/img/img-bj.png
+2024/04/01 22:31:03 Optimizing /tmp/work/template/ness/img/12.png
+Input size: 800 (0K)
+Result size: 938 (0K). Percentage of original: 117.250%
+Preserving original PNG since it was smaller
+
+
+2024/04/01 22:31:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/img/12.png.br /tmp/work/template/ness/img/12.png
+2024/04/01 22:31:03 br /tmp/work/template/ness/img/12.png -> /output/template/ness/img/12.png.br
+2024/04/01 22:31:03 gz /tmp/work/template/ness/img/12.png -> /output/template/ness/img/12.png.gz
+2024/04/01 22:31:03 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/template/ness/img/jilu.png /tmp/work/template/ness/img/jilu.png
+2024/04/01 22:31:08 Optimizing /tmp/work/static/images/touxiang.png
+Input size: 1066 (1K)
+Result size: 1049 (1K). Percentage of original: 98.405%
+Result is smaller
+
+
+2024/04/01 22:31:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/static/images/touxiang.png.br /tmp/work/static/images/touxiang.png
+2024/04/01 22:31:08 br /tmp/work/static/images/touxiang.png -> /output/static/images/touxiang.png.br
+2024/04/01 22:31:08 gz /tmp/work/static/images/touxiang.png -> /output/static/images/touxiang.png.gz
+2024/04/01 22:31:08 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/template/ness/img/logo.png /tmp/work/template/ness/img/logo.png
+2024/04/01 22:31:13 Optimizing /tmp/work/template/ness/img/logo.png
+Input size: 9650 (9K)
+Result size: 6252 (6K). Percentage of original: 64.788%
+Result is smaller
+
+
+2024/04/01 22:31:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/img/logo.png.br /tmp/work/template/ness/img/logo.png
+2024/04/01 22:31:13 br /tmp/work/template/ness/img/logo.png -> /output/template/ness/img/logo.png.br
+2024/04/01 22:31:13 gz /tmp/work/template/ness/img/logo.png -> /output/template/ness/img/logo.png.gz
+2024/04/01 22:31:13 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/template/ness/img/logo2.png /tmp/work/template/ness/img/logo2.png
+2024/04/01 22:31:17 Optimizing /tmp/work/template/ness/img/logo2.png
+Input size: 12042 (11K)
+Result size: 7721 (7K). Percentage of original: 64.117%
+Result is smaller
+
+
+2024/04/01 22:31:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/img/logo2.png.br /tmp/work/template/ness/img/logo2.png
+2024/04/01 22:31:17 br /tmp/work/template/ness/img/logo2.png -> /output/template/ness/img/logo2.png.br
+2024/04/01 22:31:17 gz /tmp/work/template/ness/img/logo2.png -> /output/template/ness/img/logo2.png.gz
+2024/04/01 22:31:17 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/template/ness/img/lwx.png /tmp/work/template/ness/img/lwx.png
+2024/04/01 22:31:32 Optimizing /tmp/work/template/ness/img/lwx.png
+Input size: 24753 (24K)
+Result size: 5106 (4K). Percentage of original: 20.628%
+Result is smaller
+
+
+2024/04/01 22:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/img/lwx.png.br /tmp/work/template/ness/img/lwx.png
+2024/04/01 22:31:32 br /tmp/work/template/ness/img/lwx.png -> /output/template/ness/img/lwx.png.br
+2024/04/01 22:31:32 gz /tmp/work/template/ness/img/lwx.png -> /output/template/ness/img/lwx.png.gz
+2024/04/01 22:31:32 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/template/ness/img/nodata.png /tmp/work/template/ness/img/nodata.png
+2024/04/01 22:31:36 Optimizing /tmp/work/template/ness/img/nodata.png
+Input size: 1300 (1K)
+Result size: 584 (0K). Percentage of original: 44.923%
+Result is smaller
+
+
+2024/04/01 22:31:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/img/nodata.png.br /tmp/work/template/ness/img/nodata.png
+2024/04/01 22:31:36 br /tmp/work/template/ness/img/nodata.png -> /output/template/ness/img/nodata.png.br
+2024/04/01 22:31:36 gz /tmp/work/template/ness/img/nodata.png -> /output/template/ness/img/nodata.png.gz
+2024/04/01 22:31:36 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/template/ness/img/notice.png /tmp/work/template/ness/img/notice.png
+2024/04/01 22:31:39 Optimizing /tmp/work/template/ness/img/notice.png
+Input size: 717 (0K)
+Result size: 597 (0K). Percentage of original: 83.264%
+Result is smaller
+
+
+2024/04/01 22:31:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/img/notice.png.br /tmp/work/template/ness/img/notice.png
+2024/04/01 22:31:39 br /tmp/work/template/ness/img/notice.png -> /output/template/ness/img/notice.png.br
+2024/04/01 22:31:39 gz /tmp/work/template/ness/img/notice.png -> /output/template/ness/img/notice.png.gz
+2024/04/01 22:31:39 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/template/ness/img/null.png /tmp/work/template/ness/img/null.png
+2024/04/01 22:31:48 Optimizing /tmp/work/template/ness/img/11.png
+Input size: 2115 (2K)
+Result size: 1894 (1K). Percentage of original: 89.551%
+Result is smaller
+
+
+2024/04/01 22:31:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/img/11.png.br /tmp/work/template/ness/img/11.png
+2024/04/01 22:31:48 br /tmp/work/template/ness/img/11.png -> /output/template/ness/img/11.png.br
+2024/04/01 22:31:48 gz /tmp/work/template/ness/img/11.png -> /output/template/ness/img/11.png.gz
+2024/04/01 22:31:48 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/template/ness/img/tv.png /tmp/work/template/ness/img/tv.png
+2024/04/01 22:32:20 Optimizing /tmp/work/template/ness/img/img-bj-k.png
+Input size: 385 (0K)
+Result size: 321 (0K). Percentage of original: 83.377%
+Result is smaller
+
+
+2024/04/01 22:32:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/img/img-bj-k.png.br /tmp/work/template/ness/img/img-bj-k.png
+2024/04/01 22:32:20 br /tmp/work/template/ness/img/img-bj-k.png -> /output/template/ness/img/img-bj-k.png.br
+2024/04/01 22:32:20 gz /tmp/work/template/ness/img/img-bj-k.png -> /output/template/ness/img/img-bj-k.png.gz
+2024/04/01 22:32:20 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/template/ness/img/tx1.png /tmp/work/template/ness/img/tx1.png
+2024/04/01 22:32:30 Optimizing /tmp/work/template/ness/img/tx1.png
+Input size: 19648 (19K)
+Result size: 2068 (2K). Percentage of original: 10.525%
+Result is smaller
+
+
+2024/04/01 22:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/img/tx1.png.br /tmp/work/template/ness/img/tx1.png
+2024/04/01 22:32:30 br /tmp/work/template/ness/img/tx1.png -> /output/template/ness/img/tx1.png.br
+2024/04/01 22:32:30 gz /tmp/work/template/ness/img/tx1.png -> /output/template/ness/img/tx1.png.gz
+2024/04/01 22:32:30 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/template/ness/img/wy1.png /tmp/work/template/ness/img/wy1.png
+2024/04/01 22:32:36 Optimizing /tmp/work/template/ness/img/null.png
+Input size: 14531 (14K)
+Result size: 8271 (8K). Percentage of original: 56.920%
+Result is smaller
+
+
+2024/04/01 22:32:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/img/null.png.br /tmp/work/template/ness/img/null.png
+2024/04/01 22:32:36 br /tmp/work/template/ness/img/null.png -> /output/template/ness/img/null.png.br
+2024/04/01 22:32:36 gz /tmp/work/template/ness/img/null.png -> /output/template/ness/img/null.png.gz
+2024/04/01 22:32:36 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/template/ness/img/wy2.png /tmp/work/template/ness/img/wy2.png
+2024/04/01 22:32:43 Optimizing /tmp/work/template/ness/img/wy1.png
+Input size: 14084 (13K)
+Result size: 13839 (13K). Percentage of original: 98.260%
+Result is smaller
+
+
+2024/04/01 22:32:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/img/wy1.png.br /tmp/work/template/ness/img/wy1.png
+2024/04/01 22:32:43 br /tmp/work/template/ness/img/wy1.png -> /output/template/ness/img/wy1.png.br
+2024/04/01 22:32:43 gz /tmp/work/template/ness/img/wy1.png -> /output/template/ness/img/wy1.png.gz
+2024/04/01 22:32:43 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/template/ness/img/wy3.png /tmp/work/template/ness/img/wy3.png
+2024/04/01 22:33:06 Optimizing /tmp/work/template/ness/img/wy2.png
+Input size: 74657 (72K)
+Result size: 73546 (71K). Percentage of original: 98.512%
+Result is smaller
+
+
+2024/04/01 22:33:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/img/wy2.png.br /tmp/work/template/ness/img/wy2.png
+2024/04/01 22:33:06 br /tmp/work/template/ness/img/wy2.png -> /output/template/ness/img/wy2.png.br
+2024/04/01 22:33:06 gz /tmp/work/template/ness/img/wy2.png -> /output/template/ness/img/wy2.png.gz
+2024/04/01 22:33:06 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/template/ness/img/wy4.png /tmp/work/template/ness/img/wy4.png
+2024/04/01 22:33:39 Optimizing /tmp/work/template/ness/img/img-bj.png
+Input size: 318 (0K)
+Result size: 279 (0K). Percentage of original: 87.736%
+Result is smaller
+
+
+2024/04/01 22:33:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/img/img-bj.png.br /tmp/work/template/ness/img/img-bj.png
+2024/04/01 22:33:39 br /tmp/work/template/ness/img/img-bj.png -> /output/template/ness/img/img-bj.png.br
+2024/04/01 22:33:39 gz /tmp/work/template/ness/img/img-bj.png -> /output/template/ness/img/img-bj.png.gz
+2024/04/01 22:33:39 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/template/ness/img/wy5.png /tmp/work/template/ness/img/wy5.png
+2024/04/01 22:33:39 Optimizing /tmp/work/template/ness/img/wy3.png
+Input size: 14077 (13K)
+Result size: 11886 (11K). Percentage of original: 84.436%
+Result is smaller
+
+
+2024/04/01 22:33:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/img/wy3.png.br /tmp/work/template/ness/img/wy3.png
+2024/04/01 22:33:39 br /tmp/work/template/ness/img/wy3.png -> /output/template/ness/img/wy3.png.br
+2024/04/01 22:33:39 gz /tmp/work/template/ness/img/wy3.png -> /output/template/ness/img/wy3.png.gz
+2024/04/01 22:33:39 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/template/ness/img/wy6.png /tmp/work/template/ness/img/wy6.png
+2024/04/01 22:33:44 Optimizing /tmp/work/template/ness/img/wy4.png
+Input size: 11751 (11K)
+Result size: 11413 (11K). Percentage of original: 97.124%
+Result is smaller
+
+
+2024/04/01 22:33:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/img/wy4.png.br /tmp/work/template/ness/img/wy4.png
+2024/04/01 22:33:44 br /tmp/work/template/ness/img/wy4.png -> /output/template/ness/img/wy4.png.br
+2024/04/01 22:33:44 gz /tmp/work/template/ness/img/wy4.png -> /output/template/ness/img/wy4.png.gz
+2024/04/01 22:33:44 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/template/ness/img/zongyi.png /tmp/work/template/ness/img/zongyi.png
+2024/04/01 22:34:09 Optimizing /tmp/work/template/ness/img/wy6.png
+Input size: 186556 (182K)
+Result size: 186278 (181K). Percentage of original: 99.851%
+Result is smaller
+
+
+2024/04/01 22:34:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template/ness/img/wy6.png.br /tmp/work/template/ness/img/wy6.png
+2024/04/01 22:34:09 br /tmp/work/template/ness/img/wy6.png -> /output/template/ness/img/wy6.png.br
+2024/04/01 22:34:09 gz /tmp/work/template/ness/img/wy6.png -> /output/template/ness/img/wy6.png.gz
+2024/04/01 22:34:09 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/template/ness/player/img/background.png /tmp/work/template/ness/player/img/background.png
+Optimizing /tmp/work/template/ness/player/img/background.png
+Decoding error 28: incorrect PNG signature, it's no PNG or corrupted
+
+
+panic: exit status 1
+
+goroutine 66 [running]:
+github.com/cdnjs/tools/util.CheckCmd(0xc0000a6000, 0x83, 0x600, 0x86b3a0, 0xc0000a2120, 0xc0000a2120, 0x4cb334)
+	/go/src/github.com/util/check.go:19 +0x125
+github.com/cdnjs/tools/compress.Png(0x870280, 0xc000124020, 0xc0003d2080, 0x31)
+	/go/src/github.com/compress/png.go:24 +0x1c9
+main.optimizeWorker(0xc000016510, 0xc0002c9620)
+	/go/src/github.com/cmd/process-version/main.go:225 +0x73f
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
