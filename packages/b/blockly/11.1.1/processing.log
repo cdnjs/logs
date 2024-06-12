@@ -1,0 +1,1124 @@
+2024/06/12 18:30:20 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/06/12 18:30:20 /tmp/work/blockly.min.js is already compressed
+2024/06/12 18:30:20 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/blockly_compressed.min.js /tmp/work/blockly_compressed.js]
+2024/06/12 18:30:20 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/core-node.min.js /tmp/work/core-node.js]
+2024/06/12 18:30:20 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/blocks_compressed.min.js /tmp/work/blocks_compressed.js]
+2024/06/12 18:30:20 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/blocks.min.js /tmp/work/blocks.js]
+2024/06/12 18:30:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/blocks.d.ts.br /tmp/work/blocks.d.ts
+2024/06/12 18:30:20 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/core.min.js /tmp/work/core.js]
+2024/06/12 18:30:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.d.ts.br /tmp/work/core.d.ts
+2024/06/12 18:30:20 br /tmp/work/blocks.d.ts -> /output/blocks.d.ts.br
+2024/06/12 18:30:20 sri /tmp/work/blockly.min.js -> /output/blockly.min.js.sri
+2024/06/12 18:30:20 gz /tmp/work/blocks.d.ts -> /output/blocks.d.ts.gz
+2024/06/12 18:30:20 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dart_compressed.min.js /tmp/work/dart_compressed.js]
+2024/06/12 18:30:20 br /tmp/work/core.d.ts -> /output/core.d.ts.br
+2024/06/12 18:30:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/blockly.min.js.br /tmp/work/blockly.min.js
+2024/06/12 18:30:20 gz /tmp/work/core.d.ts -> /output/core.d.ts.gz
+2024/06/12 18:30:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dart.d.ts.br /tmp/work/dart.d.ts
+2024/06/12 18:30:20 br /tmp/work/dart.d.ts -> /output/dart.d.ts.br
+2024/06/12 18:30:20 gz /tmp/work/dart.d.ts -> /output/dart.d.ts.gz
+2024/06/12 18:30:20 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dart.min.js /tmp/work/dart.js]
+2024/06/12 18:30:20 sri /tmp/work/blocks.min.js -> /output/blocks.min.js.sri
+2024/06/12 18:30:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/blocks.min.js.br /tmp/work/blocks.min.js
+2024/06/12 18:30:20 br /tmp/work/blocks.min.js -> /output/blocks.min.js.br
+2024/06/12 18:30:20 gz /tmp/work/blocks.min.js -> /output/blocks.min.js.gz
+2024/06/12 18:30:20 sri /tmp/work/blocks.js -> /output/blocks.js.sri
+2024/06/12 18:30:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/blocks.js.br /tmp/work/blocks.js
+2024/06/12 18:30:20 br /tmp/work/blocks.js -> /output/blocks.js.br
+2024/06/12 18:30:20 gz /tmp/work/blocks.js -> /output/blocks.js.gz
+2024/06/12 18:30:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.d.ts.br /tmp/work/index.d.ts
+2024/06/12 18:30:20 br /tmp/work/index.d.ts -> /output/index.d.ts.br
+2024/06/12 18:30:20 sri /tmp/work/core.min.js -> /output/core.min.js.sri
+2024/06/12 18:30:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.min.js.br /tmp/work/core.min.js
+2024/06/12 18:30:20 sri /tmp/work/core-node.min.js -> /output/core-node.min.js.sri
+2024/06/12 18:30:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core-node.min.js.br /tmp/work/core-node.min.js
+2024/06/12 18:30:20 gz /tmp/work/index.d.ts -> /output/index.d.ts.gz
+2024/06/12 18:30:20 sri /tmp/work/dart.min.js -> /output/dart.min.js.sri
+2024/06/12 18:30:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dart.min.js.br /tmp/work/dart.min.js
+2024/06/12 18:30:20 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/index.min.js /tmp/work/index.js]
+2024/06/12 18:30:20 br /tmp/work/core.min.js -> /output/core.min.js.br
+2024/06/12 18:30:20 gz /tmp/work/core.min.js -> /output/core.min.js.gz
+2024/06/12 18:30:20 sri /tmp/work/core.js -> /output/core.js.sri
+2024/06/12 18:30:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.js.br /tmp/work/core.js
+2024/06/12 18:30:20 br /tmp/work/dart.min.js -> /output/dart.min.js.br
+2024/06/12 18:30:20 gz /tmp/work/dart.min.js -> /output/dart.min.js.gz
+2024/06/12 18:30:20 sri /tmp/work/dart.js -> /output/dart.js.sri
+2024/06/12 18:30:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dart.js.br /tmp/work/dart.js
+2024/06/12 18:30:20 br /tmp/work/core-node.min.js -> /output/core-node.min.js.br
+2024/06/12 18:30:20 gz /tmp/work/core-node.min.js -> /output/core-node.min.js.gz
+2024/06/12 18:30:20 sri /tmp/work/core-node.js -> /output/core-node.js.sri
+2024/06/12 18:30:20 br /tmp/work/dart.js -> /output/dart.js.br
+2024/06/12 18:30:20 br /tmp/work/core.js -> /output/core.js.br
+2024/06/12 18:30:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core-node.js.br /tmp/work/core-node.js
+2024/06/12 18:30:20 gz /tmp/work/dart.js -> /output/dart.js.gz
+2024/06/12 18:30:20 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/javascript_compressed.min.js /tmp/work/javascript_compressed.js]
+2024/06/12 18:30:20 gz /tmp/work/core.js -> /output/core.js.gz
+2024/06/12 18:30:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/javascript.d.ts.br /tmp/work/javascript.d.ts
+2024/06/12 18:30:20 br /tmp/work/core-node.js -> /output/core-node.js.br
+2024/06/12 18:30:20 gz /tmp/work/core-node.js -> /output/core-node.js.gz
+2024/06/12 18:30:20 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/javascript.min.js /tmp/work/javascript.js]
+2024/06/12 18:30:20 br /tmp/work/javascript.d.ts -> /output/javascript.d.ts.br
+2024/06/12 18:30:20 gz /tmp/work/javascript.d.ts -> /output/javascript.d.ts.gz
+2024/06/12 18:30:20 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/lua_compressed.min.js /tmp/work/lua_compressed.js]
+2024/06/12 18:30:20 sri /tmp/work/javascript.min.js -> /output/javascript.min.js.sri
+2024/06/12 18:30:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/javascript.min.js.br /tmp/work/javascript.min.js
+2024/06/12 18:30:20 br /tmp/work/javascript.min.js -> /output/javascript.min.js.br
+2024/06/12 18:30:20 gz /tmp/work/javascript.min.js -> /output/javascript.min.js.gz
+2024/06/12 18:30:20 sri /tmp/work/javascript.js -> /output/javascript.js.sri
+2024/06/12 18:30:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/javascript.js.br /tmp/work/javascript.js
+2024/06/12 18:30:20 br /tmp/work/javascript.js -> /output/javascript.js.br
+2024/06/12 18:30:20 gz /tmp/work/javascript.js -> /output/javascript.js.gz
+2024/06/12 18:30:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lua.d.ts.br /tmp/work/lua.d.ts
+2024/06/12 18:30:20 br /tmp/work/lua.d.ts -> /output/lua.d.ts.br
+2024/06/12 18:30:20 gz /tmp/work/lua.d.ts -> /output/lua.d.ts.gz
+2024/06/12 18:30:20 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/lua.min.js /tmp/work/lua.js]
+2024/06/12 18:30:20 sri /tmp/work/index.min.js -> /output/index.min.js.sri
+2024/06/12 18:30:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/index.min.js
+2024/06/12 18:30:20 br /tmp/work/index.min.js -> /output/index.min.js.br
+2024/06/12 18:30:20 gz /tmp/work/index.min.js -> /output/index.min.js.gz
+2024/06/12 18:30:20 sri /tmp/work/index.js -> /output/index.js.sri
+2024/06/12 18:30:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/index.js
+2024/06/12 18:30:20 br /tmp/work/index.js -> /output/index.js.br
+2024/06/12 18:30:20 gz /tmp/work/index.js -> /output/index.js.gz
+2024/06/12 18:30:20 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/php_compressed.min.js /tmp/work/php_compressed.js]
+2024/06/12 18:30:20 sri /tmp/work/lua.min.js -> /output/lua.min.js.sri
+2024/06/12 18:30:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lua.min.js.br /tmp/work/lua.min.js
+2024/06/12 18:30:20 br /tmp/work/lua.min.js -> /output/lua.min.js.br
+2024/06/12 18:30:20 gz /tmp/work/lua.min.js -> /output/lua.min.js.gz
+2024/06/12 18:30:20 sri /tmp/work/lua.js -> /output/lua.js.sri
+2024/06/12 18:30:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lua.js.br /tmp/work/lua.js
+2024/06/12 18:30:20 br /tmp/work/lua.js -> /output/lua.js.br
+2024/06/12 18:30:20 gz /tmp/work/lua.js -> /output/lua.js.gz
+2024/06/12 18:30:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/php.d.ts.br /tmp/work/php.d.ts
+2024/06/12 18:30:20 br /tmp/work/php.d.ts -> /output/php.d.ts.br
+2024/06/12 18:30:20 gz /tmp/work/php.d.ts -> /output/php.d.ts.gz
+2024/06/12 18:30:20 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/php.min.js /tmp/work/php.js]
+2024/06/12 18:30:21 sri /tmp/work/php.min.js -> /output/php.min.js.sri
+2024/06/12 18:30:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/php.min.js.br /tmp/work/php.min.js
+2024/06/12 18:30:21 br /tmp/work/php.min.js -> /output/php.min.js.br
+2024/06/12 18:30:21 gz /tmp/work/php.min.js -> /output/php.min.js.gz
+2024/06/12 18:30:21 sri /tmp/work/php.js -> /output/php.js.sri
+2024/06/12 18:30:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/php.js.br /tmp/work/php.js
+2024/06/12 18:30:21 br /tmp/work/php.js -> /output/php.js.br
+2024/06/12 18:30:21 gz /tmp/work/php.js -> /output/php.js.gz
+2024/06/12 18:30:21 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/python_compressed.min.js /tmp/work/python_compressed.js]
+2024/06/12 18:30:21 sri /tmp/work/lua_compressed.min.js -> /output/lua_compressed.min.js.sri
+2024/06/12 18:30:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lua_compressed.min.js.br /tmp/work/lua_compressed.min.js
+2024/06/12 18:30:21 sri /tmp/work/dart_compressed.min.js -> /output/dart_compressed.min.js.sri
+2024/06/12 18:30:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dart_compressed.min.js.br /tmp/work/dart_compressed.min.js
+2024/06/12 18:30:21 br /tmp/work/lua_compressed.min.js -> /output/lua_compressed.min.js.br
+2024/06/12 18:30:21 gz /tmp/work/lua_compressed.min.js -> /output/lua_compressed.min.js.gz
+2024/06/12 18:30:21 sri /tmp/work/lua_compressed.js -> /output/lua_compressed.js.sri
+2024/06/12 18:30:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lua_compressed.js.br /tmp/work/lua_compressed.js
+2024/06/12 18:30:21 br /tmp/work/dart_compressed.min.js -> /output/dart_compressed.min.js.br
+2024/06/12 18:30:21 gz /tmp/work/dart_compressed.min.js -> /output/dart_compressed.min.js.gz
+2024/06/12 18:30:21 sri /tmp/work/dart_compressed.js -> /output/dart_compressed.js.sri
+2024/06/12 18:30:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/dart_compressed.js.br /tmp/work/dart_compressed.js
+2024/06/12 18:30:21 br /tmp/work/lua_compressed.js -> /output/lua_compressed.js.br
+2024/06/12 18:30:21 gz /tmp/work/lua_compressed.js -> /output/lua_compressed.js.gz
+2024/06/12 18:30:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/python.d.ts.br /tmp/work/python.d.ts
+2024/06/12 18:30:21 br /tmp/work/python.d.ts -> /output/python.d.ts.br
+2024/06/12 18:30:21 gz /tmp/work/python.d.ts -> /output/python.d.ts.gz
+2024/06/12 18:30:21 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/python.min.js /tmp/work/python.js]
+2024/06/12 18:30:21 br /tmp/work/dart_compressed.js -> /output/dart_compressed.js.br
+2024/06/12 18:30:21 sri /tmp/work/javascript_compressed.min.js -> /output/javascript_compressed.min.js.sri
+2024/06/12 18:30:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/javascript_compressed.min.js.br /tmp/work/javascript_compressed.min.js
+2024/06/12 18:30:21 gz /tmp/work/dart_compressed.js -> /output/dart_compressed.js.gz
+2024/06/12 18:30:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/media/1x1.gif.br /tmp/work/media/1x1.gif
+2024/06/12 18:30:21 br /tmp/work/media/1x1.gif -> /output/media/1x1.gif.br
+2024/06/12 18:30:21 gz /tmp/work/media/1x1.gif -> /output/media/1x1.gif.gz
+2024/06/12 18:30:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/media/click.mp3.br /tmp/work/media/click.mp3
+2024/06/12 18:30:22 br /tmp/work/media/click.mp3 -> /output/media/click.mp3.br
+2024/06/12 18:30:22 gz /tmp/work/media/click.mp3 -> /output/media/click.mp3.gz
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/media/click.ogg.br /tmp/work/media/click.ogg
+2024/06/12 18:30:22 sri /tmp/work/php_compressed.min.js -> /output/php_compressed.min.js.sri
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/php_compressed.min.js.br /tmp/work/php_compressed.min.js
+2024/06/12 18:30:22 br /tmp/work/media/click.ogg -> /output/media/click.ogg.br
+2024/06/12 18:30:22 gz /tmp/work/media/click.ogg -> /output/media/click.ogg.gz
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/media/click.wav.br /tmp/work/media/click.wav
+2024/06/12 18:30:22 br /tmp/work/javascript_compressed.min.js -> /output/javascript_compressed.min.js.br
+2024/06/12 18:30:22 gz /tmp/work/javascript_compressed.min.js -> /output/javascript_compressed.min.js.gz
+2024/06/12 18:30:22 sri /tmp/work/javascript_compressed.js -> /output/javascript_compressed.js.sri
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/javascript_compressed.js.br /tmp/work/javascript_compressed.js
+2024/06/12 18:30:22 br /tmp/work/media/click.wav -> /output/media/click.wav.br
+2024/06/12 18:30:22 gz /tmp/work/media/click.wav -> /output/media/click.wav.gz
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/media/delete-icon.svg.br /tmp/work/media/delete-icon.svg
+2024/06/12 18:30:22 br /tmp/work/media/delete-icon.svg -> /output/media/delete-icon.svg.br
+2024/06/12 18:30:22 gz /tmp/work/media/delete-icon.svg -> /output/media/delete-icon.svg.gz
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/media/delete.mp3.br /tmp/work/media/delete.mp3
+2024/06/12 18:30:22 br /tmp/work/media/delete.mp3 -> /output/media/delete.mp3.br
+2024/06/12 18:30:22 gz /tmp/work/media/delete.mp3 -> /output/media/delete.mp3.gz
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/media/delete.ogg.br /tmp/work/media/delete.ogg
+2024/06/12 18:30:22 br /tmp/work/media/delete.ogg -> /output/media/delete.ogg.br
+2024/06/12 18:30:22 gz /tmp/work/media/delete.ogg -> /output/media/delete.ogg.gz
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/media/delete.wav.br /tmp/work/media/delete.wav
+2024/06/12 18:30:22 br /tmp/work/php_compressed.min.js -> /output/php_compressed.min.js.br
+2024/06/12 18:30:22 gz /tmp/work/php_compressed.min.js -> /output/php_compressed.min.js.gz
+2024/06/12 18:30:22 sri /tmp/work/php_compressed.js -> /output/php_compressed.js.sri
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/php_compressed.js.br /tmp/work/php_compressed.js
+2024/06/12 18:30:22 sri /tmp/work/python.min.js -> /output/python.min.js.sri
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/python.min.js.br /tmp/work/python.min.js
+2024/06/12 18:30:22 br /tmp/work/media/delete.wav -> /output/media/delete.wav.br
+2024/06/12 18:30:22 gz /tmp/work/media/delete.wav -> /output/media/delete.wav.gz
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/media/disconnect.mp3.br /tmp/work/media/disconnect.mp3
+2024/06/12 18:30:22 br /tmp/work/python.min.js -> /output/python.min.js.br
+2024/06/12 18:30:22 gz /tmp/work/python.min.js -> /output/python.min.js.gz
+2024/06/12 18:30:22 sri /tmp/work/python.js -> /output/python.js.sri
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/python.js.br /tmp/work/python.js
+2024/06/12 18:30:22 br /tmp/work/python.js -> /output/python.js.br
+2024/06/12 18:30:22 gz /tmp/work/python.js -> /output/python.js.gz
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/media/disconnect.ogg.br /tmp/work/media/disconnect.ogg
+2024/06/12 18:30:22 br /tmp/work/media/disconnect.mp3 -> /output/media/disconnect.mp3.br
+2024/06/12 18:30:22 gz /tmp/work/media/disconnect.mp3 -> /output/media/disconnect.mp3.gz
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/media/disconnect.wav.br /tmp/work/media/disconnect.wav
+2024/06/12 18:30:22 br /tmp/work/media/disconnect.wav -> /output/media/disconnect.wav.br
+2024/06/12 18:30:22 gz /tmp/work/media/disconnect.wav -> /output/media/disconnect.wav.gz
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/media/dropdown-arrow.svg.br /tmp/work/media/dropdown-arrow.svg
+2024/06/12 18:30:22 br /tmp/work/media/dropdown-arrow.svg -> /output/media/dropdown-arrow.svg.br
+2024/06/12 18:30:22 gz /tmp/work/media/dropdown-arrow.svg -> /output/media/dropdown-arrow.svg.gz
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/media/foldout-icon.svg.br /tmp/work/media/foldout-icon.svg
+2024/06/12 18:30:22 br /tmp/work/media/disconnect.ogg -> /output/media/disconnect.ogg.br
+2024/06/12 18:30:22 gz /tmp/work/media/disconnect.ogg -> /output/media/disconnect.ogg.gz
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/media/handclosed.cur.br /tmp/work/media/handclosed.cur
+2024/06/12 18:30:22 br /tmp/work/media/foldout-icon.svg -> /output/media/foldout-icon.svg.br
+2024/06/12 18:30:22 gz /tmp/work/media/foldout-icon.svg -> /output/media/foldout-icon.svg.gz
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/media/handdelete.cur.br /tmp/work/media/handdelete.cur
+2024/06/12 18:30:22 br /tmp/work/media/handclosed.cur -> /output/media/handclosed.cur.br
+2024/06/12 18:30:22 gz /tmp/work/media/handclosed.cur -> /output/media/handclosed.cur.gz
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/media/handopen.cur.br /tmp/work/media/handopen.cur
+2024/06/12 18:30:22 br /tmp/work/media/handdelete.cur -> /output/media/handdelete.cur.br
+2024/06/12 18:30:22 gz /tmp/work/media/handdelete.cur -> /output/media/handdelete.cur.gz
+2024/06/12 18:30:22 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/media/pilcrow.png /tmp/work/media/pilcrow.png
+2024/06/12 18:30:22 br /tmp/work/media/handopen.cur -> /output/media/handopen.cur.br
+2024/06/12 18:30:22 gz /tmp/work/media/handopen.cur -> /output/media/handopen.cur.gz
+2024/06/12 18:30:22 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/media/quote0.png /tmp/work/media/quote0.png
+2024/06/12 18:30:22 sri /tmp/work/blocks_compressed.min.js -> /output/blocks_compressed.min.js.sri
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/blocks_compressed.min.js.br /tmp/work/blocks_compressed.min.js
+2024/06/12 18:30:22 br /tmp/work/javascript_compressed.js -> /output/javascript_compressed.js.br
+2024/06/12 18:30:22 gz /tmp/work/javascript_compressed.js -> /output/javascript_compressed.js.gz
+2024/06/12 18:30:22 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/media/quote1.png /tmp/work/media/quote1.png
+2024/06/12 18:30:22 br /tmp/work/php_compressed.js -> /output/php_compressed.js.br
+2024/06/12 18:30:22 gz /tmp/work/php_compressed.js -> /output/php_compressed.js.gz
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/media/resize-handle.svg.br /tmp/work/media/resize-handle.svg
+2024/06/12 18:30:22 br /tmp/work/media/resize-handle.svg -> /output/media/resize-handle.svg.br
+2024/06/12 18:30:22 gz /tmp/work/media/resize-handle.svg -> /output/media/resize-handle.svg.gz
+2024/06/12 18:30:22 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/media/sprites.png /tmp/work/media/sprites.png
+2024/06/12 18:30:22 br /tmp/work/blocks_compressed.min.js -> /output/blocks_compressed.min.js.br
+2024/06/12 18:30:22 gz /tmp/work/blocks_compressed.min.js -> /output/blocks_compressed.min.js.gz
+2024/06/12 18:30:22 sri /tmp/work/blocks_compressed.js -> /output/blocks_compressed.js.sri
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/blocks_compressed.js.br /tmp/work/blocks_compressed.js
+2024/06/12 18:30:22 sri /tmp/work/python_compressed.min.js -> /output/python_compressed.min.js.sri
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/python_compressed.min.js.br /tmp/work/python_compressed.min.js
+2024/06/12 18:30:22 br /tmp/work/python_compressed.min.js -> /output/python_compressed.min.js.br
+2024/06/12 18:30:22 gz /tmp/work/python_compressed.min.js -> /output/python_compressed.min.js.gz
+2024/06/12 18:30:22 sri /tmp/work/python_compressed.js -> /output/python_compressed.js.sri
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/python_compressed.js.br /tmp/work/python_compressed.js
+2024/06/12 18:30:22 br /tmp/work/blocks_compressed.js -> /output/blocks_compressed.js.br
+2024/06/12 18:30:22 gz /tmp/work/blocks_compressed.js -> /output/blocks_compressed.js.gz
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/media/sprites.svg.br /tmp/work/media/sprites.svg
+2024/06/12 18:30:22 br /tmp/work/media/sprites.svg -> /output/media/sprites.svg.br
+2024/06/12 18:30:22 gz /tmp/work/media/sprites.svg -> /output/media/sprites.svg.gz
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ab.d.ts.br /tmp/work/msg/ab.d.ts
+2024/06/12 18:30:22 br /tmp/work/msg/ab.d.ts -> /output/msg/ab.d.ts.br
+2024/06/12 18:30:22 gz /tmp/work/msg/ab.d.ts -> /output/msg/ab.d.ts.gz
+2024/06/12 18:30:22 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/ab.min.js /tmp/work/msg/ab.js]
+2024/06/12 18:30:22 br /tmp/work/python_compressed.js -> /output/python_compressed.js.br
+2024/06/12 18:30:22 gz /tmp/work/python_compressed.js -> /output/python_compressed.js.gz
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ab.mjs.br /tmp/work/msg/ab.mjs
+2024/06/12 18:30:22 br /tmp/work/msg/ab.mjs -> /output/msg/ab.mjs.br
+2024/06/12 18:30:22 gz /tmp/work/msg/ab.mjs -> /output/msg/ab.mjs.gz
+2024/06/12 18:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ace.d.ts.br /tmp/work/msg/ace.d.ts
+2024/06/12 18:30:22 br /tmp/work/msg/ace.d.ts -> /output/msg/ace.d.ts.br
+2024/06/12 18:30:22 gz /tmp/work/msg/ace.d.ts -> /output/msg/ace.d.ts.gz
+2024/06/12 18:30:22 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/ace.min.js /tmp/work/msg/ace.js]
+2024/06/12 18:30:23 br /tmp/work/blockly.min.js -> /output/blockly.min.js.br
+2024/06/12 18:30:23 gz /tmp/work/blockly.min.js -> /output/blockly.min.js.gz
+2024/06/12 18:30:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ace.mjs.br /tmp/work/msg/ace.mjs
+2024/06/12 18:30:23 br /tmp/work/msg/ace.mjs -> /output/msg/ace.mjs.br
+2024/06/12 18:30:23 gz /tmp/work/msg/ace.mjs -> /output/msg/ace.mjs.gz
+2024/06/12 18:30:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/af.d.ts.br /tmp/work/msg/af.d.ts
+2024/06/12 18:30:23 br /tmp/work/msg/af.d.ts -> /output/msg/af.d.ts.br
+2024/06/12 18:30:23 gz /tmp/work/msg/af.d.ts -> /output/msg/af.d.ts.gz
+2024/06/12 18:30:23 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/af.min.js /tmp/work/msg/af.js]
+2024/06/12 18:30:23 sri /tmp/work/msg/ab.min.js -> /output/msg/ab.min.js.sri
+2024/06/12 18:30:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ab.min.js.br /tmp/work/msg/ab.min.js
+2024/06/12 18:30:23 sri /tmp/work/msg/ace.min.js -> /output/msg/ace.min.js.sri
+2024/06/12 18:30:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ace.min.js.br /tmp/work/msg/ace.min.js
+2024/06/12 18:30:23 br /tmp/work/msg/ab.min.js -> /output/msg/ab.min.js.br
+2024/06/12 18:30:23 gz /tmp/work/msg/ab.min.js -> /output/msg/ab.min.js.gz
+2024/06/12 18:30:23 sri /tmp/work/msg/ab.js -> /output/msg/ab.js.sri
+2024/06/12 18:30:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ab.js.br /tmp/work/msg/ab.js
+2024/06/12 18:30:23 br /tmp/work/msg/ace.min.js -> /output/msg/ace.min.js.br
+2024/06/12 18:30:23 gz /tmp/work/msg/ace.min.js -> /output/msg/ace.min.js.gz
+2024/06/12 18:30:23 sri /tmp/work/msg/ace.js -> /output/msg/ace.js.sri
+2024/06/12 18:30:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ace.js.br /tmp/work/msg/ace.js
+2024/06/12 18:30:23 br /tmp/work/msg/ab.js -> /output/msg/ab.js.br
+2024/06/12 18:30:23 gz /tmp/work/msg/ab.js -> /output/msg/ab.js.gz
+2024/06/12 18:30:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/af.mjs.br /tmp/work/msg/af.mjs
+2024/06/12 18:30:23 br /tmp/work/msg/af.mjs -> /output/msg/af.mjs.br
+2024/06/12 18:30:23 gz /tmp/work/msg/af.mjs -> /output/msg/af.mjs.gz
+2024/06/12 18:30:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/am.d.ts.br /tmp/work/msg/am.d.ts
+2024/06/12 18:30:23 br /tmp/work/msg/am.d.ts -> /output/msg/am.d.ts.br
+2024/06/12 18:30:23 gz /tmp/work/msg/am.d.ts -> /output/msg/am.d.ts.gz
+2024/06/12 18:30:23 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/am.min.js /tmp/work/msg/am.js]
+2024/06/12 18:30:23 br /tmp/work/msg/ace.js -> /output/msg/ace.js.br
+2024/06/12 18:30:23 gz /tmp/work/msg/ace.js -> /output/msg/ace.js.gz
+2024/06/12 18:30:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/am.mjs.br /tmp/work/msg/am.mjs
+2024/06/12 18:30:23 Optimizing /tmp/work/media/quote0.png
+Input size: 771 (0K)
+Result size: 628 (0K). Percentage of original: 81.453%
+Result is smaller
+
+
+2024/06/12 18:30:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/media/quote0.png.br /tmp/work/media/quote0.png
+2024/06/12 18:30:23 br /tmp/work/media/quote0.png -> /output/media/quote0.png.br
+2024/06/12 18:30:23 gz /tmp/work/media/quote0.png -> /output/media/quote0.png.gz
+2024/06/12 18:30:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ar.d.ts.br /tmp/work/msg/ar.d.ts
+2024/06/12 18:30:23 br /tmp/work/msg/am.mjs -> /output/msg/am.mjs.br
+2024/06/12 18:30:23 gz /tmp/work/msg/am.mjs -> /output/msg/am.mjs.gz
+2024/06/12 18:30:23 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/ar.min.js /tmp/work/msg/ar.js]
+2024/06/12 18:30:23 br /tmp/work/msg/ar.d.ts -> /output/msg/ar.d.ts.br
+2024/06/12 18:30:23 gz /tmp/work/msg/ar.d.ts -> /output/msg/ar.d.ts.gz
+2024/06/12 18:30:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ar.mjs.br /tmp/work/msg/ar.mjs
+2024/06/12 18:30:23 br /tmp/work/msg/ar.mjs -> /output/msg/ar.mjs.br
+2024/06/12 18:30:23 gz /tmp/work/msg/ar.mjs -> /output/msg/ar.mjs.gz
+2024/06/12 18:30:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ast.d.ts.br /tmp/work/msg/ast.d.ts
+2024/06/12 18:30:23 br /tmp/work/msg/ast.d.ts -> /output/msg/ast.d.ts.br
+2024/06/12 18:30:23 gz /tmp/work/msg/ast.d.ts -> /output/msg/ast.d.ts.gz
+2024/06/12 18:30:23 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/ast.min.js /tmp/work/msg/ast.js]
+2024/06/12 18:30:24 Optimizing /tmp/work/media/quote1.png
+Input size: 738 (0K)
+Result size: 618 (0K). Percentage of original: 83.740%
+Result is smaller
+
+
+2024/06/12 18:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/media/quote1.png.br /tmp/work/media/quote1.png
+2024/06/12 18:30:24 br /tmp/work/media/quote1.png -> /output/media/quote1.png.br
+2024/06/12 18:30:24 gz /tmp/work/media/quote1.png -> /output/media/quote1.png.gz
+2024/06/12 18:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ast.mjs.br /tmp/work/msg/ast.mjs
+2024/06/12 18:30:24 br /tmp/work/msg/ast.mjs -> /output/msg/ast.mjs.br
+2024/06/12 18:30:24 gz /tmp/work/msg/ast.mjs -> /output/msg/ast.mjs.gz
+2024/06/12 18:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/az.d.ts.br /tmp/work/msg/az.d.ts
+2024/06/12 18:30:24 br /tmp/work/msg/az.d.ts -> /output/msg/az.d.ts.br
+2024/06/12 18:30:24 gz /tmp/work/msg/az.d.ts -> /output/msg/az.d.ts.gz
+2024/06/12 18:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/az.min.js /tmp/work/msg/az.js]
+2024/06/12 18:30:24 sri /tmp/work/msg/af.min.js -> /output/msg/af.min.js.sri
+2024/06/12 18:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/af.min.js.br /tmp/work/msg/af.min.js
+2024/06/12 18:30:24 br /tmp/work/msg/af.min.js -> /output/msg/af.min.js.br
+2024/06/12 18:30:24 gz /tmp/work/msg/af.min.js -> /output/msg/af.min.js.gz
+2024/06/12 18:30:24 sri /tmp/work/msg/af.js -> /output/msg/af.js.sri
+2024/06/12 18:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/af.js.br /tmp/work/msg/af.js
+2024/06/12 18:30:24 br /tmp/work/msg/af.js -> /output/msg/af.js.br
+2024/06/12 18:30:24 gz /tmp/work/msg/af.js -> /output/msg/af.js.gz
+2024/06/12 18:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/az.mjs.br /tmp/work/msg/az.mjs
+2024/06/12 18:30:24 sri /tmp/work/msg/am.min.js -> /output/msg/am.min.js.sri
+2024/06/12 18:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/am.min.js.br /tmp/work/msg/am.min.js
+2024/06/12 18:30:24 br /tmp/work/msg/az.mjs -> /output/msg/az.mjs.br
+2024/06/12 18:30:24 gz /tmp/work/msg/az.mjs -> /output/msg/az.mjs.gz
+2024/06/12 18:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ba.d.ts.br /tmp/work/msg/ba.d.ts
+2024/06/12 18:30:24 br /tmp/work/msg/ba.d.ts -> /output/msg/ba.d.ts.br
+2024/06/12 18:30:24 gz /tmp/work/msg/ba.d.ts -> /output/msg/ba.d.ts.gz
+2024/06/12 18:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/ba.min.js /tmp/work/msg/ba.js]
+2024/06/12 18:30:24 br /tmp/work/msg/am.min.js -> /output/msg/am.min.js.br
+2024/06/12 18:30:24 gz /tmp/work/msg/am.min.js -> /output/msg/am.min.js.gz
+2024/06/12 18:30:24 sri /tmp/work/msg/am.js -> /output/msg/am.js.sri
+2024/06/12 18:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/am.js.br /tmp/work/msg/am.js
+2024/06/12 18:30:24 sri /tmp/work/msg/ar.min.js -> /output/msg/ar.min.js.sri
+2024/06/12 18:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ar.min.js.br /tmp/work/msg/ar.min.js
+2024/06/12 18:30:24 sri /tmp/work/msg/ast.min.js -> /output/msg/ast.min.js.sri
+2024/06/12 18:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ast.min.js.br /tmp/work/msg/ast.min.js
+2024/06/12 18:30:24 br /tmp/work/msg/am.js -> /output/msg/am.js.br
+2024/06/12 18:30:24 gz /tmp/work/msg/am.js -> /output/msg/am.js.gz
+2024/06/12 18:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ba.mjs.br /tmp/work/msg/ba.mjs
+2024/06/12 18:30:24 br /tmp/work/msg/ast.min.js -> /output/msg/ast.min.js.br
+2024/06/12 18:30:24 br /tmp/work/msg/ba.mjs -> /output/msg/ba.mjs.br
+2024/06/12 18:30:24 gz /tmp/work/msg/ba.mjs -> /output/msg/ba.mjs.gz
+2024/06/12 18:30:24 gz /tmp/work/msg/ast.min.js -> /output/msg/ast.min.js.gz
+2024/06/12 18:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/bcc.d.ts.br /tmp/work/msg/bcc.d.ts
+2024/06/12 18:30:24 sri /tmp/work/msg/ast.js -> /output/msg/ast.js.sri
+2024/06/12 18:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ast.js.br /tmp/work/msg/ast.js
+2024/06/12 18:30:24 br /tmp/work/msg/bcc.d.ts -> /output/msg/bcc.d.ts.br
+2024/06/12 18:30:24 gz /tmp/work/msg/bcc.d.ts -> /output/msg/bcc.d.ts.gz
+2024/06/12 18:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/bcc.min.js /tmp/work/msg/bcc.js]
+2024/06/12 18:30:24 br /tmp/work/msg/ar.min.js -> /output/msg/ar.min.js.br
+2024/06/12 18:30:24 gz /tmp/work/msg/ar.min.js -> /output/msg/ar.min.js.gz
+2024/06/12 18:30:24 sri /tmp/work/msg/ar.js -> /output/msg/ar.js.sri
+2024/06/12 18:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ar.js.br /tmp/work/msg/ar.js
+2024/06/12 18:30:24 br /tmp/work/msg/ast.js -> /output/msg/ast.js.br
+2024/06/12 18:30:24 gz /tmp/work/msg/ast.js -> /output/msg/ast.js.gz
+2024/06/12 18:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/bcc.mjs.br /tmp/work/msg/bcc.mjs
+2024/06/12 18:30:24 br /tmp/work/msg/bcc.mjs -> /output/msg/bcc.mjs.br
+2024/06/12 18:30:24 gz /tmp/work/msg/bcc.mjs -> /output/msg/bcc.mjs.gz
+2024/06/12 18:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/be-tarask.d.ts.br /tmp/work/msg/be-tarask.d.ts
+2024/06/12 18:30:24 br /tmp/work/msg/be-tarask.d.ts -> /output/msg/be-tarask.d.ts.br
+2024/06/12 18:30:24 gz /tmp/work/msg/be-tarask.d.ts -> /output/msg/be-tarask.d.ts.gz
+2024/06/12 18:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/be-tarask.min.js /tmp/work/msg/be-tarask.js]
+2024/06/12 18:30:24 br /tmp/work/msg/ar.js -> /output/msg/ar.js.br
+2024/06/12 18:30:24 gz /tmp/work/msg/ar.js -> /output/msg/ar.js.gz
+2024/06/12 18:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/be-tarask.mjs.br /tmp/work/msg/be-tarask.mjs
+2024/06/12 18:30:24 br /tmp/work/msg/be-tarask.mjs -> /output/msg/be-tarask.mjs.br
+2024/06/12 18:30:24 gz /tmp/work/msg/be-tarask.mjs -> /output/msg/be-tarask.mjs.gz
+2024/06/12 18:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/be.d.ts.br /tmp/work/msg/be.d.ts
+2024/06/12 18:30:24 br /tmp/work/msg/be.d.ts -> /output/msg/be.d.ts.br
+2024/06/12 18:30:24 gz /tmp/work/msg/be.d.ts -> /output/msg/be.d.ts.gz
+2024/06/12 18:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/be.min.js /tmp/work/msg/be.js]
+2024/06/12 18:30:24 sri /tmp/work/msg/az.min.js -> /output/msg/az.min.js.sri
+2024/06/12 18:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/az.min.js.br /tmp/work/msg/az.min.js
+2024/06/12 18:30:25 br /tmp/work/msg/az.min.js -> /output/msg/az.min.js.br
+2024/06/12 18:30:25 gz /tmp/work/msg/az.min.js -> /output/msg/az.min.js.gz
+2024/06/12 18:30:25 sri /tmp/work/msg/az.js -> /output/msg/az.js.sri
+2024/06/12 18:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/az.js.br /tmp/work/msg/az.js
+2024/06/12 18:30:25 br /tmp/work/msg/az.js -> /output/msg/az.js.br
+2024/06/12 18:30:25 gz /tmp/work/msg/az.js -> /output/msg/az.js.gz
+2024/06/12 18:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/be.mjs.br /tmp/work/msg/be.mjs
+2024/06/12 18:30:25 br /tmp/work/msg/be.mjs -> /output/msg/be.mjs.br
+2024/06/12 18:30:25 gz /tmp/work/msg/be.mjs -> /output/msg/be.mjs.gz
+2024/06/12 18:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/bg.d.ts.br /tmp/work/msg/bg.d.ts
+2024/06/12 18:30:25 br /tmp/work/msg/bg.d.ts -> /output/msg/bg.d.ts.br
+2024/06/12 18:30:25 gz /tmp/work/msg/bg.d.ts -> /output/msg/bg.d.ts.gz
+2024/06/12 18:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/bg.min.js /tmp/work/msg/bg.js]
+2024/06/12 18:30:25 sri /tmp/work/msg/ba.min.js -> /output/msg/ba.min.js.sri
+2024/06/12 18:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ba.min.js.br /tmp/work/msg/ba.min.js
+2024/06/12 18:30:25 br /tmp/work/msg/ba.min.js -> /output/msg/ba.min.js.br
+2024/06/12 18:30:25 gz /tmp/work/msg/ba.min.js -> /output/msg/ba.min.js.gz
+2024/06/12 18:30:25 sri /tmp/work/msg/ba.js -> /output/msg/ba.js.sri
+2024/06/12 18:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ba.js.br /tmp/work/msg/ba.js
+2024/06/12 18:30:25 br /tmp/work/msg/ba.js -> /output/msg/ba.js.br
+2024/06/12 18:30:25 gz /tmp/work/msg/ba.js -> /output/msg/ba.js.gz
+2024/06/12 18:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/bg.mjs.br /tmp/work/msg/bg.mjs
+2024/06/12 18:30:25 sri /tmp/work/msg/bcc.min.js -> /output/msg/bcc.min.js.sri
+2024/06/12 18:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/bcc.min.js.br /tmp/work/msg/bcc.min.js
+2024/06/12 18:30:25 br /tmp/work/msg/bg.mjs -> /output/msg/bg.mjs.br
+2024/06/12 18:30:25 gz /tmp/work/msg/bg.mjs -> /output/msg/bg.mjs.gz
+2024/06/12 18:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/bn.d.ts.br /tmp/work/msg/bn.d.ts
+2024/06/12 18:30:25 br /tmp/work/msg/bn.d.ts -> /output/msg/bn.d.ts.br
+2024/06/12 18:30:25 gz /tmp/work/msg/bn.d.ts -> /output/msg/bn.d.ts.gz
+2024/06/12 18:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/bn.min.js /tmp/work/msg/bn.js]
+2024/06/12 18:30:25 br /tmp/work/msg/bcc.min.js -> /output/msg/bcc.min.js.br
+2024/06/12 18:30:25 gz /tmp/work/msg/bcc.min.js -> /output/msg/bcc.min.js.gz
+2024/06/12 18:30:25 sri /tmp/work/msg/bcc.js -> /output/msg/bcc.js.sri
+2024/06/12 18:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/bcc.js.br /tmp/work/msg/bcc.js
+2024/06/12 18:30:25 br /tmp/work/msg/bcc.js -> /output/msg/bcc.js.br
+2024/06/12 18:30:25 gz /tmp/work/msg/bcc.js -> /output/msg/bcc.js.gz
+2024/06/12 18:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/bn.mjs.br /tmp/work/msg/bn.mjs
+2024/06/12 18:30:25 sri /tmp/work/msg/be-tarask.min.js -> /output/msg/be-tarask.min.js.sri
+2024/06/12 18:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/be-tarask.min.js.br /tmp/work/msg/be-tarask.min.js
+2024/06/12 18:30:25 br /tmp/work/msg/bn.mjs -> /output/msg/bn.mjs.br
+2024/06/12 18:30:25 gz /tmp/work/msg/bn.mjs -> /output/msg/bn.mjs.gz
+2024/06/12 18:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/br.d.ts.br /tmp/work/msg/br.d.ts
+2024/06/12 18:30:25 br /tmp/work/msg/br.d.ts -> /output/msg/br.d.ts.br
+2024/06/12 18:30:25 gz /tmp/work/msg/br.d.ts -> /output/msg/br.d.ts.gz
+2024/06/12 18:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/br.min.js /tmp/work/msg/br.js]
+2024/06/12 18:30:25 sri /tmp/work/msg/be.min.js -> /output/msg/be.min.js.sri
+2024/06/12 18:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/be.min.js.br /tmp/work/msg/be.min.js
+2024/06/12 18:30:25 br /tmp/work/msg/be-tarask.min.js -> /output/msg/be-tarask.min.js.br
+2024/06/12 18:30:25 gz /tmp/work/msg/be-tarask.min.js -> /output/msg/be-tarask.min.js.gz
+2024/06/12 18:30:25 sri /tmp/work/msg/be-tarask.js -> /output/msg/be-tarask.js.sri
+2024/06/12 18:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/be-tarask.js.br /tmp/work/msg/be-tarask.js
+2024/06/12 18:30:25 Optimizing /tmp/work/media/pilcrow.png
+Input size: 1010 (0K)
+Result size: 647 (0K). Percentage of original: 64.059%
+Result is smaller
+
+
+2024/06/12 18:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/media/pilcrow.png.br /tmp/work/media/pilcrow.png
+2024/06/12 18:30:25 br /tmp/work/media/pilcrow.png -> /output/media/pilcrow.png.br
+2024/06/12 18:30:25 gz /tmp/work/media/pilcrow.png -> /output/media/pilcrow.png.gz
+2024/06/12 18:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/br.mjs.br /tmp/work/msg/br.mjs
+2024/06/12 18:30:25 br /tmp/work/msg/br.mjs -> /output/msg/br.mjs.br
+2024/06/12 18:30:25 gz /tmp/work/msg/br.mjs -> /output/msg/br.mjs.gz
+2024/06/12 18:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/bs.d.ts.br /tmp/work/msg/bs.d.ts
+2024/06/12 18:30:25 br /tmp/work/msg/be.min.js -> /output/msg/be.min.js.br
+2024/06/12 18:30:25 gz /tmp/work/msg/be.min.js -> /output/msg/be.min.js.gz
+2024/06/12 18:30:25 sri /tmp/work/msg/be.js -> /output/msg/be.js.sri
+2024/06/12 18:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/be.js.br /tmp/work/msg/be.js
+2024/06/12 18:30:25 br /tmp/work/msg/bs.d.ts -> /output/msg/bs.d.ts.br
+2024/06/12 18:30:25 gz /tmp/work/msg/bs.d.ts -> /output/msg/bs.d.ts.gz
+2024/06/12 18:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/bs.min.js /tmp/work/msg/bs.js]
+2024/06/12 18:30:25 br /tmp/work/msg/be-tarask.js -> /output/msg/be-tarask.js.br
+2024/06/12 18:30:25 gz /tmp/work/msg/be-tarask.js -> /output/msg/be-tarask.js.gz
+2024/06/12 18:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/bs.mjs.br /tmp/work/msg/bs.mjs
+2024/06/12 18:30:25 br /tmp/work/msg/bs.mjs -> /output/msg/bs.mjs.br
+2024/06/12 18:30:25 gz /tmp/work/msg/bs.mjs -> /output/msg/bs.mjs.gz
+2024/06/12 18:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ca.d.ts.br /tmp/work/msg/ca.d.ts
+2024/06/12 18:30:25 br /tmp/work/msg/ca.d.ts -> /output/msg/ca.d.ts.br
+2024/06/12 18:30:25 gz /tmp/work/msg/ca.d.ts -> /output/msg/ca.d.ts.gz
+2024/06/12 18:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/ca.min.js /tmp/work/msg/ca.js]
+2024/06/12 18:30:25 br /tmp/work/msg/be.js -> /output/msg/be.js.br
+2024/06/12 18:30:25 gz /tmp/work/msg/be.js -> /output/msg/be.js.gz
+2024/06/12 18:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ca.mjs.br /tmp/work/msg/ca.mjs
+2024/06/12 18:30:25 br /tmp/work/msg/ca.mjs -> /output/msg/ca.mjs.br
+2024/06/12 18:30:25 gz /tmp/work/msg/ca.mjs -> /output/msg/ca.mjs.gz
+2024/06/12 18:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/cdo.d.ts.br /tmp/work/msg/cdo.d.ts
+2024/06/12 18:30:25 br /tmp/work/msg/cdo.d.ts -> /output/msg/cdo.d.ts.br
+2024/06/12 18:30:25 gz /tmp/work/msg/cdo.d.ts -> /output/msg/cdo.d.ts.gz
+2024/06/12 18:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/cdo.min.js /tmp/work/msg/cdo.js]
+2024/06/12 18:30:25 sri /tmp/work/msg/bg.min.js -> /output/msg/bg.min.js.sri
+2024/06/12 18:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/bg.min.js.br /tmp/work/msg/bg.min.js
+2024/06/12 18:30:26 br /tmp/work/msg/bg.min.js -> /output/msg/bg.min.js.br
+2024/06/12 18:30:26 gz /tmp/work/msg/bg.min.js -> /output/msg/bg.min.js.gz
+2024/06/12 18:30:26 sri /tmp/work/msg/bg.js -> /output/msg/bg.js.sri
+2024/06/12 18:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/bg.js.br /tmp/work/msg/bg.js
+2024/06/12 18:30:26 br /tmp/work/msg/bg.js -> /output/msg/bg.js.br
+2024/06/12 18:30:26 gz /tmp/work/msg/bg.js -> /output/msg/bg.js.gz
+2024/06/12 18:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/cdo.mjs.br /tmp/work/msg/cdo.mjs
+2024/06/12 18:30:26 br /tmp/work/msg/cdo.mjs -> /output/msg/cdo.mjs.br
+2024/06/12 18:30:26 gz /tmp/work/msg/cdo.mjs -> /output/msg/cdo.mjs.gz
+2024/06/12 18:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ce.d.ts.br /tmp/work/msg/ce.d.ts
+2024/06/12 18:30:26 br /tmp/work/msg/ce.d.ts -> /output/msg/ce.d.ts.br
+2024/06/12 18:30:26 gz /tmp/work/msg/ce.d.ts -> /output/msg/ce.d.ts.gz
+2024/06/12 18:30:26 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/ce.min.js /tmp/work/msg/ce.js]
+2024/06/12 18:30:26 sri /tmp/work/msg/bn.min.js -> /output/msg/bn.min.js.sri
+2024/06/12 18:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/bn.min.js.br /tmp/work/msg/bn.min.js
+2024/06/12 18:30:26 br /tmp/work/msg/bn.min.js -> /output/msg/bn.min.js.br
+2024/06/12 18:30:26 gz /tmp/work/msg/bn.min.js -> /output/msg/bn.min.js.gz
+2024/06/12 18:30:26 sri /tmp/work/msg/bn.js -> /output/msg/bn.js.sri
+2024/06/12 18:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/bn.js.br /tmp/work/msg/bn.js
+2024/06/12 18:30:26 sri /tmp/work/msg/br.min.js -> /output/msg/br.min.js.sri
+2024/06/12 18:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/br.min.js.br /tmp/work/msg/br.min.js
+2024/06/12 18:30:26 br /tmp/work/msg/bn.js -> /output/msg/bn.js.br
+2024/06/12 18:30:26 gz /tmp/work/msg/bn.js -> /output/msg/bn.js.gz
+2024/06/12 18:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ce.mjs.br /tmp/work/msg/ce.mjs
+2024/06/12 18:30:26 br /tmp/work/msg/ce.mjs -> /output/msg/ce.mjs.br
+2024/06/12 18:30:26 gz /tmp/work/msg/ce.mjs -> /output/msg/ce.mjs.gz
+2024/06/12 18:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/cs.d.ts.br /tmp/work/msg/cs.d.ts
+2024/06/12 18:30:26 br /tmp/work/msg/cs.d.ts -> /output/msg/cs.d.ts.br
+2024/06/12 18:30:26 gz /tmp/work/msg/cs.d.ts -> /output/msg/cs.d.ts.gz
+2024/06/12 18:30:26 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/cs.min.js /tmp/work/msg/cs.js]
+2024/06/12 18:30:26 br /tmp/work/msg/br.min.js -> /output/msg/br.min.js.br
+2024/06/12 18:30:26 gz /tmp/work/msg/br.min.js -> /output/msg/br.min.js.gz
+2024/06/12 18:30:26 sri /tmp/work/msg/br.js -> /output/msg/br.js.sri
+2024/06/12 18:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/br.js.br /tmp/work/msg/br.js
+2024/06/12 18:30:26 sri /tmp/work/msg/bs.min.js -> /output/msg/bs.min.js.sri
+2024/06/12 18:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/bs.min.js.br /tmp/work/msg/bs.min.js
+2024/06/12 18:30:26 br /tmp/work/msg/br.js -> /output/msg/br.js.br
+2024/06/12 18:30:26 gz /tmp/work/msg/br.js -> /output/msg/br.js.gz
+2024/06/12 18:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/cs.mjs.br /tmp/work/msg/cs.mjs
+2024/06/12 18:30:26 br /tmp/work/msg/bs.min.js -> /output/msg/bs.min.js.br
+2024/06/12 18:30:26 gz /tmp/work/msg/bs.min.js -> /output/msg/bs.min.js.gz
+2024/06/12 18:30:26 sri /tmp/work/msg/bs.js -> /output/msg/bs.js.sri
+2024/06/12 18:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/bs.js.br /tmp/work/msg/bs.js
+2024/06/12 18:30:26 br /tmp/work/msg/cs.mjs -> /output/msg/cs.mjs.br
+2024/06/12 18:30:26 gz /tmp/work/msg/cs.mjs -> /output/msg/cs.mjs.gz
+2024/06/12 18:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/da.d.ts.br /tmp/work/msg/da.d.ts
+2024/06/12 18:30:26 br /tmp/work/msg/da.d.ts -> /output/msg/da.d.ts.br
+2024/06/12 18:30:26 gz /tmp/work/msg/da.d.ts -> /output/msg/da.d.ts.gz
+2024/06/12 18:30:26 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/da.min.js /tmp/work/msg/da.js]
+2024/06/12 18:30:26 sri /tmp/work/msg/ca.min.js -> /output/msg/ca.min.js.sri
+2024/06/12 18:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ca.min.js.br /tmp/work/msg/ca.min.js
+2024/06/12 18:30:26 br /tmp/work/msg/bs.js -> /output/msg/bs.js.br
+2024/06/12 18:30:26 gz /tmp/work/msg/bs.js -> /output/msg/bs.js.gz
+2024/06/12 18:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/da.mjs.br /tmp/work/msg/da.mjs
+2024/06/12 18:30:26 sri /tmp/work/msg/cdo.min.js -> /output/msg/cdo.min.js.sri
+2024/06/12 18:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/cdo.min.js.br /tmp/work/msg/cdo.min.js
+2024/06/12 18:30:26 br /tmp/work/msg/da.mjs -> /output/msg/da.mjs.br
+2024/06/12 18:30:26 gz /tmp/work/msg/da.mjs -> /output/msg/da.mjs.gz
+2024/06/12 18:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/de.d.ts.br /tmp/work/msg/de.d.ts
+2024/06/12 18:30:26 br /tmp/work/msg/de.d.ts -> /output/msg/de.d.ts.br
+2024/06/12 18:30:26 gz /tmp/work/msg/de.d.ts -> /output/msg/de.d.ts.gz
+2024/06/12 18:30:26 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/de.min.js /tmp/work/msg/de.js]
+2024/06/12 18:30:26 br /tmp/work/msg/ca.min.js -> /output/msg/ca.min.js.br
+2024/06/12 18:30:26 gz /tmp/work/msg/ca.min.js -> /output/msg/ca.min.js.gz
+2024/06/12 18:30:26 sri /tmp/work/msg/ca.js -> /output/msg/ca.js.sri
+2024/06/12 18:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ca.js.br /tmp/work/msg/ca.js
+2024/06/12 18:30:26 br /tmp/work/msg/cdo.min.js -> /output/msg/cdo.min.js.br
+2024/06/12 18:30:26 gz /tmp/work/msg/cdo.min.js -> /output/msg/cdo.min.js.gz
+2024/06/12 18:30:26 sri /tmp/work/msg/cdo.js -> /output/msg/cdo.js.sri
+2024/06/12 18:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/cdo.js.br /tmp/work/msg/cdo.js
+2024/06/12 18:30:26 br /tmp/work/msg/ca.js -> /output/msg/ca.js.br
+2024/06/12 18:30:26 gz /tmp/work/msg/ca.js -> /output/msg/ca.js.gz
+2024/06/12 18:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/de.mjs.br /tmp/work/msg/de.mjs
+2024/06/12 18:30:26 br /tmp/work/msg/cdo.js -> /output/msg/cdo.js.br
+2024/06/12 18:30:26 gz /tmp/work/msg/cdo.js -> /output/msg/cdo.js.gz
+2024/06/12 18:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/diq.d.ts.br /tmp/work/msg/diq.d.ts
+2024/06/12 18:30:27 br /tmp/work/msg/diq.d.ts -> /output/msg/diq.d.ts.br
+2024/06/12 18:30:27 gz /tmp/work/msg/diq.d.ts -> /output/msg/diq.d.ts.gz
+2024/06/12 18:30:27 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/diq.min.js /tmp/work/msg/diq.js]
+2024/06/12 18:30:27 br /tmp/work/msg/de.mjs -> /output/msg/de.mjs.br
+2024/06/12 18:30:27 gz /tmp/work/msg/de.mjs -> /output/msg/de.mjs.gz
+2024/06/12 18:30:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/diq.mjs.br /tmp/work/msg/diq.mjs
+2024/06/12 18:30:27 br /tmp/work/msg/diq.mjs -> /output/msg/diq.mjs.br
+2024/06/12 18:30:27 gz /tmp/work/msg/diq.mjs -> /output/msg/diq.mjs.gz
+2024/06/12 18:30:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/dtp.d.ts.br /tmp/work/msg/dtp.d.ts
+2024/06/12 18:30:27 br /tmp/work/msg/dtp.d.ts -> /output/msg/dtp.d.ts.br
+2024/06/12 18:30:27 gz /tmp/work/msg/dtp.d.ts -> /output/msg/dtp.d.ts.gz
+2024/06/12 18:30:27 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/dtp.min.js /tmp/work/msg/dtp.js]
+2024/06/12 18:30:27 sri /tmp/work/msg/ce.min.js -> /output/msg/ce.min.js.sri
+2024/06/12 18:30:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ce.min.js.br /tmp/work/msg/ce.min.js
+2024/06/12 18:30:27 br /tmp/work/msg/ce.min.js -> /output/msg/ce.min.js.br
+2024/06/12 18:30:27 gz /tmp/work/msg/ce.min.js -> /output/msg/ce.min.js.gz
+2024/06/12 18:30:27 sri /tmp/work/msg/ce.js -> /output/msg/ce.js.sri
+2024/06/12 18:30:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ce.js.br /tmp/work/msg/ce.js
+2024/06/12 18:30:27 br /tmp/work/msg/ce.js -> /output/msg/ce.js.br
+2024/06/12 18:30:27 gz /tmp/work/msg/ce.js -> /output/msg/ce.js.gz
+2024/06/12 18:30:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/dtp.mjs.br /tmp/work/msg/dtp.mjs
+2024/06/12 18:30:27 br /tmp/work/msg/dtp.mjs -> /output/msg/dtp.mjs.br
+2024/06/12 18:30:27 gz /tmp/work/msg/dtp.mjs -> /output/msg/dtp.mjs.gz
+2024/06/12 18:30:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/dty.d.ts.br /tmp/work/msg/dty.d.ts
+2024/06/12 18:30:27 br /tmp/work/msg/dty.d.ts -> /output/msg/dty.d.ts.br
+2024/06/12 18:30:27 gz /tmp/work/msg/dty.d.ts -> /output/msg/dty.d.ts.gz
+2024/06/12 18:30:27 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/dty.min.js /tmp/work/msg/dty.js]
+2024/06/12 18:30:27 sri /tmp/work/msg/cs.min.js -> /output/msg/cs.min.js.sri
+2024/06/12 18:30:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/cs.min.js.br /tmp/work/msg/cs.min.js
+2024/06/12 18:30:27 br /tmp/work/msg/cs.min.js -> /output/msg/cs.min.js.br
+2024/06/12 18:30:27 gz /tmp/work/msg/cs.min.js -> /output/msg/cs.min.js.gz
+2024/06/12 18:30:27 sri /tmp/work/msg/cs.js -> /output/msg/cs.js.sri
+2024/06/12 18:30:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/cs.js.br /tmp/work/msg/cs.js
+2024/06/12 18:30:27 br /tmp/work/msg/cs.js -> /output/msg/cs.js.br
+2024/06/12 18:30:27 gz /tmp/work/msg/cs.js -> /output/msg/cs.js.gz
+2024/06/12 18:30:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/dty.mjs.br /tmp/work/msg/dty.mjs
+2024/06/12 18:30:27 br /tmp/work/msg/dty.mjs -> /output/msg/dty.mjs.br
+2024/06/12 18:30:27 gz /tmp/work/msg/dty.mjs -> /output/msg/dty.mjs.gz
+2024/06/12 18:30:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ee.d.ts.br /tmp/work/msg/ee.d.ts
+2024/06/12 18:30:27 br /tmp/work/msg/ee.d.ts -> /output/msg/ee.d.ts.br
+2024/06/12 18:30:27 gz /tmp/work/msg/ee.d.ts -> /output/msg/ee.d.ts.gz
+2024/06/12 18:30:27 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/ee.min.js /tmp/work/msg/ee.js]
+2024/06/12 18:30:27 sri /tmp/work/msg/da.min.js -> /output/msg/da.min.js.sri
+2024/06/12 18:30:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/da.min.js.br /tmp/work/msg/da.min.js
+2024/06/12 18:30:27 sri /tmp/work/msg/de.min.js -> /output/msg/de.min.js.sri
+2024/06/12 18:30:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/de.min.js.br /tmp/work/msg/de.min.js
+2024/06/12 18:30:27 br /tmp/work/msg/da.min.js -> /output/msg/da.min.js.br
+2024/06/12 18:30:27 gz /tmp/work/msg/da.min.js -> /output/msg/da.min.js.gz
+2024/06/12 18:30:27 sri /tmp/work/msg/da.js -> /output/msg/da.js.sri
+2024/06/12 18:30:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/da.js.br /tmp/work/msg/da.js
+2024/06/12 18:30:27 br /tmp/work/msg/de.min.js -> /output/msg/de.min.js.br
+2024/06/12 18:30:27 gz /tmp/work/msg/de.min.js -> /output/msg/de.min.js.gz
+2024/06/12 18:30:27 sri /tmp/work/msg/de.js -> /output/msg/de.js.sri
+2024/06/12 18:30:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/de.js.br /tmp/work/msg/de.js
+2024/06/12 18:30:27 br /tmp/work/msg/da.js -> /output/msg/da.js.br
+2024/06/12 18:30:27 gz /tmp/work/msg/da.js -> /output/msg/da.js.gz
+2024/06/12 18:30:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ee.mjs.br /tmp/work/msg/ee.mjs
+2024/06/12 18:30:27 br /tmp/work/msg/de.js -> /output/msg/de.js.br
+2024/06/12 18:30:27 gz /tmp/work/msg/de.js -> /output/msg/de.js.gz
+2024/06/12 18:30:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/el.d.ts.br /tmp/work/msg/el.d.ts
+2024/06/12 18:30:27 br /tmp/work/msg/ee.mjs -> /output/msg/ee.mjs.br
+2024/06/12 18:30:27 gz /tmp/work/msg/ee.mjs -> /output/msg/ee.mjs.gz
+2024/06/12 18:30:27 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/el.min.js /tmp/work/msg/el.js]
+2024/06/12 18:30:27 br /tmp/work/msg/el.d.ts -> /output/msg/el.d.ts.br
+2024/06/12 18:30:27 gz /tmp/work/msg/el.d.ts -> /output/msg/el.d.ts.gz
+2024/06/12 18:30:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/el.mjs.br /tmp/work/msg/el.mjs
+2024/06/12 18:30:27 sri /tmp/work/msg/diq.min.js -> /output/msg/diq.min.js.sri
+2024/06/12 18:30:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/diq.min.js.br /tmp/work/msg/diq.min.js
+2024/06/12 18:30:27 br /tmp/work/msg/el.mjs -> /output/msg/el.mjs.br
+2024/06/12 18:30:27 gz /tmp/work/msg/el.mjs -> /output/msg/el.mjs.gz
+2024/06/12 18:30:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/en-gb.d.ts.br /tmp/work/msg/en-gb.d.ts
+2024/06/12 18:30:27 br /tmp/work/msg/diq.min.js -> /output/msg/diq.min.js.br
+2024/06/12 18:30:27 br /tmp/work/msg/en-gb.d.ts -> /output/msg/en-gb.d.ts.br
+2024/06/12 18:30:27 gz /tmp/work/msg/en-gb.d.ts -> /output/msg/en-gb.d.ts.gz
+2024/06/12 18:30:27 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/en-gb.min.js /tmp/work/msg/en-gb.js]
+2024/06/12 18:30:27 gz /tmp/work/msg/diq.min.js -> /output/msg/diq.min.js.gz
+2024/06/12 18:30:27 sri /tmp/work/msg/diq.js -> /output/msg/diq.js.sri
+2024/06/12 18:30:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/diq.js.br /tmp/work/msg/diq.js
+2024/06/12 18:30:27 sri /tmp/work/msg/dtp.min.js -> /output/msg/dtp.min.js.sri
+2024/06/12 18:30:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/dtp.min.js.br /tmp/work/msg/dtp.min.js
+2024/06/12 18:30:27 br /tmp/work/msg/dtp.min.js -> /output/msg/dtp.min.js.br
+2024/06/12 18:30:27 gz /tmp/work/msg/dtp.min.js -> /output/msg/dtp.min.js.gz
+2024/06/12 18:30:27 sri /tmp/work/msg/dtp.js -> /output/msg/dtp.js.sri
+2024/06/12 18:30:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/dtp.js.br /tmp/work/msg/dtp.js
+2024/06/12 18:30:28 br /tmp/work/msg/diq.js -> /output/msg/diq.js.br
+2024/06/12 18:30:28 gz /tmp/work/msg/diq.js -> /output/msg/diq.js.gz
+2024/06/12 18:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/en-gb.mjs.br /tmp/work/msg/en-gb.mjs
+2024/06/12 18:30:28 br /tmp/work/msg/en-gb.mjs -> /output/msg/en-gb.mjs.br
+2024/06/12 18:30:28 gz /tmp/work/msg/en-gb.mjs -> /output/msg/en-gb.mjs.gz
+2024/06/12 18:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/en.d.ts.br /tmp/work/msg/en.d.ts
+2024/06/12 18:30:28 br /tmp/work/msg/en.d.ts -> /output/msg/en.d.ts.br
+2024/06/12 18:30:28 gz /tmp/work/msg/en.d.ts -> /output/msg/en.d.ts.gz
+2024/06/12 18:30:28 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/en.min.js /tmp/work/msg/en.js]
+2024/06/12 18:30:28 br /tmp/work/msg/dtp.js -> /output/msg/dtp.js.br
+2024/06/12 18:30:28 gz /tmp/work/msg/dtp.js -> /output/msg/dtp.js.gz
+2024/06/12 18:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/en.mjs.br /tmp/work/msg/en.mjs
+2024/06/12 18:30:28 br /tmp/work/msg/en.mjs -> /output/msg/en.mjs.br
+2024/06/12 18:30:28 gz /tmp/work/msg/en.mjs -> /output/msg/en.mjs.gz
+2024/06/12 18:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/eo.d.ts.br /tmp/work/msg/eo.d.ts
+2024/06/12 18:30:28 br /tmp/work/msg/eo.d.ts -> /output/msg/eo.d.ts.br
+2024/06/12 18:30:28 gz /tmp/work/msg/eo.d.ts -> /output/msg/eo.d.ts.gz
+2024/06/12 18:30:28 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/eo.min.js /tmp/work/msg/eo.js]
+2024/06/12 18:30:28 sri /tmp/work/msg/dty.min.js -> /output/msg/dty.min.js.sri
+2024/06/12 18:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/dty.min.js.br /tmp/work/msg/dty.min.js
+2024/06/12 18:30:28 Optimizing /tmp/work/media/sprites.png
+Input size: 2595 (2K)
+Result size: 2340 (2K). Percentage of original: 90.173%
+Result is smaller
+
+
+2024/06/12 18:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/media/sprites.png.br /tmp/work/media/sprites.png
+2024/06/12 18:30:28 br /tmp/work/media/sprites.png -> /output/media/sprites.png.br
+2024/06/12 18:30:28 gz /tmp/work/media/sprites.png -> /output/media/sprites.png.gz
+2024/06/12 18:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/eo.mjs.br /tmp/work/msg/eo.mjs
+2024/06/12 18:30:28 br /tmp/work/msg/eo.mjs -> /output/msg/eo.mjs.br
+2024/06/12 18:30:28 gz /tmp/work/msg/eo.mjs -> /output/msg/eo.mjs.gz
+2024/06/12 18:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/es.d.ts.br /tmp/work/msg/es.d.ts
+2024/06/12 18:30:28 br /tmp/work/msg/es.d.ts -> /output/msg/es.d.ts.br
+2024/06/12 18:30:28 gz /tmp/work/msg/es.d.ts -> /output/msg/es.d.ts.gz
+2024/06/12 18:30:28 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/es.min.js /tmp/work/msg/es.js]
+2024/06/12 18:30:28 br /tmp/work/msg/dty.min.js -> /output/msg/dty.min.js.br
+2024/06/12 18:30:28 gz /tmp/work/msg/dty.min.js -> /output/msg/dty.min.js.gz
+2024/06/12 18:30:28 sri /tmp/work/msg/dty.js -> /output/msg/dty.js.sri
+2024/06/12 18:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/dty.js.br /tmp/work/msg/dty.js
+2024/06/12 18:30:28 br /tmp/work/msg/dty.js -> /output/msg/dty.js.br
+2024/06/12 18:30:28 gz /tmp/work/msg/dty.js -> /output/msg/dty.js.gz
+2024/06/12 18:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/es.mjs.br /tmp/work/msg/es.mjs
+2024/06/12 18:30:28 sri /tmp/work/msg/ee.min.js -> /output/msg/ee.min.js.sri
+2024/06/12 18:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ee.min.js.br /tmp/work/msg/ee.min.js
+2024/06/12 18:30:28 br /tmp/work/msg/es.mjs -> /output/msg/es.mjs.br
+2024/06/12 18:30:28 gz /tmp/work/msg/es.mjs -> /output/msg/es.mjs.gz
+2024/06/12 18:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/et.d.ts.br /tmp/work/msg/et.d.ts
+2024/06/12 18:30:28 br /tmp/work/msg/et.d.ts -> /output/msg/et.d.ts.br
+2024/06/12 18:30:28 gz /tmp/work/msg/et.d.ts -> /output/msg/et.d.ts.gz
+2024/06/12 18:30:28 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/et.min.js /tmp/work/msg/et.js]
+2024/06/12 18:30:28 br /tmp/work/msg/ee.min.js -> /output/msg/ee.min.js.br
+2024/06/12 18:30:28 gz /tmp/work/msg/ee.min.js -> /output/msg/ee.min.js.gz
+2024/06/12 18:30:28 sri /tmp/work/msg/ee.js -> /output/msg/ee.js.sri
+2024/06/12 18:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ee.js.br /tmp/work/msg/ee.js
+2024/06/12 18:30:28 br /tmp/work/msg/ee.js -> /output/msg/ee.js.br
+2024/06/12 18:30:28 gz /tmp/work/msg/ee.js -> /output/msg/ee.js.gz
+2024/06/12 18:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/et.mjs.br /tmp/work/msg/et.mjs
+2024/06/12 18:30:28 sri /tmp/work/msg/el.min.js -> /output/msg/el.min.js.sri
+2024/06/12 18:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/el.min.js.br /tmp/work/msg/el.min.js
+2024/06/12 18:30:28 br /tmp/work/msg/et.mjs -> /output/msg/et.mjs.br
+2024/06/12 18:30:28 gz /tmp/work/msg/et.mjs -> /output/msg/et.mjs.gz
+2024/06/12 18:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/eu.d.ts.br /tmp/work/msg/eu.d.ts
+2024/06/12 18:30:28 br /tmp/work/msg/eu.d.ts -> /output/msg/eu.d.ts.br
+2024/06/12 18:30:28 gz /tmp/work/msg/eu.d.ts -> /output/msg/eu.d.ts.gz
+2024/06/12 18:30:28 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/eu.min.js /tmp/work/msg/eu.js]
+2024/06/12 18:30:28 br /tmp/work/msg/el.min.js -> /output/msg/el.min.js.br
+2024/06/12 18:30:28 gz /tmp/work/msg/el.min.js -> /output/msg/el.min.js.gz
+2024/06/12 18:30:28 sri /tmp/work/msg/el.js -> /output/msg/el.js.sri
+2024/06/12 18:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/el.js.br /tmp/work/msg/el.js
+2024/06/12 18:30:28 sri /tmp/work/msg/en-gb.min.js -> /output/msg/en-gb.min.js.sri
+2024/06/12 18:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/en-gb.min.js.br /tmp/work/msg/en-gb.min.js
+2024/06/12 18:30:28 br /tmp/work/msg/el.js -> /output/msg/el.js.br
+2024/06/12 18:30:28 gz /tmp/work/msg/el.js -> /output/msg/el.js.gz
+2024/06/12 18:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/eu.mjs.br /tmp/work/msg/eu.mjs
+2024/06/12 18:30:28 br /tmp/work/msg/eu.mjs -> /output/msg/eu.mjs.br
+2024/06/12 18:30:28 gz /tmp/work/msg/eu.mjs -> /output/msg/eu.mjs.gz
+2024/06/12 18:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/fa.d.ts.br /tmp/work/msg/fa.d.ts
+2024/06/12 18:30:28 br /tmp/work/msg/fa.d.ts -> /output/msg/fa.d.ts.br
+2024/06/12 18:30:28 gz /tmp/work/msg/fa.d.ts -> /output/msg/fa.d.ts.gz
+2024/06/12 18:30:28 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/fa.min.js /tmp/work/msg/fa.js]
+2024/06/12 18:30:28 br /tmp/work/msg/en-gb.min.js -> /output/msg/en-gb.min.js.br
+2024/06/12 18:30:28 gz /tmp/work/msg/en-gb.min.js -> /output/msg/en-gb.min.js.gz
+2024/06/12 18:30:28 sri /tmp/work/msg/en-gb.js -> /output/msg/en-gb.js.sri
+2024/06/12 18:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/en-gb.js.br /tmp/work/msg/en-gb.js
+2024/06/12 18:30:28 sri /tmp/work/msg/en.min.js -> /output/msg/en.min.js.sri
+2024/06/12 18:30:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/en.min.js.br /tmp/work/msg/en.min.js
+2024/06/12 18:30:29 br /tmp/work/msg/en-gb.js -> /output/msg/en-gb.js.br
+2024/06/12 18:30:29 gz /tmp/work/msg/en-gb.js -> /output/msg/en-gb.js.gz
+2024/06/12 18:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/fa.mjs.br /tmp/work/msg/fa.mjs
+2024/06/12 18:30:29 br /tmp/work/msg/en.min.js -> /output/msg/en.min.js.br
+2024/06/12 18:30:29 gz /tmp/work/msg/en.min.js -> /output/msg/en.min.js.gz
+2024/06/12 18:30:29 sri /tmp/work/msg/en.js -> /output/msg/en.js.sri
+2024/06/12 18:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/en.js.br /tmp/work/msg/en.js
+2024/06/12 18:30:29 br /tmp/work/msg/fa.mjs -> /output/msg/fa.mjs.br
+2024/06/12 18:30:29 gz /tmp/work/msg/fa.mjs -> /output/msg/fa.mjs.gz
+2024/06/12 18:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/fi.d.ts.br /tmp/work/msg/fi.d.ts
+2024/06/12 18:30:29 sri /tmp/work/msg/eo.min.js -> /output/msg/eo.min.js.sri
+2024/06/12 18:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/eo.min.js.br /tmp/work/msg/eo.min.js
+2024/06/12 18:30:29 br /tmp/work/msg/fi.d.ts -> /output/msg/fi.d.ts.br
+2024/06/12 18:30:29 gz /tmp/work/msg/fi.d.ts -> /output/msg/fi.d.ts.gz
+2024/06/12 18:30:29 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/fi.min.js /tmp/work/msg/fi.js]
+2024/06/12 18:30:29 br /tmp/work/msg/en.js -> /output/msg/en.js.br
+2024/06/12 18:30:29 gz /tmp/work/msg/en.js -> /output/msg/en.js.gz
+2024/06/12 18:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/fi.mjs.br /tmp/work/msg/fi.mjs
+2024/06/12 18:30:29 br /tmp/work/msg/eo.min.js -> /output/msg/eo.min.js.br
+2024/06/12 18:30:29 gz /tmp/work/msg/eo.min.js -> /output/msg/eo.min.js.gz
+2024/06/12 18:30:29 sri /tmp/work/msg/eo.js -> /output/msg/eo.js.sri
+2024/06/12 18:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/eo.js.br /tmp/work/msg/eo.js
+2024/06/12 18:30:29 sri /tmp/work/msg/es.min.js -> /output/msg/es.min.js.sri
+2024/06/12 18:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/es.min.js.br /tmp/work/msg/es.min.js
+2024/06/12 18:30:29 br /tmp/work/msg/fi.mjs -> /output/msg/fi.mjs.br
+2024/06/12 18:30:29 gz /tmp/work/msg/fi.mjs -> /output/msg/fi.mjs.gz
+2024/06/12 18:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/fo.d.ts.br /tmp/work/msg/fo.d.ts
+2024/06/12 18:30:29 br /tmp/work/msg/fo.d.ts -> /output/msg/fo.d.ts.br
+2024/06/12 18:30:29 gz /tmp/work/msg/fo.d.ts -> /output/msg/fo.d.ts.gz
+2024/06/12 18:30:29 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/fo.min.js /tmp/work/msg/fo.js]
+2024/06/12 18:30:29 sri /tmp/work/msg/et.min.js -> /output/msg/et.min.js.sri
+2024/06/12 18:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/et.min.js.br /tmp/work/msg/et.min.js
+2024/06/12 18:30:29 br /tmp/work/msg/es.min.js -> /output/msg/es.min.js.br
+2024/06/12 18:30:29 br /tmp/work/msg/eo.js -> /output/msg/eo.js.br
+2024/06/12 18:30:29 gz /tmp/work/msg/es.min.js -> /output/msg/es.min.js.gz
+2024/06/12 18:30:29 sri /tmp/work/msg/es.js -> /output/msg/es.js.sri
+2024/06/12 18:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/es.js.br /tmp/work/msg/es.js
+2024/06/12 18:30:29 gz /tmp/work/msg/eo.js -> /output/msg/eo.js.gz
+2024/06/12 18:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/fo.mjs.br /tmp/work/msg/fo.mjs
+2024/06/12 18:30:29 br /tmp/work/msg/fo.mjs -> /output/msg/fo.mjs.br
+2024/06/12 18:30:29 gz /tmp/work/msg/fo.mjs -> /output/msg/fo.mjs.gz
+2024/06/12 18:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/fr.d.ts.br /tmp/work/msg/fr.d.ts
+2024/06/12 18:30:29 br /tmp/work/msg/fr.d.ts -> /output/msg/fr.d.ts.br
+2024/06/12 18:30:29 gz /tmp/work/msg/fr.d.ts -> /output/msg/fr.d.ts.gz
+2024/06/12 18:30:29 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/fr.min.js /tmp/work/msg/fr.js]
+2024/06/12 18:30:29 br /tmp/work/msg/et.min.js -> /output/msg/et.min.js.br
+2024/06/12 18:30:29 gz /tmp/work/msg/et.min.js -> /output/msg/et.min.js.gz
+2024/06/12 18:30:29 sri /tmp/work/msg/et.js -> /output/msg/et.js.sri
+2024/06/12 18:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/et.js.br /tmp/work/msg/et.js
+2024/06/12 18:30:29 br /tmp/work/msg/es.js -> /output/msg/es.js.br
+2024/06/12 18:30:29 gz /tmp/work/msg/es.js -> /output/msg/es.js.gz
+2024/06/12 18:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/fr.mjs.br /tmp/work/msg/fr.mjs
+2024/06/12 18:30:29 br /tmp/work/msg/fr.mjs -> /output/msg/fr.mjs.br
+2024/06/12 18:30:29 gz /tmp/work/msg/fr.mjs -> /output/msg/fr.mjs.gz
+2024/06/12 18:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/frr.d.ts.br /tmp/work/msg/frr.d.ts
+2024/06/12 18:30:29 br /tmp/work/msg/frr.d.ts -> /output/msg/frr.d.ts.br
+2024/06/12 18:30:29 gz /tmp/work/msg/frr.d.ts -> /output/msg/frr.d.ts.gz
+2024/06/12 18:30:29 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/frr.min.js /tmp/work/msg/frr.js]
+2024/06/12 18:30:29 br /tmp/work/msg/et.js -> /output/msg/et.js.br
+2024/06/12 18:30:29 gz /tmp/work/msg/et.js -> /output/msg/et.js.gz
+2024/06/12 18:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/frr.mjs.br /tmp/work/msg/frr.mjs
+2024/06/12 18:30:29 br /tmp/work/msg/frr.mjs -> /output/msg/frr.mjs.br
+2024/06/12 18:30:29 gz /tmp/work/msg/frr.mjs -> /output/msg/frr.mjs.gz
+2024/06/12 18:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/gl.d.ts.br /tmp/work/msg/gl.d.ts
+2024/06/12 18:30:29 br /tmp/work/msg/gl.d.ts -> /output/msg/gl.d.ts.br
+2024/06/12 18:30:29 gz /tmp/work/msg/gl.d.ts -> /output/msg/gl.d.ts.gz
+2024/06/12 18:30:29 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/gl.min.js /tmp/work/msg/gl.js]
+2024/06/12 18:30:29 sri /tmp/work/msg/eu.min.js -> /output/msg/eu.min.js.sri
+2024/06/12 18:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/eu.min.js.br /tmp/work/msg/eu.min.js
+2024/06/12 18:30:29 br /tmp/work/msg/eu.min.js -> /output/msg/eu.min.js.br
+2024/06/12 18:30:29 gz /tmp/work/msg/eu.min.js -> /output/msg/eu.min.js.gz
+2024/06/12 18:30:29 sri /tmp/work/msg/eu.js -> /output/msg/eu.js.sri
+2024/06/12 18:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/eu.js.br /tmp/work/msg/eu.js
+2024/06/12 18:30:29 br /tmp/work/msg/eu.js -> /output/msg/eu.js.br
+2024/06/12 18:30:29 gz /tmp/work/msg/eu.js -> /output/msg/eu.js.gz
+2024/06/12 18:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/gl.mjs.br /tmp/work/msg/gl.mjs
+2024/06/12 18:30:29 br /tmp/work/msg/gl.mjs -> /output/msg/gl.mjs.br
+2024/06/12 18:30:29 gz /tmp/work/msg/gl.mjs -> /output/msg/gl.mjs.gz
+2024/06/12 18:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/gn.d.ts.br /tmp/work/msg/gn.d.ts
+2024/06/12 18:30:29 br /tmp/work/msg/gn.d.ts -> /output/msg/gn.d.ts.br
+2024/06/12 18:30:29 gz /tmp/work/msg/gn.d.ts -> /output/msg/gn.d.ts.gz
+2024/06/12 18:30:29 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/gn.min.js /tmp/work/msg/gn.js]
+2024/06/12 18:30:29 sri /tmp/work/msg/fa.min.js -> /output/msg/fa.min.js.sri
+2024/06/12 18:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/fa.min.js.br /tmp/work/msg/fa.min.js
+2024/06/12 18:30:29 br /tmp/work/msg/fa.min.js -> /output/msg/fa.min.js.br
+2024/06/12 18:30:29 gz /tmp/work/msg/fa.min.js -> /output/msg/fa.min.js.gz
+2024/06/12 18:30:29 sri /tmp/work/msg/fa.js -> /output/msg/fa.js.sri
+2024/06/12 18:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/fa.js.br /tmp/work/msg/fa.js
+2024/06/12 18:30:29 sri /tmp/work/msg/fi.min.js -> /output/msg/fi.min.js.sri
+2024/06/12 18:30:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/fi.min.js.br /tmp/work/msg/fi.min.js
+2024/06/12 18:30:29 br /tmp/work/msg/fa.js -> /output/msg/fa.js.br
+2024/06/12 18:30:29 gz /tmp/work/msg/fa.js -> /output/msg/fa.js.gz
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/gn.mjs.br /tmp/work/msg/gn.mjs
+2024/06/12 18:30:30 br /tmp/work/msg/fi.min.js -> /output/msg/fi.min.js.br
+2024/06/12 18:30:30 gz /tmp/work/msg/fi.min.js -> /output/msg/fi.min.js.gz
+2024/06/12 18:30:30 sri /tmp/work/msg/fi.js -> /output/msg/fi.js.sri
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/fi.js.br /tmp/work/msg/fi.js
+2024/06/12 18:30:30 br /tmp/work/msg/gn.mjs -> /output/msg/gn.mjs.br
+2024/06/12 18:30:30 gz /tmp/work/msg/gn.mjs -> /output/msg/gn.mjs.gz
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/gor.d.ts.br /tmp/work/msg/gor.d.ts
+2024/06/12 18:30:30 br /tmp/work/msg/gor.d.ts -> /output/msg/gor.d.ts.br
+2024/06/12 18:30:30 gz /tmp/work/msg/gor.d.ts -> /output/msg/gor.d.ts.gz
+2024/06/12 18:30:30 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/gor.min.js /tmp/work/msg/gor.js]
+2024/06/12 18:30:30 sri /tmp/work/msg/fo.min.js -> /output/msg/fo.min.js.sri
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/fo.min.js.br /tmp/work/msg/fo.min.js
+2024/06/12 18:30:30 br /tmp/work/msg/fi.js -> /output/msg/fi.js.br
+2024/06/12 18:30:30 gz /tmp/work/msg/fi.js -> /output/msg/fi.js.gz
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/gor.mjs.br /tmp/work/msg/gor.mjs
+2024/06/12 18:30:30 br /tmp/work/msg/gor.mjs -> /output/msg/gor.mjs.br
+2024/06/12 18:30:30 gz /tmp/work/msg/gor.mjs -> /output/msg/gor.mjs.gz
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ha.d.ts.br /tmp/work/msg/ha.d.ts
+2024/06/12 18:30:30 br /tmp/work/msg/ha.d.ts -> /output/msg/ha.d.ts.br
+2024/06/12 18:30:30 gz /tmp/work/msg/ha.d.ts -> /output/msg/ha.d.ts.gz
+2024/06/12 18:30:30 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/ha.min.js /tmp/work/msg/ha.js]
+2024/06/12 18:30:30 sri /tmp/work/msg/fr.min.js -> /output/msg/fr.min.js.sri
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/fr.min.js.br /tmp/work/msg/fr.min.js
+2024/06/12 18:30:30 br /tmp/work/msg/fo.min.js -> /output/msg/fo.min.js.br
+2024/06/12 18:30:30 gz /tmp/work/msg/fo.min.js -> /output/msg/fo.min.js.gz
+2024/06/12 18:30:30 sri /tmp/work/msg/fo.js -> /output/msg/fo.js.sri
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/fo.js.br /tmp/work/msg/fo.js
+2024/06/12 18:30:30 br /tmp/work/msg/fr.min.js -> /output/msg/fr.min.js.br
+2024/06/12 18:30:30 gz /tmp/work/msg/fr.min.js -> /output/msg/fr.min.js.gz
+2024/06/12 18:30:30 sri /tmp/work/msg/fr.js -> /output/msg/fr.js.sri
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/fr.js.br /tmp/work/msg/fr.js
+2024/06/12 18:30:30 br /tmp/work/msg/fo.js -> /output/msg/fo.js.br
+2024/06/12 18:30:30 gz /tmp/work/msg/fo.js -> /output/msg/fo.js.gz
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ha.mjs.br /tmp/work/msg/ha.mjs
+2024/06/12 18:30:30 sri /tmp/work/msg/frr.min.js -> /output/msg/frr.min.js.sri
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/frr.min.js.br /tmp/work/msg/frr.min.js
+2024/06/12 18:30:30 br /tmp/work/msg/ha.mjs -> /output/msg/ha.mjs.br
+2024/06/12 18:30:30 gz /tmp/work/msg/ha.mjs -> /output/msg/ha.mjs.gz
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hak.d.ts.br /tmp/work/msg/hak.d.ts
+2024/06/12 18:30:30 br /tmp/work/msg/hak.d.ts -> /output/msg/hak.d.ts.br
+2024/06/12 18:30:30 gz /tmp/work/msg/hak.d.ts -> /output/msg/hak.d.ts.gz
+2024/06/12 18:30:30 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/hak.min.js /tmp/work/msg/hak.js]
+2024/06/12 18:30:30 br /tmp/work/msg/fr.js -> /output/msg/fr.js.br
+2024/06/12 18:30:30 gz /tmp/work/msg/fr.js -> /output/msg/fr.js.gz
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hak.mjs.br /tmp/work/msg/hak.mjs
+2024/06/12 18:30:30 br /tmp/work/msg/frr.min.js -> /output/msg/frr.min.js.br
+2024/06/12 18:30:30 gz /tmp/work/msg/frr.min.js -> /output/msg/frr.min.js.gz
+2024/06/12 18:30:30 sri /tmp/work/msg/frr.js -> /output/msg/frr.js.sri
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/frr.js.br /tmp/work/msg/frr.js
+2024/06/12 18:30:30 sri /tmp/work/msg/gl.min.js -> /output/msg/gl.min.js.sri
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/gl.min.js.br /tmp/work/msg/gl.min.js
+2024/06/12 18:30:30 br /tmp/work/msg/hak.mjs -> /output/msg/hak.mjs.br
+2024/06/12 18:30:30 gz /tmp/work/msg/hak.mjs -> /output/msg/hak.mjs.gz
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/he.d.ts.br /tmp/work/msg/he.d.ts
+2024/06/12 18:30:30 br /tmp/work/msg/he.d.ts -> /output/msg/he.d.ts.br
+2024/06/12 18:30:30 gz /tmp/work/msg/he.d.ts -> /output/msg/he.d.ts.gz
+2024/06/12 18:30:30 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/he.min.js /tmp/work/msg/he.js]
+2024/06/12 18:30:30 br /tmp/work/msg/gl.min.js -> /output/msg/gl.min.js.br
+2024/06/12 18:30:30 gz /tmp/work/msg/gl.min.js -> /output/msg/gl.min.js.gz
+2024/06/12 18:30:30 sri /tmp/work/msg/gl.js -> /output/msg/gl.js.sri
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/gl.js.br /tmp/work/msg/gl.js
+2024/06/12 18:30:30 br /tmp/work/msg/frr.js -> /output/msg/frr.js.br
+2024/06/12 18:30:30 gz /tmp/work/msg/frr.js -> /output/msg/frr.js.gz
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/he.mjs.br /tmp/work/msg/he.mjs
+2024/06/12 18:30:30 br /tmp/work/msg/he.mjs -> /output/msg/he.mjs.br
+2024/06/12 18:30:30 gz /tmp/work/msg/he.mjs -> /output/msg/he.mjs.gz
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hi.d.ts.br /tmp/work/msg/hi.d.ts
+2024/06/12 18:30:30 br /tmp/work/msg/hi.d.ts -> /output/msg/hi.d.ts.br
+2024/06/12 18:30:30 gz /tmp/work/msg/hi.d.ts -> /output/msg/hi.d.ts.gz
+2024/06/12 18:30:30 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/hi.min.js /tmp/work/msg/hi.js]
+2024/06/12 18:30:30 br /tmp/work/msg/gl.js -> /output/msg/gl.js.br
+2024/06/12 18:30:30 gz /tmp/work/msg/gl.js -> /output/msg/gl.js.gz
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hi.mjs.br /tmp/work/msg/hi.mjs
+2024/06/12 18:30:30 br /tmp/work/msg/hi.mjs -> /output/msg/hi.mjs.br
+2024/06/12 18:30:30 gz /tmp/work/msg/hi.mjs -> /output/msg/hi.mjs.gz
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hr.d.ts.br /tmp/work/msg/hr.d.ts
+2024/06/12 18:30:30 br /tmp/work/msg/hr.d.ts -> /output/msg/hr.d.ts.br
+2024/06/12 18:30:30 gz /tmp/work/msg/hr.d.ts -> /output/msg/hr.d.ts.gz
+2024/06/12 18:30:30 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/hr.min.js /tmp/work/msg/hr.js]
+2024/06/12 18:30:30 sri /tmp/work/msg/gn.min.js -> /output/msg/gn.min.js.sri
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/gn.min.js.br /tmp/work/msg/gn.min.js
+2024/06/12 18:30:30 br /tmp/work/msg/gn.min.js -> /output/msg/gn.min.js.br
+2024/06/12 18:30:30 gz /tmp/work/msg/gn.min.js -> /output/msg/gn.min.js.gz
+2024/06/12 18:30:30 sri /tmp/work/msg/gn.js -> /output/msg/gn.js.sri
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/gn.js.br /tmp/work/msg/gn.js
+2024/06/12 18:30:30 br /tmp/work/msg/gn.js -> /output/msg/gn.js.br
+2024/06/12 18:30:30 gz /tmp/work/msg/gn.js -> /output/msg/gn.js.gz
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hr.mjs.br /tmp/work/msg/hr.mjs
+2024/06/12 18:30:30 br /tmp/work/msg/hr.mjs -> /output/msg/hr.mjs.br
+2024/06/12 18:30:30 gz /tmp/work/msg/hr.mjs -> /output/msg/hr.mjs.gz
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hrx.d.ts.br /tmp/work/msg/hrx.d.ts
+2024/06/12 18:30:30 br /tmp/work/msg/hrx.d.ts -> /output/msg/hrx.d.ts.br
+2024/06/12 18:30:30 sri /tmp/work/msg/gor.min.js -> /output/msg/gor.min.js.sri
+2024/06/12 18:30:30 gz /tmp/work/msg/hrx.d.ts -> /output/msg/hrx.d.ts.gz
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/gor.min.js.br /tmp/work/msg/gor.min.js
+2024/06/12 18:30:30 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/hrx.min.js /tmp/work/msg/hrx.js]
+2024/06/12 18:30:30 sri /tmp/work/msg/ha.min.js -> /output/msg/ha.min.js.sri
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ha.min.js.br /tmp/work/msg/ha.min.js
+2024/06/12 18:30:30 br /tmp/work/msg/gor.min.js -> /output/msg/gor.min.js.br
+2024/06/12 18:30:30 gz /tmp/work/msg/gor.min.js -> /output/msg/gor.min.js.gz
+2024/06/12 18:30:30 sri /tmp/work/msg/gor.js -> /output/msg/gor.js.sri
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/gor.js.br /tmp/work/msg/gor.js
+2024/06/12 18:30:30 br /tmp/work/msg/ha.min.js -> /output/msg/ha.min.js.br
+2024/06/12 18:30:30 gz /tmp/work/msg/ha.min.js -> /output/msg/ha.min.js.gz
+2024/06/12 18:30:30 sri /tmp/work/msg/ha.js -> /output/msg/ha.js.sri
+2024/06/12 18:30:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ha.js.br /tmp/work/msg/ha.js
+2024/06/12 18:30:31 br /tmp/work/msg/gor.js -> /output/msg/gor.js.br
+2024/06/12 18:30:31 gz /tmp/work/msg/gor.js -> /output/msg/gor.js.gz
+2024/06/12 18:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hrx.mjs.br /tmp/work/msg/hrx.mjs
+2024/06/12 18:30:31 br /tmp/work/msg/ha.js -> /output/msg/ha.js.br
+2024/06/12 18:30:31 gz /tmp/work/msg/ha.js -> /output/msg/ha.js.gz
+2024/06/12 18:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hsb.d.ts.br /tmp/work/msg/hsb.d.ts
+2024/06/12 18:30:31 br /tmp/work/msg/hsb.d.ts -> /output/msg/hsb.d.ts.br
+2024/06/12 18:30:31 gz /tmp/work/msg/hsb.d.ts -> /output/msg/hsb.d.ts.gz
+2024/06/12 18:30:31 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/hsb.min.js /tmp/work/msg/hsb.js]
+2024/06/12 18:30:31 br /tmp/work/msg/hrx.mjs -> /output/msg/hrx.mjs.br
+2024/06/12 18:30:31 gz /tmp/work/msg/hrx.mjs -> /output/msg/hrx.mjs.gz
+2024/06/12 18:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hsb.mjs.br /tmp/work/msg/hsb.mjs
+2024/06/12 18:30:31 br /tmp/work/msg/hsb.mjs -> /output/msg/hsb.mjs.br
+2024/06/12 18:30:31 gz /tmp/work/msg/hsb.mjs -> /output/msg/hsb.mjs.gz
+2024/06/12 18:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hu.d.ts.br /tmp/work/msg/hu.d.ts
+2024/06/12 18:30:31 br /tmp/work/msg/hu.d.ts -> /output/msg/hu.d.ts.br
+2024/06/12 18:30:31 gz /tmp/work/msg/hu.d.ts -> /output/msg/hu.d.ts.gz
+2024/06/12 18:30:31 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/hu.min.js /tmp/work/msg/hu.js]
+2024/06/12 18:30:31 sri /tmp/work/msg/hak.min.js -> /output/msg/hak.min.js.sri
+2024/06/12 18:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hak.min.js.br /tmp/work/msg/hak.min.js
+2024/06/12 18:30:31 br /tmp/work/msg/hak.min.js -> /output/msg/hak.min.js.br
+2024/06/12 18:30:31 gz /tmp/work/msg/hak.min.js -> /output/msg/hak.min.js.gz
+2024/06/12 18:30:31 sri /tmp/work/msg/hak.js -> /output/msg/hak.js.sri
+2024/06/12 18:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hak.js.br /tmp/work/msg/hak.js
+2024/06/12 18:30:31 sri /tmp/work/msg/he.min.js -> /output/msg/he.min.js.sri
+2024/06/12 18:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/he.min.js.br /tmp/work/msg/he.min.js
+2024/06/12 18:30:31 sri /tmp/work/msg/hi.min.js -> /output/msg/hi.min.js.sri
+2024/06/12 18:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hi.min.js.br /tmp/work/msg/hi.min.js
+2024/06/12 18:30:31 br /tmp/work/msg/hak.js -> /output/msg/hak.js.br
+2024/06/12 18:30:31 gz /tmp/work/msg/hak.js -> /output/msg/hak.js.gz
+2024/06/12 18:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hu.mjs.br /tmp/work/msg/hu.mjs
+2024/06/12 18:30:31 br /tmp/work/msg/he.min.js -> /output/msg/he.min.js.br
+2024/06/12 18:30:31 gz /tmp/work/msg/he.min.js -> /output/msg/he.min.js.gz
+2024/06/12 18:30:31 sri /tmp/work/msg/he.js -> /output/msg/he.js.sri
+2024/06/12 18:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/he.js.br /tmp/work/msg/he.js
+2024/06/12 18:30:31 br /tmp/work/msg/hu.mjs -> /output/msg/hu.mjs.br
+2024/06/12 18:30:31 gz /tmp/work/msg/hu.mjs -> /output/msg/hu.mjs.gz
+2024/06/12 18:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hy.d.ts.br /tmp/work/msg/hy.d.ts
+2024/06/12 18:30:31 br /tmp/work/msg/hy.d.ts -> /output/msg/hy.d.ts.br
+2024/06/12 18:30:31 gz /tmp/work/msg/hy.d.ts -> /output/msg/hy.d.ts.gz
+2024/06/12 18:30:31 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/hy.min.js /tmp/work/msg/hy.js]
+2024/06/12 18:30:31 br /tmp/work/msg/hi.min.js -> /output/msg/hi.min.js.br
+2024/06/12 18:30:31 gz /tmp/work/msg/hi.min.js -> /output/msg/hi.min.js.gz
+2024/06/12 18:30:31 sri /tmp/work/msg/hi.js -> /output/msg/hi.js.sri
+2024/06/12 18:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hi.js.br /tmp/work/msg/hi.js
+2024/06/12 18:30:31 sri /tmp/work/msg/hr.min.js -> /output/msg/hr.min.js.sri
+2024/06/12 18:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hr.min.js.br /tmp/work/msg/hr.min.js
+2024/06/12 18:30:31 br /tmp/work/msg/he.js -> /output/msg/he.js.br
+2024/06/12 18:30:31 gz /tmp/work/msg/he.js -> /output/msg/he.js.gz
+2024/06/12 18:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hy.mjs.br /tmp/work/msg/hy.mjs
+2024/06/12 18:30:31 br /tmp/work/msg/hy.mjs -> /output/msg/hy.mjs.br
+2024/06/12 18:30:31 gz /tmp/work/msg/hy.mjs -> /output/msg/hy.mjs.gz
+2024/06/12 18:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ia.d.ts.br /tmp/work/msg/ia.d.ts
+2024/06/12 18:30:31 br /tmp/work/msg/ia.d.ts -> /output/msg/ia.d.ts.br
+2024/06/12 18:30:31 gz /tmp/work/msg/ia.d.ts -> /output/msg/ia.d.ts.gz
+2024/06/12 18:30:31 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/ia.min.js /tmp/work/msg/ia.js]
+2024/06/12 18:30:31 br /tmp/work/msg/hr.min.js -> /output/msg/hr.min.js.br
+2024/06/12 18:30:31 gz /tmp/work/msg/hr.min.js -> /output/msg/hr.min.js.gz
+2024/06/12 18:30:31 sri /tmp/work/msg/hr.js -> /output/msg/hr.js.sri
+2024/06/12 18:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hr.js.br /tmp/work/msg/hr.js
+2024/06/12 18:30:31 br /tmp/work/msg/hi.js -> /output/msg/hi.js.br
+2024/06/12 18:30:31 gz /tmp/work/msg/hi.js -> /output/msg/hi.js.gz
+2024/06/12 18:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ia.mjs.br /tmp/work/msg/ia.mjs
+2024/06/12 18:30:31 br /tmp/work/msg/ia.mjs -> /output/msg/ia.mjs.br
+2024/06/12 18:30:31 gz /tmp/work/msg/ia.mjs -> /output/msg/ia.mjs.gz
+2024/06/12 18:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/id.d.ts.br /tmp/work/msg/id.d.ts
+2024/06/12 18:30:31 br /tmp/work/msg/id.d.ts -> /output/msg/id.d.ts.br
+2024/06/12 18:30:31 gz /tmp/work/msg/id.d.ts -> /output/msg/id.d.ts.gz
+2024/06/12 18:30:31 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/id.min.js /tmp/work/msg/id.js]
+2024/06/12 18:30:31 br /tmp/work/msg/hr.js -> /output/msg/hr.js.br
+2024/06/12 18:30:31 gz /tmp/work/msg/hr.js -> /output/msg/hr.js.gz
+2024/06/12 18:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/id.mjs.br /tmp/work/msg/id.mjs
+2024/06/12 18:30:31 br /tmp/work/msg/id.mjs -> /output/msg/id.mjs.br
+2024/06/12 18:30:31 gz /tmp/work/msg/id.mjs -> /output/msg/id.mjs.gz
+2024/06/12 18:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ig.d.ts.br /tmp/work/msg/ig.d.ts
+2024/06/12 18:30:31 br /tmp/work/msg/ig.d.ts -> /output/msg/ig.d.ts.br
+2024/06/12 18:30:31 gz /tmp/work/msg/ig.d.ts -> /output/msg/ig.d.ts.gz
+2024/06/12 18:30:31 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/ig.min.js /tmp/work/msg/ig.js]
+2024/06/12 18:30:31 sri /tmp/work/msg/hrx.min.js -> /output/msg/hrx.min.js.sri
+2024/06/12 18:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hrx.min.js.br /tmp/work/msg/hrx.min.js
+2024/06/12 18:30:31 br /tmp/work/msg/hrx.min.js -> /output/msg/hrx.min.js.br
+2024/06/12 18:30:31 gz /tmp/work/msg/hrx.min.js -> /output/msg/hrx.min.js.gz
+2024/06/12 18:30:31 sri /tmp/work/msg/hrx.js -> /output/msg/hrx.js.sri
+2024/06/12 18:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hrx.js.br /tmp/work/msg/hrx.js
+2024/06/12 18:30:31 sri /tmp/work/msg/hsb.min.js -> /output/msg/hsb.min.js.sri
+2024/06/12 18:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hsb.min.js.br /tmp/work/msg/hsb.min.js
+2024/06/12 18:30:31 br /tmp/work/msg/hsb.min.js -> /output/msg/hsb.min.js.br
+2024/06/12 18:30:31 gz /tmp/work/msg/hsb.min.js -> /output/msg/hsb.min.js.gz
+2024/06/12 18:30:31 sri /tmp/work/msg/hsb.js -> /output/msg/hsb.js.sri
+2024/06/12 18:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hsb.js.br /tmp/work/msg/hsb.js
+2024/06/12 18:30:31 sri /tmp/work/msg/hu.min.js -> /output/msg/hu.min.js.sri
+2024/06/12 18:30:31 br /tmp/work/msg/hrx.js -> /output/msg/hrx.js.br
+2024/06/12 18:30:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hu.min.js.br /tmp/work/msg/hu.min.js
+2024/06/12 18:30:32 gz /tmp/work/msg/hrx.js -> /output/msg/hrx.js.gz
+2024/06/12 18:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ig.mjs.br /tmp/work/msg/ig.mjs
+2024/06/12 18:30:32 br /tmp/work/msg/ig.mjs -> /output/msg/ig.mjs.br
+2024/06/12 18:30:32 gz /tmp/work/msg/ig.mjs -> /output/msg/ig.mjs.gz
+2024/06/12 18:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/inh.d.ts.br /tmp/work/msg/inh.d.ts
+2024/06/12 18:30:32 br /tmp/work/msg/hu.min.js -> /output/msg/hu.min.js.br
+2024/06/12 18:30:32 br /tmp/work/msg/inh.d.ts -> /output/msg/inh.d.ts.br
+2024/06/12 18:30:32 gz /tmp/work/msg/inh.d.ts -> /output/msg/inh.d.ts.gz
+2024/06/12 18:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/inh.min.js /tmp/work/msg/inh.js]
+2024/06/12 18:30:32 gz /tmp/work/msg/hu.min.js -> /output/msg/hu.min.js.gz
+2024/06/12 18:30:32 sri /tmp/work/msg/hu.js -> /output/msg/hu.js.sri
+2024/06/12 18:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hu.js.br /tmp/work/msg/hu.js
+2024/06/12 18:30:32 br /tmp/work/msg/hsb.js -> /output/msg/hsb.js.br
+2024/06/12 18:30:32 gz /tmp/work/msg/hsb.js -> /output/msg/hsb.js.gz
+2024/06/12 18:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/inh.mjs.br /tmp/work/msg/inh.mjs
+2024/06/12 18:30:32 br /tmp/work/msg/hu.js -> /output/msg/hu.js.br
+2024/06/12 18:30:32 gz /tmp/work/msg/hu.js -> /output/msg/hu.js.gz
+2024/06/12 18:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/is.d.ts.br /tmp/work/msg/is.d.ts
+2024/06/12 18:30:32 br /tmp/work/msg/is.d.ts -> /output/msg/is.d.ts.br
+2024/06/12 18:30:32 gz /tmp/work/msg/is.d.ts -> /output/msg/is.d.ts.gz
+2024/06/12 18:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/is.min.js /tmp/work/msg/is.js]
+2024/06/12 18:30:32 br /tmp/work/msg/inh.mjs -> /output/msg/inh.mjs.br
+2024/06/12 18:30:32 gz /tmp/work/msg/inh.mjs -> /output/msg/inh.mjs.gz
+2024/06/12 18:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/is.mjs.br /tmp/work/msg/is.mjs
+2024/06/12 18:30:32 br /tmp/work/msg/is.mjs -> /output/msg/is.mjs.br
+2024/06/12 18:30:32 gz /tmp/work/msg/is.mjs -> /output/msg/is.mjs.gz
+2024/06/12 18:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/it.d.ts.br /tmp/work/msg/it.d.ts
+2024/06/12 18:30:32 br /tmp/work/msg/it.d.ts -> /output/msg/it.d.ts.br
+2024/06/12 18:30:32 gz /tmp/work/msg/it.d.ts -> /output/msg/it.d.ts.gz
+2024/06/12 18:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/it.min.js /tmp/work/msg/it.js]
+2024/06/12 18:30:32 sri /tmp/work/msg/hy.min.js -> /output/msg/hy.min.js.sri
+2024/06/12 18:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hy.min.js.br /tmp/work/msg/hy.min.js
+2024/06/12 18:30:32 br /tmp/work/msg/hy.min.js -> /output/msg/hy.min.js.br
+2024/06/12 18:30:32 gz /tmp/work/msg/hy.min.js -> /output/msg/hy.min.js.gz
+2024/06/12 18:30:32 sri /tmp/work/msg/hy.js -> /output/msg/hy.js.sri
+2024/06/12 18:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/hy.js.br /tmp/work/msg/hy.js
+2024/06/12 18:30:32 sri /tmp/work/msg/id.min.js -> /output/msg/id.min.js.sri
+2024/06/12 18:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/id.min.js.br /tmp/work/msg/id.min.js
+2024/06/12 18:30:32 br /tmp/work/msg/hy.js -> /output/msg/hy.js.br
+2024/06/12 18:30:32 gz /tmp/work/msg/hy.js -> /output/msg/hy.js.gz
+2024/06/12 18:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/it.mjs.br /tmp/work/msg/it.mjs
+2024/06/12 18:30:32 br /tmp/work/msg/id.min.js -> /output/msg/id.min.js.br
+2024/06/12 18:30:32 gz /tmp/work/msg/id.min.js -> /output/msg/id.min.js.gz
+2024/06/12 18:30:32 sri /tmp/work/msg/id.js -> /output/msg/id.js.sri
+2024/06/12 18:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/id.js.br /tmp/work/msg/id.js
+2024/06/12 18:30:32 sri /tmp/work/msg/ia.min.js -> /output/msg/ia.min.js.sri
+2024/06/12 18:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ia.min.js.br /tmp/work/msg/ia.min.js
+2024/06/12 18:30:32 br /tmp/work/msg/it.mjs -> /output/msg/it.mjs.br
+2024/06/12 18:30:32 gz /tmp/work/msg/it.mjs -> /output/msg/it.mjs.gz
+2024/06/12 18:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ja.d.ts.br /tmp/work/msg/ja.d.ts
+2024/06/12 18:30:32 br /tmp/work/msg/ja.d.ts -> /output/msg/ja.d.ts.br
+2024/06/12 18:30:32 gz /tmp/work/msg/ja.d.ts -> /output/msg/ja.d.ts.gz
+2024/06/12 18:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/ja.min.js /tmp/work/msg/ja.js]
+2024/06/12 18:30:32 br /tmp/work/msg/ia.min.js -> /output/msg/ia.min.js.br
+2024/06/12 18:30:32 gz /tmp/work/msg/ia.min.js -> /output/msg/ia.min.js.gz
+2024/06/12 18:30:32 sri /tmp/work/msg/ia.js -> /output/msg/ia.js.sri
+2024/06/12 18:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ia.js.br /tmp/work/msg/ia.js
+2024/06/12 18:30:32 br /tmp/work/msg/id.js -> /output/msg/id.js.br
+2024/06/12 18:30:32 gz /tmp/work/msg/id.js -> /output/msg/id.js.gz
+2024/06/12 18:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ja.mjs.br /tmp/work/msg/ja.mjs
+2024/06/12 18:30:32 sri /tmp/work/msg/ig.min.js -> /output/msg/ig.min.js.sri
+2024/06/12 18:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ig.min.js.br /tmp/work/msg/ig.min.js
+2024/06/12 18:30:32 br /tmp/work/msg/ja.mjs -> /output/msg/ja.mjs.br
+2024/06/12 18:30:32 gz /tmp/work/msg/ja.mjs -> /output/msg/ja.mjs.gz
+2024/06/12 18:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ka.d.ts.br /tmp/work/msg/ka.d.ts
+2024/06/12 18:30:32 br /tmp/work/msg/ka.d.ts -> /output/msg/ka.d.ts.br
+2024/06/12 18:30:32 gz /tmp/work/msg/ka.d.ts -> /output/msg/ka.d.ts.gz
+2024/06/12 18:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/ka.min.js /tmp/work/msg/ka.js]
+2024/06/12 18:30:32 br /tmp/work/msg/ia.js -> /output/msg/ia.js.br
+2024/06/12 18:30:32 gz /tmp/work/msg/ia.js -> /output/msg/ia.js.gz
+2024/06/12 18:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ka.mjs.br /tmp/work/msg/ka.mjs
+2024/06/12 18:30:32 br /tmp/work/msg/ig.min.js -> /output/msg/ig.min.js.br
+2024/06/12 18:30:32 gz /tmp/work/msg/ig.min.js -> /output/msg/ig.min.js.gz
+2024/06/12 18:30:32 sri /tmp/work/msg/ig.js -> /output/msg/ig.js.sri
+2024/06/12 18:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/ig.js.br /tmp/work/msg/ig.js
+2024/06/12 18:30:32 br /tmp/work/msg/ka.mjs -> /output/msg/ka.mjs.br
+2024/06/12 18:30:32 gz /tmp/work/msg/ka.mjs -> /output/msg/ka.mjs.gz
+2024/06/12 18:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/kab.d.ts.br /tmp/work/msg/kab.d.ts
+2024/06/12 18:30:32 br /tmp/work/msg/kab.d.ts -> /output/msg/kab.d.ts.br
+2024/06/12 18:30:32 gz /tmp/work/msg/kab.d.ts -> /output/msg/kab.d.ts.gz
+2024/06/12 18:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/kab.min.js /tmp/work/msg/kab.js]
+2024/06/12 18:30:32 br /tmp/work/msg/ig.js -> /output/msg/ig.js.br
+2024/06/12 18:30:32 gz /tmp/work/msg/ig.js -> /output/msg/ig.js.gz
+2024/06/12 18:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/kab.mjs.br /tmp/work/msg/kab.mjs
+2024/06/12 18:30:32 br /tmp/work/msg/kab.mjs -> /output/msg/kab.mjs.br
+2024/06/12 18:30:32 gz /tmp/work/msg/kab.mjs -> /output/msg/kab.mjs.gz
+2024/06/12 18:30:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/kbd-cyrl.d.ts.br /tmp/work/msg/kbd-cyrl.d.ts
+2024/06/12 18:30:32 br /tmp/work/msg/kbd-cyrl.d.ts -> /output/msg/kbd-cyrl.d.ts.br
+2024/06/12 18:30:32 gz /tmp/work/msg/kbd-cyrl.d.ts -> /output/msg/kbd-cyrl.d.ts.gz
+2024/06/12 18:30:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/msg/kbd-cyrl.min.js /tmp/work/msg/kbd-cyrl.js]
+2024/06/12 18:30:33 sri /tmp/work/msg/inh.min.js -> /output/msg/inh.min.js.sri
+2024/06/12 18:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/inh.min.js.br /tmp/work/msg/inh.min.js
+2024/06/12 18:30:33 sri /tmp/work/msg/is.min.js -> /output/msg/is.min.js.sri
+2024/06/12 18:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/is.min.js.br /tmp/work/msg/is.min.js
+2024/06/12 18:30:33 sri /tmp/work/msg/it.min.js -> /output/msg/it.min.js.sri
+2024/06/12 18:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/it.min.js.br /tmp/work/msg/it.min.js
+2024/06/12 18:30:33 br /tmp/work/msg/inh.min.js -> /output/msg/inh.min.js.br
+2024/06/12 18:30:33 gz /tmp/work/msg/inh.min.js -> /output/msg/inh.min.js.gz
+2024/06/12 18:30:33 sri /tmp/work/msg/inh.js -> /output/msg/inh.js.sri
+2024/06/12 18:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/inh.js.br /tmp/work/msg/inh.js
+2024/06/12 18:30:33 br /tmp/work/msg/is.min.js -> /output/msg/is.min.js.br
+2024/06/12 18:30:33 gz /tmp/work/msg/is.min.js -> /output/msg/is.min.js.gz
+2024/06/12 18:30:33 sri /tmp/work/msg/is.js -> /output/msg/is.js.sri
+2024/06/12 18:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/is.js.br /tmp/work/msg/is.js
+2024/06/12 18:30:33 br /tmp/work/msg/it.min.js -> /output/msg/it.min.js.br
+2024/06/12 18:30:33 gz /tmp/work/msg/it.min.js -> /output/msg/it.min.js.gz
+2024/06/12 18:30:33 sri /tmp/work/msg/it.js -> /output/msg/it.js.sri
+2024/06/12 18:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/it.js.br /tmp/work/msg/it.js
+2024/06/12 18:30:33 br /tmp/work/msg/inh.js -> /output/msg/inh.js.br
+2024/06/12 18:30:33 gz /tmp/work/msg/inh.js -> /output/msg/inh.js.gz
+2024/06/12 18:30:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/msg/kbd-cyrl.mjs.br /tmp/work/msg/kbd-cyrl.mjs
+panic: exit status 1
+
+goroutine 13 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/compress.runAlgorithm(0x870280, 0xc0000b8020, 0x7f32f7, 0x6, 0xc0003a9cd0, 0x3, 0x3, 0x2f737f36e06215b8, 0x19, 0x1)
+	/go/src/github.com/compress/algorithm.go:28 +0x348
+github.com/cdnjs/tools/compress.Brotli11CLI(...)
+	/go/src/github.com/compress/algorithm.go:40
+main.optimizeJob.emitFromWorkspace(0x870280, 0xc0000b8020, 0x0, 0xc000016e80, 0x10, 0xc0002807e4, 0x10, 0xc000278060, 0x1a)
+	/go/src/github.com/cmd/process-version/main.go:105 +0x506
+main.optimizeJob.emit(0x870280, 0xc0000b8020, 0x0, 0xc000016e80, 0x10, 0xc0002807e4, 0x10, 0xc000016e80, 0x10)
+	/go/src/github.com/cmd/process-version/main.go:126 +0xc6
+main.optimizeWorker(0xc0002ac950, 0xc0002753e0)
+	/go/src/github.com/cmd/process-version/main.go:245 +0x14a
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
