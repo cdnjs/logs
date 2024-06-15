@@ -1,0 +1,21 @@
+2024/06/15 04:02:26 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/06/15 04:02:26 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/browser/standalone.min.js /tmp/work/dist/browser/standalone.js]
+2024/06/15 04:02:46 sri /tmp/work/dist/browser/standalone.min.js -> /output/standalone.min.js.sri
+2024/06/15 04:02:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/standalone.min.js.br /tmp/work/dist/browser/standalone.min.js
+2024/06/15 04:02:50 br /tmp/work/dist/browser/standalone.min.js -> /output/standalone.min.js.br
+2024/06/15 04:02:50 gz /tmp/work/dist/browser/standalone.min.js -> /output/standalone.min.js.gz
+panic: open /output/standalone.js.sri: no space left on device
+
+goroutine 10 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/sri.CalculateFileSRI(0xc000152090, 0x24, 0xc000102100, 0x19)
+	/go/src/github.com/sri/sri.go:20 +0x115
+main.optimizeJob.emitFromWorkspace(0x870280, 0xc0000b8020, 0x0, 0xc000440020, 0x1a, 0xc000016040, 0xd, 0xc000152090, 0x24)
+	/go/src/github.com/cmd/process-version/main.go:95 +0x96b
+main.optimizeJob.emit(0x870280, 0xc0000b8020, 0x0, 0xc000440020, 0x1a, 0xc000016040, 0xd, 0xc000440020, 0x1a)
+	/go/src/github.com/cmd/process-version/main.go:126 +0xc6
+main.optimizeWorker(0xc000016050, 0xc00015e000)
+	/go/src/github.com/cmd/process-version/main.go:245 +0x14a
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
