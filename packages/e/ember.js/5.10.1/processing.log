@@ -1,0 +1,119 @@
+2024/07/13 03:30:34 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/07/13 03:30:34 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/ember-testing.min.js /tmp/work/dist/ember-testing.js]
+2024/07/13 03:30:34 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/ember.debug.min.js /tmp/work/dist/ember.debug.js]
+2024/07/13 03:30:34 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/ember-template-compiler.min.js /tmp/work/dist/ember-template-compiler.js]
+2024/07/13 03:30:34 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/ember.prod.min.js /tmp/work/dist/ember.prod.js]
+2024/07/13 03:30:35 failed with exit status 1: Parse error at /tmp/work/dist/ember-testing.js:17771,19
+            static {
+                   ^
+ERROR: Unexpected token: punc «{», expected: punc «[»
+    at JS_Parse_Error.get (eval at <anonymous> (/node_modules/uglify-js/tools/node.js:18:1), <anonymous>:63:23)
+    at fatal (/node_modules/uglify-js/bin/uglifyjs:480:27)
+    at run (/node_modules/uglify-js/bin/uglifyjs:415:9)
+    at Object.<anonymous> (/node_modules/uglify-js/bin/uglifyjs:294:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+
+2024/07/13 03:30:35 compress: run /node_modules/uglify-es/bin/uglifyjs (3.3.10) [--mangle --compress if_return=true -o /tmp/work/dist/ember-testing.min.js /tmp/work/dist/ember-testing.js]
+2024/07/13 03:30:35 failed with exit status 1: Parse error at /tmp/work/dist/ember.prod.js:26189,19
+            static {
+                   ^
+ERROR: Unexpected token: punc «{», expected: punc «[»
+    at JS_Parse_Error.get (eval at <anonymous> (/node_modules/uglify-js/tools/node.js:18:1), <anonymous>:63:23)
+    at fatal (/node_modules/uglify-js/bin/uglifyjs:480:27)
+    at run (/node_modules/uglify-js/bin/uglifyjs:415:9)
+    at Object.<anonymous> (/node_modules/uglify-js/bin/uglifyjs:294:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+
+2024/07/13 03:30:35 compress: run /node_modules/uglify-es/bin/uglifyjs (3.3.10) [--mangle --compress if_return=true -o /tmp/work/dist/ember.prod.min.js /tmp/work/dist/ember.prod.js]
+2024/07/13 03:30:35 failed with exit status 1: Parse error at /tmp/work/dist/ember.debug.js:28050,19
+            static {
+                   ^
+ERROR: Unexpected token: punc «{», expected: punc «[»
+    at JS_Parse_Error.get (eval at <anonymous> (/node_modules/uglify-js/tools/node.js:18:1), <anonymous>:63:23)
+    at fatal (/node_modules/uglify-js/bin/uglifyjs:480:27)
+    at run (/node_modules/uglify-js/bin/uglifyjs:415:9)
+    at Object.<anonymous> (/node_modules/uglify-js/bin/uglifyjs:294:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+
+2024/07/13 03:30:35 compress: run /node_modules/uglify-es/bin/uglifyjs (3.3.10) [--mangle --compress if_return=true -o /tmp/work/dist/ember.debug.min.js /tmp/work/dist/ember.debug.js]
+2024/07/13 03:30:35 failed with exit status 1: Parse error at /tmp/work/dist/ember-testing.js:439,26
+              if (options?.id) {
+                          ^
+ERROR: Unexpected token: punc (.)
+    at JS_Parse_Error.get (eval at <anonymous> (/node_modules/uglify-es/tools/node.js:21:1), <anonymous>:75:23)
+    at fatal (/node_modules/uglify-es/bin/uglifyjs:300:53)
+    at run (/node_modules/uglify-es/bin/uglifyjs:239:9)
+    at Object.<anonymous> (/node_modules/uglify-es/bin/uglifyjs:169:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+
+2024/07/13 03:30:35 sri /tmp/work/dist/ember-testing.js -> /output/ember-testing.js.sri
+2024/07/13 03:30:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ember-testing.js.br /tmp/work/dist/ember-testing.js
+2024/07/13 03:30:35 failed with exit status 1: Parse error at /tmp/work/dist/ember.prod.js:380,22
+            listeners = undefined;
+                      ^
+ERROR: Unexpected token: operator (=)
+    at JS_Parse_Error.get (eval at <anonymous> (/node_modules/uglify-es/tools/node.js:21:1), <anonymous>:75:23)
+    at fatal (/node_modules/uglify-es/bin/uglifyjs:300:53)
+    at run (/node_modules/uglify-es/bin/uglifyjs:239:9)
+    at Object.<anonymous> (/node_modules/uglify-es/bin/uglifyjs:169:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+
+2024/07/13 03:30:35 sri /tmp/work/dist/ember.prod.js -> /output/ember.prod.js.sri
+2024/07/13 03:30:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ember.prod.js.br /tmp/work/dist/ember.prod.js
+2024/07/13 03:30:35 failed with exit status 1: Parse error at /tmp/work/dist/ember.debug.js:425,22
+            listeners = undefined;
+                      ^
+ERROR: Unexpected token: operator (=)
+    at JS_Parse_Error.get (eval at <anonymous> (/node_modules/uglify-es/tools/node.js:21:1), <anonymous>:75:23)
+    at fatal (/node_modules/uglify-es/bin/uglifyjs:300:53)
+    at run (/node_modules/uglify-es/bin/uglifyjs:239:9)
+    at Object.<anonymous> (/node_modules/uglify-es/bin/uglifyjs:169:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+
+2024/07/13 03:30:35 sri /tmp/work/dist/ember.debug.js -> /output/ember.debug.js.sri
+2024/07/13 03:30:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ember.debug.js.br /tmp/work/dist/ember.debug.js
+2024/07/13 03:30:37 sri /tmp/work/dist/ember-template-compiler.min.js -> /output/ember-template-compiler.min.js.sri
+2024/07/13 03:30:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ember-template-compiler.min.js.br /tmp/work/dist/ember-template-compiler.min.js
+2024/07/13 03:30:38 br /tmp/work/dist/ember-template-compiler.min.js -> /output/ember-template-compiler.min.js.br
+2024/07/13 03:30:38 gz /tmp/work/dist/ember-template-compiler.min.js -> /output/ember-template-compiler.min.js.gz
+2024/07/13 03:30:38 sri /tmp/work/dist/ember-template-compiler.js -> /output/ember-template-compiler.js.sri
+2024/07/13 03:30:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ember-template-compiler.js.br /tmp/work/dist/ember-template-compiler.js
+2024/07/13 03:30:39 br /tmp/work/dist/ember-testing.js -> /output/ember-testing.js.br
+2024/07/13 03:30:39 gz /tmp/work/dist/ember-testing.js -> /output/ember-testing.js.gz
+2024/07/13 03:30:39 br /tmp/work/dist/ember-template-compiler.js -> /output/ember-template-compiler.js.br
+2024/07/13 03:30:39 gz /tmp/work/dist/ember-template-compiler.js -> /output/ember-template-compiler.js.gz
+2024/07/13 03:30:39 br /tmp/work/dist/ember.prod.js -> /output/ember.prod.js.br
+2024/07/13 03:30:39 gz /tmp/work/dist/ember.prod.js -> /output/ember.prod.js.gz
+2024/07/13 03:30:39 br /tmp/work/dist/ember.debug.js -> /output/ember.debug.js.br
+2024/07/13 03:30:40 gz /tmp/work/dist/ember.debug.js -> /output/ember.debug.js.gz
+2024/07/13 03:30:40 processed ember.js
