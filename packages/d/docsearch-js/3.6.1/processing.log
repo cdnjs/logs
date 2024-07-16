@@ -1,0 +1,23 @@
+2024/07/16 18:32:29 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/07/16 18:32:29 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/esm/index.min.js /tmp/work/dist/esm/index.js]
+2024/07/16 18:32:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/index.d.ts.br /tmp/work/dist/esm/index.d.ts
+2024/07/16 18:32:29 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/umd/index.min.js /tmp/work/dist/umd/index.js]
+2024/07/16 18:32:29 br /tmp/work/dist/esm/index.d.ts -> /output/esm/index.d.ts.br
+2024/07/16 18:32:29 gz /tmp/work/dist/esm/index.d.ts -> /output/esm/index.d.ts.gz
+2024/07/16 18:32:31 sri /tmp/work/dist/esm/index.min.js -> /output/esm/index.min.js.sri
+2024/07/16 18:32:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/index.min.js.br /tmp/work/dist/esm/index.min.js
+2024/07/16 18:32:31 sri /tmp/work/dist/umd/index.min.js -> /output/umd/index.min.js.sri
+2024/07/16 18:32:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/index.min.js.br /tmp/work/dist/umd/index.min.js
+2024/07/16 18:32:31 br /tmp/work/dist/esm/index.min.js -> /output/esm/index.min.js.br
+2024/07/16 18:32:31 gz /tmp/work/dist/esm/index.min.js -> /output/esm/index.min.js.gz
+2024/07/16 18:32:31 sri /tmp/work/dist/esm/index.js -> /output/esm/index.js.sri
+2024/07/16 18:32:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/index.js.br /tmp/work/dist/esm/index.js
+2024/07/16 18:32:31 br /tmp/work/dist/umd/index.min.js -> /output/umd/index.min.js.br
+2024/07/16 18:32:31 gz /tmp/work/dist/umd/index.min.js -> /output/umd/index.min.js.gz
+2024/07/16 18:32:31 sri /tmp/work/dist/umd/index.js -> /output/umd/index.js.sri
+2024/07/16 18:32:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/index.js.br /tmp/work/dist/umd/index.js
+2024/07/16 18:32:31 br /tmp/work/dist/esm/index.js -> /output/esm/index.js.br
+2024/07/16 18:32:31 gz /tmp/work/dist/esm/index.js -> /output/esm/index.js.gz
+2024/07/16 18:32:31 br /tmp/work/dist/umd/index.js -> /output/umd/index.js.br
+2024/07/16 18:32:31 gz /tmp/work/dist/umd/index.js -> /output/umd/index.js.gz
+2024/07/16 18:32:31 processed docsearch-js
