@@ -1,0 +1,596 @@
+2024/07/16 08:32:11 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/mdui.esm.min.js /tmp/work/mdui.esm.js]
+2024/07/16 08:32:12 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/mdui.min.css /tmp/work/mdui.css]
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/ar-eg.min.js /tmp/work/locales/ar-eg.js]
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/mdui.global.min.js /tmp/work/mdui.global.js]
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/bn-bd.min.js /tmp/work/locales/bn-bd.js]
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/be-by.min.js /tmp/work/locales/be-by.js]
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/bg-bg.min.js /tmp/work/locales/bg-bg.js]
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/az-az.min.js /tmp/work/locales/az-az.js]
+2024/07/16 08:32:12 sri /tmp/work/locales/az-az.min.js -> /output/locales/az-az.min.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/az-az.min.js.br /tmp/work/locales/az-az.min.js
+2024/07/16 08:32:12 sri /tmp/work/locales/be-by.min.js -> /output/locales/be-by.min.js.sri
+2024/07/16 08:32:12 br /tmp/work/locales/az-az.min.js -> /output/locales/az-az.min.js.br
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/be-by.min.js.br /tmp/work/locales/be-by.min.js
+2024/07/16 08:32:12 gz /tmp/work/locales/az-az.min.js -> /output/locales/az-az.min.js.gz
+2024/07/16 08:32:12 sri /tmp/work/locales/az-az.js -> /output/locales/az-az.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/az-az.js.br /tmp/work/locales/az-az.js
+2024/07/16 08:32:12 sri /tmp/work/locales/bg-bg.min.js -> /output/locales/bg-bg.min.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/bg-bg.min.js.br /tmp/work/locales/bg-bg.min.js
+2024/07/16 08:32:12 br /tmp/work/locales/be-by.min.js -> /output/locales/be-by.min.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/be-by.min.js -> /output/locales/be-by.min.js.gz
+2024/07/16 08:32:12 sri /tmp/work/locales/be-by.js -> /output/locales/be-by.js.sri
+2024/07/16 08:32:12 br /tmp/work/locales/az-az.js -> /output/locales/az-az.js.br
+2024/07/16 08:32:12 sri /tmp/work/locales/ar-eg.min.js -> /output/locales/ar-eg.min.js.sri
+2024/07/16 08:32:12 sri /tmp/work/locales/bn-bd.min.js -> /output/locales/bn-bd.min.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ar-eg.min.js.br /tmp/work/locales/ar-eg.min.js
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/bn-bd.min.js.br /tmp/work/locales/bn-bd.min.js
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/be-by.js.br /tmp/work/locales/be-by.js
+2024/07/16 08:32:12 gz /tmp/work/locales/az-az.js -> /output/locales/az-az.js.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/ca-es.min.js /tmp/work/locales/ca-es.js]
+2024/07/16 08:32:12 br /tmp/work/locales/bg-bg.min.js -> /output/locales/bg-bg.min.js.br
+2024/07/16 08:32:12 br /tmp/work/locales/ar-eg.min.js -> /output/locales/ar-eg.min.js.br
+2024/07/16 08:32:12 br /tmp/work/locales/bn-bd.min.js -> /output/locales/bn-bd.min.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/bg-bg.min.js -> /output/locales/bg-bg.min.js.gz
+2024/07/16 08:32:12 sri /tmp/work/locales/bg-bg.js -> /output/locales/bg-bg.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/bg-bg.js.br /tmp/work/locales/bg-bg.js
+2024/07/16 08:32:12 gz /tmp/work/locales/ar-eg.min.js -> /output/locales/ar-eg.min.js.gz
+2024/07/16 08:32:12 sri /tmp/work/locales/ar-eg.js -> /output/locales/ar-eg.js.sri
+2024/07/16 08:32:12 gz /tmp/work/locales/bn-bd.min.js -> /output/locales/bn-bd.min.js.gz
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ar-eg.js.br /tmp/work/locales/ar-eg.js
+2024/07/16 08:32:12 sri /tmp/work/locales/bn-bd.js -> /output/locales/bn-bd.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/bn-bd.js.br /tmp/work/locales/bn-bd.js
+2024/07/16 08:32:12 br /tmp/work/locales/be-by.js -> /output/locales/be-by.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/be-by.js -> /output/locales/be-by.js.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/cs-cz.min.js /tmp/work/locales/cs-cz.js]
+2024/07/16 08:32:12 br /tmp/work/locales/bg-bg.js -> /output/locales/bg-bg.js.br
+2024/07/16 08:32:12 br /tmp/work/locales/ar-eg.js -> /output/locales/ar-eg.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/ar-eg.js -> /output/locales/ar-eg.js.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/da-dk.min.js /tmp/work/locales/da-dk.js]
+2024/07/16 08:32:12 br /tmp/work/locales/bn-bd.js -> /output/locales/bn-bd.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/bg-bg.js -> /output/locales/bg-bg.js.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/de-de.min.js /tmp/work/locales/de-de.js]
+2024/07/16 08:32:12 gz /tmp/work/locales/bn-bd.js -> /output/locales/bn-bd.js.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/el-gr.min.js /tmp/work/locales/el-gr.js]
+2024/07/16 08:32:12 sri /tmp/work/mdui.min.css -> /output/mdui.min.css.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mdui.min.css.br /tmp/work/mdui.min.css
+2024/07/16 08:32:12 br /tmp/work/mdui.min.css -> /output/mdui.min.css.br
+2024/07/16 08:32:12 gz /tmp/work/mdui.min.css -> /output/mdui.min.css.gz
+2024/07/16 08:32:12 sri /tmp/work/mdui.css -> /output/mdui.css.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mdui.css.br /tmp/work/mdui.css
+2024/07/16 08:32:12 sri /tmp/work/locales/cs-cz.min.js -> /output/locales/cs-cz.min.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/cs-cz.min.js.br /tmp/work/locales/cs-cz.min.js
+2024/07/16 08:32:12 br /tmp/work/locales/cs-cz.min.js -> /output/locales/cs-cz.min.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/cs-cz.min.js -> /output/locales/cs-cz.min.js.gz
+2024/07/16 08:32:12 sri /tmp/work/locales/cs-cz.js -> /output/locales/cs-cz.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/cs-cz.js.br /tmp/work/locales/cs-cz.js
+2024/07/16 08:32:12 sri /tmp/work/locales/ca-es.min.js -> /output/locales/ca-es.min.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ca-es.min.js.br /tmp/work/locales/ca-es.min.js
+2024/07/16 08:32:12 sri /tmp/work/locales/el-gr.min.js -> /output/locales/el-gr.min.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/el-gr.min.js.br /tmp/work/locales/el-gr.min.js
+2024/07/16 08:32:12 br /tmp/work/locales/ca-es.min.js -> /output/locales/ca-es.min.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/ca-es.min.js -> /output/locales/ca-es.min.js.gz
+2024/07/16 08:32:12 sri /tmp/work/locales/ca-es.js -> /output/locales/ca-es.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ca-es.js.br /tmp/work/locales/ca-es.js
+2024/07/16 08:32:12 br /tmp/work/locales/cs-cz.js -> /output/locales/cs-cz.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/cs-cz.js -> /output/locales/cs-cz.js.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/en-gb.min.js /tmp/work/locales/en-gb.js]
+2024/07/16 08:32:12 sri /tmp/work/locales/de-de.min.js -> /output/locales/de-de.min.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/de-de.min.js.br /tmp/work/locales/de-de.min.js
+2024/07/16 08:32:12 br /tmp/work/locales/el-gr.min.js -> /output/locales/el-gr.min.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/el-gr.min.js -> /output/locales/el-gr.min.js.gz
+2024/07/16 08:32:12 sri /tmp/work/locales/da-dk.min.js -> /output/locales/da-dk.min.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/da-dk.min.js.br /tmp/work/locales/da-dk.min.js
+2024/07/16 08:32:12 sri /tmp/work/locales/el-gr.js -> /output/locales/el-gr.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/el-gr.js.br /tmp/work/locales/el-gr.js
+2024/07/16 08:32:12 br /tmp/work/locales/ca-es.js -> /output/locales/ca-es.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/ca-es.js -> /output/locales/ca-es.js.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/es-es.min.js /tmp/work/locales/es-es.js]
+2024/07/16 08:32:12 br /tmp/work/locales/de-de.min.js -> /output/locales/de-de.min.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/de-de.min.js -> /output/locales/de-de.min.js.gz
+2024/07/16 08:32:12 br /tmp/work/locales/el-gr.js -> /output/locales/el-gr.js.br
+2024/07/16 08:32:12 br /tmp/work/locales/da-dk.min.js -> /output/locales/da-dk.min.js.br
+2024/07/16 08:32:12 sri /tmp/work/locales/de-de.js -> /output/locales/de-de.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/de-de.js.br /tmp/work/locales/de-de.js
+2024/07/16 08:32:12 gz /tmp/work/locales/da-dk.min.js -> /output/locales/da-dk.min.js.gz
+2024/07/16 08:32:12 sri /tmp/work/locales/da-dk.js -> /output/locales/da-dk.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/da-dk.js.br /tmp/work/locales/da-dk.js
+2024/07/16 08:32:12 gz /tmp/work/locales/el-gr.js -> /output/locales/el-gr.js.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/et-ee.min.js /tmp/work/locales/et-ee.js]
+2024/07/16 08:32:12 br /tmp/work/locales/de-de.js -> /output/locales/de-de.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/de-de.js -> /output/locales/de-de.js.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/fa-ir.min.js /tmp/work/locales/fa-ir.js]
+2024/07/16 08:32:12 br /tmp/work/locales/da-dk.js -> /output/locales/da-dk.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/da-dk.js -> /output/locales/da-dk.js.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/fi-fi.min.js /tmp/work/locales/fi-fi.js]
+2024/07/16 08:32:12 br /tmp/work/mdui.css -> /output/mdui.css.br
+2024/07/16 08:32:12 gz /tmp/work/mdui.css -> /output/mdui.css.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/fr-be.min.js /tmp/work/locales/fr-be.js]
+2024/07/16 08:32:12 sri /tmp/work/locales/es-es.min.js -> /output/locales/es-es.min.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/es-es.min.js.br /tmp/work/locales/es-es.min.js
+2024/07/16 08:32:12 br /tmp/work/locales/es-es.min.js -> /output/locales/es-es.min.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/es-es.min.js -> /output/locales/es-es.min.js.gz
+2024/07/16 08:32:12 sri /tmp/work/locales/es-es.js -> /output/locales/es-es.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/es-es.js.br /tmp/work/locales/es-es.js
+2024/07/16 08:32:12 br /tmp/work/locales/es-es.js -> /output/locales/es-es.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/es-es.js -> /output/locales/es-es.js.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/fr-ca.min.js /tmp/work/locales/fr-ca.js]
+2024/07/16 08:32:12 sri /tmp/work/locales/fa-ir.min.js -> /output/locales/fa-ir.min.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/fa-ir.min.js.br /tmp/work/locales/fa-ir.min.js
+2024/07/16 08:32:12 sri /tmp/work/locales/et-ee.min.js -> /output/locales/et-ee.min.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/et-ee.min.js.br /tmp/work/locales/et-ee.min.js
+2024/07/16 08:32:12 sri /tmp/work/locales/en-gb.min.js -> /output/locales/en-gb.min.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/en-gb.min.js.br /tmp/work/locales/en-gb.min.js
+2024/07/16 08:32:12 br /tmp/work/locales/fa-ir.min.js -> /output/locales/fa-ir.min.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/fa-ir.min.js -> /output/locales/fa-ir.min.js.gz
+2024/07/16 08:32:12 sri /tmp/work/locales/fa-ir.js -> /output/locales/fa-ir.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/fa-ir.js.br /tmp/work/locales/fa-ir.js
+2024/07/16 08:32:12 br /tmp/work/locales/en-gb.min.js -> /output/locales/en-gb.min.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/en-gb.min.js -> /output/locales/en-gb.min.js.gz
+2024/07/16 08:32:12 sri /tmp/work/locales/en-gb.js -> /output/locales/en-gb.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/en-gb.js.br /tmp/work/locales/en-gb.js
+2024/07/16 08:32:12 br /tmp/work/locales/et-ee.min.js -> /output/locales/et-ee.min.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/et-ee.min.js -> /output/locales/et-ee.min.js.gz
+2024/07/16 08:32:12 sri /tmp/work/locales/et-ee.js -> /output/locales/et-ee.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/et-ee.js.br /tmp/work/locales/et-ee.js
+2024/07/16 08:32:12 br /tmp/work/locales/fa-ir.js -> /output/locales/fa-ir.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/fa-ir.js -> /output/locales/fa-ir.js.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/fr-fr.min.js /tmp/work/locales/fr-fr.js]
+2024/07/16 08:32:12 br /tmp/work/locales/en-gb.js -> /output/locales/en-gb.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/en-gb.js -> /output/locales/en-gb.js.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/ga-ie.min.js /tmp/work/locales/ga-ie.js]
+2024/07/16 08:32:12 br /tmp/work/locales/et-ee.js -> /output/locales/et-ee.js.br
+2024/07/16 08:32:12 sri /tmp/work/locales/fr-be.min.js -> /output/locales/fr-be.min.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/fr-be.min.js.br /tmp/work/locales/fr-be.min.js
+2024/07/16 08:32:12 gz /tmp/work/locales/et-ee.js -> /output/locales/et-ee.js.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/gl-es.min.js /tmp/work/locales/gl-es.js]
+2024/07/16 08:32:12 sri /tmp/work/locales/fi-fi.min.js -> /output/locales/fi-fi.min.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/fi-fi.min.js.br /tmp/work/locales/fi-fi.min.js
+2024/07/16 08:32:12 br /tmp/work/locales/fi-fi.min.js -> /output/locales/fi-fi.min.js.br
+2024/07/16 08:32:12 br /tmp/work/locales/fr-be.min.js -> /output/locales/fr-be.min.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/fr-be.min.js -> /output/locales/fr-be.min.js.gz
+2024/07/16 08:32:12 sri /tmp/work/locales/fr-be.js -> /output/locales/fr-be.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/fr-be.js.br /tmp/work/locales/fr-be.js
+2024/07/16 08:32:12 gz /tmp/work/locales/fi-fi.min.js -> /output/locales/fi-fi.min.js.gz
+2024/07/16 08:32:12 sri /tmp/work/locales/fi-fi.js -> /output/locales/fi-fi.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/fi-fi.js.br /tmp/work/locales/fi-fi.js
+2024/07/16 08:32:12 br /tmp/work/locales/fr-be.js -> /output/locales/fr-be.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/fr-be.js -> /output/locales/fr-be.js.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/he-il.min.js /tmp/work/locales/he-il.js]
+2024/07/16 08:32:12 br /tmp/work/locales/fi-fi.js -> /output/locales/fi-fi.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/fi-fi.js -> /output/locales/fi-fi.js.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/hi-in.min.js /tmp/work/locales/hi-in.js]
+2024/07/16 08:32:12 sri /tmp/work/locales/fr-ca.min.js -> /output/locales/fr-ca.min.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/fr-ca.min.js.br /tmp/work/locales/fr-ca.min.js
+2024/07/16 08:32:12 br /tmp/work/locales/fr-ca.min.js -> /output/locales/fr-ca.min.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/fr-ca.min.js -> /output/locales/fr-ca.min.js.gz
+2024/07/16 08:32:12 sri /tmp/work/locales/fr-ca.js -> /output/locales/fr-ca.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/fr-ca.js.br /tmp/work/locales/fr-ca.js
+2024/07/16 08:32:12 sri /tmp/work/locales/fr-fr.min.js -> /output/locales/fr-fr.min.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/fr-fr.min.js.br /tmp/work/locales/fr-fr.min.js
+2024/07/16 08:32:12 br /tmp/work/locales/fr-ca.js -> /output/locales/fr-ca.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/fr-ca.js -> /output/locales/fr-ca.js.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/hr-hr.min.js /tmp/work/locales/hr-hr.js]
+2024/07/16 08:32:12 sri /tmp/work/locales/ga-ie.min.js -> /output/locales/ga-ie.min.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ga-ie.min.js.br /tmp/work/locales/ga-ie.min.js
+2024/07/16 08:32:12 br /tmp/work/locales/fr-fr.min.js -> /output/locales/fr-fr.min.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/fr-fr.min.js -> /output/locales/fr-fr.min.js.gz
+2024/07/16 08:32:12 sri /tmp/work/locales/fr-fr.js -> /output/locales/fr-fr.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/fr-fr.js.br /tmp/work/locales/fr-fr.js
+2024/07/16 08:32:12 br /tmp/work/locales/ga-ie.min.js -> /output/locales/ga-ie.min.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/ga-ie.min.js -> /output/locales/ga-ie.min.js.gz
+2024/07/16 08:32:12 sri /tmp/work/locales/ga-ie.js -> /output/locales/ga-ie.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ga-ie.js.br /tmp/work/locales/ga-ie.js
+2024/07/16 08:32:12 sri /tmp/work/locales/gl-es.min.js -> /output/locales/gl-es.min.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/gl-es.min.js.br /tmp/work/locales/gl-es.min.js
+2024/07/16 08:32:12 br /tmp/work/locales/fr-fr.js -> /output/locales/fr-fr.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/fr-fr.js -> /output/locales/fr-fr.js.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/hu-hu.min.js /tmp/work/locales/hu-hu.js]
+2024/07/16 08:32:12 br /tmp/work/locales/ga-ie.js -> /output/locales/ga-ie.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/ga-ie.js -> /output/locales/ga-ie.js.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/hy-am.min.js /tmp/work/locales/hy-am.js]
+2024/07/16 08:32:12 br /tmp/work/locales/gl-es.min.js -> /output/locales/gl-es.min.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/gl-es.min.js -> /output/locales/gl-es.min.js.gz
+2024/07/16 08:32:12 sri /tmp/work/locales/gl-es.js -> /output/locales/gl-es.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/gl-es.js.br /tmp/work/locales/gl-es.js
+2024/07/16 08:32:12 br /tmp/work/locales/gl-es.js -> /output/locales/gl-es.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/gl-es.js -> /output/locales/gl-es.js.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/id-id.min.js /tmp/work/locales/id-id.js]
+2024/07/16 08:32:12 sri /tmp/work/locales/hi-in.min.js -> /output/locales/hi-in.min.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/hi-in.min.js.br /tmp/work/locales/hi-in.min.js
+2024/07/16 08:32:12 br /tmp/work/locales/hi-in.min.js -> /output/locales/hi-in.min.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/hi-in.min.js -> /output/locales/hi-in.min.js.gz
+2024/07/16 08:32:12 sri /tmp/work/locales/hi-in.js -> /output/locales/hi-in.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/hi-in.js.br /tmp/work/locales/hi-in.js
+2024/07/16 08:32:12 br /tmp/work/locales/hi-in.js -> /output/locales/hi-in.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/hi-in.js -> /output/locales/hi-in.js.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/is-is.min.js /tmp/work/locales/is-is.js]
+2024/07/16 08:32:12 sri /tmp/work/locales/he-il.min.js -> /output/locales/he-il.min.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/he-il.min.js.br /tmp/work/locales/he-il.min.js
+2024/07/16 08:32:12 br /tmp/work/locales/he-il.min.js -> /output/locales/he-il.min.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/he-il.min.js -> /output/locales/he-il.min.js.gz
+2024/07/16 08:32:12 sri /tmp/work/locales/he-il.js -> /output/locales/he-il.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/he-il.js.br /tmp/work/locales/he-il.js
+2024/07/16 08:32:12 br /tmp/work/locales/he-il.js -> /output/locales/he-il.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/he-il.js -> /output/locales/he-il.js.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/it-it.min.js /tmp/work/locales/it-it.js]
+2024/07/16 08:32:12 sri /tmp/work/locales/hr-hr.min.js -> /output/locales/hr-hr.min.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/hr-hr.min.js.br /tmp/work/locales/hr-hr.min.js
+2024/07/16 08:32:12 br /tmp/work/locales/hr-hr.min.js -> /output/locales/hr-hr.min.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/hr-hr.min.js -> /output/locales/hr-hr.min.js.gz
+2024/07/16 08:32:12 sri /tmp/work/locales/hr-hr.js -> /output/locales/hr-hr.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/hr-hr.js.br /tmp/work/locales/hr-hr.js
+2024/07/16 08:32:12 sri /tmp/work/locales/id-id.min.js -> /output/locales/id-id.min.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/id-id.min.js.br /tmp/work/locales/id-id.min.js
+2024/07/16 08:32:12 br /tmp/work/locales/hr-hr.js -> /output/locales/hr-hr.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/hr-hr.js -> /output/locales/hr-hr.js.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/ja-jp.min.js /tmp/work/locales/ja-jp.js]
+2024/07/16 08:32:12 br /tmp/work/locales/id-id.min.js -> /output/locales/id-id.min.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/id-id.min.js -> /output/locales/id-id.min.js.gz
+2024/07/16 08:32:12 sri /tmp/work/locales/id-id.js -> /output/locales/id-id.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/id-id.js.br /tmp/work/locales/id-id.js
+2024/07/16 08:32:12 br /tmp/work/locales/id-id.js -> /output/locales/id-id.js.br
+2024/07/16 08:32:12 sri /tmp/work/locales/is-is.min.js -> /output/locales/is-is.min.js.sri
+2024/07/16 08:32:12 sri /tmp/work/locales/hu-hu.min.js -> /output/locales/hu-hu.min.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/is-is.min.js.br /tmp/work/locales/is-is.min.js
+2024/07/16 08:32:12 sri /tmp/work/locales/hy-am.min.js -> /output/locales/hy-am.min.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/hy-am.min.js.br /tmp/work/locales/hy-am.min.js
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/hu-hu.min.js.br /tmp/work/locales/hu-hu.min.js
+2024/07/16 08:32:12 gz /tmp/work/locales/id-id.js -> /output/locales/id-id.js.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/ka-ge.min.js /tmp/work/locales/ka-ge.js]
+2024/07/16 08:32:12 br /tmp/work/locales/is-is.min.js -> /output/locales/is-is.min.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/is-is.min.js -> /output/locales/is-is.min.js.gz
+2024/07/16 08:32:12 sri /tmp/work/locales/is-is.js -> /output/locales/is-is.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/is-is.js.br /tmp/work/locales/is-is.js
+2024/07/16 08:32:12 br /tmp/work/locales/hy-am.min.js -> /output/locales/hy-am.min.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/hy-am.min.js -> /output/locales/hy-am.min.js.gz
+2024/07/16 08:32:12 br /tmp/work/locales/hu-hu.min.js -> /output/locales/hu-hu.min.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/hu-hu.min.js -> /output/locales/hu-hu.min.js.gz
+2024/07/16 08:32:12 sri /tmp/work/locales/hy-am.js -> /output/locales/hy-am.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/hy-am.js.br /tmp/work/locales/hy-am.js
+2024/07/16 08:32:12 sri /tmp/work/locales/hu-hu.js -> /output/locales/hu-hu.js.sri
+2024/07/16 08:32:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/hu-hu.js.br /tmp/work/locales/hu-hu.js
+2024/07/16 08:32:12 br /tmp/work/locales/is-is.js -> /output/locales/is-is.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/is-is.js -> /output/locales/is-is.js.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/kk-kz.min.js /tmp/work/locales/kk-kz.js]
+2024/07/16 08:32:12 br /tmp/work/locales/hy-am.js -> /output/locales/hy-am.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/hy-am.js -> /output/locales/hy-am.js.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/km-kh.min.js /tmp/work/locales/km-kh.js]
+2024/07/16 08:32:12 br /tmp/work/locales/hu-hu.js -> /output/locales/hu-hu.js.br
+2024/07/16 08:32:12 gz /tmp/work/locales/hu-hu.js -> /output/locales/hu-hu.js.gz
+2024/07/16 08:32:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/kmr-iq.min.js /tmp/work/locales/kmr-iq.js]
+2024/07/16 08:32:13 sri /tmp/work/locales/it-it.min.js -> /output/locales/it-it.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/it-it.min.js.br /tmp/work/locales/it-it.min.js
+2024/07/16 08:32:13 br /tmp/work/locales/it-it.min.js -> /output/locales/it-it.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/it-it.min.js -> /output/locales/it-it.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/it-it.js -> /output/locales/it-it.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/it-it.js.br /tmp/work/locales/it-it.js
+2024/07/16 08:32:13 br /tmp/work/locales/it-it.js -> /output/locales/it-it.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/it-it.js -> /output/locales/it-it.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/kn-in.min.js /tmp/work/locales/kn-in.js]
+2024/07/16 08:32:13 sri /tmp/work/locales/ja-jp.min.js -> /output/locales/ja-jp.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ja-jp.min.js.br /tmp/work/locales/ja-jp.min.js
+2024/07/16 08:32:13 br /tmp/work/locales/ja-jp.min.js -> /output/locales/ja-jp.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/ja-jp.min.js -> /output/locales/ja-jp.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/ja-jp.js -> /output/locales/ja-jp.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ja-jp.js.br /tmp/work/locales/ja-jp.js
+2024/07/16 08:32:13 br /tmp/work/locales/ja-jp.js -> /output/locales/ja-jp.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/ja-jp.js -> /output/locales/ja-jp.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/ko-kr.min.js /tmp/work/locales/ko-kr.js]
+2024/07/16 08:32:13 sri /tmp/work/locales/ka-ge.min.js -> /output/locales/ka-ge.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ka-ge.min.js.br /tmp/work/locales/ka-ge.min.js
+2024/07/16 08:32:13 br /tmp/work/locales/ka-ge.min.js -> /output/locales/ka-ge.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/ka-ge.min.js -> /output/locales/ka-ge.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/ka-ge.js -> /output/locales/ka-ge.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ka-ge.js.br /tmp/work/locales/ka-ge.js
+2024/07/16 08:32:13 br /tmp/work/locales/ka-ge.js -> /output/locales/ka-ge.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/ka-ge.js -> /output/locales/ka-ge.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/lt-lt.min.js /tmp/work/locales/lt-lt.js]
+2024/07/16 08:32:13 sri /tmp/work/locales/kk-kz.min.js -> /output/locales/kk-kz.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/kk-kz.min.js.br /tmp/work/locales/kk-kz.min.js
+2024/07/16 08:32:13 br /tmp/work/locales/kk-kz.min.js -> /output/locales/kk-kz.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/kk-kz.min.js -> /output/locales/kk-kz.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/kk-kz.js -> /output/locales/kk-kz.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/kk-kz.js.br /tmp/work/locales/kk-kz.js
+2024/07/16 08:32:13 sri /tmp/work/locales/kmr-iq.min.js -> /output/locales/kmr-iq.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/kmr-iq.min.js.br /tmp/work/locales/kmr-iq.min.js
+2024/07/16 08:32:13 sri /tmp/work/locales/km-kh.min.js -> /output/locales/km-kh.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/km-kh.min.js.br /tmp/work/locales/km-kh.min.js
+2024/07/16 08:32:13 br /tmp/work/locales/kk-kz.js -> /output/locales/kk-kz.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/kk-kz.js -> /output/locales/kk-kz.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/lv-lv.min.js /tmp/work/locales/lv-lv.js]
+2024/07/16 08:32:13 br /tmp/work/locales/kmr-iq.min.js -> /output/locales/kmr-iq.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/kmr-iq.min.js -> /output/locales/kmr-iq.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/kmr-iq.js -> /output/locales/kmr-iq.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/kmr-iq.js.br /tmp/work/locales/kmr-iq.js
+2024/07/16 08:32:13 br /tmp/work/locales/km-kh.min.js -> /output/locales/km-kh.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/km-kh.min.js -> /output/locales/km-kh.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/km-kh.js -> /output/locales/km-kh.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/km-kh.js.br /tmp/work/locales/km-kh.js
+2024/07/16 08:32:13 sri /tmp/work/locales/kn-in.min.js -> /output/locales/kn-in.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/kn-in.min.js.br /tmp/work/locales/kn-in.min.js
+2024/07/16 08:32:13 br /tmp/work/locales/kmr-iq.js -> /output/locales/kmr-iq.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/kmr-iq.js -> /output/locales/kmr-iq.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/mk-mk.min.js /tmp/work/locales/mk-mk.js]
+2024/07/16 08:32:13 br /tmp/work/locales/km-kh.js -> /output/locales/km-kh.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/km-kh.js -> /output/locales/km-kh.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/ml-in.min.js /tmp/work/locales/ml-in.js]
+2024/07/16 08:32:13 br /tmp/work/locales/kn-in.min.js -> /output/locales/kn-in.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/kn-in.min.js -> /output/locales/kn-in.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/kn-in.js -> /output/locales/kn-in.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/kn-in.js.br /tmp/work/locales/kn-in.js
+2024/07/16 08:32:13 br /tmp/work/locales/kn-in.js -> /output/locales/kn-in.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/kn-in.js -> /output/locales/kn-in.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/mn-mn.min.js /tmp/work/locales/mn-mn.js]
+2024/07/16 08:32:13 sri /tmp/work/locales/ko-kr.min.js -> /output/locales/ko-kr.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ko-kr.min.js.br /tmp/work/locales/ko-kr.min.js
+2024/07/16 08:32:13 br /tmp/work/locales/ko-kr.min.js -> /output/locales/ko-kr.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/ko-kr.min.js -> /output/locales/ko-kr.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/ko-kr.js -> /output/locales/ko-kr.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ko-kr.js.br /tmp/work/locales/ko-kr.js
+2024/07/16 08:32:13 br /tmp/work/locales/ko-kr.js -> /output/locales/ko-kr.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/ko-kr.js -> /output/locales/ko-kr.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/ms-my.min.js /tmp/work/locales/ms-my.js]
+2024/07/16 08:32:13 sri /tmp/work/locales/lt-lt.min.js -> /output/locales/lt-lt.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/lt-lt.min.js.br /tmp/work/locales/lt-lt.min.js
+2024/07/16 08:32:13 br /tmp/work/locales/lt-lt.min.js -> /output/locales/lt-lt.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/lt-lt.min.js -> /output/locales/lt-lt.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/lt-lt.js -> /output/locales/lt-lt.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/lt-lt.js.br /tmp/work/locales/lt-lt.js
+2024/07/16 08:32:13 sri /tmp/work/locales/lv-lv.min.js -> /output/locales/lv-lv.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/lv-lv.min.js.br /tmp/work/locales/lv-lv.min.js
+2024/07/16 08:32:13 br /tmp/work/locales/lt-lt.js -> /output/locales/lt-lt.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/lt-lt.js -> /output/locales/lt-lt.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/nb-no.min.js /tmp/work/locales/nb-no.js]
+2024/07/16 08:32:13 sri /tmp/work/locales/mk-mk.min.js -> /output/locales/mk-mk.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/mk-mk.min.js.br /tmp/work/locales/mk-mk.min.js
+2024/07/16 08:32:13 br /tmp/work/locales/lv-lv.min.js -> /output/locales/lv-lv.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/lv-lv.min.js -> /output/locales/lv-lv.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/lv-lv.js -> /output/locales/lv-lv.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/lv-lv.js.br /tmp/work/locales/lv-lv.js
+2024/07/16 08:32:13 br /tmp/work/locales/mk-mk.min.js -> /output/locales/mk-mk.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/mk-mk.min.js -> /output/locales/mk-mk.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/mk-mk.js -> /output/locales/mk-mk.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/mk-mk.js.br /tmp/work/locales/mk-mk.js
+2024/07/16 08:32:13 br /tmp/work/locales/lv-lv.js -> /output/locales/lv-lv.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/lv-lv.js -> /output/locales/lv-lv.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/ne-np.min.js /tmp/work/locales/ne-np.js]
+2024/07/16 08:32:13 sri /tmp/work/locales/ml-in.min.js -> /output/locales/ml-in.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ml-in.min.js.br /tmp/work/locales/ml-in.min.js
+2024/07/16 08:32:13 br /tmp/work/locales/mk-mk.js -> /output/locales/mk-mk.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/mk-mk.js -> /output/locales/mk-mk.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/nl-be.min.js /tmp/work/locales/nl-be.js]
+2024/07/16 08:32:13 br /tmp/work/locales/ml-in.min.js -> /output/locales/ml-in.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/ml-in.min.js -> /output/locales/ml-in.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/ml-in.js -> /output/locales/ml-in.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ml-in.js.br /tmp/work/locales/ml-in.js
+2024/07/16 08:32:13 br /tmp/work/locales/ml-in.js -> /output/locales/ml-in.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/ml-in.js -> /output/locales/ml-in.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/nl-nl.min.js /tmp/work/locales/nl-nl.js]
+2024/07/16 08:32:13 sri /tmp/work/locales/mn-mn.min.js -> /output/locales/mn-mn.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/mn-mn.min.js.br /tmp/work/locales/mn-mn.min.js
+2024/07/16 08:32:13 br /tmp/work/locales/mn-mn.min.js -> /output/locales/mn-mn.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/mn-mn.min.js -> /output/locales/mn-mn.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/mn-mn.js -> /output/locales/mn-mn.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/mn-mn.js.br /tmp/work/locales/mn-mn.js
+2024/07/16 08:32:13 br /tmp/work/locales/mn-mn.js -> /output/locales/mn-mn.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/mn-mn.js -> /output/locales/mn-mn.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/pl-pl.min.js /tmp/work/locales/pl-pl.js]
+2024/07/16 08:32:13 sri /tmp/work/locales/ms-my.min.js -> /output/locales/ms-my.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ms-my.min.js.br /tmp/work/locales/ms-my.min.js
+2024/07/16 08:32:13 br /tmp/work/locales/ms-my.min.js -> /output/locales/ms-my.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/ms-my.min.js -> /output/locales/ms-my.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/ms-my.js -> /output/locales/ms-my.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ms-my.js.br /tmp/work/locales/ms-my.js
+2024/07/16 08:32:13 br /tmp/work/locales/ms-my.js -> /output/locales/ms-my.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/ms-my.js -> /output/locales/ms-my.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/pt-br.min.js /tmp/work/locales/pt-br.js]
+2024/07/16 08:32:13 sri /tmp/work/locales/nb-no.min.js -> /output/locales/nb-no.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/nb-no.min.js.br /tmp/work/locales/nb-no.min.js
+2024/07/16 08:32:13 br /tmp/work/locales/nb-no.min.js -> /output/locales/nb-no.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/nb-no.min.js -> /output/locales/nb-no.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/nb-no.js -> /output/locales/nb-no.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/nb-no.js.br /tmp/work/locales/nb-no.js
+2024/07/16 08:32:13 br /tmp/work/locales/nb-no.js -> /output/locales/nb-no.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/nb-no.js -> /output/locales/nb-no.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/pt-pt.min.js /tmp/work/locales/pt-pt.js]
+2024/07/16 08:32:13 sri /tmp/work/locales/ne-np.min.js -> /output/locales/ne-np.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ne-np.min.js.br /tmp/work/locales/ne-np.min.js
+2024/07/16 08:32:13 br /tmp/work/locales/ne-np.min.js -> /output/locales/ne-np.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/ne-np.min.js -> /output/locales/ne-np.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/ne-np.js -> /output/locales/ne-np.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ne-np.js.br /tmp/work/locales/ne-np.js
+2024/07/16 08:32:13 br /tmp/work/locales/ne-np.js -> /output/locales/ne-np.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/ne-np.js -> /output/locales/ne-np.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/nl-be.min.js -> /output/locales/nl-be.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/nl-be.min.js.br /tmp/work/locales/nl-be.min.js
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/ro-ro.min.js /tmp/work/locales/ro-ro.js]
+2024/07/16 08:32:13 br /tmp/work/locales/nl-be.min.js -> /output/locales/nl-be.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/nl-be.min.js -> /output/locales/nl-be.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/nl-be.js -> /output/locales/nl-be.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/nl-be.js.br /tmp/work/locales/nl-be.js
+2024/07/16 08:32:13 sri /tmp/work/locales/nl-nl.min.js -> /output/locales/nl-nl.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/nl-nl.min.js.br /tmp/work/locales/nl-nl.min.js
+2024/07/16 08:32:13 sri /tmp/work/locales/pl-pl.min.js -> /output/locales/pl-pl.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/pl-pl.min.js.br /tmp/work/locales/pl-pl.min.js
+2024/07/16 08:32:13 br /tmp/work/locales/nl-be.js -> /output/locales/nl-be.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/nl-be.js -> /output/locales/nl-be.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/ru-ru.min.js /tmp/work/locales/ru-ru.js]
+2024/07/16 08:32:13 br /tmp/work/locales/nl-nl.min.js -> /output/locales/nl-nl.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/nl-nl.min.js -> /output/locales/nl-nl.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/nl-nl.js -> /output/locales/nl-nl.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/nl-nl.js.br /tmp/work/locales/nl-nl.js
+2024/07/16 08:32:13 br /tmp/work/locales/pl-pl.min.js -> /output/locales/pl-pl.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/pl-pl.min.js -> /output/locales/pl-pl.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/pl-pl.js -> /output/locales/pl-pl.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/pl-pl.js.br /tmp/work/locales/pl-pl.js
+2024/07/16 08:32:13 br /tmp/work/locales/nl-nl.js -> /output/locales/nl-nl.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/nl-nl.js -> /output/locales/nl-nl.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/sk-sk.min.js /tmp/work/locales/sk-sk.js]
+2024/07/16 08:32:13 br /tmp/work/locales/pl-pl.js -> /output/locales/pl-pl.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/pl-pl.js -> /output/locales/pl-pl.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/sl-si.min.js /tmp/work/locales/sl-si.js]
+2024/07/16 08:32:13 sri /tmp/work/locales/pt-br.min.js -> /output/locales/pt-br.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/pt-br.min.js.br /tmp/work/locales/pt-br.min.js
+2024/07/16 08:32:13 br /tmp/work/locales/pt-br.min.js -> /output/locales/pt-br.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/pt-br.min.js -> /output/locales/pt-br.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/pt-br.js -> /output/locales/pt-br.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/pt-br.js.br /tmp/work/locales/pt-br.js
+2024/07/16 08:32:13 br /tmp/work/locales/pt-br.js -> /output/locales/pt-br.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/pt-br.js -> /output/locales/pt-br.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/sr-rs.min.js /tmp/work/locales/sr-rs.js]
+2024/07/16 08:32:13 sri /tmp/work/locales/pt-pt.min.js -> /output/locales/pt-pt.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/pt-pt.min.js.br /tmp/work/locales/pt-pt.min.js
+2024/07/16 08:32:13 br /tmp/work/locales/pt-pt.min.js -> /output/locales/pt-pt.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/pt-pt.min.js -> /output/locales/pt-pt.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/pt-pt.js -> /output/locales/pt-pt.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/pt-pt.js.br /tmp/work/locales/pt-pt.js
+2024/07/16 08:32:13 sri /tmp/work/locales/ro-ro.min.js -> /output/locales/ro-ro.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ro-ro.min.js.br /tmp/work/locales/ro-ro.min.js
+2024/07/16 08:32:13 br /tmp/work/locales/pt-pt.js -> /output/locales/pt-pt.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/pt-pt.js -> /output/locales/pt-pt.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/sv-se.min.js /tmp/work/locales/sv-se.js]
+2024/07/16 08:32:13 sri /tmp/work/locales/ru-ru.min.js -> /output/locales/ru-ru.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ru-ru.min.js.br /tmp/work/locales/ru-ru.min.js
+2024/07/16 08:32:13 br /tmp/work/locales/ro-ro.min.js -> /output/locales/ro-ro.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/ro-ro.min.js -> /output/locales/ro-ro.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/ro-ro.js -> /output/locales/ro-ro.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ro-ro.js.br /tmp/work/locales/ro-ro.js
+2024/07/16 08:32:13 br /tmp/work/locales/ru-ru.min.js -> /output/locales/ru-ru.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/ru-ru.min.js -> /output/locales/ru-ru.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/ru-ru.js -> /output/locales/ru-ru.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ru-ru.js.br /tmp/work/locales/ru-ru.js
+2024/07/16 08:32:13 sri /tmp/work/locales/sk-sk.min.js -> /output/locales/sk-sk.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/sk-sk.min.js.br /tmp/work/locales/sk-sk.min.js
+2024/07/16 08:32:13 br /tmp/work/locales/ro-ro.js -> /output/locales/ro-ro.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/ro-ro.js -> /output/locales/ro-ro.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/ta-in.min.js /tmp/work/locales/ta-in.js]
+2024/07/16 08:32:13 sri /tmp/work/locales/sl-si.min.js -> /output/locales/sl-si.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/sl-si.min.js.br /tmp/work/locales/sl-si.min.js
+2024/07/16 08:32:13 br /tmp/work/locales/sk-sk.min.js -> /output/locales/sk-sk.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/sk-sk.min.js -> /output/locales/sk-sk.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/sk-sk.js -> /output/locales/sk-sk.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/sk-sk.js.br /tmp/work/locales/sk-sk.js
+2024/07/16 08:32:13 br /tmp/work/locales/ru-ru.js -> /output/locales/ru-ru.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/ru-ru.js -> /output/locales/ru-ru.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/th-th.min.js /tmp/work/locales/th-th.js]
+2024/07/16 08:32:13 br /tmp/work/locales/sk-sk.js -> /output/locales/sk-sk.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/sk-sk.js -> /output/locales/sk-sk.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/tr-tr.min.js /tmp/work/locales/tr-tr.js]
+2024/07/16 08:32:13 br /tmp/work/locales/sl-si.min.js -> /output/locales/sl-si.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/sl-si.min.js -> /output/locales/sl-si.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/sl-si.js -> /output/locales/sl-si.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/sl-si.js.br /tmp/work/locales/sl-si.js
+2024/07/16 08:32:13 br /tmp/work/locales/sl-si.js -> /output/locales/sl-si.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/sl-si.js -> /output/locales/sl-si.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/uk-ua.min.js /tmp/work/locales/uk-ua.js]
+2024/07/16 08:32:13 sri /tmp/work/locales/sr-rs.min.js -> /output/locales/sr-rs.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/sr-rs.min.js.br /tmp/work/locales/sr-rs.min.js
+2024/07/16 08:32:13 br /tmp/work/locales/sr-rs.min.js -> /output/locales/sr-rs.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/sr-rs.min.js -> /output/locales/sr-rs.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/sr-rs.js -> /output/locales/sr-rs.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/sr-rs.js.br /tmp/work/locales/sr-rs.js
+2024/07/16 08:32:13 br /tmp/work/locales/sr-rs.js -> /output/locales/sr-rs.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/sr-rs.js -> /output/locales/sr-rs.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/ur-pk.min.js /tmp/work/locales/ur-pk.js]
+2024/07/16 08:32:13 sri /tmp/work/locales/sv-se.min.js -> /output/locales/sv-se.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/sv-se.min.js.br /tmp/work/locales/sv-se.min.js
+2024/07/16 08:32:13 sri /tmp/work/locales/ta-in.min.js -> /output/locales/ta-in.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ta-in.min.js.br /tmp/work/locales/ta-in.min.js
+2024/07/16 08:32:13 br /tmp/work/locales/sv-se.min.js -> /output/locales/sv-se.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/sv-se.min.js -> /output/locales/sv-se.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/sv-se.js -> /output/locales/sv-se.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/sv-se.js.br /tmp/work/locales/sv-se.js
+2024/07/16 08:32:13 sri /tmp/work/locales/th-th.min.js -> /output/locales/th-th.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/th-th.min.js.br /tmp/work/locales/th-th.min.js
+2024/07/16 08:32:13 br /tmp/work/locales/ta-in.min.js -> /output/locales/ta-in.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/ta-in.min.js -> /output/locales/ta-in.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/ta-in.js -> /output/locales/ta-in.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ta-in.js.br /tmp/work/locales/ta-in.js
+2024/07/16 08:32:13 br /tmp/work/locales/sv-se.js -> /output/locales/sv-se.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/sv-se.js -> /output/locales/sv-se.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/vi-vn.min.js /tmp/work/locales/vi-vn.js]
+2024/07/16 08:32:13 br /tmp/work/locales/th-th.min.js -> /output/locales/th-th.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/th-th.min.js -> /output/locales/th-th.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/th-th.js -> /output/locales/th-th.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/th-th.js.br /tmp/work/locales/th-th.js
+2024/07/16 08:32:13 br /tmp/work/locales/ta-in.js -> /output/locales/ta-in.js.br
+2024/07/16 08:32:13 sri /tmp/work/locales/tr-tr.min.js -> /output/locales/tr-tr.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/tr-tr.min.js.br /tmp/work/locales/tr-tr.min.js
+2024/07/16 08:32:13 gz /tmp/work/locales/ta-in.js -> /output/locales/ta-in.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/zh-cn.min.js /tmp/work/locales/zh-cn.js]
+2024/07/16 08:32:13 br /tmp/work/locales/th-th.js -> /output/locales/th-th.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/th-th.js -> /output/locales/th-th.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/zh-hk.min.js /tmp/work/locales/zh-hk.js]
+2024/07/16 08:32:13 br /tmp/work/locales/tr-tr.min.js -> /output/locales/tr-tr.min.js.br
+2024/07/16 08:32:13 sri /tmp/work/locales/uk-ua.min.js -> /output/locales/uk-ua.min.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/uk-ua.min.js.br /tmp/work/locales/uk-ua.min.js
+2024/07/16 08:32:13 gz /tmp/work/locales/tr-tr.min.js -> /output/locales/tr-tr.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/tr-tr.js -> /output/locales/tr-tr.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/tr-tr.js.br /tmp/work/locales/tr-tr.js
+2024/07/16 08:32:13 br /tmp/work/locales/uk-ua.min.js -> /output/locales/uk-ua.min.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/uk-ua.min.js -> /output/locales/uk-ua.min.js.gz
+2024/07/16 08:32:13 sri /tmp/work/locales/uk-ua.js -> /output/locales/uk-ua.js.sri
+2024/07/16 08:32:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/uk-ua.js.br /tmp/work/locales/uk-ua.js
+2024/07/16 08:32:13 br /tmp/work/locales/uk-ua.js -> /output/locales/uk-ua.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/uk-ua.js -> /output/locales/uk-ua.js.gz
+2024/07/16 08:32:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/locales/zh-tw.min.js /tmp/work/locales/zh-tw.js]
+2024/07/16 08:32:13 br /tmp/work/locales/tr-tr.js -> /output/locales/tr-tr.js.br
+2024/07/16 08:32:13 gz /tmp/work/locales/tr-tr.js -> /output/locales/tr-tr.js.gz
+2024/07/16 08:32:14 sri /tmp/work/locales/ur-pk.min.js -> /output/locales/ur-pk.min.js.sri
+2024/07/16 08:32:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ur-pk.min.js.br /tmp/work/locales/ur-pk.min.js
+2024/07/16 08:32:14 br /tmp/work/locales/ur-pk.min.js -> /output/locales/ur-pk.min.js.br
+2024/07/16 08:32:14 gz /tmp/work/locales/ur-pk.min.js -> /output/locales/ur-pk.min.js.gz
+2024/07/16 08:32:14 sri /tmp/work/locales/ur-pk.js -> /output/locales/ur-pk.js.sri
+2024/07/16 08:32:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/ur-pk.js.br /tmp/work/locales/ur-pk.js
+2024/07/16 08:32:14 br /tmp/work/locales/ur-pk.js -> /output/locales/ur-pk.js.br
+2024/07/16 08:32:14 gz /tmp/work/locales/ur-pk.js -> /output/locales/ur-pk.js.gz
+2024/07/16 08:32:14 sri /tmp/work/locales/zh-cn.min.js -> /output/locales/zh-cn.min.js.sri
+2024/07/16 08:32:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/zh-cn.min.js.br /tmp/work/locales/zh-cn.min.js
+2024/07/16 08:32:14 sri /tmp/work/locales/vi-vn.min.js -> /output/locales/vi-vn.min.js.sri
+2024/07/16 08:32:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/vi-vn.min.js.br /tmp/work/locales/vi-vn.min.js
+2024/07/16 08:32:14 br /tmp/work/locales/vi-vn.min.js -> /output/locales/vi-vn.min.js.br
+2024/07/16 08:32:14 br /tmp/work/locales/zh-cn.min.js -> /output/locales/zh-cn.min.js.br
+2024/07/16 08:32:14 gz /tmp/work/locales/vi-vn.min.js -> /output/locales/vi-vn.min.js.gz
+2024/07/16 08:32:14 sri /tmp/work/locales/vi-vn.js -> /output/locales/vi-vn.js.sri
+2024/07/16 08:32:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/vi-vn.js.br /tmp/work/locales/vi-vn.js
+2024/07/16 08:32:14 gz /tmp/work/locales/zh-cn.min.js -> /output/locales/zh-cn.min.js.gz
+2024/07/16 08:32:14 sri /tmp/work/locales/zh-cn.js -> /output/locales/zh-cn.js.sri
+2024/07/16 08:32:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/zh-cn.js.br /tmp/work/locales/zh-cn.js
+2024/07/16 08:32:14 br /tmp/work/locales/vi-vn.js -> /output/locales/vi-vn.js.br
+2024/07/16 08:32:14 gz /tmp/work/locales/vi-vn.js -> /output/locales/vi-vn.js.gz
+2024/07/16 08:32:14 br /tmp/work/locales/zh-cn.js -> /output/locales/zh-cn.js.br
+2024/07/16 08:32:14 gz /tmp/work/locales/zh-cn.js -> /output/locales/zh-cn.js.gz
+2024/07/16 08:32:14 sri /tmp/work/locales/zh-tw.min.js -> /output/locales/zh-tw.min.js.sri
+2024/07/16 08:32:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/zh-tw.min.js.br /tmp/work/locales/zh-tw.min.js
+2024/07/16 08:32:14 br /tmp/work/locales/zh-tw.min.js -> /output/locales/zh-tw.min.js.br
+2024/07/16 08:32:14 gz /tmp/work/locales/zh-tw.min.js -> /output/locales/zh-tw.min.js.gz
+2024/07/16 08:32:14 sri /tmp/work/locales/zh-tw.js -> /output/locales/zh-tw.js.sri
+2024/07/16 08:32:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/zh-tw.js.br /tmp/work/locales/zh-tw.js
+2024/07/16 08:32:14 br /tmp/work/locales/zh-tw.js -> /output/locales/zh-tw.js.br
+2024/07/16 08:32:14 gz /tmp/work/locales/zh-tw.js -> /output/locales/zh-tw.js.gz
+2024/07/16 08:32:14 sri /tmp/work/locales/zh-hk.min.js -> /output/locales/zh-hk.min.js.sri
+2024/07/16 08:32:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/zh-hk.min.js.br /tmp/work/locales/zh-hk.min.js
+2024/07/16 08:32:14 br /tmp/work/locales/zh-hk.min.js -> /output/locales/zh-hk.min.js.br
+2024/07/16 08:32:14 gz /tmp/work/locales/zh-hk.min.js -> /output/locales/zh-hk.min.js.gz
+2024/07/16 08:32:14 sri /tmp/work/locales/zh-hk.js -> /output/locales/zh-hk.js.sri
+2024/07/16 08:32:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/locales/zh-hk.js.br /tmp/work/locales/zh-hk.js
+2024/07/16 08:32:14 br /tmp/work/locales/zh-hk.js -> /output/locales/zh-hk.js.br
+2024/07/16 08:32:14 gz /tmp/work/locales/zh-hk.js -> /output/locales/zh-hk.js.gz
+2024/07/16 08:32:15 sri /tmp/work/mdui.esm.min.js -> /output/mdui.esm.min.js.sri
+2024/07/16 08:32:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mdui.esm.min.js.br /tmp/work/mdui.esm.min.js
+2024/07/16 08:32:16 br /tmp/work/mdui.esm.min.js -> /output/mdui.esm.min.js.br
+2024/07/16 08:32:16 gz /tmp/work/mdui.esm.min.js -> /output/mdui.esm.min.js.gz
+2024/07/16 08:32:16 sri /tmp/work/mdui.esm.js -> /output/mdui.esm.js.sri
+2024/07/16 08:32:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mdui.esm.js.br /tmp/work/mdui.esm.js
+2024/07/16 08:32:16 sri /tmp/work/mdui.global.min.js -> /output/mdui.global.min.js.sri
+2024/07/16 08:32:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mdui.global.min.js.br /tmp/work/mdui.global.min.js
+2024/07/16 08:32:16 br /tmp/work/mdui.esm.js -> /output/mdui.esm.js.br
+2024/07/16 08:32:16 gz /tmp/work/mdui.esm.js -> /output/mdui.esm.js.gz
+2024/07/16 08:32:17 br /tmp/work/mdui.global.min.js -> /output/mdui.global.min.js.br
+2024/07/16 08:32:17 gz /tmp/work/mdui.global.min.js -> /output/mdui.global.min.js.gz
+2024/07/16 08:32:17 sri /tmp/work/mdui.global.js -> /output/mdui.global.js.sri
+2024/07/16 08:32:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/mdui.global.js.br /tmp/work/mdui.global.js
+2024/07/16 08:32:17 br /tmp/work/mdui.global.js -> /output/mdui.global.js.br
+2024/07/16 08:32:17 gz /tmp/work/mdui.global.js -> /output/mdui.global.js.gz
+2024/07/16 08:32:17 processed mdui
