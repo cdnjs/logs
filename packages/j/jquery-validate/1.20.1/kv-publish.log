@@ -1,3 +1,395 @@
 config: {"authors":[{"name":"Jörn Zaefferer","email":"joern.zaefferer@gmail.com","url":"http://bassistance.de"}],"autoupdate":{"source":"git","target":"git://github.com/jquery-validation/jquery-validation.git","fileMap":[{"basePath":"dist","files":["*.@(js|json)","localization/*.js"]}]},"description":"Client-side form validation made easy","filename":"jquery.validate.min.js","homepage":"http://jqueryvalidation.org/","keywords":["jQuery","forms","validate","validation"],"license":"MIT","name":"jquery-validate","repository":{"type":"git","url":"https://github.com/jquery-validation/jquery-validation.git"},"author":"Jörn Zaefferer \u003cjoern.zaefferer@gmail.com\u003e (http://bassistance.de)"}
 KV keys:
+- jquery-validate/1.20.1/additional-methods.js.br
+- jquery-validate/1.20.1/additional-methods.js.gz
+- jquery-validate/1.20.1/additional-methods.min.js.br
+- jquery-validate/1.20.1/additional-methods.min.js.gz
+- jquery-validate/1.20.1/jquery-validation-sri.json.br
+- jquery-validate/1.20.1/jquery-validation-sri.json.gz
+- jquery-validate/1.20.1/jquery.validate.js.br
+- jquery-validate/1.20.1/jquery.validate.js.gz
+- jquery-validate/1.20.1/jquery.validate.min.js.br
+- jquery-validate/1.20.1/jquery.validate.min.js.gz
+- jquery-validate/1.20.1/localization/messages_ar.js.br
+- jquery-validate/1.20.1/localization/messages_ar.js.gz
+- jquery-validate/1.20.1/localization/messages_ar.min.js.br
+- jquery-validate/1.20.1/localization/messages_ar.min.js.gz
+- jquery-validate/1.20.1/localization/messages_az.js.br
+- jquery-validate/1.20.1/localization/messages_az.js.gz
+- jquery-validate/1.20.1/localization/messages_az.min.js.br
+- jquery-validate/1.20.1/localization/messages_az.min.js.gz
+- jquery-validate/1.20.1/localization/messages_bg.js.br
+- jquery-validate/1.20.1/localization/messages_bg.js.gz
+- jquery-validate/1.20.1/localization/messages_bg.min.js.br
+- jquery-validate/1.20.1/localization/messages_bg.min.js.gz
+- jquery-validate/1.20.1/localization/messages_bn_BD.js.br
+- jquery-validate/1.20.1/localization/messages_bn_BD.js.gz
+- jquery-validate/1.20.1/localization/messages_bn_BD.min.js.br
+- jquery-validate/1.20.1/localization/messages_bn_BD.min.js.gz
+- jquery-validate/1.20.1/localization/messages_ca.js.br
+- jquery-validate/1.20.1/localization/messages_ca.js.gz
+- jquery-validate/1.20.1/localization/messages_ca.min.js.br
+- jquery-validate/1.20.1/localization/messages_ca.min.js.gz
+- jquery-validate/1.20.1/localization/messages_cs.js.br
+- jquery-validate/1.20.1/localization/messages_cs.js.gz
+- jquery-validate/1.20.1/localization/messages_cs.min.js.br
+- jquery-validate/1.20.1/localization/messages_cs.min.js.gz
+- jquery-validate/1.20.1/localization/messages_da.js.br
+- jquery-validate/1.20.1/localization/messages_da.js.gz
+- jquery-validate/1.20.1/localization/messages_da.min.js.br
+- jquery-validate/1.20.1/localization/messages_da.min.js.gz
+- jquery-validate/1.20.1/localization/messages_de.js.br
+- jquery-validate/1.20.1/localization/messages_de.js.gz
+- jquery-validate/1.20.1/localization/messages_de.min.js.br
+- jquery-validate/1.20.1/localization/messages_de.min.js.gz
+- jquery-validate/1.20.1/localization/messages_el.js.br
+- jquery-validate/1.20.1/localization/messages_el.js.gz
+- jquery-validate/1.20.1/localization/messages_el.min.js.br
+- jquery-validate/1.20.1/localization/messages_el.min.js.gz
+- jquery-validate/1.20.1/localization/messages_es.js.br
+- jquery-validate/1.20.1/localization/messages_es.js.gz
+- jquery-validate/1.20.1/localization/messages_es.min.js.br
+- jquery-validate/1.20.1/localization/messages_es.min.js.gz
+- jquery-validate/1.20.1/localization/messages_es_AR.js.br
+- jquery-validate/1.20.1/localization/messages_es_AR.js.gz
+- jquery-validate/1.20.1/localization/messages_es_AR.min.js.br
+- jquery-validate/1.20.1/localization/messages_es_AR.min.js.gz
+- jquery-validate/1.20.1/localization/messages_es_PE.js.br
+- jquery-validate/1.20.1/localization/messages_es_PE.js.gz
+- jquery-validate/1.20.1/localization/messages_es_PE.min.js.br
+- jquery-validate/1.20.1/localization/messages_es_PE.min.js.gz
+- jquery-validate/1.20.1/localization/messages_et.js.br
+- jquery-validate/1.20.1/localization/messages_et.js.gz
+- jquery-validate/1.20.1/localization/messages_et.min.js.br
+- jquery-validate/1.20.1/localization/messages_et.min.js.gz
+- jquery-validate/1.20.1/localization/messages_eu.js.br
+- jquery-validate/1.20.1/localization/messages_eu.js.gz
+- jquery-validate/1.20.1/localization/messages_eu.min.js.br
+- jquery-validate/1.20.1/localization/messages_eu.min.js.gz
+- jquery-validate/1.20.1/localization/messages_fa.js.br
+- jquery-validate/1.20.1/localization/messages_fa.js.gz
+- jquery-validate/1.20.1/localization/messages_fa.min.js.br
+- jquery-validate/1.20.1/localization/messages_fa.min.js.gz
+- jquery-validate/1.20.1/localization/messages_fi.js.br
+- jquery-validate/1.20.1/localization/messages_fi.js.gz
+- jquery-validate/1.20.1/localization/messages_fi.min.js.br
+- jquery-validate/1.20.1/localization/messages_fi.min.js.gz
+- jquery-validate/1.20.1/localization/messages_fr.js.br
+- jquery-validate/1.20.1/localization/messages_fr.js.gz
+- jquery-validate/1.20.1/localization/messages_fr.min.js.br
+- jquery-validate/1.20.1/localization/messages_fr.min.js.gz
+- jquery-validate/1.20.1/localization/messages_ge.js.br
+- jquery-validate/1.20.1/localization/messages_ge.js.gz
+- jquery-validate/1.20.1/localization/messages_ge.min.js.br
+- jquery-validate/1.20.1/localization/messages_ge.min.js.gz
+- jquery-validate/1.20.1/localization/messages_gl.js.br
+- jquery-validate/1.20.1/localization/messages_gl.js.gz
+- jquery-validate/1.20.1/localization/messages_gl.min.js.br
+- jquery-validate/1.20.1/localization/messages_gl.min.js.gz
+- jquery-validate/1.20.1/localization/messages_he.js.br
+- jquery-validate/1.20.1/localization/messages_he.js.gz
+- jquery-validate/1.20.1/localization/messages_he.min.js.br
+- jquery-validate/1.20.1/localization/messages_he.min.js.gz
+- jquery-validate/1.20.1/localization/messages_hi.js.br
+- jquery-validate/1.20.1/localization/messages_hi.js.gz
+- jquery-validate/1.20.1/localization/messages_hi.min.js.br
+- jquery-validate/1.20.1/localization/messages_hi.min.js.gz
+- jquery-validate/1.20.1/localization/messages_hr.js.br
+- jquery-validate/1.20.1/localization/messages_hr.js.gz
+- jquery-validate/1.20.1/localization/messages_hr.min.js.br
+- jquery-validate/1.20.1/localization/messages_hr.min.js.gz
+- jquery-validate/1.20.1/localization/messages_hu.js.br
+- jquery-validate/1.20.1/localization/messages_hu.js.gz
+- jquery-validate/1.20.1/localization/messages_hu.min.js.br
+- jquery-validate/1.20.1/localization/messages_hu.min.js.gz
+- jquery-validate/1.20.1/localization/messages_hy_AM.js.br
+- jquery-validate/1.20.1/localization/messages_hy_AM.js.gz
+- jquery-validate/1.20.1/localization/messages_hy_AM.min.js.br
+- jquery-validate/1.20.1/localization/messages_hy_AM.min.js.gz
+- jquery-validate/1.20.1/localization/messages_id.js.br
+- jquery-validate/1.20.1/localization/messages_id.js.gz
+- jquery-validate/1.20.1/localization/messages_id.min.js.br
+- jquery-validate/1.20.1/localization/messages_id.min.js.gz
+- jquery-validate/1.20.1/localization/messages_is.js.br
+- jquery-validate/1.20.1/localization/messages_is.js.gz
+- jquery-validate/1.20.1/localization/messages_is.min.js.br
+- jquery-validate/1.20.1/localization/messages_is.min.js.gz
+- jquery-validate/1.20.1/localization/messages_it.js.br
+- jquery-validate/1.20.1/localization/messages_it.js.gz
+- jquery-validate/1.20.1/localization/messages_it.min.js.br
+- jquery-validate/1.20.1/localization/messages_it.min.js.gz
+- jquery-validate/1.20.1/localization/messages_ja.js.br
+- jquery-validate/1.20.1/localization/messages_ja.js.gz
+- jquery-validate/1.20.1/localization/messages_ja.min.js.br
+- jquery-validate/1.20.1/localization/messages_ja.min.js.gz
+- jquery-validate/1.20.1/localization/messages_ka.js.br
+- jquery-validate/1.20.1/localization/messages_ka.js.gz
+- jquery-validate/1.20.1/localization/messages_ka.min.js.br
+- jquery-validate/1.20.1/localization/messages_ka.min.js.gz
+- jquery-validate/1.20.1/localization/messages_kk.js.br
+- jquery-validate/1.20.1/localization/messages_kk.js.gz
+- jquery-validate/1.20.1/localization/messages_kk.min.js.br
+- jquery-validate/1.20.1/localization/messages_kk.min.js.gz
+- jquery-validate/1.20.1/localization/messages_ko.js.br
+- jquery-validate/1.20.1/localization/messages_ko.js.gz
+- jquery-validate/1.20.1/localization/messages_ko.min.js.br
+- jquery-validate/1.20.1/localization/messages_ko.min.js.gz
+- jquery-validate/1.20.1/localization/messages_lt.js.br
+- jquery-validate/1.20.1/localization/messages_lt.js.gz
+- jquery-validate/1.20.1/localization/messages_lt.min.js.br
+- jquery-validate/1.20.1/localization/messages_lt.min.js.gz
+- jquery-validate/1.20.1/localization/messages_lv.js.br
+- jquery-validate/1.20.1/localization/messages_lv.js.gz
+- jquery-validate/1.20.1/localization/messages_lv.min.js.br
+- jquery-validate/1.20.1/localization/messages_lv.min.js.gz
+- jquery-validate/1.20.1/localization/messages_mk.js.br
+- jquery-validate/1.20.1/localization/messages_mk.js.gz
+- jquery-validate/1.20.1/localization/messages_mk.min.js.br
+- jquery-validate/1.20.1/localization/messages_mk.min.js.gz
+- jquery-validate/1.20.1/localization/messages_my.js.br
+- jquery-validate/1.20.1/localization/messages_my.js.gz
+- jquery-validate/1.20.1/localization/messages_my.min.js.br
+- jquery-validate/1.20.1/localization/messages_my.min.js.gz
+- jquery-validate/1.20.1/localization/messages_nl.js.br
+- jquery-validate/1.20.1/localization/messages_nl.js.gz
+- jquery-validate/1.20.1/localization/messages_nl.min.js.br
+- jquery-validate/1.20.1/localization/messages_nl.min.js.gz
+- jquery-validate/1.20.1/localization/messages_no.js.br
+- jquery-validate/1.20.1/localization/messages_no.js.gz
+- jquery-validate/1.20.1/localization/messages_no.min.js.br
+- jquery-validate/1.20.1/localization/messages_no.min.js.gz
+- jquery-validate/1.20.1/localization/messages_pl.js.br
+- jquery-validate/1.20.1/localization/messages_pl.js.gz
+- jquery-validate/1.20.1/localization/messages_pl.min.js.br
+- jquery-validate/1.20.1/localization/messages_pl.min.js.gz
+- jquery-validate/1.20.1/localization/messages_pt_BR.js.br
+- jquery-validate/1.20.1/localization/messages_pt_BR.js.gz
+- jquery-validate/1.20.1/localization/messages_pt_BR.min.js.br
+- jquery-validate/1.20.1/localization/messages_pt_BR.min.js.gz
+- jquery-validate/1.20.1/localization/messages_pt_PT.js.br
+- jquery-validate/1.20.1/localization/messages_pt_PT.js.gz
+- jquery-validate/1.20.1/localization/messages_pt_PT.min.js.br
+- jquery-validate/1.20.1/localization/messages_pt_PT.min.js.gz
+- jquery-validate/1.20.1/localization/messages_ro.js.br
+- jquery-validate/1.20.1/localization/messages_ro.js.gz
+- jquery-validate/1.20.1/localization/messages_ro.min.js.br
+- jquery-validate/1.20.1/localization/messages_ro.min.js.gz
+- jquery-validate/1.20.1/localization/messages_ru.js.br
+- jquery-validate/1.20.1/localization/messages_ru.js.gz
+- jquery-validate/1.20.1/localization/messages_ru.min.js.br
+- jquery-validate/1.20.1/localization/messages_ru.min.js.gz
+- jquery-validate/1.20.1/localization/messages_sd.js.br
+- jquery-validate/1.20.1/localization/messages_sd.js.gz
+- jquery-validate/1.20.1/localization/messages_sd.min.js.br
+- jquery-validate/1.20.1/localization/messages_sd.min.js.gz
+- jquery-validate/1.20.1/localization/messages_si.js.br
+- jquery-validate/1.20.1/localization/messages_si.js.gz
+- jquery-validate/1.20.1/localization/messages_si.min.js.br
+- jquery-validate/1.20.1/localization/messages_si.min.js.gz
+- jquery-validate/1.20.1/localization/messages_sk.js.br
+- jquery-validate/1.20.1/localization/messages_sk.js.gz
+- jquery-validate/1.20.1/localization/messages_sk.min.js.br
+- jquery-validate/1.20.1/localization/messages_sk.min.js.gz
+- jquery-validate/1.20.1/localization/messages_sl.js.br
+- jquery-validate/1.20.1/localization/messages_sl.js.gz
+- jquery-validate/1.20.1/localization/messages_sl.min.js.br
+- jquery-validate/1.20.1/localization/messages_sl.min.js.gz
+- jquery-validate/1.20.1/localization/messages_sr.js.br
+- jquery-validate/1.20.1/localization/messages_sr.js.gz
+- jquery-validate/1.20.1/localization/messages_sr.min.js.br
+- jquery-validate/1.20.1/localization/messages_sr.min.js.gz
+- jquery-validate/1.20.1/localization/messages_sr_lat.js.br
+- jquery-validate/1.20.1/localization/messages_sr_lat.js.gz
+- jquery-validate/1.20.1/localization/messages_sr_lat.min.js.br
+- jquery-validate/1.20.1/localization/messages_sr_lat.min.js.gz
+- jquery-validate/1.20.1/localization/messages_sv.js.br
+- jquery-validate/1.20.1/localization/messages_sv.js.gz
+- jquery-validate/1.20.1/localization/messages_sv.min.js.br
+- jquery-validate/1.20.1/localization/messages_sv.min.js.gz
+- jquery-validate/1.20.1/localization/messages_th.js.br
+- jquery-validate/1.20.1/localization/messages_th.js.gz
+- jquery-validate/1.20.1/localization/messages_th.min.js.br
+- jquery-validate/1.20.1/localization/messages_th.min.js.gz
+- jquery-validate/1.20.1/localization/messages_tj.js.br
+- jquery-validate/1.20.1/localization/messages_tj.js.gz
+- jquery-validate/1.20.1/localization/messages_tj.min.js.br
+- jquery-validate/1.20.1/localization/messages_tj.min.js.gz
+- jquery-validate/1.20.1/localization/messages_tr.js.br
+- jquery-validate/1.20.1/localization/messages_tr.js.gz
+- jquery-validate/1.20.1/localization/messages_tr.min.js.br
+- jquery-validate/1.20.1/localization/messages_tr.min.js.gz
+- jquery-validate/1.20.1/localization/messages_uk.js.br
+- jquery-validate/1.20.1/localization/messages_uk.js.gz
+- jquery-validate/1.20.1/localization/messages_uk.min.js.br
+- jquery-validate/1.20.1/localization/messages_uk.min.js.gz
+- jquery-validate/1.20.1/localization/messages_ur.js.br
+- jquery-validate/1.20.1/localization/messages_ur.js.gz
+- jquery-validate/1.20.1/localization/messages_ur.min.js.br
+- jquery-validate/1.20.1/localization/messages_ur.min.js.gz
+- jquery-validate/1.20.1/localization/messages_vi.js.br
+- jquery-validate/1.20.1/localization/messages_vi.js.gz
+- jquery-validate/1.20.1/localization/messages_vi.min.js.br
+- jquery-validate/1.20.1/localization/messages_vi.min.js.gz
+- jquery-validate/1.20.1/localization/messages_zh.js.br
+- jquery-validate/1.20.1/localization/messages_zh.js.gz
+- jquery-validate/1.20.1/localization/messages_zh.min.js.br
+- jquery-validate/1.20.1/localization/messages_zh.min.js.gz
+- jquery-validate/1.20.1/localization/messages_zh_TW.js.br
+- jquery-validate/1.20.1/localization/messages_zh_TW.js.gz
+- jquery-validate/1.20.1/localization/messages_zh_TW.min.js.br
+- jquery-validate/1.20.1/localization/messages_zh_TW.min.js.gz
+- jquery-validate/1.20.1/localization/methods_de.js.br
+- jquery-validate/1.20.1/localization/methods_de.js.gz
+- jquery-validate/1.20.1/localization/methods_de.min.js.br
+- jquery-validate/1.20.1/localization/methods_de.min.js.gz
+- jquery-validate/1.20.1/localization/methods_es_CL.js.br
+- jquery-validate/1.20.1/localization/methods_es_CL.js.gz
+- jquery-validate/1.20.1/localization/methods_es_CL.min.js.br
+- jquery-validate/1.20.1/localization/methods_es_CL.min.js.gz
+- jquery-validate/1.20.1/localization/methods_fi.js.br
+- jquery-validate/1.20.1/localization/methods_fi.js.gz
+- jquery-validate/1.20.1/localization/methods_fi.min.js.br
+- jquery-validate/1.20.1/localization/methods_fi.min.js.gz
+- jquery-validate/1.20.1/localization/methods_it.js.br
+- jquery-validate/1.20.1/localization/methods_it.js.gz
+- jquery-validate/1.20.1/localization/methods_it.min.js.br
+- jquery-validate/1.20.1/localization/methods_it.min.js.gz
+- jquery-validate/1.20.1/localization/methods_nl.js.br
+- jquery-validate/1.20.1/localization/methods_nl.js.gz
+- jquery-validate/1.20.1/localization/methods_nl.min.js.br
+- jquery-validate/1.20.1/localization/methods_nl.min.js.gz
+- jquery-validate/1.20.1/localization/methods_pt.js.br
+- jquery-validate/1.20.1/localization/methods_pt.js.gz
+- jquery-validate/1.20.1/localization/methods_pt.min.js.br
+- jquery-validate/1.20.1/localization/methods_pt.min.js.gz
 SRIs:
+- jquery-validate/1.20.1/localization/messages_pt_BR.min.js: sha512-LwGPecrjBUF1Q1zO+di9LCdGzEaYSOGMEFnQqA09GII6jGqKglOvdPnFwikNRvnofrmli8sSM0cDNNu2FkC7dA==
+- jquery-validate/1.20.1/localization/messages_tr.min.js: sha512-2VlilUN6tbpYPUSmD6bkPCyVzCkTZ04kwuyfnxQ3BqE3ElQJjNJnZzaLhMfDjyavaJAzYqjGY/RwoPwnMuoODw==
+- jquery-validate/1.20.1/jquery.validate.js: sha512-GhcFAhHuEaiEXdqTcH+VA21NbvfVmKBvKjysPM+INznAXe+HY/iep3JIXT1jxQo29ijydBYmUCpU/qP2tGbROw==
+- jquery-validate/1.20.1/localization/messages_is.min.js: sha512-liKHntVg1qcDlueWsTCxY+uaEsrrAp3Gv/OPB1i9hlbmJssLoa0X/5kGEp1C6S9OCJp+mVDC4Du5fnwYnw5edA==
+- jquery-validate/1.20.1/localization/messages_nl.js: sha512-pXGvjSjhyL+uxlB/eNknhcB46D+bvsxMDgjEvjRopM0vFoC7+paK1YxvOTyG50XAzyTpi7LqNuHwCnENWWko0g==
+- jquery-validate/1.20.1/localization/messages_th.min.js: sha512-W2m4C8227kjOMY6Nrp1u3t5JHwZyqs/t1niIVAZaXv363WtFMGe1NAXASJtn3C4QsLmtjkQqPSuf85gFUafa1Q==
+- jquery-validate/1.20.1/localization/messages_ur.js: sha512-snXPjQePltMVyIIR50eRoqYPMImUtnc2oxVsVZyOEXzk5TOQfqq+g4upNmjvo3R6awzDrgd18lD8qHygCo9V2A==
+- jquery-validate/1.20.1/localization/messages_el.min.js: sha512-nA9KiUk7eVZVrkYR17uwfSs4KhBBeF7b+6l5/S+rH55FQJmKmCc+pQVqDgooA+ATZbPOmp5rSke6Q/KpRAJdOA==
+- jquery-validate/1.20.1/localization/messages_hr.min.js: sha512-xsPJbQHaY1X+vYACqzZaVkKuc+F2+coGax7CVpJsZszErTJJAf72lIjqEJtJKhFvdzZyGQQ9MOYa3KA7eL8s8g==
+- jquery-validate/1.20.1/localization/messages_si.min.js: sha512-ubHrAkTJN3TCUDzs4H0kOr3gRE2PmHaoeMPwy4De1f+pRzEn5IbA93cXw4eNO9Zza3JycRsndVLfvOUBc05WZg==
+- jquery-validate/1.20.1/localization/messages_ge.js: sha512-G97bxBxxy9yzak2JYmeEOEGCXu274qTaBaC2+7G9Ah5IlVUJIBWWR9FI6UyjZRFvBzu9pOUr9q5ioWPDFOoQaA==
+- jquery-validate/1.20.1/localization/methods_de.min.js: sha512-n6d7iyM9PamDBSM38avOHAgpqRmgVnsHTB6Y07BSH4dg6jrV5e8KBJT9il8H4YI2ij+nIAJ9JUURvpPtYRbH/A==
+- jquery-validate/1.20.1/localization/methods_es_CL.min.js: sha512-xiQryiiTanlLjOzaFiGPLOmm9TAH3Zei544SzuaAV6nMA56NUOG7Io92aBaoOO/qPDWwgkDM27YBlNAOmHc2eA==
+- jquery-validate/1.20.1/localization/messages_it.min.js: sha512-qezvMAIw/cCUyk8U0yYqynUDUJ6raWCdGOUtJnWvpK/AfRJdKNSqjlGvPM0LCd0TfzL6LNRTOcFE72EdJTXsUg==
+- jquery-validate/1.20.1/localization/messages_sr_lat.min.js: sha512-pNjCdiimGLVb1+aOhnt8AlHa+kJ2TeHIkXtVK5T1M91PF2iC7RUCdjHFvOOxlR+kVLjlB7lPLuXYIN+BBhNpog==
+- jquery-validate/1.20.1/localization/messages_sv.js: sha512-5UlZ4Kfc3IpmIXXGxswOrCoJApMm7Kzr5PQz07VQg/uf+a++drTjSldT5Ev8JOx4BtbbxW6CUg6nb6sGpdnWdA==
+- jquery-validate/1.20.1/additional-methods.min.js: sha512-Cv7+p2jHc0xN3VRCn64o+rI5HyTgPG1LOa9yoWiXgG99GI2SFUEbHJhpU079RNLpkjjDYE8xTK7lyNlTjNx10Q==
+- jquery-validate/1.20.1/localization/messages_es_AR.min.js: sha512-rLohqje7jrGIVjeOoel1Mfi0EdEQYAaR1neMIB2fr02BWwPD/KII/ZTDPm8C3cmR23XYMqY1/lzke6FmPm/Gpw==
+- jquery-validate/1.20.1/localization/messages_es_PE.min.js: sha512-D5YGCgHZ5bzFP4h5GBmaXfMQjMZEAnsvHxYl+WMT14F78nSHEIZNcmtAdAShvP6nKJE63lJUf8InD3RakBMZ1g==
+- jquery-validate/1.20.1/localization/messages_ar.js: sha512-h0pnNs6lRI98RlPcWMv0Q/tte//yh7/sp8uNGg4sGPREmn4ph9z+4b6HwesOB6G032s3xpYiQZzd8iZCFjSE5A==
+- jquery-validate/1.20.1/localization/messages_vi.min.js: sha512-KNwMZDkEBfl0ek7g+wzZVcz8KgerFSNHWcaaOPCYCirAujECuHbRjJsp+5b247jTOp8NCzoZ/WASoAtFS9oIoA==
+- jquery-validate/1.20.1/localization/methods_fi.js: sha512-YC0q4puzUpuClxv9Y9T56pwcug0bMb89eNYnwhSfB9hA5zphsg7hod5c4PV0UovzeBM7DjwbE3MjZ9EyH7VpYQ==
+- jquery-validate/1.20.1/localization/messages_ru.min.js: sha512-3IJiR/a3qMTL8uCoDYBwiqAL2zDPFGRs2zhMSP8CopnSR2rl2lSlOBxQu/xREFUBm9lxbE7c2A7kEfwOxztNmQ==
+- jquery-validate/1.20.1/localization/messages_sr.js: sha512-RB/cRRPgznyCvBsJqxP5WilS+jC99mXq1kodQ0Yt+eG/IdzAGLOSRjBgRVedqTsW/nvf3JCJmC/NS6atgt9WaA==
+- jquery-validate/1.20.1/localization/messages_vi.js: sha512-VfOTw452dRXf1Tlu4km/6JhdmbqIl27Z0NC8Pyexcqr2b79GUPxVcQbXSTX39o4c8naoJNKM5pIkqOqMY9vB8g==
+- jquery-validate/1.20.1/localization/messages_ka.min.js: sha512-q6gaOevd+l0uWHHjGNavMsQ9qa3cxd7oUytKeuiHd69eWPcRHqWJ5vuCSUiw9wPsrpk+i4wypm90f/8JwvVcFQ==
+- jquery-validate/1.20.1/localization/messages_pl.js: sha512-bsE4ZpQMRPHy4Chff0lTAjy71ElfOECbXLoFnOePn97H6fFzwZtGae5zzXdMevW/MuyNxRmE3CsjvXmQKs19Qg==
+- jquery-validate/1.20.1/localization/messages_pl.min.js: sha512-KW4+pgLCF2yThoNE3MJujBMi5g9NfmMGfiK8LmgNOIAWc+z1mw+J+KXH3ifewJd1PptJshnV11nEJDXX8tRJdw==
+- jquery-validate/1.20.1/localization/messages_sr_lat.js: sha512-g0uWEtjfJbvrq+QXr0TbhuKO3BXo2YmacBD/JyOrADPws8vhggPHPt2ajPQgJAvqGRy/g6yWbzm4ZQAcOEunIA==
+- jquery-validate/1.20.1/additional-methods.js: sha512-c90EHL2nox0XZ2ub6Nwa68D5AIzccUZ6Mqi4wZG25YDGcmTxeDXrHL2+aNLwGYyKPHcf0eb//uBziZ0/QwNVsw==
+- jquery-validate/1.20.1/localization/messages_et.js: sha512-yu8WrFFSZIGx9zWP2xC6sSrPqi4b30sRKZloHZUTZ8ixcF67eJTaaNKdFPrb071JIQIU2Nix35r7GzZ4+AuhBA==
+- jquery-validate/1.20.1/localization/messages_hi.min.js: sha512-ka4jVktzhF69JKgR6qzMjZr4dODze5I8WjcdYMrg5HV7Qypoil98n4fe0s9mfj6XnuRZfPxddfKq7+FDtdV+Xw==
+- jquery-validate/1.20.1/localization/messages_mk.js: sha512-2m0rfSIJZ/e7WrM/A/uUmumDkAcjKZnAbLe77yZKBa69CfstOI6TsOMYE0060IF1soqxII5ELn/ztPivUo4oug==
+- jquery-validate/1.20.1/localization/messages_mk.min.js: sha512-oslH6+W5cIxjbY1Sc+osCaMZWbtcNFTUTuSfxBda26HQJ5mDeZvXUejwAE8WJWKLaOhyIT86/QX9JQb2L0gK9A==
+- jquery-validate/1.20.1/localization/messages_pt_PT.js: sha512-lGkA/5BX+DUv8lOUCaUBhY233pDcVvDrTMuZj8IaSGMOghhxgswqYeF8/or1KBEZecvMB1uo7dB0qFZ3z7s9Mg==
+- jquery-validate/1.20.1/localization/messages_sl.js: sha512-jXYskDJhgeoH+v4Od65KGyIHhXz6i3UjGJXdh6odiOev9Xh0RhRQKlKZ6jsDGVL9gXmt4R+csrpGv5RImnk1zg==
+- jquery-validate/1.20.1/localization/messages_ge.min.js: sha512-1tQoVkuDrNa6DH1HBdvsjuZpOSJPo6InDmABELCUSuHZVtY6c/oqEdHJoFL2st00DPVgimQVKt5/U/uuledv0A==
+- jquery-validate/1.20.1/localization/messages_gl.min.js: sha512-OuS1MHELuFVpwNVIY+pwBfFVPyxfD/ckMQDlfKfnkYnFSKCwHMImdzxZr/BADlb1NCXGxU7bDR1twexNNjl5bQ==
+- jquery-validate/1.20.1/localization/messages_ja.js: sha512-Xzr69u42sYYeVKLrudYZUadPtpKXUe+M+0r4HXbpcV9tWdMAlc8gpOCOhb+sNmfdLF0e1qpeOuunrVetE/Kwog==
+- jquery-validate/1.20.1/localization/messages_tj.js: sha512-K4ObnLWs3Jl5rvmNKb3LQwZkEFElljKGlVYEQNmyaLV95oRPU0bzWsLD61xc+sNAgdCJ6vN8UY08X2tR/+MbcQ==
+- jquery-validate/1.20.1/localization/messages_uk.js: sha512-VLce2XM90aktJrREvf9K/46aC0YTVGxH9QTTZ6AHC9+6ubrQhgpk8tX4FGdwKOfvW+GFl1j98RS4ej3pD8MUmA==
+- jquery-validate/1.20.1/localization/methods_fi.min.js: sha512-O0kqFgT8q9m/fx2S2HKUzZd92IsshKMKX/7n5/ENYmA+sumj+MZ9CdAMXTHaKgiCSlws0vaEgLXFGi1NfUVPXg==
+- jquery-validate/1.20.1/jquery.validate.min.js: sha512-3YmIbcnlj47HgW2BQGRbLVbzReKt4cASLxa3Z8QY9rohHbqLsuKeccNqFD2wNMfATqYcHCVxGKh5T/7tCWFIRw==
+- jquery-validate/1.20.1/localization/messages_ka.js: sha512-oKAuzQ4T4YZI65gl6E8R8E9Ij793APIraTCOBXriqRBQb4IaXyF5QS7xMiRslP/rFXrCzxJVW/tJEfS+ifPhYA==
+- jquery-validate/1.20.1/localization/messages_sd.min.js: sha512-9+PTrQ/RqS8dVHbhJg9IwPA4OW7SevAMu72ofswdf+a0lv3jR4Yz4LDnEOzP+DRCAb6hHYiL15s1mPcfaaHY0g==
+- jquery-validate/1.20.1/localization/messages_lt.js: sha512-Peku162BI3nLhptKuXqVesFYKTwtUwYLYAiv3CzJg9AHibM3iXbW2FeJ+lAElEnInwFX3gTUjruBiXiy4rLdYQ==
+- jquery-validate/1.20.1/localization/messages_id.min.js: sha512-BCO8rWFiFo67bLY36ylXp0GdqwOSG5mD8sXRe5bmw0yNltQKzxZpayUvKaz8jraI/rEq8H1tHlDyRH5ZdwHZwA==
+- jquery-validate/1.20.1/localization/messages_no.js: sha512-vvPhPab3oEb9Oyj/eCjD8SRItbpzO6o9/MW2OMXjs4l8SmhbYkjzA2u0LlIdq6/R9+XsSLjcQFBX/rY5N3gHbA==
+- jquery-validate/1.20.1/localization/messages_hy_AM.js: sha512-JJJH17U6iYc+jWobegfbKsW4Gh0R3EKuNr6j/3ZUJfGfX9ZXjFSl25pmhVUd4oeDIl3MdjvVDiHfGp+RckBduQ==
+- jquery-validate/1.20.1/localization/messages_hy_AM.min.js: sha512-e68vWhpsky1/OKZ17hECoilMf083sqQZ75chyGP2rZC2d1KAfURfe7rw/PsZ6UHBg1d51lZmhhiAaFWgZDNXrw==
+- jquery-validate/1.20.1/localization/messages_tj.min.js: sha512-YIfOUNwLu1hHAY/O679/242nSDcMKcYF+dLg5QHOR/4Y0MPS7S9IL3MDI9z6EjLASxIH8PxpEUPS7mW8XF91SQ==
+- jquery-validate/1.20.1/localization/methods_nl.min.js: sha512-OofnBNqmexNw20QIhz9Nv0pNtoKbzq5Khu81/1qnjaJ7KgibI1F1xzhW2MZ7RnsueE6NJzgdvN5tqNh1WL8ueg==
+- jquery-validate/1.20.1/localization/messages_ca.js: sha512-I1+v+NcV5S+FtdS4WY51QzT5EGOhUTnmGzqNIA618yZZ5XIQpOm32VNEZ/lq6uL5eUcFUn/FfukWlIz8dLkStQ==
+- jquery-validate/1.20.1/localization/messages_fi.min.js: sha512-XLJBRtPesrKoXApjcL3Yr2ZHo/kXcColAW8HkLX752WKVEDkpolODi223f0WkplwcjnuS6rcJ1llarN6gVjEiQ==
+- jquery-validate/1.20.1/localization/messages_hr.js: sha512-Dueb4rxZG83Z2xm6KfpKgifnv8i4AxgSG7hfxVZ+92IG6S4t662g5xWuQ1jX7HQX8VdDiecwUC4Eyco+UjiZrg==
+- jquery-validate/1.20.1/localization/messages_de.js: sha512-q6QxY76COnNMdcLknDq/vXgxoO4MmQWR2uaxB5zaOcCt91ga13g9wlUG1QM1LDarKXQblrIU6cjcsBepDEJP6g==
+- jquery-validate/1.20.1/localization/messages_he.min.js: sha512-5bcazvIbdV0y8QPoeilNTemXtSNMsqi/MnziJwKPV3IWnGwYy+eGhaFv/P5gS94drMxNrOY8y8joZsQ+8kMAOg==
+- jquery-validate/1.20.1/localization/messages_my.js: sha512-95EPk5pTIjdNg6LR02Axj6GJX4qa+VhdLmgkoumb95A2HgItTqDVbFVWKaUSUCY4u4KuJdoTiuCrkT3ECtEiyg==
+- jquery-validate/1.20.1/localization/messages_zh_TW.js: sha512-PLQBPgJBVOgsi7ZYjS3M1nuxluThnk7wWGICV4BE3dbNRSzPd2PvpqLYO3tFS0b0mNWHaPqtpf0cWuO03+Kl6g==
+- jquery-validate/1.20.1/localization/messages_hi.js: sha512-ALt1saBmwxquhcz+mdugyph1DmmOt//Kj7MLA0h8ctWt2n+BDV/9kZCKo6hth1EHONzimIIfWqdyxEKSaW1yaw==
+- jquery-validate/1.20.1/localization/messages_ja.min.js: sha512-rsDrLRdVIQmTnYNHRYbL5k2e2DIlbph/A4TTlcNLNoJphJ66QD6QeGrM9XElpvRZ1L/Zv1/XNlzCHBAyC14Ypg==
+- jquery-validate/1.20.1/localization/messages_my.min.js: sha512-fWMCsx+7hHvf2BUtGhPOkPUpUbIREUPrV2/vb3FAla2QpeeOaUzN2yRCGsZQdC70h5FqPNHH62u9MFv0Q/SCiQ==
+- jquery-validate/1.20.1/localization/messages_sl.min.js: sha512-o4bQKf0BvLxvJabdw8cZrIfqh4JSzkZggV1ovNK5+gNuYZ2vcNISEuOOCtuLWrfZOyJiSIf26UIB8jeuxfK1Dw==
+- jquery-validate/1.20.1/localization/messages_fa.min.js: sha512-piwEtQjXKOO10qiz4pWVukwJT+rpvvpTFGw4dzEB1J5MGF7R5YXpvlNZcvqH8FM5eaNs5ZhBBIR5tPqeKK7pfg==
+- jquery-validate/1.20.1/localization/messages_he.js: sha512-DNPzJ6CPpjFQjotFyxNw1ShWtFYFdyDkM71UBK1unFuxWOzoJ0IlgAF+e2pe7lo9YkkiiyV+80DNgOtP8EYvnA==
+- jquery-validate/1.20.1/localization/messages_kk.min.js: sha512-BKFrIbJvbLhmIGyGFWsc/4xF6yGFxSpkysLAgOZwUdkH5TW8Al1+/T4A4kF9XRvYV9DoZaostd+25npbhusWTw==
+- jquery-validate/1.20.1/localization/messages_nl.min.js: sha512-JCwPm2I4A0IAdtETRO3fkiD5uTKFlq59N9Fa6M0qtNSDs6MZqMqsgX859zJgoJZz2E7t6kii4oD9yeZ/ioNV/A==
+- jquery-validate/1.20.1/localization/methods_de.js: sha512-jge59WuD/za9b32rgCAY77qInOhKpqjDBu86hC1zQyIM39AGAyYxkpxQ+4FWNcghYByXG5g3yqrMcylxkuVrPw==
+- jquery-validate/1.20.1/localization/messages_fa.js: sha512-vOs/Aix5C9nd+TMSRvnHXkraEoCDem/icp8kxxZPCYP5K4YIeNKfL4dri5+RUqp/tEuBKqHgUDsYQnohB22cIw==
+- jquery-validate/1.20.1/localization/messages_id.js: sha512-PSte/pv27o4mhkjqZjpm07SO27iUjkigQxEbpAtMKi+9vkMgALGcm4tQXXk11+PHN7JmvBy7EqNxAhsIUor7JA==
+- jquery-validate/1.20.1/localization/messages_it.js: sha512-XuvGfX9xWKYpI3wuOUPO2GrTY8Q10nqt03U3C21kCTml5gwpYqfJnTnmZcw6c8/YZuXnKOisy7r7WIB6iFHw6w==
+- jquery-validate/1.20.1/localization/messages_cs.js: sha512-jJ6YpDwPXDcWs4qYLlY2h0u0k2M12Eha3Rd/aO6z8GEMQkjoejl21NbXN9BDi86TaD4G8K42UmM2CTD6KN18iA==
+- jquery-validate/1.20.1/localization/messages_de.min.js: sha512-IB7UYqVMStM7wEVDc+gXs1aL/UY1JrdpP6ZfPPGbyB3BeWsQI90CXcVuW7sBSUItP4yHpM2bnKtq1GWoRxmOQw==
+- jquery-validate/1.20.1/localization/methods_it.min.js: sha512-xiQryiiTanlLjOzaFiGPLOmm9TAH3Zei544SzuaAV6nMA56NUOG7Io92aBaoOO/qPDWwgkDM27YBlNAOmHc2eA==
+- jquery-validate/1.20.1/localization/messages_pt_BR.js: sha512-wYhipO0v9m/dZgjWbLU3rwXqY7/2XrGErC68PcZ6vb3yDE4Jmd8ulcfSPBkeObciTiTV3tOkF1GYNE/tJUS9YQ==
+- jquery-validate/1.20.1/localization/messages_ro.js: sha512-Sd6RdPvGLYtPUTGze/I2c7WQuoDagqJCfHi1jHRkOn5DPJ1EX1FIOCGLhWKNAJbNPxNHBPHBZ365tYmR2v/oww==
+- jquery-validate/1.20.1/localization/messages_ru.js: sha512-HtHVEJl8uAubqNZgH+ticHNQ8keD7FrFVBRIOhMcynhKs7Wt8q/tzd1lfADOJj1tsZcc/Hr8ELXJdcMHiiMUOQ==
+- jquery-validate/1.20.1/localization/messages_es_PE.js: sha512-DlD59jN6hUya6U9Vs6Ni+tyA1/JxKbMHA4Zl01zv/XNsVt8/yKnVoPitGnfSw1I4r5J7VPuqddyN/S6A/qQz5g==
+- jquery-validate/1.20.1/localization/messages_hu.min.js: sha512-I8kJNyirt+CsV9ph1mIy9XPCbaSfY9jb6/MyUbJdqz3fg8b90IT6L03bvgV4oQJvq5JO52e1lXGrU/rnAcnciA==
+- jquery-validate/1.20.1/localization/messages_lv.min.js: sha512-xh+m6piCJwouGu2exp7jr3WDXQ3GSlJAbHz2qSghDhCeyaVccSavapnKqRcmqzZsMdVTgmzGS2Wc3eVoTkOm0A==
+- jquery-validate/1.20.1/localization/messages_es_AR.js: sha512-m3JIhgnOsA/gGfH0PEl972xWjok38dmwrfupXidV3fxaX/62Agps0D8SvBWffiD89efwX8S1ZKEkQA3aj71v+Q==
+- jquery-validate/1.20.1/localization/messages_ko.js: sha512-2dJy6OhzhcqOxPyPjN6wzqVVC0BaXorQDevWPM+xsFrV2sxW9vRAFeJXKEDhPWWlFJzEsSE4R8mgDE8SMZUHNQ==
+- jquery-validate/1.20.1/localization/messages_ko.min.js: sha512-4A4Tdicgg10CNWQHj0Z+Damk/rt3zIEA9W9yV/2BoGmj4Co3IrQ53SCX5wC/EWXU3Ymcexd07uxXnCMM+6JW0g==
+- jquery-validate/1.20.1/localization/messages_si.js: sha512-wYLKrET2iY0fENOq+D4AL2XKhPpbyVKtmC6h44rUKZB916MBiaBJ6JFx+qJbeWd57omP6Sa+hN8jWGsnORsAAw==
+- jquery-validate/1.20.1/localization/messages_sv.min.js: sha512-YeWXENZYYjS6I2vvPkO2S9iBsJskh9ryCQHp3o98gb0+yZolZVB28vO3eQ4qR4LLwdpZ2dWLbHXHEdlUg/I9qw==
+- jquery-validate/1.20.1/localization/messages_ar.min.js: sha512-T4qIB6NqA+P5gfQy2Zr7TJpad1tM9Vq74fWAxAl9LakLJud52nYihHtnl1D6Mj7G+Y1QiJmGvgOex/sWVx2bjw==
+- jquery-validate/1.20.1/localization/messages_bg.js: sha512-Ns+f0TvBTnhAp33sDHf5sg2X6E3J3pBvzaK1kOQo4IoZopOC53j0NMC/2JTsBGIALDpKfyl5jmpo4L4MI1B/Kw==
+- jquery-validate/1.20.1/localization/messages_da.min.js: sha512-Ckv62f7WrAE4jHYXNihCqbdZT0rfNDGvekegAO/M2nuw1EBtV23QhTcyi5GlsQZCa2uKvUbcH/5XR6bS2PJQzg==
+- jquery-validate/1.20.1/localization/messages_pt_PT.min.js: sha512-mE8L958M84YTCDvf6YG+KogCeDPWL3f7bCgNWs9HhJSNJxGzKZcU4fe275+JW7GyXbX8meLAwUOMTJ3fLXmN6Q==
+- jquery-validate/1.20.1/localization/messages_el.js: sha512-M3jUFbOi+1NQL+b4q0JKSVro1sH+tvzA0Qn+pwWMYCGsMWzDJbD0ZWXCktdGdjmBHgeQfMRj4YlLzrOiSLvQPw==
+- jquery-validate/1.20.1/localization/methods_pt.js: sha512-M9nEuaF9NYn4YN8F/j8ZNTv0Dhnm0Xyk/uQBrVbHC87HLqp+FwfupJQUAICYtSgNGgNopn3uTPhWQtIubccDuA==
+- jquery-validate/1.20.1/localization/messages_tr.js: sha512-Luq+SzcMLOvwtAYBoiVyjRaPa9N6pgbfYhZxc5mOdJlAxb1M/eWpDrp3xbUxl150mTeLDOKXOYV03akeQx0pTw==
+- jquery-validate/1.20.1/localization/messages_et.min.js: sha512-B/hMg5B/rLRimDhpB39SzbUwWt4VDi0jeJYy7Dty0S4BywjWl3fb04a4K3/0dQooVY49q488hsxnr804yq/4Vg==
+- jquery-validate/1.20.1/localization/messages_fr.min.js: sha512-IvKeHk3LnGX6TKhN6qTpywjG3AukUmoYRK4S9BN6dsX5GE4vg2aMjeG7tyKVSEWO5tdNJY5xUbk18rUD4+dNbA==
+- jquery-validate/1.20.1/localization/messages_sd.js: sha512-T8uFcNbgze8DStxERRJ5WD9xcRuvrJ7qvPwtIrd/7CUjVf1jw6llxjCrqTKtyftzP/V/IZQBATiFzazE0+C43g==
+- jquery-validate/1.20.1/localization/messages_sk.min.js: sha512-/MnriLYcmmy6E2UNxFt1O6oSgrXpf36FqA1ID0XjYQpceP36uQ522T4zFPieVLQrIn5YFd/uT+WVayyF6Xan4w==
+- jquery-validate/1.20.1/localization/messages_da.js: sha512-GxjDt4WMr1Ys5tvmy03zM6nSv/3xvi9IYpQ0W3eS8OjictVYlieladRCownynvCjnkOsYa7ugfCMEIEo2gse7g==
+- jquery-validate/1.20.1/localization/messages_fr.js: sha512-2SIKe/VfWOvs+3XgAg2OGN1KeQHHu2MoyfPe9Mumg0eIJZmLnRIbg1p6iSL4p5QFqVsFqmK8S9jaNSDlAJUY5g==
+- jquery-validate/1.20.1/localization/messages_kk.js: sha512-y4fudkkv+VPweUTQMb/SfRJAW2cNqxD4D/JWgcKv7dvHOr5E7COV61/iKxhvZMwCjpQqsXz1/qMirEp43CO6YQ==
+- jquery-validate/1.20.1/localization/messages_lv.js: sha512-DgVAKajznLbaLq6a9Cmp4aGhJiY5sWiIcOboaIrIsTuHUwxHt8/4gHyf4QiXPRfK2JQc1QXisjyNJfvIp75P5Q==
+- jquery-validate/1.20.1/localization/messages_zh.min.js: sha512-ZyHhXztjU+hm+yIvKmahPiDoCDVd1IpaL/liZIGzIuv0NDw9TqYGs7wbFWXKLiDrK/sZksOj50YmDYX7+0FF/A==
+- jquery-validate/1.20.1/localization/methods_es_CL.js: sha512-g/XucfHnfQwvxkFc7883gwZpA2OlMm1Xf6U/uxKJYx+/d5FLvTMOfsKq9PfEM2ot2qUvaTapz6U/9VwKVL1CxA==
+- jquery-validate/1.20.1/localization/messages_ca.min.js: sha512-SRczhDMFMBDnmEmFY8qZkSchJ2SWzTMOVs98LNKNQLJw20nuiTV8hajwhBd9Q8AOAWG90CYEi65mSNjV45zbng==
+- jquery-validate/1.20.1/localization/messages_zh_TW.min.js: sha512-8Au3xL+Ib67Q5o+Ie9kMDZ97gDqHEeHaz+o8saExXmWVOkD6/2tWZpzgUryBytvSa3yYrShz73Lv16h0n1rOPg==
+- jquery-validate/1.20.1/localization/messages_lt.min.js: sha512-gNgrTHJbKY/bGLxGFT41gRrPwxlM5BwFHzYNjufio68NOOoLX9NE+c6O6RPv06W5FM1L75RiXzYnHstxTdW27Q==
+- jquery-validate/1.20.1/localization/messages_th.js: sha512-LoCO2OaNlg2QjKcDi5WBqmzs+cuZFGXv5bi1+Irgo7NSe1VdCBaar7DI2Z9ti/hzmCM/ANhdt7x8ZpjQbJYLSg==
+- jquery-validate/1.20.1/localization/messages_bn_BD.min.js: sha512-hGictFQ+T7aC0ReA87EEmIEdDVnoBIyhHbecdkIpQqbqogVSpyRzycs+3WAWVXgXADjREjKyw7h6EwdkHPVwQw==
+- jquery-validate/1.20.1/localization/messages_es.js: sha512-BelqBWmr2S/7J15TdoH8K5/uTBVrJLz1j0LfEO3OhLeH4adb2nFFGLCB2SS48yNqBOWYIAbd3nBvqp1VodyqWQ==
+- jquery-validate/1.20.1/localization/messages_hu.js: sha512-nb0j9av82p6/ywEIpKWRs68VfyerGELUNVk5PVLZ3ojmxhHOCkhjpnMof9zAYxpjl4H8oEVvYILsSOXQkjKfDw==
+- jquery-validate/1.20.1/localization/messages_az.js: sha512-qDFlXUq1WJsAURAzydj8WEWVO9YDro3fyi/VtUHO/jf3BOJKfUIxuqNArob9B0G7ccEqmy0YWtY6ddjBLYJBzQ==
+- jquery-validate/1.20.1/localization/messages_bn_BD.js: sha512-pg09FVGCrmdSoGeS0MLgwT8n07qjpdU0Nc8PtgvUFj1sd/YFNyooxIm5XQ9VasrT0wuC4QZ2FVNkrEoEeGI2cw==
+- jquery-validate/1.20.1/localization/messages_eu.js: sha512-D+J8M9LZwwEu60c5gbB4LixXbzLqY4Ltaz2l1bHYJPs4msdx+PLrQFNf5F/V+ylwTyttH7SlGTC1IInIXFBcig==
+- jquery-validate/1.20.1/localization/messages_no.min.js: sha512-I8tMA9EY2dgr9S3ZXwRuLRVQ15pa94j/4ZloJdsh0oXL5Ulys66ieUn0Sw7oiqq+1w5Q33NwYW6XFHLjBewB6g==
+- jquery-validate/1.20.1/localization/messages_uk.min.js: sha512-SrC41//o0liAiKJ6iKbm8wqUn1SMjLotypGzHEmOh5ufx1YxJTjFeprqUuRhrTQ/xUwCoQc+z9+jAKMp8lF8WQ==
+- jquery-validate/1.20.1/localization/methods_it.js: sha512-K/ZJ5i98D68e2gaUw3dRuS7EfW786Rm5LNUIjDAvRsYg/87gl3ebWaUn6ghYTxVaL7d0W9nHvHkQbk1pHalxWw==
+- jquery-validate/1.20.1/localization/messages_az.min.js: sha512-XGcYvWE9zrXLSxnVz3cheBOKQhIrIpB4C2IJpo+MZ1AyaJfPeRCe99HUeMEK2lDjfeGLxri3IjxjrNllOEz73w==
+- jquery-validate/1.20.1/localization/messages_bg.min.js: sha512-fxPv6msvUji1QeXlloDv7HySep7yTn02OLn6Q0pAG+lp13sttt/tlmYVl8aO5R9G6R+UQ1uMYrrzHUBYQhGItg==
+- jquery-validate/1.20.1/localization/messages_es.min.js: sha512-+fq3IG0/cercCJgU0b7UMU0HopTcuyMPFfXqT8f1Ik8l9pNoiUMZvbSVc/EEaAJdXlWB9ccyT4iLTLOVwfSQoA==
+- jquery-validate/1.20.1/localization/messages_ro.min.js: sha512-RiOkvKPxRC3tGxQK69v24qVskLG0Pg0j3mq+yn5um6SEJL+VH/jP3OMo4tU12OnHaHIYRRmFJZvWNyC2g0BQ3Q==
+- jquery-validate/1.20.1/localization/messages_ur.min.js: sha512-kADoiyUhaojfT2Mwp0YA2Tll4O00Ke3Z7NbgEBfQxJQq5umlVP1OnZd0G1l2++WifsrH03CW/8amnNiFER7+mw==
+- jquery-validate/1.20.1/localization/methods_nl.js: sha512-CJzyiYlglucayWU1lpdRSaFb1PMnijr6YjwK8Idp2y8lyik8Y485DVucK6IDymvViD67vdUvHBu1C6eL52OVHg==
+- jquery-validate/1.20.1/localization/messages_sk.js: sha512-oi62V8y18cr+IUybAB8lsMtmSGVSwIXoCic8gi9hwJJwh2MPBUnscLp9O6/qabug0o3DHxU5UkukiAMXn4fpVQ==
+- jquery-validate/1.20.1/localization/messages_sr.min.js: sha512-SeIuye5mzUJurCZwq/emEVzd5ywuUgzpgYKpZEfdYugsT1/rjyRh5mr+2V2A/DTAQfHkOTZcGloIVFprN12kFQ==
+- jquery-validate/1.20.1/localization/methods_pt.min.js: sha512-4PAafY+xe/evTUWqEVo21Id5L74sDJG4OgAlZG6JtyrKWomqGf+vwsFEY9iWIs9CXQxSTOLTu6RATWptTmXJXw==
+- jquery-validate/1.20.1/localization/messages_cs.min.js: sha512-FHEPcPm8qVBlFmC6Gva/GLR1jLWtzGxZpQS232LWQ2UIEJZCtImZgBOscw8o1jDdkrbQUnEn7vJr3ooYmNkAMw==
+- jquery-validate/1.20.1/localization/messages_eu.min.js: sha512-shfYsXp6QMqdSRwoG/f728BEyIMXZC3TTP8mXbVY8BYKLPgXoEYKOWUXG1j6zYJDi4gGzcbbjBY/Pey3erzbwA==
+- jquery-validate/1.20.1/localization/messages_gl.js: sha512-nsHgWjcFuFJQHdD8wW8XN/3W2/7xc3uCMRNgbJi5LOgIPxj+hteVpXT8CmMZPsQezBOC2o8h/fogYq89Azbf0Q==
+- jquery-validate/1.20.1/localization/messages_fi.js: sha512-KX2u5XOjRTSDJBPA/8y+jQMddZXsR8wkIjr8BoxiDPCU3W3nTUSgvsCR/MiziO+AYK/h8TfXt9kK3iI6oMzYWQ==
+- jquery-validate/1.20.1/localization/messages_is.js: sha512-o96OEMCYkmXQ9wWq/R88OpFjSSYIaQ2YY8oEUzR9o1qchSXDIO0IppYUEW97MgfsuPUY5MO0ez6WUxnw9nD/OA==
+- jquery-validate/1.20.1/localization/messages_zh.js: sha512-h1ZkqCUBhcEDuZCTDEYshQotE+nPr/bO8DEIeC2e+YLDJhc80l965M42hhYrbGg59BPcbleXLxXUIA/1olGj8Q==
