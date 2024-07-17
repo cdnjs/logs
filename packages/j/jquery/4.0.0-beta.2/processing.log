@@ -1,0 +1,67 @@
+2024/07/17 14:01:31 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/07/17 14:01:31 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/jquery.factory.min.js /tmp/work/dist/jquery.factory.js]
+2024/07/17 14:01:31 /tmp/work/dist/jquery.min.js already has corresponding compressed file
+2024/07/17 14:01:31 /tmp/work/dist/jquery.min.js is already compressed
+2024/07/17 14:01:31 sri /tmp/work/dist/jquery.min.js -> /output/jquery.min.js.sri
+2024/07/17 14:01:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jquery.min.js.br /tmp/work/dist/jquery.min.js
+2024/07/17 14:01:31 /tmp/work/dist/jquery.slim.min.js already has corresponding compressed file
+2024/07/17 14:01:31 sri /tmp/work/dist/jquery.js -> /output/jquery.js.sri
+2024/07/17 14:01:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jquery.js.br /tmp/work/dist/jquery.js
+2024/07/17 14:01:31 /tmp/work/dist/jquery.slim.min.js is already compressed
+2024/07/17 14:01:31 sri /tmp/work/dist/jquery.slim.min.js -> /output/jquery.slim.min.js.sri
+2024/07/17 14:01:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jquery.slim.min.js.br /tmp/work/dist/jquery.slim.min.js
+2024/07/17 14:01:31 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/jquery.factory.slim.min.js /tmp/work/dist/jquery.factory.slim.js]
+2024/07/17 14:01:31 sri /tmp/work/dist/jquery.slim.js -> /output/jquery.slim.js.sri
+2024/07/17 14:01:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jquery.slim.js.br /tmp/work/dist/jquery.slim.js
+2024/07/17 14:01:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jquery.min.map.br /tmp/work/dist/jquery.min.map
+2024/07/17 14:01:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jquery.slim.min.map.br /tmp/work/dist/jquery.slim.min.map
+2024/07/17 14:01:31 br /tmp/work/dist/jquery.slim.min.js -> /output/jquery.slim.min.js.br
+2024/07/17 14:01:31 gz /tmp/work/dist/jquery.slim.min.js -> /output/jquery.slim.min.js.gz
+2024/07/17 14:01:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/package.json.br /tmp/work/dist/package.json
+2024/07/17 14:01:31 br /tmp/work/dist/package.json -> /output/package.json.br
+2024/07/17 14:01:31 gz /tmp/work/dist/package.json -> /output/package.json.gz
+2024/07/17 14:01:31 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/wrappers/jquery.bundler-require-wrapper.min.js /tmp/work/dist/wrappers/jquery.bundler-require-wrapper.js]
+2024/07/17 14:01:31 br /tmp/work/dist/jquery.min.js -> /output/jquery.min.js.br
+2024/07/17 14:01:31 gz /tmp/work/dist/jquery.min.js -> /output/jquery.min.js.gz
+2024/07/17 14:01:31 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/wrappers/jquery.bundler-require-wrapper.slim.min.js /tmp/work/dist/wrappers/jquery.bundler-require-wrapper.slim.js]
+2024/07/17 14:01:31 br /tmp/work/dist/jquery.slim.min.map -> /output/jquery.slim.min.map.br
+2024/07/17 14:01:31 gz /tmp/work/dist/jquery.slim.min.map -> /output/jquery.slim.min.map.gz
+2024/07/17 14:01:31 sri /tmp/work/dist/wrappers/jquery.bundler-require-wrapper.min.js -> /output/wrappers/jquery.bundler-require-wrapper.min.js.sri
+2024/07/17 14:01:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/wrappers/jquery.bundler-require-wrapper.min.js.br /tmp/work/dist/wrappers/jquery.bundler-require-wrapper.min.js
+2024/07/17 14:01:31 br /tmp/work/dist/wrappers/jquery.bundler-require-wrapper.min.js -> /output/wrappers/jquery.bundler-require-wrapper.min.js.br
+2024/07/17 14:01:31 gz /tmp/work/dist/wrappers/jquery.bundler-require-wrapper.min.js -> /output/wrappers/jquery.bundler-require-wrapper.min.js.gz
+2024/07/17 14:01:31 sri /tmp/work/dist/wrappers/jquery.bundler-require-wrapper.js -> /output/wrappers/jquery.bundler-require-wrapper.js.sri
+2024/07/17 14:01:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/wrappers/jquery.bundler-require-wrapper.js.br /tmp/work/dist/wrappers/jquery.bundler-require-wrapper.js
+2024/07/17 14:01:31 br /tmp/work/dist/wrappers/jquery.bundler-require-wrapper.js -> /output/wrappers/jquery.bundler-require-wrapper.js.br
+2024/07/17 14:01:31 gz /tmp/work/dist/wrappers/jquery.bundler-require-wrapper.js -> /output/wrappers/jquery.bundler-require-wrapper.js.gz
+2024/07/17 14:01:32 sri /tmp/work/dist/wrappers/jquery.bundler-require-wrapper.slim.min.js -> /output/wrappers/jquery.bundler-require-wrapper.slim.min.js.sri
+2024/07/17 14:01:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/wrappers/jquery.bundler-require-wrapper.slim.min.js.br /tmp/work/dist/wrappers/jquery.bundler-require-wrapper.slim.min.js
+2024/07/17 14:01:32 br /tmp/work/dist/wrappers/jquery.bundler-require-wrapper.slim.min.js -> /output/wrappers/jquery.bundler-require-wrapper.slim.min.js.br
+2024/07/17 14:01:32 gz /tmp/work/dist/wrappers/jquery.bundler-require-wrapper.slim.min.js -> /output/wrappers/jquery.bundler-require-wrapper.slim.min.js.gz
+2024/07/17 14:01:32 sri /tmp/work/dist/wrappers/jquery.bundler-require-wrapper.slim.js -> /output/wrappers/jquery.bundler-require-wrapper.slim.js.sri
+2024/07/17 14:01:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/wrappers/jquery.bundler-require-wrapper.slim.js.br /tmp/work/dist/wrappers/jquery.bundler-require-wrapper.slim.js
+2024/07/17 14:01:32 br /tmp/work/dist/wrappers/jquery.bundler-require-wrapper.slim.js -> /output/wrappers/jquery.bundler-require-wrapper.slim.js.br
+2024/07/17 14:01:32 gz /tmp/work/dist/wrappers/jquery.bundler-require-wrapper.slim.js -> /output/wrappers/jquery.bundler-require-wrapper.slim.js.gz
+2024/07/17 14:01:32 br /tmp/work/dist/jquery.slim.js -> /output/jquery.slim.js.br
+2024/07/17 14:01:32 gz /tmp/work/dist/jquery.slim.js -> /output/jquery.slim.js.gz
+2024/07/17 14:01:32 br /tmp/work/dist/jquery.min.map -> /output/jquery.min.map.br
+2024/07/17 14:01:32 gz /tmp/work/dist/jquery.min.map -> /output/jquery.min.map.gz
+2024/07/17 14:01:32 br /tmp/work/dist/jquery.js -> /output/jquery.js.br
+2024/07/17 14:01:32 gz /tmp/work/dist/jquery.js -> /output/jquery.js.gz
+2024/07/17 14:01:34 sri /tmp/work/dist/jquery.factory.slim.min.js -> /output/jquery.factory.slim.min.js.sri
+2024/07/17 14:01:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jquery.factory.slim.min.js.br /tmp/work/dist/jquery.factory.slim.min.js
+2024/07/17 14:01:34 br /tmp/work/dist/jquery.factory.slim.min.js -> /output/jquery.factory.slim.min.js.br
+2024/07/17 14:01:34 gz /tmp/work/dist/jquery.factory.slim.min.js -> /output/jquery.factory.slim.min.js.gz
+2024/07/17 14:01:34 sri /tmp/work/dist/jquery.factory.slim.js -> /output/jquery.factory.slim.js.sri
+2024/07/17 14:01:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jquery.factory.slim.js.br /tmp/work/dist/jquery.factory.slim.js
+2024/07/17 14:01:35 br /tmp/work/dist/jquery.factory.slim.js -> /output/jquery.factory.slim.js.br
+2024/07/17 14:01:35 gz /tmp/work/dist/jquery.factory.slim.js -> /output/jquery.factory.slim.js.gz
+2024/07/17 14:01:35 sri /tmp/work/dist/jquery.factory.min.js -> /output/jquery.factory.min.js.sri
+2024/07/17 14:01:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jquery.factory.min.js.br /tmp/work/dist/jquery.factory.min.js
+2024/07/17 14:01:35 br /tmp/work/dist/jquery.factory.min.js -> /output/jquery.factory.min.js.br
+2024/07/17 14:01:35 gz /tmp/work/dist/jquery.factory.min.js -> /output/jquery.factory.min.js.gz
+2024/07/17 14:01:35 sri /tmp/work/dist/jquery.factory.js -> /output/jquery.factory.js.sri
+2024/07/17 14:01:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/jquery.factory.js.br /tmp/work/dist/jquery.factory.js
+2024/07/17 14:01:36 br /tmp/work/dist/jquery.factory.js -> /output/jquery.factory.js.br
+2024/07/17 14:01:36 gz /tmp/work/dist/jquery.factory.js -> /output/jquery.factory.js.gz
+2024/07/17 14:01:36 processed jquery
