@@ -1,0 +1,20 @@
+2024/07/20 02:30:21 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/07/20 02:30:21 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/qunit/qunit.min.js /tmp/work/qunit/qunit.js]
+2024/07/20 02:30:21 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/qunit/qunit.min.css /tmp/work/qunit/qunit.css]
+2024/07/20 02:30:21 sri /tmp/work/qunit/qunit.min.css -> /output/qunit.min.css.sri
+2024/07/20 02:30:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/qunit.min.css.br /tmp/work/qunit/qunit.min.css
+2024/07/20 02:30:21 br /tmp/work/qunit/qunit.min.css -> /output/qunit.min.css.br
+2024/07/20 02:30:21 gz /tmp/work/qunit/qunit.min.css -> /output/qunit.min.css.gz
+2024/07/20 02:30:21 sri /tmp/work/qunit/qunit.css -> /output/qunit.css.sri
+2024/07/20 02:30:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/qunit.css.br /tmp/work/qunit/qunit.css
+2024/07/20 02:30:21 br /tmp/work/qunit/qunit.css -> /output/qunit.css.br
+2024/07/20 02:30:21 gz /tmp/work/qunit/qunit.css -> /output/qunit.css.gz
+2024/07/20 02:30:22 sri /tmp/work/qunit/qunit.min.js -> /output/qunit.min.js.sri
+2024/07/20 02:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/qunit.min.js.br /tmp/work/qunit/qunit.min.js
+2024/07/20 02:30:22 br /tmp/work/qunit/qunit.min.js -> /output/qunit.min.js.br
+2024/07/20 02:30:22 gz /tmp/work/qunit/qunit.min.js -> /output/qunit.min.js.gz
+2024/07/20 02:30:22 sri /tmp/work/qunit/qunit.js -> /output/qunit.js.sri
+2024/07/20 02:30:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/qunit.js.br /tmp/work/qunit/qunit.js
+2024/07/20 02:30:22 br /tmp/work/qunit/qunit.js -> /output/qunit.js.br
+2024/07/20 02:30:23 gz /tmp/work/qunit/qunit.js -> /output/qunit.js.gz
+2024/07/20 02:30:23 processed qunit
