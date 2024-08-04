@@ -1,0 +1,350 @@
+2024/08/04 19:31:32 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/08/04 19:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/constants/constants.min.js /tmp/work/build/module/src/constants/constants.js]
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/constants/constants.d.ts.br /tmp/work/build/module/src/constants/constants.d.ts
+2024/08/04 19:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/index.min.js /tmp/work/build/module/src/index.js]
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.d.ts.br /tmp/work/build/module/src/index.d.ts
+2024/08/04 19:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/constants/interfaces.min.js /tmp/work/build/module/src/constants/interfaces.js]
+2024/08/04 19:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/lib/decodeData.min.js /tmp/work/build/module/src/lib/decodeData.js]
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/decodeData.d.ts.br /tmp/work/build/module/src/lib/decodeData.d.ts
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/constants/interfaces.d.ts.br /tmp/work/build/module/src/constants/interfaces.d.ts
+2024/08/04 19:31:32 br /tmp/work/build/module/src/constants/interfaces.d.ts -> /output/constants/interfaces.d.ts.br
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/decodeData.d.ts -> /output/lib/decodeData.d.ts.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/constants/interfaces.d.ts -> /output/constants/interfaces.d.ts.gz
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/decodeMappingKey.d.ts.br /tmp/work/build/module/src/lib/decodeMappingKey.d.ts
+2024/08/04 19:31:32 br /tmp/work/build/module/src/constants/constants.d.ts -> /output/constants/constants.d.ts.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/decodeData.d.ts -> /output/lib/decodeData.d.ts.gz
+2024/08/04 19:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/lib/decodeMappingKey.min.js /tmp/work/build/module/src/lib/decodeMappingKey.js]
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/constants/constants.d.ts -> /output/constants/constants.d.ts.gz
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/detector.d.ts.br /tmp/work/build/module/src/lib/detector.d.ts
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/decodeMappingKey.d.ts -> /output/lib/decodeMappingKey.d.ts.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/decodeMappingKey.d.ts -> /output/lib/decodeMappingKey.d.ts.gz
+2024/08/04 19:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/lib/detector.min.js /tmp/work/build/module/src/lib/detector.js]
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/detector.d.ts -> /output/lib/detector.d.ts.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/detector.d.ts -> /output/lib/detector.d.ts.gz
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/encodeKeyName.d.ts.br /tmp/work/build/module/src/lib/encodeKeyName.d.ts
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/encodeKeyName.d.ts -> /output/lib/encodeKeyName.d.ts.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/encodeKeyName.d.ts -> /output/lib/encodeKeyName.d.ts.gz
+2024/08/04 19:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/lib/encodeKeyName.min.js /tmp/work/build/module/src/lib/encodeKeyName.js]
+2024/08/04 19:31:32 br /tmp/work/build/module/src/index.d.ts -> /output/index.d.ts.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/index.d.ts -> /output/index.d.ts.gz
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/encoder.d.ts.br /tmp/work/build/module/src/lib/encoder.d.ts
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/encoder.d.ts -> /output/lib/encoder.d.ts.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/encoder.d.ts -> /output/lib/encoder.d.ts.gz
+2024/08/04 19:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/lib/encoder.min.js /tmp/work/build/module/src/lib/encoder.js]
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/constants/interfaces.min.js -> /output/constants/interfaces.min.js.sri
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/constants/interfaces.min.js.br /tmp/work/build/module/src/constants/interfaces.min.js
+2024/08/04 19:31:32 br /tmp/work/build/module/src/constants/interfaces.min.js -> /output/constants/interfaces.min.js.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/constants/interfaces.min.js -> /output/constants/interfaces.min.js.gz
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/constants/interfaces.js -> /output/constants/interfaces.js.sri
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/constants/interfaces.js.br /tmp/work/build/module/src/constants/interfaces.js
+2024/08/04 19:31:32 br /tmp/work/build/module/src/constants/interfaces.js -> /output/constants/interfaces.js.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/constants/interfaces.js -> /output/constants/interfaces.js.gz
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/getData.d.ts.br /tmp/work/build/module/src/lib/getData.d.ts
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/getData.d.ts -> /output/lib/getData.d.ts.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/getData.d.ts -> /output/lib/getData.d.ts.gz
+2024/08/04 19:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/lib/getData.min.js /tmp/work/build/module/src/lib/getData.js]
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/constants/constants.min.js -> /output/constants/constants.min.js.sri
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/constants/constants.min.js.br /tmp/work/build/module/src/constants/constants.min.js
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/lib/detector.min.js -> /output/lib/detector.min.js.sri
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/detector.min.js.br /tmp/work/build/module/src/lib/detector.min.js
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/lib/decodeMappingKey.min.js -> /output/lib/decodeMappingKey.min.js.sri
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/decodeMappingKey.min.js.br /tmp/work/build/module/src/lib/decodeMappingKey.min.js
+2024/08/04 19:31:32 br /tmp/work/build/module/src/constants/constants.min.js -> /output/constants/constants.min.js.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/constants/constants.min.js -> /output/constants/constants.min.js.gz
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/constants/constants.js -> /output/constants/constants.js.sri
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/constants/constants.js.br /tmp/work/build/module/src/constants/constants.js
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/detector.min.js -> /output/lib/detector.min.js.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/detector.min.js -> /output/lib/detector.min.js.gz
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/lib/detector.js -> /output/lib/detector.js.sri
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/detector.js.br /tmp/work/build/module/src/lib/detector.js
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/decodeMappingKey.min.js -> /output/lib/decodeMappingKey.min.js.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/decodeMappingKey.min.js -> /output/lib/decodeMappingKey.min.js.gz
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/lib/decodeMappingKey.js -> /output/lib/decodeMappingKey.js.sri
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/decodeMappingKey.js.br /tmp/work/build/module/src/lib/decodeMappingKey.js
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/decodeMappingKey.js -> /output/lib/decodeMappingKey.js.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/decodeMappingKey.js -> /output/lib/decodeMappingKey.js.gz
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/getDataFromExternalSources.d.ts.br /tmp/work/build/module/src/lib/getDataFromExternalSources.d.ts
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/detector.js -> /output/lib/detector.js.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/detector.js -> /output/lib/detector.js.gz
+2024/08/04 19:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/lib/getDataFromExternalSources.min.js /tmp/work/build/module/src/lib/getDataFromExternalSources.js]
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/getDataFromExternalSources.d.ts -> /output/lib/getDataFromExternalSources.d.ts.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/getDataFromExternalSources.d.ts -> /output/lib/getDataFromExternalSources.d.ts.gz
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/getSchemaElement.d.ts.br /tmp/work/build/module/src/lib/getSchemaElement.d.ts
+2024/08/04 19:31:32 br /tmp/work/build/module/src/constants/constants.js -> /output/constants/constants.js.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/constants/constants.js -> /output/constants/constants.js.gz
+2024/08/04 19:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/lib/getSchemaElement.min.js /tmp/work/build/module/src/lib/getSchemaElement.js]
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/getSchemaElement.d.ts -> /output/lib/getSchemaElement.d.ts.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/getSchemaElement.d.ts -> /output/lib/getSchemaElement.d.ts.gz
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/isValidSignature.d.ts.br /tmp/work/build/module/src/lib/isValidSignature.d.ts
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/isValidSignature.d.ts -> /output/lib/isValidSignature.d.ts.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/isValidSignature.d.ts -> /output/lib/isValidSignature.d.ts.gz
+2024/08/04 19:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/lib/isValidSignature.min.js /tmp/work/build/module/src/lib/isValidSignature.js]
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/lib/encodeKeyName.min.js -> /output/lib/encodeKeyName.min.js.sri
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/encodeKeyName.min.js.br /tmp/work/build/module/src/lib/encodeKeyName.min.js
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/lib/decodeData.min.js -> /output/lib/decodeData.min.js.sri
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/decodeData.min.js.br /tmp/work/build/module/src/lib/decodeData.min.js
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/decodeData.min.js -> /output/lib/decodeData.min.js.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/decodeData.min.js -> /output/lib/decodeData.min.js.gz
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/lib/decodeData.js -> /output/lib/decodeData.js.sri
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/decodeData.js.br /tmp/work/build/module/src/lib/decodeData.js
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/encodeKeyName.min.js -> /output/lib/encodeKeyName.min.js.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/encodeKeyName.min.js -> /output/lib/encodeKeyName.min.js.gz
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/lib/encodeKeyName.js -> /output/lib/encodeKeyName.js.sri
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/encodeKeyName.js.br /tmp/work/build/module/src/lib/encodeKeyName.js
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/index.min.js -> /output/index.min.js.sri
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/build/module/src/index.min.js
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/decodeData.js -> /output/lib/decodeData.js.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/decodeData.js -> /output/lib/decodeData.js.gz
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/permissions.d.ts.br /tmp/work/build/module/src/lib/permissions.d.ts
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/encodeKeyName.js -> /output/lib/encodeKeyName.js.br
+2024/08/04 19:31:32 br /tmp/work/build/module/src/index.min.js -> /output/index.min.js.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/encodeKeyName.js -> /output/lib/encodeKeyName.js.gz
+2024/08/04 19:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/lib/permissions.min.js /tmp/work/build/module/src/lib/permissions.js]
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/index.min.js -> /output/index.min.js.gz
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/index.js -> /output/index.js.sri
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/build/module/src/index.js
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/permissions.d.ts -> /output/lib/permissions.d.ts.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/permissions.d.ts -> /output/lib/permissions.d.ts.gz
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/provider-wrapper-utils.d.ts.br /tmp/work/build/module/src/lib/provider-wrapper-utils.d.ts
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/provider-wrapper-utils.d.ts -> /output/lib/provider-wrapper-utils.d.ts.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/provider-wrapper-utils.d.ts -> /output/lib/provider-wrapper-utils.d.ts.gz
+2024/08/04 19:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/lib/provider-wrapper-utils.min.js /tmp/work/build/module/src/lib/provider-wrapper-utils.js]
+2024/08/04 19:31:32 br /tmp/work/build/module/src/index.js -> /output/index.js.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/index.js -> /output/index.js.gz
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/schemaParser.d.ts.br /tmp/work/build/module/src/lib/schemaParser.d.ts
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/schemaParser.d.ts -> /output/lib/schemaParser.d.ts.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/schemaParser.d.ts -> /output/lib/schemaParser.d.ts.gz
+2024/08/04 19:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/lib/schemaParser.min.js /tmp/work/build/module/src/lib/schemaParser.js]
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/lib/getData.min.js -> /output/lib/getData.min.js.sri
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/getData.min.js.br /tmp/work/build/module/src/lib/getData.min.js
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/getData.min.js -> /output/lib/getData.min.js.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/getData.min.js -> /output/lib/getData.min.js.gz
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/lib/getData.js -> /output/lib/getData.js.sri
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/getData.js.br /tmp/work/build/module/src/lib/getData.js
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/lib/getSchemaElement.min.js -> /output/lib/getSchemaElement.min.js.sri
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/getSchemaElement.min.js.br /tmp/work/build/module/src/lib/getSchemaElement.min.js
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/getSchemaElement.min.js -> /output/lib/getSchemaElement.min.js.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/getSchemaElement.min.js -> /output/lib/getSchemaElement.min.js.gz
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/lib/getSchemaElement.js -> /output/lib/getSchemaElement.js.sri
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/getSchemaElement.js.br /tmp/work/build/module/src/lib/getSchemaElement.js
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/getData.js -> /output/lib/getData.js.br
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/getSchemaElement.js -> /output/lib/getSchemaElement.js.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/getSchemaElement.js -> /output/lib/getSchemaElement.js.gz
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/utils.d.ts.br /tmp/work/build/module/src/lib/utils.d.ts
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/getData.js -> /output/lib/getData.js.gz
+2024/08/04 19:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/lib/utils.min.js /tmp/work/build/module/src/lib/utils.js]
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/lib/isValidSignature.min.js -> /output/lib/isValidSignature.min.js.sri
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/isValidSignature.min.js.br /tmp/work/build/module/src/lib/isValidSignature.min.js
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/utils.d.ts -> /output/lib/utils.d.ts.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/utils.d.ts -> /output/lib/utils.d.ts.gz
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/provider/providerWrapper.d.ts.br /tmp/work/build/module/src/provider/providerWrapper.d.ts
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/isValidSignature.min.js -> /output/lib/isValidSignature.min.js.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/isValidSignature.min.js -> /output/lib/isValidSignature.min.js.gz
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/lib/isValidSignature.js -> /output/lib/isValidSignature.js.sri
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/isValidSignature.js.br /tmp/work/build/module/src/lib/isValidSignature.js
+2024/08/04 19:31:32 br /tmp/work/build/module/src/provider/providerWrapper.d.ts -> /output/provider/providerWrapper.d.ts.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/provider/providerWrapper.d.ts -> /output/provider/providerWrapper.d.ts.gz
+2024/08/04 19:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/provider/providerWrapper.min.js /tmp/work/build/module/src/provider/providerWrapper.js]
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/isValidSignature.js -> /output/lib/isValidSignature.js.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/isValidSignature.js -> /output/lib/isValidSignature.js.gz
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schemas/index.d.ts.br /tmp/work/build/module/src/schemas/index.d.ts
+2024/08/04 19:31:32 br /tmp/work/build/module/src/schemas/index.d.ts -> /output/schemas/index.d.ts.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/schemas/index.d.ts -> /output/schemas/index.d.ts.gz
+2024/08/04 19:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/schemas/index.min.js /tmp/work/build/module/src/schemas/index.js]
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/lib/encoder.min.js -> /output/lib/encoder.min.js.sri
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/encoder.min.js.br /tmp/work/build/module/src/lib/encoder.min.js
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/lib/getDataFromExternalSources.min.js -> /output/lib/getDataFromExternalSources.min.js.sri
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/getDataFromExternalSources.min.js.br /tmp/work/build/module/src/lib/getDataFromExternalSources.min.js
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/getDataFromExternalSources.min.js -> /output/lib/getDataFromExternalSources.min.js.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/getDataFromExternalSources.min.js -> /output/lib/getDataFromExternalSources.min.js.gz
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/lib/getDataFromExternalSources.js -> /output/lib/getDataFromExternalSources.js.sri
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/getDataFromExternalSources.js.br /tmp/work/build/module/src/lib/getDataFromExternalSources.js
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/encoder.min.js -> /output/lib/encoder.min.js.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/encoder.min.js -> /output/lib/encoder.min.js.gz
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/lib/encoder.js -> /output/lib/encoder.js.sri
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/encoder.js.br /tmp/work/build/module/src/lib/encoder.js
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/getDataFromExternalSources.js -> /output/lib/getDataFromExternalSources.js.br
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/lib/permissions.min.js -> /output/lib/permissions.min.js.sri
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/getDataFromExternalSources.js -> /output/lib/getDataFromExternalSources.js.gz
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/permissions.min.js.br /tmp/work/build/module/src/lib/permissions.min.js
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/Config.d.ts.br /tmp/work/build/module/src/types/Config.d.ts
+2024/08/04 19:31:32 br /tmp/work/build/module/src/types/Config.d.ts -> /output/types/Config.d.ts.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/types/Config.d.ts -> /output/types/Config.d.ts.gz
+2024/08/04 19:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/types/Config.min.js /tmp/work/build/module/src/types/Config.js]
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/permissions.min.js -> /output/lib/permissions.min.js.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/permissions.min.js -> /output/lib/permissions.min.js.gz
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/lib/permissions.js -> /output/lib/permissions.js.sri
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/permissions.js.br /tmp/work/build/module/src/lib/permissions.js
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/lib/provider-wrapper-utils.min.js -> /output/lib/provider-wrapper-utils.min.js.sri
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/provider-wrapper-utils.min.js.br /tmp/work/build/module/src/lib/provider-wrapper-utils.min.js
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/provider-wrapper-utils.min.js -> /output/lib/provider-wrapper-utils.min.js.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/provider-wrapper-utils.min.js -> /output/lib/provider-wrapper-utils.min.js.gz
+2024/08/04 19:31:32 sri /tmp/work/build/module/src/lib/provider-wrapper-utils.js -> /output/lib/provider-wrapper-utils.js.sri
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/provider-wrapper-utils.js.br /tmp/work/build/module/src/lib/provider-wrapper-utils.js
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/permissions.js -> /output/lib/permissions.js.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/permissions.js -> /output/lib/permissions.js.gz
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/decodeData.d.ts.br /tmp/work/build/module/src/types/decodeData.d.ts
+2024/08/04 19:31:32 br /tmp/work/build/module/src/types/decodeData.d.ts -> /output/types/decodeData.d.ts.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/types/decodeData.d.ts -> /output/types/decodeData.d.ts.gz
+2024/08/04 19:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/types/decodeData.min.js /tmp/work/build/module/src/types/decodeData.js]
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/provider-wrapper-utils.js -> /output/lib/provider-wrapper-utils.js.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/lib/provider-wrapper-utils.js -> /output/lib/provider-wrapper-utils.js.gz
+2024/08/04 19:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/dynamicKeys.d.ts.br /tmp/work/build/module/src/types/dynamicKeys.d.ts
+2024/08/04 19:31:32 br /tmp/work/build/module/src/types/dynamicKeys.d.ts -> /output/types/dynamicKeys.d.ts.br
+2024/08/04 19:31:32 gz /tmp/work/build/module/src/types/dynamicKeys.d.ts -> /output/types/dynamicKeys.d.ts.gz
+2024/08/04 19:31:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/types/dynamicKeys.min.js /tmp/work/build/module/src/types/dynamicKeys.js]
+2024/08/04 19:31:32 br /tmp/work/build/module/src/lib/encoder.js -> /output/lib/encoder.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/lib/encoder.js -> /output/lib/encoder.js.gz
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/encodeData/index.d.ts.br /tmp/work/build/module/src/types/encodeData/index.d.ts
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/encodeData/index.d.ts -> /output/types/encodeData/index.d.ts.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/encodeData/index.d.ts -> /output/types/encodeData/index.d.ts.gz
+2024/08/04 19:31:33 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/types/encodeData/index.min.js /tmp/work/build/module/src/types/encodeData/index.js]
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/lib/schemaParser.min.js -> /output/lib/schemaParser.min.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/schemaParser.min.js.br /tmp/work/build/module/src/lib/schemaParser.min.js
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/schemas/index.min.js -> /output/schemas/index.min.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schemas/index.min.js.br /tmp/work/build/module/src/schemas/index.min.js
+2024/08/04 19:31:33 br /tmp/work/build/module/src/schemas/index.min.js -> /output/schemas/index.min.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/schemas/index.min.js -> /output/schemas/index.min.js.gz
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/schemas/index.js -> /output/schemas/index.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schemas/index.js.br /tmp/work/build/module/src/schemas/index.js
+2024/08/04 19:31:33 br /tmp/work/build/module/src/lib/schemaParser.min.js -> /output/lib/schemaParser.min.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/lib/schemaParser.min.js -> /output/lib/schemaParser.min.js.gz
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/lib/schemaParser.js -> /output/lib/schemaParser.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/schemaParser.js.br /tmp/work/build/module/src/lib/schemaParser.js
+2024/08/04 19:31:33 br /tmp/work/build/module/src/schemas/index.js -> /output/schemas/index.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/schemas/index.js -> /output/schemas/index.js.gz
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/encodeData/JSONURL.d.ts.br /tmp/work/build/module/src/types/encodeData/JSONURL.d.ts
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/encodeData/JSONURL.d.ts -> /output/types/encodeData/JSONURL.d.ts.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/encodeData/JSONURL.d.ts -> /output/types/encodeData/JSONURL.d.ts.gz
+2024/08/04 19:31:33 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/types/encodeData/JSONURL.min.js /tmp/work/build/module/src/types/encodeData/JSONURL.js]
+2024/08/04 19:31:33 br /tmp/work/build/module/src/lib/schemaParser.js -> /output/lib/schemaParser.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/lib/schemaParser.js -> /output/lib/schemaParser.js.gz
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/ERC725JSONSchema.d.ts.br /tmp/work/build/module/src/types/ERC725JSONSchema.d.ts
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/ERC725JSONSchema.d.ts -> /output/types/ERC725JSONSchema.d.ts.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/ERC725JSONSchema.d.ts -> /output/types/ERC725JSONSchema.d.ts.gz
+2024/08/04 19:31:33 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/types/ERC725JSONSchema.min.js /tmp/work/build/module/src/types/ERC725JSONSchema.js]
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/types/Config.min.js -> /output/types/Config.min.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/Config.min.js.br /tmp/work/build/module/src/types/Config.min.js
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/Config.min.js -> /output/types/Config.min.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/Config.min.js -> /output/types/Config.min.js.gz
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/types/Config.js -> /output/types/Config.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/Config.js.br /tmp/work/build/module/src/types/Config.js
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/Config.js -> /output/types/Config.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/Config.js -> /output/types/Config.js.gz
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/GetData.d.ts.br /tmp/work/build/module/src/types/GetData.d.ts
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/GetData.d.ts -> /output/types/GetData.d.ts.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/GetData.d.ts -> /output/types/GetData.d.ts.gz
+2024/08/04 19:31:33 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/types/GetData.min.js /tmp/work/build/module/src/types/GetData.js]
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/types/dynamicKeys.min.js -> /output/types/dynamicKeys.min.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/dynamicKeys.min.js.br /tmp/work/build/module/src/types/dynamicKeys.min.js
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/types/decodeData.min.js -> /output/types/decodeData.min.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/decodeData.min.js.br /tmp/work/build/module/src/types/decodeData.min.js
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/dynamicKeys.min.js -> /output/types/dynamicKeys.min.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/dynamicKeys.min.js -> /output/types/dynamicKeys.min.js.gz
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/types/dynamicKeys.js -> /output/types/dynamicKeys.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/dynamicKeys.js.br /tmp/work/build/module/src/types/dynamicKeys.js
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/decodeData.min.js -> /output/types/decodeData.min.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/decodeData.min.js -> /output/types/decodeData.min.js.gz
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/types/decodeData.js -> /output/types/decodeData.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/decodeData.js.br /tmp/work/build/module/src/types/decodeData.js
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/dynamicKeys.js -> /output/types/dynamicKeys.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/dynamicKeys.js -> /output/types/dynamicKeys.js.gz
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/index.d.ts.br /tmp/work/build/module/src/types/index.d.ts
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/decodeData.js -> /output/types/decodeData.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/decodeData.js -> /output/types/decodeData.js.gz
+2024/08/04 19:31:33 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/types/index.min.js /tmp/work/build/module/src/types/index.js]
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/index.d.ts -> /output/types/index.d.ts.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/index.d.ts -> /output/types/index.d.ts.gz
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/JsonRpc.d.ts.br /tmp/work/build/module/src/types/JsonRpc.d.ts
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/JsonRpc.d.ts -> /output/types/JsonRpc.d.ts.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/JsonRpc.d.ts -> /output/types/JsonRpc.d.ts.gz
+2024/08/04 19:31:33 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/types/JsonRpc.min.js /tmp/work/build/module/src/types/JsonRpc.js]
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/types/encodeData/index.min.js -> /output/types/encodeData/index.min.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/encodeData/index.min.js.br /tmp/work/build/module/src/types/encodeData/index.min.js
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/encodeData/index.min.js -> /output/types/encodeData/index.min.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/encodeData/index.min.js -> /output/types/encodeData/index.min.js.gz
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/types/encodeData/index.js -> /output/types/encodeData/index.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/encodeData/index.js.br /tmp/work/build/module/src/types/encodeData/index.js
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/encodeData/index.js -> /output/types/encodeData/index.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/encodeData/index.js -> /output/types/encodeData/index.js.gz
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/Method.d.ts.br /tmp/work/build/module/src/types/Method.d.ts
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/Method.d.ts -> /output/types/Method.d.ts.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/Method.d.ts -> /output/types/Method.d.ts.gz
+2024/08/04 19:31:33 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/types/Method.min.js /tmp/work/build/module/src/types/Method.js]
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/provider/providerWrapper.min.js -> /output/provider/providerWrapper.min.js.sri
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/types/encodeData/JSONURL.min.js -> /output/types/encodeData/JSONURL.min.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/provider/providerWrapper.min.js.br /tmp/work/build/module/src/provider/providerWrapper.min.js
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/encodeData/JSONURL.min.js.br /tmp/work/build/module/src/types/encodeData/JSONURL.min.js
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/encodeData/JSONURL.min.js -> /output/types/encodeData/JSONURL.min.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/encodeData/JSONURL.min.js -> /output/types/encodeData/JSONURL.min.js.gz
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/types/encodeData/JSONURL.js -> /output/types/encodeData/JSONURL.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/encodeData/JSONURL.js.br /tmp/work/build/module/src/types/encodeData/JSONURL.js
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/encodeData/JSONURL.js -> /output/types/encodeData/JSONURL.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/encodeData/JSONURL.js -> /output/types/encodeData/JSONURL.js.gz
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/provider.d.ts.br /tmp/work/build/module/src/types/provider.d.ts
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/provider.d.ts -> /output/types/provider.d.ts.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/provider.d.ts -> /output/types/provider.d.ts.gz
+2024/08/04 19:31:33 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/build/module/src/types/provider.min.js /tmp/work/build/module/src/types/provider.js]
+2024/08/04 19:31:33 br /tmp/work/build/module/src/provider/providerWrapper.min.js -> /output/provider/providerWrapper.min.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/provider/providerWrapper.min.js -> /output/provider/providerWrapper.min.js.gz
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/provider/providerWrapper.js -> /output/provider/providerWrapper.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/provider/providerWrapper.js.br /tmp/work/build/module/src/provider/providerWrapper.js
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/types/GetData.min.js -> /output/types/GetData.min.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/GetData.min.js.br /tmp/work/build/module/src/types/GetData.min.js
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/GetData.min.js -> /output/types/GetData.min.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/GetData.min.js -> /output/types/GetData.min.js.gz
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/types/GetData.js -> /output/types/GetData.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/GetData.js.br /tmp/work/build/module/src/types/GetData.js
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/GetData.js -> /output/types/GetData.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/GetData.js -> /output/types/GetData.js.gz
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/types/index.min.js -> /output/types/index.min.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/index.min.js.br /tmp/work/build/module/src/types/index.min.js
+2024/08/04 19:31:33 br /tmp/work/build/module/src/provider/providerWrapper.js -> /output/provider/providerWrapper.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/provider/providerWrapper.js -> /output/provider/providerWrapper.js.gz
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/index.min.js -> /output/types/index.min.js.br
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/types/ERC725JSONSchema.min.js -> /output/types/ERC725JSONSchema.min.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/ERC725JSONSchema.min.js.br /tmp/work/build/module/src/types/ERC725JSONSchema.min.js
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/index.min.js -> /output/types/index.min.js.gz
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/types/index.js -> /output/types/index.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/index.js.br /tmp/work/build/module/src/types/index.js
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/types/JsonRpc.min.js -> /output/types/JsonRpc.min.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/JsonRpc.min.js.br /tmp/work/build/module/src/types/JsonRpc.min.js
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/index.js -> /output/types/index.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/index.js -> /output/types/index.js.gz
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/JsonRpc.min.js -> /output/types/JsonRpc.min.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/JsonRpc.min.js -> /output/types/JsonRpc.min.js.gz
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/types/JsonRpc.js -> /output/types/JsonRpc.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/JsonRpc.js.br /tmp/work/build/module/src/types/JsonRpc.js
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/ERC725JSONSchema.min.js -> /output/types/ERC725JSONSchema.min.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/ERC725JSONSchema.min.js -> /output/types/ERC725JSONSchema.min.js.gz
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/types/ERC725JSONSchema.js -> /output/types/ERC725JSONSchema.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/ERC725JSONSchema.js.br /tmp/work/build/module/src/types/ERC725JSONSchema.js
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/JsonRpc.js -> /output/types/JsonRpc.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/JsonRpc.js -> /output/types/JsonRpc.js.gz
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/ERC725JSONSchema.js -> /output/types/ERC725JSONSchema.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/ERC725JSONSchema.js -> /output/types/ERC725JSONSchema.js.gz
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/lib/utils.min.js -> /output/lib/utils.min.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/utils.min.js.br /tmp/work/build/module/src/lib/utils.min.js
+2024/08/04 19:31:33 br /tmp/work/build/module/src/lib/utils.min.js -> /output/lib/utils.min.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/lib/utils.min.js -> /output/lib/utils.min.js.gz
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/lib/utils.js -> /output/lib/utils.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/lib/utils.js.br /tmp/work/build/module/src/lib/utils.js
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/types/Method.min.js -> /output/types/Method.min.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/Method.min.js.br /tmp/work/build/module/src/types/Method.min.js
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/Method.min.js -> /output/types/Method.min.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/Method.min.js -> /output/types/Method.min.js.gz
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/types/Method.js -> /output/types/Method.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/Method.js.br /tmp/work/build/module/src/types/Method.js
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/Method.js -> /output/types/Method.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/Method.js -> /output/types/Method.js.gz
+2024/08/04 19:31:33 br /tmp/work/build/module/src/lib/utils.js -> /output/lib/utils.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/lib/utils.js -> /output/lib/utils.js.gz
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/types/provider.min.js -> /output/types/provider.min.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/provider.min.js.br /tmp/work/build/module/src/types/provider.min.js
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/provider.min.js -> /output/types/provider.min.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/provider.min.js -> /output/types/provider.min.js.gz
+2024/08/04 19:31:33 sri /tmp/work/build/module/src/types/provider.js -> /output/types/provider.js.sri
+2024/08/04 19:31:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types/provider.js.br /tmp/work/build/module/src/types/provider.js
+2024/08/04 19:31:33 br /tmp/work/build/module/src/types/provider.js -> /output/types/provider.js.br
+2024/08/04 19:31:33 gz /tmp/work/build/module/src/types/provider.js -> /output/types/provider.js.gz
+2024/08/04 19:31:33 processed erc725.js
