@@ -1,0 +1,14 @@
+2024/08/04 18:31:01 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/08/04 18:31:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/minified.js.map.br /tmp/work/minified.js.map
+2024/08/04 18:31:01 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/minified.min.js /tmp/work/minified.js]
+2024/08/04 18:31:02 br /tmp/work/minified.js.map -> /output/minified.js.map.br
+2024/08/04 18:31:02 gz /tmp/work/minified.js.map -> /output/minified.js.map.gz
+2024/08/04 18:31:04 sri /tmp/work/minified.min.js -> /output/minified.min.js.sri
+2024/08/04 18:31:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/minified.min.js.br /tmp/work/minified.min.js
+2024/08/04 18:31:05 br /tmp/work/minified.min.js -> /output/minified.min.js.br
+2024/08/04 18:31:05 gz /tmp/work/minified.min.js -> /output/minified.min.js.gz
+2024/08/04 18:31:05 sri /tmp/work/minified.js -> /output/minified.js.sri
+2024/08/04 18:31:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/minified.js.br /tmp/work/minified.js
+2024/08/04 18:31:05 br /tmp/work/minified.js -> /output/minified.js.br
+2024/08/04 18:31:05 gz /tmp/work/minified.js -> /output/minified.js.gz
+2024/08/04 18:31:05 processed core-js
