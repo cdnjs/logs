@@ -1,0 +1,857 @@
+2024/08/07 21:32:30 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codex-icons.json.br /tmp/work/dist/codex-icons.json
+2024/08/07 21:32:30 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/codex-icons.min.js /tmp/work/dist/codex-icons.js]
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/alignLeft.svg.br /tmp/work/dist/images/alignLeft.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/alert.svg.br /tmp/work/dist/images/alert.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/alignRight.svg.br /tmp/work/dist/images/alignRight.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/add.svg.br /tmp/work/dist/images/add.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/appearance.svg.br /tmp/work/dist/images/appearance.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/alignCenter.svg.br /tmp/work/dist/images/alignCenter.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/alignCenter.svg -> /output/images/alignCenter.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/alignLeft.svg -> /output/images/alignLeft.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/alignCenter.svg -> /output/images/alignCenter.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/add.svg -> /output/images/add.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/arrowNext.svg.br /tmp/work/dist/images/arrowNext.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/alert.svg -> /output/images/alert.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/alignRight.svg -> /output/images/alignRight.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/alignLeft.svg -> /output/images/alignLeft.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/arrowPrevious.svg.br /tmp/work/dist/images/arrowPrevious.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/appearance.svg -> /output/images/appearance.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/alignRight.svg -> /output/images/alignRight.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/article.svg.br /tmp/work/dist/images/article.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/add.svg -> /output/images/add.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/articleAdd.svg.br /tmp/work/dist/images/articleAdd.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/alert.svg -> /output/images/alert.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/articleCheck.svg.br /tmp/work/dist/images/articleCheck.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/arrowNext.svg -> /output/images/arrowNext.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/appearance.svg -> /output/images/appearance.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/articleDisambiguation.svg.br /tmp/work/dist/images/articleDisambiguation.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/arrowPrevious.svg -> /output/images/arrowPrevious.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/arrowPrevious.svg -> /output/images/arrowPrevious.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/articleNotFound.svg.br /tmp/work/dist/images/articleNotFound.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/arrowNext.svg -> /output/images/arrowNext.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/articleRedirect.svg.br /tmp/work/dist/images/articleRedirect.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/article.svg -> /output/images/article.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/article.svg -> /output/images/article.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/articles.svg.br /tmp/work/dist/images/articles.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/articleCheck.svg -> /output/images/articleCheck.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/articleCheck.svg -> /output/images/articleCheck.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/articleDisambiguation.svg -> /output/images/articleDisambiguation.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/articleSearch.svg.br /tmp/work/dist/images/articleSearch.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/articleDisambiguation.svg -> /output/images/articleDisambiguation.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/articlesSearch-ltr.svg.br /tmp/work/dist/images/articlesSearch-ltr.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/articleAdd.svg -> /output/images/articleAdd.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/articleAdd.svg -> /output/images/articleAdd.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/articlesSearch-rtl.svg.br /tmp/work/dist/images/articlesSearch-rtl.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/articleRedirect.svg -> /output/images/articleRedirect.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/articleRedirect.svg -> /output/images/articleRedirect.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/attachment.svg.br /tmp/work/dist/images/attachment.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/articles.svg -> /output/images/articles.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/articleNotFound.svg -> /output/images/articleNotFound.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/articles.svg -> /output/images/articles.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/articleNotFound.svg -> /output/images/articleNotFound.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bellOutline.svg.br /tmp/work/dist/images/bellOutline.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bell.svg.br /tmp/work/dist/images/bell.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/articleSearch.svg -> /output/images/articleSearch.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/articleSearch.svg -> /output/images/articleSearch.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bigger.svg.br /tmp/work/dist/images/bigger.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/articlesSearch-ltr.svg -> /output/images/articlesSearch-ltr.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/articlesSearch-ltr.svg -> /output/images/articlesSearch-ltr.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/block.svg.br /tmp/work/dist/images/block.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/articlesSearch-rtl.svg -> /output/images/articlesSearch-rtl.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/articlesSearch-rtl.svg -> /output/images/articlesSearch-rtl.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bold-a.svg.br /tmp/work/dist/images/bold-a.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/attachment.svg -> /output/images/attachment.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/bell.svg -> /output/images/bell.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/bellOutline.svg -> /output/images/bellOutline.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/bell.svg -> /output/images/bell.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bold-arab-ain.svg.br /tmp/work/dist/images/bold-arab-ain.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/attachment.svg -> /output/images/attachment.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bold-arab-dad.svg.br /tmp/work/dist/images/bold-arab-dad.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/bellOutline.svg -> /output/images/bellOutline.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bold-arab-jeem.svg.br /tmp/work/dist/images/bold-arab-jeem.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/block.svg -> /output/images/block.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/bold-a.svg -> /output/images/bold-a.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/block.svg -> /output/images/block.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bold-armn-to.svg.br /tmp/work/dist/images/bold-armn-to.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/bold-a.svg -> /output/images/bold-a.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bold-b.svg.br /tmp/work/dist/images/bold-b.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/bigger.svg -> /output/images/bigger.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/bigger.svg -> /output/images/bigger.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bold-cyrl-be.svg.br /tmp/work/dist/images/bold-cyrl-be.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/bold-arab-ain.svg -> /output/images/bold-arab-ain.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/bold-arab-ain.svg -> /output/images/bold-arab-ain.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bold-cyrl-palochka.svg.br /tmp/work/dist/images/bold-cyrl-palochka.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/bold-arab-dad.svg -> /output/images/bold-arab-dad.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/bold-arab-dad.svg -> /output/images/bold-arab-dad.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bold-cyrl-te.svg.br /tmp/work/dist/images/bold-cyrl-te.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/bold-arab-jeem.svg -> /output/images/bold-arab-jeem.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/bold-arab-jeem.svg -> /output/images/bold-arab-jeem.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bold-cyrl-zhe.svg.br /tmp/work/dist/images/bold-cyrl-zhe.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/bold-armn-to.svg -> /output/images/bold-armn-to.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/bold-cyrl-te.svg -> /output/images/bold-cyrl-te.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/bold-cyrl-palochka.svg -> /output/images/bold-cyrl-palochka.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/bold-cyrl-be.svg -> /output/images/bold-cyrl-be.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/bold-armn-to.svg -> /output/images/bold-armn-to.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bold-f.svg.br /tmp/work/dist/images/bold-f.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/bold-cyrl-be.svg -> /output/images/bold-cyrl-be.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bold-g.svg.br /tmp/work/dist/images/bold-g.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/bold-cyrl-te.svg -> /output/images/bold-cyrl-te.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bold-geor-man.svg.br /tmp/work/dist/images/bold-geor-man.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/bold-b.svg -> /output/images/bold-b.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/bold-cyrl-palochka.svg -> /output/images/bold-cyrl-palochka.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bold-l.svg.br /tmp/work/dist/images/bold-l.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/bold-b.svg -> /output/images/bold-b.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bold-n.svg.br /tmp/work/dist/images/bold-n.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/bold-f.svg -> /output/images/bold-f.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/bold-f.svg -> /output/images/bold-f.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bold-v.svg.br /tmp/work/dist/images/bold-v.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/bold-cyrl-zhe.svg -> /output/images/bold-cyrl-zhe.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/bold-cyrl-zhe.svg -> /output/images/bold-cyrl-zhe.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/book.svg.br /tmp/work/dist/images/book.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/bold-l.svg -> /output/images/bold-l.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/bold-g.svg -> /output/images/bold-g.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/bold-l.svg -> /output/images/bold-l.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bookmark.svg.br /tmp/work/dist/images/bookmark.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/bold-g.svg -> /output/images/bold-g.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/bold-geor-man.svg -> /output/images/bold-geor-man.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bookmarkOutline.svg.br /tmp/work/dist/images/bookmarkOutline.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/bold-n.svg -> /output/images/bold-n.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/bold-v.svg -> /output/images/bold-v.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/bold-geor-man.svg -> /output/images/bold-geor-man.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/bright.svg.br /tmp/work/dist/images/bright.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/bold-n.svg -> /output/images/bold-n.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/bold-v.svg -> /output/images/bold-v.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/browser.svg.br /tmp/work/dist/images/browser.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/calendar.svg.br /tmp/work/dist/images/calendar.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/book.svg -> /output/images/book.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/book.svg -> /output/images/book.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/camera.svg.br /tmp/work/dist/images/camera.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/bookmark.svg -> /output/images/bookmark.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/bookmark.svg -> /output/images/bookmark.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/cancel.svg.br /tmp/work/dist/images/cancel.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/bright.svg -> /output/images/bright.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/bookmarkOutline.svg -> /output/images/bookmarkOutline.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/browser.svg -> /output/images/browser.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/bright.svg -> /output/images/bright.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/bookmarkOutline.svg -> /output/images/bookmarkOutline.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/chart.svg.br /tmp/work/dist/images/chart.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/check.svg.br /tmp/work/dist/images/check.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/browser.svg -> /output/images/browser.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/checkAll.svg.br /tmp/work/dist/images/checkAll.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/calendar.svg -> /output/images/calendar.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/calendar.svg -> /output/images/calendar.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/clear.svg.br /tmp/work/dist/images/clear.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/camera.svg -> /output/images/camera.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/camera.svg -> /output/images/camera.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/clock.svg.br /tmp/work/dist/images/clock.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/cancel.svg -> /output/images/cancel.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/cancel.svg -> /output/images/cancel.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/close.svg.br /tmp/work/dist/images/close.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/chart.svg -> /output/images/chart.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/chart.svg -> /output/images/chart.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/code.svg.br /tmp/work/dist/images/code.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/check.svg -> /output/images/check.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/check.svg -> /output/images/check.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/checkAll.svg -> /output/images/checkAll.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/collapse.svg.br /tmp/work/dist/images/collapse.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/checkAll.svg -> /output/images/checkAll.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/copy.svg.br /tmp/work/dist/images/copy.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/clock.svg -> /output/images/clock.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/clear.svg -> /output/images/clear.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/clock.svg -> /output/images/clock.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/cut.svg.br /tmp/work/dist/images/cut.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/clear.svg -> /output/images/clear.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/close.svg -> /output/images/close.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/database.svg.br /tmp/work/dist/images/database.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/close.svg -> /output/images/close.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/die.svg.br /tmp/work/dist/images/die.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/collapse.svg -> /output/images/collapse.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/collapse.svg -> /output/images/collapse.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/copy.svg -> /output/images/copy.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/doubleChevronEnd.svg.br /tmp/work/dist/images/doubleChevronEnd.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/copy.svg -> /output/images/copy.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/doubleChevronStart.svg.br /tmp/work/dist/images/doubleChevronStart.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/code.svg -> /output/images/code.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/database.svg -> /output/images/database.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/cut.svg -> /output/images/cut.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/code.svg -> /output/images/code.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/die.svg -> /output/images/die.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/download.svg.br /tmp/work/dist/images/download.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/database.svg -> /output/images/database.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/downTriangle.svg.br /tmp/work/dist/images/downTriangle.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/cut.svg -> /output/images/cut.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/draggable.svg.br /tmp/work/dist/images/draggable.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/doubleChevronEnd.svg -> /output/images/doubleChevronEnd.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/doubleChevronStart.svg -> /output/images/doubleChevronStart.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/die.svg -> /output/images/die.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/edit.svg.br /tmp/work/dist/images/edit.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/doubleChevronStart.svg -> /output/images/doubleChevronStart.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/editLock.svg.br /tmp/work/dist/images/editLock.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/doubleChevronEnd.svg -> /output/images/doubleChevronEnd.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/editUndo-ltr.svg.br /tmp/work/dist/images/editUndo-ltr.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/downTriangle.svg -> /output/images/downTriangle.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/download.svg -> /output/images/download.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/download.svg -> /output/images/download.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/editUndo-rtl.svg.br /tmp/work/dist/images/editUndo-rtl.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/downTriangle.svg -> /output/images/downTriangle.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/draggable.svg -> /output/images/draggable.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/ellipsis.svg.br /tmp/work/dist/images/ellipsis.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/draggable.svg -> /output/images/draggable.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/error.svg.br /tmp/work/dist/images/error.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/edit.svg -> /output/images/edit.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/edit.svg -> /output/images/edit.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/exitFullscreen.svg.br /tmp/work/dist/images/exitFullscreen.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/editLock.svg -> /output/images/editLock.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/editLock.svg -> /output/images/editLock.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/expand.svg.br /tmp/work/dist/images/expand.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/ellipsis.svg -> /output/images/ellipsis.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/editUndo-ltr.svg -> /output/images/editUndo-ltr.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/editUndo-rtl.svg -> /output/images/editUndo-rtl.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/error.svg -> /output/images/error.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/editUndo-rtl.svg -> /output/images/editUndo-rtl.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/editUndo-ltr.svg -> /output/images/editUndo-ltr.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/ellipsis.svg -> /output/images/ellipsis.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/feedback.svg.br /tmp/work/dist/images/feedback.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/eyeClosed.svg.br /tmp/work/dist/images/eyeClosed.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/exitFullscreen.svg -> /output/images/exitFullscreen.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/error.svg -> /output/images/error.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/flag.svg.br /tmp/work/dist/images/flag.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/eye.svg.br /tmp/work/dist/images/eye.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/expand.svg -> /output/images/expand.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/exitFullscreen.svg -> /output/images/exitFullscreen.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/folderPlaceholder.svg.br /tmp/work/dist/images/folderPlaceholder.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/expand.svg -> /output/images/expand.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/fullScreen.svg.br /tmp/work/dist/images/fullScreen.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/flag.svg -> /output/images/flag.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/flag.svg -> /output/images/flag.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/function.svg.br /tmp/work/dist/images/function.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/feedback.svg -> /output/images/feedback.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/eyeClosed.svg -> /output/images/eyeClosed.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/eye.svg -> /output/images/eye.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/fullScreen.svg -> /output/images/fullScreen.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/folderPlaceholder.svg -> /output/images/folderPlaceholder.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/eyeClosed.svg -> /output/images/eyeClosed.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/feedback.svg -> /output/images/feedback.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/functionArgument.svg.br /tmp/work/dist/images/functionArgument.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/funnel.svg.br /tmp/work/dist/images/funnel.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/folderPlaceholder.svg -> /output/images/folderPlaceholder.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/eye.svg -> /output/images/eye.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/fullScreen.svg -> /output/images/fullScreen.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/halfBright.svg.br /tmp/work/dist/images/halfBright.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/halfStar.svg.br /tmp/work/dist/images/halfStar.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/globe.svg.br /tmp/work/dist/images/globe.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/function.svg -> /output/images/function.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/function.svg -> /output/images/function.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/hand.svg.br /tmp/work/dist/images/hand.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/functionArgument.svg -> /output/images/functionArgument.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/functionArgument.svg -> /output/images/functionArgument.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/heart.svg.br /tmp/work/dist/images/heart.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/funnel.svg -> /output/images/funnel.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/halfBright.svg -> /output/images/halfBright.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/funnel.svg -> /output/images/funnel.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/help.svg.br /tmp/work/dist/images/help.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/halfStar.svg -> /output/images/halfStar.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/halfStar.svg -> /output/images/halfStar.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/helpNotice.svg.br /tmp/work/dist/images/helpNotice.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/globe.svg -> /output/images/globe.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/halfBright.svg -> /output/images/halfBright.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/hieroglyph.svg.br /tmp/work/dist/images/hieroglyph.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/globe.svg -> /output/images/globe.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/highlight.svg.br /tmp/work/dist/images/highlight.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/hand.svg -> /output/images/hand.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/heart.svg -> /output/images/heart.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/hand.svg -> /output/images/hand.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/history.svg.br /tmp/work/dist/images/history.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/heart.svg -> /output/images/heart.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/home.svg.br /tmp/work/dist/images/home.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/help.svg -> /output/images/help.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/help.svg -> /output/images/help.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/image.svg.br /tmp/work/dist/images/image.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/hieroglyph.svg -> /output/images/hieroglyph.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/hieroglyph.svg -> /output/images/hieroglyph.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/highlight.svg -> /output/images/highlight.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/helpNotice.svg -> /output/images/helpNotice.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/imageAdd-ltr.svg.br /tmp/work/dist/images/imageAdd-ltr.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/home.svg -> /output/images/home.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/highlight.svg -> /output/images/highlight.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/imageAdd-rtl.svg.br /tmp/work/dist/images/imageAdd-rtl.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/history.svg -> /output/images/history.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/home.svg -> /output/images/home.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/helpNotice.svg -> /output/images/helpNotice.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/imageBroken.svg.br /tmp/work/dist/images/imageBroken.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/imageGallery.svg.br /tmp/work/dist/images/imageGallery.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/image.svg -> /output/images/image.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/history.svg -> /output/images/history.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/imageLayoutBasic.svg.br /tmp/work/dist/images/imageLayoutBasic.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/image.svg -> /output/images/image.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/imageLayoutFrame.svg.br /tmp/work/dist/images/imageLayoutFrame.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/imageAdd-ltr.svg -> /output/images/imageAdd-ltr.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/imageAdd-ltr.svg -> /output/images/imageAdd-ltr.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/imageLayoutFrameless.svg.br /tmp/work/dist/images/imageLayoutFrameless.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/imageAdd-rtl.svg -> /output/images/imageAdd-rtl.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/imageGallery.svg -> /output/images/imageGallery.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/imageBroken.svg -> /output/images/imageBroken.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/imageAdd-rtl.svg -> /output/images/imageAdd-rtl.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/imageLayoutThumbnail.svg.br /tmp/work/dist/images/imageLayoutThumbnail.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/imageBroken.svg -> /output/images/imageBroken.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/imageLock-ltr.svg.br /tmp/work/dist/images/imageLock-ltr.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/imageGallery.svg -> /output/images/imageGallery.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/imageLock-rtl.svg.br /tmp/work/dist/images/imageLock-rtl.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/imageLayoutFrameless.svg -> /output/images/imageLayoutFrameless.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/imageLayoutFrameless.svg -> /output/images/imageLayoutFrameless.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/imageLayoutBasic.svg -> /output/images/imageLayoutBasic.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/imageLayoutFrame.svg -> /output/images/imageLayoutFrame.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/indent.svg.br /tmp/work/dist/images/indent.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/imageLayoutBasic.svg -> /output/images/imageLayoutBasic.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/imageLayoutFrame.svg -> /output/images/imageLayoutFrame.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/info.svg.br /tmp/work/dist/images/info.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/infoFilled.svg.br /tmp/work/dist/images/infoFilled.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/imageLayoutThumbnail.svg -> /output/images/imageLayoutThumbnail.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/imageLayoutThumbnail.svg -> /output/images/imageLayoutThumbnail.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/imageLock-ltr.svg -> /output/images/imageLock-ltr.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/instance.svg.br /tmp/work/dist/images/instance.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/imageLock-rtl.svg -> /output/images/imageLock-rtl.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/imageLock-ltr.svg -> /output/images/imageLock-ltr.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/italic-a.svg.br /tmp/work/dist/images/italic-a.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/imageLock-rtl.svg -> /output/images/imageLock-rtl.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/italic-arab-keheh-jeem.svg.br /tmp/work/dist/images/italic-arab-keheh-jeem.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/indent.svg -> /output/images/indent.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/infoFilled.svg -> /output/images/infoFilled.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/indent.svg -> /output/images/indent.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/italic-arab-meem.svg.br /tmp/work/dist/images/italic-arab-meem.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/infoFilled.svg -> /output/images/infoFilled.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/info.svg -> /output/images/info.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/italic-arab-teh.svg.br /tmp/work/dist/images/italic-arab-teh.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/info.svg -> /output/images/info.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/italic-armn-sha.svg.br /tmp/work/dist/images/italic-armn-sha.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/instance.svg -> /output/images/instance.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/italic-a.svg -> /output/images/italic-a.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/italic-a.svg -> /output/images/italic-a.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/instance.svg -> /output/images/instance.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/italic-d.svg.br /tmp/work/dist/images/italic-d.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/italic-c.svg.br /tmp/work/dist/images/italic-c.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/italic-arab-keheh-jeem.svg -> /output/images/italic-arab-keheh-jeem.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/italic-arab-meem.svg -> /output/images/italic-arab-meem.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/italic-arab-keheh-jeem.svg -> /output/images/italic-arab-keheh-jeem.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/italic-e.svg.br /tmp/work/dist/images/italic-e.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/italic-arab-meem.svg -> /output/images/italic-arab-meem.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/italic-geor-kan.svg.br /tmp/work/dist/images/italic-geor-kan.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/italic-armn-sha.svg -> /output/images/italic-armn-sha.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/italic-arab-teh.svg -> /output/images/italic-arab-teh.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/italic-armn-sha.svg -> /output/images/italic-armn-sha.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/italic-i.svg.br /tmp/work/dist/images/italic-i.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/italic-arab-teh.svg -> /output/images/italic-arab-teh.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/italic-k.svg.br /tmp/work/dist/images/italic-k.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/italic-d.svg -> /output/images/italic-d.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/italic-d.svg -> /output/images/italic-d.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/italic-s.svg.br /tmp/work/dist/images/italic-s.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/italic-c.svg -> /output/images/italic-c.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/italic-c.svg -> /output/images/italic-c.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/journal.svg.br /tmp/work/dist/images/journal.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/italic-e.svg -> /output/images/italic-e.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/italic-e.svg -> /output/images/italic-e.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/key.svg.br /tmp/work/dist/images/key.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/italic-i.svg -> /output/images/italic-i.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/italic-i.svg -> /output/images/italic-i.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/keyboard.svg.br /tmp/work/dist/images/keyboard.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/italic-k.svg -> /output/images/italic-k.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/italic-geor-kan.svg -> /output/images/italic-geor-kan.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/italic-k.svg -> /output/images/italic-k.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/labFlask.svg.br /tmp/work/dist/images/labFlask.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/journal.svg -> /output/images/journal.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/italic-geor-kan.svg -> /output/images/italic-geor-kan.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/language.svg.br /tmp/work/dist/images/language.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/journal.svg -> /output/images/journal.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/italic-s.svg -> /output/images/italic-s.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/largerText.svg.br /tmp/work/dist/images/largerText.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/italic-s.svg -> /output/images/italic-s.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/layout.svg.br /tmp/work/dist/images/layout.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/keyboard.svg -> /output/images/keyboard.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/keyboard.svg -> /output/images/keyboard.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/key.svg -> /output/images/key.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/key.svg -> /output/images/key.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/link.svg.br /tmp/work/dist/images/link.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/lightbulb.svg.br /tmp/work/dist/images/lightbulb.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/labFlask.svg -> /output/images/labFlask.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/labFlask.svg -> /output/images/labFlask.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/linkExternal.svg.br /tmp/work/dist/images/linkExternal.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/largerText.svg -> /output/images/largerText.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/largerText.svg -> /output/images/largerText.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/layout.svg -> /output/images/layout.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/linkSecure.svg.br /tmp/work/dist/images/linkSecure.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/language.svg -> /output/images/language.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/layout.svg -> /output/images/layout.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/listBullet.svg.br /tmp/work/dist/images/listBullet.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/language.svg -> /output/images/language.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/listNumbered-ltr.svg.br /tmp/work/dist/images/listNumbered-ltr.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/lightbulb.svg -> /output/images/lightbulb.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/lightbulb.svg -> /output/images/lightbulb.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/link.svg -> /output/images/link.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/listNumbered-rtl.svg.br /tmp/work/dist/images/listNumbered-rtl.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/link.svg -> /output/images/link.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/literal.svg.br /tmp/work/dist/images/literal.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/linkSecure.svg -> /output/images/linkSecure.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/linkExternal.svg -> /output/images/linkExternal.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/linkSecure.svg -> /output/images/linkSecure.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/lock.svg.br /tmp/work/dist/images/lock.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/listNumbered-ltr.svg -> /output/images/listNumbered-ltr.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/linkExternal.svg -> /output/images/linkExternal.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/listBullet.svg -> /output/images/listBullet.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/logIn.svg.br /tmp/work/dist/images/logIn.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/listNumbered-ltr.svg -> /output/images/listNumbered-ltr.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/logo-CC.svg.br /tmp/work/dist/images/logo-CC.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/listBullet.svg -> /output/images/listBullet.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/logo-MediaWiki.svg.br /tmp/work/dist/images/logo-MediaWiki.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/listNumbered-rtl.svg -> /output/images/listNumbered-rtl.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/listNumbered-rtl.svg -> /output/images/listNumbered-rtl.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/logo-MetaWiki.svg.br /tmp/work/dist/images/logo-MetaWiki.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/literal.svg -> /output/images/literal.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/literal.svg -> /output/images/literal.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/logo-Wikibooks.svg.br /tmp/work/dist/images/logo-Wikibooks.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/lock.svg -> /output/images/lock.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/logIn.svg -> /output/images/logIn.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/lock.svg -> /output/images/lock.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/logo-Wikidata.svg.br /tmp/work/dist/images/logo-Wikidata.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/logIn.svg -> /output/images/logIn.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/logo-Wikifunctions.svg.br /tmp/work/dist/images/logo-Wikifunctions.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/logo-MediaWiki.svg -> /output/images/logo-MediaWiki.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/logo-CC.svg -> /output/images/logo-CC.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/logo-MediaWiki.svg -> /output/images/logo-MediaWiki.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/logo-Wikimedia-Commons.svg.br /tmp/work/dist/images/logo-Wikimedia-Commons.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/logo-CC.svg -> /output/images/logo-CC.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/logo-Wikimedia-Discovery.svg.br /tmp/work/dist/images/logo-Wikimedia-Discovery.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/logo-Wikidata.svg -> /output/images/logo-Wikidata.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/logo-Wikidata.svg -> /output/images/logo-Wikidata.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/logo-Wikimedia.svg.br /tmp/work/dist/images/logo-Wikimedia.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/logo-Wikibooks.svg -> /output/images/logo-Wikibooks.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/logo-Wikibooks.svg -> /output/images/logo-Wikibooks.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/logo-Wikinews.svg.br /tmp/work/dist/images/logo-Wikinews.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/logo-Wikimedia-Commons.svg -> /output/images/logo-Wikimedia-Commons.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/logo-Wikifunctions.svg -> /output/images/logo-Wikifunctions.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/logo-MetaWiki.svg -> /output/images/logo-MetaWiki.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/logo-Wikimedia-Discovery.svg -> /output/images/logo-Wikimedia-Discovery.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/logo-Wikimedia-Commons.svg -> /output/images/logo-Wikimedia-Commons.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/logo-Wikipedia.svg.br /tmp/work/dist/images/logo-Wikipedia.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/logo-MetaWiki.svg -> /output/images/logo-MetaWiki.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/logo-Wikimedia-Discovery.svg -> /output/images/logo-Wikimedia-Discovery.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/logo-Wikisource.svg.br /tmp/work/dist/images/logo-Wikisource.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/logo-Wikifunctions.svg -> /output/images/logo-Wikifunctions.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/logo-Wikispecies.svg.br /tmp/work/dist/images/logo-Wikispecies.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/logo-Wikiquote.svg.br /tmp/work/dist/images/logo-Wikiquote.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/logo-Wikimedia.svg -> /output/images/logo-Wikimedia.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/logo-Wikimedia.svg -> /output/images/logo-Wikimedia.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/logo-Wikiversity.svg.br /tmp/work/dist/images/logo-Wikiversity.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/logo-Wikinews.svg -> /output/images/logo-Wikinews.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/logo-Wikinews.svg -> /output/images/logo-Wikinews.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/logo-Wikivoyage.svg.br /tmp/work/dist/images/logo-Wikivoyage.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/logo-Wikipedia.svg -> /output/images/logo-Wikipedia.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/logo-Wikipedia.svg -> /output/images/logo-Wikipedia.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/logo-Wiktionary.svg.br /tmp/work/dist/images/logo-Wiktionary.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/logo-Wikiquote.svg -> /output/images/logo-Wikiquote.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/logo-Wikiquote.svg -> /output/images/logo-Wikiquote.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/logo-Wikisource.svg -> /output/images/logo-Wikisource.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/logOut.svg.br /tmp/work/dist/images/logOut.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/logo-Wikispecies.svg -> /output/images/logo-Wikispecies.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/logo-Wikisource.svg -> /output/images/logo-Wikisource.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/map.svg.br /tmp/work/dist/images/map.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/logo-Wikispecies.svg -> /output/images/logo-Wikispecies.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/mapPin.svg.br /tmp/work/dist/images/mapPin.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/logo-Wikivoyage.svg -> /output/images/logo-Wikivoyage.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/logo-Wikiversity.svg -> /output/images/logo-Wikiversity.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/logo-Wikivoyage.svg -> /output/images/logo-Wikivoyage.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/mapPinAdd.svg.br /tmp/work/dist/images/mapPinAdd.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/logo-Wikiversity.svg -> /output/images/logo-Wikiversity.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/mapTrail.svg.br /tmp/work/dist/images/mapTrail.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/logOut.svg -> /output/images/logOut.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/map.svg -> /output/images/map.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/logOut.svg -> /output/images/logOut.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/logo-Wiktionary.svg -> /output/images/logo-Wiktionary.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/markup.svg.br /tmp/work/dist/images/markup.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/mapPin.svg -> /output/images/mapPin.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/map.svg -> /output/images/map.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/mathematics.svg.br /tmp/work/dist/images/mathematics.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/mapPinAdd.svg -> /output/images/mapPinAdd.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/mapPin.svg -> /output/images/mapPin.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/mapPinAdd.svg -> /output/images/mapPinAdd.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/mathematicsDisplayDefault.svg.br /tmp/work/dist/images/mathematicsDisplayDefault.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/mathematicsDisplayBlock.svg.br /tmp/work/dist/images/mathematicsDisplayBlock.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/logo-Wiktionary.svg -> /output/images/logo-Wiktionary.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/mathematicsDisplayInline.svg.br /tmp/work/dist/images/mathematicsDisplayInline.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/mapTrail.svg -> /output/images/mapTrail.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/mathematics.svg -> /output/images/mathematics.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/mapTrail.svg -> /output/images/mapTrail.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/markup.svg -> /output/images/markup.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/menu.svg.br /tmp/work/dist/images/menu.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/mathematics.svg -> /output/images/mathematics.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/message.svg.br /tmp/work/dist/images/message.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/markup.svg -> /output/images/markup.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/moon.svg.br /tmp/work/dist/images/moon.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/mathematicsDisplayBlock.svg -> /output/images/mathematicsDisplayBlock.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/mathematicsDisplayBlock.svg -> /output/images/mathematicsDisplayBlock.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/move.svg.br /tmp/work/dist/images/move.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/mathematicsDisplayDefault.svg -> /output/images/mathematicsDisplayDefault.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/mathematicsDisplayInline.svg -> /output/images/mathematicsDisplayInline.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/mathematicsDisplayDefault.svg -> /output/images/mathematicsDisplayDefault.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/moveFirst.svg.br /tmp/work/dist/images/moveFirst.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/menu.svg -> /output/images/menu.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/mathematicsDisplayInline.svg -> /output/images/mathematicsDisplayInline.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/moveLast.svg.br /tmp/work/dist/images/moveLast.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/menu.svg -> /output/images/menu.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/musicalScore.svg.br /tmp/work/dist/images/musicalScore.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/move.svg -> /output/images/move.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/moon.svg -> /output/images/moon.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/message.svg -> /output/images/message.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/moon.svg -> /output/images/moon.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/network.svg.br /tmp/work/dist/images/network.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/move.svg -> /output/images/move.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/message.svg -> /output/images/message.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/networkOff.svg.br /tmp/work/dist/images/networkOff.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/newline.svg.br /tmp/work/dist/images/newline.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/moveFirst.svg -> /output/images/moveFirst.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/moveLast.svg -> /output/images/moveLast.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/moveFirst.svg -> /output/images/moveFirst.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/moveLast.svg -> /output/images/moveLast.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/newWindow.svg.br /tmp/work/dist/images/newWindow.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/newspaper.svg.br /tmp/work/dist/images/newspaper.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/musicalScore.svg -> /output/images/musicalScore.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/musicalScore.svg -> /output/images/musicalScore.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/next.svg.br /tmp/work/dist/images/next.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/newline.svg -> /output/images/newline.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/network.svg -> /output/images/network.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/network.svg -> /output/images/network.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/newWindow.svg -> /output/images/newWindow.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/newline.svg -> /output/images/newline.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/notBright.svg.br /tmp/work/dist/images/notBright.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/notice.svg.br /tmp/work/dist/images/notice.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/networkOff.svg -> /output/images/networkOff.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/next.svg -> /output/images/next.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/newspaper.svg -> /output/images/newspaper.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/newWindow.svg -> /output/images/newWindow.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/networkOff.svg -> /output/images/networkOff.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/ongoingConversation.svg.br /tmp/work/dist/images/ongoingConversation.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/next.svg -> /output/images/next.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/outdent.svg.br /tmp/work/dist/images/outdent.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/noWikitext.svg.br /tmp/work/dist/images/noWikitext.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/newspaper.svg -> /output/images/newspaper.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/outline.svg.br /tmp/work/dist/images/outline.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/notBright.svg -> /output/images/notBright.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/notBright.svg -> /output/images/notBright.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/pageSettings.svg.br /tmp/work/dist/images/pageSettings.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/notice.svg -> /output/images/notice.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/notice.svg -> /output/images/notice.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/palette.svg.br /tmp/work/dist/images/palette.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/outline.svg -> /output/images/outline.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/outline.svg -> /output/images/outline.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/outdent.svg -> /output/images/outdent.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/ongoingConversation.svg -> /output/images/ongoingConversation.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/noWikitext.svg -> /output/images/noWikitext.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/paste.svg.br /tmp/work/dist/images/paste.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/ongoingConversation.svg -> /output/images/ongoingConversation.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/pause.svg.br /tmp/work/dist/images/pause.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/pageSettings.svg -> /output/images/pageSettings.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/outdent.svg -> /output/images/outdent.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/noWikitext.svg -> /output/images/noWikitext.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/palette.svg -> /output/images/palette.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/play.svg.br /tmp/work/dist/images/play.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/previous.svg.br /tmp/work/dist/images/previous.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/palette.svg -> /output/images/palette.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/printer.svg.br /tmp/work/dist/images/printer.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/pageSettings.svg -> /output/images/pageSettings.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/pushPin.svg.br /tmp/work/dist/images/pushPin.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/paste.svg -> /output/images/paste.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/paste.svg -> /output/images/paste.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/pause.svg -> /output/images/pause.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/pause.svg -> /output/images/pause.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/play.svg -> /output/images/play.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/puzzle.svg.br /tmp/work/dist/images/puzzle.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/qrCode.svg.br /tmp/work/dist/images/qrCode.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/previous.svg -> /output/images/previous.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/printer.svg -> /output/images/printer.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/play.svg -> /output/images/play.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/quotes.svg.br /tmp/work/dist/images/quotes.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/previous.svg -> /output/images/previous.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/recentChanges-ltr.svg.br /tmp/work/dist/images/recentChanges-ltr.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/printer.svg -> /output/images/printer.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/pushPin.svg -> /output/images/pushPin.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/recentChanges-rtl.svg.br /tmp/work/dist/images/recentChanges-rtl.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/pushPin.svg -> /output/images/pushPin.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/redo.svg.br /tmp/work/dist/images/redo.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/puzzle.svg -> /output/images/puzzle.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/qrCode.svg -> /output/images/qrCode.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/quotes.svg -> /output/images/quotes.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/qrCode.svg -> /output/images/qrCode.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/recentChanges-ltr.svg -> /output/images/recentChanges-ltr.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/puzzle.svg -> /output/images/puzzle.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/reference.svg.br /tmp/work/dist/images/reference.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/quotes.svg -> /output/images/quotes.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/referenceExisting-ltr.svg.br /tmp/work/dist/images/referenceExisting-ltr.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/referenceExisting-rtl.svg.br /tmp/work/dist/images/referenceExisting-rtl.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/recentChanges-ltr.svg -> /output/images/recentChanges-ltr.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/references.svg.br /tmp/work/dist/images/references.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/redo.svg -> /output/images/redo.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/redo.svg -> /output/images/redo.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/reload.svg.br /tmp/work/dist/images/reload.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/reference.svg -> /output/images/reference.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/reference.svg -> /output/images/reference.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/restore.svg.br /tmp/work/dist/images/restore.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/referenceExisting-rtl.svg -> /output/images/referenceExisting-rtl.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/referenceExisting-ltr.svg -> /output/images/referenceExisting-ltr.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/referenceExisting-ltr.svg -> /output/images/referenceExisting-ltr.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/referenceExisting-rtl.svg -> /output/images/referenceExisting-rtl.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/robot.svg.br /tmp/work/dist/images/robot.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/recentChanges-rtl.svg -> /output/images/recentChanges-rtl.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/sandbox.svg.br /tmp/work/dist/images/sandbox.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/recentChanges-rtl.svg -> /output/images/recentChanges-rtl.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/reload.svg -> /output/images/reload.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/search.svg.br /tmp/work/dist/images/search.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/references.svg -> /output/images/references.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/reload.svg -> /output/images/reload.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/references.svg -> /output/images/references.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/searchCaseSensitive.svg.br /tmp/work/dist/images/searchCaseSensitive.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/searchDiacritics.svg.br /tmp/work/dist/images/searchDiacritics.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/restore.svg -> /output/images/restore.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/restore.svg -> /output/images/restore.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/searchRegularExpression.svg.br /tmp/work/dist/images/searchRegularExpression.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/sandbox.svg -> /output/images/sandbox.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/search.svg -> /output/images/search.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/sandbox.svg -> /output/images/sandbox.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/settings.svg.br /tmp/work/dist/images/settings.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/robot.svg -> /output/images/robot.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/search.svg -> /output/images/search.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/share.svg.br /tmp/work/dist/images/share.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/robot.svg -> /output/images/robot.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/signature.svg.br /tmp/work/dist/images/signature.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/searchRegularExpression.svg -> /output/images/searchRegularExpression.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/searchDiacritics.svg -> /output/images/searchDiacritics.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/searchCaseSensitive.svg -> /output/images/searchCaseSensitive.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/searchRegularExpression.svg -> /output/images/searchRegularExpression.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/searchDiacritics.svg -> /output/images/searchDiacritics.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/smaller.svg.br /tmp/work/dist/images/smaller.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/settings.svg -> /output/images/settings.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/smallerText.svg.br /tmp/work/dist/images/smallerText.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/searchCaseSensitive.svg -> /output/images/searchCaseSensitive.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/settings.svg -> /output/images/settings.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/specialCharacter.svg.br /tmp/work/dist/images/specialCharacter.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/share.svg -> /output/images/share.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/sortVertical.svg.br /tmp/work/dist/images/sortVertical.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/share.svg -> /output/images/share.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/specialPages.svg.br /tmp/work/dist/images/specialPages.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/signature.svg -> /output/images/signature.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/signature.svg -> /output/images/signature.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/speechBubble.svg.br /tmp/work/dist/images/speechBubble.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/smaller.svg -> /output/images/smaller.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/smaller.svg -> /output/images/smaller.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/speechBubbleAdd.svg.br /tmp/work/dist/images/speechBubbleAdd.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/smallerText.svg -> /output/images/smallerText.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/smallerText.svg -> /output/images/smallerText.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/speechBubbles.svg.br /tmp/work/dist/images/speechBubbles.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/sortVertical.svg -> /output/images/sortVertical.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/sortVertical.svg -> /output/images/sortVertical.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/specialCharacter.svg -> /output/images/specialCharacter.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/star.svg.br /tmp/work/dist/images/star.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/speechBubble.svg -> /output/images/speechBubble.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/specialCharacter.svg -> /output/images/specialCharacter.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/stop.svg.br /tmp/work/dist/images/stop.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/speechBubble.svg -> /output/images/speechBubble.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/strikethrough-a.svg.br /tmp/work/dist/images/strikethrough-a.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/specialPages.svg -> /output/images/specialPages.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/specialPages.svg -> /output/images/specialPages.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/strikethrough-s.svg.br /tmp/work/dist/images/strikethrough-s.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/speechBubbleAdd.svg -> /output/images/speechBubbleAdd.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/speechBubbleAdd.svg -> /output/images/speechBubbleAdd.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/strikethrough-y.svg.br /tmp/work/dist/images/strikethrough-y.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/stop.svg -> /output/images/stop.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/stop.svg -> /output/images/stop.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/subscript.svg.br /tmp/work/dist/images/subscript.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/strikethrough-a.svg -> /output/images/strikethrough-a.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/strikethrough-a.svg -> /output/images/strikethrough-a.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/star.svg -> /output/images/star.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/subtract.svg.br /tmp/work/dist/images/subtract.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/speechBubbles.svg -> /output/images/speechBubbles.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/star.svg -> /output/images/star.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/success.svg.br /tmp/work/dist/images/success.svg
+2024/08/07 21:32:30 br /tmp/work/dist/codex-icons.json -> /output/codex-icons.json.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/speechBubbles.svg -> /output/images/speechBubbles.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/superscript.svg.br /tmp/work/dist/images/superscript.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/strikethrough-s.svg -> /output/images/strikethrough-s.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/strikethrough-y.svg -> /output/images/strikethrough-y.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/strikethrough-s.svg -> /output/images/strikethrough-s.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/table.svg.br /tmp/work/dist/images/table.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/strikethrough-y.svg -> /output/images/strikethrough-y.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/subtract.svg -> /output/images/subtract.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/tableAddColumnAfter.svg.br /tmp/work/dist/images/tableAddColumnAfter.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/success.svg -> /output/images/success.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/subtract.svg -> /output/images/subtract.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/tableAddColumnBefore.svg.br /tmp/work/dist/images/tableAddColumnBefore.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/success.svg -> /output/images/success.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/tableAddRowAfter.svg.br /tmp/work/dist/images/tableAddRowAfter.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/subscript.svg -> /output/images/subscript.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/tableAddColumnAfter.svg -> /output/images/tableAddColumnAfter.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/subscript.svg -> /output/images/subscript.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/table.svg -> /output/images/table.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/tableAddRowBefore.svg.br /tmp/work/dist/images/tableAddRowBefore.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/tableAddColumnAfter.svg -> /output/images/tableAddColumnAfter.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/tableCaption.svg.br /tmp/work/dist/images/tableCaption.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/superscript.svg -> /output/images/superscript.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/table.svg -> /output/images/table.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/tableMergeCells.svg.br /tmp/work/dist/images/tableMergeCells.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/superscript.svg -> /output/images/superscript.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/tableAddRowAfter.svg -> /output/images/tableAddRowAfter.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/tableAddColumnBefore.svg -> /output/images/tableAddColumnBefore.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/tableAddRowAfter.svg -> /output/images/tableAddRowAfter.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/tableMoveColumnBefore.svg.br /tmp/work/dist/images/tableMoveColumnBefore.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/tableMoveColumnAfter.svg.br /tmp/work/dist/images/tableMoveColumnAfter.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/tableAddRowBefore.svg -> /output/images/tableAddRowBefore.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/tableAddColumnBefore.svg -> /output/images/tableAddColumnBefore.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/tableMoveRowAfter.svg.br /tmp/work/dist/images/tableMoveRowAfter.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/tableAddRowBefore.svg -> /output/images/tableAddRowBefore.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/tableMoveRowBefore.svg.br /tmp/work/dist/images/tableMoveRowBefore.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/tableCaption.svg -> /output/images/tableCaption.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/tableMergeCells.svg -> /output/images/tableMergeCells.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/tableCaption.svg -> /output/images/tableCaption.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/tag.svg.br /tmp/work/dist/images/tag.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/tableMergeCells.svg -> /output/images/tableMergeCells.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/templateAdd.svg.br /tmp/work/dist/images/templateAdd.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/codex-icons.json -> /output/codex-icons.json.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/textDirLTR.svg.br /tmp/work/dist/images/textDirLTR.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/tableMoveColumnBefore.svg -> /output/images/tableMoveColumnBefore.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/tableMoveColumnBefore.svg -> /output/images/tableMoveColumnBefore.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/textDirRTL.svg.br /tmp/work/dist/images/textDirRTL.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/tableMoveColumnAfter.svg -> /output/images/tableMoveColumnAfter.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/tableMoveColumnAfter.svg -> /output/images/tableMoveColumnAfter.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/textFlow.svg.br /tmp/work/dist/images/textFlow.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/tableMoveRowBefore.svg -> /output/images/tableMoveRowBefore.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/tableMoveRowAfter.svg -> /output/images/tableMoveRowAfter.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/tag.svg -> /output/images/tag.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/templateAdd.svg -> /output/images/templateAdd.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/tableMoveRowBefore.svg -> /output/images/tableMoveRowBefore.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/tag.svg -> /output/images/tag.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/tableMoveRowAfter.svg -> /output/images/tableMoveRowAfter.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/textStyle.svg.br /tmp/work/dist/images/textStyle.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/trash.svg.br /tmp/work/dist/images/trash.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/textSummary.svg.br /tmp/work/dist/images/textSummary.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/templateAdd.svg -> /output/images/templateAdd.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/textDirRTL.svg -> /output/images/textDirRTL.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/textDirLTR.svg -> /output/images/textDirLTR.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/tray.svg.br /tmp/work/dist/images/tray.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/textDirRTL.svg -> /output/images/textDirRTL.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/unBlock.svg.br /tmp/work/dist/images/unBlock.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/textDirLTR.svg -> /output/images/textDirLTR.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/underline-a.svg.br /tmp/work/dist/images/underline-a.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/textFlow.svg -> /output/images/textFlow.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/textFlow.svg -> /output/images/textFlow.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/underline-u.svg.br /tmp/work/dist/images/underline-u.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/trash.svg -> /output/images/trash.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/textStyle.svg -> /output/images/textStyle.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/textSummary.svg -> /output/images/textSummary.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/unBlock.svg -> /output/images/unBlock.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/trash.svg -> /output/images/trash.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/undo.svg.br /tmp/work/dist/images/undo.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/tray.svg -> /output/images/tray.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/textSummary.svg -> /output/images/textSummary.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/unFlag-ltr.svg.br /tmp/work/dist/images/unFlag-ltr.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/textStyle.svg -> /output/images/textStyle.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/unFlag-rtl.svg.br /tmp/work/dist/images/unFlag-rtl.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/unBlock.svg -> /output/images/unBlock.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/tray.svg -> /output/images/tray.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/underline-a.svg -> /output/images/underline-a.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/underline-a.svg -> /output/images/underline-a.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/unStar.svg.br /tmp/work/dist/images/unStar.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/unLink.svg.br /tmp/work/dist/images/unLink.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/unLock.svg.br /tmp/work/dist/images/unLock.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/underline-u.svg -> /output/images/underline-u.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/underline-u.svg -> /output/images/underline-u.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/upload.svg.br /tmp/work/dist/images/upload.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/undo.svg -> /output/images/undo.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/unFlag-rtl.svg -> /output/images/unFlag-rtl.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/unFlag-ltr.svg -> /output/images/unFlag-ltr.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/undo.svg -> /output/images/undo.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/upTriangle.svg.br /tmp/work/dist/images/upTriangle.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/unStar.svg -> /output/images/unStar.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/unFlag-rtl.svg -> /output/images/unFlag-rtl.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/userActive.svg.br /tmp/work/dist/images/userActive.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/unLock.svg -> /output/images/unLock.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/unStar.svg -> /output/images/unStar.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/userAdd.svg.br /tmp/work/dist/images/userAdd.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/unLock.svg -> /output/images/unLock.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/userAnonymous.svg.br /tmp/work/dist/images/userAnonymous.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/upload.svg -> /output/images/upload.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/unFlag-ltr.svg -> /output/images/unFlag-ltr.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/userAvatar.svg.br /tmp/work/dist/images/userAvatar.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/unLink.svg -> /output/images/unLink.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/upTriangle.svg -> /output/images/upTriangle.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/upload.svg -> /output/images/upload.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/userAvatarOutline.svg.br /tmp/work/dist/images/userAvatarOutline.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/userActive.svg -> /output/images/userActive.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/userActive.svg -> /output/images/userActive.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/userContributions.svg.br /tmp/work/dist/images/userContributions.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/upTriangle.svg -> /output/images/upTriangle.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/unLink.svg -> /output/images/unLink.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/userAdd.svg -> /output/images/userAdd.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/userRights.svg.br /tmp/work/dist/images/userRights.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/userGroup.svg.br /tmp/work/dist/images/userGroup.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/userAdd.svg -> /output/images/userAdd.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/userTalk.svg.br /tmp/work/dist/images/userTalk.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/userAnonymous.svg -> /output/images/userAnonymous.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/userAvatar.svg -> /output/images/userAvatar.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/userAnonymous.svg -> /output/images/userAnonymous.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/userTemporary.svg.br /tmp/work/dist/images/userTemporary.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/userAvatar.svg -> /output/images/userAvatar.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/viewCompact.svg.br /tmp/work/dist/images/viewCompact.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/userAvatarOutline.svg -> /output/images/userAvatarOutline.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/userAvatarOutline.svg -> /output/images/userAvatarOutline.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/viewDetails.svg.br /tmp/work/dist/images/viewDetails.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/userGroup.svg -> /output/images/userGroup.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/userContributions.svg -> /output/images/userContributions.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/userTalk.svg -> /output/images/userTalk.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/userGroup.svg -> /output/images/userGroup.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/visionSimulator.svg.br /tmp/work/dist/images/visionSimulator.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/viewCompact.svg -> /output/images/viewCompact.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/userTemporary.svg -> /output/images/userTemporary.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/userRights.svg -> /output/images/userRights.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/userContributions.svg -> /output/images/userContributions.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/volumeDown.svg.br /tmp/work/dist/images/volumeDown.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/userTemporary.svg -> /output/images/userTemporary.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/userTalk.svg -> /output/images/userTalk.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/volumeOff-ltr.svg.br /tmp/work/dist/images/volumeOff-ltr.svg
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/volumeOff-rtl.svg.br /tmp/work/dist/images/volumeOff-rtl.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/viewCompact.svg -> /output/images/viewCompact.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/userRights.svg -> /output/images/userRights.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/volumeUp.svg.br /tmp/work/dist/images/volumeUp.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/viewDetails.svg -> /output/images/viewDetails.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/watchlist.svg.br /tmp/work/dist/images/watchlist.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/viewDetails.svg -> /output/images/viewDetails.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/wikitext.svg.br /tmp/work/dist/images/wikitext.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/visionSimulator.svg -> /output/images/visionSimulator.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/volumeOff-ltr.svg -> /output/images/volumeOff-ltr.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/volumeDown.svg -> /output/images/volumeDown.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/visionSimulator.svg -> /output/images/visionSimulator.svg.gz
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/window.svg.br /tmp/work/dist/images/window.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/volumeDown.svg -> /output/images/volumeDown.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/volumeOff-rtl.svg -> /output/images/volumeOff-rtl.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/zoomIn.svg.br /tmp/work/dist/images/zoomIn.svg
+2024/08/07 21:32:30 br /tmp/work/dist/images/watchlist.svg -> /output/images/watchlist.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/volumeOff-ltr.svg -> /output/images/volumeOff-ltr.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/watchlist.svg -> /output/images/watchlist.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/volumeOff-rtl.svg -> /output/images/volumeOff-rtl.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/volumeUp.svg -> /output/images/volumeUp.svg.br
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/zoomOut.svg.br /tmp/work/dist/images/zoomOut.svg
+2024/08/07 21:32:30 gz /tmp/work/dist/images/volumeUp.svg -> /output/images/volumeUp.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/wikitext.svg -> /output/images/wikitext.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/wikitext.svg -> /output/images/wikitext.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/window.svg -> /output/images/window.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/window.svg -> /output/images/window.svg.gz
+2024/08/07 21:32:30 br /tmp/work/dist/images/zoomIn.svg -> /output/images/zoomIn.svg.br
+2024/08/07 21:32:30 br /tmp/work/dist/images/zoomOut.svg -> /output/images/zoomOut.svg.br
+2024/08/07 21:32:30 gz /tmp/work/dist/images/zoomIn.svg -> /output/images/zoomIn.svg.gz
+2024/08/07 21:32:30 gz /tmp/work/dist/images/zoomOut.svg -> /output/images/zoomOut.svg.gz
+2024/08/07 21:32:30 sri /tmp/work/dist/codex-icons.min.js -> /output/codex-icons.min.js.sri
+2024/08/07 21:32:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codex-icons.min.js.br /tmp/work/dist/codex-icons.min.js
+2024/08/07 21:32:31 br /tmp/work/dist/codex-icons.min.js -> /output/codex-icons.min.js.br
+2024/08/07 21:32:31 gz /tmp/work/dist/codex-icons.min.js -> /output/codex-icons.min.js.gz
+2024/08/07 21:32:31 sri /tmp/work/dist/codex-icons.js -> /output/codex-icons.js.sri
+2024/08/07 21:32:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/codex-icons.js.br /tmp/work/dist/codex-icons.js
+2024/08/07 21:32:31 br /tmp/work/dist/codex-icons.js -> /output/codex-icons.js.br
+2024/08/07 21:32:31 gz /tmp/work/dist/codex-icons.js -> /output/codex-icons.js.gz
+2024/08/07 21:32:31 processed codex-icons
