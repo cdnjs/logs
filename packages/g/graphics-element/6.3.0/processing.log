@@ -1,0 +1,47 @@
+2024/08/09 17:01:17 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/08/09 17:01:17 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/graphics-element.min.js /tmp/work/dist/graphics-element.js]
+2024/08/09 17:01:17 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/graphics-element.min.css /tmp/work/dist/graphics-element.css]
+2024/08/09 17:01:17 failed with exit status 1: Parse error at /tmp/work/dist/graphics-element.js:6,391
+}`:t})}l(U,"getElementTagName");var h=class extends HTMLElement{static{l(this,"C
+                                                                      ^
+ERROR: Unexpected token: punc «{», expected: punc «[»
+    at JS_Parse_Error.get (eval at <anonymous> (/node_modules/uglify-js/tools/node.js:18:1), <anonymous>:63:23)
+    at fatal (/node_modules/uglify-js/bin/uglifyjs:480:27)
+    at run (/node_modules/uglify-js/bin/uglifyjs:415:9)
+    at Object.<anonymous> (/node_modules/uglify-js/bin/uglifyjs:294:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+
+2024/08/09 17:01:17 compress: run /node_modules/uglify-es/bin/uglifyjs (3.3.10) [--mangle --compress if_return=true -o /tmp/work/dist/graphics-element.min.js /tmp/work/dist/graphics-element.js]
+2024/08/09 17:01:17 sri /tmp/work/dist/graphics-element.min.css -> /output/graphics-element.min.css.sri
+2024/08/09 17:01:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/graphics-element.min.css.br /tmp/work/dist/graphics-element.min.css
+2024/08/09 17:01:17 br /tmp/work/dist/graphics-element.min.css -> /output/graphics-element.min.css.br
+2024/08/09 17:01:17 gz /tmp/work/dist/graphics-element.min.css -> /output/graphics-element.min.css.gz
+2024/08/09 17:01:17 sri /tmp/work/dist/graphics-element.css -> /output/graphics-element.css.sri
+2024/08/09 17:01:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/graphics-element.css.br /tmp/work/dist/graphics-element.css
+2024/08/09 17:01:17 br /tmp/work/dist/graphics-element.css -> /output/graphics-element.css.br
+2024/08/09 17:01:17 gz /tmp/work/dist/graphics-element.css -> /output/graphics-element.css.gz
+2024/08/09 17:01:17 failed with exit status 1: Parse error at /tmp/work/dist/graphics-element.js:6,391
+}`:t})}l(U,"getElementTagName");var h=class extends HTMLElement{static{l(this,"C
+                                                                      ^
+ERROR: Unexpected token: punc ({)
+    at JS_Parse_Error.get (eval at <anonymous> (/node_modules/uglify-es/tools/node.js:21:1), <anonymous>:75:23)
+    at fatal (/node_modules/uglify-es/bin/uglifyjs:300:53)
+    at run (/node_modules/uglify-es/bin/uglifyjs:239:9)
+    at Object.<anonymous> (/node_modules/uglify-es/bin/uglifyjs:169:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+
+2024/08/09 17:01:17 sri /tmp/work/dist/graphics-element.js -> /output/graphics-element.js.sri
+2024/08/09 17:01:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/graphics-element.js.br /tmp/work/dist/graphics-element.js
+2024/08/09 17:01:18 br /tmp/work/dist/graphics-element.js -> /output/graphics-element.js.br
+2024/08/09 17:01:18 gz /tmp/work/dist/graphics-element.js -> /output/graphics-element.js.gz
+2024/08/09 17:01:18 processed graphics-element
