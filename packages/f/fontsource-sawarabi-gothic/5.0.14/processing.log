@@ -1,0 +1,598 @@
+2024/08/11 01:06:42 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/08/11 01:06:42 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/japanese-400.min.css /tmp/work/japanese-400.css]
+2024/08/11 01:06:42 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-400.min.css /tmp/work/cyrillic-400.css]
+2024/08/11 01:06:42 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/japanese.min.css /tmp/work/japanese.css]
+2024/08/11 01:06:42 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-ext-400.min.css /tmp/work/latin-ext-400.css]
+2024/08/11 01:06:42 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/400.min.css /tmp/work/400.css]
+2024/08/11 01:06:42 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/index.min.css /tmp/work/index.css]
+2024/08/11 01:06:42 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic.min.css /tmp/work/cyrillic.css]
+2024/08/11 01:06:42 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-400.min.css /tmp/work/latin-400.css]
+2024/08/11 01:06:42 sri /tmp/work/japanese.min.css -> /output/japanese.min.css.sri
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/japanese.min.css.br /tmp/work/japanese.min.css
+2024/08/11 01:06:42 sri /tmp/work/cyrillic-400.min.css -> /output/cyrillic-400.min.css.sri
+2024/08/11 01:06:42 sri /tmp/work/latin-400.min.css -> /output/latin-400.min.css.sri
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-400.min.css.br /tmp/work/cyrillic-400.min.css
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400.min.css.br /tmp/work/latin-400.min.css
+2024/08/11 01:06:42 sri /tmp/work/cyrillic.min.css -> /output/cyrillic.min.css.sri
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic.min.css.br /tmp/work/cyrillic.min.css
+2024/08/11 01:06:42 br /tmp/work/cyrillic-400.min.css -> /output/cyrillic-400.min.css.br
+2024/08/11 01:06:42 br /tmp/work/japanese.min.css -> /output/japanese.min.css.br
+2024/08/11 01:06:42 br /tmp/work/latin-400.min.css -> /output/latin-400.min.css.br
+2024/08/11 01:06:42 gz /tmp/work/cyrillic-400.min.css -> /output/cyrillic-400.min.css.gz
+2024/08/11 01:06:42 sri /tmp/work/cyrillic-400.css -> /output/cyrillic-400.css.sri
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-400.css.br /tmp/work/cyrillic-400.css
+2024/08/11 01:06:42 sri /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.sri
+2024/08/11 01:06:42 br /tmp/work/cyrillic.min.css -> /output/cyrillic.min.css.br
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-400.min.css.br /tmp/work/latin-ext-400.min.css
+2024/08/11 01:06:42 gz /tmp/work/japanese.min.css -> /output/japanese.min.css.gz
+2024/08/11 01:06:42 gz /tmp/work/latin-400.min.css -> /output/latin-400.min.css.gz
+2024/08/11 01:06:42 sri /tmp/work/japanese.css -> /output/japanese.css.sri
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/japanese.css.br /tmp/work/japanese.css
+2024/08/11 01:06:42 sri /tmp/work/latin-400.css -> /output/latin-400.css.sri
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400.css.br /tmp/work/latin-400.css
+2024/08/11 01:06:42 sri /tmp/work/japanese-400.min.css -> /output/japanese-400.min.css.sri
+2024/08/11 01:06:42 br /tmp/work/cyrillic-400.css -> /output/cyrillic-400.css.br
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/japanese-400.min.css.br /tmp/work/japanese-400.min.css
+2024/08/11 01:06:42 gz /tmp/work/cyrillic.min.css -> /output/cyrillic.min.css.gz
+2024/08/11 01:06:42 sri /tmp/work/cyrillic.css -> /output/cyrillic.css.sri
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic.css.br /tmp/work/cyrillic.css
+2024/08/11 01:06:42 gz /tmp/work/cyrillic-400.css -> /output/cyrillic-400.css.gz
+2024/08/11 01:06:42 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-ext.min.css /tmp/work/latin-ext.css]
+2024/08/11 01:06:42 br /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.br
+2024/08/11 01:06:42 gz /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.gz
+2024/08/11 01:06:42 sri /tmp/work/latin-ext-400.css -> /output/latin-ext-400.css.sri
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-400.css.br /tmp/work/latin-ext-400.css
+2024/08/11 01:06:42 br /tmp/work/japanese.css -> /output/japanese.css.br
+2024/08/11 01:06:42 gz /tmp/work/japanese.css -> /output/japanese.css.gz
+2024/08/11 01:06:42 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin.min.css /tmp/work/latin.css]
+2024/08/11 01:06:42 br /tmp/work/latin-400.css -> /output/latin-400.css.br
+2024/08/11 01:06:42 gz /tmp/work/latin-400.css -> /output/latin-400.css.gz
+2024/08/11 01:06:42 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/vietnamese-400.min.css /tmp/work/vietnamese-400.css]
+2024/08/11 01:06:42 br /tmp/work/japanese-400.min.css -> /output/japanese-400.min.css.br
+2024/08/11 01:06:42 gz /tmp/work/japanese-400.min.css -> /output/japanese-400.min.css.gz
+2024/08/11 01:06:42 sri /tmp/work/japanese-400.css -> /output/japanese-400.css.sri
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/japanese-400.css.br /tmp/work/japanese-400.css
+2024/08/11 01:06:42 br /tmp/work/cyrillic.css -> /output/cyrillic.css.br
+2024/08/11 01:06:42 br /tmp/work/latin-ext-400.css -> /output/latin-ext-400.css.br
+2024/08/11 01:06:42 gz /tmp/work/latin-ext-400.css -> /output/latin-ext-400.css.gz
+2024/08/11 01:06:42 gz /tmp/work/cyrillic.css -> /output/cyrillic.css.gz
+2024/08/11 01:06:42 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/vietnamese.min.css /tmp/work/vietnamese.css]
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-10-400-normal.woff.br /tmp/work/files/sawarabi-gothic-10-400-normal.woff
+2024/08/11 01:06:42 br /tmp/work/japanese-400.css -> /output/japanese-400.css.br
+2024/08/11 01:06:42 gz /tmp/work/japanese-400.css -> /output/japanese-400.css.gz
+2024/08/11 01:06:42 copy /tmp/work/files/sawarabi-gothic-10-400-normal.woff2 -> /output/files/sawarabi-gothic-10-400-normal.woff2
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-100-400-normal.woff.br /tmp/work/files/sawarabi-gothic-100-400-normal.woff
+2024/08/11 01:06:42 br /tmp/work/files/sawarabi-gothic-10-400-normal.woff -> /output/files/sawarabi-gothic-10-400-normal.woff.br
+2024/08/11 01:06:42 gz /tmp/work/files/sawarabi-gothic-10-400-normal.woff -> /output/files/sawarabi-gothic-10-400-normal.woff.gz
+2024/08/11 01:06:42 copy /tmp/work/files/sawarabi-gothic-100-400-normal.woff2 -> /output/files/sawarabi-gothic-100-400-normal.woff2
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-101-400-normal.woff.br /tmp/work/files/sawarabi-gothic-101-400-normal.woff
+2024/08/11 01:06:42 br /tmp/work/files/sawarabi-gothic-100-400-normal.woff -> /output/files/sawarabi-gothic-100-400-normal.woff.br
+2024/08/11 01:06:42 gz /tmp/work/files/sawarabi-gothic-100-400-normal.woff -> /output/files/sawarabi-gothic-100-400-normal.woff.gz
+2024/08/11 01:06:42 copy /tmp/work/files/sawarabi-gothic-101-400-normal.woff2 -> /output/files/sawarabi-gothic-101-400-normal.woff2
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-102-400-normal.woff.br /tmp/work/files/sawarabi-gothic-102-400-normal.woff
+2024/08/11 01:06:42 br /tmp/work/files/sawarabi-gothic-101-400-normal.woff -> /output/files/sawarabi-gothic-101-400-normal.woff.br
+2024/08/11 01:06:42 gz /tmp/work/files/sawarabi-gothic-101-400-normal.woff -> /output/files/sawarabi-gothic-101-400-normal.woff.gz
+2024/08/11 01:06:42 br /tmp/work/files/sawarabi-gothic-102-400-normal.woff -> /output/files/sawarabi-gothic-102-400-normal.woff.br
+2024/08/11 01:06:42 gz /tmp/work/files/sawarabi-gothic-102-400-normal.woff -> /output/files/sawarabi-gothic-102-400-normal.woff.gz
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-103-400-normal.woff.br /tmp/work/files/sawarabi-gothic-103-400-normal.woff
+2024/08/11 01:06:42 copy /tmp/work/files/sawarabi-gothic-102-400-normal.woff2 -> /output/files/sawarabi-gothic-102-400-normal.woff2
+2024/08/11 01:06:42 copy /tmp/work/files/sawarabi-gothic-103-400-normal.woff2 -> /output/files/sawarabi-gothic-103-400-normal.woff2
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-104-400-normal.woff.br /tmp/work/files/sawarabi-gothic-104-400-normal.woff
+2024/08/11 01:06:42 br /tmp/work/files/sawarabi-gothic-103-400-normal.woff -> /output/files/sawarabi-gothic-103-400-normal.woff.br
+2024/08/11 01:06:42 gz /tmp/work/files/sawarabi-gothic-103-400-normal.woff -> /output/files/sawarabi-gothic-103-400-normal.woff.gz
+2024/08/11 01:06:42 copy /tmp/work/files/sawarabi-gothic-104-400-normal.woff2 -> /output/files/sawarabi-gothic-104-400-normal.woff2
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-105-400-normal.woff.br /tmp/work/files/sawarabi-gothic-105-400-normal.woff
+2024/08/11 01:06:42 br /tmp/work/files/sawarabi-gothic-104-400-normal.woff -> /output/files/sawarabi-gothic-104-400-normal.woff.br
+2024/08/11 01:06:42 gz /tmp/work/files/sawarabi-gothic-104-400-normal.woff -> /output/files/sawarabi-gothic-104-400-normal.woff.gz
+2024/08/11 01:06:42 copy /tmp/work/files/sawarabi-gothic-105-400-normal.woff2 -> /output/files/sawarabi-gothic-105-400-normal.woff2
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-106-400-normal.woff.br /tmp/work/files/sawarabi-gothic-106-400-normal.woff
+2024/08/11 01:06:42 sri /tmp/work/latin-ext.min.css -> /output/latin-ext.min.css.sri
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext.min.css.br /tmp/work/latin-ext.min.css
+2024/08/11 01:06:42 br /tmp/work/latin-ext.min.css -> /output/latin-ext.min.css.br
+2024/08/11 01:06:42 gz /tmp/work/latin-ext.min.css -> /output/latin-ext.min.css.gz
+2024/08/11 01:06:42 sri /tmp/work/latin-ext.css -> /output/latin-ext.css.sri
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext.css.br /tmp/work/latin-ext.css
+2024/08/11 01:06:42 br /tmp/work/files/sawarabi-gothic-105-400-normal.woff -> /output/files/sawarabi-gothic-105-400-normal.woff.br
+2024/08/11 01:06:42 gz /tmp/work/files/sawarabi-gothic-105-400-normal.woff -> /output/files/sawarabi-gothic-105-400-normal.woff.gz
+2024/08/11 01:06:42 br /tmp/work/latin-ext.css -> /output/latin-ext.css.br
+2024/08/11 01:06:42 gz /tmp/work/latin-ext.css -> /output/latin-ext.css.gz
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-107-400-normal.woff.br /tmp/work/files/sawarabi-gothic-107-400-normal.woff
+2024/08/11 01:06:42 copy /tmp/work/files/sawarabi-gothic-106-400-normal.woff2 -> /output/files/sawarabi-gothic-106-400-normal.woff2
+2024/08/11 01:06:42 sri /tmp/work/vietnamese.min.css -> /output/vietnamese.min.css.sri
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese.min.css.br /tmp/work/vietnamese.min.css
+2024/08/11 01:06:42 copy /tmp/work/files/sawarabi-gothic-107-400-normal.woff2 -> /output/files/sawarabi-gothic-107-400-normal.woff2
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-108-400-normal.woff.br /tmp/work/files/sawarabi-gothic-108-400-normal.woff
+2024/08/11 01:06:42 br /tmp/work/vietnamese.min.css -> /output/vietnamese.min.css.br
+2024/08/11 01:06:42 gz /tmp/work/vietnamese.min.css -> /output/vietnamese.min.css.gz
+2024/08/11 01:06:42 sri /tmp/work/vietnamese.css -> /output/vietnamese.css.sri
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese.css.br /tmp/work/vietnamese.css
+2024/08/11 01:06:42 br /tmp/work/vietnamese.css -> /output/vietnamese.css.br
+2024/08/11 01:06:42 gz /tmp/work/vietnamese.css -> /output/vietnamese.css.gz
+2024/08/11 01:06:42 copy /tmp/work/files/sawarabi-gothic-108-400-normal.woff2 -> /output/files/sawarabi-gothic-108-400-normal.woff2
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-109-400-normal.woff.br /tmp/work/files/sawarabi-gothic-109-400-normal.woff
+2024/08/11 01:06:42 br /tmp/work/files/sawarabi-gothic-106-400-normal.woff -> /output/files/sawarabi-gothic-106-400-normal.woff.br
+2024/08/11 01:06:42 gz /tmp/work/files/sawarabi-gothic-106-400-normal.woff -> /output/files/sawarabi-gothic-106-400-normal.woff.gz
+2024/08/11 01:06:42 sri /tmp/work/latin.min.css -> /output/latin.min.css.sri
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin.min.css.br /tmp/work/latin.min.css
+2024/08/11 01:06:42 copy /tmp/work/files/sawarabi-gothic-109-400-normal.woff2 -> /output/files/sawarabi-gothic-109-400-normal.woff2
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-11-400-normal.woff.br /tmp/work/files/sawarabi-gothic-11-400-normal.woff
+2024/08/11 01:06:42 sri /tmp/work/vietnamese-400.min.css -> /output/vietnamese-400.min.css.sri
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-400.min.css.br /tmp/work/vietnamese-400.min.css
+2024/08/11 01:06:42 br /tmp/work/latin.min.css -> /output/latin.min.css.br
+2024/08/11 01:06:42 gz /tmp/work/latin.min.css -> /output/latin.min.css.gz
+2024/08/11 01:06:42 sri /tmp/work/latin.css -> /output/latin.css.sri
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin.css.br /tmp/work/latin.css
+2024/08/11 01:06:42 br /tmp/work/vietnamese-400.min.css -> /output/vietnamese-400.min.css.br
+2024/08/11 01:06:42 gz /tmp/work/vietnamese-400.min.css -> /output/vietnamese-400.min.css.gz
+2024/08/11 01:06:42 sri /tmp/work/vietnamese-400.css -> /output/vietnamese-400.css.sri
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-400.css.br /tmp/work/vietnamese-400.css
+2024/08/11 01:06:42 br /tmp/work/latin.css -> /output/latin.css.br
+2024/08/11 01:06:42 gz /tmp/work/latin.css -> /output/latin.css.gz
+2024/08/11 01:06:42 br /tmp/work/files/sawarabi-gothic-107-400-normal.woff -> /output/files/sawarabi-gothic-107-400-normal.woff.br
+2024/08/11 01:06:42 br /tmp/work/vietnamese-400.css -> /output/vietnamese-400.css.br
+2024/08/11 01:06:42 gz /tmp/work/vietnamese-400.css -> /output/vietnamese-400.css.gz
+2024/08/11 01:06:42 gz /tmp/work/files/sawarabi-gothic-107-400-normal.woff -> /output/files/sawarabi-gothic-107-400-normal.woff.gz
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-110-400-normal.woff.br /tmp/work/files/sawarabi-gothic-110-400-normal.woff
+2024/08/11 01:06:42 copy /tmp/work/files/sawarabi-gothic-11-400-normal.woff2 -> /output/files/sawarabi-gothic-11-400-normal.woff2
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-111-400-normal.woff.br /tmp/work/files/sawarabi-gothic-111-400-normal.woff
+2024/08/11 01:06:42 copy /tmp/work/files/sawarabi-gothic-110-400-normal.woff2 -> /output/files/sawarabi-gothic-110-400-normal.woff2
+2024/08/11 01:06:42 copy /tmp/work/files/sawarabi-gothic-111-400-normal.woff2 -> /output/files/sawarabi-gothic-111-400-normal.woff2
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-112-400-normal.woff.br /tmp/work/files/sawarabi-gothic-112-400-normal.woff
+2024/08/11 01:06:42 sri /tmp/work/index.min.css -> /output/index.min.css.sri
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.css.br /tmp/work/index.min.css
+2024/08/11 01:06:42 br /tmp/work/files/sawarabi-gothic-108-400-normal.woff -> /output/files/sawarabi-gothic-108-400-normal.woff.br
+2024/08/11 01:06:42 gz /tmp/work/files/sawarabi-gothic-108-400-normal.woff -> /output/files/sawarabi-gothic-108-400-normal.woff.gz
+2024/08/11 01:06:42 copy /tmp/work/files/sawarabi-gothic-112-400-normal.woff2 -> /output/files/sawarabi-gothic-112-400-normal.woff2
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-113-400-normal.woff.br /tmp/work/files/sawarabi-gothic-113-400-normal.woff
+2024/08/11 01:06:42 br /tmp/work/files/sawarabi-gothic-11-400-normal.woff -> /output/files/sawarabi-gothic-11-400-normal.woff.br
+2024/08/11 01:06:42 gz /tmp/work/files/sawarabi-gothic-11-400-normal.woff -> /output/files/sawarabi-gothic-11-400-normal.woff.gz
+2024/08/11 01:06:42 copy /tmp/work/files/sawarabi-gothic-113-400-normal.woff2 -> /output/files/sawarabi-gothic-113-400-normal.woff2
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-114-400-normal.woff.br /tmp/work/files/sawarabi-gothic-114-400-normal.woff
+2024/08/11 01:06:42 sri /tmp/work/400.min.css -> /output/400.min.css.sri
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400.min.css.br /tmp/work/400.min.css
+2024/08/11 01:06:42 br /tmp/work/files/sawarabi-gothic-109-400-normal.woff -> /output/files/sawarabi-gothic-109-400-normal.woff.br
+2024/08/11 01:06:42 gz /tmp/work/files/sawarabi-gothic-109-400-normal.woff -> /output/files/sawarabi-gothic-109-400-normal.woff.gz
+2024/08/11 01:06:42 copy /tmp/work/files/sawarabi-gothic-114-400-normal.woff2 -> /output/files/sawarabi-gothic-114-400-normal.woff2
+2024/08/11 01:06:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-115-400-normal.woff.br /tmp/work/files/sawarabi-gothic-115-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-110-400-normal.woff -> /output/files/sawarabi-gothic-110-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-110-400-normal.woff -> /output/files/sawarabi-gothic-110-400-normal.woff.gz
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-111-400-normal.woff -> /output/files/sawarabi-gothic-111-400-normal.woff.br
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-113-400-normal.woff -> /output/files/sawarabi-gothic-113-400-normal.woff.br
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-115-400-normal.woff2 -> /output/files/sawarabi-gothic-115-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-116-400-normal.woff.br /tmp/work/files/sawarabi-gothic-116-400-normal.woff
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-111-400-normal.woff -> /output/files/sawarabi-gothic-111-400-normal.woff.gz
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-113-400-normal.woff -> /output/files/sawarabi-gothic-113-400-normal.woff.gz
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-117-400-normal.woff.br /tmp/work/files/sawarabi-gothic-117-400-normal.woff
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-116-400-normal.woff2 -> /output/files/sawarabi-gothic-116-400-normal.woff2
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-112-400-normal.woff -> /output/files/sawarabi-gothic-112-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-112-400-normal.woff -> /output/files/sawarabi-gothic-112-400-normal.woff.gz
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-118-400-normal.woff.br /tmp/work/files/sawarabi-gothic-118-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-114-400-normal.woff -> /output/files/sawarabi-gothic-114-400-normal.woff.br
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-117-400-normal.woff2 -> /output/files/sawarabi-gothic-117-400-normal.woff2
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-114-400-normal.woff -> /output/files/sawarabi-gothic-114-400-normal.woff.gz
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-119-400-normal.woff.br /tmp/work/files/sawarabi-gothic-119-400-normal.woff
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-118-400-normal.woff2 -> /output/files/sawarabi-gothic-118-400-normal.woff2
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-119-400-normal.woff2 -> /output/files/sawarabi-gothic-119-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-12-400-normal.woff.br /tmp/work/files/sawarabi-gothic-12-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-115-400-normal.woff -> /output/files/sawarabi-gothic-115-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-115-400-normal.woff -> /output/files/sawarabi-gothic-115-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-12-400-normal.woff2 -> /output/files/sawarabi-gothic-12-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-13-400-normal.woff.br /tmp/work/files/sawarabi-gothic-13-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-117-400-normal.woff -> /output/files/sawarabi-gothic-117-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-117-400-normal.woff -> /output/files/sawarabi-gothic-117-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-13-400-normal.woff2 -> /output/files/sawarabi-gothic-13-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-14-400-normal.woff.br /tmp/work/files/sawarabi-gothic-14-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-118-400-normal.woff -> /output/files/sawarabi-gothic-118-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-118-400-normal.woff -> /output/files/sawarabi-gothic-118-400-normal.woff.gz
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-116-400-normal.woff -> /output/files/sawarabi-gothic-116-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-116-400-normal.woff -> /output/files/sawarabi-gothic-116-400-normal.woff.gz
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-15-400-normal.woff.br /tmp/work/files/sawarabi-gothic-15-400-normal.woff
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-14-400-normal.woff2 -> /output/files/sawarabi-gothic-14-400-normal.woff2
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-15-400-normal.woff2 -> /output/files/sawarabi-gothic-15-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-16-400-normal.woff.br /tmp/work/files/sawarabi-gothic-16-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-12-400-normal.woff -> /output/files/sawarabi-gothic-12-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-12-400-normal.woff -> /output/files/sawarabi-gothic-12-400-normal.woff.gz
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-13-400-normal.woff -> /output/files/sawarabi-gothic-13-400-normal.woff.br
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-16-400-normal.woff2 -> /output/files/sawarabi-gothic-16-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-17-400-normal.woff.br /tmp/work/files/sawarabi-gothic-17-400-normal.woff
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-13-400-normal.woff -> /output/files/sawarabi-gothic-13-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-17-400-normal.woff2 -> /output/files/sawarabi-gothic-17-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-18-400-normal.woff.br /tmp/work/files/sawarabi-gothic-18-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-14-400-normal.woff -> /output/files/sawarabi-gothic-14-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-14-400-normal.woff -> /output/files/sawarabi-gothic-14-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-18-400-normal.woff2 -> /output/files/sawarabi-gothic-18-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-19-400-normal.woff.br /tmp/work/files/sawarabi-gothic-19-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-15-400-normal.woff -> /output/files/sawarabi-gothic-15-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-15-400-normal.woff -> /output/files/sawarabi-gothic-15-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-19-400-normal.woff2 -> /output/files/sawarabi-gothic-19-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-2-400-normal.woff.br /tmp/work/files/sawarabi-gothic-2-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-17-400-normal.woff -> /output/files/sawarabi-gothic-17-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-17-400-normal.woff -> /output/files/sawarabi-gothic-17-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-2-400-normal.woff2 -> /output/files/sawarabi-gothic-2-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-20-400-normal.woff.br /tmp/work/files/sawarabi-gothic-20-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-119-400-normal.woff -> /output/files/sawarabi-gothic-119-400-normal.woff.br
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-2-400-normal.woff -> /output/files/sawarabi-gothic-2-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-119-400-normal.woff -> /output/files/sawarabi-gothic-119-400-normal.woff.gz
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-2-400-normal.woff -> /output/files/sawarabi-gothic-2-400-normal.woff.gz
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-21-400-normal.woff.br /tmp/work/files/sawarabi-gothic-21-400-normal.woff
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-20-400-normal.woff2 -> /output/files/sawarabi-gothic-20-400-normal.woff2
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-21-400-normal.woff2 -> /output/files/sawarabi-gothic-21-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-22-400-normal.woff.br /tmp/work/files/sawarabi-gothic-22-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-19-400-normal.woff -> /output/files/sawarabi-gothic-19-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-19-400-normal.woff -> /output/files/sawarabi-gothic-19-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-22-400-normal.woff2 -> /output/files/sawarabi-gothic-22-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-23-400-normal.woff.br /tmp/work/files/sawarabi-gothic-23-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-18-400-normal.woff -> /output/files/sawarabi-gothic-18-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-18-400-normal.woff -> /output/files/sawarabi-gothic-18-400-normal.woff.gz
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-16-400-normal.woff -> /output/files/sawarabi-gothic-16-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-16-400-normal.woff -> /output/files/sawarabi-gothic-16-400-normal.woff.gz
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-24-400-normal.woff.br /tmp/work/files/sawarabi-gothic-24-400-normal.woff
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-23-400-normal.woff2 -> /output/files/sawarabi-gothic-23-400-normal.woff2
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-24-400-normal.woff2 -> /output/files/sawarabi-gothic-24-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-25-400-normal.woff.br /tmp/work/files/sawarabi-gothic-25-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-20-400-normal.woff -> /output/files/sawarabi-gothic-20-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-20-400-normal.woff -> /output/files/sawarabi-gothic-20-400-normal.woff.gz
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-23-400-normal.woff -> /output/files/sawarabi-gothic-23-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-23-400-normal.woff -> /output/files/sawarabi-gothic-23-400-normal.woff.gz
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-26-400-normal.woff.br /tmp/work/files/sawarabi-gothic-26-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-21-400-normal.woff -> /output/files/sawarabi-gothic-21-400-normal.woff.br
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-25-400-normal.woff2 -> /output/files/sawarabi-gothic-25-400-normal.woff2
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-21-400-normal.woff -> /output/files/sawarabi-gothic-21-400-normal.woff.gz
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-27-400-normal.woff.br /tmp/work/files/sawarabi-gothic-27-400-normal.woff
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-26-400-normal.woff2 -> /output/files/sawarabi-gothic-26-400-normal.woff2
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-27-400-normal.woff2 -> /output/files/sawarabi-gothic-27-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-28-400-normal.woff.br /tmp/work/files/sawarabi-gothic-28-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-22-400-normal.woff -> /output/files/sawarabi-gothic-22-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-22-400-normal.woff -> /output/files/sawarabi-gothic-22-400-normal.woff.gz
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-24-400-normal.woff -> /output/files/sawarabi-gothic-24-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-24-400-normal.woff -> /output/files/sawarabi-gothic-24-400-normal.woff.gz
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-29-400-normal.woff.br /tmp/work/files/sawarabi-gothic-29-400-normal.woff
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-28-400-normal.woff2 -> /output/files/sawarabi-gothic-28-400-normal.woff2
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-29-400-normal.woff2 -> /output/files/sawarabi-gothic-29-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-3-400-normal.woff.br /tmp/work/files/sawarabi-gothic-3-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-25-400-normal.woff -> /output/files/sawarabi-gothic-25-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-25-400-normal.woff -> /output/files/sawarabi-gothic-25-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-3-400-normal.woff2 -> /output/files/sawarabi-gothic-3-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-30-400-normal.woff.br /tmp/work/files/sawarabi-gothic-30-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-3-400-normal.woff -> /output/files/sawarabi-gothic-3-400-normal.woff.br
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-29-400-normal.woff -> /output/files/sawarabi-gothic-29-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-3-400-normal.woff -> /output/files/sawarabi-gothic-3-400-normal.woff.gz
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-27-400-normal.woff -> /output/files/sawarabi-gothic-27-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-29-400-normal.woff -> /output/files/sawarabi-gothic-29-400-normal.woff.gz
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-31-400-normal.woff.br /tmp/work/files/sawarabi-gothic-31-400-normal.woff
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-27-400-normal.woff -> /output/files/sawarabi-gothic-27-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-30-400-normal.woff2 -> /output/files/sawarabi-gothic-30-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-32-400-normal.woff.br /tmp/work/files/sawarabi-gothic-32-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-28-400-normal.woff -> /output/files/sawarabi-gothic-28-400-normal.woff.br
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-31-400-normal.woff2 -> /output/files/sawarabi-gothic-31-400-normal.woff2
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-28-400-normal.woff -> /output/files/sawarabi-gothic-28-400-normal.woff.gz
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-33-400-normal.woff.br /tmp/work/files/sawarabi-gothic-33-400-normal.woff
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-32-400-normal.woff2 -> /output/files/sawarabi-gothic-32-400-normal.woff2
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-33-400-normal.woff2 -> /output/files/sawarabi-gothic-33-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-34-400-normal.woff.br /tmp/work/files/sawarabi-gothic-34-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-26-400-normal.woff -> /output/files/sawarabi-gothic-26-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-26-400-normal.woff -> /output/files/sawarabi-gothic-26-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-34-400-normal.woff2 -> /output/files/sawarabi-gothic-34-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-35-400-normal.woff.br /tmp/work/files/sawarabi-gothic-35-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-31-400-normal.woff -> /output/files/sawarabi-gothic-31-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-31-400-normal.woff -> /output/files/sawarabi-gothic-31-400-normal.woff.gz
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-32-400-normal.woff -> /output/files/sawarabi-gothic-32-400-normal.woff.br
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-30-400-normal.woff -> /output/files/sawarabi-gothic-30-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-32-400-normal.woff -> /output/files/sawarabi-gothic-32-400-normal.woff.gz
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-36-400-normal.woff.br /tmp/work/files/sawarabi-gothic-36-400-normal.woff
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-30-400-normal.woff -> /output/files/sawarabi-gothic-30-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-35-400-normal.woff2 -> /output/files/sawarabi-gothic-35-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-37-400-normal.woff.br /tmp/work/files/sawarabi-gothic-37-400-normal.woff
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-36-400-normal.woff2 -> /output/files/sawarabi-gothic-36-400-normal.woff2
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-37-400-normal.woff2 -> /output/files/sawarabi-gothic-37-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-38-400-normal.woff.br /tmp/work/files/sawarabi-gothic-38-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-33-400-normal.woff -> /output/files/sawarabi-gothic-33-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-33-400-normal.woff -> /output/files/sawarabi-gothic-33-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-38-400-normal.woff2 -> /output/files/sawarabi-gothic-38-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-39-400-normal.woff.br /tmp/work/files/sawarabi-gothic-39-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-34-400-normal.woff -> /output/files/sawarabi-gothic-34-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-34-400-normal.woff -> /output/files/sawarabi-gothic-34-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-39-400-normal.woff2 -> /output/files/sawarabi-gothic-39-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-40-400-normal.woff.br /tmp/work/files/sawarabi-gothic-40-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-37-400-normal.woff -> /output/files/sawarabi-gothic-37-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-37-400-normal.woff -> /output/files/sawarabi-gothic-37-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-40-400-normal.woff2 -> /output/files/sawarabi-gothic-40-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-41-400-normal.woff.br /tmp/work/files/sawarabi-gothic-41-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-38-400-normal.woff -> /output/files/sawarabi-gothic-38-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-38-400-normal.woff -> /output/files/sawarabi-gothic-38-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-41-400-normal.woff2 -> /output/files/sawarabi-gothic-41-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-42-400-normal.woff.br /tmp/work/files/sawarabi-gothic-42-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-39-400-normal.woff -> /output/files/sawarabi-gothic-39-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-39-400-normal.woff -> /output/files/sawarabi-gothic-39-400-normal.woff.gz
+2024/08/11 01:06:43 br /tmp/work/index.min.css -> /output/index.min.css.br
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-42-400-normal.woff2 -> /output/files/sawarabi-gothic-42-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-43-400-normal.woff.br /tmp/work/files/sawarabi-gothic-43-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/400.min.css -> /output/400.min.css.br
+2024/08/11 01:06:43 gz /tmp/work/index.min.css -> /output/index.min.css.gz
+2024/08/11 01:06:43 sri /tmp/work/index.css -> /output/index.css.sri
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.css.br /tmp/work/index.css
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-36-400-normal.woff -> /output/files/sawarabi-gothic-36-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-36-400-normal.woff -> /output/files/sawarabi-gothic-36-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-43-400-normal.woff2 -> /output/files/sawarabi-gothic-43-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-44-400-normal.woff.br /tmp/work/files/sawarabi-gothic-44-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-43-400-normal.woff -> /output/files/sawarabi-gothic-43-400-normal.woff.br
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-41-400-normal.woff -> /output/files/sawarabi-gothic-41-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-43-400-normal.woff -> /output/files/sawarabi-gothic-43-400-normal.woff.gz
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-40-400-normal.woff -> /output/files/sawarabi-gothic-40-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/400.min.css -> /output/400.min.css.gz
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-41-400-normal.woff -> /output/files/sawarabi-gothic-41-400-normal.woff.gz
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-45-400-normal.woff.br /tmp/work/files/sawarabi-gothic-45-400-normal.woff
+2024/08/11 01:06:43 sri /tmp/work/400.css -> /output/400.css.sri
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400.css.br /tmp/work/400.css
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-40-400-normal.woff -> /output/files/sawarabi-gothic-40-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-44-400-normal.woff2 -> /output/files/sawarabi-gothic-44-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-46-400-normal.woff.br /tmp/work/files/sawarabi-gothic-46-400-normal.woff
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-45-400-normal.woff2 -> /output/files/sawarabi-gothic-45-400-normal.woff2
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-42-400-normal.woff -> /output/files/sawarabi-gothic-42-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-42-400-normal.woff -> /output/files/sawarabi-gothic-42-400-normal.woff.gz
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-47-400-normal.woff.br /tmp/work/files/sawarabi-gothic-47-400-normal.woff
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-46-400-normal.woff2 -> /output/files/sawarabi-gothic-46-400-normal.woff2
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-47-400-normal.woff2 -> /output/files/sawarabi-gothic-47-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-48-400-normal.woff.br /tmp/work/files/sawarabi-gothic-48-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-35-400-normal.woff -> /output/files/sawarabi-gothic-35-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-35-400-normal.woff -> /output/files/sawarabi-gothic-35-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-48-400-normal.woff2 -> /output/files/sawarabi-gothic-48-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-49-400-normal.woff.br /tmp/work/files/sawarabi-gothic-49-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-45-400-normal.woff -> /output/files/sawarabi-gothic-45-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-45-400-normal.woff -> /output/files/sawarabi-gothic-45-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-49-400-normal.woff2 -> /output/files/sawarabi-gothic-49-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-5-400-normal.woff.br /tmp/work/files/sawarabi-gothic-5-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-44-400-normal.woff -> /output/files/sawarabi-gothic-44-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-44-400-normal.woff -> /output/files/sawarabi-gothic-44-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-5-400-normal.woff2 -> /output/files/sawarabi-gothic-5-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-50-400-normal.woff.br /tmp/work/files/sawarabi-gothic-50-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-46-400-normal.woff -> /output/files/sawarabi-gothic-46-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-46-400-normal.woff -> /output/files/sawarabi-gothic-46-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-50-400-normal.woff2 -> /output/files/sawarabi-gothic-50-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-51-400-normal.woff.br /tmp/work/files/sawarabi-gothic-51-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-47-400-normal.woff -> /output/files/sawarabi-gothic-47-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-47-400-normal.woff -> /output/files/sawarabi-gothic-47-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-51-400-normal.woff2 -> /output/files/sawarabi-gothic-51-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-52-400-normal.woff.br /tmp/work/files/sawarabi-gothic-52-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-51-400-normal.woff -> /output/files/sawarabi-gothic-51-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-51-400-normal.woff -> /output/files/sawarabi-gothic-51-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-52-400-normal.woff2 -> /output/files/sawarabi-gothic-52-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-53-400-normal.woff.br /tmp/work/files/sawarabi-gothic-53-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-50-400-normal.woff -> /output/files/sawarabi-gothic-50-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-50-400-normal.woff -> /output/files/sawarabi-gothic-50-400-normal.woff.gz
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-48-400-normal.woff -> /output/files/sawarabi-gothic-48-400-normal.woff.br
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-53-400-normal.woff2 -> /output/files/sawarabi-gothic-53-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-54-400-normal.woff.br /tmp/work/files/sawarabi-gothic-54-400-normal.woff
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-48-400-normal.woff -> /output/files/sawarabi-gothic-48-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-54-400-normal.woff2 -> /output/files/sawarabi-gothic-54-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-55-400-normal.woff.br /tmp/work/files/sawarabi-gothic-55-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-54-400-normal.woff -> /output/files/sawarabi-gothic-54-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-54-400-normal.woff -> /output/files/sawarabi-gothic-54-400-normal.woff.gz
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-55-400-normal.woff -> /output/files/sawarabi-gothic-55-400-normal.woff.br
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-55-400-normal.woff2 -> /output/files/sawarabi-gothic-55-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-56-400-normal.woff.br /tmp/work/files/sawarabi-gothic-56-400-normal.woff
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-55-400-normal.woff -> /output/files/sawarabi-gothic-55-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-56-400-normal.woff2 -> /output/files/sawarabi-gothic-56-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-57-400-normal.woff.br /tmp/work/files/sawarabi-gothic-57-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-53-400-normal.woff -> /output/files/sawarabi-gothic-53-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-53-400-normal.woff -> /output/files/sawarabi-gothic-53-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-57-400-normal.woff2 -> /output/files/sawarabi-gothic-57-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-58-400-normal.woff.br /tmp/work/files/sawarabi-gothic-58-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-49-400-normal.woff -> /output/files/sawarabi-gothic-49-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-49-400-normal.woff -> /output/files/sawarabi-gothic-49-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-58-400-normal.woff2 -> /output/files/sawarabi-gothic-58-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-59-400-normal.woff.br /tmp/work/files/sawarabi-gothic-59-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-56-400-normal.woff -> /output/files/sawarabi-gothic-56-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-56-400-normal.woff -> /output/files/sawarabi-gothic-56-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-59-400-normal.woff2 -> /output/files/sawarabi-gothic-59-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-6-400-normal.woff.br /tmp/work/files/sawarabi-gothic-6-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-5-400-normal.woff -> /output/files/sawarabi-gothic-5-400-normal.woff.br
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-57-400-normal.woff -> /output/files/sawarabi-gothic-57-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-5-400-normal.woff -> /output/files/sawarabi-gothic-5-400-normal.woff.gz
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-57-400-normal.woff -> /output/files/sawarabi-gothic-57-400-normal.woff.gz
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-60-400-normal.woff.br /tmp/work/files/sawarabi-gothic-60-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-52-400-normal.woff -> /output/files/sawarabi-gothic-52-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-52-400-normal.woff -> /output/files/sawarabi-gothic-52-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-6-400-normal.woff2 -> /output/files/sawarabi-gothic-6-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-61-400-normal.woff.br /tmp/work/files/sawarabi-gothic-61-400-normal.woff
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-60-400-normal.woff2 -> /output/files/sawarabi-gothic-60-400-normal.woff2
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-61-400-normal.woff2 -> /output/files/sawarabi-gothic-61-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-62-400-normal.woff.br /tmp/work/files/sawarabi-gothic-62-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-58-400-normal.woff -> /output/files/sawarabi-gothic-58-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-58-400-normal.woff -> /output/files/sawarabi-gothic-58-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-62-400-normal.woff2 -> /output/files/sawarabi-gothic-62-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-63-400-normal.woff.br /tmp/work/files/sawarabi-gothic-63-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-59-400-normal.woff -> /output/files/sawarabi-gothic-59-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-59-400-normal.woff -> /output/files/sawarabi-gothic-59-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-63-400-normal.woff2 -> /output/files/sawarabi-gothic-63-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-64-400-normal.woff.br /tmp/work/files/sawarabi-gothic-64-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-63-400-normal.woff -> /output/files/sawarabi-gothic-63-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-63-400-normal.woff -> /output/files/sawarabi-gothic-63-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-64-400-normal.woff2 -> /output/files/sawarabi-gothic-64-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-65-400-normal.woff.br /tmp/work/files/sawarabi-gothic-65-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-6-400-normal.woff -> /output/files/sawarabi-gothic-6-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-6-400-normal.woff -> /output/files/sawarabi-gothic-6-400-normal.woff.gz
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-62-400-normal.woff -> /output/files/sawarabi-gothic-62-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-62-400-normal.woff -> /output/files/sawarabi-gothic-62-400-normal.woff.gz
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-66-400-normal.woff.br /tmp/work/files/sawarabi-gothic-66-400-normal.woff
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-65-400-normal.woff2 -> /output/files/sawarabi-gothic-65-400-normal.woff2
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-61-400-normal.woff -> /output/files/sawarabi-gothic-61-400-normal.woff.br
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-60-400-normal.woff -> /output/files/sawarabi-gothic-60-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-61-400-normal.woff -> /output/files/sawarabi-gothic-61-400-normal.woff.gz
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-67-400-normal.woff.br /tmp/work/files/sawarabi-gothic-67-400-normal.woff
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-60-400-normal.woff -> /output/files/sawarabi-gothic-60-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-66-400-normal.woff2 -> /output/files/sawarabi-gothic-66-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-68-400-normal.woff.br /tmp/work/files/sawarabi-gothic-68-400-normal.woff
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-67-400-normal.woff2 -> /output/files/sawarabi-gothic-67-400-normal.woff2
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-68-400-normal.woff2 -> /output/files/sawarabi-gothic-68-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-69-400-normal.woff.br /tmp/work/files/sawarabi-gothic-69-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-64-400-normal.woff -> /output/files/sawarabi-gothic-64-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-64-400-normal.woff -> /output/files/sawarabi-gothic-64-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-69-400-normal.woff2 -> /output/files/sawarabi-gothic-69-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-7-400-normal.woff.br /tmp/work/files/sawarabi-gothic-7-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-66-400-normal.woff -> /output/files/sawarabi-gothic-66-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-66-400-normal.woff -> /output/files/sawarabi-gothic-66-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-7-400-normal.woff2 -> /output/files/sawarabi-gothic-7-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-70-400-normal.woff.br /tmp/work/files/sawarabi-gothic-70-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-67-400-normal.woff -> /output/files/sawarabi-gothic-67-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-67-400-normal.woff -> /output/files/sawarabi-gothic-67-400-normal.woff.gz
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-68-400-normal.woff -> /output/files/sawarabi-gothic-68-400-normal.woff.br
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-70-400-normal.woff2 -> /output/files/sawarabi-gothic-70-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-71-400-normal.woff.br /tmp/work/files/sawarabi-gothic-71-400-normal.woff
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-68-400-normal.woff -> /output/files/sawarabi-gothic-68-400-normal.woff.gz
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-65-400-normal.woff -> /output/files/sawarabi-gothic-65-400-normal.woff.br
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-71-400-normal.woff2 -> /output/files/sawarabi-gothic-71-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-72-400-normal.woff.br /tmp/work/files/sawarabi-gothic-72-400-normal.woff
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-65-400-normal.woff -> /output/files/sawarabi-gothic-65-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-72-400-normal.woff2 -> /output/files/sawarabi-gothic-72-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-73-400-normal.woff.br /tmp/work/files/sawarabi-gothic-73-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-69-400-normal.woff -> /output/files/sawarabi-gothic-69-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-69-400-normal.woff -> /output/files/sawarabi-gothic-69-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-73-400-normal.woff2 -> /output/files/sawarabi-gothic-73-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-74-400-normal.woff.br /tmp/work/files/sawarabi-gothic-74-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-71-400-normal.woff -> /output/files/sawarabi-gothic-71-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-71-400-normal.woff -> /output/files/sawarabi-gothic-71-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-74-400-normal.woff2 -> /output/files/sawarabi-gothic-74-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-75-400-normal.woff.br /tmp/work/files/sawarabi-gothic-75-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-70-400-normal.woff -> /output/files/sawarabi-gothic-70-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-70-400-normal.woff -> /output/files/sawarabi-gothic-70-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-75-400-normal.woff2 -> /output/files/sawarabi-gothic-75-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-76-400-normal.woff.br /tmp/work/files/sawarabi-gothic-76-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-74-400-normal.woff -> /output/files/sawarabi-gothic-74-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-74-400-normal.woff -> /output/files/sawarabi-gothic-74-400-normal.woff.gz
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-72-400-normal.woff -> /output/files/sawarabi-gothic-72-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-72-400-normal.woff -> /output/files/sawarabi-gothic-72-400-normal.woff.gz
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-77-400-normal.woff.br /tmp/work/files/sawarabi-gothic-77-400-normal.woff
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-76-400-normal.woff2 -> /output/files/sawarabi-gothic-76-400-normal.woff2
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-77-400-normal.woff2 -> /output/files/sawarabi-gothic-77-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-78-400-normal.woff.br /tmp/work/files/sawarabi-gothic-78-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-73-400-normal.woff -> /output/files/sawarabi-gothic-73-400-normal.woff.br
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-7-400-normal.woff -> /output/files/sawarabi-gothic-7-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-73-400-normal.woff -> /output/files/sawarabi-gothic-73-400-normal.woff.gz
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-7-400-normal.woff -> /output/files/sawarabi-gothic-7-400-normal.woff.gz
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-79-400-normal.woff.br /tmp/work/files/sawarabi-gothic-79-400-normal.woff
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-78-400-normal.woff2 -> /output/files/sawarabi-gothic-78-400-normal.woff2
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-79-400-normal.woff2 -> /output/files/sawarabi-gothic-79-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-8-400-normal.woff.br /tmp/work/files/sawarabi-gothic-8-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-75-400-normal.woff -> /output/files/sawarabi-gothic-75-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-75-400-normal.woff -> /output/files/sawarabi-gothic-75-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-8-400-normal.woff2 -> /output/files/sawarabi-gothic-8-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-80-400-normal.woff.br /tmp/work/files/sawarabi-gothic-80-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-76-400-normal.woff -> /output/files/sawarabi-gothic-76-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-76-400-normal.woff -> /output/files/sawarabi-gothic-76-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-80-400-normal.woff2 -> /output/files/sawarabi-gothic-80-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-81-400-normal.woff.br /tmp/work/files/sawarabi-gothic-81-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-77-400-normal.woff -> /output/files/sawarabi-gothic-77-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-77-400-normal.woff -> /output/files/sawarabi-gothic-77-400-normal.woff.gz
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-79-400-normal.woff -> /output/files/sawarabi-gothic-79-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-79-400-normal.woff -> /output/files/sawarabi-gothic-79-400-normal.woff.gz
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-82-400-normal.woff.br /tmp/work/files/sawarabi-gothic-82-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-78-400-normal.woff -> /output/files/sawarabi-gothic-78-400-normal.woff.br
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-81-400-normal.woff2 -> /output/files/sawarabi-gothic-81-400-normal.woff2
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-78-400-normal.woff -> /output/files/sawarabi-gothic-78-400-normal.woff.gz
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-83-400-normal.woff.br /tmp/work/files/sawarabi-gothic-83-400-normal.woff
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-82-400-normal.woff2 -> /output/files/sawarabi-gothic-82-400-normal.woff2
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-83-400-normal.woff2 -> /output/files/sawarabi-gothic-83-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-84-400-normal.woff.br /tmp/work/files/sawarabi-gothic-84-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-8-400-normal.woff -> /output/files/sawarabi-gothic-8-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-8-400-normal.woff -> /output/files/sawarabi-gothic-8-400-normal.woff.gz
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-80-400-normal.woff -> /output/files/sawarabi-gothic-80-400-normal.woff.br
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-84-400-normal.woff2 -> /output/files/sawarabi-gothic-84-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-85-400-normal.woff.br /tmp/work/files/sawarabi-gothic-85-400-normal.woff
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-80-400-normal.woff -> /output/files/sawarabi-gothic-80-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-85-400-normal.woff2 -> /output/files/sawarabi-gothic-85-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-86-400-normal.woff.br /tmp/work/files/sawarabi-gothic-86-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-81-400-normal.woff -> /output/files/sawarabi-gothic-81-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-81-400-normal.woff -> /output/files/sawarabi-gothic-81-400-normal.woff.gz
+2024/08/11 01:06:43 br /tmp/work/index.css -> /output/index.css.br
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-86-400-normal.woff2 -> /output/files/sawarabi-gothic-86-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-87-400-normal.woff.br /tmp/work/files/sawarabi-gothic-87-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/400.css -> /output/400.css.br
+2024/08/11 01:06:43 gz /tmp/work/index.css -> /output/index.css.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-87-400-normal.woff2 -> /output/files/sawarabi-gothic-87-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-88-400-normal.woff.br /tmp/work/files/sawarabi-gothic-88-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-82-400-normal.woff -> /output/files/sawarabi-gothic-82-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-82-400-normal.woff -> /output/files/sawarabi-gothic-82-400-normal.woff.gz
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-84-400-normal.woff -> /output/files/sawarabi-gothic-84-400-normal.woff.br
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-88-400-normal.woff2 -> /output/files/sawarabi-gothic-88-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-89-400-normal.woff.br /tmp/work/files/sawarabi-gothic-89-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-83-400-normal.woff -> /output/files/sawarabi-gothic-83-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/400.css -> /output/400.css.gz
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-83-400-normal.woff -> /output/files/sawarabi-gothic-83-400-normal.woff.gz
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-84-400-normal.woff -> /output/files/sawarabi-gothic-84-400-normal.woff.gz
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-9-400-normal.woff.br /tmp/work/files/sawarabi-gothic-9-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-85-400-normal.woff -> /output/files/sawarabi-gothic-85-400-normal.woff.br
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-89-400-normal.woff2 -> /output/files/sawarabi-gothic-89-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-90-400-normal.woff.br /tmp/work/files/sawarabi-gothic-90-400-normal.woff
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-85-400-normal.woff -> /output/files/sawarabi-gothic-85-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-9-400-normal.woff2 -> /output/files/sawarabi-gothic-9-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-91-400-normal.woff.br /tmp/work/files/sawarabi-gothic-91-400-normal.woff
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-90-400-normal.woff2 -> /output/files/sawarabi-gothic-90-400-normal.woff2
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-91-400-normal.woff2 -> /output/files/sawarabi-gothic-91-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-92-400-normal.woff.br /tmp/work/files/sawarabi-gothic-92-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-86-400-normal.woff -> /output/files/sawarabi-gothic-86-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-86-400-normal.woff -> /output/files/sawarabi-gothic-86-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-92-400-normal.woff2 -> /output/files/sawarabi-gothic-92-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-93-400-normal.woff.br /tmp/work/files/sawarabi-gothic-93-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-87-400-normal.woff -> /output/files/sawarabi-gothic-87-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-87-400-normal.woff -> /output/files/sawarabi-gothic-87-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-93-400-normal.woff2 -> /output/files/sawarabi-gothic-93-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-94-400-normal.woff.br /tmp/work/files/sawarabi-gothic-94-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-88-400-normal.woff -> /output/files/sawarabi-gothic-88-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-88-400-normal.woff -> /output/files/sawarabi-gothic-88-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-94-400-normal.woff2 -> /output/files/sawarabi-gothic-94-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-95-400-normal.woff.br /tmp/work/files/sawarabi-gothic-95-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-9-400-normal.woff -> /output/files/sawarabi-gothic-9-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-9-400-normal.woff -> /output/files/sawarabi-gothic-9-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-95-400-normal.woff2 -> /output/files/sawarabi-gothic-95-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-96-400-normal.woff.br /tmp/work/files/sawarabi-gothic-96-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-89-400-normal.woff -> /output/files/sawarabi-gothic-89-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-89-400-normal.woff -> /output/files/sawarabi-gothic-89-400-normal.woff.gz
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-90-400-normal.woff -> /output/files/sawarabi-gothic-90-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-90-400-normal.woff -> /output/files/sawarabi-gothic-90-400-normal.woff.gz
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-97-400-normal.woff.br /tmp/work/files/sawarabi-gothic-97-400-normal.woff
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-96-400-normal.woff2 -> /output/files/sawarabi-gothic-96-400-normal.woff2
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-97-400-normal.woff2 -> /output/files/sawarabi-gothic-97-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-98-400-normal.woff.br /tmp/work/files/sawarabi-gothic-98-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-91-400-normal.woff -> /output/files/sawarabi-gothic-91-400-normal.woff.br
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-92-400-normal.woff -> /output/files/sawarabi-gothic-92-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-91-400-normal.woff -> /output/files/sawarabi-gothic-91-400-normal.woff.gz
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-92-400-normal.woff -> /output/files/sawarabi-gothic-92-400-normal.woff.gz
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-99-400-normal.woff.br /tmp/work/files/sawarabi-gothic-99-400-normal.woff
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-98-400-normal.woff2 -> /output/files/sawarabi-gothic-98-400-normal.woff2
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-93-400-normal.woff -> /output/files/sawarabi-gothic-93-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-93-400-normal.woff -> /output/files/sawarabi-gothic-93-400-normal.woff.gz
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-cyrillic-400-normal.woff.br /tmp/work/files/sawarabi-gothic-cyrillic-400-normal.woff
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-99-400-normal.woff2 -> /output/files/sawarabi-gothic-99-400-normal.woff2
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-cyrillic-400-normal.woff2 -> /output/files/sawarabi-gothic-cyrillic-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-japanese-400-normal.woff.br /tmp/work/files/sawarabi-gothic-japanese-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-95-400-normal.woff -> /output/files/sawarabi-gothic-95-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-95-400-normal.woff -> /output/files/sawarabi-gothic-95-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-japanese-400-normal.woff2 -> /output/files/sawarabi-gothic-japanese-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-latin-400-normal.woff.br /tmp/work/files/sawarabi-gothic-latin-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-94-400-normal.woff -> /output/files/sawarabi-gothic-94-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-94-400-normal.woff -> /output/files/sawarabi-gothic-94-400-normal.woff.gz
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-cyrillic-400-normal.woff -> /output/files/sawarabi-gothic-cyrillic-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-cyrillic-400-normal.woff -> /output/files/sawarabi-gothic-cyrillic-400-normal.woff.gz
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-latin-ext-400-normal.woff.br /tmp/work/files/sawarabi-gothic-latin-ext-400-normal.woff
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-latin-400-normal.woff2 -> /output/files/sawarabi-gothic-latin-400-normal.woff2
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-latin-ext-400-normal.woff2 -> /output/files/sawarabi-gothic-latin-ext-400-normal.woff2
+2024/08/11 01:06:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/sawarabi-gothic-vietnamese-400-normal.woff.br /tmp/work/files/sawarabi-gothic-vietnamese-400-normal.woff
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-96-400-normal.woff -> /output/files/sawarabi-gothic-96-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-96-400-normal.woff -> /output/files/sawarabi-gothic-96-400-normal.woff.gz
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-97-400-normal.woff -> /output/files/sawarabi-gothic-97-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-97-400-normal.woff -> /output/files/sawarabi-gothic-97-400-normal.woff.gz
+2024/08/11 01:06:43 copy /tmp/work/files/sawarabi-gothic-vietnamese-400-normal.woff2 -> /output/files/sawarabi-gothic-vietnamese-400-normal.woff2
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-98-400-normal.woff -> /output/files/sawarabi-gothic-98-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-98-400-normal.woff -> /output/files/sawarabi-gothic-98-400-normal.woff.gz
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-vietnamese-400-normal.woff -> /output/files/sawarabi-gothic-vietnamese-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-vietnamese-400-normal.woff -> /output/files/sawarabi-gothic-vietnamese-400-normal.woff.gz
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-99-400-normal.woff -> /output/files/sawarabi-gothic-99-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-99-400-normal.woff -> /output/files/sawarabi-gothic-99-400-normal.woff.gz
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-latin-400-normal.woff -> /output/files/sawarabi-gothic-latin-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-latin-400-normal.woff -> /output/files/sawarabi-gothic-latin-400-normal.woff.gz
+2024/08/11 01:06:43 br /tmp/work/files/sawarabi-gothic-latin-ext-400-normal.woff -> /output/files/sawarabi-gothic-latin-ext-400-normal.woff.br
+2024/08/11 01:06:43 gz /tmp/work/files/sawarabi-gothic-latin-ext-400-normal.woff -> /output/files/sawarabi-gothic-latin-ext-400-normal.woff.gz
+2024/08/11 01:06:44 br /tmp/work/files/sawarabi-gothic-japanese-400-normal.woff -> /output/files/sawarabi-gothic-japanese-400-normal.woff.br
+2024/08/11 01:06:44 gz /tmp/work/files/sawarabi-gothic-japanese-400-normal.woff -> /output/files/sawarabi-gothic-japanese-400-normal.woff.gz
+2024/08/11 01:06:44 processed fontsource-sawarabi-gothic
