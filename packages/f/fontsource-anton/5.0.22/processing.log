@@ -1,0 +1,41 @@
+2024/09/08 04:08:27 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/09/08 04:08:28 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/vietnamese-400.min.css /tmp/work/vietnamese-400.css]
+2024/09/08 04:08:28 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/400.min.css /tmp/work/400.css]
+2024/09/08 04:08:28 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/vietnamese.min.css /tmp/work/vietnamese.css]
+2024/09/08 04:08:28 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/index.min.css /tmp/work/index.css]
+2024/09/08 04:08:28 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-ext-400.min.css /tmp/work/latin-ext-400.css]
+2024/09/08 04:08:28 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-400.min.css /tmp/work/latin-400.css]
+2024/09/08 04:08:28 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin.min.css /tmp/work/latin.css]
+2024/09/08 04:08:28 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-ext.min.css /tmp/work/latin-ext.css]
+2024/09/08 04:08:28 sri /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.sri
+2024/09/08 04:08:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-400.min.css.br /tmp/work/latin-ext-400.min.css
+2024/09/08 04:08:28 br /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.br
+2024/09/08 04:08:28 gz /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.gz
+2024/09/08 04:08:28 sri /tmp/work/latin-ext-400.css -> /output/latin-ext-400.css.sri
+2024/09/08 04:08:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-400.css.br /tmp/work/latin-ext-400.css
+2024/09/08 04:08:28 br /tmp/work/latin-ext-400.css -> /output/latin-ext-400.css.br
+2024/09/08 04:08:28 gz /tmp/work/latin-ext-400.css -> /output/latin-ext-400.css.gz
+2024/09/08 04:08:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/anton-latin-400-normal.woff.br /tmp/work/files/anton-latin-400-normal.woff
+2024/09/08 04:08:28 sri /tmp/work/latin-ext.min.css -> /output/latin-ext.min.css.sri
+2024/09/08 04:08:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext.min.css.br /tmp/work/latin-ext.min.css
+2024/09/08 04:08:28 br /tmp/work/latin-ext.min.css -> /output/latin-ext.min.css.br
+2024/09/08 04:08:28 gz /tmp/work/latin-ext.min.css -> /output/latin-ext.min.css.gz
+2024/09/08 04:08:28 sri /tmp/work/latin-ext.css -> /output/latin-ext.css.sri
+2024/09/08 04:08:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext.css.br /tmp/work/latin-ext.css
+2024/09/08 04:08:28 br /tmp/work/latin-ext.css -> /output/latin-ext.css.br
+2024/09/08 04:08:28 gz /tmp/work/latin-ext.css -> /output/latin-ext.css.gz
+2024/09/08 04:08:28 copy /tmp/work/files/anton-latin-400-normal.woff2 -> /output/files/anton-latin-400-normal.woff2
+2024/09/08 04:08:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/anton-latin-ext-400-normal.woff.br /tmp/work/files/anton-latin-ext-400-normal.woff
+panic: open /output/vietnamese-400.min.css.sri: no space left on device
+
+goroutine 27 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/sri.CalculateFileSRI(0xc000171ea0, 0x20, 0xc0000bc000, 0x22)
+	/go/src/github.com/sri/sri.go:20 +0x115
+main.optimizeJob.emitFromWorkspace(0x870280, 0xc000124020, 0x0, 0xc00014cd20, 0x12, 0xc0000ac000, 0x16, 0xc000171ea0, 0x20)
+	/go/src/github.com/cmd/process-version/main.go:95 +0x96b
+main.optimizeWorker(0xc0001ff240, 0xc000129860)
+	/go/src/github.com/cmd/process-version/main.go:240 +0x691
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
