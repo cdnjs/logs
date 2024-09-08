@@ -1,0 +1,40 @@
+2024/09/08 01:34:08 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/09/08 01:34:08 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/index.min.css /tmp/work/index.css]
+2024/09/08 01:34:08 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/400.min.css /tmp/work/400.css]
+2024/09/08 01:34:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/kavoon-latin-400-normal.woff.br /tmp/work/files/kavoon-latin-400-normal.woff
+2024/09/08 01:34:08 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-ext.min.css /tmp/work/latin-ext.css]
+2024/09/08 01:34:08 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin.min.css /tmp/work/latin.css]
+2024/09/08 01:34:08 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-ext-400.min.css /tmp/work/latin-ext-400.css]
+2024/09/08 01:34:08 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-400.min.css /tmp/work/latin-400.css]
+2024/09/08 01:34:08 copy /tmp/work/files/kavoon-latin-400-normal.woff2 -> /output/files/kavoon-latin-400-normal.woff2
+2024/09/08 01:34:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/kavoon-latin-ext-400-normal.woff.br /tmp/work/files/kavoon-latin-ext-400-normal.woff
+2024/09/08 01:34:08 br /tmp/work/files/kavoon-latin-ext-400-normal.woff -> /output/files/kavoon-latin-ext-400-normal.woff.br
+2024/09/08 01:34:08 gz /tmp/work/files/kavoon-latin-ext-400-normal.woff -> /output/files/kavoon-latin-ext-400-normal.woff.gz
+2024/09/08 01:34:08 copy /tmp/work/files/kavoon-latin-ext-400-normal.woff2 -> /output/files/kavoon-latin-ext-400-normal.woff2
+2024/09/08 01:34:08 br /tmp/work/files/kavoon-latin-400-normal.woff -> /output/files/kavoon-latin-400-normal.woff.br
+2024/09/08 01:34:08 gz /tmp/work/files/kavoon-latin-400-normal.woff -> /output/files/kavoon-latin-400-normal.woff.gz
+2024/09/08 01:34:08 sri /tmp/work/index.min.css -> /output/index.min.css.sri
+2024/09/08 01:34:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.css.br /tmp/work/index.min.css
+2024/09/08 01:34:08 sri /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.sri
+2024/09/08 01:34:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-400.min.css.br /tmp/work/latin-ext-400.min.css
+2024/09/08 01:34:08 br /tmp/work/index.min.css -> /output/index.min.css.br
+2024/09/08 01:34:08 br /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.br
+2024/09/08 01:34:08 gz /tmp/work/index.min.css -> /output/index.min.css.gz
+2024/09/08 01:34:08 sri /tmp/work/index.css -> /output/index.css.sri
+2024/09/08 01:34:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.css.br /tmp/work/index.css
+2024/09/08 01:34:08 gz /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.gz
+panic: open /output/latin-ext-400.css.sri: no space left on device
+
+goroutine 19 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/sri.CalculateFileSRI(0xc0005261a0, 0x1b, 0xc000526200, 0x1d)
+	/go/src/github.com/sri/sri.go:20 +0x115
+main.optimizeJob.emitFromWorkspace(0x870280, 0xc000016060, 0x0, 0xc000014c48, 0x11, 0xc000018340, 0x11, 0xc0005261a0, 0x1b)
+	/go/src/github.com/cmd/process-version/main.go:95 +0x96b
+main.optimizeJob.emit(0x870280, 0xc000016060, 0x0, 0xc000014c48, 0x11, 0xc000018340, 0x11, 0xc000014c48, 0x11)
+	/go/src/github.com/cmd/process-version/main.go:126 +0xc6
+main.optimizeWorker(0xc0000b0000, 0xc0000ac000)
+	/go/src/github.com/cmd/process-version/main.go:245 +0x14a
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
