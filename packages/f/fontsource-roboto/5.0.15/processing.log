@@ -1,0 +1,58 @@
+2024/09/08 05:01:43 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/09/08 05:01:43 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/300-italic.min.css /tmp/work/300-italic.css]
+2024/09/08 05:01:43 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/100-italic.min.css /tmp/work/100-italic.css]
+2024/09/08 05:01:43 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/300.min.css /tmp/work/300.css]
+2024/09/08 05:01:43 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/500.min.css /tmp/work/500.css]
+2024/09/08 05:01:43 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/400.min.css /tmp/work/400.css]
+2024/09/08 05:01:43 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/100.min.css /tmp/work/100.css]
+2024/09/08 05:01:43 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/400-italic.min.css /tmp/work/400-italic.css]
+2024/09/08 05:01:43 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/500-italic.min.css /tmp/work/500-italic.css]
+2024/09/08 05:01:43 sri /tmp/work/500.min.css -> /output/500.min.css.sri
+2024/09/08 05:01:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/500.min.css.br /tmp/work/500.min.css
+2024/09/08 05:01:43 sri /tmp/work/400.min.css -> /output/400.min.css.sri
+2024/09/08 05:01:43 sri /tmp/work/400-italic.min.css -> /output/400-italic.min.css.sri
+2024/09/08 05:01:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400.min.css.br /tmp/work/400.min.css
+2024/09/08 05:01:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400-italic.min.css.br /tmp/work/400-italic.min.css
+2024/09/08 05:01:43 sri /tmp/work/100.min.css -> /output/100.min.css.sri
+2024/09/08 05:01:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/100.min.css.br /tmp/work/100.min.css
+2024/09/08 05:01:43 sri /tmp/work/100-italic.min.css -> /output/100-italic.min.css.sri
+2024/09/08 05:01:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/100-italic.min.css.br /tmp/work/100-italic.min.css
+panic: open /output/500-italic.min.css.sri: no space left on device
+
+goroutine 56 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/sri.CalculateFileSRI(0xc00027a000, 0x1c, 0xc000502140, 0x1e)
+	/go/src/github.com/sri/sri.go:20 +0x115
+main.optimizeJob.emitFromWorkspace(0x870280, 0xc000016060, 0x0, 0xc000016300, 0xe, 0xc0005202d0, 0x12, 0xc00027a000, 0x1c)
+	/go/src/github.com/cmd/process-version/main.go:95 +0x96b
+main.optimizeWorker(0xc000016c20, 0xc000636180)
+	/go/src/github.com/cmd/process-version/main.go:240 +0x691
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
+panic: open /output/300-italic.min.css.sri: no space left on device
+
+goroutine 51 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/sri.CalculateFileSRI(0xc000503c40, 0x1c, 0xc00044c1a0, 0x1e)
+	/go/src/github.com/sri/sri.go:20 +0x115
+main.optimizeJob.emitFromWorkspace(0x870280, 0xc000016060, 0x0, 0xc000016120, 0xe, 0xc0000c4300, 0x12, 0xc000503c40, 0x1c)
+	/go/src/github.com/cmd/process-version/main.go:95 +0x96b
+main.optimizeWorker(0xc000016c20, 0xc000636180)
+	/go/src/github.com/cmd/process-version/main.go:240 +0x691
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
+panic: open /output/300.min.css.sri: no space left on device
+
+goroutine 52 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/sri.CalculateFileSRI(0xc0000c4078, 0x15, 0xc0005a60c0, 0x17)
+	/go/src/github.com/sri/sri.go:20 +0x115
+main.optimizeJob.emitFromWorkspace(0x870280, 0xc000016060, 0x0, 0xc000016158, 0x7, 0xc0005ca050, 0xb, 0xc0000c4078, 0x15)
+	/go/src/github.com/cmd/process-version/main.go:95 +0x96b
+main.optimizeWorker(0xc000016c20, 0xc000636180)
+	/go/src/github.com/cmd/process-version/main.go:240 +0x691
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
