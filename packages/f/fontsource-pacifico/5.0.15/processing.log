@@ -1,0 +1,25 @@
+2024/09/08 04:45:44 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/09/08 04:45:44 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-400.min.css /tmp/work/cyrillic-400.css]
+2024/09/08 04:45:44 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-ext-400.min.css /tmp/work/cyrillic-ext-400.css]
+2024/09/08 04:45:44 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-ext.min.css /tmp/work/cyrillic-ext.css]
+2024/09/08 04:45:44 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic.min.css /tmp/work/cyrillic.css]
+2024/09/08 04:45:44 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-400.min.css /tmp/work/latin-400.css]
+2024/09/08 04:45:44 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/index.min.css /tmp/work/index.css]
+2024/09/08 04:45:44 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-ext-400.min.css /tmp/work/latin-ext-400.css]
+2024/09/08 04:45:44 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/400.min.css /tmp/work/400.css]
+2024/09/08 04:45:45 Failed to compress CSS: exit status 1
+panic: open /output/cyrillic.css.sri: no space left on device
+
+goroutine 38 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/sri.CalculateFileSRI(0xc0003380c0, 0x16, 0xc000338108, 0x18)
+	/go/src/github.com/sri/sri.go:20 +0x115
+main.optimizeJob.emitFromWorkspace(0x870280, 0xc0000b8020, 0x0, 0xc00011b440, 0xc, 0xc0002a803f, 0xc, 0xc0003380c0, 0x16)
+	/go/src/github.com/cmd/process-version/main.go:95 +0x96b
+main.optimizeJob.emit(0x870280, 0xc0000b8020, 0x0, 0xc00011b440, 0xc, 0xc0002a803f, 0xc, 0xc00011b440, 0xc)
+	/go/src/github.com/cmd/process-version/main.go:126 +0xc6
+main.optimizeWorker(0xc00032c000, 0xc000328000)
+	/go/src/github.com/cmd/process-version/main.go:245 +0x14a
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
