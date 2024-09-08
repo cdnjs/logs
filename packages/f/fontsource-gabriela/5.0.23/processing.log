@@ -1,0 +1,54 @@
+2024/09/08 05:02:38 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/09/08 05:02:38 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/400.min.css /tmp/work/400.css]
+2024/09/08 05:02:38 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-400.min.css /tmp/work/cyrillic-400.css]
+2024/09/08 05:02:38 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-ext-400.min.css /tmp/work/cyrillic-ext-400.css]
+2024/09/08 05:02:38 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-ext.min.css /tmp/work/cyrillic-ext.css]
+2024/09/08 05:02:38 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-ext-400.min.css /tmp/work/latin-ext-400.css]
+2024/09/08 05:02:38 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic.min.css /tmp/work/cyrillic.css]
+2024/09/08 05:02:38 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-400.min.css /tmp/work/latin-400.css]
+2024/09/08 05:02:38 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/index.min.css /tmp/work/index.css]
+2024/09/08 05:02:39 sri /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.sri
+2024/09/08 05:02:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-400.min.css.br /tmp/work/latin-ext-400.min.css
+2024/09/08 05:02:39 sri /tmp/work/latin-400.min.css -> /output/latin-400.min.css.sri
+2024/09/08 05:02:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400.min.css.br /tmp/work/latin-400.min.css
+2024/09/08 05:02:39 sri /tmp/work/cyrillic-ext.min.css -> /output/cyrillic-ext.min.css.sri
+2024/09/08 05:02:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext.min.css.br /tmp/work/cyrillic-ext.min.css
+2024/09/08 05:02:39 sri /tmp/work/cyrillic-400.min.css -> /output/cyrillic-400.min.css.sri
+2024/09/08 05:02:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-400.min.css.br /tmp/work/cyrillic-400.min.css
+2024/09/08 05:02:39 sri /tmp/work/cyrillic.min.css -> /output/cyrillic.min.css.sri
+2024/09/08 05:02:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic.min.css.br /tmp/work/cyrillic.min.css
+2024/09/08 05:02:39 br /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.br
+2024/09/08 05:02:39 sri /tmp/work/cyrillic-ext-400.min.css -> /output/cyrillic-ext-400.min.css.sri
+2024/09/08 05:02:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-400.min.css.br /tmp/work/cyrillic-ext-400.min.css
+2024/09/08 05:02:39 br /tmp/work/cyrillic-ext.min.css -> /output/cyrillic-ext.min.css.br
+2024/09/08 05:02:39 br /tmp/work/latin-400.min.css -> /output/latin-400.min.css.br
+2024/09/08 05:02:39 br /tmp/work/cyrillic-400.min.css -> /output/cyrillic-400.min.css.br
+2024/09/08 05:02:39 br /tmp/work/cyrillic.min.css -> /output/cyrillic.min.css.br
+panic: open /output/latin-ext-400.min.css.gz: no space left on device
+
+goroutine 12 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/compress.Gzip9Native(0x870280, 0xc000016060, 0xc0000ac080, 0x1f, 0xc000308160, 0x20)
+	/go/src/github.com/compress/algorithm.go:58 +0xeb
+main.optimizeJob.emitFromWorkspace(0x870280, 0xc000016060, 0x0, 0xc000014d80, 0x11, 0xc00032e078, 0x15, 0xc0000ac080, 0x1f)
+	/go/src/github.com/cmd/process-version/main.go:113 +0x6c5
+main.optimizeWorker(0xc0001c5420, 0xc000057bc0)
+	/go/src/github.com/cmd/process-version/main.go:240 +0x691
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
+panic: exit status 1
+
+goroutine 9 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/compress.runAlgorithm(0x870280, 0xc000016060, 0x7f32f7, 0x6, 0xc0000d1d48, 0x3, 0x3, 0x44d9cc, 0x18, 0x77c920)
+	/go/src/github.com/compress/algorithm.go:28 +0x348
+github.com/cdnjs/tools/compress.Brotli11CLI(...)
+	/go/src/github.com/compress/algorithm.go:40
+main.optimizeJob.emitFromWorkspace(0x870280, 0xc000016060, 0x0, 0xc000014c60, 0x14, 0xc0003b0108, 0x18, 0xc0000b0000, 0x22)
+	/go/src/github.com/cmd/process-version/main.go:105 +0x506
+main.optimizeWorker(0xc0001c5420, 0xc000057bc0)
+	/go/src/github.com/cmd/process-version/main.go:240 +0x691
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
