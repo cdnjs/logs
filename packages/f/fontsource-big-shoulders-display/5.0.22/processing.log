@@ -1,0 +1,30 @@
+2024/09/08 01:33:57 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/09/08 01:33:57 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/200.min.css /tmp/work/200.css]
+2024/09/08 01:33:57 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/400.min.css /tmp/work/400.css]
+2024/09/08 01:33:57 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/100.min.css /tmp/work/100.css]
+2024/09/08 01:33:57 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/500.min.css /tmp/work/500.css]
+2024/09/08 01:33:57 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/800.min.css /tmp/work/800.css]
+2024/09/08 01:33:57 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/600.min.css /tmp/work/600.css]
+2024/09/08 01:33:57 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/700.min.css /tmp/work/700.css]
+2024/09/08 01:33:57 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/300.min.css /tmp/work/300.css]
+2024/09/08 01:33:57 sri /tmp/work/100.min.css -> /output/100.min.css.sri
+2024/09/08 01:33:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/100.min.css.br /tmp/work/100.min.css
+2024/09/08 01:33:57 sri /tmp/work/200.min.css -> /output/200.min.css.sri
+2024/09/08 01:33:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/200.min.css.br /tmp/work/200.min.css
+2024/09/08 01:33:57 sri /tmp/work/400.min.css -> /output/400.min.css.sri
+2024/09/08 01:33:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400.min.css.br /tmp/work/400.min.css
+2024/09/08 01:33:57 br /tmp/work/100.min.css -> /output/100.min.css.br
+2024/09/08 01:33:57 br /tmp/work/200.min.css -> /output/200.min.css.br
+panic: open /output/800.min.css.sri: no space left on device
+
+goroutine 24 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/sri.CalculateFileSRI(0xc0001da090, 0x15, 0xc000298228, 0x17)
+	/go/src/github.com/sri/sri.go:20 +0x115
+main.optimizeJob.emitFromWorkspace(0x870280, 0xc000080010, 0x0, 0xc0000160c8, 0x7, 0xc0002ae0c0, 0xb, 0xc0001da090, 0x15)
+	/go/src/github.com/cmd/process-version/main.go:95 +0x96b
+main.optimizeWorker(0xc0000162f0, 0xc00042a960)
+	/go/src/github.com/cmd/process-version/main.go:240 +0x691
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
