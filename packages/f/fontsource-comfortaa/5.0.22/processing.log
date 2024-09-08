@@ -1,0 +1,24 @@
+2024/09/08 01:33:54 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/09/08 01:33:54 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/600.min.css /tmp/work/600.css]
+2024/09/08 01:33:54 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-300.min.css /tmp/work/cyrillic-300.css]
+2024/09/08 01:33:54 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/700.min.css /tmp/work/700.css]
+2024/09/08 01:33:54 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/300.min.css /tmp/work/300.css]
+2024/09/08 01:33:54 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/400.min.css /tmp/work/400.css]
+2024/09/08 01:33:54 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/500.min.css /tmp/work/500.css]
+2024/09/08 01:33:54 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-400.min.css /tmp/work/cyrillic-400.css]
+2024/09/08 01:33:54 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-500.min.css /tmp/work/cyrillic-500.css]
+2024/09/08 01:33:55 sri /tmp/work/cyrillic-500.min.css -> /output/cyrillic-500.min.css.sri
+2024/09/08 01:33:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-500.min.css.br /tmp/work/cyrillic-500.min.css
+panic: open /output/500.min.css.sri: no space left on device
+
+goroutine 39 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/sri.CalculateFileSRI(0xc0000a6030, 0x15, 0xc0000142b8, 0x17)
+	/go/src/github.com/sri/sri.go:20 +0x115
+main.optimizeJob.emitFromWorkspace(0x870280, 0xc000016060, 0x0, 0xc0000160c8, 0x7, 0xc00037a7d0, 0xb, 0xc0000a6030, 0x15)
+	/go/src/github.com/cmd/process-version/main.go:95 +0x96b
+main.optimizeWorker(0xc0001c42c0, 0xc0002fdda0)
+	/go/src/github.com/cmd/process-version/main.go:240 +0x691
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
