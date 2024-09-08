@@ -1,0 +1,46 @@
+2024/09/08 03:37:28 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/09/08 03:37:29 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/300.min.css /tmp/work/300.css]
+2024/09/08 03:37:29 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/900.min.css /tmp/work/900.css]
+2024/09/08 03:37:29 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/600.min.css /tmp/work/600.css]
+2024/09/08 03:37:29 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/200.min.css /tmp/work/200.css]
+2024/09/08 03:37:29 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/500.min.css /tmp/work/500.css]
+2024/09/08 03:37:29 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/700.min.css /tmp/work/700.css]
+2024/09/08 03:37:29 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/800.min.css /tmp/work/800.css]
+2024/09/08 03:37:29 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/400.min.css /tmp/work/400.css]
+2024/09/08 03:37:29 sri /tmp/work/500.min.css -> /output/500.min.css.sri
+2024/09/08 03:37:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/500.min.css.br /tmp/work/500.min.css
+2024/09/08 03:37:29 br /tmp/work/500.min.css -> /output/500.min.css.br
+2024/09/08 03:37:29 gz /tmp/work/500.min.css -> /output/500.min.css.gz
+2024/09/08 03:37:29 sri /tmp/work/500.css -> /output/500.css.sri
+2024/09/08 03:37:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/500.css.br /tmp/work/500.css
+2024/09/08 03:37:29 br /tmp/work/500.css -> /output/500.css.br
+2024/09/08 03:37:29 gz /tmp/work/500.css -> /output/500.css.gz
+2024/09/08 03:37:29 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-200.min.css /tmp/work/cyrillic-200.css]
+2024/09/08 03:37:29 sri /tmp/work/200.min.css -> /output/200.min.css.sri
+2024/09/08 03:37:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/200.min.css.br /tmp/work/200.min.css
+2024/09/08 03:37:29 sri /tmp/work/700.min.css -> /output/700.min.css.sri
+2024/09/08 03:37:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/700.min.css.br /tmp/work/700.min.css
+2024/09/08 03:37:29 br /tmp/work/200.min.css -> /output/200.min.css.br
+2024/09/08 03:37:29 gz /tmp/work/200.min.css -> /output/200.min.css.gz
+2024/09/08 03:37:29 sri /tmp/work/200.css -> /output/200.css.sri
+2024/09/08 03:37:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/200.css.br /tmp/work/200.css
+2024/09/08 03:37:29 br /tmp/work/200.css -> /output/200.css.br
+2024/09/08 03:37:29 gz /tmp/work/200.css -> /output/200.css.gz
+2024/09/08 03:37:29 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-300.min.css /tmp/work/cyrillic-300.css]
+2024/09/08 03:37:29 br /tmp/work/700.min.css -> /output/700.min.css.br
+2024/09/08 03:37:29 gz /tmp/work/700.min.css -> /output/700.min.css.gz
+panic: open /output/700.css.sri: no space left on device
+
+goroutine 54 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/sri.CalculateFileSRI(0xc0004a8030, 0x11, 0xc0004a8048, 0x13)
+	/go/src/github.com/sri/sri.go:20 +0x115
+main.optimizeJob.emitFromWorkspace(0x870280, 0xc000016060, 0x0, 0xc000144398, 0x7, 0xc0004a0028, 0x7, 0xc0004a8030, 0x11)
+	/go/src/github.com/cmd/process-version/main.go:95 +0x96b
+main.optimizeJob.emit(0x870280, 0xc000016060, 0x0, 0xc000144398, 0x7, 0xc0004a0028, 0x7, 0xc000144398, 0x7)
+	/go/src/github.com/cmd/process-version/main.go:126 +0xc6
+main.optimizeWorker(0xc000144990, 0xc0004b2180)
+	/go/src/github.com/cmd/process-version/main.go:245 +0x14a
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
