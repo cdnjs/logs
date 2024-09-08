@@ -1,0 +1,34 @@
+2024/09/08 05:02:46 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/09/08 05:02:46 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/400.min.css /tmp/work/400.css]
+2024/09/08 05:02:46 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/index.min.css /tmp/work/index.css]
+2024/09/08 05:02:46 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-400.min.css /tmp/work/latin-400.css]
+2024/09/08 05:02:46 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-ext-400.min.css /tmp/work/latin-ext-400.css]
+2024/09/08 05:02:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/kite-one-latin-400-normal.woff.br /tmp/work/files/kite-one-latin-400-normal.woff
+2024/09/08 05:02:46 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-ext.min.css /tmp/work/latin-ext.css]
+2024/09/08 05:02:46 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin.min.css /tmp/work/latin.css]
+2024/09/08 05:02:46 copy /tmp/work/files/kite-one-latin-400-normal.woff2 -> /output/files/kite-one-latin-400-normal.woff2
+2024/09/08 05:02:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/kite-one-latin-ext-400-normal.woff.br /tmp/work/files/kite-one-latin-ext-400-normal.woff
+2024/09/08 05:02:46 br /tmp/work/files/kite-one-latin-ext-400-normal.woff -> /output/files/kite-one-latin-ext-400-normal.woff.br
+2024/09/08 05:02:46 gz /tmp/work/files/kite-one-latin-ext-400-normal.woff -> /output/files/kite-one-latin-ext-400-normal.woff.gz
+2024/09/08 05:02:46 copy /tmp/work/files/kite-one-latin-ext-400-normal.woff2 -> /output/files/kite-one-latin-ext-400-normal.woff2
+2024/09/08 05:02:46 br /tmp/work/files/kite-one-latin-400-normal.woff -> /output/files/kite-one-latin-400-normal.woff.br
+2024/09/08 05:02:46 gz /tmp/work/files/kite-one-latin-400-normal.woff -> /output/files/kite-one-latin-400-normal.woff.gz
+2024/09/08 05:02:47 sri /tmp/work/latin-ext.min.css -> /output/latin-ext.min.css.sri
+2024/09/08 05:02:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext.min.css.br /tmp/work/latin-ext.min.css
+2024/09/08 05:02:47 br /tmp/work/latin-ext.min.css -> /output/latin-ext.min.css.br
+2024/09/08 05:02:47 gz /tmp/work/latin-ext.min.css -> /output/latin-ext.min.css.gz
+2024/09/08 05:02:47 sri /tmp/work/latin-ext.css -> /output/latin-ext.css.sri
+2024/09/08 05:02:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext.css.br /tmp/work/latin-ext.css
+panic: open /output/400.min.css.sri: no space left on device
+
+goroutine 15 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/sri.CalculateFileSRI(0xc000014d50, 0x15, 0xc000288060, 0x17)
+	/go/src/github.com/sri/sri.go:20 +0x115
+main.optimizeJob.emitFromWorkspace(0x870280, 0xc000016060, 0x0, 0xc0001c4fe8, 0x7, 0xc00029e000, 0xb, 0xc000014d50, 0x15)
+	/go/src/github.com/cmd/process-version/main.go:95 +0x96b
+main.optimizeWorker(0xc0001c50e0, 0xc000057620)
+	/go/src/github.com/cmd/process-version/main.go:240 +0x691
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
