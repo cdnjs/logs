@@ -1,0 +1,767 @@
+2024/09/12 14:01:44 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/09/12 14:01:44 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/300.min.css /tmp/work/300.css]
+2024/09/12 14:01:44 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/700.min.css /tmp/work/700.css]
+2024/09/12 14:01:44 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/400.min.css /tmp/work/400.css]
+2024/09/12 14:01:44 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/korean.min.css /tmp/work/korean.css]
+2024/09/12 14:01:44 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/index.min.css /tmp/work/index.css]
+2024/09/12 14:01:44 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/korean-400.min.css /tmp/work/korean-400.css]
+2024/09/12 14:01:44 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/korean-300.min.css /tmp/work/korean-300.css]
+2024/09/12 14:01:44 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/korean-700.min.css /tmp/work/korean-700.css]
+2024/09/12 14:01:44 sri /tmp/work/korean-300.min.css -> /output/korean-300.min.css.sri
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/korean-300.min.css.br /tmp/work/korean-300.min.css
+2024/09/12 14:01:44 sri /tmp/work/korean-700.min.css -> /output/korean-700.min.css.sri
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/korean-700.min.css.br /tmp/work/korean-700.min.css
+2024/09/12 14:01:44 br /tmp/work/korean-300.min.css -> /output/korean-300.min.css.br
+2024/09/12 14:01:44 gz /tmp/work/korean-300.min.css -> /output/korean-300.min.css.gz
+2024/09/12 14:01:44 sri /tmp/work/korean-300.css -> /output/korean-300.css.sri
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/korean-300.css.br /tmp/work/korean-300.css
+2024/09/12 14:01:44 br /tmp/work/korean-700.min.css -> /output/korean-700.min.css.br
+2024/09/12 14:01:44 gz /tmp/work/korean-700.min.css -> /output/korean-700.min.css.gz
+2024/09/12 14:01:44 sri /tmp/work/korean-700.css -> /output/korean-700.css.sri
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/korean-700.css.br /tmp/work/korean-700.css
+2024/09/12 14:01:44 br /tmp/work/korean-300.css -> /output/korean-300.css.br
+2024/09/12 14:01:44 gz /tmp/work/korean-300.css -> /output/korean-300.css.gz
+2024/09/12 14:01:44 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-300.min.css /tmp/work/latin-300.css]
+2024/09/12 14:01:44 sri /tmp/work/korean.min.css -> /output/korean.min.css.sri
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/korean.min.css.br /tmp/work/korean.min.css
+2024/09/12 14:01:44 br /tmp/work/korean-700.css -> /output/korean-700.css.br
+2024/09/12 14:01:44 gz /tmp/work/korean-700.css -> /output/korean-700.css.gz
+2024/09/12 14:01:44 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-400.min.css /tmp/work/latin-400.css]
+2024/09/12 14:01:44 sri /tmp/work/korean-400.min.css -> /output/korean-400.min.css.sri
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/korean-400.min.css.br /tmp/work/korean-400.min.css
+2024/09/12 14:01:44 br /tmp/work/korean.min.css -> /output/korean.min.css.br
+2024/09/12 14:01:44 gz /tmp/work/korean.min.css -> /output/korean.min.css.gz
+2024/09/12 14:01:44 sri /tmp/work/korean.css -> /output/korean.css.sri
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/korean.css.br /tmp/work/korean.css
+2024/09/12 14:01:44 br /tmp/work/korean-400.min.css -> /output/korean-400.min.css.br
+2024/09/12 14:01:44 gz /tmp/work/korean-400.min.css -> /output/korean-400.min.css.gz
+2024/09/12 14:01:44 sri /tmp/work/korean-400.css -> /output/korean-400.css.sri
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/korean-400.css.br /tmp/work/korean-400.css
+2024/09/12 14:01:44 br /tmp/work/korean.css -> /output/korean.css.br
+2024/09/12 14:01:44 gz /tmp/work/korean.css -> /output/korean.css.gz
+2024/09/12 14:01:44 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-700.min.css /tmp/work/latin-700.css]
+2024/09/12 14:01:44 br /tmp/work/korean-400.css -> /output/korean-400.css.br
+2024/09/12 14:01:44 gz /tmp/work/korean-400.css -> /output/korean-400.css.gz
+2024/09/12 14:01:44 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin.min.css /tmp/work/latin.css]
+2024/09/12 14:01:44 sri /tmp/work/latin-300.min.css -> /output/latin-300.min.css.sri
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-300.min.css.br /tmp/work/latin-300.min.css
+2024/09/12 14:01:44 sri /tmp/work/index.min.css -> /output/index.min.css.sri
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.css.br /tmp/work/index.min.css
+2024/09/12 14:01:44 br /tmp/work/latin-300.min.css -> /output/latin-300.min.css.br
+2024/09/12 14:01:44 gz /tmp/work/latin-300.min.css -> /output/latin-300.min.css.gz
+2024/09/12 14:01:44 sri /tmp/work/latin-300.css -> /output/latin-300.css.sri
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-300.css.br /tmp/work/latin-300.css
+2024/09/12 14:01:44 br /tmp/work/latin-300.css -> /output/latin-300.css.br
+2024/09/12 14:01:44 gz /tmp/work/latin-300.css -> /output/latin-300.css.gz
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-0-300-normal.woff.br /tmp/work/files/gaegu-0-300-normal.woff
+2024/09/12 14:01:44 sri /tmp/work/300.min.css -> /output/300.min.css.sri
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/300.min.css.br /tmp/work/300.min.css
+2024/09/12 14:01:44 sri /tmp/work/400.min.css -> /output/400.min.css.sri
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400.min.css.br /tmp/work/400.min.css
+2024/09/12 14:01:44 sri /tmp/work/latin-400.min.css -> /output/latin-400.min.css.sri
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400.min.css.br /tmp/work/latin-400.min.css
+2024/09/12 14:01:44 sri /tmp/work/700.min.css -> /output/700.min.css.sri
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/700.min.css.br /tmp/work/700.min.css
+2024/09/12 14:01:44 br /tmp/work/latin-400.min.css -> /output/latin-400.min.css.br
+2024/09/12 14:01:44 gz /tmp/work/latin-400.min.css -> /output/latin-400.min.css.gz
+2024/09/12 14:01:44 sri /tmp/work/latin-400.css -> /output/latin-400.css.sri
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400.css.br /tmp/work/latin-400.css
+2024/09/12 14:01:44 br /tmp/work/latin-400.css -> /output/latin-400.css.br
+2024/09/12 14:01:44 gz /tmp/work/latin-400.css -> /output/latin-400.css.gz
+2024/09/12 14:01:44 copy /tmp/work/files/gaegu-0-300-normal.woff2 -> /output/files/gaegu-0-300-normal.woff2
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-0-400-normal.woff.br /tmp/work/files/gaegu-0-400-normal.woff
+2024/09/12 14:01:44 sri /tmp/work/latin.min.css -> /output/latin.min.css.sri
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin.min.css.br /tmp/work/latin.min.css
+2024/09/12 14:01:44 br /tmp/work/latin.min.css -> /output/latin.min.css.br
+2024/09/12 14:01:44 gz /tmp/work/latin.min.css -> /output/latin.min.css.gz
+2024/09/12 14:01:44 sri /tmp/work/latin.css -> /output/latin.css.sri
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin.css.br /tmp/work/latin.css
+2024/09/12 14:01:44 br /tmp/work/latin.css -> /output/latin.css.br
+2024/09/12 14:01:44 gz /tmp/work/latin.css -> /output/latin.css.gz
+2024/09/12 14:01:44 sri /tmp/work/latin-700.min.css -> /output/latin-700.min.css.sri
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-700.min.css.br /tmp/work/latin-700.min.css
+2024/09/12 14:01:44 copy /tmp/work/files/gaegu-0-400-normal.woff2 -> /output/files/gaegu-0-400-normal.woff2
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-0-700-normal.woff.br /tmp/work/files/gaegu-0-700-normal.woff
+2024/09/12 14:01:44 br /tmp/work/latin-700.min.css -> /output/latin-700.min.css.br
+2024/09/12 14:01:44 gz /tmp/work/latin-700.min.css -> /output/latin-700.min.css.gz
+2024/09/12 14:01:44 sri /tmp/work/latin-700.css -> /output/latin-700.css.sri
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-700.css.br /tmp/work/latin-700.css
+2024/09/12 14:01:44 br /tmp/work/files/gaegu-0-300-normal.woff -> /output/files/gaegu-0-300-normal.woff.br
+2024/09/12 14:01:44 gz /tmp/work/files/gaegu-0-300-normal.woff -> /output/files/gaegu-0-300-normal.woff.gz
+2024/09/12 14:01:44 br /tmp/work/latin-700.css -> /output/latin-700.css.br
+2024/09/12 14:01:44 gz /tmp/work/latin-700.css -> /output/latin-700.css.gz
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-10-300-normal.woff.br /tmp/work/files/gaegu-10-300-normal.woff
+2024/09/12 14:01:44 copy /tmp/work/files/gaegu-0-700-normal.woff2 -> /output/files/gaegu-0-700-normal.woff2
+2024/09/12 14:01:44 copy /tmp/work/files/gaegu-10-300-normal.woff2 -> /output/files/gaegu-10-300-normal.woff2
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-10-400-normal.woff.br /tmp/work/files/gaegu-10-400-normal.woff
+2024/09/12 14:01:44 br /tmp/work/index.min.css -> /output/index.min.css.br
+2024/09/12 14:01:44 br /tmp/work/files/gaegu-0-400-normal.woff -> /output/files/gaegu-0-400-normal.woff.br
+2024/09/12 14:01:44 gz /tmp/work/files/gaegu-0-400-normal.woff -> /output/files/gaegu-0-400-normal.woff.gz
+2024/09/12 14:01:44 gz /tmp/work/index.min.css -> /output/index.min.css.gz
+2024/09/12 14:01:44 sri /tmp/work/index.css -> /output/index.css.sri
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.css.br /tmp/work/index.css
+2024/09/12 14:01:44 copy /tmp/work/files/gaegu-10-400-normal.woff2 -> /output/files/gaegu-10-400-normal.woff2
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-10-700-normal.woff.br /tmp/work/files/gaegu-10-700-normal.woff
+2024/09/12 14:01:44 br /tmp/work/files/gaegu-0-700-normal.woff -> /output/files/gaegu-0-700-normal.woff.br
+2024/09/12 14:01:44 gz /tmp/work/files/gaegu-0-700-normal.woff -> /output/files/gaegu-0-700-normal.woff.gz
+2024/09/12 14:01:44 copy /tmp/work/files/gaegu-10-700-normal.woff2 -> /output/files/gaegu-10-700-normal.woff2
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-100-300-normal.woff.br /tmp/work/files/gaegu-100-300-normal.woff
+2024/09/12 14:01:44 br /tmp/work/files/gaegu-10-300-normal.woff -> /output/files/gaegu-10-300-normal.woff.br
+2024/09/12 14:01:44 gz /tmp/work/files/gaegu-10-300-normal.woff -> /output/files/gaegu-10-300-normal.woff.gz
+2024/09/12 14:01:44 br /tmp/work/files/gaegu-10-400-normal.woff -> /output/files/gaegu-10-400-normal.woff.br
+2024/09/12 14:01:44 copy /tmp/work/files/gaegu-100-300-normal.woff2 -> /output/files/gaegu-100-300-normal.woff2
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-100-400-normal.woff.br /tmp/work/files/gaegu-100-400-normal.woff
+2024/09/12 14:01:44 gz /tmp/work/files/gaegu-10-400-normal.woff -> /output/files/gaegu-10-400-normal.woff.gz
+2024/09/12 14:01:44 copy /tmp/work/files/gaegu-100-400-normal.woff2 -> /output/files/gaegu-100-400-normal.woff2
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-100-700-normal.woff.br /tmp/work/files/gaegu-100-700-normal.woff
+2024/09/12 14:01:44 br /tmp/work/300.min.css -> /output/300.min.css.br
+2024/09/12 14:01:44 br /tmp/work/files/gaegu-10-700-normal.woff -> /output/files/gaegu-10-700-normal.woff.br
+2024/09/12 14:01:44 gz /tmp/work/files/gaegu-10-700-normal.woff -> /output/files/gaegu-10-700-normal.woff.gz
+2024/09/12 14:01:44 copy /tmp/work/files/gaegu-100-700-normal.woff2 -> /output/files/gaegu-100-700-normal.woff2
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-101-300-normal.woff.br /tmp/work/files/gaegu-101-300-normal.woff
+2024/09/12 14:01:44 gz /tmp/work/300.min.css -> /output/300.min.css.gz
+2024/09/12 14:01:44 sri /tmp/work/300.css -> /output/300.css.sri
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/300.css.br /tmp/work/300.css
+2024/09/12 14:01:44 br /tmp/work/400.min.css -> /output/400.min.css.br
+2024/09/12 14:01:44 gz /tmp/work/400.min.css -> /output/400.min.css.gz
+2024/09/12 14:01:44 sri /tmp/work/400.css -> /output/400.css.sri
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400.css.br /tmp/work/400.css
+2024/09/12 14:01:44 br /tmp/work/700.min.css -> /output/700.min.css.br
+2024/09/12 14:01:44 br /tmp/work/files/gaegu-100-400-normal.woff -> /output/files/gaegu-100-400-normal.woff.br
+2024/09/12 14:01:44 gz /tmp/work/files/gaegu-100-400-normal.woff -> /output/files/gaegu-100-400-normal.woff.gz
+2024/09/12 14:01:44 copy /tmp/work/files/gaegu-101-300-normal.woff2 -> /output/files/gaegu-101-300-normal.woff2
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-101-400-normal.woff.br /tmp/work/files/gaegu-101-400-normal.woff
+2024/09/12 14:01:44 gz /tmp/work/700.min.css -> /output/700.min.css.gz
+2024/09/12 14:01:44 sri /tmp/work/700.css -> /output/700.css.sri
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/700.css.br /tmp/work/700.css
+2024/09/12 14:01:44 br /tmp/work/files/gaegu-100-300-normal.woff -> /output/files/gaegu-100-300-normal.woff.br
+2024/09/12 14:01:44 gz /tmp/work/files/gaegu-100-300-normal.woff -> /output/files/gaegu-100-300-normal.woff.gz
+2024/09/12 14:01:44 copy /tmp/work/files/gaegu-101-400-normal.woff2 -> /output/files/gaegu-101-400-normal.woff2
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-101-700-normal.woff.br /tmp/work/files/gaegu-101-700-normal.woff
+2024/09/12 14:01:44 br /tmp/work/files/gaegu-101-300-normal.woff -> /output/files/gaegu-101-300-normal.woff.br
+2024/09/12 14:01:44 gz /tmp/work/files/gaegu-101-300-normal.woff -> /output/files/gaegu-101-300-normal.woff.gz
+2024/09/12 14:01:44 copy /tmp/work/files/gaegu-101-700-normal.woff2 -> /output/files/gaegu-101-700-normal.woff2
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-102-300-normal.woff.br /tmp/work/files/gaegu-102-300-normal.woff
+2024/09/12 14:01:44 br /tmp/work/files/gaegu-100-700-normal.woff -> /output/files/gaegu-100-700-normal.woff.br
+2024/09/12 14:01:44 gz /tmp/work/files/gaegu-100-700-normal.woff -> /output/files/gaegu-100-700-normal.woff.gz
+2024/09/12 14:01:44 copy /tmp/work/files/gaegu-102-300-normal.woff2 -> /output/files/gaegu-102-300-normal.woff2
+2024/09/12 14:01:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-102-400-normal.woff.br /tmp/work/files/gaegu-102-400-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-101-400-normal.woff -> /output/files/gaegu-101-400-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-101-400-normal.woff -> /output/files/gaegu-101-400-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-102-400-normal.woff2 -> /output/files/gaegu-102-400-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-102-700-normal.woff.br /tmp/work/files/gaegu-102-700-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-101-700-normal.woff -> /output/files/gaegu-101-700-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-101-700-normal.woff -> /output/files/gaegu-101-700-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-102-700-normal.woff2 -> /output/files/gaegu-102-700-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-103-300-normal.woff.br /tmp/work/files/gaegu-103-300-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-102-300-normal.woff -> /output/files/gaegu-102-300-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-102-300-normal.woff -> /output/files/gaegu-102-300-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-103-300-normal.woff2 -> /output/files/gaegu-103-300-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-103-400-normal.woff.br /tmp/work/files/gaegu-103-400-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-102-400-normal.woff -> /output/files/gaegu-102-400-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-102-400-normal.woff -> /output/files/gaegu-102-400-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-103-400-normal.woff2 -> /output/files/gaegu-103-400-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-103-700-normal.woff.br /tmp/work/files/gaegu-103-700-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-103-400-normal.woff -> /output/files/gaegu-103-400-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-103-400-normal.woff -> /output/files/gaegu-103-400-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-103-700-normal.woff2 -> /output/files/gaegu-103-700-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-104-300-normal.woff.br /tmp/work/files/gaegu-104-300-normal.woff
+2024/09/12 14:01:45 br /tmp/work/300.css -> /output/300.css.br
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-102-700-normal.woff -> /output/files/gaegu-102-700-normal.woff.br
+2024/09/12 14:01:45 br /tmp/work/400.css -> /output/400.css.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-102-700-normal.woff -> /output/files/gaegu-102-700-normal.woff.gz
+2024/09/12 14:01:45 gz /tmp/work/300.css -> /output/300.css.gz
+2024/09/12 14:01:45 br /tmp/work/index.css -> /output/index.css.br
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-104-300-normal.woff2 -> /output/files/gaegu-104-300-normal.woff2
+2024/09/12 14:01:45 gz /tmp/work/400.css -> /output/400.css.gz
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-104-400-normal.woff.br /tmp/work/files/gaegu-104-400-normal.woff
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-104-700-normal.woff.br /tmp/work/files/gaegu-104-700-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-103-300-normal.woff -> /output/files/gaegu-103-300-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-103-300-normal.woff -> /output/files/gaegu-103-300-normal.woff.gz
+2024/09/12 14:01:45 gz /tmp/work/index.css -> /output/index.css.gz
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-105-300-normal.woff.br /tmp/work/files/gaegu-105-300-normal.woff
+2024/09/12 14:01:45 br /tmp/work/700.css -> /output/700.css.br
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-104-400-normal.woff2 -> /output/files/gaegu-104-400-normal.woff2
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-104-700-normal.woff2 -> /output/files/gaegu-104-700-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-105-400-normal.woff.br /tmp/work/files/gaegu-105-400-normal.woff
+2024/09/12 14:01:45 gz /tmp/work/700.css -> /output/700.css.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-105-300-normal.woff2 -> /output/files/gaegu-105-300-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-105-700-normal.woff.br /tmp/work/files/gaegu-105-700-normal.woff
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-105-400-normal.woff2 -> /output/files/gaegu-105-400-normal.woff2
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-105-700-normal.woff2 -> /output/files/gaegu-105-700-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-106-300-normal.woff.br /tmp/work/files/gaegu-106-300-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-104-300-normal.woff -> /output/files/gaegu-104-300-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-104-300-normal.woff -> /output/files/gaegu-104-300-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-106-300-normal.woff2 -> /output/files/gaegu-106-300-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-106-400-normal.woff.br /tmp/work/files/gaegu-106-400-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-103-700-normal.woff -> /output/files/gaegu-103-700-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-103-700-normal.woff -> /output/files/gaegu-103-700-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-106-400-normal.woff2 -> /output/files/gaegu-106-400-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-106-700-normal.woff.br /tmp/work/files/gaegu-106-700-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-105-300-normal.woff -> /output/files/gaegu-105-300-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-105-300-normal.woff -> /output/files/gaegu-105-300-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-106-700-normal.woff2 -> /output/files/gaegu-106-700-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-107-300-normal.woff.br /tmp/work/files/gaegu-107-300-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-104-400-normal.woff -> /output/files/gaegu-104-400-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-104-400-normal.woff -> /output/files/gaegu-104-400-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-107-300-normal.woff2 -> /output/files/gaegu-107-300-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-107-400-normal.woff.br /tmp/work/files/gaegu-107-400-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-105-700-normal.woff -> /output/files/gaegu-105-700-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-105-700-normal.woff -> /output/files/gaegu-105-700-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-107-400-normal.woff2 -> /output/files/gaegu-107-400-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-107-700-normal.woff.br /tmp/work/files/gaegu-107-700-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-105-400-normal.woff -> /output/files/gaegu-105-400-normal.woff.br
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-104-700-normal.woff -> /output/files/gaegu-104-700-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-104-700-normal.woff -> /output/files/gaegu-104-700-normal.woff.gz
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-105-400-normal.woff -> /output/files/gaegu-105-400-normal.woff.gz
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-108-300-normal.woff.br /tmp/work/files/gaegu-108-300-normal.woff
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-107-700-normal.woff2 -> /output/files/gaegu-107-700-normal.woff2
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-108-300-normal.woff2 -> /output/files/gaegu-108-300-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-108-400-normal.woff.br /tmp/work/files/gaegu-108-400-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-106-300-normal.woff -> /output/files/gaegu-106-300-normal.woff.br
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-106-400-normal.woff -> /output/files/gaegu-106-400-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-106-300-normal.woff -> /output/files/gaegu-106-300-normal.woff.gz
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-106-400-normal.woff -> /output/files/gaegu-106-400-normal.woff.gz
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-108-700-normal.woff.br /tmp/work/files/gaegu-108-700-normal.woff
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-108-400-normal.woff2 -> /output/files/gaegu-108-400-normal.woff2
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-108-700-normal.woff2 -> /output/files/gaegu-108-700-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-109-300-normal.woff.br /tmp/work/files/gaegu-109-300-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-107-400-normal.woff -> /output/files/gaegu-107-400-normal.woff.br
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-106-700-normal.woff -> /output/files/gaegu-106-700-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-106-700-normal.woff -> /output/files/gaegu-106-700-normal.woff.gz
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-107-400-normal.woff -> /output/files/gaegu-107-400-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-109-300-normal.woff2 -> /output/files/gaegu-109-300-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-109-400-normal.woff.br /tmp/work/files/gaegu-109-400-normal.woff
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-109-400-normal.woff2 -> /output/files/gaegu-109-400-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-109-700-normal.woff.br /tmp/work/files/gaegu-109-700-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-108-700-normal.woff -> /output/files/gaegu-108-700-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-108-700-normal.woff -> /output/files/gaegu-108-700-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-109-700-normal.woff2 -> /output/files/gaegu-109-700-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-11-300-normal.woff.br /tmp/work/files/gaegu-11-300-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-108-400-normal.woff -> /output/files/gaegu-108-400-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-108-400-normal.woff -> /output/files/gaegu-108-400-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-11-300-normal.woff2 -> /output/files/gaegu-11-300-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-11-400-normal.woff.br /tmp/work/files/gaegu-11-400-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-108-300-normal.woff -> /output/files/gaegu-108-300-normal.woff.br
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-109-400-normal.woff -> /output/files/gaegu-109-400-normal.woff.br
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-11-300-normal.woff -> /output/files/gaegu-11-300-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-109-400-normal.woff -> /output/files/gaegu-109-400-normal.woff.gz
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-11-300-normal.woff -> /output/files/gaegu-11-300-normal.woff.gz
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-11-700-normal.woff.br /tmp/work/files/gaegu-11-700-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-107-300-normal.woff -> /output/files/gaegu-107-300-normal.woff.br
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-11-400-normal.woff2 -> /output/files/gaegu-11-400-normal.woff2
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-108-300-normal.woff -> /output/files/gaegu-108-300-normal.woff.gz
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-110-300-normal.woff.br /tmp/work/files/gaegu-110-300-normal.woff
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-107-300-normal.woff -> /output/files/gaegu-107-300-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-11-700-normal.woff2 -> /output/files/gaegu-11-700-normal.woff2
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-11-400-normal.woff -> /output/files/gaegu-11-400-normal.woff.br
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-110-400-normal.woff.br /tmp/work/files/gaegu-110-400-normal.woff
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-110-300-normal.woff2 -> /output/files/gaegu-110-300-normal.woff2
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-11-700-normal.woff -> /output/files/gaegu-11-700-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-11-400-normal.woff -> /output/files/gaegu-11-400-normal.woff.gz
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-11-700-normal.woff -> /output/files/gaegu-11-700-normal.woff.gz
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-110-700-normal.woff.br /tmp/work/files/gaegu-110-700-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-109-300-normal.woff -> /output/files/gaegu-109-300-normal.woff.br
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-110-700-normal.woff2 -> /output/files/gaegu-110-700-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-111-300-normal.woff.br /tmp/work/files/gaegu-111-300-normal.woff
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-109-300-normal.woff -> /output/files/gaegu-109-300-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-110-400-normal.woff2 -> /output/files/gaegu-110-400-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-111-400-normal.woff.br /tmp/work/files/gaegu-111-400-normal.woff
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-111-300-normal.woff2 -> /output/files/gaegu-111-300-normal.woff2
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-109-700-normal.woff -> /output/files/gaegu-109-700-normal.woff.br
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-107-700-normal.woff -> /output/files/gaegu-107-700-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-107-700-normal.woff -> /output/files/gaegu-107-700-normal.woff.gz
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-111-700-normal.woff.br /tmp/work/files/gaegu-111-700-normal.woff
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-111-400-normal.woff2 -> /output/files/gaegu-111-400-normal.woff2
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-109-700-normal.woff -> /output/files/gaegu-109-700-normal.woff.gz
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-112-300-normal.woff.br /tmp/work/files/gaegu-112-300-normal.woff
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-111-700-normal.woff2 -> /output/files/gaegu-111-700-normal.woff2
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-112-300-normal.woff2 -> /output/files/gaegu-112-300-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-112-400-normal.woff.br /tmp/work/files/gaegu-112-400-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-110-400-normal.woff -> /output/files/gaegu-110-400-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-110-400-normal.woff -> /output/files/gaegu-110-400-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-112-400-normal.woff2 -> /output/files/gaegu-112-400-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-112-700-normal.woff.br /tmp/work/files/gaegu-112-700-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-110-300-normal.woff -> /output/files/gaegu-110-300-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-110-300-normal.woff -> /output/files/gaegu-110-300-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-112-700-normal.woff2 -> /output/files/gaegu-112-700-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-113-300-normal.woff.br /tmp/work/files/gaegu-113-300-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-111-400-normal.woff -> /output/files/gaegu-111-400-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-111-400-normal.woff -> /output/files/gaegu-111-400-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-113-300-normal.woff2 -> /output/files/gaegu-113-300-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-113-400-normal.woff.br /tmp/work/files/gaegu-113-400-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-111-300-normal.woff -> /output/files/gaegu-111-300-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-111-300-normal.woff -> /output/files/gaegu-111-300-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-113-400-normal.woff2 -> /output/files/gaegu-113-400-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-113-700-normal.woff.br /tmp/work/files/gaegu-113-700-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-112-400-normal.woff -> /output/files/gaegu-112-400-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-112-400-normal.woff -> /output/files/gaegu-112-400-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-113-700-normal.woff2 -> /output/files/gaegu-113-700-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-114-300-normal.woff.br /tmp/work/files/gaegu-114-300-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-111-700-normal.woff -> /output/files/gaegu-111-700-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-111-700-normal.woff -> /output/files/gaegu-111-700-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-114-300-normal.woff2 -> /output/files/gaegu-114-300-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-114-400-normal.woff.br /tmp/work/files/gaegu-114-400-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-110-700-normal.woff -> /output/files/gaegu-110-700-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-110-700-normal.woff -> /output/files/gaegu-110-700-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-114-400-normal.woff2 -> /output/files/gaegu-114-400-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-114-700-normal.woff.br /tmp/work/files/gaegu-114-700-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-113-400-normal.woff -> /output/files/gaegu-113-400-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-113-400-normal.woff -> /output/files/gaegu-113-400-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-114-700-normal.woff2 -> /output/files/gaegu-114-700-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-115-300-normal.woff.br /tmp/work/files/gaegu-115-300-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-113-700-normal.woff -> /output/files/gaegu-113-700-normal.woff.br
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-114-300-normal.woff -> /output/files/gaegu-114-300-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-114-300-normal.woff -> /output/files/gaegu-114-300-normal.woff.gz
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-113-700-normal.woff -> /output/files/gaegu-113-700-normal.woff.gz
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-115-400-normal.woff.br /tmp/work/files/gaegu-115-400-normal.woff
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-115-300-normal.woff2 -> /output/files/gaegu-115-300-normal.woff2
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-115-400-normal.woff2 -> /output/files/gaegu-115-400-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-115-700-normal.woff.br /tmp/work/files/gaegu-115-700-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-114-400-normal.woff -> /output/files/gaegu-114-400-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-114-400-normal.woff -> /output/files/gaegu-114-400-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-115-700-normal.woff2 -> /output/files/gaegu-115-700-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-116-300-normal.woff.br /tmp/work/files/gaegu-116-300-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-112-300-normal.woff -> /output/files/gaegu-112-300-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-112-300-normal.woff -> /output/files/gaegu-112-300-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-116-300-normal.woff2 -> /output/files/gaegu-116-300-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-116-400-normal.woff.br /tmp/work/files/gaegu-116-400-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-113-300-normal.woff -> /output/files/gaegu-113-300-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-113-300-normal.woff -> /output/files/gaegu-113-300-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-116-400-normal.woff2 -> /output/files/gaegu-116-400-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-116-700-normal.woff.br /tmp/work/files/gaegu-116-700-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-112-700-normal.woff -> /output/files/gaegu-112-700-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-112-700-normal.woff -> /output/files/gaegu-112-700-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-116-700-normal.woff2 -> /output/files/gaegu-116-700-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-117-300-normal.woff.br /tmp/work/files/gaegu-117-300-normal.woff
+2024/09/12 14:01:45 br /tmp/work/files/gaegu-115-400-normal.woff -> /output/files/gaegu-115-400-normal.woff.br
+2024/09/12 14:01:45 gz /tmp/work/files/gaegu-115-400-normal.woff -> /output/files/gaegu-115-400-normal.woff.gz
+2024/09/12 14:01:45 copy /tmp/work/files/gaegu-117-300-normal.woff2 -> /output/files/gaegu-117-300-normal.woff2
+2024/09/12 14:01:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-117-400-normal.woff.br /tmp/work/files/gaegu-117-400-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-116-400-normal.woff -> /output/files/gaegu-116-400-normal.woff.br
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-114-700-normal.woff -> /output/files/gaegu-114-700-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-116-400-normal.woff -> /output/files/gaegu-116-400-normal.woff.gz
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-114-700-normal.woff -> /output/files/gaegu-114-700-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-117-700-normal.woff.br /tmp/work/files/gaegu-117-700-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-117-400-normal.woff -> /output/files/gaegu-117-400-normal.woff.br
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-117-400-normal.woff2 -> /output/files/gaegu-117-400-normal.woff2
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-117-400-normal.woff -> /output/files/gaegu-117-400-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-118-300-normal.woff.br /tmp/work/files/gaegu-118-300-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-117-700-normal.woff2 -> /output/files/gaegu-117-700-normal.woff2
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-115-700-normal.woff -> /output/files/gaegu-115-700-normal.woff.br
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-118-300-normal.woff2 -> /output/files/gaegu-118-300-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-118-400-normal.woff.br /tmp/work/files/gaegu-118-400-normal.woff
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-115-700-normal.woff -> /output/files/gaegu-115-700-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-118-400-normal.woff2 -> /output/files/gaegu-118-400-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-118-700-normal.woff.br /tmp/work/files/gaegu-118-700-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-115-300-normal.woff -> /output/files/gaegu-115-300-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-115-300-normal.woff -> /output/files/gaegu-115-300-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-118-700-normal.woff2 -> /output/files/gaegu-118-700-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-119-300-normal.woff.br /tmp/work/files/gaegu-119-300-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-118-400-normal.woff -> /output/files/gaegu-118-400-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-118-400-normal.woff -> /output/files/gaegu-118-400-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-119-300-normal.woff2 -> /output/files/gaegu-119-300-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-119-400-normal.woff.br /tmp/work/files/gaegu-119-400-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-116-300-normal.woff -> /output/files/gaegu-116-300-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-116-300-normal.woff -> /output/files/gaegu-116-300-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-119-400-normal.woff2 -> /output/files/gaegu-119-400-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-119-700-normal.woff.br /tmp/work/files/gaegu-119-700-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-117-700-normal.woff -> /output/files/gaegu-117-700-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-117-700-normal.woff -> /output/files/gaegu-117-700-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-119-700-normal.woff2 -> /output/files/gaegu-119-700-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-12-300-normal.woff.br /tmp/work/files/gaegu-12-300-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-116-700-normal.woff -> /output/files/gaegu-116-700-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-116-700-normal.woff -> /output/files/gaegu-116-700-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-12-300-normal.woff2 -> /output/files/gaegu-12-300-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-12-400-normal.woff.br /tmp/work/files/gaegu-12-400-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-119-300-normal.woff -> /output/files/gaegu-119-300-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-119-300-normal.woff -> /output/files/gaegu-119-300-normal.woff.gz
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-117-300-normal.woff -> /output/files/gaegu-117-300-normal.woff.br
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-118-300-normal.woff -> /output/files/gaegu-118-300-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-117-300-normal.woff -> /output/files/gaegu-117-300-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-12-700-normal.woff.br /tmp/work/files/gaegu-12-700-normal.woff
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-118-300-normal.woff -> /output/files/gaegu-118-300-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-12-400-normal.woff2 -> /output/files/gaegu-12-400-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-13-300-normal.woff.br /tmp/work/files/gaegu-13-300-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-12-700-normal.woff2 -> /output/files/gaegu-12-700-normal.woff2
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-13-300-normal.woff2 -> /output/files/gaegu-13-300-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-13-400-normal.woff.br /tmp/work/files/gaegu-13-400-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-12-300-normal.woff -> /output/files/gaegu-12-300-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-12-300-normal.woff -> /output/files/gaegu-12-300-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-13-400-normal.woff2 -> /output/files/gaegu-13-400-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-13-700-normal.woff.br /tmp/work/files/gaegu-13-700-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-12-700-normal.woff -> /output/files/gaegu-12-700-normal.woff.br
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-12-400-normal.woff -> /output/files/gaegu-12-400-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-12-700-normal.woff -> /output/files/gaegu-12-700-normal.woff.gz
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-12-400-normal.woff -> /output/files/gaegu-12-400-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-14-300-normal.woff.br /tmp/work/files/gaegu-14-300-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-13-300-normal.woff -> /output/files/gaegu-13-300-normal.woff.br
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-118-700-normal.woff -> /output/files/gaegu-118-700-normal.woff.br
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-13-700-normal.woff2 -> /output/files/gaegu-13-700-normal.woff2
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-14-300-normal.woff2 -> /output/files/gaegu-14-300-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-14-400-normal.woff.br /tmp/work/files/gaegu-14-400-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-13-400-normal.woff -> /output/files/gaegu-13-400-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-13-400-normal.woff -> /output/files/gaegu-13-400-normal.woff.gz
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-13-300-normal.woff -> /output/files/gaegu-13-300-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-14-700-normal.woff.br /tmp/work/files/gaegu-14-700-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-14-400-normal.woff2 -> /output/files/gaegu-14-400-normal.woff2
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-118-700-normal.woff -> /output/files/gaegu-118-700-normal.woff.gz
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-119-400-normal.woff -> /output/files/gaegu-119-400-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-119-400-normal.woff -> /output/files/gaegu-119-400-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-14-700-normal.woff2 -> /output/files/gaegu-14-700-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-15-400-normal.woff.br /tmp/work/files/gaegu-15-400-normal.woff
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-15-300-normal.woff.br /tmp/work/files/gaegu-15-300-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-119-700-normal.woff -> /output/files/gaegu-119-700-normal.woff.br
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-13-700-normal.woff -> /output/files/gaegu-13-700-normal.woff.br
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-15-300-normal.woff2 -> /output/files/gaegu-15-300-normal.woff2
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-13-700-normal.woff -> /output/files/gaegu-13-700-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-15-700-normal.woff.br /tmp/work/files/gaegu-15-700-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-14-400-normal.woff -> /output/files/gaegu-14-400-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-119-700-normal.woff -> /output/files/gaegu-119-700-normal.woff.gz
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-14-700-normal.woff -> /output/files/gaegu-14-700-normal.woff.br
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-14-300-normal.woff -> /output/files/gaegu-14-300-normal.woff.br
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-15-700-normal.woff2 -> /output/files/gaegu-15-700-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-16-300-normal.woff.br /tmp/work/files/gaegu-16-300-normal.woff
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-14-700-normal.woff -> /output/files/gaegu-14-700-normal.woff.gz
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-14-300-normal.woff -> /output/files/gaegu-14-300-normal.woff.gz
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-15-400-normal.woff -> /output/files/gaegu-15-400-normal.woff.br
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-16-400-normal.woff.br /tmp/work/files/gaegu-16-400-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-15-400-normal.woff2 -> /output/files/gaegu-15-400-normal.woff2
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-15-400-normal.woff -> /output/files/gaegu-15-400-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-16-700-normal.woff.br /tmp/work/files/gaegu-16-700-normal.woff
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-14-400-normal.woff -> /output/files/gaegu-14-400-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-16-300-normal.woff2 -> /output/files/gaegu-16-300-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-17-300-normal.woff.br /tmp/work/files/gaegu-17-300-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-16-400-normal.woff2 -> /output/files/gaegu-16-400-normal.woff2
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-16-700-normal.woff2 -> /output/files/gaegu-16-700-normal.woff2
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-17-300-normal.woff2 -> /output/files/gaegu-17-300-normal.woff2
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-15-700-normal.woff -> /output/files/gaegu-15-700-normal.woff.br
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-16-300-normal.woff -> /output/files/gaegu-16-300-normal.woff.br
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-15-300-normal.woff -> /output/files/gaegu-15-300-normal.woff.br
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-17-400-normal.woff.br /tmp/work/files/gaegu-17-400-normal.woff
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-15-700-normal.woff -> /output/files/gaegu-15-700-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-17-700-normal.woff.br /tmp/work/files/gaegu-17-700-normal.woff
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-16-300-normal.woff -> /output/files/gaegu-16-300-normal.woff.gz
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-15-300-normal.woff -> /output/files/gaegu-15-300-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-18-300-normal.woff.br /tmp/work/files/gaegu-18-300-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-17-700-normal.woff2 -> /output/files/gaegu-17-700-normal.woff2
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-16-400-normal.woff -> /output/files/gaegu-16-400-normal.woff.br
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-17-400-normal.woff2 -> /output/files/gaegu-17-400-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-18-400-normal.woff.br /tmp/work/files/gaegu-18-400-normal.woff
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-16-400-normal.woff -> /output/files/gaegu-16-400-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-18-300-normal.woff2 -> /output/files/gaegu-18-300-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-18-700-normal.woff.br /tmp/work/files/gaegu-18-700-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-18-400-normal.woff2 -> /output/files/gaegu-18-400-normal.woff2
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-18-700-normal.woff2 -> /output/files/gaegu-18-700-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-19-300-normal.woff.br /tmp/work/files/gaegu-19-300-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-16-700-normal.woff -> /output/files/gaegu-16-700-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-16-700-normal.woff -> /output/files/gaegu-16-700-normal.woff.gz
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-17-300-normal.woff -> /output/files/gaegu-17-300-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-17-300-normal.woff -> /output/files/gaegu-17-300-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-19-400-normal.woff.br /tmp/work/files/gaegu-19-400-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-19-300-normal.woff2 -> /output/files/gaegu-19-300-normal.woff2
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-17-700-normal.woff -> /output/files/gaegu-17-700-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-17-700-normal.woff -> /output/files/gaegu-17-700-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-19-700-normal.woff.br /tmp/work/files/gaegu-19-700-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-19-400-normal.woff2 -> /output/files/gaegu-19-400-normal.woff2
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-19-700-normal.woff2 -> /output/files/gaegu-19-700-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-2-300-normal.woff.br /tmp/work/files/gaegu-2-300-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-18-400-normal.woff -> /output/files/gaegu-18-400-normal.woff.br
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-17-400-normal.woff -> /output/files/gaegu-17-400-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-18-400-normal.woff -> /output/files/gaegu-18-400-normal.woff.gz
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-19-300-normal.woff -> /output/files/gaegu-19-300-normal.woff.br
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-18-300-normal.woff -> /output/files/gaegu-18-300-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-17-400-normal.woff -> /output/files/gaegu-17-400-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-2-400-normal.woff.br /tmp/work/files/gaegu-2-400-normal.woff
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-19-300-normal.woff -> /output/files/gaegu-19-300-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-2-300-normal.woff2 -> /output/files/gaegu-2-300-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-2-700-normal.woff.br /tmp/work/files/gaegu-2-700-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-18-700-normal.woff -> /output/files/gaegu-18-700-normal.woff.br
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-19-700-normal.woff -> /output/files/gaegu-19-700-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-19-700-normal.woff -> /output/files/gaegu-19-700-normal.woff.gz
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-18-300-normal.woff -> /output/files/gaegu-18-300-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-20-300-normal.woff.br /tmp/work/files/gaegu-20-300-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-19-400-normal.woff -> /output/files/gaegu-19-400-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-18-700-normal.woff -> /output/files/gaegu-18-700-normal.woff.gz
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-2-400-normal.woff -> /output/files/gaegu-2-400-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-2-400-normal.woff -> /output/files/gaegu-2-400-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-20-400-normal.woff.br /tmp/work/files/gaegu-20-400-normal.woff
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-19-400-normal.woff -> /output/files/gaegu-19-400-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-2-400-normal.woff2 -> /output/files/gaegu-2-400-normal.woff2
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-20-300-normal.woff2 -> /output/files/gaegu-20-300-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-20-700-normal.woff.br /tmp/work/files/gaegu-20-700-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-2-700-normal.woff2 -> /output/files/gaegu-2-700-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-21-300-normal.woff.br /tmp/work/files/gaegu-21-300-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-20-400-normal.woff2 -> /output/files/gaegu-20-400-normal.woff2
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-2-300-normal.woff -> /output/files/gaegu-2-300-normal.woff.br
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-21-300-normal.woff2 -> /output/files/gaegu-21-300-normal.woff2
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-2-700-normal.woff -> /output/files/gaegu-2-700-normal.woff.br
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-21-400-normal.woff.br /tmp/work/files/gaegu-21-400-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-20-700-normal.woff2 -> /output/files/gaegu-20-700-normal.woff2
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-2-700-normal.woff -> /output/files/gaegu-2-700-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-21-700-normal.woff.br /tmp/work/files/gaegu-21-700-normal.woff
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-2-300-normal.woff -> /output/files/gaegu-2-300-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-21-400-normal.woff2 -> /output/files/gaegu-21-400-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-22-300-normal.woff.br /tmp/work/files/gaegu-22-300-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-21-700-normal.woff2 -> /output/files/gaegu-21-700-normal.woff2
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-22-300-normal.woff2 -> /output/files/gaegu-22-300-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-22-400-normal.woff.br /tmp/work/files/gaegu-22-400-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-20-400-normal.woff -> /output/files/gaegu-20-400-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-20-400-normal.woff -> /output/files/gaegu-20-400-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-22-400-normal.woff2 -> /output/files/gaegu-22-400-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-22-700-normal.woff.br /tmp/work/files/gaegu-22-700-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-20-300-normal.woff -> /output/files/gaegu-20-300-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-20-300-normal.woff -> /output/files/gaegu-20-300-normal.woff.gz
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-21-300-normal.woff -> /output/files/gaegu-21-300-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-21-300-normal.woff -> /output/files/gaegu-21-300-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-23-300-normal.woff.br /tmp/work/files/gaegu-23-300-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-22-700-normal.woff2 -> /output/files/gaegu-22-700-normal.woff2
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-23-300-normal.woff2 -> /output/files/gaegu-23-300-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-23-400-normal.woff.br /tmp/work/files/gaegu-23-400-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-21-400-normal.woff -> /output/files/gaegu-21-400-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-21-400-normal.woff -> /output/files/gaegu-21-400-normal.woff.gz
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-20-700-normal.woff -> /output/files/gaegu-20-700-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-20-700-normal.woff -> /output/files/gaegu-20-700-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-23-700-normal.woff.br /tmp/work/files/gaegu-23-700-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-23-400-normal.woff2 -> /output/files/gaegu-23-400-normal.woff2
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-22-400-normal.woff -> /output/files/gaegu-22-400-normal.woff.br
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-23-700-normal.woff2 -> /output/files/gaegu-23-700-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-24-300-normal.woff.br /tmp/work/files/gaegu-24-300-normal.woff
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-22-400-normal.woff -> /output/files/gaegu-22-400-normal.woff.gz
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-22-300-normal.woff -> /output/files/gaegu-22-300-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-22-300-normal.woff -> /output/files/gaegu-22-300-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-24-400-normal.woff.br /tmp/work/files/gaegu-24-400-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-24-300-normal.woff2 -> /output/files/gaegu-24-300-normal.woff2
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-21-700-normal.woff -> /output/files/gaegu-21-700-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-21-700-normal.woff -> /output/files/gaegu-21-700-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-24-700-normal.woff.br /tmp/work/files/gaegu-24-700-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-23-300-normal.woff -> /output/files/gaegu-23-300-normal.woff.br
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-23-400-normal.woff -> /output/files/gaegu-23-400-normal.woff.br
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-24-400-normal.woff2 -> /output/files/gaegu-24-400-normal.woff2
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-23-400-normal.woff -> /output/files/gaegu-23-400-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-25-300-normal.woff.br /tmp/work/files/gaegu-25-300-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-22-700-normal.woff -> /output/files/gaegu-22-700-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-23-300-normal.woff -> /output/files/gaegu-23-300-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-24-700-normal.woff2 -> /output/files/gaegu-24-700-normal.woff2
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-23-700-normal.woff -> /output/files/gaegu-23-700-normal.woff.br
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-25-400-normal.woff.br /tmp/work/files/gaegu-25-400-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-25-300-normal.woff2 -> /output/files/gaegu-25-300-normal.woff2
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-23-700-normal.woff -> /output/files/gaegu-23-700-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-25-700-normal.woff.br /tmp/work/files/gaegu-25-700-normal.woff
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-22-700-normal.woff -> /output/files/gaegu-22-700-normal.woff.gz
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-24-400-normal.woff -> /output/files/gaegu-24-400-normal.woff.br
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-24-300-normal.woff -> /output/files/gaegu-24-300-normal.woff.br
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-25-400-normal.woff2 -> /output/files/gaegu-25-400-normal.woff2
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-25-400-normal.woff -> /output/files/gaegu-25-400-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-24-300-normal.woff -> /output/files/gaegu-24-300-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-26-300-normal.woff.br /tmp/work/files/gaegu-26-300-normal.woff
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-24-400-normal.woff -> /output/files/gaegu-24-400-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-26-400-normal.woff.br /tmp/work/files/gaegu-26-400-normal.woff
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-25-400-normal.woff -> /output/files/gaegu-25-400-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-25-700-normal.woff2 -> /output/files/gaegu-25-700-normal.woff2
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-24-700-normal.woff -> /output/files/gaegu-24-700-normal.woff.br
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-26-700-normal.woff.br /tmp/work/files/gaegu-26-700-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-25-300-normal.woff -> /output/files/gaegu-25-300-normal.woff.br
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-26-300-normal.woff2 -> /output/files/gaegu-26-300-normal.woff2
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-24-700-normal.woff -> /output/files/gaegu-24-700-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-26-400-normal.woff2 -> /output/files/gaegu-26-400-normal.woff2
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-25-300-normal.woff -> /output/files/gaegu-25-300-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-27-400-normal.woff.br /tmp/work/files/gaegu-27-400-normal.woff
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-27-300-normal.woff.br /tmp/work/files/gaegu-27-300-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-26-700-normal.woff2 -> /output/files/gaegu-26-700-normal.woff2
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-27-300-normal.woff2 -> /output/files/gaegu-27-300-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-27-700-normal.woff.br /tmp/work/files/gaegu-27-700-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-26-400-normal.woff -> /output/files/gaegu-26-400-normal.woff.br
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-27-400-normal.woff2 -> /output/files/gaegu-27-400-normal.woff2
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-25-700-normal.woff -> /output/files/gaegu-25-700-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-25-700-normal.woff -> /output/files/gaegu-25-700-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-28-300-normal.woff.br /tmp/work/files/gaegu-28-300-normal.woff
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-26-400-normal.woff -> /output/files/gaegu-26-400-normal.woff.gz
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-26-300-normal.woff -> /output/files/gaegu-26-300-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-26-300-normal.woff -> /output/files/gaegu-26-300-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-28-400-normal.woff.br /tmp/work/files/gaegu-28-400-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-28-300-normal.woff2 -> /output/files/gaegu-28-300-normal.woff2
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-26-700-normal.woff -> /output/files/gaegu-26-700-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-26-700-normal.woff -> /output/files/gaegu-26-700-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-28-700-normal.woff.br /tmp/work/files/gaegu-28-700-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-28-400-normal.woff2 -> /output/files/gaegu-28-400-normal.woff2
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-27-300-normal.woff -> /output/files/gaegu-27-300-normal.woff.br
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-28-700-normal.woff2 -> /output/files/gaegu-28-700-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-29-300-normal.woff.br /tmp/work/files/gaegu-29-300-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-27-700-normal.woff -> /output/files/gaegu-27-700-normal.woff.br
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-27-400-normal.woff -> /output/files/gaegu-27-400-normal.woff.br
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-28-300-normal.woff -> /output/files/gaegu-28-300-normal.woff.br
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-27-700-normal.woff2 -> /output/files/gaegu-27-700-normal.woff2
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-28-300-normal.woff -> /output/files/gaegu-28-300-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-29-400-normal.woff.br /tmp/work/files/gaegu-29-400-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-28-400-normal.woff -> /output/files/gaegu-28-400-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-28-400-normal.woff -> /output/files/gaegu-28-400-normal.woff.gz
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-27-300-normal.woff -> /output/files/gaegu-27-300-normal.woff.gz
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-27-400-normal.woff -> /output/files/gaegu-27-400-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-29-700-normal.woff.br /tmp/work/files/gaegu-29-700-normal.woff
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-27-700-normal.woff -> /output/files/gaegu-27-700-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-3-300-normal.woff.br /tmp/work/files/gaegu-3-300-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-29-300-normal.woff2 -> /output/files/gaegu-29-300-normal.woff2
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-29-400-normal.woff -> /output/files/gaegu-29-400-normal.woff.br
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-28-700-normal.woff -> /output/files/gaegu-28-700-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-29-400-normal.woff -> /output/files/gaegu-29-400-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-3-400-normal.woff.br /tmp/work/files/gaegu-3-400-normal.woff
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-28-700-normal.woff -> /output/files/gaegu-28-700-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-29-400-normal.woff2 -> /output/files/gaegu-29-400-normal.woff2
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-29-700-normal.woff2 -> /output/files/gaegu-29-700-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-3-700-normal.woff.br /tmp/work/files/gaegu-3-700-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-29-300-normal.woff -> /output/files/gaegu-29-300-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-29-300-normal.woff -> /output/files/gaegu-29-300-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-30-300-normal.woff.br /tmp/work/files/gaegu-30-300-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-3-700-normal.woff2 -> /output/files/gaegu-3-700-normal.woff2
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-29-700-normal.woff -> /output/files/gaegu-29-700-normal.woff.br
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-3-300-normal.woff2 -> /output/files/gaegu-3-300-normal.woff2
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-30-300-normal.woff2 -> /output/files/gaegu-30-300-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-30-400-normal.woff.br /tmp/work/files/gaegu-30-400-normal.woff
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-29-700-normal.woff -> /output/files/gaegu-29-700-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-3-400-normal.woff2 -> /output/files/gaegu-3-400-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-30-700-normal.woff.br /tmp/work/files/gaegu-30-700-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-30-400-normal.woff2 -> /output/files/gaegu-30-400-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-31-300-normal.woff.br /tmp/work/files/gaegu-31-300-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-30-700-normal.woff2 -> /output/files/gaegu-30-700-normal.woff2
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-31-300-normal.woff2 -> /output/files/gaegu-31-300-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-31-400-normal.woff.br /tmp/work/files/gaegu-31-400-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-31-300-normal.woff -> /output/files/gaegu-31-300-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-31-300-normal.woff -> /output/files/gaegu-31-300-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-31-400-normal.woff2 -> /output/files/gaegu-31-400-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-31-700-normal.woff.br /tmp/work/files/gaegu-31-700-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-3-300-normal.woff -> /output/files/gaegu-3-300-normal.woff.br
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-30-400-normal.woff -> /output/files/gaegu-30-400-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-3-300-normal.woff -> /output/files/gaegu-3-300-normal.woff.gz
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-30-400-normal.woff -> /output/files/gaegu-30-400-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-32-300-normal.woff.br /tmp/work/files/gaegu-32-300-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-31-700-normal.woff2 -> /output/files/gaegu-31-700-normal.woff2
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-32-300-normal.woff2 -> /output/files/gaegu-32-300-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-32-400-normal.woff.br /tmp/work/files/gaegu-32-400-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-30-300-normal.woff -> /output/files/gaegu-30-300-normal.woff.br
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-30-700-normal.woff -> /output/files/gaegu-30-700-normal.woff.br
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-3-700-normal.woff -> /output/files/gaegu-3-700-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-30-300-normal.woff -> /output/files/gaegu-30-300-normal.woff.gz
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-3-400-normal.woff -> /output/files/gaegu-3-400-normal.woff.br
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-32-400-normal.woff -> /output/files/gaegu-32-400-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-30-700-normal.woff -> /output/files/gaegu-30-700-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-32-700-normal.woff.br /tmp/work/files/gaegu-32-700-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-32-300-normal.woff -> /output/files/gaegu-32-300-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-3-400-normal.woff -> /output/files/gaegu-3-400-normal.woff.gz
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-3-700-normal.woff -> /output/files/gaegu-3-700-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-32-400-normal.woff2 -> /output/files/gaegu-32-400-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-33-300-normal.woff.br /tmp/work/files/gaegu-33-300-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-31-700-normal.woff -> /output/files/gaegu-31-700-normal.woff.br
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-31-400-normal.woff -> /output/files/gaegu-31-400-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-32-300-normal.woff -> /output/files/gaegu-32-300-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-33-400-normal.woff.br /tmp/work/files/gaegu-33-400-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-32-700-normal.woff2 -> /output/files/gaegu-32-700-normal.woff2
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-32-400-normal.woff -> /output/files/gaegu-32-400-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-33-700-normal.woff.br /tmp/work/files/gaegu-33-700-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-33-300-normal.woff2 -> /output/files/gaegu-33-300-normal.woff2
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-31-400-normal.woff -> /output/files/gaegu-31-400-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-33-400-normal.woff2 -> /output/files/gaegu-33-400-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-34-300-normal.woff.br /tmp/work/files/gaegu-34-300-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-33-700-normal.woff2 -> /output/files/gaegu-33-700-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-34-400-normal.woff.br /tmp/work/files/gaegu-34-400-normal.woff
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-31-700-normal.woff -> /output/files/gaegu-31-700-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-34-300-normal.woff2 -> /output/files/gaegu-34-300-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-34-700-normal.woff.br /tmp/work/files/gaegu-34-700-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-34-400-normal.woff2 -> /output/files/gaegu-34-400-normal.woff2
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-34-700-normal.woff2 -> /output/files/gaegu-34-700-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-35-300-normal.woff.br /tmp/work/files/gaegu-35-300-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-33-300-normal.woff -> /output/files/gaegu-33-300-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-33-300-normal.woff -> /output/files/gaegu-33-300-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-35-300-normal.woff2 -> /output/files/gaegu-35-300-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-35-400-normal.woff.br /tmp/work/files/gaegu-35-400-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-32-700-normal.woff -> /output/files/gaegu-32-700-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-32-700-normal.woff -> /output/files/gaegu-32-700-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-35-400-normal.woff2 -> /output/files/gaegu-35-400-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-35-700-normal.woff.br /tmp/work/files/gaegu-35-700-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-33-700-normal.woff -> /output/files/gaegu-33-700-normal.woff.br
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-34-300-normal.woff -> /output/files/gaegu-34-300-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-34-300-normal.woff -> /output/files/gaegu-34-300-normal.woff.gz
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-33-400-normal.woff -> /output/files/gaegu-33-400-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-33-700-normal.woff -> /output/files/gaegu-33-700-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-36-300-normal.woff.br /tmp/work/files/gaegu-36-300-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-35-700-normal.woff2 -> /output/files/gaegu-35-700-normal.woff2
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-33-400-normal.woff -> /output/files/gaegu-33-400-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-36-400-normal.woff.br /tmp/work/files/gaegu-36-400-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-36-300-normal.woff2 -> /output/files/gaegu-36-300-normal.woff2
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-36-400-normal.woff2 -> /output/files/gaegu-36-400-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-36-700-normal.woff.br /tmp/work/files/gaegu-36-700-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-34-400-normal.woff -> /output/files/gaegu-34-400-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-34-400-normal.woff -> /output/files/gaegu-34-400-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-36-700-normal.woff2 -> /output/files/gaegu-36-700-normal.woff2
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-36-300-normal.woff -> /output/files/gaegu-36-300-normal.woff.br
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-35-400-normal.woff -> /output/files/gaegu-35-400-normal.woff.br
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-37-300-normal.woff.br /tmp/work/files/gaegu-37-300-normal.woff
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-35-400-normal.woff -> /output/files/gaegu-35-400-normal.woff.gz
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-36-300-normal.woff -> /output/files/gaegu-36-300-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-37-400-normal.woff.br /tmp/work/files/gaegu-37-400-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-37-300-normal.woff2 -> /output/files/gaegu-37-300-normal.woff2
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-37-400-normal.woff2 -> /output/files/gaegu-37-400-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-37-700-normal.woff.br /tmp/work/files/gaegu-37-700-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-36-400-normal.woff -> /output/files/gaegu-36-400-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-36-400-normal.woff -> /output/files/gaegu-36-400-normal.woff.gz
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-37-700-normal.woff2 -> /output/files/gaegu-37-700-normal.woff2
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-38-300-normal.woff.br /tmp/work/files/gaegu-38-300-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-36-700-normal.woff -> /output/files/gaegu-36-700-normal.woff.br
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-35-300-normal.woff -> /output/files/gaegu-35-300-normal.woff.br
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-34-700-normal.woff -> /output/files/gaegu-34-700-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-35-300-normal.woff -> /output/files/gaegu-35-300-normal.woff.gz
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-37-300-normal.woff -> /output/files/gaegu-37-300-normal.woff.br
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-37-400-normal.woff -> /output/files/gaegu-37-400-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-34-700-normal.woff -> /output/files/gaegu-34-700-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-38-400-normal.woff.br /tmp/work/files/gaegu-38-400-normal.woff
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-35-700-normal.woff -> /output/files/gaegu-35-700-normal.woff.br
+2024/09/12 14:01:46 br /tmp/work/files/gaegu-37-700-normal.woff -> /output/files/gaegu-37-700-normal.woff.br
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-36-700-normal.woff -> /output/files/gaegu-36-700-normal.woff.gz
+2024/09/12 14:01:46 gz /tmp/work/files/gaegu-37-700-normal.woff -> /output/files/gaegu-37-700-normal.woff.gz
+2024/09/12 14:01:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/gaegu-38-700-normal.woff.br /tmp/work/files/gaegu-38-700-normal.woff
+2024/09/12 14:01:46 copy /tmp/work/files/gaegu-38-300-normal.woff2 -> /output/files/gaegu-38-300-normal.woff2
+panic: open /output/files/gaegu-35-700-normal.woff.gz: no space left on device
+
+goroutine 53 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/compress.Gzip9Native(0x870280, 0xc000016060, 0xc000500660, 0x28, 0xc0003e2060, 0x29)
+	/go/src/github.com/compress/algorithm.go:58 +0xeb
+main.optimizeJob.emitFromWorkspace(0x870280, 0xc000016060, 0x0, 0xc0002cc460, 0x1e, 0xc00053a454, 0x1e, 0xc000500660, 0x28)
+	/go/src/github.com/cmd/process-version/main.go:113 +0x6c5
+main.optimizeJob.emit(0x870280, 0xc000016060, 0x0, 0xc0002cc460, 0x1e, 0xc00053a454, 0x1e, 0xc0002cc460, 0x1e)
+	/go/src/github.com/cmd/process-version/main.go:126 +0xc6
+main.optimizeWorker(0xc000300000, 0xc0002fc000)
+	/go/src/github.com/cmd/process-version/main.go:245 +0x14a
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
+panic: open /output/files/gaegu-37-300-normal.woff.gz: no space left on device
+
+goroutine 51 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/compress.Gzip9Native(0x870280, 0xc000016060, 0xc00007a1b0, 0x28, 0xc00007a090, 0x29)
+	/go/src/github.com/compress/algorithm.go:58 +0xeb
+main.optimizeJob.emitFromWorkspace(0x870280, 0xc000016060, 0x0, 0xc0002cc660, 0x1e, 0xc00053a550, 0x1e, 0xc00007a1b0, 0x28)
+	/go/src/github.com/cmd/process-version/main.go:113 +0x6c5
+main.optimizeJob.emit(0x870280, 0xc000016060, 0x0, 0xc0002cc660, 0x1e, 0xc00053a550, 0x1e, 0xc0002cc660, 0x1e)
+	/go/src/github.com/cmd/process-version/main.go:126 +0xc6
+main.optimizeWorker(0xc000300000, 0xc0002fc000)
+	/go/src/github.com/cmd/process-version/main.go:245 +0x14a
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
+panic: open /output/files/gaegu-37-400-normal.woff.gz: no space left on device
+
+goroutine 49 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/compress.Gzip9Native(0x870280, 0xc000016060, 0xc0000a4240, 0x28, 0xc00007a120, 0x29)
+	/go/src/github.com/compress/algorithm.go:58 +0xeb
+main.optimizeJob.emitFromWorkspace(0x870280, 0xc000016060, 0x0, 0xc0002cc6e0, 0x1e, 0xc00053a58f, 0x1e, 0xc0000a4240, 0x28)
+	/go/src/github.com/cmd/process-version/main.go:113 +0x6c5
+main.optimizeJob.emit(0x870280, 0xc000016060, 0x0, 0xc0002cc6e0, 0x1e, 0xc00053a58f, 0x1e, 0xc0002cc6e0, 0x1e)
+	/go/src/github.com/cmd/process-version/main.go:126 +0xc6
+main.optimizeWorker(0xc000300000, 0xc0002fc000)
+	/go/src/github.com/cmd/process-version/main.go:245 +0x14a
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
