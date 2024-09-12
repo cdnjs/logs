@@ -1,0 +1,40 @@
+2024/09/12 13:08:55 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/09/12 13:08:56 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-400-italic.min.css /tmp/work/latin-400-italic.css]
+2024/09/12 13:08:56 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-ext-400.min.css /tmp/work/cyrillic-ext-400.css]
+2024/09/12 13:08:56 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-ext-italic.min.css /tmp/work/cyrillic-ext-italic.css]
+2024/09/12 13:08:56 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-ext.min.css /tmp/work/cyrillic-ext.css]
+2024/09/12 13:08:56 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/index.min.css /tmp/work/index.css]
+2024/09/12 13:08:56 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/400.min.css /tmp/work/400.css]
+2024/09/12 13:08:56 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/400-italic.min.css /tmp/work/400-italic.css]
+2024/09/12 13:08:56 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-ext-400-italic.min.css /tmp/work/cyrillic-ext-400-italic.css]
+2024/09/12 13:08:56 sri /tmp/work/cyrillic-ext-400.min.css -> /output/cyrillic-ext-400.min.css.sri
+2024/09/12 13:08:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-400.min.css.br /tmp/work/cyrillic-ext-400.min.css
+2024/09/12 13:08:56 br /tmp/work/cyrillic-ext-400.min.css -> /output/cyrillic-ext-400.min.css.br
+2024/09/12 13:08:56 gz /tmp/work/cyrillic-ext-400.min.css -> /output/cyrillic-ext-400.min.css.gz
+2024/09/12 13:08:56 sri /tmp/work/cyrillic-ext-400.css -> /output/cyrillic-ext-400.css.sri
+2024/09/12 13:08:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-400.css.br /tmp/work/cyrillic-ext-400.css
+2024/09/12 13:08:56 br /tmp/work/cyrillic-ext-400.css -> /output/cyrillic-ext-400.css.br
+2024/09/12 13:08:56 gz /tmp/work/cyrillic-ext-400.css -> /output/cyrillic-ext-400.css.gz
+2024/09/12 13:08:56 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-400.min.css /tmp/work/latin-400.css]
+2024/09/12 13:08:56 sri /tmp/work/cyrillic-ext.min.css -> /output/cyrillic-ext.min.css.sri
+2024/09/12 13:08:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext.min.css.br /tmp/work/cyrillic-ext.min.css
+2024/09/12 13:08:56 br /tmp/work/cyrillic-ext.min.css -> /output/cyrillic-ext.min.css.br
+2024/09/12 13:08:56 gz /tmp/work/cyrillic-ext.min.css -> /output/cyrillic-ext.min.css.gz
+2024/09/12 13:08:56 sri /tmp/work/cyrillic-ext.css -> /output/cyrillic-ext.css.sri
+2024/09/12 13:08:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext.css.br /tmp/work/cyrillic-ext.css
+2024/09/12 13:08:56 br /tmp/work/cyrillic-ext.css -> /output/cyrillic-ext.css.br
+2024/09/12 13:08:56 gz /tmp/work/cyrillic-ext.css -> /output/cyrillic-ext.css.gz
+2024/09/12 13:08:56 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-ext-400-italic.min.css /tmp/work/latin-ext-400-italic.css]
+panic: open /output/cyrillic-ext-italic.min.css.sri: no space left on device
+
+goroutine 13 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/sri.CalculateFileSRI(0xc00007ae70, 0x25, 0xc0002b00c0, 0x27)
+	/go/src/github.com/sri/sri.go:20 +0x115
+main.optimizeJob.emitFromWorkspace(0x870280, 0xc000016060, 0x0, 0xc000014c78, 0x17, 0xc0002b6000, 0x1b, 0xc00007ae70, 0x25)
+	/go/src/github.com/cmd/process-version/main.go:95 +0x96b
+main.optimizeWorker(0xc000145730, 0xc00027c240)
+	/go/src/github.com/cmd/process-version/main.go:240 +0x691
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
