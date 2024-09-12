@@ -1,0 +1,46 @@
+2024/09/12 15:04:49 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/09/12 15:04:49 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/index.min.css /tmp/work/index.css]
+2024/09/12 15:04:49 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/400.min.css /tmp/work/400.css]
+2024/09/12 15:04:49 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-ext.min.css /tmp/work/latin-ext.css]
+2024/09/12 15:04:49 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-ext-400.min.css /tmp/work/latin-ext-400.css]
+2024/09/12 15:04:49 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/vietnamese-400.min.css /tmp/work/vietnamese-400.css]
+2024/09/12 15:04:49 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin.min.css /tmp/work/latin.css]
+2024/09/12 15:04:49 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-400.min.css /tmp/work/latin-400.css]
+2024/09/12 15:04:49 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/vietnamese.min.css /tmp/work/vietnamese.css]
+2024/09/12 15:04:50 sri /tmp/work/vietnamese-400.min.css -> /output/vietnamese-400.min.css.sri
+2024/09/12 15:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-400.min.css.br /tmp/work/vietnamese-400.min.css
+2024/09/12 15:04:50 br /tmp/work/vietnamese-400.min.css -> /output/vietnamese-400.min.css.br
+2024/09/12 15:04:50 sri /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.sri
+2024/09/12 15:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-400.min.css.br /tmp/work/latin-ext-400.min.css
+2024/09/12 15:04:50 sri /tmp/work/latin-ext.min.css -> /output/latin-ext.min.css.sri
+2024/09/12 15:04:50 sri /tmp/work/latin.min.css -> /output/latin.min.css.sri
+2024/09/12 15:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin.min.css.br /tmp/work/latin.min.css
+2024/09/12 15:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext.min.css.br /tmp/work/latin-ext.min.css
+2024/09/12 15:04:50 gz /tmp/work/vietnamese-400.min.css -> /output/vietnamese-400.min.css.gz
+2024/09/12 15:04:50 sri /tmp/work/vietnamese-400.css -> /output/vietnamese-400.css.sri
+2024/09/12 15:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese-400.css.br /tmp/work/vietnamese-400.css
+2024/09/12 15:04:50 sri /tmp/work/vietnamese.min.css -> /output/vietnamese.min.css.sri
+2024/09/12 15:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/vietnamese.min.css.br /tmp/work/vietnamese.min.css
+2024/09/12 15:04:50 sri /tmp/work/latin-400.min.css -> /output/latin-400.min.css.sri
+2024/09/12 15:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400.min.css.br /tmp/work/latin-400.min.css
+2024/09/12 15:04:50 sri /tmp/work/index.min.css -> /output/index.min.css.sri
+2024/09/12 15:04:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.css.br /tmp/work/index.min.css
+2024/09/12 15:04:50 br /tmp/work/latin.min.css -> /output/latin.min.css.br
+2024/09/12 15:04:50 br /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.br
+2024/09/12 15:04:50 br /tmp/work/vietnamese.min.css -> /output/vietnamese.min.css.br
+2024/09/12 15:04:50 br /tmp/work/vietnamese-400.css -> /output/vietnamese-400.css.br
+panic: exit status 1
+
+goroutine 23 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/compress.runAlgorithm(0x870280, 0xc000016060, 0x7f32f7, 0x6, 0xc000326d48, 0x3, 0x3, 0x44d9cc, 0x11, 0x77c920)
+	/go/src/github.com/compress/algorithm.go:28 +0x348
+github.com/cdnjs/tools/compress.Brotli11CLI(...)
+	/go/src/github.com/compress/algorithm.go:40
+main.optimizeJob.emitFromWorkspace(0x870280, 0xc000016060, 0x0, 0xc0001c51b0, 0xd, 0xc0000ac060, 0x11, 0xc000340000, 0x1b)
+	/go/src/github.com/cmd/process-version/main.go:105 +0x506
+main.optimizeWorker(0xc00031e000, 0xc000306060)
+	/go/src/github.com/cmd/process-version/main.go:240 +0x691
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
