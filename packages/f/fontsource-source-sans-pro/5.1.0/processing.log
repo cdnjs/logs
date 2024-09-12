@@ -1,0 +1,511 @@
+2024/09/12 15:18:35 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/09/12 15:18:35 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/600-italic.min.css /tmp/work/600-italic.css]
+2024/09/12 15:18:35 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/200-italic.min.css /tmp/work/200-italic.css]
+2024/09/12 15:18:35 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/300.min.css /tmp/work/300.css]
+2024/09/12 15:18:35 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/400-italic.min.css /tmp/work/400-italic.css]
+2024/09/12 15:18:35 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/400.min.css /tmp/work/400.css]
+2024/09/12 15:18:35 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/200.min.css /tmp/work/200.css]
+2024/09/12 15:18:35 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/600.min.css /tmp/work/600.css]
+2024/09/12 15:18:35 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/300-italic.min.css /tmp/work/300-italic.css]
+2024/09/12 15:18:36 sri /tmp/work/400-italic.min.css -> /output/400-italic.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400-italic.min.css.br /tmp/work/400-italic.min.css
+2024/09/12 15:18:36 sri /tmp/work/600-italic.min.css -> /output/600-italic.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/600-italic.min.css.br /tmp/work/600-italic.min.css
+2024/09/12 15:18:36 sri /tmp/work/600.min.css -> /output/600.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/600.min.css.br /tmp/work/600.min.css
+2024/09/12 15:18:36 sri /tmp/work/400.min.css -> /output/400.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400.min.css.br /tmp/work/400.min.css
+2024/09/12 15:18:36 br /tmp/work/400-italic.min.css -> /output/400-italic.min.css.br
+2024/09/12 15:18:36 gz /tmp/work/400-italic.min.css -> /output/400-italic.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/400-italic.css -> /output/400-italic.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400-italic.css.br /tmp/work/400-italic.css
+2024/09/12 15:18:36 sri /tmp/work/300-italic.min.css -> /output/300-italic.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/300-italic.min.css.br /tmp/work/300-italic.min.css
+2024/09/12 15:18:36 sri /tmp/work/200.min.css -> /output/200.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/200.min.css.br /tmp/work/200.min.css
+2024/09/12 15:18:36 br /tmp/work/600-italic.min.css -> /output/600-italic.min.css.br
+2024/09/12 15:18:36 gz /tmp/work/600-italic.min.css -> /output/600-italic.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/600-italic.css -> /output/600-italic.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/600-italic.css.br /tmp/work/600-italic.css
+2024/09/12 15:18:36 sri /tmp/work/300.min.css -> /output/300.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/300.min.css.br /tmp/work/300.min.css
+2024/09/12 15:18:36 br /tmp/work/600.min.css -> /output/600.min.css.br
+2024/09/12 15:18:36 br /tmp/work/400.min.css -> /output/400.min.css.br
+2024/09/12 15:18:36 br /tmp/work/200.min.css -> /output/200.min.css.br
+2024/09/12 15:18:36 gz /tmp/work/200.min.css -> /output/200.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/200.css -> /output/200.css.sri
+2024/09/12 15:18:36 gz /tmp/work/600.min.css -> /output/600.min.css.gz
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/200.css.br /tmp/work/200.css
+2024/09/12 15:18:36 sri /tmp/work/600.css -> /output/600.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/600.css.br /tmp/work/600.css
+2024/09/12 15:18:36 gz /tmp/work/400.min.css -> /output/400.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/400.css -> /output/400.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400.css.br /tmp/work/400.css
+2024/09/12 15:18:36 br /tmp/work/300-italic.min.css -> /output/300-italic.min.css.br
+2024/09/12 15:18:36 br /tmp/work/400-italic.css -> /output/400-italic.css.br
+2024/09/12 15:18:36 gz /tmp/work/300-italic.min.css -> /output/300-italic.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/300-italic.css -> /output/300-italic.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/300-italic.css.br /tmp/work/300-italic.css
+2024/09/12 15:18:36 gz /tmp/work/400-italic.css -> /output/400-italic.css.gz
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/700-italic.min.css /tmp/work/700-italic.css]
+2024/09/12 15:18:36 br /tmp/work/300.min.css -> /output/300.min.css.br
+2024/09/12 15:18:36 gz /tmp/work/300.min.css -> /output/300.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/300.css -> /output/300.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/300.css.br /tmp/work/300.css
+2024/09/12 15:18:36 br /tmp/work/600-italic.css -> /output/600-italic.css.br
+2024/09/12 15:18:36 br /tmp/work/200.css -> /output/200.css.br
+2024/09/12 15:18:36 br /tmp/work/600.css -> /output/600.css.br
+2024/09/12 15:18:36 br /tmp/work/300-italic.css -> /output/300-italic.css.br
+2024/09/12 15:18:36 gz /tmp/work/600-italic.css -> /output/600-italic.css.gz
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/700.min.css /tmp/work/700.css]
+2024/09/12 15:18:36 gz /tmp/work/200.css -> /output/200.css.gz
+2024/09/12 15:18:36 gz /tmp/work/600.css -> /output/600.css.gz
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/900-italic.min.css /tmp/work/900-italic.css]
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/900.min.css /tmp/work/900.css]
+2024/09/12 15:18:36 gz /tmp/work/300-italic.css -> /output/300-italic.css.gz
+2024/09/12 15:18:36 br /tmp/work/400.css -> /output/400.css.br
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-200-italic.min.css /tmp/work/cyrillic-200-italic.css]
+2024/09/12 15:18:36 sri /tmp/work/200-italic.min.css -> /output/200-italic.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/200-italic.min.css.br /tmp/work/200-italic.min.css
+2024/09/12 15:18:36 gz /tmp/work/400.css -> /output/400.css.gz
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-200.min.css /tmp/work/cyrillic-200.css]
+2024/09/12 15:18:36 br /tmp/work/300.css -> /output/300.css.br
+2024/09/12 15:18:36 gz /tmp/work/300.css -> /output/300.css.gz
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-300-italic.min.css /tmp/work/cyrillic-300-italic.css]
+2024/09/12 15:18:36 br /tmp/work/200-italic.min.css -> /output/200-italic.min.css.br
+2024/09/12 15:18:36 gz /tmp/work/200-italic.min.css -> /output/200-italic.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/200-italic.css -> /output/200-italic.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/200-italic.css.br /tmp/work/200-italic.css
+2024/09/12 15:18:36 br /tmp/work/200-italic.css -> /output/200-italic.css.br
+2024/09/12 15:18:36 gz /tmp/work/200-italic.css -> /output/200-italic.css.gz
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-300.min.css /tmp/work/cyrillic-300.css]
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-200.min.css -> /output/cyrillic-200.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-200.min.css.br /tmp/work/cyrillic-200.min.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-200.min.css -> /output/cyrillic-200.min.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-200.min.css -> /output/cyrillic-200.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-200.css -> /output/cyrillic-200.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-200.css.br /tmp/work/cyrillic-200.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-200.css -> /output/cyrillic-200.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-200.css -> /output/cyrillic-200.css.gz
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-400-italic.min.css /tmp/work/cyrillic-400-italic.css]
+2024/09/12 15:18:36 sri /tmp/work/700.min.css -> /output/700.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/700.min.css.br /tmp/work/700.min.css
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-200-italic.min.css -> /output/cyrillic-200-italic.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-200-italic.min.css.br /tmp/work/cyrillic-200-italic.min.css
+2024/09/12 15:18:36 sri /tmp/work/700-italic.min.css -> /output/700-italic.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/700-italic.min.css.br /tmp/work/700-italic.min.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-200-italic.min.css -> /output/cyrillic-200-italic.min.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-200-italic.min.css -> /output/cyrillic-200-italic.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-200-italic.css -> /output/cyrillic-200-italic.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-200-italic.css.br /tmp/work/cyrillic-200-italic.css
+2024/09/12 15:18:36 br /tmp/work/700.min.css -> /output/700.min.css.br
+2024/09/12 15:18:36 gz /tmp/work/700.min.css -> /output/700.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/700.css -> /output/700.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/700.css.br /tmp/work/700.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-200-italic.css -> /output/cyrillic-200-italic.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-200-italic.css -> /output/cyrillic-200-italic.css.gz
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-400.min.css /tmp/work/cyrillic-400.css]
+2024/09/12 15:18:36 sri /tmp/work/900.min.css -> /output/900.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/900.min.css.br /tmp/work/900.min.css
+2024/09/12 15:18:36 br /tmp/work/700-italic.min.css -> /output/700-italic.min.css.br
+2024/09/12 15:18:36 sri /tmp/work/900-italic.min.css -> /output/900-italic.min.css.sri
+2024/09/12 15:18:36 gz /tmp/work/700-italic.min.css -> /output/700-italic.min.css.gz
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/900-italic.min.css.br /tmp/work/900-italic.min.css
+2024/09/12 15:18:36 sri /tmp/work/700-italic.css -> /output/700-italic.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/700-italic.css.br /tmp/work/700-italic.css
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-300-italic.min.css -> /output/cyrillic-300-italic.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-300-italic.min.css.br /tmp/work/cyrillic-300-italic.min.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-300-italic.min.css -> /output/cyrillic-300-italic.min.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-300-italic.min.css -> /output/cyrillic-300-italic.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-300-italic.css -> /output/cyrillic-300-italic.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-300-italic.css.br /tmp/work/cyrillic-300-italic.css
+2024/09/12 15:18:36 br /tmp/work/700.css -> /output/700.css.br
+2024/09/12 15:18:36 br /tmp/work/900.min.css -> /output/900.min.css.br
+2024/09/12 15:18:36 gz /tmp/work/700.css -> /output/700.css.gz
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-600-italic.min.css /tmp/work/cyrillic-600-italic.css]
+2024/09/12 15:18:36 gz /tmp/work/900.min.css -> /output/900.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/900.css -> /output/900.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/900.css.br /tmp/work/900.css
+2024/09/12 15:18:36 br /tmp/work/900-italic.min.css -> /output/900-italic.min.css.br
+2024/09/12 15:18:36 gz /tmp/work/900-italic.min.css -> /output/900-italic.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/900-italic.css -> /output/900-italic.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/900-italic.css.br /tmp/work/900-italic.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-300-italic.css -> /output/cyrillic-300-italic.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-300-italic.css -> /output/cyrillic-300-italic.css.gz
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-600.min.css /tmp/work/cyrillic-600.css]
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-300.min.css -> /output/cyrillic-300.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-300.min.css.br /tmp/work/cyrillic-300.min.css
+2024/09/12 15:18:36 br /tmp/work/700-italic.css -> /output/700-italic.css.br
+2024/09/12 15:18:36 gz /tmp/work/700-italic.css -> /output/700-italic.css.gz
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-700-italic.min.css /tmp/work/cyrillic-700-italic.css]
+2024/09/12 15:18:36 br /tmp/work/cyrillic-300.min.css -> /output/cyrillic-300.min.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-300.min.css -> /output/cyrillic-300.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-300.css -> /output/cyrillic-300.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-300.css.br /tmp/work/cyrillic-300.css
+2024/09/12 15:18:36 br /tmp/work/900.css -> /output/900.css.br
+2024/09/12 15:18:36 gz /tmp/work/900.css -> /output/900.css.gz
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-700.min.css /tmp/work/cyrillic-700.css]
+2024/09/12 15:18:36 br /tmp/work/900-italic.css -> /output/900-italic.css.br
+2024/09/12 15:18:36 gz /tmp/work/900-italic.css -> /output/900-italic.css.gz
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-900-italic.min.css /tmp/work/cyrillic-900-italic.css]
+2024/09/12 15:18:36 br /tmp/work/cyrillic-300.css -> /output/cyrillic-300.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-300.css -> /output/cyrillic-300.css.gz
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-900.min.css /tmp/work/cyrillic-900.css]
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-400-italic.min.css -> /output/cyrillic-400-italic.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-400-italic.min.css.br /tmp/work/cyrillic-400-italic.min.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-400-italic.min.css -> /output/cyrillic-400-italic.min.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-400-italic.min.css -> /output/cyrillic-400-italic.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-400-italic.css -> /output/cyrillic-400-italic.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-400-italic.css.br /tmp/work/cyrillic-400-italic.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-400-italic.css -> /output/cyrillic-400-italic.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-400-italic.css -> /output/cyrillic-400-italic.css.gz
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-ext-200-italic.min.css /tmp/work/cyrillic-ext-200-italic.css]
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-700.min.css -> /output/cyrillic-700.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-700.min.css.br /tmp/work/cyrillic-700.min.css
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-700-italic.min.css -> /output/cyrillic-700-italic.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-700-italic.min.css.br /tmp/work/cyrillic-700-italic.min.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-700.min.css -> /output/cyrillic-700.min.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-700.min.css -> /output/cyrillic-700.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-700.css -> /output/cyrillic-700.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-700.css.br /tmp/work/cyrillic-700.css
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-900-italic.min.css -> /output/cyrillic-900-italic.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-900-italic.min.css.br /tmp/work/cyrillic-900-italic.min.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-700-italic.min.css -> /output/cyrillic-700-italic.min.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-700-italic.min.css -> /output/cyrillic-700-italic.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-700-italic.css -> /output/cyrillic-700-italic.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-700-italic.css.br /tmp/work/cyrillic-700-italic.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-700.css -> /output/cyrillic-700.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-700.css -> /output/cyrillic-700.css.gz
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-ext-200.min.css /tmp/work/cyrillic-ext-200.css]
+2024/09/12 15:18:36 br /tmp/work/cyrillic-900-italic.min.css -> /output/cyrillic-900-italic.min.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-900-italic.min.css -> /output/cyrillic-900-italic.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-900-italic.css -> /output/cyrillic-900-italic.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-900-italic.css.br /tmp/work/cyrillic-900-italic.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-700-italic.css -> /output/cyrillic-700-italic.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-700-italic.css -> /output/cyrillic-700-italic.css.gz
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-ext-300-italic.min.css /tmp/work/cyrillic-ext-300-italic.css]
+2024/09/12 15:18:36 br /tmp/work/cyrillic-900-italic.css -> /output/cyrillic-900-italic.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-900-italic.css -> /output/cyrillic-900-italic.css.gz
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-ext-300.min.css /tmp/work/cyrillic-ext-300.css]
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-600.min.css -> /output/cyrillic-600.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-600.min.css.br /tmp/work/cyrillic-600.min.css
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-400.min.css -> /output/cyrillic-400.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-400.min.css.br /tmp/work/cyrillic-400.min.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-600.min.css -> /output/cyrillic-600.min.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-600.min.css -> /output/cyrillic-600.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-600.css -> /output/cyrillic-600.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-600.css.br /tmp/work/cyrillic-600.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-400.min.css -> /output/cyrillic-400.min.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-400.min.css -> /output/cyrillic-400.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-400.css -> /output/cyrillic-400.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-400.css.br /tmp/work/cyrillic-400.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-600.css -> /output/cyrillic-600.css.br
+2024/09/12 15:18:36 br /tmp/work/cyrillic-400.css -> /output/cyrillic-400.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-600.css -> /output/cyrillic-600.css.gz
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-ext-400-italic.min.css /tmp/work/cyrillic-ext-400-italic.css]
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-400.css -> /output/cyrillic-400.css.gz
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-ext-400.min.css /tmp/work/cyrillic-ext-400.css]
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-600-italic.min.css -> /output/cyrillic-600-italic.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-600-italic.min.css.br /tmp/work/cyrillic-600-italic.min.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-600-italic.min.css -> /output/cyrillic-600-italic.min.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-600-italic.min.css -> /output/cyrillic-600-italic.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-600-italic.css -> /output/cyrillic-600-italic.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-600-italic.css.br /tmp/work/cyrillic-600-italic.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-600-italic.css -> /output/cyrillic-600-italic.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-600-italic.css -> /output/cyrillic-600-italic.css.gz
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-ext-600-italic.min.css /tmp/work/cyrillic-ext-600-italic.css]
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-900.min.css -> /output/cyrillic-900.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-900.min.css.br /tmp/work/cyrillic-900.min.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-900.min.css -> /output/cyrillic-900.min.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-900.min.css -> /output/cyrillic-900.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-900.css -> /output/cyrillic-900.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-900.css.br /tmp/work/cyrillic-900.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-900.css -> /output/cyrillic-900.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-900.css -> /output/cyrillic-900.css.gz
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-ext-600.min.css /tmp/work/cyrillic-ext-600.css]
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-ext-200-italic.min.css -> /output/cyrillic-ext-200-italic.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-200-italic.min.css.br /tmp/work/cyrillic-ext-200-italic.min.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-ext-200-italic.min.css -> /output/cyrillic-ext-200-italic.min.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-ext-200-italic.min.css -> /output/cyrillic-ext-200-italic.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-ext-200-italic.css -> /output/cyrillic-ext-200-italic.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-200-italic.css.br /tmp/work/cyrillic-ext-200-italic.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-ext-200-italic.css -> /output/cyrillic-ext-200-italic.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-ext-200-italic.css -> /output/cyrillic-ext-200-italic.css.gz
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-ext-700-italic.min.css /tmp/work/cyrillic-ext-700-italic.css]
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-ext-200.min.css -> /output/cyrillic-ext-200.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-200.min.css.br /tmp/work/cyrillic-ext-200.min.css
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-ext-300.min.css -> /output/cyrillic-ext-300.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-300.min.css.br /tmp/work/cyrillic-ext-300.min.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-ext-200.min.css -> /output/cyrillic-ext-200.min.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-ext-200.min.css -> /output/cyrillic-ext-200.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-ext-200.css -> /output/cyrillic-ext-200.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-200.css.br /tmp/work/cyrillic-ext-200.css
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-ext-600-italic.min.css -> /output/cyrillic-ext-600-italic.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-600-italic.min.css.br /tmp/work/cyrillic-ext-600-italic.min.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-ext-300.min.css -> /output/cyrillic-ext-300.min.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-ext-300.min.css -> /output/cyrillic-ext-300.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-ext-300.css -> /output/cyrillic-ext-300.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-300.css.br /tmp/work/cyrillic-ext-300.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-ext-200.css -> /output/cyrillic-ext-200.css.br
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-ext-300-italic.min.css -> /output/cyrillic-ext-300-italic.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-300-italic.min.css.br /tmp/work/cyrillic-ext-300-italic.min.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-ext-600-italic.min.css -> /output/cyrillic-ext-600-italic.min.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-ext-200.css -> /output/cyrillic-ext-200.css.gz
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-ext-700.min.css /tmp/work/cyrillic-ext-700.css]
+2024/09/12 15:18:36 br /tmp/work/cyrillic-ext-300.css -> /output/cyrillic-ext-300.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-ext-600-italic.min.css -> /output/cyrillic-ext-600-italic.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-ext-600-italic.css -> /output/cyrillic-ext-600-italic.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-600-italic.css.br /tmp/work/cyrillic-ext-600-italic.css
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-ext-300.css -> /output/cyrillic-ext-300.css.gz
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-ext-900-italic.min.css /tmp/work/cyrillic-ext-900-italic.css]
+2024/09/12 15:18:36 br /tmp/work/cyrillic-ext-300-italic.min.css -> /output/cyrillic-ext-300-italic.min.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-ext-300-italic.min.css -> /output/cyrillic-ext-300-italic.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-ext-300-italic.css -> /output/cyrillic-ext-300-italic.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-300-italic.css.br /tmp/work/cyrillic-ext-300-italic.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-ext-600-italic.css -> /output/cyrillic-ext-600-italic.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-ext-600-italic.css -> /output/cyrillic-ext-600-italic.css.gz
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-ext-900.min.css /tmp/work/cyrillic-ext-900.css]
+2024/09/12 15:18:36 br /tmp/work/cyrillic-ext-300-italic.css -> /output/cyrillic-ext-300-italic.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-ext-300-italic.css -> /output/cyrillic-ext-300-italic.css.gz
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-ext-italic.min.css /tmp/work/cyrillic-ext-italic.css]
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-ext-400.min.css -> /output/cyrillic-ext-400.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-400.min.css.br /tmp/work/cyrillic-ext-400.min.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-ext-400.min.css -> /output/cyrillic-ext-400.min.css.br
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-ext-400.min.css -> /output/cyrillic-ext-400.min.css.gz
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-ext-400.css -> /output/cyrillic-ext-400.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-400.css.br /tmp/work/cyrillic-ext-400.css
+2024/09/12 15:18:36 br /tmp/work/cyrillic-ext-400.css -> /output/cyrillic-ext-400.css.br
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-ext-400-italic.min.css -> /output/cyrillic-ext-400-italic.min.css.sri
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-400-italic.min.css.br /tmp/work/cyrillic-ext-400-italic.min.css
+2024/09/12 15:18:36 gz /tmp/work/cyrillic-ext-400.css -> /output/cyrillic-ext-400.css.gz
+2024/09/12 15:18:36 sri /tmp/work/cyrillic-ext-600.min.css -> /output/cyrillic-ext-600.min.css.sri
+2024/09/12 15:18:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-ext.min.css /tmp/work/cyrillic-ext.css]
+2024/09/12 15:18:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-600.min.css.br /tmp/work/cyrillic-ext-600.min.css
+2024/09/12 15:18:37 br /tmp/work/cyrillic-ext-400-italic.min.css -> /output/cyrillic-ext-400-italic.min.css.br
+2024/09/12 15:18:37 gz /tmp/work/cyrillic-ext-400-italic.min.css -> /output/cyrillic-ext-400-italic.min.css.gz
+2024/09/12 15:18:37 sri /tmp/work/cyrillic-ext-400-italic.css -> /output/cyrillic-ext-400-italic.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-400-italic.css.br /tmp/work/cyrillic-ext-400-italic.css
+2024/09/12 15:18:37 br /tmp/work/cyrillic-ext-600.min.css -> /output/cyrillic-ext-600.min.css.br
+2024/09/12 15:18:37 gz /tmp/work/cyrillic-ext-600.min.css -> /output/cyrillic-ext-600.min.css.gz
+2024/09/12 15:18:37 sri /tmp/work/cyrillic-ext-600.css -> /output/cyrillic-ext-600.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-600.css.br /tmp/work/cyrillic-ext-600.css
+2024/09/12 15:18:37 br /tmp/work/cyrillic-ext-600.css -> /output/cyrillic-ext-600.css.br
+2024/09/12 15:18:37 gz /tmp/work/cyrillic-ext-600.css -> /output/cyrillic-ext-600.css.gz
+2024/09/12 15:18:37 br /tmp/work/cyrillic-ext-400-italic.css -> /output/cyrillic-ext-400-italic.css.br
+2024/09/12 15:18:37 gz /tmp/work/cyrillic-ext-400-italic.css -> /output/cyrillic-ext-400-italic.css.gz
+2024/09/12 15:18:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic.min.css /tmp/work/cyrillic.css]
+2024/09/12 15:18:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/cyrillic-italic.min.css /tmp/work/cyrillic-italic.css]
+2024/09/12 15:18:37 sri /tmp/work/cyrillic-ext-700-italic.min.css -> /output/cyrillic-ext-700-italic.min.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-700-italic.min.css.br /tmp/work/cyrillic-ext-700-italic.min.css
+2024/09/12 15:18:37 br /tmp/work/cyrillic-ext-700-italic.min.css -> /output/cyrillic-ext-700-italic.min.css.br
+2024/09/12 15:18:37 gz /tmp/work/cyrillic-ext-700-italic.min.css -> /output/cyrillic-ext-700-italic.min.css.gz
+2024/09/12 15:18:37 sri /tmp/work/cyrillic-ext-700-italic.css -> /output/cyrillic-ext-700-italic.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-700-italic.css.br /tmp/work/cyrillic-ext-700-italic.css
+2024/09/12 15:18:37 br /tmp/work/cyrillic-ext-700-italic.css -> /output/cyrillic-ext-700-italic.css.br
+2024/09/12 15:18:37 gz /tmp/work/cyrillic-ext-700-italic.css -> /output/cyrillic-ext-700-italic.css.gz
+2024/09/12 15:18:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-200-italic.min.css /tmp/work/greek-200-italic.css]
+2024/09/12 15:18:37 sri /tmp/work/cyrillic-ext-900.min.css -> /output/cyrillic-ext-900.min.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-900.min.css.br /tmp/work/cyrillic-ext-900.min.css
+2024/09/12 15:18:37 br /tmp/work/cyrillic-ext-900.min.css -> /output/cyrillic-ext-900.min.css.br
+2024/09/12 15:18:37 gz /tmp/work/cyrillic-ext-900.min.css -> /output/cyrillic-ext-900.min.css.gz
+2024/09/12 15:18:37 sri /tmp/work/cyrillic-ext-900.css -> /output/cyrillic-ext-900.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-900.css.br /tmp/work/cyrillic-ext-900.css
+2024/09/12 15:18:37 br /tmp/work/cyrillic-ext-900.css -> /output/cyrillic-ext-900.css.br
+2024/09/12 15:18:37 gz /tmp/work/cyrillic-ext-900.css -> /output/cyrillic-ext-900.css.gz
+2024/09/12 15:18:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-200.min.css /tmp/work/greek-200.css]
+2024/09/12 15:18:37 sri /tmp/work/cyrillic-ext-700.min.css -> /output/cyrillic-ext-700.min.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-700.min.css.br /tmp/work/cyrillic-ext-700.min.css
+2024/09/12 15:18:37 br /tmp/work/cyrillic-ext-700.min.css -> /output/cyrillic-ext-700.min.css.br
+2024/09/12 15:18:37 sri /tmp/work/cyrillic-ext-900-italic.min.css -> /output/cyrillic-ext-900-italic.min.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-900-italic.min.css.br /tmp/work/cyrillic-ext-900-italic.min.css
+2024/09/12 15:18:37 gz /tmp/work/cyrillic-ext-700.min.css -> /output/cyrillic-ext-700.min.css.gz
+2024/09/12 15:18:37 sri /tmp/work/cyrillic-ext-700.css -> /output/cyrillic-ext-700.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-700.css.br /tmp/work/cyrillic-ext-700.css
+2024/09/12 15:18:37 br /tmp/work/cyrillic-ext-700.css -> /output/cyrillic-ext-700.css.br
+2024/09/12 15:18:37 gz /tmp/work/cyrillic-ext-700.css -> /output/cyrillic-ext-700.css.gz
+2024/09/12 15:18:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-300-italic.min.css /tmp/work/greek-300-italic.css]
+2024/09/12 15:18:37 br /tmp/work/cyrillic-ext-900-italic.min.css -> /output/cyrillic-ext-900-italic.min.css.br
+2024/09/12 15:18:37 gz /tmp/work/cyrillic-ext-900-italic.min.css -> /output/cyrillic-ext-900-italic.min.css.gz
+2024/09/12 15:18:37 sri /tmp/work/cyrillic-ext-900-italic.css -> /output/cyrillic-ext-900-italic.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-900-italic.css.br /tmp/work/cyrillic-ext-900-italic.css
+2024/09/12 15:18:37 br /tmp/work/cyrillic-ext-900-italic.css -> /output/cyrillic-ext-900-italic.css.br
+2024/09/12 15:18:37 gz /tmp/work/cyrillic-ext-900-italic.css -> /output/cyrillic-ext-900-italic.css.gz
+2024/09/12 15:18:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-300.min.css /tmp/work/greek-300.css]
+2024/09/12 15:18:37 sri /tmp/work/cyrillic-ext-italic.min.css -> /output/cyrillic-ext-italic.min.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-italic.min.css.br /tmp/work/cyrillic-ext-italic.min.css
+2024/09/12 15:18:37 br /tmp/work/cyrillic-ext-italic.min.css -> /output/cyrillic-ext-italic.min.css.br
+2024/09/12 15:18:37 gz /tmp/work/cyrillic-ext-italic.min.css -> /output/cyrillic-ext-italic.min.css.gz
+2024/09/12 15:18:37 sri /tmp/work/cyrillic-ext-italic.css -> /output/cyrillic-ext-italic.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext-italic.css.br /tmp/work/cyrillic-ext-italic.css
+2024/09/12 15:18:37 br /tmp/work/cyrillic-ext-italic.css -> /output/cyrillic-ext-italic.css.br
+2024/09/12 15:18:37 gz /tmp/work/cyrillic-ext-italic.css -> /output/cyrillic-ext-italic.css.gz
+2024/09/12 15:18:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-400-italic.min.css /tmp/work/greek-400-italic.css]
+2024/09/12 15:18:37 sri /tmp/work/greek-200.min.css -> /output/greek-200.min.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-200.min.css.br /tmp/work/greek-200.min.css
+2024/09/12 15:18:37 sri /tmp/work/cyrillic.min.css -> /output/cyrillic.min.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic.min.css.br /tmp/work/cyrillic.min.css
+2024/09/12 15:18:37 br /tmp/work/greek-200.min.css -> /output/greek-200.min.css.br
+2024/09/12 15:18:37 gz /tmp/work/greek-200.min.css -> /output/greek-200.min.css.gz
+2024/09/12 15:18:37 sri /tmp/work/greek-200.css -> /output/greek-200.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-200.css.br /tmp/work/greek-200.css
+2024/09/12 15:18:37 sri /tmp/work/cyrillic-ext.min.css -> /output/cyrillic-ext.min.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext.min.css.br /tmp/work/cyrillic-ext.min.css
+2024/09/12 15:18:37 br /tmp/work/cyrillic.min.css -> /output/cyrillic.min.css.br
+2024/09/12 15:18:37 gz /tmp/work/cyrillic.min.css -> /output/cyrillic.min.css.gz
+2024/09/12 15:18:37 sri /tmp/work/cyrillic.css -> /output/cyrillic.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic.css.br /tmp/work/cyrillic.css
+2024/09/12 15:18:37 sri /tmp/work/cyrillic-italic.min.css -> /output/cyrillic-italic.min.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-italic.min.css.br /tmp/work/cyrillic-italic.min.css
+2024/09/12 15:18:37 br /tmp/work/greek-200.css -> /output/greek-200.css.br
+2024/09/12 15:18:37 gz /tmp/work/greek-200.css -> /output/greek-200.css.gz
+2024/09/12 15:18:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-400.min.css /tmp/work/greek-400.css]
+2024/09/12 15:18:37 br /tmp/work/cyrillic-ext.min.css -> /output/cyrillic-ext.min.css.br
+2024/09/12 15:18:37 gz /tmp/work/cyrillic-ext.min.css -> /output/cyrillic-ext.min.css.gz
+2024/09/12 15:18:37 sri /tmp/work/cyrillic-ext.css -> /output/cyrillic-ext.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-ext.css.br /tmp/work/cyrillic-ext.css
+2024/09/12 15:18:37 sri /tmp/work/greek-200-italic.min.css -> /output/greek-200-italic.min.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-200-italic.min.css.br /tmp/work/greek-200-italic.min.css
+2024/09/12 15:18:37 br /tmp/work/cyrillic.css -> /output/cyrillic.css.br
+2024/09/12 15:18:37 gz /tmp/work/cyrillic.css -> /output/cyrillic.css.gz
+2024/09/12 15:18:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-600-italic.min.css /tmp/work/greek-600-italic.css]
+2024/09/12 15:18:37 br /tmp/work/cyrillic-italic.min.css -> /output/cyrillic-italic.min.css.br
+2024/09/12 15:18:37 gz /tmp/work/cyrillic-italic.min.css -> /output/cyrillic-italic.min.css.gz
+2024/09/12 15:18:37 sri /tmp/work/cyrillic-italic.css -> /output/cyrillic-italic.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cyrillic-italic.css.br /tmp/work/cyrillic-italic.css
+2024/09/12 15:18:37 br /tmp/work/cyrillic-ext.css -> /output/cyrillic-ext.css.br
+2024/09/12 15:18:37 br /tmp/work/greek-200-italic.min.css -> /output/greek-200-italic.min.css.br
+2024/09/12 15:18:37 gz /tmp/work/cyrillic-ext.css -> /output/cyrillic-ext.css.gz
+2024/09/12 15:18:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-600.min.css /tmp/work/greek-600.css]
+2024/09/12 15:18:37 sri /tmp/work/greek-300-italic.min.css -> /output/greek-300-italic.min.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-300-italic.min.css.br /tmp/work/greek-300-italic.min.css
+2024/09/12 15:18:37 br /tmp/work/cyrillic-italic.css -> /output/cyrillic-italic.css.br
+2024/09/12 15:18:37 gz /tmp/work/greek-200-italic.min.css -> /output/greek-200-italic.min.css.gz
+2024/09/12 15:18:37 sri /tmp/work/greek-200-italic.css -> /output/greek-200-italic.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-200-italic.css.br /tmp/work/greek-200-italic.css
+2024/09/12 15:18:37 gz /tmp/work/cyrillic-italic.css -> /output/cyrillic-italic.css.gz
+2024/09/12 15:18:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-700-italic.min.css /tmp/work/greek-700-italic.css]
+2024/09/12 15:18:37 br /tmp/work/greek-300-italic.min.css -> /output/greek-300-italic.min.css.br
+2024/09/12 15:18:37 gz /tmp/work/greek-300-italic.min.css -> /output/greek-300-italic.min.css.gz
+2024/09/12 15:18:37 sri /tmp/work/greek-300-italic.css -> /output/greek-300-italic.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-300-italic.css.br /tmp/work/greek-300-italic.css
+2024/09/12 15:18:37 sri /tmp/work/greek-300.min.css -> /output/greek-300.min.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-300.min.css.br /tmp/work/greek-300.min.css
+2024/09/12 15:18:37 br /tmp/work/greek-200-italic.css -> /output/greek-200-italic.css.br
+2024/09/12 15:18:37 gz /tmp/work/greek-200-italic.css -> /output/greek-200-italic.css.gz
+2024/09/12 15:18:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-700.min.css /tmp/work/greek-700.css]
+2024/09/12 15:18:37 br /tmp/work/greek-300-italic.css -> /output/greek-300-italic.css.br
+2024/09/12 15:18:37 gz /tmp/work/greek-300-italic.css -> /output/greek-300-italic.css.gz
+2024/09/12 15:18:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-900-italic.min.css /tmp/work/greek-900-italic.css]
+2024/09/12 15:18:37 br /tmp/work/greek-300.min.css -> /output/greek-300.min.css.br
+2024/09/12 15:18:37 gz /tmp/work/greek-300.min.css -> /output/greek-300.min.css.gz
+2024/09/12 15:18:37 sri /tmp/work/greek-300.css -> /output/greek-300.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-300.css.br /tmp/work/greek-300.css
+2024/09/12 15:18:37 br /tmp/work/greek-300.css -> /output/greek-300.css.br
+2024/09/12 15:18:37 gz /tmp/work/greek-300.css -> /output/greek-300.css.gz
+2024/09/12 15:18:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-900.min.css /tmp/work/greek-900.css]
+2024/09/12 15:18:37 sri /tmp/work/greek-400-italic.min.css -> /output/greek-400-italic.min.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-400-italic.min.css.br /tmp/work/greek-400-italic.min.css
+2024/09/12 15:18:37 br /tmp/work/greek-400-italic.min.css -> /output/greek-400-italic.min.css.br
+2024/09/12 15:18:37 gz /tmp/work/greek-400-italic.min.css -> /output/greek-400-italic.min.css.gz
+2024/09/12 15:18:37 sri /tmp/work/greek-400-italic.css -> /output/greek-400-italic.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-400-italic.css.br /tmp/work/greek-400-italic.css
+2024/09/12 15:18:37 br /tmp/work/greek-400-italic.css -> /output/greek-400-italic.css.br
+2024/09/12 15:18:37 gz /tmp/work/greek-400-italic.css -> /output/greek-400-italic.css.gz
+2024/09/12 15:18:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-ext-200-italic.min.css /tmp/work/greek-ext-200-italic.css]
+2024/09/12 15:18:37 sri /tmp/work/greek-600.min.css -> /output/greek-600.min.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-600.min.css.br /tmp/work/greek-600.min.css
+2024/09/12 15:18:37 br /tmp/work/greek-600.min.css -> /output/greek-600.min.css.br
+2024/09/12 15:18:37 gz /tmp/work/greek-600.min.css -> /output/greek-600.min.css.gz
+2024/09/12 15:18:37 sri /tmp/work/greek-600.css -> /output/greek-600.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-600.css.br /tmp/work/greek-600.css
+2024/09/12 15:18:37 br /tmp/work/greek-600.css -> /output/greek-600.css.br
+2024/09/12 15:18:37 gz /tmp/work/greek-600.css -> /output/greek-600.css.gz
+2024/09/12 15:18:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-ext-200.min.css /tmp/work/greek-ext-200.css]
+2024/09/12 15:18:37 sri /tmp/work/greek-400.min.css -> /output/greek-400.min.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-400.min.css.br /tmp/work/greek-400.min.css
+2024/09/12 15:18:37 br /tmp/work/greek-400.min.css -> /output/greek-400.min.css.br
+2024/09/12 15:18:37 gz /tmp/work/greek-400.min.css -> /output/greek-400.min.css.gz
+2024/09/12 15:18:37 sri /tmp/work/greek-400.css -> /output/greek-400.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-400.css.br /tmp/work/greek-400.css
+2024/09/12 15:18:37 br /tmp/work/greek-400.css -> /output/greek-400.css.br
+2024/09/12 15:18:37 gz /tmp/work/greek-400.css -> /output/greek-400.css.gz
+2024/09/12 15:18:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-ext-300-italic.min.css /tmp/work/greek-ext-300-italic.css]
+2024/09/12 15:18:37 sri /tmp/work/greek-700-italic.min.css -> /output/greek-700-italic.min.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-700-italic.min.css.br /tmp/work/greek-700-italic.min.css
+2024/09/12 15:18:37 br /tmp/work/greek-700-italic.min.css -> /output/greek-700-italic.min.css.br
+2024/09/12 15:18:37 gz /tmp/work/greek-700-italic.min.css -> /output/greek-700-italic.min.css.gz
+2024/09/12 15:18:37 sri /tmp/work/greek-700-italic.css -> /output/greek-700-italic.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-700-italic.css.br /tmp/work/greek-700-italic.css
+2024/09/12 15:18:37 br /tmp/work/greek-700-italic.css -> /output/greek-700-italic.css.br
+2024/09/12 15:18:37 gz /tmp/work/greek-700-italic.css -> /output/greek-700-italic.css.gz
+2024/09/12 15:18:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-ext-300.min.css /tmp/work/greek-ext-300.css]
+2024/09/12 15:18:37 sri /tmp/work/greek-600-italic.min.css -> /output/greek-600-italic.min.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-600-italic.min.css.br /tmp/work/greek-600-italic.min.css
+2024/09/12 15:18:37 br /tmp/work/greek-600-italic.min.css -> /output/greek-600-italic.min.css.br
+2024/09/12 15:18:37 gz /tmp/work/greek-600-italic.min.css -> /output/greek-600-italic.min.css.gz
+2024/09/12 15:18:37 sri /tmp/work/greek-600-italic.css -> /output/greek-600-italic.css.sri
+2024/09/12 15:18:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-600-italic.css.br /tmp/work/greek-600-italic.css
+2024/09/12 15:18:38 sri /tmp/work/greek-ext-200-italic.min.css -> /output/greek-ext-200-italic.min.css.sri
+2024/09/12 15:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-ext-200-italic.min.css.br /tmp/work/greek-ext-200-italic.min.css
+2024/09/12 15:18:38 sri /tmp/work/greek-700.min.css -> /output/greek-700.min.css.sri
+2024/09/12 15:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-700.min.css.br /tmp/work/greek-700.min.css
+2024/09/12 15:18:38 br /tmp/work/greek-700.min.css -> /output/greek-700.min.css.br
+2024/09/12 15:18:38 br /tmp/work/greek-ext-200-italic.min.css -> /output/greek-ext-200-italic.min.css.br
+2024/09/12 15:18:38 br /tmp/work/greek-600-italic.css -> /output/greek-600-italic.css.br
+2024/09/12 15:18:38 gz /tmp/work/greek-700.min.css -> /output/greek-700.min.css.gz
+2024/09/12 15:18:38 sri /tmp/work/greek-700.css -> /output/greek-700.css.sri
+2024/09/12 15:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-700.css.br /tmp/work/greek-700.css
+2024/09/12 15:18:38 gz /tmp/work/greek-600-italic.css -> /output/greek-600-italic.css.gz
+2024/09/12 15:18:38 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-ext-400-italic.min.css /tmp/work/greek-ext-400-italic.css]
+2024/09/12 15:18:38 gz /tmp/work/greek-ext-200-italic.min.css -> /output/greek-ext-200-italic.min.css.gz
+2024/09/12 15:18:38 sri /tmp/work/greek-ext-200-italic.css -> /output/greek-ext-200-italic.css.sri
+2024/09/12 15:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-ext-200-italic.css.br /tmp/work/greek-ext-200-italic.css
+2024/09/12 15:18:38 sri /tmp/work/greek-900.min.css -> /output/greek-900.min.css.sri
+2024/09/12 15:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-900.min.css.br /tmp/work/greek-900.min.css
+2024/09/12 15:18:38 br /tmp/work/greek-700.css -> /output/greek-700.css.br
+2024/09/12 15:18:38 gz /tmp/work/greek-700.css -> /output/greek-700.css.gz
+2024/09/12 15:18:38 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-ext-400.min.css /tmp/work/greek-ext-400.css]
+2024/09/12 15:18:38 sri /tmp/work/greek-900-italic.min.css -> /output/greek-900-italic.min.css.sri
+2024/09/12 15:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-900-italic.min.css.br /tmp/work/greek-900-italic.min.css
+2024/09/12 15:18:38 br /tmp/work/greek-ext-200-italic.css -> /output/greek-ext-200-italic.css.br
+2024/09/12 15:18:38 gz /tmp/work/greek-ext-200-italic.css -> /output/greek-ext-200-italic.css.gz
+2024/09/12 15:18:38 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-ext-600-italic.min.css /tmp/work/greek-ext-600-italic.css]
+2024/09/12 15:18:38 br /tmp/work/greek-900.min.css -> /output/greek-900.min.css.br
+2024/09/12 15:18:38 gz /tmp/work/greek-900.min.css -> /output/greek-900.min.css.gz
+2024/09/12 15:18:38 sri /tmp/work/greek-900.css -> /output/greek-900.css.sri
+2024/09/12 15:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-900.css.br /tmp/work/greek-900.css
+2024/09/12 15:18:38 br /tmp/work/greek-900-italic.min.css -> /output/greek-900-italic.min.css.br
+2024/09/12 15:18:38 sri /tmp/work/greek-ext-200.min.css -> /output/greek-ext-200.min.css.sri
+2024/09/12 15:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-ext-200.min.css.br /tmp/work/greek-ext-200.min.css
+2024/09/12 15:18:38 br /tmp/work/greek-900.css -> /output/greek-900.css.br
+2024/09/12 15:18:38 gz /tmp/work/greek-900-italic.min.css -> /output/greek-900-italic.min.css.gz
+2024/09/12 15:18:38 sri /tmp/work/greek-900-italic.css -> /output/greek-900-italic.css.sri
+2024/09/12 15:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-900-italic.css.br /tmp/work/greek-900-italic.css
+2024/09/12 15:18:38 gz /tmp/work/greek-900.css -> /output/greek-900.css.gz
+2024/09/12 15:18:38 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-ext-600.min.css /tmp/work/greek-ext-600.css]
+2024/09/12 15:18:38 br /tmp/work/greek-ext-200.min.css -> /output/greek-ext-200.min.css.br
+2024/09/12 15:18:38 gz /tmp/work/greek-ext-200.min.css -> /output/greek-ext-200.min.css.gz
+2024/09/12 15:18:38 sri /tmp/work/greek-ext-200.css -> /output/greek-ext-200.css.sri
+2024/09/12 15:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-ext-200.css.br /tmp/work/greek-ext-200.css
+2024/09/12 15:18:38 br /tmp/work/greek-900-italic.css -> /output/greek-900-italic.css.br
+2024/09/12 15:18:38 gz /tmp/work/greek-900-italic.css -> /output/greek-900-italic.css.gz
+2024/09/12 15:18:38 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-ext-700-italic.min.css /tmp/work/greek-ext-700-italic.css]
+2024/09/12 15:18:38 br /tmp/work/greek-ext-200.css -> /output/greek-ext-200.css.br
+2024/09/12 15:18:38 gz /tmp/work/greek-ext-200.css -> /output/greek-ext-200.css.gz
+2024/09/12 15:18:38 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-ext-700.min.css /tmp/work/greek-ext-700.css]
+2024/09/12 15:18:38 sri /tmp/work/greek-ext-300-italic.min.css -> /output/greek-ext-300-italic.min.css.sri
+2024/09/12 15:18:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-ext-300-italic.min.css.br /tmp/work/greek-ext-300-italic.min.css
+2024/09/12 15:18:38 br /tmp/work/greek-ext-300-italic.min.css -> /output/greek-ext-300-italic.min.css.br
+panic: open /output/greek-ext-300-italic.min.css.gz: no space left on device
+
+goroutine 27 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/compress.Gzip9Native(0x870280, 0xc000016060, 0xc0000fe300, 0x26, 0xc0000fe3c0, 0x27)
+	/go/src/github.com/compress/algorithm.go:58 +0xeb
+main.optimizeJob.emitFromWorkspace(0x870280, 0xc000016060, 0x0, 0xc000426978, 0x18, 0xc0000941c0, 0x1c, 0xc0000fe300, 0x26)
+	/go/src/github.com/cmd/process-version/main.go:113 +0x6c5
+main.optimizeWorker(0xc00037b810, 0xc0004b0300)
+	/go/src/github.com/cmd/process-version/main.go:240 +0x691
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
