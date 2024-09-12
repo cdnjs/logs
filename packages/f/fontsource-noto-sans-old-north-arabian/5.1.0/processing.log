@@ -1,0 +1,31 @@
+2024/09/12 15:24:37 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/09/12 15:24:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/old-north-arabian-400.min.css /tmp/work/old-north-arabian-400.css]
+2024/09/12 15:24:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/old-north-arabian.min.css /tmp/work/old-north-arabian.css]
+2024/09/12 15:24:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-400.min.css /tmp/work/latin-400.css]
+2024/09/12 15:24:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-ext.min.css /tmp/work/latin-ext.css]
+2024/09/12 15:24:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-ext-400.min.css /tmp/work/latin-ext-400.css]
+2024/09/12 15:24:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin.min.css /tmp/work/latin.css]
+2024/09/12 15:24:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/400.min.css /tmp/work/400.css]
+2024/09/12 15:24:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/index.min.css /tmp/work/index.css]
+2024/09/12 15:24:37 sri /tmp/work/old-north-arabian-400.min.css -> /output/old-north-arabian-400.min.css.sri
+2024/09/12 15:24:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/old-north-arabian-400.min.css.br /tmp/work/old-north-arabian-400.min.css
+2024/09/12 15:24:37 sri /tmp/work/old-north-arabian.min.css -> /output/old-north-arabian.min.css.sri
+2024/09/12 15:24:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/old-north-arabian.min.css.br /tmp/work/old-north-arabian.min.css
+2024/09/12 15:24:37 sri /tmp/work/latin.min.css -> /output/latin.min.css.sri
+2024/09/12 15:24:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin.min.css.br /tmp/work/latin.min.css
+2024/09/12 15:24:37 br /tmp/work/old-north-arabian.min.css -> /output/old-north-arabian.min.css.br
+2024/09/12 15:24:37 br /tmp/work/old-north-arabian-400.min.css -> /output/old-north-arabian-400.min.css.br
+2024/09/12 15:24:37 br /tmp/work/latin.min.css -> /output/latin.min.css.br
+panic: open /output/latin-400.min.css.sri: no space left on device
+
+goroutine 24 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/sri.CalculateFileSRI(0xc000304000, 0x1b, 0xc000590080, 0x1d)
+	/go/src/github.com/sri/sri.go:20 +0x115
+main.optimizeJob.emitFromWorkspace(0x870280, 0xc0000be020, 0x0, 0xc00011d130, 0xd, 0xc0005800c0, 0x11, 0xc000304000, 0x1b)
+	/go/src/github.com/cmd/process-version/main.go:95 +0x96b
+main.optimizeWorker(0xc00011d1f0, 0xc000099920)
+	/go/src/github.com/cmd/process-version/main.go:240 +0x691
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
