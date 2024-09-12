@@ -1,0 +1,22 @@
+2024/09/12 15:25:25 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/09/12 15:25:25 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/400-italic.min.css /tmp/work/400-italic.css]
+2024/09/12 15:25:25 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/index.min.css /tmp/work/index.css]
+2024/09/12 15:25:25 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/700-italic.min.css /tmp/work/700-italic.css]
+2024/09/12 15:25:25 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/700.min.css /tmp/work/700.css]
+2024/09/12 15:25:25 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/400.min.css /tmp/work/400.css]
+2024/09/12 15:25:25 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-400-italic.min.css /tmp/work/latin-400-italic.css]
+2024/09/12 15:25:25 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-400.min.css /tmp/work/latin-400.css]
+2024/09/12 15:25:25 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-700-italic.min.css /tmp/work/latin-700-italic.css]
+panic: open /output/latin-400-italic.min.css.sri: no space left on device
+
+goroutine 8 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/sri.CalculateFileSRI(0xc00048c000, 0x22, 0xc000584030, 0x24)
+	/go/src/github.com/sri/sri.go:20 +0x115
+main.optimizeJob.emitFromWorkspace(0x870280, 0xc000016060, 0x0, 0xc000014d98, 0x14, 0xc000582018, 0x18, 0xc00048c000, 0x22)
+	/go/src/github.com/cmd/process-version/main.go:95 +0x96b
+main.optimizeWorker(0xc0001c5470, 0xc000057ce0)
+	/go/src/github.com/cmd/process-version/main.go:240 +0x691
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
