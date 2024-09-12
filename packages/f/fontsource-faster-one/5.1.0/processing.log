@@ -1,0 +1,27 @@
+2024/09/12 13:15:27 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/09/12 13:15:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/400.min.css /tmp/work/400.css]
+2024/09/12 13:15:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-ext-400.min.css /tmp/work/latin-ext-400.css]
+2024/09/12 13:15:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-400.min.css /tmp/work/latin-400.css]
+2024/09/12 13:15:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-ext.min.css /tmp/work/latin-ext.css]
+2024/09/12 13:15:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin.min.css /tmp/work/latin.css]
+2024/09/12 13:15:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/index.min.css /tmp/work/index.css]
+2024/09/12 13:15:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/faster-one-latin-400-normal.woff.br /tmp/work/files/faster-one-latin-400-normal.woff
+2024/09/12 13:15:27 copy /tmp/work/files/faster-one-latin-400-normal.woff2 -> /output/files/faster-one-latin-400-normal.woff2
+2024/09/12 13:15:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/faster-one-latin-ext-400-normal.woff.br /tmp/work/files/faster-one-latin-ext-400-normal.woff
+panic: exit status 1
+
+goroutine 12 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/compress.runAlgorithm(0x870280, 0xc000124020, 0x7f32f7, 0x6, 0xc000410cd0, 0x3, 0x3, 0x2f66766ea9ee93c8, 0x2f, 0x1)
+	/go/src/github.com/compress/algorithm.go:28 +0x348
+github.com/cdnjs/tools/compress.Brotli11CLI(...)
+	/go/src/github.com/compress/algorithm.go:40
+main.optimizeJob.emitFromWorkspace(0x870280, 0xc000124020, 0x0, 0xc00007e0f0, 0x26, 0xc000304000, 0x26, 0xc000414090, 0x30)
+	/go/src/github.com/cmd/process-version/main.go:105 +0x506
+main.optimizeJob.emit(0x870280, 0xc000124020, 0x0, 0xc00007e0f0, 0x26, 0xc000304000, 0x26, 0xc00007e0f0, 0x26)
+	/go/src/github.com/cmd/process-version/main.go:126 +0xc6
+main.optimizeWorker(0xc000016140, 0xc000056240)
+	/go/src/github.com/cmd/process-version/main.go:245 +0x14a
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
