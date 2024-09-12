@@ -1,0 +1,27 @@
+2024/09/12 14:30:39 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/09/12 14:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort-training-wasm-simd-threaded.mjs.br /tmp/work/dist/ort-training-wasm-simd-threaded.mjs
+2024/09/12 14:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort-training-wasm-simd-threaded.wasm.br /tmp/work/dist/ort-training-wasm-simd-threaded.wasm
+2024/09/12 14:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort-wasm-simd-threaded.jsep.wasm.br /tmp/work/dist/ort-wasm-simd-threaded.jsep.wasm
+2024/09/12 14:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort-wasm-simd-threaded.jsep.mjs.br /tmp/work/dist/ort-wasm-simd-threaded.jsep.mjs
+2024/09/12 14:30:39 /tmp/work/dist/ort.all.min.js already has corresponding compressed file
+2024/09/12 14:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort-wasm-simd-threaded.wasm.br /tmp/work/dist/ort-wasm-simd-threaded.wasm
+2024/09/12 14:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort-wasm-simd-threaded.mjs.br /tmp/work/dist/ort-wasm-simd-threaded.mjs
+2024/09/12 14:30:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ort.all.bundle.min.mjs.br /tmp/work/dist/ort.all.bundle.min.mjs
+2024/09/12 14:30:40 br /tmp/work/dist/ort-wasm-simd-threaded.mjs -> /output/ort-wasm-simd-threaded.mjs.br
+2024/09/12 14:30:40 br /tmp/work/dist/ort-training-wasm-simd-threaded.mjs -> /output/ort-training-wasm-simd-threaded.mjs.br
+2024/09/12 14:30:40 br /tmp/work/dist/ort-wasm-simd-threaded.jsep.mjs -> /output/ort-wasm-simd-threaded.jsep.mjs.br
+panic: open /output/ort.all.js.sri: no space left on device
+
+goroutine 55 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/sri.CalculateFileSRI(0xc000060a60, 0x19, 0xc0000de798, 0x16)
+	/go/src/github.com/sri/sri.go:20 +0x115
+main.optimizeJob.emitFromWorkspace(0x870280, 0xc0000b8020, 0x0, 0xc0000b8050, 0xf, 0xc0004180d8, 0xa, 0xc000060a60, 0x19)
+	/go/src/github.com/cmd/process-version/main.go:95 +0x96b
+main.optimizeJob.emit(0x870280, 0xc0000b8020, 0x0, 0xc0000b8050, 0xf, 0xc0004180d8, 0xa, 0xc0000b8050, 0xf)
+	/go/src/github.com/cmd/process-version/main.go:126 +0xc6
+main.optimizeWorker(0xc0000b8300, 0xc00042e000)
+	/go/src/github.com/cmd/process-version/main.go:245 +0x14a
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
