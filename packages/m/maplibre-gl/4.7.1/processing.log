@@ -1,95 +1,95 @@
-2024/10/08 16:14:21 optimizing files (Js true, Css true, Png true, Jpg true)
-2024/10/08 16:14:21 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/maplibre-gl-csp-dev.min.js /tmp/work/dist/maplibre-gl-csp-dev.js]
-2024/10/08 16:14:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-csp.js.map.br /tmp/work/dist/maplibre-gl-csp.js.map
-2024/10/08 16:14:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-csp-worker-dev.js.map.br /tmp/work/dist/maplibre-gl-csp-worker-dev.js.map
-2024/10/08 16:14:21 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/maplibre-gl-csp-worker.min.js /tmp/work/dist/maplibre-gl-csp-worker.js]
-2024/10/08 16:14:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-csp-dev.js.map.br /tmp/work/dist/maplibre-gl-csp-dev.js.map
-2024/10/08 16:14:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-csp-worker.js.map.br /tmp/work/dist/maplibre-gl-csp-worker.js.map
-2024/10/08 16:14:21 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/maplibre-gl-csp-worker-dev.min.js /tmp/work/dist/maplibre-gl-csp-worker-dev.js]
-2024/10/08 16:14:21 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/maplibre-gl-csp.min.js /tmp/work/dist/maplibre-gl-csp.js]
-2024/10/08 16:14:37 br /tmp/work/dist/maplibre-gl-csp-worker.js.map -> /output/maplibre-gl-csp-worker.js.map.br
-2024/10/08 16:14:37 gz /tmp/work/dist/maplibre-gl-csp-worker.js.map -> /output/maplibre-gl-csp-worker.js.map.gz
-2024/10/08 16:14:37 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/maplibre-gl-dev.min.js /tmp/work/dist/maplibre-gl-dev.js]
-2024/10/08 16:14:40 sri /tmp/work/dist/maplibre-gl-csp-worker.min.js -> /output/maplibre-gl-csp-worker.min.js.sri
-2024/10/08 16:14:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-csp-worker.min.js.br /tmp/work/dist/maplibre-gl-csp-worker.min.js
-2024/10/08 16:14:42 br /tmp/work/dist/maplibre-gl-csp-worker.min.js -> /output/maplibre-gl-csp-worker.min.js.br
-2024/10/08 16:14:42 gz /tmp/work/dist/maplibre-gl-csp-worker.min.js -> /output/maplibre-gl-csp-worker.min.js.gz
-2024/10/08 16:14:42 sri /tmp/work/dist/maplibre-gl-csp-worker.js -> /output/maplibre-gl-csp-worker.js.sri
-2024/10/08 16:14:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-csp-worker.js.br /tmp/work/dist/maplibre-gl-csp-worker.js
-2024/10/08 16:14:44 br /tmp/work/dist/maplibre-gl-csp-worker.js -> /output/maplibre-gl-csp-worker.js.br
-2024/10/08 16:14:44 gz /tmp/work/dist/maplibre-gl-csp-worker.js -> /output/maplibre-gl-csp-worker.js.gz
-2024/10/08 16:14:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-dev.js.map.br /tmp/work/dist/maplibre-gl-dev.js.map
-2024/10/08 16:14:46 br /tmp/work/dist/maplibre-gl-csp-worker-dev.js.map -> /output/maplibre-gl-csp-worker-dev.js.map.br
-2024/10/08 16:14:47 sri /tmp/work/dist/maplibre-gl-csp-worker-dev.min.js -> /output/maplibre-gl-csp-worker-dev.min.js.sri
-2024/10/08 16:14:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-csp-worker-dev.min.js.br /tmp/work/dist/maplibre-gl-csp-worker-dev.min.js
-2024/10/08 16:14:49 gz /tmp/work/dist/maplibre-gl-csp-worker-dev.js.map -> /output/maplibre-gl-csp-worker-dev.js.map.gz
-2024/10/08 16:14:49 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/maplibre-gl-unminified.min.js /tmp/work/dist/maplibre-gl-unminified.js]
-2024/10/08 16:14:50 br /tmp/work/dist/maplibre-gl-csp-worker-dev.min.js -> /output/maplibre-gl-csp-worker-dev.min.js.br
-2024/10/08 16:14:50 gz /tmp/work/dist/maplibre-gl-csp-worker-dev.min.js -> /output/maplibre-gl-csp-worker-dev.min.js.gz
-2024/10/08 16:14:50 sri /tmp/work/dist/maplibre-gl-csp-worker-dev.js -> /output/maplibre-gl-csp-worker-dev.js.sri
-2024/10/08 16:14:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-csp-worker-dev.js.br /tmp/work/dist/maplibre-gl-csp-worker-dev.js
-2024/10/08 16:14:52 sri /tmp/work/dist/maplibre-gl-csp.min.js -> /output/maplibre-gl-csp.min.js.sri
-2024/10/08 16:14:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-csp.min.js.br /tmp/work/dist/maplibre-gl-csp.min.js
-2024/10/08 16:14:58 br /tmp/work/dist/maplibre-gl-csp.js.map -> /output/maplibre-gl-csp.js.map.br
-2024/10/08 16:14:58 sri /tmp/work/dist/maplibre-gl-csp-dev.min.js -> /output/maplibre-gl-csp-dev.min.js.sri
-2024/10/08 16:14:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-csp-dev.min.js.br /tmp/work/dist/maplibre-gl-csp-dev.min.js
-2024/10/08 16:14:58 br /tmp/work/dist/maplibre-gl-csp.min.js -> /output/maplibre-gl-csp.min.js.br
-2024/10/08 16:14:58 gz /tmp/work/dist/maplibre-gl-csp.min.js -> /output/maplibre-gl-csp.min.js.gz
-2024/10/08 16:14:58 sri /tmp/work/dist/maplibre-gl-csp.js -> /output/maplibre-gl-csp.js.sri
-2024/10/08 16:14:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-csp.js.br /tmp/work/dist/maplibre-gl-csp.js
-2024/10/08 16:14:59 gz /tmp/work/dist/maplibre-gl-csp.js.map -> /output/maplibre-gl-csp.js.map.gz
-2024/10/08 16:14:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-unminified.js.map.br /tmp/work/dist/maplibre-gl-unminified.js.map
-2024/10/08 16:14:59 br /tmp/work/dist/maplibre-gl-csp-worker-dev.js -> /output/maplibre-gl-csp-worker-dev.js.br
-2024/10/08 16:15:00 gz /tmp/work/dist/maplibre-gl-csp-worker-dev.js -> /output/maplibre-gl-csp-worker-dev.js.gz
-2024/10/08 16:15:00 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/maplibre-gl.min.css /tmp/work/dist/maplibre-gl.css]
-2024/10/08 16:15:00 sri /tmp/work/dist/maplibre-gl.min.css -> /output/maplibre-gl.min.css.sri
-2024/10/08 16:15:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl.min.css.br /tmp/work/dist/maplibre-gl.min.css
-2024/10/08 16:15:01 br /tmp/work/dist/maplibre-gl.min.css -> /output/maplibre-gl.min.css.br
-2024/10/08 16:15:01 gz /tmp/work/dist/maplibre-gl.min.css -> /output/maplibre-gl.min.css.gz
-2024/10/08 16:15:01 sri /tmp/work/dist/maplibre-gl.css -> /output/maplibre-gl.css.sri
-2024/10/08 16:15:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl.css.br /tmp/work/dist/maplibre-gl.css
-2024/10/08 16:15:01 br /tmp/work/dist/maplibre-gl-csp-dev.min.js -> /output/maplibre-gl-csp-dev.min.js.br
-2024/10/08 16:15:01 br /tmp/work/dist/maplibre-gl.css -> /output/maplibre-gl.css.br
-2024/10/08 16:15:01 gz /tmp/work/dist/maplibre-gl.css -> /output/maplibre-gl.css.gz
-2024/10/08 16:15:01 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/maplibre-gl.min.js /tmp/work/dist/maplibre-gl.js]
-2024/10/08 16:15:01 gz /tmp/work/dist/maplibre-gl-csp-dev.min.js -> /output/maplibre-gl-csp-dev.min.js.gz
-2024/10/08 16:15:01 sri /tmp/work/dist/maplibre-gl-csp-dev.js -> /output/maplibre-gl-csp-dev.js.sri
-2024/10/08 16:15:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-csp-dev.js.br /tmp/work/dist/maplibre-gl-csp-dev.js
-2024/10/08 16:15:01 br /tmp/work/dist/maplibre-gl-csp.js -> /output/maplibre-gl-csp.js.br
-2024/10/08 16:15:01 gz /tmp/work/dist/maplibre-gl-csp.js -> /output/maplibre-gl-csp.js.gz
-2024/10/08 16:15:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl.js.map.br /tmp/work/dist/maplibre-gl.js.map
-2024/10/08 16:15:02 br /tmp/work/dist/maplibre-gl-csp-dev.js.map -> /output/maplibre-gl-csp-dev.js.map.br
-2024/10/08 16:15:03 gz /tmp/work/dist/maplibre-gl-csp-dev.js.map -> /output/maplibre-gl-csp-dev.js.map.gz
-2024/10/08 16:15:07 sri /tmp/work/dist/maplibre-gl-dev.min.js -> /output/maplibre-gl-dev.min.js.sri
-2024/10/08 16:15:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-dev.min.js.br /tmp/work/dist/maplibre-gl-dev.min.js
-2024/10/08 16:15:08 br /tmp/work/dist/maplibre-gl-csp-dev.js -> /output/maplibre-gl-csp-dev.js.br
-2024/10/08 16:15:08 gz /tmp/work/dist/maplibre-gl-csp-dev.js -> /output/maplibre-gl-csp-dev.js.gz
-2024/10/08 16:15:08 br /tmp/work/dist/maplibre-gl-dev.js.map -> /output/maplibre-gl-dev.js.map.br
-2024/10/08 16:15:09 gz /tmp/work/dist/maplibre-gl-dev.js.map -> /output/maplibre-gl-dev.js.map.gz
-2024/10/08 16:15:10 br /tmp/work/dist/maplibre-gl-dev.min.js -> /output/maplibre-gl-dev.min.js.br
-2024/10/08 16:15:10 gz /tmp/work/dist/maplibre-gl-dev.min.js -> /output/maplibre-gl-dev.min.js.gz
-2024/10/08 16:15:10 sri /tmp/work/dist/maplibre-gl-dev.js -> /output/maplibre-gl-dev.js.sri
-2024/10/08 16:15:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-dev.js.br /tmp/work/dist/maplibre-gl-dev.js
-2024/10/08 16:15:10 sri /tmp/work/dist/maplibre-gl-unminified.min.js -> /output/maplibre-gl-unminified.min.js.sri
-2024/10/08 16:15:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-unminified.min.js.br /tmp/work/dist/maplibre-gl-unminified.min.js
-2024/10/08 16:15:13 br /tmp/work/dist/maplibre-gl-unminified.min.js -> /output/maplibre-gl-unminified.min.js.br
-2024/10/08 16:15:13 gz /tmp/work/dist/maplibre-gl-unminified.min.js -> /output/maplibre-gl-unminified.min.js.gz
-2024/10/08 16:15:13 sri /tmp/work/dist/maplibre-gl-unminified.js -> /output/maplibre-gl-unminified.js.sri
-2024/10/08 16:15:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-unminified.js.br /tmp/work/dist/maplibre-gl-unminified.js
-2024/10/08 16:15:13 br /tmp/work/dist/maplibre-gl-unminified.js.map -> /output/maplibre-gl-unminified.js.map.br
-2024/10/08 16:15:13 sri /tmp/work/dist/maplibre-gl.min.js -> /output/maplibre-gl.min.js.sri
-2024/10/08 16:15:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl.min.js.br /tmp/work/dist/maplibre-gl.min.js
-2024/10/08 16:15:14 gz /tmp/work/dist/maplibre-gl-unminified.js.map -> /output/maplibre-gl-unminified.js.map.gz
-2024/10/08 16:15:14 br /tmp/work/dist/maplibre-gl.js.map -> /output/maplibre-gl.js.map.br
-2024/10/08 16:15:15 br /tmp/work/dist/maplibre-gl.min.js -> /output/maplibre-gl.min.js.br
-2024/10/08 16:15:15 gz /tmp/work/dist/maplibre-gl.min.js -> /output/maplibre-gl.min.js.gz
-2024/10/08 16:15:15 sri /tmp/work/dist/maplibre-gl.js -> /output/maplibre-gl.js.sri
-2024/10/08 16:15:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl.js.br /tmp/work/dist/maplibre-gl.js
-2024/10/08 16:15:15 br /tmp/work/dist/maplibre-gl-dev.js -> /output/maplibre-gl-dev.js.br
-2024/10/08 16:15:16 gz /tmp/work/dist/maplibre-gl.js.map -> /output/maplibre-gl.js.map.gz
-2024/10/08 16:15:16 gz /tmp/work/dist/maplibre-gl-dev.js -> /output/maplibre-gl-dev.js.gz
-2024/10/08 16:15:16 br /tmp/work/dist/maplibre-gl.js -> /output/maplibre-gl.js.br
-2024/10/08 16:15:16 gz /tmp/work/dist/maplibre-gl.js -> /output/maplibre-gl.js.gz
-2024/10/08 16:15:17 br /tmp/work/dist/maplibre-gl-unminified.js -> /output/maplibre-gl-unminified.js.br
-2024/10/08 16:15:17 gz /tmp/work/dist/maplibre-gl-unminified.js -> /output/maplibre-gl-unminified.js.gz
-2024/10/08 16:15:17 processed maplibre-gl
+2024/10/08 17:24:51 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/10/08 17:24:51 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/maplibre-gl-csp-dev.min.js /tmp/work/dist/maplibre-gl-csp-dev.js]
+2024/10/08 17:24:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-csp-dev.js.map.br /tmp/work/dist/maplibre-gl-csp-dev.js.map
+2024/10/08 17:24:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-csp-worker-dev.js.map.br /tmp/work/dist/maplibre-gl-csp-worker-dev.js.map
+2024/10/08 17:24:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-csp.js.map.br /tmp/work/dist/maplibre-gl-csp.js.map
+2024/10/08 17:24:51 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/maplibre-gl-csp-worker-dev.min.js /tmp/work/dist/maplibre-gl-csp-worker-dev.js]
+2024/10/08 17:24:51 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/maplibre-gl-csp.min.js /tmp/work/dist/maplibre-gl-csp.js]
+2024/10/08 17:24:51 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/maplibre-gl-csp-worker.min.js /tmp/work/dist/maplibre-gl-csp-worker.js]
+2024/10/08 17:24:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-csp-worker.js.map.br /tmp/work/dist/maplibre-gl-csp-worker.js.map
+2024/10/08 17:25:00 br /tmp/work/dist/maplibre-gl-csp-worker.js.map -> /output/maplibre-gl-csp-worker.js.map.br
+2024/10/08 17:25:00 gz /tmp/work/dist/maplibre-gl-csp-worker.js.map -> /output/maplibre-gl-csp-worker.js.map.gz
+2024/10/08 17:25:00 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/maplibre-gl-dev.min.js /tmp/work/dist/maplibre-gl-dev.js]
+2024/10/08 17:25:03 sri /tmp/work/dist/maplibre-gl-csp-worker.min.js -> /output/maplibre-gl-csp-worker.min.js.sri
+2024/10/08 17:25:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-csp-worker.min.js.br /tmp/work/dist/maplibre-gl-csp-worker.min.js
+2024/10/08 17:25:03 br /tmp/work/dist/maplibre-gl-csp-worker-dev.js.map -> /output/maplibre-gl-csp-worker-dev.js.map.br
+2024/10/08 17:25:04 gz /tmp/work/dist/maplibre-gl-csp-worker-dev.js.map -> /output/maplibre-gl-csp-worker-dev.js.map.gz
+2024/10/08 17:25:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-dev.js.map.br /tmp/work/dist/maplibre-gl-dev.js.map
+2024/10/08 17:25:05 br /tmp/work/dist/maplibre-gl-csp-worker.min.js -> /output/maplibre-gl-csp-worker.min.js.br
+2024/10/08 17:25:06 gz /tmp/work/dist/maplibre-gl-csp-worker.min.js -> /output/maplibre-gl-csp-worker.min.js.gz
+2024/10/08 17:25:06 sri /tmp/work/dist/maplibre-gl-csp-worker.js -> /output/maplibre-gl-csp-worker.js.sri
+2024/10/08 17:25:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-csp-worker.js.br /tmp/work/dist/maplibre-gl-csp-worker.js
+2024/10/08 17:25:07 br /tmp/work/dist/maplibre-gl-csp.js.map -> /output/maplibre-gl-csp.js.map.br
+2024/10/08 17:25:07 br /tmp/work/dist/maplibre-gl-csp-worker.js -> /output/maplibre-gl-csp-worker.js.br
+2024/10/08 17:25:07 gz /tmp/work/dist/maplibre-gl-csp-worker.js -> /output/maplibre-gl-csp-worker.js.gz
+2024/10/08 17:25:07 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/maplibre-gl-unminified.min.js /tmp/work/dist/maplibre-gl-unminified.js]
+2024/10/08 17:25:07 gz /tmp/work/dist/maplibre-gl-csp.js.map -> /output/maplibre-gl-csp.js.map.gz
+2024/10/08 17:25:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-unminified.js.map.br /tmp/work/dist/maplibre-gl-unminified.js.map
+2024/10/08 17:25:08 sri /tmp/work/dist/maplibre-gl-csp-worker-dev.min.js -> /output/maplibre-gl-csp-worker-dev.min.js.sri
+2024/10/08 17:25:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-csp-worker-dev.min.js.br /tmp/work/dist/maplibre-gl-csp-worker-dev.min.js
+2024/10/08 17:25:09 br /tmp/work/dist/maplibre-gl-csp-worker-dev.min.js -> /output/maplibre-gl-csp-worker-dev.min.js.br
+2024/10/08 17:25:09 gz /tmp/work/dist/maplibre-gl-csp-worker-dev.min.js -> /output/maplibre-gl-csp-worker-dev.min.js.gz
+2024/10/08 17:25:09 sri /tmp/work/dist/maplibre-gl-csp-worker-dev.js -> /output/maplibre-gl-csp-worker-dev.js.sri
+2024/10/08 17:25:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-csp-worker-dev.js.br /tmp/work/dist/maplibre-gl-csp-worker-dev.js
+2024/10/08 17:25:09 sri /tmp/work/dist/maplibre-gl-csp.min.js -> /output/maplibre-gl-csp.min.js.sri
+2024/10/08 17:25:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-csp.min.js.br /tmp/work/dist/maplibre-gl-csp.min.js
+2024/10/08 17:25:10 br /tmp/work/dist/maplibre-gl-csp-dev.js.map -> /output/maplibre-gl-csp-dev.js.map.br
+2024/10/08 17:25:11 gz /tmp/work/dist/maplibre-gl-csp-dev.js.map -> /output/maplibre-gl-csp-dev.js.map.gz
+2024/10/08 17:25:11 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/maplibre-gl.min.css /tmp/work/dist/maplibre-gl.css]
+2024/10/08 17:25:12 sri /tmp/work/dist/maplibre-gl.min.css -> /output/maplibre-gl.min.css.sri
+2024/10/08 17:25:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl.min.css.br /tmp/work/dist/maplibre-gl.min.css
+2024/10/08 17:25:12 br /tmp/work/dist/maplibre-gl.min.css -> /output/maplibre-gl.min.css.br
+2024/10/08 17:25:12 gz /tmp/work/dist/maplibre-gl.min.css -> /output/maplibre-gl.min.css.gz
+2024/10/08 17:25:12 sri /tmp/work/dist/maplibre-gl.css -> /output/maplibre-gl.css.sri
+2024/10/08 17:25:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl.css.br /tmp/work/dist/maplibre-gl.css
+2024/10/08 17:25:12 br /tmp/work/dist/maplibre-gl.css -> /output/maplibre-gl.css.br
+2024/10/08 17:25:12 gz /tmp/work/dist/maplibre-gl.css -> /output/maplibre-gl.css.gz
+2024/10/08 17:25:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/maplibre-gl.min.js /tmp/work/dist/maplibre-gl.js]
+2024/10/08 17:25:12 br /tmp/work/dist/maplibre-gl-csp.min.js -> /output/maplibre-gl-csp.min.js.br
+2024/10/08 17:25:12 gz /tmp/work/dist/maplibre-gl-csp.min.js -> /output/maplibre-gl-csp.min.js.gz
+2024/10/08 17:25:12 sri /tmp/work/dist/maplibre-gl-csp.js -> /output/maplibre-gl-csp.js.sri
+2024/10/08 17:25:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-csp.js.br /tmp/work/dist/maplibre-gl-csp.js
+2024/10/08 17:25:12 sri /tmp/work/dist/maplibre-gl-csp-dev.min.js -> /output/maplibre-gl-csp-dev.min.js.sri
+2024/10/08 17:25:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-csp-dev.min.js.br /tmp/work/dist/maplibre-gl-csp-dev.min.js
+2024/10/08 17:25:12 br /tmp/work/dist/maplibre-gl-csp-worker-dev.js -> /output/maplibre-gl-csp-worker-dev.js.br
+2024/10/08 17:25:13 gz /tmp/work/dist/maplibre-gl-csp-worker-dev.js -> /output/maplibre-gl-csp-worker-dev.js.gz
+2024/10/08 17:25:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl.js.map.br /tmp/work/dist/maplibre-gl.js.map
+2024/10/08 17:25:15 br /tmp/work/dist/maplibre-gl-csp.js -> /output/maplibre-gl-csp.js.br
+2024/10/08 17:25:15 gz /tmp/work/dist/maplibre-gl-csp.js -> /output/maplibre-gl-csp.js.gz
+2024/10/08 17:25:15 br /tmp/work/dist/maplibre-gl-csp-dev.min.js -> /output/maplibre-gl-csp-dev.min.js.br
+2024/10/08 17:25:15 gz /tmp/work/dist/maplibre-gl-csp-dev.min.js -> /output/maplibre-gl-csp-dev.min.js.gz
+2024/10/08 17:25:15 sri /tmp/work/dist/maplibre-gl-csp-dev.js -> /output/maplibre-gl-csp-dev.js.sri
+2024/10/08 17:25:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-csp-dev.js.br /tmp/work/dist/maplibre-gl-csp-dev.js
+2024/10/08 17:25:21 sri /tmp/work/dist/maplibre-gl-dev.min.js -> /output/maplibre-gl-dev.min.js.sri
+2024/10/08 17:25:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-dev.min.js.br /tmp/work/dist/maplibre-gl-dev.min.js
+2024/10/08 17:25:22 br /tmp/work/dist/maplibre-gl-dev.js.map -> /output/maplibre-gl-dev.js.map.br
+2024/10/08 17:25:23 br /tmp/work/dist/maplibre-gl-unminified.js.map -> /output/maplibre-gl-unminified.js.map.br
+2024/10/08 17:25:23 gz /tmp/work/dist/maplibre-gl-dev.js.map -> /output/maplibre-gl-dev.js.map.gz
+2024/10/08 17:25:24 gz /tmp/work/dist/maplibre-gl-unminified.js.map -> /output/maplibre-gl-unminified.js.map.gz
+2024/10/08 17:25:25 br /tmp/work/dist/maplibre-gl-csp-dev.js -> /output/maplibre-gl-csp-dev.js.br
+2024/10/08 17:25:25 br /tmp/work/dist/maplibre-gl-dev.min.js -> /output/maplibre-gl-dev.min.js.br
+2024/10/08 17:25:25 gz /tmp/work/dist/maplibre-gl-dev.min.js -> /output/maplibre-gl-dev.min.js.gz
+2024/10/08 17:25:25 sri /tmp/work/dist/maplibre-gl-dev.js -> /output/maplibre-gl-dev.js.sri
+2024/10/08 17:25:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-dev.js.br /tmp/work/dist/maplibre-gl-dev.js
+2024/10/08 17:25:25 gz /tmp/work/dist/maplibre-gl-csp-dev.js -> /output/maplibre-gl-csp-dev.js.gz
+2024/10/08 17:25:27 sri /tmp/work/dist/maplibre-gl-unminified.min.js -> /output/maplibre-gl-unminified.min.js.sri
+2024/10/08 17:25:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-unminified.min.js.br /tmp/work/dist/maplibre-gl-unminified.min.js
+2024/10/08 17:25:29 sri /tmp/work/dist/maplibre-gl.min.js -> /output/maplibre-gl.min.js.sri
+2024/10/08 17:25:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl.min.js.br /tmp/work/dist/maplibre-gl.min.js
+2024/10/08 17:25:29 br /tmp/work/dist/maplibre-gl-unminified.min.js -> /output/maplibre-gl-unminified.min.js.br
+2024/10/08 17:25:29 gz /tmp/work/dist/maplibre-gl-unminified.min.js -> /output/maplibre-gl-unminified.min.js.gz
+2024/10/08 17:25:29 sri /tmp/work/dist/maplibre-gl-unminified.js -> /output/maplibre-gl-unminified.js.sri
+2024/10/08 17:25:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl-unminified.js.br /tmp/work/dist/maplibre-gl-unminified.js
+2024/10/08 17:25:29 br /tmp/work/dist/maplibre-gl.js.map -> /output/maplibre-gl.js.map.br
+2024/10/08 17:25:31 gz /tmp/work/dist/maplibre-gl.js.map -> /output/maplibre-gl.js.map.gz
+2024/10/08 17:25:32 br /tmp/work/dist/maplibre-gl.min.js -> /output/maplibre-gl.min.js.br
+2024/10/08 17:25:32 gz /tmp/work/dist/maplibre-gl.min.js -> /output/maplibre-gl.min.js.gz
+2024/10/08 17:25:32 sri /tmp/work/dist/maplibre-gl.js -> /output/maplibre-gl.js.sri
+2024/10/08 17:25:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/maplibre-gl.js.br /tmp/work/dist/maplibre-gl.js
+2024/10/08 17:25:33 br /tmp/work/dist/maplibre-gl-dev.js -> /output/maplibre-gl-dev.js.br
+2024/10/08 17:25:33 gz /tmp/work/dist/maplibre-gl-dev.js -> /output/maplibre-gl-dev.js.gz
+2024/10/08 17:25:35 br /tmp/work/dist/maplibre-gl.js -> /output/maplibre-gl.js.br
+2024/10/08 17:25:35 gz /tmp/work/dist/maplibre-gl.js -> /output/maplibre-gl.js.gz
+2024/10/08 17:25:36 br /tmp/work/dist/maplibre-gl-unminified.js -> /output/maplibre-gl-unminified.js.br
+2024/10/08 17:25:36 gz /tmp/work/dist/maplibre-gl-unminified.js -> /output/maplibre-gl-unminified.js.gz
+2024/10/08 17:25:36 processed maplibre-gl
