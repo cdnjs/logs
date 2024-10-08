@@ -1,207 +1,207 @@
-2024/10/08 18:41:28 optimizing files (Js true, Css true, Png true, Jpg true)
-2024/10/08 18:41:28 /tmp/work/dist/adaptor.min.js is already compressed
-2024/10/08 18:41:28 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next-1.min.css /tmp/work/dist/next-1.css]
-2024/10/08 18:41:28 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next-2.min.css /tmp/work/dist/next-2.css]
-2024/10/08 18:41:28 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next-noreset-1.min.css /tmp/work/dist/next-noreset-1.css]
-2024/10/08 18:41:28 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next-noreset-2.min.css /tmp/work/dist/next-noreset-2.css]
-2024/10/08 18:41:28 /tmp/work/dist/next-noreset.css already has a compressed version: /tmp/work/dist/next-noreset.min.css
-2024/10/08 18:41:28 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next-noreset.min-1.min.css /tmp/work/dist/next-noreset.min-1.css]
-2024/10/08 18:41:28 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next-noreset.min-2.min.css /tmp/work/dist/next-noreset.min-2.css]
-2024/10/08 18:41:28 sri /tmp/work/dist/adaptor.min.js -> /output/adaptor.min.js.sri
-2024/10/08 18:41:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/adaptor.min.js.br /tmp/work/dist/adaptor.min.js
-2024/10/08 18:41:28 sri /tmp/work/dist/next-noreset.css -> /output/next-noreset.css.sri
-2024/10/08 18:41:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.css.br /tmp/work/dist/next-noreset.css
-2024/10/08 18:41:31 sri /tmp/work/dist/next-1.min.css -> /output/next-1.min.css.sri
-2024/10/08 18:41:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-1.min.css.br /tmp/work/dist/next-1.min.css
-2024/10/08 18:41:32 sri /tmp/work/dist/next-noreset.min-1.min.css -> /output/next-noreset.min-1.min.css.sri
-2024/10/08 18:41:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.min-1.min.css.br /tmp/work/dist/next-noreset.min-1.min.css
-2024/10/08 18:41:32 sri /tmp/work/dist/next-noreset-1.min.css -> /output/next-noreset-1.min.css.sri
-2024/10/08 18:41:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset-1.min.css.br /tmp/work/dist/next-noreset-1.min.css
-2024/10/08 18:41:32 br /tmp/work/dist/adaptor.min.js -> /output/adaptor.min.js.br
-2024/10/08 18:41:32 gz /tmp/work/dist/adaptor.min.js -> /output/adaptor.min.js.gz
-2024/10/08 18:41:32 sri /tmp/work/dist/next-noreset.min.css -> /output/next-noreset.min.css.sri
-2024/10/08 18:41:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.min.css.br /tmp/work/dist/next-noreset.min.css
-2024/10/08 18:41:32 sri /tmp/work/dist/next-noreset.min-2.min.css -> /output/next-noreset.min-2.min.css.sri
-2024/10/08 18:41:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.min-2.min.css.br /tmp/work/dist/next-noreset.min-2.min.css
-2024/10/08 18:41:32 sri /tmp/work/dist/next-2.min.css -> /output/next-2.min.css.sri
-2024/10/08 18:41:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-2.min.css.br /tmp/work/dist/next-2.min.css
-2024/10/08 18:41:32 sri /tmp/work/dist/next-noreset-2.min.css -> /output/next-noreset-2.min.css.sri
-2024/10/08 18:41:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset-2.min.css.br /tmp/work/dist/next-noreset-2.min.css
-2024/10/08 18:41:34 br /tmp/work/dist/next-noreset-1.min.css -> /output/next-noreset-1.min.css.br
-2024/10/08 18:41:34 gz /tmp/work/dist/next-noreset-1.min.css -> /output/next-noreset-1.min.css.gz
-2024/10/08 18:41:34 sri /tmp/work/dist/next-noreset-1.css -> /output/next-noreset-1.css.sri
-2024/10/08 18:41:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset-1.css.br /tmp/work/dist/next-noreset-1.css
-2024/10/08 18:41:34 br /tmp/work/dist/next-1.min.css -> /output/next-1.min.css.br
-2024/10/08 18:41:34 gz /tmp/work/dist/next-1.min.css -> /output/next-1.min.css.gz
-2024/10/08 18:41:34 sri /tmp/work/dist/next-1.css -> /output/next-1.css.sri
-2024/10/08 18:41:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-1.css.br /tmp/work/dist/next-1.css
-2024/10/08 18:41:35 br /tmp/work/dist/next-noreset.css -> /output/next-noreset.css.br
-2024/10/08 18:41:35 br /tmp/work/dist/next-noreset.min-1.min.css -> /output/next-noreset.min-1.min.css.br
-2024/10/08 18:41:35 gz /tmp/work/dist/next-noreset.min-1.min.css -> /output/next-noreset.min-1.min.css.gz
-2024/10/08 18:41:35 sri /tmp/work/dist/next-noreset.min-1.css -> /output/next-noreset.min-1.css.sri
-2024/10/08 18:41:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.min-1.css.br /tmp/work/dist/next-noreset.min-1.css
-2024/10/08 18:41:35 gz /tmp/work/dist/next-noreset.css -> /output/next-noreset.css.gz
-2024/10/08 18:41:35 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next-noreset.var-1.min.css /tmp/work/dist/next-noreset.var-1.css]
-2024/10/08 18:41:35 br /tmp/work/dist/next-noreset.min-2.min.css -> /output/next-noreset.min-2.min.css.br
-2024/10/08 18:41:36 gz /tmp/work/dist/next-noreset.min-2.min.css -> /output/next-noreset.min-2.min.css.gz
-2024/10/08 18:41:36 sri /tmp/work/dist/next-noreset.min-2.css -> /output/next-noreset.min-2.css.sri
-2024/10/08 18:41:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.min-2.css.br /tmp/work/dist/next-noreset.min-2.css
-2024/10/08 18:41:36 br /tmp/work/dist/next-noreset.min.css -> /output/next-noreset.min.css.br
-2024/10/08 18:41:36 gz /tmp/work/dist/next-noreset.min.css -> /output/next-noreset.min.css.gz
-2024/10/08 18:41:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next-noreset.var-2.min.css /tmp/work/dist/next-noreset.var-2.css]
-2024/10/08 18:41:36 br /tmp/work/dist/next-noreset-2.min.css -> /output/next-noreset-2.min.css.br
-2024/10/08 18:41:36 gz /tmp/work/dist/next-noreset-2.min.css -> /output/next-noreset-2.min.css.gz
-2024/10/08 18:41:36 br /tmp/work/dist/next-2.min.css -> /output/next-2.min.css.br
-2024/10/08 18:41:36 sri /tmp/work/dist/next-noreset-2.css -> /output/next-noreset-2.css.sri
-2024/10/08 18:41:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset-2.css.br /tmp/work/dist/next-noreset-2.css
-2024/10/08 18:41:36 gz /tmp/work/dist/next-2.min.css -> /output/next-2.min.css.gz
-2024/10/08 18:41:36 sri /tmp/work/dist/next-2.css -> /output/next-2.css.sri
-2024/10/08 18:41:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-2.css.br /tmp/work/dist/next-2.css
-2024/10/08 18:41:37 br /tmp/work/dist/next-noreset.min-1.css -> /output/next-noreset.min-1.css.br
-2024/10/08 18:41:37 gz /tmp/work/dist/next-noreset.min-1.css -> /output/next-noreset.min-1.css.gz
-2024/10/08 18:41:37 /tmp/work/dist/next-noreset.var.css already has a compressed version: /tmp/work/dist/next-noreset.var.min.css
-2024/10/08 18:41:37 sri /tmp/work/dist/next-noreset.var.css -> /output/next-noreset.var.css.sri
-2024/10/08 18:41:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.var.css.br /tmp/work/dist/next-noreset.var.css
-2024/10/08 18:41:37 br /tmp/work/dist/next-noreset-1.css -> /output/next-noreset-1.css.br
-2024/10/08 18:41:37 gz /tmp/work/dist/next-noreset-1.css -> /output/next-noreset-1.css.gz
-2024/10/08 18:41:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next-noreset.var.min-1.min.css /tmp/work/dist/next-noreset.var.min-1.css]
-2024/10/08 18:41:37 sri /tmp/work/dist/next-noreset.var-1.min.css -> /output/next-noreset.var-1.min.css.sri
-2024/10/08 18:41:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.var-1.min.css.br /tmp/work/dist/next-noreset.var-1.min.css
-2024/10/08 18:41:37 br /tmp/work/dist/next-1.css -> /output/next-1.css.br
-2024/10/08 18:41:37 gz /tmp/work/dist/next-1.css -> /output/next-1.css.gz
-2024/10/08 18:41:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next-noreset.var.min-2.min.css /tmp/work/dist/next-noreset.var.min-2.css]
-2024/10/08 18:41:38 br /tmp/work/dist/next-noreset.min-2.css -> /output/next-noreset.min-2.css.br
-2024/10/08 18:41:38 gz /tmp/work/dist/next-noreset.min-2.css -> /output/next-noreset.min-2.css.gz
-2024/10/08 18:41:38 sri /tmp/work/dist/next-noreset.var.min.css -> /output/next-noreset.var.min.css.sri
-2024/10/08 18:41:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.var.min.css.br /tmp/work/dist/next-noreset.var.min.css
-2024/10/08 18:41:38 br /tmp/work/dist/next-2.css -> /output/next-2.css.br
-2024/10/08 18:41:38 gz /tmp/work/dist/next-2.css -> /output/next-2.css.gz
-2024/10/08 18:41:38 /tmp/work/dist/next-with-locales.min.js already has corresponding compressed file
-2024/10/08 18:41:38 sri /tmp/work/dist/next-with-locales.js -> /output/next-with-locales.js.sri
-2024/10/08 18:41:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-with-locales.js.br /tmp/work/dist/next-with-locales.js
-2024/10/08 18:41:38 sri /tmp/work/dist/next-noreset.var-2.min.css -> /output/next-noreset.var-2.min.css.sri
-2024/10/08 18:41:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.var-2.min.css.br /tmp/work/dist/next-noreset.var-2.min.css
-2024/10/08 18:41:39 br /tmp/work/dist/next-noreset-2.css -> /output/next-noreset-2.css.br
-2024/10/08 18:41:39 sri /tmp/work/dist/next-noreset.var.min-2.min.css -> /output/next-noreset.var.min-2.min.css.sri
-2024/10/08 18:41:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.var.min-2.min.css.br /tmp/work/dist/next-noreset.var.min-2.min.css
-2024/10/08 18:41:39 gz /tmp/work/dist/next-noreset-2.css -> /output/next-noreset-2.css.gz
-2024/10/08 18:41:39 /tmp/work/dist/next-with-locales.min.js is already compressed
-2024/10/08 18:41:39 sri /tmp/work/dist/next-with-locales.min.js -> /output/next-with-locales.min.js.sri
-2024/10/08 18:41:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-with-locales.min.js.br /tmp/work/dist/next-with-locales.min.js
-2024/10/08 18:41:40 sri /tmp/work/dist/next-noreset.var.min-1.min.css -> /output/next-noreset.var.min-1.min.css.sri
-2024/10/08 18:41:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.var.min-1.min.css.br /tmp/work/dist/next-noreset.var.min-1.min.css
-2024/10/08 18:41:40 br /tmp/work/dist/next-noreset.var-1.min.css -> /output/next-noreset.var-1.min.css.br
-2024/10/08 18:41:40 gz /tmp/work/dist/next-noreset.var-1.min.css -> /output/next-noreset.var-1.min.css.gz
-2024/10/08 18:41:40 sri /tmp/work/dist/next-noreset.var-1.css -> /output/next-noreset.var-1.css.sri
-2024/10/08 18:41:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.var-1.css.br /tmp/work/dist/next-noreset.var-1.css
-2024/10/08 18:41:41 br /tmp/work/dist/next-noreset.var-2.min.css -> /output/next-noreset.var-2.min.css.br
-2024/10/08 18:41:41 gz /tmp/work/dist/next-noreset.var-2.min.css -> /output/next-noreset.var-2.min.css.gz
-2024/10/08 18:41:41 sri /tmp/work/dist/next-noreset.var-2.css -> /output/next-noreset.var-2.css.sri
-2024/10/08 18:41:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.var-2.css.br /tmp/work/dist/next-noreset.var-2.css
-2024/10/08 18:41:41 br /tmp/work/dist/next-noreset.var-1.css -> /output/next-noreset.var-1.css.br
-2024/10/08 18:41:41 gz /tmp/work/dist/next-noreset.var-1.css -> /output/next-noreset.var-1.css.gz
-2024/10/08 18:41:41 /tmp/work/dist/next.css already has a compressed version: /tmp/work/dist/next.min.css
-2024/10/08 18:41:41 sri /tmp/work/dist/next.css -> /output/next.css.sri
-2024/10/08 18:41:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.css.br /tmp/work/dist/next.css
-2024/10/08 18:41:42 br /tmp/work/dist/next-noreset.var.min-1.min.css -> /output/next-noreset.var.min-1.min.css.br
-2024/10/08 18:41:42 gz /tmp/work/dist/next-noreset.var.min-1.min.css -> /output/next-noreset.var.min-1.min.css.gz
-2024/10/08 18:41:42 sri /tmp/work/dist/next-noreset.var.min-1.css -> /output/next-noreset.var.min-1.css.sri
-2024/10/08 18:41:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.var.min-1.css.br /tmp/work/dist/next-noreset.var.min-1.css
-2024/10/08 18:41:42 br /tmp/work/dist/next-noreset.var.min-2.min.css -> /output/next-noreset.var.min-2.min.css.br
-2024/10/08 18:41:42 gz /tmp/work/dist/next-noreset.var.min-2.min.css -> /output/next-noreset.var.min-2.min.css.gz
-2024/10/08 18:41:42 sri /tmp/work/dist/next-noreset.var.min-2.css -> /output/next-noreset.var.min-2.css.sri
-2024/10/08 18:41:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.var.min-2.css.br /tmp/work/dist/next-noreset.var.min-2.css
-2024/10/08 18:41:42 br /tmp/work/dist/next-noreset.var.css -> /output/next-noreset.var.css.br
-2024/10/08 18:41:42 gz /tmp/work/dist/next-noreset.var.css -> /output/next-noreset.var.css.gz
-2024/10/08 18:41:42 /tmp/work/dist/next.min.js already has corresponding compressed file
-2024/10/08 18:41:42 sri /tmp/work/dist/next.js -> /output/next.js.sri
-2024/10/08 18:41:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.js.br /tmp/work/dist/next.js
-2024/10/08 18:41:43 br /tmp/work/dist/next-noreset.var.min.css -> /output/next-noreset.var.min.css.br
-2024/10/08 18:41:43 gz /tmp/work/dist/next-noreset.var.min.css -> /output/next-noreset.var.min.css.gz
-2024/10/08 18:41:43 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next.min-1.min.css /tmp/work/dist/next.min-1.css]
-2024/10/08 18:41:44 br /tmp/work/dist/next-noreset.var.min-1.css -> /output/next-noreset.var.min-1.css.br
-2024/10/08 18:41:44 br /tmp/work/dist/next-noreset.var.min-2.css -> /output/next-noreset.var.min-2.css.br
-2024/10/08 18:41:44 gz /tmp/work/dist/next-noreset.var.min-1.css -> /output/next-noreset.var.min-1.css.gz
-2024/10/08 18:41:44 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next.min-2.min.css /tmp/work/dist/next.min-2.css]
-2024/10/08 18:41:44 gz /tmp/work/dist/next-noreset.var.min-2.css -> /output/next-noreset.var.min-2.css.gz
-2024/10/08 18:41:44 sri /tmp/work/dist/next.min.css -> /output/next.min.css.sri
-2024/10/08 18:41:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.min.css.br /tmp/work/dist/next.min.css
-2024/10/08 18:41:44 br /tmp/work/dist/next-noreset.var-2.css -> /output/next-noreset.var-2.css.br
-2024/10/08 18:41:45 gz /tmp/work/dist/next-noreset.var-2.css -> /output/next-noreset.var-2.css.gz
-2024/10/08 18:41:45 /tmp/work/dist/next.min.js is already compressed
-2024/10/08 18:41:45 sri /tmp/work/dist/next.min.js -> /output/next.min.js.sri
-2024/10/08 18:41:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.min.js.br /tmp/work/dist/next.min.js
-2024/10/08 18:41:45 sri /tmp/work/dist/next.min-1.min.css -> /output/next.min-1.min.css.sri
-2024/10/08 18:41:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.min-1.min.css.br /tmp/work/dist/next.min-1.min.css
-2024/10/08 18:41:46 sri /tmp/work/dist/next.min-2.min.css -> /output/next.min-2.min.css.sri
-2024/10/08 18:41:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.min-2.min.css.br /tmp/work/dist/next.min-2.min.css
-2024/10/08 18:41:46 br /tmp/work/dist/next.css -> /output/next.css.br
-2024/10/08 18:41:46 gz /tmp/work/dist/next.css -> /output/next.css.gz
-2024/10/08 18:41:46 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next.var-1.min.css /tmp/work/dist/next.var-1.css]
-2024/10/08 18:41:47 br /tmp/work/dist/next.min-1.min.css -> /output/next.min-1.min.css.br
-2024/10/08 18:41:47 gz /tmp/work/dist/next.min-1.min.css -> /output/next.min-1.min.css.gz
-2024/10/08 18:41:47 sri /tmp/work/dist/next.min-1.css -> /output/next.min-1.css.sri
-2024/10/08 18:41:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.min-1.css.br /tmp/work/dist/next.min-1.css
-2024/10/08 18:41:47 br /tmp/work/dist/next.min.css -> /output/next.min.css.br
-2024/10/08 18:41:47 gz /tmp/work/dist/next.min.css -> /output/next.min.css.gz
-2024/10/08 18:41:47 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next.var-2.min.css /tmp/work/dist/next.var-2.css]
-2024/10/08 18:41:48 br /tmp/work/dist/next-with-locales.min.js -> /output/next-with-locales.min.js.br
-2024/10/08 18:41:48 br /tmp/work/dist/next.min-2.min.css -> /output/next.min-2.min.css.br
-2024/10/08 18:41:48 gz /tmp/work/dist/next.min-2.min.css -> /output/next.min-2.min.css.gz
-2024/10/08 18:41:48 sri /tmp/work/dist/next.min-2.css -> /output/next.min-2.css.sri
-2024/10/08 18:41:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.min-2.css.br /tmp/work/dist/next.min-2.css
-2024/10/08 18:41:48 gz /tmp/work/dist/next-with-locales.min.js -> /output/next-with-locales.min.js.gz
-2024/10/08 18:41:48 /tmp/work/dist/next.var.css already has a compressed version: /tmp/work/dist/next.var.min.css
-2024/10/08 18:41:48 sri /tmp/work/dist/next.var.css -> /output/next.var.css.sri
-2024/10/08 18:41:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.var.css.br /tmp/work/dist/next.var.css
-2024/10/08 18:41:48 br /tmp/work/dist/next.min-1.css -> /output/next.min-1.css.br
-2024/10/08 18:41:48 gz /tmp/work/dist/next.min-1.css -> /output/next.min-1.css.gz
-2024/10/08 18:41:48 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next.var.min-1.min.css /tmp/work/dist/next.var.min-1.css]
-2024/10/08 18:41:49 sri /tmp/work/dist/next.var-1.min.css -> /output/next.var-1.min.css.sri
-2024/10/08 18:41:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.var-1.min.css.br /tmp/work/dist/next.var-1.min.css
-2024/10/08 18:41:51 sri /tmp/work/dist/next.var-2.min.css -> /output/next.var-2.min.css.sri
-2024/10/08 18:41:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.var-2.min.css.br /tmp/work/dist/next.var-2.min.css
-2024/10/08 18:41:51 br /tmp/work/dist/next.min-2.css -> /output/next.min-2.css.br
-2024/10/08 18:41:51 gz /tmp/work/dist/next.min-2.css -> /output/next.min-2.css.gz
-2024/10/08 18:41:51 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next.var.min-2.min.css /tmp/work/dist/next.var.min-2.css]
-2024/10/08 18:41:51 sri /tmp/work/dist/next.var.min-1.min.css -> /output/next.var.min-1.min.css.sri
-2024/10/08 18:41:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.var.min-1.min.css.br /tmp/work/dist/next.var.min-1.min.css
-2024/10/08 18:41:52 br /tmp/work/dist/next.var-1.min.css -> /output/next.var-1.min.css.br
-2024/10/08 18:41:52 gz /tmp/work/dist/next.var-1.min.css -> /output/next.var-1.min.css.gz
-2024/10/08 18:41:52 sri /tmp/work/dist/next.var-1.css -> /output/next.var-1.css.sri
-2024/10/08 18:41:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.var-1.css.br /tmp/work/dist/next.var-1.css
-2024/10/08 18:41:54 sri /tmp/work/dist/next.var.min-2.min.css -> /output/next.var.min-2.min.css.sri
-2024/10/08 18:41:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.var.min-2.min.css.br /tmp/work/dist/next.var.min-2.min.css
-2024/10/08 18:41:54 br /tmp/work/dist/next.var.min-1.min.css -> /output/next.var.min-1.min.css.br
-2024/10/08 18:41:54 gz /tmp/work/dist/next.var.min-1.min.css -> /output/next.var.min-1.min.css.gz
-2024/10/08 18:41:54 sri /tmp/work/dist/next.var.min-1.css -> /output/next.var.min-1.css.sri
-2024/10/08 18:41:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.var.min-1.css.br /tmp/work/dist/next.var.min-1.css
-2024/10/08 18:41:55 br /tmp/work/dist/next.min.js -> /output/next.min.js.br
-2024/10/08 18:41:55 gz /tmp/work/dist/next.min.js -> /output/next.min.js.gz
-2024/10/08 18:41:55 sri /tmp/work/dist/next.var.min.css -> /output/next.var.min.css.sri
-2024/10/08 18:41:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.var.min.css.br /tmp/work/dist/next.var.min.css
-2024/10/08 18:41:55 br /tmp/work/dist/next.var-1.css -> /output/next.var-1.css.br
-2024/10/08 18:41:55 gz /tmp/work/dist/next.var-1.css -> /output/next.var-1.css.gz
-2024/10/08 18:41:56 br /tmp/work/dist/next.var-2.min.css -> /output/next.var-2.min.css.br
-2024/10/08 18:41:56 gz /tmp/work/dist/next.var-2.min.css -> /output/next.var-2.min.css.gz
-2024/10/08 18:41:56 sri /tmp/work/dist/next.var-2.css -> /output/next.var-2.css.sri
-2024/10/08 18:41:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.var-2.css.br /tmp/work/dist/next.var-2.css
-2024/10/08 18:41:57 br /tmp/work/dist/next.var.min-1.css -> /output/next.var.min-1.css.br
-2024/10/08 18:41:57 br /tmp/work/dist/next.var.min-2.min.css -> /output/next.var.min-2.min.css.br
-2024/10/08 18:41:57 gz /tmp/work/dist/next.var.min-1.css -> /output/next.var.min-1.css.gz
-2024/10/08 18:41:57 gz /tmp/work/dist/next.var.min-2.min.css -> /output/next.var.min-2.min.css.gz
-2024/10/08 18:41:57 sri /tmp/work/dist/next.var.min-2.css -> /output/next.var.min-2.css.sri
-2024/10/08 18:41:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.var.min-2.css.br /tmp/work/dist/next.var.min-2.css
-2024/10/08 18:41:57 br /tmp/work/dist/next.var.css -> /output/next.var.css.br
-2024/10/08 18:41:57 gz /tmp/work/dist/next.var.css -> /output/next.var.css.gz
-2024/10/08 18:41:58 br /tmp/work/dist/next.var.min.css -> /output/next.var.min.css.br
-2024/10/08 18:41:58 gz /tmp/work/dist/next.var.min.css -> /output/next.var.min.css.gz
-2024/10/08 18:41:59 br /tmp/work/dist/next.var.min-2.css -> /output/next.var.min-2.css.br
-2024/10/08 18:41:59 gz /tmp/work/dist/next.var.min-2.css -> /output/next.var.min-2.css.gz
-2024/10/08 18:41:59 br /tmp/work/dist/next.var-2.css -> /output/next.var-2.css.br
-2024/10/08 18:41:59 gz /tmp/work/dist/next.var-2.css -> /output/next.var-2.css.gz
-2024/10/08 18:42:00 br /tmp/work/dist/next-with-locales.js -> /output/next-with-locales.js.br
-2024/10/08 18:42:00 gz /tmp/work/dist/next-with-locales.js -> /output/next-with-locales.js.gz
-2024/10/08 18:42:01 br /tmp/work/dist/next.js -> /output/next.js.br
-2024/10/08 18:42:02 gz /tmp/work/dist/next.js -> /output/next.js.gz
-2024/10/08 18:42:02 processed alifd__next
+2024/10/08 19:12:00 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/10/08 19:12:00 /tmp/work/dist/adaptor.min.js is already compressed
+2024/10/08 19:12:00 sri /tmp/work/dist/adaptor.min.js -> /output/adaptor.min.js.sri
+2024/10/08 19:12:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/adaptor.min.js.br /tmp/work/dist/adaptor.min.js
+2024/10/08 19:12:00 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next-1.min.css /tmp/work/dist/next-1.css]
+2024/10/08 19:12:00 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next-2.min.css /tmp/work/dist/next-2.css]
+2024/10/08 19:12:00 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next-noreset-2.min.css /tmp/work/dist/next-noreset-2.css]
+2024/10/08 19:12:00 /tmp/work/dist/next-noreset.css already has a compressed version: /tmp/work/dist/next-noreset.min.css
+2024/10/08 19:12:00 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next-noreset-1.min.css /tmp/work/dist/next-noreset-1.css]
+2024/10/08 19:12:00 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next-noreset.min-1.min.css /tmp/work/dist/next-noreset.min-1.css]
+2024/10/08 19:12:00 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next-noreset.min-2.min.css /tmp/work/dist/next-noreset.min-2.css]
+2024/10/08 19:12:00 sri /tmp/work/dist/next-noreset.css -> /output/next-noreset.css.sri
+2024/10/08 19:12:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.css.br /tmp/work/dist/next-noreset.css
+2024/10/08 19:12:03 sri /tmp/work/dist/next-1.min.css -> /output/next-1.min.css.sri
+2024/10/08 19:12:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-1.min.css.br /tmp/work/dist/next-1.min.css
+2024/10/08 19:12:04 sri /tmp/work/dist/next-noreset.min-2.min.css -> /output/next-noreset.min-2.min.css.sri
+2024/10/08 19:12:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.min-2.min.css.br /tmp/work/dist/next-noreset.min-2.min.css
+2024/10/08 19:12:04 sri /tmp/work/dist/next-noreset.min-1.min.css -> /output/next-noreset.min-1.min.css.sri
+2024/10/08 19:12:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.min-1.min.css.br /tmp/work/dist/next-noreset.min-1.min.css
+2024/10/08 19:12:04 sri /tmp/work/dist/next-noreset-1.min.css -> /output/next-noreset-1.min.css.sri
+2024/10/08 19:12:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset-1.min.css.br /tmp/work/dist/next-noreset-1.min.css
+2024/10/08 19:12:05 sri /tmp/work/dist/next-2.min.css -> /output/next-2.min.css.sri
+2024/10/08 19:12:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-2.min.css.br /tmp/work/dist/next-2.min.css
+2024/10/08 19:12:05 sri /tmp/work/dist/next-noreset-2.min.css -> /output/next-noreset-2.min.css.sri
+2024/10/08 19:12:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset-2.min.css.br /tmp/work/dist/next-noreset-2.min.css
+2024/10/08 19:12:07 br /tmp/work/dist/adaptor.min.js -> /output/adaptor.min.js.br
+2024/10/08 19:12:07 br /tmp/work/dist/next-1.min.css -> /output/next-1.min.css.br
+2024/10/08 19:12:07 gz /tmp/work/dist/adaptor.min.js -> /output/adaptor.min.js.gz
+2024/10/08 19:12:07 sri /tmp/work/dist/next-noreset.min.css -> /output/next-noreset.min.css.sri
+2024/10/08 19:12:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.min.css.br /tmp/work/dist/next-noreset.min.css
+2024/10/08 19:12:07 gz /tmp/work/dist/next-1.min.css -> /output/next-1.min.css.gz
+2024/10/08 19:12:07 sri /tmp/work/dist/next-1.css -> /output/next-1.css.sri
+2024/10/08 19:12:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-1.css.br /tmp/work/dist/next-1.css
+2024/10/08 19:12:07 br /tmp/work/dist/next-noreset-1.min.css -> /output/next-noreset-1.min.css.br
+2024/10/08 19:12:07 gz /tmp/work/dist/next-noreset-1.min.css -> /output/next-noreset-1.min.css.gz
+2024/10/08 19:12:07 sri /tmp/work/dist/next-noreset-1.css -> /output/next-noreset-1.css.sri
+2024/10/08 19:12:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset-1.css.br /tmp/work/dist/next-noreset-1.css
+2024/10/08 19:12:08 br /tmp/work/dist/next-noreset.min-1.min.css -> /output/next-noreset.min-1.min.css.br
+2024/10/08 19:12:08 gz /tmp/work/dist/next-noreset.min-1.min.css -> /output/next-noreset.min-1.min.css.gz
+2024/10/08 19:12:08 sri /tmp/work/dist/next-noreset.min-1.css -> /output/next-noreset.min-1.css.sri
+2024/10/08 19:12:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.min-1.css.br /tmp/work/dist/next-noreset.min-1.css
+2024/10/08 19:12:08 br /tmp/work/dist/next-noreset.min-2.min.css -> /output/next-noreset.min-2.min.css.br
+2024/10/08 19:12:08 gz /tmp/work/dist/next-noreset.min-2.min.css -> /output/next-noreset.min-2.min.css.gz
+2024/10/08 19:12:08 sri /tmp/work/dist/next-noreset.min-2.css -> /output/next-noreset.min-2.css.sri
+2024/10/08 19:12:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.min-2.css.br /tmp/work/dist/next-noreset.min-2.css
+2024/10/08 19:12:09 br /tmp/work/dist/next-noreset-2.min.css -> /output/next-noreset-2.min.css.br
+2024/10/08 19:12:09 gz /tmp/work/dist/next-noreset-2.min.css -> /output/next-noreset-2.min.css.gz
+2024/10/08 19:12:09 sri /tmp/work/dist/next-noreset-2.css -> /output/next-noreset-2.css.sri
+2024/10/08 19:12:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset-2.css.br /tmp/work/dist/next-noreset-2.css
+2024/10/08 19:12:09 br /tmp/work/dist/next-2.min.css -> /output/next-2.min.css.br
+2024/10/08 19:12:09 gz /tmp/work/dist/next-2.min.css -> /output/next-2.min.css.gz
+2024/10/08 19:12:09 sri /tmp/work/dist/next-2.css -> /output/next-2.css.sri
+2024/10/08 19:12:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-2.css.br /tmp/work/dist/next-2.css
+2024/10/08 19:12:11 br /tmp/work/dist/next-noreset.css -> /output/next-noreset.css.br
+2024/10/08 19:12:11 gz /tmp/work/dist/next-noreset.css -> /output/next-noreset.css.gz
+2024/10/08 19:12:11 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next-noreset.var-1.min.css /tmp/work/dist/next-noreset.var-1.css]
+2024/10/08 19:12:11 br /tmp/work/dist/next-noreset.min-1.css -> /output/next-noreset.min-1.css.br
+2024/10/08 19:12:11 gz /tmp/work/dist/next-noreset.min-1.css -> /output/next-noreset.min-1.css.gz
+2024/10/08 19:12:11 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next-noreset.var-2.min.css /tmp/work/dist/next-noreset.var-2.css]
+2024/10/08 19:12:11 br /tmp/work/dist/next-1.css -> /output/next-1.css.br
+2024/10/08 19:12:11 gz /tmp/work/dist/next-1.css -> /output/next-1.css.gz
+2024/10/08 19:12:11 /tmp/work/dist/next-noreset.var.css already has a compressed version: /tmp/work/dist/next-noreset.var.min.css
+2024/10/08 19:12:11 sri /tmp/work/dist/next-noreset.var.css -> /output/next-noreset.var.css.sri
+2024/10/08 19:12:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.var.css.br /tmp/work/dist/next-noreset.var.css
+2024/10/08 19:12:12 br /tmp/work/dist/next-noreset-1.css -> /output/next-noreset-1.css.br
+2024/10/08 19:12:12 gz /tmp/work/dist/next-noreset-1.css -> /output/next-noreset-1.css.gz
+2024/10/08 19:12:12 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next-noreset.var.min-1.min.css /tmp/work/dist/next-noreset.var.min-1.css]
+2024/10/08 19:12:13 br /tmp/work/dist/next-noreset.min-2.css -> /output/next-noreset.min-2.css.br
+2024/10/08 19:12:13 gz /tmp/work/dist/next-noreset.min-2.css -> /output/next-noreset.min-2.css.gz
+2024/10/08 19:12:13 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next-noreset.var.min-2.min.css /tmp/work/dist/next-noreset.var.min-2.css]
+2024/10/08 19:12:15 br /tmp/work/dist/next-noreset-2.css -> /output/next-noreset-2.css.br
+2024/10/08 19:12:16 gz /tmp/work/dist/next-noreset-2.css -> /output/next-noreset-2.css.gz
+2024/10/08 19:12:16 sri /tmp/work/dist/next-noreset.var.min.css -> /output/next-noreset.var.min.css.sri
+2024/10/08 19:12:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.var.min.css.br /tmp/work/dist/next-noreset.var.min.css
+2024/10/08 19:12:16 sri /tmp/work/dist/next-noreset.var-2.min.css -> /output/next-noreset.var-2.min.css.sri
+2024/10/08 19:12:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.var-2.min.css.br /tmp/work/dist/next-noreset.var-2.min.css
+2024/10/08 19:12:16 sri /tmp/work/dist/next-noreset.var-1.min.css -> /output/next-noreset.var-1.min.css.sri
+2024/10/08 19:12:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.var-1.min.css.br /tmp/work/dist/next-noreset.var-1.min.css
+2024/10/08 19:12:16 br /tmp/work/dist/next-noreset.min.css -> /output/next-noreset.min.css.br
+2024/10/08 19:12:16 gz /tmp/work/dist/next-noreset.min.css -> /output/next-noreset.min.css.gz
+2024/10/08 19:12:16 /tmp/work/dist/next-with-locales.min.js already has corresponding compressed file
+2024/10/08 19:12:16 br /tmp/work/dist/next-2.css -> /output/next-2.css.br
+2024/10/08 19:12:16 sri /tmp/work/dist/next-with-locales.js -> /output/next-with-locales.js.sri
+2024/10/08 19:12:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-with-locales.js.br /tmp/work/dist/next-with-locales.js
+2024/10/08 19:12:16 gz /tmp/work/dist/next-2.css -> /output/next-2.css.gz
+2024/10/08 19:12:16 /tmp/work/dist/next-with-locales.min.js is already compressed
+2024/10/08 19:12:16 sri /tmp/work/dist/next-with-locales.min.js -> /output/next-with-locales.min.js.sri
+2024/10/08 19:12:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-with-locales.min.js.br /tmp/work/dist/next-with-locales.min.js
+2024/10/08 19:12:17 sri /tmp/work/dist/next-noreset.var.min-1.min.css -> /output/next-noreset.var.min-1.min.css.sri
+2024/10/08 19:12:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.var.min-1.min.css.br /tmp/work/dist/next-noreset.var.min-1.min.css
+2024/10/08 19:12:17 sri /tmp/work/dist/next-noreset.var.min-2.min.css -> /output/next-noreset.var.min-2.min.css.sri
+2024/10/08 19:12:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.var.min-2.min.css.br /tmp/work/dist/next-noreset.var.min-2.min.css
+2024/10/08 19:12:20 br /tmp/work/dist/next-noreset.var-1.min.css -> /output/next-noreset.var-1.min.css.br
+2024/10/08 19:12:20 gz /tmp/work/dist/next-noreset.var-1.min.css -> /output/next-noreset.var-1.min.css.gz
+2024/10/08 19:12:20 sri /tmp/work/dist/next-noreset.var-1.css -> /output/next-noreset.var-1.css.sri
+2024/10/08 19:12:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.var-1.css.br /tmp/work/dist/next-noreset.var-1.css
+2024/10/08 19:12:20 br /tmp/work/dist/next-noreset.var.min-1.min.css -> /output/next-noreset.var.min-1.min.css.br
+2024/10/08 19:12:20 gz /tmp/work/dist/next-noreset.var.min-1.min.css -> /output/next-noreset.var.min-1.min.css.gz
+2024/10/08 19:12:20 sri /tmp/work/dist/next-noreset.var.min-1.css -> /output/next-noreset.var.min-1.css.sri
+2024/10/08 19:12:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.var.min-1.css.br /tmp/work/dist/next-noreset.var.min-1.css
+2024/10/08 19:12:23 br /tmp/work/dist/next-noreset.var-2.min.css -> /output/next-noreset.var-2.min.css.br
+2024/10/08 19:12:23 gz /tmp/work/dist/next-noreset.var-2.min.css -> /output/next-noreset.var-2.min.css.gz
+2024/10/08 19:12:23 sri /tmp/work/dist/next-noreset.var-2.css -> /output/next-noreset.var-2.css.sri
+2024/10/08 19:12:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.var-2.css.br /tmp/work/dist/next-noreset.var-2.css
+2024/10/08 19:12:24 br /tmp/work/dist/next-noreset.var.min-2.min.css -> /output/next-noreset.var.min-2.min.css.br
+2024/10/08 19:12:24 gz /tmp/work/dist/next-noreset.var.min-2.min.css -> /output/next-noreset.var.min-2.min.css.gz
+2024/10/08 19:12:24 sri /tmp/work/dist/next-noreset.var.min-2.css -> /output/next-noreset.var.min-2.css.sri
+2024/10/08 19:12:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next-noreset.var.min-2.css.br /tmp/work/dist/next-noreset.var.min-2.css
+2024/10/08 19:12:25 br /tmp/work/dist/next-noreset.var.min-1.css -> /output/next-noreset.var.min-1.css.br
+2024/10/08 19:12:25 gz /tmp/work/dist/next-noreset.var.min-1.css -> /output/next-noreset.var.min-1.css.gz
+2024/10/08 19:12:25 /tmp/work/dist/next.css already has a compressed version: /tmp/work/dist/next.min.css
+2024/10/08 19:12:25 sri /tmp/work/dist/next.css -> /output/next.css.sri
+2024/10/08 19:12:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.css.br /tmp/work/dist/next.css
+2024/10/08 19:12:26 br /tmp/work/dist/next-noreset.var-1.css -> /output/next-noreset.var-1.css.br
+2024/10/08 19:12:26 gz /tmp/work/dist/next-noreset.var-1.css -> /output/next-noreset.var-1.css.gz
+2024/10/08 19:12:26 /tmp/work/dist/next.min.js already has corresponding compressed file
+2024/10/08 19:12:26 sri /tmp/work/dist/next.js -> /output/next.js.sri
+2024/10/08 19:12:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.js.br /tmp/work/dist/next.js
+2024/10/08 19:12:27 br /tmp/work/dist/next-noreset.var.css -> /output/next-noreset.var.css.br
+2024/10/08 19:12:27 gz /tmp/work/dist/next-noreset.var.css -> /output/next-noreset.var.css.gz
+2024/10/08 19:12:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next.min-1.min.css /tmp/work/dist/next.min-1.css]
+2024/10/08 19:12:27 br /tmp/work/dist/next-noreset.var.min.css -> /output/next-noreset.var.min.css.br
+2024/10/08 19:12:27 gz /tmp/work/dist/next-noreset.var.min.css -> /output/next-noreset.var.min.css.gz
+2024/10/08 19:12:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next.min-2.min.css /tmp/work/dist/next.min-2.css]
+2024/10/08 19:12:30 sri /tmp/work/dist/next.min-1.min.css -> /output/next.min-1.min.css.sri
+2024/10/08 19:12:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.min-1.min.css.br /tmp/work/dist/next.min-1.min.css
+2024/10/08 19:12:31 br /tmp/work/dist/next-noreset.var-2.css -> /output/next-noreset.var-2.css.br
+2024/10/08 19:12:31 gz /tmp/work/dist/next-noreset.var-2.css -> /output/next-noreset.var-2.css.gz
+2024/10/08 19:12:31 sri /tmp/work/dist/next.min.css -> /output/next.min.css.sri
+2024/10/08 19:12:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.min.css.br /tmp/work/dist/next.min.css
+2024/10/08 19:12:31 sri /tmp/work/dist/next.min-2.min.css -> /output/next.min-2.min.css.sri
+2024/10/08 19:12:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.min-2.min.css.br /tmp/work/dist/next.min-2.min.css
+2024/10/08 19:12:31 br /tmp/work/dist/next-noreset.var.min-2.css -> /output/next-noreset.var.min-2.css.br
+2024/10/08 19:12:31 gz /tmp/work/dist/next-noreset.var.min-2.css -> /output/next-noreset.var.min-2.css.gz
+2024/10/08 19:12:31 /tmp/work/dist/next.min.js is already compressed
+2024/10/08 19:12:31 sri /tmp/work/dist/next.min.js -> /output/next.min.js.sri
+2024/10/08 19:12:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.min.js.br /tmp/work/dist/next.min.js
+2024/10/08 19:12:33 br /tmp/work/dist/next.min-1.min.css -> /output/next.min-1.min.css.br
+2024/10/08 19:12:33 br /tmp/work/dist/next-with-locales.min.js -> /output/next-with-locales.min.js.br
+2024/10/08 19:12:34 gz /tmp/work/dist/next.min-1.min.css -> /output/next.min-1.min.css.gz
+2024/10/08 19:12:34 sri /tmp/work/dist/next.min-1.css -> /output/next.min-1.css.sri
+2024/10/08 19:12:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.min-1.css.br /tmp/work/dist/next.min-1.css
+2024/10/08 19:12:34 gz /tmp/work/dist/next-with-locales.min.js -> /output/next-with-locales.min.js.gz
+2024/10/08 19:12:34 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next.var-1.min.css /tmp/work/dist/next.var-1.css]
+2024/10/08 19:12:34 br /tmp/work/dist/next.min-2.min.css -> /output/next.min-2.min.css.br
+2024/10/08 19:12:34 gz /tmp/work/dist/next.min-2.min.css -> /output/next.min-2.min.css.gz
+2024/10/08 19:12:34 sri /tmp/work/dist/next.min-2.css -> /output/next.min-2.css.sri
+2024/10/08 19:12:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.min-2.css.br /tmp/work/dist/next.min-2.css
+2024/10/08 19:12:36 br /tmp/work/dist/next.css -> /output/next.css.br
+2024/10/08 19:12:36 gz /tmp/work/dist/next.css -> /output/next.css.gz
+2024/10/08 19:12:36 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next.var-2.min.css /tmp/work/dist/next.var-2.css]
+2024/10/08 19:12:36 br /tmp/work/dist/next.min-2.css -> /output/next.min-2.css.br
+2024/10/08 19:12:36 gz /tmp/work/dist/next.min-2.css -> /output/next.min-2.css.gz
+2024/10/08 19:12:36 /tmp/work/dist/next.var.css already has a compressed version: /tmp/work/dist/next.var.min.css
+2024/10/08 19:12:36 sri /tmp/work/dist/next.var.css -> /output/next.var.css.sri
+2024/10/08 19:12:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.var.css.br /tmp/work/dist/next.var.css
+2024/10/08 19:12:37 br /tmp/work/dist/next.min.css -> /output/next.min.css.br
+2024/10/08 19:12:37 gz /tmp/work/dist/next.min.css -> /output/next.min.css.gz
+2024/10/08 19:12:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next.var.min-1.min.css /tmp/work/dist/next.var.min-1.css]
+2024/10/08 19:12:37 br /tmp/work/dist/next.min-1.css -> /output/next.min-1.css.br
+2024/10/08 19:12:37 gz /tmp/work/dist/next.min-1.css -> /output/next.min-1.css.gz
+2024/10/08 19:12:37 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/next.var.min-2.min.css /tmp/work/dist/next.var.min-2.css]
+2024/10/08 19:12:37 sri /tmp/work/dist/next.var-1.min.css -> /output/next.var-1.min.css.sri
+2024/10/08 19:12:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.var-1.min.css.br /tmp/work/dist/next.var-1.min.css
+2024/10/08 19:12:39 sri /tmp/work/dist/next.var-2.min.css -> /output/next.var-2.min.css.sri
+2024/10/08 19:12:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.var-2.min.css.br /tmp/work/dist/next.var-2.min.css
+2024/10/08 19:12:39 sri /tmp/work/dist/next.var.min-2.min.css -> /output/next.var.min-2.min.css.sri
+2024/10/08 19:12:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.var.min-2.min.css.br /tmp/work/dist/next.var.min-2.min.css
+2024/10/08 19:12:39 sri /tmp/work/dist/next.var.min-1.min.css -> /output/next.var.min-1.min.css.sri
+2024/10/08 19:12:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.var.min-1.min.css.br /tmp/work/dist/next.var.min-1.min.css
+2024/10/08 19:12:39 br /tmp/work/dist/next.var-1.min.css -> /output/next.var-1.min.css.br
+2024/10/08 19:12:39 gz /tmp/work/dist/next.var-1.min.css -> /output/next.var-1.min.css.gz
+2024/10/08 19:12:39 sri /tmp/work/dist/next.var-1.css -> /output/next.var-1.css.sri
+2024/10/08 19:12:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.var-1.css.br /tmp/work/dist/next.var-1.css
+2024/10/08 19:12:41 br /tmp/work/dist/next.var-1.css -> /output/next.var-1.css.br
+2024/10/08 19:12:41 gz /tmp/work/dist/next.var-1.css -> /output/next.var-1.css.gz
+2024/10/08 19:12:41 sri /tmp/work/dist/next.var.min.css -> /output/next.var.min.css.sri
+2024/10/08 19:12:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.var.min.css.br /tmp/work/dist/next.var.min.css
+2024/10/08 19:12:41 br /tmp/work/dist/next.var.min-1.min.css -> /output/next.var.min-1.min.css.br
+2024/10/08 19:12:41 gz /tmp/work/dist/next.var.min-1.min.css -> /output/next.var.min-1.min.css.gz
+2024/10/08 19:12:41 sri /tmp/work/dist/next.var.min-1.css -> /output/next.var.min-1.css.sri
+2024/10/08 19:12:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.var.min-1.css.br /tmp/work/dist/next.var.min-1.css
+2024/10/08 19:12:42 br /tmp/work/dist/next.var.css -> /output/next.var.css.br
+2024/10/08 19:12:42 gz /tmp/work/dist/next.var.css -> /output/next.var.css.gz
+2024/10/08 19:12:42 br /tmp/work/dist/next.var-2.min.css -> /output/next.var-2.min.css.br
+2024/10/08 19:12:42 gz /tmp/work/dist/next.var-2.min.css -> /output/next.var-2.min.css.gz
+2024/10/08 19:12:42 sri /tmp/work/dist/next.var-2.css -> /output/next.var-2.css.sri
+2024/10/08 19:12:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.var-2.css.br /tmp/work/dist/next.var-2.css
+2024/10/08 19:12:42 br /tmp/work/dist/next.var.min-1.css -> /output/next.var.min-1.css.br
+2024/10/08 19:12:42 gz /tmp/work/dist/next.var.min-1.css -> /output/next.var.min-1.css.gz
+2024/10/08 19:12:42 br /tmp/work/dist/next.var.min-2.min.css -> /output/next.var.min-2.min.css.br
+2024/10/08 19:12:42 gz /tmp/work/dist/next.var.min-2.min.css -> /output/next.var.min-2.min.css.gz
+2024/10/08 19:12:42 sri /tmp/work/dist/next.var.min-2.css -> /output/next.var.min-2.css.sri
+2024/10/08 19:12:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/next.var.min-2.css.br /tmp/work/dist/next.var.min-2.css
+2024/10/08 19:12:42 br /tmp/work/dist/next.min.js -> /output/next.min.js.br
+2024/10/08 19:12:43 gz /tmp/work/dist/next.min.js -> /output/next.min.js.gz
+2024/10/08 19:12:44 br /tmp/work/dist/next.var.min.css -> /output/next.var.min.css.br
+2024/10/08 19:12:44 gz /tmp/work/dist/next.var.min.css -> /output/next.var.min.css.gz
+2024/10/08 19:12:44 br /tmp/work/dist/next.var-2.css -> /output/next.var-2.css.br
+2024/10/08 19:12:44 gz /tmp/work/dist/next.var-2.css -> /output/next.var-2.css.gz
+2024/10/08 19:12:44 br /tmp/work/dist/next.var.min-2.css -> /output/next.var.min-2.css.br
+2024/10/08 19:12:44 gz /tmp/work/dist/next.var.min-2.css -> /output/next.var.min-2.css.gz
+2024/10/08 19:12:45 br /tmp/work/dist/next.js -> /output/next.js.br
+2024/10/08 19:12:45 gz /tmp/work/dist/next.js -> /output/next.js.gz
+2024/10/08 19:12:45 br /tmp/work/dist/next-with-locales.js -> /output/next-with-locales.js.br
+2024/10/08 19:12:46 gz /tmp/work/dist/next-with-locales.js -> /output/next-with-locales.js.gz
+2024/10/08 19:12:46 processed alifd__next
