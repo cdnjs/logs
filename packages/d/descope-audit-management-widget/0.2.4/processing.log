@@ -1,0 +1,33 @@
+2024/12/06 11:44:47 optimizing files (Js true, Css true, Png true, Jpg true)
+2024/12/06 11:44:47 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/index.min.js /tmp/work/dist/index.js]
+2024/12/06 11:44:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.map.br /tmp/work/dist/index.js.map
+2024/12/06 11:44:47 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/esm/index.min.js /tmp/work/dist/esm/index.js]
+2024/12/06 11:44:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/index.js.map.br /tmp/work/dist/esm/index.js.map
+2024/12/06 11:44:47 br /tmp/work/dist/esm/index.js.map -> /output/esm/index.js.map.br
+2024/12/06 11:44:47 gz /tmp/work/dist/esm/index.js.map -> /output/esm/index.js.map.gz
+2024/12/06 11:44:47 sri /tmp/work/dist/esm/index.min.js -> /output/esm/index.min.js.sri
+2024/12/06 11:44:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/index.min.js.br /tmp/work/dist/esm/index.min.js
+2024/12/06 11:44:47 br /tmp/work/dist/esm/index.min.js -> /output/esm/index.min.js.br
+2024/12/06 11:44:47 gz /tmp/work/dist/esm/index.min.js -> /output/esm/index.min.js.gz
+2024/12/06 11:44:47 sri /tmp/work/dist/esm/index.js -> /output/esm/index.js.sri
+2024/12/06 11:44:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/index.js.br /tmp/work/dist/esm/index.js
+2024/12/06 11:44:47 br /tmp/work/dist/esm/index.js -> /output/esm/index.js.br
+2024/12/06 11:44:47 gz /tmp/work/dist/esm/index.js -> /output/esm/index.js.gz
+2024/12/06 11:44:48 br /tmp/work/dist/index.js.map -> /output/index.js.map.br
+2024/12/06 11:44:48 sri /tmp/work/dist/index.min.js -> /output/index.min.js.sri
+2024/12/06 11:44:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/dist/index.min.js
+2024/12/06 11:44:48 gz /tmp/work/dist/index.js.map -> /output/index.js.map.gz
+2024/12/06 11:44:49 br /tmp/work/dist/index.min.js -> /output/index.min.js.br
+panic: open /output/index.min.js.gz: no space left on device
+
+goroutine 25 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/compress.Gzip9Native(0x870280, 0xc000016060, 0xc0000b4160, 0x1b, 0xc0000140a8, 0x17)
+	/go/src/github.com/compress/algorithm.go:58 +0xeb
+main.optimizeJob.emitFromWorkspace(0x870280, 0xc000016060, 0x0, 0xc0000b2010, 0xd, 0xc000236000, 0xc, 0xc0000b4160, 0x1b)
+	/go/src/github.com/cmd/process-version/main.go:113 +0x6c5
+main.optimizeWorker(0xc0000b2090, 0xc0000bc180)
+	/go/src/github.com/cmd/process-version/main.go:232 +0x445
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
