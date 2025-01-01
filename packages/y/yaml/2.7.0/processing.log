@@ -1,0 +1,659 @@
+2025/01/01 19:30:24 optimizing files (Js true, Css true, Png true, Jpg true)
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/compose/compose-doc.min.js /tmp/work/browser/dist/compose/compose-doc.js]
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/compose/compose-collection.min.js /tmp/work/browser/dist/compose/compose-collection.js]
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/compose/compose-node.min.js /tmp/work/browser/dist/compose/compose-node.js]
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/compose/compose-scalar.min.js /tmp/work/browser/dist/compose/compose-scalar.js]
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/compose/composer.min.js /tmp/work/browser/dist/compose/composer.js]
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/compose/resolve-block-scalar.min.js /tmp/work/browser/dist/compose/resolve-block-scalar.js]
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/compose/resolve-block-seq.min.js /tmp/work/browser/dist/compose/resolve-block-seq.js]
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/compose/resolve-block-map.min.js /tmp/work/browser/dist/compose/resolve-block-map.js]
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/compose-doc.min.js -> /output/compose/compose-doc.min.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/compose-doc.min.js.br /tmp/work/browser/dist/compose/compose-doc.min.js
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/resolve-block-seq.min.js -> /output/compose/resolve-block-seq.min.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/resolve-block-seq.min.js.br /tmp/work/browser/dist/compose/resolve-block-seq.min.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/compose-doc.min.js -> /output/compose/compose-doc.min.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/compose-doc.min.js -> /output/compose/compose-doc.min.js.gz
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/compose-doc.js -> /output/compose/compose-doc.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/compose-doc.js.br /tmp/work/browser/dist/compose/compose-doc.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/resolve-block-seq.min.js -> /output/compose/resolve-block-seq.min.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/resolve-block-seq.min.js -> /output/compose/resolve-block-seq.min.js.gz
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/resolve-block-seq.js -> /output/compose/resolve-block-seq.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/resolve-block-seq.js.br /tmp/work/browser/dist/compose/resolve-block-seq.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/compose-doc.js -> /output/compose/compose-doc.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/compose-doc.js -> /output/compose/compose-doc.js.gz
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/compose/resolve-end.min.js /tmp/work/browser/dist/compose/resolve-end.js]
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/resolve-block-seq.js -> /output/compose/resolve-block-seq.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/resolve-block-seq.js -> /output/compose/resolve-block-seq.js.gz
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/compose/resolve-flow-collection.min.js /tmp/work/browser/dist/compose/resolve-flow-collection.js]
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/compose-collection.min.js -> /output/compose/compose-collection.min.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/compose-collection.min.js.br /tmp/work/browser/dist/compose/compose-collection.min.js
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/compose-scalar.min.js -> /output/compose/compose-scalar.min.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/compose-scalar.min.js.br /tmp/work/browser/dist/compose/compose-scalar.min.js
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/resolve-block-map.min.js -> /output/compose/resolve-block-map.min.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/resolve-block-map.min.js.br /tmp/work/browser/dist/compose/resolve-block-map.min.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/compose-collection.min.js -> /output/compose/compose-collection.min.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/compose-collection.min.js -> /output/compose/compose-collection.min.js.gz
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/compose-scalar.min.js -> /output/compose/compose-scalar.min.js.br
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/compose-collection.js -> /output/compose/compose-collection.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/compose-collection.js.br /tmp/work/browser/dist/compose/compose-collection.js
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/compose-scalar.min.js -> /output/compose/compose-scalar.min.js.gz
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/compose-scalar.js -> /output/compose/compose-scalar.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/compose-scalar.js.br /tmp/work/browser/dist/compose/compose-scalar.js
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/compose-node.min.js -> /output/compose/compose-node.min.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/compose-node.min.js.br /tmp/work/browser/dist/compose/compose-node.min.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/resolve-block-map.min.js -> /output/compose/resolve-block-map.min.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/resolve-block-map.min.js -> /output/compose/resolve-block-map.min.js.gz
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/resolve-block-map.js -> /output/compose/resolve-block-map.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/resolve-block-map.js.br /tmp/work/browser/dist/compose/resolve-block-map.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/compose-node.min.js -> /output/compose/compose-node.min.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/compose-node.min.js -> /output/compose/compose-node.min.js.gz
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/compose-node.js -> /output/compose/compose-node.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/compose-node.js.br /tmp/work/browser/dist/compose/compose-node.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/compose-collection.js -> /output/compose/compose-collection.js.br
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/compose-scalar.js -> /output/compose/compose-scalar.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/compose-collection.js -> /output/compose/compose-collection.js.gz
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/compose-scalar.js -> /output/compose/compose-scalar.js.gz
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/compose/resolve-flow-scalar.min.js /tmp/work/browser/dist/compose/resolve-flow-scalar.js]
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/compose/resolve-props.min.js /tmp/work/browser/dist/compose/resolve-props.js]
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/resolve-block-map.js -> /output/compose/resolve-block-map.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/resolve-block-map.js -> /output/compose/resolve-block-map.js.gz
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/compose/util-contains-newline.min.js /tmp/work/browser/dist/compose/util-contains-newline.js]
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/compose-node.js -> /output/compose/compose-node.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/compose-node.js -> /output/compose/compose-node.js.gz
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/compose/util-empty-scalar-position.min.js /tmp/work/browser/dist/compose/util-empty-scalar-position.js]
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/composer.min.js -> /output/compose/composer.min.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/composer.min.js.br /tmp/work/browser/dist/compose/composer.min.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/composer.min.js -> /output/compose/composer.min.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/composer.min.js -> /output/compose/composer.min.js.gz
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/composer.js -> /output/compose/composer.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/composer.js.br /tmp/work/browser/dist/compose/composer.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/composer.js -> /output/compose/composer.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/composer.js -> /output/compose/composer.js.gz
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/compose/util-flow-indent-check.min.js /tmp/work/browser/dist/compose/util-flow-indent-check.js]
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/resolve-block-scalar.min.js -> /output/compose/resolve-block-scalar.min.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/resolve-block-scalar.min.js.br /tmp/work/browser/dist/compose/resolve-block-scalar.min.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/resolve-block-scalar.min.js -> /output/compose/resolve-block-scalar.min.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/resolve-block-scalar.min.js -> /output/compose/resolve-block-scalar.min.js.gz
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/resolve-block-scalar.js -> /output/compose/resolve-block-scalar.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/resolve-block-scalar.js.br /tmp/work/browser/dist/compose/resolve-block-scalar.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/resolve-block-scalar.js -> /output/compose/resolve-block-scalar.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/resolve-block-scalar.js -> /output/compose/resolve-block-scalar.js.gz
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/compose/util-map-includes.min.js /tmp/work/browser/dist/compose/util-map-includes.js]
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/resolve-end.min.js -> /output/compose/resolve-end.min.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/resolve-end.min.js.br /tmp/work/browser/dist/compose/resolve-end.min.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/resolve-end.min.js -> /output/compose/resolve-end.min.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/resolve-end.min.js -> /output/compose/resolve-end.min.js.gz
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/resolve-end.js -> /output/compose/resolve-end.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/resolve-end.js.br /tmp/work/browser/dist/compose/resolve-end.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/resolve-end.js -> /output/compose/resolve-end.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/resolve-end.js -> /output/compose/resolve-end.js.gz
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/doc/anchors.min.js /tmp/work/browser/dist/doc/anchors.js]
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/util-empty-scalar-position.min.js -> /output/compose/util-empty-scalar-position.min.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/util-empty-scalar-position.min.js.br /tmp/work/browser/dist/compose/util-empty-scalar-position.min.js
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/util-contains-newline.min.js -> /output/compose/util-contains-newline.min.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/util-contains-newline.min.js.br /tmp/work/browser/dist/compose/util-contains-newline.min.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/util-empty-scalar-position.min.js -> /output/compose/util-empty-scalar-position.min.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/util-empty-scalar-position.min.js -> /output/compose/util-empty-scalar-position.min.js.gz
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/util-empty-scalar-position.js -> /output/compose/util-empty-scalar-position.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/util-empty-scalar-position.js.br /tmp/work/browser/dist/compose/util-empty-scalar-position.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/util-contains-newline.min.js -> /output/compose/util-contains-newline.min.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/util-contains-newline.min.js -> /output/compose/util-contains-newline.min.js.gz
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/util-contains-newline.js -> /output/compose/util-contains-newline.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/util-contains-newline.js.br /tmp/work/browser/dist/compose/util-contains-newline.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/util-empty-scalar-position.js -> /output/compose/util-empty-scalar-position.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/util-empty-scalar-position.js -> /output/compose/util-empty-scalar-position.js.gz
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/doc/applyReviver.min.js /tmp/work/browser/dist/doc/applyReviver.js]
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/util-contains-newline.js -> /output/compose/util-contains-newline.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/util-contains-newline.js -> /output/compose/util-contains-newline.js.gz
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/doc/createNode.min.js /tmp/work/browser/dist/doc/createNode.js]
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/util-flow-indent-check.min.js -> /output/compose/util-flow-indent-check.min.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/util-flow-indent-check.min.js.br /tmp/work/browser/dist/compose/util-flow-indent-check.min.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/util-flow-indent-check.min.js -> /output/compose/util-flow-indent-check.min.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/util-flow-indent-check.min.js -> /output/compose/util-flow-indent-check.min.js.gz
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/util-flow-indent-check.js -> /output/compose/util-flow-indent-check.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/util-flow-indent-check.js.br /tmp/work/browser/dist/compose/util-flow-indent-check.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/util-flow-indent-check.js -> /output/compose/util-flow-indent-check.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/util-flow-indent-check.js -> /output/compose/util-flow-indent-check.js.gz
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/doc/directives.min.js /tmp/work/browser/dist/doc/directives.js]
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/resolve-props.min.js -> /output/compose/resolve-props.min.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/resolve-props.min.js.br /tmp/work/browser/dist/compose/resolve-props.min.js
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/util-map-includes.min.js -> /output/compose/util-map-includes.min.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/util-map-includes.min.js.br /tmp/work/browser/dist/compose/util-map-includes.min.js
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/resolve-flow-collection.min.js -> /output/compose/resolve-flow-collection.min.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/resolve-flow-collection.min.js.br /tmp/work/browser/dist/compose/resolve-flow-collection.min.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/util-map-includes.min.js -> /output/compose/util-map-includes.min.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/util-map-includes.min.js -> /output/compose/util-map-includes.min.js.gz
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/util-map-includes.js -> /output/compose/util-map-includes.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/util-map-includes.js.br /tmp/work/browser/dist/compose/util-map-includes.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/resolve-props.min.js -> /output/compose/resolve-props.min.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/resolve-props.min.js -> /output/compose/resolve-props.min.js.gz
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/resolve-props.js -> /output/compose/resolve-props.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/resolve-props.js.br /tmp/work/browser/dist/compose/resolve-props.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/util-map-includes.js -> /output/compose/util-map-includes.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/util-map-includes.js -> /output/compose/util-map-includes.js.gz
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/doc/Document.min.js /tmp/work/browser/dist/doc/Document.js]
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/resolve-flow-collection.min.js -> /output/compose/resolve-flow-collection.min.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/resolve-flow-collection.min.js -> /output/compose/resolve-flow-collection.min.js.gz
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/resolve-flow-collection.js -> /output/compose/resolve-flow-collection.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/resolve-flow-collection.js.br /tmp/work/browser/dist/compose/resolve-flow-collection.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/resolve-props.js -> /output/compose/resolve-props.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/resolve-props.js -> /output/compose/resolve-props.js.gz
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/errors.min.js /tmp/work/browser/dist/errors.js]
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/resolve-flow-collection.js -> /output/compose/resolve-flow-collection.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/resolve-flow-collection.js -> /output/compose/resolve-flow-collection.js.gz
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/index.min.js /tmp/work/browser/dist/index.js]
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/resolve-flow-scalar.min.js -> /output/compose/resolve-flow-scalar.min.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/resolve-flow-scalar.min.js.br /tmp/work/browser/dist/compose/resolve-flow-scalar.min.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/resolve-flow-scalar.min.js -> /output/compose/resolve-flow-scalar.min.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/resolve-flow-scalar.min.js -> /output/compose/resolve-flow-scalar.min.js.gz
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/compose/resolve-flow-scalar.js -> /output/compose/resolve-flow-scalar.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/compose/resolve-flow-scalar.js.br /tmp/work/browser/dist/compose/resolve-flow-scalar.js
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/doc/anchors.min.js -> /output/doc/anchors.min.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/doc/anchors.min.js.br /tmp/work/browser/dist/doc/anchors.min.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/doc/anchors.min.js -> /output/doc/anchors.min.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/doc/anchors.min.js -> /output/doc/anchors.min.js.gz
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/doc/anchors.js -> /output/doc/anchors.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/doc/anchors.js.br /tmp/work/browser/dist/doc/anchors.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/doc/anchors.js -> /output/doc/anchors.js.br
+2025/01/01 19:30:24 br /tmp/work/browser/dist/compose/resolve-flow-scalar.js -> /output/compose/resolve-flow-scalar.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/compose/resolve-flow-scalar.js -> /output/compose/resolve-flow-scalar.js.gz
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/log.min.js /tmp/work/browser/dist/log.js]
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/doc/anchors.js -> /output/doc/anchors.js.gz
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/nodes/addPairToJSMap.min.js /tmp/work/browser/dist/nodes/addPairToJSMap.js]
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/doc/applyReviver.min.js -> /output/doc/applyReviver.min.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/doc/applyReviver.min.js.br /tmp/work/browser/dist/doc/applyReviver.min.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/doc/applyReviver.min.js -> /output/doc/applyReviver.min.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/doc/applyReviver.min.js -> /output/doc/applyReviver.min.js.gz
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/doc/applyReviver.js -> /output/doc/applyReviver.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/doc/applyReviver.js.br /tmp/work/browser/dist/doc/applyReviver.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/doc/applyReviver.js -> /output/doc/applyReviver.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/doc/applyReviver.js -> /output/doc/applyReviver.js.gz
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/nodes/Alias.min.js /tmp/work/browser/dist/nodes/Alias.js]
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/doc/createNode.min.js -> /output/doc/createNode.min.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/doc/createNode.min.js.br /tmp/work/browser/dist/doc/createNode.min.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/doc/createNode.min.js -> /output/doc/createNode.min.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/doc/createNode.min.js -> /output/doc/createNode.min.js.gz
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/doc/createNode.js -> /output/doc/createNode.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/doc/createNode.js.br /tmp/work/browser/dist/doc/createNode.js
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/index.min.js -> /output/index.min.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/browser/dist/index.min.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/index.min.js -> /output/index.min.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/index.min.js -> /output/index.min.js.gz
+2025/01/01 19:30:24 sri /tmp/work/browser/dist/index.js -> /output/index.js.sri
+2025/01/01 19:30:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/browser/dist/index.js
+2025/01/01 19:30:24 br /tmp/work/browser/dist/doc/createNode.js -> /output/doc/createNode.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/doc/createNode.js -> /output/doc/createNode.js.gz
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/nodes/Collection.min.js /tmp/work/browser/dist/nodes/Collection.js]
+2025/01/01 19:30:24 br /tmp/work/browser/dist/index.js -> /output/index.js.br
+2025/01/01 19:30:24 gz /tmp/work/browser/dist/index.js -> /output/index.js.gz
+2025/01/01 19:30:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/nodes/identity.min.js /tmp/work/browser/dist/nodes/identity.js]
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/log.min.js -> /output/log.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/log.min.js.br /tmp/work/browser/dist/log.min.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/log.min.js -> /output/log.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/log.min.js -> /output/log.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/log.js -> /output/log.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/log.js.br /tmp/work/browser/dist/log.js
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/errors.min.js -> /output/errors.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/errors.min.js.br /tmp/work/browser/dist/errors.min.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/log.js -> /output/log.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/log.js -> /output/log.js.gz
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/nodes/Node.min.js /tmp/work/browser/dist/nodes/Node.js]
+2025/01/01 19:30:25 br /tmp/work/browser/dist/errors.min.js -> /output/errors.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/errors.min.js -> /output/errors.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/errors.js -> /output/errors.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/errors.js.br /tmp/work/browser/dist/errors.js
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/doc/directives.min.js -> /output/doc/directives.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/doc/directives.min.js.br /tmp/work/browser/dist/doc/directives.min.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/errors.js -> /output/errors.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/errors.js -> /output/errors.js.gz
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/nodes/Pair.min.js /tmp/work/browser/dist/nodes/Pair.js]
+2025/01/01 19:30:25 br /tmp/work/browser/dist/doc/directives.min.js -> /output/doc/directives.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/doc/directives.min.js -> /output/doc/directives.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/doc/directives.js -> /output/doc/directives.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/doc/directives.js.br /tmp/work/browser/dist/doc/directives.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/doc/directives.js -> /output/doc/directives.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/doc/directives.js -> /output/doc/directives.js.gz
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/nodes/Scalar.min.js /tmp/work/browser/dist/nodes/Scalar.js]
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/nodes/addPairToJSMap.min.js -> /output/nodes/addPairToJSMap.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nodes/addPairToJSMap.min.js.br /tmp/work/browser/dist/nodes/addPairToJSMap.min.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/nodes/addPairToJSMap.min.js -> /output/nodes/addPairToJSMap.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/nodes/addPairToJSMap.min.js -> /output/nodes/addPairToJSMap.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/nodes/addPairToJSMap.js -> /output/nodes/addPairToJSMap.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nodes/addPairToJSMap.js.br /tmp/work/browser/dist/nodes/addPairToJSMap.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/nodes/addPairToJSMap.js -> /output/nodes/addPairToJSMap.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/nodes/addPairToJSMap.js -> /output/nodes/addPairToJSMap.js.gz
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/nodes/toJS.min.js /tmp/work/browser/dist/nodes/toJS.js]
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/doc/Document.min.js -> /output/doc/Document.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/doc/Document.min.js.br /tmp/work/browser/dist/doc/Document.min.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/doc/Document.min.js -> /output/doc/Document.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/doc/Document.min.js -> /output/doc/Document.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/doc/Document.js -> /output/doc/Document.js.sri
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/nodes/identity.min.js -> /output/nodes/identity.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/doc/Document.js.br /tmp/work/browser/dist/doc/Document.js
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nodes/identity.min.js.br /tmp/work/browser/dist/nodes/identity.min.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/nodes/identity.min.js -> /output/nodes/identity.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/nodes/identity.min.js -> /output/nodes/identity.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/nodes/identity.js -> /output/nodes/identity.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nodes/identity.js.br /tmp/work/browser/dist/nodes/identity.js
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/nodes/Alias.min.js -> /output/nodes/Alias.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nodes/Alias.min.js.br /tmp/work/browser/dist/nodes/Alias.min.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/nodes/identity.js -> /output/nodes/identity.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/nodes/identity.js -> /output/nodes/identity.js.gz
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/nodes/YAMLMap.min.js /tmp/work/browser/dist/nodes/YAMLMap.js]
+2025/01/01 19:30:25 br /tmp/work/browser/dist/nodes/Alias.min.js -> /output/nodes/Alias.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/nodes/Alias.min.js -> /output/nodes/Alias.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/nodes/Alias.js -> /output/nodes/Alias.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nodes/Alias.js.br /tmp/work/browser/dist/nodes/Alias.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/nodes/Alias.js -> /output/nodes/Alias.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/nodes/Alias.js -> /output/nodes/Alias.js.gz
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/nodes/YAMLSeq.min.js /tmp/work/browser/dist/nodes/YAMLSeq.js]
+2025/01/01 19:30:25 br /tmp/work/browser/dist/doc/Document.js -> /output/doc/Document.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/doc/Document.js -> /output/doc/Document.js.gz
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/parse/cst-scalar.min.js /tmp/work/browser/dist/parse/cst-scalar.js]
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/nodes/Node.min.js -> /output/nodes/Node.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nodes/Node.min.js.br /tmp/work/browser/dist/nodes/Node.min.js
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/nodes/Collection.min.js -> /output/nodes/Collection.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nodes/Collection.min.js.br /tmp/work/browser/dist/nodes/Collection.min.js
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/nodes/Pair.min.js -> /output/nodes/Pair.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nodes/Pair.min.js.br /tmp/work/browser/dist/nodes/Pair.min.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/nodes/Node.min.js -> /output/nodes/Node.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/nodes/Node.min.js -> /output/nodes/Node.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/nodes/Node.js -> /output/nodes/Node.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nodes/Node.js.br /tmp/work/browser/dist/nodes/Node.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/nodes/Pair.min.js -> /output/nodes/Pair.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/nodes/Pair.min.js -> /output/nodes/Pair.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/nodes/Pair.js -> /output/nodes/Pair.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nodes/Pair.js.br /tmp/work/browser/dist/nodes/Pair.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/nodes/Node.js -> /output/nodes/Node.js.br
+2025/01/01 19:30:25 br /tmp/work/browser/dist/nodes/Collection.min.js -> /output/nodes/Collection.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/nodes/Node.js -> /output/nodes/Node.js.gz
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/parse/cst-stringify.min.js /tmp/work/browser/dist/parse/cst-stringify.js]
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/nodes/Collection.min.js -> /output/nodes/Collection.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/nodes/Collection.js -> /output/nodes/Collection.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nodes/Collection.js.br /tmp/work/browser/dist/nodes/Collection.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/nodes/Pair.js -> /output/nodes/Pair.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/nodes/Pair.js -> /output/nodes/Pair.js.gz
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/parse/cst-visit.min.js /tmp/work/browser/dist/parse/cst-visit.js]
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/nodes/Scalar.min.js -> /output/nodes/Scalar.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nodes/Scalar.min.js.br /tmp/work/browser/dist/nodes/Scalar.min.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/nodes/Scalar.min.js -> /output/nodes/Scalar.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/nodes/Scalar.min.js -> /output/nodes/Scalar.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/nodes/Scalar.js -> /output/nodes/Scalar.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nodes/Scalar.js.br /tmp/work/browser/dist/nodes/Scalar.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/nodes/Collection.js -> /output/nodes/Collection.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/nodes/Collection.js -> /output/nodes/Collection.js.gz
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/parse/cst.min.js /tmp/work/browser/dist/parse/cst.js]
+2025/01/01 19:30:25 br /tmp/work/browser/dist/nodes/Scalar.js -> /output/nodes/Scalar.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/nodes/Scalar.js -> /output/nodes/Scalar.js.gz
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/parse/lexer.min.js /tmp/work/browser/dist/parse/lexer.js]
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/nodes/toJS.min.js -> /output/nodes/toJS.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nodes/toJS.min.js.br /tmp/work/browser/dist/nodes/toJS.min.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/nodes/toJS.min.js -> /output/nodes/toJS.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/nodes/toJS.min.js -> /output/nodes/toJS.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/nodes/toJS.js -> /output/nodes/toJS.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nodes/toJS.js.br /tmp/work/browser/dist/nodes/toJS.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/nodes/toJS.js -> /output/nodes/toJS.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/nodes/toJS.js -> /output/nodes/toJS.js.gz
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/parse/line-counter.min.js /tmp/work/browser/dist/parse/line-counter.js]
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/nodes/YAMLSeq.min.js -> /output/nodes/YAMLSeq.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nodes/YAMLSeq.min.js.br /tmp/work/browser/dist/nodes/YAMLSeq.min.js
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/parse/cst-stringify.min.js -> /output/parse/cst-stringify.min.js.sri
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/nodes/YAMLMap.min.js -> /output/nodes/YAMLMap.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parse/cst-stringify.min.js.br /tmp/work/browser/dist/parse/cst-stringify.min.js
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nodes/YAMLMap.min.js.br /tmp/work/browser/dist/nodes/YAMLMap.min.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/nodes/YAMLSeq.min.js -> /output/nodes/YAMLSeq.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/nodes/YAMLSeq.min.js -> /output/nodes/YAMLSeq.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/nodes/YAMLSeq.js -> /output/nodes/YAMLSeq.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nodes/YAMLSeq.js.br /tmp/work/browser/dist/nodes/YAMLSeq.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/parse/cst-stringify.min.js -> /output/parse/cst-stringify.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/parse/cst-stringify.min.js -> /output/parse/cst-stringify.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/parse/cst-stringify.js -> /output/parse/cst-stringify.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parse/cst-stringify.js.br /tmp/work/browser/dist/parse/cst-stringify.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/nodes/YAMLMap.min.js -> /output/nodes/YAMLMap.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/nodes/YAMLMap.min.js -> /output/nodes/YAMLMap.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/nodes/YAMLMap.js -> /output/nodes/YAMLMap.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/nodes/YAMLMap.js.br /tmp/work/browser/dist/nodes/YAMLMap.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/parse/cst-stringify.js -> /output/parse/cst-stringify.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/parse/cst-stringify.js -> /output/parse/cst-stringify.js.gz
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/parse/parser.min.js /tmp/work/browser/dist/parse/parser.js]
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/parse/cst.min.js -> /output/parse/cst.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parse/cst.min.js.br /tmp/work/browser/dist/parse/cst.min.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/nodes/YAMLSeq.js -> /output/nodes/YAMLSeq.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/nodes/YAMLSeq.js -> /output/nodes/YAMLSeq.js.gz
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/public-api.min.js /tmp/work/browser/dist/public-api.js]
+2025/01/01 19:30:25 br /tmp/work/browser/dist/parse/cst.min.js -> /output/parse/cst.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/parse/cst.min.js -> /output/parse/cst.min.js.gz
+2025/01/01 19:30:25 br /tmp/work/browser/dist/nodes/YAMLMap.js -> /output/nodes/YAMLMap.js.br
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/parse/cst.js -> /output/parse/cst.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parse/cst.js.br /tmp/work/browser/dist/parse/cst.js
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/nodes/YAMLMap.js -> /output/nodes/YAMLMap.js.gz
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/schema/common/map.min.js /tmp/work/browser/dist/schema/common/map.js]
+2025/01/01 19:30:25 br /tmp/work/browser/dist/parse/cst.js -> /output/parse/cst.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/parse/cst.js -> /output/parse/cst.js.gz
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/schema/common/null.min.js /tmp/work/browser/dist/schema/common/null.js]
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/parse/cst-visit.min.js -> /output/parse/cst-visit.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parse/cst-visit.min.js.br /tmp/work/browser/dist/parse/cst-visit.min.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/parse/cst-visit.min.js -> /output/parse/cst-visit.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/parse/cst-visit.min.js -> /output/parse/cst-visit.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/parse/cst-visit.js -> /output/parse/cst-visit.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parse/cst-visit.js.br /tmp/work/browser/dist/parse/cst-visit.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/parse/cst-visit.js -> /output/parse/cst-visit.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/parse/cst-visit.js -> /output/parse/cst-visit.js.gz
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/schema/common/seq.min.js /tmp/work/browser/dist/schema/common/seq.js]
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/parse/cst-scalar.min.js -> /output/parse/cst-scalar.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parse/cst-scalar.min.js.br /tmp/work/browser/dist/parse/cst-scalar.min.js
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/parse/line-counter.min.js -> /output/parse/line-counter.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parse/line-counter.min.js.br /tmp/work/browser/dist/parse/line-counter.min.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/parse/line-counter.min.js -> /output/parse/line-counter.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/parse/line-counter.min.js -> /output/parse/line-counter.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/parse/line-counter.js -> /output/parse/line-counter.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parse/line-counter.js.br /tmp/work/browser/dist/parse/line-counter.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/parse/cst-scalar.min.js -> /output/parse/cst-scalar.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/parse/cst-scalar.min.js -> /output/parse/cst-scalar.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/parse/cst-scalar.js -> /output/parse/cst-scalar.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parse/cst-scalar.js.br /tmp/work/browser/dist/parse/cst-scalar.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/parse/line-counter.js -> /output/parse/line-counter.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/parse/line-counter.js -> /output/parse/line-counter.js.gz
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/schema/common/string.min.js /tmp/work/browser/dist/schema/common/string.js]
+2025/01/01 19:30:25 br /tmp/work/browser/dist/parse/cst-scalar.js -> /output/parse/cst-scalar.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/parse/cst-scalar.js -> /output/parse/cst-scalar.js.gz
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/schema/core/bool.min.js /tmp/work/browser/dist/schema/core/bool.js]
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/schema/common/map.min.js -> /output/schema/common/map.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/common/map.min.js.br /tmp/work/browser/dist/schema/common/map.min.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/schema/common/map.min.js -> /output/schema/common/map.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/schema/common/map.min.js -> /output/schema/common/map.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/schema/common/map.js -> /output/schema/common/map.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/common/map.js.br /tmp/work/browser/dist/schema/common/map.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/schema/common/map.js -> /output/schema/common/map.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/schema/common/map.js -> /output/schema/common/map.js.gz
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/schema/core/float.min.js /tmp/work/browser/dist/schema/core/float.js]
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/schema/common/null.min.js -> /output/schema/common/null.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/common/null.min.js.br /tmp/work/browser/dist/schema/common/null.min.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/schema/common/null.min.js -> /output/schema/common/null.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/schema/common/null.min.js -> /output/schema/common/null.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/schema/common/null.js -> /output/schema/common/null.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/common/null.js.br /tmp/work/browser/dist/schema/common/null.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/schema/common/null.js -> /output/schema/common/null.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/schema/common/null.js -> /output/schema/common/null.js.gz
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/schema/core/int.min.js /tmp/work/browser/dist/schema/core/int.js]
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/schema/common/seq.min.js -> /output/schema/common/seq.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/common/seq.min.js.br /tmp/work/browser/dist/schema/common/seq.min.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/schema/common/seq.min.js -> /output/schema/common/seq.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/schema/common/seq.min.js -> /output/schema/common/seq.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/schema/common/seq.js -> /output/schema/common/seq.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/common/seq.js.br /tmp/work/browser/dist/schema/common/seq.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/schema/common/seq.js -> /output/schema/common/seq.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/schema/common/seq.js -> /output/schema/common/seq.js.gz
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/schema/core/schema.min.js /tmp/work/browser/dist/schema/core/schema.js]
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/schema/common/string.min.js -> /output/schema/common/string.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/common/string.min.js.br /tmp/work/browser/dist/schema/common/string.min.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/schema/common/string.min.js -> /output/schema/common/string.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/schema/common/string.min.js -> /output/schema/common/string.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/schema/common/string.js -> /output/schema/common/string.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/common/string.js.br /tmp/work/browser/dist/schema/common/string.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/schema/common/string.js -> /output/schema/common/string.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/schema/common/string.js -> /output/schema/common/string.js.gz
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/schema/json/schema.min.js /tmp/work/browser/dist/schema/json/schema.js]
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/public-api.min.js -> /output/public-api.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/public-api.min.js.br /tmp/work/browser/dist/public-api.min.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/public-api.min.js -> /output/public-api.min.js.br
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/schema/core/bool.min.js -> /output/schema/core/bool.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/core/bool.min.js.br /tmp/work/browser/dist/schema/core/bool.min.js
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/public-api.min.js -> /output/public-api.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/public-api.js -> /output/public-api.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/public-api.js.br /tmp/work/browser/dist/public-api.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/schema/core/bool.min.js -> /output/schema/core/bool.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/schema/core/bool.min.js -> /output/schema/core/bool.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/schema/core/bool.js -> /output/schema/core/bool.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/core/bool.js.br /tmp/work/browser/dist/schema/core/bool.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/schema/core/bool.js -> /output/schema/core/bool.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/schema/core/bool.js -> /output/schema/core/bool.js.gz
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/schema/Schema.min.js /tmp/work/browser/dist/schema/Schema.js]
+2025/01/01 19:30:25 br /tmp/work/browser/dist/public-api.js -> /output/public-api.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/public-api.js -> /output/public-api.js.gz
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/schema/tags.min.js /tmp/work/browser/dist/schema/tags.js]
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/schema/core/float.min.js -> /output/schema/core/float.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/core/float.min.js.br /tmp/work/browser/dist/schema/core/float.min.js
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/schema/core/schema.min.js -> /output/schema/core/schema.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/core/schema.min.js.br /tmp/work/browser/dist/schema/core/schema.min.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/schema/core/float.min.js -> /output/schema/core/float.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/schema/core/float.min.js -> /output/schema/core/float.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/schema/core/float.js -> /output/schema/core/float.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/core/float.js.br /tmp/work/browser/dist/schema/core/float.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/schema/core/schema.min.js -> /output/schema/core/schema.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/schema/core/schema.min.js -> /output/schema/core/schema.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/schema/core/schema.js -> /output/schema/core/schema.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/core/schema.js.br /tmp/work/browser/dist/schema/core/schema.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/schema/core/schema.js -> /output/schema/core/schema.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/schema/core/schema.js -> /output/schema/core/schema.js.gz
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/schema/yaml-1.1/binary.min.js /tmp/work/browser/dist/schema/yaml-1.1/binary.js]
+2025/01/01 19:30:25 br /tmp/work/browser/dist/schema/core/float.js -> /output/schema/core/float.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/schema/core/float.js -> /output/schema/core/float.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/schema/core/int.min.js -> /output/schema/core/int.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/core/int.min.js.br /tmp/work/browser/dist/schema/core/int.min.js
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/schema/yaml-1.1/bool.min.js /tmp/work/browser/dist/schema/yaml-1.1/bool.js]
+2025/01/01 19:30:25 br /tmp/work/browser/dist/schema/core/int.min.js -> /output/schema/core/int.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/schema/core/int.min.js -> /output/schema/core/int.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/schema/core/int.js -> /output/schema/core/int.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/core/int.js.br /tmp/work/browser/dist/schema/core/int.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/schema/core/int.js -> /output/schema/core/int.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/schema/core/int.js -> /output/schema/core/int.js.gz
+2025/01/01 19:30:25 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/schema/yaml-1.1/float.min.js /tmp/work/browser/dist/schema/yaml-1.1/float.js]
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/parse/lexer.min.js -> /output/parse/lexer.min.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parse/lexer.min.js.br /tmp/work/browser/dist/parse/lexer.min.js
+2025/01/01 19:30:25 br /tmp/work/browser/dist/parse/lexer.min.js -> /output/parse/lexer.min.js.br
+2025/01/01 19:30:25 gz /tmp/work/browser/dist/parse/lexer.min.js -> /output/parse/lexer.min.js.gz
+2025/01/01 19:30:25 sri /tmp/work/browser/dist/parse/lexer.js -> /output/parse/lexer.js.sri
+2025/01/01 19:30:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parse/lexer.js.br /tmp/work/browser/dist/parse/lexer.js
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/schema/json/schema.min.js -> /output/schema/json/schema.min.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/json/schema.min.js.br /tmp/work/browser/dist/schema/json/schema.min.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/schema/json/schema.min.js -> /output/schema/json/schema.min.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/schema/json/schema.min.js -> /output/schema/json/schema.min.js.gz
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/schema/json/schema.js -> /output/schema/json/schema.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/json/schema.js.br /tmp/work/browser/dist/schema/json/schema.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/schema/json/schema.js -> /output/schema/json/schema.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/schema/json/schema.js -> /output/schema/json/schema.js.gz
+2025/01/01 19:30:26 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/schema/yaml-1.1/int.min.js /tmp/work/browser/dist/schema/yaml-1.1/int.js]
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/schema/Schema.min.js -> /output/schema/Schema.min.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/Schema.min.js.br /tmp/work/browser/dist/schema/Schema.min.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/schema/Schema.min.js -> /output/schema/Schema.min.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/schema/Schema.min.js -> /output/schema/Schema.min.js.gz
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/schema/Schema.js -> /output/schema/Schema.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/Schema.js.br /tmp/work/browser/dist/schema/Schema.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/parse/lexer.js -> /output/parse/lexer.js.br
+2025/01/01 19:30:26 br /tmp/work/browser/dist/schema/Schema.js -> /output/schema/Schema.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/schema/Schema.js -> /output/schema/Schema.js.gz
+2025/01/01 19:30:26 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/schema/yaml-1.1/merge.min.js /tmp/work/browser/dist/schema/yaml-1.1/merge.js]
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/parse/lexer.js -> /output/parse/lexer.js.gz
+2025/01/01 19:30:26 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/schema/yaml-1.1/omap.min.js /tmp/work/browser/dist/schema/yaml-1.1/omap.js]
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/schema/tags.min.js -> /output/schema/tags.min.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/tags.min.js.br /tmp/work/browser/dist/schema/tags.min.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/schema/tags.min.js -> /output/schema/tags.min.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/schema/tags.min.js -> /output/schema/tags.min.js.gz
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/schema/tags.js -> /output/schema/tags.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/tags.js.br /tmp/work/browser/dist/schema/tags.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/schema/tags.js -> /output/schema/tags.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/schema/tags.js -> /output/schema/tags.js.gz
+2025/01/01 19:30:26 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/schema/yaml-1.1/pairs.min.js /tmp/work/browser/dist/schema/yaml-1.1/pairs.js]
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/schema/yaml-1.1/bool.min.js -> /output/schema/yaml-1.1/bool.min.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/yaml-1.1/bool.min.js.br /tmp/work/browser/dist/schema/yaml-1.1/bool.min.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/schema/yaml-1.1/bool.min.js -> /output/schema/yaml-1.1/bool.min.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/schema/yaml-1.1/bool.min.js -> /output/schema/yaml-1.1/bool.min.js.gz
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/schema/yaml-1.1/bool.js -> /output/schema/yaml-1.1/bool.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/yaml-1.1/bool.js.br /tmp/work/browser/dist/schema/yaml-1.1/bool.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/schema/yaml-1.1/bool.js -> /output/schema/yaml-1.1/bool.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/schema/yaml-1.1/bool.js -> /output/schema/yaml-1.1/bool.js.gz
+2025/01/01 19:30:26 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/schema/yaml-1.1/schema.min.js /tmp/work/browser/dist/schema/yaml-1.1/schema.js]
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/schema/yaml-1.1/binary.min.js -> /output/schema/yaml-1.1/binary.min.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/yaml-1.1/binary.min.js.br /tmp/work/browser/dist/schema/yaml-1.1/binary.min.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/schema/yaml-1.1/binary.min.js -> /output/schema/yaml-1.1/binary.min.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/schema/yaml-1.1/binary.min.js -> /output/schema/yaml-1.1/binary.min.js.gz
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/schema/yaml-1.1/float.min.js -> /output/schema/yaml-1.1/float.min.js.sri
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/schema/yaml-1.1/binary.js -> /output/schema/yaml-1.1/binary.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/yaml-1.1/binary.js.br /tmp/work/browser/dist/schema/yaml-1.1/binary.js
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/yaml-1.1/float.min.js.br /tmp/work/browser/dist/schema/yaml-1.1/float.min.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/schema/yaml-1.1/float.min.js -> /output/schema/yaml-1.1/float.min.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/schema/yaml-1.1/float.min.js -> /output/schema/yaml-1.1/float.min.js.gz
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/schema/yaml-1.1/float.js -> /output/schema/yaml-1.1/float.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/yaml-1.1/float.js.br /tmp/work/browser/dist/schema/yaml-1.1/float.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/schema/yaml-1.1/binary.js -> /output/schema/yaml-1.1/binary.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/schema/yaml-1.1/binary.js -> /output/schema/yaml-1.1/binary.js.gz
+2025/01/01 19:30:26 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/schema/yaml-1.1/set.min.js /tmp/work/browser/dist/schema/yaml-1.1/set.js]
+2025/01/01 19:30:26 br /tmp/work/browser/dist/schema/yaml-1.1/float.js -> /output/schema/yaml-1.1/float.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/schema/yaml-1.1/float.js -> /output/schema/yaml-1.1/float.js.gz
+2025/01/01 19:30:26 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/schema/yaml-1.1/timestamp.min.js /tmp/work/browser/dist/schema/yaml-1.1/timestamp.js]
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/schema/yaml-1.1/int.min.js -> /output/schema/yaml-1.1/int.min.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/yaml-1.1/int.min.js.br /tmp/work/browser/dist/schema/yaml-1.1/int.min.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/schema/yaml-1.1/int.min.js -> /output/schema/yaml-1.1/int.min.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/schema/yaml-1.1/int.min.js -> /output/schema/yaml-1.1/int.min.js.gz
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/schema/yaml-1.1/int.js -> /output/schema/yaml-1.1/int.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/yaml-1.1/int.js.br /tmp/work/browser/dist/schema/yaml-1.1/int.js
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/schema/yaml-1.1/merge.min.js -> /output/schema/yaml-1.1/merge.min.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/yaml-1.1/merge.min.js.br /tmp/work/browser/dist/schema/yaml-1.1/merge.min.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/schema/yaml-1.1/int.js -> /output/schema/yaml-1.1/int.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/schema/yaml-1.1/int.js -> /output/schema/yaml-1.1/int.js.gz
+2025/01/01 19:30:26 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/stringify/foldFlowLines.min.js /tmp/work/browser/dist/stringify/foldFlowLines.js]
+2025/01/01 19:30:26 br /tmp/work/browser/dist/schema/yaml-1.1/merge.min.js -> /output/schema/yaml-1.1/merge.min.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/schema/yaml-1.1/merge.min.js -> /output/schema/yaml-1.1/merge.min.js.gz
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/schema/yaml-1.1/merge.js -> /output/schema/yaml-1.1/merge.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/yaml-1.1/merge.js.br /tmp/work/browser/dist/schema/yaml-1.1/merge.js
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/schema/yaml-1.1/schema.min.js -> /output/schema/yaml-1.1/schema.min.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/yaml-1.1/schema.min.js.br /tmp/work/browser/dist/schema/yaml-1.1/schema.min.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/schema/yaml-1.1/schema.min.js -> /output/schema/yaml-1.1/schema.min.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/schema/yaml-1.1/schema.min.js -> /output/schema/yaml-1.1/schema.min.js.gz
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/schema/yaml-1.1/schema.js -> /output/schema/yaml-1.1/schema.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/yaml-1.1/schema.js.br /tmp/work/browser/dist/schema/yaml-1.1/schema.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/schema/yaml-1.1/merge.js -> /output/schema/yaml-1.1/merge.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/schema/yaml-1.1/merge.js -> /output/schema/yaml-1.1/merge.js.gz
+2025/01/01 19:30:26 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/stringify/stringify.min.js /tmp/work/browser/dist/stringify/stringify.js]
+2025/01/01 19:30:26 br /tmp/work/browser/dist/schema/yaml-1.1/schema.js -> /output/schema/yaml-1.1/schema.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/schema/yaml-1.1/schema.js -> /output/schema/yaml-1.1/schema.js.gz
+2025/01/01 19:30:26 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/stringify/stringifyCollection.min.js /tmp/work/browser/dist/stringify/stringifyCollection.js]
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/schema/yaml-1.1/omap.min.js -> /output/schema/yaml-1.1/omap.min.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/yaml-1.1/omap.min.js.br /tmp/work/browser/dist/schema/yaml-1.1/omap.min.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/schema/yaml-1.1/omap.min.js -> /output/schema/yaml-1.1/omap.min.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/schema/yaml-1.1/omap.min.js -> /output/schema/yaml-1.1/omap.min.js.gz
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/schema/yaml-1.1/omap.js -> /output/schema/yaml-1.1/omap.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/yaml-1.1/omap.js.br /tmp/work/browser/dist/schema/yaml-1.1/omap.js
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/parse/parser.min.js -> /output/parse/parser.min.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parse/parser.min.js.br /tmp/work/browser/dist/parse/parser.min.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/schema/yaml-1.1/omap.js -> /output/schema/yaml-1.1/omap.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/schema/yaml-1.1/omap.js -> /output/schema/yaml-1.1/omap.js.gz
+2025/01/01 19:30:26 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/stringify/stringifyComment.min.js /tmp/work/browser/dist/stringify/stringifyComment.js]
+2025/01/01 19:30:26 br /tmp/work/browser/dist/parse/parser.min.js -> /output/parse/parser.min.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/parse/parser.min.js -> /output/parse/parser.min.js.gz
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/parse/parser.js -> /output/parse/parser.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/parse/parser.js.br /tmp/work/browser/dist/parse/parser.js
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/schema/yaml-1.1/pairs.min.js -> /output/schema/yaml-1.1/pairs.min.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/yaml-1.1/pairs.min.js.br /tmp/work/browser/dist/schema/yaml-1.1/pairs.min.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/schema/yaml-1.1/pairs.min.js -> /output/schema/yaml-1.1/pairs.min.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/schema/yaml-1.1/pairs.min.js -> /output/schema/yaml-1.1/pairs.min.js.gz
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/schema/yaml-1.1/pairs.js -> /output/schema/yaml-1.1/pairs.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/yaml-1.1/pairs.js.br /tmp/work/browser/dist/schema/yaml-1.1/pairs.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/schema/yaml-1.1/pairs.js -> /output/schema/yaml-1.1/pairs.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/schema/yaml-1.1/pairs.js -> /output/schema/yaml-1.1/pairs.js.gz
+2025/01/01 19:30:26 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/stringify/stringifyDocument.min.js /tmp/work/browser/dist/stringify/stringifyDocument.js]
+2025/01/01 19:30:26 br /tmp/work/browser/dist/parse/parser.js -> /output/parse/parser.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/parse/parser.js -> /output/parse/parser.js.gz
+2025/01/01 19:30:26 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/stringify/stringifyNumber.min.js /tmp/work/browser/dist/stringify/stringifyNumber.js]
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/schema/yaml-1.1/set.min.js -> /output/schema/yaml-1.1/set.min.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/yaml-1.1/set.min.js.br /tmp/work/browser/dist/schema/yaml-1.1/set.min.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/schema/yaml-1.1/set.min.js -> /output/schema/yaml-1.1/set.min.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/schema/yaml-1.1/set.min.js -> /output/schema/yaml-1.1/set.min.js.gz
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/schema/yaml-1.1/set.js -> /output/schema/yaml-1.1/set.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/yaml-1.1/set.js.br /tmp/work/browser/dist/schema/yaml-1.1/set.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/schema/yaml-1.1/set.js -> /output/schema/yaml-1.1/set.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/schema/yaml-1.1/set.js -> /output/schema/yaml-1.1/set.js.gz
+2025/01/01 19:30:26 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/stringify/stringifyPair.min.js /tmp/work/browser/dist/stringify/stringifyPair.js]
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/schema/yaml-1.1/timestamp.min.js -> /output/schema/yaml-1.1/timestamp.min.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/yaml-1.1/timestamp.min.js.br /tmp/work/browser/dist/schema/yaml-1.1/timestamp.min.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/schema/yaml-1.1/timestamp.min.js -> /output/schema/yaml-1.1/timestamp.min.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/schema/yaml-1.1/timestamp.min.js -> /output/schema/yaml-1.1/timestamp.min.js.gz
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/schema/yaml-1.1/timestamp.js -> /output/schema/yaml-1.1/timestamp.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/schema/yaml-1.1/timestamp.js.br /tmp/work/browser/dist/schema/yaml-1.1/timestamp.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/schema/yaml-1.1/timestamp.js -> /output/schema/yaml-1.1/timestamp.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/schema/yaml-1.1/timestamp.js -> /output/schema/yaml-1.1/timestamp.js.gz
+2025/01/01 19:30:26 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/stringify/stringifyString.min.js /tmp/work/browser/dist/stringify/stringifyString.js]
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/stringify/stringifyComment.min.js -> /output/stringify/stringifyComment.min.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/stringify/stringifyComment.min.js.br /tmp/work/browser/dist/stringify/stringifyComment.min.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/stringify/stringifyComment.min.js -> /output/stringify/stringifyComment.min.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/stringify/stringifyComment.min.js -> /output/stringify/stringifyComment.min.js.gz
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/stringify/stringifyComment.js -> /output/stringify/stringifyComment.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/stringify/stringifyComment.js.br /tmp/work/browser/dist/stringify/stringifyComment.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/stringify/stringifyComment.js -> /output/stringify/stringifyComment.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/stringify/stringifyComment.js -> /output/stringify/stringifyComment.js.gz
+2025/01/01 19:30:26 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/util.min.js /tmp/work/browser/dist/util.js]
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/stringify/stringify.min.js -> /output/stringify/stringify.min.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/stringify/stringify.min.js.br /tmp/work/browser/dist/stringify/stringify.min.js
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/stringify/foldFlowLines.min.js -> /output/stringify/foldFlowLines.min.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/stringify/foldFlowLines.min.js.br /tmp/work/browser/dist/stringify/foldFlowLines.min.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/stringify/foldFlowLines.min.js -> /output/stringify/foldFlowLines.min.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/stringify/foldFlowLines.min.js -> /output/stringify/foldFlowLines.min.js.gz
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/stringify/foldFlowLines.js -> /output/stringify/foldFlowLines.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/stringify/foldFlowLines.js.br /tmp/work/browser/dist/stringify/foldFlowLines.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/stringify/stringify.min.js -> /output/stringify/stringify.min.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/stringify/stringify.min.js -> /output/stringify/stringify.min.js.gz
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/stringify/stringify.js -> /output/stringify/stringify.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/stringify/stringify.js.br /tmp/work/browser/dist/stringify/stringify.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/stringify/foldFlowLines.js -> /output/stringify/foldFlowLines.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/stringify/foldFlowLines.js -> /output/stringify/foldFlowLines.js.gz
+2025/01/01 19:30:26 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/browser/dist/visit.min.js /tmp/work/browser/dist/visit.js]
+2025/01/01 19:30:26 br /tmp/work/browser/dist/stringify/stringify.js -> /output/stringify/stringify.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/stringify/stringify.js -> /output/stringify/stringify.js.gz
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/stringify/stringifyDocument.min.js -> /output/stringify/stringifyDocument.min.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/stringify/stringifyDocument.min.js.br /tmp/work/browser/dist/stringify/stringifyDocument.min.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/stringify/stringifyDocument.min.js -> /output/stringify/stringifyDocument.min.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/stringify/stringifyDocument.min.js -> /output/stringify/stringifyDocument.min.js.gz
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/stringify/stringifyDocument.js -> /output/stringify/stringifyDocument.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/stringify/stringifyDocument.js.br /tmp/work/browser/dist/stringify/stringifyDocument.js
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/stringify/stringifyNumber.min.js -> /output/stringify/stringifyNumber.min.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/stringify/stringifyNumber.min.js.br /tmp/work/browser/dist/stringify/stringifyNumber.min.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/stringify/stringifyDocument.js -> /output/stringify/stringifyDocument.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/stringify/stringifyDocument.js -> /output/stringify/stringifyDocument.js.gz
+2025/01/01 19:30:26 br /tmp/work/browser/dist/stringify/stringifyNumber.min.js -> /output/stringify/stringifyNumber.min.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/stringify/stringifyNumber.min.js -> /output/stringify/stringifyNumber.min.js.gz
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/stringify/stringifyNumber.js -> /output/stringify/stringifyNumber.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/stringify/stringifyNumber.js.br /tmp/work/browser/dist/stringify/stringifyNumber.js
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/stringify/stringifyCollection.min.js -> /output/stringify/stringifyCollection.min.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/stringify/stringifyCollection.min.js.br /tmp/work/browser/dist/stringify/stringifyCollection.min.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/stringify/stringifyNumber.js -> /output/stringify/stringifyNumber.js.br
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/util.min.js -> /output/util.min.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/util.min.js.br /tmp/work/browser/dist/util.min.js
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/stringify/stringifyNumber.js -> /output/stringify/stringifyNumber.js.gz
+2025/01/01 19:30:26 br /tmp/work/browser/dist/util.min.js -> /output/util.min.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/util.min.js -> /output/util.min.js.gz
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/util.js -> /output/util.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/util.js.br /tmp/work/browser/dist/util.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/stringify/stringifyCollection.min.js -> /output/stringify/stringifyCollection.min.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/stringify/stringifyCollection.min.js -> /output/stringify/stringifyCollection.min.js.gz
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/stringify/stringifyCollection.js -> /output/stringify/stringifyCollection.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/stringify/stringifyCollection.js.br /tmp/work/browser/dist/stringify/stringifyCollection.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/util.js -> /output/util.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/util.js -> /output/util.js.gz
+2025/01/01 19:30:26 br /tmp/work/browser/dist/stringify/stringifyCollection.js -> /output/stringify/stringifyCollection.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/stringify/stringifyCollection.js -> /output/stringify/stringifyCollection.js.gz
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/stringify/stringifyPair.min.js -> /output/stringify/stringifyPair.min.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/stringify/stringifyPair.min.js.br /tmp/work/browser/dist/stringify/stringifyPair.min.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/stringify/stringifyPair.min.js -> /output/stringify/stringifyPair.min.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/stringify/stringifyPair.min.js -> /output/stringify/stringifyPair.min.js.gz
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/stringify/stringifyPair.js -> /output/stringify/stringifyPair.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/stringify/stringifyPair.js.br /tmp/work/browser/dist/stringify/stringifyPair.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/stringify/stringifyPair.js -> /output/stringify/stringifyPair.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/stringify/stringifyPair.js -> /output/stringify/stringifyPair.js.gz
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/stringify/stringifyString.min.js -> /output/stringify/stringifyString.min.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/stringify/stringifyString.min.js.br /tmp/work/browser/dist/stringify/stringifyString.min.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/stringify/stringifyString.min.js -> /output/stringify/stringifyString.min.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/stringify/stringifyString.min.js -> /output/stringify/stringifyString.min.js.gz
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/stringify/stringifyString.js -> /output/stringify/stringifyString.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/stringify/stringifyString.js.br /tmp/work/browser/dist/stringify/stringifyString.js
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/visit.min.js -> /output/visit.min.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/visit.min.js.br /tmp/work/browser/dist/visit.min.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/visit.min.js -> /output/visit.min.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/visit.min.js -> /output/visit.min.js.gz
+2025/01/01 19:30:26 sri /tmp/work/browser/dist/visit.js -> /output/visit.js.sri
+2025/01/01 19:30:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/visit.js.br /tmp/work/browser/dist/visit.js
+2025/01/01 19:30:26 br /tmp/work/browser/dist/stringify/stringifyString.js -> /output/stringify/stringifyString.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/stringify/stringifyString.js -> /output/stringify/stringifyString.js.gz
+2025/01/01 19:30:26 br /tmp/work/browser/dist/visit.js -> /output/visit.js.br
+2025/01/01 19:30:26 gz /tmp/work/browser/dist/visit.js -> /output/visit.js.gz
+2025/01/01 19:30:26 processed yaml
