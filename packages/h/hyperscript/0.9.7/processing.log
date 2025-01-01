@@ -1,0 +1,113 @@
+2025/01/01 23:07:59 ExtractTarGz: uknown type: 67 in pax_global_header
+2025/01/01 23:08:00 optimizing files (Js true, Css true, Png true, Jpg true)
+2025/01/01 23:08:00 /tmp/work/dist/_hyperscript.min.js is already compressed
+2025/01/01 23:08:00 /tmp/work/dist/hdb.min.js already has corresponding compressed file
+2025/01/01 23:08:00 /tmp/work/dist/_hyperscript.min.js already has corresponding compressed file
+2025/01/01 23:08:00 /tmp/work/dist/hdb.min.js is already compressed
+2025/01/01 23:08:00 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/node-hyperscript.min.js /tmp/work/dist/node-hyperscript.js]
+2025/01/01 23:08:00 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/deno-hyperscript.min.js /tmp/work/dist/deno-hyperscript.js]
+2025/01/01 23:08:00 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/bin/node-hyperscript.min.js /tmp/work/dist/bin/node-hyperscript.js]
+2025/01/01 23:08:00 sri /tmp/work/dist/hdb.js -> /output/hdb.js.sri
+2025/01/01 23:08:00 sri /tmp/work/dist/hdb.min.js -> /output/hdb.min.js.sri
+2025/01/01 23:08:00 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/eventsource.min.js /tmp/work/dist/eventsource.js]
+2025/01/01 23:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hdb.js.br /tmp/work/dist/hdb.js
+2025/01/01 23:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hdb.min.js.br /tmp/work/dist/hdb.min.js
+2025/01/01 23:08:00 sri /tmp/work/dist/_hyperscript.min.js -> /output/_hyperscript.min.js.sri
+2025/01/01 23:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/_hyperscript.min.js.br /tmp/work/dist/_hyperscript.min.js
+2025/01/01 23:08:00 sri /tmp/work/dist/_hyperscript.js -> /output/_hyperscript.js.sri
+2025/01/01 23:08:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/_hyperscript.js.br /tmp/work/dist/_hyperscript.js
+2025/01/01 23:08:00 br /tmp/work/dist/hdb.min.js -> /output/hdb.min.js.br
+2025/01/01 23:08:00 gz /tmp/work/dist/hdb.min.js -> /output/hdb.min.js.gz
+2025/01/01 23:08:00 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/socket.min.js /tmp/work/dist/socket.js]
+2025/01/01 23:08:00 br /tmp/work/dist/hdb.js -> /output/hdb.js.br
+2025/01/01 23:08:00 gz /tmp/work/dist/hdb.js -> /output/hdb.js.gz
+2025/01/01 23:08:00 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/template.min.js /tmp/work/dist/template.js]
+2025/01/01 23:08:01 failed with exit status 1: Parse error at /tmp/work/dist/deno-hyperscript.js:4,6
+await import('./_hyperscript.js');
+      ^
+ERROR: Unexpected token: name «import», expected: punc «;»
+    at JS_Parse_Error.get (eval at <anonymous> (/node_modules/uglify-js/tools/node.js:18:1), <anonymous>:63:23)
+    at fatal (/node_modules/uglify-js/bin/uglifyjs:480:27)
+    at run (/node_modules/uglify-js/bin/uglifyjs:415:9)
+    at Object.<anonymous> (/node_modules/uglify-js/bin/uglifyjs:294:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+
+2025/01/01 23:08:01 compress: run /node_modules/uglify-es/bin/uglifyjs (3.3.10) [--mangle --compress if_return=true -o /tmp/work/dist/deno-hyperscript.min.js /tmp/work/dist/deno-hyperscript.js]
+2025/01/01 23:08:01 br /tmp/work/dist/_hyperscript.min.js -> /output/_hyperscript.min.js.br
+2025/01/01 23:08:01 gz /tmp/work/dist/_hyperscript.min.js -> /output/_hyperscript.min.js.gz
+2025/01/01 23:08:01 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/worker.min.js /tmp/work/dist/worker.js]
+2025/01/01 23:08:01 sri /tmp/work/dist/bin/node-hyperscript.min.js -> /output/bin/node-hyperscript.min.js.sri
+2025/01/01 23:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/bin/node-hyperscript.min.js.br /tmp/work/dist/bin/node-hyperscript.min.js
+2025/01/01 23:08:01 sri /tmp/work/dist/node-hyperscript.min.js -> /output/node-hyperscript.min.js.sri
+2025/01/01 23:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/node-hyperscript.min.js.br /tmp/work/dist/node-hyperscript.min.js
+2025/01/01 23:08:01 br /tmp/work/dist/bin/node-hyperscript.min.js -> /output/bin/node-hyperscript.min.js.br
+2025/01/01 23:08:01 gz /tmp/work/dist/bin/node-hyperscript.min.js -> /output/bin/node-hyperscript.min.js.gz
+2025/01/01 23:08:01 sri /tmp/work/dist/bin/node-hyperscript.js -> /output/bin/node-hyperscript.js.sri
+2025/01/01 23:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/bin/node-hyperscript.js.br /tmp/work/dist/bin/node-hyperscript.js
+2025/01/01 23:08:01 br /tmp/work/dist/node-hyperscript.min.js -> /output/node-hyperscript.min.js.br
+2025/01/01 23:08:01 gz /tmp/work/dist/node-hyperscript.min.js -> /output/node-hyperscript.min.js.gz
+2025/01/01 23:08:01 sri /tmp/work/dist/node-hyperscript.js -> /output/node-hyperscript.js.sri
+2025/01/01 23:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/node-hyperscript.js.br /tmp/work/dist/node-hyperscript.js
+2025/01/01 23:08:01 br /tmp/work/dist/bin/node-hyperscript.js -> /output/bin/node-hyperscript.js.br
+2025/01/01 23:08:01 br /tmp/work/dist/node-hyperscript.js -> /output/node-hyperscript.js.br
+2025/01/01 23:08:01 gz /tmp/work/dist/bin/node-hyperscript.js -> /output/bin/node-hyperscript.js.gz
+2025/01/01 23:08:01 gz /tmp/work/dist/node-hyperscript.js -> /output/node-hyperscript.js.gz
+2025/01/01 23:08:01 failed with exit status 1: Parse error at /tmp/work/dist/deno-hyperscript.js:4,6
+await import('./_hyperscript.js');
+      ^
+ERROR: Unexpected token: name (import)
+    at JS_Parse_Error.get (eval at <anonymous> (/node_modules/uglify-es/tools/node.js:21:1), <anonymous>:75:23)
+    at fatal (/node_modules/uglify-es/bin/uglifyjs:300:53)
+    at run (/node_modules/uglify-es/bin/uglifyjs:239:9)
+    at Object.<anonymous> (/node_modules/uglify-es/bin/uglifyjs:169:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+
+2025/01/01 23:08:01 sri /tmp/work/dist/deno-hyperscript.js -> /output/deno-hyperscript.js.sri
+2025/01/01 23:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/deno-hyperscript.js.br /tmp/work/dist/deno-hyperscript.js
+2025/01/01 23:08:01 br /tmp/work/dist/deno-hyperscript.js -> /output/deno-hyperscript.js.br
+2025/01/01 23:08:01 gz /tmp/work/dist/deno-hyperscript.js -> /output/deno-hyperscript.js.gz
+2025/01/01 23:08:01 sri /tmp/work/dist/template.min.js -> /output/template.min.js.sri
+2025/01/01 23:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template.min.js.br /tmp/work/dist/template.min.js
+2025/01/01 23:08:01 br /tmp/work/dist/template.min.js -> /output/template.min.js.br
+2025/01/01 23:08:01 gz /tmp/work/dist/template.min.js -> /output/template.min.js.gz
+2025/01/01 23:08:01 sri /tmp/work/dist/template.js -> /output/template.js.sri
+2025/01/01 23:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/template.js.br /tmp/work/dist/template.js
+2025/01/01 23:08:01 br /tmp/work/dist/template.js -> /output/template.js.br
+2025/01/01 23:08:01 gz /tmp/work/dist/template.js -> /output/template.js.gz
+2025/01/01 23:08:01 sri /tmp/work/dist/eventsource.min.js -> /output/eventsource.min.js.sri
+2025/01/01 23:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/eventsource.min.js.br /tmp/work/dist/eventsource.min.js
+2025/01/01 23:08:01 br /tmp/work/dist/eventsource.min.js -> /output/eventsource.min.js.br
+2025/01/01 23:08:01 gz /tmp/work/dist/eventsource.min.js -> /output/eventsource.min.js.gz
+2025/01/01 23:08:01 sri /tmp/work/dist/eventsource.js -> /output/eventsource.js.sri
+2025/01/01 23:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/eventsource.js.br /tmp/work/dist/eventsource.js
+2025/01/01 23:08:01 br /tmp/work/dist/eventsource.js -> /output/eventsource.js.br
+2025/01/01 23:08:01 gz /tmp/work/dist/eventsource.js -> /output/eventsource.js.gz
+2025/01/01 23:08:01 sri /tmp/work/dist/socket.min.js -> /output/socket.min.js.sri
+2025/01/01 23:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/socket.min.js.br /tmp/work/dist/socket.min.js
+2025/01/01 23:08:01 br /tmp/work/dist/socket.min.js -> /output/socket.min.js.br
+2025/01/01 23:08:01 gz /tmp/work/dist/socket.min.js -> /output/socket.min.js.gz
+2025/01/01 23:08:01 sri /tmp/work/dist/socket.js -> /output/socket.js.sri
+2025/01/01 23:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/socket.js.br /tmp/work/dist/socket.js
+2025/01/01 23:08:01 br /tmp/work/dist/socket.js -> /output/socket.js.br
+2025/01/01 23:08:01 gz /tmp/work/dist/socket.js -> /output/socket.js.gz
+2025/01/01 23:08:01 sri /tmp/work/dist/worker.min.js -> /output/worker.min.js.sri
+2025/01/01 23:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/worker.min.js.br /tmp/work/dist/worker.min.js
+2025/01/01 23:08:01 br /tmp/work/dist/worker.min.js -> /output/worker.min.js.br
+2025/01/01 23:08:01 gz /tmp/work/dist/worker.min.js -> /output/worker.min.js.gz
+2025/01/01 23:08:01 sri /tmp/work/dist/worker.js -> /output/worker.js.sri
+2025/01/01 23:08:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/worker.js.br /tmp/work/dist/worker.js
+2025/01/01 23:08:01 br /tmp/work/dist/worker.js -> /output/worker.js.br
+2025/01/01 23:08:01 gz /tmp/work/dist/worker.js -> /output/worker.js.gz
+2025/01/01 23:08:01 br /tmp/work/dist/_hyperscript.js -> /output/_hyperscript.js.br
+2025/01/01 23:08:01 gz /tmp/work/dist/_hyperscript.js -> /output/_hyperscript.js.gz
+2025/01/01 23:08:01 processed hyperscript
