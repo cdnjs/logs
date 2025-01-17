@@ -1,0 +1,37 @@
+2025/01/17 11:51:05 optimizing files (Js true, Css true, Png true, Jpg true)
+2025/01/17 11:51:05 file duckdb-coi.wasm ignored due to byte size (35310579 > 26214400)
+2025/01/17 11:51:05 file duckdb-eh.wasm ignored due to byte size (35686060 > 26214400)
+2025/01/17 11:51:05 file duckdb-mvp.wasm ignored due to byte size (40658007 > 26214400)
+2025/01/17 11:51:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/duckdb-browser-blocking.cjs.br /tmp/work/dist/duckdb-browser-blocking.cjs
+2025/01/17 11:51:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/duckdb-browser-blocking.mjs.br /tmp/work/dist/duckdb-browser-blocking.mjs
+2025/01/17 11:51:05 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/duckdb-browser-coi.pthread.worker.min.js /tmp/work/dist/duckdb-browser-coi.pthread.worker.js]
+2025/01/17 11:51:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/duckdb-browser.cjs.br /tmp/work/dist/duckdb-browser.cjs
+2025/01/17 11:51:05 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/duckdb-browser-mvp.worker.min.js /tmp/work/dist/duckdb-browser-mvp.worker.js]
+2025/01/17 11:51:05 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/duckdb-browser-eh.worker.min.js /tmp/work/dist/duckdb-browser-eh.worker.js]
+2025/01/17 11:51:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/duckdb-browser.mjs.br /tmp/work/dist/duckdb-browser.mjs
+2025/01/17 11:51:05 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/duckdb-browser-coi.worker.min.js /tmp/work/dist/duckdb-browser-coi.worker.js]
+2025/01/17 11:51:05 br /tmp/work/dist/duckdb-browser.mjs -> /output/duckdb-browser.mjs.br
+2025/01/17 11:51:05 gz /tmp/work/dist/duckdb-browser.mjs -> /output/duckdb-browser.mjs.gz
+2025/01/17 11:51:05 br /tmp/work/dist/duckdb-browser.cjs -> /output/duckdb-browser.cjs.br
+2025/01/17 11:51:05 gz /tmp/work/dist/duckdb-browser.cjs -> /output/duckdb-browser.cjs.gz
+2025/01/17 11:51:07 br /tmp/work/dist/duckdb-browser-blocking.cjs -> /output/duckdb-browser-blocking.cjs.br
+2025/01/17 11:51:07 br /tmp/work/dist/duckdb-browser-blocking.mjs -> /output/duckdb-browser-blocking.mjs.br
+2025/01/17 11:51:07 gz /tmp/work/dist/duckdb-browser-blocking.cjs -> /output/duckdb-browser-blocking.cjs.gz
+2025/01/17 11:51:07 gz /tmp/work/dist/duckdb-browser-blocking.mjs -> /output/duckdb-browser-blocking.mjs.gz
+2025/01/17 11:51:12 sri /tmp/work/dist/duckdb-browser-coi.pthread.worker.min.js -> /output/duckdb-browser-coi.pthread.worker.min.js.sri
+2025/01/17 11:51:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/duckdb-browser-coi.pthread.worker.min.js.br /tmp/work/dist/duckdb-browser-coi.pthread.worker.min.js
+panic: exit status 1
+
+goroutine 42 [running]:
+github.com/cdnjs/tools/util.Check(...)
+	/go/src/github.com/util/check.go:10
+github.com/cdnjs/tools/compress.runAlgorithm(0x870280, 0xc000016060, 0x7f32f7, 0x6, 0xc000398d48, 0x3, 0x3, 0x44d9cc, 0x28, 0x77c920)
+	/go/src/github.com/compress/algorithm.go:28 +0x348
+github.com/cdnjs/tools/compress.Brotli11CLI(...)
+	/go/src/github.com/compress/algorithm.go:40
+main.optimizeJob.emitFromWorkspace(0x870280, 0xc000016060, 0x0, 0xc00007a240, 0x29, 0xc00007a090, 0x28, 0xc000596080, 0x37)
+	/go/src/github.com/cmd/process-version/main.go:105 +0x506
+main.optimizeWorker(0xc0001c4530, 0xc00005f440)
+	/go/src/github.com/cmd/process-version/main.go:232 +0x445
+created by main.optimizePackage
+	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
