@@ -1,389 +1,389 @@
-2025/03/18 03:31:51 optimizing files (Js true, Css true, Png true, Jpg true)
-2025/03/18 03:31:51 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/legacy/umd/dash.all.debug.min.js /tmp/work/dist/legacy/umd/dash.all.debug.js]
-2025/03/18 03:31:51 /tmp/work/dist/legacy/umd/dash.all.min.js is already compressed
-2025/03/18 03:31:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.all.min.js.LICENSE.txt.br /tmp/work/dist/legacy/umd/dash.all.min.js.LICENSE.txt
-2025/03/18 03:31:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.all.min.js.map.br /tmp/work/dist/legacy/umd/dash.all.min.js.map
-2025/03/18 03:31:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.mediaplayer.debug.js.map.br /tmp/work/dist/legacy/umd/dash.mediaplayer.debug.js.map
-2025/03/18 03:31:51 /tmp/work/dist/legacy/umd/dash.mediaplayer.min.js is already compressed
-2025/03/18 03:31:51 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/legacy/umd/dash.mediaplayer.debug.min.js /tmp/work/dist/legacy/umd/dash.mediaplayer.debug.js]
-2025/03/18 03:31:51 sri /tmp/work/dist/legacy/umd/dash.all.min.js -> /output/legacy/umd/dash.all.min.js.sri
-2025/03/18 03:31:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.all.min.js.br /tmp/work/dist/legacy/umd/dash.all.min.js
-2025/03/18 03:31:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.all.debug.js.map.br /tmp/work/dist/legacy/umd/dash.all.debug.js.map
-2025/03/18 03:31:51 br /tmp/work/dist/legacy/umd/dash.all.min.js.LICENSE.txt -> /output/legacy/umd/dash.all.min.js.LICENSE.txt.br
-2025/03/18 03:31:51 gz /tmp/work/dist/legacy/umd/dash.all.min.js.LICENSE.txt -> /output/legacy/umd/dash.all.min.js.LICENSE.txt.gz
-2025/03/18 03:31:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.mediaplayer.min.js.LICENSE.txt.br /tmp/work/dist/legacy/umd/dash.mediaplayer.min.js.LICENSE.txt
-2025/03/18 03:31:51 sri /tmp/work/dist/legacy/umd/dash.mediaplayer.min.js -> /output/legacy/umd/dash.mediaplayer.min.js.sri
-2025/03/18 03:31:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.mediaplayer.min.js.br /tmp/work/dist/legacy/umd/dash.mediaplayer.min.js
-2025/03/18 03:31:51 br /tmp/work/dist/legacy/umd/dash.mediaplayer.min.js.LICENSE.txt -> /output/legacy/umd/dash.mediaplayer.min.js.LICENSE.txt.br
-2025/03/18 03:31:51 gz /tmp/work/dist/legacy/umd/dash.mediaplayer.min.js.LICENSE.txt -> /output/legacy/umd/dash.mediaplayer.min.js.LICENSE.txt.gz
-2025/03/18 03:31:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.mediaplayer.min.js.map.br /tmp/work/dist/legacy/umd/dash.mediaplayer.min.js.map
-2025/03/18 03:32:08 br /tmp/work/dist/legacy/umd/dash.mediaplayer.min.js -> /output/legacy/umd/dash.mediaplayer.min.js.br
-2025/03/18 03:32:09 gz /tmp/work/dist/legacy/umd/dash.mediaplayer.min.js -> /output/legacy/umd/dash.mediaplayer.min.js.gz
-2025/03/18 03:32:09 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/legacy/umd/dash.mss.debug.min.js /tmp/work/dist/legacy/umd/dash.mss.debug.js]
-2025/03/18 03:32:09 br /tmp/work/dist/legacy/umd/dash.all.min.js -> /output/legacy/umd/dash.all.min.js.br
-2025/03/18 03:32:10 gz /tmp/work/dist/legacy/umd/dash.all.min.js -> /output/legacy/umd/dash.all.min.js.gz
-2025/03/18 03:32:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.mss.debug.js.map.br /tmp/work/dist/legacy/umd/dash.mss.debug.js.map
-2025/03/18 03:32:23 br /tmp/work/dist/legacy/umd/dash.mss.debug.js.map -> /output/legacy/umd/dash.mss.debug.js.map.br
-2025/03/18 03:32:24 gz /tmp/work/dist/legacy/umd/dash.mss.debug.js.map -> /output/legacy/umd/dash.mss.debug.js.map.gz
-2025/03/18 03:32:24 /tmp/work/dist/legacy/umd/dash.mss.min.js is already compressed
-2025/03/18 03:32:24 sri /tmp/work/dist/legacy/umd/dash.mss.min.js -> /output/legacy/umd/dash.mss.min.js.sri
-2025/03/18 03:32:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.mss.min.js.br /tmp/work/dist/legacy/umd/dash.mss.min.js
-2025/03/18 03:32:26 br /tmp/work/dist/legacy/umd/dash.mss.min.js -> /output/legacy/umd/dash.mss.min.js.br
-2025/03/18 03:32:26 gz /tmp/work/dist/legacy/umd/dash.mss.min.js -> /output/legacy/umd/dash.mss.min.js.gz
-2025/03/18 03:32:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.mss.min.js.map.br /tmp/work/dist/legacy/umd/dash.mss.min.js.map
-2025/03/18 03:32:31 sri /tmp/work/dist/legacy/umd/dash.mss.debug.min.js -> /output/legacy/umd/dash.mss.debug.min.js.sri
-2025/03/18 03:32:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.mss.debug.min.js.br /tmp/work/dist/legacy/umd/dash.mss.debug.min.js
-2025/03/18 03:32:32 br /tmp/work/dist/legacy/umd/dash.mss.debug.min.js -> /output/legacy/umd/dash.mss.debug.min.js.br
-2025/03/18 03:32:32 gz /tmp/work/dist/legacy/umd/dash.mss.debug.min.js -> /output/legacy/umd/dash.mss.debug.min.js.gz
-2025/03/18 03:32:32 sri /tmp/work/dist/legacy/umd/dash.mss.debug.js -> /output/legacy/umd/dash.mss.debug.js.sri
-2025/03/18 03:32:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.mss.debug.js.br /tmp/work/dist/legacy/umd/dash.mss.debug.js
-2025/03/18 03:32:36 br /tmp/work/dist/legacy/umd/dash.mss.min.js.map -> /output/legacy/umd/dash.mss.min.js.map.br
-2025/03/18 03:32:36 gz /tmp/work/dist/legacy/umd/dash.mss.min.js.map -> /output/legacy/umd/dash.mss.min.js.map.gz
-2025/03/18 03:32:36 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/legacy/umd/dash.offline.debug.min.js /tmp/work/dist/legacy/umd/dash.offline.debug.js]
-2025/03/18 03:32:38 br /tmp/work/dist/legacy/umd/dash.mss.debug.js -> /output/legacy/umd/dash.mss.debug.js.br
-2025/03/18 03:32:38 gz /tmp/work/dist/legacy/umd/dash.mss.debug.js -> /output/legacy/umd/dash.mss.debug.js.gz
-2025/03/18 03:32:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.offline.debug.js.map.br /tmp/work/dist/legacy/umd/dash.offline.debug.js.map
-2025/03/18 03:32:58 br /tmp/work/dist/legacy/umd/dash.mediaplayer.min.js.map -> /output/legacy/umd/dash.mediaplayer.min.js.map.br
-2025/03/18 03:33:00 sri /tmp/work/dist/legacy/umd/dash.mediaplayer.debug.min.js -> /output/legacy/umd/dash.mediaplayer.debug.min.js.sri
-2025/03/18 03:33:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.mediaplayer.debug.min.js.br /tmp/work/dist/legacy/umd/dash.mediaplayer.debug.min.js
-2025/03/18 03:33:01 gz /tmp/work/dist/legacy/umd/dash.mediaplayer.min.js.map -> /output/legacy/umd/dash.mediaplayer.min.js.map.gz
-2025/03/18 03:33:01 /tmp/work/dist/legacy/umd/dash.offline.min.js is already compressed
-2025/03/18 03:33:01 sri /tmp/work/dist/legacy/umd/dash.offline.min.js -> /output/legacy/umd/dash.offline.min.js.sri
-2025/03/18 03:33:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.offline.min.js.br /tmp/work/dist/legacy/umd/dash.offline.min.js
-2025/03/18 03:33:05 br /tmp/work/dist/legacy/umd/dash.all.min.js.map -> /output/legacy/umd/dash.all.min.js.map.br
-2025/03/18 03:33:06 br /tmp/work/dist/legacy/umd/dash.mediaplayer.debug.js.map -> /output/legacy/umd/dash.mediaplayer.debug.js.map.br
-2025/03/18 03:33:07 gz /tmp/work/dist/legacy/umd/dash.all.min.js.map -> /output/legacy/umd/dash.all.min.js.map.gz
-2025/03/18 03:33:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.offline.min.js.LICENSE.txt.br /tmp/work/dist/legacy/umd/dash.offline.min.js.LICENSE.txt
-2025/03/18 03:33:07 br /tmp/work/dist/legacy/umd/dash.offline.min.js.LICENSE.txt -> /output/legacy/umd/dash.offline.min.js.LICENSE.txt.br
-2025/03/18 03:33:07 gz /tmp/work/dist/legacy/umd/dash.offline.min.js.LICENSE.txt -> /output/legacy/umd/dash.offline.min.js.LICENSE.txt.gz
-2025/03/18 03:33:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.offline.min.js.map.br /tmp/work/dist/legacy/umd/dash.offline.min.js.map
-2025/03/18 03:33:08 gz /tmp/work/dist/legacy/umd/dash.mediaplayer.debug.js.map -> /output/legacy/umd/dash.mediaplayer.debug.js.map.gz
-2025/03/18 03:33:08 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/legacy/umd/dash.protection.debug.min.js /tmp/work/dist/legacy/umd/dash.protection.debug.js]
-2025/03/18 03:33:11 sri /tmp/work/dist/legacy/umd/dash.all.debug.min.js -> /output/legacy/umd/dash.all.debug.min.js.sri
-2025/03/18 03:33:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.all.debug.min.js.br /tmp/work/dist/legacy/umd/dash.all.debug.min.js
-2025/03/18 03:33:11 br /tmp/work/dist/legacy/umd/dash.offline.min.js -> /output/legacy/umd/dash.offline.min.js.br
-2025/03/18 03:33:12 gz /tmp/work/dist/legacy/umd/dash.offline.min.js -> /output/legacy/umd/dash.offline.min.js.gz
-2025/03/18 03:33:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.protection.debug.js.map.br /tmp/work/dist/legacy/umd/dash.protection.debug.js.map
-2025/03/18 03:33:14 sri /tmp/work/dist/legacy/umd/dash.offline.debug.min.js -> /output/legacy/umd/dash.offline.debug.min.js.sri
-2025/03/18 03:33:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.offline.debug.min.js.br /tmp/work/dist/legacy/umd/dash.offline.debug.min.js
-2025/03/18 03:33:14 br /tmp/work/dist/legacy/umd/dash.offline.debug.js.map -> /output/legacy/umd/dash.offline.debug.js.map.br
-2025/03/18 03:33:14 br /tmp/work/dist/legacy/umd/dash.all.debug.js.map -> /output/legacy/umd/dash.all.debug.js.map.br
-2025/03/18 03:33:15 gz /tmp/work/dist/legacy/umd/dash.offline.debug.js.map -> /output/legacy/umd/dash.offline.debug.js.map.gz
-2025/03/18 03:33:15 /tmp/work/dist/legacy/umd/dash.protection.min.js is already compressed
-2025/03/18 03:33:15 sri /tmp/work/dist/legacy/umd/dash.protection.min.js -> /output/legacy/umd/dash.protection.min.js.sri
-2025/03/18 03:33:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.protection.min.js.br /tmp/work/dist/legacy/umd/dash.protection.min.js
-2025/03/18 03:33:18 gz /tmp/work/dist/legacy/umd/dash.all.debug.js.map -> /output/legacy/umd/dash.all.debug.js.map.gz
-2025/03/18 03:33:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.protection.min.js.map.br /tmp/work/dist/legacy/umd/dash.protection.min.js.map
-2025/03/18 03:33:19 br /tmp/work/dist/legacy/umd/dash.protection.min.js -> /output/legacy/umd/dash.protection.min.js.br
-2025/03/18 03:33:19 gz /tmp/work/dist/legacy/umd/dash.protection.min.js -> /output/legacy/umd/dash.protection.min.js.gz
-2025/03/18 03:33:19 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/legacy/umd/dash.reporting.debug.min.js /tmp/work/dist/legacy/umd/dash.reporting.debug.js]
-2025/03/18 03:33:21 br /tmp/work/dist/legacy/umd/dash.mediaplayer.debug.min.js -> /output/legacy/umd/dash.mediaplayer.debug.min.js.br
-2025/03/18 03:33:22 gz /tmp/work/dist/legacy/umd/dash.mediaplayer.debug.min.js -> /output/legacy/umd/dash.mediaplayer.debug.min.js.gz
-2025/03/18 03:33:22 sri /tmp/work/dist/legacy/umd/dash.mediaplayer.debug.js -> /output/legacy/umd/dash.mediaplayer.debug.js.sri
-2025/03/18 03:33:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.mediaplayer.debug.js.br /tmp/work/dist/legacy/umd/dash.mediaplayer.debug.js
-2025/03/18 03:33:28 br /tmp/work/dist/legacy/umd/dash.offline.debug.min.js -> /output/legacy/umd/dash.offline.debug.min.js.br
-2025/03/18 03:33:29 gz /tmp/work/dist/legacy/umd/dash.offline.debug.min.js -> /output/legacy/umd/dash.offline.debug.min.js.gz
-2025/03/18 03:33:29 br /tmp/work/dist/legacy/umd/dash.protection.debug.js.map -> /output/legacy/umd/dash.protection.debug.js.map.br
-2025/03/18 03:33:29 sri /tmp/work/dist/legacy/umd/dash.offline.debug.js -> /output/legacy/umd/dash.offline.debug.js.sri
-2025/03/18 03:33:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.offline.debug.js.br /tmp/work/dist/legacy/umd/dash.offline.debug.js
-2025/03/18 03:33:29 gz /tmp/work/dist/legacy/umd/dash.protection.debug.js.map -> /output/legacy/umd/dash.protection.debug.js.map.gz
-2025/03/18 03:33:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.reporting.debug.js.map.br /tmp/work/dist/legacy/umd/dash.reporting.debug.js.map
-2025/03/18 03:33:31 sri /tmp/work/dist/legacy/umd/dash.protection.debug.min.js -> /output/legacy/umd/dash.protection.debug.min.js.sri
-2025/03/18 03:33:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.protection.debug.min.js.br /tmp/work/dist/legacy/umd/dash.protection.debug.min.js
-2025/03/18 03:33:33 br /tmp/work/dist/legacy/umd/dash.all.debug.min.js -> /output/legacy/umd/dash.all.debug.min.js.br
-2025/03/18 03:33:33 sri /tmp/work/dist/legacy/umd/dash.reporting.debug.min.js -> /output/legacy/umd/dash.reporting.debug.min.js.sri
-2025/03/18 03:33:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.reporting.debug.min.js.br /tmp/work/dist/legacy/umd/dash.reporting.debug.min.js
-2025/03/18 03:33:33 gz /tmp/work/dist/legacy/umd/dash.all.debug.min.js -> /output/legacy/umd/dash.all.debug.min.js.gz
-2025/03/18 03:33:33 sri /tmp/work/dist/legacy/umd/dash.all.debug.js -> /output/legacy/umd/dash.all.debug.js.sri
-2025/03/18 03:33:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.all.debug.js.br /tmp/work/dist/legacy/umd/dash.all.debug.js
-2025/03/18 03:33:34 br /tmp/work/dist/legacy/umd/dash.protection.min.js.map -> /output/legacy/umd/dash.protection.min.js.map.br
-2025/03/18 03:33:35 gz /tmp/work/dist/legacy/umd/dash.protection.min.js.map -> /output/legacy/umd/dash.protection.min.js.map.gz
-2025/03/18 03:33:35 /tmp/work/dist/legacy/umd/dash.reporting.min.js is already compressed
-2025/03/18 03:33:35 sri /tmp/work/dist/legacy/umd/dash.reporting.min.js -> /output/legacy/umd/dash.reporting.min.js.sri
-2025/03/18 03:33:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.reporting.min.js.br /tmp/work/dist/legacy/umd/dash.reporting.min.js
-2025/03/18 03:33:35 br /tmp/work/dist/legacy/umd/dash.protection.debug.min.js -> /output/legacy/umd/dash.protection.debug.min.js.br
-2025/03/18 03:33:35 gz /tmp/work/dist/legacy/umd/dash.protection.debug.min.js -> /output/legacy/umd/dash.protection.debug.min.js.gz
-2025/03/18 03:33:35 sri /tmp/work/dist/legacy/umd/dash.protection.debug.js -> /output/legacy/umd/dash.protection.debug.js.sri
-2025/03/18 03:33:35 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.protection.debug.js.br /tmp/work/dist/legacy/umd/dash.protection.debug.js
-2025/03/18 03:33:36 br /tmp/work/dist/legacy/umd/dash.reporting.debug.min.js -> /output/legacy/umd/dash.reporting.debug.min.js.br
-2025/03/18 03:33:36 gz /tmp/work/dist/legacy/umd/dash.reporting.debug.min.js -> /output/legacy/umd/dash.reporting.debug.min.js.gz
-2025/03/18 03:33:36 sri /tmp/work/dist/legacy/umd/dash.reporting.debug.js -> /output/legacy/umd/dash.reporting.debug.js.sri
-2025/03/18 03:33:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.reporting.debug.js.br /tmp/work/dist/legacy/umd/dash.reporting.debug.js
-2025/03/18 03:33:37 br /tmp/work/dist/legacy/umd/dash.reporting.min.js -> /output/legacy/umd/dash.reporting.min.js.br
-2025/03/18 03:33:37 gz /tmp/work/dist/legacy/umd/dash.reporting.min.js -> /output/legacy/umd/dash.reporting.min.js.gz
-2025/03/18 03:33:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.reporting.min.js.map.br /tmp/work/dist/legacy/umd/dash.reporting.min.js.map
-2025/03/18 03:33:39 br /tmp/work/dist/legacy/umd/dash.offline.min.js.map -> /output/legacy/umd/dash.offline.min.js.map.br
-2025/03/18 03:33:41 br /tmp/work/dist/legacy/umd/dash.reporting.debug.js.map -> /output/legacy/umd/dash.reporting.debug.js.map.br
-2025/03/18 03:33:41 gz /tmp/work/dist/legacy/umd/dash.offline.min.js.map -> /output/legacy/umd/dash.offline.min.js.map.gz
-2025/03/18 03:33:41 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/modern/esm/dash.all.debug.min.js /tmp/work/dist/modern/esm/dash.all.debug.js]
-2025/03/18 03:33:41 gz /tmp/work/dist/legacy/umd/dash.reporting.debug.js.map -> /output/legacy/umd/dash.reporting.debug.js.map.gz
-2025/03/18 03:33:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.all.debug.js.map.br /tmp/work/dist/modern/esm/dash.all.debug.js.map
-2025/03/18 03:33:48 br /tmp/work/dist/legacy/umd/dash.reporting.min.js.map -> /output/legacy/umd/dash.reporting.min.js.map.br
-2025/03/18 03:33:48 br /tmp/work/dist/legacy/umd/dash.reporting.debug.js -> /output/legacy/umd/dash.reporting.debug.js.br
-2025/03/18 03:33:48 gz /tmp/work/dist/legacy/umd/dash.reporting.debug.js -> /output/legacy/umd/dash.reporting.debug.js.gz
-2025/03/18 03:33:48 /tmp/work/dist/modern/esm/dash.all.min.js is already compressed
-2025/03/18 03:33:48 sri /tmp/work/dist/modern/esm/dash.all.min.js -> /output/modern/esm/dash.all.min.js.sri
-2025/03/18 03:33:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.all.min.js.br /tmp/work/dist/modern/esm/dash.all.min.js
-2025/03/18 03:33:48 gz /tmp/work/dist/legacy/umd/dash.reporting.min.js.map -> /output/legacy/umd/dash.reporting.min.js.map.gz
-2025/03/18 03:33:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.all.min.js.LICENSE.txt.br /tmp/work/dist/modern/esm/dash.all.min.js.LICENSE.txt
-2025/03/18 03:33:48 br /tmp/work/dist/modern/esm/dash.all.min.js.LICENSE.txt -> /output/modern/esm/dash.all.min.js.LICENSE.txt.br
-2025/03/18 03:33:48 gz /tmp/work/dist/modern/esm/dash.all.min.js.LICENSE.txt -> /output/modern/esm/dash.all.min.js.LICENSE.txt.gz
-2025/03/18 03:33:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.all.min.js.map.br /tmp/work/dist/modern/esm/dash.all.min.js.map
-2025/03/18 03:33:52 br /tmp/work/dist/legacy/umd/dash.protection.debug.js -> /output/legacy/umd/dash.protection.debug.js.br
-2025/03/18 03:33:52 gz /tmp/work/dist/legacy/umd/dash.protection.debug.js -> /output/legacy/umd/dash.protection.debug.js.gz
-2025/03/18 03:33:52 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/modern/esm/dash.mediaplayer.debug.min.js /tmp/work/dist/modern/esm/dash.mediaplayer.debug.js]
-2025/03/18 03:34:01 br /tmp/work/dist/modern/esm/dash.all.min.js -> /output/modern/esm/dash.all.min.js.br
-2025/03/18 03:34:01 gz /tmp/work/dist/modern/esm/dash.all.min.js -> /output/modern/esm/dash.all.min.js.gz
-2025/03/18 03:34:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.mediaplayer.debug.js.map.br /tmp/work/dist/modern/esm/dash.mediaplayer.debug.js.map
-2025/03/18 03:34:02 br /tmp/work/dist/legacy/umd/dash.offline.debug.js -> /output/legacy/umd/dash.offline.debug.js.br
-2025/03/18 03:34:03 gz /tmp/work/dist/legacy/umd/dash.offline.debug.js -> /output/legacy/umd/dash.offline.debug.js.gz
-2025/03/18 03:34:03 /tmp/work/dist/modern/esm/dash.mediaplayer.min.js is already compressed
-2025/03/18 03:34:03 sri /tmp/work/dist/modern/esm/dash.mediaplayer.min.js -> /output/modern/esm/dash.mediaplayer.min.js.sri
-2025/03/18 03:34:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.mediaplayer.min.js.br /tmp/work/dist/modern/esm/dash.mediaplayer.min.js
-2025/03/18 03:34:12 br /tmp/work/dist/modern/esm/dash.mediaplayer.min.js -> /output/modern/esm/dash.mediaplayer.min.js.br
-2025/03/18 03:34:12 gz /tmp/work/dist/modern/esm/dash.mediaplayer.min.js -> /output/modern/esm/dash.mediaplayer.min.js.gz
-2025/03/18 03:34:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.mediaplayer.min.js.LICENSE.txt.br /tmp/work/dist/modern/esm/dash.mediaplayer.min.js.LICENSE.txt
-2025/03/18 03:34:12 br /tmp/work/dist/modern/esm/dash.mediaplayer.min.js.LICENSE.txt -> /output/modern/esm/dash.mediaplayer.min.js.LICENSE.txt.br
-2025/03/18 03:34:12 gz /tmp/work/dist/modern/esm/dash.mediaplayer.min.js.LICENSE.txt -> /output/modern/esm/dash.mediaplayer.min.js.LICENSE.txt.gz
-2025/03/18 03:34:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.mediaplayer.min.js.map.br /tmp/work/dist/modern/esm/dash.mediaplayer.min.js.map
-2025/03/18 03:34:16 br /tmp/work/dist/legacy/umd/dash.mediaplayer.debug.js -> /output/legacy/umd/dash.mediaplayer.debug.js.br
-2025/03/18 03:34:17 gz /tmp/work/dist/legacy/umd/dash.mediaplayer.debug.js -> /output/legacy/umd/dash.mediaplayer.debug.js.gz
-2025/03/18 03:34:17 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/modern/esm/dash.mss.debug.min.js /tmp/work/dist/modern/esm/dash.mss.debug.js]
-2025/03/18 03:34:24 sri /tmp/work/dist/modern/esm/dash.mss.debug.min.js -> /output/modern/esm/dash.mss.debug.min.js.sri
-2025/03/18 03:34:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.mss.debug.min.js.br /tmp/work/dist/modern/esm/dash.mss.debug.min.js
-2025/03/18 03:34:25 br /tmp/work/dist/modern/esm/dash.mss.debug.min.js -> /output/modern/esm/dash.mss.debug.min.js.br
-2025/03/18 03:34:25 gz /tmp/work/dist/modern/esm/dash.mss.debug.min.js -> /output/modern/esm/dash.mss.debug.min.js.gz
-2025/03/18 03:34:25 sri /tmp/work/dist/modern/esm/dash.mss.debug.js -> /output/modern/esm/dash.mss.debug.js.sri
-2025/03/18 03:34:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.mss.debug.js.br /tmp/work/dist/modern/esm/dash.mss.debug.js
-2025/03/18 03:34:26 sri /tmp/work/dist/modern/esm/dash.all.debug.min.js -> /output/modern/esm/dash.all.debug.min.js.sri
-2025/03/18 03:34:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.all.debug.min.js.br /tmp/work/dist/modern/esm/dash.all.debug.min.js
-2025/03/18 03:34:27 br /tmp/work/dist/modern/esm/dash.mss.debug.js -> /output/modern/esm/dash.mss.debug.js.br
-2025/03/18 03:34:27 gz /tmp/work/dist/modern/esm/dash.mss.debug.js -> /output/modern/esm/dash.mss.debug.js.gz
-2025/03/18 03:34:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.mss.debug.js.map.br /tmp/work/dist/modern/esm/dash.mss.debug.js.map
-2025/03/18 03:34:28 br /tmp/work/dist/legacy/umd/dash.all.debug.js -> /output/legacy/umd/dash.all.debug.js.br
-2025/03/18 03:34:29 gz /tmp/work/dist/legacy/umd/dash.all.debug.js -> /output/legacy/umd/dash.all.debug.js.gz
-2025/03/18 03:34:29 /tmp/work/dist/modern/esm/dash.mss.min.js is already compressed
-2025/03/18 03:34:29 sri /tmp/work/dist/modern/esm/dash.mss.min.js -> /output/modern/esm/dash.mss.min.js.sri
-2025/03/18 03:34:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.mss.min.js.br /tmp/work/dist/modern/esm/dash.mss.min.js
-2025/03/18 03:34:29 br /tmp/work/dist/modern/esm/dash.mss.debug.js.map -> /output/modern/esm/dash.mss.debug.js.map.br
-2025/03/18 03:34:30 br /tmp/work/dist/modern/esm/dash.mss.min.js -> /output/modern/esm/dash.mss.min.js.br
-2025/03/18 03:34:30 gz /tmp/work/dist/modern/esm/dash.mss.min.js -> /output/modern/esm/dash.mss.min.js.gz
-2025/03/18 03:34:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.mss.min.js.map.br /tmp/work/dist/modern/esm/dash.mss.min.js.map
-2025/03/18 03:34:30 gz /tmp/work/dist/modern/esm/dash.mss.debug.js.map -> /output/modern/esm/dash.mss.debug.js.map.gz
-2025/03/18 03:34:30 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/modern/esm/dash.offline.debug.min.js /tmp/work/dist/modern/esm/dash.offline.debug.js]
-2025/03/18 03:34:33 br /tmp/work/dist/modern/esm/dash.mss.min.js.map -> /output/modern/esm/dash.mss.min.js.map.br
-2025/03/18 03:34:33 gz /tmp/work/dist/modern/esm/dash.mss.min.js.map -> /output/modern/esm/dash.mss.min.js.map.gz
-2025/03/18 03:34:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.offline.debug.js.map.br /tmp/work/dist/modern/esm/dash.offline.debug.js.map
-2025/03/18 03:34:35 br /tmp/work/dist/modern/esm/dash.all.min.js.map -> /output/modern/esm/dash.all.min.js.map.br
-2025/03/18 03:34:36 sri /tmp/work/dist/modern/esm/dash.mediaplayer.debug.min.js -> /output/modern/esm/dash.mediaplayer.debug.min.js.sri
-2025/03/18 03:34:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.mediaplayer.debug.min.js.br /tmp/work/dist/modern/esm/dash.mediaplayer.debug.min.js
-2025/03/18 03:34:37 gz /tmp/work/dist/modern/esm/dash.all.min.js.map -> /output/modern/esm/dash.all.min.js.map.gz
-2025/03/18 03:34:37 /tmp/work/dist/modern/esm/dash.offline.min.js is already compressed
-2025/03/18 03:34:37 sri /tmp/work/dist/modern/esm/dash.offline.min.js -> /output/modern/esm/dash.offline.min.js.sri
-2025/03/18 03:34:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.offline.min.js.br /tmp/work/dist/modern/esm/dash.offline.min.js
-2025/03/18 03:34:39 br /tmp/work/dist/modern/esm/dash.all.debug.min.js -> /output/modern/esm/dash.all.debug.min.js.br
-2025/03/18 03:34:39 gz /tmp/work/dist/modern/esm/dash.all.debug.min.js -> /output/modern/esm/dash.all.debug.min.js.gz
-2025/03/18 03:34:39 sri /tmp/work/dist/modern/esm/dash.all.debug.js -> /output/modern/esm/dash.all.debug.js.sri
-2025/03/18 03:34:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.all.debug.js.br /tmp/work/dist/modern/esm/dash.all.debug.js
-2025/03/18 03:34:42 br /tmp/work/dist/modern/esm/dash.offline.min.js -> /output/modern/esm/dash.offline.min.js.br
-2025/03/18 03:34:42 gz /tmp/work/dist/modern/esm/dash.offline.min.js -> /output/modern/esm/dash.offline.min.js.gz
-2025/03/18 03:34:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.offline.min.js.LICENSE.txt.br /tmp/work/dist/modern/esm/dash.offline.min.js.LICENSE.txt
-2025/03/18 03:34:42 br /tmp/work/dist/modern/esm/dash.offline.min.js.LICENSE.txt -> /output/modern/esm/dash.offline.min.js.LICENSE.txt.br
-2025/03/18 03:34:42 gz /tmp/work/dist/modern/esm/dash.offline.min.js.LICENSE.txt -> /output/modern/esm/dash.offline.min.js.LICENSE.txt.gz
-2025/03/18 03:34:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.offline.min.js.map.br /tmp/work/dist/modern/esm/dash.offline.min.js.map
-2025/03/18 03:34:46 br /tmp/work/dist/modern/esm/dash.all.debug.js.map -> /output/modern/esm/dash.all.debug.js.map.br
-2025/03/18 03:34:47 br /tmp/work/dist/modern/esm/dash.mediaplayer.debug.min.js -> /output/modern/esm/dash.mediaplayer.debug.min.js.br
-2025/03/18 03:34:47 gz /tmp/work/dist/modern/esm/dash.mediaplayer.debug.min.js -> /output/modern/esm/dash.mediaplayer.debug.min.js.gz
-2025/03/18 03:34:47 sri /tmp/work/dist/modern/esm/dash.mediaplayer.debug.js -> /output/modern/esm/dash.mediaplayer.debug.js.sri
-2025/03/18 03:34:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.mediaplayer.debug.js.br /tmp/work/dist/modern/esm/dash.mediaplayer.debug.js
-2025/03/18 03:34:49 gz /tmp/work/dist/modern/esm/dash.all.debug.js.map -> /output/modern/esm/dash.all.debug.js.map.gz
-2025/03/18 03:34:49 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/modern/esm/dash.protection.debug.min.js /tmp/work/dist/modern/esm/dash.protection.debug.js]
-2025/03/18 03:34:52 sri /tmp/work/dist/modern/esm/dash.offline.debug.min.js -> /output/modern/esm/dash.offline.debug.min.js.sri
-2025/03/18 03:34:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.offline.debug.min.js.br /tmp/work/dist/modern/esm/dash.offline.debug.min.js
-2025/03/18 03:34:54 br /tmp/work/dist/modern/esm/dash.mediaplayer.debug.js.map -> /output/modern/esm/dash.mediaplayer.debug.js.map.br
-2025/03/18 03:34:57 sri /tmp/work/dist/modern/esm/dash.protection.debug.min.js -> /output/modern/esm/dash.protection.debug.min.js.sri
-2025/03/18 03:34:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.protection.debug.min.js.br /tmp/work/dist/modern/esm/dash.protection.debug.min.js
-2025/03/18 03:34:58 br /tmp/work/dist/modern/esm/dash.offline.debug.js.map -> /output/modern/esm/dash.offline.debug.js.map.br
-2025/03/18 03:34:58 br /tmp/work/dist/modern/esm/dash.protection.debug.min.js -> /output/modern/esm/dash.protection.debug.min.js.br
-2025/03/18 03:34:58 gz /tmp/work/dist/modern/esm/dash.mediaplayer.debug.js.map -> /output/modern/esm/dash.mediaplayer.debug.js.map.gz
-2025/03/18 03:34:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.protection.debug.js.map.br /tmp/work/dist/modern/esm/dash.protection.debug.js.map
-2025/03/18 03:34:58 gz /tmp/work/dist/modern/esm/dash.protection.debug.min.js -> /output/modern/esm/dash.protection.debug.min.js.gz
-2025/03/18 03:34:58 sri /tmp/work/dist/modern/esm/dash.protection.debug.js -> /output/modern/esm/dash.protection.debug.js.sri
-2025/03/18 03:34:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.protection.debug.js.br /tmp/work/dist/modern/esm/dash.protection.debug.js
-2025/03/18 03:34:58 br /tmp/work/dist/modern/esm/dash.mediaplayer.min.js.map -> /output/modern/esm/dash.mediaplayer.min.js.map.br
-2025/03/18 03:34:58 gz /tmp/work/dist/modern/esm/dash.offline.debug.js.map -> /output/modern/esm/dash.offline.debug.js.map.gz
-2025/03/18 03:34:58 /tmp/work/dist/modern/esm/dash.protection.min.js is already compressed
-2025/03/18 03:34:58 sri /tmp/work/dist/modern/esm/dash.protection.min.js -> /output/modern/esm/dash.protection.min.js.sri
-2025/03/18 03:34:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.protection.min.js.br /tmp/work/dist/modern/esm/dash.protection.min.js
-2025/03/18 03:34:59 br /tmp/work/dist/modern/esm/dash.offline.debug.min.js -> /output/modern/esm/dash.offline.debug.min.js.br
-2025/03/18 03:34:59 gz /tmp/work/dist/modern/esm/dash.offline.debug.min.js -> /output/modern/esm/dash.offline.debug.min.js.gz
-2025/03/18 03:34:59 sri /tmp/work/dist/modern/esm/dash.offline.debug.js -> /output/modern/esm/dash.offline.debug.js.sri
-2025/03/18 03:34:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.offline.debug.js.br /tmp/work/dist/modern/esm/dash.offline.debug.js
-2025/03/18 03:34:59 br /tmp/work/dist/modern/esm/dash.protection.min.js -> /output/modern/esm/dash.protection.min.js.br
-2025/03/18 03:34:59 gz /tmp/work/dist/modern/esm/dash.protection.min.js -> /output/modern/esm/dash.protection.min.js.gz
-2025/03/18 03:34:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.protection.min.js.map.br /tmp/work/dist/modern/esm/dash.protection.min.js.map
-2025/03/18 03:35:01 gz /tmp/work/dist/modern/esm/dash.mediaplayer.min.js.map -> /output/modern/esm/dash.mediaplayer.min.js.map.gz
-2025/03/18 03:35:01 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/modern/esm/dash.reporting.debug.min.js /tmp/work/dist/modern/esm/dash.reporting.debug.js]
-2025/03/18 03:35:01 br /tmp/work/dist/modern/esm/dash.protection.debug.js -> /output/modern/esm/dash.protection.debug.js.br
-2025/03/18 03:35:01 gz /tmp/work/dist/modern/esm/dash.protection.debug.js -> /output/modern/esm/dash.protection.debug.js.gz
-2025/03/18 03:35:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.reporting.debug.js.map.br /tmp/work/dist/modern/esm/dash.reporting.debug.js.map
-2025/03/18 03:35:01 br /tmp/work/dist/modern/esm/dash.offline.min.js.map -> /output/modern/esm/dash.offline.min.js.map.br
-2025/03/18 03:35:02 gz /tmp/work/dist/modern/esm/dash.offline.min.js.map -> /output/modern/esm/dash.offline.min.js.map.gz
-2025/03/18 03:35:02 /tmp/work/dist/modern/esm/dash.reporting.min.js is already compressed
-2025/03/18 03:35:02 sri /tmp/work/dist/modern/esm/dash.reporting.min.js -> /output/modern/esm/dash.reporting.min.js.sri
-2025/03/18 03:35:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.reporting.min.js.br /tmp/work/dist/modern/esm/dash.reporting.min.js
-2025/03/18 03:35:03 br /tmp/work/dist/modern/esm/dash.reporting.min.js -> /output/modern/esm/dash.reporting.min.js.br
-2025/03/18 03:35:03 gz /tmp/work/dist/modern/esm/dash.reporting.min.js -> /output/modern/esm/dash.reporting.min.js.gz
-2025/03/18 03:35:03 br /tmp/work/dist/modern/esm/dash.protection.debug.js.map -> /output/modern/esm/dash.protection.debug.js.map.br
-2025/03/18 03:35:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.reporting.min.js.map.br /tmp/work/dist/modern/esm/dash.reporting.min.js.map
-2025/03/18 03:35:03 br /tmp/work/dist/modern/esm/dash.protection.min.js.map -> /output/modern/esm/dash.protection.min.js.map.br
-2025/03/18 03:35:03 gz /tmp/work/dist/modern/esm/dash.protection.min.js.map -> /output/modern/esm/dash.protection.min.js.map.gz
-2025/03/18 03:35:03 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/modern/umd/dash.all.debug.min.js /tmp/work/dist/modern/umd/dash.all.debug.js]
-2025/03/18 03:35:03 gz /tmp/work/dist/modern/esm/dash.protection.debug.js.map -> /output/modern/esm/dash.protection.debug.js.map.gz
-2025/03/18 03:35:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.all.debug.js.map.br /tmp/work/dist/modern/umd/dash.all.debug.js.map
-2025/03/18 03:35:04 br /tmp/work/dist/modern/esm/dash.reporting.debug.js.map -> /output/modern/esm/dash.reporting.debug.js.map.br
-2025/03/18 03:35:04 gz /tmp/work/dist/modern/esm/dash.reporting.debug.js.map -> /output/modern/esm/dash.reporting.debug.js.map.gz
-2025/03/18 03:35:04 /tmp/work/dist/modern/umd/dash.all.min.js is already compressed
-2025/03/18 03:35:04 sri /tmp/work/dist/modern/umd/dash.all.min.js -> /output/modern/umd/dash.all.min.js.sri
-2025/03/18 03:35:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.all.min.js.br /tmp/work/dist/modern/umd/dash.all.min.js
-2025/03/18 03:35:05 sri /tmp/work/dist/modern/esm/dash.reporting.debug.min.js -> /output/modern/esm/dash.reporting.debug.min.js.sri
-2025/03/18 03:35:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.reporting.debug.min.js.br /tmp/work/dist/modern/esm/dash.reporting.debug.min.js
-2025/03/18 03:35:06 br /tmp/work/dist/modern/esm/dash.reporting.debug.min.js -> /output/modern/esm/dash.reporting.debug.min.js.br
-2025/03/18 03:35:06 gz /tmp/work/dist/modern/esm/dash.reporting.debug.min.js -> /output/modern/esm/dash.reporting.debug.min.js.gz
-2025/03/18 03:35:06 sri /tmp/work/dist/modern/esm/dash.reporting.debug.js -> /output/modern/esm/dash.reporting.debug.js.sri
-2025/03/18 03:35:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.reporting.debug.js.br /tmp/work/dist/modern/esm/dash.reporting.debug.js
-2025/03/18 03:35:06 br /tmp/work/dist/modern/esm/dash.reporting.min.js.map -> /output/modern/esm/dash.reporting.min.js.map.br
-2025/03/18 03:35:06 gz /tmp/work/dist/modern/esm/dash.reporting.min.js.map -> /output/modern/esm/dash.reporting.min.js.map.gz
-2025/03/18 03:35:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.all.min.js.LICENSE.txt.br /tmp/work/dist/modern/umd/dash.all.min.js.LICENSE.txt
-2025/03/18 03:35:06 br /tmp/work/dist/modern/umd/dash.all.min.js.LICENSE.txt -> /output/modern/umd/dash.all.min.js.LICENSE.txt.br
-2025/03/18 03:35:06 gz /tmp/work/dist/modern/umd/dash.all.min.js.LICENSE.txt -> /output/modern/umd/dash.all.min.js.LICENSE.txt.gz
-2025/03/18 03:35:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.all.min.js.map.br /tmp/work/dist/modern/umd/dash.all.min.js.map
-2025/03/18 03:35:07 br /tmp/work/dist/modern/esm/dash.reporting.debug.js -> /output/modern/esm/dash.reporting.debug.js.br
-2025/03/18 03:35:08 gz /tmp/work/dist/modern/esm/dash.reporting.debug.js -> /output/modern/esm/dash.reporting.debug.js.gz
-2025/03/18 03:35:08 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/modern/umd/dash.mediaplayer.debug.min.js /tmp/work/dist/modern/umd/dash.mediaplayer.debug.js]
-2025/03/18 03:35:10 br /tmp/work/dist/modern/esm/dash.offline.debug.js -> /output/modern/esm/dash.offline.debug.js.br
-2025/03/18 03:35:10 br /tmp/work/dist/modern/esm/dash.all.debug.js -> /output/modern/esm/dash.all.debug.js.br
-2025/03/18 03:35:10 gz /tmp/work/dist/modern/esm/dash.offline.debug.js -> /output/modern/esm/dash.offline.debug.js.gz
-2025/03/18 03:35:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.mediaplayer.debug.js.map.br /tmp/work/dist/modern/umd/dash.mediaplayer.debug.js.map
-2025/03/18 03:35:11 gz /tmp/work/dist/modern/esm/dash.all.debug.js -> /output/modern/esm/dash.all.debug.js.gz
-2025/03/18 03:35:11 /tmp/work/dist/modern/umd/dash.mediaplayer.min.js is already compressed
-2025/03/18 03:35:11 sri /tmp/work/dist/modern/umd/dash.mediaplayer.min.js -> /output/modern/umd/dash.mediaplayer.min.js.sri
-2025/03/18 03:35:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.mediaplayer.min.js.br /tmp/work/dist/modern/umd/dash.mediaplayer.min.js
-2025/03/18 03:35:11 br /tmp/work/dist/modern/umd/dash.all.min.js -> /output/modern/umd/dash.all.min.js.br
-2025/03/18 03:35:12 gz /tmp/work/dist/modern/umd/dash.all.min.js -> /output/modern/umd/dash.all.min.js.gz
-2025/03/18 03:35:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.mediaplayer.min.js.LICENSE.txt.br /tmp/work/dist/modern/umd/dash.mediaplayer.min.js.LICENSE.txt
-2025/03/18 03:35:12 br /tmp/work/dist/modern/umd/dash.mediaplayer.min.js.LICENSE.txt -> /output/modern/umd/dash.mediaplayer.min.js.LICENSE.txt.br
-2025/03/18 03:35:12 gz /tmp/work/dist/modern/umd/dash.mediaplayer.min.js.LICENSE.txt -> /output/modern/umd/dash.mediaplayer.min.js.LICENSE.txt.gz
-2025/03/18 03:35:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.mediaplayer.min.js.map.br /tmp/work/dist/modern/umd/dash.mediaplayer.min.js.map
-2025/03/18 03:35:13 br /tmp/work/dist/modern/esm/dash.mediaplayer.debug.js -> /output/modern/esm/dash.mediaplayer.debug.js.br
-2025/03/18 03:35:13 gz /tmp/work/dist/modern/esm/dash.mediaplayer.debug.js -> /output/modern/esm/dash.mediaplayer.debug.js.gz
-2025/03/18 03:35:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/modern/umd/dash.mss.debug.min.js /tmp/work/dist/modern/umd/dash.mss.debug.js]
-2025/03/18 03:35:20 br /tmp/work/dist/modern/umd/dash.mediaplayer.min.js -> /output/modern/umd/dash.mediaplayer.min.js.br
-2025/03/18 03:35:21 gz /tmp/work/dist/modern/umd/dash.mediaplayer.min.js -> /output/modern/umd/dash.mediaplayer.min.js.gz
-2025/03/18 03:35:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.mss.debug.js.map.br /tmp/work/dist/modern/umd/dash.mss.debug.js.map
-2025/03/18 03:35:21 sri /tmp/work/dist/modern/umd/dash.mss.debug.min.js -> /output/modern/umd/dash.mss.debug.min.js.sri
-2025/03/18 03:35:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.mss.debug.min.js.br /tmp/work/dist/modern/umd/dash.mss.debug.min.js
-2025/03/18 03:35:22 br /tmp/work/dist/modern/umd/dash.mss.debug.min.js -> /output/modern/umd/dash.mss.debug.min.js.br
-2025/03/18 03:35:22 gz /tmp/work/dist/modern/umd/dash.mss.debug.min.js -> /output/modern/umd/dash.mss.debug.min.js.gz
-2025/03/18 03:35:22 sri /tmp/work/dist/modern/umd/dash.mss.debug.js -> /output/modern/umd/dash.mss.debug.js.sri
-2025/03/18 03:35:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.mss.debug.js.br /tmp/work/dist/modern/umd/dash.mss.debug.js
-2025/03/18 03:35:23 br /tmp/work/dist/modern/umd/dash.mss.debug.js -> /output/modern/umd/dash.mss.debug.js.br
-2025/03/18 03:35:23 gz /tmp/work/dist/modern/umd/dash.mss.debug.js -> /output/modern/umd/dash.mss.debug.js.gz
-2025/03/18 03:35:23 /tmp/work/dist/modern/umd/dash.mss.min.js is already compressed
-2025/03/18 03:35:23 sri /tmp/work/dist/modern/umd/dash.mss.min.js -> /output/modern/umd/dash.mss.min.js.sri
-2025/03/18 03:35:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.mss.min.js.br /tmp/work/dist/modern/umd/dash.mss.min.js
-2025/03/18 03:35:24 br /tmp/work/dist/modern/umd/dash.mss.debug.js.map -> /output/modern/umd/dash.mss.debug.js.map.br
-2025/03/18 03:35:24 br /tmp/work/dist/modern/umd/dash.mss.min.js -> /output/modern/umd/dash.mss.min.js.br
-2025/03/18 03:35:24 gz /tmp/work/dist/modern/umd/dash.mss.min.js -> /output/modern/umd/dash.mss.min.js.gz
-2025/03/18 03:35:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.mss.min.js.map.br /tmp/work/dist/modern/umd/dash.mss.min.js.map
-2025/03/18 03:35:24 gz /tmp/work/dist/modern/umd/dash.mss.debug.js.map -> /output/modern/umd/dash.mss.debug.js.map.gz
-2025/03/18 03:35:24 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/modern/umd/dash.offline.debug.min.js /tmp/work/dist/modern/umd/dash.offline.debug.js]
-2025/03/18 03:35:26 br /tmp/work/dist/modern/umd/dash.mss.min.js.map -> /output/modern/umd/dash.mss.min.js.map.br
-2025/03/18 03:35:26 gz /tmp/work/dist/modern/umd/dash.mss.min.js.map -> /output/modern/umd/dash.mss.min.js.map.gz
-2025/03/18 03:35:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.offline.debug.js.map.br /tmp/work/dist/modern/umd/dash.offline.debug.js.map
-2025/03/18 03:35:49 sri /tmp/work/dist/modern/umd/dash.offline.debug.min.js -> /output/modern/umd/dash.offline.debug.min.js.sri
-2025/03/18 03:35:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.offline.debug.min.js.br /tmp/work/dist/modern/umd/dash.offline.debug.min.js
-2025/03/18 03:35:51 br /tmp/work/dist/modern/umd/dash.offline.debug.js.map -> /output/modern/umd/dash.offline.debug.js.map.br
-2025/03/18 03:35:52 gz /tmp/work/dist/modern/umd/dash.offline.debug.js.map -> /output/modern/umd/dash.offline.debug.js.map.gz
-2025/03/18 03:35:52 /tmp/work/dist/modern/umd/dash.offline.min.js is already compressed
-2025/03/18 03:35:52 sri /tmp/work/dist/modern/umd/dash.offline.min.js -> /output/modern/umd/dash.offline.min.js.sri
-2025/03/18 03:35:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.offline.min.js.br /tmp/work/dist/modern/umd/dash.offline.min.js
-2025/03/18 03:35:56 br /tmp/work/dist/modern/umd/dash.offline.debug.min.js -> /output/modern/umd/dash.offline.debug.min.js.br
-2025/03/18 03:35:56 gz /tmp/work/dist/modern/umd/dash.offline.debug.min.js -> /output/modern/umd/dash.offline.debug.min.js.gz
-2025/03/18 03:35:56 sri /tmp/work/dist/modern/umd/dash.offline.debug.js -> /output/modern/umd/dash.offline.debug.js.sri
-2025/03/18 03:35:56 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.offline.debug.js.br /tmp/work/dist/modern/umd/dash.offline.debug.js
-2025/03/18 03:35:57 br /tmp/work/dist/modern/umd/dash.all.min.js.map -> /output/modern/umd/dash.all.min.js.map.br
-2025/03/18 03:35:58 sri /tmp/work/dist/modern/umd/dash.mediaplayer.debug.min.js -> /output/modern/umd/dash.mediaplayer.debug.min.js.sri
-2025/03/18 03:35:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.mediaplayer.debug.min.js.br /tmp/work/dist/modern/umd/dash.mediaplayer.debug.min.js
-2025/03/18 03:35:59 br /tmp/work/dist/modern/umd/dash.offline.min.js -> /output/modern/umd/dash.offline.min.js.br
-2025/03/18 03:36:00 gz /tmp/work/dist/modern/umd/dash.offline.min.js -> /output/modern/umd/dash.offline.min.js.gz
-2025/03/18 03:36:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.offline.min.js.LICENSE.txt.br /tmp/work/dist/modern/umd/dash.offline.min.js.LICENSE.txt
-2025/03/18 03:36:00 br /tmp/work/dist/modern/umd/dash.offline.min.js.LICENSE.txt -> /output/modern/umd/dash.offline.min.js.LICENSE.txt.br
-2025/03/18 03:36:00 gz /tmp/work/dist/modern/umd/dash.offline.min.js.LICENSE.txt -> /output/modern/umd/dash.offline.min.js.LICENSE.txt.gz
-2025/03/18 03:36:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.offline.min.js.map.br /tmp/work/dist/modern/umd/dash.offline.min.js.map
-2025/03/18 03:36:00 gz /tmp/work/dist/modern/umd/dash.all.min.js.map -> /output/modern/umd/dash.all.min.js.map.gz
-2025/03/18 03:36:00 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/modern/umd/dash.protection.debug.min.js /tmp/work/dist/modern/umd/dash.protection.debug.js]
-2025/03/18 03:36:02 sri /tmp/work/dist/modern/umd/dash.all.debug.min.js -> /output/modern/umd/dash.all.debug.min.js.sri
-2025/03/18 03:36:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.all.debug.min.js.br /tmp/work/dist/modern/umd/dash.all.debug.min.js
-2025/03/18 03:36:07 br /tmp/work/dist/modern/umd/dash.mediaplayer.min.js.map -> /output/modern/umd/dash.mediaplayer.min.js.map.br
-2025/03/18 03:36:08 sri /tmp/work/dist/modern/umd/dash.protection.debug.min.js -> /output/modern/umd/dash.protection.debug.min.js.sri
-2025/03/18 03:36:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.protection.debug.min.js.br /tmp/work/dist/modern/umd/dash.protection.debug.min.js
-2025/03/18 03:36:08 br /tmp/work/dist/modern/umd/dash.protection.debug.min.js -> /output/modern/umd/dash.protection.debug.min.js.br
-2025/03/18 03:36:08 gz /tmp/work/dist/modern/umd/dash.protection.debug.min.js -> /output/modern/umd/dash.protection.debug.min.js.gz
-2025/03/18 03:36:08 sri /tmp/work/dist/modern/umd/dash.protection.debug.js -> /output/modern/umd/dash.protection.debug.js.sri
-2025/03/18 03:36:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.protection.debug.js.br /tmp/work/dist/modern/umd/dash.protection.debug.js
-2025/03/18 03:36:09 br /tmp/work/dist/modern/umd/dash.all.debug.js.map -> /output/modern/umd/dash.all.debug.js.map.br
-2025/03/18 03:36:09 gz /tmp/work/dist/modern/umd/dash.mediaplayer.min.js.map -> /output/modern/umd/dash.mediaplayer.min.js.map.gz
-2025/03/18 03:36:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.protection.debug.js.map.br /tmp/work/dist/modern/umd/dash.protection.debug.js.map
-2025/03/18 03:36:11 br /tmp/work/dist/modern/umd/dash.mediaplayer.debug.min.js -> /output/modern/umd/dash.mediaplayer.debug.min.js.br
-2025/03/18 03:36:11 gz /tmp/work/dist/modern/umd/dash.mediaplayer.debug.min.js -> /output/modern/umd/dash.mediaplayer.debug.min.js.gz
-2025/03/18 03:36:11 sri /tmp/work/dist/modern/umd/dash.mediaplayer.debug.js -> /output/modern/umd/dash.mediaplayer.debug.js.sri
-2025/03/18 03:36:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.mediaplayer.debug.js.br /tmp/work/dist/modern/umd/dash.mediaplayer.debug.js
-2025/03/18 03:36:11 br /tmp/work/dist/modern/umd/dash.all.debug.min.js -> /output/modern/umd/dash.all.debug.min.js.br
-2025/03/18 03:36:12 gz /tmp/work/dist/modern/umd/dash.all.debug.min.js -> /output/modern/umd/dash.all.debug.min.js.gz
-2025/03/18 03:36:12 sri /tmp/work/dist/modern/umd/dash.all.debug.js -> /output/modern/umd/dash.all.debug.js.sri
-2025/03/18 03:36:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.all.debug.js.br /tmp/work/dist/modern/umd/dash.all.debug.js
-2025/03/18 03:36:12 br /tmp/work/dist/modern/umd/dash.protection.debug.js -> /output/modern/umd/dash.protection.debug.js.br
-2025/03/18 03:36:12 gz /tmp/work/dist/modern/umd/dash.protection.debug.js -> /output/modern/umd/dash.protection.debug.js.gz
-2025/03/18 03:36:12 /tmp/work/dist/modern/umd/dash.protection.min.js is already compressed
-2025/03/18 03:36:12 sri /tmp/work/dist/modern/umd/dash.protection.min.js -> /output/modern/umd/dash.protection.min.js.sri
-2025/03/18 03:36:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.protection.min.js.br /tmp/work/dist/modern/umd/dash.protection.min.js
-2025/03/18 03:36:12 gz /tmp/work/dist/modern/umd/dash.all.debug.js.map -> /output/modern/umd/dash.all.debug.js.map.gz
-2025/03/18 03:36:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.protection.min.js.map.br /tmp/work/dist/modern/umd/dash.protection.min.js.map
-2025/03/18 03:36:13 br /tmp/work/dist/modern/umd/dash.offline.debug.js -> /output/modern/umd/dash.offline.debug.js.br
-2025/03/18 03:36:13 br /tmp/work/dist/modern/umd/dash.protection.min.js -> /output/modern/umd/dash.protection.min.js.br
-2025/03/18 03:36:13 gz /tmp/work/dist/modern/umd/dash.protection.min.js -> /output/modern/umd/dash.protection.min.js.gz
-2025/03/18 03:36:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/modern/umd/dash.reporting.debug.min.js /tmp/work/dist/modern/umd/dash.reporting.debug.js]
-2025/03/18 03:36:14 gz /tmp/work/dist/modern/umd/dash.offline.debug.js -> /output/modern/umd/dash.offline.debug.js.gz
-2025/03/18 03:36:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.reporting.debug.js.map.br /tmp/work/dist/modern/umd/dash.reporting.debug.js.map
-2025/03/18 03:36:16 br /tmp/work/dist/modern/umd/dash.protection.debug.js.map -> /output/modern/umd/dash.protection.debug.js.map.br
-2025/03/18 03:36:16 br /tmp/work/dist/modern/umd/dash.mediaplayer.debug.js.map -> /output/modern/umd/dash.mediaplayer.debug.js.map.br
-2025/03/18 03:36:16 gz /tmp/work/dist/modern/umd/dash.protection.debug.js.map -> /output/modern/umd/dash.protection.debug.js.map.gz
-2025/03/18 03:36:16 /tmp/work/dist/modern/umd/dash.reporting.min.js is already compressed
-2025/03/18 03:36:16 sri /tmp/work/dist/modern/umd/dash.reporting.min.js -> /output/modern/umd/dash.reporting.min.js.sri
-2025/03/18 03:36:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.reporting.min.js.br /tmp/work/dist/modern/umd/dash.reporting.min.js
-2025/03/18 03:36:16 br /tmp/work/dist/modern/umd/dash.reporting.min.js -> /output/modern/umd/dash.reporting.min.js.br
-2025/03/18 03:36:16 gz /tmp/work/dist/modern/umd/dash.reporting.min.js -> /output/modern/umd/dash.reporting.min.js.gz
-2025/03/18 03:36:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.reporting.min.js.map.br /tmp/work/dist/modern/umd/dash.reporting.min.js.map
-2025/03/18 03:36:18 br /tmp/work/dist/modern/umd/dash.protection.min.js.map -> /output/modern/umd/dash.protection.min.js.map.br
-2025/03/18 03:36:18 gz /tmp/work/dist/modern/umd/dash.protection.min.js.map -> /output/modern/umd/dash.protection.min.js.map.gz
-2025/03/18 03:36:18 gz /tmp/work/dist/modern/umd/dash.mediaplayer.debug.js.map -> /output/modern/umd/dash.mediaplayer.debug.js.map.gz
-2025/03/18 03:36:20 br /tmp/work/dist/modern/umd/dash.reporting.debug.js.map -> /output/modern/umd/dash.reporting.debug.js.map.br
-2025/03/18 03:36:20 sri /tmp/work/dist/modern/umd/dash.reporting.debug.min.js -> /output/modern/umd/dash.reporting.debug.min.js.sri
-2025/03/18 03:36:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.reporting.debug.min.js.br /tmp/work/dist/modern/umd/dash.reporting.debug.min.js
-2025/03/18 03:36:20 gz /tmp/work/dist/modern/umd/dash.reporting.debug.js.map -> /output/modern/umd/dash.reporting.debug.js.map.gz
-2025/03/18 03:36:20 br /tmp/work/dist/modern/umd/dash.reporting.debug.min.js -> /output/modern/umd/dash.reporting.debug.min.js.br
-2025/03/18 03:36:20 gz /tmp/work/dist/modern/umd/dash.reporting.debug.min.js -> /output/modern/umd/dash.reporting.debug.min.js.gz
-2025/03/18 03:36:20 sri /tmp/work/dist/modern/umd/dash.reporting.debug.js -> /output/modern/umd/dash.reporting.debug.js.sri
-2025/03/18 03:36:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.reporting.debug.js.br /tmp/work/dist/modern/umd/dash.reporting.debug.js
-2025/03/18 03:36:20 br /tmp/work/dist/modern/umd/dash.reporting.min.js.map -> /output/modern/umd/dash.reporting.min.js.map.br
-2025/03/18 03:36:21 gz /tmp/work/dist/modern/umd/dash.reporting.min.js.map -> /output/modern/umd/dash.reporting.min.js.map.gz
-2025/03/18 03:36:21 br /tmp/work/dist/modern/umd/dash.offline.min.js.map -> /output/modern/umd/dash.offline.min.js.map.br
-2025/03/18 03:36:21 gz /tmp/work/dist/modern/umd/dash.offline.min.js.map -> /output/modern/umd/dash.offline.min.js.map.gz
-2025/03/18 03:36:22 br /tmp/work/dist/modern/umd/dash.reporting.debug.js -> /output/modern/umd/dash.reporting.debug.js.br
-2025/03/18 03:36:22 gz /tmp/work/dist/modern/umd/dash.reporting.debug.js -> /output/modern/umd/dash.reporting.debug.js.gz
-2025/03/18 03:36:26 br /tmp/work/dist/modern/umd/dash.mediaplayer.debug.js -> /output/modern/umd/dash.mediaplayer.debug.js.br
-2025/03/18 03:36:27 gz /tmp/work/dist/modern/umd/dash.mediaplayer.debug.js -> /output/modern/umd/dash.mediaplayer.debug.js.gz
-2025/03/18 03:36:28 br /tmp/work/dist/modern/umd/dash.all.debug.js -> /output/modern/umd/dash.all.debug.js.br
-2025/03/18 03:36:29 gz /tmp/work/dist/modern/umd/dash.all.debug.js -> /output/modern/umd/dash.all.debug.js.gz
-2025/03/18 03:36:29 processed dashjs
+2025/03/18 11:08:46 optimizing files (Js true, Css true, Png true, Jpg true)
+2025/03/18 11:08:46 /tmp/work/dist/legacy/umd/dash.mediaplayer.min.js is already compressed
+2025/03/18 11:08:46 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/legacy/umd/dash.all.debug.min.js /tmp/work/dist/legacy/umd/dash.all.debug.js]
+2025/03/18 11:08:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.all.min.js.map.br /tmp/work/dist/legacy/umd/dash.all.min.js.map
+2025/03/18 11:08:46 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/legacy/umd/dash.mediaplayer.debug.min.js /tmp/work/dist/legacy/umd/dash.mediaplayer.debug.js]
+2025/03/18 11:08:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.mediaplayer.debug.js.map.br /tmp/work/dist/legacy/umd/dash.mediaplayer.debug.js.map
+2025/03/18 11:08:46 /tmp/work/dist/legacy/umd/dash.all.min.js is already compressed
+2025/03/18 11:08:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.all.min.js.LICENSE.txt.br /tmp/work/dist/legacy/umd/dash.all.min.js.LICENSE.txt
+2025/03/18 11:08:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.all.debug.js.map.br /tmp/work/dist/legacy/umd/dash.all.debug.js.map
+2025/03/18 11:08:47 sri /tmp/work/dist/legacy/umd/dash.mediaplayer.min.js -> /output/legacy/umd/dash.mediaplayer.min.js.sri
+2025/03/18 11:08:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.mediaplayer.min.js.br /tmp/work/dist/legacy/umd/dash.mediaplayer.min.js
+2025/03/18 11:08:47 sri /tmp/work/dist/legacy/umd/dash.all.min.js -> /output/legacy/umd/dash.all.min.js.sri
+2025/03/18 11:08:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.all.min.js.br /tmp/work/dist/legacy/umd/dash.all.min.js
+2025/03/18 11:08:47 br /tmp/work/dist/legacy/umd/dash.all.min.js.LICENSE.txt -> /output/legacy/umd/dash.all.min.js.LICENSE.txt.br
+2025/03/18 11:08:47 gz /tmp/work/dist/legacy/umd/dash.all.min.js.LICENSE.txt -> /output/legacy/umd/dash.all.min.js.LICENSE.txt.gz
+2025/03/18 11:08:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.mediaplayer.min.js.LICENSE.txt.br /tmp/work/dist/legacy/umd/dash.mediaplayer.min.js.LICENSE.txt
+2025/03/18 11:08:47 br /tmp/work/dist/legacy/umd/dash.mediaplayer.min.js.LICENSE.txt -> /output/legacy/umd/dash.mediaplayer.min.js.LICENSE.txt.br
+2025/03/18 11:08:47 gz /tmp/work/dist/legacy/umd/dash.mediaplayer.min.js.LICENSE.txt -> /output/legacy/umd/dash.mediaplayer.min.js.LICENSE.txt.gz
+2025/03/18 11:08:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.mediaplayer.min.js.map.br /tmp/work/dist/legacy/umd/dash.mediaplayer.min.js.map
+2025/03/18 11:08:57 br /tmp/work/dist/legacy/umd/dash.all.min.js -> /output/legacy/umd/dash.all.min.js.br
+2025/03/18 11:08:58 br /tmp/work/dist/legacy/umd/dash.mediaplayer.min.js -> /output/legacy/umd/dash.mediaplayer.min.js.br
+2025/03/18 11:08:58 gz /tmp/work/dist/legacy/umd/dash.all.min.js -> /output/legacy/umd/dash.all.min.js.gz
+2025/03/18 11:08:58 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/legacy/umd/dash.mss.debug.min.js /tmp/work/dist/legacy/umd/dash.mss.debug.js]
+2025/03/18 11:08:58 gz /tmp/work/dist/legacy/umd/dash.mediaplayer.min.js -> /output/legacy/umd/dash.mediaplayer.min.js.gz
+2025/03/18 11:08:58 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.mss.debug.js.map.br /tmp/work/dist/legacy/umd/dash.mss.debug.js.map
+2025/03/18 11:09:11 br /tmp/work/dist/legacy/umd/dash.mss.debug.js.map -> /output/legacy/umd/dash.mss.debug.js.map.br
+2025/03/18 11:09:12 gz /tmp/work/dist/legacy/umd/dash.mss.debug.js.map -> /output/legacy/umd/dash.mss.debug.js.map.gz
+2025/03/18 11:09:12 /tmp/work/dist/legacy/umd/dash.mss.min.js is already compressed
+2025/03/18 11:09:12 sri /tmp/work/dist/legacy/umd/dash.mss.min.js -> /output/legacy/umd/dash.mss.min.js.sri
+2025/03/18 11:09:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.mss.min.js.br /tmp/work/dist/legacy/umd/dash.mss.min.js
+2025/03/18 11:09:14 br /tmp/work/dist/legacy/umd/dash.mss.min.js -> /output/legacy/umd/dash.mss.min.js.br
+2025/03/18 11:09:14 gz /tmp/work/dist/legacy/umd/dash.mss.min.js -> /output/legacy/umd/dash.mss.min.js.gz
+2025/03/18 11:09:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.mss.min.js.map.br /tmp/work/dist/legacy/umd/dash.mss.min.js.map
+2025/03/18 11:09:18 sri /tmp/work/dist/legacy/umd/dash.mss.debug.min.js -> /output/legacy/umd/dash.mss.debug.min.js.sri
+2025/03/18 11:09:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.mss.debug.min.js.br /tmp/work/dist/legacy/umd/dash.mss.debug.min.js
+2025/03/18 11:09:19 br /tmp/work/dist/legacy/umd/dash.mss.debug.min.js -> /output/legacy/umd/dash.mss.debug.min.js.br
+2025/03/18 11:09:19 gz /tmp/work/dist/legacy/umd/dash.mss.debug.min.js -> /output/legacy/umd/dash.mss.debug.min.js.gz
+2025/03/18 11:09:19 sri /tmp/work/dist/legacy/umd/dash.mss.debug.js -> /output/legacy/umd/dash.mss.debug.js.sri
+2025/03/18 11:09:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.mss.debug.js.br /tmp/work/dist/legacy/umd/dash.mss.debug.js
+2025/03/18 11:09:20 br /tmp/work/dist/legacy/umd/dash.mss.min.js.map -> /output/legacy/umd/dash.mss.min.js.map.br
+2025/03/18 11:09:21 gz /tmp/work/dist/legacy/umd/dash.mss.min.js.map -> /output/legacy/umd/dash.mss.min.js.map.gz
+2025/03/18 11:09:21 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/legacy/umd/dash.offline.debug.min.js /tmp/work/dist/legacy/umd/dash.offline.debug.js]
+2025/03/18 11:09:27 br /tmp/work/dist/legacy/umd/dash.mss.debug.js -> /output/legacy/umd/dash.mss.debug.js.br
+2025/03/18 11:09:27 gz /tmp/work/dist/legacy/umd/dash.mss.debug.js -> /output/legacy/umd/dash.mss.debug.js.gz
+2025/03/18 11:09:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.offline.debug.js.map.br /tmp/work/dist/legacy/umd/dash.offline.debug.js.map
+2025/03/18 11:09:41 br /tmp/work/dist/legacy/umd/dash.mediaplayer.min.js.map -> /output/legacy/umd/dash.mediaplayer.min.js.map.br
+2025/03/18 11:09:42 br /tmp/work/dist/legacy/umd/dash.all.min.js.map -> /output/legacy/umd/dash.all.min.js.map.br
+2025/03/18 11:09:44 gz /tmp/work/dist/legacy/umd/dash.all.min.js.map -> /output/legacy/umd/dash.all.min.js.map.gz
+2025/03/18 11:09:44 /tmp/work/dist/legacy/umd/dash.offline.min.js is already compressed
+2025/03/18 11:09:44 sri /tmp/work/dist/legacy/umd/dash.offline.min.js -> /output/legacy/umd/dash.offline.min.js.sri
+2025/03/18 11:09:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.offline.min.js.br /tmp/work/dist/legacy/umd/dash.offline.min.js
+2025/03/18 11:09:44 gz /tmp/work/dist/legacy/umd/dash.mediaplayer.min.js.map -> /output/legacy/umd/dash.mediaplayer.min.js.map.gz
+2025/03/18 11:09:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.offline.min.js.LICENSE.txt.br /tmp/work/dist/legacy/umd/dash.offline.min.js.LICENSE.txt
+2025/03/18 11:09:44 br /tmp/work/dist/legacy/umd/dash.offline.min.js.LICENSE.txt -> /output/legacy/umd/dash.offline.min.js.LICENSE.txt.br
+2025/03/18 11:09:44 gz /tmp/work/dist/legacy/umd/dash.offline.min.js.LICENSE.txt -> /output/legacy/umd/dash.offline.min.js.LICENSE.txt.gz
+2025/03/18 11:09:44 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.offline.min.js.map.br /tmp/work/dist/legacy/umd/dash.offline.min.js.map
+2025/03/18 11:09:50 br /tmp/work/dist/legacy/umd/dash.mediaplayer.debug.js.map -> /output/legacy/umd/dash.mediaplayer.debug.js.map.br
+2025/03/18 11:09:50 br /tmp/work/dist/legacy/umd/dash.offline.min.js -> /output/legacy/umd/dash.offline.min.js.br
+2025/03/18 11:09:51 gz /tmp/work/dist/legacy/umd/dash.offline.min.js -> /output/legacy/umd/dash.offline.min.js.gz
+2025/03/18 11:09:51 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/legacy/umd/dash.protection.debug.min.js /tmp/work/dist/legacy/umd/dash.protection.debug.js]
+2025/03/18 11:09:53 gz /tmp/work/dist/legacy/umd/dash.mediaplayer.debug.js.map -> /output/legacy/umd/dash.mediaplayer.debug.js.map.gz
+2025/03/18 11:09:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.protection.debug.js.map.br /tmp/work/dist/legacy/umd/dash.protection.debug.js.map
+2025/03/18 11:09:54 sri /tmp/work/dist/legacy/umd/dash.mediaplayer.debug.min.js -> /output/legacy/umd/dash.mediaplayer.debug.min.js.sri
+2025/03/18 11:09:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.mediaplayer.debug.min.js.br /tmp/work/dist/legacy/umd/dash.mediaplayer.debug.min.js
+2025/03/18 11:09:54 br /tmp/work/dist/legacy/umd/dash.offline.debug.js.map -> /output/legacy/umd/dash.offline.debug.js.map.br
+2025/03/18 11:09:54 sri /tmp/work/dist/legacy/umd/dash.all.debug.min.js -> /output/legacy/umd/dash.all.debug.min.js.sri
+2025/03/18 11:09:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.all.debug.min.js.br /tmp/work/dist/legacy/umd/dash.all.debug.min.js
+2025/03/18 11:09:55 sri /tmp/work/dist/legacy/umd/dash.offline.debug.min.js -> /output/legacy/umd/dash.offline.debug.min.js.sri
+2025/03/18 11:09:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.offline.debug.min.js.br /tmp/work/dist/legacy/umd/dash.offline.debug.min.js
+2025/03/18 11:09:55 gz /tmp/work/dist/legacy/umd/dash.offline.debug.js.map -> /output/legacy/umd/dash.offline.debug.js.map.gz
+2025/03/18 11:09:55 /tmp/work/dist/legacy/umd/dash.protection.min.js is already compressed
+2025/03/18 11:09:55 sri /tmp/work/dist/legacy/umd/dash.protection.min.js -> /output/legacy/umd/dash.protection.min.js.sri
+2025/03/18 11:09:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.protection.min.js.br /tmp/work/dist/legacy/umd/dash.protection.min.js
+2025/03/18 11:09:58 br /tmp/work/dist/legacy/umd/dash.protection.min.js -> /output/legacy/umd/dash.protection.min.js.br
+2025/03/18 11:09:59 gz /tmp/work/dist/legacy/umd/dash.protection.min.js -> /output/legacy/umd/dash.protection.min.js.gz
+2025/03/18 11:09:59 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.protection.min.js.map.br /tmp/work/dist/legacy/umd/dash.protection.min.js.map
+2025/03/18 11:09:59 br /tmp/work/dist/legacy/umd/dash.all.debug.js.map -> /output/legacy/umd/dash.all.debug.js.map.br
+2025/03/18 11:10:02 br /tmp/work/dist/legacy/umd/dash.protection.debug.js.map -> /output/legacy/umd/dash.protection.debug.js.map.br
+2025/03/18 11:10:02 gz /tmp/work/dist/legacy/umd/dash.all.debug.js.map -> /output/legacy/umd/dash.all.debug.js.map.gz
+2025/03/18 11:10:02 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/legacy/umd/dash.reporting.debug.min.js /tmp/work/dist/legacy/umd/dash.reporting.debug.js]
+2025/03/18 11:10:03 gz /tmp/work/dist/legacy/umd/dash.protection.debug.js.map -> /output/legacy/umd/dash.protection.debug.js.map.gz
+2025/03/18 11:10:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.reporting.debug.js.map.br /tmp/work/dist/legacy/umd/dash.reporting.debug.js.map
+2025/03/18 11:10:04 br /tmp/work/dist/legacy/umd/dash.offline.debug.min.js -> /output/legacy/umd/dash.offline.debug.min.js.br
+2025/03/18 11:10:05 gz /tmp/work/dist/legacy/umd/dash.offline.debug.min.js -> /output/legacy/umd/dash.offline.debug.min.js.gz
+2025/03/18 11:10:05 sri /tmp/work/dist/legacy/umd/dash.offline.debug.js -> /output/legacy/umd/dash.offline.debug.js.sri
+2025/03/18 11:10:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.offline.debug.js.br /tmp/work/dist/legacy/umd/dash.offline.debug.js
+2025/03/18 11:10:08 br /tmp/work/dist/legacy/umd/dash.mediaplayer.debug.min.js -> /output/legacy/umd/dash.mediaplayer.debug.min.js.br
+2025/03/18 11:10:09 gz /tmp/work/dist/legacy/umd/dash.mediaplayer.debug.min.js -> /output/legacy/umd/dash.mediaplayer.debug.min.js.gz
+2025/03/18 11:10:09 sri /tmp/work/dist/legacy/umd/dash.mediaplayer.debug.js -> /output/legacy/umd/dash.mediaplayer.debug.js.sri
+2025/03/18 11:10:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.mediaplayer.debug.js.br /tmp/work/dist/legacy/umd/dash.mediaplayer.debug.js
+2025/03/18 11:10:10 sri /tmp/work/dist/legacy/umd/dash.protection.debug.min.js -> /output/legacy/umd/dash.protection.debug.min.js.sri
+2025/03/18 11:10:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.protection.debug.min.js.br /tmp/work/dist/legacy/umd/dash.protection.debug.min.js
+2025/03/18 11:10:10 br /tmp/work/dist/legacy/umd/dash.all.debug.min.js -> /output/legacy/umd/dash.all.debug.min.js.br
+2025/03/18 11:10:10 br /tmp/work/dist/legacy/umd/dash.protection.min.js.map -> /output/legacy/umd/dash.protection.min.js.map.br
+2025/03/18 11:10:10 br /tmp/work/dist/legacy/umd/dash.offline.min.js.map -> /output/legacy/umd/dash.offline.min.js.map.br
+2025/03/18 11:10:10 gz /tmp/work/dist/legacy/umd/dash.all.debug.min.js -> /output/legacy/umd/dash.all.debug.min.js.gz
+2025/03/18 11:10:10 sri /tmp/work/dist/legacy/umd/dash.all.debug.js -> /output/legacy/umd/dash.all.debug.js.sri
+2025/03/18 11:10:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.all.debug.js.br /tmp/work/dist/legacy/umd/dash.all.debug.js
+2025/03/18 11:10:11 gz /tmp/work/dist/legacy/umd/dash.protection.min.js.map -> /output/legacy/umd/dash.protection.min.js.map.gz
+2025/03/18 11:10:11 /tmp/work/dist/legacy/umd/dash.reporting.min.js is already compressed
+2025/03/18 11:10:11 sri /tmp/work/dist/legacy/umd/dash.reporting.min.js -> /output/legacy/umd/dash.reporting.min.js.sri
+2025/03/18 11:10:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.reporting.min.js.br /tmp/work/dist/legacy/umd/dash.reporting.min.js
+2025/03/18 11:10:12 gz /tmp/work/dist/legacy/umd/dash.offline.min.js.map -> /output/legacy/umd/dash.offline.min.js.map.gz
+2025/03/18 11:10:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.reporting.min.js.map.br /tmp/work/dist/legacy/umd/dash.reporting.min.js.map
+2025/03/18 11:10:12 br /tmp/work/dist/legacy/umd/dash.reporting.min.js -> /output/legacy/umd/dash.reporting.min.js.br
+2025/03/18 11:10:12 gz /tmp/work/dist/legacy/umd/dash.reporting.min.js -> /output/legacy/umd/dash.reporting.min.js.gz
+2025/03/18 11:10:12 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/modern/esm/dash.all.debug.min.js /tmp/work/dist/modern/esm/dash.all.debug.js]
+2025/03/18 11:10:13 br /tmp/work/dist/legacy/umd/dash.protection.debug.min.js -> /output/legacy/umd/dash.protection.debug.min.js.br
+2025/03/18 11:10:13 gz /tmp/work/dist/legacy/umd/dash.protection.debug.min.js -> /output/legacy/umd/dash.protection.debug.min.js.gz
+2025/03/18 11:10:13 sri /tmp/work/dist/legacy/umd/dash.protection.debug.js -> /output/legacy/umd/dash.protection.debug.js.sri
+2025/03/18 11:10:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.protection.debug.js.br /tmp/work/dist/legacy/umd/dash.protection.debug.js
+2025/03/18 11:10:13 br /tmp/work/dist/legacy/umd/dash.reporting.debug.js.map -> /output/legacy/umd/dash.reporting.debug.js.map.br
+2025/03/18 11:10:13 gz /tmp/work/dist/legacy/umd/dash.reporting.debug.js.map -> /output/legacy/umd/dash.reporting.debug.js.map.gz
+2025/03/18 11:10:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.all.debug.js.map.br /tmp/work/dist/modern/esm/dash.all.debug.js.map
+2025/03/18 11:10:17 sri /tmp/work/dist/legacy/umd/dash.reporting.debug.min.js -> /output/legacy/umd/dash.reporting.debug.min.js.sri
+2025/03/18 11:10:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.reporting.debug.min.js.br /tmp/work/dist/legacy/umd/dash.reporting.debug.min.js
+2025/03/18 11:10:21 br /tmp/work/dist/legacy/umd/dash.reporting.debug.min.js -> /output/legacy/umd/dash.reporting.debug.min.js.br
+2025/03/18 11:10:21 gz /tmp/work/dist/legacy/umd/dash.reporting.debug.min.js -> /output/legacy/umd/dash.reporting.debug.min.js.gz
+2025/03/18 11:10:21 sri /tmp/work/dist/legacy/umd/dash.reporting.debug.js -> /output/legacy/umd/dash.reporting.debug.js.sri
+2025/03/18 11:10:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/legacy/umd/dash.reporting.debug.js.br /tmp/work/dist/legacy/umd/dash.reporting.debug.js
+2025/03/18 11:10:23 br /tmp/work/dist/legacy/umd/dash.reporting.min.js.map -> /output/legacy/umd/dash.reporting.min.js.map.br
+2025/03/18 11:10:24 gz /tmp/work/dist/legacy/umd/dash.reporting.min.js.map -> /output/legacy/umd/dash.reporting.min.js.map.gz
+2025/03/18 11:10:24 /tmp/work/dist/modern/esm/dash.all.min.js is already compressed
+2025/03/18 11:10:24 sri /tmp/work/dist/modern/esm/dash.all.min.js -> /output/modern/esm/dash.all.min.js.sri
+2025/03/18 11:10:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.all.min.js.br /tmp/work/dist/modern/esm/dash.all.min.js
+2025/03/18 11:10:28 br /tmp/work/dist/legacy/umd/dash.protection.debug.js -> /output/legacy/umd/dash.protection.debug.js.br
+2025/03/18 11:10:29 gz /tmp/work/dist/legacy/umd/dash.protection.debug.js -> /output/legacy/umd/dash.protection.debug.js.gz
+2025/03/18 11:10:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.all.min.js.LICENSE.txt.br /tmp/work/dist/modern/esm/dash.all.min.js.LICENSE.txt
+2025/03/18 11:10:29 br /tmp/work/dist/modern/esm/dash.all.min.js.LICENSE.txt -> /output/modern/esm/dash.all.min.js.LICENSE.txt.br
+2025/03/18 11:10:29 gz /tmp/work/dist/modern/esm/dash.all.min.js.LICENSE.txt -> /output/modern/esm/dash.all.min.js.LICENSE.txt.gz
+2025/03/18 11:10:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.all.min.js.map.br /tmp/work/dist/modern/esm/dash.all.min.js.map
+2025/03/18 11:10:29 br /tmp/work/dist/legacy/umd/dash.offline.debug.js -> /output/legacy/umd/dash.offline.debug.js.br
+2025/03/18 11:10:30 gz /tmp/work/dist/legacy/umd/dash.offline.debug.js -> /output/legacy/umd/dash.offline.debug.js.gz
+2025/03/18 11:10:30 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/modern/esm/dash.mediaplayer.debug.min.js /tmp/work/dist/modern/esm/dash.mediaplayer.debug.js]
+2025/03/18 11:10:30 br /tmp/work/dist/legacy/umd/dash.reporting.debug.js -> /output/legacy/umd/dash.reporting.debug.js.br
+2025/03/18 11:10:30 gz /tmp/work/dist/legacy/umd/dash.reporting.debug.js -> /output/legacy/umd/dash.reporting.debug.js.gz
+2025/03/18 11:10:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.mediaplayer.debug.js.map.br /tmp/work/dist/modern/esm/dash.mediaplayer.debug.js.map
+2025/03/18 11:10:33 br /tmp/work/dist/modern/esm/dash.all.min.js -> /output/modern/esm/dash.all.min.js.br
+2025/03/18 11:10:33 gz /tmp/work/dist/modern/esm/dash.all.min.js -> /output/modern/esm/dash.all.min.js.gz
+2025/03/18 11:10:33 /tmp/work/dist/modern/esm/dash.mediaplayer.min.js is already compressed
+2025/03/18 11:10:33 sri /tmp/work/dist/modern/esm/dash.mediaplayer.min.js -> /output/modern/esm/dash.mediaplayer.min.js.sri
+2025/03/18 11:10:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.mediaplayer.min.js.br /tmp/work/dist/modern/esm/dash.mediaplayer.min.js
+2025/03/18 11:10:44 br /tmp/work/dist/modern/esm/dash.mediaplayer.min.js -> /output/modern/esm/dash.mediaplayer.min.js.br
+2025/03/18 11:10:45 gz /tmp/work/dist/modern/esm/dash.mediaplayer.min.js -> /output/modern/esm/dash.mediaplayer.min.js.gz
+2025/03/18 11:10:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.mediaplayer.min.js.LICENSE.txt.br /tmp/work/dist/modern/esm/dash.mediaplayer.min.js.LICENSE.txt
+2025/03/18 11:10:45 br /tmp/work/dist/modern/esm/dash.mediaplayer.min.js.LICENSE.txt -> /output/modern/esm/dash.mediaplayer.min.js.LICENSE.txt.br
+2025/03/18 11:10:45 gz /tmp/work/dist/modern/esm/dash.mediaplayer.min.js.LICENSE.txt -> /output/modern/esm/dash.mediaplayer.min.js.LICENSE.txt.gz
+2025/03/18 11:10:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.mediaplayer.min.js.map.br /tmp/work/dist/modern/esm/dash.mediaplayer.min.js.map
+2025/03/18 11:11:02 br /tmp/work/dist/legacy/umd/dash.mediaplayer.debug.js -> /output/legacy/umd/dash.mediaplayer.debug.js.br
+2025/03/18 11:11:03 br /tmp/work/dist/legacy/umd/dash.all.debug.js -> /output/legacy/umd/dash.all.debug.js.br
+2025/03/18 11:11:04 gz /tmp/work/dist/legacy/umd/dash.mediaplayer.debug.js -> /output/legacy/umd/dash.mediaplayer.debug.js.gz
+2025/03/18 11:11:04 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/modern/esm/dash.mss.debug.min.js /tmp/work/dist/modern/esm/dash.mss.debug.js]
+2025/03/18 11:11:05 sri /tmp/work/dist/modern/esm/dash.all.debug.min.js -> /output/modern/esm/dash.all.debug.min.js.sri
+2025/03/18 11:11:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.all.debug.min.js.br /tmp/work/dist/modern/esm/dash.all.debug.min.js
+2025/03/18 11:11:05 gz /tmp/work/dist/legacy/umd/dash.all.debug.js -> /output/legacy/umd/dash.all.debug.js.gz
+2025/03/18 11:11:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.mss.debug.js.map.br /tmp/work/dist/modern/esm/dash.mss.debug.js.map
+2025/03/18 11:11:10 br /tmp/work/dist/modern/esm/dash.mss.debug.js.map -> /output/modern/esm/dash.mss.debug.js.map.br
+2025/03/18 11:11:11 gz /tmp/work/dist/modern/esm/dash.mss.debug.js.map -> /output/modern/esm/dash.mss.debug.js.map.gz
+2025/03/18 11:11:11 /tmp/work/dist/modern/esm/dash.mss.min.js is already compressed
+2025/03/18 11:11:11 sri /tmp/work/dist/modern/esm/dash.mss.min.js -> /output/modern/esm/dash.mss.min.js.sri
+2025/03/18 11:11:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.mss.min.js.br /tmp/work/dist/modern/esm/dash.mss.min.js
+2025/03/18 11:11:11 br /tmp/work/dist/modern/esm/dash.mss.min.js -> /output/modern/esm/dash.mss.min.js.br
+2025/03/18 11:11:11 gz /tmp/work/dist/modern/esm/dash.mss.min.js -> /output/modern/esm/dash.mss.min.js.gz
+2025/03/18 11:11:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.mss.min.js.map.br /tmp/work/dist/modern/esm/dash.mss.min.js.map
+2025/03/18 11:11:12 sri /tmp/work/dist/modern/esm/dash.mss.debug.min.js -> /output/modern/esm/dash.mss.debug.min.js.sri
+2025/03/18 11:11:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.mss.debug.min.js.br /tmp/work/dist/modern/esm/dash.mss.debug.min.js
+2025/03/18 11:11:13 br /tmp/work/dist/modern/esm/dash.mss.debug.min.js -> /output/modern/esm/dash.mss.debug.min.js.br
+2025/03/18 11:11:13 gz /tmp/work/dist/modern/esm/dash.mss.debug.min.js -> /output/modern/esm/dash.mss.debug.min.js.gz
+2025/03/18 11:11:13 sri /tmp/work/dist/modern/esm/dash.mss.debug.js -> /output/modern/esm/dash.mss.debug.js.sri
+2025/03/18 11:11:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.mss.debug.js.br /tmp/work/dist/modern/esm/dash.mss.debug.js
+2025/03/18 11:11:15 br /tmp/work/dist/modern/esm/dash.all.debug.js.map -> /output/modern/esm/dash.all.debug.js.map.br
+2025/03/18 11:11:15 br /tmp/work/dist/modern/esm/dash.mss.min.js.map -> /output/modern/esm/dash.mss.min.js.map.br
+2025/03/18 11:11:15 gz /tmp/work/dist/modern/esm/dash.mss.min.js.map -> /output/modern/esm/dash.mss.min.js.map.gz
+2025/03/18 11:11:15 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/modern/esm/dash.offline.debug.min.js /tmp/work/dist/modern/esm/dash.offline.debug.js]
+2025/03/18 11:11:16 br /tmp/work/dist/modern/esm/dash.mss.debug.js -> /output/modern/esm/dash.mss.debug.js.br
+2025/03/18 11:11:16 gz /tmp/work/dist/modern/esm/dash.mss.debug.js -> /output/modern/esm/dash.mss.debug.js.gz
+2025/03/18 11:11:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.offline.debug.js.map.br /tmp/work/dist/modern/esm/dash.offline.debug.js.map
+2025/03/18 11:11:19 gz /tmp/work/dist/modern/esm/dash.all.debug.js.map -> /output/modern/esm/dash.all.debug.js.map.gz
+2025/03/18 11:11:19 /tmp/work/dist/modern/esm/dash.offline.min.js is already compressed
+2025/03/18 11:11:19 sri /tmp/work/dist/modern/esm/dash.offline.min.js -> /output/modern/esm/dash.offline.min.js.sri
+2025/03/18 11:11:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.offline.min.js.br /tmp/work/dist/modern/esm/dash.offline.min.js
+2025/03/18 11:11:21 br /tmp/work/dist/modern/esm/dash.all.debug.min.js -> /output/modern/esm/dash.all.debug.min.js.br
+2025/03/18 11:11:21 gz /tmp/work/dist/modern/esm/dash.all.debug.min.js -> /output/modern/esm/dash.all.debug.min.js.gz
+2025/03/18 11:11:21 sri /tmp/work/dist/modern/esm/dash.all.debug.js -> /output/modern/esm/dash.all.debug.js.sri
+2025/03/18 11:11:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.all.debug.js.br /tmp/work/dist/modern/esm/dash.all.debug.js
+2025/03/18 11:11:24 sri /tmp/work/dist/modern/esm/dash.mediaplayer.debug.min.js -> /output/modern/esm/dash.mediaplayer.debug.min.js.sri
+2025/03/18 11:11:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.mediaplayer.debug.min.js.br /tmp/work/dist/modern/esm/dash.mediaplayer.debug.min.js
+2025/03/18 11:11:26 br /tmp/work/dist/modern/esm/dash.all.min.js.map -> /output/modern/esm/dash.all.min.js.map.br
+2025/03/18 11:11:26 br /tmp/work/dist/modern/esm/dash.offline.min.js -> /output/modern/esm/dash.offline.min.js.br
+2025/03/18 11:11:27 gz /tmp/work/dist/modern/esm/dash.offline.min.js -> /output/modern/esm/dash.offline.min.js.gz
+2025/03/18 11:11:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.offline.min.js.LICENSE.txt.br /tmp/work/dist/modern/esm/dash.offline.min.js.LICENSE.txt
+2025/03/18 11:11:27 br /tmp/work/dist/modern/esm/dash.offline.min.js.LICENSE.txt -> /output/modern/esm/dash.offline.min.js.LICENSE.txt.br
+2025/03/18 11:11:27 gz /tmp/work/dist/modern/esm/dash.offline.min.js.LICENSE.txt -> /output/modern/esm/dash.offline.min.js.LICENSE.txt.gz
+2025/03/18 11:11:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.offline.min.js.map.br /tmp/work/dist/modern/esm/dash.offline.min.js.map
+2025/03/18 11:11:28 gz /tmp/work/dist/modern/esm/dash.all.min.js.map -> /output/modern/esm/dash.all.min.js.map.gz
+2025/03/18 11:11:28 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/modern/esm/dash.protection.debug.min.js /tmp/work/dist/modern/esm/dash.protection.debug.js]
+2025/03/18 11:11:36 sri /tmp/work/dist/modern/esm/dash.protection.debug.min.js -> /output/modern/esm/dash.protection.debug.min.js.sri
+2025/03/18 11:11:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.protection.debug.min.js.br /tmp/work/dist/modern/esm/dash.protection.debug.min.js
+2025/03/18 11:11:37 br /tmp/work/dist/modern/esm/dash.protection.debug.min.js -> /output/modern/esm/dash.protection.debug.min.js.br
+2025/03/18 11:11:37 gz /tmp/work/dist/modern/esm/dash.protection.debug.min.js -> /output/modern/esm/dash.protection.debug.min.js.gz
+2025/03/18 11:11:37 sri /tmp/work/dist/modern/esm/dash.protection.debug.js -> /output/modern/esm/dash.protection.debug.js.sri
+2025/03/18 11:11:37 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.protection.debug.js.br /tmp/work/dist/modern/esm/dash.protection.debug.js
+2025/03/18 11:11:38 br /tmp/work/dist/modern/esm/dash.mediaplayer.debug.min.js -> /output/modern/esm/dash.mediaplayer.debug.min.js.br
+2025/03/18 11:11:38 br /tmp/work/dist/modern/esm/dash.mediaplayer.debug.js.map -> /output/modern/esm/dash.mediaplayer.debug.js.map.br
+2025/03/18 11:11:38 gz /tmp/work/dist/modern/esm/dash.mediaplayer.debug.min.js -> /output/modern/esm/dash.mediaplayer.debug.min.js.gz
+2025/03/18 11:11:38 sri /tmp/work/dist/modern/esm/dash.mediaplayer.debug.js -> /output/modern/esm/dash.mediaplayer.debug.js.sri
+2025/03/18 11:11:38 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.mediaplayer.debug.js.br /tmp/work/dist/modern/esm/dash.mediaplayer.debug.js
+2025/03/18 11:11:39 sri /tmp/work/dist/modern/esm/dash.offline.debug.min.js -> /output/modern/esm/dash.offline.debug.min.js.sri
+2025/03/18 11:11:39 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.offline.debug.min.js.br /tmp/work/dist/modern/esm/dash.offline.debug.min.js
+2025/03/18 11:11:41 br /tmp/work/dist/modern/esm/dash.protection.debug.js -> /output/modern/esm/dash.protection.debug.js.br
+2025/03/18 11:11:41 gz /tmp/work/dist/modern/esm/dash.protection.debug.js -> /output/modern/esm/dash.protection.debug.js.gz
+2025/03/18 11:11:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.protection.debug.js.map.br /tmp/work/dist/modern/esm/dash.protection.debug.js.map
+2025/03/18 11:11:41 gz /tmp/work/dist/modern/esm/dash.mediaplayer.debug.js.map -> /output/modern/esm/dash.mediaplayer.debug.js.map.gz
+2025/03/18 11:11:41 /tmp/work/dist/modern/esm/dash.protection.min.js is already compressed
+2025/03/18 11:11:41 sri /tmp/work/dist/modern/esm/dash.protection.min.js -> /output/modern/esm/dash.protection.min.js.sri
+2025/03/18 11:11:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.protection.min.js.br /tmp/work/dist/modern/esm/dash.protection.min.js
+2025/03/18 11:11:41 br /tmp/work/dist/modern/esm/dash.mediaplayer.min.js.map -> /output/modern/esm/dash.mediaplayer.min.js.map.br
+2025/03/18 11:11:42 br /tmp/work/dist/modern/esm/dash.offline.debug.js.map -> /output/modern/esm/dash.offline.debug.js.map.br
+2025/03/18 11:11:42 br /tmp/work/dist/modern/esm/dash.protection.min.js -> /output/modern/esm/dash.protection.min.js.br
+2025/03/18 11:11:42 gz /tmp/work/dist/modern/esm/dash.protection.min.js -> /output/modern/esm/dash.protection.min.js.gz
+2025/03/18 11:11:42 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.protection.min.js.map.br /tmp/work/dist/modern/esm/dash.protection.min.js.map
+2025/03/18 11:11:43 gz /tmp/work/dist/modern/esm/dash.mediaplayer.min.js.map -> /output/modern/esm/dash.mediaplayer.min.js.map.gz
+2025/03/18 11:11:43 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/modern/esm/dash.reporting.debug.min.js /tmp/work/dist/modern/esm/dash.reporting.debug.js]
+2025/03/18 11:11:43 gz /tmp/work/dist/modern/esm/dash.offline.debug.js.map -> /output/modern/esm/dash.offline.debug.js.map.gz
+2025/03/18 11:11:43 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.reporting.debug.js.map.br /tmp/work/dist/modern/esm/dash.reporting.debug.js.map
+2025/03/18 11:11:45 br /tmp/work/dist/modern/esm/dash.offline.debug.min.js -> /output/modern/esm/dash.offline.debug.min.js.br
+2025/03/18 11:11:46 gz /tmp/work/dist/modern/esm/dash.offline.debug.min.js -> /output/modern/esm/dash.offline.debug.min.js.gz
+2025/03/18 11:11:46 sri /tmp/work/dist/modern/esm/dash.offline.debug.js -> /output/modern/esm/dash.offline.debug.js.sri
+2025/03/18 11:11:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.offline.debug.js.br /tmp/work/dist/modern/esm/dash.offline.debug.js
+2025/03/18 11:11:46 br /tmp/work/dist/modern/esm/dash.offline.min.js.map -> /output/modern/esm/dash.offline.min.js.map.br
+2025/03/18 11:11:47 br /tmp/work/dist/modern/esm/dash.reporting.debug.js.map -> /output/modern/esm/dash.reporting.debug.js.map.br
+2025/03/18 11:11:47 br /tmp/work/dist/modern/esm/dash.protection.debug.js.map -> /output/modern/esm/dash.protection.debug.js.map.br
+2025/03/18 11:11:47 gz /tmp/work/dist/modern/esm/dash.reporting.debug.js.map -> /output/modern/esm/dash.reporting.debug.js.map.gz
+2025/03/18 11:11:47 /tmp/work/dist/modern/esm/dash.reporting.min.js is already compressed
+2025/03/18 11:11:47 sri /tmp/work/dist/modern/esm/dash.reporting.min.js -> /output/modern/esm/dash.reporting.min.js.sri
+2025/03/18 11:11:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.reporting.min.js.br /tmp/work/dist/modern/esm/dash.reporting.min.js
+2025/03/18 11:11:47 gz /tmp/work/dist/modern/esm/dash.offline.min.js.map -> /output/modern/esm/dash.offline.min.js.map.gz
+2025/03/18 11:11:47 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.reporting.min.js.map.br /tmp/work/dist/modern/esm/dash.reporting.min.js.map
+2025/03/18 11:11:47 gz /tmp/work/dist/modern/esm/dash.protection.debug.js.map -> /output/modern/esm/dash.protection.debug.js.map.gz
+2025/03/18 11:11:47 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/modern/umd/dash.all.debug.min.js /tmp/work/dist/modern/umd/dash.all.debug.js]
+2025/03/18 11:11:48 br /tmp/work/dist/modern/esm/dash.reporting.min.js -> /output/modern/esm/dash.reporting.min.js.br
+2025/03/18 11:11:48 gz /tmp/work/dist/modern/esm/dash.reporting.min.js -> /output/modern/esm/dash.reporting.min.js.gz
+2025/03/18 11:11:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.all.debug.js.map.br /tmp/work/dist/modern/umd/dash.all.debug.js.map
+2025/03/18 11:11:48 br /tmp/work/dist/modern/esm/dash.protection.min.js.map -> /output/modern/esm/dash.protection.min.js.map.br
+2025/03/18 11:11:49 gz /tmp/work/dist/modern/esm/dash.protection.min.js.map -> /output/modern/esm/dash.protection.min.js.map.gz
+2025/03/18 11:11:49 /tmp/work/dist/modern/umd/dash.all.min.js is already compressed
+2025/03/18 11:11:49 sri /tmp/work/dist/modern/umd/dash.all.min.js -> /output/modern/umd/dash.all.min.js.sri
+2025/03/18 11:11:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.all.min.js.br /tmp/work/dist/modern/umd/dash.all.min.js
+2025/03/18 11:11:50 sri /tmp/work/dist/modern/esm/dash.reporting.debug.min.js -> /output/modern/esm/dash.reporting.debug.min.js.sri
+2025/03/18 11:11:50 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.reporting.debug.min.js.br /tmp/work/dist/modern/esm/dash.reporting.debug.min.js
+2025/03/18 11:11:51 br /tmp/work/dist/modern/esm/dash.reporting.debug.min.js -> /output/modern/esm/dash.reporting.debug.min.js.br
+2025/03/18 11:11:51 gz /tmp/work/dist/modern/esm/dash.reporting.debug.min.js -> /output/modern/esm/dash.reporting.debug.min.js.gz
+2025/03/18 11:11:51 sri /tmp/work/dist/modern/esm/dash.reporting.debug.js -> /output/modern/esm/dash.reporting.debug.js.sri
+2025/03/18 11:11:51 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/esm/dash.reporting.debug.js.br /tmp/work/dist/modern/esm/dash.reporting.debug.js
+2025/03/18 11:11:51 br /tmp/work/dist/modern/esm/dash.reporting.min.js.map -> /output/modern/esm/dash.reporting.min.js.map.br
+2025/03/18 11:11:52 gz /tmp/work/dist/modern/esm/dash.reporting.min.js.map -> /output/modern/esm/dash.reporting.min.js.map.gz
+2025/03/18 11:11:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.all.min.js.LICENSE.txt.br /tmp/work/dist/modern/umd/dash.all.min.js.LICENSE.txt
+2025/03/18 11:11:52 br /tmp/work/dist/modern/umd/dash.all.min.js.LICENSE.txt -> /output/modern/umd/dash.all.min.js.LICENSE.txt.br
+2025/03/18 11:11:52 gz /tmp/work/dist/modern/umd/dash.all.min.js.LICENSE.txt -> /output/modern/umd/dash.all.min.js.LICENSE.txt.gz
+2025/03/18 11:11:52 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.all.min.js.map.br /tmp/work/dist/modern/umd/dash.all.min.js.map
+2025/03/18 11:11:54 br /tmp/work/dist/modern/esm/dash.reporting.debug.js -> /output/modern/esm/dash.reporting.debug.js.br
+2025/03/18 11:11:54 gz /tmp/work/dist/modern/esm/dash.reporting.debug.js -> /output/modern/esm/dash.reporting.debug.js.gz
+2025/03/18 11:11:54 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/modern/umd/dash.mediaplayer.debug.min.js /tmp/work/dist/modern/umd/dash.mediaplayer.debug.js]
+2025/03/18 11:12:02 br /tmp/work/dist/modern/esm/dash.all.debug.js -> /output/modern/esm/dash.all.debug.js.br
+2025/03/18 11:12:03 br /tmp/work/dist/modern/umd/dash.all.min.js -> /output/modern/umd/dash.all.min.js.br
+2025/03/18 11:12:03 gz /tmp/work/dist/modern/esm/dash.all.debug.js -> /output/modern/esm/dash.all.debug.js.gz
+2025/03/18 11:12:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.mediaplayer.debug.js.map.br /tmp/work/dist/modern/umd/dash.mediaplayer.debug.js.map
+2025/03/18 11:12:03 gz /tmp/work/dist/modern/umd/dash.all.min.js -> /output/modern/umd/dash.all.min.js.gz
+2025/03/18 11:12:03 /tmp/work/dist/modern/umd/dash.mediaplayer.min.js is already compressed
+2025/03/18 11:12:03 sri /tmp/work/dist/modern/umd/dash.mediaplayer.min.js -> /output/modern/umd/dash.mediaplayer.min.js.sri
+2025/03/18 11:12:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.mediaplayer.min.js.br /tmp/work/dist/modern/umd/dash.mediaplayer.min.js
+2025/03/18 11:12:04 br /tmp/work/dist/modern/esm/dash.offline.debug.js -> /output/modern/esm/dash.offline.debug.js.br
+2025/03/18 11:12:04 gz /tmp/work/dist/modern/esm/dash.offline.debug.js -> /output/modern/esm/dash.offline.debug.js.gz
+2025/03/18 11:12:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.mediaplayer.min.js.LICENSE.txt.br /tmp/work/dist/modern/umd/dash.mediaplayer.min.js.LICENSE.txt
+2025/03/18 11:12:04 br /tmp/work/dist/modern/umd/dash.mediaplayer.min.js.LICENSE.txt -> /output/modern/umd/dash.mediaplayer.min.js.LICENSE.txt.br
+2025/03/18 11:12:04 gz /tmp/work/dist/modern/umd/dash.mediaplayer.min.js.LICENSE.txt -> /output/modern/umd/dash.mediaplayer.min.js.LICENSE.txt.gz
+2025/03/18 11:12:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.mediaplayer.min.js.map.br /tmp/work/dist/modern/umd/dash.mediaplayer.min.js.map
+2025/03/18 11:12:18 br /tmp/work/dist/modern/umd/dash.mediaplayer.min.js -> /output/modern/umd/dash.mediaplayer.min.js.br
+2025/03/18 11:12:18 gz /tmp/work/dist/modern/umd/dash.mediaplayer.min.js -> /output/modern/umd/dash.mediaplayer.min.js.gz
+2025/03/18 11:12:18 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/modern/umd/dash.mss.debug.min.js /tmp/work/dist/modern/umd/dash.mss.debug.js]
+2025/03/18 11:12:24 br /tmp/work/dist/modern/esm/dash.mediaplayer.debug.js -> /output/modern/esm/dash.mediaplayer.debug.js.br
+2025/03/18 11:12:25 gz /tmp/work/dist/modern/esm/dash.mediaplayer.debug.js -> /output/modern/esm/dash.mediaplayer.debug.js.gz
+2025/03/18 11:12:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.mss.debug.js.map.br /tmp/work/dist/modern/umd/dash.mss.debug.js.map
+2025/03/18 11:12:29 sri /tmp/work/dist/modern/umd/dash.mss.debug.min.js -> /output/modern/umd/dash.mss.debug.min.js.sri
+2025/03/18 11:12:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.mss.debug.min.js.br /tmp/work/dist/modern/umd/dash.mss.debug.min.js
+2025/03/18 11:12:30 br /tmp/work/dist/modern/umd/dash.mss.debug.min.js -> /output/modern/umd/dash.mss.debug.min.js.br
+2025/03/18 11:12:30 gz /tmp/work/dist/modern/umd/dash.mss.debug.min.js -> /output/modern/umd/dash.mss.debug.min.js.gz
+2025/03/18 11:12:30 sri /tmp/work/dist/modern/umd/dash.mss.debug.js -> /output/modern/umd/dash.mss.debug.js.sri
+2025/03/18 11:12:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.mss.debug.js.br /tmp/work/dist/modern/umd/dash.mss.debug.js
+2025/03/18 11:12:31 br /tmp/work/dist/modern/umd/dash.mss.debug.js.map -> /output/modern/umd/dash.mss.debug.js.map.br
+2025/03/18 11:12:31 gz /tmp/work/dist/modern/umd/dash.mss.debug.js.map -> /output/modern/umd/dash.mss.debug.js.map.gz
+2025/03/18 11:12:31 /tmp/work/dist/modern/umd/dash.mss.min.js is already compressed
+2025/03/18 11:12:31 sri /tmp/work/dist/modern/umd/dash.mss.min.js -> /output/modern/umd/dash.mss.min.js.sri
+2025/03/18 11:12:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.mss.min.js.br /tmp/work/dist/modern/umd/dash.mss.min.js
+2025/03/18 11:12:32 br /tmp/work/dist/modern/umd/dash.mss.min.js -> /output/modern/umd/dash.mss.min.js.br
+2025/03/18 11:12:32 gz /tmp/work/dist/modern/umd/dash.mss.min.js -> /output/modern/umd/dash.mss.min.js.gz
+2025/03/18 11:12:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.mss.min.js.map.br /tmp/work/dist/modern/umd/dash.mss.min.js.map
+2025/03/18 11:12:32 br /tmp/work/dist/modern/umd/dash.mss.debug.js -> /output/modern/umd/dash.mss.debug.js.br
+2025/03/18 11:12:32 gz /tmp/work/dist/modern/umd/dash.mss.debug.js -> /output/modern/umd/dash.mss.debug.js.gz
+2025/03/18 11:12:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/modern/umd/dash.offline.debug.min.js /tmp/work/dist/modern/umd/dash.offline.debug.js]
+2025/03/18 11:12:36 br /tmp/work/dist/modern/umd/dash.mss.min.js.map -> /output/modern/umd/dash.mss.min.js.map.br
+2025/03/18 11:12:36 gz /tmp/work/dist/modern/umd/dash.mss.min.js.map -> /output/modern/umd/dash.mss.min.js.map.gz
+2025/03/18 11:12:36 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.offline.debug.js.map.br /tmp/work/dist/modern/umd/dash.offline.debug.js.map
+2025/03/18 11:12:54 br /tmp/work/dist/modern/umd/dash.all.min.js.map -> /output/modern/umd/dash.all.min.js.map.br
+2025/03/18 11:12:57 gz /tmp/work/dist/modern/umd/dash.all.min.js.map -> /output/modern/umd/dash.all.min.js.map.gz
+2025/03/18 11:12:57 /tmp/work/dist/modern/umd/dash.offline.min.js is already compressed
+2025/03/18 11:12:57 sri /tmp/work/dist/modern/umd/dash.offline.min.js -> /output/modern/umd/dash.offline.min.js.sri
+2025/03/18 11:12:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.offline.min.js.br /tmp/work/dist/modern/umd/dash.offline.min.js
+2025/03/18 11:13:01 br /tmp/work/dist/modern/umd/dash.offline.debug.js.map -> /output/modern/umd/dash.offline.debug.js.map.br
+2025/03/18 11:13:02 gz /tmp/work/dist/modern/umd/dash.offline.debug.js.map -> /output/modern/umd/dash.offline.debug.js.map.gz
+2025/03/18 11:13:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.offline.min.js.LICENSE.txt.br /tmp/work/dist/modern/umd/dash.offline.min.js.LICENSE.txt
+2025/03/18 11:13:02 br /tmp/work/dist/modern/umd/dash.offline.min.js.LICENSE.txt -> /output/modern/umd/dash.offline.min.js.LICENSE.txt.br
+2025/03/18 11:13:02 gz /tmp/work/dist/modern/umd/dash.offline.min.js.LICENSE.txt -> /output/modern/umd/dash.offline.min.js.LICENSE.txt.gz
+2025/03/18 11:13:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.offline.min.js.map.br /tmp/work/dist/modern/umd/dash.offline.min.js.map
+2025/03/18 11:13:03 br /tmp/work/dist/modern/umd/dash.mediaplayer.min.js.map -> /output/modern/umd/dash.mediaplayer.min.js.map.br
+2025/03/18 11:13:04 sri /tmp/work/dist/modern/umd/dash.all.debug.min.js -> /output/modern/umd/dash.all.debug.min.js.sri
+2025/03/18 11:13:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.all.debug.min.js.br /tmp/work/dist/modern/umd/dash.all.debug.min.js
+2025/03/18 11:13:05 sri /tmp/work/dist/modern/umd/dash.mediaplayer.debug.min.js -> /output/modern/umd/dash.mediaplayer.debug.min.js.sri
+2025/03/18 11:13:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.mediaplayer.debug.min.js.br /tmp/work/dist/modern/umd/dash.mediaplayer.debug.min.js
+2025/03/18 11:13:05 gz /tmp/work/dist/modern/umd/dash.mediaplayer.min.js.map -> /output/modern/umd/dash.mediaplayer.min.js.map.gz
+2025/03/18 11:13:05 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/modern/umd/dash.protection.debug.min.js /tmp/work/dist/modern/umd/dash.protection.debug.js]
+2025/03/18 11:13:05 sri /tmp/work/dist/modern/umd/dash.offline.debug.min.js -> /output/modern/umd/dash.offline.debug.min.js.sri
+2025/03/18 11:13:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.offline.debug.min.js.br /tmp/work/dist/modern/umd/dash.offline.debug.min.js
+2025/03/18 11:13:06 br /tmp/work/dist/modern/umd/dash.offline.min.js -> /output/modern/umd/dash.offline.min.js.br
+2025/03/18 11:13:06 gz /tmp/work/dist/modern/umd/dash.offline.min.js -> /output/modern/umd/dash.offline.min.js.gz
+2025/03/18 11:13:06 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.protection.debug.js.map.br /tmp/work/dist/modern/umd/dash.protection.debug.js.map
+2025/03/18 11:13:06 br /tmp/work/dist/modern/umd/dash.all.debug.js.map -> /output/modern/umd/dash.all.debug.js.map.br
+2025/03/18 11:13:08 gz /tmp/work/dist/modern/umd/dash.all.debug.js.map -> /output/modern/umd/dash.all.debug.js.map.gz
+2025/03/18 11:13:08 /tmp/work/dist/modern/umd/dash.protection.min.js is already compressed
+2025/03/18 11:13:08 sri /tmp/work/dist/modern/umd/dash.protection.min.js -> /output/modern/umd/dash.protection.min.js.sri
+2025/03/18 11:13:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.protection.min.js.br /tmp/work/dist/modern/umd/dash.protection.min.js
+2025/03/18 11:13:09 br /tmp/work/dist/modern/umd/dash.protection.min.js -> /output/modern/umd/dash.protection.min.js.br
+2025/03/18 11:13:09 gz /tmp/work/dist/modern/umd/dash.protection.min.js -> /output/modern/umd/dash.protection.min.js.gz
+2025/03/18 11:13:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.protection.min.js.map.br /tmp/work/dist/modern/umd/dash.protection.min.js.map
+2025/03/18 11:13:12 br /tmp/work/dist/modern/umd/dash.offline.debug.min.js -> /output/modern/umd/dash.offline.debug.min.js.br
+2025/03/18 11:13:13 gz /tmp/work/dist/modern/umd/dash.offline.debug.min.js -> /output/modern/umd/dash.offline.debug.min.js.gz
+2025/03/18 11:13:13 sri /tmp/work/dist/modern/umd/dash.offline.debug.js -> /output/modern/umd/dash.offline.debug.js.sri
+2025/03/18 11:13:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.offline.debug.js.br /tmp/work/dist/modern/umd/dash.offline.debug.js
+2025/03/18 11:13:13 br /tmp/work/dist/modern/umd/dash.protection.debug.js.map -> /output/modern/umd/dash.protection.debug.js.map.br
+2025/03/18 11:13:13 gz /tmp/work/dist/modern/umd/dash.protection.debug.js.map -> /output/modern/umd/dash.protection.debug.js.map.gz
+2025/03/18 11:13:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/modern/umd/dash.reporting.debug.min.js /tmp/work/dist/modern/umd/dash.reporting.debug.js]
+2025/03/18 11:13:15 sri /tmp/work/dist/modern/umd/dash.protection.debug.min.js -> /output/modern/umd/dash.protection.debug.min.js.sri
+2025/03/18 11:13:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.protection.debug.min.js.br /tmp/work/dist/modern/umd/dash.protection.debug.min.js
+2025/03/18 11:13:15 br /tmp/work/dist/modern/umd/dash.mediaplayer.debug.js.map -> /output/modern/umd/dash.mediaplayer.debug.js.map.br
+2025/03/18 11:13:16 br /tmp/work/dist/modern/umd/dash.protection.min.js.map -> /output/modern/umd/dash.protection.min.js.map.br
+2025/03/18 11:13:16 gz /tmp/work/dist/modern/umd/dash.protection.min.js.map -> /output/modern/umd/dash.protection.min.js.map.gz
+2025/03/18 11:13:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.reporting.debug.js.map.br /tmp/work/dist/modern/umd/dash.reporting.debug.js.map
+2025/03/18 11:13:16 br /tmp/work/dist/modern/umd/dash.protection.debug.min.js -> /output/modern/umd/dash.protection.debug.min.js.br
+2025/03/18 11:13:16 gz /tmp/work/dist/modern/umd/dash.protection.debug.min.js -> /output/modern/umd/dash.protection.debug.min.js.gz
+2025/03/18 11:13:16 sri /tmp/work/dist/modern/umd/dash.protection.debug.js -> /output/modern/umd/dash.protection.debug.js.sri
+2025/03/18 11:13:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.protection.debug.js.br /tmp/work/dist/modern/umd/dash.protection.debug.js
+2025/03/18 11:13:18 br /tmp/work/dist/modern/umd/dash.all.debug.min.js -> /output/modern/umd/dash.all.debug.min.js.br
+2025/03/18 11:13:18 gz /tmp/work/dist/modern/umd/dash.all.debug.min.js -> /output/modern/umd/dash.all.debug.min.js.gz
+2025/03/18 11:13:18 sri /tmp/work/dist/modern/umd/dash.all.debug.js -> /output/modern/umd/dash.all.debug.js.sri
+2025/03/18 11:13:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.all.debug.js.br /tmp/work/dist/modern/umd/dash.all.debug.js
+2025/03/18 11:13:20 gz /tmp/work/dist/modern/umd/dash.mediaplayer.debug.js.map -> /output/modern/umd/dash.mediaplayer.debug.js.map.gz
+2025/03/18 11:13:20 /tmp/work/dist/modern/umd/dash.reporting.min.js is already compressed
+2025/03/18 11:13:20 sri /tmp/work/dist/modern/umd/dash.reporting.min.js -> /output/modern/umd/dash.reporting.min.js.sri
+2025/03/18 11:13:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.reporting.min.js.br /tmp/work/dist/modern/umd/dash.reporting.min.js
+2025/03/18 11:13:20 br /tmp/work/dist/modern/umd/dash.mediaplayer.debug.min.js -> /output/modern/umd/dash.mediaplayer.debug.min.js.br
+2025/03/18 11:13:20 br /tmp/work/dist/modern/umd/dash.protection.debug.js -> /output/modern/umd/dash.protection.debug.js.br
+2025/03/18 11:13:21 gz /tmp/work/dist/modern/umd/dash.protection.debug.js -> /output/modern/umd/dash.protection.debug.js.gz
+2025/03/18 11:13:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.reporting.min.js.map.br /tmp/work/dist/modern/umd/dash.reporting.min.js.map
+2025/03/18 11:13:21 br /tmp/work/dist/modern/umd/dash.reporting.min.js -> /output/modern/umd/dash.reporting.min.js.br
+2025/03/18 11:13:21 gz /tmp/work/dist/modern/umd/dash.reporting.min.js -> /output/modern/umd/dash.reporting.min.js.gz
+2025/03/18 11:13:21 gz /tmp/work/dist/modern/umd/dash.mediaplayer.debug.min.js -> /output/modern/umd/dash.mediaplayer.debug.min.js.gz
+2025/03/18 11:13:21 sri /tmp/work/dist/modern/umd/dash.mediaplayer.debug.js -> /output/modern/umd/dash.mediaplayer.debug.js.sri
+2025/03/18 11:13:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.mediaplayer.debug.js.br /tmp/work/dist/modern/umd/dash.mediaplayer.debug.js
+2025/03/18 11:13:22 sri /tmp/work/dist/modern/umd/dash.reporting.debug.min.js -> /output/modern/umd/dash.reporting.debug.min.js.sri
+2025/03/18 11:13:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.reporting.debug.min.js.br /tmp/work/dist/modern/umd/dash.reporting.debug.min.js
+2025/03/18 11:13:22 br /tmp/work/dist/modern/umd/dash.reporting.debug.min.js -> /output/modern/umd/dash.reporting.debug.min.js.br
+2025/03/18 11:13:22 gz /tmp/work/dist/modern/umd/dash.reporting.debug.min.js -> /output/modern/umd/dash.reporting.debug.min.js.gz
+2025/03/18 11:13:22 sri /tmp/work/dist/modern/umd/dash.reporting.debug.js -> /output/modern/umd/dash.reporting.debug.js.sri
+2025/03/18 11:13:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/modern/umd/dash.reporting.debug.js.br /tmp/work/dist/modern/umd/dash.reporting.debug.js
+2025/03/18 11:13:23 br /tmp/work/dist/modern/umd/dash.reporting.debug.js.map -> /output/modern/umd/dash.reporting.debug.js.map.br
+2025/03/18 11:13:23 gz /tmp/work/dist/modern/umd/dash.reporting.debug.js.map -> /output/modern/umd/dash.reporting.debug.js.map.gz
+2025/03/18 11:13:24 br /tmp/work/dist/modern/umd/dash.reporting.min.js.map -> /output/modern/umd/dash.reporting.min.js.map.br
+2025/03/18 11:13:24 br /tmp/work/dist/modern/umd/dash.offline.min.js.map -> /output/modern/umd/dash.offline.min.js.map.br
+2025/03/18 11:13:24 gz /tmp/work/dist/modern/umd/dash.reporting.min.js.map -> /output/modern/umd/dash.reporting.min.js.map.gz
+2025/03/18 11:13:25 br /tmp/work/dist/modern/umd/dash.reporting.debug.js -> /output/modern/umd/dash.reporting.debug.js.br
+2025/03/18 11:13:25 gz /tmp/work/dist/modern/umd/dash.offline.min.js.map -> /output/modern/umd/dash.offline.min.js.map.gz
+2025/03/18 11:13:25 gz /tmp/work/dist/modern/umd/dash.reporting.debug.js -> /output/modern/umd/dash.reporting.debug.js.gz
+2025/03/18 11:13:28 br /tmp/work/dist/modern/umd/dash.offline.debug.js -> /output/modern/umd/dash.offline.debug.js.br
+2025/03/18 11:13:28 gz /tmp/work/dist/modern/umd/dash.offline.debug.js -> /output/modern/umd/dash.offline.debug.js.gz
+2025/03/18 11:13:33 br /tmp/work/dist/modern/umd/dash.mediaplayer.debug.js -> /output/modern/umd/dash.mediaplayer.debug.js.br
+2025/03/18 11:13:34 gz /tmp/work/dist/modern/umd/dash.mediaplayer.debug.js -> /output/modern/umd/dash.mediaplayer.debug.js.gz
+2025/03/18 11:13:35 br /tmp/work/dist/modern/umd/dash.all.debug.js -> /output/modern/umd/dash.all.debug.js.br
+2025/03/18 11:13:35 gz /tmp/work/dist/modern/umd/dash.all.debug.js -> /output/modern/umd/dash.all.debug.js.gz
+2025/03/18 11:13:35 processed dashjs
