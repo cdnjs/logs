@@ -1,40 +1,31 @@
-2024/12/06 12:02:30 optimizing files (Js true, Css true, Png true, Jpg true)
-2024/12/06 12:02:30 /tmp/work/dist/module.esm.min.js is already compressed
-2024/12/06 12:02:30 /tmp/work/dist/cdn.min.js already has corresponding compressed file
-2024/12/06 12:02:30 /tmp/work/dist/module.esm.min.js already has corresponding compressed file
-2024/12/06 12:02:30 sri /tmp/work/dist/module.esm.min.js -> /output/module.esm.min.js.sri
-2024/12/06 12:02:30 /tmp/work/dist/cdn.min.js is already compressed
-2024/12/06 12:02:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/module.esm.min.js.br /tmp/work/dist/module.esm.min.js
-2024/12/06 12:02:30 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/module.cjs.min.js /tmp/work/dist/module.cjs.js]
-2024/12/06 12:02:30 sri /tmp/work/dist/module.esm.js -> /output/module.esm.js.sri
-2024/12/06 12:02:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/module.esm.js.br /tmp/work/dist/module.esm.js
-panic: open /output/cdn.min.js.sri: no space left on device
-
-goroutine 5 [running]:
-github.com/cdnjs/tools/util.Check(...)
-	/go/src/github.com/util/check.go:10
-github.com/cdnjs/tools/sri.CalculateFileSRI(0xc000394080, 0x19, 0xc00039e030, 0x16)
-	/go/src/github.com/sri/sri.go:20 +0x115
-main.optimizeJob.emitFromWorkspace(0x870280, 0xc000016060, 0x0, 0xc0001c2cc0, 0xf, 0xc00011cb87, 0xa, 0xc000394080, 0x19)
-	/go/src/github.com/cmd/process-version/main.go:95 +0x96b
-main.optimizeJob.emit(0x870280, 0xc000016060, 0x0, 0xc0001c2cc0, 0xf, 0xc00011cb87, 0xa, 0xc0001c2cc0, 0xf)
-	/go/src/github.com/cmd/process-version/main.go:126 +0xc6
-main.optimizeWorker(0xc0001c2cd0, 0xc000078c60)
-	/go/src/github.com/cmd/process-version/main.go:245 +0x14a
-created by main.optimizePackage
-	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
-panic: open /output/cdn.js.sri: no space left on device
-
-goroutine 6 [running]:
-github.com/cdnjs/tools/util.Check(...)
-	/go/src/github.com/util/check.go:10
-github.com/cdnjs/tools/sri.CalculateFileSRI(0xc000300048, 0x15, 0xc000300060, 0x12)
-	/go/src/github.com/sri/sri.go:20 +0x115
-main.optimizeJob.emitFromWorkspace(0x870280, 0xc000016060, 0x0, 0xc0001c2ca0, 0xb, 0xc00011cb80, 0x6, 0xc000300048, 0x15)
-	/go/src/github.com/cmd/process-version/main.go:95 +0x96b
-main.optimizeJob.emit(0x870280, 0xc000016060, 0x0, 0xc0001c2ca0, 0xb, 0xc00011cb80, 0x6, 0xc0001c2ca0, 0xb)
-	/go/src/github.com/cmd/process-version/main.go:126 +0xc6
-main.optimizeWorker(0xc0001c2cd0, 0xc000078c60)
-	/go/src/github.com/cmd/process-version/main.go:245 +0x14a
-created by main.optimizePackage
-	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
+2025/03/25 20:54:28 optimizing files (Js true, Css true, Png true, Jpg true)
+2025/03/25 20:54:28 /tmp/work/dist/cdn.min.js already has corresponding compressed file
+2025/03/25 20:54:28 /tmp/work/dist/cdn.min.js is already compressed
+2025/03/25 20:54:28 /tmp/work/dist/module.esm.min.js already has corresponding compressed file
+2025/03/25 20:54:28 sri /tmp/work/dist/cdn.js -> /output/cdn.js.sri
+2025/03/25 20:54:28 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/module.cjs.min.js /tmp/work/dist/module.cjs.js]
+2025/03/25 20:54:28 sri /tmp/work/dist/cdn.min.js -> /output/cdn.min.js.sri
+2025/03/25 20:54:28 /tmp/work/dist/module.esm.min.js is already compressed
+2025/03/25 20:54:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cdn.js.br /tmp/work/dist/cdn.js
+2025/03/25 20:54:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cdn.min.js.br /tmp/work/dist/cdn.min.js
+2025/03/25 20:54:28 sri /tmp/work/dist/module.esm.min.js -> /output/module.esm.min.js.sri
+2025/03/25 20:54:28 sri /tmp/work/dist/module.esm.js -> /output/module.esm.js.sri
+2025/03/25 20:54:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/module.esm.min.js.br /tmp/work/dist/module.esm.min.js
+2025/03/25 20:54:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/module.esm.js.br /tmp/work/dist/module.esm.js
+2025/03/25 20:54:28 br /tmp/work/dist/module.esm.min.js -> /output/module.esm.min.js.br
+2025/03/25 20:54:28 br /tmp/work/dist/cdn.min.js -> /output/cdn.min.js.br
+2025/03/25 20:54:28 gz /tmp/work/dist/module.esm.min.js -> /output/module.esm.min.js.gz
+2025/03/25 20:54:28 gz /tmp/work/dist/cdn.min.js -> /output/cdn.min.js.gz
+2025/03/25 20:54:28 br /tmp/work/dist/cdn.js -> /output/cdn.js.br
+2025/03/25 20:54:28 gz /tmp/work/dist/cdn.js -> /output/cdn.js.gz
+2025/03/25 20:54:28 br /tmp/work/dist/module.esm.js -> /output/module.esm.js.br
+2025/03/25 20:54:28 gz /tmp/work/dist/module.esm.js -> /output/module.esm.js.gz
+2025/03/25 20:54:28 sri /tmp/work/dist/module.cjs.min.js -> /output/module.cjs.min.js.sri
+2025/03/25 20:54:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/module.cjs.min.js.br /tmp/work/dist/module.cjs.min.js
+2025/03/25 20:54:28 br /tmp/work/dist/module.cjs.min.js -> /output/module.cjs.min.js.br
+2025/03/25 20:54:28 gz /tmp/work/dist/module.cjs.min.js -> /output/module.cjs.min.js.gz
+2025/03/25 20:54:28 sri /tmp/work/dist/module.cjs.js -> /output/module.cjs.js.sri
+2025/03/25 20:54:28 algorithm: run /usr/bin/brotli --quality=11 --output=/output/module.cjs.js.br /tmp/work/dist/module.cjs.js
+2025/03/25 20:54:28 br /tmp/work/dist/module.cjs.js -> /output/module.cjs.js.br
+2025/03/25 20:54:28 gz /tmp/work/dist/module.cjs.js -> /output/module.cjs.js.gz
+2025/03/25 20:54:28 processed alpinejs-focus
