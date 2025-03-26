@@ -1,24 +1,12 @@
-2024/12/06 12:19:49 optimizing files (Js true, Css true, Png true, Jpg true)
-2024/12/06 12:19:49 /tmp/work/babel.min.js is already compressed
-2024/12/06 12:19:49 /tmp/work/babel.min.js already has corresponding compressed file
-2024/12/06 12:19:49 sri /tmp/work/babel.min.js -> /output/babel.min.js.sri
-2024/12/06 12:19:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/babel.min.js.br /tmp/work/babel.min.js
-2024/12/06 12:19:49 sri /tmp/work/babel.js -> /output/babel.js.sri
-2024/12/06 12:19:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/babel.js.br /tmp/work/babel.js
-panic: exit status 1
-
-goroutine 37 [running]:
-github.com/cdnjs/tools/util.Check(...)
-	/go/src/github.com/util/check.go:10
-github.com/cdnjs/tools/compress.runAlgorithm(0x870280, 0xc000100010, 0x7f32f7, 0x6, 0xc000067cd0, 0x3, 0x3, 0x2f737b4bf6069108, 0x11, 0x1)
-	/go/src/github.com/compress/algorithm.go:28 +0x348
-github.com/cdnjs/tools/compress.Brotli11CLI(...)
-	/go/src/github.com/compress/algorithm.go:40
-main.optimizeJob.emitFromWorkspace(0x870280, 0xc000100010, 0x0, 0xc0000aa008, 0x8, 0xc0000aa000, 0x8, 0xc0000140a8, 0x12)
-	/go/src/github.com/cmd/process-version/main.go:105 +0x506
-main.optimizeJob.emit(0x870280, 0xc000100010, 0x0, 0xc0000aa008, 0x8, 0xc0000aa000, 0x8, 0xc0000aa008, 0x8)
-	/go/src/github.com/cmd/process-version/main.go:126 +0xc6
-main.optimizeWorker(0xc0000aa0c0, 0xc0000b8180)
-	/go/src/github.com/cmd/process-version/main.go:245 +0x14a
-created by main.optimizePackage
-	/go/src/github.com/cmd/process-version/main.go:266 +0x24a
+2025/03/26 11:14:10 optimizing files (Js true, Css true, Png true, Jpg true)
+2025/03/26 11:14:10 /tmp/work/babel.min.js already has corresponding compressed file
+2025/03/26 11:14:10 /tmp/work/babel.min.js is already compressed
+2025/03/26 11:14:10 sri /tmp/work/babel.min.js -> /output/babel.min.js.sri
+2025/03/26 11:14:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/babel.min.js.br /tmp/work/babel.min.js
+2025/03/26 11:14:10 sri /tmp/work/babel.js -> /output/babel.js.sri
+2025/03/26 11:14:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/babel.js.br /tmp/work/babel.js
+2025/03/26 11:14:18 br /tmp/work/babel.min.js -> /output/babel.min.js.br
+2025/03/26 11:14:18 gz /tmp/work/babel.min.js -> /output/babel.min.js.gz
+2025/03/26 11:14:23 br /tmp/work/babel.js -> /output/babel.js.br
+2025/03/26 11:14:24 gz /tmp/work/babel.js -> /output/babel.js.gz
+2025/03/26 11:14:24 processed babel-standalone
