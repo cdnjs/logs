@@ -1,95 +1,95 @@
-2025/06/16 19:25:53 optimizing files (Js true, Css true, Png true, Jpg true)
-2025/06/16 19:25:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/layers.svg.br /tmp/work/dist/images/layers.svg
-2025/06/16 19:25:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/logo.svg.br /tmp/work/dist/images/logo.svg
-2025/06/16 19:25:53 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/dist/images/marker-icon-2x.png /tmp/work/dist/images/marker-icon-2x.png
-2025/06/16 19:25:53 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/dist/images/marker-shadow.png /tmp/work/dist/images/marker-shadow.png
-2025/06/16 19:25:53 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/dist/images/marker-icon.png /tmp/work/dist/images/marker-icon.png
-2025/06/16 19:25:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet-global-src.js.map.br /tmp/work/dist/leaflet-global-src.js.map
-2025/06/16 19:25:53 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/leaflet-global-src.min.js /tmp/work/dist/leaflet-global-src.js]
-2025/06/16 19:25:53 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/leaflet-global.min.js /tmp/work/dist/leaflet-global.js]
-2025/06/16 19:25:53 br /tmp/work/dist/images/layers.svg -> /output/images/layers.svg.br
-2025/06/16 19:25:53 gz /tmp/work/dist/images/layers.svg -> /output/images/layers.svg.gz
-2025/06/16 19:25:53 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet-global.js.map.br /tmp/work/dist/leaflet-global.js.map
-2025/06/16 19:25:53 br /tmp/work/dist/images/logo.svg -> /output/images/logo.svg.br
-2025/06/16 19:25:53 gz /tmp/work/dist/images/logo.svg -> /output/images/logo.svg.gz
-2025/06/16 19:25:53 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/leaflet-src.min.js /tmp/work/dist/leaflet-src.js]
-2025/06/16 19:25:56 br /tmp/work/dist/leaflet-global.js.map -> /output/leaflet-global.js.map.br
-2025/06/16 19:25:57 gz /tmp/work/dist/leaflet-global.js.map -> /output/leaflet-global.js.map.gz
-2025/06/16 19:25:57 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet-src.js.map.br /tmp/work/dist/leaflet-src.js.map
-2025/06/16 19:26:00 sri /tmp/work/dist/leaflet-global.min.js -> /output/leaflet-global.min.js.sri
-2025/06/16 19:26:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet-global.min.js.br /tmp/work/dist/leaflet-global.min.js
-2025/06/16 19:26:01 br /tmp/work/dist/leaflet-global.min.js -> /output/leaflet-global.min.js.br
-2025/06/16 19:26:01 gz /tmp/work/dist/leaflet-global.min.js -> /output/leaflet-global.min.js.gz
-2025/06/16 19:26:01 sri /tmp/work/dist/leaflet-global.js -> /output/leaflet-global.js.sri
-2025/06/16 19:26:01 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet-global.js.br /tmp/work/dist/leaflet-global.js
-2025/06/16 19:26:02 sri /tmp/work/dist/leaflet-global-src.min.js -> /output/leaflet-global-src.min.js.sri
-2025/06/16 19:26:02 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet-global-src.min.js.br /tmp/work/dist/leaflet-global-src.min.js
-2025/06/16 19:26:03 br /tmp/work/dist/leaflet-global.js -> /output/leaflet-global.js.br
-2025/06/16 19:26:03 gz /tmp/work/dist/leaflet-global.js -> /output/leaflet-global.js.gz
-2025/06/16 19:26:03 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/leaflet.min.css /tmp/work/dist/leaflet.css]
-2025/06/16 19:26:03 sri /tmp/work/dist/leaflet-src.min.js -> /output/leaflet-src.min.js.sri
-2025/06/16 19:26:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet-src.min.js.br /tmp/work/dist/leaflet-src.min.js
-2025/06/16 19:26:03 br /tmp/work/dist/leaflet-global-src.min.js -> /output/leaflet-global-src.min.js.br
-2025/06/16 19:26:03 gz /tmp/work/dist/leaflet-global-src.min.js -> /output/leaflet-global-src.min.js.gz
-2025/06/16 19:26:03 sri /tmp/work/dist/leaflet-global-src.js -> /output/leaflet-global-src.js.sri
-2025/06/16 19:26:03 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet-global-src.js.br /tmp/work/dist/leaflet-global-src.js
-2025/06/16 19:26:04 sri /tmp/work/dist/leaflet.min.css -> /output/leaflet.min.css.sri
-2025/06/16 19:26:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet.min.css.br /tmp/work/dist/leaflet.min.css
-2025/06/16 19:26:04 br /tmp/work/dist/leaflet.min.css -> /output/leaflet.min.css.br
-2025/06/16 19:26:04 gz /tmp/work/dist/leaflet.min.css -> /output/leaflet.min.css.gz
-2025/06/16 19:26:04 sri /tmp/work/dist/leaflet.css -> /output/leaflet.css.sri
-2025/06/16 19:26:04 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet.css.br /tmp/work/dist/leaflet.css
-2025/06/16 19:26:04 br /tmp/work/dist/leaflet.css -> /output/leaflet.css.br
-2025/06/16 19:26:04 gz /tmp/work/dist/leaflet.css -> /output/leaflet.css.gz
-2025/06/16 19:26:04 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/leaflet.min.js /tmp/work/dist/leaflet.js]
-2025/06/16 19:26:05 br /tmp/work/dist/leaflet-src.min.js -> /output/leaflet-src.min.js.br
-2025/06/16 19:26:05 gz /tmp/work/dist/leaflet-src.min.js -> /output/leaflet-src.min.js.gz
-2025/06/16 19:26:05 sri /tmp/work/dist/leaflet-src.js -> /output/leaflet-src.js.sri
-2025/06/16 19:26:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet-src.js.br /tmp/work/dist/leaflet-src.js
-2025/06/16 19:26:05 Optimizing /tmp/work/dist/images/marker-shadow.png
+2025/06/16 20:35:12 optimizing files (Js true, Css true, Png true, Jpg true)
+2025/06/16 20:35:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/layers.svg.br /tmp/work/dist/images/layers.svg
+2025/06/16 20:35:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/logo.svg.br /tmp/work/dist/images/logo.svg
+2025/06/16 20:35:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/leaflet-global.min.js /tmp/work/dist/leaflet-global.js]
+2025/06/16 20:35:13 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/dist/images/marker-icon-2x.png /tmp/work/dist/images/marker-icon-2x.png
+2025/06/16 20:35:13 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/dist/images/marker-icon.png /tmp/work/dist/images/marker-icon.png
+2025/06/16 20:35:13 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/dist/images/marker-shadow.png /tmp/work/dist/images/marker-shadow.png
+2025/06/16 20:35:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet-global-src.js.map.br /tmp/work/dist/leaflet-global-src.js.map
+2025/06/16 20:35:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/leaflet-global-src.min.js /tmp/work/dist/leaflet-global-src.js]
+2025/06/16 20:35:13 br /tmp/work/dist/images/layers.svg -> /output/images/layers.svg.br
+2025/06/16 20:35:13 gz /tmp/work/dist/images/layers.svg -> /output/images/layers.svg.gz
+2025/06/16 20:35:13 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet-global.js.map.br /tmp/work/dist/leaflet-global.js.map
+2025/06/16 20:35:13 br /tmp/work/dist/images/logo.svg -> /output/images/logo.svg.br
+2025/06/16 20:35:13 gz /tmp/work/dist/images/logo.svg -> /output/images/logo.svg.gz
+2025/06/16 20:35:13 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/leaflet-src.min.js /tmp/work/dist/leaflet-src.js]
+2025/06/16 20:35:15 br /tmp/work/dist/leaflet-global.js.map -> /output/leaflet-global.js.map.br
+2025/06/16 20:35:15 gz /tmp/work/dist/leaflet-global.js.map -> /output/leaflet-global.js.map.gz
+2025/06/16 20:35:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet-src.js.map.br /tmp/work/dist/leaflet-src.js.map
+2025/06/16 20:35:19 Optimizing /tmp/work/dist/images/marker-shadow.png
 Input size: 618 (0K)
 Result size: 685 (0K). Percentage of original: 110.841%
 Preserving original PNG since it was smaller
 
 
-2025/06/16 19:26:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/marker-shadow.png.br /tmp/work/dist/images/marker-shadow.png
-2025/06/16 19:26:05 br /tmp/work/dist/images/marker-shadow.png -> /output/images/marker-shadow.png.br
-2025/06/16 19:26:05 gz /tmp/work/dist/images/marker-shadow.png -> /output/images/marker-shadow.png.gz
-2025/06/16 19:26:05 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet.js.map.br /tmp/work/dist/leaflet.js.map
-2025/06/16 19:26:06 br /tmp/work/dist/leaflet-global-src.js.map -> /output/leaflet-global-src.js.map.br
-2025/06/16 19:26:06 gz /tmp/work/dist/leaflet-global-src.js.map -> /output/leaflet-global-src.js.map.gz
-2025/06/16 19:26:07 br /tmp/work/dist/leaflet.js.map -> /output/leaflet.js.map.br
-2025/06/16 19:26:07 gz /tmp/work/dist/leaflet.js.map -> /output/leaflet.js.map.gz
-2025/06/16 19:26:07 br /tmp/work/dist/leaflet-global-src.js -> /output/leaflet-global-src.js.br
-2025/06/16 19:26:07 gz /tmp/work/dist/leaflet-global-src.js -> /output/leaflet-global-src.js.gz
-2025/06/16 19:26:07 Optimizing /tmp/work/dist/images/marker-icon.png
+2025/06/16 20:35:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/marker-shadow.png.br /tmp/work/dist/images/marker-shadow.png
+2025/06/16 20:35:19 br /tmp/work/dist/images/marker-shadow.png -> /output/images/marker-shadow.png.br
+2025/06/16 20:35:19 gz /tmp/work/dist/images/marker-shadow.png -> /output/images/marker-shadow.png.gz
+2025/06/16 20:35:19 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/leaflet.min.css /tmp/work/dist/leaflet.css]
+2025/06/16 20:35:20 sri /tmp/work/dist/leaflet.min.css -> /output/leaflet.min.css.sri
+2025/06/16 20:35:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet.min.css.br /tmp/work/dist/leaflet.min.css
+2025/06/16 20:35:20 br /tmp/work/dist/leaflet.min.css -> /output/leaflet.min.css.br
+2025/06/16 20:35:20 gz /tmp/work/dist/leaflet.min.css -> /output/leaflet.min.css.gz
+2025/06/16 20:35:20 sri /tmp/work/dist/leaflet.css -> /output/leaflet.css.sri
+2025/06/16 20:35:20 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet.css.br /tmp/work/dist/leaflet.css
+2025/06/16 20:35:20 br /tmp/work/dist/leaflet-src.js.map -> /output/leaflet-src.js.map.br
+2025/06/16 20:35:20 br /tmp/work/dist/leaflet.css -> /output/leaflet.css.br
+2025/06/16 20:35:20 gz /tmp/work/dist/leaflet.css -> /output/leaflet.css.gz
+2025/06/16 20:35:20 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/leaflet.min.js /tmp/work/dist/leaflet.js]
+2025/06/16 20:35:20 br /tmp/work/dist/leaflet-global-src.js.map -> /output/leaflet-global-src.js.map.br
+2025/06/16 20:35:21 sri /tmp/work/dist/leaflet-global.min.js -> /output/leaflet-global.min.js.sri
+2025/06/16 20:35:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet-global.min.js.br /tmp/work/dist/leaflet-global.min.js
+2025/06/16 20:35:21 gz /tmp/work/dist/leaflet-src.js.map -> /output/leaflet-src.js.map.gz
+2025/06/16 20:35:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet.js.map.br /tmp/work/dist/leaflet.js.map
+2025/06/16 20:35:21 gz /tmp/work/dist/leaflet-global-src.js.map -> /output/leaflet-global-src.js.map.gz
+2025/06/16 20:35:22 br /tmp/work/dist/leaflet-global.min.js -> /output/leaflet-global.min.js.br
+2025/06/16 20:35:22 gz /tmp/work/dist/leaflet-global.min.js -> /output/leaflet-global.min.js.gz
+2025/06/16 20:35:22 sri /tmp/work/dist/leaflet-global.js -> /output/leaflet-global.js.sri
+2025/06/16 20:35:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet-global.js.br /tmp/work/dist/leaflet-global.js
+2025/06/16 20:35:22 Optimizing /tmp/work/dist/images/marker-icon.png
 Input size: 1466 (1K)
 Result size: 1466 (1K). Percentage of original: 100.000%
 Result has exact same size
 
 
-2025/06/16 19:26:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/marker-icon.png.br /tmp/work/dist/images/marker-icon.png
-2025/06/16 19:26:07 br /tmp/work/dist/images/marker-icon.png -> /output/images/marker-icon.png.br
-2025/06/16 19:26:07 gz /tmp/work/dist/images/marker-icon.png -> /output/images/marker-icon.png.gz
-2025/06/16 19:26:08 br /tmp/work/dist/leaflet-src.js -> /output/leaflet-src.js.br
-2025/06/16 19:26:08 gz /tmp/work/dist/leaflet-src.js -> /output/leaflet-src.js.gz
-2025/06/16 19:26:08 br /tmp/work/dist/leaflet-src.js.map -> /output/leaflet-src.js.map.br
-2025/06/16 19:26:09 gz /tmp/work/dist/leaflet-src.js.map -> /output/leaflet-src.js.map.gz
-2025/06/16 19:26:10 sri /tmp/work/dist/leaflet.min.js -> /output/leaflet.min.js.sri
-2025/06/16 19:26:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet.min.js.br /tmp/work/dist/leaflet.min.js
-2025/06/16 19:26:10 br /tmp/work/dist/leaflet.min.js -> /output/leaflet.min.js.br
-2025/06/16 19:26:10 gz /tmp/work/dist/leaflet.min.js -> /output/leaflet.min.js.gz
-2025/06/16 19:26:10 sri /tmp/work/dist/leaflet.js -> /output/leaflet.js.sri
-2025/06/16 19:26:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet.js.br /tmp/work/dist/leaflet.js
-2025/06/16 19:26:11 br /tmp/work/dist/leaflet.js -> /output/leaflet.js.br
-2025/06/16 19:26:11 gz /tmp/work/dist/leaflet.js -> /output/leaflet.js.gz
-2025/06/16 19:26:12 Optimizing /tmp/work/dist/images/marker-icon-2x.png
+2025/06/16 20:35:22 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/marker-icon.png.br /tmp/work/dist/images/marker-icon.png
+2025/06/16 20:35:22 br /tmp/work/dist/images/marker-icon.png -> /output/images/marker-icon.png.br
+2025/06/16 20:35:22 gz /tmp/work/dist/images/marker-icon.png -> /output/images/marker-icon.png.gz
+2025/06/16 20:35:23 sri /tmp/work/dist/leaflet-global-src.min.js -> /output/leaflet-global-src.min.js.sri
+2025/06/16 20:35:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet-global-src.min.js.br /tmp/work/dist/leaflet-global-src.min.js
+2025/06/16 20:35:23 br /tmp/work/dist/leaflet.js.map -> /output/leaflet.js.map.br
+2025/06/16 20:35:23 gz /tmp/work/dist/leaflet.js.map -> /output/leaflet.js.map.gz
+2025/06/16 20:35:23 sri /tmp/work/dist/leaflet-src.min.js -> /output/leaflet-src.min.js.sri
+2025/06/16 20:35:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet-src.min.js.br /tmp/work/dist/leaflet-src.min.js
+2025/06/16 20:35:23 br /tmp/work/dist/leaflet-global-src.min.js -> /output/leaflet-global-src.min.js.br
+2025/06/16 20:35:23 gz /tmp/work/dist/leaflet-global-src.min.js -> /output/leaflet-global-src.min.js.gz
+2025/06/16 20:35:23 sri /tmp/work/dist/leaflet-global-src.js -> /output/leaflet-global-src.js.sri
+2025/06/16 20:35:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet-global-src.js.br /tmp/work/dist/leaflet-global-src.js
+2025/06/16 20:35:23 br /tmp/work/dist/leaflet-global.js -> /output/leaflet-global.js.br
+2025/06/16 20:35:23 gz /tmp/work/dist/leaflet-global.js -> /output/leaflet-global.js.gz
+2025/06/16 20:35:23 br /tmp/work/dist/leaflet-src.min.js -> /output/leaflet-src.min.js.br
+2025/06/16 20:35:23 gz /tmp/work/dist/leaflet-src.min.js -> /output/leaflet-src.min.js.gz
+2025/06/16 20:35:23 sri /tmp/work/dist/leaflet-src.js -> /output/leaflet-src.js.sri
+2025/06/16 20:35:23 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet-src.js.br /tmp/work/dist/leaflet-src.js
+2025/06/16 20:35:25 br /tmp/work/dist/leaflet-global-src.js -> /output/leaflet-global-src.js.br
+2025/06/16 20:35:25 gz /tmp/work/dist/leaflet-global-src.js -> /output/leaflet-global-src.js.gz
+2025/06/16 20:35:25 br /tmp/work/dist/leaflet-src.js -> /output/leaflet-src.js.br
+2025/06/16 20:35:25 gz /tmp/work/dist/leaflet-src.js -> /output/leaflet-src.js.gz
+2025/06/16 20:35:26 sri /tmp/work/dist/leaflet.min.js -> /output/leaflet.min.js.sri
+2025/06/16 20:35:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet.min.js.br /tmp/work/dist/leaflet.min.js
+2025/06/16 20:35:26 br /tmp/work/dist/leaflet.min.js -> /output/leaflet.min.js.br
+2025/06/16 20:35:26 gz /tmp/work/dist/leaflet.min.js -> /output/leaflet.min.js.gz
+2025/06/16 20:35:26 sri /tmp/work/dist/leaflet.js -> /output/leaflet.js.sri
+2025/06/16 20:35:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet.js.br /tmp/work/dist/leaflet.js
+2025/06/16 20:35:26 br /tmp/work/dist/leaflet.js -> /output/leaflet.js.br
+2025/06/16 20:35:26 gz /tmp/work/dist/leaflet.js -> /output/leaflet.js.gz
+2025/06/16 20:35:27 Optimizing /tmp/work/dist/images/marker-icon-2x.png
 Input size: 2464 (2K)
 Result size: 2585 (2K). Percentage of original: 104.911%
 Preserving original PNG since it was smaller
 
 
-2025/06/16 19:26:12 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/marker-icon-2x.png.br /tmp/work/dist/images/marker-icon-2x.png
-2025/06/16 19:26:12 br /tmp/work/dist/images/marker-icon-2x.png -> /output/images/marker-icon-2x.png.br
-2025/06/16 19:26:12 gz /tmp/work/dist/images/marker-icon-2x.png -> /output/images/marker-icon-2x.png.gz
-2025/06/16 19:26:12 processed leaflet
+2025/06/16 20:35:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/marker-icon-2x.png.br /tmp/work/dist/images/marker-icon-2x.png
+2025/06/16 20:35:27 br /tmp/work/dist/images/marker-icon-2x.png -> /output/images/marker-icon-2x.png.br
+2025/06/16 20:35:27 gz /tmp/work/dist/images/marker-icon-2x.png -> /output/images/marker-icon-2x.png.gz
+2025/06/16 20:35:27 processed leaflet
