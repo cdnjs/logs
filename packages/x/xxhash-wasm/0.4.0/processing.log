@@ -1,41 +1,41 @@
-2025/06/17 00:38:45 optimizing files (Js true, Css true, Png true, Jpg true)
-2025/06/17 00:38:45 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/cjs/xxhash-wasm.min.js /tmp/work/cjs/xxhash-wasm.js]
-2025/06/17 00:38:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/xxhash-wasm.js.map.br /tmp/work/cjs/xxhash-wasm.js.map
-2025/06/17 00:38:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/xxhash-wasm.js.map.br /tmp/work/esm/xxhash-wasm.js.map
-2025/06/17 00:38:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types.d.ts.br /tmp/work/types.d.ts
-2025/06/17 00:38:45 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/esm/xxhash-wasm.min.js /tmp/work/esm/xxhash-wasm.js]
-2025/06/17 00:38:45 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/umd/xxhash-wasm.min.js /tmp/work/umd/xxhash-wasm.js]
-2025/06/17 00:38:45 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/xxhash-wasm.js.map.br /tmp/work/umd/xxhash-wasm.js.map
-2025/06/17 00:38:45 br /tmp/work/types.d.ts -> /output/types.d.ts.br
-2025/06/17 00:38:45 gz /tmp/work/types.d.ts -> /output/types.d.ts.gz
-2025/06/17 00:38:45 br /tmp/work/esm/xxhash-wasm.js.map -> /output/esm/xxhash-wasm.js.map.br
-2025/06/17 00:38:45 gz /tmp/work/esm/xxhash-wasm.js.map -> /output/esm/xxhash-wasm.js.map.gz
-2025/06/17 00:38:45 br /tmp/work/umd/xxhash-wasm.js.map -> /output/umd/xxhash-wasm.js.map.br
-2025/06/17 00:38:45 gz /tmp/work/umd/xxhash-wasm.js.map -> /output/umd/xxhash-wasm.js.map.gz
-2025/06/17 00:38:45 br /tmp/work/cjs/xxhash-wasm.js.map -> /output/cjs/xxhash-wasm.js.map.br
-2025/06/17 00:38:45 gz /tmp/work/cjs/xxhash-wasm.js.map -> /output/cjs/xxhash-wasm.js.map.gz
-2025/06/17 00:38:46 sri /tmp/work/esm/xxhash-wasm.min.js -> /output/esm/xxhash-wasm.min.js.sri
-2025/06/17 00:38:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/xxhash-wasm.min.js.br /tmp/work/esm/xxhash-wasm.min.js
-2025/06/17 00:38:46 br /tmp/work/esm/xxhash-wasm.min.js -> /output/esm/xxhash-wasm.min.js.br
-2025/06/17 00:38:46 gz /tmp/work/esm/xxhash-wasm.min.js -> /output/esm/xxhash-wasm.min.js.gz
-2025/06/17 00:38:46 sri /tmp/work/esm/xxhash-wasm.js -> /output/esm/xxhash-wasm.js.sri
-2025/06/17 00:38:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/xxhash-wasm.js.br /tmp/work/esm/xxhash-wasm.js
-2025/06/17 00:38:46 br /tmp/work/esm/xxhash-wasm.js -> /output/esm/xxhash-wasm.js.br
-2025/06/17 00:38:46 gz /tmp/work/esm/xxhash-wasm.js -> /output/esm/xxhash-wasm.js.gz
-2025/06/17 00:38:46 sri /tmp/work/umd/xxhash-wasm.min.js -> /output/umd/xxhash-wasm.min.js.sri
-2025/06/17 00:38:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/xxhash-wasm.min.js.br /tmp/work/umd/xxhash-wasm.min.js
-2025/06/17 00:38:46 br /tmp/work/umd/xxhash-wasm.min.js -> /output/umd/xxhash-wasm.min.js.br
-2025/06/17 00:38:46 gz /tmp/work/umd/xxhash-wasm.min.js -> /output/umd/xxhash-wasm.min.js.gz
-2025/06/17 00:38:46 sri /tmp/work/umd/xxhash-wasm.js -> /output/umd/xxhash-wasm.js.sri
-2025/06/17 00:38:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/xxhash-wasm.js.br /tmp/work/umd/xxhash-wasm.js
-2025/06/17 00:38:46 sri /tmp/work/cjs/xxhash-wasm.min.js -> /output/cjs/xxhash-wasm.min.js.sri
-2025/06/17 00:38:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/xxhash-wasm.min.js.br /tmp/work/cjs/xxhash-wasm.min.js
-2025/06/17 00:38:46 br /tmp/work/umd/xxhash-wasm.js -> /output/umd/xxhash-wasm.js.br
-2025/06/17 00:38:46 gz /tmp/work/umd/xxhash-wasm.js -> /output/umd/xxhash-wasm.js.gz
-2025/06/17 00:38:46 br /tmp/work/cjs/xxhash-wasm.min.js -> /output/cjs/xxhash-wasm.min.js.br
-2025/06/17 00:38:46 gz /tmp/work/cjs/xxhash-wasm.min.js -> /output/cjs/xxhash-wasm.min.js.gz
-2025/06/17 00:38:46 sri /tmp/work/cjs/xxhash-wasm.js -> /output/cjs/xxhash-wasm.js.sri
-2025/06/17 00:38:46 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/xxhash-wasm.js.br /tmp/work/cjs/xxhash-wasm.js
-2025/06/17 00:38:46 br /tmp/work/cjs/xxhash-wasm.js -> /output/cjs/xxhash-wasm.js.br
-2025/06/17 00:38:46 gz /tmp/work/cjs/xxhash-wasm.js -> /output/cjs/xxhash-wasm.js.gz
-2025/06/17 00:38:46 processed xxhash-wasm
+2025/06/17 04:26:32 optimizing files (Js true, Css true, Png true, Jpg true)
+2025/06/17 04:26:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/cjs/xxhash-wasm.min.js /tmp/work/cjs/xxhash-wasm.js]
+2025/06/17 04:26:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/esm/xxhash-wasm.min.js /tmp/work/esm/xxhash-wasm.js]
+2025/06/17 04:26:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/xxhash-wasm.js.map.br /tmp/work/cjs/xxhash-wasm.js.map
+2025/06/17 04:26:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/xxhash-wasm.js.map.br /tmp/work/esm/xxhash-wasm.js.map
+2025/06/17 04:26:32 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/umd/xxhash-wasm.min.js /tmp/work/umd/xxhash-wasm.js]
+2025/06/17 04:26:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/xxhash-wasm.js.map.br /tmp/work/umd/xxhash-wasm.js.map
+2025/06/17 04:26:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/types.d.ts.br /tmp/work/types.d.ts
+2025/06/17 04:26:32 br /tmp/work/cjs/xxhash-wasm.js.map -> /output/cjs/xxhash-wasm.js.map.br
+2025/06/17 04:26:32 gz /tmp/work/cjs/xxhash-wasm.js.map -> /output/cjs/xxhash-wasm.js.map.gz
+2025/06/17 04:26:32 br /tmp/work/esm/xxhash-wasm.js.map -> /output/esm/xxhash-wasm.js.map.br
+2025/06/17 04:26:32 gz /tmp/work/esm/xxhash-wasm.js.map -> /output/esm/xxhash-wasm.js.map.gz
+2025/06/17 04:26:32 br /tmp/work/types.d.ts -> /output/types.d.ts.br
+2025/06/17 04:26:32 gz /tmp/work/types.d.ts -> /output/types.d.ts.gz
+2025/06/17 04:26:32 br /tmp/work/umd/xxhash-wasm.js.map -> /output/umd/xxhash-wasm.js.map.br
+2025/06/17 04:26:32 gz /tmp/work/umd/xxhash-wasm.js.map -> /output/umd/xxhash-wasm.js.map.gz
+2025/06/17 04:26:32 sri /tmp/work/cjs/xxhash-wasm.min.js -> /output/cjs/xxhash-wasm.min.js.sri
+2025/06/17 04:26:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/xxhash-wasm.min.js.br /tmp/work/cjs/xxhash-wasm.min.js
+2025/06/17 04:26:32 br /tmp/work/cjs/xxhash-wasm.min.js -> /output/cjs/xxhash-wasm.min.js.br
+2025/06/17 04:26:32 gz /tmp/work/cjs/xxhash-wasm.min.js -> /output/cjs/xxhash-wasm.min.js.gz
+2025/06/17 04:26:32 sri /tmp/work/cjs/xxhash-wasm.js -> /output/cjs/xxhash-wasm.js.sri
+2025/06/17 04:26:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/xxhash-wasm.js.br /tmp/work/cjs/xxhash-wasm.js
+2025/06/17 04:26:33 br /tmp/work/cjs/xxhash-wasm.js -> /output/cjs/xxhash-wasm.js.br
+2025/06/17 04:26:33 gz /tmp/work/cjs/xxhash-wasm.js -> /output/cjs/xxhash-wasm.js.gz
+2025/06/17 04:26:33 sri /tmp/work/esm/xxhash-wasm.min.js -> /output/esm/xxhash-wasm.min.js.sri
+2025/06/17 04:26:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/xxhash-wasm.min.js.br /tmp/work/esm/xxhash-wasm.min.js
+2025/06/17 04:26:33 br /tmp/work/esm/xxhash-wasm.min.js -> /output/esm/xxhash-wasm.min.js.br
+2025/06/17 04:26:33 gz /tmp/work/esm/xxhash-wasm.min.js -> /output/esm/xxhash-wasm.min.js.gz
+2025/06/17 04:26:33 sri /tmp/work/esm/xxhash-wasm.js -> /output/esm/xxhash-wasm.js.sri
+2025/06/17 04:26:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/xxhash-wasm.js.br /tmp/work/esm/xxhash-wasm.js
+2025/06/17 04:26:33 br /tmp/work/esm/xxhash-wasm.js -> /output/esm/xxhash-wasm.js.br
+2025/06/17 04:26:33 gz /tmp/work/esm/xxhash-wasm.js -> /output/esm/xxhash-wasm.js.gz
+2025/06/17 04:26:33 sri /tmp/work/umd/xxhash-wasm.min.js -> /output/umd/xxhash-wasm.min.js.sri
+2025/06/17 04:26:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/xxhash-wasm.min.js.br /tmp/work/umd/xxhash-wasm.min.js
+2025/06/17 04:26:33 br /tmp/work/umd/xxhash-wasm.min.js -> /output/umd/xxhash-wasm.min.js.br
+2025/06/17 04:26:33 gz /tmp/work/umd/xxhash-wasm.min.js -> /output/umd/xxhash-wasm.min.js.gz
+2025/06/17 04:26:33 sri /tmp/work/umd/xxhash-wasm.js -> /output/umd/xxhash-wasm.js.sri
+2025/06/17 04:26:33 algorithm: run /usr/bin/brotli --quality=11 --output=/output/umd/xxhash-wasm.js.br /tmp/work/umd/xxhash-wasm.js
+2025/06/17 04:26:33 br /tmp/work/umd/xxhash-wasm.js -> /output/umd/xxhash-wasm.js.br
+2025/06/17 04:26:33 gz /tmp/work/umd/xxhash-wasm.js -> /output/umd/xxhash-wasm.js.gz
+2025/06/17 04:26:33 processed xxhash-wasm
