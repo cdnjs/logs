@@ -1,35 +1,35 @@
-2025/06/17 04:05:07 optimizing files (Js true, Css true, Png true, Jpg true)
-2025/06/17 04:05:07 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/core.ruffle.4b1273b6dff91125b52f.min.js /tmp/work/core.ruffle.4b1273b6dff91125b52f.js]
-2025/06/17 04:05:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/a35cc28cd88aca082ca8.wasm.br /tmp/work/a35cc28cd88aca082ca8.wasm
-2025/06/17 04:05:07 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/core.ruffle.c5acf679e29e523e7741.min.js /tmp/work/core.ruffle.c5acf679e29e523e7741.js]
-2025/06/17 04:05:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/e78546b152c806e8e05a.wasm.br /tmp/work/e78546b152c806e8e05a.wasm
-2025/06/17 04:05:07 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/ruffle.min.js /tmp/work/ruffle.js]
-2025/06/17 04:05:14 sri /tmp/work/ruffle.min.js -> /output/ruffle.min.js.sri
-2025/06/17 04:05:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ruffle.min.js.br /tmp/work/ruffle.min.js
-2025/06/17 04:05:15 sri /tmp/work/core.ruffle.c5acf679e29e523e7741.min.js -> /output/core.ruffle.c5acf679e29e523e7741.min.js.sri
-2025/06/17 04:05:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.ruffle.c5acf679e29e523e7741.min.js.br /tmp/work/core.ruffle.c5acf679e29e523e7741.min.js
-2025/06/17 04:05:15 br /tmp/work/core.ruffle.c5acf679e29e523e7741.min.js -> /output/core.ruffle.c5acf679e29e523e7741.min.js.br
-2025/06/17 04:05:15 gz /tmp/work/core.ruffle.c5acf679e29e523e7741.min.js -> /output/core.ruffle.c5acf679e29e523e7741.min.js.gz
-2025/06/17 04:05:15 sri /tmp/work/core.ruffle.c5acf679e29e523e7741.js -> /output/core.ruffle.c5acf679e29e523e7741.js.sri
-2025/06/17 04:05:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.ruffle.c5acf679e29e523e7741.js.br /tmp/work/core.ruffle.c5acf679e29e523e7741.js
-2025/06/17 04:05:16 br /tmp/work/core.ruffle.c5acf679e29e523e7741.js -> /output/core.ruffle.c5acf679e29e523e7741.js.br
-2025/06/17 04:05:16 gz /tmp/work/core.ruffle.c5acf679e29e523e7741.js -> /output/core.ruffle.c5acf679e29e523e7741.js.gz
-2025/06/17 04:05:17 sri /tmp/work/core.ruffle.4b1273b6dff91125b52f.min.js -> /output/core.ruffle.4b1273b6dff91125b52f.min.js.sri
-2025/06/17 04:05:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.ruffle.4b1273b6dff91125b52f.min.js.br /tmp/work/core.ruffle.4b1273b6dff91125b52f.min.js
-2025/06/17 04:05:17 br /tmp/work/ruffle.min.js -> /output/ruffle.min.js.br
-2025/06/17 04:05:17 gz /tmp/work/ruffle.min.js -> /output/ruffle.min.js.gz
-2025/06/17 04:05:17 sri /tmp/work/ruffle.js -> /output/ruffle.js.sri
-2025/06/17 04:05:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ruffle.js.br /tmp/work/ruffle.js
-2025/06/17 04:05:17 br /tmp/work/core.ruffle.4b1273b6dff91125b52f.min.js -> /output/core.ruffle.4b1273b6dff91125b52f.min.js.br
-2025/06/17 04:05:17 gz /tmp/work/core.ruffle.4b1273b6dff91125b52f.min.js -> /output/core.ruffle.4b1273b6dff91125b52f.min.js.gz
-2025/06/17 04:05:17 sri /tmp/work/core.ruffle.4b1273b6dff91125b52f.js -> /output/core.ruffle.4b1273b6dff91125b52f.js.sri
-2025/06/17 04:05:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.ruffle.4b1273b6dff91125b52f.js.br /tmp/work/core.ruffle.4b1273b6dff91125b52f.js
-2025/06/17 04:05:18 br /tmp/work/core.ruffle.4b1273b6dff91125b52f.js -> /output/core.ruffle.4b1273b6dff91125b52f.js.br
-2025/06/17 04:05:18 gz /tmp/work/core.ruffle.4b1273b6dff91125b52f.js -> /output/core.ruffle.4b1273b6dff91125b52f.js.gz
-2025/06/17 04:05:19 br /tmp/work/ruffle.js -> /output/ruffle.js.br
-2025/06/17 04:05:19 gz /tmp/work/ruffle.js -> /output/ruffle.js.gz
-2025/06/17 04:06:29 br /tmp/work/e78546b152c806e8e05a.wasm -> /output/e78546b152c806e8e05a.wasm.br
-2025/06/17 04:06:29 br /tmp/work/a35cc28cd88aca082ca8.wasm -> /output/a35cc28cd88aca082ca8.wasm.br
-2025/06/17 04:06:30 gz /tmp/work/e78546b152c806e8e05a.wasm -> /output/e78546b152c806e8e05a.wasm.gz
-2025/06/17 04:06:31 gz /tmp/work/a35cc28cd88aca082ca8.wasm -> /output/a35cc28cd88aca082ca8.wasm.gz
-2025/06/17 04:06:31 processed ruffle-rs
+2025/06/17 05:27:17 optimizing files (Js true, Css true, Png true, Jpg true)
+2025/06/17 05:27:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/a35cc28cd88aca082ca8.wasm.br /tmp/work/a35cc28cd88aca082ca8.wasm
+2025/06/17 05:27:17 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/core.ruffle.4b1273b6dff91125b52f.min.js /tmp/work/core.ruffle.4b1273b6dff91125b52f.js]
+2025/06/17 05:27:17 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/core.ruffle.c5acf679e29e523e7741.min.js /tmp/work/core.ruffle.c5acf679e29e523e7741.js]
+2025/06/17 05:27:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/e78546b152c806e8e05a.wasm.br /tmp/work/e78546b152c806e8e05a.wasm
+2025/06/17 05:27:17 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/ruffle.min.js /tmp/work/ruffle.js]
+2025/06/17 05:27:24 sri /tmp/work/ruffle.min.js -> /output/ruffle.min.js.sri
+2025/06/17 05:27:24 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ruffle.min.js.br /tmp/work/ruffle.min.js
+2025/06/17 05:27:25 sri /tmp/work/core.ruffle.c5acf679e29e523e7741.min.js -> /output/core.ruffle.c5acf679e29e523e7741.min.js.sri
+2025/06/17 05:27:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.ruffle.c5acf679e29e523e7741.min.js.br /tmp/work/core.ruffle.c5acf679e29e523e7741.min.js
+2025/06/17 05:27:25 br /tmp/work/ruffle.min.js -> /output/ruffle.min.js.br
+2025/06/17 05:27:25 gz /tmp/work/ruffle.min.js -> /output/ruffle.min.js.gz
+2025/06/17 05:27:25 sri /tmp/work/ruffle.js -> /output/ruffle.js.sri
+2025/06/17 05:27:25 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ruffle.js.br /tmp/work/ruffle.js
+2025/06/17 05:27:26 br /tmp/work/core.ruffle.c5acf679e29e523e7741.min.js -> /output/core.ruffle.c5acf679e29e523e7741.min.js.br
+2025/06/17 05:27:26 gz /tmp/work/core.ruffle.c5acf679e29e523e7741.min.js -> /output/core.ruffle.c5acf679e29e523e7741.min.js.gz
+2025/06/17 05:27:26 sri /tmp/work/core.ruffle.c5acf679e29e523e7741.js -> /output/core.ruffle.c5acf679e29e523e7741.js.sri
+2025/06/17 05:27:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.ruffle.c5acf679e29e523e7741.js.br /tmp/work/core.ruffle.c5acf679e29e523e7741.js
+2025/06/17 05:27:26 sri /tmp/work/core.ruffle.4b1273b6dff91125b52f.min.js -> /output/core.ruffle.4b1273b6dff91125b52f.min.js.sri
+2025/06/17 05:27:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.ruffle.4b1273b6dff91125b52f.min.js.br /tmp/work/core.ruffle.4b1273b6dff91125b52f.min.js
+2025/06/17 05:27:26 br /tmp/work/core.ruffle.c5acf679e29e523e7741.js -> /output/core.ruffle.c5acf679e29e523e7741.js.br
+2025/06/17 05:27:26 gz /tmp/work/core.ruffle.c5acf679e29e523e7741.js -> /output/core.ruffle.c5acf679e29e523e7741.js.gz
+2025/06/17 05:27:26 br /tmp/work/core.ruffle.4b1273b6dff91125b52f.min.js -> /output/core.ruffle.4b1273b6dff91125b52f.min.js.br
+2025/06/17 05:27:26 gz /tmp/work/core.ruffle.4b1273b6dff91125b52f.min.js -> /output/core.ruffle.4b1273b6dff91125b52f.min.js.gz
+2025/06/17 05:27:26 sri /tmp/work/core.ruffle.4b1273b6dff91125b52f.js -> /output/core.ruffle.4b1273b6dff91125b52f.js.sri
+2025/06/17 05:27:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/core.ruffle.4b1273b6dff91125b52f.js.br /tmp/work/core.ruffle.4b1273b6dff91125b52f.js
+2025/06/17 05:27:26 br /tmp/work/core.ruffle.4b1273b6dff91125b52f.js -> /output/core.ruffle.4b1273b6dff91125b52f.js.br
+2025/06/17 05:27:26 gz /tmp/work/core.ruffle.4b1273b6dff91125b52f.js -> /output/core.ruffle.4b1273b6dff91125b52f.js.gz
+2025/06/17 05:27:27 br /tmp/work/ruffle.js -> /output/ruffle.js.br
+2025/06/17 05:27:27 gz /tmp/work/ruffle.js -> /output/ruffle.js.gz
+2025/06/17 05:28:33 br /tmp/work/a35cc28cd88aca082ca8.wasm -> /output/a35cc28cd88aca082ca8.wasm.br
+2025/06/17 05:28:34 gz /tmp/work/a35cc28cd88aca082ca8.wasm -> /output/a35cc28cd88aca082ca8.wasm.gz
+2025/06/17 05:28:35 br /tmp/work/e78546b152c806e8e05a.wasm -> /output/e78546b152c806e8e05a.wasm.br
+2025/06/17 05:28:36 gz /tmp/work/e78546b152c806e8e05a.wasm -> /output/e78546b152c806e8e05a.wasm.gz
+2025/06/17 05:28:36 processed ruffle-rs
