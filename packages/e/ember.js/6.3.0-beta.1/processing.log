@@ -1,11 +1,9 @@
-2025/06/17 04:37:39 optimizing files (Js true, Css true, Png true, Jpg true)
-2025/06/17 04:37:39 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/ember-testing.min.js /tmp/work/dist/ember-testing.js]
-2025/06/17 04:37:39 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/ember.prod.min.js /tmp/work/dist/ember.prod.js]
-2025/06/17 04:37:39 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/ember.debug.min.js /tmp/work/dist/ember.debug.js]
-2025/06/17 04:37:39 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/ember-template-compiler.min.js /tmp/work/dist/ember-template-compiler.js]
-2025/06/17 04:37:40 sri /tmp/work/dist/ember-testing.min.js -> /output/ember-testing.min.js.sri
-2025/06/17 04:37:40 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ember-testing.min.js.br /tmp/work/dist/ember-testing.min.js
-2025/06/17 04:37:41 failed with exit status 1: Parse error at /tmp/work/dist/ember.prod.js:20503,19
+2025/06/17 05:19:58 optimizing files (Js true, Css true, Png true, Jpg true)
+2025/06/17 05:19:58 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/ember.debug.min.js /tmp/work/dist/ember.debug.js]
+2025/06/17 05:19:58 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/ember-testing.min.js /tmp/work/dist/ember-testing.js]
+2025/06/17 05:19:58 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/ember.prod.min.js /tmp/work/dist/ember.prod.js]
+2025/06/17 05:19:58 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/ember-template-compiler.min.js /tmp/work/dist/ember-template-compiler.js]
+2025/06/17 05:19:59 failed with exit status 1: Parse error at /tmp/work/dist/ember.prod.js:20503,19
             static {
                    ^
 ERROR: Unexpected token: punc «{», expected: punc «[»
@@ -20,12 +18,14 @@ ERROR: Unexpected token: punc «{», expected: punc «[»
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
     at node:internal/main/run_main_module:28:49
 
-2025/06/17 04:37:41 compress: run /node_modules/uglify-es/bin/uglifyjs (3.3.10) [--mangle --compress if_return=true -o /tmp/work/dist/ember.prod.min.js /tmp/work/dist/ember.prod.js]
-2025/06/17 04:37:41 br /tmp/work/dist/ember-testing.min.js -> /output/ember-testing.min.js.br
-2025/06/17 04:37:41 gz /tmp/work/dist/ember-testing.min.js -> /output/ember-testing.min.js.gz
-2025/06/17 04:37:41 sri /tmp/work/dist/ember-testing.js -> /output/ember-testing.js.sri
-2025/06/17 04:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ember-testing.js.br /tmp/work/dist/ember-testing.js
-2025/06/17 04:37:41 failed with exit status 1: Parse error at /tmp/work/dist/ember.debug.js:22065,19
+2025/06/17 05:19:59 compress: run /node_modules/uglify-es/bin/uglifyjs (3.3.10) [--mangle --compress if_return=true -o /tmp/work/dist/ember.prod.min.js /tmp/work/dist/ember.prod.js]
+2025/06/17 05:20:00 sri /tmp/work/dist/ember-testing.min.js -> /output/ember-testing.min.js.sri
+2025/06/17 05:20:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ember-testing.min.js.br /tmp/work/dist/ember-testing.min.js
+2025/06/17 05:20:00 br /tmp/work/dist/ember-testing.min.js -> /output/ember-testing.min.js.br
+2025/06/17 05:20:00 gz /tmp/work/dist/ember-testing.min.js -> /output/ember-testing.min.js.gz
+2025/06/17 05:20:00 sri /tmp/work/dist/ember-testing.js -> /output/ember-testing.js.sri
+2025/06/17 05:20:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ember-testing.js.br /tmp/work/dist/ember-testing.js
+2025/06/17 05:20:00 failed with exit status 1: Parse error at /tmp/work/dist/ember.debug.js:22065,19
             static {
                    ^
 ERROR: Unexpected token: punc «{», expected: punc «[»
@@ -40,10 +40,8 @@ ERROR: Unexpected token: punc «{», expected: punc «[»
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
     at node:internal/main/run_main_module:28:49
 
-2025/06/17 04:37:41 compress: run /node_modules/uglify-es/bin/uglifyjs (3.3.10) [--mangle --compress if_return=true -o /tmp/work/dist/ember.debug.min.js /tmp/work/dist/ember.debug.js]
-2025/06/17 04:37:41 br /tmp/work/dist/ember-testing.js -> /output/ember-testing.js.br
-2025/06/17 04:37:41 gz /tmp/work/dist/ember-testing.js -> /output/ember-testing.js.gz
-2025/06/17 04:37:41 failed with exit status 1: Parse error at /tmp/work/dist/ember.prod.js:380,22
+2025/06/17 05:20:00 compress: run /node_modules/uglify-es/bin/uglifyjs (3.3.10) [--mangle --compress if_return=true -o /tmp/work/dist/ember.debug.min.js /tmp/work/dist/ember.debug.js]
+2025/06/17 05:20:00 failed with exit status 1: Parse error at /tmp/work/dist/ember.prod.js:380,22
             listeners = undefined;
                       ^
 ERROR: Unexpected token: operator (=)
@@ -58,9 +56,11 @@ ERROR: Unexpected token: operator (=)
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
     at node:internal/main/run_main_module:28:49
 
-2025/06/17 04:37:41 sri /tmp/work/dist/ember.prod.js -> /output/ember.prod.js.sri
-2025/06/17 04:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ember.prod.js.br /tmp/work/dist/ember.prod.js
-2025/06/17 04:37:41 failed with exit status 1: Parse error at /tmp/work/dist/ember.debug.js:425,22
+2025/06/17 05:20:00 sri /tmp/work/dist/ember.prod.js -> /output/ember.prod.js.sri
+2025/06/17 05:20:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ember.prod.js.br /tmp/work/dist/ember.prod.js
+2025/06/17 05:20:00 br /tmp/work/dist/ember-testing.js -> /output/ember-testing.js.br
+2025/06/17 05:20:00 gz /tmp/work/dist/ember-testing.js -> /output/ember-testing.js.gz
+2025/06/17 05:20:00 failed with exit status 1: Parse error at /tmp/work/dist/ember.debug.js:425,22
             listeners = undefined;
                       ^
 ERROR: Unexpected token: operator (=)
@@ -75,18 +75,18 @@ ERROR: Unexpected token: operator (=)
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
     at node:internal/main/run_main_module:28:49
 
-2025/06/17 04:37:41 sri /tmp/work/dist/ember.debug.js -> /output/ember.debug.js.sri
-2025/06/17 04:37:41 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ember.debug.js.br /tmp/work/dist/ember.debug.js
-2025/06/17 04:37:48 sri /tmp/work/dist/ember-template-compiler.min.js -> /output/ember-template-compiler.min.js.sri
-2025/06/17 04:37:48 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ember-template-compiler.min.js.br /tmp/work/dist/ember-template-compiler.min.js
-2025/06/17 04:37:49 br /tmp/work/dist/ember-template-compiler.min.js -> /output/ember-template-compiler.min.js.br
-2025/06/17 04:37:49 gz /tmp/work/dist/ember-template-compiler.min.js -> /output/ember-template-compiler.min.js.gz
-2025/06/17 04:37:49 sri /tmp/work/dist/ember-template-compiler.js -> /output/ember-template-compiler.js.sri
-2025/06/17 04:37:49 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ember-template-compiler.js.br /tmp/work/dist/ember-template-compiler.js
-2025/06/17 04:37:51 br /tmp/work/dist/ember.prod.js -> /output/ember.prod.js.br
-2025/06/17 04:37:51 gz /tmp/work/dist/ember.prod.js -> /output/ember.prod.js.gz
-2025/06/17 04:37:52 br /tmp/work/dist/ember-template-compiler.js -> /output/ember-template-compiler.js.br
-2025/06/17 04:37:52 gz /tmp/work/dist/ember-template-compiler.js -> /output/ember-template-compiler.js.gz
-2025/06/17 04:37:53 br /tmp/work/dist/ember.debug.js -> /output/ember.debug.js.br
-2025/06/17 04:37:53 gz /tmp/work/dist/ember.debug.js -> /output/ember.debug.js.gz
-2025/06/17 04:37:53 processed ember.js
+2025/06/17 05:20:00 sri /tmp/work/dist/ember.debug.js -> /output/ember.debug.js.sri
+2025/06/17 05:20:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ember.debug.js.br /tmp/work/dist/ember.debug.js
+2025/06/17 05:20:07 sri /tmp/work/dist/ember-template-compiler.min.js -> /output/ember-template-compiler.min.js.sri
+2025/06/17 05:20:07 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ember-template-compiler.min.js.br /tmp/work/dist/ember-template-compiler.min.js
+2025/06/17 05:20:08 br /tmp/work/dist/ember-template-compiler.min.js -> /output/ember-template-compiler.min.js.br
+2025/06/17 05:20:08 gz /tmp/work/dist/ember-template-compiler.min.js -> /output/ember-template-compiler.min.js.gz
+2025/06/17 05:20:08 sri /tmp/work/dist/ember-template-compiler.js -> /output/ember-template-compiler.js.sri
+2025/06/17 05:20:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/ember-template-compiler.js.br /tmp/work/dist/ember-template-compiler.js
+2025/06/17 05:20:09 br /tmp/work/dist/ember.prod.js -> /output/ember.prod.js.br
+2025/06/17 05:20:10 gz /tmp/work/dist/ember.prod.js -> /output/ember.prod.js.gz
+2025/06/17 05:20:11 br /tmp/work/dist/ember-template-compiler.js -> /output/ember-template-compiler.js.br
+2025/06/17 05:20:11 br /tmp/work/dist/ember.debug.js -> /output/ember.debug.js.br
+2025/06/17 05:20:11 gz /tmp/work/dist/ember-template-compiler.js -> /output/ember-template-compiler.js.gz
+2025/06/17 05:20:11 gz /tmp/work/dist/ember.debug.js -> /output/ember.debug.js.gz
+2025/06/17 05:20:11 processed ember.js
