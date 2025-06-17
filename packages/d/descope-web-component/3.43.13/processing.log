@@ -1,83 +1,83 @@
-2025/06/17 02:29:07 optimizing files (Js true, Css true, Png true, Jpg true)
-2025/06/17 02:29:08 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/index.min.js /tmp/work/dist/index.js]
-2025/06/17 02:29:08 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/esm/descope-wc/BaseDescopeWc.min.js /tmp/work/dist/esm/descope-wc/BaseDescopeWc.js]
-2025/06/17 02:29:08 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/esm/descope-wc/DescopeWc.min.js /tmp/work/dist/esm/descope-wc/DescopeWc.js]
-2025/06/17 02:29:08 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/esm/descope-wc/index.min.js /tmp/work/dist/esm/descope-wc/index.js]
-2025/06/17 02:29:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/descope-wc/DescopeWc.js.map.br /tmp/work/dist/esm/descope-wc/DescopeWc.js.map
-2025/06/17 02:29:08 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/cjs/descope-wc/BaseDescopeWc.min.js /tmp/work/dist/cjs/descope-wc/BaseDescopeWc.js]
-2025/06/17 02:29:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/descope-wc/BaseDescopeWc.js.map.br /tmp/work/dist/esm/descope-wc/BaseDescopeWc.js.map
-2025/06/17 02:29:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/descope-wc/index.js.map.br /tmp/work/dist/esm/descope-wc/index.js.map
-2025/06/17 02:29:08 br /tmp/work/dist/esm/descope-wc/index.js.map -> /output/esm/descope-wc/index.js.map.br
-2025/06/17 02:29:08 gz /tmp/work/dist/esm/descope-wc/index.js.map -> /output/esm/descope-wc/index.js.map.gz
-2025/06/17 02:29:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/descope-wc/BaseDescopeWc.js.map.br /tmp/work/dist/cjs/descope-wc/BaseDescopeWc.js.map
-2025/06/17 02:29:08 br /tmp/work/dist/esm/descope-wc/BaseDescopeWc.js.map -> /output/esm/descope-wc/BaseDescopeWc.js.map.br
-2025/06/17 02:29:08 gz /tmp/work/dist/esm/descope-wc/BaseDescopeWc.js.map -> /output/esm/descope-wc/BaseDescopeWc.js.map.gz
-2025/06/17 02:29:08 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/cjs/descope-wc/DescopeWc.min.js /tmp/work/dist/cjs/descope-wc/DescopeWc.js]
-2025/06/17 02:29:08 br /tmp/work/dist/cjs/descope-wc/BaseDescopeWc.js.map -> /output/cjs/descope-wc/BaseDescopeWc.js.map.br
-2025/06/17 02:29:08 gz /tmp/work/dist/cjs/descope-wc/BaseDescopeWc.js.map -> /output/cjs/descope-wc/BaseDescopeWc.js.map.gz
-2025/06/17 02:29:08 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/descope-wc/DescopeWc.js.map.br /tmp/work/dist/cjs/descope-wc/DescopeWc.js.map
-2025/06/17 02:29:09 br /tmp/work/dist/esm/descope-wc/DescopeWc.js.map -> /output/esm/descope-wc/DescopeWc.js.map.br
-2025/06/17 02:29:09 sri /tmp/work/dist/esm/descope-wc/index.min.js -> /output/esm/descope-wc/index.min.js.sri
-2025/06/17 02:29:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/descope-wc/index.min.js.br /tmp/work/dist/esm/descope-wc/index.min.js
-2025/06/17 02:29:09 br /tmp/work/dist/esm/descope-wc/index.min.js -> /output/esm/descope-wc/index.min.js.br
-2025/06/17 02:29:09 gz /tmp/work/dist/esm/descope-wc/index.min.js -> /output/esm/descope-wc/index.min.js.gz
-2025/06/17 02:29:09 sri /tmp/work/dist/esm/descope-wc/index.js -> /output/esm/descope-wc/index.js.sri
-2025/06/17 02:29:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/descope-wc/index.js.br /tmp/work/dist/esm/descope-wc/index.js
-2025/06/17 02:29:09 br /tmp/work/dist/esm/descope-wc/index.js -> /output/esm/descope-wc/index.js.br
-2025/06/17 02:29:09 gz /tmp/work/dist/esm/descope-wc/index.js -> /output/esm/descope-wc/index.js.gz
-2025/06/17 02:29:09 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/cjs/descope-wc/index.min.js /tmp/work/dist/cjs/descope-wc/index.js]
-2025/06/17 02:29:09 gz /tmp/work/dist/esm/descope-wc/DescopeWc.js.map -> /output/esm/descope-wc/DescopeWc.js.map.gz
-2025/06/17 02:29:09 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/descope-wc/index.js.map.br /tmp/work/dist/cjs/descope-wc/index.js.map
-2025/06/17 02:29:09 br /tmp/work/dist/cjs/descope-wc/index.js.map -> /output/cjs/descope-wc/index.js.map.br
-2025/06/17 02:29:09 gz /tmp/work/dist/cjs/descope-wc/index.js.map -> /output/cjs/descope-wc/index.js.map.gz
-2025/06/17 02:29:10 br /tmp/work/dist/cjs/descope-wc/DescopeWc.js.map -> /output/cjs/descope-wc/DescopeWc.js.map.br
-2025/06/17 02:29:10 sri /tmp/work/dist/cjs/descope-wc/index.min.js -> /output/cjs/descope-wc/index.min.js.sri
-2025/06/17 02:29:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/descope-wc/index.min.js.br /tmp/work/dist/cjs/descope-wc/index.min.js
-2025/06/17 02:29:10 br /tmp/work/dist/cjs/descope-wc/index.min.js -> /output/cjs/descope-wc/index.min.js.br
-2025/06/17 02:29:10 gz /tmp/work/dist/cjs/descope-wc/index.min.js -> /output/cjs/descope-wc/index.min.js.gz
-2025/06/17 02:29:10 sri /tmp/work/dist/cjs/descope-wc/index.js -> /output/cjs/descope-wc/index.js.sri
-2025/06/17 02:29:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/descope-wc/index.js.br /tmp/work/dist/cjs/descope-wc/index.js
-2025/06/17 02:29:10 br /tmp/work/dist/cjs/descope-wc/index.js -> /output/cjs/descope-wc/index.js.br
-2025/06/17 02:29:10 gz /tmp/work/dist/cjs/descope-wc/index.js -> /output/cjs/descope-wc/index.js.gz
-2025/06/17 02:29:10 gz /tmp/work/dist/cjs/descope-wc/DescopeWc.js.map -> /output/cjs/descope-wc/DescopeWc.js.map.gz
-2025/06/17 02:29:10 sri /tmp/work/dist/esm/descope-wc/BaseDescopeWc.min.js -> /output/esm/descope-wc/BaseDescopeWc.min.js.sri
-2025/06/17 02:29:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/descope-wc/BaseDescopeWc.min.js.br /tmp/work/dist/esm/descope-wc/BaseDescopeWc.min.js
-2025/06/17 02:29:10 br /tmp/work/dist/esm/descope-wc/BaseDescopeWc.min.js -> /output/esm/descope-wc/BaseDescopeWc.min.js.br
-2025/06/17 02:29:10 gz /tmp/work/dist/esm/descope-wc/BaseDescopeWc.min.js -> /output/esm/descope-wc/BaseDescopeWc.min.js.gz
-2025/06/17 02:29:10 sri /tmp/work/dist/esm/descope-wc/BaseDescopeWc.js -> /output/esm/descope-wc/BaseDescopeWc.js.sri
-2025/06/17 02:29:10 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/descope-wc/BaseDescopeWc.js.br /tmp/work/dist/esm/descope-wc/BaseDescopeWc.js
-2025/06/17 02:29:10 br /tmp/work/dist/esm/descope-wc/BaseDescopeWc.js -> /output/esm/descope-wc/BaseDescopeWc.js.br
-2025/06/17 02:29:10 gz /tmp/work/dist/esm/descope-wc/BaseDescopeWc.js -> /output/esm/descope-wc/BaseDescopeWc.js.gz
-2025/06/17 02:29:11 sri /tmp/work/dist/cjs/descope-wc/BaseDescopeWc.min.js -> /output/cjs/descope-wc/BaseDescopeWc.min.js.sri
-2025/06/17 02:29:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/descope-wc/BaseDescopeWc.min.js.br /tmp/work/dist/cjs/descope-wc/BaseDescopeWc.min.js
-2025/06/17 02:29:11 br /tmp/work/dist/cjs/descope-wc/BaseDescopeWc.min.js -> /output/cjs/descope-wc/BaseDescopeWc.min.js.br
-2025/06/17 02:29:11 gz /tmp/work/dist/cjs/descope-wc/BaseDescopeWc.min.js -> /output/cjs/descope-wc/BaseDescopeWc.min.js.gz
-2025/06/17 02:29:11 sri /tmp/work/dist/cjs/descope-wc/BaseDescopeWc.js -> /output/cjs/descope-wc/BaseDescopeWc.js.sri
-2025/06/17 02:29:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/descope-wc/BaseDescopeWc.js.br /tmp/work/dist/cjs/descope-wc/BaseDescopeWc.js
-2025/06/17 02:29:11 sri /tmp/work/dist/esm/descope-wc/DescopeWc.min.js -> /output/esm/descope-wc/DescopeWc.min.js.sri
-2025/06/17 02:29:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/descope-wc/DescopeWc.min.js.br /tmp/work/dist/esm/descope-wc/DescopeWc.min.js
-2025/06/17 02:29:11 br /tmp/work/dist/cjs/descope-wc/BaseDescopeWc.js -> /output/cjs/descope-wc/BaseDescopeWc.js.br
-2025/06/17 02:29:11 gz /tmp/work/dist/cjs/descope-wc/BaseDescopeWc.js -> /output/cjs/descope-wc/BaseDescopeWc.js.gz
-2025/06/17 02:29:11 br /tmp/work/dist/esm/descope-wc/DescopeWc.min.js -> /output/esm/descope-wc/DescopeWc.min.js.br
-2025/06/17 02:29:11 gz /tmp/work/dist/esm/descope-wc/DescopeWc.min.js -> /output/esm/descope-wc/DescopeWc.min.js.gz
-2025/06/17 02:29:11 sri /tmp/work/dist/esm/descope-wc/DescopeWc.js -> /output/esm/descope-wc/DescopeWc.js.sri
-2025/06/17 02:29:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/descope-wc/DescopeWc.js.br /tmp/work/dist/esm/descope-wc/DescopeWc.js
-2025/06/17 02:29:11 br /tmp/work/dist/esm/descope-wc/DescopeWc.js -> /output/esm/descope-wc/DescopeWc.js.br
-2025/06/17 02:29:11 gz /tmp/work/dist/esm/descope-wc/DescopeWc.js -> /output/esm/descope-wc/DescopeWc.js.gz
-2025/06/17 02:29:11 sri /tmp/work/dist/cjs/descope-wc/DescopeWc.min.js -> /output/cjs/descope-wc/DescopeWc.min.js.sri
-2025/06/17 02:29:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/descope-wc/DescopeWc.min.js.br /tmp/work/dist/cjs/descope-wc/DescopeWc.min.js
-2025/06/17 02:29:11 br /tmp/work/dist/cjs/descope-wc/DescopeWc.min.js -> /output/cjs/descope-wc/DescopeWc.min.js.br
-2025/06/17 02:29:11 gz /tmp/work/dist/cjs/descope-wc/DescopeWc.min.js -> /output/cjs/descope-wc/DescopeWc.min.js.gz
-2025/06/17 02:29:11 sri /tmp/work/dist/cjs/descope-wc/DescopeWc.js -> /output/cjs/descope-wc/DescopeWc.js.sri
-2025/06/17 02:29:11 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/descope-wc/DescopeWc.js.br /tmp/work/dist/cjs/descope-wc/DescopeWc.js
-2025/06/17 02:29:12 br /tmp/work/dist/cjs/descope-wc/DescopeWc.js -> /output/cjs/descope-wc/DescopeWc.js.br
-2025/06/17 02:29:12 gz /tmp/work/dist/cjs/descope-wc/DescopeWc.js -> /output/cjs/descope-wc/DescopeWc.js.gz
-2025/06/17 02:29:14 sri /tmp/work/dist/index.min.js -> /output/index.min.js.sri
-2025/06/17 02:29:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/dist/index.min.js
-2025/06/17 02:29:15 br /tmp/work/dist/index.min.js -> /output/index.min.js.br
-2025/06/17 02:29:15 gz /tmp/work/dist/index.min.js -> /output/index.min.js.gz
-2025/06/17 02:29:15 sri /tmp/work/dist/index.js -> /output/index.js.sri
-2025/06/17 02:29:15 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/dist/index.js
-2025/06/17 02:29:15 br /tmp/work/dist/index.js -> /output/index.js.br
-2025/06/17 02:29:15 gz /tmp/work/dist/index.js -> /output/index.js.gz
-2025/06/17 02:29:15 processed descope-web-component
+2025/06/17 04:35:16 optimizing files (Js true, Css true, Png true, Jpg true)
+2025/06/17 04:35:16 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/index.min.js /tmp/work/dist/index.js]
+2025/06/17 04:35:16 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/esm/descope-wc/BaseDescopeWc.min.js /tmp/work/dist/esm/descope-wc/BaseDescopeWc.js]
+2025/06/17 04:35:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/descope-wc/BaseDescopeWc.js.map.br /tmp/work/dist/esm/descope-wc/BaseDescopeWc.js.map
+2025/06/17 04:35:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/descope-wc/DescopeWc.js.map.br /tmp/work/dist/esm/descope-wc/DescopeWc.js.map
+2025/06/17 04:35:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/descope-wc/index.js.map.br /tmp/work/dist/esm/descope-wc/index.js.map
+2025/06/17 04:35:16 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/esm/descope-wc/index.min.js /tmp/work/dist/esm/descope-wc/index.js]
+2025/06/17 04:35:16 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/cjs/descope-wc/BaseDescopeWc.min.js /tmp/work/dist/cjs/descope-wc/BaseDescopeWc.js]
+2025/06/17 04:35:16 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/esm/descope-wc/DescopeWc.min.js /tmp/work/dist/esm/descope-wc/DescopeWc.js]
+2025/06/17 04:35:16 br /tmp/work/dist/esm/descope-wc/index.js.map -> /output/esm/descope-wc/index.js.map.br
+2025/06/17 04:35:16 gz /tmp/work/dist/esm/descope-wc/index.js.map -> /output/esm/descope-wc/index.js.map.gz
+2025/06/17 04:35:16 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/descope-wc/BaseDescopeWc.js.map.br /tmp/work/dist/cjs/descope-wc/BaseDescopeWc.js.map
+2025/06/17 04:35:17 br /tmp/work/dist/cjs/descope-wc/BaseDescopeWc.js.map -> /output/cjs/descope-wc/BaseDescopeWc.js.map.br
+2025/06/17 04:35:17 gz /tmp/work/dist/cjs/descope-wc/BaseDescopeWc.js.map -> /output/cjs/descope-wc/BaseDescopeWc.js.map.gz
+2025/06/17 04:35:17 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/cjs/descope-wc/DescopeWc.min.js /tmp/work/dist/cjs/descope-wc/DescopeWc.js]
+2025/06/17 04:35:17 br /tmp/work/dist/esm/descope-wc/BaseDescopeWc.js.map -> /output/esm/descope-wc/BaseDescopeWc.js.map.br
+2025/06/17 04:35:17 gz /tmp/work/dist/esm/descope-wc/BaseDescopeWc.js.map -> /output/esm/descope-wc/BaseDescopeWc.js.map.gz
+2025/06/17 04:35:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/descope-wc/DescopeWc.js.map.br /tmp/work/dist/cjs/descope-wc/DescopeWc.js.map
+2025/06/17 04:35:17 sri /tmp/work/dist/esm/descope-wc/index.min.js -> /output/esm/descope-wc/index.min.js.sri
+2025/06/17 04:35:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/descope-wc/index.min.js.br /tmp/work/dist/esm/descope-wc/index.min.js
+2025/06/17 04:35:17 br /tmp/work/dist/esm/descope-wc/index.min.js -> /output/esm/descope-wc/index.min.js.br
+2025/06/17 04:35:17 gz /tmp/work/dist/esm/descope-wc/index.min.js -> /output/esm/descope-wc/index.min.js.gz
+2025/06/17 04:35:17 sri /tmp/work/dist/esm/descope-wc/index.js -> /output/esm/descope-wc/index.js.sri
+2025/06/17 04:35:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/descope-wc/index.js.br /tmp/work/dist/esm/descope-wc/index.js
+2025/06/17 04:35:17 br /tmp/work/dist/esm/descope-wc/index.js -> /output/esm/descope-wc/index.js.br
+2025/06/17 04:35:17 gz /tmp/work/dist/esm/descope-wc/index.js -> /output/esm/descope-wc/index.js.gz
+2025/06/17 04:35:17 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/cjs/descope-wc/index.min.js /tmp/work/dist/cjs/descope-wc/index.js]
+2025/06/17 04:35:17 br /tmp/work/dist/esm/descope-wc/DescopeWc.js.map -> /output/esm/descope-wc/DescopeWc.js.map.br
+2025/06/17 04:35:17 br /tmp/work/dist/cjs/descope-wc/DescopeWc.js.map -> /output/cjs/descope-wc/DescopeWc.js.map.br
+2025/06/17 04:35:17 gz /tmp/work/dist/esm/descope-wc/DescopeWc.js.map -> /output/esm/descope-wc/DescopeWc.js.map.gz
+2025/06/17 04:35:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/descope-wc/index.js.map.br /tmp/work/dist/cjs/descope-wc/index.js.map
+2025/06/17 04:35:17 sri /tmp/work/dist/esm/descope-wc/BaseDescopeWc.min.js -> /output/esm/descope-wc/BaseDescopeWc.min.js.sri
+2025/06/17 04:35:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/descope-wc/BaseDescopeWc.min.js.br /tmp/work/dist/esm/descope-wc/BaseDescopeWc.min.js
+2025/06/17 04:35:17 gz /tmp/work/dist/cjs/descope-wc/DescopeWc.js.map -> /output/cjs/descope-wc/DescopeWc.js.map.gz
+2025/06/17 04:35:17 br /tmp/work/dist/cjs/descope-wc/index.js.map -> /output/cjs/descope-wc/index.js.map.br
+2025/06/17 04:35:17 gz /tmp/work/dist/cjs/descope-wc/index.js.map -> /output/cjs/descope-wc/index.js.map.gz
+2025/06/17 04:35:17 br /tmp/work/dist/esm/descope-wc/BaseDescopeWc.min.js -> /output/esm/descope-wc/BaseDescopeWc.min.js.br
+2025/06/17 04:35:17 gz /tmp/work/dist/esm/descope-wc/BaseDescopeWc.min.js -> /output/esm/descope-wc/BaseDescopeWc.min.js.gz
+2025/06/17 04:35:17 sri /tmp/work/dist/esm/descope-wc/BaseDescopeWc.js -> /output/esm/descope-wc/BaseDescopeWc.js.sri
+2025/06/17 04:35:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/descope-wc/BaseDescopeWc.js.br /tmp/work/dist/esm/descope-wc/BaseDescopeWc.js
+2025/06/17 04:35:17 br /tmp/work/dist/esm/descope-wc/BaseDescopeWc.js -> /output/esm/descope-wc/BaseDescopeWc.js.br
+2025/06/17 04:35:17 gz /tmp/work/dist/esm/descope-wc/BaseDescopeWc.js -> /output/esm/descope-wc/BaseDescopeWc.js.gz
+2025/06/17 04:35:17 sri /tmp/work/dist/cjs/descope-wc/index.min.js -> /output/cjs/descope-wc/index.min.js.sri
+2025/06/17 04:35:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/descope-wc/index.min.js.br /tmp/work/dist/cjs/descope-wc/index.min.js
+2025/06/17 04:35:17 br /tmp/work/dist/cjs/descope-wc/index.min.js -> /output/cjs/descope-wc/index.min.js.br
+2025/06/17 04:35:17 gz /tmp/work/dist/cjs/descope-wc/index.min.js -> /output/cjs/descope-wc/index.min.js.gz
+2025/06/17 04:35:17 sri /tmp/work/dist/cjs/descope-wc/index.js -> /output/cjs/descope-wc/index.js.sri
+2025/06/17 04:35:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/descope-wc/index.js.br /tmp/work/dist/cjs/descope-wc/index.js
+2025/06/17 04:35:17 br /tmp/work/dist/cjs/descope-wc/index.js -> /output/cjs/descope-wc/index.js.br
+2025/06/17 04:35:17 gz /tmp/work/dist/cjs/descope-wc/index.js -> /output/cjs/descope-wc/index.js.gz
+2025/06/17 04:35:17 sri /tmp/work/dist/cjs/descope-wc/BaseDescopeWc.min.js -> /output/cjs/descope-wc/BaseDescopeWc.min.js.sri
+2025/06/17 04:35:17 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/descope-wc/BaseDescopeWc.min.js.br /tmp/work/dist/cjs/descope-wc/BaseDescopeWc.min.js
+2025/06/17 04:35:18 br /tmp/work/dist/cjs/descope-wc/BaseDescopeWc.min.js -> /output/cjs/descope-wc/BaseDescopeWc.min.js.br
+2025/06/17 04:35:18 gz /tmp/work/dist/cjs/descope-wc/BaseDescopeWc.min.js -> /output/cjs/descope-wc/BaseDescopeWc.min.js.gz
+2025/06/17 04:35:18 sri /tmp/work/dist/cjs/descope-wc/BaseDescopeWc.js -> /output/cjs/descope-wc/BaseDescopeWc.js.sri
+2025/06/17 04:35:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/descope-wc/BaseDescopeWc.js.br /tmp/work/dist/cjs/descope-wc/BaseDescopeWc.js
+2025/06/17 04:35:18 br /tmp/work/dist/cjs/descope-wc/BaseDescopeWc.js -> /output/cjs/descope-wc/BaseDescopeWc.js.br
+2025/06/17 04:35:18 gz /tmp/work/dist/cjs/descope-wc/BaseDescopeWc.js -> /output/cjs/descope-wc/BaseDescopeWc.js.gz
+2025/06/17 04:35:18 sri /tmp/work/dist/esm/descope-wc/DescopeWc.min.js -> /output/esm/descope-wc/DescopeWc.min.js.sri
+2025/06/17 04:35:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/descope-wc/DescopeWc.min.js.br /tmp/work/dist/esm/descope-wc/DescopeWc.min.js
+2025/06/17 04:35:18 br /tmp/work/dist/esm/descope-wc/DescopeWc.min.js -> /output/esm/descope-wc/DescopeWc.min.js.br
+2025/06/17 04:35:18 gz /tmp/work/dist/esm/descope-wc/DescopeWc.min.js -> /output/esm/descope-wc/DescopeWc.min.js.gz
+2025/06/17 04:35:18 sri /tmp/work/dist/esm/descope-wc/DescopeWc.js -> /output/esm/descope-wc/DescopeWc.js.sri
+2025/06/17 04:35:18 algorithm: run /usr/bin/brotli --quality=11 --output=/output/esm/descope-wc/DescopeWc.js.br /tmp/work/dist/esm/descope-wc/DescopeWc.js
+2025/06/17 04:35:19 sri /tmp/work/dist/cjs/descope-wc/DescopeWc.min.js -> /output/cjs/descope-wc/DescopeWc.min.js.sri
+2025/06/17 04:35:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/descope-wc/DescopeWc.min.js.br /tmp/work/dist/cjs/descope-wc/DescopeWc.min.js
+2025/06/17 04:35:19 br /tmp/work/dist/esm/descope-wc/DescopeWc.js -> /output/esm/descope-wc/DescopeWc.js.br
+2025/06/17 04:35:19 gz /tmp/work/dist/esm/descope-wc/DescopeWc.js -> /output/esm/descope-wc/DescopeWc.js.gz
+2025/06/17 04:35:19 br /tmp/work/dist/cjs/descope-wc/DescopeWc.min.js -> /output/cjs/descope-wc/DescopeWc.min.js.br
+2025/06/17 04:35:19 gz /tmp/work/dist/cjs/descope-wc/DescopeWc.min.js -> /output/cjs/descope-wc/DescopeWc.min.js.gz
+2025/06/17 04:35:19 sri /tmp/work/dist/cjs/descope-wc/DescopeWc.js -> /output/cjs/descope-wc/DescopeWc.js.sri
+2025/06/17 04:35:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/cjs/descope-wc/DescopeWc.js.br /tmp/work/dist/cjs/descope-wc/DescopeWc.js
+2025/06/17 04:35:19 br /tmp/work/dist/cjs/descope-wc/DescopeWc.js -> /output/cjs/descope-wc/DescopeWc.js.br
+2025/06/17 04:35:19 gz /tmp/work/dist/cjs/descope-wc/DescopeWc.js -> /output/cjs/descope-wc/DescopeWc.js.gz
+2025/06/17 04:35:21 sri /tmp/work/dist/index.min.js -> /output/index.min.js.sri
+2025/06/17 04:35:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.js.br /tmp/work/dist/index.min.js
+2025/06/17 04:35:21 br /tmp/work/dist/index.min.js -> /output/index.min.js.br
+2025/06/17 04:35:21 gz /tmp/work/dist/index.min.js -> /output/index.min.js.gz
+2025/06/17 04:35:21 sri /tmp/work/dist/index.js -> /output/index.js.sri
+2025/06/17 04:35:21 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.js.br /tmp/work/dist/index.js
+2025/06/17 04:35:22 br /tmp/work/dist/index.js -> /output/index.js.br
+2025/06/17 04:35:22 gz /tmp/work/dist/index.js -> /output/index.js.gz
+2025/06/17 04:35:22 processed descope-web-component
