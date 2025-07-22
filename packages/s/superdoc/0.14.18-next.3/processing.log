@@ -1,0 +1,71 @@
+2025/07/22 17:00:54 optimizing files (Js true, Css true, Png true, Jpg true)
+2025/07/22 17:00:54 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/super-editor.es.min.js /tmp/work/dist/super-editor.es.js]
+2025/07/22 17:00:54 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/superdoc.es.min.js /tmp/work/dist/superdoc.es.js]
+2025/07/22 17:00:54 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/style.min.css /tmp/work/dist/style.css]
+2025/07/22 17:00:54 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/superdoc.umd.min.js /tmp/work/dist/superdoc.umd.js]
+2025/07/22 17:00:54 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/superdoc.min.css /tmp/work/dist/superdoc.css]
+2025/07/22 17:00:54 sri /tmp/work/dist/super-editor.es.min.js -> /output/super-editor.es.min.js.sri
+2025/07/22 17:00:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/super-editor.es.min.js.br /tmp/work/dist/super-editor.es.min.js
+2025/07/22 17:00:54 br /tmp/work/dist/super-editor.es.min.js -> /output/super-editor.es.min.js.br
+2025/07/22 17:00:54 gz /tmp/work/dist/super-editor.es.min.js -> /output/super-editor.es.min.js.gz
+2025/07/22 17:00:54 sri /tmp/work/dist/super-editor.es.js -> /output/super-editor.es.js.sri
+2025/07/22 17:00:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/super-editor.es.js.br /tmp/work/dist/super-editor.es.js
+2025/07/22 17:00:54 br /tmp/work/dist/super-editor.es.js -> /output/super-editor.es.js.br
+2025/07/22 17:00:54 gz /tmp/work/dist/super-editor.es.js -> /output/super-editor.es.js.gz
+2025/07/22 17:00:54 sri /tmp/work/dist/superdoc.min.css -> /output/superdoc.min.css.sri
+2025/07/22 17:00:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/superdoc.min.css.br /tmp/work/dist/superdoc.min.css
+2025/07/22 17:00:54 sri /tmp/work/dist/style.min.css -> /output/style.min.css.sri
+2025/07/22 17:00:54 algorithm: run /usr/bin/brotli --quality=11 --output=/output/style.min.css.br /tmp/work/dist/style.min.css
+2025/07/22 17:00:55 br /tmp/work/dist/superdoc.min.css -> /output/superdoc.min.css.br
+2025/07/22 17:00:55 gz /tmp/work/dist/superdoc.min.css -> /output/superdoc.min.css.gz
+2025/07/22 17:00:55 sri /tmp/work/dist/superdoc.css -> /output/superdoc.css.sri
+2025/07/22 17:00:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/superdoc.css.br /tmp/work/dist/superdoc.css
+2025/07/22 17:00:55 br /tmp/work/dist/style.min.css -> /output/style.min.css.br
+2025/07/22 17:00:55 gz /tmp/work/dist/style.min.css -> /output/style.min.css.gz
+2025/07/22 17:00:55 sri /tmp/work/dist/style.css -> /output/style.css.sri
+2025/07/22 17:00:55 algorithm: run /usr/bin/brotli --quality=11 --output=/output/style.css.br /tmp/work/dist/style.css
+2025/07/22 17:00:55 br /tmp/work/dist/style.css -> /output/style.css.br
+2025/07/22 17:00:55 br /tmp/work/dist/superdoc.css -> /output/superdoc.css.br
+2025/07/22 17:00:55 gz /tmp/work/dist/style.css -> /output/style.css.gz
+2025/07/22 17:00:55 gz /tmp/work/dist/superdoc.css -> /output/superdoc.css.gz
+2025/07/22 17:01:00 failed with exit status 1: ERROR: self.name.print is not a function
+    at print_lambda (eval at <anonymous> (/node_modules/uglify-js/tools/node.js:18:1), <anonymous>:20957:23)
+    at print_method (eval at <anonymous> (/node_modules/uglify-js/tools/node.js:18:1), <anonymous>:21032:9)
+    at AST_ClassMethod.eval [as _codegen] (eval at <anonymous> (/node_modules/uglify-js/tools/node.js:18:1), <anonymous>:21040:9)
+    at doit (eval at <anonymous> (/node_modules/uglify-js/tools/node.js:18:1), <anonymous>:20420:18)
+    at AST_ClassMethod.eval [as print] (eval at <anonymous> (/node_modules/uglify-js/tools/node.js:18:1), <anonymous>:20413:13)
+    at eval (eval at <anonymous> (/node_modules/uglify-js/tools/node.js:18:1), <anonymous>:21452:22)
+    at Array.forEach (<anonymous>)
+    at eval (eval at <anonymous> (/node_modules/uglify-js/tools/node.js:18:1), <anonymous>:21446:19)
+    at OutputStream.with_indent (eval at <anonymous> (/node_modules/uglify-js/tools/node.js:18:1), <anonymous>:20170:26)
+    at Object.with_block (eval at <anonymous> (/node_modules/uglify-js/tools/node.js:18:1), <anonymous>:20197:9)
+
+2025/07/22 17:01:00 compress: run /node_modules/uglify-es/bin/uglifyjs (3.3.10) [--mangle --compress if_return=true -o /tmp/work/dist/superdoc.es.min.js /tmp/work/dist/superdoc.es.js]
+2025/07/22 17:01:00 failed with exit status 1: Parse error at /tmp/work/dist/superdoc.es.js:373,9
+  enabled;
+         ^
+ERROR: Unexpected token: punc (;)
+    at JS_Parse_Error.get (eval at <anonymous> (/node_modules/uglify-es/tools/node.js:21:1), <anonymous>:75:23)
+    at fatal (/node_modules/uglify-es/bin/uglifyjs:300:53)
+    at run (/node_modules/uglify-es/bin/uglifyjs:239:9)
+    at Object.<anonymous> (/node_modules/uglify-es/bin/uglifyjs:169:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+
+2025/07/22 17:01:00 sri /tmp/work/dist/superdoc.es.js -> /output/superdoc.es.js.sri
+2025/07/22 17:01:00 algorithm: run /usr/bin/brotli --quality=11 --output=/output/superdoc.es.js.br /tmp/work/dist/superdoc.es.js
+2025/07/22 17:01:06 br /tmp/work/dist/superdoc.es.js -> /output/superdoc.es.js.br
+2025/07/22 17:01:06 gz /tmp/work/dist/superdoc.es.js -> /output/superdoc.es.js.gz
+2025/07/22 17:01:14 sri /tmp/work/dist/superdoc.umd.min.js -> /output/superdoc.umd.min.js.sri
+2025/07/22 17:01:14 algorithm: run /usr/bin/brotli --quality=11 --output=/output/superdoc.umd.min.js.br /tmp/work/dist/superdoc.umd.min.js
+2025/07/22 17:01:19 br /tmp/work/dist/superdoc.umd.min.js -> /output/superdoc.umd.min.js.br
+2025/07/22 17:01:19 gz /tmp/work/dist/superdoc.umd.min.js -> /output/superdoc.umd.min.js.gz
+2025/07/22 17:01:19 sri /tmp/work/dist/superdoc.umd.js -> /output/superdoc.umd.js.sri
+2025/07/22 17:01:19 algorithm: run /usr/bin/brotli --quality=11 --output=/output/superdoc.umd.js.br /tmp/work/dist/superdoc.umd.js
+2025/07/22 17:01:28 br /tmp/work/dist/superdoc.umd.js -> /output/superdoc.umd.js.br
+2025/07/22 17:01:29 gz /tmp/work/dist/superdoc.umd.js -> /output/superdoc.umd.js.gz
+2025/07/22 17:01:29 processed superdoc
