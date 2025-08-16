@@ -1,0 +1,203 @@
+2025/08/16 10:31:29 optimizing files (Js true, Css true, Png true, Jpg true)
+2025/08/16 10:31:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/layers.svg.br /tmp/work/dist/images/layers.svg
+2025/08/16 10:31:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/logo.svg.br /tmp/work/dist/images/logo.svg
+2025/08/16 10:31:29 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/dist/images/marker-icon.png /tmp/work/dist/images/marker-icon.png
+2025/08/16 10:31:29 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/dist/images/marker-icon-2x.png /tmp/work/dist/images/marker-icon-2x.png
+2025/08/16 10:31:29 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet-global-src.js.map.br /tmp/work/dist/leaflet-global-src.js.map
+2025/08/16 10:31:29 compress: run /usr/bin/zopflipng --iterations=60 --keepchunks=iCCP --lossy_transparent --splitting=3 -my /tmp/work/dist/images/marker-shadow.png /tmp/work/dist/images/marker-shadow.png
+2025/08/16 10:31:29 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/leaflet-global-src.min.js /tmp/work/dist/leaflet-global-src.js]
+2025/08/16 10:31:29 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/leaflet-global.min.js /tmp/work/dist/leaflet-global.js]
+2025/08/16 10:31:30 br /tmp/work/dist/images/layers.svg -> /output/images/layers.svg.br
+2025/08/16 10:31:30 gz /tmp/work/dist/images/layers.svg -> /output/images/layers.svg.gz
+2025/08/16 10:31:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet-global.js.map.br /tmp/work/dist/leaflet-global.js.map
+2025/08/16 10:31:30 br /tmp/work/dist/images/logo.svg -> /output/images/logo.svg.br
+2025/08/16 10:31:30 gz /tmp/work/dist/images/logo.svg -> /output/images/logo.svg.gz
+2025/08/16 10:31:30 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/leaflet-src.min.js /tmp/work/dist/leaflet-src.js]
+2025/08/16 10:31:30 failed with exit status 1: Parse error at /tmp/work/dist/leaflet-global.js:5,20528
+ut(t){return 1-(1-t)**this._easeOutPower}}o=class Map extends q{static{this.setD
+                                                                      ^
+ERROR: Unexpected token: punc «{», expected: punc «[»
+    at JS_Parse_Error.get (eval at <anonymous> (/node_modules/uglify-js/tools/node.js:18:1), <anonymous>:63:23)
+    at fatal (/node_modules/uglify-js/bin/uglifyjs:480:27)
+    at run (/node_modules/uglify-js/bin/uglifyjs:415:9)
+    at Object.<anonymous> (/node_modules/uglify-js/bin/uglifyjs:294:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+
+2025/08/16 10:31:30 compress: run /node_modules/uglify-es/bin/uglifyjs (3.3.10) [--mangle --compress if_return=true -o /tmp/work/dist/leaflet-global.min.js /tmp/work/dist/leaflet-global.js]
+2025/08/16 10:31:30 failed with exit status 1: Parse error at /tmp/work/dist/leaflet-global-src.js:2648,9
+		static {
+		       ^
+ERROR: Unexpected token: punc «{», expected: punc «[»
+    at JS_Parse_Error.get (eval at <anonymous> (/node_modules/uglify-js/tools/node.js:18:1), <anonymous>:63:23)
+    at fatal (/node_modules/uglify-js/bin/uglifyjs:480:27)
+    at run (/node_modules/uglify-js/bin/uglifyjs:415:9)
+    at Object.<anonymous> (/node_modules/uglify-js/bin/uglifyjs:294:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+
+2025/08/16 10:31:30 compress: run /node_modules/uglify-es/bin/uglifyjs (3.3.10) [--mangle --compress if_return=true -o /tmp/work/dist/leaflet-global-src.min.js /tmp/work/dist/leaflet-global-src.js]
+2025/08/16 10:31:30 failed with exit status 1: Parse error at /tmp/work/dist/leaflet-src.js:2642,8
+	static {
+	       ^
+ERROR: Unexpected token: punc «{», expected: punc «[»
+    at JS_Parse_Error.get (eval at <anonymous> (/node_modules/uglify-js/tools/node.js:18:1), <anonymous>:63:23)
+    at fatal (/node_modules/uglify-js/bin/uglifyjs:480:27)
+    at run (/node_modules/uglify-js/bin/uglifyjs:415:9)
+    at Object.<anonymous> (/node_modules/uglify-js/bin/uglifyjs:294:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+
+2025/08/16 10:31:30 compress: run /node_modules/uglify-es/bin/uglifyjs (3.3.10) [--mangle --compress if_return=true -o /tmp/work/dist/leaflet-src.min.js /tmp/work/dist/leaflet-src.js]
+2025/08/16 10:31:30 br /tmp/work/dist/leaflet-global.js.map -> /output/leaflet-global.js.map.br
+2025/08/16 10:31:30 failed with exit status 1: Parse error at /tmp/work/dist/leaflet-global.js:5,1873
+rototype,t),this}static mergeOptions(t){return this.prototype.options??={},Objec
+                                                                      ^
+ERROR: Unexpected token: operator (?)
+    at JS_Parse_Error.get (eval at <anonymous> (/node_modules/uglify-es/tools/node.js:21:1), <anonymous>:75:23)
+    at fatal (/node_modules/uglify-es/bin/uglifyjs:300:53)
+    at run (/node_modules/uglify-es/bin/uglifyjs:239:9)
+    at Object.<anonymous> (/node_modules/uglify-es/bin/uglifyjs:169:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+
+2025/08/16 10:31:30 sri /tmp/work/dist/leaflet-global.js -> /output/leaflet-global.js.sri
+2025/08/16 10:31:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet-global.js.br /tmp/work/dist/leaflet-global.js
+2025/08/16 10:31:30 failed with exit status 1: Parse error at /tmp/work/dist/leaflet-src.js:216,26
+		this.prototype.options ??= {};
+		                        ^
+ERROR: Unexpected token: operator (?)
+    at JS_Parse_Error.get (eval at <anonymous> (/node_modules/uglify-es/tools/node.js:21:1), <anonymous>:75:23)
+    at fatal (/node_modules/uglify-es/bin/uglifyjs:300:53)
+    at run (/node_modules/uglify-es/bin/uglifyjs:239:9)
+    at Object.<anonymous> (/node_modules/uglify-es/bin/uglifyjs:169:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+
+2025/08/16 10:31:30 gz /tmp/work/dist/leaflet-global.js.map -> /output/leaflet-global.js.map.gz
+2025/08/16 10:31:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet-src.js.map.br /tmp/work/dist/leaflet-src.js.map
+2025/08/16 10:31:30 sri /tmp/work/dist/leaflet-src.js -> /output/leaflet-src.js.sri
+2025/08/16 10:31:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet-src.js.br /tmp/work/dist/leaflet-src.js
+2025/08/16 10:31:30 failed with exit status 1: Parse error at /tmp/work/dist/leaflet-global-src.js:222,27
+			this.prototype.options ??= {};
+			                        ^
+ERROR: Unexpected token: operator (?)
+    at JS_Parse_Error.get (eval at <anonymous> (/node_modules/uglify-es/tools/node.js:21:1), <anonymous>:75:23)
+    at fatal (/node_modules/uglify-es/bin/uglifyjs:300:53)
+    at run (/node_modules/uglify-es/bin/uglifyjs:239:9)
+    at Object.<anonymous> (/node_modules/uglify-es/bin/uglifyjs:169:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+
+2025/08/16 10:31:30 sri /tmp/work/dist/leaflet-global-src.js -> /output/leaflet-global-src.js.sri
+2025/08/16 10:31:30 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet-global-src.js.br /tmp/work/dist/leaflet-global-src.js
+2025/08/16 10:31:30 br /tmp/work/dist/leaflet-global.js -> /output/leaflet-global.js.br
+2025/08/16 10:31:30 gz /tmp/work/dist/leaflet-global.js -> /output/leaflet-global.js.gz
+2025/08/16 10:31:30 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/dist/leaflet.min.css /tmp/work/dist/leaflet.css]
+2025/08/16 10:31:31 sri /tmp/work/dist/leaflet.min.css -> /output/leaflet.min.css.sri
+2025/08/16 10:31:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet.min.css.br /tmp/work/dist/leaflet.min.css
+2025/08/16 10:31:31 br /tmp/work/dist/leaflet.min.css -> /output/leaflet.min.css.br
+2025/08/16 10:31:31 gz /tmp/work/dist/leaflet.min.css -> /output/leaflet.min.css.gz
+2025/08/16 10:31:31 sri /tmp/work/dist/leaflet.css -> /output/leaflet.css.sri
+2025/08/16 10:31:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet.css.br /tmp/work/dist/leaflet.css
+2025/08/16 10:31:31 br /tmp/work/dist/leaflet.css -> /output/leaflet.css.br
+2025/08/16 10:31:31 gz /tmp/work/dist/leaflet.css -> /output/leaflet.css.gz
+2025/08/16 10:31:31 compress: run /node_modules/uglify-js/bin/uglifyjs (3.15.4) [--mangle --compress if_return=true -o /tmp/work/dist/leaflet.min.js /tmp/work/dist/leaflet.js]
+2025/08/16 10:31:31 failed with exit status 1: Parse error at /tmp/work/dist/leaflet.js:5,23361
+-(1-t)**this._easeOutPower}}let Map$1=class Map extends Evented{static{this.setD
+                                                                      ^
+ERROR: Unexpected token: punc «{», expected: punc «[»
+    at JS_Parse_Error.get (eval at <anonymous> (/node_modules/uglify-js/tools/node.js:18:1), <anonymous>:63:23)
+    at fatal (/node_modules/uglify-js/bin/uglifyjs:480:27)
+    at run (/node_modules/uglify-js/bin/uglifyjs:415:9)
+    at Object.<anonymous> (/node_modules/uglify-js/bin/uglifyjs:294:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+
+2025/08/16 10:31:31 compress: run /node_modules/uglify-es/bin/uglifyjs (3.3.10) [--mangle --compress if_return=true -o /tmp/work/dist/leaflet.min.js /tmp/work/dist/leaflet.js]
+2025/08/16 10:31:31 failed with exit status 1: Parse error at /tmp/work/dist/leaflet.js:5,1842
+rototype,t),this}static mergeOptions(t){return this.prototype.options??={},Objec
+                                                                      ^
+ERROR: Unexpected token: operator (?)
+    at JS_Parse_Error.get (eval at <anonymous> (/node_modules/uglify-es/tools/node.js:21:1), <anonymous>:75:23)
+    at fatal (/node_modules/uglify-es/bin/uglifyjs:300:53)
+    at run (/node_modules/uglify-es/bin/uglifyjs:239:9)
+    at Object.<anonymous> (/node_modules/uglify-es/bin/uglifyjs:169:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+
+2025/08/16 10:31:31 sri /tmp/work/dist/leaflet.js -> /output/leaflet.js.sri
+2025/08/16 10:31:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet.js.br /tmp/work/dist/leaflet.js
+2025/08/16 10:31:31 br /tmp/work/dist/leaflet-global-src.js -> /output/leaflet-global-src.js.br
+2025/08/16 10:31:31 br /tmp/work/dist/leaflet-src.js -> /output/leaflet-src.js.br
+2025/08/16 10:31:31 gz /tmp/work/dist/leaflet-src.js -> /output/leaflet-src.js.gz
+2025/08/16 10:31:31 algorithm: run /usr/bin/brotli --quality=11 --output=/output/leaflet.js.map.br /tmp/work/dist/leaflet.js.map
+2025/08/16 10:31:31 gz /tmp/work/dist/leaflet-global-src.js -> /output/leaflet-global-src.js.gz
+2025/08/16 10:31:31 br /tmp/work/dist/leaflet.js -> /output/leaflet.js.br
+2025/08/16 10:31:31 gz /tmp/work/dist/leaflet.js -> /output/leaflet.js.gz
+2025/08/16 10:31:32 br /tmp/work/dist/leaflet-global-src.js.map -> /output/leaflet-global-src.js.map.br
+2025/08/16 10:31:32 br /tmp/work/dist/leaflet.js.map -> /output/leaflet.js.map.br
+2025/08/16 10:31:32 gz /tmp/work/dist/leaflet.js.map -> /output/leaflet.js.map.gz
+2025/08/16 10:31:32 gz /tmp/work/dist/leaflet-global-src.js.map -> /output/leaflet-global-src.js.map.gz
+2025/08/16 10:31:32 br /tmp/work/dist/leaflet-src.js.map -> /output/leaflet-src.js.map.br
+2025/08/16 10:31:32 Optimizing /tmp/work/dist/images/marker-icon.png
+Input size: 1466 (1K)
+Result size: 1466 (1K). Percentage of original: 100.000%
+Result has exact same size
+
+
+2025/08/16 10:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/marker-icon.png.br /tmp/work/dist/images/marker-icon.png
+2025/08/16 10:31:32 br /tmp/work/dist/images/marker-icon.png -> /output/images/marker-icon.png.br
+2025/08/16 10:31:32 gz /tmp/work/dist/images/marker-icon.png -> /output/images/marker-icon.png.gz
+2025/08/16 10:31:32 Optimizing /tmp/work/dist/images/marker-shadow.png
+Input size: 618 (0K)
+Result size: 685 (0K). Percentage of original: 110.841%
+Preserving original PNG since it was smaller
+
+
+2025/08/16 10:31:32 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/marker-shadow.png.br /tmp/work/dist/images/marker-shadow.png
+2025/08/16 10:31:32 br /tmp/work/dist/images/marker-shadow.png -> /output/images/marker-shadow.png.br
+2025/08/16 10:31:32 gz /tmp/work/dist/images/marker-shadow.png -> /output/images/marker-shadow.png.gz
+2025/08/16 10:31:32 gz /tmp/work/dist/leaflet-src.js.map -> /output/leaflet-src.js.map.gz
+2025/08/16 10:31:34 Optimizing /tmp/work/dist/images/marker-icon-2x.png
+Input size: 2464 (2K)
+Result size: 2585 (2K). Percentage of original: 104.911%
+Preserving original PNG since it was smaller
+
+
+2025/08/16 10:31:34 algorithm: run /usr/bin/brotli --quality=11 --output=/output/images/marker-icon-2x.png.br /tmp/work/dist/images/marker-icon-2x.png
+2025/08/16 10:31:34 br /tmp/work/dist/images/marker-icon-2x.png -> /output/images/marker-icon-2x.png.br
+2025/08/16 10:31:34 gz /tmp/work/dist/images/marker-icon-2x.png -> /output/images/marker-icon-2x.png.gz
+2025/08/16 10:31:34 processed leaflet
