@@ -1,0 +1,494 @@
+2025/09/14 02:02:26 optimizing files (Js true, Css true, Png true, Jpg true)
+2025/09/14 02:02:26 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/700.min.css /tmp/work/700.css]
+2025/09/14 02:02:26 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/400.min.css /tmp/work/400.css]
+2025/09/14 02:02:26 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/400-italic.min.css /tmp/work/400-italic.css]
+2025/09/14 02:02:26 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/gothic-400-italic.min.css /tmp/work/gothic-400-italic.css]
+2025/09/14 02:02:26 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/gothic-400.min.css /tmp/work/gothic-400.css]
+2025/09/14 02:02:26 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/gothic.min.css /tmp/work/gothic.css]
+2025/09/14 02:02:26 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/gothic-700.min.css /tmp/work/gothic-700.css]
+2025/09/14 02:02:26 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/gothic-italic.min.css /tmp/work/gothic-italic.css]
+2025/09/14 02:02:26 sri /tmp/work/gothic-400.min.css -> /output/gothic-400.min.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gothic-400.min.css.br /tmp/work/gothic-400.min.css
+2025/09/14 02:02:26 sri /tmp/work/gothic-700.min.css -> /output/gothic-700.min.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gothic-700.min.css.br /tmp/work/gothic-700.min.css
+2025/09/14 02:02:26 sri /tmp/work/gothic.min.css -> /output/gothic.min.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gothic.min.css.br /tmp/work/gothic.min.css
+2025/09/14 02:02:26 sri /tmp/work/gothic-italic.min.css -> /output/gothic-italic.min.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gothic-italic.min.css.br /tmp/work/gothic-italic.min.css
+2025/09/14 02:02:26 br /tmp/work/gothic-400.min.css -> /output/gothic-400.min.css.br
+2025/09/14 02:02:26 sri /tmp/work/gothic-400-italic.min.css -> /output/gothic-400-italic.min.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gothic-400-italic.min.css.br /tmp/work/gothic-400-italic.min.css
+2025/09/14 02:02:26 gz /tmp/work/gothic-400.min.css -> /output/gothic-400.min.css.gz
+2025/09/14 02:02:26 sri /tmp/work/gothic-400.css -> /output/gothic-400.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gothic-400.css.br /tmp/work/gothic-400.css
+2025/09/14 02:02:26 br /tmp/work/gothic-700.min.css -> /output/gothic-700.min.css.br
+2025/09/14 02:02:26 br /tmp/work/gothic-400-italic.min.css -> /output/gothic-400-italic.min.css.br
+2025/09/14 02:02:26 br /tmp/work/gothic.min.css -> /output/gothic.min.css.br
+2025/09/14 02:02:26 br /tmp/work/gothic-italic.min.css -> /output/gothic-italic.min.css.br
+2025/09/14 02:02:26 gz /tmp/work/gothic-400-italic.min.css -> /output/gothic-400-italic.min.css.gz
+2025/09/14 02:02:26 sri /tmp/work/gothic-400-italic.css -> /output/gothic-400-italic.css.sri
+2025/09/14 02:02:26 br /tmp/work/gothic-400.css -> /output/gothic-400.css.br
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gothic-400-italic.css.br /tmp/work/gothic-400-italic.css
+2025/09/14 02:02:26 gz /tmp/work/gothic-700.min.css -> /output/gothic-700.min.css.gz
+2025/09/14 02:02:26 sri /tmp/work/gothic-700.css -> /output/gothic-700.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gothic-700.css.br /tmp/work/gothic-700.css
+2025/09/14 02:02:26 sri /tmp/work/400.min.css -> /output/400.min.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400.min.css.br /tmp/work/400.min.css
+2025/09/14 02:02:26 sri /tmp/work/700.min.css -> /output/700.min.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/700.min.css.br /tmp/work/700.min.css
+2025/09/14 02:02:26 gz /tmp/work/gothic-italic.min.css -> /output/gothic-italic.min.css.gz
+2025/09/14 02:02:26 sri /tmp/work/gothic-italic.css -> /output/gothic-italic.css.sri
+2025/09/14 02:02:26 gz /tmp/work/gothic-400.css -> /output/gothic-400.css.gz
+2025/09/14 02:02:26 gz /tmp/work/gothic.min.css -> /output/gothic.min.css.gz
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gothic-italic.css.br /tmp/work/gothic-italic.css
+2025/09/14 02:02:26 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-400-italic.min.css /tmp/work/greek-400-italic.css]
+2025/09/14 02:02:26 sri /tmp/work/gothic.css -> /output/gothic.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/gothic.css.br /tmp/work/gothic.css
+2025/09/14 02:02:26 sri /tmp/work/400-italic.min.css -> /output/400-italic.min.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400-italic.min.css.br /tmp/work/400-italic.min.css
+2025/09/14 02:02:26 br /tmp/work/gothic-400-italic.css -> /output/gothic-400-italic.css.br
+2025/09/14 02:02:26 gz /tmp/work/gothic-400-italic.css -> /output/gothic-400-italic.css.gz
+2025/09/14 02:02:26 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-400.min.css /tmp/work/greek-400.css]
+2025/09/14 02:02:26 br /tmp/work/gothic-700.css -> /output/gothic-700.css.br
+2025/09/14 02:02:26 gz /tmp/work/gothic-700.css -> /output/gothic-700.css.gz
+2025/09/14 02:02:26 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-700.min.css /tmp/work/greek-700.css]
+2025/09/14 02:02:26 br /tmp/work/gothic-italic.css -> /output/gothic-italic.css.br
+2025/09/14 02:02:26 gz /tmp/work/gothic-italic.css -> /output/gothic-italic.css.gz
+2025/09/14 02:02:26 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-ext-400-italic.min.css /tmp/work/greek-ext-400-italic.css]
+2025/09/14 02:02:26 br /tmp/work/700.min.css -> /output/700.min.css.br
+2025/09/14 02:02:26 br /tmp/work/gothic.css -> /output/gothic.css.br
+2025/09/14 02:02:26 gz /tmp/work/700.min.css -> /output/700.min.css.gz
+2025/09/14 02:02:26 sri /tmp/work/700.css -> /output/700.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/700.css.br /tmp/work/700.css
+2025/09/14 02:02:26 br /tmp/work/400.min.css -> /output/400.min.css.br
+2025/09/14 02:02:26 gz /tmp/work/gothic.css -> /output/gothic.css.gz
+2025/09/14 02:02:26 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-ext-400.min.css /tmp/work/greek-ext-400.css]
+2025/09/14 02:02:26 br /tmp/work/400-italic.min.css -> /output/400-italic.min.css.br
+2025/09/14 02:02:26 gz /tmp/work/400.min.css -> /output/400.min.css.gz
+2025/09/14 02:02:26 sri /tmp/work/400.css -> /output/400.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400.css.br /tmp/work/400.css
+2025/09/14 02:02:26 gz /tmp/work/400-italic.min.css -> /output/400-italic.min.css.gz
+2025/09/14 02:02:26 sri /tmp/work/400-italic.css -> /output/400-italic.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/400-italic.css.br /tmp/work/400-italic.css
+2025/09/14 02:02:26 br /tmp/work/700.css -> /output/700.css.br
+2025/09/14 02:02:26 gz /tmp/work/700.css -> /output/700.css.gz
+2025/09/14 02:02:26 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-ext-700.min.css /tmp/work/greek-ext-700.css]
+2025/09/14 02:02:26 br /tmp/work/400.css -> /output/400.css.br
+2025/09/14 02:02:26 gz /tmp/work/400.css -> /output/400.css.gz
+2025/09/14 02:02:26 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-ext-italic.min.css /tmp/work/greek-ext-italic.css]
+2025/09/14 02:02:26 br /tmp/work/400-italic.css -> /output/400-italic.css.br
+2025/09/14 02:02:26 gz /tmp/work/400-italic.css -> /output/400-italic.css.gz
+2025/09/14 02:02:26 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-ext.min.css /tmp/work/greek-ext.css]
+2025/09/14 02:02:26 sri /tmp/work/greek-700.min.css -> /output/greek-700.min.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-700.min.css.br /tmp/work/greek-700.min.css
+2025/09/14 02:02:26 br /tmp/work/greek-700.min.css -> /output/greek-700.min.css.br
+2025/09/14 02:02:26 gz /tmp/work/greek-700.min.css -> /output/greek-700.min.css.gz
+2025/09/14 02:02:26 sri /tmp/work/greek-700.css -> /output/greek-700.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-700.css.br /tmp/work/greek-700.css
+2025/09/14 02:02:26 sri /tmp/work/greek-ext-400.min.css -> /output/greek-ext-400.min.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-ext-400.min.css.br /tmp/work/greek-ext-400.min.css
+2025/09/14 02:02:26 sri /tmp/work/greek-400.min.css -> /output/greek-400.min.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-400.min.css.br /tmp/work/greek-400.min.css
+2025/09/14 02:02:26 sri /tmp/work/greek-400-italic.min.css -> /output/greek-400-italic.min.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-400-italic.min.css.br /tmp/work/greek-400-italic.min.css
+2025/09/14 02:02:26 sri /tmp/work/greek-ext-400-italic.min.css -> /output/greek-ext-400-italic.min.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-ext-400-italic.min.css.br /tmp/work/greek-ext-400-italic.min.css
+2025/09/14 02:02:26 br /tmp/work/greek-700.css -> /output/greek-700.css.br
+2025/09/14 02:02:26 gz /tmp/work/greek-700.css -> /output/greek-700.css.gz
+2025/09/14 02:02:26 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek-italic.min.css /tmp/work/greek-italic.css]
+2025/09/14 02:02:26 br /tmp/work/greek-ext-400-italic.min.css -> /output/greek-ext-400-italic.min.css.br
+2025/09/14 02:02:26 gz /tmp/work/greek-ext-400-italic.min.css -> /output/greek-ext-400-italic.min.css.gz
+2025/09/14 02:02:26 br /tmp/work/greek-ext-400.min.css -> /output/greek-ext-400.min.css.br
+2025/09/14 02:02:26 br /tmp/work/greek-400.min.css -> /output/greek-400.min.css.br
+2025/09/14 02:02:26 sri /tmp/work/greek-ext-400-italic.css -> /output/greek-ext-400-italic.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-ext-400-italic.css.br /tmp/work/greek-ext-400-italic.css
+2025/09/14 02:02:26 gz /tmp/work/greek-400.min.css -> /output/greek-400.min.css.gz
+2025/09/14 02:02:26 sri /tmp/work/greek-400.css -> /output/greek-400.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-400.css.br /tmp/work/greek-400.css
+2025/09/14 02:02:26 gz /tmp/work/greek-ext-400.min.css -> /output/greek-ext-400.min.css.gz
+2025/09/14 02:02:26 sri /tmp/work/greek-ext-400.css -> /output/greek-ext-400.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-ext-400.css.br /tmp/work/greek-ext-400.css
+2025/09/14 02:02:26 br /tmp/work/greek-400-italic.min.css -> /output/greek-400-italic.min.css.br
+2025/09/14 02:02:26 gz /tmp/work/greek-400-italic.min.css -> /output/greek-400-italic.min.css.gz
+2025/09/14 02:02:26 br /tmp/work/greek-ext-400-italic.css -> /output/greek-ext-400-italic.css.br
+2025/09/14 02:02:26 sri /tmp/work/greek-400-italic.css -> /output/greek-400-italic.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-400-italic.css.br /tmp/work/greek-400-italic.css
+2025/09/14 02:02:26 br /tmp/work/greek-400.css -> /output/greek-400.css.br
+2025/09/14 02:02:26 gz /tmp/work/greek-ext-400-italic.css -> /output/greek-ext-400-italic.css.gz
+2025/09/14 02:02:26 gz /tmp/work/greek-400.css -> /output/greek-400.css.gz
+2025/09/14 02:02:26 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/greek.min.css /tmp/work/greek.css]
+2025/09/14 02:02:26 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/hebrew-400-italic.min.css /tmp/work/hebrew-400-italic.css]
+2025/09/14 02:02:26 br /tmp/work/greek-ext-400.css -> /output/greek-ext-400.css.br
+2025/09/14 02:02:26 sri /tmp/work/greek-ext-700.min.css -> /output/greek-ext-700.min.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-ext-700.min.css.br /tmp/work/greek-ext-700.min.css
+2025/09/14 02:02:26 gz /tmp/work/greek-ext-400.css -> /output/greek-ext-400.css.gz
+2025/09/14 02:02:26 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/hebrew-400.min.css /tmp/work/hebrew-400.css]
+2025/09/14 02:02:26 br /tmp/work/greek-400-italic.css -> /output/greek-400-italic.css.br
+2025/09/14 02:02:26 br /tmp/work/greek-ext-700.min.css -> /output/greek-ext-700.min.css.br
+2025/09/14 02:02:26 gz /tmp/work/greek-400-italic.css -> /output/greek-400-italic.css.gz
+2025/09/14 02:02:26 gz /tmp/work/greek-ext-700.min.css -> /output/greek-ext-700.min.css.gz
+2025/09/14 02:02:26 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/hebrew-700.min.css /tmp/work/hebrew-700.css]
+2025/09/14 02:02:26 sri /tmp/work/greek-ext-700.css -> /output/greek-ext-700.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-ext-700.css.br /tmp/work/greek-ext-700.css
+2025/09/14 02:02:26 br /tmp/work/greek-ext-700.css -> /output/greek-ext-700.css.br
+2025/09/14 02:02:26 gz /tmp/work/greek-ext-700.css -> /output/greek-ext-700.css.gz
+2025/09/14 02:02:26 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/hebrew-italic.min.css /tmp/work/hebrew-italic.css]
+2025/09/14 02:02:26 sri /tmp/work/greek-ext.min.css -> /output/greek-ext.min.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-ext.min.css.br /tmp/work/greek-ext.min.css
+2025/09/14 02:02:26 sri /tmp/work/greek-ext-italic.min.css -> /output/greek-ext-italic.min.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-ext-italic.min.css.br /tmp/work/greek-ext-italic.min.css
+2025/09/14 02:02:26 br /tmp/work/greek-ext.min.css -> /output/greek-ext.min.css.br
+2025/09/14 02:02:26 gz /tmp/work/greek-ext.min.css -> /output/greek-ext.min.css.gz
+2025/09/14 02:02:26 sri /tmp/work/greek-ext.css -> /output/greek-ext.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-ext.css.br /tmp/work/greek-ext.css
+2025/09/14 02:02:26 br /tmp/work/greek-ext-italic.min.css -> /output/greek-ext-italic.min.css.br
+2025/09/14 02:02:26 gz /tmp/work/greek-ext-italic.min.css -> /output/greek-ext-italic.min.css.gz
+2025/09/14 02:02:26 sri /tmp/work/greek-ext-italic.css -> /output/greek-ext-italic.css.sri
+2025/09/14 02:02:26 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-ext-italic.css.br /tmp/work/greek-ext-italic.css
+2025/09/14 02:02:26 br /tmp/work/greek-ext.css -> /output/greek-ext.css.br
+2025/09/14 02:02:26 gz /tmp/work/greek-ext.css -> /output/greek-ext.css.gz
+2025/09/14 02:02:26 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/hebrew.min.css /tmp/work/hebrew.css]
+2025/09/14 02:02:26 br /tmp/work/greek-ext-italic.css -> /output/greek-ext-italic.css.br
+2025/09/14 02:02:26 gz /tmp/work/greek-ext-italic.css -> /output/greek-ext-italic.css.gz
+2025/09/14 02:02:26 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/index.min.css /tmp/work/index.css]
+2025/09/14 02:02:27 sri /tmp/work/greek-italic.min.css -> /output/greek-italic.min.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-italic.min.css.br /tmp/work/greek-italic.min.css
+2025/09/14 02:02:27 sri /tmp/work/hebrew-400.min.css -> /output/hebrew-400.min.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hebrew-400.min.css.br /tmp/work/hebrew-400.min.css
+2025/09/14 02:02:27 sri /tmp/work/hebrew-400-italic.min.css -> /output/hebrew-400-italic.min.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hebrew-400-italic.min.css.br /tmp/work/hebrew-400-italic.min.css
+2025/09/14 02:02:27 br /tmp/work/greek-italic.min.css -> /output/greek-italic.min.css.br
+2025/09/14 02:02:27 gz /tmp/work/greek-italic.min.css -> /output/greek-italic.min.css.gz
+2025/09/14 02:02:27 sri /tmp/work/greek-italic.css -> /output/greek-italic.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek-italic.css.br /tmp/work/greek-italic.css
+2025/09/14 02:02:27 sri /tmp/work/greek.min.css -> /output/greek.min.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek.min.css.br /tmp/work/greek.min.css
+2025/09/14 02:02:27 br /tmp/work/hebrew-400-italic.min.css -> /output/hebrew-400-italic.min.css.br
+2025/09/14 02:02:27 gz /tmp/work/hebrew-400-italic.min.css -> /output/hebrew-400-italic.min.css.gz
+2025/09/14 02:02:27 sri /tmp/work/hebrew-400-italic.css -> /output/hebrew-400-italic.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hebrew-400-italic.css.br /tmp/work/hebrew-400-italic.css
+2025/09/14 02:02:27 sri /tmp/work/hebrew-700.min.css -> /output/hebrew-700.min.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hebrew-700.min.css.br /tmp/work/hebrew-700.min.css
+2025/09/14 02:02:27 br /tmp/work/hebrew-400.min.css -> /output/hebrew-400.min.css.br
+2025/09/14 02:02:27 br /tmp/work/greek.min.css -> /output/greek.min.css.br
+2025/09/14 02:02:27 gz /tmp/work/hebrew-400.min.css -> /output/hebrew-400.min.css.gz
+2025/09/14 02:02:27 sri /tmp/work/hebrew-400.css -> /output/hebrew-400.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hebrew-400.css.br /tmp/work/hebrew-400.css
+2025/09/14 02:02:27 br /tmp/work/greek-italic.css -> /output/greek-italic.css.br
+2025/09/14 02:02:27 gz /tmp/work/greek.min.css -> /output/greek.min.css.gz
+2025/09/14 02:02:27 gz /tmp/work/greek-italic.css -> /output/greek-italic.css.gz
+2025/09/14 02:02:27 sri /tmp/work/greek.css -> /output/greek.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/greek.css.br /tmp/work/greek.css
+2025/09/14 02:02:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-400-italic.min.css /tmp/work/latin-400-italic.css]
+2025/09/14 02:02:27 br /tmp/work/hebrew-700.min.css -> /output/hebrew-700.min.css.br
+2025/09/14 02:02:27 br /tmp/work/hebrew-400-italic.css -> /output/hebrew-400-italic.css.br
+2025/09/14 02:02:27 sri /tmp/work/hebrew-italic.min.css -> /output/hebrew-italic.min.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hebrew-italic.min.css.br /tmp/work/hebrew-italic.min.css
+2025/09/14 02:02:27 gz /tmp/work/hebrew-400-italic.css -> /output/hebrew-400-italic.css.gz
+2025/09/14 02:02:27 br /tmp/work/hebrew-400.css -> /output/hebrew-400.css.br
+2025/09/14 02:02:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-400.min.css /tmp/work/latin-400.css]
+2025/09/14 02:02:27 gz /tmp/work/hebrew-700.min.css -> /output/hebrew-700.min.css.gz
+2025/09/14 02:02:27 gz /tmp/work/hebrew-400.css -> /output/hebrew-400.css.gz
+2025/09/14 02:02:27 sri /tmp/work/hebrew-700.css -> /output/hebrew-700.css.sri
+2025/09/14 02:02:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-700.min.css /tmp/work/latin-700.css]
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hebrew-700.css.br /tmp/work/hebrew-700.css
+2025/09/14 02:02:27 br /tmp/work/hebrew-italic.min.css -> /output/hebrew-italic.min.css.br
+2025/09/14 02:02:27 br /tmp/work/greek.css -> /output/greek.css.br
+2025/09/14 02:02:27 gz /tmp/work/hebrew-italic.min.css -> /output/hebrew-italic.min.css.gz
+2025/09/14 02:02:27 sri /tmp/work/hebrew-italic.css -> /output/hebrew-italic.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hebrew-italic.css.br /tmp/work/hebrew-italic.css
+2025/09/14 02:02:27 gz /tmp/work/greek.css -> /output/greek.css.gz
+2025/09/14 02:02:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-ext-400-italic.min.css /tmp/work/latin-ext-400-italic.css]
+2025/09/14 02:02:27 br /tmp/work/hebrew-700.css -> /output/hebrew-700.css.br
+2025/09/14 02:02:27 gz /tmp/work/hebrew-700.css -> /output/hebrew-700.css.gz
+2025/09/14 02:02:27 br /tmp/work/hebrew-italic.css -> /output/hebrew-italic.css.br
+2025/09/14 02:02:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-ext-400.min.css /tmp/work/latin-ext-400.css]
+2025/09/14 02:02:27 gz /tmp/work/hebrew-italic.css -> /output/hebrew-italic.css.gz
+2025/09/14 02:02:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-ext-700.min.css /tmp/work/latin-ext-700.css]
+2025/09/14 02:02:27 sri /tmp/work/hebrew.min.css -> /output/hebrew.min.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hebrew.min.css.br /tmp/work/hebrew.min.css
+2025/09/14 02:02:27 br /tmp/work/hebrew.min.css -> /output/hebrew.min.css.br
+2025/09/14 02:02:27 gz /tmp/work/hebrew.min.css -> /output/hebrew.min.css.gz
+2025/09/14 02:02:27 sri /tmp/work/hebrew.css -> /output/hebrew.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/hebrew.css.br /tmp/work/hebrew.css
+2025/09/14 02:02:27 br /tmp/work/hebrew.css -> /output/hebrew.css.br
+2025/09/14 02:02:27 gz /tmp/work/hebrew.css -> /output/hebrew.css.gz
+2025/09/14 02:02:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-ext-italic.min.css /tmp/work/latin-ext-italic.css]
+2025/09/14 02:02:27 sri /tmp/work/index.min.css -> /output/index.min.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.min.css.br /tmp/work/index.min.css
+2025/09/14 02:02:27 br /tmp/work/index.min.css -> /output/index.min.css.br
+2025/09/14 02:02:27 gz /tmp/work/index.min.css -> /output/index.min.css.gz
+2025/09/14 02:02:27 sri /tmp/work/index.css -> /output/index.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/index.css.br /tmp/work/index.css
+2025/09/14 02:02:27 br /tmp/work/index.css -> /output/index.css.br
+2025/09/14 02:02:27 gz /tmp/work/index.css -> /output/index.css.gz
+2025/09/14 02:02:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-ext.min.css /tmp/work/latin-ext.css]
+2025/09/14 02:02:27 sri /tmp/work/latin-400-italic.min.css -> /output/latin-400-italic.min.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400-italic.min.css.br /tmp/work/latin-400-italic.min.css
+2025/09/14 02:02:27 sri /tmp/work/latin-400.min.css -> /output/latin-400.min.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400.min.css.br /tmp/work/latin-400.min.css
+2025/09/14 02:02:27 br /tmp/work/latin-400-italic.min.css -> /output/latin-400-italic.min.css.br
+2025/09/14 02:02:27 sri /tmp/work/latin-700.min.css -> /output/latin-700.min.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-700.min.css.br /tmp/work/latin-700.min.css
+2025/09/14 02:02:27 br /tmp/work/latin-400.min.css -> /output/latin-400.min.css.br
+2025/09/14 02:02:27 gz /tmp/work/latin-400-italic.min.css -> /output/latin-400-italic.min.css.gz
+2025/09/14 02:02:27 sri /tmp/work/latin-400-italic.css -> /output/latin-400-italic.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400-italic.css.br /tmp/work/latin-400-italic.css
+2025/09/14 02:02:27 gz /tmp/work/latin-400.min.css -> /output/latin-400.min.css.gz
+2025/09/14 02:02:27 sri /tmp/work/latin-400.css -> /output/latin-400.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-400.css.br /tmp/work/latin-400.css
+2025/09/14 02:02:27 sri /tmp/work/latin-ext-400-italic.min.css -> /output/latin-ext-400-italic.min.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-400-italic.min.css.br /tmp/work/latin-ext-400-italic.min.css
+2025/09/14 02:02:27 br /tmp/work/latin-700.min.css -> /output/latin-700.min.css.br
+2025/09/14 02:02:27 sri /tmp/work/latin-ext-700.min.css -> /output/latin-ext-700.min.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-700.min.css.br /tmp/work/latin-ext-700.min.css
+2025/09/14 02:02:27 gz /tmp/work/latin-700.min.css -> /output/latin-700.min.css.gz
+2025/09/14 02:02:27 sri /tmp/work/latin-700.css -> /output/latin-700.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-700.css.br /tmp/work/latin-700.css
+2025/09/14 02:02:27 br /tmp/work/latin-400-italic.css -> /output/latin-400-italic.css.br
+2025/09/14 02:02:27 br /tmp/work/latin-ext-400-italic.min.css -> /output/latin-ext-400-italic.min.css.br
+2025/09/14 02:02:27 br /tmp/work/latin-ext-700.min.css -> /output/latin-ext-700.min.css.br
+2025/09/14 02:02:27 br /tmp/work/latin-700.css -> /output/latin-700.css.br
+2025/09/14 02:02:27 br /tmp/work/latin-400.css -> /output/latin-400.css.br
+2025/09/14 02:02:27 gz /tmp/work/latin-400-italic.css -> /output/latin-400-italic.css.gz
+2025/09/14 02:02:27 gz /tmp/work/latin-700.css -> /output/latin-700.css.gz
+2025/09/14 02:02:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin-italic.min.css /tmp/work/latin-italic.css]
+2025/09/14 02:02:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/latin.min.css /tmp/work/latin.css]
+2025/09/14 02:02:27 gz /tmp/work/latin-ext-400-italic.min.css -> /output/latin-ext-400-italic.min.css.gz
+2025/09/14 02:02:27 sri /tmp/work/latin-ext-400-italic.css -> /output/latin-ext-400-italic.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-400-italic.css.br /tmp/work/latin-ext-400-italic.css
+2025/09/14 02:02:27 gz /tmp/work/latin-400.css -> /output/latin-400.css.gz
+2025/09/14 02:02:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/old-italic-400-italic.min.css /tmp/work/old-italic-400-italic.css]
+2025/09/14 02:02:27 gz /tmp/work/latin-ext-700.min.css -> /output/latin-ext-700.min.css.gz
+2025/09/14 02:02:27 sri /tmp/work/latin-ext-700.css -> /output/latin-ext-700.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-700.css.br /tmp/work/latin-ext-700.css
+2025/09/14 02:02:27 br /tmp/work/latin-ext-400-italic.css -> /output/latin-ext-400-italic.css.br
+2025/09/14 02:02:27 sri /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-400.min.css.br /tmp/work/latin-ext-400.min.css
+2025/09/14 02:02:27 gz /tmp/work/latin-ext-400-italic.css -> /output/latin-ext-400-italic.css.gz
+2025/09/14 02:02:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/old-italic-400.min.css /tmp/work/old-italic-400.css]
+2025/09/14 02:02:27 br /tmp/work/latin-ext-700.css -> /output/latin-ext-700.css.br
+2025/09/14 02:02:27 gz /tmp/work/latin-ext-700.css -> /output/latin-ext-700.css.gz
+2025/09/14 02:02:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/old-italic-700.min.css /tmp/work/old-italic-700.css]
+2025/09/14 02:02:27 br /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.br
+2025/09/14 02:02:27 gz /tmp/work/latin-ext-400.min.css -> /output/latin-ext-400.min.css.gz
+2025/09/14 02:02:27 sri /tmp/work/latin-ext-400.css -> /output/latin-ext-400.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-400.css.br /tmp/work/latin-ext-400.css
+2025/09/14 02:02:27 br /tmp/work/latin-ext-400.css -> /output/latin-ext-400.css.br
+2025/09/14 02:02:27 gz /tmp/work/latin-ext-400.css -> /output/latin-ext-400.css.gz
+2025/09/14 02:02:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/old-italic-italic.min.css /tmp/work/old-italic-italic.css]
+2025/09/14 02:02:27 sri /tmp/work/latin-ext-italic.min.css -> /output/latin-ext-italic.min.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-italic.min.css.br /tmp/work/latin-ext-italic.min.css
+2025/09/14 02:02:27 br /tmp/work/latin-ext-italic.min.css -> /output/latin-ext-italic.min.css.br
+2025/09/14 02:02:27 gz /tmp/work/latin-ext-italic.min.css -> /output/latin-ext-italic.min.css.gz
+2025/09/14 02:02:27 sri /tmp/work/latin-ext-italic.css -> /output/latin-ext-italic.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext-italic.css.br /tmp/work/latin-ext-italic.css
+2025/09/14 02:02:27 br /tmp/work/latin-ext-italic.css -> /output/latin-ext-italic.css.br
+2025/09/14 02:02:27 gz /tmp/work/latin-ext-italic.css -> /output/latin-ext-italic.css.gz
+2025/09/14 02:02:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/old-italic.min.css /tmp/work/old-italic.css]
+2025/09/14 02:02:27 sri /tmp/work/latin-ext.min.css -> /output/latin-ext.min.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext.min.css.br /tmp/work/latin-ext.min.css
+2025/09/14 02:02:27 br /tmp/work/latin-ext.min.css -> /output/latin-ext.min.css.br
+2025/09/14 02:02:27 gz /tmp/work/latin-ext.min.css -> /output/latin-ext.min.css.gz
+2025/09/14 02:02:27 sri /tmp/work/latin-ext.css -> /output/latin-ext.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-ext.css.br /tmp/work/latin-ext.css
+2025/09/14 02:02:27 br /tmp/work/latin-ext.css -> /output/latin-ext.css.br
+2025/09/14 02:02:27 gz /tmp/work/latin-ext.css -> /output/latin-ext.css.gz
+2025/09/14 02:02:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/runic-400-italic.min.css /tmp/work/runic-400-italic.css]
+2025/09/14 02:02:27 sri /tmp/work/latin-italic.min.css -> /output/latin-italic.min.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-italic.min.css.br /tmp/work/latin-italic.min.css
+2025/09/14 02:02:27 br /tmp/work/latin-italic.min.css -> /output/latin-italic.min.css.br
+2025/09/14 02:02:27 gz /tmp/work/latin-italic.min.css -> /output/latin-italic.min.css.gz
+2025/09/14 02:02:27 sri /tmp/work/latin-italic.css -> /output/latin-italic.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin-italic.css.br /tmp/work/latin-italic.css
+2025/09/14 02:02:27 sri /tmp/work/latin.min.css -> /output/latin.min.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin.min.css.br /tmp/work/latin.min.css
+2025/09/14 02:02:27 br /tmp/work/latin-italic.css -> /output/latin-italic.css.br
+2025/09/14 02:02:27 br /tmp/work/latin.min.css -> /output/latin.min.css.br
+2025/09/14 02:02:27 gz /tmp/work/latin-italic.css -> /output/latin-italic.css.gz
+2025/09/14 02:02:27 gz /tmp/work/latin.min.css -> /output/latin.min.css.gz
+2025/09/14 02:02:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/runic-400.min.css /tmp/work/runic-400.css]
+2025/09/14 02:02:27 sri /tmp/work/latin.css -> /output/latin.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/latin.css.br /tmp/work/latin.css
+2025/09/14 02:02:27 sri /tmp/work/old-italic-400-italic.min.css -> /output/old-italic-400-italic.min.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/old-italic-400-italic.min.css.br /tmp/work/old-italic-400-italic.min.css
+2025/09/14 02:02:27 br /tmp/work/old-italic-400-italic.min.css -> /output/old-italic-400-italic.min.css.br
+2025/09/14 02:02:27 br /tmp/work/latin.css -> /output/latin.css.br
+2025/09/14 02:02:27 gz /tmp/work/latin.css -> /output/latin.css.gz
+2025/09/14 02:02:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/runic-700.min.css /tmp/work/runic-700.css]
+2025/09/14 02:02:27 gz /tmp/work/old-italic-400-italic.min.css -> /output/old-italic-400-italic.min.css.gz
+2025/09/14 02:02:27 sri /tmp/work/old-italic-400-italic.css -> /output/old-italic-400-italic.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/old-italic-400-italic.css.br /tmp/work/old-italic-400-italic.css
+2025/09/14 02:02:27 br /tmp/work/old-italic-400-italic.css -> /output/old-italic-400-italic.css.br
+2025/09/14 02:02:27 gz /tmp/work/old-italic-400-italic.css -> /output/old-italic-400-italic.css.gz
+2025/09/14 02:02:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/runic-italic.min.css /tmp/work/runic-italic.css]
+2025/09/14 02:02:27 sri /tmp/work/old-italic-400.min.css -> /output/old-italic-400.min.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/old-italic-400.min.css.br /tmp/work/old-italic-400.min.css
+2025/09/14 02:02:27 br /tmp/work/old-italic-400.min.css -> /output/old-italic-400.min.css.br
+2025/09/14 02:02:27 sri /tmp/work/old-italic-700.min.css -> /output/old-italic-700.min.css.sri
+2025/09/14 02:02:27 gz /tmp/work/old-italic-400.min.css -> /output/old-italic-400.min.css.gz
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/old-italic-700.min.css.br /tmp/work/old-italic-700.min.css
+2025/09/14 02:02:27 sri /tmp/work/old-italic-400.css -> /output/old-italic-400.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/old-italic-400.css.br /tmp/work/old-italic-400.css
+2025/09/14 02:02:27 br /tmp/work/old-italic-700.min.css -> /output/old-italic-700.min.css.br
+2025/09/14 02:02:27 gz /tmp/work/old-italic-700.min.css -> /output/old-italic-700.min.css.gz
+2025/09/14 02:02:27 sri /tmp/work/old-italic-700.css -> /output/old-italic-700.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/old-italic-700.css.br /tmp/work/old-italic-700.css
+2025/09/14 02:02:27 br /tmp/work/old-italic-400.css -> /output/old-italic-400.css.br
+2025/09/14 02:02:27 gz /tmp/work/old-italic-400.css -> /output/old-italic-400.css.gz
+2025/09/14 02:02:27 compress: run /node_modules/clean-css-cli/bin/cleancss (3.3.10) [--compatibility --s0 -o /tmp/work/runic.min.css /tmp/work/runic.css]
+2025/09/14 02:02:27 br /tmp/work/old-italic-700.css -> /output/old-italic-700.css.br
+2025/09/14 02:02:27 sri /tmp/work/old-italic-italic.min.css -> /output/old-italic-italic.min.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/old-italic-italic.min.css.br /tmp/work/old-italic-italic.min.css
+2025/09/14 02:02:27 gz /tmp/work/old-italic-700.css -> /output/old-italic-700.css.gz
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/cardo-gothic-400-italic.woff.br /tmp/work/files/cardo-gothic-400-italic.woff
+2025/09/14 02:02:27 br /tmp/work/old-italic-italic.min.css -> /output/old-italic-italic.min.css.br
+2025/09/14 02:02:27 gz /tmp/work/old-italic-italic.min.css -> /output/old-italic-italic.min.css.gz
+2025/09/14 02:02:27 sri /tmp/work/old-italic-italic.css -> /output/old-italic-italic.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/old-italic-italic.css.br /tmp/work/old-italic-italic.css
+2025/09/14 02:02:27 br /tmp/work/files/cardo-gothic-400-italic.woff -> /output/files/cardo-gothic-400-italic.woff.br
+2025/09/14 02:02:27 br /tmp/work/old-italic-italic.css -> /output/old-italic-italic.css.br
+2025/09/14 02:02:27 gz /tmp/work/old-italic-italic.css -> /output/old-italic-italic.css.gz
+2025/09/14 02:02:27 gz /tmp/work/files/cardo-gothic-400-italic.woff -> /output/files/cardo-gothic-400-italic.woff.gz
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/cardo-gothic-400-normal.woff.br /tmp/work/files/cardo-gothic-400-normal.woff
+2025/09/14 02:02:27 sri /tmp/work/old-italic.min.css -> /output/old-italic.min.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/old-italic.min.css.br /tmp/work/old-italic.min.css
+2025/09/14 02:02:27 copy /tmp/work/files/cardo-gothic-400-italic.woff2 -> /output/files/cardo-gothic-400-italic.woff2
+2025/09/14 02:02:27 copy /tmp/work/files/cardo-gothic-400-normal.woff2 -> /output/files/cardo-gothic-400-normal.woff2
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/cardo-gothic-700-normal.woff.br /tmp/work/files/cardo-gothic-700-normal.woff
+2025/09/14 02:02:27 br /tmp/work/old-italic.min.css -> /output/old-italic.min.css.br
+2025/09/14 02:02:27 gz /tmp/work/old-italic.min.css -> /output/old-italic.min.css.gz
+2025/09/14 02:02:27 sri /tmp/work/old-italic.css -> /output/old-italic.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/old-italic.css.br /tmp/work/old-italic.css
+2025/09/14 02:02:27 br /tmp/work/files/cardo-gothic-400-normal.woff -> /output/files/cardo-gothic-400-normal.woff.br
+2025/09/14 02:02:27 gz /tmp/work/files/cardo-gothic-400-normal.woff -> /output/files/cardo-gothic-400-normal.woff.gz
+2025/09/14 02:02:27 br /tmp/work/old-italic.css -> /output/old-italic.css.br
+2025/09/14 02:02:27 gz /tmp/work/old-italic.css -> /output/old-italic.css.gz
+2025/09/14 02:02:27 copy /tmp/work/files/cardo-gothic-700-normal.woff2 -> /output/files/cardo-gothic-700-normal.woff2
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/cardo-greek-400-italic.woff.br /tmp/work/files/cardo-greek-400-italic.woff
+2025/09/14 02:02:27 copy /tmp/work/files/cardo-greek-400-italic.woff2 -> /output/files/cardo-greek-400-italic.woff2
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/cardo-greek-400-normal.woff.br /tmp/work/files/cardo-greek-400-normal.woff
+2025/09/14 02:02:27 br /tmp/work/files/cardo-gothic-700-normal.woff -> /output/files/cardo-gothic-700-normal.woff.br
+2025/09/14 02:02:27 gz /tmp/work/files/cardo-gothic-700-normal.woff -> /output/files/cardo-gothic-700-normal.woff.gz
+2025/09/14 02:02:27 copy /tmp/work/files/cardo-greek-400-normal.woff2 -> /output/files/cardo-greek-400-normal.woff2
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/cardo-greek-700-normal.woff.br /tmp/work/files/cardo-greek-700-normal.woff
+2025/09/14 02:02:27 sri /tmp/work/runic-400-italic.min.css -> /output/runic-400-italic.min.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/runic-400-italic.min.css.br /tmp/work/runic-400-italic.min.css
+2025/09/14 02:02:27 br /tmp/work/runic-400-italic.min.css -> /output/runic-400-italic.min.css.br
+2025/09/14 02:02:27 gz /tmp/work/runic-400-italic.min.css -> /output/runic-400-italic.min.css.gz
+2025/09/14 02:02:27 sri /tmp/work/runic-400-italic.css -> /output/runic-400-italic.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/runic-400-italic.css.br /tmp/work/runic-400-italic.css
+2025/09/14 02:02:27 br /tmp/work/runic-400-italic.css -> /output/runic-400-italic.css.br
+2025/09/14 02:02:27 gz /tmp/work/runic-400-italic.css -> /output/runic-400-italic.css.gz
+2025/09/14 02:02:27 copy /tmp/work/files/cardo-greek-700-normal.woff2 -> /output/files/cardo-greek-700-normal.woff2
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/cardo-greek-ext-400-italic.woff.br /tmp/work/files/cardo-greek-ext-400-italic.woff
+2025/09/14 02:02:27 br /tmp/work/files/cardo-greek-400-normal.woff -> /output/files/cardo-greek-400-normal.woff.br
+2025/09/14 02:02:27 gz /tmp/work/files/cardo-greek-400-normal.woff -> /output/files/cardo-greek-400-normal.woff.gz
+2025/09/14 02:02:27 br /tmp/work/files/cardo-greek-700-normal.woff -> /output/files/cardo-greek-700-normal.woff.br
+2025/09/14 02:02:27 gz /tmp/work/files/cardo-greek-700-normal.woff -> /output/files/cardo-greek-700-normal.woff.gz
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/cardo-greek-ext-400-normal.woff.br /tmp/work/files/cardo-greek-ext-400-normal.woff
+2025/09/14 02:02:27 copy /tmp/work/files/cardo-greek-ext-400-italic.woff2 -> /output/files/cardo-greek-ext-400-italic.woff2
+2025/09/14 02:02:27 copy /tmp/work/files/cardo-greek-ext-400-normal.woff2 -> /output/files/cardo-greek-ext-400-normal.woff2
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/cardo-greek-ext-700-normal.woff.br /tmp/work/files/cardo-greek-ext-700-normal.woff
+2025/09/14 02:02:27 br /tmp/work/files/cardo-greek-400-italic.woff -> /output/files/cardo-greek-400-italic.woff.br
+2025/09/14 02:02:27 gz /tmp/work/files/cardo-greek-400-italic.woff -> /output/files/cardo-greek-400-italic.woff.gz
+2025/09/14 02:02:27 copy /tmp/work/files/cardo-greek-ext-700-normal.woff2 -> /output/files/cardo-greek-ext-700-normal.woff2
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/cardo-hebrew-400-italic.woff.br /tmp/work/files/cardo-hebrew-400-italic.woff
+2025/09/14 02:02:27 br /tmp/work/files/cardo-greek-ext-400-italic.woff -> /output/files/cardo-greek-ext-400-italic.woff.br
+2025/09/14 02:02:27 gz /tmp/work/files/cardo-greek-ext-400-italic.woff -> /output/files/cardo-greek-ext-400-italic.woff.gz
+2025/09/14 02:02:27 copy /tmp/work/files/cardo-hebrew-400-italic.woff2 -> /output/files/cardo-hebrew-400-italic.woff2
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/cardo-hebrew-400-normal.woff.br /tmp/work/files/cardo-hebrew-400-normal.woff
+2025/09/14 02:02:27 br /tmp/work/files/cardo-greek-ext-400-normal.woff -> /output/files/cardo-greek-ext-400-normal.woff.br
+2025/09/14 02:02:27 gz /tmp/work/files/cardo-greek-ext-400-normal.woff -> /output/files/cardo-greek-ext-400-normal.woff.gz
+2025/09/14 02:02:27 copy /tmp/work/files/cardo-hebrew-400-normal.woff2 -> /output/files/cardo-hebrew-400-normal.woff2
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/cardo-hebrew-700-normal.woff.br /tmp/work/files/cardo-hebrew-700-normal.woff
+2025/09/14 02:02:27 br /tmp/work/files/cardo-greek-ext-700-normal.woff -> /output/files/cardo-greek-ext-700-normal.woff.br
+2025/09/14 02:02:27 gz /tmp/work/files/cardo-greek-ext-700-normal.woff -> /output/files/cardo-greek-ext-700-normal.woff.gz
+2025/09/14 02:02:27 copy /tmp/work/files/cardo-hebrew-700-normal.woff2 -> /output/files/cardo-hebrew-700-normal.woff2
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/cardo-latin-400-italic.woff.br /tmp/work/files/cardo-latin-400-italic.woff
+2025/09/14 02:02:27 br /tmp/work/files/cardo-hebrew-400-italic.woff -> /output/files/cardo-hebrew-400-italic.woff.br
+2025/09/14 02:02:27 gz /tmp/work/files/cardo-hebrew-400-italic.woff -> /output/files/cardo-hebrew-400-italic.woff.gz
+2025/09/14 02:02:27 copy /tmp/work/files/cardo-latin-400-italic.woff2 -> /output/files/cardo-latin-400-italic.woff2
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/cardo-latin-400-normal.woff.br /tmp/work/files/cardo-latin-400-normal.woff
+2025/09/14 02:02:27 br /tmp/work/files/cardo-hebrew-400-normal.woff -> /output/files/cardo-hebrew-400-normal.woff.br
+2025/09/14 02:02:27 gz /tmp/work/files/cardo-hebrew-400-normal.woff -> /output/files/cardo-hebrew-400-normal.woff.gz
+2025/09/14 02:02:27 copy /tmp/work/files/cardo-latin-400-normal.woff2 -> /output/files/cardo-latin-400-normal.woff2
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/cardo-latin-700-normal.woff.br /tmp/work/files/cardo-latin-700-normal.woff
+2025/09/14 02:02:27 br /tmp/work/files/cardo-hebrew-700-normal.woff -> /output/files/cardo-hebrew-700-normal.woff.br
+2025/09/14 02:02:27 gz /tmp/work/files/cardo-hebrew-700-normal.woff -> /output/files/cardo-hebrew-700-normal.woff.gz
+2025/09/14 02:02:27 copy /tmp/work/files/cardo-latin-700-normal.woff2 -> /output/files/cardo-latin-700-normal.woff2
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/cardo-latin-ext-400-italic.woff.br /tmp/work/files/cardo-latin-ext-400-italic.woff
+2025/09/14 02:02:27 sri /tmp/work/runic-400.min.css -> /output/runic-400.min.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/runic-400.min.css.br /tmp/work/runic-400.min.css
+2025/09/14 02:02:27 br /tmp/work/runic-400.min.css -> /output/runic-400.min.css.br
+2025/09/14 02:02:27 gz /tmp/work/runic-400.min.css -> /output/runic-400.min.css.gz
+2025/09/14 02:02:27 sri /tmp/work/runic-400.css -> /output/runic-400.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/runic-400.css.br /tmp/work/runic-400.css
+2025/09/14 02:02:27 br /tmp/work/runic-400.css -> /output/runic-400.css.br
+2025/09/14 02:02:27 gz /tmp/work/runic-400.css -> /output/runic-400.css.gz
+2025/09/14 02:02:27 sri /tmp/work/runic-italic.min.css -> /output/runic-italic.min.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/runic-italic.min.css.br /tmp/work/runic-italic.min.css
+2025/09/14 02:02:27 copy /tmp/work/files/cardo-latin-ext-400-italic.woff2 -> /output/files/cardo-latin-ext-400-italic.woff2
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/cardo-latin-ext-400-normal.woff.br /tmp/work/files/cardo-latin-ext-400-normal.woff
+2025/09/14 02:02:27 sri /tmp/work/runic-700.min.css -> /output/runic-700.min.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/runic-700.min.css.br /tmp/work/runic-700.min.css
+2025/09/14 02:02:27 br /tmp/work/runic-700.min.css -> /output/runic-700.min.css.br
+2025/09/14 02:02:27 br /tmp/work/runic-italic.min.css -> /output/runic-italic.min.css.br
+2025/09/14 02:02:27 gz /tmp/work/runic-italic.min.css -> /output/runic-italic.min.css.gz
+2025/09/14 02:02:27 gz /tmp/work/runic-700.min.css -> /output/runic-700.min.css.gz
+2025/09/14 02:02:27 sri /tmp/work/runic-700.css -> /output/runic-700.css.sri
+2025/09/14 02:02:27 sri /tmp/work/runic-italic.css -> /output/runic-italic.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/runic-italic.css.br /tmp/work/runic-italic.css
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/runic-700.css.br /tmp/work/runic-700.css
+2025/09/14 02:02:27 br /tmp/work/runic-italic.css -> /output/runic-italic.css.br
+2025/09/14 02:02:27 br /tmp/work/runic-700.css -> /output/runic-700.css.br
+2025/09/14 02:02:27 gz /tmp/work/runic-700.css -> /output/runic-700.css.gz
+2025/09/14 02:02:27 gz /tmp/work/runic-italic.css -> /output/runic-italic.css.gz
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/cardo-latin-ext-700-normal.woff.br /tmp/work/files/cardo-latin-ext-700-normal.woff
+2025/09/14 02:02:27 copy /tmp/work/files/cardo-latin-ext-400-normal.woff2 -> /output/files/cardo-latin-ext-400-normal.woff2
+2025/09/14 02:02:27 copy /tmp/work/files/cardo-latin-ext-700-normal.woff2 -> /output/files/cardo-latin-ext-700-normal.woff2
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/cardo-old-italic-400-italic.woff.br /tmp/work/files/cardo-old-italic-400-italic.woff
+2025/09/14 02:02:27 br /tmp/work/files/cardo-old-italic-400-italic.woff -> /output/files/cardo-old-italic-400-italic.woff.br
+2025/09/14 02:02:27 gz /tmp/work/files/cardo-old-italic-400-italic.woff -> /output/files/cardo-old-italic-400-italic.woff.gz
+2025/09/14 02:02:27 sri /tmp/work/runic.min.css -> /output/runic.min.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/runic.min.css.br /tmp/work/runic.min.css
+2025/09/14 02:02:27 copy /tmp/work/files/cardo-old-italic-400-italic.woff2 -> /output/files/cardo-old-italic-400-italic.woff2
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/cardo-old-italic-400-normal.woff.br /tmp/work/files/cardo-old-italic-400-normal.woff
+2025/09/14 02:02:27 br /tmp/work/runic.min.css -> /output/runic.min.css.br
+2025/09/14 02:02:27 gz /tmp/work/runic.min.css -> /output/runic.min.css.gz
+2025/09/14 02:02:27 sri /tmp/work/runic.css -> /output/runic.css.sri
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/runic.css.br /tmp/work/runic.css
+2025/09/14 02:02:27 br /tmp/work/runic.css -> /output/runic.css.br
+2025/09/14 02:02:27 gz /tmp/work/runic.css -> /output/runic.css.gz
+2025/09/14 02:02:27 copy /tmp/work/files/cardo-old-italic-400-normal.woff2 -> /output/files/cardo-old-italic-400-normal.woff2
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/cardo-old-italic-700-normal.woff.br /tmp/work/files/cardo-old-italic-700-normal.woff
+2025/09/14 02:02:27 br /tmp/work/files/cardo-old-italic-400-normal.woff -> /output/files/cardo-old-italic-400-normal.woff.br
+2025/09/14 02:02:27 gz /tmp/work/files/cardo-old-italic-400-normal.woff -> /output/files/cardo-old-italic-400-normal.woff.gz
+2025/09/14 02:02:27 br /tmp/work/files/cardo-latin-400-italic.woff -> /output/files/cardo-latin-400-italic.woff.br
+2025/09/14 02:02:27 copy /tmp/work/files/cardo-old-italic-700-normal.woff2 -> /output/files/cardo-old-italic-700-normal.woff2
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/cardo-runic-400-italic.woff.br /tmp/work/files/cardo-runic-400-italic.woff
+2025/09/14 02:02:27 gz /tmp/work/files/cardo-latin-400-italic.woff -> /output/files/cardo-latin-400-italic.woff.gz
+2025/09/14 02:02:27 copy /tmp/work/files/cardo-runic-400-italic.woff2 -> /output/files/cardo-runic-400-italic.woff2
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/cardo-runic-400-normal.woff.br /tmp/work/files/cardo-runic-400-normal.woff
+2025/09/14 02:02:27 br /tmp/work/files/cardo-old-italic-700-normal.woff -> /output/files/cardo-old-italic-700-normal.woff.br
+2025/09/14 02:02:27 gz /tmp/work/files/cardo-old-italic-700-normal.woff -> /output/files/cardo-old-italic-700-normal.woff.gz
+2025/09/14 02:02:27 copy /tmp/work/files/cardo-runic-400-normal.woff2 -> /output/files/cardo-runic-400-normal.woff2
+2025/09/14 02:02:27 algorithm: run /usr/bin/brotli --quality=11 --output=/output/files/cardo-runic-700-normal.woff.br /tmp/work/files/cardo-runic-700-normal.woff
+2025/09/14 02:02:27 br /tmp/work/files/cardo-runic-400-italic.woff -> /output/files/cardo-runic-400-italic.woff.br
+2025/09/14 02:02:27 br /tmp/work/files/cardo-latin-400-normal.woff -> /output/files/cardo-latin-400-normal.woff.br
+2025/09/14 02:02:27 gz /tmp/work/files/cardo-runic-400-italic.woff -> /output/files/cardo-runic-400-italic.woff.gz
+2025/09/14 02:02:27 br /tmp/work/files/cardo-runic-400-normal.woff -> /output/files/cardo-runic-400-normal.woff.br
+2025/09/14 02:02:27 gz /tmp/work/files/cardo-latin-400-normal.woff -> /output/files/cardo-latin-400-normal.woff.gz
+2025/09/14 02:02:27 gz /tmp/work/files/cardo-runic-400-normal.woff -> /output/files/cardo-runic-400-normal.woff.gz
+2025/09/14 02:02:27 copy /tmp/work/files/cardo-runic-700-normal.woff2 -> /output/files/cardo-runic-700-normal.woff2
+2025/09/14 02:02:27 br /tmp/work/files/cardo-runic-700-normal.woff -> /output/files/cardo-runic-700-normal.woff.br
+2025/09/14 02:02:27 gz /tmp/work/files/cardo-runic-700-normal.woff -> /output/files/cardo-runic-700-normal.woff.gz
+2025/09/14 02:02:27 br /tmp/work/files/cardo-latin-700-normal.woff -> /output/files/cardo-latin-700-normal.woff.br
+2025/09/14 02:02:27 gz /tmp/work/files/cardo-latin-700-normal.woff -> /output/files/cardo-latin-700-normal.woff.gz
+2025/09/14 02:02:28 br /tmp/work/files/cardo-latin-ext-700-normal.woff -> /output/files/cardo-latin-ext-700-normal.woff.br
+2025/09/14 02:02:28 gz /tmp/work/files/cardo-latin-ext-700-normal.woff -> /output/files/cardo-latin-ext-700-normal.woff.gz
+2025/09/14 02:02:28 br /tmp/work/files/cardo-latin-ext-400-italic.woff -> /output/files/cardo-latin-ext-400-italic.woff.br
+2025/09/14 02:02:28 gz /tmp/work/files/cardo-latin-ext-400-italic.woff -> /output/files/cardo-latin-ext-400-italic.woff.gz
+2025/09/14 02:02:28 br /tmp/work/files/cardo-latin-ext-400-normal.woff -> /output/files/cardo-latin-ext-400-normal.woff.br
+2025/09/14 02:02:28 gz /tmp/work/files/cardo-latin-ext-400-normal.woff -> /output/files/cardo-latin-ext-400-normal.woff.gz
+2025/09/14 02:02:28 processed fontsource-cardo
